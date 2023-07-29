@@ -1,0 +1,1142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="village_woman_crusader"
+                default_group="Infantry"
+                is_female="true"
+                level="1"
+                name="{=E11CRt1}Outremer Peasant"
+                occupation="Villager"
+                culture="Culture.crusader"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_crusader" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_dress_a" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_dress_c" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_dress_b" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_female_civil_a" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_female_civil_b" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_dress_a" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_dress_c" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_dress_b" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_female_civil_a" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_female_civil_b" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_dress_a" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_dress_c" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_dress_b" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_female_civil_a" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cloak" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.battania_female_civil_b" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body"
+                   id="Item.battania_female_civil_b" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cloak" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan-->
+  
+  <NPCCharacter id="caravan_master_crusader"
+                default_group="Infantry"
+                level="26"
+                name="{=E11CRt2}Outremer Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_crusader" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.battania_sword_2_t3" />
+        <equipment slot="Head"
+                   id="Item.ridged_northernhelm" />
+        <equipment slot="Body"
+                   id="Item.ranger_mail" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_furr" />
+        <equipment slot="Leg"
+                   id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.battania_sword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.battania_mercenary_armor" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cape" />
+        <equipment slot="Leg"
+                   id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.battania_sword_2_t3" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+        <equipment slot="Body"
+                   id="Item.ranger_mail" />
+        <equipment slot="Cape"
+                   id="Item.bearskin" />
+        <equipment slot="Leg"
+                   id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.battania_sword_2_t3" />
+        <equipment slot="Head"
+                   id="Item.ridged_northernhelm" />
+        <equipment slot="Body"
+                   id="Item.ranger_mail" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_furr" />
+        <equipment slot="Leg"
+                   id="Item.wrapped_leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--armed trader-->
+  
+  <NPCCharacter id="armed_trader_crusader"
+                default_group="Ranged"
+                level="16"
+                name="{=E11CRt3}Outremer Armed Trader"
+                occupation="CaravanGuard"
+                culture="Culture.crusader"
+                is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_crusader" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="70" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.glen_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.battania_axe_1_t2" />
+        <equipment slot="Body"
+                   id="Item.battania_civil_a" />
+        <equipment slot="Leg"
+                   id="Item.battania_fur_boots" />
+        <equipment slot="Cape"
+                   id="Item.battania_woodland_cloak" />
+        <equipment slot="Head"
+                   id="Item.tall_helmet" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.glen_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.range_arrows" />
+        <equipment slot="Item2"
+                   id="Item.battania_axe_1_t2" />
+        <equipment slot="Body"
+                   id="Item.battania_civil_b" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.glen_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.range_arrows" />
+        <equipment slot="Item2"
+                   id="Item.battania_axe_1_t2" />
+        <equipment slot="Body"
+                   id="Item.battania_woodland_outfit" />
+        <equipment slot="Leg"
+                   id="Item.highland_boots" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cloak" />
+        <equipment slot="Head"
+                   id="Item.tall_helmet" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.glen_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.range_arrows" />
+        <equipment slot="Item2"
+                   id="Item.battania_axe_1_t2" />
+        <equipment slot="Body"
+                   id="Item.battania_woodland_outfit" />
+        <equipment slot="Leg"
+                   id="Item.highland_boots" />
+        <equipment slot="Cape"
+                   id="Item.battania_civil_cloak" />
+        <equipment slot="Head"
+                   id="Item.tall_helmet" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.glen_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.range_arrows" />
+        <equipment slot="Item2"
+                   id="Item.battania_axe_1_t2" />
+        <equipment slot="Body"
+                   id="Item.battania_civil_b" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan guard-->
+  
+   <NPCCharacter id="caravan_guard_crusader"
+                default_group="Cavalry"
+                level="21"
+                name="{=E11CRt4}Outremer Caravan Guard"
+                upgrade_requires="ItemCategory.horse"
+                occupation="CaravanGuard"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_crusader" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="110" />
+      <skill id="OneHanded"
+             value="110" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_spear_2_t3" />
+        <equipment slot="Item2"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Item3"
+                   id="Item.battania_targe_b" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+        <equipment slot="Body"
+                   id="Item.crusader_chainmail_armor_b" />
+        <equipment slot="Leg"
+                   id="Item.battania_fur_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.battania_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.triangluar_spear_t3" />
+        <equipment slot="Item2"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Item3"
+                   id="Item.battania_targe_b" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+        <equipment slot="Body"
+                   id="Item.crusader_chainmail_armor_a" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_strap_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_spear_2_t3" />
+        <equipment slot="Item2"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Item3"
+                   id="Item.battania_targe_b" />
+        <equipment slot="Head"
+                   id="Item.ridged_northernhelm" />
+        <equipment slot="Body"
+                   id="Item.crusader_chainmail_armor_c" />
+        <equipment slot="Leg"
+                   id="Item.highland_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.battania_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_spear_2_t3" />
+        <equipment slot="Item2"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Item3"
+                   id="Item.battania_targe_b" />
+        <equipment slot="Head"
+                   id="Item.ridged_northernhelm" />
+        <equipment slot="Body"
+                   id="Item.crusader_chainmail_armor_d" />
+        <equipment slot="Leg"
+                   id="Item.highland_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.battania_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_spear_2_t3" />
+        <equipment slot="Item2"
+                   id="Item.woodland_axe_t3" />
+        <equipment slot="Item3"
+                   id="Item.battania_targe_b" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+        <equipment slot="Body"
+                   id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_strap_cloak" />
+      </EquipmentRoster>
+      <equipment slot="Horse"
+                 id="Item.battania_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.battania_horse_harness" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="veteran_caravan_guard_crusader"
+                default_group="Cavalry"
+                level="26"
+                name="{=E11CRt5}Outremer Veteran Caravan Guard"
+                occupation="CaravanGuard"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_crusader" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_spear_3_t4" />
+        <equipment slot="Item2"
+                   id="Item.battania_sword_4_t4" />
+        <equipment slot="Item3"
+                   id="Item.battania_shield_targe_a" />
+        <equipment slot="Head"
+                   id="Item.ridged_northernhelm" />
+        <equipment slot="Body"
+                   id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg"
+                   id="Item.battania_fur_boots" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_strap_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_spear_3_t4" />
+        <equipment slot="Item2"
+                   id="Item.battania_sword_4_t4" />
+        <equipment slot="Item3"
+                   id="Item.battania_shield_targe_a" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+        <equipment slot="Body"
+                   id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.battania_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_spear_3_t4" />
+        <equipment slot="Item2"
+                   id="Item.battania_sword_4_t4" />
+        <equipment slot="Item3"
+                   id="Item.battania_shield_targe_a" />
+        <equipment slot="Head"
+                   id="Item.ridged_northernhelm" />
+        <equipment slot="Body"
+                   id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg"
+                   id="Item.highland_boots" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_strap_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_spear_3_t4" />
+        <equipment slot="Item2"
+                   id="Item.battania_sword_4_t4" />
+        <equipment slot="Item3"
+                   id="Item.battania_shield_targe_a" />
+        <equipment slot="Head"
+                   id="Item.ridged_northernhelm" />
+        <equipment slot="Body"
+                   id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg"
+                   id="Item.highland_boots" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_strap_cloak" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.northern_spear_3_t4" />
+        <equipment slot="Item2"
+                   id="Item.battania_sword_4_t4" />
+        <equipment slot="Item3"
+                   id="Item.battania_shield_targe_a" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+        <equipment slot="Body"
+                   id="Item.battania_woodland_chainmail" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.battania_cloak" />
+      </EquipmentRoster>
+      <equipment slot="Horse"
+                 id="Item.battania_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.battania_horse_harness" />
+    </Equipments>
+  </NPCCharacter>
+
+ <NPCCharacter id="crusader_pilgrim"
+                default_group="Infantry"
+                level="6"
+                name="{=E11CRt6}Outremer Pilgrim"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.crusader_spearman" />
+	  <upgrade_target id="NPCCharacter.crusader_crossbowman" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bo_staff"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Head" id="Item.aserai_civil_c_head"/>
+				<equipment slot="Body" id="Item.monk_robe"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="crusader_spearman"
+                default_group="Infantry"
+                level="11"
+                name="{=E11CRt7}Outremer Spearman"
+                occupation="Soldier"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="15" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.crusader_brotherhood_spearman" />
+	  <upgrade_target id="NPCCharacter.crusader_light_cavalry" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.steel_mace_t3"/>
+				<equipment slot="Head" id="Item.imperial_padded_coif"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+ 
+ <NPCCharacter id="crusader_brotherhood_spearman"
+                default_group="Infantry"
+                level="16"
+                name="{=E11CRt8}Outremer Brotherhood Spearman"
+                occupation="Soldier"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="30" />
+    <skill id="Crossbow"
+           value="30" />
+    <skill id="Throwing"
+           value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.crusader_sergeant_spearman" />
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.steel_mace_t3"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_padded_cloth"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.gambeson_b"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="crusader_sergeant_spearman"
+                default_group="Infantry"
+                level="21"
+                name="{=E11CRt9}Outremer Sergeant Spearman"
+                occupation="Soldier"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="100" />
+    <skill id="Polearm"
+           value="100" />
+    <skill id="Bow"
+           value="45" />
+    <skill id="Crossbow"
+           value="45" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Body" id="Item.white_coat_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="crusader_crossbowman"
+                default_group="Ranged"
+                level="11"
+                name="{=E11CRt10}Outremer Crossbowman"
+                occupation="Soldier"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="15" />
+    <skill id="Polearm"
+           value="20" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="40" />
+    <skill id="Throwing"
+           value="40" />
+    </skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.crusader_brotherhood_crossbowman" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_a"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.bolt_a"/>
+				<equipment slot="Item3" id="Item.bolt_a"/>
+				<equipment slot="Head" id="Item.padded_leather_cape"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="crusader_brotherhood_crossbowman"
+                default_group="Ranged"
+                level="16"
+                name="{=E11CRt11}Outremer Brotherhood Crossbowman"
+                occupation="Soldier"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="70" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="30" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.crusader_master_crossbowman" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item2" id="Item.bolt_b"/>
+				<equipment slot="Item3" id="Item.bolt_b"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_padded_cloth"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.gambeson_b"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="crusader_master_crossbowman"
+                default_group="Ranged"
+                level="21"
+                name="{=E11CRt12}Outremer Master Crossbowman"
+                occupation="Soldier"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+             value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="60" />
+    <skill id="Polearm"
+           value="60" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_c"/>
+				<equipment slot="Item1" id="Item.vlandia_noble_sword_4_t5"/>
+				<equipment slot="Item2" id="Item.bolt_c"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Body" id="Item.white_coat_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="crusader_light_cavalry"
+                default_group="Cavalry"
+                level="16"
+                name="{=E11CRt13}Outremer Turcopole Light Cavalry"
+                occupation="Soldier"
+				upgrade_requires="ItemCategory.horse"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="30" />
+    <skill id="Crossbow"
+           value="30" />
+    <skill id="Throwing"
+           value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.crusader_horse_archer" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+				<equipment slot="Item1" id="Item.tribal_steppe_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.short_padded_robe"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Horse" id="Item.khuzait_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="crusader_horse_archer"
+                default_group="HorseArcher"
+                level="21"
+                name="{=E11CRt14}Outremer Turcopole Horse Archer"
+                occupation="Soldier"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+            value="45" />
+    <skill id="Riding"
+           value="110" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="110" />
+    <skill id="Bow"
+           value="150" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="15" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_c"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_c"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Cape" id="Item.bolted_leather_strips"/>
+				<equipment slot="Body" id="Item.belted_leather_cuirass"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.khuzait_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="crusader_knight"
+                default_group="Cavalry"
+                level="21"
+                name="{=E11CRt15}Outremer Hospitaller Knight"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="40" />
+    <skill id="Riding"
+           value="110" />
+    <skill id="OneHanded"
+           value="110" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="150" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="15" />
+    </skills>
+    <upgrade_targets>
+	      <upgrade_target id="NPCCharacter.crusader_hospitaller_gonfanonier" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_mace_2_t4"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.green_hood"/>
+				<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="crusader_hospitaller_gonfanonier"
+                default_group="Cavalry"
+                level="26"
+                name="{=E11CRt16}Outremer Hospitaller Gonfanonier"
+                occupation="Soldier"
+				upgrade_requires="ItemCategory.war_horse"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="80" />
+    <skill id="Riding"
+           value="130" />
+    <skill id="OneHanded"
+           value="130" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="160" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="20" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+	      <upgrade_target id="NPCCharacter.crusader_marshal" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_noble_sword_4_t5"/>
+				<equipment slot="Head" id="Item.segmented_skullcap_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.white_coat_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="crusader_marshal"
+                default_group="Cavalry"
+                level="31"
+                name="{=E11CRt17}Outremer Hospitaller Marshal"
+                occupation="Soldier"
+                culture="Culture.crusader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="60" />
+    <skill id="Riding"
+           value="200" />
+    <skill id="OneHanded"
+           value="200" />
+    <skill id="TwoHanded"
+           value="260" />
+    <skill id="Polearm"
+           value="260" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="25" />
+    <skill id="Throwing"
+           value="45" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_noble_sword_4_t5"/>
+				<equipment slot="Head" id="Item.segmented_skullcap_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b"/>
+				<equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>
