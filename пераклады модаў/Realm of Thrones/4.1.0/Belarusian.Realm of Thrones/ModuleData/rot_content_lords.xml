@@ -1,71 +1,633 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  	<!-- From ROT-Content/ROT_lords.xml file !!! -->
+   <!-- From ROT-Content/ROT_lords.xml file !!! -->
 
-    <NPCCharacter id="ROTuniqueleader_spc_brotherhood_2" 
-                name="{=ROTReikoLord001}Anguy" 
-                culture="Culture.river" >
-    </NPCCharacter>
+        <NPCCharacter id="ROTuniqueleader_spc_brotherhood_2" name="{=ROTReikoLord001}Anguy" voice="softspoken"  is_template="true" default_group="Ranged" is_hero="false" culture="Culture.river" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="27"
+							weight="0.3"
+							build="0.4"
+							key="000A7406C00010087C7664896756688575B3866254C69643C4B647398C95A0970097360309964D430000000000000000000000000000000000000000312C4004" />
+		</face>
+		<!--<Hero id="spc_brotherhood_of_woods_leader_2" faction="Faction.brotherhood_of_woods" clan="Clan.brotherhood_of_woods"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait id="Mercy" value="0" />
+			<Trait id="Generosity" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Commander" value="4" />
+			<Trait id="ArcherFIghtingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.lowland_yew_bow" />
+				<equipment slot="Item1"
+						   id="Item.barbed_arrows" />
+				<equipment slot="Item2"
+						   id="Item.barbed_arrows" />
+				<equipment slot="Item2"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.leather_and_iron_plate_armor" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+				<equipment slot="Gloves"
+						   id="Item.leather_gloves" />
+				<equipment slot="Cape"
+						   id="Item.green_hood" />
 
-    <NPCCharacter id="ROTuniqueleader_spc_wild_hares_0" 
-                name="{=ROTReikoLord002}Benfred Tallhart" 
-                culture="Culture.battania" >
-    </NPCCharacter>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+                           id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 
-    <NPCCharacter id="ROTuniqueleader_spc_brotherhood_0" 
-                name="{=ROTReikoLord003}Beric Dondarrion" 
-                culture="Culture.stormlands" >
-    </NPCCharacter>
+        <NPCCharacter id="ROTuniqueleader_spc_wild_hares_0" name="{=ROTReikoLord002}Benfred Tallhart" voice="ironic" age="32" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.battania" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="36"
+							weight="0.5"
+							build="0.5"
+							key="0005A00800FC261426C8567878885594449A7B899967764738586BE95AADC648007776030776ABAA000000000000000000000000000000000000000068EC9042" />
+		</face>
+		<!--<Hero id="spc_forest_people_leader_0" faction="Faction.forest_people" clan="Clan.forest_people"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.stark_sword" />
+				<equipment slot="Item1"
+						   id="Item.western_riders_kite_shield" />
+				<equipment slot="Item2"
+						   id="Item.vlandia_lance_2_t4" />
+				<equipment slot="Body"
+						   id="Item.stark_armor_4" />
+				<equipment slot="Leg"
+						   id="Item.stark_boots_2" />
 
-    <NPCCharacter id="ROTuniqueleader_spc_stone_crows_0" 
-            name="{=ROTReikoLord005}Dolf" 
-            culture="Culture.vale" >
-    </NPCCharacter>
+				<equipment slot="Gloves"
+						   id="Item.kg_gloves" />
+				<equipment slot="Horse"
+							   id="Item.t2_battania_horse" />
+				<equipment slot="HorseHarness"
+								   id="Item.halfchain_barding" />
 
-    <NPCCharacter id="ROTuniqueleader_spc_bright_banners_0" 
-                name="{=ROTReikoLord006}Grazdan zo Moqar" 
-                culture="Culture.ghiscari" >
-    </NPCCharacter>
+			</EquipmentRoster>
 
-    <NPCCharacter id="ROTuniqueleader_spc_long_lances_0" 
-                name="{=ROTReikoLord007}Gylo Rhegan" 
-                culture="Culture.empire" >
-    </NPCCharacter>
-    
-    <NPCCharacter id="ROTuniqueleader_spc_golden_company_0" 
-                name="{=ROTReikoLord008}Harry Strickland" 
-                culture="Culture.stormlands" >
-    </NPCCharacter>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 
-    <NPCCharacter id="ROTuniqueleader_spc_faith_militant_0" 
-                name="{=ROTReikoLord009}High Sparrow" 
-                culture="Culture.crownlands" >
-    </NPCCharacter>
 
-    <NPCCharacter id="ROTuniqueleader_spc_faith_militant_1" 
-                name="{=ROTReikoLord010}Septa Unella" 
-                culture="Culture.crownlands" >
-    </NPCCharacter>
+        <NPCCharacter id="ROTuniqueleader_spc_brotherhood_0" name="{=ROTReikoLord003}Beric Dondarrion" voice="softspoken" age="35" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.stormlands" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="35"
+							weight="0.5"
+							build="0.5"
+							key="000AB8055000138D7C76648F675A688E7577866254C69643C4B647398C95A0B70078760307314B88000000000000000000000000000000000000000030F47004" />
+		</face>
+		<!--<Hero id="spc_brotherhood_of_woods_leader_0" faction="Faction.brotherhood_of_woods" clan="Clan.brotherhood_of_woods"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait id="Mercy" value="0" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Commander" value="6" />
+			<Trait id="KnightFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+                           id="Item.vlandia_lance_2_t4" />
+				<equipment slot="Item1"
+						   id="Item.heavy_horsemans_kite_shield" />
 
-    <NPCCharacter id="ROTuniqueleader_spc_windblown_0" 
-                name="{=ROTReikoLord011}Tattered Prince" 
-                culture="Culture.pentoshi" >
-    </NPCCharacter>
+				<equipment slot="Item2"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.reach_armor" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+				<equipment slot="Gloves"
+						   id="Item.gauntlets" />
+				<equipment slot="Horse"
+                           id="Item.t2_vlandia_horse" />
+				<equipment slot="HorseHarness"
+						   id="Item.chain_barding" />
 
-    <NPCCharacter id="ROTuniqueleader_spc_brotherhood_1" 
-                name="{=ROTReikoLord012}Thoros of Myr" 
-                culture="Culture.myrish" >
-    </NPCCharacter>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+                           id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 
-    <NPCCharacter id="ROTuniqueleader_spc_moon_brothers_0" 
-                name="{=ROTReikoLord013}Ulf" 
-                culture="Culture.vale" >
-    </NPCCharacter>
+        <NPCCharacter id="ROTuniqueleader_spc_stone_crows_0" name="{=ROTReikoLord005}Dolf" voice="curt" age="36" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vale" occupation="Lord">
+	<face>
+		<BodyProperties version="4"
+						age="36"
+						weight="0.7"
+						build="0.8"
+						key="00028008000014D1A949646A9CC4E8783A42440204102106744192399A8D866B00BBA6030B87B9B500000000000000000000000000000000000000001F6C7005" />
+	</face>
+    <!--<Hero id="spc_skolderbrotva_leader_0" faction="Faction.skolderbrotva" clan="Clan.skolderbrotva"/>-->
+    <skills></skills>
+    <Traits>
+      <Trait id="Honor" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="-1" />
+      <Trait id="Commander" value="6" />
+      <Trait id="KnightFightingSkills" value="7" />
+    </Traits>
+	<Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0"
+					   id="Item.aserai_axe_1_t2" />
+			<equipment slot="Item1"
+					   id="Item.wildling_shield2" />
+			<equipment slot="Item2"
+					   id="Item.highland_throwing_axe_1_t2" />
+			<equipment slot="Item3"
+					   id="Item.northern_axe_t3" />
+			<equipment slot="Body"
+					   id="Item.crude_leather_armor" />
+			<equipment slot="Leg"
+					   id="Item.reinforced_suede_boots" />
 
-    <NPCCharacter id="ROTuniqueleader_spc_brave_companions_0" 
-                name="{=ROTReikoLord014}Vargo Hoat" 
-                culture="Culture.qohorik">
-    </NPCCharacter>
+			<equipment slot="Gloves"
+					   id="Item.steppe_leather_vambraces" />
+
+		</EquipmentRoster>
+
+		<EquipmentRoster civilian="true">
+			<equipment slot="Item0"
+					   id="Item.vlandia_sword_3_t4" />
+			<equipment slot="Body"
+					   id="Item.cloth_tunic" />
+			<equipment slot="Leg"
+					   id="Item.leather_cavalier_boots" />
+		</EquipmentRoster>
+	</Equipments>
+  </NPCCharacter>
+
+        <NPCCharacter id="ROTuniqueleader_spc_bright_banners_0" name="{=ROTReikoLord006}Grazdan zo Moqar" voice="ironic" age="36" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.ghiscari" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="36"
+							weight="0.5"
+							build="0.7"
+							key="0029B80D0000381B7C7664876753888A7577866254C69643C4B647398C95A037008B860308A749730000000000000000000000000000000000000000291C7002" />
+		</face>
+		<!--<Hero id="spc_forest_people_leader_0" faction="Faction.forest_people" clan="Clan.forest_people"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.empire_sword_4_t4" />
+				<equipment slot="Item1"
+						   id="Item.bound_desert_round_shield" />
+				<equipment slot="Item2"
+						   id="Item.northern_spear_4_t5" />
+				<equipment slot="Body"
+						   id="Item.veteran_mercenary_armor" />
+				<equipment slot="Leg"
+						   id="Item.wrapped_leather_boots" />
+				<equipment slot="Cape"
+						   id="Item.woven_leather_shoulders" />
+
+
+				<equipment slot="Gloves"
+						   id="Item.woven_leather_bracers" />
+				<equipment slot="Horse"
+                           id="Item.t2_empire_horse" />
+				<equipment slot="HorseHarness"
+						   id="Item.half_mail_and_plate_barding" />
+
+			</EquipmentRoster>
+
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+                           id="Item.empire_sword_4_t4" />
+				<equipment slot="Body"
+						   id="Item.steppe_armor" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+        <NPCCharacter id="ROTuniqueleader_spc_long_lances_0" name="{=ROTReikoLord007}Gylo Rhegan" voice="softspoken" age="39" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="36"
+							weight="0.5"
+							build="0.5"
+							key="0020B80D000036C97C76648E695388897577866254C69643C4B647398C95A0370097760309A74973000000000000000000000000000000000000000031348002" />
+		</face>
+		<!--<Hero id="spc_lakepike_leader_0" faction="Faction.lakepike" clan="Clan.lakepike"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="6" />
+			<Trait id="KnightFightingSkills" value="7" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.winds_fury_sword_t3" />
+				<equipment slot="Item1"
+						   id="Item.curved_round_shield" />
+				<equipment slot="Item2"
+						   id="Item.khuzait_lance_2_t4" />
+				<equipment slot="Body"
+						   id="Item.studded_leather_over_aketon" />
+				<equipment slot="Leg"
+						   id="Item.northern_plated_boots" />
+				<equipment slot="Cape"
+						   id="Item.imperial_lamellar_shoulders" />
+				<equipment slot="Gloves"
+						   id="Item.northern_brass_bracers" />
+				<equipment slot="Horse"
+                           id="Item.t2_empire_horse" />
+				<equipment slot="HorseHarness"
+						   id="Item.steppe_half_barding" />
+
+			</EquipmentRoster>
+
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+                           id="Item.empire_sword_4_t4" />
+				<equipment slot="Body"
+						   id="Item.steppe_armor" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+        <NPCCharacter id="ROTuniqueleader_spc_golden_company_0" name="{=ROTReikoLord008}Harry Strickland" voice="curt" age="36" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.stormlands" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="36"
+							weight="0.5"
+							build="0.5"
+							key="0002840D8000100E1976A48E57C26735537D876095101B75ECC3D75F8A84F6670077760307C9966400000000000000000000000000000000000000003EFC7002" />
+		</face>
+		<!--<Hero id="spc_legion_of_the_betrayed_leader_0" faction="Faction.legion_of_the_betrayed" clan="Clan.legion_of_the_betrayed"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait id="Valor" value="+1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="KnightFightingSkills" value="7" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.empire_sword_5_t4" />
+				<equipment slot="Item1"
+						   id="Item.stronger_reinforced_kite_shield" />
+				<equipment slot="Item2"
+						   id="Item.imperial_throwing_spear_1_t4" />
+				<equipment slot="Body"
+						   id="Item.empire_legion_b" />
+				<equipment slot="Leg"
+						   id="Item.lamellar_plate_boots" />
+
+				<equipment slot="Gloves"
+						   id="Item.lamellar_plate_gauntlets" />
+				<equipment slot="Cape"
+						   id="Item.pauldron_cape_a" />
+			<equipment slot="Horse"
+                           id="Item.t2_empire_horse" />
+				<equipment slot="HorseHarness"
+						   id="Item.half_scale_barding" />
+			</EquipmentRoster>
+
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+                           id="Item.empire_sword_4_t4" />
+				<equipment slot="Body"
+						   id="Item.steppe_armor" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+        <NPCCharacter id="ROTuniqueleader_spc_faith_militant_0" name="{=ROTReikoLord009}High Sparrow" voice="softspoken" age="60" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.crownlands" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="60"
+							weight="0.5"
+							build="0.5"
+							key="0002AC000000100DB976648E6774B835537D86629511323BDCB177278A84F667006436030648B495000000000000000000000000000000000000000046CC9004" />
+		</face>
+
+		<skills></skills>
+		<Traits>
+			<Trait id="Mercy" value="0" />
+			<Trait id="Generosity" value="2" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Commander" value="7" />
+			<Trait id="BalancedFightingSkills" value="3" />
+			<Trait id="KnightFightingSkills" value="3" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.vlandia_mace_3_t5" />
+				<equipment slot="Body"
+						   id="Item.monk_robe" />
+				<equipment slot="Leg"
+						   id="Item.ragged_boots" />
+
+			</EquipmentRoster>
+
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body"
+						   id="Item.monk_robe" />
+				<equipment slot="Leg"
+						   id="Item.ragged_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+        <NPCCharacter id="ROTuniqueleader_spc_faith_militant_1" name="{=ROTReikoLord010}Septa Unella" voice="softspoken"  is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.crownlands" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="39"
+							weight="0.8"
+							build="0.7"
+							key="0000E00800001005B9A6648A677FB83F537D86625511023BD10100278A84F66700ACB6030A80B4CB00000000000000000000000000000000000000003F4C1003" />
+		</face>
+
+		<skills></skills>
+		<Traits>
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Commander" value="5" />
+			<Trait id="BalancedFightingSkills" value="3" />
+			<Trait id="KnightFightingSkills" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.vlandia_mace_3_t5" />
+				<equipment slot="Body"
+						   id="Item.plain_dress" />
+				<equipment slot="Leg"
+						   id="Item.ladys_shoes" />
+				<equipment slot="Head"
+						   id="Item.head_scarf" />
+
+			</EquipmentRoster>
+
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body"
+						   id="Item.plain_dress" />
+				<equipment slot="Leg"
+						   id="Item.ladys_shoes" />
+				<equipment slot="Head"
+						   id="Item.head_scarf" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+        <NPCCharacter id="ROTuniqueleader_spc_windblown_0" name="{=ROTReikoLord011}Tattered Prince" voice="earnest" age="36" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.pentoshi" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="36"
+							weight="0.5"
+							build="0.5"
+							key="0023580D000008437C7664B36753A88A75748662746656139D76A7378298603700A776030AA7430400000000000000000000000000000000000000003B5C0004" />
+		</face>
+		<!--<Hero id="spc_ghilman_leader_0" faction="Faction.ghilman" clan="Clan.ghilman"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Commander" value="7" />
+			<Trait id="BalancedFightingSkills" value="3" />
+			<Trait id="KnightFightingSkills" value="7" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Item1"
+						   id="Item.western_riders_kite_shield" />
+				<equipment slot="Item2"
+						   id="Item.western_spear_4_t4" />
+				<equipment slot="Body"
+						   id="Item.imperial_mail_over_stripped_leather" />
+				<equipment slot="Leg"
+						   id="Item.plated_strip_boots" />
+
+				<equipment slot="Gloves"
+						   id="Item.reinforced_padded_mitten" />
+				<equipment slot="Horse"
+                           id="Item.t2_empire_horse" />
+				<equipment slot="HorseHarness"
+						   id="Item.half_mail_and_plate_barding" />
+
+			</EquipmentRoster>
+
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+                           id="Item.empire_sword_4_t4" />
+				<equipment slot="Body"
+						   id="Item.steppe_armor" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+        <NPCCharacter id="ROTuniqueleader_spc_brotherhood_1" name="{=ROTReikoLord012}Thoros of Myr" voice="softspoken"  is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.myrish" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="36"
+							weight="0.5"
+							build="0.5"
+							key="000A9805400013C27C7664896756688B7571866254C69643C4B647398C95A0970078760307314B88000000000000000000000000000000000000000030F42004" />
+		</face>
+		<!--<Hero id="spc_brotherhood_of_woods_leader_1" faction="Faction.brotherhood_of_woods" clan="Clan.brotherhood_of_woods"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait id="Mercy" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Commander" value="6" />
+			<Trait id="KnightFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+                           id="Item.vlandia_lance_2_t4" />
+				<equipment slot="Item1"
+						   id="Item.heavy_horsemans_kite_shield" />
+
+				<equipment slot="Item2"
+						   id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.reach_armor" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+				<equipment slot="Gloves"
+						   id="Item.gauntlets" />
+				<equipment slot="Horse"
+                           id="Item.t2_vlandia_horse" />
+				<equipment slot="HorseHarness"
+						   id="Item.chain_barding" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+                           id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+        <NPCCharacter id="ROTuniqueleader_spc_moon_brothers_0" name="{=ROTReikoLord013}Ulf" voice="ironic" age="46" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vale" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="46"
+							weight="0.8"
+							build="0.9"
+							key="00008C06D9002787A9A66434475CBCBDC34ECE6255A006077441DA49838BF6A500DEC6030DA7B7A500000000000000000000000000000000000000003DB44002" />
+		</face>
+		<!--<Hero id="spc_wolfskins_leader_0" faction="Faction.wolfskins" clan="Clan.wolfskins"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait id="Valor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.aserai_axe_1_t2" />
+				<equipment slot="Item1"
+						   id="Item.wildling_shield2" />
+				<equipment slot="Item2"
+						   id="Item.highland_throwing_axe_1_t2" />
+				<equipment slot="Item3"
+                           id="Item.northern_axe_t3" />
+				<equipment slot="Body"
+						   id="Item.buckled_wildsman_armor" />
+				<equipment slot="Leg"
+						   id="Item.reinforced_suede_boots" />
+
+				<equipment slot="Gloves"
+						   id="Item.steppe_leather_vambraces" />
+
+			</EquipmentRoster>
+
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+                           id="Item.vlandia_sword_3_t4" />
+				<equipment slot="Body"
+						   id="Item.cloth_tunic" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+        <NPCCharacter id="ROTuniqueleader_spc_brave_companions_0" name="{=ROTReikoLord014}Vargo Hoat" voice="curt" age="36" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.qohorik" occupation="Lord">
+		<face>
+			<BodyProperties version="4"
+							age="36"
+							weight="0.4"
+							build="0.4"
+							key="001BEC0D120015496C56648C6753D8867577866254C69610C4B647398C95A03700D646030DA74973000000000000000000000000000000000000000013AC2005" />
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Commander" value="6" />
+			<Trait id="BalancedFightingSkills" value="8" />
+			<Trait id="KnightFightingSkills" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.star_falchion_sword_t3" />
+				<equipment slot="Item1"
+						   id="Item.decorated_steppe_shield" />
+				<equipment slot="Item2"
+						   id="Item.eastern_javelin_1_t2" />
+				<equipment slot="Body"
+						   id="Item.northern_coat_of_plates" />
+				<equipment slot="Leg"
+						   id="Item.northern_plated_boots" />
+
+				<equipment slot="Gloves"
+						   id="Item.northern_plated_gloves" />
+
+			</EquipmentRoster>
+
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+                           id="Item.empire_sword_4_t4" />
+				<equipment slot="Body"
+						   id="Item.steppe_armor" />
+				<equipment slot="Leg"
+						   id="Item.leather_cavalier_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
   
 </NPCCharacters>
