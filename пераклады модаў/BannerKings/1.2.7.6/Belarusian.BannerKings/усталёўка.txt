@@ -1,0 +1,80 @@
+Amateur translation of the Banner Kings 1.2.7.6 mod into Belarusian. Mod can be found at https://www.nexusmods.com/mountandblade2bannerlord/mods/3826. This translation require downloading original mod from external source.
+
+Аматарскі пераклад мода Banner Kings 1.2.7.6 на беларускую мову.
+
+Фінансавая падтрымка (можа спатрэбіцца VPN) patreon.com/Reiko651
+
+Гэта толькі пераклад. Мод Banner Kings 1.2.7.6 льга спампаваць па спасылцы https://www.nexusmods.com/mountandblade2bannerlord/mods/3826 . Гэтага мода пакуль няма ў Steam Workshop.
+
+Мод Banner Kings натхнёны гульнёй Crusader Kings і іншымі гульнямі ад Paradox. Мэта гэтага моду - даданьне новых пластоў гульнявога працэсу, не зьвязаных з боем.
+
+Феадальныя тытулы
+- сталыя тытулы, якія адлюстроўваюць феадальную сістэму па прыкладу тытулаў у Crusader Kings. Тытулы ўяўляюць законнае права на ўласьць ува ўдзеле, звычайна зьвязаны з кавалкам зямлі (селішча)
+- іерархічная структура тытулаў: Баронства (вёска) -> Віконцтва (Замак) -> Графства (Горад) -> Герцагства (Сукупнасьць графстваў) -> Каралеўства (Сукупнасьць герцагстваў)
+- кожны тытул мае Дэ Юры і Дэ Факта ўласьніка. Звычайна - гэта адна асоба, але не заўжды. Заваёва селішча робіць вас Дэ Факта ўласьнікам селішча. Але не Дэ Юры, бо захоп сілавы, а не законны, тое будзе мець наступствы
+- васальна-сюзэрэнныя адносіны. Раней уся шляхта была на адным узроўні. Цяпер яны з'яўляюцца васаламі адзін аднаго. Вашы найвысокі тытул вызначае вашыя адносіны. Калі вашы найвысокі тытул законны васал іншага тытулу (напрыклад, герцагства, якое з'яўляецца абавязковым васалам каралеўства), то, вы герцаг, то бок васал караля Дэ Юрэ. Графы будуць вашымі васаламі, а вы іх сюзэрэнам
+- кожны тытул мае дамову, у якой вызначаецца законны тып Ураду, тып Спадкаемства, тып Спадчыннасьці і Гендарны закон
+
+Рэлігійная Сістэма
+- дадана 5 рэлігіяў на кантынент
+- рэлігіі прэзентаваны зямянамі-сьвятарамі ў селішчах
+- героі маюць набожнасьць
+- набожнасьць льга атрымаць ад зьдзяйсьненьня абрадаў, дабрачыннага пасьлядоўніцтва і іншага
+- набожнасьць льга марнаваць на бласлаўленьні, розныя для кожная веры
+
+Асабовы Пачатак Гульні
+- некалькі варыянтаў старту гульні. Для розных жыцьцёвых стыляў. Паўторнае праходжаньне раньняй гульні цяпер не абавзковае ды можа быць больш займальным
+- адмысловыя штрафы. У памен на бонусы, некаторыя старты маюць адмысловыя штрафы. Штрафы доўжацца 5 гадоў.
+- пачынаньне жыцьцёвых стыляў. Частка стартаў, зьвязаная з жыцьцёвымі стылямі. Звычайна для прыняцьця жыцьцёвага стылю трэба мець 15 ачкоў у кожным навыке жыцьцёвага стылю. Асабовы старт дае жыцьцёвы стыль і яго першую перавагу задарма (каштуе ачко навыку)
+
+Палацы и Соймы
+- кланавыя соймы, якія складаюцца з чальцоў палацу. У палац уваходзяць зямяне вашых селішчаў, вашыя прамыя васалы і чальцы сям'і
+- соймы маюць пасады, напрыклад, канцлера, падскарбія, гетмана і майстара шпегаў. Кожная занятая пасада дае бонусы вашых селішчам
+- узьдзеяньне пасіўных бонусаў заснавана на кампетэнтнасьці чальцоў сойму, якая разьлічваецца на грунце асабістых навыкаў і патрабаваньняў пасады
+- чальцам сойму выплочваецца доля вашага прыбытку
+
+І шмат іншага
+
+Для кіраваньня вялікай колькасьцю модаў раю выкарыстоўваць Novus Launcher. Знайсьці загрузьнік льга па спасылцы https://www.nexusmods.com/mountandblade2bannerlord/mods/4924 . 
+
+Фікс назваў кланаў для лацініцы. 
+1. пераназваць файл cultures.xslt у cultures_cyrilic.xslt
+2. пераназваць файл cultures_latin.xslt у cultures.xslt
+
+Файлы льга знайсьці ў тэчцы 
+a. шлях да Bannerlord\Belarusian.BannerKings\ModuleData
+б. C:\Program Files (x86)\Steam\steamapps\workshop\content\261550\3011599807\ModuleData
+
+Вядомы баг. 
+
+Пасьля пачынаньня новай гульні, гульня вылятае, калі адкрыць вакно клану ці гаспадарства.
+Фікс. Захавайце гульню. Выйдзіце і зайдзіце наноў.
+
+Чарга загрузкі:
+
+(моды, якія патрабуюцца для працы мода Banner Kings)
+1. Harmony https://www.nexusmods.com/mountandblade2bannerlord/mods/2006
+2. ButterLib https://www.nexusmods.com/mountandblade2bannerlord/mods/2018
+3. UIExtenderEx https://www.nexusmods.com/mountandblade2bannerlord/mods/2102
+4. Mod Configuration Menu https://www.nexusmods.com/mountandblade2bannerlord/mods/612
+
+(стандартныя модулі гульні)
+5. Native
+6. SandBoxCore
+7. Sandbox
+8. StoryMode
+
+9. Open Source Armory https://www.nexusmods.com/mountandblade2bannerlord/mods/2829
+
+10. Banner Kings https://www.nexusmods.com/mountandblade2bannerlord/mods/3826
+
+(модулі перакладу. першым трэба запусьціць Belarusian Core. чарга іншых перакладаў не мае значэньня)
+11. Belarusian Core https://www.nexusmods.com/mountandblade2bannerlord/mods/3735
+12. Belarusian Open Source Armory https://www.nexusmods.com/mountandblade2bannerlord/mods/4857
+13. Belarusian Banner Kings https://www.nexusmods.com/mountandblade2bannerlord/mods/5785/
+
+(неабавязковыя пераклады)
+14. Belarusian Harmony https://www.nexusmods.com/mountandblade2bannerlord/mods/4572
+15. Belarusian ButterLib https://www.nexusmods.com/mountandblade2bannerlord/mods/4571
+16. Belarusian UIExtenderEx https://www.nexusmods.com/mountandblade2bannerlord/mods/4573
+17. Belarusian Mod Configuration Menu https://www.nexusmods.com/mountandblade2bannerlord/mods/4574
