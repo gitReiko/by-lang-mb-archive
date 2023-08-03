@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+ <NPCCharacter id="hungarian_levy"
+                default_group="Infantry"
+                level="6"
+                name="{=E11HUt07}Hungarian Levy"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="0" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.hungarian_militia_spearman" />
+      <upgrade_target id="NPCCharacter.hungarian_militia_archer" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.heavy_nordic_coat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.monk_robe"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="hungarian_militia_spearman"
+                default_group="Infantry"
+                level="11"
+                name="{=E11HUt08}Hungarian Militia Spearman"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="15" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.hungarian_veteran_militia_spearman" />
+      <upgrade_target id="NPCCharacter.hungarian_horse_archer" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.reinforced_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.leather_coat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="hungarian_veteran_militia_spearman"
+                default_group="Infantry"
+                level="16"
+                name="{=E11HUt09}Hungarian Veteran Militia Spearman"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="30" />
+    <skill id="Crossbow"
+           value="30" />
+    <skill id="Throwing"
+           value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.hungarian_infantry_jobagiones" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_5_t4"/>
+				<equipment slot="Item1" id="Item.reinforced_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.padded_short_coat"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="hungarian_infantry_jobagiones"
+                default_group="Infantry"
+                level="21"
+                name="{=E11HUt10}Hungarian Infantry Jobagiones"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="100" />
+    <skill id="Polearm"
+           value="100" />
+    <skill id="Bow"
+           value="45" />
+    <skill id="Crossbow"
+           value="45" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="hungarian_militia_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=E11HUt11}Hungarian Militia Archer"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="15" />
+    <skill id="Polearm"
+           value="20" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="40" />
+    <skill id="Throwing"
+           value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.hungarian_veteran_militia_archer" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.highland_cloth"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="hungarian_veteran_militia_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=E11HUt12}Hungarian Veteran Militia Archer"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="70" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="30" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.hungarian_archer_jobagiones" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.range_arrows"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.leather_scale_armor"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="hungarian_archer_jobagiones"
+                default_group="Ranged"
+                level="21"
+                name="{=E11HUt13}Hungarian Archer Jobagiones"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+             value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="60" />
+    <skill id="Polearm"
+           value="60" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item3" id="Item.khuzait_noble_sword_1_t5"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="hungarian_horse_archer"
+                default_group="HorseArcher"
+                level="16"
+                name="{=E11HUt14}Hungarian Horse Archer"
+				upgrade_requires="ItemCategory.horse"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+             value="40" />
+    <skill id="Riding"
+           value="70" />
+    <skill id="OneHanded"
+           value="45" />
+    <skill id="TwoHanded"
+           value="15" />
+    <skill id="Polearm"
+           value="30" />
+    <skill id="Bow"
+           value="70" />
+    <skill id="Crossbow"
+           value="70" />
+    <skill id="Throwing"
+           value="25" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.hungarian_veteran_horse_archer" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.range_arrows"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.khuzait_belt_leather"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Horse" id="Item.vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="hungarian_veteran_horse_archer"
+                default_group="HorseArcher"
+                level="21"
+                name="{=E11HUt15}Hungarian Veteran Horse Archer"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+            value="45" />
+    <skill id="Riding"
+           value="110" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="110" />
+    <skill id="Bow"
+           value="150" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="15" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.belted_leather_cuirass"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="hungarian_ban"
+                default_group="Cavalry"
+                level="21"
+                name="{=E11HUt16}Hungarian Ban"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="40" />
+    <skill id="Riding"
+           value="110" />
+    <skill id="OneHanded"
+           value="110" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="150" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.hungarian_ispan" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Body" id="Item.leather_scale_armor"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="hungarian_ispan"
+                default_group="Cavalry"
+                level="26"
+                name="{=E11HUt17}Hungarian Ispan"
+				upgrade_requires="ItemCategory.war_horse"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="80" />
+    <skill id="Riding"
+           value="130" />
+    <skill id="OneHanded"
+           value="130" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="160" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="20" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.hungarian_nadorispan" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_5_t5"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.banded_leather_over_mail"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.t2_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="hungarian_nadorispan"
+                default_group="Cavalry"
+                level="31"
+                name="{=E11HUt18}Hungarian Nadorispan"
+                occupation="Soldier"
+                culture="Culture.hungary">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="60" />
+    <skill id="Riding"
+           value="200" />
+    <skill id="OneHanded"
+           value="200" />
+    <skill id="TwoHanded"
+           value="260" />
+    <skill id="Polearm"
+           value="260" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="25" />
+    <skill id="Throwing"
+           value="45" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_polearm_1_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_noble_sword_4_t5"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.plated_leather_coat"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.t2_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+</NPCCharacters>

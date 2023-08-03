@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+ <NPCCharacter id="frankish_levy"
+                default_group="Infantry"
+                level="6"
+                name="{=E11FRt07}Frankish Levy"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.frankish_militia_spearman" />
+	  <upgrade_target id="NPCCharacter.frankish_militia_crossbowman" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.vlandia_bandit_b"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="frankish_militia_spearman"
+                default_group="Infantry"
+                level="11"
+                name="{=E11FRt08}Frankish Militia Spearman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="15" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.frankish_veteran_militia_spearman" />
+	  <upgrade_target id="NPCCharacter.frankish_swordsman" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.reinforced_flat_kite_shield"/>
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.reinforced_flat_kite_shield"/>
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Body" id="Item.northern_padded_gambeson"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+ 
+ <NPCCharacter id="frankish_veteran_militia_spearman"
+                default_group="Infantry"
+                level="16"
+                name="{=E11FRt09}Frankish Veteran Militia Spearman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="30" />
+    <skill id="Crossbow"
+           value="30" />
+    <skill id="Throwing"
+           value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.frankish_sergeant_spearman" />
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.seax_blunt"/>
+				<equipment slot="Head" id="Item.arming_coif"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.seax_blunt"/>
+				<equipment slot="Head" id="Item.arming_coif"/>
+				<equipment slot="Body" id="Item.northern_padded_gambeson"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="frankish_sergeant_spearman"
+                default_group="Infantry"
+                level="21"
+                name="{=E11FRt10}Frankish Sergeant Spearman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="100" />
+    <skill id="Polearm"
+           value="100" />
+    <skill id="Bow"
+           value="45" />
+    <skill id="Crossbow"
+           value="45" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.imperial_mail_coif"/>
+				<equipment slot="Body" id="Item.imperial_mail_vest"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="frankish_militia_crossbowman"
+                default_group="Ranged"
+                level="11"
+                name="{=E11FRt11}Frankish Militia Crossbowman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="15" />
+    <skill id="Polearm"
+           value="20" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="40" />
+    <skill id="Throwing"
+           value="40" />
+    </skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.frankish_veteran_militia_crossbowman" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_a"/>
+				<equipment slot="Item1" id="Item.bolt_a"/>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item3" id="Item.bolt_a"/>
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_a"/>
+				<equipment slot="Item1" id="Item.bolt_a"/>
+				<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item3" id="Item.bolt_a"/>
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Body" id="Item.padded_leather_shirt"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="frankish_veteran_militia_crossbowman"
+                default_group="Ranged"
+                level="16"
+                name="{=E11FRt12}Frankish Veteran Militia Crossbowman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="70" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="30" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.frankish_master_crossbowman" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_a"/>
+				<equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
+				<equipment slot="Item3" id="Item.bolt_a"/>
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_a"/>
+				<equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
+				<equipment slot="Item3" id="Item.bolt_a"/>
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="frankish_master_crossbowman"
+                default_group="Ranged"
+                level="21"
+                name="{=E11FRt13}Frankish Master Crossbowman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+             value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="60" />
+    <skill id="Polearm"
+           value="60" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item3" id="Item.bolt_b"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item3" id="Item.bolt_b"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.padded_leather_shirt"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="frankish_swordsman"
+                default_group="Infantry"
+                level="16"
+                name="{=E11FRt14}Frankish Man at arms"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="30" />
+    <skill id="Crossbow"
+           value="30" />
+    <skill id="Throwing"
+           value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.frankish_sergeant_swordsman" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
+				<equipment slot="Head" id="Item.imperial_mail_coif"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
+				<equipment slot="Head" id="Item.imperial_mail_coif"/>
+				<equipment slot="Body" id="Item.nordic_hauberk"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="frankish_sergeant_swordsman"
+                default_group="Infantry"
+                level="21"
+                name="{=E11FRt15}Frankish Sergeant Man at arms"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="100" />
+    <skill id="Polearm"
+           value="100" />
+    <skill id="Bow"
+           value="45" />
+    <skill id="Crossbow"
+           value="45" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_noble_sword_4_t5"/>
+				<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="frankish_squire"
+                default_group="Cavalry"
+                level="21"
+                name="{=E11FRt16}Frankish Squire"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="40" />
+    <skill id="Riding"
+           value="110" />
+    <skill id="OneHanded"
+           value="110" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="150" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="15" />
+    </skills>
+    <upgrade_targets>
+	      <upgrade_target id="NPCCharacter.frankish_banner_knight" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_2_t4"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.northern_spear_2_t3"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.battania_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="frankish_banner_knight"
+                default_group="Cavalry"
+                level="26"
+                name="{=E11FRt17}Frankish Banner Knight"
+                occupation="Soldier"
+				upgrade_requires="ItemCategory.war_horse"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="80" />
+    <skill id="Riding"
+           value="130" />
+    <skill id="OneHanded"
+           value="130" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="160" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="20" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+	      <upgrade_target id="NPCCharacter.frankish_marshal" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.legionary_mail"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="frankish_marshal"
+                default_group="Cavalry"
+                level="31"
+                name="{=E11FRt18}Frankish Marshal"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="60" />
+    <skill id="Riding"
+           value="200" />
+    <skill id="OneHanded"
+           value="200" />
+    <skill id="TwoHanded"
+           value="260" />
+    <skill id="Polearm"
+           value="260" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="25" />
+    <skill id="Throwing"
+           value="45" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_polearm_1_t4"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_base"/>
+				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.legionary_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

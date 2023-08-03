@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  
+  <NPCCharacter id="byzantine_tagma"
+                default_group="Infantry"
+                level="6"
+                name="{=E11BYt07}Byzantine Tagma"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.byzantine_skoutatoi" />
+	  <upgrade_target id="NPCCharacter.byzantine_toxotoi" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.leather_coat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="byzantine_toxotoi"
+                default_group="Ranged"
+                level="11"
+                name="{=E11BYt08}Byzantine Toxotoi"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="15" />
+    <skill id="Polearm"
+           value="20" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="40" />
+    <skill id="Throwing"
+           value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.byzantine_trapezund_toxotoi" />
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.pugio"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Body" id="Item.leather_coat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="byzantine_trapezund_toxotoi"
+                default_group="Ranged"
+                level="16"
+                name="{=E11BYt09}Byzantine Trapezund Toxotoi"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="70" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="30" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.byzantine_palatine_guard" />
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.range_arrows"/>
+				<equipment slot="Item3" id="Item.empire_sword_2_t3"/>
+				<equipment slot="Head" id="Item.spiked_kettle_over_imperial_mail"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="byzantine_palatine_guard"
+                default_group="Ranged"
+                level="21"
+                name="{=E11BYt10}Byzantine Palatine Guard"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+             value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="60" />
+    <skill id="Polearm"
+           value="60" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item3" id="Item.empire_sword_4_t4"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.a_empire_plated_shoulder_a"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+ <NPCCharacter id="byzantine_skoutatoi"
+                default_group="Infantry"
+                level="11"
+                name="{=E11BYt11}Byzantine Skoutatoi"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="15" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.byzantine_menaulon" />
+	  <upgrade_target id="NPCCharacter.byzantine_spatharioi" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.pugio"/>
+				<equipment slot="Head" id="Item.spiked_kettle_over_imperial_mail"/>
+				<equipment slot="Cape" id="Item.a_empire_plated_shoulder_a"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_b"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+ 
+  <NPCCharacter id="byzantine_menaulon"
+                default_group="Infantry"
+                level="16"
+                name="{=E11BYt12}Byzantine Menaulon"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="30" />
+    <skill id="Crossbow"
+           value="30" />
+    <skill id="Throwing"
+           value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.byzantine_noumeroi" />
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.triangluar_spear_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.pugio"/>
+				<equipment slot="Head" id="Item.ironlame_spiked_kettle_over_mail"/>
+				<equipment slot="Cape" id="Item.a_empire_plated_shoulder_a"/>
+				<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+    <NPCCharacter id="byzantine_spatharioi"
+                default_group="Infantry"
+                level="16"
+                name="{=E11BYt13}Byzantine Spatharioi"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="30" />
+    <skill id="Crossbow"
+           value="30" />
+    <skill id="Throwing"
+           value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.byzantine_domestikos" />
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.spiked_kettle_over_imperial_mail"/>
+				<equipment slot="Cape" id="Item.a_empire_plated_shoulder_a"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="byzantine_domestikos"
+                default_group="Infantry"
+                level="21"
+                name="{=E11BYt14}Byzantine Domestikos"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+             value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="60" />
+    <skill id="Polearm"
+           value="60" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.wide_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.imperial_mail_vest"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="byzantine_noumeroi"
+                default_group="Infantry"
+                level="21"
+                name="{=E11BYt15}Byzantine Noumeroi"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="100" />
+    <skill id="Polearm"
+           value="100" />
+    <skill id="Bow"
+           value="45" />
+    <skill id="Crossbow"
+           value="45" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.empire_sword_4_t4"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.a_empire_plated_shoulder_a"/>
+				<equipment slot="Body" id="Item.empire_legion_a"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="byzantine_archontopouloi"
+                default_group="Cavalry"
+                level="21"
+                name="{=E11BYt16}Byzantine Archontopouloi"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="40" />
+    <skill id="Riding"
+           value="110" />
+    <skill id="OneHanded"
+           value="110" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="150" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.byzantine_athanatoi" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.empire_mace_2_t4"/>
+				<equipment slot="Item2" id="Item.fortified_kite_shield"/>
+				<equipment slot="Head" id="Item.peaked_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+     <NPCCharacter id="byzantine_athanatoi"
+                default_group="Cavalry"
+                level="26"
+                name="{=E11BYt17}Byzantine Athanatoi"
+				upgrade_requires="ItemCategory.war_horse"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="80" />
+    <skill id="Riding"
+           value="130" />
+    <skill id="OneHanded"
+           value="130" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="160" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="20" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.byzantine_kataphraktoi" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+				<equipment slot="Item1" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item2" id="Item.fortified_kite_shield"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_closed"/>
+				<equipment slot="Cape" id="Item.varangian_bra_mail"/>
+				<equipment slot="Body" id="Item.legionary_mail"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.t2_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+    <NPCCharacter id="byzantine_kataphraktoi"
+                default_group="Cavalry"
+                level="31"
+                name="{=E11BYt18}Byzantine Kataphraktoi"
+                occupation="Soldier"
+                culture="Culture.byzantine">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="60" />
+    <skill id="Riding"
+           value="200" />
+    <skill id="OneHanded"
+           value="200" />
+    <skill id="TwoHanded"
+           value="260" />
+    <skill id="Polearm"
+           value="260" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="25" />
+    <skill id="Throwing"
+           value="45" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_polearm_1_t4"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_b_close"/>
+				<equipment slot="Cape" id="Item.varangian_bra_mail"/>
+				<equipment slot="Body" id="Item.imperial_lamellar"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.t2_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

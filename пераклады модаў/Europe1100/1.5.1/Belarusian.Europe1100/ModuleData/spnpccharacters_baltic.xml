@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+<!--npcs-->
+
+
+  
+<!--troops-->
+
+  <NPCCharacter id="baltic_tribesman"
+                default_group="Infantry"
+                level="6"
+                name="{=E11BAt06}Baltic Tribesman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.baltic_spearman" />
+	  <upgrade_target id="NPCCharacter.baltic_archer" />
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="baltic_spearman"
+                default_group="Infantry"
+                level="11"
+                name="{=E11BAt07}Baltic Spearman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="15" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.baltic_veteran_spearman" />
+	  <upgrade_target id="NPCCharacter.baltic_light_cavalry" />
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.old_horsemans_kite_shield"/>
+				<equipment slot="Body" id="Item.sleeveless_fur_coat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="baltic_veteran_spearman"
+                default_group="Infantry"
+                level="16"
+                name="{=E11BAt08}Baltic Veteran Spearman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="30" />
+    <skill id="Crossbow"
+           value="30" />
+    <skill id="Throwing"
+           value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.baltic_cassubian_spearman" />
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_5_t4"/>
+				<equipment slot="Item1" id="Item.old_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.empire_sword_3_t3"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.sleeveless_fur_coat"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="baltic_cassubian_spearman"
+                default_group="Infantry"
+                level="21"
+                name="{=E11BAt09}Baltic Cassubian Spearman"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="100" />
+    <skill id="Polearm"
+           value="100" />
+    <skill id="Bow"
+           value="45" />
+    <skill id="Crossbow"
+           value="45" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.buckled_wildsman_armor"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="baltic_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=E11BAt10}Baltic Archer"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="15" />
+    <skill id="Polearm"
+           value="20" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="40" />
+    <skill id="Throwing"
+           value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.baltic_veteran_archer" />
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Body" id="Item.fur_waistcoat_over_tunic"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="baltic_veteran_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=E11BAt11}Baltic Veteran Archer"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="70" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="30" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.baltic_wendish_archer" />
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nordic_shortbow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.range_arrows"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.fur_coat_over_tunic"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="baltic_wendish_archer"
+                default_group="Ranged"
+                level="21"
+                name="{=E11BAt12}Baltic Wendish Archer"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+             value="100" />
+    <skill id="Riding"
+           value="15" />
+    <skill id="OneHanded"
+           value="100" />
+    <skill id="TwoHanded"
+           value="60" />
+    <skill id="Polearm"
+           value="60" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.range_arrows"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.buckled_wildsman_armor"/>
+				<equipment slot="Gloves" id="Item.guarded_armwraps"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="baltic_light_cavalry"
+                default_group="HorseArcher"
+                level="16"
+                name="{=E11BAt13}Baltic Light Cavalry"
+				upgrade_requires="ItemCategory.horse"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+             value="40" />
+    <skill id="Riding"
+           value="70" />
+    <skill id="OneHanded"
+           value="45" />
+    <skill id="TwoHanded"
+           value="15" />
+    <skill id="Polearm"
+           value="30" />
+    <skill id="Bow"
+           value="70" />
+    <skill id="Crossbow"
+           value="70" />
+    <skill id="Throwing"
+           value="25" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.baltic_veteran_light_cavalry" />
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_5_t4"/>
+				<equipment slot="Item1" id="Item.battania_targe_b"/>
+				<equipment slot="Item2" id="Item.nordic_shortbow"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.fur_coat_over_tunic"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="baltic_veteran_light_cavalry"
+                default_group="HorseArcher"
+                level="16"
+                name="{=E11BAt14}Baltic Veteran Light Cavalry"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+            value="45" />
+    <skill id="Riding"
+           value="110" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="110" />
+    <skill id="Bow"
+           value="150" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="15" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+				<equipment slot="Item1" id="Item.battania_targe_b"/>
+				<equipment slot="Item2" id="Item.steppe_war_bow"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Cape" id="Item.wolf_shoulder"/>
+				<equipment slot="Body" id="Item.rough_fur_armor"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_steppe"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="baltic_ukininkas"
+                default_group="Cavalry"
+                level="21"
+                name="{=E11BAt15}Baltic Ukininkas"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="40" />
+    <skill id="Riding"
+           value="110" />
+    <skill id="OneHanded"
+           value="110" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="150" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.baltic_bajoras" />
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.light_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.studded_fur_armor"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.bandit_saddle_highland"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="baltic_bajoras"
+                default_group="Cavalry"
+                level="26"
+                name="{=E11BAt16}Baltic Bajoras"
+                occupation="Soldier"
+				upgrade_requires="ItemCategory.war_horse"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="80" />
+    <skill id="Riding"
+           value="130" />
+    <skill id="OneHanded"
+           value="130" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="160" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="20" />
+    <skill id="Throwing"
+           value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.baltic_rikis" />
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.wolf_shoulder"/>
+				<equipment slot="Body" id="Item.buckled_wildsman_armor"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+				<equipment slot="Horse" id="Item.t2_sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter> 
+
+  <NPCCharacter id="baltic_rikis"
+                default_group="Cavalry"
+                level="31"
+                name="{=E11BAt17}Baltic Rikis"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="60" />
+    <skill id="Riding"
+           value="200" />
+    <skill id="OneHanded"
+           value="200" />
+    <skill id="TwoHanded"
+           value="260" />
+    <skill id="Polearm"
+           value="260" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="25" />
+    <skill id="Throwing"
+           value="45" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    	<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_b"/>
+				<equipment slot="Cape" id="Item.fur_cloak_c"/>
+				<equipment slot="Body" id="Item.rough_fur_over_chain"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+				<equipment slot="Horse" id="Item.t2_sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter> 
+
+</NPCCharacters>
