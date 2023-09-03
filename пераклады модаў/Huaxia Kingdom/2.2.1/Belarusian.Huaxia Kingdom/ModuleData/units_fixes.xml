@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+	<NPCCharacter id="hx_bandit_hero" name="{=ReikoHuaxia001}Bandit Hero" age="35" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Bandit">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia" />
+		</face>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait id="BalancedFightingSkills" value="6" />
+			<Trait id="Commander" value="7" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bandit_boss_template_huaxia" />
+			<EquipmentSet id="bandit_boss_template_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_looter_hero" name="{=ReikoHuaxia002}Looter Hero" age="30" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.huaxia" occupation="Bandit">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia" />
+		</face>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait id="BalancedFightingSkills" value="4" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="4" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Mercy" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>
