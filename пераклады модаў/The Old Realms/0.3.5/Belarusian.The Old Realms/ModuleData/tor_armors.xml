@@ -1,0 +1,2397 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+  <Item id="tor_neutral_head_helm_001" name="{=Reiko_ROT_Armor1}Battle Worn Helm" mesh="questing_knight_helmet_001" weight="4.5" appearance="1" Type="HeadArmor" is_merchandise="false" culture="Culture.vlandia" subtype="head_armor" value="44000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="44" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_neutral_head_helm_002" name="{=Reiko_ROT_Armor2}Battle Worn Armet" mesh="questing_knight_helmet_003" weight="4.6" appearance="1" Type="HeadArmor" is_merchandise="false" culture="Culture.vlandia" subtype="head_armor" value="46000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="46" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_head_helm_militia_001" name="{=Reiko_ROT_Armor3}Militia Sallet" mesh="emp_militiahelmet_a" weight="2.7" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="18000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="18" hair_cover_type="type1" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_militia_002" name="{=Reiko_ROT_Armor4}Worn Militia Sallet" mesh="emp_militiahelmet_c" weight="2.7" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="18000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="18" hair_cover_type="type1" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_militia_003" name="{=Reiko_ROT_Armor5}Worn Militia Sallet" mesh="emp_militiahelmet_d" weight="2.7" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="18000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="18" hair_cover_type="type1" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_001" name="{=Reiko_ROT_Armor6}Empire Sallet" mesh="empire_hat_001" weight="2.7" appearance="1.5" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="24000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="24" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_hunter_001" name="{=Reiko_ROT_Armor7}Cloth Beret" mesh="empire_hat_002" weight="1.5" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="3500">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="10" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_greatsword_001" name="{=Reiko_ROT_Armor8}Empire Secrete" mesh="empire_hat_003" weight="2.3" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="8400">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="24" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_bowman_001" name="{=Reiko_ROT_Armor9}Archers Cap" mesh="empire_hat_004" weight="1.0" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="3500">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="10" hair_cover_type="type1" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_woodsman_001" name="{=Reiko_ROT_Armor10}Leather Brimmed Hat" mesh="empire_hat_005" weight="2.0" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="2800">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="8" hair_cover_type="type1" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_sergeant_001" name="{=Reiko_ROT_Armor11}Empire Sergeant Beret" mesh="empire_hat_006" weight="3.0" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="5600">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="16" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_001" name="{=Reiko_ROT_Armor12}Empire Marksman's Hat" mesh="empire_hat_007" weight="1.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="9800">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="14" hair_cover_type="type1" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_noble_001" name="{=Reiko_ROT_Armor13}Empire Noble Beret" mesh="empire_noble_hat_001" weight="3.0" appearance="4" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="6300">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="18" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_marius_leitdorf" name="{=Reiko_ROT_Armor14}Marius Leitdorf Hat" mesh="empire_marius_hat" weight="3.3" Type="HeadArmor" is_merchandise="false" culture="Culture.empire" subtype="head_armor" value="7000">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="20" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_light_wizard_001" name="{=Reiko_ROT_Armor15}Light Wizard Hat" mesh="empire_light_wizard_helmet" weight="0.5" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="4200">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="12" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_balthazar_gelt" name="{=Reiko_ROT_Armor16}Balthazar Gelt Mask" mesh="empire_gelt_helmet" weight="4.0" Type="HeadArmor" is_merchandise="false" culture="Culture.empire" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_tracker_001" name="{=Reiko_ROT_Armor17}Woodman's Beret" mesh="empire_tracker_hat_001" weight="2.5" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="7700">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="11" hair_cover_type="type1" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_general_001" name="{=Reiko_ROT_Armor18}Empire Generals Hat" mesh="empire_general_001_hat" weight="4.0" appearance="4" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="10500">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="30" hair_cover_type="all" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_general_001" name="{=Reiko_ROT_Armor19}Empire Generals Helm" mesh="empire_general_helmet_001" weight="4.0" appearance="4" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="50000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="50" hair_cover_type="all" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_general_002" name="{=Reiko_ROT_Armor20}Empire Generals Helm" mesh="empire_general_002_helmet" weight="4.0" appearance="4" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="50000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="50" hair_cover_type="all" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_luthor_huss" name="{=Reiko_ROT_Armor21}Luthor Huss Headstrap" mesh="empire_luthor_huss_helmet" weight="0.8" Type="HeadArmor" is_merchandise="false" culture="Culture.empire" subtype="head_armor" value="21000">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="30" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_valten" name="{=Reiko_ROT_Armor22}Valten Headstrap" mesh="empire_valten_helmet" weight="0.8" Type="HeadArmor" is_merchandise="false" culture="Culture.empire" subtype="head_armor" value="21000">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="30" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_kobs_001" name="{=Reiko_ROT_Armor23}Blazing Sun Armet" mesh="empire_kobs_helmet_001" weight="4.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_kobs_002" name="{=Reiko_ROT_Armor24}Blazing Sun Armet" mesh="empire_kobs_helmet_002" weight="4.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_kobs_003" name="{=Reiko_ROT_Armor25}Blazing Sun Armet Open" mesh="empire_kobs_helmet_open_001" weight="4.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_kobs_004" name="{=Reiko_ROT_Armor26}Blazing Sun Armet Open" mesh="empire_kobs_helmet_open_002" weight="4.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_lion_001" name="{=Reiko_ROT_Armor27}Empire Black Lion Barbute" mesh="empire_lion_black_helmet" weight="3.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="34000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="34" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_lion_002" name="{=Reiko_ROT_Armor28}Empire Red Lion Barbute" mesh="empire_lion_red_helmet" weight="3.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="34000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="34" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_lion_003" name="{=Reiko_ROT_Armor29}Empire Sergeant Helm" mesh="empire_lion_silver_helmet" weight="3.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="34000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="34" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_witch_hunter_001" name="{=Reiko_ROT_Armor30}Witch Hunter Hat" mesh="empire_witch_hunter_hat_001" weight="0.8" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="11900">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="17" hair_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_witch_hunter_002" name="{=Reiko_ROT_Armor31}Witch Hunter Hat" mesh="empire_witch_hunter_hat_002" weight="0.9" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="11900">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="17" hair_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_witch_hunter_003" name="{=Reiko_ROT_Armor32}Witch Hunter Hat" mesh="empire_witch_hunter_hat_003" weight="0.7" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="11900">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="17" hair_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_warrior_priest_001" name="{=Reiko_ROT_Armor33}Warrior Priest Headband" mesh="empire_warrior_priest_helmet_001" weight="0.9" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="20000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="20" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_bright_wizard_001" name="{=Reiko_ROT_Armor34}Bright Wizard Helmet" mesh="bright_wizard_helmet" weight="3.5" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="25000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="25" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_cannon_crew_001" name="{=Reiko_ROT_Armor35}Artillery Crew Cap" mesh="empire_cannon_crew_hat_001" weight="2.5" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="3500">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="10" hair_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_cannon_crew_002" name="{=Reiko_ROT_Armor36}Artillery Crew Cap" mesh="empire_cannon_crew_hat_001_feather" weight="2.5" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="3500">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="10" hair_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_cannon_crew_003" name="{=Reiko_ROT_Armor37}Artillery Crew Cap" mesh="empire_cannon_crew_hat_001_burnt_feather" weight="2.5" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="3500">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="10" hair_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_master_engineer_001" name="{=Reiko_ROT_Armor38}Engineer Hat" mesh="empire_master_engineer_001_hat" weight="1.5" appearance="0.5" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="4550">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="13" hair_cover_type="type1" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_burgonet_001" name="{=Reiko_ROT_Armor39}Empire Sallet" mesh="empire_burgonet_001" weight="4" appearance="1.5" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="23000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="23" hair_cover_type="all" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_burgonet_002" name="{=Reiko_ROT_Armor40}Empire Feathered Sallet" mesh="empire_burgonet_002" weight="4" appearance="1.5" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="25000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="25" hair_cover_type="all" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_morion_001" name="{=Reiko_ROT_Armor41}Heavy Empire Morion Helmet" mesh="empire_morion_001" weight="5" appearance="1.5" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="26000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="26" hair_cover_type="all" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_morion_002" name="{=Reiko_ROT_Armor42}Light Empire Morion Helmet" mesh="empire_morion_002" weight="4" appearance="1.5" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="22000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="22" hair_cover_type="type2" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_hat_celestial_wizard_001" name="{=Reiko_ROT_Armor43}Celestial Wizard Hat" mesh="empire_celestial_wizard_001_head" weight="0.5" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="4200">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="12" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_pistolier_001" name="{=Reiko_ROT_Armor44}Empire Strapped Helmet" mesh="empire_pistolier_armor_001_helm" weight="2" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="22000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="22" hair_cover_type="type2" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_pistolier_002" name="{=Reiko_ROT_Armor45}Empire Strapped Helmet" mesh="empire_pistolier_armor_002_helm" weight="2" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="22000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="22" hair_cover_type="type2" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_karl_franz" name="{=Reiko_ROT_Armor46}Helm of Magnus" mesh="karl_franz_helmet" weight="0.8" Type="HeadArmor" is_merchandise="false" culture="Culture.empire" subtype="head_armor" value="21000">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="30" hair_cover_type="type3" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_lord_001" name="{=Reiko_ROT_Armor47}Empire Lord Helm" mesh="empire_lord_armor_001_helm" weight="4.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_lord_002" name="{=Reiko_ROT_Armor48}Empire Lord Helm" mesh="empire_lord_armor_002_helm" weight="4.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_taal_001" name="{=Reiko_ROT_Armor49}Horned Brass Helmet of Taal" mesh="empire_taalhelm_001" weight="4.5" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="26000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="26" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_taal_002" name="{=Reiko_ROT_Armor50}Horned Skull Helm of Taal" mesh="empire_taalhelm_002" weight="4.5" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="12600">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="18" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_pigface_bascinet_001" name="{=Reiko_ROT_Armor51}Bascinet" mesh="pigface_bascinet" weight="4.5" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="44000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="44" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_head_helm_pigface_bascinet_002" name="{=Reiko_ROT_Armor52}Bascinet with Plumes" mesh="pigface_bascinet_feather" weight="4.6" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="46000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="46" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_pigface_bascinet_003" name="{=Reiko_ROT_Armor53}Bascinet with mane" mesh="pigface_bascinet_tail" weight="4.6" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="46000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="46" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_pothelm_001" name="{=Reiko_ROT_Armor54}Roundtop Full Helm" mesh="pothelm" weight="4.2" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_pothelm_002" name="{=Reiko_ROT_Armor55}Roundtop Full Helm" mesh="pothelm2" weight="4.2" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_head_helm_sallet_001" name="{=Reiko_ROT_Armor56}Sallet" mesh="sallet_base" weight="4.5" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_head_helm_sallet_002" name="{=Reiko_ROT_Armor57}Sallet no visor" mesh="sallet_no_visor" weight="4.5" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="44000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="44" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_head_helm_sallet_003" name="{=Reiko_ROT_Armor58}Winged Sallet" mesh="sallet_winged" weight="4.6" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="52000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="52" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_head_helm_vlandian" name="{=Reiko_ROT_Armor59}Plate Helmet With Visor" mesh="vlandian_helm_with_visor" weight="4.0" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_hat_necromancer_001" name="{=Reiko_ROT_Armor60}Necromancer Hood" mesh="necromancer_hood" weight="0.5" appearance="2" Type="HeadArmor" is_merchandise="true" culture="Culture.khuzait" subtype="head_armor" value="2800">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="8" hair_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_skeleton_warrior_001" name="{=Reiko_ROT_Armor61}Skeleton Warrior Helm" mesh="skeleton_warrior_helmet_001" weight="2.2" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="13000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="13" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_skeleton_warrior_002" name="{=Reiko_ROT_Armor62}Skeleton Warrior Spangenhelm" mesh="skeleton_warrior_helmet_002" weight="2.3" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="15000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="15" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_vampire_lord_001" name="{=Reiko_ROT_Armor63}Vampire Barbute" mesh="vampire_lord_helmet" weight="3.7" appearance="4" Type="HeadArmor" is_merchandise="true" culture="Culture.khuzait" subtype="head_armor" value="44000">
+    <ItemComponent>
+      <Armor has_gender_variations="true" modifier_group="plate" material_type="Plate" head_armor="44" hair_cover_type="all" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_blood_keep_grandmaster_helm" name="{=Reiko_ROT_Armor64}Blood Keep Grandmaster Helm" mesh="vc_red_duke_helm" weight="4.7" appearance="3" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_blood_knight_001" name="{=Reiko_ROT_Armor65}Blood Knight Sallet" mesh="vc_blood_knight_helmet_001" weight="4.7" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.khuzait" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_blood_knight_002" name="{=Reiko_ROT_Armor66}Blood Knight Barbute" mesh="blood_knight_helmet_02" weight="5.3" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.khuzait" subtype="head_armor" value="48000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="48" hair_cover_type="all" beard_cover_type="type2" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_grave_guard_001" name="{=Reiko_ROT_Armor67}Grave Guard Spangenhelm" mesh="grave_guard_helm_001" weight="2.5" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="28000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="28" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_grave_guard_002" name="{=Reiko_ROT_Armor68}Grave Guard Spangenhelm" mesh="grave_guard_helm_002" weight="2.8" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="28000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="28" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_grave_guard_003" name="{=Reiko_ROT_Armor69}Grave Guard Spangenhelm" mesh="grave_guard_helmet_003" weight="2.6" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="28000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="28" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_wight_king_001" name="{=Reiko_ROT_Armor70}Wight King Helm" mesh="vc_wight_king_helmet" weight="3.5" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_cairn_wraith_001" name="{=Reiko_ROT_Armor71}Cairn Wraith Helmet" mesh="vc_cairn_wraith_helmet_001" weight="0.5" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="25000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="25" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_cairn_wraith_002" name="{=Reiko_ROT_Armor72}Cairn Wraith Helmet" mesh="vc_cairn_wraith_helmet_002" weight="0.8" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="25000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="25" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_cairn_wraith_003" name="{=Reiko_ROT_Armor73}Cairn Wraith Helmet" mesh="vc_cairn_wraith_helmet_003" weight="0.8" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="25000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="25" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_hat_cairn_wraith_004" name="{=Reiko_ROT_Armor74}Cairn Wraith Helmet" mesh="vc_cairn_wraith_helmet_004" weight="0.5" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="8750">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="25" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_cairn_wraith_005" name="{=Reiko_ROT_Armor75}Cairn Wraith Helmet" mesh="vc_cairn_wraith_helmet_005" weight="0.7" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="25000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="25" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_cairn_wraith_006" name="{=Reiko_ROT_Armor76}Cairn Wraith Bandage" mesh="vc_cairn_wraith_helmet_006" weight="0.3" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="8750">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="25" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_hell_knight_001" name="{=Reiko_ROT_Armor77}Hell Knight Helm" mesh="hell_knight_helmet_001" weight="2.5" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="32000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="32" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_hell_knight_002" name="{=Reiko_ROT_Armor78}Hell Knight Helm" mesh="hell_knight_helmet_002" weight="2.5" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="32000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="32" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_hell_knight_003" name="{=Reiko_ROT_Armor79}Hell Knight Helm" mesh="hell_knight_helmet_003" weight="2.5" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="32000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="32" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_helm_dh_templar_001" name="{=Reiko_ROT_Armor80}Drakenhof Templar Helm" mesh="drakenhof_templar_helmet_001" weight="2.5" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="50000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="50" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_head_invisible_skull_001" name="{=Reiko_ROT_Armor81}Skull" mesh="skeleton_hide_head_helmet" weight="0.3" Type="HeadArmor" is_merchandise="false" culture="Culture.khuzait" subtype="head_armor" value="3500">
+    <ItemComponent>
+      <Armor covers_head="true" modifier_group="cloth" material_type="Cloth" head_armor="10" hair_cover_type="none" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_helm_chosen_001" name="{=Reiko_ROT_Armor82}Chaos Warrior Helm" mesh="chaos_chosen_helmet_001" weight="5.3" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="55000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="55" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_helm_chosen_002" name="{=Reiko_ROT_Armor83}Chaos Warrior Helm" mesh="chaos_chosen_helmet_002" weight="5.6" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="55000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="55" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_helm_chosen_003" name="{=Reiko_ROT_Armor84}Chosen Helm" mesh="chaos_chosen_helmet_003" weight="5.5" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="55000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="55" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_helm_chosen_004" name="{=Reiko_ROT_Armor85}Nurglite Warrior Helm" mesh="chaos_chosen_helmet_004" weight="5.5" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="55000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="55" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_helm_chosen_005" name="{=Reiko_ROT_Armor86}Nurglite Warrior Helm" mesh="chaos_chosen_helmet_005" weight="5.3" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="55000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="55" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_helm_chaos_knight_001" name="{=Reiko_ROT_Armor87}Khornate Barbute" mesh="chaos_khorne_knight_001_helmet" weight="5.4" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="55000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="55" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_helm_khorne_warrior_001" name="{=Reiko_ROT_Armor88}Khornate Great Helm" mesh="chaos_khorne_warrior_helmet_001" weight="6.0" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_helm_khorne_warrior_002" name="{=Reiko_ROT_Armor89}Khornate Barbute" mesh="chs_khorne_helmet" weight="6.0" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_hat_chaos_cultist_001" name="{=Reiko_ROT_Armor90}Chaos Cultist Hood" mesh="chs_cultist_hat_001" weight="0.9" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="6300">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="9" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_hat_chaos_cultist_002" name="{=Reiko_ROT_Armor91}Chaos Cultist Hooded Mask" mesh="chs_cultist_hat_002" weight="1.4" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="9100">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="13" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_hat_chaos_cultist_003" name="{=Reiko_ROT_Armor92}Chaos Cultist Hood" mesh="chs_cultist_hat_003" weight="0.9" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="7700">
+    <ItemComponent>
+      <Armor modifier_group="leather" material_type="Leather" head_armor="11" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_head_helm_tzeentch_warrior_001" name="{=Reiko_ROT_Armor93}Tzeentch Helm" mesh="chs_tzeentch_armor_helm" weight="6.0" Type="HeadArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="type2" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_greathelm_001" name="{=Reiko_ROT_Armor94}Bretonnian Great Helm" mesh="br_greathelm_001" weight="5" appearance="4" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_hood_001" name="{=Reiko_ROT_Armor95}Bretonnian Hooded Pizaine" mesh="br_peasant_cloak_001" weight="1.5" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="7000">
+    <ItemComponent>
+      <Armor body_armor="4" modifier_group="cloth" material_type="Cloth" head_armor="16" hair_cover_type="all" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_questing_knight_002" name="{=Reiko_ROT_Armor96}Bretonnian Armet" mesh="questing_knight_helmet_002" weight="4.6" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="46000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="46" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_kotr_001" name="{=Reiko_ROT_Armor97}Knight of the Realm Great Helm" mesh="kotr_helm_001" weight="4.1" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_kotr_002" name="{=Reiko_ROT_Armor98}Knight of the Realm Great Helm" mesh="kotr_helm_002" weight="4.1" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_kotr_003" name="{=Reiko_ROT_Armor99}Knight of the Realm Great Helm" mesh="kotr_helm_003" weight="4.1" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_pilgrim_001" name="{=Reiko_ROT_Armor100}Battle Pilgrim Hood" mesh="battle_pilgrim_hood_001_a" weight="1.5" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="7000">
+    <ItemComponent>
+      <Armor body_armor="4" modifier_group="cloth" material_type="Cloth" head_armor="16" hair_cover_type="all" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_pilgrim_002" name="{=Reiko_ROT_Armor101}Battle Pilgrim Hood" mesh="battle_pilgrim_hood_001_b" weight="1.5" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="14000">
+    <ItemComponent>
+      <Armor body_armor="4" modifier_group="leather" material_type="Leather" head_armor="16" hair_cover_type="all" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_001" name="{=Reiko_ROT_Armor102}Bretonnian Chainmail Flattop" mesh="bretonnian_helmet_001_a" weight="4.1" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="15000">
+    <ItemComponent>
+      <Armor modifier_group="chain" material_type="Chainmail" head_armor="20" hair_cover_type="all" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_002" name="{=Reiko_ROT_Armor103}Bretonnian Cloth Flattop" mesh="bretonnian_helmet_001_b" weight="4.1" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="7000">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="20" hair_cover_type="all" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_003" name="{=Reiko_ROT_Armor104}Bretonnian Chainmail Coif" mesh="bretonnian_helmet_002_a" weight="4.1" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="15000">
+    <ItemComponent>
+      <Armor modifier_group="chain" material_type="Chainmail" head_armor="20" hair_cover_type="all" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_004" name="{=Reiko_ROT_Armor105}Bretonnian Padded Coif" mesh="bretonnian_helmet_002_b" weight="4.1" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="7000">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="20" hair_cover_type="all" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_005" name="{=Reiko_ROT_Armor106}Bretonnian Chain Kettle Helm" mesh="bretonnian_helmet_003_a" weight="4.1" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="15000">
+    <ItemComponent>
+      <Armor modifier_group="chain" material_type="Chainmail" head_armor="20" hair_cover_type="all" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_helm_006" name="{=Reiko_ROT_Armor107}Bretonnian Padded Kettle Helm" mesh="bretonnian_helmet_003_b" weight="4.1" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="7000">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="20" hair_cover_type="all" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_head_prophetess_001" name="{=Reiko_ROT_Armor108}Prophetess Hennin" mesh="prophetess_001_hennin" weight="0.75" appearance="1" Type="HeadArmor" is_merchandise="true" culture="Culture.vlandia" subtype="head_armor" value="7000">
+    <ItemComponent>
+      <Armor modifier_group="cloth" material_type="Cloth" head_armor="20" hair_cover_type="all" beard_cover_type="none" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_mousillon_head_helm_kotr_001" name="{=Reiko_ROT_Armor109}Mousillon Knight of Misfortune Great Helm" mesh="kotr_mousillon_helm_001" weight="4.1" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.mousillon" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_mousillon_head_helm_bgk_001" name="{=Reiko_ROT_Armor110}Black Grail Knight Helm" mesh="black_grail_knight_001_helm" weight="4.1" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.mousillon" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="all" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_head_helm_knight_001" name="{=Reiko_ROT_Armor111}Tilean Sallet" mesh="tilean_knight_helmet_001" weight="3.8" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="42000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="42" hair_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_head_helm_knight_002" name="{=Reiko_ROT_Armor112}Tillean Kettle Hat" mesh="tilean_knight_helmet_002" weight="3.5" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="36000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="36" hair_cover_type="all" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_head_helm_knight_003" name="{=Reiko_ROT_Armor113}Tilean Sallet Open Visor" mesh="tilean_knight_helmet_open_001" weight="3.8" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="40000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="40" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_head_helm_brass_knight_001" name="{=Reiko_ROT_Armor114}Tilean Sallet" mesh="brass_knight_helmet_002" weight="2.0" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="42000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="42" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_estalia_head_helm_general_001" name="{=Reiko_ROT_Armor115}Estalian Skull Mask" mesh="estalia_skull_helmet" weight="2.0" appearance="3" Type="HeadArmor" is_merchandise="true" culture="Culture.empire" subtype="head_armor" value="50000">
+    <ItemComponent>
+      <Armor modifier_group="plate" material_type="Plate" head_armor="50" hair_cover_type="all" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_halberdier_001" name="{=Reiko_ROT_Armor116}Empire Halberdier Shoulder" mesh="empire_halberdier_shoulders_001" weight="4.5" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.empire" value="8000">
+    <ItemComponent>
+      <Armor body_armor="8" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_breastplate_worn_001" name="{=Reiko_ROT_Armor117}Worn Empire Breastplate" mesh="emp_secessionists_breastplate_001" weight="9.0" appearance="1" Type="Cape" is_merchandise="true" culture="Culture.empire" value="16000">
+    <ItemComponent>
+      <Armor body_armor="16" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_breastplate_kragsburg_001" name="{=Reiko_ROT_Armor118}Von Kragsburg Breastplate" mesh="empire_statetrooper_breastplate_003" weight="9.2" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.empire" value="32000">
+    <ItemComponent>
+      <Armor body_armor="32" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_breastplate_stirriver_001" name="{=Reiko_ROT_Armor119}Stir River Patrol Breastplate" mesh="empire_statetrooper_breastplate_006" weight="9.2" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.empire" value="28000">
+    <ItemComponent>
+      <Armor body_armor="28" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_breastplate_statetrooper_001" name="{=Reiko_ROT_Armor120}Empire Cuirass" mesh="empire_statetrooper_breastplate_001" weight="9.1" appearance="1" Type="Cape" is_merchandise="true" culture="Culture.empire" value="25000">
+    <ItemComponent>
+      <Armor body_armor="25" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_breastplate_statetrooper_002" name="{=Reiko_ROT_Armor121}Empire Cuirass" mesh="empire_statetrooper_breastplate_002" weight="9.1" appearance="1" Type="Cape" is_merchandise="true" culture="Culture.empire" value="25000">
+    <ItemComponent>
+      <Armor body_armor="25" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_breastplate_statetrooper_003" name="{=Reiko_ROT_Armor122}Empire Cuirass" mesh="empire_statetrooper_breastplate_004" weight="9.2" appearance="1" Type="Cape" is_merchandise="true" culture="Culture.empire" value="25000">
+    <ItemComponent>
+      <Armor body_armor="25" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_breastplate_statetrooper_004" name="{=Reiko_ROT_Armor123}Empire Cuirass with Pauldron" mesh="empire_statetrooper_breastplate_007" weight="11.5" appearance="1" Type="Cape" is_merchandise="true" culture="Culture.empire" value="31000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_greatsword_001" name="{=Reiko_ROT_Armor124}Empire Pauldron" mesh="empire_greatsword_shoulders_001" weight="3.0" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.empire" value="6000">
+    <ItemComponent>
+      <Armor body_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_greatsword_002" name="{=Reiko_ROT_Armor125}Empire Pauldron" mesh="empire_greatsword_shoulder_002" weight="3.5" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.empire" value="14000">
+    <ItemComponent>
+      <Armor body_armor="8" arm_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_shoulder_cape_generic_lord" name="{=Reiko_ROT_Armor126}Elegant Cape" mesh="pauldron_cape_a" weight="3.5" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="16000">
+    <ItemComponent>
+      <Armor body_armor="12" arm_armor="4" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_general_001" name="{=Reiko_ROT_Armor127}Empire General's Cape" mesh="empire_general_cape_001" weight="5.3" appearance="4" Type="Cape" is_merchandise="true" culture="Culture.empire" value="28000">
+    <ItemComponent>
+      <Armor body_armor="18" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_general_002" name="{=Reiko_ROT_Armor128}Empire General's Cape" mesh="empire_general_002_shoulder" weight="5.3" appearance="4" Type="Cape" is_merchandise="true" culture="Culture.empire" value="28000">
+    <ItemComponent>
+      <Armor body_armor="18" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_valten" name="{=Reiko_ROT_Armor129}Valten Shoulders with Cape" mesh="empire_valten_shoulders" weight="6.3" Type="Cape" is_merchandise="false" culture="Culture.empire" value="28000">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="8" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_luthor_huss" name="{=Reiko_ROT_Armor130}Luthor Huss Shoulders" mesh="empire_luthor_huss_shoulders" weight="4.2" Type="Cape" is_merchandise="false" culture="Culture.empire" value="21000">
+    <ItemComponent>
+      <Armor body_armor="16" arm_armor="5" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_volkmar" name="{=Reiko_ROT_Armor131}Volkmar the Grim Shoulders" mesh="empire_volkmar_shoulders" weight="4.9" Type="Cape" is_merchandise="false" culture="Culture.empire" value="28000">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="8" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_light_wizard_001" name="{=Reiko_ROT_Armor132}Light Wizard Shoulders" mesh="empire_light_wizard_shoulders" weight="2.2" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.empire" value="10000">
+    <ItemComponent>
+      <Armor body_armor="8" arm_armor="2" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_warrior_priest_001" name="{=Reiko_ROT_Armor133}Empire Pauldron" mesh="empire_warrior_priest_shoulders_001" weight="7.5" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="30000">
+    <ItemComponent>
+      <Armor body_armor="18" arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_kobs_001" name="{=Reiko_ROT_Armor134}Blazing Sun Pauldrons" mesh="empire_kobs_shoulders_001" weight="7.7" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="36000">
+    <ItemComponent>
+      <Armor body_armor="24" arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_kobs_002" name="{=Reiko_ROT_Armor135}Blazing Sun Pauldrons" mesh="empire_kobs_shoulders_002" weight="7.7" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="36000">
+    <ItemComponent>
+      <Armor body_armor="24" arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_marius_leitdorf" name="{=Reiko_ROT_Armor136}Marius Leitdorf Shoulders" mesh="empire_marius_shoulders" weight="8.0" Type="Cape" is_merchandise="false" culture="Culture.empire" value="32000">
+    <ItemComponent>
+      <Armor body_armor="22" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_shoulder_cape_balthazar_gelt" name="{=Reiko_ROT_Armor137}Balthazar Gelt Shoulders" mesh="empire_gelt_shoulders" weight="3.3" Type="Cape" is_merchandise="false" culture="Culture.empire" value="3500">
+    <ItemComponent>
+      <Armor body_armor="8" arm_armor="2" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_witch_hunter_001" name="{=Reiko_ROT_Armor138}Empire Pauldrons" mesh="empire_witch_hunter_shoulders_001" weight="7.3" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.empire" value="16000">
+    <ItemComponent>
+      <Armor body_armor="12" arm_armor="4" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_shoulder_cape_bright_wizard_001" name="{=Reiko_ROT_Armor139}Bright Wizard Cape" mesh="bright_wizard_shoulders" weight="2.0" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.empire" value="4900">
+    <ItemComponent>
+      <Armor body_armor="10" arm_armor="4" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_celestial_wizard_001" name="{=Reiko_ROT_Armor140}Celestial Wizard Shoulders" mesh="empire_celestial_wizard_001_shoulder" weight="2.0" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.empire" value="14000">
+    <ItemComponent>
+      <Armor body_armor="10" arm_armor="4" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_pistolier_001" name="{=Reiko_ROT_Armor141}Empire Decorated Shoulder Plates" mesh="empire_pistolier_armor_001_shoulders" weight="6" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.empire" value="26000">
+    <ItemComponent>
+      <Armor body_armor="18" arm_armor="8" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_karl_franz" name="{=Reiko_ROT_Armor142}Shoulder of Magnus" mesh="karl_franz_shoulders" weight="5.3" appearance="4" Type="Cape" is_merchandise="false" culture="Culture.empire" value="28000">
+    <ItemComponent>
+      <Armor body_armor="18" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_lord_001" name="{=Reiko_ROT_Armor143}Empire Lord Shoulders" mesh="empire_lord_armor_001_shoulders" weight="7.7" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="36000">
+    <ItemComponent>
+      <Armor body_armor="24" arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_shoulder_pauldron_lord_002" name="{=Reiko_ROT_Armor144}Empire Lord Shoulders" mesh="empire_lord_armor_002_shoulders" weight="7.7" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="36000">
+    <ItemComponent>
+      <Armor body_armor="24" arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_skeleton_001" name="{=Reiko_ROT_Armor145}Skeleton Warrior Pauldrons" mesh="skeleton_warrior_shoulder_001" weight="3.8" appearance="2" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="6000">
+    <ItemComponent>
+      <Armor body_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_skeleton_002" name="{=Reiko_ROT_Armor146}Skeleton Warrior Pauldrons" mesh="skeleton_warrior_shoulder_002" weight="3.8" appearance="2" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="6000">
+    <ItemComponent>
+      <Armor body_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_skeleton_003" name="{=Reiko_ROT_Armor147}Skeleton Warrior Pauldrons" mesh="skeleton_warrior_shoulder_003" weight="3.8" appearance="2" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="12000">
+    <ItemComponent>
+      <Armor body_armor="10" arm_armor="2" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_vampire_lord_001" name="{=Reiko_ROT_Armor148}Sylvanian Cape" mesh="vampire_lord_shoulders" weight="3.7" appearance="4" Type="Cape" is_merchandise="true" culture="Culture.khuzait" value="31000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="6" has_gender_variations="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_vlad" name="{=Reiko_ROT_Armor149}Vlad von Carstein Shoulders" mesh="vc_vlad_shoulders" weight="4.1" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="31000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_red_duke" name="{=Reiko_ROT_Armor150}Red Duke Shoulders" mesh="vc_red_duke_shoulders" weight="4.3" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="31000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_blood_knight_001" name="{=Reiko_ROT_Armor151}Blood Knight Pauldrons" mesh="vc_blood_knight_shoulders_001" weight="8.0" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.khuzait" value="31000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_blood_knight_002" name="{=Reiko_ROT_Armor152}Blood Knight Pauldrons" mesh="vc_blood_knight_shoulders_002" weight="8.0" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.khuzait" value="31000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_mannfred" name="{=Reiko_ROT_Armor153}Mannfred von Carstein Shoulders" mesh="vc_mannfred_shoulders" weight="4.6" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="31000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_cape_necromancer_001" name="{=Reiko_ROT_Armor154}Necromancer Shoulders" mesh="necromancer_shoulders" weight="3.4" appearance="2" Type="Cape" is_merchandise="true" culture="Culture.khuzait" value="9800">
+    <ItemComponent>
+      <Armor body_armor="12" arm_armor="2" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_grave_guard_001" name="{=Reiko_ROT_Armor155}Grave Guard Pauldrons" mesh="grave_guard_shoulder_001" weight="4" appearance="2" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="18000">
+    <ItemComponent>
+      <Armor body_armor="16" arm_armor="2" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_grave_guard_002" name="{=Reiko_ROT_Armor156}Grave Guard Pauldrons" mesh="grave_guard_shoulder_002" weight="4" appearance="2" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="18000">
+    <ItemComponent>
+      <Armor body_armor="16" arm_armor="2" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_grave_guard_003" name="{=Reiko_ROT_Armor157}Grave Guard Pauldrons" mesh="grave_guard_shoulder_003" weight="4" appearance="2" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="24000">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="4" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_grave_guard_004" name="{=Reiko_ROT_Armor158}Grave Guard Pauldrons" mesh="grave_guard_shoulder_004" weight="4" appearance="2" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="26000">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_wight_king_001" name="{=Reiko_ROT_Armor159}Wight King Pauldrons" mesh="vc_wight_king_shoulder" weight="4" appearance="2" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="33000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="8" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_cairn_wraith_001" name="{=Reiko_ROT_Armor160}Cairn Wraith Body Armour" mesh="vc_cairn_wraith_shoulders_001" weight="2.1" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="16000">
+    <ItemComponent>
+      <Armor body_armor="16" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_cairn_wraith_002" name="{=Reiko_ROT_Armor161}Cairn Wraith Body Armour" mesh="vc_cairn_wraith_shoulders_002" weight="1.7" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="16000">
+    <ItemComponent>
+      <Armor body_armor="16" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_cairn_wraith_003" name="{=Reiko_ROT_Armor162}Cairn Wraith Body Armour" mesh="vc_cairn_wraith_shoulders_003" weight="2.3" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="16000">
+    <ItemComponent>
+      <Armor body_armor="16" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_cairn_wraith_004" name="{=Reiko_ROT_Armor163}Cairn Wraith Body Armour" mesh="vc_cairn_wraith_shoulders_004" weight="2.4" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="16000">
+    <ItemComponent>
+      <Armor body_armor="16" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_hell_knight_001" name="{=Reiko_ROT_Armor164}Hell Knight Pauldrons" mesh="hell_knight_pauldron_001" weight="4" appearance="2" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="26000">
+    <ItemComponent>
+      <Armor body_armor="22" arm_armor="4" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_shoulder_pauldron_dh_templar_001" name="{=Reiko_ROT_Armor165}Drakenhof Templar Pauldrons" mesh="drakenhof_templar_pauldrons_001" weight="4" appearance="2" Type="Cape" is_merchandise="false" culture="Culture.khuzait" value="34000">
+    <ItemComponent>
+      <Armor body_armor="28" arm_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_shoulder_pauldron_nurgle_001" name="{=Reiko_ROT_Armor166}Nurglite Pauldron" mesh="chs_nurgle_shoulder_001" weight="3.8" Type="Cape" is_merchandise="false" culture="Culture.chaos_culture" value="50000">
+    <ItemComponent>
+      <Armor body_armor="35" arm_armor="15" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_shoulder_pauldron_nurgle_002" name="{=Reiko_ROT_Armor167}Nurglite Pauldrons" mesh="chs_nurgle_shoulder_002" weight="7.6" Type="Cape" is_merchandise="false" culture="Culture.chaos_culture" value="50000">
+    <ItemComponent>
+      <Armor body_armor="35" arm_armor="15" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_shoulder_pauldron_chaos_knight_001" name="{=Reiko_ROT_Armor168}Chaos Knight Pauldrons" mesh="chaos_khorne_knight_001_shoulders" weight="11.5" Type="Cape" is_merchandise="false" culture="Culture.chaos_culture" value="50000">
+    <ItemComponent>
+      <Armor body_armor="35" arm_armor="15" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_shoulder_pauldron_chosen_001" name="{=Reiko_ROT_Armor169}Chaos Pauldrons" mesh="chs_chosen_shoulders_001" weight="11.6" Type="Cape" is_merchandise="false" culture="Culture.chaos_culture" value="50000">
+    <ItemComponent>
+      <Armor body_armor="35" arm_armor="15" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_shoulder_pauldron_khorne_warrior_001" name="{=Reiko_ROT_Armor170}Khornate Pauldrons" mesh="chaos_khorne_warrior_shoulders_001" weight="10.8" Type="Cape" is_merchandise="false" culture="Culture.chaos_culture" value="50000">
+    <ItemComponent>
+      <Armor body_armor="35" arm_armor="15" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_shoulder_pauldron_khorne_warrior_002" name="{=Reiko_ROT_Armor171}Khornate Pauldrons" mesh="chs_khorne_shoulderpads" weight="10.8" Type="Cape" is_merchandise="false" culture="Culture.chaos_culture" value="50000">
+    <ItemComponent>
+      <Armor body_armor="35" arm_armor="15" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_shoulder_pauldron_tzeentch_warrior_001" name="{=Reiko_ROT_Armor172}Tzeentch Pauldrons" mesh="chs_tzeentch_armor_shoulders" weight="10.8" Type="Cape" is_merchandise="false" culture="Culture.chaos_culture" value="50000">
+    <ItemComponent>
+      <Armor body_armor="35" arm_armor="15" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_shoulder_pauldron_knight_001" name="{=Reiko_ROT_Armor173}Bretonnian Pizaine" mesh="br_knight_realm_shoulders_001" weight="2.7" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.vlandia" value="4900">
+    <ItemComponent>
+      <Armor body_armor="14" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_shoulder_pauldron_knight_002" name="{=Reiko_ROT_Armor174}Bretonnian Pauldrons with Cape" mesh="br_shoulders_cape_001" weight="2.7" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.vlandia" value="32000">
+    <ItemComponent>
+      <Armor body_armor="22" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_shoulder_pauldron_knight_003" name="{=Reiko_ROT_Armor175}Bretonnian Pauldrons with Cape" mesh="br_shoulders_cape_002" weight="2.7" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.vlandia" value="32000">
+    <ItemComponent>
+      <Armor body_armor="22" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_shoulder_questing_knight_001" name="{=Reiko_ROT_Armor176}Questing Knight Pauldron" mesh="questing_knight_shoulderpads_001" weight="7.8" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.vlandia" value="30000">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_shoulder_questing_knight_002" name="{=Reiko_ROT_Armor177}Bretonnian Armshields with Cape" mesh="questing_knight_shoulderpads_002" weight="7.8" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.vlandia" value="30000">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_shoulder_questing_knight_003" name="{=Reiko_ROT_Armor178}Questing Knight Pauldron" mesh="questing_knight_shoulderpads_003" weight="7.8" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.vlandia" value="30000">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_shoulder_grail_knight_001" name="{=Reiko_ROT_Armor179}Grail Knight Cape" mesh="grail_knight_cape_001" weight="7.8" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.vlandia" value="10500">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnian_shoulder_pauldron_pilgrim_001" name="{=Reiko_ROT_Armor180}Battle Pilgrim Shoulder" mesh="battle_pilgrim_shoulder_001" weight="2.7" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.vlandia" value="9800">
+    <ItemComponent>
+      <Armor body_armor="14" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_mousillon_shoulder_grail_knight_001" name="{=Reiko_ROT_Armor181}Black Grail Knight Cape" mesh="kotr_mousillon_cape_001" weight="7.8" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.mousillon" value="10500">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_mousillon_shoulder_pauldron_bgk_001" name="{=Reiko_ROT_Armor182}Black Grail Knight Shoulder" mesh="black_grail_knight_001_shoulder" weight="2.7" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.mousillon" value="14000">
+    <ItemComponent>
+      <Armor body_armor="14" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_tilean_shoulder_pauldron_knight_001" name="{=Reiko_ROT_Armor183}Tilean Pauldrons" mesh="tilean_knight_shoulders_001" weight="8.0" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="30000">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_shoulder_pauldron_knight_002" name="{=Reiko_ROT_Armor184}Tilean Pauldrons" mesh="tilean_knight_shoulders_002" weight="7.8" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="30000">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_shoulder_pauldron_brass_knight_001" name="{=Reiko_ROT_Armor185}Tilean Pauldrons" mesh="brass_knight_shoulders_001" weight="8.2" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="30000">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_body_breastplate_engraved_001" name="{=Reiko_ROT_Armor186}Tilean Breastplate" mesh="empire_statetrooper_breastplate_005" weight="8.9" appearance="4" Type="Cape" is_merchandise="true" culture="Culture.empire" value="25000">
+    <ItemComponent>
+      <Armor body_armor="25" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_estalian_shoulder_pauldron_general_001" name="{=Reiko_ROT_Armor187}Ornate Estalian Pauldrons" mesh="hero_armor_black_shoulders_001" weight="7.9" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="37000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_estalian_shoulder_pauldron_general_002" name="{=Reiko_ROT_Armor188}Ornate Estalian Pauldrons" mesh="hero_armor_red_shoulders_001" weight="8.0" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="37000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_estalian_shoulder_pauldron_general_003" name="{=Reiko_ROT_Armor189}Ornate Estalian Pauldrons" mesh="empire_goldhero_shoulders_001" weight="8.5" appearance="3" Type="Cape" is_merchandise="true" culture="Culture.empire" value="37000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_undercloth_statetroop_001" name="{=Reiko_ROT_Armor190}Empire State Trooper Uniform" mesh="empire_statetrooper_body_002" weight="0.9" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="6300">
+    <ItemComponent>
+      <Armor body_armor="11" leg_armor="5" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_undercloth_statetroop_002" name="{=Reiko_ROT_Armor191}Empire State Trooper Uniform" mesh="empire_statetrooper_body_003" weight="0.9" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="6300">
+    <ItemComponent>
+      <Armor body_armor="11" leg_armor="5" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_undercloth_statetroop_003" name="{=Reiko_ROT_Armor192}Padded Empire State Trooper Uniform" mesh="empire_statetrooper_body_005" weight="0.9" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="4900">
+    <ItemComponent>
+      <Armor body_armor="14" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_undercloth_statetroop_004" name="{=Reiko_ROT_Armor193}Reinforced Empire State Trooper Uniform" mesh="empire_statetrooper_body_006" weight="0.9" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="4900">
+    <ItemComponent>
+      <Armor body_armor="14" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_kragsburg_001" name="{=Reiko_ROT_Armor194}Von Kragsburg Sergeant Breastplate" mesh="empire_statetrooper_body_004" weight="10.4" appearance="2.2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="40000">
+    <ItemComponent>
+      <Armor body_armor="28" leg_armor="7" arm_armor="5" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_halberdier_001" name="{=Reiko_ROT_Armor195}Empire Halberdier Cuirass" mesh="empire_halberdier_001" weight="11.2" appearance="2.2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="50000">
+    <ItemComponent>
+      <Armor body_armor="30" leg_armor="10" arm_armor="10" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_greatsword_001" name="{=Reiko_ROT_Armor196}Empire Greatsword Chestpiece" mesh="empire_greatsword_body_001" weight="11.4" appearance="1.8" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="56000">
+    <ItemComponent>
+      <Armor body_armor="36" leg_armor="10" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_free_company_001" name="{=Reiko_ROT_Armor197}Free Company Breastplate" mesh="empire_free_company_armor" weight="11.3" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="38000">
+    <ItemComponent>
+      <Armor body_armor="26" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_robe_bright_wizard_001" name="{=Reiko_ROT_Armor198}Bright Wizard's Robe" mesh="bright_wizard_body" weight="1.2" appearance="2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="9800">
+    <ItemComponent>
+      <Armor body_armor="16" leg_armor="6" arm_armor="6" has_gender_variations="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_general_001" name="{=Reiko_ROT_Armor199}Empire Generals Armour" mesh="empire_general_body_001" weight="10.6" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_general_002" name="{=Reiko_ROT_Armor200}Empire Generals Armour" mesh="empire_general_002_armor" weight="10.6" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_robe_light_wizard_001" name="{=Reiko_ROT_Armor201}Light Wizard's Robe" mesh="empire_light_wizard_body" weight="2" appearance="2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="9800">
+    <ItemComponent>
+      <Armor body_armor="16" leg_armor="6" arm_armor="6" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_luthor_huss" name="{=Reiko_ROT_Armor202}Luthor Huss Body Armour" mesh="empire_luthor_huss_body" weight="11.7" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_volkmar" name="{=Reiko_ROT_Armor203}Volkmar the Grim Body Armour" mesh="empire_volkmar_body" weight="9.6" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_marius_leitdorf" name="{=Reiko_ROT_Armor204}Marius Leitdorf Body" mesh="empire_marius_body" weight="9.5" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_robe_balthazar_gelt" name="{=Reiko_ROT_Armor205}Balthazar Gelt Body" mesh="empire_gelt_body" weight="1.0" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="35700">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_kobs_001" name="{=Reiko_ROT_Armor206}Blazing Sun Body Armour" mesh="empire_kobs_body_001" weight="14.5" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_valten" name="{=Reiko_ROT_Armor207}Valten Armour" mesh="empire_valten_body" weight="15.6" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="120000">
+    <ItemComponent>
+      <Armor body_armor="70" leg_armor="25" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_witch_hunter_001" name="{=Reiko_ROT_Armor208}Armoured Leathers" mesh="empire_witch_hunter_body_001" weight="9.9" appearance="2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="44800">
+    <ItemComponent>
+      <Armor body_armor="30" leg_armor="16" arm_armor="18" covers_body="true" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_tracker_001" name="{=Reiko_ROT_Armor209}Armoured Leathers" mesh="empire_tracker_body_001" weight="6.7" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="26600">
+    <ItemComponent>
+      <Armor body_armor="22" leg_armor="10" arm_armor="6" covers_body="true" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_warrior_priest_001" name="{=Reiko_ROT_Armor210}Warrior Priest Rainments" mesh="empire_warrior_priest_body_001" weight="9.7" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="75000">
+    <ItemComponent>
+      <Armor body_armor="45" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_swadian_plate_001" name="{=Reiko_ROT_Armor211}Plate Armour" mesh="swadian_plate_armor" weight="29" appearance="3" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="55" leg_armor="25" arm_armor="22" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_swadian_plate_002" name="{=Reiko_ROT_Armor212}Striped Plate Armour" mesh="swadian_striped_plate_armor" weight="29" appearance="3" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="55" leg_armor="25" arm_armor="22" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_swadian_cuirass_001" name="{=Reiko_ROT_Armor213}Plate Cuirass" mesh="swadian_cuirass" weight="25" appearance="3" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="98000">
+    <ItemComponent>
+      <Armor body_armor="55" leg_armor="25" arm_armor="18" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_swadian_cuirass_002" name="{=Reiko_ROT_Armor214}Striped Cuirass" mesh="swadian_striped_cuirass" weight="25" appearance="3" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="98000">
+    <ItemComponent>
+      <Armor body_armor="55" leg_armor="25" arm_armor="18" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_cannon_crew_001" name="{=Reiko_ROT_Armor215}Engineer Uniform" mesh="empire_cannon_crew_uniform_001" weight="0.9" appearance="2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="6300">
+    <ItemComponent>
+      <Armor body_armor="11" leg_armor="5" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_cannon_crew_002" name="{=Reiko_ROT_Armor216}Engineer Uniform" mesh="empire_cannon_crew_uniform_002" weight="0.9" appearance="2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="6300">
+    <ItemComponent>
+      <Armor body_armor="11" leg_armor="5" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_cannon_crew_003" name="{=Reiko_ROT_Armor217}Engineer Uniform" mesh="empire_cannon_crew_uniform_003" weight="0.9" appearance="2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="6300">
+    <ItemComponent>
+      <Armor body_armor="11" leg_armor="5" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_master_engineer_001" name="{=Reiko_ROT_Armor218}Master Engineer Uniform" mesh="empire_master_engineer_001_body" weight="1.5" appearance="0.5" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="9450">
+    <ItemComponent>
+      <Armor body_armor="15" leg_armor="6" arm_armor="6" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="tor_empire_body_robe_celestial_wizard_001" name="{=Reiko_ROT_Armor219}Celestial Wizard's Robe" mesh="empire_celestial_wizard_001_body" weight="2" appearance="2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="9800">
+    <ItemComponent>
+      <Armor body_armor="16" leg_armor="6" arm_armor="6" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_body_armor_pistolier_001" name="{=Reiko_ROT_Armor220}Empire Medium Breastplate" mesh="empire_pistolier_armor_001_body" weight="8" appearance="2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="50000">
+    <ItemComponent>
+      <Armor body_armor="32" leg_armor="8" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_pistolier_002" name="{=Reiko_ROT_Armor221}Empire Medium Breastplate" mesh="empire_pistolier_armor_002_body" weight="8" appearance="2" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="50000">
+    <ItemComponent>
+      <Armor body_armor="32" leg_armor="8" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_karl_franz" name="{=Reiko_ROT_Armor222}Armour of Magnus" mesh="karl_franz_body" weight="10.6" appearance="4" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_lord_001" name="{=Reiko_ROT_Armor223}Empire Lord Armor" mesh="empire_lord_armor_001_body" weight="9.7" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="75000">
+    <ItemComponent>
+      <Armor body_armor="45" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_armor_lord_002" name="{=Reiko_ROT_Armor224}Empire Lord Armor" mesh="empire_lord_armor_002_body" weight="9.7" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="75000">
+    <ItemComponent>
+      <Armor body_armor="45" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_flagellant_armor_001" name="{=Reiko_ROT_Armor225}Flagellant Cloth" mesh="empire_flagellant_armor_001" weight="9.7" appearance="3" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="4200">
+    <ItemComponent>
+      <Armor body_armor="8" leg_armor="4" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_body_cloth_smith_001" name="{=Reiko_ROT_Armor226}Smith Cloth" mesh="empire_blacksmith_001_body" weight="0.9" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="5250">
+    <ItemComponent>
+      <Armor body_armor="10" leg_armor="5" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_vc_body_breastplate_skeleton_001" name="{=Reiko_ROT_Armor227}Skeleton Warrior Armor" mesh="skeleton_warrior_body_001" weight="6.5" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="9100">
+    <ItemComponent>
+      <Armor body_armor="12" arm_armor="1" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_skeleton_002" name="{=Reiko_ROT_Armor228}Skeleton Warrior Armor" mesh="skeleton_warrior_body_002" weight="8.6" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="16000">
+    <ItemComponent>
+      <Armor body_armor="14" arm_armor="2" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_skeleton_003" name="{=Reiko_ROT_Armor229}Skeleton Warrior Armor" mesh="skeleton_warrior_body_003" weight="3.5" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="3850">
+    <ItemComponent>
+      <Armor body_armor="10" arm_armor="1" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_armor_vampire_lord_001" name="{=Reiko_ROT_Armor230}Vampire Armour" mesh="vampire_lord_body" weight="18.8" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.khuzait" subtype="body_armor" value="100000">
+    <ItemComponent>
+      <Armor body_armor="55" leg_armor="23" arm_armor="22" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_armor_blood_knight_001" name="{=Reiko_ROT_Armor231}Blood Knight Armour" mesh="vc_blood_knight_body_001" weight="17.3" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.khuzait" subtype="body_armor" value="92000">
+    <ItemComponent>
+      <Armor body_armor="50" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_armor_vlad" name="{=Reiko_ROT_Armor232}Vlad von Carstein Body Armour" mesh="vc_vlad_body" weight="18.9" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_armor_red_duke" name="{=Reiko_ROT_Armor233}Red Duke Body Armour" mesh="vc_red_duke_body" weight="17.9" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_armor_mannfred" name="{=Reiko_ROT_Armor234}Mannfred von Carstein Body Armour" mesh="vc_mannfred_body" weight="15.4" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="102000">
+    <ItemComponent>
+      <Armor body_armor="60" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_robe_necromancer_001" name="{=Reiko_ROT_Armor235}Necromancer's Robes" mesh="vc_necromancer_body" weight="2.3" appearance="2" Type="BodyArmor" is_merchandise="true" culture="Culture.khuzait" subtype="body_armor" value="29400">
+    <ItemComponent>
+      <Armor body_armor="18" leg_armor="12" arm_armor="12" covers_body="true" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_grave_guard_001" name="{=Reiko_ROT_Armor236}Uncomplete Grave Guard Armour" mesh="grave_guard_armor_001" weight="10.1" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="21000">
+    <ItemComponent>
+      <Armor body_armor="21" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_grave_guard_002" name="{=Reiko_ROT_Armor237}Uncomplete Grave Guard Armour" mesh="grave_guard_armor_002" weight="11.2" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="21000">
+    <ItemComponent>
+      <Armor body_armor="21" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_grave_guard_003" name="{=Reiko_ROT_Armor238}Grave Guard Armour" mesh="grave_guard_armor_003" weight="10.1" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="28000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="3" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_grave_guard_004" name="{=Reiko_ROT_Armor239}Grave Guard Armour" mesh="grave_guard_armor_004" weight="11.2" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="30000">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="5" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_grave_guard_005" name="{=Reiko_ROT_Armor240}Grave Guard Armour" mesh="grave_guard_armor_005" weight="10.1" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="35000">
+    <ItemComponent>
+      <Armor body_armor="30" arm_armor="5" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_grave_guard_006" name="{=Reiko_ROT_Armor241}Grave Guard Armour" mesh="grave_guard_armor_006" weight="11.2" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="37000">
+    <ItemComponent>
+      <Armor body_armor="30" arm_armor="7" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_wight_king_001" name="{=Reiko_ROT_Armor242}Wight King Shoulders" mesh="vc_wight_king_armor" weight="12.5" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="45000">
+    <ItemComponent>
+      <Armor body_armor="35" arm_armor="10" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_armor_cairn_wraith_001" name="{=Reiko_ROT_Armor243}Cairn Wraith Body" mesh="vc_cairn_wraith_body_001" weight="0.4" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="48300">
+    <ItemComponent>
+      <Armor body_armor="20" leg_armor="12" arm_armor="12" covers_body="true" modifier_group="leather" material_type="Leather" head_armor="25" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_armor_cairn_wraith_002" name="{=Reiko_ROT_Armor244}Cairn Wraith Body" mesh="vc_cairn_wraith_body_002" weight="0.4" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="48300">
+    <ItemComponent>
+      <Armor body_armor="20" leg_armor="12" arm_armor="12" covers_body="true" modifier_group="leather" material_type="Leather" head_armor="25" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_armor_cairn_wraith_003" name="{=Reiko_ROT_Armor245}Cairn Wraith Body" mesh="vc_cairn_wraith_body_003" weight="0.4" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="48300">
+    <ItemComponent>
+      <Armor body_armor="20" leg_armor="12" arm_armor="12" covers_body="true" modifier_group="leather" material_type="Leather" head_armor="25" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_hell_knight_001" name="{=Reiko_ROT_Armor246}Hell Knight Armour" mesh="hell_knight_armor_001" weight="11.2" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="48000">
+    <ItemComponent>
+      <Armor body_armor="32" leg_armor="10" arm_armor="6" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_body_breastplate_dh_templar_001" name="{=Reiko_ROT_Armor247}Drakenhof Templar Armour" mesh="drakenhof_templar_armor_001" weight="11.2" Type="BodyArmor" is_merchandise="false" culture="Culture.khuzait" subtype="body_armor" value="85000">
+    <ItemComponent>
+      <Armor body_armor="55" leg_armor="14" arm_armor="16" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_body_armor_chaos_knight_001" name="{=Reiko_ROT_Armor248}Chaos Plate" mesh="chaos_khorne_knight_001_body" weight="19.7" Type="BodyArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="body_armor" value="125000">
+    <ItemComponent>
+      <Armor body_armor="65" leg_armor="35" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_body_armor_khorne_warrior_001" name="{=Reiko_ROT_Armor249}Khornate Plate" mesh="chaos_khorne_warrior_body_001" weight="20.7" Type="BodyArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="body_armor" value="125000">
+    <ItemComponent>
+      <Armor body_armor="65" leg_armor="35" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_body_armor_khorne_warrior_002" name="{=Reiko_ROT_Armor250}Khornate Plate Armour" mesh="chs_khorne_torso" weight="20.7" Type="BodyArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="body_armor" value="125000">
+    <ItemComponent>
+      <Armor body_armor="65" leg_armor="35" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_body_armor_tzeentch_warrior_001" name="{=Reiko_ROT_Armor251}Tzeentch Plate Armour" mesh="chs_tzeentch_armor_body" weight="20.7" Type="BodyArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="body_armor" value="125000">
+    <ItemComponent>
+      <Armor body_armor="65" leg_armor="35" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_body_armor_nurgle_knight_001" name="{=Reiko_ROT_Armor252}Nurglite Plate Armour" mesh="chaos_nurgle_knight_001_body" weight="19.9" Type="BodyArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="body_armor" value="125000">
+    <ItemComponent>
+      <Armor body_armor="65" leg_armor="35" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_body_robe_cultist_001" name="{=Reiko_ROT_Armor253}Cultist Robe" mesh="chs_cultist_robe_001" weight="2" appearance="2" Type="BodyArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="body_armor" value="3500">
+    <ItemComponent>
+      <Armor body_armor="8" leg_armor="2" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_body_armor_abomination" name="{=Reiko_ROT_Armor254}Abomination Body" mesh="hideous_armor" weight="22.0" Type="BodyArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="body_armor" value="35000">
+    <ItemComponent>
+      <Armor body_armor="20" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_knight_001" name="{=Reiko_ROT_Armor255}Bretonnian Cuir Bouilli Hauberk" mesh="br_knight_realm_body_001" weight="0.8" appearance="4" Type="BodyArmor" is_merchandise="false" culture="Culture.vlandia" subtype="body_armor" value="64500">
+    <ItemComponent>
+      <Armor body_armor="44" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_knight_002" name="{=Reiko_ROT_Armor256}Bretonnian Tabard over Hauberk" mesh="br_heraldictabard_001" weight="0.8" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="64500">
+    <ItemComponent>
+      <Armor body_armor="44" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_questing_knight_001" name="{=Reiko_ROT_Armor257}Questing Knight Armour" mesh="questing_knight_torso_001_a" weight="0.8" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="64500">
+    <ItemComponent>
+      <Armor body_armor="44" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_questing_knight_002" name="{=Reiko_ROT_Armor258}Questing Knight Armour" mesh="questing_knight_torso_001_b" weight="0.8" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="64500">
+    <ItemComponent>
+      <Armor body_armor="44" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_questing_knight_003" name="{=Reiko_ROT_Armor259}Questing Knight Armour" mesh="questing_knight_torso_002" weight="0.8" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="64500">
+    <ItemComponent>
+      <Armor body_armor="44" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_peasant_001" name="{=Reiko_ROT_Armor260}Bretonnian Peasant Garments" mesh="br_peasant_garments_001" weight="0.8" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="9800">
+    <ItemComponent>
+      <Armor body_armor="16" leg_armor="6" arm_armor="6" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_manatarms_001" name="{=Reiko_ROT_Armor261}Bretonnian Heavy Cloth over Gambeson" mesh="br_manatarms_armor_001_a" weight="0.8" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="9100">
+    <ItemComponent>
+      <Armor body_armor="16" leg_armor="6" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_manatarms_002" name="{=Reiko_ROT_Armor262}Bretonnian Heavy Cloth over Mail" mesh="br_manatarms_armor_001_b" weight="0.8" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="27000">
+    <ItemComponent>
+      <Armor body_armor="26" leg_armor="6" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_manatarms_003" name="{=Reiko_ROT_Armor263}Bretonnian Banded Leather over Gambeson" mesh="br_manatarms_armor_002_a" weight="0.8" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="9100">
+    <ItemComponent>
+      <Armor body_armor="16" leg_armor="6" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_manatarms_004" name="{=Reiko_ROT_Armor264}Bretonnian Banded Leather over Mail" mesh="br_manatarms_armor_002_b" weight="0.8" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="27000">
+    <ItemComponent>
+      <Armor body_armor="26" leg_armor="6" arm_armor="4" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_kotr_001" name="{=Reiko_ROT_Armor265}Knight of the Realm Armour" mesh="kotr_torso_001" weight="10.4" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="64500">
+    <ItemComponent>
+      <Armor body_armor="44" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_kotr_002" name="{=Reiko_ROT_Armor266}Knight of the Realm Armour" mesh="kotr_torso_002" weight="10.4" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="64500">
+    <ItemComponent>
+      <Armor body_armor="44" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_pilgrim_001" name="{=Reiko_ROT_Armor267}Battle Pilgrim Armour" mesh="battle_pilgrim_torso_001_a" weight="3" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="7700">
+    <ItemComponent>
+      <Armor body_armor="12" leg_armor="6" arm_armor="4" covers_body="false" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_pilgrim_002" name="{=Reiko_ROT_Armor268}Battle Pilgrim Armour" mesh="battle_pilgrim_torso_001_b" weight="3" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="18200">
+    <ItemComponent>
+      <Armor body_armor="16" leg_armor="6" arm_armor="4" covers_body="false" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnia_body_armor_prophetess_001" name="{=Reiko_ROT_Armor269}Prophetess Dress" mesh="prophetess_001_dress" weight="0.8" appearance="1" Type="BodyArmor" is_merchandise="true" culture="Culture.vlandia" subtype="body_armor" value="7700">
+    <ItemComponent>
+      <Armor body_armor="12" leg_armor="6" arm_armor="4" covers_body="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_mousillon_body_armor_kotr_001" name="{=Reiko_ROT_Armor270}Mousillon Knight of Misfortune Armour" mesh="kotr_mousillon_torso_001" weight="10.4" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.mousillon" subtype="body_armor" value="64500">
+    <ItemComponent>
+      <Armor body_armor="44" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_mousillon_body_armor_bgk_001" name="{=Reiko_ROT_Armor271}Black Grail Knight Armour" mesh="black_grail_knight_001_armor" weight="10.4" appearance="4" Type="BodyArmor" is_merchandise="true" culture="Culture.mousillon" subtype="body_armor" value="64500">
+    <ItemComponent>
+      <Armor body_armor="44" leg_armor="22" arm_armor="20" covers_body="true" modifier_group="chain" material_type="Chainmail" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_body_armor_knight_001" name="{=Reiko_ROT_Armor272}Tilean Rivet Armour" mesh="tilean_knight_body_001" weight="16.2" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="96000">
+    <ItemComponent>
+      <Armor body_armor="46" leg_armor="25" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_body_armor_knight_002" name="{=Reiko_ROT_Armor273}Tilean Rivet Armour" mesh="brass_knight_body_001" weight="16.2" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="96000">
+    <ItemComponent>
+      <Armor body_armor="46" leg_armor="25" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_body_armor_knight_003" name="{=Reiko_ROT_Armor274}Tilean Chestplate over Hauberk" mesh="tilean_knight_body_002" weight="12.4" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="88000">
+    <ItemComponent>
+      <Armor body_armor="38" leg_armor="25" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_estalia_body_armor_noble_001" name="{=Reiko_ROT_Armor275}Estalian Noble Armour" mesh="hero_armor_black_body_001" weight="12.7" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="95000">
+    <ItemComponent>
+      <Armor body_armor="50" leg_armor="20" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_estalia_body_armor_noble_002" name="{=Reiko_ROT_Armor276}Estalian Noble Armour" mesh="hero_armor_red_body_001" weight="12.7" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="95000">
+    <ItemComponent>
+      <Armor body_armor="50" leg_armor="20" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_estalia_body_armor_noble_003" name="{=Reiko_ROT_Armor277}Estalian Noble Armour" mesh="empire_goldhero_body_001" weight="15.2" appearance="3" Type="BodyArmor" is_merchandise="true" culture="Culture.empire" subtype="body_armor" value="95000">
+    <ItemComponent>
+      <Armor body_armor="45" leg_armor="25" arm_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_beastmen_body_armor_ungor_001" name="{=Reiko_ROT_Armor278}Ungor Armour" mesh="ungor_armor_001" weight="1.5" appearance="1" Type="BodyArmor" is_merchandise="false" culture="Culture.empire" subtype="body_armor" value="15400">
+    <ItemComponent>
+      <Armor body_armor="18" leg_armor="4" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_general_001" name="{=Reiko_ROT_Armor279}Empire Generals Gauntlets" mesh="empire_general_gauntlets_001" weight="1.5" appearance="4" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="36000">
+    <ItemComponent>
+      <Armor arm_armor="36" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_general_002" name="{=Reiko_ROT_Armor280}Empire Generals Gauntlets" mesh="empire_general_002_gloves" weight="1.5" appearance="4" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="36000">
+    <ItemComponent>
+      <Armor arm_armor="36" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_bracers_warrior_priest_001" name="{=Reiko_ROT_Armor281}Warrior Priest Braces" mesh="empire_warrior_priest_braces_001" weight="1.5" appearance="3" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="24000">
+    <ItemComponent>
+      <Armor arm_armor="24" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_bracers_bright_wizard_001" name="{=Reiko_ROT_Armor282}Bright Wizard Braces" mesh="bright_wizard_braces" weight="1.5" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="16000">
+    <ItemComponent>
+      <Armor arm_armor="16" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_bracers_light_wizard_001" name="{=Reiko_ROT_Armor283}Light Wizard Braces" mesh="empire_light_wizard_gauntlets" weight="1.5" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="16000">
+    <ItemComponent>
+      <Armor arm_armor="16" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_kobs_001" name="{=Reiko_ROT_Armor284}Blazing Sun Gauntlets" mesh="empire_kobs_gauntlet_001" weight="1.5" appearance="3" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="36000">
+    <ItemComponent>
+      <Armor arm_armor="36" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_goldhero_001" name="{=Reiko_ROT_Armor285}Plate Gauntlets" mesh="empire_goldhero_gauntlet_001" weight="1.5" appearance="3" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="36000">
+    <ItemComponent>
+      <Armor arm_armor="36" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_plate_001" name="{=Reiko_ROT_Armor286}Plate Gauntlets" mesh="hero_armor_black_gauntlets_001" weight="1.5" appearance="3" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="36000">
+    <ItemComponent>
+      <Armor arm_armor="36" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_plate_002" name="{=Reiko_ROT_Armor287}Plate Gauntlets" mesh="hero_armor_red_gauntlets_001" weight="1.5" appearance="3" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="36000">
+    <ItemComponent>
+      <Armor arm_armor="36" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_greatsword_001" name="{=Reiko_ROT_Armor288}Empire Greatsword Gauntlet" mesh="empire_greatsword_gauntlets_001" weight="1.5" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="30000">
+    <ItemComponent>
+      <Armor arm_armor="30" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_greatsword_002" name="{=Reiko_ROT_Armor289}Prosthetic Hook" mesh="empire_greatsword_gauntlets_002" weight="1.5" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="30000">
+    <ItemComponent>
+      <Armor arm_armor="30" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_luthor_huss" name="{=Reiko_ROT_Armor290}Luthor Huss Gauntlets" mesh="empire_luthor_huss_gauntlets" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.empire" subtype="hand_armor" value="40000">
+    <ItemComponent>
+      <Armor arm_armor="40" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_valten" name="{=Reiko_ROT_Armor291}Valten Gauntlets" mesh="empire_valten_gauntlets" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.empire" subtype="hand_armor" value="38000">
+    <ItemComponent>
+      <Armor arm_armor="38" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_volkmar" name="{=Reiko_ROT_Armor292}Volkmar the Grim Gauntlets" mesh="empire_volkmar_gauntlets" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.empire" subtype="hand_armor" value="38000">
+    <ItemComponent>
+      <Armor arm_armor="38" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_marius_leitdorf" name="{=Reiko_ROT_Armor293}Marius Leitdorf Gauntlets" mesh="empire_marius_gauntlets" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.empire" subtype="hand_armor" value="28000">
+    <ItemComponent>
+      <Armor arm_armor="40" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_balthazar_gelt" name="{=Reiko_ROT_Armor294}Balthazar Gelt Gauntlets" mesh="emprie_gelt_gauntlets" weight="0.6" Type="HandArmor" is_merchandise="false" culture="Culture.empire" subtype="hand_armor" value="19600">
+    <ItemComponent>
+      <Armor arm_armor="28" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_witch_hunter_001" name="{=Reiko_ROT_Armor295}Sturdy Leather Gloves" mesh="empire_witch_hunter_gauntlets_001" weight="0.6" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="14000">
+    <ItemComponent>
+      <Armor arm_armor="20" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_cannon_crew_001" name="{=Reiko_ROT_Armor296}Engineer Gloves" mesh="empire_cannon_crew_gloves_001" weight="0.7" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="8400">
+    <ItemComponent>
+      <Armor arm_armor="12" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_cannon_crew_002" name="{=Reiko_ROT_Armor297}Engineer Gloves" mesh="empire_cannon_crew_gloves_002" weight="0.7" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="8400">
+    <ItemComponent>
+      <Armor arm_armor="12" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_cannon_crew_003" name="{=Reiko_ROT_Armor298}Engineer Gloves" mesh="empire_cannon_crew_gloves_003" weight="0.7" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="8400">
+    <ItemComponent>
+      <Armor arm_armor="12" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_master_engineer_001" name="{=Reiko_ROT_Armor299}Master Engineer Gloves" mesh="empire_master_engineer_001_gloves" weight="0.6" appearance="0.5" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="9800">
+    <ItemComponent>
+      <Armor arm_armor="14" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_arm_bracers_celestial_wizard_001" name="{=Reiko_ROT_Armor300}Celestial Wizard Gloves" mesh="empire_celestial_wizard_001_gloves" weight="1.5" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="5600">
+    <ItemComponent>
+      <Armor arm_armor="16" modifier_group="cloth" material_type="Cloth" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_pistolier_001" name="{=Reiko_ROT_Armor301}Empire Leather Gloves" mesh="empire_pistolier_armor_001_gloves" weight="0.5" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="8400">
+    <ItemComponent>
+      <Armor arm_armor="12" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_karl_franz" name="{=Reiko_ROT_Armor302}Gauntlets of Magnus" mesh="karl_franz_gauntlets" weight="1.5" appearance="3" Type="HandArmor" is_merchandise="false" culture="Culture.empire" subtype="hand_armor" value="36000">
+    <ItemComponent>
+      <Armor arm_armor="36" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_lord_001" name="{=Reiko_ROT_Armor303}Empire Lord Gauntlets" mesh="empire_lord_armor_001_gauntlets" weight="1.5" appearance="4" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="36000">
+    <ItemComponent>
+      <Armor arm_armor="36" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_lord_002" name="{=Reiko_ROT_Armor304}Empire Lord Gauntlets" mesh="empire_lord_armor_002_gauntlets" weight="1.5" appearance="4" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="36000">
+    <ItemComponent>
+      <Armor arm_armor="36" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_arm_gauntlet_smith_001" name="{=Reiko_ROT_Armor305}Smith Gloves" mesh="empire_blacksmith_001_gloves" weight="0.5" appearance="2" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="7000">
+    <ItemComponent>
+      <Armor arm_armor="10" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_vc_arm_gauntlet_vampire_lord_001" name="{=Reiko_ROT_Armor306}Vampire Gauntlets" mesh="vampire_lord_gauntlets" weight="1.5" appearance="4" Type="HandArmor" is_merchandise="true" culture="Culture.khuzait" subtype="hand_armor" value="35000">
+    <ItemComponent>
+      <Armor arm_armor="35" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_gauntlet_blood_knight_001" name="{=Reiko_ROT_Armor307}Blood Knight Gauntlets" mesh="vc_blood_knight_gauntlets_001" weight="1.5" appearance="3" Type="HandArmor" is_merchandise="true" culture="Culture.khuzait" subtype="hand_armor" value="30000">
+    <ItemComponent>
+      <Armor arm_armor="30" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_gauntlet_vlad" name="{=Reiko_ROT_Armor308}Vlad von Carstein Gauntlets" mesh="vc_vlad_gauntlets" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.khuzait" subtype="hand_armor" value="40000">
+    <ItemComponent>
+      <Armor arm_armor="40" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_gauntlet_red_duke" name="{=Reiko_ROT_Armor309}Red Duke Gauntlets" mesh="vc_red_duke_gauntlets" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.khuzait" subtype="hand_armor" value="40000">
+    <ItemComponent>
+      <Armor arm_armor="40" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_bracers_skeleton_warrior_001" name="{=Reiko_ROT_Armor310}Skeleton Warrior Bracer" mesh="skeleton_warrior_bracers_001" weight="1" appearance="3" Type="HandArmor" is_merchandise="false" culture="Culture.khuzait" subtype="hand_armor" value="12000">
+    <ItemComponent>
+      <Armor arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_bracers_skeleton_warrior_002" name="{=Reiko_ROT_Armor311}Skeleton Warrior Bracers" mesh="skeleton_warrior_bracers_002" weight="1" appearance="3" Type="HandArmor" is_merchandise="false" culture="Culture.khuzait" subtype="hand_armor" value="12000">
+    <ItemComponent>
+      <Armor arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_bracers_skeleton_warrior_003" name="{=Reiko_ROT_Armor312}Skeleton Warrior Bracers" mesh="skeleton_warrior_bracers_003" weight="1" appearance="3" Type="HandArmor" is_merchandise="false" culture="Culture.khuzait" subtype="hand_armor" value="12000">
+    <ItemComponent>
+      <Armor arm_armor="12" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_bracers_grave_guard_001" name="{=Reiko_ROT_Armor313}Grave Guard Bracers" mesh="grave_guard_braces_001" weight="1" appearance="3" Type="HandArmor" is_merchandise="false" culture="Culture.khuzait" subtype="hand_armor" value="16000">
+    <ItemComponent>
+      <Armor arm_armor="16" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_bracers_grave_guard_002" name="{=Reiko_ROT_Armor314}Grave Guard Bracers" mesh="grave_guard_braces_002" weight="1" appearance="3" Type="HandArmor" is_merchandise="false" culture="Culture.khuzait" subtype="hand_armor" value="16000">
+    <ItemComponent>
+      <Armor arm_armor="16" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_bracers_wight_king_001" name="{=Reiko_ROT_Armor315}Wight King Bracers" mesh="vc_wight_king_bracers" weight="1" appearance="3" Type="HandArmor" is_merchandise="false" culture="Culture.khuzait" subtype="hand_armor" value="20000">
+    <ItemComponent>
+      <Armor arm_armor="20" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_gauntlet_hell_knight_001" name="{=Reiko_ROT_Armor316}Hell Knight Gauntlets" mesh="hell_knight_gloves_001" weight="1" appearance="3" Type="HandArmor" is_merchandise="false" culture="Culture.khuzait" subtype="hand_armor" value="20000">
+    <ItemComponent>
+      <Armor arm_armor="20" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_arm_gauntlet_dh_templar_001" name="{=Reiko_ROT_Armor317}Drakenhof Templar Gauntlets" mesh="drakenhof_templar_gauntlets_001" weight="1" appearance="3" Type="HandArmor" is_merchandise="false" culture="Culture.khuzait" subtype="hand_armor" value="32000">
+    <ItemComponent>
+      <Armor arm_armor="32" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_arm_gauntlet_chaos_knight_001" name="{=Reiko_ROT_Armor318}Chaos Plate Gauntlets" mesh="chaos_khorne_knight_001_gauntlets" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="hand_armor" value="35000">
+    <ItemComponent>
+      <Armor arm_armor="35" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_arm_gauntlet_khorne_warrior_001" name="{=Reiko_ROT_Armor319}Khornate Gauntlets" mesh="chaos_khorne_warrior_gauntlets_001" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="hand_armor" value="35000">
+    <ItemComponent>
+      <Armor arm_armor="35" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_arm_gauntlet_khorne_warrior_002" name="{=Reiko_ROT_Armor320}Khornate Gauntlets" mesh="chs_khorne_bracers" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="hand_armor" value="35000">
+    <ItemComponent>
+      <Armor arm_armor="35" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_arm_gauntlet_tzeentch_warrior_001" name="{=Reiko_ROT_Armor321}Tzeentch Gauntlets" mesh="chs_tzeentch_armor_gloves" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="hand_armor" value="35000">
+    <ItemComponent>
+      <Armor arm_armor="35" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_arm_gauntlet_hallow" name="{=Reiko_ROT_Armor322}Hallow Gauntlets" mesh="hallow_armor_gauntlets" weight="1.5" Type="HandArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="hand_armor" value="35000">
+    <ItemComponent>
+      <Armor arm_armor="35" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_arm_gauntlet_questing_knight_001" name="{=Reiko_ROT_Armor323}Questing Knight Gloves" mesh="questing_knight_bracers_001" weight="0.6" Type="HandArmor" is_merchandise="false" culture="Culture.vlandia" subtype="hand_armor" value="19600">
+    <ItemComponent>
+      <Armor arm_armor="28" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_arm_gauntlet_questing_knight_002" name="{=Reiko_ROT_Armor324}Questing Knight Gloves" mesh="questing_knight_bracers_002" weight="0.6" Type="HandArmor" is_merchandise="false" culture="Culture.vlandia" subtype="hand_armor" value="19600">
+    <ItemComponent>
+      <Armor arm_armor="28" modifier_group="leather" material_type="Leather" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_arm_gauntlet_kotr_001" name="{=Reiko_ROT_Armor325}Knight of the Realm Gauntlets" mesh="kotr_bracer_001" weight="0.6" Type="HandArmor" is_merchandise="true" culture="Culture.vlandia" subtype="hand_armor" value="28000">
+    <ItemComponent>
+      <Armor arm_armor="28" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_arm_gauntlet_pilgrim_001" name="{=Reiko_ROT_Armor326}Battle Pilgrim Bracer" mesh="battle_pilgrim_bracer_001" weight="0.6" Type="HandArmor" is_merchandise="true" culture="Culture.vlandia" subtype="hand_armor" value="19600">
+    <ItemComponent>
+      <Armor arm_armor="28" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_arm_bracers_prophetess_001" name="{=Reiko_ROT_Armor327}Prophetess Bracelets" mesh="prophetess_001_bracelet" weight="0.2" Type="HandArmor" is_merchandise="true" culture="Culture.vlandia" subtype="hand_armor" value="15000">
+    <ItemComponent>
+      <Armor arm_armor="15" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_mousillon_arm_gauntlet_kotr_001" name="{=Reiko_ROT_Armor328}Mousillon Knight of Misfortune Gauntlets" mesh="kotr_mousillon_bracer_001" weight="0.6" Type="HandArmor" is_merchandise="true" culture="Culture.mousillon" subtype="hand_armor" value="28000">
+    <ItemComponent>
+      <Armor arm_armor="28" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_mousillon_arm_gauntlet_bgk_001" name="{=Reiko_ROT_Armor329}Black Grail Knight Gauntlets" mesh="black_grail_knight_001_gloves" weight="0.6" Type="HandArmor" is_merchandise="true" culture="Culture.mousillon" subtype="hand_armor" value="28000">
+    <ItemComponent>
+      <Armor arm_armor="28" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tiliean_arm_gauntlet_knight_001" name="{=Reiko_ROT_Armor330}Tilean Gauntlets" mesh="tilean_knight_gauntlets_001" weight="1.5" appearance="3" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="30000">
+    <ItemComponent>
+      <Armor arm_armor="30" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tiliean_arm_gauntlet_knight_002" name="{=Reiko_ROT_Armor331}Tilean Gauntlets" mesh="tilean_knight_gauntlets_002" weight="1.5" appearance="3" Type="HandArmor" is_merchandise="true" culture="Culture.empire" subtype="hand_armor" value="30000">
+    <ItemComponent>
+      <Armor arm_armor="30" modifier_group="plate" material_type="Plate" covers_hands="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_free_company_001" name="{=Reiko_ROT_Armor332}High Leather Boots" mesh="empire_free_company_armor_leg" weight="1" appearance="1" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="10500">
+    <ItemComponent>
+      <Armor leg_armor="15" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_general_001" name="{=Reiko_ROT_Armor333}Empire Generals Boots" mesh="empire_general_boots_001" weight="3.5" appearance="4" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_general_002" name="{=Reiko_ROT_Armor334}Empire Generals Boots" mesh="empire_general_002_boots" weight="3.5" appearance="4" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_estalia_leg_boots_plate_001" name="{=Reiko_ROT_Armor335}Ornate Estalian Boots" mesh="hero_armor_black_boots_001" weight="3.5" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_estalia_leg_boots_plate_002" name="{=Reiko_ROT_Armor336}Ornate Estalian Boots" mesh="hero_armor_red_boots_001" weight="3.5" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_greatsword_001" name="{=Reiko_ROT_Armor337}Empire Greatsword Plate Boot" mesh="empire_greatsword_boots_001" weight="3.0" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_greatsword_002" name="{=Reiko_ROT_Armor338}Prothsetic Leg" mesh="empire_greatsword_boots_002" weight="3.0" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_luthor_huss" name="{=Reiko_ROT_Armor339}Luthor Huss Boots" mesh="empire_luthor_huss_boots" weight="3.5" Type="LegArmor" is_merchandise="false" culture="Culture.empire" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_valten" name="{=Reiko_ROT_Armor340}Valten Boots" mesh="empire_valten_boots" weight="3.5" Type="LegArmor" is_merchandise="false" culture="Culture.empire" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_volkmar" name="{=Reiko_ROT_Armor341}Volkmar the Grim Boots" mesh="empire_volkmar_boots" weight="3.5" Type="LegArmor" is_merchandise="false" culture="Culture.empire" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_warrior_priest_001" name="{=Reiko_ROT_Armor342}Plate Boots" mesh="empire_warrior_priest_boots_001" weight="3.5" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="20000">
+    <ItemComponent>
+      <Armor leg_armor="20" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_marius_leitdorf" name="{=Reiko_ROT_Armor343}Marius Leitdorf Boots" mesh="empire_marius_boots" weight="0.9" Type="LegArmor" is_merchandise="false" culture="Culture.empire" subtype="leg_armor" value="20000">
+    <ItemComponent>
+      <Armor leg_armor="20" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_balthazar_gelt" name="{=Reiko_ROT_Armor344}Balthazar Gelt Boots" mesh="empire_gelt_boots" weight="0.9" Type="LegArmor" is_merchandise="false" culture="Culture.empire" subtype="leg_armor" value="17500">
+    <ItemComponent>
+      <Armor leg_armor="25" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_tracker_001" name="{=Reiko_ROT_Armor345}Leather Boots" mesh="empire_tracker_boots_001" weight="0.8" appearance="1" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="8400">
+    <ItemComponent>
+      <Armor leg_armor="12" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_light_wizard_001" name="{=Reiko_ROT_Armor346}Light Wizard Boots" mesh="empire_light_wizard_boots" weight="0.8" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="12600">
+    <ItemComponent>
+      <Armor leg_armor="18" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_kobs_001" name="{=Reiko_ROT_Armor347}Blazing Sun Plate Boots" mesh="empire_kobs_boots_001" weight="3.5" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_witch_hunter_001" name="{=Reiko_ROT_Armor348}Plated Leather Boots" mesh="empire_witch_hunter_boots_001" weight="0.9" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="17500">
+    <ItemComponent>
+      <Armor leg_armor="25" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_bright_wizard_001" name="{=Reiko_ROT_Armor349}Bright Wizard Boots" mesh="bright_wizard_boots" weight="0.9" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="12600">
+    <ItemComponent>
+      <Armor leg_armor="18" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_empire_knight_001" name="{=Reiko_ROT_Armor350}Plated Boots" mesh="empire_knight_boots_1" weight="3.5" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_empire_knight_002" name="{=Reiko_ROT_Armor351}Plated Boots" mesh="empire_knight_boots_2" weight="3.5" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_empire_knight_003" name="{=Reiko_ROT_Armor352}Plated Boots" mesh="empire_knight_boots_3" weight="3.5" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_empire_knight_004" name="{=Reiko_ROT_Armor353}Plated Boots" mesh="empire_knight_boots_4" weight="3.5" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_empire_goldhero_001" name="{=Reiko_ROT_Armor354}Plated Boots" mesh="empire_goldhero_boots_001" weight="3.5" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_plate_001" name="{=Reiko_ROT_Armor355}Plate Boots" mesh="plateboot" weight="1.8" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="28000">
+    <ItemComponent>
+      <Armor leg_armor="28" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_plate_002" name="{=Reiko_ROT_Armor356}Plate Boots" mesh="plateboot2" weight="1.8" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="28000">
+    <ItemComponent>
+      <Armor leg_armor="28" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_cannon_crew_001" name="{=Reiko_ROT_Armor357}Engineer Boots" mesh="empire_cannon_crew_boots_001" weight="0.9" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="5600">
+    <ItemComponent>
+      <Armor leg_armor="8" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_cannon_crew_002" name="{=Reiko_ROT_Armor358}Engineer Boots" mesh="empire_cannon_crew_boots_002" weight="0.9" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="5600">
+    <ItemComponent>
+      <Armor leg_armor="8" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_cannon_crew_003" name="{=Reiko_ROT_Armor359}Engineer Boots" mesh="empire_cannon_crew_boots_003" weight="0.9" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="5600">
+    <ItemComponent>
+      <Armor leg_armor="8" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_master_engineer_001" name="{=Reiko_ROT_Armor360}Master Engineer Boots" mesh="empire_master_engineer_001_boots" weight="1" appearance="0.5" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="7000">
+    <ItemComponent>
+      <Armor leg_armor="10" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_celestial_wizard_001" name="{=Reiko_ROT_Armor361}Celestial Wizard Boots" mesh="empire_celestial_wizard_001_boots" weight="0.8" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="12600">
+    <ItemComponent>
+      <Armor leg_armor="18" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_pistolier_003" name="{=Reiko_ROT_Armor362}Empire Leather Boots" mesh="empire_pistolier_armor_001_boots" weight="1.5" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="5600">
+    <ItemComponent>
+      <Armor leg_armor="8" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_empire_leg_boots_karl_franz" name="{=Reiko_ROT_Armor363}Boots of Magnus" mesh="karl_franz_boots" weight="3.5" appearance="3" Type="LegArmor" is_merchandise="false" culture="Culture.empire" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_lord_001" name="{=Reiko_ROT_Armor364}Empire Lord Boots" mesh="empire_lord_armor_001_boots" weight="1.8" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="28000">
+    <ItemComponent>
+      <Armor leg_armor="28" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_lord_002" name="{=Reiko_ROT_Armor365}Empire Lord Boots" mesh="empire_lord_armor_002_boots" weight="1.8" appearance="3" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="28000">
+    <ItemComponent>
+      <Armor leg_armor="28" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_empire_leg_boots_smith_001" name="{=Reiko_ROT_Armor366}Smith Boots" mesh="empire_blacksmith_001_boots" weight="0.9" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="5600">
+    <ItemComponent>
+      <Armor leg_armor="8" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_vc_leg_boots_skeleton_warrior_001" name="{=Reiko_ROT_Armor367}Skeleton Warrior Boots" mesh="skeleton_warrior_boots_001" weight="4.0" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="10000">
+    <ItemComponent>
+      <Armor leg_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_skeleton_warrior_002" name="{=Reiko_ROT_Armor368}Skeleton Warrior Boots" mesh="skeleton_warrior_boots_002" weight="3.0" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="10000">
+    <ItemComponent>
+      <Armor leg_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_skeleton_warrior_003" name="{=Reiko_ROT_Armor369}Skeleton Warrior Boots" mesh="skeleton_warrior_boots_003" weight="3.0" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="10000">
+    <ItemComponent>
+      <Armor leg_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_skeleton_warrior_004" name="{=Reiko_ROT_Armor370}Skeleton Warrior Boots" mesh="skeleton_warrior_boots_004" weight="2.0" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="10000">
+    <ItemComponent>
+      <Armor leg_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_skeleton_warrior_005" name="{=Reiko_ROT_Armor371}Skeleton Warrior Boots" mesh="skeleton_warrior_boots_005" weight="3.5" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="10000">
+    <ItemComponent>
+      <Armor leg_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_skeleton_warrior_006" name="{=Reiko_ROT_Armor372}Skeleton Warrior Boots" mesh="skeleton_warrior_boots_006" weight="0.5" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="10000">
+    <ItemComponent>
+      <Armor leg_armor="10" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_skeleton_warrior_007" name="{=Reiko_ROT_Armor373}Skeleton Warrior Boots" mesh="skeleton_warrior_boots_007" weight="0.9" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="7000">
+    <ItemComponent>
+      <Armor leg_armor="10" modifier_group="leather" material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_vampire_lord_001" name="{=Reiko_ROT_Armor374}Vampire Armoured Boots" mesh="vampire_lord_boots" weight="3.8" appearance="4" Type="LegArmor" is_merchandise="true" culture="Culture.khuzait" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" has_gender_variations="true" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_vc_wight_king_001" name="{=Reiko_ROT_Armor375}Wight King Boots" mesh="vc_wight_king_boots" weight="4.0" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_vlad" name="{=Reiko_ROT_Armor376}Vlad von Carstein Boots" mesh="vc_vlad_boots" weight="4.2" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="60000">
+    <ItemComponent>
+      <Armor leg_armor="60" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_red_duke" name="{=Reiko_ROT_Armor377}Red Duke Boots" mesh="vc_red_duke_boots" weight="4.0" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="55000">
+    <ItemComponent>
+      <Armor leg_armor="55" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_mannfred" name="{=Reiko_ROT_Armor378}Mannfred von Carstein Boots" mesh="vc_mannfred_feet" weight="4.0" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_necromancer" name="{=Reiko_ROT_Armor379}Necromancer Boots" mesh="vc_necromancer_boots" weight="0.7" appearance="2" Type="LegArmor" is_merchandise="true" culture="Culture.khuzait" subtype="leg_armor" value="10500">
+    <ItemComponent>
+      <Armor leg_armor="15" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="tor_vc_leg_boots_cairn_wraith_001" name="{=Reiko_ROT_Armor380}Cairn Wraith Rags" mesh="vc_cairn_wraith_lowerbody_001" weight="0.9" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="11200">
+    <ItemComponent>
+      <Armor leg_armor="16" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_cairn_wraith_002" name="{=Reiko_ROT_Armor381}Cairn Wraith Rags" mesh="vc_cairn_wraith_lowerbody_002" weight="0.9" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="11200">
+    <ItemComponent>
+      <Armor leg_armor="16" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_cairn_wraith_003" name="{=Reiko_ROT_Armor382}Cairn Wraith Rags" mesh="vc_cairn_wraith_lowerbody_003" weight="0.9" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="11200">
+    <ItemComponent>
+      <Armor leg_armor="16" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_vc_hell_knight_001" name="{=Reiko_ROT_Armor383}Hell Knight Boots" mesh="hell_knight_boots_001" weight="4.0" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="40000">
+    <ItemComponent>
+      <Armor leg_armor="40" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_vc_leg_boots_vc_dh_templar_001" name="{=Reiko_ROT_Armor384}Drakenhof Templar Boots" mesh="drakenhof_templar_boots_001" weight="4.0" Type="LegArmor" is_merchandise="false" culture="Culture.khuzait" subtype="leg_armor" value="42000">
+    <ItemComponent>
+      <Armor leg_armor="42" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_leg_boots_chaos_knight_001" name="{=Reiko_ROT_Armor385}Chaos Plate Boots" mesh="chaos_khorne_knight_001_boots" weight="4.3" Type="LegArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="leg_armor" value="45000">
+    <ItemComponent>
+      <Armor leg_armor="45" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_leg_boots_nurgle_knight_001" name="{=Reiko_ROT_Armor386}Nurglite Plate Boots" mesh="chaos_nurgle_knight_001_boots" weight="4.5" Type="LegArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="leg_armor" value="45000">
+    <ItemComponent>
+      <Armor leg_armor="45" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_leg_boots_khorne_warrior_001" name="{=Reiko_ROT_Armor387}Khornate Plate Boots" mesh="chaos_khorne_warrior_boots_001" weight="4.1" Type="LegArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="leg_armor" value="45000">
+    <ItemComponent>
+      <Armor leg_armor="45" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_leg_boots_khorne_warrior_002" name="{=Reiko_ROT_Armor388}Khornate Plate Boots" mesh="chs_khorne_boots" weight="4.1" Type="LegArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="leg_armor" value="45000">
+    <ItemComponent>
+      <Armor leg_armor="45" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_leg_boots_tzeentch_warrior_001" name="{=Reiko_ROT_Armor389}Tzeentch Plate Boots" mesh="chs_tzeentch_armor_boots" weight="4.1" Type="LegArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="leg_armor" value="45000">
+    <ItemComponent>
+      <Armor leg_armor="45" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_chaos_leg_boots_hallow" name="{=Reiko_ROT_Armor390}Chaos Plate Boots" mesh="hallow_armor_boots" weight="4.0" Type="LegArmor" is_merchandise="false" culture="Culture.chaos_culture" subtype="leg_armor" value="45000">
+    <ItemComponent>
+      <Armor leg_armor="45" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_leg_boots_knight_001" name="{=Reiko_ROT_Armor391}Armoured Boots" mesh="br_knight_realm_boots_001" weight="3.5" Type="LegArmor" is_merchandise="true" culture="Culture.vlandia" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_leg_boots_manatarms_001" name="{=Reiko_ROT_Armor392}Old Leather Boots" mesh="br_manatarms_boots_001" weight="3.5" Type="LegArmor" is_merchandise="true" culture="Culture.vlandia" subtype="leg_armor" value="12600">
+    <ItemComponent>
+      <Armor leg_armor="18" modifier_group="leather" material_type="Leather" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_leg_boots_questing_knight_001" name="{=Reiko_ROT_Armor393}Questing Knight Plate Boots" mesh="questing_knight_boots_001" weight="3.5" Type="LegArmor" is_merchandise="true" culture="Culture.vlandia" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_leg_boots_kotr_001" name="{=Reiko_ROT_Armor394}Knight of the Realms Boots" mesh="kotr_boots_001" weight="3.5" Type="LegArmor" is_merchandise="true" culture="Culture.vlandia" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_bretonnian_leg_boots_prophetess_001" name="{=Reiko_ROT_Armor395}Prophetess Shoes" mesh="prophetess_001_shoes" weight="0.5" Type="LegArmor" is_merchandise="true" culture="Culture.vlandia" subtype="leg_armor" value="6300">
+    <ItemComponent>
+      <Armor leg_armor="18" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_mousillon_leg_boots_kotr_001" name="{=Reiko_ROT_Armor396}Mousillon Knight of Misfortune Boots" mesh="kotr_mousillon_boots_001" weight="3.5" Type="LegArmor" is_merchandise="true" culture="Culture.mousillon" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_mousillon_leg_boots_bgk_001" name="{=Reiko_ROT_Armor397}Black Grail Knight Boots" mesh="black_grail_knight_001_boots" weight="3.5" Type="LegArmor" is_merchandise="true" culture="Culture.mousillon" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_leg_boots_knight_001" name="{=Reiko_ROT_Armor398}Plate Boots" mesh="tilean_knight_boots_001" weight="3.5" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="tor_tilean_leg_boots_knight_002" name="{=Reiko_ROT_Armor399}Plate Boots" mesh="tilean_knight_boots_002" weight="3.5" Type="LegArmor" is_merchandise="true" culture="Culture.empire" subtype="leg_armor" value="35000">
+    <ItemComponent>
+      <Armor leg_armor="35" modifier_group="plate" material_type="Plate" covers_legs="true" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+</Items>

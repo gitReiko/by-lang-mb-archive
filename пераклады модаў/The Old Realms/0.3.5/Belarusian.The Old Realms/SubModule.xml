@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="Belarusian The Old Realms"/>
+	<Id value="Belarusian The Old Realms"/>
+	<Version value="v1.2.3"/>
+	<DefaultModule value="true"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Author value="Denis Makouski (Reiko17)" />
+  	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.2.3"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.2.3"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.2.3"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.2.3"/>
+		<DependedModule Id="Belarusian Core" DependentVersion="v1.2.3"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls> 
+
+		<XmlNode>
+			<XmlName id="Factions" path="tor_clans"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Kingdoms" path="tor_kingdoms"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Religions" path="tor_religions" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Settlements" path="tor_settlements" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="tor_armors"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="tor_horseandharness"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="tor_meleeweapons"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="tor_other_items"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="tor_projectiles"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="tor_rangedweapons"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="tor_shields"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+	</Xmls>
+</Module>

@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+  <Item id="tor_empire_weapon_banner_001" name="{=Reiko_ROT_Shield1}Banner of Stirland" body_name="bo_spear_b" recalculate_body="true" mesh="empire_banner_001" prefab="empire_banner_001" using_tableau="false" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.empire" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="DecreasedMoraleShock" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_empire_weapon_banner_002" name="{=Reiko_ROT_Shield2}Banner of Averland" body_name="bo_spear_b" recalculate_body="true" mesh="empire_banner_002" prefab="empire_banner_002" using_tableau="false" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.empire" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="DecreasedMoraleShock" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_empire_weapon_banner_003" name="{=Reiko_ROT_Shield3}Banner of Averland" body_name="bo_spear_b" recalculate_body="true" mesh="empire_banner_003" prefab="empire_banner_003" using_tableau="false" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.empire" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="DecreasedMoraleShock" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_empire_faction_banner_001" name="{=Reiko_ROT_Shield4}Faction Banner" body_name="bo_spear_b" recalculate_body="true" mesh="campaign_flag" prefab="campaign_flag" using_tableau="true" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.empire" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="DecreasedMoraleShock" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_empire_banner_t1_001" name="{=Reiko_ROT_Shield5}Empire Standard T1" body_name="bo_empire_banner_tier1" recalculate_body="true" mesh="empire_banner_tier1" prefab="empire_banner_tier1" using_tableau="true" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.neutral" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="DecreasedMoraleShock" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_empire_banner_t2_001" name="{=Reiko_ROT_Shield6}Empire Standard T2" body_name="bo_empire_banner_tier2" recalculate_body="true" mesh="empire_banner_tier2" prefab="empire_banner_tier2" using_tableau="true" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.neutral" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="2" weapon_class="Banner" effect="DecreasedMoraleShock" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_empire_banner_t3_001" name="{=Reiko_ROT_Shield7}Empire Standard T3" body_name="bo_empire_banner_tier3" recalculate_body="true" mesh="empire_banner_tier3" prefab="empire_banner_tier3" using_tableau="true" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.neutral" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="3" weapon_class="Banner" effect="DecreasedMoraleShock" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-1.2" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_vc_weapon_banner_001" name="{=Reiko_ROT_Shield8}Sylvanian Banner" body_name="bo_vc_banner_001" recalculate_body="true" mesh="vc_banner_001" prefab="vc_banner_001" using_tableau="false" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.khuzait" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="IncreasedMeleeDamage" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_vc_weapon_banner_002" name="{=Reiko_ROT_Shield9}Von Carstein Banner" body_name="bo_vc_banner_002" recalculate_body="true" mesh="vc_banner_002" prefab="vc_banner_002" using_tableau="false" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.khuzait" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="IncreasedMeleeDamage" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_vc_weapon_banner_003" name="{=Reiko_ROT_Shield10}Sylvanian Banner" body_name="bo_vc_banner_003" recalculate_body="true" mesh="vc_banner_003" prefab="vc_banner_003" using_tableau="false" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.khuzait" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="IncreasedMeleeDamage" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_vc_weapon_banner_undead_001" name="{=Reiko_ROT_Shield11}Undead Totem" body_name="bo_spear_b" recalculate_body="true" mesh="undead_banner_001" prefab="undead_banner_001" using_tableau="false" weight="0.2" appearance="1.1" value="1500" Type="Banner" is_merchandise="false" culture="Culture.khuzait" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="IncreasedMeleeDamage" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_chaos_weapon_banner_001" name="{=Reiko_ROT_Shield12}Chaos Banner" body_name="bo_spear_b" recalculate_body="true" mesh="chaos_banner_001" prefab="chaos_banner_001" using_tableau="false" weight="0.2" appearance="1.5" value="2500" Type="Banner" is_merchandise="false" culture="Culture.chaos_culture" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="IncreasedMeleeDamage" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_chaos_weapon_banner_002" name="{=Reiko_ROT_Shield13}Chaos Banner" body_name="bo_spear_b" recalculate_body="true" mesh="chaos_banner_002" prefab="chaos_banner_002" using_tableau="false" weight="0.2" appearance="1.5" value="2500" Type="Banner" is_merchandise="false" culture="Culture.chaos_culture" item_holsters="abdomen_left" holster_position_shift="0,0,0">
+    <ItemComponent>
+      <Banner banner_level="1" weapon_class="Banner" effect="IncreasedMeleeDamage" weapon_balance="100" thrust_speed="78" speed_rating="97" missile_speed="0" weapon_length="150" swing_damage="6" swing_damage_type="Blunt" item_usage="banner" physics_material="wood_weapon" position="0.0,0.0,-0.8" />
+    </ItemComponent>
+    <Flags HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true" HasToBeHeldUp="true" DropOnWeaponChange="true" CanBePickedUpFromCorpse="false" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_001" name="{=Reiko_ROT_Shield14}Metal Plated Shield" body_name="bo_cap_empire_shield_001" shield_body_name="bo_empire_shield_001" recalculate_body="false" mesh="empire_shield_001" using_tableau="true" weight="5.3" appearance="1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,15.0,40.0" physics_material="metal_shield" weapon_length="60" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="500">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_002" name="{=Reiko_ROT_Shield15}Blazing Sun Shield" body_name="bo_cap_empire_shield_002" shield_body_name="bo_empire_shield_002" recalculate_body="false" mesh="empire_shield_002" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,15.0,40.0" physics_material="metal_shield" weapon_length="60" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_003" name="{=Reiko_ROT_Shield16}Ornate Metal Shield" body_name="bo_cap_empire_shield_003" shield_body_name="bo_empire_shield_003" recalculate_body="false" mesh="empire_shield_003" using_tableau="true" weight="5.4" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,15.0,40.0" physics_material="metal_shield" weapon_length="60" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="510">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_004" name="{=Reiko_ROT_Shield17}Ornate Metal Shield" body_name="bo_cap_empire_shield_004" shield_body_name="bo_empire_shield_004" recalculate_body="false" mesh="empire_shield_004" using_tableau="true" weight="5.2" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.1,-0.02,0.065" rotation="10.0,10.0,40.0" physics_material="metal_shield" weapon_length="60" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="505">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_005" name="{=Reiko_ROT_Shield18}Ornate Metal Shield" body_name="bo_cap_empire_shield_005" shield_body_name="bo_empire_shield_005" recalculate_body="false" mesh="empire_shield_005" using_tableau="true" weight="5.2" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.1,-0.02,0.065" rotation="10.0,10.0,40.0" physics_material="metal_shield" weapon_length="60" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="505">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_006" name="{=Reiko_ROT_Shield19}Wooden Board Shield" body_name="bo_cap_empire_shield_006" shield_body_name="bo_empire_shield_006" recalculate_body="false" mesh="empire_shield_006" using_tableau="true" weight="4.2" appearance="0.9" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="5" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,10.0,40.0" physics_material="wood_shield" weapon_length="67" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="245">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_007" name="{=Reiko_ROT_Shield20}Wooden Board Shield" body_name="bo_cap_empire_shield_007" shield_body_name="bo_empire_shield_007" recalculate_body="false" mesh="empire_shield_007" using_tableau="true" weight="4.2" appearance="0.9" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="5" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,10.0,40.0" physics_material="wood_shield" weapon_length="67" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="245">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_008" name="{=Reiko_ROT_Shield21}Metal Plated Shield" body_name="bo_cap_empire_shield_008" shield_body_name="bo_empire_shield_008" recalculate_body="false" mesh="empire_shield_008" using_tableau="true" weight="6.5" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,10.0,40.0" physics_material="metal_shield" weapon_length="67" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="490">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_luthor" name="{=Reiko_ROT_Shield22}Luthor Huss Shield" body_name="bo_cap_luthor_shield" shield_body_name="bo_luthor_shield" recalculate_body="false" mesh="luthor_shield" using_tableau="false" weight="8.5" appearance="1.6" value="1500" Type="Shield" is_merchandise="false" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="10" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.02" rotation="5.0,13.0,40.0" physics_material="metal_shield" weapon_length="67" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="600">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_warrior_priest_001" name="{=Reiko_ROT_Shield23}Warrior Priest Shield" body_name="bo_cap_empire_warrior_priest_shield_001" shield_body_name="bo_empire_warrior_priest_shield_001" recalculate_body="false" mesh="empire_warrior_priest_shield_001" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,15.0,40.0" physics_material="wood_shield" weapon_length="60" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_warrior_priest_002" name="{=Reiko_ROT_Shield24}Warrior Priest Shield" body_name="bo_cap_empire_warrior_priest_shield_002" shield_body_name="bo_empire_warrior_priest_shield_002" recalculate_body="false" mesh="empire_warrior_priest_shield_002" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,15.0,40.0" physics_material="wood_shield" weapon_length="60" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_warrior_priest_003" name="{=Reiko_ROT_Shield25}Warrior Priest Shield" body_name="bo_cap_empire_warrior_priest_shield_003" shield_body_name="bo_empire_warrior_priest_shield_003" recalculate_body="false" mesh="empire_warrior_priest_shield_003" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,15.0,40.0" physics_material="wood_shield" weapon_length="60" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_warrior_priest_004" name="{=Reiko_ROT_Shield26}Warrior Priest Shield" body_name="bo_cap_empire_warrior_priest_shield_004" shield_body_name="bo_empire_warrior_priest_shield_004" recalculate_body="false" mesh="empire_warrior_priest_shield_004" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,15.0,40.0" physics_material="wood_shield" weapon_length="60" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_warrior_priest_005" name="{=Reiko_ROT_Shield27}Warrior Priest Shield" body_name="bo_cap_empire_warrior_priest_shield_005" shield_body_name="bo_empire_warrior_priest_shield_005" recalculate_body="false" mesh="empire_warrior_priest_shield_005" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="5.0,15.0,40.0" physics_material="wood_shield" weapon_length="60" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_reiksguard_knight_001" name="{=Reiko_ROT_Shield28}Reiksguards Knight Shield" body_name="bo_cap_reiksguard_knight_shield_001" shield_body_name="bo_reiksguard_knight_shield_001" recalculate_body="false" mesh="reiksguard_knight_shield_001" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_reiksguard_knight_002" name="{=Reiko_ROT_Shield29}Reiksguards Knight Shield" body_name="bo_cap_reiksguard_knight_shield_002" shield_body_name="bo_reiksguard_knight_shield_002" recalculate_body="false" mesh="reiksguard_knight_shield_002" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_reiksguard_knight_003" name="{=Reiko_ROT_Shield30}Reiksguards Knight Shield" body_name="bo_cap_reiksguard_knight_shield_003" shield_body_name="bo_reiksguard_knight_shield_003" recalculate_body="false" mesh="reiksguard_knight_shield_003" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_reiksguard_circle_001" name="{=Reiko_ROT_Shield31}Reiksguards Inner Circle Shield" body_name="bo_cap_reiksguard_knight_shield_001" shield_body_name="bo_reiksguard_knight_shield_001" recalculate_body="false" mesh="reiksguard_circle_shield_001" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="10" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="600">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_reiksguard_circle_002" name="{=Reiko_ROT_Shield32}Reiksguards Inner Circle Shield" body_name="bo_cap_reiksguard_knight_shield_002" shield_body_name="bo_reiksguard_knight_shield_002" recalculate_body="false" mesh="reiksguard_circle_shield_002" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="10" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="600">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_reiksguard_circle_003" name="{=Reiko_ROT_Shield33}Reiksguards Inner Circle Shield" body_name="bo_cap_reiksguard_knight_shield_003" shield_body_name="bo_reiksguard_knight_shield_003" recalculate_body="false" mesh="reiksguard_circle_shield_003" using_tableau="false" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="10" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="600">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_skeleton_001" name="{=Reiko_ROT_Shield34}Skeleton Warrior Shield" body_name="bo_cap_skele_warr_shield_001" shield_body_name="bo_skele_warr_shield_001" recalculate_body="false" mesh="skele_warr_shield_001" using_tableau="false" weight="4.8" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="2" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="hand_shield" position="0.25,0.0,0.0" rotation="0.0,10.0,30.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="155">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_skeleton_002" name="{=Reiko_ROT_Shield35}Skeleton Warrior Shield" body_name="bo_cap_skele_warr_shield_002" shield_body_name="bo_skele_warr_shield_002" recalculate_body="false" mesh="skele_warr_shield_002" using_tableau="false" weight="5.0" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="2" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="hand_shield" position="0.25,0.0,0.0" rotation="0.0,10.0,30.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="160">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_skeleton_003" name="{=Reiko_ROT_Shield36}Skeleton Warrior Shield" body_name="bo_cap_skele_warr_shield_003" shield_body_name="bo_skele_warr_shield_003" recalculate_body="false" mesh="skele_warr_shield_003" using_tableau="false" weight="5.5" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="2" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,-0.05,0.0" rotation="-5.0,10.0,45.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="180">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_skeleton_004" name="{=Reiko_ROT_Shield37}Skeleton Warrior Shield" body_name="bo_cap_skele_warr_shield_004" shield_body_name="bo_skele_warr_shield_004" recalculate_body="false" mesh="skele_warr_shield_004" using_tableau="false" weight="4.9" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="2" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,-0.05,0.0" rotation="0.0,10.0,45.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="168">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_skeleton_005" name="{=Reiko_ROT_Shield38}Skeleton Warrior Shield" body_name="bo_cap_skele_warr_shield_005" shield_body_name="bo_skele_warr_shield_005" recalculate_body="false" mesh="skele_warr_shield_005" using_tableau="false" weight="4.9" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="2" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,-0.05,0.0" rotation="0.0,10.0,45.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="170">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_skeleton_006" name="{=Reiko_ROT_Shield39}Skeleton Warrior Shield" body_name="bo_cap_skele_warr_shield_006" shield_body_name="bo_skele_warr_shield_006" recalculate_body="false" mesh="skele_warr_shield_006" using_tableau="false" weight="4.6" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="2" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,-0.05,0.0" rotation="-5.0,5.0,45.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="155">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_skeleton_007" name="{=Reiko_ROT_Shield40}Skeleton Warrior Shield" body_name="bo_cap_skele_warr_shield_007" shield_body_name="bo_skele_warr_shield_007" recalculate_body="false" mesh="skele_warr_shield_007" using_tableau="false" weight="5.7" appearance="0.8" value="1500" Type="Shield" is_merchandise="true" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="2" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,-0.05,0.0" rotation="-5.0,5.0,45.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="190">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_grave_guard_001" name="{=Reiko_ROT_Shield41}Grave Guard Shield" body_name="bo_cap_grave_guard_shield_001" shield_body_name="bo_grave_guard_shield_001" recalculate_body="false" mesh="grave_guard_shield_001" using_tableau="false" weight="6.1" appearance="1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="3" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="0.0,10.0,45.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="280">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_grave_guard_002" name="{=Reiko_ROT_Shield42}Grave Guard Shield" body_name="bo_cap_grave_guard_shield_002" shield_body_name="bo_grave_guard_shield_002" recalculate_body="false" mesh="grave_guard_shield_002" using_tableau="false" weight="6.4" appearance="1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="3" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="0.0,10.0,45.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="280">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_vampire_006" name="{=Reiko_ROT_Shield43}Vampire Shield" body_name="bo_cap_vampire_shield_006" shield_body_name="bo_vampire_shield_006" recalculate_body="false" mesh="vampire_shield_006" using_tableau="false" weight="6.8" appearance="1.2" value="1500" Type="Shield" is_merchandise="true" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="5" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.1,-0.19,-0.01" rotation="0.05,0.0,45.0" physics_material="metal_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="350">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_vampire_007" name="{=Reiko_ROT_Shield44}Vampire Shield" body_name="bo_cap_vampire_shield_007" shield_body_name="bo_vampire_shield_007" recalculate_body="false" mesh="vampire_shield_007" using_tableau="false" weight="7.1" appearance="1.2" value="1500" Type="Shield" is_merchandise="true" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="5" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="-0.05,-0.07,0.02" rotation="0.0,10.0,45.0" physics_material="metal_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="350">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_vampire_008" name="{=Reiko_ROT_Shield45}Vampire Shield" body_name="bo_cap_vampire_shield_008" shield_body_name="bo_vampire_shield_008" recalculate_body="false" mesh="vampire_shield_008" using_tableau="false" weight="7.9" appearance="1.2" value="1500" Type="Shield" is_merchandise="true" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="5" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="-0.09,0.0,0.02" rotation="0.0,10.0,45.0" physics_material="metal_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="350">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_vampire_009" name="{=Reiko_ROT_Shield46}Vampire Shield" body_name="bo_cap_vampire_shield_009" shield_body_name="bo_vampire_shield_009" recalculate_body="false" mesh="vampire_shield_009" using_tableau="false" weight="7.6" appearance="1.2" value="1500" Type="Shield" is_merchandise="true" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="5" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="-0.08,0.0,0.04" rotation="0.0,10.0,45.0" physics_material="metal_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="350">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_vampire_010" name="{=Reiko_ROT_Shield47}Vampire Shield" body_name="bo_cap_vampire_shield_010" shield_body_name="bo_vampire_shield_010" recalculate_body="false" mesh="vampire_shield_010" using_tableau="false" weight="7.5" appearance="1.2" value="1500" Type="Shield" is_merchandise="true" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="5" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="-0.05,-0.12,0.03" rotation="0.0,10.0,45.0" physics_material="metal_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="350">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_vc_weapon_shield_vampire_lord_001" name="{=Reiko_ROT_Shield48}Vampire Shield" body_name="bo_cap_vampire_lord_shield_001" shield_body_name="bo_vampire_lord_shield_001" recalculate_body="false" mesh="vampire_lord_shield_001" using_tableau="false" weight="5.7" appearance="1.3" value="1500" Type="Shield" is_merchandise="true" culture="Culture.khuzait" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="5" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="0.0,10.0,45.0" physics_material="metal_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="500">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_chaos_weapon_shield_001" name="{=Reiko_ROT_Shield49}Chaos Shield" body_name="bo_cap_chs_shield_001" shield_body_name="bo_chs_shield_001" recalculate_body="false" mesh="chs_shield_001" using_tableau="false" weight="8.2" appearance="1.5" value="1500" Type="Shield" is_merchandise="false" culture="Culture.chaos_culture" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="5" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,-0.10,0.08" rotation="0.0,20.0,45.0" physics_material="metal_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="560">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_chaos_weapon_shield_nurgle_001" name="{=Reiko_ROT_Shield50}Nurglite Shield" body_name="bo_cap_chs_nurgle_shield_001" shield_body_name="bo_chs_nurgle_shield_001" recalculate_body="false" mesh="chs_nurgle_shield_001" using_tableau="false" weight="6.7" appearance="1.5" value="1500" Type="Shield" is_merchandise="false" culture="Culture.chaos_culture" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="5" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0,0.0,0.0" rotation="0.0,10.0,45.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="340">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_bretonnia_weapon_shield_001" name="{=Reiko_ROT_Shield51}Bretonnia Shield" body_name="bo_cap_bretonnia_shield_001" shield_body_name="bo_bretonnia_shield_001" recalculate_body="false" mesh="bretonnia_shield_001" using_tableau="true" weight="6.1" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.vlandia" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="2" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="220">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_bretonnia_weapon_shield_002" name="{=Reiko_ROT_Shield52}Bretonnia Shield Reinforced" body_name="bo_cap_bretonnia_shield_002" shield_body_name="bo_bretonnia_shield_002" recalculate_body="false" mesh="bretonnia_shield_002" using_tableau="true" weight="6.3" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.vlandia" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="3" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="360">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_bretonnia_weapon_shield_003" name="{=Reiko_ROT_Shield53}Bretonnia Shield" body_name="bo_cap_bretonnia_shield_003" shield_body_name="bo_bretonnia_shield_003" recalculate_body="false" mesh="bretonnia_shield_003" using_tableau="true" weight="6.1" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.vlandia" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="2" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="220">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_bretonnia_weapon_shield_004" name="{=Reiko_ROT_Shield54}Bretonnia Shield Reinforced" body_name="bo_cap_bretonnia_shield_004" shield_body_name="bo_bretonnia_shield_004" recalculate_body="false" mesh="bretonnia_shield_004" using_tableau="true" weight="7.0" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.vlandia" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="3" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="360">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_bretonnia_weapon_shield_005" name="{=Reiko_ROT_Shield55}Bretonnia Shield" body_name="bo_cap_bretonnia_shield_005" shield_body_name="bo_bretonnia_shield_005" recalculate_body="false" mesh="bretonnia_shield_005" using_tableau="true" weight="4.5" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.vlandia" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="2" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="220">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_bretonnia_weapon_shield_006" name="{=Reiko_ROT_Shield56}Bretonnia Shield Reinforced" body_name="bo_cap_bretonnia_shield_006" shield_body_name="bo_bretonnia_shield_006" recalculate_body="false" mesh="bretonnia_shield_006" using_tableau="true" weight="4.9" appearance="0.8" value="1500" Type="Shield" is_merchandise="false" culture="Culture.vlandia" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="3" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="110" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="360">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_grail_knight_001" name="{=Reiko_ROT_Shield57}Grail Knight Shield" body_name="bo_cap_bretonnian_gk_shield_001" shield_body_name="bo_bretonnian_gk_shield_001" recalculate_body="false" mesh="bretonnian_gk_shield_001" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_grail_knight_002" name="{=Reiko_ROT_Shield58}Grail Knight Shield" body_name="bo_cap_bretonnian_gk_shield_002" shield_body_name="bo_bretonnian_gk_shield_002" recalculate_body="false" mesh="bretonnian_gk_shield_002" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_grail_knight_003" name="{=Reiko_ROT_Shield59}Grail Knight Shield" body_name="bo_cap_bretonnian_gk_shield_003" shield_body_name="bo_bretonnian_gk_shield_003" recalculate_body="false" mesh="bretonnian_gk_shield_003" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="520">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_knight_errant_001" name="{=Reiko_ROT_Shield60}Knight Errant Shield" body_name="bo_cap_bretonnian_ke_shield_001" shield_body_name="bo_bretonnian_ke_shield_001" recalculate_body="false" mesh="bretonnian_ke_shield_001" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="420">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_knight_errant_002" name="{=Reiko_ROT_Shield61}Knight Errant Shield" body_name="bo_cap_bretonnian_ke_shield_002" shield_body_name="bo_bretonnian_ke_shield_002" recalculate_body="false" mesh="bretonnian_ke_shield_002" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="420">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_knight_errant_003" name="{=Reiko_ROT_Shield62}Knight Errant Shield" body_name="bo_cap_bretonnian_ke_shield_003" shield_body_name="bo_bretonnian_ke_shield_003" recalculate_body="false" mesh="bretonnian_ke_shield_003" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="420">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_noble_001" name="{=Reiko_ROT_Shield63}Bretonnian Noble Shield" body_name="bo_cap_bretonnian_noble_shield_001" shield_body_name="bo_bretonnian_noble_shield_001" recalculate_body="false" mesh="bretonnian_noble_shield_001" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="480">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_noble_002" name="{=Reiko_ROT_Shield64}Bretonnian Noble Shield" body_name="bo_cap_bretonnian_noble_shield_002" shield_body_name="bo_bretonnian_noble_shield_002" recalculate_body="false" mesh="bretonnian_noble_shield_002" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="480">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_noble_003" name="{=Reiko_ROT_Shield65}Bretonnian Noble Shield" body_name="bo_cap_bretonnian_noble_shield_003" shield_body_name="bo_bretonnian_noble_shield_003" recalculate_body="false" mesh="bretonnian_noble_shield_003" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="wood_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="480">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_kotr_001" name="{=Reiko_ROT_Shield66}Knight of the Realm Shield" body_name="bo_cap_bretonnian_kotr_shield_001" shield_body_name="bo_bretonnian_kotr_shield_001" recalculate_body="false" mesh="bretonnian_kotr_shield_001" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="460">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_kotr_002" name="{=Reiko_ROT_Shield67}Knight of the Realm Shield" body_name="bo_cap_bretonnian_kotr_shield_002" shield_body_name="bo_bretonnian_kotr_shield_002" recalculate_body="false" mesh="bretonnian_kotr_shield_002" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="460">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="tor_empire_weapon_shield_kotr_003" name="{=Reiko_ROT_Shield68}Knight of the Realm Shield" body_name="bo_cap_bretonnian_kotr_shield_003" shield_body_name="bo_bretonnian_kotr_shield_003" recalculate_body="false" mesh="bretonnian_kotr_shield_003" using_tableau="true" weight="5.6" appearance="1.1" value="1500" Type="Shield" is_merchandise="true" culture="Culture.empire" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.0,0.0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_damage="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.02,-0.025,0.0" rotation="5.0,5.0,50.0" physics_material="metal_shield" weapon_length="80" center_of_mass="0.0,0.0,0.0" modifier_group="shield" hit_points="460">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+</Items>

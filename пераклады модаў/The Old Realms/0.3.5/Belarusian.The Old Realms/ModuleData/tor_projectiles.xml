@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <!-- RANGE -->
+    <!-- Grenades -->
+    <Item id="tor_dwarf_weapon_grenade_dwarf_hand_grenade" name="{=Reiko_ROT_Projectiles1}Dwarf Hand Grenade" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" mesh="dwarf_hand_grenade_001" value="2" weight="1" appearance="0.1" Type="Thrown" item_holsters="throwing_stone:throwing_stone_2" is_merchandise="false">
+        <ItemComponent>
+            <Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="1" center_of_mass="0.0, 0.0, -0.05" physics_material="missile" accuracy="45" thrust_speed="51" speed_rating="51" missile_speed="30" weapon_length="10" thrust_damage="0" item_usage="dwarf_hand_grenade" rotation="100,30,20" passby_sound_code="" rotation_speed="0.0, -3.0, 0.0">
+                <WeaponFlags RangedWeapon="true" 
+                             Consumable="true" 
+                             AutoReload="true" 
+                             UnloadWhenSheathed="true" 
+                             UseHandAsThrowBase="true"/>
+            </Weapon>
+        </ItemComponent>
+    </Item>
+  
+    
+    <!-- Factionless Weapons -->
+    <!-- RANGE -->
+    <!-- AMMO -->
+    <Item id="tor_neutral_weapon_ammo_musket_ball" name="{=Reiko_ROT_Projectiles2}Musket Ball" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" flying_mesh="bolt_bl_flying" mesh="torch_flame_base" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" weight="0.2" appearance="1" Type="Bullets" item_holsters="throwing_stone:throwing_stone_2" value="500" is_merchandise="true" culture="Culture.empire">
+        <ItemComponent>
+            <Weapon weapon_class="Cartridge" stack_amount="30" thrust_speed="0" thrust_damage="30" thrust_damage_type="Pierce" speed_rating="0" missile_speed="10" weapon_length="47" item_usage="" rotation="180, 0, 0" physics_material="missile" sticking_position="0,-0.47,0" sticking_rotation="90,0,0" center_of_mass="0,0,-0.1">
+                <WeaponFlags AttachAmmoToVisual="true" Consumable="true" AmmoBreaksOnBounceBack="true" AmmoSticksWhenShot="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags ForceAttachOffHandPrimaryItemBone="true" />
+    </Item>
+    <Item id="tor_neutral_weapon_ammo_musket_ball_scatter" name="{=Reiko_ROT_Projectiles3}Buck Shots" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" flying_mesh="bolt_bl_flying" mesh="torch_flame_base" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" weight="2.5" appearance="1" Type="Bullets" item_holsters="throwing_stone:throwing_stone_2" value="500" is_merchandise="true" culture="Culture.empire">
+      <ItemComponent>
+        <Weapon weapon_class="Cartridge" stack_amount="10" thrust_speed="0" thrust_damage="80" thrust_damage_type="Pierce" speed_rating="0" missile_speed="10" weapon_length="47" item_usage="" rotation="180, 0, 0" physics_material="missile" sticking_position="0,-0.47,0" sticking_rotation="90,0,0" center_of_mass="0,0,-0.1">
+          <WeaponFlags AttachAmmoToVisual="true" Consumable="true" AmmoBreaksOnBounceBack="true" AmmoSticksWhenShot="true" />
+        </Weapon>
+      </ItemComponent>
+      <Flags ForceAttachOffHandPrimaryItemBone="true" />
+    </Item>
+    <Item id="tor_neutral_weapon_ammo_cannonball" name="{=Reiko_ROT_Projectiles4}Cannonball" is_merchandise="false" body_name="bo_projectile_rock" holster_body_name="bo_axe_short" flying_mesh="cannonball_001" mesh="cannonball_001" holster_mesh="" subtype="arrows" weight="15" difficulty="0" appearance="1" Type="Thrown" item_holsters="">
+        <ItemComponent>
+            <Weapon weapon_class="Boulder" ammo_class="Boulder" stack_amount="1" position="0.05, -0.15, 0" physics_material="missile" thrust_speed="100" speed_rating="0" missile_speed="8" weapon_length="95" thrust_damage="125" item_usage="heavy_stone" flying_sound_code="event:/mission/combat/boulder/passby" trail_particle_name="psys_cannonball_trail" rotation_speed="2, 0.5, 0">
+                <WeaponFlags RangedWeapon="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" CanPenetrateShield="true" MissileWithPhysics="true" UseHandAsThrowBase="true" Consumable="true" LeavesTrail="true" Burning="true" AffectsAreaBig="true" AmmoBreaksOnBounceBack="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags QuickFadeOut="true" CannotBePickedUp="true" DropOnWeaponChange="true" DropOnAnyAction="true" />
+    </Item>
+
+    <Item id="tor_neutral_weapon_ammo_broken_weapon" name="{=Reiko_ROT_Projectiles5}Broken Weapon" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" flying_mesh="bolt_bl_flying" mesh="torch_flame_base" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" weight="0.2" appearance="1" Type="Bolts" item_holsters="throwing_stone:throwing_stone_2" value="0" is_merchandise="false" culture="Culture.empire">
+      <ItemComponent>
+        <Weapon weapon_class="Bolt" stack_amount="1" thrust_speed="0" thrust_damage="50" thrust_damage_type="Pierce" speed_rating="0" missile_speed="0" weapon_length="50" item_usage="" rotation="180, 0, 0" physics_material="missile" sticking_position="0,-0.47,0" sticking_rotation="90,0,0" center_of_mass="0,0,-0.1">
+          <WeaponFlags AttachAmmoToVisual="true" Consumable="true" AmmoBreaksOnBounceBack="true" AmmoSticksWhenShot="true" />
+        </Weapon>
+      </ItemComponent>
+  </Item>
+      
+    <Item id="tor_empire_weapon_ammo_grenade" name="{=Reiko_ROT_Projectiles6}Grenades" body_name="bo_projectile_rock" holster_body_name="bo_axe_short" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" mesh="empire_grenade_001" value="2" weight="2.5" appearance="0.1" Type="bullets" item_holsters="throwing_stone:throwing_stone_2" is_merchandise="false">
+      <ItemComponent>
+        <Weapon weapon_class="Cartridge" stack_amount="5" center_of_mass="0.0, 0.0, -0.05" physics_material="missile" accuracy="45" thrust_speed="51" speed_rating="51" missile_speed="1" weapon_length="10" thrust_damage_type="Pierce" thrust_damage="80" item_usage="bolt" rotation="100,30,20" passby_sound_code="" rotation_speed="0.0, -3.0, 0.0">
+          <WeaponFlags AttachAmmoToVisual="true" Consumable="true" CanPenetrateShield="true" MissileWithPhysics="true" AffectsAreaBig="true" AmmoBreaksOnBounceBack="true"/>
+          </Weapon>
+        </ItemComponent>
+      <Flags QuickFadeOut="true" />
+    </Item>
+	<Item id="AmberSpear" name="{=Reiko_ROT_Projectiles7}Amber Spear" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" flying_mesh="amber_spear" mesh="torch_flame_base" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" weight="0.2" appearance="1" Type="Bullets" item_holsters="throwing_stone:throwing_stone_2" value="500" is_merchandise="false" culture="Culture.empire">
+        <ItemComponent>
+            <Weapon weapon_class="Undefined" stack_amount="30" thrust_speed="0" thrust_damage="30" thrust_damage_type="Pierce" speed_rating="0" missile_speed="10" weapon_length="47" item_usage="" rotation="180, 0, 0" physics_material="missile" sticking_position="0,-0.47,0" sticking_rotation="90,0,0" center_of_mass="0,0,-0.1">
+                <WeaponFlags AttachAmmoToVisual="true" Consumable="true" CanPenetrateShield="true" AmmoBreaksOnBounceBack="true" AmmoSticksWhenShot="false"  MultiplePenetration="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags ForceAttachOffHandPrimaryItemBone="true" />
+    </Item>
+	<Item id="TheGreenEye" name="{=Reiko_ROT_Projectiles8}The Green Eye" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" flying_mesh="magical_projectile" mesh="torch_flame_base" weight="5.00" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster"  appearance="1" Type="Bullets" item_holsters="throwing_stone:throwing_stone_2" value="500" is_merchandise="false" culture="Culture.empire">
+        <ItemComponent>
+            <Weapon weapon_class="Undefined" stack_amount="30" thrust_speed="0" thrust_damage="30" thrust_damage_type="Pierce" speed_rating="0" missile_speed="120" weapon_length="47" item_usage=""  rotation="180, 0, 0" physics_material="missile" sticking_position="0,-0.47,0" sticking_rotation="90,0,0" center_of_mass="0,0,0">
+                <WeaponFlags LeavesTrail="false" HasHitPoints="false" AttachAmmoToVisual="true" Consumable="true" CanPenetrateShield="true" AmmoBreaksOnBounceBack="true" AmmoSticksWhenShot="false"  MultiplePenetration="true"  />
+            </Weapon>
+        </ItemComponent>
+        <Flags ForceAttachOffHandPrimaryItemBone="true" />
+    </Item>
+</Items>
