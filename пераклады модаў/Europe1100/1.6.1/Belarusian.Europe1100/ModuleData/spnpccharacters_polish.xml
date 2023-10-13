@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="village_woman_teenager_polish" name="{=village_woman_teenager_polish.name}Teenager" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.polish" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_polish"/>
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_town_tunic"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.footmans_tunic"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+      </EquipmentRoster>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_polish"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_polish" default_group="Infantry" is_female="true" level="1" name="{=village_woman_polish.name}Empire Peasant" occupation="Villager" culture="Culture.polish" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_polish"/>
+      <hair_tags>
+        <hair_tag name="Bobbed"/>
+        <hair_tag name="RestingOnShoulders"/>
+        <hair_tag name="ShoulderLengthTied"/>
+        <hair_tag name="AboveShoulderLength"/>
+      </hair_tags>
+    </face>
+    <skills/>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.empire_dress"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.vlandian_dress"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.empire_dress_b"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.plain_dress"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.dress_with_overall"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.laced_dress"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.empire_dress"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.vlandian_dress"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.empire_dress_b"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.plain_dress"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.dress_with_overall"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.laced_dress"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.laced_dress"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan-->
+  
+   <NPCCharacter id="caravan_master_polish" default_group="Infantry" level="26" name="{=caravan_master_polish.name}Polish Caravan Master" occupation="CaravanGuard" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_polish"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+        <equipment slot="Head" id="Item.merchants_hat"/>
+        <equipment slot="Cape" id="Item.studded_imperial_neckguard"/>
+        <equipment slot="Body" id="Item.legionary_mail"/>
+        <equipment slot="Gloves" id="Item.highland_gloves"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Body" id="Item.empire_horseman_armor"/>
+        <equipment slot="Gloves" id="Item.highland_gloves"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+        <equipment slot="Head" id="Item.cervelliere_over_laced_coif"/>
+        <equipment slot="Body" id="Item.empire_horseman_armor"/>
+        <equipment slot="Gloves" id="Item.highland_gloves"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+        <equipment slot="Head" id="Item.merchants_hat"/>
+        <equipment slot="Cape" id="Item.studded_imperial_neckguard"/>
+        <equipment slot="Body" id="Item.legionary_mail"/>
+        <equipment slot="Gloves" id="Item.highland_gloves"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--armed trader-->
+  
+   <NPCCharacter id="armed_trader_polish" default_group="Ranged" level="16" name="{=armed_trader_polish.name}Polish Armed Trader" occupation="CaravanGuard" culture="Culture.polish" is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_polish"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="40"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="30"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.default_arrows"/>
+        <equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
+        <equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Head" id="Item.imperial_leather_coif"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.range_arrows"/>
+        <equipment slot="Item2" id="Item.battania_mace_1_t2"/>
+        <equipment slot="Body" id="Item.footmans_tunic"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.range_arrows"/>
+        <equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
+        <equipment slot="Body" id="Item.footmans_tunic"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.range_arrows"/>
+        <equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
+        <equipment slot="Body" id="Item.footmans_tunic"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.range_arrows"/>
+        <equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
+        <equipment slot="Body" id="Item.footmans_tunic"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan guard-->
+  
+  <NPCCharacter id="caravan_guard_polish" default_group="HorseArcher" level="21" name="{=caravan_guard_polish.name}Polish Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_polish"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="90"/>
+      <skill id="OneHanded" value="100"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="110"/>
+      <skill id="Throwing" value="15"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+        <equipment slot="Item1" id="Item.empire_sword_1_t2"/>
+        <equipment slot="Item2" id="Item.crossbow_e"/>
+        <equipment slot="Item3" id="Item.bolt_b"/>
+        <equipment slot="Head" id="Item.imperial_mail_coif"/>
+        <equipment slot="Body" id="Item.empire_horseman_armor"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+        <equipment slot="Gloves" id="Item.padded_mitten"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+        <equipment slot="Item1" id="Item.empire_sword_1_t2"/>
+        <equipment slot="Item2" id="Item.crossbow_e"/>
+        <equipment slot="Item3" id="Item.bolt_b"/>
+        <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+        <equipment slot="Body" id="Item.empire_horseman_armor"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.padded_mitten"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+        <equipment slot="Item1" id="Item.empire_sword_1_t2"/>
+        <equipment slot="Item2" id="Item.crossbow_e"/>
+        <equipment slot="Item3" id="Item.bolt_b"/>
+        <equipment slot="Head" id="Item.imperial_padded_coif"/>
+        <equipment slot="Body" id="Item.empire_horseman_armor"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.padded_mitten"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+        <equipment slot="Item1" id="Item.empire_sword_1_t2"/>
+        <equipment slot="Item2" id="Item.crossbow_e"/>
+        <equipment slot="Item3" id="Item.bolt_b"/>
+        <equipment slot="Head" id="Item.imperial_padded_coif"/>
+        <equipment slot="Body" id="Item.empire_horseman_armor"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.padded_mitten"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+        <equipment slot="Item1" id="Item.empire_sword_1_t2"/>
+        <equipment slot="Item2" id="Item.worn_horsemans_kite_shield"/>
+        <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+        <equipment slot="Body" id="Item.imperial_mail_vest"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.padded_mitten"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.empire_horse"/>
+      <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="veteran_caravan_guard_polish" default_group="Cavalry" level="26" name="{=veteran_caravan_guard_polish.name}Polish Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_polish"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="60"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+        <equipment slot="Item1" id="Item.empire_sword_5_t4"/>
+        <equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+        <equipment slot="Head" id="Item.imperial_mail_coif"/>
+        <equipment slot="Body" id="Item.legionary_mail"/>
+        <equipment slot="Leg" id="Item.leather_shoes"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+        <equipment slot="Item1" id="Item.empire_sword_5_t4"/>
+        <equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+        <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+        <equipment slot="Body" id="Item.legionary_mail"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+        <equipment slot="Item1" id="Item.empire_sword_4_t4"/>
+        <equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+        <equipment slot="Head" id="Item.imperial_padded_coif"/>
+        <equipment slot="Body" id="Item.legionary_mail"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+        <equipment slot="Item1" id="Item.empire_sword_4_t4"/>
+        <equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+        <equipment slot="Head" id="Item.imperial_padded_coif"/>
+        <equipment slot="Body" id="Item.legionary_mail"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.western_spear_4_t4"/>
+        <equipment slot="Item1" id="Item.empire_sword_4_t4"/>
+        <equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+        <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+        <equipment slot="Body" id="Item.legionary_mail"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.leather_gloves"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.empire_horse"/>
+      <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    </Equipments>
+  </NPCCharacter>
+
+<!--troops-->
+
+  <NPCCharacter id="polish_levy" default_group="Infantry" level="6" name="{=polish_levy.name}Polish Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="5"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.polish_militia_axeman"/>
+      <upgrade_target id="NPCCharacter.polish_militia_archer"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.burlap_waistcoat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="polish_militia_axeman" default_group="Infantry" level="11" name="{=polish_militia_axeman.name}Polish Militia Axeman" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.polish_veteran_militia_axeman"/>
+      <upgrade_target id="NPCCharacter.polish_tarczownicy"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Item1" id="Item.battania_targe_b"/>
+				<equipment slot="Body" id="Item.long_fur_coat"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+   <NPCCharacter id="polish_veteran_militia_axeman" default_group="Infantry" level="16" name="{=polish_veteran_militia_axeman.name}Polish Veteran Militia Axeman" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.polish_infantry_wlodyka"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.battania_targe_b"/>
+				<equipment slot="Item2" id="Item.empire_throwingknife_t5"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.long_fur_coat"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="polish_infantry_wlodyka" default_group="Infantry" level="21" name="{=polish_infantry_wlodyka.name}Polish Infantry Wlodyka" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
+				<equipment slot="Item2" id="Item.pugio"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="polish_militia_archer" default_group="Ranged" level="11" name="{=polish_militia_archer.name}Polish Militia Archer" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+	      <upgrade_target id="NPCCharacter.polish_veteran_militia_archer"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_bow"/>
+				<equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+				<equipment slot="Body" id="Item.fur_trimmed_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="polish_veteran_militia_archer" default_group="Ranged" level="16" name="{=polish_veteran_militia_archer.name}Polish Veteran Militia Archer" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
+    </skills>
+    <upgrade_targets>
+		      <upgrade_target id="NPCCharacter.polish_archer_wlodyka"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_bow"/>
+				<equipment slot="Item1" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item2" id="Item.range_arrows"/>
+				<equipment slot="Item3" id="Item.range_arrows"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.northern_padded_cloth"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="polish_archer_wlodyka" default_group="Ranged" level="21" name="{=polish_archer_wlodyka.name}Polish Archer Wlodyka" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.woven_leather_coat"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="polish_tarczownicy" default_group="Infantry" level="16" name="{=polish_tarczownicy.name}Polish Tarczownicy" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
+    </skills>
+    <upgrade_targets>
+			      <upgrade_target id="NPCCharacter.polish_veteran_tarczownicy"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.southern_spear_4_t3"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Body" id="Item.padded_short_coat"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="polish_veteran_tarczownicy" default_group="Infantry" level="21" name="{=polish_veteran_tarczownicy.name}Polish Veteran Tarczownicy" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_lance_1_t4"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="polish_druzynnik" default_group="HorseArcher" level="21" name="{=polish_druzynnik.name}Polish Druzynnik" is_basic_troop="true" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="110"/>
+    <skill id="Bow" value="150"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
+    </skills>
+    <upgrade_targets>
+				      <upgrade_target id="NPCCharacter.polish_szlachta"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item2" id="Item.crossbow_e"/>
+				<equipment slot="Item3" id="Item.bolt_b"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+
+  <NPCCharacter id="polish_szlachta" default_group="HorseArcher" level="26" name="{=polish_szlachta.name}Polish Szlachta" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="50"/>
+    <skill id="TwoHanded" value="50"/>
+    <skill id="Polearm" value="130"/>
+    <skill id="Bow" value="160"/>
+    <skill id="Crossbow" value="160"/>
+    <skill id="Throwing" value="60"/>
+    </skills>
+    <upgrade_targets>
+				      <upgrade_target id="NPCCharacter.polish_rycerz"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+				<equipment slot="Item1" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item2" id="Item.crossbow_g"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.nasalhelm_over_mail"/>
+				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.imperial_mail_vest"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.t2_sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+   <NPCCharacter id="polish_rycerz" default_group="HorseArcher" level="31" name="{=polish_rycerz.name}Polish Rycerz" occupation="Soldier" culture="Culture.polish">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="60"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="220"/>
+    <skill id="Bow" value="260"/>
+    <skill id="Crossbow" value="260"/>
+    <skill id="Throwing" value="30"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.sturgia_noble_sword_1_t5"/>
+				<equipment slot="Item2" id="Item.crossbow_f"/>
+				<equipment slot="Item3" id="Item.bolt_c"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.t2_sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+
+</NPCCharacters>
