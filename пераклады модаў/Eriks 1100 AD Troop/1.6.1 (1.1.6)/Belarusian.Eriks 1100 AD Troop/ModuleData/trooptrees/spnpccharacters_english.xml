@@ -1,0 +1,1254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+<!--Troops-->
+
+  <NPCCharacter id="english_levy" default_group="Infantry" level="6" name="{=english_levy.name}English Levy" occupation="Soldier" is_basic_troop="true" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="0"/>
+      <skill id="Throwing" value="10"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.english_fyrd_spearman"/>
+	  <upgrade_target id="NPCCharacter.english_fyrd_archer"/>
+    </upgrade_targets>
+    <Equipments>
+			   <EquipmentRoster>
+				<equipment slot="Item0" id="battania_axe_1_t2"/>
+				<equipment slot="Item1" id="worn_kite_shield"/>
+				<equipment slot="Head" id="Item.levy_hood_1"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>	
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			  <EquipmentRoster>
+				<equipment slot="Item0" id="battania_axe_1_t2"/>
+				<equipment slot="Item1" id="worn_kite_shield"/>
+				<equipment slot="Head" id="Item.levy_hood_1"/>
+				<equipment slot="Body" id="Item.battania_civil_a"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.worn_kite_shield"/>
+				<equipment slot="Head" id="Item.arm_coif1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.arm_coif1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_1_t2"/>
+				<equipment slot="Item1" id="Item.worn_kite_shield"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Head" id="Item.levy_hood_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>   
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.worn_kite_shield"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Head" id="Item.levy_hood_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>   
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Head" id="Item.levy_hood_1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+ <NPCCharacter id="english_fyrd_spearman" default_group="Infantry" level="11" name="{=english_fyrd_spearman.name}English Fyrd Spearman" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.english_veteran_fyrd_spearman"/>
+	  <upgrade_target id="NPCCharacter.english_axeman"/>
+    </upgrade_targets>
+    <Equipments>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+			</EquipmentRoster>   
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.sleeveless_padded_coat"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="english_veteran_fyrd_spearman" default_group="Infantry" level="16" name="{=english_veteran_fyrd_spearman.name}English Veteran Fyrd Spearman" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="5"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.english_sergeant_spearman"/>
+    </upgrade_targets>
+    <Equipments>
+			    <EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.wool_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+	      	<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.nordic_sloven_leather"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				<equipment slot="Body" id="Item.levy_gambeson_1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+				      	<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Body" id="Item.sleeveless_padded_coat"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				<equipment slot="Body" id="Item.gamb_tunic_1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+<NPCCharacter id="english_sergeant_spearman" default_group="Infantry" level="21" name="{=english_sergeant_spearman.name}English Anglo-Saxon Huscarl" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="5"/>
+    <skill id="Crossbow" value="5"/>
+    <skill id="Throwing" value="5"/>
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			    <EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Head" id="Item.laced_nasal_fm"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.chainskirt_strap_1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+	      	<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Body" id="Item.chainskirt_strap_1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Head" id="Item.laced_nasal_fm"/>
+				<equipment slot="Body" id="Item.chainskirt_strap_1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Head" id="Item.fr_el_flatkettle1"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.chainskirt_strap_1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="english_fyrd_archer" default_group="Ranged" level="11" name="{=english_fyrd_archer.name}Anglo-Saxon Fyrd Archer" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="50"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="50"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.english_veteran_fyrd_archer"/>
+    </upgrade_targets>
+    <Equipments>
+      					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.levy_hood_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Head" id="Item.levy_hood_1"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			   <EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			    <EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.levy_hood_1"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Head" id="Item.levy_hood_1"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+
+    </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="english_veteran_fyrd_archer" default_group="Infantry" level="16" name="{=english_veteran_fyrd_archer.name}English Mercenary Welsh Footman" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.english_sergeant_archer"/>
+    </upgrade_targets>
+    <Equipments>
+	
+	      <EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.desert_round_shield"/>
+				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+      </EquipmentRoster>
+	        <EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.desert_round_shield"/>
+				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+      </EquipmentRoster>
+	        <EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.desert_round_shield"/>
+				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.desert_round_shield"/>
+				<equipment slot="Item2" id="Item.battania_sword_3_t3"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.rough_tied_boots"/>
+      </EquipmentRoster>
+	
+
+
+    </Equipments>
+  </NPCCharacter> 
+
+<NPCCharacter id="english_sergeant_archer" default_group="Ranged" level="21" name="{=english_sergeant_archer.name}English Armored Norman Archer" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="120"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="120"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.el_phrygnasal1"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.wool_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Body" id="Item.levy_gambeson_1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.el_phrygnasal1"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.vlandic_arrows"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Head" id="Item.el_phrygnasal1"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+
+    </Equipments>
+  </NPCCharacter>  
+  
+ <NPCCharacter id="english_axeman" default_group="Infantry" level="16" name="{=english_axeman.name}English Armored Norman Spearman" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="70"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="70"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.english_sergeant_axeman"/>
+    </upgrade_targets>
+    <Equipments>
+<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+
+			</EquipmentRoster>
+      			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.horsemans_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.el_phrygnasal1"/>
+				<equipment slot="Body" id="Item.levy_gambeson_1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.el_phrygnasal1"/>
+				<equipment slot="Body" id="Item.gambeson_levy1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+
+			</EquipmentRoster>
+
+    </Equipments>
+  </NPCCharacter>  
+  
+  <NPCCharacter id="english_sergeant_axeman" default_group="Cavalry" level="21" upgrade_requires="ItemCategory.horse" name="{=english_sergeant_axeman.name}English Norman Scout" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="100"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="45"/>
+    <skill id="Crossbow" value="45"/>
+    <skill id="Throwing" value="60"/>
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+      			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.horsemans_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				<equipment slot="Body" id="Item.levy_gambeson_1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.el_phrygnasal1"/>
+				<equipment slot="Body" id="Item.gambeson_levy1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.horsemans_heater_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.el_phrygnasal1"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="english_squire" default_group="Cavalry" level="21" name="{=english_squire.name}English Norman Serjeant" is_basic_troop="true" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="140"/>
+    <skill id="OneHanded" value="140"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.english_yeoman"/>
+    </upgrade_targets>
+    <Equipments>
+      			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.early_mailcoif_1"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.el_phrygnasal1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.esmail_tunic1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+				<equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="english_yeoman" default_group="Infantry" level="26" name="{=english_yeoman.name}English Dismounted Norman Knight" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="90"/>
+    <skill id="Riding" value="160"/>
+    <skill id="OneHanded" value="160"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="5"/>
+    <skill id="Crossbow" value="5"/>
+    <skill id="Throwing" value="5"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.english_knight"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.gld_itaonorman_1"/>
+				<equipment slot="Body" id="Item.heavy_mail_vest_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.painted_es_naal1"/>
+				<equipment slot="Body" id="Item.heavy_mail_vest_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+			</EquipmentRoster>
+
+
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.reinf_nasal_1"/>
+				<equipment slot="Body" id="Item.normknight_hauberk_1"/>
+				<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Head" id="Item.reinf_nasal_1"/>
+				<equipment slot="Body" id="Item.normknight_hauberk_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.painted_es_naal1"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>	
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.reinf_nasal_1"/>
+				<equipment slot="Body" id="Item.normknight_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.painted_es_naal1"/>
+				<equipment slot="Body" id="Item.heavy_mail_vest_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.painted_es_naal1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.norm_nasal_p_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.norm_hauberk_sleeves_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.cross_faceplate_1"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.sta_italonorman_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.normknight_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.t_shaped_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.norm_hauberk_sleeves_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.cross_faceplate_1"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.nob_norm_facepalte_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.norm_sleeved_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.sta_nasal_el1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.chainmail_tableau_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.decor_nasal_1"/>
+				<equipment slot="Body" id="Item.norm_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.decorated_el_nasal_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.norm_sleeved_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.decor_facepalte_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.norm_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.reinf_nasal_1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.chainmail_tableau_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.pernach_mace_t3"/>
+				<equipment slot="Head" id="Item.br_nasal_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.knight_chainskirt_strap_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.pernach_mace_t3"/>
+				<equipment slot="Head" id="Item.nob_norm_facepalte_1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.chainmail_tableau_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.pernach_mace_t3"/>
+				<equipment slot="Head" id="Item.protofaceplate_1"/>
+				<equipment slot="Body" id="Item.norm_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.pernach_mace_t3"/>
+				<equipment slot="Head" id="Item.12th_el_nasal_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.normknight_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.pernach_mace_t3"/>
+				<equipment slot="Head" id="Item.gld_itaonorman_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.knight_chainskirt_strap_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
+				<equipment slot="Head" id="Item.phrygian_nasal_p1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.normknight_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
+				<equipment slot="Head" id="Item.pnasalflat_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.norm_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.reinforced_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
+				<equipment slot="Head" id="Item.gld_itaonorman_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.norm_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter> 
+  
+  <NPCCharacter id="english_knight" default_group="Cavalry" level="31" name="{=english_knight.name}English Norman Knight" occupation="Soldier" culture="Culture.english">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="90"/>
+    <skill id="Riding" value="260"/>
+    <skill id="OneHanded" value="260"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+
+			<EquipmentRoster>	
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.sta_italonorman_1"/>
+				<equipment slot="Body" id="Item.normknight_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.gld_itaonorman_1"/>
+				<equipment slot="Body" id="Item.heavy_mail_vest_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.painted_es_naal1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.norm_nasal_p_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.norm_hauberk_sleeves_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.cross_faceplate_1"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.sta_italonorman_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.normknight_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.reinf_nasal_1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.norm_hauberk_sleeves_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
+				<equipment slot="Head" id="Item.cercelliere_1"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.pernach_mace_t3"/>
+				<equipment slot="Head" id="Item.decor_facepalte_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.norm_sleeved_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.pernach_mace_t3"/>
+				<equipment slot="Head" id="Item.sta_nasal_el1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.chainmail_tableau_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.decor_nasal_1"/>
+				<equipment slot="Body" id="Item.norm_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.decorated_el_nasal_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.norm_sleeved_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.decor_facepalte_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.norm_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
+				<equipment slot="Head" id="Item.reinf_nasal_1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.chainmail_tableau_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.br_nasal_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.knight_chainskirt_strap_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.pernach_mace_t3"/>
+				<equipment slot="Head" id="Item.nob_norm_facepalte_1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.chainmail_tableau_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.protofaceplate_1"/>
+				<equipment slot="Body" id="Item.norm_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.reinforced_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_axe_1_t3"/>
+				<equipment slot="Head" id="Item.12th_el_nasal_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.normknight_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.gld_itaonorman_1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.knight_chainskirt_strap_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_1"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.phrygian_nasal_p1"/>
+				<equipment slot="Cape" id="Item.steelcross1"/>
+				<equipment slot="Body" id="Item.normknight_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.pnasalflat_1"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.norm_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.reinforced_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Head" id="Item.nob_norm_facepalte_1"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.norm_hauberk_1"/>
+				<equipment slot="Gloves" id="Item.mailgloves_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t3_empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>
