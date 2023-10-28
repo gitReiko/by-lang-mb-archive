@@ -2,21 +2,29 @@
 <Module>
 	<Name value="Belarusian The Old Realms"/>
 	<Id value="Belarusian The Old Realms"/>
-	<Version value="v1.2.3"/>
+	<Version value="v1.2.4"/>
 	<DefaultModule value="true"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
 	<Author value="Denis Makouski (Reiko17)" />
   	<Official value="false" />
 	<DependedModules>
-		<DependedModule Id="Native" DependentVersion="v1.2.3"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="v1.2.3"/>
-		<DependedModule Id="Sandbox" DependentVersion="v1.2.3"/>
-		<DependedModule Id="StoryMode" DependentVersion="v1.2.3"/>
-		<DependedModule Id="Belarusian Core" DependentVersion="v1.2.3"/>
+		<DependedModule Id="Native" DependentVersion="v1.2.4"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.2.4"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.2.4"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.2.4"/>
+		<DependedModule Id="Belarusian Core" DependentVersion="v1.2.4"/>
 	</DependedModules>
 	<SubModules/>
 	<Xmls> 
+
+		<XmlNode>                
+			<XmlName id="Concepts" path="tor_concept_strings"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
 
 		<XmlNode>
 			<XmlName id="Factions" path="tor_clans"/>
@@ -54,11 +62,28 @@
 			</IncludedGameTypes>
 		</XmlNode>
 
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="tor_charactertemplates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
 		<XmlNode>
 			<XmlName id="Items" path="tor_armors"/>
 			<IncludedGameTypes>
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="CraftingPieces" path="tor_crafting_pieces"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 
@@ -108,6 +133,10 @@
 				<GameType value="Campaign"/>
 				<GameType value="CampaignStoryMode"/>
 			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="GameText" path="tor_strings" />
 		</XmlNode>
 
 	</Xmls>

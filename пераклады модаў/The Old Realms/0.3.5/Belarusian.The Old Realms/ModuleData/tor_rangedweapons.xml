@@ -1,170 +1,170 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Items>
-  <Item id="tor_empire_weapon_crossbow_empire_crossbow_001" name="{=Reiko_ROT_Ranged1}Empire Crossbow" mesh="empire_crossbow_001" weight="2.0" appearance="1" difficulty="30" Type="Crossbow" is_merchandise="true" culture="Culture.empire" value="1500" body_name="bo_cross_bow_heavy" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_crossbow_empire_crossbow_001" name="{=tor_empire_weapon_crossbow_empire_crossbow_001.name}Empire Crossbow" mesh="empire_crossbow_001" weight="2.0" appearance="1" difficulty="30" Type="Crossbow" is_merchandise="true" culture="Culture.empire" value="1500" body_name="bo_cross_bow_heavy" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Crossbow" ammo_class="Bolt" position="0,0,0" rotation="0,-1,0" missile_speed="125" accuracy="90" thrust_damage="80" thrust_speed="60" speed_rating="30" weapon_length="95" ammo_limit="1" thrust_damage_type="Pierce" item_usage="crossbow" physics_material="wood_weapon" modifier_group="crossbow" reload_phase_count="2" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_neutral_weapon_gun_old_rifle" name="{=Reiko_ROT_Ranged2}Old Rifle" mesh="old_rifle_with_wick" weight="2.0" appearance="1" difficulty="0" Type="Musket" is_merchandise="true" culture="Culture.neutral" value="2000" body_name="bo_old_rifle_with_wick" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_neutral_weapon_gun_old_rifle" name="{=tor_neutral_weapon_gun_old_rifle.name}Old Rifle" mesh="old_rifle_with_wick" weight="2.0" appearance="1" difficulty="0" Type="Musket" is_merchandise="true" culture="Culture.neutral" value="2000" body_name="bo_old_rifle_with_wick" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0" rotation="0,-1,0" missile_speed="125" accuracy="70" thrust_damage="100" thrust_speed="60" speed_rating="30" weapon_length="80" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_arquebus_001" name="{=Reiko_ROT_Ranged3}Arquebus" mesh="arquebus" weight="2.0" appearance="1" difficulty="50" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_arquebus" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_arquebus_001" name="{=tor_empire_weapon_gun_arquebus_001.name}Arquebus" mesh="arquebus" weight="2.0" appearance="1" difficulty="50" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_arquebus" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0" rotation="0,-1,0" missile_speed="125" accuracy="90" thrust_damage="120" thrust_speed="60" speed_rating="30" weapon_length="75" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_arquebus_002" name="{=Reiko_ROT_Ranged4}Arquebus" mesh="arquebus2" weight="2.0" appearance="1" difficulty="50" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_arquebus2" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_arquebus_002" name="{=tor_empire_weapon_gun_arquebus_002.name}Arquebus" mesh="arquebus2" weight="2.0" appearance="1" difficulty="50" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_arquebus2" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0" rotation="0,-1,0" missile_speed="125" accuracy="90" thrust_damage="120" thrust_speed="60" speed_rating="30" weapon_length="86" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_handgun_001" name="{=Reiko_ROT_Ranged5}Empire Handgun" mesh="musket" weight="2.0" appearance="1" difficulty="50" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_musket" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_handgun_001" name="{=tor_empire_weapon_gun_handgun_001.name}Empire Handgun" mesh="musket" weight="2.0" appearance="1" difficulty="50" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_musket" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0" rotation="0,-1,0" missile_speed="125" accuracy="90" thrust_damage="150" thrust_speed="60" speed_rating="30" weapon_length="109" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_flintlock_001" name="{=Reiko_ROT_Ranged6}Empire Flintlock" mesh="empire_flintlock_001" weight="2.0" appearance="1" difficulty="50" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_empire_flintlock_001" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_flintlock_001" name="{=tor_empire_weapon_gun_flintlock_001.name}Empire Flintlock" mesh="empire_flintlock_001" weight="2.0" appearance="1" difficulty="50" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_empire_flintlock_001" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,-0.04,0" rotation="0,-1,0" missile_speed="125" accuracy="90" thrust_damage="120" thrust_speed="60" speed_rating="30" weapon_length="60" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_empire_repeater_001" name="{=Reiko_ROT_Ranged7}Empire Repeater Handgun" mesh="empire_repeater_001" weight="2.0" appearance="1" difficulty="80" Type="Musket" is_merchandise="false" culture="Culture.empire" value="30000" body_name="bo_empire_repeater" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_empire_repeater_001" name="{=tor_empire_weapon_gun_empire_repeater_001.name}Empire Repeater Handgun" mesh="empire_repeater_001" weight="2.0" appearance="1" difficulty="80" Type="Musket" is_merchandise="false" culture="Culture.empire" value="30000" body_name="bo_empire_repeater" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,-0.03,-0.1" rotation="0,-1,0" missile_speed="125" accuracy="80" thrust_damage="150" thrust_speed="60" speed_rating="120" weapon_length="109" ammo_limit="6" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_handgun_002" name="{=Reiko_ROT_Ranged8}Empire Repeater Handgun" mesh="empire_repeater_002" weight="2.0" appearance="1" difficulty="80" Type="Musket" is_merchandise="false" culture="Culture.empire" value="20000" body_name="bo_empire_repeater" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_handgun_002" name="{=tor_empire_weapon_gun_handgun_002.name}Empire Repeater Handgun" mesh="empire_repeater_002" weight="2.0" appearance="1" difficulty="80" Type="Musket" is_merchandise="false" culture="Culture.empire" value="20000" body_name="bo_empire_repeater" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,-0.03,-0.1" rotation="0,-1,0" missile_speed="125" accuracy="80" thrust_damage="150" thrust_speed="60" speed_rating="120" weapon_length="109" ammo_limit="6" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_empire_repeater_003" name="{=Reiko_ROT_Ranged9}Empire Repeater Handgun" mesh="empire_repeater_003" weight="2.0" appearance="1" difficulty="80" Type="Musket" is_merchandise="false" culture="Culture.empire" value="30000" body_name="bo_empire_repeater" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_empire_repeater_003" name="{=tor_empire_weapon_gun_empire_repeater_003.name}Empire Repeater Handgun" mesh="empire_repeater_003" weight="2.0" appearance="1" difficulty="80" Type="Musket" is_merchandise="false" culture="Culture.empire" value="30000" body_name="bo_empire_repeater" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,-0.03,-0.1" rotation="0,-1,0" missile_speed="125" accuracy="80" thrust_damage="150" thrust_speed="60" speed_rating="120" weapon_length="109" ammo_limit="6" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_handgun_003" name="{=Reiko_ROT_Ranged10}Empire Engraved Handgun" mesh="empire_gunblade_001" weight="2.0" appearance="1" difficulty="50" Type="Pistol" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_empire_repeater" item_holsters="tow_pistol_holster:tow_pistol2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_handgun_003" name="{=tor_empire_weapon_gun_handgun_003.name}Empire Engraved Handgun" mesh="empire_gunblade_001" weight="2.0" appearance="1" difficulty="50" Type="Pistol" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_empire_repeater" item_holsters="tow_pistol_holster:tow_pistol2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Pistol" ammo_class="Cartridge" position="0,0,0" rotation="39,-6,-91" missile_speed="125" accuracy="90" thrust_damage="150" thrust_speed="60" speed_rating="30" weapon_length="33" ammo_limit="1" thrust_damage_type="Pierce" item_usage="pistol" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_flintlock_pistol_005" name="{=Reiko_ROT_Ranged11}Empire Flintlock Pistol" mesh="empire_flintlock_pistol_005" weight="2.0" appearance="0.6" difficulty="80" Type="Pistol" is_merchandise="false" culture="Culture.empire" value="10000" body_name="bo_empire_flintlock_pistol_005" item_holsters="tow_pistol_holster:tow_pistol2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_flintlock_pistol_005" name="{=tor_empire_weapon_gun_flintlock_pistol_005.name}Empire Flintlock Pistol" mesh="empire_flintlock_pistol_005" weight="2.0" appearance="0.6" difficulty="80" Type="Pistol" is_merchandise="false" culture="Culture.empire" value="10000" body_name="bo_empire_flintlock_pistol_005" item_holsters="tow_pistol_holster:tow_pistol2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Pistol" ammo_class="Cartridge" position="0,0,0" rotation="39,-6,-91" missile_speed="125" accuracy="70" thrust_damage="80" thrust_speed="60" speed_rating="30" weapon_length="25" ammo_limit="2" thrust_damage_type="Pierce" item_usage="pistol" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_flintlock_pistol_006" name="{=Reiko_ROT_Ranged12}Empire Flintlock Pistol" mesh="empire_flintlock_pistol_006" weight="2.0" appearance="0.6" difficulty="30" Type="Pistol" is_merchandise="true" culture="Culture.empire" value="10000" body_name="bo_empire_flintlock_pistol_006" item_holsters="tow_pistol_holster:tow_pistol2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_flintlock_pistol_006" name="{=tor_empire_weapon_gun_flintlock_pistol_006.name}Empire Flintlock Pistol" mesh="empire_flintlock_pistol_006" weight="2.0" appearance="0.6" difficulty="30" Type="Pistol" is_merchandise="true" culture="Culture.empire" value="10000" body_name="bo_empire_flintlock_pistol_006" item_holsters="tow_pistol_holster:tow_pistol2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Pistol" ammo_class="Cartridge" position="0,0,0" rotation="39,-6,-91" missile_speed="125" accuracy="70" thrust_damage="80" thrust_speed="60" speed_rating="30" weapon_length="34" ammo_limit="1" thrust_damage_type="Pierce" item_usage="pistol" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_flintlock_pistol_007" name="{=Reiko_ROT_Ranged13}Empire Outrider Pistol" mesh="empire_flintlock_pistol_007" weight="2.0" appearance="0.6" difficulty="100" Type="Pistol" is_merchandise="false" culture="Culture.empire" value="10000" body_name="bo_empire_flintlock_pistol_007" item_holsters="tow_pistol_holster:tow_pistol2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_flintlock_pistol_007" name="{=tor_empire_weapon_gun_flintlock_pistol_007.name}Empire Outrider Pistol" mesh="empire_flintlock_pistol_007" weight="2.0" appearance="0.6" difficulty="100" Type="Pistol" is_merchandise="false" culture="Culture.empire" value="10000" body_name="bo_empire_flintlock_pistol_007" item_holsters="tow_pistol_holster:tow_pistol2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Pistol" ammo_class="Cartridge" position="0,0,0" rotation="39,-6,-91" missile_speed="125" accuracy="70" thrust_damage="80" thrust_speed="60" speed_rating="30" weapon_length="32" ammo_limit="6" thrust_damage_type="Pierce" item_usage="pistol" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_flintlock_pistol_008" name="{=Reiko_ROT_Ranged14}Empire Flintlock Pistol" mesh="empire_flintlock_pistol_008" weight="2.0" appearance="0.6" difficulty="80" Type="Pistol" is_merchandise="false" culture="Culture.empire" value="10000" body_name="bo_empire_flintlock_pistol_008" item_holsters="tow_pistol_holster:tow_pistol2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_flintlock_pistol_008" name="{=tor_empire_weapon_gun_flintlock_pistol_008.name}Empire Flintlock Pistol" mesh="empire_flintlock_pistol_008" weight="2.0" appearance="0.6" difficulty="80" Type="Pistol" is_merchandise="false" culture="Culture.empire" value="10000" body_name="bo_empire_flintlock_pistol_008" item_holsters="tow_pistol_holster:tow_pistol2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Pistol" ammo_class="Cartridge" position="0,0,0" rotation="39,-6,-91" missile_speed="125" accuracy="70" thrust_damage="80" thrust_speed="60" speed_rating="30" weapon_length="32" ammo_limit="1" thrust_damage_type="Pierce" item_usage="pistol" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_longrifle_001" name="{=Reiko_ROT_Ranged15}Empire Longrifle" mesh="empire_longrifle_001" weight="2.0" appearance="0.4" difficulty="150" Type="Musket" is_merchandise="false" culture="Culture.empire" value="24000" body_name="bo_empire_longrifle_001_004" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_longrifle_001" name="{=tor_empire_weapon_gun_longrifle_001.name}Empire Longrifle" mesh="empire_longrifle_001" weight="2.0" appearance="0.4" difficulty="150" Type="Musket" is_merchandise="false" culture="Culture.empire" value="24000" body_name="bo_empire_longrifle_001_004" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0" rotation="0,-1,0" missile_speed="200" accuracy="95" thrust_damage="150" thrust_speed="60" speed_rating="30" weapon_length="102" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_longrifle_002" name="{=Reiko_ROT_Ranged16}Empire Longrifle" mesh="empire_longrifle_002" weight="2.0" appearance="0.4" difficulty="150" Type="Musket" is_merchandise="false" culture="Culture.empire" value="24000" body_name="bo_empire_longrifle_001_004" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_longrifle_002" name="{=tor_empire_weapon_gun_longrifle_002.name}Empire Longrifle" mesh="empire_longrifle_002" weight="2.0" appearance="0.4" difficulty="150" Type="Musket" is_merchandise="false" culture="Culture.empire" value="24000" body_name="bo_empire_longrifle_001_004" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0" rotation="0,-1,0" missile_speed="200" accuracy="95" thrust_damage="150" thrust_speed="60" speed_rating="30" weapon_length="104" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_longrifle_003" name="{=Reiko_ROT_Ranged17}Empire Longrifle" mesh="empire_longrifle_003" weight="2.0" appearance="0.4" difficulty="150" Type="Musket" is_merchandise="false" culture="Culture.empire" value="24000" body_name="bo_empire_longrifle_001_004" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_longrifle_003" name="{=tor_empire_weapon_gun_longrifle_003.name}Empire Longrifle" mesh="empire_longrifle_003" weight="2.0" appearance="0.4" difficulty="150" Type="Musket" is_merchandise="false" culture="Culture.empire" value="24000" body_name="bo_empire_longrifle_001_004" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0" rotation="0,-1,0" missile_speed="200" accuracy="95" thrust_damage="150" thrust_speed="60" speed_rating="30" weapon_length="102" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_longrifle_004" name="{=Reiko_ROT_Ranged18}Empire Longrifle" mesh="empire_longrifle_004" weight="2.0" appearance="0.4" difficulty="150" Type="Musket" is_merchandise="false" culture="Culture.empire" value="24000" body_name="bo_empire_longrifle_001_004" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_longrifle_004" name="{=tor_empire_weapon_gun_longrifle_004.name}Empire Longrifle" mesh="empire_longrifle_004" weight="2.0" appearance="0.4" difficulty="150" Type="Musket" is_merchandise="false" culture="Culture.empire" value="24000" body_name="bo_empire_longrifle_001_004" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0" rotation="0,-1,0" missile_speed="200" accuracy="95" thrust_damage="150" thrust_speed="60" speed_rating="30" weapon_length="104" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_blunderbuss_001" name="{=Reiko_ROT_Ranged19}Empire Blunderbuss" mesh="empire_blunderbuss_001" weight="2.0" appearance="0.6" difficulty="80" Type="Musket" is_merchandise="false" culture="Culture.empire" value="8000" body_name="bo_empire_blunderbuss_001" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_blunderbuss_001" name="{=tor_empire_weapon_gun_blunderbuss_001.name}Empire Blunderbuss" mesh="empire_blunderbuss_001" weight="2.0" appearance="0.6" difficulty="80" Type="Musket" is_merchandise="false" culture="Culture.empire" value="8000" body_name="bo_empire_blunderbuss_001" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,-0.1" rotation="0,-1,0" missile_speed="125" accuracy="10" thrust_damage="30" thrust_speed="60" speed_rating="30" weapon_length="58" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_blunderbuss_002" name="{=Reiko_ROT_Ranged20}Empire Blunderbuss" mesh="empire_blunderbuss_002" weight="2.0" appearance="0.6" difficulty="80" Type="Musket" is_merchandise="false" culture="Culture.empire" value="8000" body_name="bo_empire_blunderbuss_002" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_blunderbuss_002" name="{=tor_empire_weapon_gun_blunderbuss_002.name}Empire Blunderbuss" mesh="empire_blunderbuss_002" weight="2.0" appearance="0.6" difficulty="80" Type="Musket" is_merchandise="false" culture="Culture.empire" value="8000" body_name="bo_empire_blunderbuss_002" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,-0.1" rotation="0,-1,0" missile_speed="125" accuracy="10" thrust_damage="30" thrust_speed="60" speed_rating="30" weapon_length="58" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_big_musket_001" name="{=Reiko_ROT_Ranged21}Empire Handgun" mesh="empire_big_musket_001" weight="2.0" appearance="0.6" difficulty="80" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_empire_big_musket_001" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_big_musket_001" name="{=tor_empire_weapon_gun_big_musket_001.name}Empire Handgun" mesh="empire_big_musket_001" weight="2.0" appearance="0.6" difficulty="80" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_empire_big_musket_001" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0.1" rotation="0,-1,0" missile_speed="125" accuracy="90" thrust_damage="150" thrust_speed="60" speed_rating="30" weapon_length="114" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_big_musket_002" name="{=Reiko_ROT_Ranged22}Empire Handgun" mesh="empire_big_musket_002" weight="2.0" appearance="0.6" difficulty="80" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_empire_big_musket_002" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_big_musket_002" name="{=tor_empire_weapon_gun_big_musket_002.name}Empire Handgun" mesh="empire_big_musket_002" weight="2.0" appearance="0.6" difficulty="80" Type="Musket" is_merchandise="true" culture="Culture.empire" value="20000" body_name="bo_empire_big_musket_002" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0.1" rotation="0,-1,0" missile_speed="125" accuracy="90" thrust_damage="150" thrust_speed="60" speed_rating="30" weapon_length="120" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_special_musket_001" name="{=Reiko_ROT_Ranged23}Empire Ornate Handgun" mesh="empire_special_musket_001" weight="2.0" appearance="0.1" difficulty="100" Type="Musket" is_merchandise="false" culture="Culture.empire" value="20000" body_name="bo_empire_special_musket_001" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_special_musket_001" name="{=tor_empire_weapon_gun_special_musket_001.name}Empire Ornate Handgun" mesh="empire_special_musket_001" weight="2.0" appearance="0.1" difficulty="100" Type="Musket" is_merchandise="false" culture="Culture.empire" value="20000" body_name="bo_empire_special_musket_001" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0.1" rotation="0,-1,0" missile_speed="125" accuracy="90" thrust_damage="150" thrust_speed="60" speed_rating="30" weapon_length="106" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
-  <Item id="tor_empire_weapon_gun_special_musket_002" name="{=Reiko_ROT_Ranged24}Empire Decorated Handgun" mesh="empire_special_musket_002" weight="2.0" appearance="0.1" difficulty="100" Type="Musket" is_merchandise="false" culture="Culture.empire" value="20000" body_name="bo_empire_special_musket_002" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
+  <Item id="tor_empire_weapon_gun_special_musket_002" name="{=tor_empire_weapon_gun_special_musket_002.name}Empire Decorated Handgun" mesh="empire_special_musket_002" weight="2.0" appearance="0.1" difficulty="100" Type="Musket" is_merchandise="false" culture="Culture.empire" value="20000" body_name="bo_empire_special_musket_002" item_holsters="tow_handgun_holster:tow_handgun2_holster" AmmoOffset="0,0,0" holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Musket" ammo_class="Cartridge" position="0,0,0.1" rotation="0,-1,0" missile_speed="125" accuracy="91" thrust_damage="150" thrust_speed="60" speed_rating="30" weapon_length="120" ammo_limit="1" thrust_damage_type="Pierce" item_usage="handgun" physics_material="wood_weapon" reload_phase_count="1" center_of_mass="0,0,-0.1">
-        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true" />
+        <WeaponFlags RangedWeapon="true" HasString="true" UseHandAsThrowBase="true" TwoHandIdleOnMount="true" NotUsableWithOneHand="true"/>
       </Weapon>
     </ItemComponent>
   </Item>
