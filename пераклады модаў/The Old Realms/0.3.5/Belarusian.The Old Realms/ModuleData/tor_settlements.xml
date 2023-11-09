@@ -68,4 +68,25 @@
     </Components>
   </Settlement>
 
+  <Settlement id="town_BE2" name="{=Settlements.Settlement.name.town_BE2}Chateau Frontière" owner="Faction.brionne_clan_1" posX="943.677" posY="824.454" culture="Culture.vlandia" gate_posX="945.9337" gate_posY="825.634" text="{=Settlements.Settlement.name.town_BE2.desc}A site of many sieges from Norsca in ages past, ever since Alaron the Intrepid aided in the defence against Bjorn Irongrim and his army of mercenaries, the frequency of raids on Brionne have died down significantly. Due to its strategic location, Chateau Frontière holds many relics from the crusades.">
+    <Components>
+      <Town id="town_comp_BE2" is_castle="false" level="3" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="bretonnia_city_background" gate_rotation="0.908" prosperity="4500" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="TOR_bretonnia_city_001" scene_name_1="TOR_bretonnia_city_001" scene_name_2="TOR_bretonnia_city_001" scene_name_3="TOR_bretonnia_city_001" />
+      <Location id="arena" scene_name="TOR_bretonnia_joust_arena_001" />
+      <Location id="tavern" scene_name="TOR_bretonnia_taverne_02" />
+      <Location id="lordshall" scene_name_1="TOR_bretonnia_keep_01" scene_name_2="TOR_bretonnia_keep_01" scene_name_3="TOR_bretonnia_keep_01" />
+      <Location id="prison" scene_name="vlandia_dungeon_a" />
+      <Location id="house_1" scene_name="TOR_wizard_hall_001_forceatmo" />
+      <Location id="house_2" scene_name="empire_house_d_interior_house" />
+      <Location id="house_3" scene_name="empire_house_d_interior_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+
 </Settlements>
