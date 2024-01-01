@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Belarusian Europe 1100"/>
+	<Id value = "Belarusian Europe 1100"/>
+	<Version value = "v1.1.5"/>
+	<DefaultModule value="true"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Author value="Denis Makouski (Reiko17)" />
+  	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.1.5"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.1.5"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.1.5"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.1.5"/>
+		<DependedModule Id="Belarusian Core" DependentVersion="v1.1.0"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls>
+
+		<XmlNode>
+		<XmlName id="Kingdoms" path="spkingdoms"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+		<XmlName id="SPCultures" path="spcultures"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="trooptrees"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+		<XmlName id="NPCCharacters" path="spnpccharactertemplates"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+		</XmlNode>
+
+	</Xmls>
+</Module>

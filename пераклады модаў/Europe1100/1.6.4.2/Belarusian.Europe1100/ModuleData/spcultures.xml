@@ -1,0 +1,1811 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+  
+  <Culture id="goldenhorde"
+           name="{=E11BA_spcul_name}Baltic"
+           is_main_culture="true"
+           color="0xffD22D33"
+           color2="0xfff5f5f5"
+           elite_basic_troop="NPCCharacter.baltic_ukininkas"
+           basic_troop="NPCCharacter.baltic_tribesman"
+           melee_militia_troop="NPCCharacter.baltic_spearman"
+           ranged_militia_troop="NPCCharacter.baltic_archer"
+           melee_elite_militia_troop="NPCCharacter.baltic_veteran_spearman"
+           ranged_elite_militia_troop="NPCCharacter.baltic_veteran_archer"
+           can_have_settlement="true"
+           town_edge_number="4"
+           villager_party_template="PartyTemplate.villager_sturgia_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_sturgia_template"
+           encounter_background_mesh="encounter_sturgia"
+           faction_banner_key="11.119.19.1836.1836.779.782.1.0.-30.505.144.116.302.281.764.740.0.0.-360.500.144.116.636.639.764.760.1.0.0.504.119.116.398.590.766.768.0.0.-180.444.144.116.155.144.766.918.0.0.-181.510.144.116.365.278.764.710.0.0.-270.510.144.116.206.278.764.617.0.0.-1.510.144.116.295.137.764.856.0.0.-1"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_sturgia"
+           caravan_party_template="PartyTemplate.caravan_template_sturgia"
+           militia_party_template="PartyTemplate.militia_sturgia_template"
+           rebels_party_template="PartyTemplate.rebels_sturgia_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_sturgia"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=E11BA_spcul_text}Slavs are the largest European ethnolinguistic group. They speak the various Slavic languages, belonging to the larger Balto-Slavic branch of the Indo-European languages. Slavs are geographically distributed throughout northern Eurasia, mainly inhabiting Central, Eastern and Southeastern Europe. A large Slavic minority is also scattered across the Baltic states and Central Asia, while a substantial Slavic diaspora is found throughout the Americas, as a result of immigration."
+           tournament_master="NPCCharacter.tournament_master_sturgia"
+           villager="NPCCharacter.villager_sturgia"
+           caravan_master="NPCCharacter.caravan_master_goldenhorde"
+           armed_trader="NPCCharacter.armed_trader_goldenhorde"
+           caravan_guard="NPCCharacter.caravan_guard_goldenhorde"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_goldenhorde"
+           duel_preset="NPCCharacter.sturgia_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_sturgia"
+           guard="NPCCharacter.guard_sturgia"
+           blacksmith="NPCCharacter.blacksmith_sturgia"
+           weaponsmith="NPCCharacter.weaponsmith_sturgia"
+           townswoman="NPCCharacter.townswoman_sturgia"
+           townswoman_infant="NPCCharacter.townswoman_infant_sturgia"
+           townswoman_child="NPCCharacter.townswoman_child_sturgia"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_sturgia"
+           townsman="NPCCharacter.townsman_sturgia"
+           townsman_infant="NPCCharacter.townsman_infant_sturgia"
+           townsman_child="NPCCharacter.townsman_child_sturgia"
+           townsman_teenager="NPCCharacter.townsman_teenager_sturgia"
+           village_woman="NPCCharacter.village_woman_sturgia"
+           villager_male_child="NPCCharacter.villager_child_sturgia"
+           villager_male_teenager="NPCCharacter.villager_teenager_sturgia"
+           villager_female_child="NPCCharacter.village_woman_child_sturgia"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_sturgia"
+           ransom_broker="NPCCharacter.ransom_broker_sturgia"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_sturgia"
+           merchant_notary="NPCCharacter.merchant_notary_sturgia"
+           artisan_notary="NPCCharacter.artisan_notary_sturgia"
+           preacher_notary="NPCCharacter.preacher_notary_sturgia"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_sturgia"
+           shop_worker="NPCCharacter.shop_worker_sturgia"
+           tavernkeeper="NPCCharacter.tavernkeeper_sturgia"
+           taverngamehost="NPCCharacter.taverngamehost_sturgia"
+           musician="NPCCharacter.musician_sturgia"
+           tavern_wench="NPCCharacter.tavern_wench_sturgia"
+           armorer="NPCCharacter.armorer_sturgia"
+           horseMerchant="NPCCharacter.horseMerchant_sturgia"
+           barber="NPCCharacter.barber_sturgia"
+           merchant="NPCCharacter.merchant_sturgia"
+           beggar="NPCCharacter.beggar_sturgia"
+           female_beggar="NPCCharacter.female_beggar_sturgia"
+           female_dancer="NPCCharacter.female_dancer_sturgia"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_sturgia"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_sturgia"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_sturgia"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_sturgia"
+           gear_dummy="NPCCharacter.gear_dummy_sturgia"
+           board_game_type="Konane">
+    <vassal_reward_items>
+      <item id="Item.avalanche_2haxe" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.sturgia_sword_1_t2" />
+      <item id="Item.sturgia_sword_2_t3" />
+      <item id="Item.sturgia_sword_4_t4" />
+      <item id="Item.sturgia_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_lawspeakers" />
+      <policy id="policy_precarial_land_tenure" />
+    </default_policies>
+    <male_names>
+<name name="{=ACDCA43D}Adomas" />
+<name name="{=F637C651}Algirdas" />
+<name name="{=0421B676}Andrius" />
+<name name="{=622C2410}Birutėnas" />
+<name name="{=5FA63D63}Dainius" />
+<name name="{=C22FFD3E}Daumantas" />
+<name name="{=043C5954}Gediminas" />
+<name name="{=62398FCA}Irmantas" />
+<name name="{=76E21A7E}Jurgis" />
+<name name="{=A8A00175}Kęstas" />
+<name name="{=7D17290E}Leonas" />
+<name name="{=A94E16A1}Lukiškis" />
+<name name="{=1B5C5C10}Mindaugas" />
+<name name="{=936BBBEE}Noreikas" />
+<name name="{=8A86CE76}Povilas" />
+<name name="{=16D40F45}Romaldas" />
+<name name="{=05154A7E}Rimantas" />
+<name name="{=71D4E2AD}Saulius" />
+<name name="{=3150208B}Skirmantas" />
+<name name="{=2E0FE86F}Stanislovas" />
+<name name="{=E8E8B874}Tautvilas" />
+<name name="{=2C2500CF}Tumas" />
+<name name="{=E44F74D1}Ugnius" />
+<name name="{=AC50599A}Valdimantas" />
+<name name="{=E44BBCCC}Vaidotas" />
+<name name="{=AD9E53CA}Vidmantas" />
+<name name="{=F0CB3CF1}Zigmantas" />
+<name name="{=A1026723}Žydrūnas" />
+<name name="{=159AB705}Algimantas" />
+<name name="{=D8BD737A}Birutis" />
+<name name="{=2E0BF3C0}Kazimieras" />
+<name name="{=D253341B}Edvardas" />
+<name name="{=24B1A739}Mykolas" />
+<name name="{=F115CDE8}Kajetonas" />
+<name name="{=F5935F3B}Vytautas" />
+<name name="{=2449A475}Gedgaudas" />
+<name name="{=7CC8D271}Vykintas" />
+<name name="{=6552F180}Laurynas" />
+    </male_names>
+    <female_names>
+<name name="{=C23A87A0}Aldona" />
+<name name="{=D48B9A29}Aldute" />
+<name name="{=8DB2707B}Aldvila" />
+<name name="{=A32152B9}Birutė" />
+<name name="{=5AA87454}Daina" />
+<name name="{=33EA630F}Dovilė" />
+<name name="{=FD3ED2C5}Genė" />
+<name name="{=6B65DA2E}Giedra" />
+<name name="{=8AEC4E4E}Ignė" />
+<name name="{=D75E96FB}Jadvyga" />
+<name name="{=70A6BFB5}Janina" />
+<name name="{=FF8E2E7A}Jokūbė" />
+<name name="{=BE14E6D9}Jūratė" />
+<name name="{=36C610BF}Kamile" />
+<name name="{=9E7254A0}Kotryna" />
+<name name="{=16F7E6D1}Laima" />
+<name name="{=57297A76}Liucija" />
+<name name="{=6A915DC6}Mantė" />
+<name name="{=97D538AB}Marijona" />
+<name name="{=7C2ECD17}Milda" />
+<name name="{=E09C7EC9}Morta" />
+<name name="{=8DEB72DE}Ona" />
+<name name="{=87EFD099}Rasa" />
+<name name="{=7ACD3794}Rūpinta" />
+<name name="{=D0D9C2B7}Sigita" />
+<name name="{=5A352BD0}Sofija" />
+<name name="{=3C90C755}Stanislava" />
+<name name="{=F61D34DD}Teklė" />
+<name name="{=0E09DA4B}Uršulė" />
+<name name="{=447E9F09}Vanda" />
+<name name="{=EA30E30E}Vilija" />
+<name name="{=11C4849E}Zita" />
+<name name="{=C464DF85}Zofija" />
+<name name="{=10E840CD}Žygimanta" />
+<name name="{=5A232C8D}Živilė" />
+<name name="{=75056306}Žygimantė" />
+<name name="{=73AE7FF9}Krivė" />
+<name name="{=A315D49F}Ieva" />
+    </female_names>
+    <clan_names>
+<name name="{=F140CD2C}Baltušis" />
+<name name="{=577DE414}Grybas" />
+<name name="{=94CDBD6D}Medekša" />
+<name name="{=465CEF6D}Vilkas" />
+<name name="{=4206436F}Kraujalis" />
+<name name="{=B8F95B3A}Žemaitis" />
+<name name="{=4E4D14E7}Molėtis" />
+<name name="{=81A8C67D}Kunigaitis" />
+<name name="{=F97FA153}Tarnaitis" />
+<name name="{=96D0DF9D}Sruoga" />
+    </clan_names>
+    <cultural_feats>
+<feat id="sturgian_cheaper_recruits_infantry" />
+<feat id="vlandian_renown_mercenary_income" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="112" />
+      <icon id="113" />
+      <icon id="114" />
+      <icon id="115" />
+      <icon id="116" />
+      <icon id="117" />
+      <icon id="118" />
+      <icon id="132" />
+      <icon id="138" />
+      <icon id="139" />
+      <icon id="307" />
+      <icon id="331" />
+      <icon id="407" />
+      <icon id="408" />
+      <icon id="409" />
+      <icon id="410" />
+      <icon id="439" />
+      <icon id="440" />
+      <icon id="441" />
+      <icon id="442" />
+      <icon id="443" />
+      <icon id="444" />
+      <icon id="445" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_slavic_0" />
+      <template name="NPCCharacter.spc_wanderer_slavic_1" />
+      <template name="NPCCharacter.spc_wanderer_slavic_2" />
+      <template name="NPCCharacter.spc_wanderer_slavic_3" />
+      <template name="NPCCharacter.spc_wanderer_slavic_4" />
+      <template name="NPCCharacter.spc_wanderer_slavic_5" />
+      <template name="NPCCharacter.spc_wanderer_slavic_6" />
+      <template name="NPCCharacter.spc_wanderer_slavic_7" />
+      <template name="NPCCharacter.spc_wanderer_slavic_8" />
+      <template name="NPCCharacter.spc_wanderer_slavic_9" />
+      <template name="NPCCharacter.spc_notable_slavic_0" />
+      <template name="NPCCharacter.spc_notable_slavic_0b" />
+      <template name="NPCCharacter.spc_notable_slavic_1" />
+      <template name="NPCCharacter.spc_notable_slavic_2" />
+      <template name="NPCCharacter.spc_notable_slavic_2b" />
+      <template name="NPCCharacter.spc_notable_slavic_3" />
+      <template name="NPCCharacter.spc_notable_slavic_3b" />
+      <template name="NPCCharacter.spc_notable_slavic_3c" />
+      <template name="NPCCharacter.spc_notable_slavic_4" />
+      <template name="NPCCharacter.spc_notable_slavic_5" />
+      <template name="NPCCharacter.spc_notable_slavic_6" />
+      <template name="NPCCharacter.spc_notable_slavic_7" />
+      <template name="NPCCharacter.spc_notable_slavic_8" />
+      <template name="NPCCharacter.spc_notable_slavic_9" />
+      <template name="NPCCharacter.spc_notable_slavic_10" />
+      <template name="NPCCharacter.spc_slavic_headman_1" />
+      <template name="NPCCharacter.spc_slavic_headman_2" />
+      <template name="NPCCharacter.spc_slavic_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_lakepike_leader_0" />
+      <template name="NPCCharacter.spc_lakepike_leader_1" />
+      <template name="NPCCharacter.spc_lakepike_leader_2" />
+      <template name="NPCCharacter.spc_lakepike_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_lakepike_leader_0" />
+      <template name="NPCCharacter.spc_lakepike_leader_1" />
+      <template name="NPCCharacter.spc_lakepike_leader_2" />
+      <template name="NPCCharacter.spc_lakepike_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  
+  <Culture id="sicilian"
+           name="{=E11SI_spcul_name}Sicilian"
+           is_main_culture="true"
+           color="0xff830808"
+           color2="0xff830808"
+           elite_basic_troop="NPCCharacter.sicilian_norman_squire"
+           basic_troop="NPCCharacter.sicilian_levy"
+           melee_militia_troop="NPCCharacter.sicilian_militia_spearman"
+           ranged_militia_troop="NPCCharacter.sicilian_militia_archer"
+           melee_elite_militia_troop="NPCCharacter.sicilian_veteran_miltia_spearman"
+           ranged_elite_militia_troop="NPCCharacter.sicilian_veteran_militia_archer"
+           can_have_settlement="true"
+           town_edge_number="16"
+           villager_party_template="PartyTemplate.villager_sicilian_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_sicilian_template"
+           caravan_party_template="PartyTemplate.caravan_template_sicilian"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_sicilian"
+           militia_party_template="PartyTemplate.militia_sicilian_template"
+           rebels_party_template="PartyTemplate.rebels_sicilian_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_sicilian"
+           prosperity_bonus="1"
+           encounter_background_mesh="encounter_empire"
+           faction_banner_key="11.4.124.4345.4345.764.764.1.0.0.163.0.5.512.512.764.764.1.0.0"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=E11SI_spcul_text}In the 11th century, the mainland southern sicilian powers were hiring Norman mercenaries, who were Christian descendants of the Vikings; it was the Normans under Roger I (of the Hauteville dynasty) who conquered Sicily from the Muslims over a period of thirty years until finally controlling the entire island by 1091 as the County of Sicily. In 1130, Roger II founded the Norman Kingdom of Sicily as an independent state with its own Parliament, language, schooling, army and currency, while the Sicilian culture evolved distinct traditions, clothing, linguistic changes, cuisine and customs not found in mainland Italy."
+           tournament_master="NPCCharacter.tournament_master_sicilian"
+           villager="NPCCharacter.villager_sicilian"
+           caravan_master="NPCCharacter.caravan_master_sicilian"
+           armed_trader="NPCCharacter.armed_trader_sicilian"
+           caravan_guard="NPCCharacter.caravan_guard_sicilian"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_sicilian"
+           duel_preset="NPCCharacter.sicilian_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_sicilian"
+           guard="NPCCharacter.guard_sicilian"
+           blacksmith="NPCCharacter.blacksmith_sicilian"
+           weaponsmith="NPCCharacter.weaponsmith_sicilian"
+           townswoman="NPCCharacter.townswoman_sicilian"
+           townswoman_infant="NPCCharacter.townswoman_infant_sicilian"
+           townswoman_child="NPCCharacter.townswoman_child_sicilian"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_sicilian"
+           townsman="NPCCharacter.townsman_sicilian"
+           townsman_infant="NPCCharacter.townsman_infant_sicilian"
+           townsman_child="NPCCharacter.townsman_child_sicilian"
+           village_woman="NPCCharacter.village_woman_sicilian"
+           villager_male_child="NPCCharacter.villager_child_sicilian"
+           villager_male_teenager="NPCCharacter.villager_teenager_sicilian"
+           villager_female_child="NPCCharacter.village_woman_child_sicilian"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_sicilian"
+           townsman_teenager="NPCCharacter.townsman_teenager_sicilian"
+           ransom_broker="NPCCharacter.ransom_broker_sicilian"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_sicilian"
+           merchant_notary="NPCCharacter.merchant_notary_sicilian"
+           artisan_notary="NPCCharacter.artisan_notary_sicilian"
+           preacher_notary="NPCCharacter.preacher_notary_sicilian"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_sicilian"
+           shop_worker="NPCCharacter.shop_worker_sicilian"
+           tavernkeeper="NPCCharacter.tavernkeeper_sicilian"
+           taverngamehost="NPCCharacter.taverngamehost_sicilian"
+           musician="NPCCharacter.musician_sicilian"
+           tavern_wench="NPCCharacter.tavern_wench_sicilian"
+           armorer="NPCCharacter.armorer_sicilian"
+           horseMerchant="NPCCharacter.horseMerchant_sicilian"
+           barber="NPCCharacter.barber_sicilian"
+           merchant="NPCCharacter.merchant_sicilian"
+           beggar="NPCCharacter.beggar_sicilian"
+           female_beggar="NPCCharacter.female_beggar_sicilian"
+           female_dancer="NPCCharacter.female_dancer_sicilian"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_sicilian"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_sicilian"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_sicilian"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_sicilian"
+           gear_dummy="NPCCharacter.gear_dummy_sicilian"
+           board_game_type="Tablut">
+    <vassal_reward_items>
+      <item id="Item.justicier_2hsword" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.iron_spatha_sword_t2" />
+      <item id="Item.empire_sword_1_t2" />
+      <item id="Item.empire_sword_2_t3" />
+      <item id="Item.empire_sword_6_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+     <name name="{=F0D5E38D}Ruggero" />
+<name name="{=E0D9CA32}Federico" />
+<name name="{=65BCA50B}Enrico" />
+<name name="{=9F3FBCAC}Pietro" />
+<name name="{=0760B651}Salvatore" />
+<name name="{=49B968F4}Giuseppe" />
+<name name="{=132D53A4}Antonio" />
+<name name="{=DD31345A}Giovanni" />
+<name name="{=EAEA713D}Vincenzo" />
+<name name="{=975CEE3E}Ignazio" />
+<name name="{=B3462FFE}Francesco" />
+<name name="{=3D3629E4}Calogero" />
+<name name="{=6C41A833}Gaetano" />
+<name name="{=D8FAA981}Michele" />
+<name name="{=B8FA0B3E}Leonardo" />
+<name name="{=187F791B}Andrea" />
+<name name="{=7C536133}Luigi" />
+<name name="{=64279F53}Carmelo" />
+<name name="{=EC9A67AF}Benedetto" />
+<name name="{=80798BE0}Mario" />
+<name name="{=8D87553B}Domenico" />
+<name name="{=0E5C9F9D}Santo" />
+<name name="{=66638385}Raffaele" />
+<name name="{=2ABA7AF8}Nicola" />
+<name name="{=D5B04783}Paolo" />
+<name name="{=4BD5EFB1}Alfredo" />
+<name name="{=24CD77E7}Sebastiano" />
+<name name="{=F363BE08}Emilio" />
+<name name="{=C9026954}Giosuè" />
+<name name="{=EE8F818F}Luciano" />
+<name name="{=6C3462A3}Giorgio" />
+<name name="{=5AD96D05}Ignazio" />
+<name name="{=02C1CD11}Tommaso" />
+<name name="{=165FBEAA}Bernardo" />
+<name name="{=7DA9A49A}Fabio" />
+<name name="{=5DF10EC1}Gennaro" />
+<name name="{=F49AED14}Giovanni" />
+<name name="{=4172DCC5}Roberto" />
+    </male_names>
+    <female_names>
+      <name name="{=AB80AC6B}Rosa" />
+<name name="{=1A58A5BE}Maria" />
+<name name="{=70B5E17A}Anna" />
+<name name="{=2309B6CD}Giovanna" />
+<name name="{=048F8F17}Caterina" />
+<name name="{=381E7D32}Lucia" />
+<name name="{=D7690922}Antonia" />
+<name name="{=BA3F76D0}Giuseppa" />
+<name name="{=C1889980}Carmela" />
+<name name="{=568B5605}Francesca" />
+<name name="{=8DEE0C3A}Vincenza" />
+<name name="{=8644A2C2}Rosalia" />
+<name name="{=6C5DA467}Angela" />
+<name name="{=BA6307DB}Nunzia" />
+<name name="{=007CCECB}Rosaria" />
+<name name="{=9CCFBFB3}Salvatrice" />
+<name name="{=BB572564}Concetta" />
+<name name="{=6197D35E}Margherita" />
+<name name="{=92F7987E}Vita" />
+<name name="{=6FD622EC}Adele" />
+<name name="{=9A2ACF73}Beatrice" />
+<name name="{=0FC265D9}Adelaide" />
+<name name="{=5E3D19EE}Elena" />
+<name name="{=18719DCF}Isabella" />
+<name name="{=CAD77EF9}Eleonora" />
+<name name="{=4FA7AB36}Federica" />
+<name name="{=FA44C3B9}Immacolata" />
+<name name="{=C7E0F7EE}Fortunata" />
+<name name="{=33A079DE}Elisa" />
+<name name="{=AFB67015}Sara" />
+<name name="{=25FF6CB1}Martina" />
+<name name="{=D92D3802}Benedetta" />
+<name name="{=80C1FDB0}Valentina" />
+<name name="{=92A6D5F9}Valeria" />
+<name name="{=83364883}Luisa" />
+<name name="{=053DC18A}Paola" />
+<name name="{=39B91E10}Roberta" />
+<name name="{=28A59358}Silvia" />
+    </female_names>
+    <clan_names>
+<name name="{=5F2FF8BC}Alcamo" />
+<name name="{=915865E9}Chiaramonte" />
+<name name="{=AADDD3BD}Moncada" />
+<name name="{=845990A8}Lanza" />
+<name name="{=2E8C1EBB}Grifeo" />
+<name name="{=18F5E9D8}Paternò" />
+<name name="{=47CF835B}Ventimiglia" />
+<name name="{=13CD2B53}Palizzi" />
+<name name="{=C6AC81A1}Monreale" />
+<name name="{=D29432ED}Sciacca" />
+    </clan_names>
+    <cultural_feats>
+<feat id="vlandian_villages_production_bonus" />
+<feat id="vlandian_renown_mercenary_income" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="100" />
+      <icon id="101" />
+      <icon id="102" />
+      <icon id="103" />
+      <icon id="104" />
+      <icon id="105" />
+      <icon id="106" />
+      <icon id="107" />
+      <icon id="108" />
+      <icon id="109" />
+      <icon id="110" />
+      <icon id="119" />
+      <icon id="147" />
+      <icon id="148" />
+      <icon id="152" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="202" />
+      <icon id="203" />
+      <icon id="204" />
+      <icon id="205" />
+      <icon id="206" />
+      <icon id="207" />
+      <icon id="208" />
+      <icon id="209" />
+      <icon id="210" />
+      <icon id="211" />
+      <icon id="212" />
+      <icon id="213" />
+      <icon id="214" />
+      <icon id="215" />
+      <icon id="216" />
+      <icon id="217" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="400" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_sicilian_0" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_1" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_2" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_3" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_4" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_5" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_6" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_7" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_8" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_9" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_10" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_11" />
+      <template name="NPCCharacter.spc_wanderer_sicilian_12" />
+      <template name="NPCCharacter.spc_notable_sicilian_merch1" />
+      <template name="NPCCharacter.spc_notable_sicilian_merch2" />
+      <template name="NPCCharacter.spc_notable_sicilian_merch3" />
+      <template name="NPCCharacter.spc_notable_sicilian_merch4" />
+      <template name="NPCCharacter.spc_notable_sicilian_merch5" />
+      <template name="NPCCharacter.spc_notable_sicilian_1" />
+      <template name="NPCCharacter.spc_notable_sicilian_1b" />
+      <template name="NPCCharacter.spc_notable_sicilian_2" />
+      <template name="NPCCharacter.spc_notable_sicilian_3" />
+      <template name="NPCCharacter.spc_sicilian_gangleader_1" />
+      <template name="NPCCharacter.spc_sicilian_gangleader_2" />
+      <template name="NPCCharacter.spc_sicilian_gangleader_3" />
+      <template name="NPCCharacter.spc_notable_sicilian_artisan_1" />
+      <template name="NPCCharacter.spc_notable_sicilian_artisan_2" />
+      <template name="NPCCharacter.spc_notable_sicilian_rural_1" />
+      <template name="NPCCharacter.spc_notable_sicilian_rural_2" />
+      <template name="NPCCharacter.spc_sicilian_headman_1" />
+      <template name="NPCCharacter.spc_sicilian_headman_2" />
+      <template name="NPCCharacter.spc_sicilian_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  
+  <!--Portuguese-->
+  
+   <Culture id="portuguese"
+           name="{=E11POR_spcul_name}Portuguese"
+           is_main_culture="true"
+           color="0xff284E19"
+           color2="0xffD22D33"
+           elite_basic_troop="NPCCharacter.portuguese_escudeiro"
+           basic_troop="NPCCharacter.portuguese_levy"
+           melee_militia_troop="NPCCharacter.portuguese_militia_spearman"
+           ranged_militia_troop="NPCCharacter.portuguese_militia_crossbowman"
+           melee_elite_militia_troop="NPCCharacter.portuguese_veteran_militia_spearman"
+           ranged_elite_militia_troop="NPCCharacter.portuguese_veteran_militia_crossbowman"
+           can_have_settlement="true"
+           town_edge_number="16"
+           villager_party_template="PartyTemplate.villager_portuguese_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_portuguese_template"
+           caravan_party_template="PartyTemplate.caravan_template_portuguese"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_portuguese"
+           militia_party_template="PartyTemplate.militia_portuguese_template"
+           rebels_party_template="PartyTemplate.rebels_portuguese_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_portuguese"
+           prosperity_bonus="1"
+           encounter_background_mesh="encounter_empire"
+           faction_banner_key="11.4.124.4345.4345.764.764.1.0.0.163.0.5.512.512.764.764.1.0.0"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=E11POR_spcul_text}Anatomically modern humans first arrived in the Iberian Peninsula around 42,000 years ago. The ancient Iberian and Celtic tribes, along with other pre-Roman peoples, dwelled the territory maintaining contacts with foreign Mediterranean cultures. The Roman conquest and colonization of the peninsula (Hispania) ensued, bringing the Romanization of the population. Receding of Western Roman imperial authority ushered in the migration of different non-Roman peoples from Central and Northern Europe with the Visigoths as the dominant power in the peninsula by the fifth century. In the early eighth century, most of the peninsula was conquered by the Umayyad Caliphate, and during early Islamic rule, Al-Andalus became a dominant peninsular power centered in Córdoba. Several Christian kingdoms emerged in Northern Iberia, chief among them León, Castile, Aragon, Portugal, and Navarre made an intermittent southward military expansion, known as Reconquista, repelling the Islamic rule in Iberia, which culminated with the Christian seizure of the Emirate of Granada in 1492."
+           tournament_master="NPCCharacter.tournament_master_portuguese"
+           villager="NPCCharacter.villager_portuguese"
+           caravan_master="NPCCharacter.caravan_master_portuguese"
+           armed_trader="NPCCharacter.armed_trader_portuguese"
+           caravan_guard="NPCCharacter.caravan_guard_portuguese"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_portuguese"
+           duel_preset="NPCCharacter.portuguese_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_portuguese"
+           guard="NPCCharacter.guard_portuguese"
+           blacksmith="NPCCharacter.blacksmith_portuguese"
+           weaponsmith="NPCCharacter.weaponsmith_portuguese"
+           townswoman="NPCCharacter.townswoman_portuguese"
+           townswoman_infant="NPCCharacter.townswoman_infant_portuguese"
+           townswoman_child="NPCCharacter.townswoman_child_portuguese"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_portuguese"
+           townsman="NPCCharacter.townsman_portuguese"
+           townsman_infant="NPCCharacter.townsman_infant_portuguese"
+           townsman_child="NPCCharacter.townsman_child_portuguese"
+           village_woman="NPCCharacter.village_woman_portuguese"
+           villager_male_child="NPCCharacter.villager_child_portuguese"
+           villager_male_teenager="NPCCharacter.villager_teenager_portuguese"
+           villager_female_child="NPCCharacter.village_woman_child_portuguese"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_portuguese"
+           townsman_teenager="NPCCharacter.townsman_teenager_portuguese"
+           ransom_broker="NPCCharacter.ransom_broker_portuguese"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_portuguese"
+           merchant_notary="NPCCharacter.merchant_notary_portuguese"
+           artisan_notary="NPCCharacter.artisan_notary_portuguese"
+           preacher_notary="NPCCharacter.preacher_notary_portuguese"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_portuguese"
+           shop_worker="NPCCharacter.shop_worker_portuguese"
+           tavernkeeper="NPCCharacter.tavernkeeper_portuguese"
+           taverngamehost="NPCCharacter.taverngamehost_portuguese"
+           musician="NPCCharacter.musician_portuguese"
+           tavern_wench="NPCCharacter.tavern_wench_portuguese"
+           armorer="NPCCharacter.armorer_portuguese"
+           horseMerchant="NPCCharacter.horseMerchant_portuguese"
+           barber="NPCCharacter.barber_portuguese"
+           merchant="NPCCharacter.merchant_portuguese"
+           beggar="NPCCharacter.beggar_portuguese"
+           female_beggar="NPCCharacter.female_beggar_portuguese"
+           female_dancer="NPCCharacter.female_dancer_portuguese"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_portuguese"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_portuguese"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_portuguese"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_portuguese"
+           gear_dummy="NPCCharacter.gear_dummy_portuguese"
+           board_game_type="Tablut">
+    <vassal_reward_items>
+      <item id="Item.justicier_2hsword" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.iron_spatha_sword_t2" />
+      <item id="Item.empire_sword_1_t2" />
+      <item id="Item.empire_sword_2_t3" />
+      <item id="Item.empire_sword_6_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+<name name="{=3251A2B5}Afonso" />
+<name name="{=1D43A3A2}Sancho" />
+<name name="{=18A11710}Raimundo" />
+<name name="{=F8B26FCF}Garcia" />
+<name name="{=5D5FDD4B}Egas" />
+<name name="{=69CE9F5C}Martim" />
+<name name="{=F13D4042}Gil" />
+<name name="{=131EA2D0}Nuno" />
+<name name="{=EE95B152}Lourenço" />
+<name name="{=6C449B67}Gonçalo" />
+<name name="{=3C5678DE}Paio" />
+<name name="{=77C6E787}Aires" />
+<name name="{=904D6A9C}Fernão" />
+<name name="{=6C50F09D}Estêvão" />
+<name name="{=5838A2DC}Pedro" />
+<name name="{=9B09D865}João" />
+<name name="{=63A68FD1}Diogo" />
+<name name="{=2654EEB9}Vasco" />
+<name name="{=82F6CB6A}Rodrigo" />
+<name name="{=A32A1051}Rui" />
+<name name="{=25D08819}Álvaro" />
+<name name="{=B17254F1}Mem" />
+<name name="{=CD6B981F}Gomes" />
+<name name="{=C7B7ACE1}Soeiro" />
+<name name="{=A1554EC7}Vicente" />
+<name name="{=923C59AD}Geraldo" />
+<name name="{=E02AC325}Mendo" />
+<name name="{=37795CB9}Pero" />
+<name name="{=45563768}Estêvão" />
+<name name="{=D251452F}Egas" />
+<name name="{=D975A724}Vicente" />
+<name name="{=5F3701D7}Egas" />
+<name name="{=48ECC33B}Gonçalo" />
+<name name="{=FB5E9714}Lourenço" />
+<name name="{=9B84DCB7}Aires" />
+<name name="{=9607E124}Martim" />
+<name name="{=95218539}Gil" />
+<name name="{=6251C184}Lourenço" />
+    </male_names>
+    <female_names>
+<name name="{=84F1D059}Teresa" />
+<name name="{=81B26D03}Urraca" />
+<name name="{=6A2E1EFB}Sancha" />
+<name name="{=C98A5113}Mafalda" />
+<name name="{=8847558A}Aldara" />
+<name name="{=02B285A8}Elvira" />
+<name name="{=2CE8DC39}Estefânia" />
+<name name="{=5260D650}Urraca" />
+<name name="{=A5EDD2C3}Inês" />
+<name name="{=7EF12AA8}Maria" />
+<name name="{=9B01DF0D}Leonor" />
+<name name="{=A84D737C}Beatriz" />
+<name name="{=E9108CC7}Mécia" />
+<name name="{=A7EFBB2C}Elvira" />
+<name name="{=592E6B44}Mafalda" />
+<name name="{=0F18174E}Guiomar" />
+<name name="{=D9B54610}Sancha" />
+<name name="{=E32883EE}Aldora" />
+<name name="{=47FF232B}Urraca" />
+<name name="{=B6B4EA84}Ermesenda" />
+<name name="{=E1C1E4EA}Sancha" />
+<name name="{=21F5DAAD}Dulce" />
+<name name="{=C8C7B79F}Constança" />
+<name name="{=3B30B3BC}Mécia" />
+<name name="{=B0DEAD29}Maria" />
+<name name="{=DF904ACD}Leonor" />
+<name name="{=889C29E8}Teresa" />
+<name name="{=FB154AD7}Urraca" />
+<name name="{=4837092E}Elvira" />
+<name name="{=AAF5D3AB}Mafalda" />
+<name name="{=C8859B14}Sancha" />
+<name name="{=F5381FB9}Aldora" />
+<name name="{=B55AE10C}Guiomar" />
+<name name="{=CACC3182}Beatriz" />
+<name name="{=1C50ACDC}Inês" />
+<name name="{=4B24CCDD}Ermesenda" />
+<name name="{=69C28451}Dulce" />
+<name name="{=79903E45}Constança" />
+    </female_names>
+    <clan_names>
+<name name="{=C73F5827}Gonçalves" />
+<name name="{=AA9CC88D}Ribeiro" />
+<name name="{=7E40930F}Esteves" />
+<name name="{=681A7307}Eanes" />
+<name name="{=E4EFF2C7}Fernão" />
+<name name="{=35A5AFF3}Vicente" />
+<name name="{=92547524}Souto" />
+<name name="{=69B8BB0B}Saraiva" />
+<name name="{=9E0269D9}Teixeira" />
+<name name="{=5C1D25C5}Lamego" />
+    </clan_names>
+    <cultural_feats>
+<feat id="empire_decreased_garrison_wage" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="100" />
+      <icon id="101" />
+      <icon id="102" />
+      <icon id="103" />
+      <icon id="104" />
+      <icon id="105" />
+      <icon id="106" />
+      <icon id="107" />
+      <icon id="108" />
+      <icon id="109" />
+      <icon id="110" />
+      <icon id="119" />
+      <icon id="147" />
+      <icon id="148" />
+      <icon id="152" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="202" />
+      <icon id="203" />
+      <icon id="204" />
+      <icon id="205" />
+      <icon id="206" />
+      <icon id="207" />
+      <icon id="208" />
+      <icon id="209" />
+      <icon id="210" />
+      <icon id="211" />
+      <icon id="212" />
+      <icon id="213" />
+      <icon id="214" />
+      <icon id="215" />
+      <icon id="216" />
+      <icon id="217" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="400" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_portuguese_0" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_1" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_2" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_3" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_4" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_5" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_6" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_7" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_8" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_9" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_10" />
+      <template name="NPCCharacter.spc_wanderer_portuguese_11" />
+      <template name="NPCCharacter.spc_notable_portuguese_0" />
+      <template name="NPCCharacter.spc_notable_portuguese_0b" />
+      <template name="NPCCharacter.spc_notable_portuguese_1" />
+      <template name="NPCCharacter.spc_notable_portuguese_1b" />
+      <template name="NPCCharacter.spc_notable_portuguese_2" />
+      <template name="NPCCharacter.spc_notable_portuguese_2b" />
+      <template name="NPCCharacter.spc_notable_portuguese_3" />
+      <template name="NPCCharacter.spc_notable_portuguese_3b" />
+      <template name="NPCCharacter.spc_notable_portuguese_4" />
+      <template name="NPCCharacter.spc_notable_portuguese_4b" />
+      <template name="NPCCharacter.spc_notable_portuguese_5" />
+      <template name="NPCCharacter.spc_notable_portuguese_6" />
+      <template name="NPCCharacter.spc_notable_portuguese_7" />
+      <template name="NPCCharacter.spc_notable_portuguese_8" />
+      <template name="NPCCharacter.spc_notable_portuguese_9" />
+      <template name="NPCCharacter.spc_notable_portuguese_10" />
+      <template name="NPCCharacter.spc_notable_portuguese_11" />
+      <template name="NPCCharacter.spc_notable_portuguese_12" />
+      <template name="NPCCharacter.spc_notable_portuguese_13" />
+      <template name="NPCCharacter.spc_notable_portuguese_21" />
+      <template name="NPCCharacter.spc_notable_portuguese_22" />
+      <template name="NPCCharacter.spc_notable_portuguese_gl1" />
+      <template name="NPCCharacter.spc_notable_portuguese_gl4" />
+      <template name="NPCCharacter.spc_portuguese_headman_1" />
+      <template name="NPCCharacter.spc_portuguese_headman_2" />
+      <template name="NPCCharacter.spc_portuguese_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  
+  <Culture id="rus"
+           name="{=E11RU_spcul_name}Rus"
+           is_main_culture="true"
+           color="0xff224277"
+           color2="0xffCEDAE7"
+           elite_basic_troop="NPCCharacter.rus_hrid"
+           basic_troop="NPCCharacter.rus_smerd"
+           melee_militia_troop="NPCCharacter.rus_woj_spearman"
+           ranged_militia_troop="NPCCharacter.rus_woj_archer"
+           melee_elite_militia_troop="NPCCharacter.rus_woj_veteran_spearman"
+           ranged_elite_militia_troop="NPCCharacter.rus_woj_veteran_archer"
+           can_have_settlement="true"
+           town_edge_number="4"
+           villager_party_template="PartyTemplate.villager_rus_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_rus_template"
+           encounter_background_mesh="encounter_sturgia"
+           faction_banner_key="11.119.19.1836.1836.779.782.1.0.-30.505.144.116.302.281.764.740.0.0.-360.500.144.116.636.639.764.760.1.0.0.504.119.116.398.590.766.768.0.0.-180.444.144.116.155.144.766.918.0.0.-181.510.144.116.365.278.764.710.0.0.-270.510.144.116.206.278.764.617.0.0.-1.510.144.116.295.137.764.856.0.0.-1"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_sturgia"
+           caravan_party_template="PartyTemplate.caravan_template_rus"
+           militia_party_template="PartyTemplate.militia_rus_template"
+           rebels_party_template="PartyTemplate.rebels_rus_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_rus"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=E11RU_spcul_text}Slavs are the largest European ethnolinguistic group. They speak the various Slavic languages, belonging to the larger Balto-Slavic branch of the Indo-European languages. Slavs are geographically distributed throughout northern Eurasia, mainly inhabiting Central, Eastern and Southeastern Europe. A large Slavic minority is also scattered across the Baltic states and Central Asia, while a substantial Slavic diaspora is found throughout the Americas, as a result of immigration."
+           tournament_master="NPCCharacter.tournament_master_rus"
+           villager="NPCCharacter.villager_rus"
+           caravan_master="NPCCharacter.caravan_master_rus"
+           armed_trader="NPCCharacter.armed_trader_rus"
+           caravan_guard="NPCCharacter.caravan_guard_rus"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_rus"
+           duel_preset="NPCCharacter.rus_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_rus"
+           guard="NPCCharacter.guard_rus"
+           blacksmith="NPCCharacter.blacksmith_rus"
+           weaponsmith="NPCCharacter.weaponsmith_rus"
+           townswoman="NPCCharacter.townswoman_rus"
+           townswoman_infant="NPCCharacter.townswoman_infant_rus"
+           townswoman_child="NPCCharacter.townswoman_child_rus"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_rus"
+           townsman="NPCCharacter.townsman_rus"
+           townsman_infant="NPCCharacter.townsman_infant_rus"
+           townsman_child="NPCCharacter.townsman_child_rus"
+           townsman_teenager="NPCCharacter.townsman_teenager_rus"
+           village_woman="NPCCharacter.village_woman_rus"
+           villager_male_child="NPCCharacter.villager_child_rus"
+           villager_male_teenager="NPCCharacter.villager_teenager_rus"
+           villager_female_child="NPCCharacter.village_woman_child_rus"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_rus"
+           ransom_broker="NPCCharacter.ransom_broker_rus"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_rus"
+           merchant_notary="NPCCharacter.merchant_notary_rus"
+           artisan_notary="NPCCharacter.artisan_notary_rus"
+           preacher_notary="NPCCharacter.preacher_notary_rus"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_rus"
+           shop_worker="NPCCharacter.shop_worker_rus"
+           tavernkeeper="NPCCharacter.tavernkeeper_rus"
+           taverngamehost="NPCCharacter.taverngamehost_rus"
+           musician="NPCCharacter.musician_rus"
+           tavern_wench="NPCCharacter.tavern_wench_rus"
+           armorer="NPCCharacter.armorer_rus"
+           horseMerchant="NPCCharacter.horseMerchant_rus"
+           barber="NPCCharacter.barber_rus"
+           merchant="NPCCharacter.merchant_rus"
+           beggar="NPCCharacter.beggar_rus"
+           female_beggar="NPCCharacter.female_beggar_rus"
+           female_dancer="NPCCharacter.female_dancer_rus"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_rus"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_rus"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_rus"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_rus"
+           gear_dummy="NPCCharacter.gear_dummy_rus"
+           board_game_type="Konane">
+    <vassal_reward_items>
+      <item id="Item.avalanche_2haxe" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.sturgia_sword_1_t2" />
+      <item id="Item.sturgia_sword_2_t3" />
+      <item id="Item.sturgia_sword_4_t4" />
+      <item id="Item.sturgia_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_lawspeakers" />
+      <policy id="policy_precarial_land_tenure" />
+    </default_policies>
+    <male_names>
+      <name name="{=DB3D0DCF}Vladimir" />
+<name name="{=A766A261}Ivan" />
+<name name="{=826B6BF8}Aleksandr" />
+<name name="{=923B0EDF}Boris" />
+<name name="{=4C396ED9}Miroslav" />
+<name name="{=15CE6538}Radoslav" />
+<name name="{=43CD1B5E}Yaroslav" />
+<name name="{=0223B28F}Oleg" />
+<name name="{=5884EB42}Sviatoslav" />
+<name name="{=610FB160}Dmitri" />
+<name name="{=D5523D39}Jaromir" />
+<name name="{=7C29128F}Bogdan" />
+<name name="{=98B4F28B}Boleslav" />
+<name name="{=48B813E2}Stanislav" />
+<name name="{=F353055B}Radovan" />
+<name name="{=D927C27A}Ljudevit" />
+<name name="{=318F123E}Zlatan" />
+<name name="{=FEBD90D1}Lech" />
+<name name="{=892D2177}Zbigniew" />
+<name name="{=1B822307}Władysław" />
+<name name="{=0F4530EC}Jaroslav" />
+<name name="{=7D907479}Bojan" />
+<name name="{=E0B73E37}Rostislav" />
+<name name="{=18AEBC2F}Václav" />
+<name name="{=304CDDA7}Jarosław" />
+<name name="{=5366B3F5}László" />
+<name name="{=25F09B1F}Kazimir" />
+<name name="{=0809246A}Mieszko" />
+<name name="{=9223AB22}Przemysław" />
+<name name="{=1A62DD1F}Svantevit" />
+<name name="{=645EB07E}Vlastimil" />
+<name name="{=C6A7795A}Zvonimir" />
+<name name="{=8A929AD4}Božidar" />
+<name name="{=677897F4}Velimir" />
+<name name="{=9FCAE144}Dragomir" />
+<name name="{=1636691E}Ratimir" />
+<name name="{=58429BEC}Bogomil" />
+<name name="{=9430B664}Dobromir" />
+    </male_names>
+    <female_names>
+     <name name="{=ED82AE8D}Olga" />
+<name name="{=23A7B082}Svetlana" />
+<name name="{=5631A6F3}Anastasia" />
+<name name="{=4C4669FC}Yaroslava" />
+<name name="{=71268F42}Ludmila" />
+<name name="{=56ABE173}Vlasta" />
+<name name="{=387BE217}Milena" />
+<name name="{=560FB7F1}Roksana" />
+<name name="{=CB9DFEAB}Dragana" />
+<name name="{=B30DD3F5}Zora" />
+<name name="{=8E66048D}Zdenka" />
+<name name="{=5FB71049}Božena" />
+<name name="{=CC4CF91A}Věra" />
+<name name="{=047EE0A9}Jadwiga" />
+<name name="{=A7C99A32}Agnieszka" />
+<name name="{=6D78EC8D}Božica" />
+<name name="{=A22D8393}Radoslava" />
+<name name="{=5505E963}Miroslava" />
+<name name="{=667C8C6D}Dobromila" />
+<name name="{=C53F3120}Vasilisa" />
+<name name="{=F4037B0D}Zlata" />
+<name name="{=1064DF89}Mariana" />
+<name name="{=6A217B8C}Vesna" />
+<name name="{=3A8A78A0}Zuzana" />
+<name name="{=D009F4E6}Magdalena" />
+<name name="{=47FA576D}Branislava" />
+<name name="{=677AA683}Radmila" />
+<name name="{=6C8871D3}Nadezhda" />
+<name name="{=B2BC2FAC}Danica" />
+<name name="{=84912D33}Helena" />
+<name name="{=0301643B}Ivona" />
+<name name="{=88E94BDC}Ljubica" />
+<name name="{=769C13D3}Slavka" />
+<name name="{=0FD038D1}Viera" />
+<name name="{=FCC429D4}Rozalia" />
+<name name="{=2646316C}Stanislava" />
+<name name="{=99184349}Katarzyna" />
+<name name="{=633C13CF}Darina" />
+    </female_names>
+    <clan_names>
+<name name="{=3ADDCF09}Rurikovich" />
+<name name="{=E84875C7}Stravinsky" />
+<name name="{=35C15555}Mikhalkov" />
+<name name="{=73BB146A}Dragojević" />
+<name name="{=A635F9FE}Radziwiłł" />
+<name name="{=79804209}Kievan" />
+<name name="{=6E99A4FF}Gostomski" />
+<name name="{=2615E960}Jagiellon" />
+<name name="{=0BAED216}Vojnović" />
+<name name="{=5DF45E13}Dovmontov" />
+    </clan_names>
+    <cultural_feats>
+<feat id="sturgian_cheaper_recruits_infantry" />
+<feat id="vlandian_renown_mercenary_income" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="112" />
+      <icon id="113" />
+      <icon id="114" />
+      <icon id="115" />
+      <icon id="116" />
+      <icon id="117" />
+      <icon id="118" />
+      <icon id="132" />
+      <icon id="138" />
+      <icon id="139" />
+      <icon id="307" />
+      <icon id="331" />
+      <icon id="407" />
+      <icon id="408" />
+      <icon id="409" />
+      <icon id="410" />
+      <icon id="439" />
+      <icon id="440" />
+      <icon id="441" />
+      <icon id="442" />
+      <icon id="443" />
+      <icon id="444" />
+      <icon id="445" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_rus_0" />
+      <template name="NPCCharacter.spc_wanderer_rus_1" />
+      <template name="NPCCharacter.spc_wanderer_rus_2" />
+      <template name="NPCCharacter.spc_wanderer_rus_3" />
+      <template name="NPCCharacter.spc_wanderer_rus_4" />
+      <template name="NPCCharacter.spc_wanderer_rus_5" />
+      <template name="NPCCharacter.spc_wanderer_rus_6" />
+      <template name="NPCCharacter.spc_wanderer_rus_7" />
+      <template name="NPCCharacter.spc_wanderer_rus_8" />
+      <template name="NPCCharacter.spc_wanderer_rus_9" />
+      <template name="NPCCharacter.spc_notable_rus_0" />
+      <template name="NPCCharacter.spc_notable_rus_0b" />
+      <template name="NPCCharacter.spc_notable_rus_1" />
+      <template name="NPCCharacter.spc_notable_rus_2" />
+      <template name="NPCCharacter.spc_notable_rus_2b" />
+      <template name="NPCCharacter.spc_notable_rus_3" />
+      <template name="NPCCharacter.spc_notable_rus_3b" />
+      <template name="NPCCharacter.spc_notable_rus_3c" />
+      <template name="NPCCharacter.spc_notable_rus_4" />
+      <template name="NPCCharacter.spc_notable_rus_5" />
+      <template name="NPCCharacter.spc_notable_rus_6" />
+      <template name="NPCCharacter.spc_notable_rus_7" />
+      <template name="NPCCharacter.spc_notable_rus_8" />
+      <template name="NPCCharacter.spc_notable_rus_9" />
+      <template name="NPCCharacter.spc_notable_rus_10" />
+      <template name="NPCCharacter.spc_rus_headman_1" />
+      <template name="NPCCharacter.spc_rus_headman_2" />
+      <template name="NPCCharacter.spc_rus_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_lakepike_leader_0" />
+      <template name="NPCCharacter.spc_lakepike_leader_1" />
+      <template name="NPCCharacter.spc_lakepike_leader_2" />
+      <template name="NPCCharacter.spc_lakepike_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_lakepike_leader_0" />
+      <template name="NPCCharacter.spc_lakepike_leader_1" />
+      <template name="NPCCharacter.spc_lakepike_leader_2" />
+      <template name="NPCCharacter.spc_lakepike_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  
+   <Culture id="bulgarian"
+           name="{=E11BU_spcul_name}Bulgarian"
+           is_main_culture="true"
+           color="0xff34671e"
+           color2="0xff830808"
+           elite_basic_troop="NPCCharacter.bulgarian_kastrophlax"
+           basic_troop="NPCCharacter.bulgarian_nomad"
+           melee_militia_troop="NPCCharacter.bulgarian_skirmisher"
+           ranged_militia_troop="NPCCharacter.bulgarian_foot_archer"
+           melee_elite_militia_troop="NPCCharacter.bulgarian_veteran_skirmisher"
+           ranged_elite_militia_troop="NPCCharacter.bulgarian_veteran_foot_archer"
+           can_have_settlement="true"
+           town_edge_number="16"
+           villager_party_template="PartyTemplate.villager_bulgarian_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_bulgarian_template"
+           caravan_party_template="PartyTemplate.caravan_template_bulgarian"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_bulgarian"
+           militia_party_template="PartyTemplate.militia_bulgarian_template"
+           rebels_party_template="PartyTemplate.rebels_bulgarian_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_bulgarian"
+           prosperity_bonus="1"
+           encounter_background_mesh="encounter_empire"
+           faction_banner_key="11.4.124.4345.4345.764.764.1.0.0.163.0.5.512.512.764.764.1.0.0"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=E11BU_spcul_text}The Bulgars were Turkic semi-nomadic warrior tribes that flourished in the Pontic–Caspian steppe and the Volga region during the 7th century. They became known as nomadic equestrians in the Volga-Ural region, but some researchers believe that their ethnic roots can be traced to Central Asia. During their westward migration across the Eurasian Steppe, the Bulgar tribes absorbed other tribal groups and cultural influences in a process of ethnogenesis, including Iranic, Finnic, and Hunnic tribes. The Bulgars spoke a Turkic language, the Bulgar language of the Oghuric branch. They preserved the military titles, organization, and customs of Eurasian steppes as well as pagan shamanism and belief in the sky deity Tangra. The Bulgars became semi-sedentary during the 7th century in the Pontic-Caspian steppe, establishing the polity of Old Great Bulgaria c. 630–635, which was defeated by the Khazar Empire in 668 AD. In c. 679, Khan Asparukh conquered Scythia Minor, opening access to Moesia, and established the Danubian Bulgaria – the First Bulgarian Empire, where the Bulgars became a political and military elite. They merged subsequently with established Byzantine populations, as well as with previously settled Slavic tribes, and were eventually Slavicized, thus becoming one of the ancestors of modern Bulgarians."
+           tournament_master="NPCCharacter.tournament_master_bulgarian"
+           villager="NPCCharacter.villager_bulgarian"
+           caravan_master="NPCCharacter.caravan_master_bulgarian"
+           armed_trader="NPCCharacter.armed_trader_bulgarian"
+           caravan_guard="NPCCharacter.caravan_guard_bulgarian"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_bulgarian"
+           duel_preset="NPCCharacter.bulgarian_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_bulgarian"
+           guard="NPCCharacter.guard_bulgarian"
+           blacksmith="NPCCharacter.blacksmith_bulgarian"
+           weaponsmith="NPCCharacter.weaponsmith_bulgarian"
+           townswoman="NPCCharacter.townswoman_bulgarian"
+           townswoman_infant="NPCCharacter.townswoman_infant_bulgarian"
+           townswoman_child="NPCCharacter.townswoman_child_bulgarian"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_bulgarian"
+           townsman="NPCCharacter.townsman_bulgarian"
+           townsman_infant="NPCCharacter.townsman_infant_bulgarian"
+           townsman_child="NPCCharacter.townsman_child_bulgarian"
+           village_woman="NPCCharacter.village_woman_bulgarian"
+           villager_male_child="NPCCharacter.villager_child_bulgarian"
+           villager_male_teenager="NPCCharacter.villager_teenager_bulgarian"
+           villager_female_child="NPCCharacter.village_woman_child_bulgarian"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_bulgarian"
+           townsman_teenager="NPCCharacter.townsman_teenager_bulgarian"
+           ransom_broker="NPCCharacter.ransom_broker_bulgarian"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_bulgarian"
+           merchant_notary="NPCCharacter.merchant_notary_bulgarian"
+           artisan_notary="NPCCharacter.artisan_notary_bulgarian"
+           preacher_notary="NPCCharacter.preacher_notary_bulgarian"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_bulgarian"
+           shop_worker="NPCCharacter.shop_worker_bulgarian"
+           tavernkeeper="NPCCharacter.tavernkeeper_bulgarian"
+           taverngamehost="NPCCharacter.taverngamehost_bulgarian"
+           musician="NPCCharacter.musician_bulgarian"
+           tavern_wench="NPCCharacter.tavern_wench_bulgarian"
+           armorer="NPCCharacter.armorer_bulgarian"
+           horseMerchant="NPCCharacter.horseMerchant_bulgarian"
+           barber="NPCCharacter.barber_bulgarian"
+           merchant="NPCCharacter.merchant_bulgarian"
+           beggar="NPCCharacter.beggar_bulgarian"
+           female_beggar="NPCCharacter.female_beggar_bulgarian"
+           female_dancer="NPCCharacter.female_dancer_bulgarian"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_bulgarian"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_bulgarian"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_bulgarian"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_bulgarian"
+           gear_dummy="NPCCharacter.gear_dummy_bulgarian"
+           board_game_type="Tablut">
+    <vassal_reward_items>
+      <item id="Item.justicier_2hsword" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.iron_spatha_sword_t2" />
+      <item id="Item.empire_sword_1_t2" />
+      <item id="Item.empire_sword_2_t3" />
+      <item id="Item.empire_sword_6_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+<name name="{=B77952A6}Ivan" />
+<name name="{=E42A2F26}Peter" />
+<name name="{=CEBE0A8D}Stefan" />
+<name name="{=BFA9B241}Asen" />
+<name name="{=ADEBBFDB}Kaloyan" />
+<name name="{=320532E3}Todor" />
+<name name="{=EEDAD751}Dobromir" />
+<name name="{=705A70BB}Krum" />
+<name name="{=4D843CFC}Boris" />
+<name name="{=917758B7}Georgi" />
+<name name="{=57BE6212}Radoslav" />
+<name name="{=BDDC94AB}Simeon" />
+<name name="{=4D63F701}Konstantin" />
+<name name="{=744F2C25}Vladislav" />
+<name name="{=DDDF9E8D}Presian" />
+<name name="{=26B01CF8}Boril" />
+<name name="{=2E082258}Boyan" />
+<name name="{=BCDB0CD0}Dragomir" />
+<name name="{=55ECEBCE}Ivaylo" />
+<name name="{=43BB7A68}Nikola" />
+<name name="{=79EAC5CB}Asparuh" />
+<name name="{=37DA0F13}Biser" />
+<name name="{=315D286F}Rostislav" />
+<name name="{=5A99F921}Hristo" />
+<name name="{=07C097FE}Lyuben" />
+<name name="{=E2786CCE}Panteley" />
+<name name="{=3F5ED5FD}Tsvyatko" />
+<name name="{=871EB808}Vladko" />
+<name name="{=4EE5EB2A}Zlatan" />
+<name name="{=7C3984A1}Dobrin" />
+<name name="{=D9D74EB3}Zvetan" />
+<name name="{=D80E32AF}Yoan" />
+<name name="{=9ECCAAE6}Plamen" />
+<name name="{=3EF16C1B}Dragomir" />
+<name name="{=4A640988}Radomir" />
+<name name="{=7950583B}Kosta" />
+<name name="{=927D66D0}Lyubomir" />
+<name name="{=F9300F14}Smilen" />
+    </male_names>
+    <female_names>
+<name name="{=80E28B78}Maria" />
+<name name="{=1E3039B9}Anna" />
+<name name="{=72128B9A}Kira" />
+<name name="{=DAB29F8E}Desislava" />
+<name name="{=EE1886F3}Euphrosyne" />
+<name name="{=2CC71629}Militsa" />
+<name name="{=00A68ABC}Teodora" />
+<name name="{=7DE6A344}Kalina" />
+<name name="{=0D62AF4F}Dobromila" />
+<name name="{=082638B2}Irina" />
+<name name="{=D5F01BF5}Dragana" />
+<name name="{=E38EE660}Zvetana" />
+<name name="{=FA9E0156}Stanislava" />
+<name name="{=F53B60C4}Iskra" />
+<name name="{=A23BD4B6}Velislava" />
+<name name="{=F915BD02}Boyana" />
+<name name="{=A7C244AB}Gergana" />
+<name name="{=D75A86A0}Vasilka" />
+<name name="{=6974B92F}Krasimira" />
+<name name="{=81B492EB}Radoslava" />
+<name name="{=851756CF}Elena" />
+<name name="{=F3173A25}Neda" />
+<name name="{=1C11D0B4}Ljubica" />
+<name name="{=C7B2D1CB}Nadia" />
+<name name="{=D917899E}Vladislava" />
+<name name="{=81B99577}Asenka" />
+<name name="{=D371CA5F}Snezhana" />
+<name name="{=A2695AF5}Radomira" />
+<name name="{=8A910EDE}Milena" />
+<name name="{=9730BB49}Vitoslava" />
+<name name="{=CB56B149}Tsvetelina" />
+<name name="{=4F0C8F87}Petya" />
+<name name="{=1FD874AE}Petranka" />
+<name name="{=76A4E9BC}Margarita" />
+<name name="{=F673B239}Svetlana" />
+<name name="{=987EE99E}Todorina" />
+<name name="{=7E1E323B}Rostislava" />
+    </female_names>
+    <clan_names>
+<name name="{=07D3E09E}Ivanov" />
+<name name="{=E3D62A91}Petrov" />
+<name name="{=36BF7597}Stoyanov" />
+<name name="{=C30C05D7}Vladimirov" />
+<name name="{=7395829A}Asenov" />
+<name name="{=E99C300E}Krumov" />
+<name name="{=A94C4BC9}Todorov" />
+<name name="{=345532F5}Dragomirov" />
+<name name="{=6289BE93}Borisov" />
+<name name="{=FA6487A1}Radoslavov" />
+    </clan_names>
+    <cultural_feats>
+<feat id="khuzait_cheaper_recruits_mounted" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="100" />
+      <icon id="101" />
+      <icon id="102" />
+      <icon id="103" />
+      <icon id="104" />
+      <icon id="105" />
+      <icon id="106" />
+      <icon id="107" />
+      <icon id="108" />
+      <icon id="109" />
+      <icon id="110" />
+      <icon id="119" />
+      <icon id="147" />
+      <icon id="148" />
+      <icon id="152" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="202" />
+      <icon id="203" />
+      <icon id="204" />
+      <icon id="205" />
+      <icon id="206" />
+      <icon id="207" />
+      <icon id="208" />
+      <icon id="209" />
+      <icon id="210" />
+      <icon id="211" />
+      <icon id="212" />
+      <icon id="213" />
+      <icon id="214" />
+      <icon id="215" />
+      <icon id="216" />
+      <icon id="217" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="400" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_bulgarian_0" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_1" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_2" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_3" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_4" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_5" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_6" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_7" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_8" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_9" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_10" />
+      <template name="NPCCharacter.spc_wanderer_bulgarian_11" />
+      <template name="NPCCharacter.spc_notable_bulgarian_0" />
+      <template name="NPCCharacter.spc_notable_bulgarian_0b" />
+      <template name="NPCCharacter.spc_notable_bulgarian_1" />
+      <template name="NPCCharacter.spc_notable_bulgarian_1b" />
+      <template name="NPCCharacter.spc_notable_bulgarian_2" />
+      <template name="NPCCharacter.spc_notable_bulgarian_2b" />
+      <template name="NPCCharacter.spc_notable_bulgarian_3" />
+      <template name="NPCCharacter.spc_notable_bulgarian_3b" />
+      <template name="NPCCharacter.spc_notable_bulgarian_4" />
+      <template name="NPCCharacter.spc_notable_bulgarian_4b" />
+      <template name="NPCCharacter.spc_notable_bulgarian_5" />
+      <template name="NPCCharacter.spc_notable_bulgarian_6" />
+      <template name="NPCCharacter.spc_notable_bulgarian_7" />
+      <template name="NPCCharacter.spc_notable_bulgarian_8" />
+      <template name="NPCCharacter.spc_notable_bulgarian_9" />
+      <template name="NPCCharacter.spc_notable_bulgarian_10" />
+      <template name="NPCCharacter.spc_notable_bulgarian_11" />
+      <template name="NPCCharacter.spc_notable_bulgarian_12" />
+      <template name="NPCCharacter.spc_notable_bulgarian_13" />
+      <template name="NPCCharacter.spc_notable_bulgarian_21" />
+      <template name="NPCCharacter.spc_notable_bulgarian_22" />
+      <template name="NPCCharacter.spc_notable_bulgarian_gl1" />
+      <template name="NPCCharacter.spc_notable_bulgarian_gl4" />
+      <template name="NPCCharacter.spc_bulgarian_headman_1" />
+      <template name="NPCCharacter.spc_bulgarian_headman_2" />
+      <template name="NPCCharacter.spc_bulgarian_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture> 
+  
+  <Culture id="georgia"
+           name="{=E11GE_spcul_name}Georgian"
+           is_main_culture="true"
+           color="0xff830808"
+           color2="0xffffffff"
+           elite_basic_troop="NPCCharacter.georgian_aghzeebul_aznauri"
+           basic_troop="NPCCharacter.georgian_bogano"
+           melee_militia_troop="NPCCharacter.georgian_msakhureuli_spearmen"
+           ranged_militia_troop="NPCCharacter.georgian_molashqre_mshvildosani"
+           melee_elite_militia_troop="NPCCharacter.georgian_metsikhovne_spearmen"
+           ranged_elite_militia_troop="NPCCharacter.georgian_metsikhovne_archer"
+           can_have_settlement="true"
+           town_edge_number="16"
+           villager_party_template="PartyTemplate.villager_georgia_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_georgia_template"
+           caravan_party_template="PartyTemplate.caravan_template_georgia"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_georgia"
+           militia_party_template="PartyTemplate.militia_georgia_template"
+           rebels_party_template="PartyTemplate.rebels_georgia_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_georgia"
+           prosperity_bonus="1"
+           encounter_background_mesh="encounter_empire"
+           faction_banner_key="11.4.124.4345.4345.764.764.1.0.0.163.0.5.512.512.764.764.1.0.0"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=E11GE_spcul_text}The Georgians, or Kartvelians are a nation and indigenous Caucasian ethnic group native to Georgia and the South Caucasus. Georgians arose from Colchian and Iberian civilizations of classical antiquity. Colchis was interconnected with the Hellenic world, whereas Iberia was influenced by the Persian Achaemenid Empire until it was conquered by Alexander the Great. In the early 4th century, the Georgians became one of the first to embrace Christianity and now the majority of Georgians are Orthodox Christians, with most following their national autocephalous Georgian Orthodox Church, although there are small Georgian Catholic and Muslim communities, as well as a significant number who are irreligious."
+           tournament_master="NPCCharacter.tournament_master_georgia"
+           villager="NPCCharacter.villager_georgia"
+           caravan_master="NPCCharacter.caravan_master_georgia"
+           armed_trader="NPCCharacter.armed_trader_georgia"
+           caravan_guard="NPCCharacter.caravan_guard_georgia"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_georgia"
+           duel_preset="NPCCharacter.georgia_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_georgia"
+           guard="NPCCharacter.guard_georgia"
+           blacksmith="NPCCharacter.blacksmith_georgia"
+           weaponsmith="NPCCharacter.weaponsmith_georgia"
+           townswoman="NPCCharacter.townswoman_georgia"
+           townswoman_infant="NPCCharacter.townswoman_infant_georgia"
+           townswoman_child="NPCCharacter.townswoman_child_georgia"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_georgia"
+           townsman="NPCCharacter.townsman_georgia"
+           townsman_infant="NPCCharacter.townsman_infant_georgia"
+           townsman_child="NPCCharacter.townsman_child_georgia"
+           village_woman="NPCCharacter.village_woman_georgia"
+           villager_male_child="NPCCharacter.villager_child_georgia"
+           villager_male_teenager="NPCCharacter.villager_teenager_georgia"
+           villager_female_child="NPCCharacter.village_woman_child_georgia"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_georgia"
+           townsman_teenager="NPCCharacter.townsman_teenager_georgia"
+           ransom_broker="NPCCharacter.ransom_broker_georgia"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_georgia"
+           merchant_notary="NPCCharacter.merchant_notary_georgia"
+           artisan_notary="NPCCharacter.artisan_notary_georgia"
+           preacher_notary="NPCCharacter.preacher_notary_georgia"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_georgia"
+           shop_worker="NPCCharacter.shop_worker_georgia"
+           tavernkeeper="NPCCharacter.tavernkeeper_georgia"
+           taverngamehost="NPCCharacter.taverngamehost_georgia"
+           musician="NPCCharacter.musician_georgia"
+           tavern_wench="NPCCharacter.tavern_wench_georgia"
+           armorer="NPCCharacter.armorer_georgia"
+           horseMerchant="NPCCharacter.horseMerchant_georgia"
+           barber="NPCCharacter.barber_georgia"
+           merchant="NPCCharacter.merchant_georgia"
+           beggar="NPCCharacter.beggar_georgia"
+           female_beggar="NPCCharacter.female_beggar_georgia"
+           female_dancer="NPCCharacter.female_dancer_georgia"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_georgia"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_georgia"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_georgia"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_georgia"
+           gear_dummy="NPCCharacter.gear_dummy_georgia"
+           board_game_type="Tablut">
+    <vassal_reward_items>
+      <item id="Item.justicier_2hsword" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.iron_spatha_sword_t2" />
+      <item id="Item.empire_sword_1_t2" />
+      <item id="Item.empire_sword_2_t3" />
+      <item id="Item.empire_sword_6_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+
+    </default_policies>
+    <male_names>
+<name name="{=DEA9416A}Davit" />
+<name name="{=24B4742A}Giorgi" />
+<name name="{=8A621625}Tariel" />
+<name name="{=E2AC9DFA}Vakhtang" />
+<name name="{=832BF9A1}Demetre" />
+<name name="{=8A7726D1}Shota" />
+<name name="{=306DC3FD}Kakhaber" />
+<name name="{=C3D163A1}Lasha" />
+<name name="{=97914E42}Bagrat" />
+<name name="{=3BD3CD91}Zurab" />
+<name name="{=51A8CF68}Levan" />
+<name name="{=44DF8209}Mirian" />
+<name name="{=B05736EB}Ioseb" />
+<name name="{=8F095D74}Archil" />
+<name name="{=AE434F04}Aleksandre" />
+<name name="{=601A12C6}Givi" />
+<name name="{=5D95A58C}Badri" />
+<name name="{=01CCE7E7}Nugzar" />
+<name name="{=E07D804E}Irakli" />
+<name name="{=AB6CF3BE}Malkhaz" />
+<name name="{=04B96424}Amiran" />
+<name name="{=838B0B82}Mikheil" />
+<name name="{=8FE3EC88}Garsevan" />
+<name name="{=6584BC75}Parnavaz" />
+<name name="{=5F0E0035}Rostom" />
+<name name="{=6F36F53B}Sulkhan" />
+<name name="{=2D3B9D1C}Vache" />
+<name name="{=73BD49E0}Varlam" />
+<name name="{=21E8C87F}Zaal" />
+<name name="{=E2C8EF2F}Otari" />
+<name name="{=F7106018}Erekle" />
+<name name="{=7F28D4B6}Giuli" />
+<name name="{=5D86D7A0}Kvarkvare" />
+<name name="{=04CE826B}Manuchar" />
+<name name="{=53171D41}Rati" />
+<name name="{=25319A85}Teimuraz" />
+<name name="{=EFF0331F}Zviad" />
+<name name="{=B2AE2796}Khvicha" />
+    </male_names>
+    <female_names>
+<name name="{=C18A41C7}Tamar" />
+<name name="{=C8D81B0A}Rusudan" />
+<name name="{=A642BBE7}Ketevan" />
+<name name="{=06DDB760}Nestan-Darejan" />
+<name name="{=E4CDBB6D}Mariam" />
+<name name="{=94D70FA4}Nino" />
+<name name="{=5F3E3322}Tinatin" />
+<name name="{=3CF3185A}Elene" />
+<name name="{=22D34674}Salome" />
+<name name="{=89BD466A}Khorashan" />
+<name name="{=8CCA3210}Marta" />
+<name name="{=D0D1943C}Ana" />
+<name name="{=700323FB}Dedisimedi" />
+<name name="{=2962C379}Guldukht" />
+<name name="{=4211A471}Ketino" />
+<name name="{=799618F8}Shorena" />
+<name name="{=94B776BE}Tavdgiridari" />
+<name name="{=5C2818FA}Vardandukht" />
+<name name="{=37531206}Elene-Dedisimedi" />
+<name name="{=450207D7}Manana" />
+<name name="{=28B91B93}Rusana" />
+<name name="{=A7A033F8}Zaqaridukht" />
+<name name="{=87827FDE}Tuta" />
+<name name="{=E1A54951}Ivlita" />
+<name name="{=534F1361}Natela" />
+<name name="{=BEF7396D}Pelekan" />
+<name name="{=9F16DF12}Sorkhokhtani" />
+<name name="{=C7867209}Khvaramze" />
+<name name="{=B9A27900}Khushtaroz" />
+<name name="{=61A87213}Darejan" />
+<name name="{=5FE50FE7}Targamosali" />
+<name name="{=AAFAF634}Despina" />
+<name name="{=BB790C43}Eupraxia" />
+<name name="{=BD55474B}Theodora" />
+<name name="{=582A6ED2}Shushanik" />
+<name name="{=A9A16EE0}Varduli" />
+<name name="{=5C8848E6}Zarzandukht" />
+<name name="{=8FCF4F9E}Khvaramze" />
+    </female_names>
+    <clan_names>
+<name name="{=4C652BA9}Bagrationi" />
+<name name="{=9191912E}Orbeliani" />
+<name name="{=4DACA0BF}Toreli" />
+<name name="{=0CC110D1}Chavchavadze" />
+<name name="{=ABB654E0}Mkhargrdzeli" />
+<name name="{=3EEDB8C2}Abashidze" />
+<name name="{=FDEBD02F}Jaqeli" />
+<name name="{=2F9FFC56}Amilakhvari" />
+<name name="{=96D71631}Baratashvili" />
+<name name="{=691FC3AD}Tumanishvili" />
+    </clan_names>
+    <cultural_feats>
+<feat id="empire_decreased_garrison_wage" />
+<feat id="vlandian_renown_mercenary_income" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="100" />
+      <icon id="101" />
+      <icon id="102" />
+      <icon id="103" />
+      <icon id="104" />
+      <icon id="105" />
+      <icon id="106" />
+      <icon id="107" />
+      <icon id="108" />
+      <icon id="109" />
+      <icon id="110" />
+      <icon id="119" />
+      <icon id="147" />
+      <icon id="148" />
+      <icon id="152" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="202" />
+      <icon id="203" />
+      <icon id="204" />
+      <icon id="205" />
+      <icon id="206" />
+      <icon id="207" />
+      <icon id="208" />
+      <icon id="209" />
+      <icon id="210" />
+      <icon id="211" />
+      <icon id="212" />
+      <icon id="213" />
+      <icon id="214" />
+      <icon id="215" />
+      <icon id="216" />
+      <icon id="217" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="400" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_georgia_0" />
+      <template name="NPCCharacter.spc_wanderer_georgia_1" />
+      <template name="NPCCharacter.spc_wanderer_georgia_2" />
+      <template name="NPCCharacter.spc_wanderer_georgia_3" />
+      <template name="NPCCharacter.spc_wanderer_georgia_4" />
+      <template name="NPCCharacter.spc_wanderer_georgia_5" />
+      <template name="NPCCharacter.spc_wanderer_georgia_6" />
+      <template name="NPCCharacter.spc_wanderer_georgia_7" />
+      <template name="NPCCharacter.spc_wanderer_georgia_8" />
+      <template name="NPCCharacter.spc_wanderer_georgia_9" />
+      <template name="NPCCharacter.spc_wanderer_georgia_10" />
+      <template name="NPCCharacter.spc_wanderer_georgia_11" />
+      <template name="NPCCharacter.spc_notable_georgia_0" />
+      <template name="NPCCharacter.spc_notable_georgia_0b" />
+      <template name="NPCCharacter.spc_notable_georgia_1" />
+      <template name="NPCCharacter.spc_notable_georgia_1b" />
+      <template name="NPCCharacter.spc_notable_georgia_2" />
+      <template name="NPCCharacter.spc_notable_georgia_2b" />
+      <template name="NPCCharacter.spc_notable_georgia_3" />
+      <template name="NPCCharacter.spc_notable_georgia_3b" />
+      <template name="NPCCharacter.spc_notable_georgia_4" />
+      <template name="NPCCharacter.spc_notable_georgia_4b" />
+      <template name="NPCCharacter.spc_notable_georgia_5" />
+      <template name="NPCCharacter.spc_notable_georgia_6" />
+      <template name="NPCCharacter.spc_notable_georgia_7" />
+      <template name="NPCCharacter.spc_notable_georgia_8" />
+      <template name="NPCCharacter.spc_notable_georgia_9" />
+      <template name="NPCCharacter.spc_notable_georgia_10" />
+      <template name="NPCCharacter.spc_notable_georgia_11" />
+      <template name="NPCCharacter.spc_notable_georgia_12" />
+      <template name="NPCCharacter.spc_notable_georgia_13" />
+      <template name="NPCCharacter.spc_notable_georgia_21" />
+      <template name="NPCCharacter.spc_notable_georgia_22" />
+      <template name="NPCCharacter.spc_notable_georgia_gl1" />
+      <template name="NPCCharacter.spc_notable_georgia_gl4" />
+      <template name="NPCCharacter.spc_georgia_headman_1" />
+      <template name="NPCCharacter.spc_georgia_headman_2" />
+      <template name="NPCCharacter.spc_georgia_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_0" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_1" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_2" />
+      <template name="NPCCharacter.spc_legion_of_the_betrayed_leader_3" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_0" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_1" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_2" />
+      <template name="NPCCharacter.spc_hidden_hand_leader_3" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_0" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_1" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_2" />
+      <template name="NPCCharacter.spc_embers_of_flame_leader_3" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_0" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_1" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_2" />
+      <template name="NPCCharacter.spc_eleftheroi_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.western_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  
+</SPCultures> 

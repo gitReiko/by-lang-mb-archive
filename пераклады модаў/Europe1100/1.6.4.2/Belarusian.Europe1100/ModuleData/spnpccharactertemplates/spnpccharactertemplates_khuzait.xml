@@ -1,0 +1,450 @@
+<NPCCharacters>
+
+  
+   <NPCCharacter id="villager_khuzait"
+                default_group="Infantry"
+                level="1"
+                name="{=villager_khuzait.name}Cuman Peasant"
+                occupation="Villager"
+                culture="Culture.khuzait"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4"
+                      age="22.49"
+                      weight="0.0417"
+                      build="0.0324"
+                      key="000DC40D800005C6507011122CB700080603060883A8010100000000800001000000100300001000000000000000000000000000000000000000000006000000" />
+      <BodyPropertiesMax version="4"
+                         age="66.85"
+                         weight="0.9182"
+                         build="0.5231"
+                         key="001EFC0FC00038D4FFFBCEFEEFFE9E6FEFFEFFEFFEEFEFFFEFFEEFFF898EFEFA0698E06809FFFFFF000000000000000000000000000000000000000079209100" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.cuman_nomad" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_robe" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_robe" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.nomad_padded_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Head"
+                   id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.peaked_fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_robe" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_armor" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.fur_hood" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.fur_hat" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_robe" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Head"
+                   id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Head"
+                   id="Item.nomad_padded_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Head"
+                   id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.peaked_fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.throwing_stone" />
+        <equipment slot="Item1"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.fur_hat" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.throwing_stone" />
+        <equipment slot="Item1"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Body"
+                   id="Item.steppe_robe" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Head"
+                   id="Item.fur_hat" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.throwing_stone" />
+        <equipment slot="Item1"
+                   id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Body"
+                   id="Item.steppe_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Head"
+                   id="Item.nomad_padded_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.throwing_stone" />
+        <equipment slot="Item1"
+                   id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Body"
+                   id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Head"
+                   id="Item.fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.throwing_stone" />
+        <equipment slot="Item1"
+                   id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.peaked_fur_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.throwing_stone" />
+        <equipment slot="Item1"
+                   id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Body"
+                   id="Item.khuzait_civil_coat" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Head"
+                   id="Item.fur_hood" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="townswoman_khuzait"
+                default_group="Infantry"
+                is_female="true"
+                level="1"
+                name="{=townswoman_khuzait.name}Cuman Townswoman"
+                occupation="Townsfolk"
+                culture="Culture.khuzait"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <BodyProperties version="4"
+                      age="22.27"
+                      weight="0.1744"
+                      build="0.267"
+                      key="000AA80C5000000C001111007770015240060118859910010505500060011010000436030011001000000000000000000000000000000000000000001C040003" />
+      <BodyPropertiesMax version="4"
+                         age="69.17"
+                         weight="0.9738"
+                         build="0.8133"
+                         key="001EFC0FD3143010EDEFFFEFFFFFFFEFEF7FFFEFEFFFDDDEEEFFFFFFAEDDCEC9079CF6780996FBEF00000000000000000000000000000000000000006B2C40C4" />
+      <!--hair_tags>
+        <hair_tag name="Ukrainian" />
+        <hair_tag name="BraidedInBack" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="TiedInBack" />
+        <hair_tag name="BraidedAboveEars" />
+      </hair_tags-->
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_dress" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_dress" />
+        <equipment slot="Leg"
+                   id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_dress_b" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_dress" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_dress" />
+        <equipment slot="Leg"
+                   id="Item.southern_moccasins" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_dress_b" />
+        <equipment slot="Leg"
+                   id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_dress" />
+        <equipment slot="Head"
+                   id="Item.nomad_padded_hood" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_dress" />
+        <equipment slot="Leg"
+                   id="Item.southern_moccasins" />
+        <equipment slot="Head"
+                   id="Item.fur_hat" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_dress_b" />
+        <equipment slot="Head"
+                   id="Item.fur_hat" />
+        <equipment slot="Leg"
+                   id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.steppe_dress" />
+        <equipment slot="Head"
+                   id="Item.peaked_fur_hood" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_dress" />
+        <equipment slot="Leg"
+                   id="Item.southern_moccasins" />
+        <equipment slot="Head"
+                   id="Item.peaked_fur_hood" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.khuzait_dress_b" />
+        <equipment slot="Head"
+                   id="Item.peaked_fur_hood" />
+        <equipment slot="Leg"
+                   id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body"
+                   id="Item.khuzait_dress_b" />
+        <equipment slot="Head"
+                   id="Item.peaked_fur_hood" />
+        <equipment slot="Leg"
+                   id="Item.southern_moccasins" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+</NPCCharacters>
