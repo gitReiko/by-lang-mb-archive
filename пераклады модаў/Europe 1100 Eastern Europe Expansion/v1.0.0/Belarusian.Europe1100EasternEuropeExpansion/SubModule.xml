@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Belarusian Europe 1100 Eastern Europe Expansion"/>
+	<Id value = "BelarusianEurope1100EasternEuropeExpansion"/>
+	<Version value = "v1.0.0"/>
+	<DefaultModule value="true"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Author value="Denis Makouski (Reiko17)" />
+  	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.1.6"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.1.6"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.1.6"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.1.6"/>
+		<DependedModule Id="Belarusian Core" DependentVersion="v1.1.0"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls>
+
+		<XmlNode>
+		<XmlName id="Kingdoms" path="spkingdoms"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+		</XmlNode>
+
+	</Xmls>
+</Module>
