@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  
+<!--troops-->
+
+  <NPCCharacter id="bulgarian_nomad" default_group="Infantry" level="6" name="{=bulgarian_nomad.name}Bulgarian Nomad" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="20"/>
+		<skill id="Riding" value="5"/>
+		<skill id="OneHanded" value="20"/>
+		<skill id="TwoHanded" value="20"/>
+		<skill id="Polearm" value="20"/>
+		<skill id="Bow" value="5"/>
+		<skill id="Crossbow" value="5"/>
+		<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.bulgarian_skirmisher"/>
+			<upgrade_target id="NPCCharacter.bulgarian_foot_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+				<equipment slot="Head" id="Item.fur_hood"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.steppe_robe"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.light_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.light_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.nordic_leather_cap"/>
+				<equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+  
+ <NPCCharacter id="bulgarian_skirmisher" default_group="Infantry" level="11" name="{=bulgarian_skirmisher.name}Bulgarian Spearman" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="40"/>
+		<skill id="Riding" value="5"/>
+		<skill id="OneHanded" value="40"/>
+		<skill id="TwoHanded" value="15"/>
+		<skill id="Polearm" value="40"/>
+		<skill id="Bow" value="40"/>
+		<skill id="Crossbow" value="40"/>
+		<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.bulgarian_veteran_skirmisher"/>
+			<upgrade_target id="NPCCharacter.bulgarian_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.nordic_leather_cap"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.steppe_robe"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Head" id="Item.fur_hood"/>
+				<equipment slot="Body" id="Item.steppe_robe"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bulgarian_veteran_skirmisher" default_group="Infantry" level="16" name="{=bulgarian_veteran_skirmisher.name}Bulgarian Veteran Spearman" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="70"/>
+		<skill id="Riding" value="10"/>
+		<skill id="OneHanded" value="70"/>
+		<skill id="TwoHanded" value="40"/>
+		<skill id="Polearm" value="800"/>
+		<skill id="Bow" value="100"/>
+		<skill id="Crossbow" value="100"/>
+		<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.bulgarian_mounted_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_round_shield"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_round_shield"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.fur_hood"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.belted_leather_cuirass"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_round_shield"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_round_shield"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.nordic_leather_cap"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.steppe_robe"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_round_shield"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_1_t2"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_round_shield"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.fur_trimmed_tunic"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bulgarian_mounted_skirmisher" default_group="Infantry" level="21" name="{=bulgarian_mounted_skirmisher.name}Bulgarian Heavy Spearman" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="100"/>
+		<skill id="Riding" value="100"/>
+		<skill id="OneHanded" value="100"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="100"/>
+		<skill id="Bow" value="100"/>
+		<skill id="Crossbow" value="100"/>
+		<skill id="Throwing" value="100"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.el_cloak_1"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Gloves" id="Item.khuzait_heavy_armor_bracer"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Gloves" id="Item.khuzait_heavy_armor_bracer"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.el_cloak_1"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.el_cloak_1"/>
+				<equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.belted_leather_cuirass"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.el_cloak_1"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bulgarian_foot_archer" default_group="Ranged" level="11" name="{=bulgarian_foot_archer.name}Bulgarian Foot Archer" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+	<skill id="Athletics" value="40"/>
+		<skill id="Riding" value="5"/>
+		<skill id="OneHanded" value="40"/>
+		<skill id="TwoHanded" value="15"/>
+		<skill id="Polearm" value="20"/>
+		<skill id="Bow" value="40"/>
+		<skill id="Crossbow" value="40"/>
+		<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.bulgarian_veteran_foot_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.fur_trimmed_tunic"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.steppe_robe"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Head" id="Item.fur_hood"/>
+				<equipment slot="Body" id="Item.steppe_robe"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bulgarian_veteran_foot_archer" default_group="Infantry" level="16" name="{=bulgarian_veteran_foot_archer.name}Bulgarian Skirmisher" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="70"/>
+		<skill id="Riding" value="10"/>
+		<skill id="OneHanded" value="70"/>
+		<skill id="TwoHanded" value="40"/>
+		<skill id="Polearm" value="30"/>
+		<skill id="Bow" value="100"/>
+		<skill id="Crossbow" value="100"/>
+		<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.bulgarian_mounted_archer"/>
+		</upgrade_targets>
+		<Equipments>
+					<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Head" id="Item.fur_hood"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.steppe_robe"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.fur_trimmed_tunic"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bulgarian_mounted_archer" default_group="HorseArcher" level="21" name="{=bulgarian_mounted_archer.name}Bulgarian Mounted Archer" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="45"/>
+		<skill id="Riding" value="110"/>
+		<skill id="OneHanded" value="40"/>
+		<skill id="TwoHanded" value="40"/>
+		<skill id="Polearm" value="110"/>
+		<skill id="Bow" value="150"/>
+		<skill id="Crossbow" value="15"/>
+		<skill id="Throwing" value="15"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item3" id="Item.studded_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<equipment slot="Horse" id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item3" id="Item.studded_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Gloves" id="Item.khuzait_heavy_armor_bracer"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<equipment slot="Horse" id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item3" id="Item.studded_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bulgarian_swordsman" default_group="Infantry" level="16" name="{=bulgarian_swordsman.name}Bulgarian Axeman" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="70"/>
+		<skill id="Riding" value="10"/>
+		<skill id="OneHanded" value="100"/>
+		<skill id="TwoHanded" value="40"/>
+		<skill id="Polearm" value="40"/>
+		<skill id="Bow" value="30"/>
+		<skill id="Crossbow" value="30"/>
+		<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.bulgarian_veteran_swordsman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_axe_t3"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.el_cloak_1"/>
+				<equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_axe_t3"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.belted_leather_cuirass"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_axe_t3"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Gloves" id="Item.khuzait_heavy_armor_bracer"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_axe_t3"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Gloves" id="Item.khuzait_heavy_armor_bracer"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Gloves" id="Item.khuzait_heavy_armor_bracer"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+
+			</EquipmentRoster>
+									<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_axe_t3"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bulgarian_veteran_swordsman" default_group="Infantry" level="21" name="{=bulgarian_veteran_swordsman.name}Bulgarian Heavy Swordsman" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="100"/>
+		<skill id="Riding" value="15"/>
+		<skill id="OneHanded" value="100"/>
+		<skill id="TwoHanded" value="100"/>
+		<skill id="Polearm" value="100"/>
+		<skill id="Bow" value="45"/>
+		<skill id="Crossbow" value="45"/>
+		<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Gloves" id="Item.khuzait_heavy_armor_bracer"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Gloves" id="Item.khuzait_heavy_armor_bracer"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.belted_leather_cuirass"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Gloves" id="Item.khuzait_heavy_armor_bracer"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Body" id="Item.western_scale_mail"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bulgarian_kastrophlax" default_group="Cavalry" level="21" name="{=bulgarian_kastrophlax.name}Bulgarian Kastrophlax" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="40"/>
+		<skill id="Riding" value="110"/>
+		<skill id="OneHanded" value="110"/>
+		<skill id="TwoHanded" value="160"/>
+		<skill id="Polearm" value="150"/>
+		<skill id="Bow" value="40"/>
+		<skill id="Crossbow" value="15"/>
+		<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.bulgarian_alagator"/>
+		</upgrade_targets>
+		<Equipments>
+     		<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_b_close"/>
+				<equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_closed"/>
+				<equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_closed"/>
+				<equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			     		<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_b_close"/>
+				<equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_closed"/>
+				<equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_closed"/>
+				<equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bulgarian_alagator" default_group="Infantry" level="26" name="{=bulgarian_alagator.name}Bulgarian Dismounted Noble" occupation="Soldier" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="80"/>
+		<skill id="Riding" value="130"/>
+		<skill id="OneHanded" value="160"/>
+		<skill id="TwoHanded" value="160"/>
+		<skill id="Polearm" value="160"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="20"/>
+		<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.bulgarian_katepan"/>
+		</upgrade_targets>
+		<Equipments>
+     			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_closed"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>	
+				<equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_b_close"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_b_close"/>
+				<equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+						<EquipmentRoster>	
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+				<equipment slot="Cape" id="Item.cape_heavy_11"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bulgarian_katepan" default_group="Cavalry" level="31" name="{=bulgarian_katepan.name}Bulgarian Katepan" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.bulgarian">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="70"/>
+		<skill id="Riding" value="200"/>
+		<skill id="OneHanded" value="200"/>
+		<skill id="TwoHanded" value="200"/>
+		<skill id="Polearm" value="200"/>
+		<skill id="Bow" value="230"/>
+		<skill id="Crossbow" value="25"/>
+		<skill id="Throwing" value="45"/>
+		</skills>
+		<Equipments>
+     			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.western_riders_kite_shield"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.el_heavy_hauberk_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>	
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.ironrim_riders_kite_shield"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Head" id="Item.Vaegir_helm_open"/>
+				<equipment slot="Body" id="Item.el_heavy_hauberk_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_b_close"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+						<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.steppe_arrows"/>
+				<equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item3" id="Item.western_spear_3_t3"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_closed"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.chain_hauberk_1"/>
+				<equipment slot="Leg" id="Item.mailchasseus_1"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+  
+</NPCCharacters>
