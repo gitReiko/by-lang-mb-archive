@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+    <CraftedItem id="gladius_b" name="{=rmb_Reiko_gladius_1}Gladius" crafting_template="Dagger" culture="Culture.empire" modifier_group="sword">
+    <Pieces>
+      <Piece id="dagger_blade_1" Type="Blade" scale_factor="170" />
+      <Piece id="aserai_dagger_guard_1" Type="Guard" scale_factor="110" />
+      <Piece id="sturgian_grip_4" Type="Handle" />
+      <Piece id="battania_pommel_7" Type="Pommel" scale_factor="90" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="highland_throwing_axe_1_t2"
+               name="{=rmb_Reiko_gladius_2}Throwing Labryes"
+               crafting_template="ThrowingAxe"
+               culture="Culture.battania">
+    <Pieces>
+      <Piece id="axe_craft_26_head"
+             Type="Blade"
+             scale_factor="150" />
+      <Piece id="axe_craft_12_handle"
+             Type="Handle"
+             scale_factor="150" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="southern_throwing_axe_1_t4"
+               name="{=rmb_Reiko_gladius_3}Huge Throwing Axes"
+               crafting_template="ThrowingAxe"
+               culture="Culture.aserai">
+    <Pieces>
+      <Piece id="axe_craft_4_head"
+             Type="Blade"
+             scale_factor="250" />
+      <Piece id="axe_craft_12_handle"
+             Type="Handle"
+             scale_factor="130" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="northern_throwing_axe_1_t1"
+               name="{=rmb_Reiko_gladius_4}Large Throwing Axes"
+               crafting_template="ThrowingAxe"
+               culture="Culture.sturgia">
+    <Pieces>
+      <Piece id="axe_craft_13_head"
+             Type="Blade"
+             scale_factor="200" />
+      <Piece id="axe_craft_11_handle"
+             Type="Handle"
+             scale_factor="130" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="woodland_throwing_axe_1_t1"
+               name="{=rmb_Reiko_gladius_5}Medium Throwing Axes"
+               crafting_template="ThrowingAxe"
+               culture="Culture.battania">
+    <Pieces>
+      <Piece id="axe_craft_13_head"
+             Type="Blade"
+             scale_factor="150" />
+      <Piece id="axe_craft_28_handle"
+             Type="Handle"
+             scale_factor="115" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="western_throwing_axe_1_t1"
+               name="{=rmb_Reiko_gladius_6}Small Throwing Axes"
+               crafting_template="ThrowingAxe"
+               culture="Culture.vlandia">
+    <Pieces>
+      <Piece id="axe_craft_4_head"
+             Type="Blade" 
+             scale_factor="100" />
+      <Piece id="axe_craft_11_handle"
+             Type="Handle" 
+			 scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+</Items>

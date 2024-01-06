@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+    <NPCCharacter id="aserai_skirmisher"
+                default_group="Ranged"
+                level="16"
+                name="{=rmb_Reiko_unit_1}Aserai Archer"
+                occupation="Soldier"
+                culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="30" />
+      <skill id="OneHanded"
+             value="35" />
+      <skill id="TwoHanded"
+             value="30" />
+      <skill id="Polearm"
+             value="55" />
+      <skill id="Bow"
+             value="75" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="55" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.heavy_steppe_arrows" />
+      <equipment slot="Item2"
+                 id="Item.heavy_steppe_arrows" />
+      <equipment slot="Item3"
+                 id="Item.aserai_mace_2_t2" />
+      <equipment slot="Head"
+                 id="Item.desert_helmet" />
+      <equipment slot="Cape"
+                 id="" />
+      <equipment slot="Body"
+                 id="Item.desert_padded_cloth" />
+      <equipment slot="Leg"
+                 id="Item.steppe_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.steppe_bow" />
+      <equipment slot="Item1"
+                 id="Item.heavy_steppe_arrows" />
+      <equipment slot="Item2"
+                 id="Item.heavy_steppe_arrows" />
+      <equipment slot="Item3"
+                 id="Item.aserai_mace_1_t2" />
+      <equipment slot="Head"
+                 id="Item.open_desert_helmet" />
+      <equipment slot="Cape"
+                 id="" />
+      <equipment slot="Body"
+                 id="Item.desert_padded_cloth" />
+      <equipment slot="Leg"
+                 id="Item.steppe_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.highland_ranger_bow" />
+      <equipment slot="Item1"
+                 id="Item.heavy_steppe_arrows" />
+      <equipment slot="Item2"
+                 id="Item.heavy_steppe_arrows" />
+      <equipment slot="Item3"
+                 id="Item.bamboo_axe_t4" />
+      <equipment slot="Head"
+                 id="Item.loose_wrapped_desert_helmet" />
+      <equipment slot="Cape"
+                 id="" />
+      <equipment slot="Body"
+                 id="Item.desert_padded_cloth" />
+      <equipment slot="Leg"
+                 id="Item.steppe_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.rough_tied_bracers" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="aserai_archer"
+                default_group="Ranged"
+                level="21"
+                name="{=rmb_Reiko_unit_2}Aserai Experienced Archer"
+                occupation="Soldier"
+                culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="110" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_master_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.tribal_bow" />
+      <equipment slot="Item1"
+                 id="Item.hardened_80_gr_arrows" />
+      <equipment slot="Item2"
+                 id="Item.hardened_80_gr_arrows" />
+      <equipment slot="Item3"
+                 id="Item.aserai_mace_3_t3" />
+      <equipment slot="Head"
+                 id="Item.trailed_desert_helmet" />
+      <equipment slot="Body"
+                 id="Item.ringed_desert_armor" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.studded_leather_vambraces" />
+      <equipment slot="Cape"
+                 id="" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.tribal_bow" />
+      <equipment slot="Item1"
+                 id="Item.hardened_80_gr_arrows" />
+      <equipment slot="Item2"
+                 id="Item.hardened_80_gr_arrows" />
+      <equipment slot="Item3"
+                 id="Item.aserai_mace_3_t3" />
+      <equipment slot="Head"
+                 id="Item.trailed_desert_helmet" />
+      <equipment slot="Body"
+                 id="Item.aserai_armor_02" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.studded_leather_vambraces" />
+      <equipment slot="Cape"
+                 id="" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.tribal_bow" />
+      <equipment slot="Item1"
+                 id="Item.hardened_80_gr_arrows" />
+      <equipment slot="Item2"
+                 id="Item.hardened_80_gr_arrows" />
+      <equipment slot="Item3"
+                 id="Item.bamboo_axe_t4" />
+      <equipment slot="Head"
+                 id="Item.pointed_skullcap_over_laced_coif" />
+      <equipment slot="Body"
+                 id="Item.ringed_desert_armor" />
+      <equipment slot="Cape"
+                 id="Item.wrapped_scarf" />
+      <equipment slot="Leg"
+                 id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves"
+                 id="Item.studded_leather_vambraces" />
+      <equipment slot="Cape"
+                 id="" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="vlandian_spearman"
+                default_group="Cavalry"
+                level="16"
+                name="{=rmb_Reiko_unit_3}Vlandian Light Cavalry"
+                upgrade_requires="ItemCategory.horse"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="70" />
+      <skill id="Bow"
+             value="10" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_light_cavalry" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.western_spear_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield_shoulder" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.mail_shirt" />
+      <equipment slot="Leg"
+                 id="Item.woven_leather_boots" />
+      <equipment slot="Head"
+                 id="Item.segmented_cervelliere_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.studded_leather_vambraces" />
+      <equipment slot="Cape"
+                 id="Item.scale_shoulder_armor" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.western_spear_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield_shoulder" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.mail_shirt" />
+      <equipment slot="Leg"
+                 id="Item.woven_leather_boots" />
+      <equipment slot="Head"
+                 id="Item.cervelliere_over_arming_coif" />
+      <equipment slot="Gloves"
+                 id="Item.studded_leather_vambraces" />
+      <equipment slot="Cape"
+                 id="Item.scale_shoulder_armor" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.western_spear_4_t4" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield_shoulder" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.mail_shirt" />
+      <equipment slot="Leg"
+                 id="Item.woven_leather_boots" />
+      <equipment slot="Head"
+                 id="Item.nasal_cervelliere_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.studded_leather_vambraces" />
+      <equipment slot="Cape"
+                 id="Item.scale_shoulder_armor" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2"
+                    civilian="true" />
+    <equipment slot="Horse"
+               id="Item.vlandia_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.northern_ring_barding" />
+    </Equipments>
+  </NPCCharacter>
+  
+    <NPCCharacter id="vlandian_light_cavalry"
+                default_group="Cavalry"
+                level="21"
+                name="{=rmb_Reiko_unit_4}Vlandian Medium Cavalry"
+                upgrade_requires="ItemCategory.horse"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="45" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_vanguard" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield_shoulder" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_sword_3_t4" />
+      <equipment slot="Body"
+                 id="Item.red_coat_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.nasal_helmet_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.mail_mitten" />
+      <equipment slot="Cape"
+                 id="Item.pauldron_with_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield_shoulder" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_mace_2_t4" />
+      <equipment slot="Body"
+                 id="Item.white_coat_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.segmented_cervelliere_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.mail_mitten" />
+      <equipment slot="Cape"
+                 id="Item.pauldron_with_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+      <equipment slot="Item0"
+                 id="Item.vlandia_lance_1_t3" />
+      <equipment slot="Item1"
+                 id="Item.tall_heater_shield_shoulder" />
+      <equipment slot="Item2"
+                 id="Item.vlandia_axe_2_t4" />
+      <equipment slot="Body"
+                 id="Item.white_coat_over_mail" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.nasal_helmet_over_mail" />
+      <equipment slot="Gloves"
+                 id="Item.mail_mitten" />
+      <equipment slot="Cape"
+                 id="Item.pauldron_with_cape" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2"
+                    civilian="true" />
+    <equipment slot="Horse"
+               id="Item.vlandia_horse" />
+    <equipment slot="HorseHarness"
+               id="Item.halfchain_barding" />
+    </Equipments>
+  </NPCCharacter>
+
+
+</NPCCharacters>
