@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="village_woman_welch" default_group="Infantry" is_female="true" level="1" name="{=village_woman_welch.name}Welch Peasant" occupation="Villager" culture="Culture.welch" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_welch"/>
+    </face>
+    <skills/>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_dress_a"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_dress_c"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_dress_b"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_female_civil_a"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_female_civil_b"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_dress_a"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_dress_c"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_dress_b"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_female_civil_a"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_female_civil_b"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_dress_a"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_dress_c"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_dress_b"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_female_civil_a"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.battania_female_civil_b"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.battania_female_civil_b"/>
+        <equipment slot="Leg" id="Item.ladys_shoe"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan-->
+  
+  <NPCCharacter id="caravan_master_welch" default_group="Infantry" level="26" name="{=caravan_master_welch.name}Welch Caravan Master" occupation="CaravanGuard" culture="Culture.welch">
+    <face>
+      <face_key_template value="BodyProperty.fighter_welch"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_2_t3"/>
+        <equipment slot="Head" id="Item.ridged_northernhelm"/>
+        <equipment slot="Body" id="Item.ranger_mail"/>
+        <equipment slot="Cape" id="Item.battania_shoulder_furr"/>
+        <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_2_t3"/>
+        <equipment slot="Body" id="Item.battania_mercenary_armor"/>
+        <equipment slot="Cape" id="Item.battania_civil_cape"/>
+        <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_sword_2_t3"/>
+        <equipment slot="Head" id="Item.battania_fur_helmet"/>
+        <equipment slot="Body" id="Item.ranger_mail"/>
+        <equipment slot="Cape" id="Item.bearskin"/>
+        <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.battania_sword_2_t3"/>
+        <equipment slot="Head" id="Item.ridged_northernhelm"/>
+        <equipment slot="Body" id="Item.ranger_mail"/>
+        <equipment slot="Cape" id="Item.battania_shoulder_furr"/>
+        <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--armed trader-->
+  
+  <NPCCharacter id="armed_trader_welch" default_group="Ranged" level="16" name="{=armed_trader_welch.name}Welch Armed Trader" occupation="CaravanGuard" culture="Culture.welch" is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_welch"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="40"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="30"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.default_arrows"/>
+        <equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+        <equipment slot="Body" id="Item.battania_civil_a"/>
+        <equipment slot="Leg" id="Item.battania_fur_boots"/>
+        <equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+        <equipment slot="Head" id="Item.tall_helmet"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.range_arrows"/>
+        <equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+        <equipment slot="Body" id="Item.battania_civil_b"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Head" id="Item.battania_fur_helmet"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.range_arrows"/>
+        <equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+        <equipment slot="Body" id="Item.battania_woodland_outfit"/>
+        <equipment slot="Leg" id="Item.highland_boots"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Head" id="Item.tall_helmet"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.range_arrows"/>
+        <equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+        <equipment slot="Body" id="Item.battania_woodland_outfit"/>
+        <equipment slot="Leg" id="Item.highland_boots"/>
+        <equipment slot="Cape" id="Item.battania_civil_cloak"/>
+        <equipment slot="Head" id="Item.tall_helmet"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.range_arrows"/>
+        <equipment slot="Item2" id="Item.battania_axe_1_t2"/>
+        <equipment slot="Body" id="Item.battania_civil_b"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Head" id="Item.battania_fur_helmet"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan guard-->
+  
+   <NPCCharacter id="caravan_guard_welch" default_group="Cavalry" level="21" name="{=caravan_guard_welch.name}Welch Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.welch">
+    <face>
+      <face_key_template value="BodyProperty.fighter_welch"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="110"/>
+      <skill id="OneHanded" value="110"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.highland_throwing_axe_1_t2"/>
+        <equipment slot="Item1" id="Item.northern_spear_2_t3"/>
+        <equipment slot="Item2" id="Item.woodland_axe_t3"/>
+        <equipment slot="Item3" id="Item.battania_targe_b"/>
+        <equipment slot="Head" id="Item.battania_fur_helmet"/>
+        <equipment slot="Body" id="Item.battanian_chainmail_armor_b"/>
+        <equipment slot="Leg" id="Item.battania_fur_boots"/>
+        <equipment slot="Gloves" id="Item.studded_vambraces"/>
+        <equipment slot="Cape" id="Item.battania_cloak"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.highland_throwing_axe_1_t2"/>
+        <equipment slot="Item1" id="Item.northern_spear_2_t3"/>
+        <equipment slot="Item2" id="Item.woodland_axe_t3"/>
+        <equipment slot="Item3" id="Item.battania_targe_b"/>
+        <equipment slot="Head" id="Item.battania_fur_helmet"/>
+        <equipment slot="Body" id="Item.welch_chainmail_armor_b"/>
+        <equipment slot="Leg" id="Item.battania_fur_boots"/>
+        <equipment slot="Gloves" id="Item.studded_vambraces"/>
+        <equipment slot="Cape" id="Item.battania_cloak"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.battania_horse"/>
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="veteran_caravan_guard_welch" default_group="Cavalry" level="26" name="{=veteran_caravan_guard_welch.name}Welch Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.welch">
+    <face>
+      <face_key_template value="BodyProperty.fighter_welch"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="60"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.highland_throwing_axe_1_t2"/>
+        <equipment slot="Item1" id="Item.northern_spear_3_t4"/>
+        <equipment slot="Item2" id="Item.battania_sword_4_t4"/>
+        <equipment slot="Item3" id="Item.battania_shield_targe_a"/>
+        <equipment slot="Head" id="Item.ridged_northernhelm"/>
+        <equipment slot="Body" id="Item.battania_woodland_chainmail"/>
+        <equipment slot="Leg" id="Item.battania_fur_boots"/>
+        <equipment slot="Gloves" id="Item.highland_gloves"/>
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.highland_throwing_axe_1_t2"/>
+        <equipment slot="Item1" id="Item.northern_spear_3_t4"/>
+        <equipment slot="Item2" id="Item.battania_sword_4_t4"/>
+        <equipment slot="Item3" id="Item.battania_shield_targe_a"/>
+        <equipment slot="Head" id="Item.ridged_northernhelm"/>
+        <equipment slot="Body" id="Item.battania_woodland_chainmail"/>
+        <equipment slot="Leg" id="Item.battania_fur_boots"/>
+        <equipment slot="Gloves" id="Item.highland_gloves"/>
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.battania_horse"/>
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
+    </Equipments>
+  </NPCCharacter>
+
+<!--troops-->
+
+	<NPCCharacter id="welch_gwas" default_group="Infantry" level="6" name="{=welch_gwas.name}Welch Gwas" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="20"/>
+		<skill id="Riding" value="5"/>
+		<skill id="OneHanded" value="20"/>
+		<skill id="TwoHanded" value="20"/>
+		<skill id="Polearm" value="20"/>
+		<skill id="Bow" value="5"/>
+		<skill id="Crossbow" value="5"/>
+		<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.welch_militia_spearman"/>
+			<upgrade_target id="NPCCharacter.welch_militia_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Body" id="Item.highland_cloth"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="welch_militia_spearman" default_group="Infantry" level="11" name="{=welch_militia_spearman.name}Welch Militia Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="40"/>
+		<skill id="Riding" value="5"/>
+		<skill id="OneHanded" value="40"/>
+		<skill id="TwoHanded" value="40"/>
+		<skill id="Polearm" value="40"/>
+		<skill id="Bow" value="15"/>
+		<skill id="Crossbow" value="15"/>
+		<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.welch_veteran_militia_spearman"/>
+			<upgrade_target id="NPCCharacter.welsh_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.highland_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.battania_targe_b_sparring"/>
+				<equipment slot="Item2" id="Item.seax"/>
+				<equipment slot="Body" id="Item.long_fur_coat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="welch_veteran_militia_spearman" default_group="Infantry" level="16" name="{=welch_veteran_militia_spearman.name}Welch Veteran Militia Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="70"/>
+		<skill id="Riding" value="10"/>
+		<skill id="OneHanded" value="100"/>
+		<skill id="TwoHanded" value="40"/>
+		<skill id="Polearm" value="40"/>
+		<skill id="Bow" value="30"/>
+		<skill id="Crossbow" value="30"/>
+		<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.welch_cynan_spearman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.battania_targe_b"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.fur_armor"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="welch_cynan_spearman" default_group="Infantry" level="21" name="{=welch_cynan_spearman.name}Welch Cynan Spearman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="100"/>
+		<skill id="Riding" value="15"/>
+		<skill id="OneHanded" value="100"/>
+		<skill id="TwoHanded" value="100"/>
+		<skill id="Polearm" value="100"/>
+		<skill id="Bow" value="45"/>
+		<skill id="Crossbow" value="45"/>
+		<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_5_t5"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="welsh_skirmisher" default_group="Infantry" level="16" name="{=welsh_skirmisher.name}Welsh Skirmisher" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="70"/>
+		<skill id="Riding" value="10"/>
+		<skill id="OneHanded" value="70"/>
+		<skill id="TwoHanded" value="40"/>
+		<skill id="Polearm" value="30"/>
+		<skill id="Bow" value="100"/>
+		<skill id="Crossbow" value="100"/>
+		<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.welch_mounted_skirmisher"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.fur_armor"/>
+				<equipment slot="Gloves" id="Item.guarded_armwraps"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="welch_mounted_skirmisher" default_group="Cavalry" level="21" name="{=welch_mounted_skirmisher.name}Welch Mounted Skirmisher" upgrade_requires="ItemCategory.horse" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="45"/>
+		<skill id="Riding" value="110"/>
+		<skill id="OneHanded" value="40"/>
+		<skill id="TwoHanded" value="40"/>
+		<skill id="Polearm" value="110"/>
+		<skill id="Bow" value="150"/>
+		<skill id="Crossbow" value="15"/>
+		<skill id="Throwing" value="110"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.buckled_wildsman_armor"/>
+				<equipment slot="Gloves" id="Item.guarded_armwraps"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.seax"/>
+				<equipment slot="Item1" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hammer_2_t1"/>
+				<equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="welch_militia_archer" default_group="Ranged" level="11" name="{=welch_militia_archer.name}Welch Militia Archer" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="40"/>
+		<skill id="Riding" value="5"/>
+		<skill id="OneHanded" value="40"/>
+		<skill id="TwoHanded" value="15"/>
+		<skill id="Polearm" value="20"/>
+		<skill id="Bow" value="40"/>
+		<skill id="Crossbow" value="40"/>
+		<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.welch_veteran_militia_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.glen_ranger_bow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.range_arrows"/>
+				<equipment slot="Item3" id="Item.seax"/>
+				<equipment slot="Body" id="Item.battania_civil_b"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="welch_veteran_militia_archer" default_group="Ranged" level="16" name="{=welch_veteran_militia_archer.name}Welch Veteran Militia Archer" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="70"/>
+		<skill id="Riding" value="10"/>
+		<skill id="OneHanded" value="70"/>
+		<skill id="TwoHanded" value="40"/>
+		<skill id="Polearm" value="30"/>
+		<skill id="Bow" value="100"/>
+		<skill id="Crossbow" value="100"/>
+		<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.welch_gwentish_longbowman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_yew_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_c"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_c"/>
+				<equipment slot="Item3" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.fur_armor"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="welch_gwentish_longbowman" default_group="Ranged" level="21" name="{=welch_gwentish_longbowman.name}Welch Gwentish Longbowman" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="100"/>
+		<skill id="Riding" value="15"/>
+		<skill id="OneHanded" value="100"/>
+		<skill id="TwoHanded" value="60"/>
+		<skill id="Polearm" value="60"/>
+		<skill id="Bow" value="100"/>
+		<skill id="Crossbow" value="100"/>
+		<skill id="Throwing" value="100"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.woodland_longbow"/>
+				<equipment slot="Item1" id="Item.piercing_arrows"/>
+				<equipment slot="Item2" id="Item.piercing_arrows"/>
+				<equipment slot="Item3" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.battania_civil_hood"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.battanian_chainmail_armor_a"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<!--Elites-->
+	
+	<NPCCharacter id="welch_uchelwyr" default_group="Infantry" level="21" name="{=welch_uchelwyr.name}Welch Uchelwyr" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="40"/>
+		<skill id="Riding" value="110"/>
+		<skill id="OneHanded" value="110"/>
+		<skill id="TwoHanded" value="160"/>
+		<skill id="Polearm" value="150"/>
+		<skill id="Bow" value="40"/>
+		<skill id="Crossbow" value="15"/>
+		<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.welch_marchog"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.jousting_shield"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="welch_marchog" default_group="Cavalry" level="26" name="{=welch_marchog.name}Welch Marchog" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="80"/>
+		<skill id="Riding" value="130"/>
+		<skill id="OneHanded" value="130"/>
+		<skill id="TwoHanded" value="160"/>
+		<skill id="Polearm" value="160"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="20"/>
+		<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.welch_breyr"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.jousting_shield"/>
+				<equipment slot="Item2" id="Item.eastern_spear_5_t5"/>
+				<equipment slot="Head" id="Item.desert_helmet"/>
+				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.hauberk"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Horse" id="Item.t2_battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="welch_breyr" default_group="Cavalry" level="31" name="{=welch_breyr.name}Welch Breyr" occupation="Soldier" is_basic_troop="true" culture="Culture.welch">
+		<face>
+			<face_key_template value="BodyProperty.villager_welch"/>
+		</face>
+		<skills>
+		<skill id="Athletics" value="60"/>
+		<skill id="Riding" value="200"/>
+		<skill id="OneHanded" value="200"/>
+		<skill id="TwoHanded" value="260"/>
+		<skill id="Polearm" value="260"/>
+		<skill id="Bow" value="60"/>
+		<skill id="Crossbow" value="25"/>
+		<skill id="Throwing" value="45"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_noble_sword_3_t5"/>
+				<equipment slot="Item1" id="Item.jousting_shield"/>
+				<equipment slot="Item2" id="Item.eastern_spear_5_t5"/>
+				<equipment slot="Head" id="Item.nasal_helmet"/>
+				<equipment slot="Cape" id="Item.varangian_bra_mail"/>
+				<equipment slot="Body" id="Item.battania_woodland_chainmail"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.t2_battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+  
+</NPCCharacters>
