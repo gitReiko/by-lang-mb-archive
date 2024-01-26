@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Module>
-	<Name value = "Belarusian Swadian Armoury"/>
-	<Id value = "Belarusian Swadian Armoury"/>
+	<Name value = "Belarusian Vlandian Steel"/>
+	<Id value = "Belarusian Vlandian Steel"/>
 	<Version value = "v1.2.8"/>
 	<DefaultModule value="true"/>
 	<SingleplayerModule value="true"/>
@@ -16,14 +16,6 @@
 		<DependedModule Id="Belarusian Core" DependentVersion="v1.2.8"/>
 	</DependedModules>
 	<SubModules/>
-	<Xmls>
-		<XmlNode>
-			<XmlName id="Items" path="items"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-			</IncludedGameTypes>
-		</XmlNode>
-	
+	<Xmls> 
 	</Xmls>
 </Module>
