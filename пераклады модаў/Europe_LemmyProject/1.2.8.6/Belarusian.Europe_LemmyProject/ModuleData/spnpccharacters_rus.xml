@@ -1,0 +1,998 @@
+<NPCCharacters>
+  
+<!--Troops-->
+
+  <NPCCharacter id="rus_smerd"
+                default_group="Infantry"
+                level="6"
+                name="{=EM_RUS_1}Rus Smerd"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rus_woj_spearman" />
+      <upgrade_target id="NPCCharacter.rus_woj_archer" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+ <NPCCharacter id="rus_woj_spearman"
+                default_group="Infantry"
+                level="11"
+                name="{=EM_RUS_2}Rus Woj Kopijnič"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="15" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rus_woj_veteran_spearman" />
+      <upgrade_target id="NPCCharacter.rus_woj_siekirnik" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t3"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.leather_coat_over_cloth"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_woj_veteran_spearman"
+                default_group="Infantry"
+                level="16"
+                name="{=EM_RUS_3}Rus Woj Veteran Kopijnič"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="70" />
+		<skill
+			id="Riding"
+			value="10" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="40" />
+		<skill
+			id="Polearm"
+			value="40" />
+		<skill
+			id="Bow"
+			value="30" />
+		<skill
+			id="Crossbow"
+			value="30" />
+		<skill
+			id="Throwing"
+			value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rus_polkovoj_kopijnic" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Head" id="Item.nordic_leather_cap"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.northern_padded_cloth"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_polkovoj_kopijnic"
+                default_group="Infantry"
+                level="21"
+                name="{=EM_RUS_4}Rus Polkovoj Kopijnič"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="45" />
+		<skill
+			id="Crossbow"
+			value="45" />
+		<skill
+			id="Throwing"
+			value="60" />
+    </skills>
+    <upgrade_targets>
+	      <upgrade_target id="NPCCharacter.rus_polkovoj_veteran_kopijnic" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Head" id="Item.nasal_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter> 
+  
+   <NPCCharacter id="rus_polkovoj_veteran_kopijnic"
+                default_group="Infantry"
+                level="26"
+                name="{=EM_RUS_5}Rus Polkovoj Veteran Kopijnič"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="130" />
+		<skill
+			id="Riding"
+			value="20" />
+		<skill
+			id="OneHanded"
+			value="130" />
+		<skill
+			id="TwoHanded"
+			value="130" />
+		<skill
+			id="Polearm"
+			value="130" />
+		<skill
+			id="Bow"
+			value="60" />
+		<skill
+			id="Crossbow"
+			value="60" />
+		<skill
+			id="Throwing"
+			value="80" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Head" id="Item.nasal_helmet_over_mail"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_woj_siekirnik"
+                default_group="Infantry"
+                level="16"
+                name="{=EM_RUS_6}Rus Woj Siekirnik"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="70" />
+		<skill
+			id="Riding"
+			value="10" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="40" />
+		<skill
+			id="Polearm"
+			value="40" />
+		<skill
+			id="Bow"
+			value="30" />
+		<skill
+			id="Crossbow"
+			value="30" />
+		<skill
+			id="Throwing"
+			value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rus_polkovoj_siekirnik" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.padded_short_coat"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_polkovoj_siekirnik"
+                default_group="Infantry"
+                level="21"
+                name="{=EM_RUS_7}Rus Polkovoj Siekirnik"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="45" />
+		<skill
+			id="Crossbow"
+			value="45" />
+		<skill
+			id="Throwing"
+			value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rus_polkovoj_veteran_siekirnik" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Head" id="Item.nasalhelm_over_leather"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_polkovoj_veteran_siekirnik"
+                default_group="Infantry"
+                level="26"
+                name="{=EM_RUS_8}Rus Polkovoj Veteran Siekirnik"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="130" />
+		<skill
+			id="Riding"
+			value="20" />
+		<skill
+			id="OneHanded"
+			value="130" />
+		<skill
+			id="TwoHanded"
+			value="130" />
+		<skill
+			id="Polearm"
+			value="130" />
+		<skill
+			id="Bow"
+			value="60" />
+		<skill
+			id="Crossbow"
+			value="60" />
+		<skill
+			id="Throwing"
+			value="80" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_axe_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_woj_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=EM_RUS_9}Rus Woj Lučnik"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="15" />
+    <skill id="Polearm"
+           value="20" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="40" />
+    <skill id="Throwing"
+           value="40" />
+    </skills>
+    <upgrade_targets>
+	      <upgrade_target id="NPCCharacter.rus_woj_veteran_archer" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_longbow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.heavy_nordic_coat"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_woj_veteran_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=EM_RUS_10}Rus Woj Veteran Lučnik"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="70" />
+    <skill id="Riding"
+           value="10" />
+    <skill id="OneHanded"
+           value="70" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="30" />
+    <skill id="Bow"
+           value="100" />
+    <skill id="Crossbow"
+           value="100" />
+    <skill id="Throwing"
+           value="100" />
+    </skills>
+    <upgrade_targets>
+	      <upgrade_target id="NPCCharacter.rus_polkovoj_lucnik" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_longbow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.range_arrows"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.layered_leather_tunic"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_polkovoj_lucnik"
+                default_group="Ranged"
+                level="21"
+                name="{=EM_RUS_11}Rus Polkovoj Lučnik"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="60" />
+		<skill
+			id="Polearm"
+			value="60" />
+		<skill
+			id="Bow"
+			value="100" />
+		<skill
+			id="Crossbow"
+			value="100" />
+		<skill
+			id="Throwing"
+			value="100" />
+    </skills>
+    <upgrade_targets>
+		      <upgrade_target id="NPCCharacter.rus_polkovoj_veteran_lucnik" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.northern_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_polkovoj_veteran_lucnik"
+                default_group="Ranged"
+                level="26"
+                name="{=EM_RUS_12}Rus Polkovoj Veteran Lučnik"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="130" />
+		<skill
+			id="Riding"
+			value="20" />
+		<skill
+			id="OneHanded"
+			value="130" />
+		<skill
+			id="TwoHanded"
+			value="30" />
+		<skill
+			id="Polearm"
+			value="80" />
+		<skill
+			id="Bow"
+			value="160" />
+		<skill
+			id="Crossbow"
+			value="160" />
+		<skill
+			id="Throwing"
+			value="160" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noble_long_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_lehka_kavaleriya"
+                default_group="Cavalry"
+                level="16"
+                name="{=EM_RUS_13}Rus Lehka Kavaleriya"
+				upgrade_requires="ItemCategory.horse"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="60" />
+		<skill
+			id="Riding"
+			value="70" />
+		<skill
+			id="OneHanded"
+			value="70" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="30" />
+		<skill
+			id="Crossbow"
+			value="10" />
+		<skill
+			id="Throwing"
+			value="10" />
+    </skills>
+    <upgrade_targets>
+		      <upgrade_target id="NPCCharacter.rus_bojawy_cholop" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.old_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.northern_battle_axe_t3"/>
+				<equipment slot="Head" id="Item.nordic_leather_cap"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.northern_leather_vest"/>
+				<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+				<equipment slot="Leg" id="Item.battania_woodland_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_bojawy_cholop"
+                default_group="Cavalry"
+                level="21"
+                name="{=EM_RUS_14}Rus Bojawy Chołop"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="40" />
+		<skill
+			id="Riding"
+			value="110" />
+		<skill
+			id="OneHanded"
+			value="110" />
+		<skill
+			id="TwoHanded"
+			value="160" />
+		<skill
+			id="Polearm"
+			value="150" />
+		<skill
+			id="Bow"
+			value="40" />
+		<skill
+			id="Crossbow"
+			value="15" />
+		<skill
+			id="Throwing"
+			value="15" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Head" id="Item.nasal_helmet"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.padded_short_coat"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_syn_bojarski"
+                default_group="Cavalry"
+                level="26"
+                name="{=EM_RUS_15}Rus Syn Bojarski"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="80" />
+		<skill
+			id="Riding"
+			value="130" />
+		<skill
+			id="OneHanded"
+			value="130" />
+		<skill
+			id="TwoHanded"
+			value="160" />
+		<skill
+			id="Polearm"
+			value="160" />
+		<skill
+			id="Bow"
+			value="60" />
+		<skill
+			id="Crossbow"
+			value="20" />
+		<skill
+			id="Throwing"
+			value="60" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_5_t5"/>
+				<equipment slot="Head" id="Item.nasalhelm_over_mail"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <!--Elite-->
+  
+  <NPCCharacter id="rus_dziecki"
+                default_group="Infantry"
+                level="11"
+                name="{=EM_RUS_16}Rus Dziecki"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="40" />
+    <skill id="Riding"
+           value="5" />
+    <skill id="OneHanded"
+           value="40" />
+    <skill id="TwoHanded"
+           value="40" />
+    <skill id="Polearm"
+           value="40" />
+    <skill id="Bow"
+           value="15" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rus_otrok" />
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.woven_leather_vest"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_otrok"
+                default_group="Infantry"
+                level="16"
+                name="{=EM_RUS_17}Rus Otrok"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="70" />
+		<skill
+			id="Riding"
+			value="10" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="40" />
+		<skill
+			id="Polearm"
+			value="40" />
+		<skill
+			id="Bow"
+			value="30" />
+		<skill
+			id="Crossbow"
+			value="30" />
+		<skill
+			id="Throwing"
+			value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.rus_hrid" />
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Head" id="Item.nasal_helmet"/>
+				<equipment slot="Cape" id="Item.mail_shoulders"/>
+				<equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+  <NPCCharacter id="rus_hrid"
+                default_group="Cavalry"
+                level="21"
+                name="{=EM_RUS_18}Rus Hrid"
+				is_basic_troop="true"
+				upgrade_requires="ItemCategory.horse"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+              value="40" />
+    <skill id="Riding"
+           value="110" />
+    <skill id="OneHanded"
+           value="110" />
+    <skill id="TwoHanded"
+           value="160" />
+    <skill id="Polearm"
+           value="150" />
+    <skill id="Bow"
+           value="40" />
+    <skill id="Crossbow"
+           value="15" />
+    <skill id="Throwing"
+           value="15" />
+    </skills>
+    <upgrade_targets>
+		      <upgrade_target id="NPCCharacter.rus_sotiennij" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
+				<equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+   <NPCCharacter id="rus_sotiennij"
+                default_group="Cavalry"
+                level="26"
+                name="{=EM_RUS_19}Rus Sotiennij"
+				upgrade_requires="ItemCategory.war_horse"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="80" />
+		<skill
+			id="Riding"
+			value="130" />
+		<skill
+			id="OneHanded"
+			value="130" />
+		<skill
+			id="TwoHanded"
+			value="160" />
+		<skill
+			id="Polearm"
+			value="160" />
+		<skill
+			id="Bow"
+			value="60" />
+		<skill
+			id="Crossbow"
+			value="20" />
+		<skill
+			id="Throwing"
+			value="60" />
+    </skills>
+    <upgrade_targets>
+		      <upgrade_target id="NPCCharacter.rus_tysiackij" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_open"/>
+				<equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+				<equipment slot="Body" id="Item.nordic_hauberk"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+				<equipment slot="Horse" id="Item.t2_sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+  
+   <NPCCharacter id="rus_tysiackij"
+                default_group="Cavalry"
+                level="31"
+                name="{=EM_RUS_20}Rus Tysiackij"
+                occupation="Soldier"
+                culture="Culture.rus">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+    <skill id="Athletics"
+           value="60" />
+    <skill id="Riding"
+           value="200" />
+    <skill id="OneHanded"
+           value="200" />
+    <skill id="TwoHanded"
+           value="260" />
+    <skill id="Polearm"
+           value="260" />
+    <skill id="Bow"
+           value="60" />
+    <skill id="Crossbow"
+           value="25" />
+    <skill id="Throwing"
+           value="45" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_4_t4"/>
+				<equipment slot="Head" id="Item.sturgian_helmet_b_close"/>
+				<equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_white_b"/>
+				<equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Horse" id="Item.t2_sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
+			</EquipmentRoster>
+	</Equipments>		
+  </NPCCharacter>
+
+</NPCCharacters>
