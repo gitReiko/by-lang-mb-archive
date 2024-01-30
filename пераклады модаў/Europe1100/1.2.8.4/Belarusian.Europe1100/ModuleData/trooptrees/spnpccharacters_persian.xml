@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+
+<NPCCharacter id="village_woman_persian" default_group="Infantry" is_female="true" level="1" name="{=village_woman_persian.name}persian Peasant" occupation="Villager" culture="Culture.persian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_aserai"/>
+    </face>
+    <skills/>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_southern_dress"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_female_civil_a"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_female_civil_b"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_southern_dress"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+        <equipment slot="Head" id="Item.desert_headdress"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
+        <equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_female_civil_a"/>
+        <equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_female_civil_b"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_southern_dress"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_female_civil_a"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.aserai_female_civil_b"/>
+        <equipment slot="Cape" id="Item.female_scarf"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan-->
+  
+  <NPCCharacter id="caravan_master_persian" default_group="Infantry" level="26" name="{=caravan_master_persian.name}Persian Caravan Master" occupation="CaravanGuard" culture="Culture.persian">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+        <equipment slot="Head" id="Item.aserai_civil_c_head"/>
+        <equipment slot="Body" id="Item.aserai_archer_armor"/>
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+        <equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+        <equipment slot="Body" id="Item.aserai_archer_armor"/>
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+        <equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+        <equipment slot="Body" id="Item.tassled_southern_robes"/>
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+        <equipment slot="Cape" id="Item.leopard_pelt"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+        <equipment slot="Head" id="Item.aserai_civil_c_head"/>
+        <equipment slot="Body" id="Item.aserai_archer_armor"/>
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--armed trader-->
+  
+  <NPCCharacter id="armed_trader_persian" default_group="Ranged" level="16" name="{=armed_trader_persian.name}Persian Armed Trader" occupation="CaravanGuard" culture="Culture.persian" is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="40"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="30"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.glen_ranger_bow"/>
+        <equipment slot="Item1" id="Item.default_arrows"/>
+        <equipment slot="Item2" id="Item.aserai_sword_2_t2"/>
+        <equipment slot="Body" id="Item.short_padded_robe"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item2" id="Item.aserai_sword_1_t2"/>
+        <equipment slot="Body" id="Item.aserai_civil_c"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan guard-->
+  
+  <NPCCharacter id="caravan_guard_persian" default_group="Cavalry" level="21" name="{=caravan_guard_persian.name}Persian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.persian">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="110"/>
+      <skill id="OneHanded" value="110"/>
+      <skill id="TwoHanded" value="150"/>
+      <skill id="Polearm" value="15"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="15"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+        <equipment slot="Item1" id="Item.aserai_sword_3_t3"/>
+        <equipment slot="Item2" id="Item.bound_adarga"/>
+        <equipment slot="Head" id="Item.open_head_scarf"/>
+        <equipment slot="Body" id="Item.long_padded_robe"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        <equipment slot="Gloves" id="Item.studded_vambraces"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+        <equipment slot="Item1" id="Item.aserai_sword_3_t3"/>
+        <equipment slot="Item2" id="Item.bound_adarga"/>
+        <equipment slot="Head" id="Item.tied_head_wrapping"/>
+        <equipment slot="Body" id="Item.short_padded_robe"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        <equipment slot="Gloves" id="Item.studded_vambraces"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+        <equipment slot="Item1" id="Item.aserai_sword_3_t3"/>
+        <equipment slot="Item2" id="Item.bound_adarga"/>
+        <equipment slot="Head" id="Item.woven_turban"/>
+        <equipment slot="Body" id="Item.leather_strips_over_padded_robe"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        <equipment slot="Gloves" id="Item.studded_vambraces"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+        <equipment slot="Item1" id="Item.aserai_sword_3_t3"/>
+        <equipment slot="Item2" id="Item.bound_adarga"/>
+        <equipment slot="Head" id="Item.woven_turban"/>
+        <equipment slot="Body" id="Item.leather_strips_over_padded_robe"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        <equipment slot="Gloves" id="Item.studded_vambraces"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+        <equipment slot="Item1" id="Item.aserai_sword_3_t3"/>
+        <equipment slot="Item2" id="Item.bound_adarga"/>
+        <equipment slot="Head" id="Item.tied_head_wrapping"/>
+        <equipment slot="Body" id="Item.short_padded_robe"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        <equipment slot="Gloves" id="Item.studded_vambraces"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.aserai_horse"/>
+      <equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="veteran_caravan_guard_persian" default_group="HorseArcher" level="26" name="{=veteran_caravan_guard_persian.name}Persian Veteran Caravan Guard" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.persian">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="130"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="60"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_war_bow"/>
+        <equipment slot="Item1" id="Item.default_arrows"/>
+        <equipment slot="Item2" id="Item.aserai_sword_6_t4"/>
+        <equipment slot="Item3" id="Item.bound_adarga"/>
+        <equipment slot="Head" id="Item.desert_mail_coif"/>
+        <equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_war_bow"/>
+        <equipment slot="Item1" id="Item.default_arrows"/>
+        <equipment slot="Item2" id="Item.aserai_sword_5_t4"/>
+        <equipment slot="Item3" id="Item.large_adarga"/>
+        <equipment slot="Head" id="Item.desert_helmet_with_mail"/>
+        <equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        <equipment slot="Cape" id="Item.wrapped_scarf"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_war_bow"/>
+        <equipment slot="Item1" id="Item.default_arrows"/>
+        <equipment slot="Item2" id="Item.aserai_sword_5_t4"/>
+        <equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet"/>
+        <equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.steppe_war_bow"/>
+        <equipment slot="Item1" id="Item.default_arrows"/>
+        <equipment slot="Item2" id="Item.aserai_sword_5_t4"/>
+        <equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+        <equipment slot="Head" id="Item.loose_wrapped_desert_helmet"/>
+        <equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.steppe_war_bow"/>
+        <equipment slot="Item1" id="Item.default_arrows"/>
+        <equipment slot="Item2" id="Item.aserai_sword_5_t4"/>
+        <equipment slot="Item3" id="Item.large_adarga"/>
+        <equipment slot="Head" id="Item.desert_helmet_with_mail"/>
+        <equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+        <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        <equipment slot="Cape" id="Item.wrapped_scarf"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.t2_aserai_horse"/>
+      <equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+    </Equipments>
+  </NPCCharacter>
+
+<!--troops-->
+
+ <NPCCharacter id="seljuk_levy" default_group="Infantry" level="6" name="{=seljuk_levy.name}Seljuk Turkmenn" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="5"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.seljuk_tribal_spearman"/>
+	  <upgrade_target id="NPCCharacter.seljuk_tribal_archer"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Body" id="Item.steppe_armor"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.khuzait_civil_coat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="seljuk_tribal_spearman" default_group="Infantry" level="11" name="{=seljuk_tribal_spearman.name}Seljuk Tribal Spearman" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="20"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.seljuk_veteran_tribal_spearman"/>
+	  <upgrade_target id="NPCCharacter.seljuk_horse_archer"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.curved_round_shield"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="seljuk_veteran_tribal_spearman" default_group="Infantry" level="16" name="{=seljuk_veteran_tribal_spearman.name}Seljuk Veteran Tribal Spearman" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="70"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.seljuk_light_cavalry"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.curved_round_shield"/>
+				<equipment slot="Item2" id="Item.hooked_cleaver"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.studded_steppe_leather"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="seljuk_light_cavalry" default_group="Cavalry" level="21" name="{=seljuk_light_cavalry.name}Seljuk Tribal Light Cavalry" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="150"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.studded_round_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_3_t3"/>
+				<equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.belted_leather_cuirass"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<equipment slot="Horse" id="Item.khuzait_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="seljuk_tribal_archer" default_group="Ranged" level="11" name="{=seljuk_tribal_archer.name}Seljuk Tribal Archer" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="5"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+		      <upgrade_target id="NPCCharacter.seljuk_veteran_tribal_archer"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.fur_hood"/>
+				<equipment slot="Body" id="Item.khuzait_belt_leather"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="seljuk_veteran_tribal_archer" default_group="Ranged" level="16" name="{=seljuk_veteran_tribal_archer.name}Seljuk Veteran Tribal Archer" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="70"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
+    </skills>
+    <upgrade_targets>
+	      <upgrade_target id="NPCCharacter.seljuk_tribal_skirmisher"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.range_arrows"/>
+				<equipment slot="Item3" id="Item.khuzait_mace_1_t2"/>
+				<equipment slot="Head" id="Item.peaked_fur_hood"/>
+				<equipment slot="Cape" id="Item.bolted_leather_strips"/>
+				<equipment slot="Body" id="Item.khuzait_fortified_armor"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="seljuk_tribal_skirmisher" default_group="Infantry" level="21" name="{=seljuk_tribal_skirmisher.name}Seljuk Tribal Skirmisher" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="15"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="60"/>
+    <skill id="Polearm" value="60"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.steppe_helmet"/>
+				<equipment slot="Cape" id="Item.bolted_leather_strips"/>
+				<equipment slot="Body" id="Item.khuzait_lamellar_strapped"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="seljuk_horse_archer" default_group="HorseArcher" level="16" name="{=seljuk_horse_archer.name}Seljuk Horse Archer" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="70"/>
+    <skill id="OneHanded" value="45"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="70"/>
+    <skill id="Crossbow" value="70"/>
+    <skill id="Throwing" value="25"/>
+    </skills>
+    <upgrade_targets>
+		      <upgrade_target id="NPCCharacter.seljuk_veteran_horse_archer"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.range_arrows"/>
+				<equipment slot="Item3" id="Item.khuzait_sword_1_t2"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
+				<equipment slot="Body" id="Item.studded_steppe_leather"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<equipment slot="Horse" id="Item.khuzait_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="seljuk_veteran_horse_archer" default_group="HorseArcher" level="21" name="{=seljuk_veteran_horse_archer.name}Seljuk Veteran Horse Archer" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="110"/>
+    <skill id="Bow" value="150"/>
+    <skill id="Crossbow" value="15"/>
+    <skill id="Throwing" value="15"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item3" id="Item.khuzait_noble_sword_1_t5"/>
+				<equipment slot="Head" id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
+				<equipment slot="Body" id="Item.khuzait_lamellar_strapped"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<equipment slot="Horse" id="Item.khuzait_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="seljuk_ghulam_light_cavalry" default_group="Infantry" level="21" name="{=seljuk_ghulam_light_cavalry.name}Seljuk Ghulam" is_basic_troop="true" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="45" />
+		<skill
+			id="Crossbow"
+			value="45" />
+		<skill
+			id="Throwing"
+			value="60" />
+    </skills>
+    <upgrade_targets>
+			      <upgrade_target id="NPCCharacter.seljuk_ghulam_heavy_cavalry"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.battania_targe_b"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_3_t3"/>
+				<equipment slot="Item3" id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
+				<equipment slot="Cape" id="Item.bolted_leather_strips"/>
+				<equipment slot="Body" id="Item.leather_lamellar_armor"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="seljuk_ghulam_heavy_cavalry" default_group="Cavalry" level="26" name="{=seljuk_ghulam_heavy_cavalry.name}Seljuk Ghulam Heavy Cavalry" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="60"/>
+    </skills>
+    <upgrade_targets>
+			      <upgrade_target id="NPCCharacter.seljuk_askari"/>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_5_t5"/>
+				<equipment slot="Item1" id="Item.battania_shield_targe_a"/>
+				<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
+				<equipment slot="Head" id="Item.spiked_helmet"/>
+				<equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a"/>
+				<equipment slot="Body" id="Item.eastern_plated_leather"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="seljuk_askari" default_group="Cavalry" level="31" name="{=seljuk_askari.name}Seljuk Ghulam Askari" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+    <skill id="Athletics" value="60"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="260"/>
+    <skill id="Polearm" value="260"/>
+    <skill id="Bow" value="60"/>
+    <skill id="Crossbow" value="25"/>
+    <skill id="Throwing" value="45"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_5_t5"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+				<equipment slot="Head" id="Item.spiked_helmet_with_facemask"/>
+				<equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a"/>
+				<equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+				<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+ 
+
+</NPCCharacters>

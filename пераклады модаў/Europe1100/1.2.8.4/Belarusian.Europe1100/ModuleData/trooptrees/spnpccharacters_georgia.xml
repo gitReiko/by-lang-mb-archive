@@ -1,0 +1,1182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  
+  <NPCCharacter id="village_woman_georgia"
+                default_group="Infantry"
+                is_female="true"
+                level="1"
+                name="{=village_woman_georgia.name}Georgian Peasant"
+                occupation="Villager"
+                culture="Culture.georgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_georgia" />
+      <hair_tags>
+        <hair_tag name="Bobbed" />
+        <hair_tag name="RestingOnShoulders" />
+        <hair_tag name="ShoulderLengthTied" />
+        <hair_tag name="AboveShoulderLength" />
+      </hair_tags>
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.empire_dress" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.vlandian_dress" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.empire_dress_b" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.plain_dress" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.dress_with_overall" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.laced_dress" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.empire_dress" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.vlandian_dress" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.empire_dress_b" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.plain_dress" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.dress_with_overall" />
+        <equipment slot="Cape"
+                   id="Item.female_scarf" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body"
+                   id="Item.laced_dress" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body"
+                   id="Item.laced_dress" />
+        <equipment slot="Leg"
+                   id="Item.ladys_shoe" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan-->
+  
+   <NPCCharacter id="caravan_master_georgia"
+                default_group="Infantry"
+                level="26"
+                name="{=caravan_master_georgia.name}Georgian Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Cape"
+                   id="Item.studded_imperial_neckguard" />
+        <equipment slot="Body"
+                   id="Item.legionary_mail" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Body"
+                   id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Head"
+                   id="Item.cervelliere_over_laced_coif" />
+        <equipment slot="Body"
+                   id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Cape"
+                   id="Item.studded_imperial_neckguard" />
+        <equipment slot="Body"
+                   id="Item.legionary_mail" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--armed trader-->
+  
+   <NPCCharacter id="armed_trader_georgia"
+                default_group="Ranged"
+                level="16"
+                name="{=armed_trader_georgia.name}Georgian Armed Trader"
+                occupation="CaravanGuard"
+                culture="Culture.georgia"
+                is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="70" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.glen_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.default_arrows" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_mace_1_t2" />
+        <equipment slot="Body"
+                   id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.imperial_leather_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.glen_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.range_arrows" />
+        <equipment slot="Item2"
+                   id="Item.battania_mace_1_t2" />
+        <equipment slot="Body"
+                   id="Item.footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.glen_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.range_arrows" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_mace_1_t2" />
+        <equipment slot="Body"
+                   id="Item.footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.glen_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.range_arrows" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_mace_1_t2" />
+        <equipment slot="Body"
+                   id="Item.footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.glen_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.range_arrows" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_mace_1_t2" />
+        <equipment slot="Body"
+                   id="Item.footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!--caravan guard-->
+  
+  <NPCCharacter id="caravan_guard_georgia"
+                default_group="HorseArcher"
+                level="21"
+                name="{=caravan_guard_georgia.name}Georgian Caravan Guard"
+                upgrade_requires="ItemCategory.horse"
+                occupation="CaravanGuard"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="90" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="15" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="40" />
+      <skill id="Crossbow"
+             value="110" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item2"
+                   id="Item.crossbow_e" />
+        <equipment slot="Item3"
+                   id="Item.bolt_b" />
+        <equipment slot="Head"
+                   id="Item.imperial_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.empire_horseman_armor" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Gloves"
+                   id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item2"
+                   id="Item.crossbow_e" />
+        <equipment slot="Item3"
+                   id="Item.bolt_b" />
+        <equipment slot="Head"
+                   id="Item.imperial_open_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.empire_horseman_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item2"
+                   id="Item.crossbow_e" />
+        <equipment slot="Item3"
+                   id="Item.bolt_b" />
+        <equipment slot="Head"
+                   id="Item.imperial_padded_coif" />
+        <equipment slot="Body"
+                   id="Item.empire_horseman_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item2"
+                   id="Item.crossbow_e" />
+        <equipment slot="Item3"
+                   id="Item.bolt_b" />
+        <equipment slot="Head"
+                   id="Item.imperial_padded_coif" />
+        <equipment slot="Body"
+                   id="Item.empire_horseman_armor" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item2"
+                   id="Item.worn_horsemans_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.imperial_open_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.imperial_mail_vest" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.padded_mitten" />
+      </EquipmentRoster>
+      <equipment slot="Horse"
+                 id="Item.empire_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="veteran_caravan_guard_georgia"
+                default_group="Cavalry"
+                level="26"
+                name="{=veteran_caravan_guard_georgia.name}Georgian Veteran Caravan Guard"
+                occupation="CaravanGuard"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.western_spear_4_t4" />
+        <equipment slot="Item1"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item2"
+                   id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.imperial_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.leather_shoes" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.western_spear_4_t4" />
+        <equipment slot="Item1"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item2"
+                   id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.imperial_open_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.western_spear_4_t4" />
+        <equipment slot="Item1"
+                   id="Item.empire_sword_4_t4" />
+        <equipment slot="Item2"
+                   id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.imperial_padded_coif" />
+        <equipment slot="Body"
+                   id="Item.legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.western_spear_4_t4" />
+        <equipment slot="Item1"
+                   id="Item.empire_sword_4_t4" />
+        <equipment slot="Item2"
+                   id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.imperial_padded_coif" />
+        <equipment slot="Body"
+                   id="Item.legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.western_spear_4_t4" />
+        <equipment slot="Item1"
+                   id="Item.empire_sword_4_t4" />
+        <equipment slot="Item2"
+                   id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.imperial_open_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.legionary_mail" />
+        <equipment slot="Leg"
+                   id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <equipment slot="Horse"
+                 id="Item.empire_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </Equipments>
+  </NPCCharacter>
+  
+<!--troops-->
+
+  <NPCCharacter id="georgian_bogano"
+                default_group="Infantry"
+                level="6"
+                name="{=georgian_bogano.name}Georgian Bogano"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.georgian_msakhureuli_spearmen" />
+	  <upgrade_target id="NPCCharacter.georgian_molashqre_mshvildosani" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.fur_armor_with_strap"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_msakhureuli_spearmen"
+                default_group="Infantry"
+                level="11"
+                name="{=georgian_msakhureuli_spearmen.name}Georgian Msakhureuli Spearmen"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="40" />
+		<skill
+			id="Riding"
+			value="5" />
+		<skill
+			id="OneHanded"
+			value="40" />
+		<skill
+			id="TwoHanded"
+			value="40" />
+		<skill
+			id="Polearm"
+			value="40" />
+		<skill
+			id="Bow"
+			value="15" />
+		<skill
+			id="Crossbow"
+			value="15" />
+		<skill
+			id="Throwing"
+			value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.georgian_metsikhovne_spearmen" />
+	  <upgrade_target id="NPCCharacter.georgian_royal_guard" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.decorated_steppe_shield"/>
+				<equipment slot="Item1" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item2" id="Item.seax"/>
+				<equipment slot="Head" id="Item.trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Body" id="Item.padded_coat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_metsikhovne_spearmen"
+                default_group="Infantry"
+                level="16"
+                name="{=georgian_metsikhovne_spearmen.name}Georgian Metsikhovne Spearmen"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="70" />
+		<skill
+			id="Riding"
+			value="10" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="40" />
+		<skill
+			id="Polearm"
+			value="40" />
+		<skill
+			id="Bow"
+			value="30" />
+		<skill
+			id="Crossbow"
+			value="30" />
+		<skill
+			id="Throwing"
+			value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.georgian_mtieli_spearmen" />
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_steppe_shield"/>
+				<equipment slot="Item1" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item2" id="Item.short_sword_t3"/>
+				<equipment slot="Head" id="Item.trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.padded_coat"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_mtieli_spearmen"
+                default_group="Infantry"
+                level="21"
+                name="{=georgian_mtieli_spearmen.name}Georgian Mtieli Spearman"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="100" />
+		<skill
+			id="Polearm"
+			value="100" />
+		<skill
+			id="Bow"
+			value="45" />
+		<skill
+			id="Crossbow"
+			value="45" />
+		<skill
+			id="Throwing"
+			value="60" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.noyans_shield"/>
+				<equipment slot="Item1" id="Item.eastern_spear_5_t5"/>
+				<equipment slot="Item2" id="Item.short_sword_t3"/>
+				<equipment slot="Head" id="Item.loose_wrapped_desert_helmet"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.imperial_lamellar"/>
+				<equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_molashqre_mshvildosani"
+                default_group="Ranged"
+                level="11"
+                name="{=georgian_molashqre_mshvildosani.name}Georgian Molashqre Mshvildosani"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="40" />
+		<skill
+			id="Riding"
+			value="5" />
+		<skill
+			id="OneHanded"
+			value="40" />
+		<skill
+			id="TwoHanded"
+			value="15" />
+		<skill
+			id="Polearm"
+			value="20" />
+		<skill
+			id="Bow"
+			value="40" />
+		<skill
+			id="Crossbow"
+			value="40" />
+		<skill
+			id="Throwing"
+			value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.georgian_metsikhovne_archer" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_bow"/>
+				<equipment slot="Item1" id="Item.short_sword_t3"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+				<equipment slot="Head" id="Item.trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.padded_coat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_metsikhovne_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=georgian_metsikhovne_archer.name}Georgian Metsikhovne Archer"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="70" />
+		<skill
+			id="Riding"
+			value="10" />
+		<skill
+			id="OneHanded"
+			value="70" />
+		<skill
+			id="TwoHanded"
+			value="40" />
+		<skill
+			id="Polearm"
+			value="30" />
+		<skill
+			id="Bow"
+			value="100" />
+		<skill
+			id="Crossbow"
+			value="100" />
+		<skill
+			id="Throwing"
+			value="100" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.georgian_msakhuri_archer" />
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+				<equipment slot="Item1" id="Item.short_sword_t3"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_b"/>
+				<equipment slot="Item3" id="Item.noyans_shield"/>
+				<equipment slot="Head" id="Item.trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.padded_leather_shoulders"/>
+				<equipment slot="Body" id="Item.padded_coat"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_msakhuri_archer"
+                default_group="Ranged"
+                level="21"
+                name="{=georgian_msakhuri_archer.name}Georgian Msakhuri Archer"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="100" />
+		<skill
+			id="Riding"
+			value="15" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="60" />
+		<skill
+			id="Polearm"
+			value="60" />
+		<skill
+			id="Bow"
+			value="100" />
+		<skill
+			id="Crossbow"
+			value="100" />
+		<skill
+			id="Throwing"
+			value="100" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.short_sword_t3"/>
+				<equipment slot="Item2" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item3" id="Item.noyans_shield"/>
+				<equipment slot="Head" id="Item.trailed_desert_helmet"/>
+				<equipment slot="Cape" id="Item.chainmail_shoulder_armor"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_royal_guard"
+                default_group="Infantry"
+                level="16"
+                name="{=georgian_royal_guard.name}Georgian Royal Guard"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="70" />
+		<skill
+			id="Riding"
+			value="10" />
+		<skill
+			id="OneHanded"
+			value="100" />
+		<skill
+			id="TwoHanded"
+			value="40" />
+		<skill
+			id="Polearm"
+			value="40" />
+		<skill
+			id="Bow"
+			value="30" />
+		<skill
+			id="Crossbow"
+			value="30" />
+		<skill
+			id="Throwing"
+			value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.georgian_monaspa" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item2" id="Item.noyans_shield"/>
+				<equipment slot="Head" id="Item.loose_wrapped_desert_helmet"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.imperial_lamellar"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_monaspa"
+                default_group="Cavalry"
+                level="21"
+                name="{=georgian_monaspa.name}Georgian Monaspa"
+				is_basic_troop="true"
+				upgrade_requires="ItemCategory.horse"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="45" />
+		<skill
+			id="Riding"
+			value="110" />
+		<skill
+			id="OneHanded"
+			value="150" />
+		<skill
+			id="TwoHanded"
+			value="40" />
+		<skill
+			id="Polearm"
+			value="110" />
+		<skill
+			id="Bow"
+			value="150" />
+		<skill
+			id="Crossbow"
+			value="15" />
+		<skill
+			id="Throwing"
+			value="15" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
+				<equipment slot="Item1" id="Item.steppe_war_bow"/>
+				<equipment slot="Item2" id="Item.noyans_shield"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head" id="Item.loose_wrapped_desert_helmet"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.imperial_lamellar"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_aghzeebul_aznauri"
+                default_group="Infantry"
+                level="21"
+                name="{=georgian_aghzeebul_aznauri.name}Georgian Aghzeebul Aznauri"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="40" />
+		<skill
+			id="Riding"
+			value="110" />
+		<skill
+			id="OneHanded"
+			value="110" />
+		<skill
+			id="TwoHanded"
+			value="160" />
+		<skill
+			id="Polearm"
+			value="150" />
+		<skill
+			id="Bow"
+			value="40" />
+		<skill
+			id="Crossbow"
+			value="15" />
+		<skill
+			id="Throwing"
+			value="15" />
+    </skills>
+    <upgrade_targets>
+			<upgrade_target id="NPCCharacter.georgian_natesavit_aznauri" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_5_t5"/>
+				<equipment slot="Item1" id="Item.fortified_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.nasalhelm_over_mail"/>
+				<equipment slot="Cape" id="Item.empire_cape_a"/>
+				<equipment slot="Body" id="Item.mail_shirt"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_natesavit_aznauri"
+                default_group="Cavalry"
+                level="26"
+                name="{=georgian_natesavit_aznauri.name}Georgian Natesavit Aznauri"
+				is_basic_troop="true"
+                occupation="Soldier"
+				upgrade_requires="ItemCategory.war_horse"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="80" />
+		<skill
+			id="Riding"
+			value="130" />
+		<skill
+			id="OneHanded"
+			value="130" />
+		<skill
+			id="TwoHanded"
+			value="160" />
+		<skill
+			id="Polearm"
+			value="160" />
+		<skill
+			id="Bow"
+			value="60" />
+		<skill
+			id="Crossbow"
+			value="20" />
+		<skill
+			id="Throwing"
+			value="60" />
+    </skills>
+    <upgrade_targets>
+			<upgrade_target id="NPCCharacter.georgian_eristavi" />
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_5_t5"/>
+				<equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet"/>
+				<equipment slot="Cape" id="Item.pauldron_cape_a"/>
+				<equipment slot="Body" id="Item.sturgia_cavalry_armor"/>
+				<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+				<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="georgian_eristavi"
+                default_group="Cavalry"
+                level="31"
+                name="{=georgian_eristavi.name}Georgian Eristavi"
+				is_basic_troop="true"
+                occupation="Soldier"
+                culture="Culture.georgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_georgia" />
+    </face>
+    <skills>
+		<skill
+			id="Athletics"
+			value="60" />
+		<skill
+			id="Riding"
+			value="200" />
+		<skill
+			id="OneHanded"
+			value="200" />
+		<skill
+			id="TwoHanded"
+			value="260" />
+		<skill
+			id="Polearm"
+			value="260" />
+		<skill
+			id="Bow"
+			value="60" />
+		<skill
+			id="Crossbow"
+			value="25" />
+		<skill
+			id="Throwing"
+			value="45" />
+    </skills>
+    <upgrade_targets>
+
+    </upgrade_targets>
+    <Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+				<equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_noble_sword_4_t5"/>
+				<equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet"/>
+				<equipment slot="Cape" id="Item.varangian_bra_royal"/>
+				<equipment slot="Body" id="Item.imperial_scale_armor"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+				<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+</NPCCharacters>
