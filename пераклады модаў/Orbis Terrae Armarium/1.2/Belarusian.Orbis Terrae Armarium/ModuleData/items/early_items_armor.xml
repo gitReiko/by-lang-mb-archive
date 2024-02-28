@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+	<!-- BYZANTINE CLOTHING -->
+
+  <Item id="byz_basileus_lam_armor_1" name="{=byz_basileus_lam_armor_1.name}[BYZANTINE ARMOR] Emperors Lamellar Armor, Decorated Chainmail" subtype="body_armor" mesh="byz_basileus_lam_armor_1" culture="Culture.empire" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="45" leg_armor="25" arm_armor="20" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="byz_lamellar_quilted_1" name="{=byz_lamellar_quilted_1.name}[BYZANTINE ARMOR] Quilted Lamellar, Sleeved" subtype="body_armor" mesh="byz_lamellar_quilted_1" culture="Culture.empire" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="16" arm_armor="18" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="we_e_byz_platelamellar_1" name="{=we_e_byz_platelamellar_1.name}[BYZANTINE ARMOR] Quilted Lamellar, Plated" subtype="body_armor" mesh="we_e_byz_platelamellar_1" culture="Culture.empire" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="16" arm_armor="18" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+	<!-- NORTHERN CLOTHING -->
+
+  <Item id="no_e_lamellar_hauberk_1" name="{=no_e_lamellar_hauberk_1.name}[NORTHERN ARMOR] Imported Lamellar, Hauberk" subtype="body_armor" mesh="no_e_lamellar_hauberk_1" culture="Culture.sturgia" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="16" arm_armor="18" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+	<!-- WESTERN CLOTHING -->
+
+  <Item id="we_e_viltunic_1" name="{=we_e_viltunic_1.name}[WESTERN ARMOR] Western Villagers Tunic" subtype="body_armor" mesh="we_e_viltunic_1" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="6" leg_armor="4" arm_armor="4" has_gender_variations="false" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>  
+
+  <Item id="el_e_jerkin_1" name="{=el_e_jerkin_1.name}[WESTERN ARMOR] Western Villagers Tunic with Jerkin" subtype="body_armor" mesh="el_e_jerkin_1" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="10" leg_armor="6" arm_armor="7" has_gender_variations="false" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>  
+
+  <Item id="el_e_sleevgambeson_1" name="{=el_e_sleevgambeson_1.name}[WESTERN ARMOR] Sleeved Gambeson, Strapped" subtype="body_armor" mesh="el_e_sleevgambeson_1" culture="Culture.vlandia" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="30" leg_armor="14" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="el_w_long_gambeson_1" name="{=el_w_long_gambeson_1.name}[WESTERN ARMOR] Gambeson, Strapped" subtype="body_armor" mesh="el_w_long_gambeson_1" culture="Culture.vlandia" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="30" leg_armor="14" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="el_gambeson_twolayer_gambchain_1" name="{=el_gambeson_twolayer_gambchain_1.name}[WESTERN ARMOR] Gambeson over Mail" subtype="body_armor" mesh="el_gambeson_twolayer_gambchain_1" culture="Culture.vlandia" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="16" arm_armor="18" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+  <Item id="norman_longchain_1" name="{=norman_longchain_1.name}[WESTERN ARMOR] Norman Long Chainmail" subtype="body_armor" mesh="norman_longchain_1" culture="Culture.vlandia" weight="10" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="32" leg_armor="16" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="we_norman_chainmail2_1" name="{=we_norman_chainmail2_1.name}[WESTERN ARMOR] Norman Chainmail" subtype="body_armor" mesh="we_norman_chainmail2_1" culture="Culture.vlandia" weight="10" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="32" leg_armor="16" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+  <Item id="we_norman_chainmail_1" name="{=we_norman_chainmail_1.name}[WESTERN ARMOR] Norman Chainmail, Strapped" subtype="body_armor" mesh="we_norman_chainmail_1" culture="Culture.vlandia" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="32" leg_armor="16" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="el_e_mailhauberk_1" name="{=el_e_mailhauberk_1.name}[WESTERN ARMOR] Mail Hauberk, Strapped" subtype="body_armor" mesh="el_e_mailhauberk_1" culture="Culture.vlandia" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="30" leg_armor="14" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="el_mailhauber_twolayer_gambeson1" name="{=el_mailhauber_twolayer_gambeson1.name}[WESTERN ARMOR] Double Layered Hauberk, Gambeson" subtype="body_armor" mesh="el_mailhauber_twolayer_gambeson1" culture="Culture.vlandia" weight="10" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="32" leg_armor="16" arm_armor="14" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="el_mailhauber_twolayer_1" name="{=el_mailhauber_twolayer_1.name}[WESTERN ARMOR] Double Layered Hauberk" subtype="body_armor" mesh="el_mailhauber_twolayer_1" culture="Culture.vlandia" weight="10" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="32" leg_armor="16" arm_armor="14" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="el_mailhauber_twolayer_gamb_1" name="{=el_mailhauber_twolayer_gamb_1.name}[WESTERN ARMOR] Mail Haubergeon" subtype="body_armor" mesh="el_mailhauber_twolayer_gamb_1" culture="Culture.vlandia" weight="10" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="30" leg_armor="14" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="we_e_lmail_longtunic_1" name="{=we_e_lmail_longtunic_1.name}[WESTERN ARMOR] Anglo-Norman Mailtunic, Strapped" subtype="body_armor" mesh="we_e_lmail_longtunic_1" culture="Culture.vlandia" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="16" arm_armor="18" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="we_e_reinf_chainmail_1" name="{=we_e_reinf_chainmail_1.name}[WESTERN ARMOR] Reinforced Chainmail, Strapped" subtype="body_armor" mesh="we_e_reinf_chainmail_1" culture="Culture.vlandia" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="16" arm_armor="18" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+	<!-- NOBLEMANS ATTIRE -->
+
+  <Item id="el_e_mailhauberk_1_noble" name="{=el_e_mailhauberk_1_noble.name}[WESTERN ARMOR] Decorated Mail Hauberk, Noble" subtype="body_armor" mesh="el_e_mailhauberk_1_noble" culture="Culture.vlandia" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="30" leg_armor="16" arm_armor="14" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+	<!-- SURCOATS -->
+
+  <Item id="we_surcoat_pat1" name="{=we_surcoat_pat1.name}[WESTERN ARMOR] Surcoat over Mail, Quartered" subtype="body_armor" mesh="we_surcoat_pat1" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="36" leg_armor="16" arm_armor="18" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+	<!-- HERALDIC -->
+
+<Item id="we_surcoat_pat_heraldic_1" name="{=we_surcoat_pat_heraldic_1.name}[HERALDIC ARMOR] Surcoat over Mail" subtype="body_armor" mesh="we_surcoat_pat_heraldic_1" using_tableau="true" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="36" leg_armor="16" arm_armor="18" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>	
+  </Item>
+
+	<!-- PRE COLOURED CLOTHING -->
+
+  <Item id="el_prec_mailtunic_1" name="{=el_prec_mailtunic_1.name}[STATIC COLOUR ARMOR] Mail Hauberk, Hemp Tunic" subtype="body_armor" mesh="el_prec_mailtunic_1" culture="Culture.vlandia" weight="11" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="30" leg_armor="14" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="we_e_prec_tunic_2" name="{=we_e_prec_tunic_2.name}[STATIC COLOUR ARMOR] Western Tunic, Green" subtype="body_armor" mesh="we_e_prec_tunic_2" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="6" leg_armor="4" arm_armor="4" has_gender_variations="false" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>  
+
+  <Item id="we_strap_tunic_1" name="{=we_strap_tunic_1.name}[STATIC COLOUR ARMOR] Western Hemp Tunic, Strapped" subtype="body_armor" mesh="we_strap_tunic_1" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="6" leg_armor="4" arm_armor="4" has_gender_variations="false" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>  
+
+  <Item id="we_e_prec_tunic_1" name="{=we_e_prec_tunic_1.name}[STATIC COLOUR ARMOR] Western Knee-Long Tunic, Dark" subtype="body_armor" mesh="we_e_prec_tunic_1" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1.5" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="6" leg_armor="4" arm_armor="4" has_gender_variations="false" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>  
+
+</Items>

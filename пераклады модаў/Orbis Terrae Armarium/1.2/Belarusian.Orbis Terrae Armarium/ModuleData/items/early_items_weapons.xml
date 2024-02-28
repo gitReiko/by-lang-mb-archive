@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+	<!-- SWORD -->
+
+<Item id="e_nordic_warsword_1" name="{=e_nordic_warsword_1.name}[WEAPONS] Nordic Warsword" is_merchandise="true" body_name="bo_e_nordic_warsword_1" recalculate_body="true" mesh="e_nordic_warsword_1" holster_mesh_with_weapon="e_nordic_warsword_1" holster_mesh="e_nordic_warsword_1" weight="4" value="1" Type="OneHandedWeapon" item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2">
+    <ItemComponent>
+      <Weapon weapon_class="OneHandedSword" weapon_balance="100" thrust_speed="92" speed_rating="99" physics_material="wood_weapon" missile_speed="0" weapon_length="80" thrust_damage="145" thrust_damage_type="Pierce" swing_damage="164" swing_damage_type="Blunt" modifier_group="sword" item_usage="onehanded_shield_swing">
+        <WeaponFlags MeleeWeapon="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+<Item id="we_norm_sword_1" name="{=we_norm_sword_1.name}[WEAPONS] Norman Bayeux Arming Sword" is_merchandise="true" body_name="bo_e_we_norm_sword_1" recalculate_body="true" mesh="we_norm_sword_1" holster_mesh_with_weapon="we_norm_sword_1" holster_mesh="we_norm_sword_1" weight="4" value="1" Type="OneHandedWeapon" item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2">
+    <ItemComponent>
+      <Weapon weapon_class="OneHandedSword" weapon_balance="100" thrust_speed="92" speed_rating="99" physics_material="wood_weapon" missile_speed="0" weapon_length="80" thrust_damage="145" thrust_damage_type="Pierce" swing_damage="164" swing_damage_type="Blunt" modifier_group="sword" item_usage="onehanded_shield_swing">
+        <WeaponFlags MeleeWeapon="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+	<!-- SPEAR -->
+
+  <Item id="ota_simple_spearbanner1" name="{=ota_simple_spearbanner1.name}[WEAPONS] Banner Spear, Static Colour" is_merchandise="true" body_name="bo_ota_simple_spearbanner1" recalculate_body="true" mesh="ota_simple_spearbanner1" culture="Culture.neutral_culture" weight="1" Type="Polearm" using_tableau="true" item_holsters="polearm_back">
+    <ItemComponent>
+      <Weapon weapon_class="OneHandedPolearm" weapon_balance="100" thrust_speed="85" speed_rating="99" physics_material="wood_weapon" missile_speed="0" weapon_length="220" thrust_damage="129" thrust_damage_type="Pierce" swing_damage="115" swing_damage_type="Blunt" item_usage="onehanded_polearm_block_shield_thrust">
+        <WeaponFlags MeleeWeapon="true" CanKnockDown="true"/> 
+      </Weapon>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+  <Item id="we_reg_spearbanner1" name="{=we_reg_spearbanner1.name}[WEAPONS] Short Trident Banner Spear, Heraldic" is_merchandise="true" body_name="bo_we_reg_spearbanner1" recalculate_body="true" mesh="we_reg_spearbanner1" culture="Culture.neutral_culture" weight="1" Type="Polearm" using_tableau="true" item_holsters="polearm_back">
+    <ItemComponent>
+      <Weapon weapon_class="OneHandedPolearm" weapon_balance="100" thrust_speed="85" speed_rating="99" physics_material="wood_weapon" missile_speed="0" weapon_length="220" thrust_damage="129" thrust_damage_type="Pierce" swing_damage="115" swing_damage_type="Blunt" item_usage="onehanded_polearm_block_shield_thrust">
+        <WeaponFlags MeleeWeapon="true" CanKnockDown="true"/> 
+      </Weapon>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+  <Item id="we_e_spearbanner_1_h" name="{=we_e_spearbanner_1_h.name}[WEAPONS] Short Trident Banner Spear, Heraldic" is_merchandise="true" body_name="bo_we_e_spearbanner_1_h" recalculate_body="true" mesh="we_e_spearbanner_1_h" culture="Culture.neutral_culture" weight="1" Type="Polearm" using_tableau="true" item_holsters="polearm_back">
+    <ItemComponent>
+      <Weapon weapon_class="OneHandedPolearm" weapon_balance="100" thrust_speed="85" speed_rating="99" physics_material="wood_weapon" missile_speed="0" weapon_length="220" thrust_damage="129" thrust_damage_type="Pierce" swing_damage="115" swing_damage_type="Blunt" item_usage="onehanded_polearm_block_shield_thrust">
+        <WeaponFlags MeleeWeapon="true" CanKnockDown="true"/> 
+      </Weapon>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+</Items>

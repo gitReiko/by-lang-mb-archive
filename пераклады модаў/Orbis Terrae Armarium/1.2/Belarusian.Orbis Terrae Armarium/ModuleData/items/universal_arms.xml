@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+	<!-- WESTERN ARM ARMOR -->
+
+  <Item id="arm_straps_1" name="{=arm_straps_1.name}[ARM ARMOR] Wrapped Bands" mesh="arm_straps_1" culture="Culture.neutral_culture" weight="1.6" difficulty="0" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="3" covers_hands="false" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+  <Item id="wrapped_gloves_1" name="{=wrapped_gloves_1.name}[ARM ARMOR] Wrapped Gloves" mesh="wrapped_gloves_1" culture="Culture.neutral_culture" weight="1.6" difficulty="0" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="5" covers_hands="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+  <Item id="el_mail_gloves_1" name="{=el_mail_gloves_1.name}[ARM ARMOR] Mail Gloves" mesh="el_mail_gloves_1" culture="Culture.vlandia" weight="1.6" difficulty="0" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="20" covers_hands="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+  <Item id="ota_e_sta_legloves_1" name="{=ota_e_sta_legloves_1.name}[ARM ARMOR] LEather Gloves" mesh="ota_e_sta_legloves_1" culture="Culture.neutral_culture" weight="1.6" difficulty="0" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="5" covers_hands="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+  <Item id="ota_e_sta_gloves_1" name="{=ota_e_sta_gloves_1.name}[ARM ARMOR] Gloves" mesh="ota_e_sta_gloves_1" culture="Culture.neutral_culture" weight="1.6" difficulty="0" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="5" covers_hands="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+</Items>

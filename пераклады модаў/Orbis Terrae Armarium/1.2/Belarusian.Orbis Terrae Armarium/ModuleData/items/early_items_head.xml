@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+	<!-- UNIVERSAL -->
+
+  <Item id="we_e_stacoif_1" name="{=we_e_stacoif_1.name}[UNIVERSAL HEADWEAR] Mail Coif" mesh="we_e_stacoif_1" culture="Culture.vlandia" weight="2" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="18" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_e_mailcoif_1" name="{=we_e_mailcoif_1.name}[UNIVERSAL HEADWEAR] Mail Coif" mesh="we_e_mailcoif_1" culture="Culture.vlandia" weight="2" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="18" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+	<!-- CIVILIAN HEADWEAR -->
+
+  <Item id="we_e_pillbox_1" name="{=we_e_pillbox_1.name}[WESTERN HEADWEAR] Pillbox Hat, Hemp" mesh="we_e_pillbox_1" culture="Culture.vlandia" weight="2" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="none" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+	<!-- RUS -->
+
+  <Item id="druzhina_1" name="{=druzhina_1.name}[RUS HEADWEAR] Druzhina Helmet, Maille" mesh="druzhina_1" culture="Culture.sturgia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item id="druzhina_boyarhelmet_1" name="{=druzhina_boyarhelmet_1.name}[RUS HEADWEAR] Boyar Masked Helmet, Maille" mesh="druzhina_boyarhelmet_1" culture="Culture.sturgia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+	<!-- WESTERN -->
+
+  <Item id="veiled_coif_1" name="{=veiled_coif_1.name}[WESTERN HEADWEAR] Norman Mail Coif, Open Veil" mesh="veiled_coif_1" culture="Culture.vlandia" weight="2" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="18" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="orchowksi_nasal_1rag" name="{=orchowksi_nasal_1rag.name}[WESTERN HEADWEAR] Segmental Nasal, Ragged Hood" mesh="orchowksi_nasal_1rag" culture="Culture.vlandia" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="22" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="ota_reg_skullcap_1" name="{=ota_reg_skullcap_1.name}[WESTERN HEADWEAR] Regular Skullcap, Chinstrap" mesh="ota_reg_skullcap_1" culture="Culture.vlandia" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="22" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="saxon_spangen_helmet1" name="{=saxon_spangen_helmet1.name}[WESTERN HEADWEAR] Saxon Spangenhelmet, Chinstrap" mesh="saxon_spangen_helmet1" culture="Culture.vlandia" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="22" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="ota_we_stacerv1" name="{=ota_we_stacerv1.name}[WESTERN HEADWEAR] Frankish Cervelliere, Mailcoif" mesh="ota_we_stacerv1" culture="Culture.vlandia" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_e_bayeux_nasal_1" name="{=we_e_bayeux_nasal_1.name}[WESTERN HEADWEAR] Norman Bayeux Nasal, Chinstrap" mesh="we_e_bayeux_nasal_1" culture="Culture.vlandia" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="we_e_nasal_armcoif1" name="{=we_e_nasal_armcoif1.name}[WESTERN HEADWEAR] Norman Bayeux Nasal, Armcoif" mesh="we_e_nasal_armcoif1" culture="Culture.vlandia" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_early_mun_nasal1" name="{=we_early_mun_nasal1.name}[WESTERN HEADWEAR] Munition Nasal, Chinstrap" mesh="we_early_mun_nasal1" culture="Culture.vlandia" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="30" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_e_poorskullcap_1" name="{=we_e_poorskullcap_1.name}[WESTERN HEADWEAR] Segmented Nasal, Worn Hood" mesh="we_e_poorskullcap_1" culture="Culture.vlandia" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="32" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_light_painted_nasal_1" name="{=we_light_painted_nasal_1.name}[WESTERN HEADWEAR] Painted Segmented Nasal, Padded Hood" mesh="we_light_painted_nasal_1" culture="Culture.vlandia" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="32" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="el_e_nasal_chain_1" name="{=el_e_nasal_chain_1.name}[WESTERN HEADWEAR] Western Nasal, Chainmail" mesh="el_e_nasal_chain_1" culture="Culture.vlandia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="el_e_p_nasal_chain_1" name="{=el_e_p_nasal_chain_1.name}[WESTERN HEADWEAR] Painted Western Nasal, Chainmail" mesh="el_e_p_nasal_chain_1" culture="Culture.vlandia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_e_tiltednasal_1" name="{=we_e_tiltednasal_1.name}[WESTERN HEADWEAR] Tilted Anglo-Norman Nasal, Mail" mesh="we_e_tiltednasal_1" culture="Culture.vlandia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="38" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_latrom_ridge_1" name="{=we_latrom_ridge_1.name}[WESTERN HEADWEAR] Late Roman Ridge Helmet" mesh="we_latrom_ridge_1" culture="Culture.empire" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="38" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_e_stawestnasal1" name="{=we_e_stawestnasal1.name}[WESTERN HEADWEAR] Anglo-Norman Nasal, Opened Veil Maille" mesh="we_e_stawestnasal1" culture="Culture.vlandia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="38" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_ang_pioneer_1" name="{=we_ang_pioneer_1.name}[WESTERN HEADWEAR] Anglo-Saxon Pioneer Helmet, Cloth" mesh="we_ang_pioneer_1" culture="Culture.battania" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_ang_coopergate_brass1" name="{=we_ang_coopergate_brass1.name}[WESTERN HEADWEAR] Anglo-Saxon Coopergate Helmet, Maille" mesh="we_ang_coopergate_brass1" culture="Culture.battania" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_earlynasal_seam_1" name="{=we_earlynasal_seam_1.name}[WESTERN HEADWEAR] Early Western Nasal, Opened Veil Maille" mesh="we_earlynasal_seam_1" culture="Culture.vlandia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="stvitus_wenclesalv_nasal_1" name="{=stvitus_wenclesalv_nasal_1.name}[WESTERN HEADWEAR] St Vitus Wencheslau Helmet, Opened Veil Maille" mesh="stvitus_wenclesalv_nasal_1" culture="Culture.vlandia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_e_striped_nasal_1" name="{=we_e_striped_nasal_1.name}[WESTERN HEADWEAR] Striped Painted Segmented Nasal, Chainmail" mesh="we_e_striped_nasal_1" culture="Culture.vlandia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_e_painted_nasal_1" name="{=we_e_painted_nasal_1.name}[WESTERN HEADWEAR] Painted Segmented Nasal, Chainmail" mesh="we_e_painted_nasal_1" culture="Culture.vlandia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_frank_flattop1" name="{=we_frank_flattop1.name}[WESTERN HEADWEAR] Frankish Flat Top, Chainmail" mesh="we_frank_flattop1" culture="Culture.vlandia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="brass_segmental_nasal_1" name="{=brass_segmental_nasal_1.name}[WESTERN HEADWEAR] Brass Segmented Nasal, Chainmail" mesh="brass_segmental_nasal_1" culture="Culture.vlandia" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_e_bayeux_nasal_p1" name="{=we_e_bayeux_nasal_p1.name}[WESTERN HEADWEAR] Segmented Nasal, Veiled Coif" mesh="we_e_bayeux_nasal_p1" culture="Culture.vlandia" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="44" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_ang_suttonhoo_1" name="{=we_ang_suttonhoo_1.name}[WESTERN HEADWEAR] Sutton Hoo Helmet" mesh="we_ang_suttonhoo_1" culture="Culture.vlandia" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="44" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_nor_seg_nasal_1" name="{=we_nor_seg_nasal_1.name}[WESTERN HEADWEAR] Painted Segmented Nasal, Open Veiled Coif" mesh="we_nor_seg_nasal_1" culture="Culture.vlandia" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="44" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="el_reinfoced_nasal_1" name="{=el_reinfoced_nasal_1.name}[WESTERN HEADWEAR] Reinforced Nasal, Veiled Coif and Neckguard" mesh="el_reinfoced_nasal_1" culture="Culture.vlandia" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="we_e_flu_phryg_faceplate1" name="{=we_e_flu_phryg_faceplate1.name}[WESTERN HEADWEAR] Western Fluted Phrygian, Proto Faceplate" mesh="we_e_flu_phryg_faceplate1" culture="Culture.vlandia" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="48" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+    <Item id="we_e_italonorman_1" name="{=we_e_italonorman_1.name}[WESTERN HEADWEAR] Italo-Norman Faceplate" mesh="we_e_italonorman_1" culture="Culture.vlandia" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="el_frank_faceplate1" name="{=el_frank_faceplate1.name}[WESTERN HEADWEAR] Early Frankish Faceplate" mesh="el_frank_faceplate1" culture="Culture.vlandia" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="52" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="maciekowski_helmet_1" name="{=maciekowski_helmet_1.name}[WESTERN HEADWEAR] Maciekowski Enclosed Helmet" mesh="maciekowski_helmet_1" culture="Culture.vlandia" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+	<!-- NORTHERN -->
+
+  <Item id="ota_n_simplevikhelmet1" name="{=ota_n_simplevikhelmet1.name}[NORTHERN HEADWEAR] Nordic Googled Helmet, Strapped" mesh="ota_n_simplevikhelmet1" culture="Culture.sturgia" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="32" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="no_e_sta_vendel_1" name="{=no_e_sta_vendel_1.name}[NORTHERN HEADWEAR] Vendel Helmet, Loose Chain" mesh="no_e_sta_vendel_1" culture="Culture.sturgia" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="no_sta_gjermun_1" name="{=no_sta_gjermun_1.name}[NORTHERN HEADWEAR] Gjermundbu Helmet, Mailcoif" mesh="no_sta_gjermun_1" culture="Culture.sturgia" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="dejatinna_helmet_no_1" name="{=dejatinna_helmet_no_1.name}[NORTHERN HEADWEAR] Destjatinna Helmet, Loose Chain" mesh="dejatinna_helmet_no_1" culture="Culture.sturgia" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="no_tejle_helmet_1" name="{=no_tejle_helmet_1.name}[NORTHERN HEADWEAR] Tejle Helmet, Loose Chain" mesh="no_tejle_helmet_1" culture="Culture.sturgia" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="gjermundbu_1" name="{=gjermundbu_1.name}[NORTHERN HEADWEAR] Gjermundbu Helmet, Chainmail" mesh="gjermundbu_1" culture="Culture.sturgia" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="el_nord_helmet1" name="{=el_nord_helmet1.name}[NORTHERN HEADWEAR] Nordic Brass Faceplate, Chainmail" mesh="el_nord_helmet1" culture="Culture.sturgia" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>  
+
+  <Item id="vendel_helmet_1" name="{=vendel_helmet_1.name}[NORTHERN HEADWEAR] Vendel Decorated Helmet, Chainmail" mesh="vendel_helmet_1" culture="Culture.sturgia" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>  
+
+	<!-- BYZANTINE -->
+
+  <Item id="varangoi_light_phryg_1" name="{=varangoi_light_phryg_1.name}[BYZANTINE HEADWEAR] Phrygian Helmet, Double Layer Mail" mesh="varangoi_light_phryg_1" culture="Culture.empire" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="byz_epirus_kettle_1" name="{=byz_epirus_kettle_1.name}[BYZANTINE HEADWEAR] Roman Orthodox Kettle, Mail" mesh="byz_epirus_kettle_1" culture="Culture.empire" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>  
+
+  <Item id="we_e_byzhelmet_1" name="{=we_e_byzhelmet_1.name}[BYZANTINE HEADWEAR] Roman Phrygian, Full Mail" mesh="we_e_byzhelmet_1" culture="Culture.empire" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>  
+
+	<!-- EMPEROR EDITION -->
+
+  <Item id="byz_basileus_crown1" name="{=byz_basileus_crown1.name}[IMPERIAL HEADWEAR] Crown of Basileos" mesh="byz_basileus_crown1" culture="Culture.empire" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="22" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item id="imperial_crown_1s" name="{=imperial_crown_1s.name}[IMPERIAL HEADWEAR] The Imperial Crown, HRE" mesh="imperial_crown_1s" culture="Culture.empire" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="22" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item id="imperial_crown_1" name="{=imperial_crown_1.name}[IMPERIAL HEADWEAR] The Imperial Crown, Mail" mesh="imperial_crown_1" culture="Culture.vlandia" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+	<!-- ROYAL EDITION -->
+
+  <Item id="ota_we_crown_1" name="{=ota_we_crown_1.name}[IMPERIAL HEADWEAR] Western Kings Crown, Mail" mesh="ota_we_crown_1" culture="Culture.vlandia" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+</Items>

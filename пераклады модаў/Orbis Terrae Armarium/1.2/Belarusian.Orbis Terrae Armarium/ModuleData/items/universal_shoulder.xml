@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <Item id="ota_u_mailhood1" name="{=ota_u_mailhood1.name}[SHOULDER ARMOR] Downed Mail Hood" mesh="ota_u_mailhood1" culture="Culture.vlandia" subtype="body_armor" weight="4" difficulty="0" appearance="1.6" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="11" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="ota_u_downedhood_1" name="{=ota_u_downedhood_1.name}[SHOULDER] Split Coloured Coif" mesh="ota_u_downedhood_1" culture="Culture.sturgia" subtype="body_armor" weight="4" difficulty="0" appearance="1.6" Type="Cape">
+    <ItemComponent>
+      <Armor arm_armor="5" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="ota_u_downedhood_2" name="{=ota_u_downedhood_2.name}[SHOULDER] Coloured Coif" mesh="ota_u_downedhood_2" culture="Culture.sturgia" subtype="body_armor" weight="4" difficulty="0" appearance="1.6" Type="Cape">
+    <ItemComponent>
+      <Armor arm_armor="5" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="ailette_1" name="{=ailette_1.name}[CAPE] Ailette, Cross" mesh="ailette_1" culture="Culture.vlandia" subtype="body_armor" weight="4" difficulty="0" appearance="1.6" Type="Cape">
+    <ItemComponent>
+      <Armor arm_armor="8" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="ota_northcloak_1" name="{=ota_northcloak_1.name}[CAPE] Northmans Cape, Fur" mesh="ota_northcloak_1" culture="Culture.neutral_culture" subtype="body_armor" weight="4" difficulty="0" appearance="1.6" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="3" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="prec_royal_cloak_1" name="{=prec_royal_cloak_1.name}[PRECOLOURED CAPE] Cloak, Blue Royal" mesh="prec_royal_cloak_1" culture="Culture.neutral_culture" subtype="body_armor" weight="4" difficulty="0" appearance="1.6" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="3" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="ve_decorated_fur_1" name="{=ve_decorated_fur_1.name}[SHOULDER] Decorated Fur Shoulders" mesh="ve_decorated_fur_1" culture="Culture.neutral_culture" subtype="body_armor" weight="4" difficulty="0" appearance="1.6" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="3" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="el_e_cloak_1" name="{=el_e_cloak_1.name}[CAPE] Trimmed Cloak, Dynamic Colours" mesh="el_e_cloak_1" culture="Culture.neutral_culture" subtype="body_armor" weight="4" difficulty="0" appearance="1.6" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="3" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="steel_cross_1" name="{=steel_cross_1.name}[CAPE] Steel Cross" mesh="steel_cross_1" culture="Culture.vlandia" subtype="body_armor" weight="4" difficulty="0" appearance="1.6" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="1" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+</Items>
