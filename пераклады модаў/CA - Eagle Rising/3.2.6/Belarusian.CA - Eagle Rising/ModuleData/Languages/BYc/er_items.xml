@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <string id="cla_carthage_weapon_falcata_blunt" text="{.Zanocy}[Кваз]Тупая Фальката"/>
+  <string id="cla_carthage_weapon_falcata_1" text="{.Zanocy}[Кваз]Фальката"/>
+  <string id="cla_carthage_weapon_falcata_2" text="{.Zanocy}[Кваз]Дарагая Фальката"/>
+  <string id="cla_carthage_weapon_kopis_1" text="{.Muzcynski}[Кваз]Копіс"/>
+  <string id="cla_carthage_weapon_kopis_1_b" text="{.Muzcynski}[Кваз]Копіс"/>
+  <string id="cla_carthage_weapon_kopis_2" text="{.Muzcynski}[Кваз]Упрыгожаны Копіс"/>
+  <string id="cla_carthage_arms_bracer_bronze" text="{.Mnozny}[Кваз]Бронзавыя Наручы"/>
+  <string id="cla_carthage_cape_leopard_pelt" text="{.Nijaki}[Кваз]Футра Леапарда"/>
+  <string id="cla_carthage_cape_leopard_1" text="{.Zanocy}[Кваз]Накідка з Футрам Леапарда"/>
+  <string id="cla_numidian_shield_light_1" text="{.Muzcynski}[Гаввалы]Лёгкі Шчыт"/>
+  <string id="cla_numidian_shield_light_2" text="{.Muzcynski}[Гаввалы]Лёгкі Шчыт"/>
+  <string id="cla_numidian_shield_light_3" text="{.Muzcynski}[Гаввалы]Лёгкі Шчыт"/>
+  <string id="cla_numidian_shield_mid_1" text="{.Muzcynski}[Гаввалы]Сярэдні Шчыт"/>
+  <string id="cla_numidian_shield_mid_2" text="{.Muzcynski}[Гаввалы]Сярэдні Шчыт"/>
+  <string id="cla_numidian_shield_mid_3" text="{.Muzcynski}[Гаввалы]Сярэдні Шчыт"/>
+  <string id="cla_numidian_shield_mid_4" text="{.Muzcynski}[Гаввалы]Сярэдні Шчыт"/>
+  <string id="cla_numidian_shield_heavy_1" text="{.Muzcynski}[Гаввалы]Цяжкі Шчыт"/>
+  <string id="cla_numidian_shield_heavy_2" text="{.Muzcynski}[Гаввалы]Цяжкі Шчыт"/>
+  <string id="cla_numidian_shield_heavy_3" text="{.Muzcynski}[Гаввалы]Цяжкі Шчыт"/>
+  <string id="cla_carthage_standard_1" text="{.Muzcynski}[Кваз][Сьцяг]Штандар"/>
+  <string id="cla_carthage_standard_2" text="{.Muzcynski}[Кваз][Сьцяг]Штандар"/>
+  <string id="cla_carthage_standard_3" text="{.Muzcynski}[Кваз][Сьцяг]Штандар"/>
+  <string id="cla_carthage_standard_4" text="{.Muzcynski}[Кваз][Сьцяг]Штандар"/>
+  <string id="cla_carthage_standard_5" text="{.Muzcynski}[Кваз][Сьцяг]Штандар"/>
+  <string id="cla_carthage_standard_elite_1" text="{.Muzcynski}[Кваз][Сьцяг]Элітны Штандар"/>
+  <string id="cla_carthage_shield_round_small_bronze_plain" text="{.Zanocy}[Кваз]Бронзавая Узмоцненая Каэтра"/>
+  <string id="cla_carthage_shield_round_small_bronze_carthage" text="{.Zanocy}[Кваз]Бронзавая Узмоцненая Каэтра"/>
+  <string id="cla_carthage_shield_round_small_iron_plain" text="{.Zanocy}[Кваз]Жалезная Узмоцненая Каэтра"/>
+  <string id="cla_carthage_shield_round_small_iron_carthage" text="{.Zanocy}[Кваз]Жалезная Узмоцненая Каэтра"/>
+  <string id="cla_carthage_shield_thureos_1" text="{.Muzcynski}[Кваз]Туэрас"/>
+  <string id="cla_carthage_shield_thureos_2" text="{.Muzcynski}[Кваз]Туэрас"/>
+  <string id="cla_carthage_shield_thureos_3" text="{.Muzcynski}[Кваз]Туэрас"/>
+  <string id="cla_carthage_shield_thureos_4" text="{.Muzcynski}[Кваз]Туэрас"/>
+  <string id="cla_carthage_shield_thureos_5" text="{.Muzcynski}[Кваз]Туэрас"/>
+  <string id="cla_carthage_shield_thureos_6" text="{.Muzcynski}[Кваз]Туэрас"/>
+  <string id="cla_carthage_shield_thureos_reinforced_1" text="{.Muzcynski}[Кваз]Узмоцнены Туэрас"/>
+  <string id="cla_carthage_shield_thureos_reinforced_2" text="{.Muzcynski}[Кваз]Узмоцнены Туэрас"/>
+  <string id="cla_carthage_shield_thureos_reinforced_4" text="{.Muzcynski}[Кваз]Узмоцнены Туэрас"/>
+  <string id="cla_carthage_shield_thureos_reinforced_5" text="{.Muzcynski}[Кваз]Узмоцнены Туэрас"/>
+  <string id="cla_carthage_shield_aspis_bronze" text="{.Muzcynski}[Кваз]Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_1" text="{.Muzcynski}[Кваз]Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_2" text="{.Muzcynski}[Кваз]Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_3" text="{.Muzcynski}[Кваз]Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_4" text="{.Muzcynski}[Кваз]Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_5" text="{.Muzcynski}[Кваз]Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_6" text="{.Muzcynski}[Кваз]Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_7" text="{.Muzcynski}[Кваз]Асьпіс са Сьвятой Паласой"/>
+  <string id="cla_carthage_shield_aspis_8" text="{.Muzcynski}[Кваз]Асьпіс са Сьвятой Паласой"/>
+  <string id="cla_carthage_shield_aspis_9" text="{.Muzcynski}[Кваз]Асьпіс са Сьвятой Паласой"/>
+  <string id="cla_carthage_shield_aspis_10" text="{.Muzcynski}[Кваз]Асьпіс са Сьвятой Паласой"/>
+  <string id="cla_carthage_shield_aspis_officer_bronze" text="{.Muzcynski}[Кваз]Афіцэрскі Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_officer_1" text="{.Muzcynski}[Кваз]Афіцэрскі Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_officer_2" text="{.Muzcynski}[Кваз]Афіцэрскі Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_elephant_bronze" text="{.Muzcynski}[Кваз]Слановы Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_elephant_1" text="{.Muzcynski}[Кваз]Слановы Асьпіс"/>
+  <string id="cla_carthage_shield_aspis_elephant_2" text="{.Muzcynski}[Кваз]Слановы Асьпіс"/>
+  <string id="cla_carthage_shield_scutum_1" text="{.Muzcynski}[Кваз]Узмоцнены Скутум"/>
+  <string id="cla_carthage_shield_scutum_2" text="{.Muzcynski}[Кваз]Узмоцнены Скутум"/>
+  <string id="cla_carthage_shield_scutum_3" text="{.Muzcynski}[Кваз]Узмоцнены Скутум"/>
+  <string id="cla_carthage_shield_scutum_4" text="{.Muzcynski}[Кваз]Узмоцнены Скутум"/>
+  <string id="cla_carthage_shield_scutum_5" text="{.Muzcynski}[Кваз]Узмоцнены Скутум"/>
+  <string id="cla_carthage_shield_scutum_6" text="{.Muzcynski}[Кваз]Узмоцнены Скутум"/>
+  <string id="cla_carthage_shield_scutum_7" text="{.Muzcynski}[Кваз]Узмоцнены Скутум"/>
+  <string id="cla_carthage_shield_scutum_8" text="{.Muzcynski}[Кваз]Узмоцнены Скутум"/>
+  <string id="cla_carthage_shield_scutum_rectangle_1" text="{.Muzcynski}[Кваз]Скутум"/>
+  <string id="cla_carthage_shield_scutum_rectangle_2" text="{.Muzcynski}[Кваз]Скутум"/>
+  <string id="cla_carthage_shield_scutum_rectangle_3" text="{.Muzcynski}[Кваз]Скутум"/>
+  <string id="cla_carthage_shield_scutum_rectangle_4" text="{.Muzcynski}[Кваз]Скутум"/>
+  <string id="cla_carthage_shield_scutum_rectangle_5" text="{.Muzcynski}[Кваз]Скутум"/>
+  <string id="cla_carthage_shield_scutum_rectangle_6" text="{.Muzcynski}[Кваз]Скутум"/>
+  <string id="cla_carthage_shield_scutum_rectangle_7" text="{.Muzcynski}[Кваз]Скутум"/>
+  <string id="cla_carthage_shield_scutum_rectangle_8" text="{.Muzcynski}[Кваз]Скутум"/>
+  <string id="cla_carthage_body_tunic_a_civ_1" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_a_civ_2" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_a_civ_3" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_a_civ_4" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_a_civ_5" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_a_1" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_a_2" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_a_3" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_a_4" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_a_5" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_b_1" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_b_2" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_b_3" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_b_4" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_b_5" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_b_6" text="{.Zanocy}[Кваз]Туніка"/>
+  <string id="cla_carthage_body_tunic_waist_1" text="{.Muzcynski}[Кваз]Пратэктар з Поясам"/>
+  <string id="cla_carthage_body_tunic_waist_2" text="{.Muzcynski}[Кваз]Пратэктар з Поясам"/>
+  <string id="cla_carthage_body_tunic_waist_3" text="{.Muzcynski}[Кваз]Пратэктар з Поясам"/>
+  <string id="cla_carthage_body_tunic_waist_4" text="{.Muzcynski}[Кваз]Пратэктар з Поясам"/>
+  <string id="cla_carthage_body_triplate_1" text="{.Muzcynski}[Кваз]Трохпласьцінны Кардзіофілакс"/>
+  <string id="cla_carthage_body_triplate_2" text="{.Muzcynski}[Кваз]Трохпласьцінны Кардзіофілакс"/>
+  <string id="cla_carthage_body_triplate_3" text="{.Muzcynski}[Кваз]Трохпласьцінны Кардзіофілакс"/>
+  <string id="cla_carthage_body_triplate_4" text="{.Muzcynski}[Кваз]Трохпласьцінны Кардзіофілакс"/>
+  <string id="cla_carthage_body_triplate_waist_1" text="{.Muzcynski}[Кваз]Трохпласьцінны Пратэктар з Поясам"/>
+  <string id="cla_carthage_body_triplate_waist_2" text="{.Muzcynski}[Кваз]Трохпласьцінны Пратэктар з Поясам"/>
+  <string id="cla_carthage_body_triplate_waist_3" text="{.Muzcynski}[Кваз]Трохпласьцінны Пратэктар з Поясам"/>
+  <string id="cla_carthage_body_triplate_waist_4" text="{.Muzcynski}[Кваз]Трохпласьцінны Пратэктар з Поясам"/>
+  <string id="cla_carthage_body_mail_1" text="{.Zanocy}[Кваз]Ланцуговая Кальчуга"/>
+  <string id="cla_carthage_body_mail_2" text="{.Zanocy}[Кваз]Ланцуговая Кальчуга"/>
+  <string id="cla_carthage_body_mail_3" text="{.Zanocy}[Кваз]Ланцуговая Кальчуга"/>
+  <string id="cla_carthage_body_mail_4" text="{.Zanocy}[Кваз]Ланцуговая Кальчуга"/>
+  <string id="cla_carthage_body_mail_reinforced_1" text="{.Zanocy}[Кваз]Узмоцненая Ланцуговая Кальчуга"/>
+  <string id="cla_carthage_body_mail_reinforced_2" text="{.Zanocy}[Кваз]Узмоцненая Ланцуговая Кальчуга"/>
+  <string id="cla_carthage_body_mail_reinforced_3" text="{.Zanocy}[Кваз]Узмоцненая Ланцуговая Кальчуга"/>
+  <string id="cla_carthage_body_mail_reinforced_4" text="{.Zanocy}[Кваз]Узмоцненая Ланцуговая Кальчуга"/>
+  <string id="cla_carthage_linothorax_simple_1" text="{.Muzcynski}[Кваз]Шэры Лінаторакс"/>
+  <string id="cla_carthage_linothorax_simple_2" text="{.Muzcynski}[Кваз]Шэры Лінаторакс"/>
+  <string id="cla_carthage_linothorax_simple_3" text="{.Muzcynski}[Кваз]Шэры Лінаторакс"/>
+  <string id="cla_carthage_linothorax_simple_sleeveless_1" text="{.Muzcynski}[Кваз]Шэры Лінаторакс"/>
+  <string id="cla_carthage_linothorax_simple_sleeveless_2" text="{.Muzcynski}[Кваз]Шэры Лінаторакс"/>
+  <string id="cla_carthage_linothorax_simple_sleeveless_3" text="{.Muzcynski}[Кваз]Шэры Лінаторакс"/>
+  <string id="cla_carthage_linothorax_simple_sleeveless_4" text="{.Muzcynski}[Кваз]Шэры Лінаторакс"/>
+  <string id="cla_carthage_linothorax_simple_sleeveless_5" text="{.Muzcynski}[Кваз]Шэры Лінаторакс"/>
+  <string id="cla_carthage_linothorax_simple_sleeveless_6" text="{.Muzcynski}[Кваз]Шэры Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_light_1" text="{.Muzcynski}[Кваз]Лёгкі Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_light_2" text="{.Muzcynski}[Кваз]Лёгкі Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_light_3" text="{.Muzcynski}[Кваз]Лёгкі Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_light_4" text="{.Muzcynski}[Кваз]Лёгкі Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_light_5" text="{.Muzcynski}[Кваз]Лёгкі Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_medium_1" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_medium_2" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_medium_3" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_medium_4" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_belt_1" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс з Прыналежнасьцямі"/>
+  <string id="cla_carthage_body_linothorax_belt_2" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс з Прыналежнасьцямі"/>
+  <string id="cla_carthage_body_linothorax_plate_1" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс з Прыналежнасьцямі"/>
+  <string id="cla_carthage_body_linothorax_plate_2" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс з Прыналежнасьцямі"/>
+  <string id="cla_carthage_body_linothorax_plate_3" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс з Прыналежнасьцямі"/>
+  <string id="cla_carthage_body_linothorax_plate_4" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс з Прыналежнасьцямі"/>
+  <string id="cla_carthage_body_linothorax_plate_5" text="{.Muzcynski}[Кваз]Сярэдні Лінаторакс з Прыналежнасьцямі"/>
+  <string id="cla_carthage_body_linothorax_scale_1" text="{.Muzcynski}[Кваз]Цяжкі Лускаты Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_scale_2" text="{.Muzcynski}[Кваз]Цяжкі Лускаты Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_scale_3" text="{.Muzcynski}[Кваз]Цяжкі Лускаты Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_scale_4" text="{.Muzcynski}[Кваз]Цяжкі Лускаты Лінаторакс"/>
+  <string id="cla_carthage_body_musculata_leather_brown" text="{.Zanocy}[Кваз]Скураная Мускулата"/>
+  <string id="cla_carthage_body_musculata_leather_red" text="{.Zanocy}[Кваз]Скураная Мускулата"/>
+  <string id="cla_carthage_body_musculata_leather_brown_leopard" text="{.Zanocy}[Кваз]Скураная Мускулата"/>
+  <string id="cla_carthage_body_musculata_leather_brown_zebra" text="{.Zanocy}[Кваз]Скураная Мускулата"/>
+  <string id="cla_carthage_body_musculata_leather_brown_fancy" text="{.Zanocy}[Кваз]Скураная Мускулата"/>
+  <string id="cla_carthage_body_musculata_leather_brown_officer" text="{.Zanocy}[Кваз]Скураная Мускулата"/>
+  <string id="cla_carthage_body_musculata_leather_red_officer" text="{.Zanocy}[Кваз]Скураная Мускулата"/>
+  <string id="cla_carthage_body_musculata_bronze_1" text="{.Zanocy}[Кваз]Бронзавая Мускулата"/>
+  <string id="cla_carthage_body_musculata_bronze_2" text="{.Zanocy}[Кваз]Бронзавая Мускулата"/>
+  <string id="cla_carthage_body_musculata_bronze_3" text="{.Zanocy}[Кваз]Бронзавая Мускулата"/>
+  <string id="cla_carthage_body_musculata_bronze_4" text="{.Zanocy}[Кваз]Бронзавая Мускулата"/>
+  <string id="cla_carthage_body_musculata_bronze_5" text="{.Zanocy}[Кваз]Бронзавая Мускулата"/>
+  <string id="cla_carthage_body_musculata_bronze_6" text="{.Zanocy}[Кваз]Бронзавая Мускулата"/>
+  <string id="cla_carthage_body_musc_pteruges_brown_1" text="{.Zanocy}[Кваз]Скураная Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_body_musc_pteruges_red_1" text="{.Zanocy}[Кваз]Скураная Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_body_musc_pteruges_bronze_1" text="{.Zanocy}[Кваз]Бронзавая Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_body_musc_pteruges_iron_1" text="{.Zanocy}{.Zanocy}[Кваз]Жалезная Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_body_musculata_bronze_noble_1" text="{.Zanocy}[Кваз]Бронзавая Мускулата"/>
+  <string id="cla_carthage_body_musculata_bronze_noble_2" text="{.Zanocy}[Кваз]Бронзавая Мускулата"/>
+  <string id="cla_carthage_body_musculata_bronze_noble_3" text="{.Zanocy}[Кваз]Бронзавая Мускулата"/>
+  <string id="cla_carthage_body_musculata_iron_noble_1" text="{.Zanocy}[Кваз]Жалезная Мускулата"/>
+  <string id="cla_carthage_body_musculata_iron_noble_2" text="{.Zanocy}[Кваз]Жалезная Мускулата"/>
+  <string id="cla_carthage_body_musculata_iron_noble_3" text="{.Zanocy}[Кваз]Жалезная Мускулата"/>
+  <string id="cla_carthage_body_cardio_elephant_blue" text="{.Muzcynski}[Кваз]Слановы Кардзіофілакс з Лускатым Пратэктарам і Поясам"/>
+  <string id="cla_carthage_body_cardio_elephant_brown" text="{.Muzcynski}[Кваз]Слановы Кардзіофілакс з Лускатым Пратэктарам і Поясам"/>
+  <string id="cla_carthage_body_cardio_elephant_red" text="{.Muzcynski}[Кваз]Слановы Кардзіофілакс з Лускатым Пратэктарам і Поясам"/>
+  <string id="cla_carthage_body_linothorax_elephant_1" text="{.Muzcynski}[Кваз]Слановы Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_elephant_2" text="{.Muzcynski}[Кваз]Слановы Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_elephant_3" text="{.Muzcynski}[Кваз]Слановы Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_elephant_4" text="{.Muzcynski}[Кваз]Слановы Лінаторакс"/>
+  <string id="cla_carthage_body_linothorax_elephant_5" text="{.Muzcynski}[Кваз]Слановы Лінаторакс"/>
+  <string id="cla_carthage_body_scalothorax_bronze_brown" text="{.Muzcynski}[Кваз]Бронзавы Скалаторакс"/>
+  <string id="cla_carthage_body_scalothorax_iron_white" text="{.Muzcynski}[Кваз]Жалезны Скалаторакс"/>
+  <string id="cla_carthage_body_scalothorax_bronze_red" text="{.Muzcynski}[Кваз]Бронзавы Скалаторакс"/>
+  <string id="cla_carthage_body_scalothorax_iron_blue" text="{.Muzcynski}[Кваз]Жалезны Скалаторакс"/>
+  <string id="cla_carthage_body_musc_elephant_blue" text="{.Zanocy}[Кваз]Скураная Мускулата з Кардзіофілаксам"/>
+  <string id="cla_carthage_body_musc_pteruges_bronze_2" text="{.Zanocy}[Кваз]Бронзавая Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_body_musc_pteruges_iron_2" text="{.Zanocy}{.Zanocy}[Кваз]Жалезная Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_musculata_defined_bronze_red" text="{.Zanocy}[Кваз]Дэталёвая Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_musculata_defined_bronze_red_quyaz" text="{.Zanocy}[Кваз]Дэталёвая Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_musculata_defined_bronze_blue_quyaz" text="{.Zanocy}[Кваз]Дэталёвая Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_musculata_defined_bronze_blue_white_quyaz" text="{.Zanocy}[Кваз]Дэталёвая Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_musculata_defined_bronze_brown_quyaz" text="{.Zanocy}[Кваз]Дэталёвая Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_musculata_defined_iron_red_white_quyaz" text="{.Zanocy}[Кваз]Дэталёвая Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_musculata_defined_paint_red_quyaz" text="{.Zanocy}[Кваз]Дэталёвая Мускулата з Птэрыгамі"/>
+  <string id="cla_carthage_helm_libyan" text="{.Muzcynski}[Кваз]Нахаскі Шалом"/>
+  <string id="cla_carthage_helm_libyan_guard" text="{.Muzcynski}[Кваз]Нахаскі Шалом з Абаронай Шчок"/>
+  <string id="cla_carthage_helm_standard" text="{.Muzcynski}[Кваз]Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_paint_1" text="{.Muzcynski}[Кваз]Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_paint_2" text="{.Muzcynski}[Кваз]Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_paint_3" text="{.Muzcynski}[Кваз]Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_paint_4" text="{.Muzcynski}[Кваз]Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_paint_5" text="{.Muzcynski}[Кваз]Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_crest" text="{.Muzcynski}[Кваз]Канійскі Шалом з Кляйнотам"/>
+  <string id="cla_carthage_helm_standard_crest_paint_1" text="{.Muzcynski}[Кваз]Канійскі Шалом з Кляйнотам"/>
+  <string id="cla_carthage_helm_standard_crest_paint_2" text="{.Muzcynski}[Кваз]Канійскі Шалом з Кляйнотам"/>
+  <string id="cla_carthage_helm_standard_crest_paint_3" text="{.Muzcynski}[Кваз]Канійскі Шалом з Кляйнотам"/>
+  <string id="cla_carthage_helm_standard_crest_paint_4" text="{.Muzcynski}[Кваз]Канійскі Шалом з Кляйнотам"/>
+  <string id="cla_carthage_helm_standard_crest_paint_5" text="{.Muzcynski}[Кваз]Канійскі Шалом з Кляйнотам"/>
+  <string id="cla_carthage_helm_standard_high" text="{.Muzcynski}[Кваз]Упрыгожаны Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_high_paint_1" text="{.Muzcynski}[Кваз]Упрыгожаны Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_high_paint_2" text="{.Muzcynski}[Кваз]Упрыгожаны Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_high_paint_3" text="{.Muzcynski}[Кваз]Упрыгожаны Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_high_paint_4" text="{.Muzcynski}[Кваз]Упрыгожаны Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_high_paint_3_black" text="{.Muzcynski}[Кваз]Упрыгожаны Канійскі Шалом"/>
+  <string id="cla_carthage_helm_standard_high_paint_4_black" text="{.Muzcynski}[Кваз]Упрыгожаны Канійскі Шалом"/>
+  <string id="cla_carthage_helm_thracian_konos" text="{.Muzcynski}[Кваз]Канійскі Канос"/>
+  <string id="cla_carthage_helm_thracian_konos_paint_1" text="{.Muzcynski}[Кваз]Канійскі Канос"/>
+  <string id="cla_carthage_helm_thracian_konos_paint_2" text="{.Muzcynski}[Кваз]Канійскі Канос"/>
+  <string id="cla_carthage_helm_thracian_konos_paint_3" text="{.Muzcynski}[Кваз]Канійскі Канос"/>
+  <string id="cla_carthage_helm_thracian" text="{.Muzcynski}[Кваз]Тракіан"/>
+  <string id="cla_carthage_helm_thracian_simple" text="{.Muzcynski}[Кваз]Просты Тракіан"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_1" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 1"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_2" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 2"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_3" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 3"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_4" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 4"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_1_black" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 1"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_2_black" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 2"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_3_blue_white" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 3"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_3_red_white" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 3"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_3_black" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 3 Чорная"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_4_blue_white" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 4"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_4_red_white" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 4"/>
+  <string id="cla_carthage_helm_thracian_simple_paint_4_black" text="{.Muzcynski}[Кваз]Просты Тракіан, Афарбоўка 4 Чорная"/>
+  <string id="cla_carthage_helm_thracian_lord_white" text="{.Muzcynski}[Кваз]Белы Шляхетны Тракіан"/>
+  <string id="cla_carthage_helm_thracian_lord_red" text="{.Muzcynski}[Кваз]Чырвоны Шляхетны Тракіан"/>
+  <string id="cla_carthage_helm_thracian_lord_white_black" text="{.Muzcynski}[Кваз]Бела-Чорны Шляхетны Тракіан"/>
+  <string id="cla_carthage_helm_thracian_lord_red_black" text="{.Muzcynski}[Кваз]Чырвона-Чорны Шляхетны Тракіан"/>
+  <string id="cla_carthage_helm_thracian_lord_white_black_white" text="{.Muzcynski}[Кваз]Чорна-Белы Шляхетны Тракіан"/>
+  <string id="cla_carthage_helm_thracian_lord_red_black_white" text="{.Muzcynski}[Кваз]Чырвона-Чорна-Белы Шляхетны Тракіан"/>
+  <string id="cla_carthage_helm_thracian_lord_white_blue_white" text="{.Muzcynski}[Кваз]Бела-Блакітна-Белы Шляхетны Тракіан"/>
+  <string id="cla_carthage_helm_thracian_lord_red_blue_white" text="{.Muzcynski}[Кваз]Чырвона-Блакітна-Белы Шляхетны Тракіан"/>
+  <string id="cla_carthage_helm_thracian_lord_white_red_white" text="{.Muzcynski}[Кваз]Бела-Чырвона-Белы Шляхетны Тракіан"/>
+  <string id="cla_carthage_helm_thracian_lord_red_red_white" text="{.Muzcynski}[Кваз]Чырвона-Чырвона-Белы Шляхетны Тракіан"/>
+  <string id="cla_carthage_helm_thracian_beard" text="{.Muzcynski}[Кваз]Тракіан з Барадой"/>
+  <string id="cla_carthage_helm_thracian_beard_paint_1" text="{.Muzcynski}[Кваз]Тракіан з Барадой, Афарбоўка 1"/>
+  <string id="cla_carthage_helm_thracian_beard_paint_2" text="{.Muzcynski}[Кваз]Тракіан з Барадой, Афарбоўка 2"/>
+  <string id="cla_carthage_helm_thracian_beard_paint_black_1" text="{.Muzcynski}[Кваз]Тракіан з Барадой і Пяром, Афарбоўка"/>
+  <string id="cla_carthage_helm_thracian_beard_paint_black_2" text="{.Muzcynski}[Кваз]Тракіан з Барадой і Пяром, Афарбоўка"/>
+  <string id="cla_carthage_helm_thracian_beard_paint_red_white_1" text="{.Muzcynski}[Кваз]Тракіан з Барадой і Пяром, Афарбоўка"/>
+  <string id="cla_carthage_helm_thracian_beard_paint_blue_white_1" text="{.Muzcynski}[Кваз]Тракіан з Барадой і Пяром, Афарбоўка"/>
+  <string id="cla_carthage_helm_thracian_beard_paint_red_white_2" text="{.Muzcynski}[Кваз]Тракіан з Барадой і Пяром, Афарбоўка"/>
+  <string id="cla_carthage_helm_thracian_beard_paint_blue_white_2" text="{.Muzcynski}[Кваз]Тракіан з Барадой і Пяром, Афарбоўка"/>
+  <string id="cla_carthage_helm_phrygian_simple" text="{.Muzcynski}[Кваз]Просты Фрыгіан"/>
+  <string id="cla_carthage_helm_phrygian_simple_paint_1" text="{.Muzcynski}[Кваз]Просты Фрыгіан, Афарбоўка 1"/>
+  <string id="cla_carthage_helm_phrygian_simple_paint_2" text="{.Muzcynski}[Кваз]Просты Фрыгіан, Афарбоўка 2"/>
+  <string id="cla_carthage_helm_phrygian_simple_paint_3" text="{.Muzcynski}[Кваз]Просты Фрыгіан, Афарбоўка 3"/>
+  <string id="cla_carthage_helm_phrygian_simple_paint_4" text="{.Muzcynski}[Кваз]Просты Фрыгіан, Афарбоўка 4"/>
+  <string id="cla_carthage_helm_phrygian_beard" text="{.Muzcynski}[Кваз]Фрыгіан з Барадой"/>
+  <string id="cla_carthage_helm_phrygian_beard_paint_1" text="{.Muzcynski}[Кваз]Фрыгіан з Барадой, Афарбоўка 1"/>
+  <string id="cla_carthage_helm_phrygian_beard_paint_2" text="{.Muzcynski}[Кваз]Фрыгіан з Барадой, Афарбоўка 2"/>
+  <string id="cla_carthage_helm_phrygian_beard_paint_3" text="{.Muzcynski}[Кваз]Фрыгіан з Барадой, Афарбоўка 3"/>
+  <string id="cla_carthage_helm_phrygian_beard_paint_4" text="{.Muzcynski}[Кваз]Фрыгіан з Барадой, Афарбоўка 4"/>
+  <string id="cla_carthage_legs_boots_1" text="{.Mnozny}[Кваз]Боты"/>
+  <string id="cla_carthage_legs_boots_2" text="{.Mnozny}[Кваз]Боты"/>
+  <string id="cla_carthage_legs_boots_3" text="{.Mnozny}[Кваз]Боты"/>
+  <string id="cla_carthage_legs_boots_4" text="{.Mnozny}[Кваз]Боты"/>
+  <string id="cla_carthage_legs_boots_5" text="{.Mnozny}[Кваз]Боты"/>
+  <string id="cla_carthage_legs_greaves_single_1" text="{.Nijaki}[Кваз]Бронзавае Паножа"/>
+  <string id="cla_carthage_legs_greaves_single_2" text="{.Nijaki}[Кваз]Бронзавае Паножа"/>
+  <string id="cla_carthage_legs_greaves_single_3" text="{.Nijaki}[Кваз]Бронзавае Паножа"/>
+  <string id="cla_carthage_legs_greaves_single_4" text="{.Nijaki}[Кваз]Бронзавае Паножа"/>
+  <string id="cla_carthage_legs_greaves_single_5" text="{.Nijaki}[Кваз]Бронзавае Паножа"/>
+  <string id="cla_carthage_legs_greaves_basic_1" text="{.Mnozny}[Кваз]Бронзавыя Паножы"/>
+  <string id="cla_carthage_legs_greaves_basic_2" text="{.Mnozny}[Кваз]Бронзавыя Паножы"/>
+  <string id="cla_carthage_legs_greaves_basic_3" text="{.Mnozny}[Кваз]Бронзавыя Паножы"/>
+  <string id="cla_carthage_legs_greaves_basic_4" text="{.Mnozny}[Кваз]Бронзавыя Паножы"/>
+  <string id="cla_carthage_legs_greaves_basic_5" text="{.Mnozny}[Кваз]Бронзавыя Паножы"/>
+  <string id="cla_carthage_legs_greaves_high_1" text="{.Mnozny}[Кваз]Бронзавыя Упрыгожаныя Паножы"/>
+  <string id="cla_carthage_legs_greaves_high_2" text="{.Mnozny}[Кваз]Бронзавыя Упрыгожаныя Паножы"/>
+  <string id="cla_carthage_legs_greaves_high_3" text="{.Mnozny}[Кваз]Бронзавыя Упрыгожаныя Паножы"/>
+  <string id="cla_carthage_legs_greaves_high_4" text="{.Mnozny}[Кваз]Бронзавыя Упрыгожаныя Паножы"/>
+  <string id="cla_carthage_legs_greaves_high_5" text="{.Mnozny}[Кваз]Бронзавыя Упрыгожаныя Паножы"/>
+  <string id="cla_celt_sword_1" text="{.Muzcynski}[Баттанія]Жалезны Кароткі Меч"/>
+  <string id="cla_palaic_sword_2" text="{.Muzcynski}[Палая]Жалезны Шырокі Меч"/>
+  <string id="cla_celt_sword_3" text="{.Muzcynski}[Баттанія]Бронзавы Шырокі Меч"/>
+  <string id="cla_celt_sword_4" text="{.Muzcynski}[Баттанія]Выдатны Доўгі Меч"/>
+  <string id="cla_celt_sword_5" text="{.Muzcynski}[Баттанія]Доўгі Меч Вершніка"/>
+  <string id="cla_celt_sword_noble_1" text="{.Muzcynski}[Баттанія]Бронзавы Шляхетны Доўгі Меч"/>
+  <string id="cla_celt_sword_noble_2" text="{.Muzcynski}[Баттанія]Упрыгожаны Шляхетны Доўгі Меч"/>
+  <string id="cla_celtic_standard_carnyx" text="{.Muzcynski}[Баттанія][Сьцяг]Карнікс"/>
+  <string id="cla_celtic_druid_staff_1" text="{.Muzcynski}[Баттанія][Сьцяг]Плямённы Штандар"/>
+  <string id="cla_celt_pants_red" text="{.Mnozny}[Баттанія]Чырвоныя Штаны"/>
+  <string id="cla_celt_pants_blue" text="{.Mnozny}[Баттанія]Блакітныя Штаны"/>
+  <string id="cla_celt_pants_white" text="{.Mnozny}[Баттанія]Белыя Штаны"/>
+  <string id="cla_celt_pants_green" text="{.Mnozny}[Баттанія]Зялёныя Штаны"/>
+  <string id="cla_celt_pants_yellow" text="{.Mnozny}[Баттанія]Жоўтыя Штаны"/>
+  <string id="cla_celt_helm_cap_brass" text="{.Muzcynski}[Баттанія]Латуневы Каўпак"/>
+  <string id="cla_celt_helm_cap_iron" text="{.Muzcynski}[Баттанія]Жалезны Каўпак"/>
+  <string id="cla_celts_helm_montefortino_carthage_gt" text="{.Muzcynski}[Кваз]Баттанійскі Шалом"/>
+  <string id="cla_celtic_montefortino_brass" text="{.Zanocy}[Баттанія]Латуневая Монтэфарціна"/>
+  <string id="cla_celtic_montefortino_iron" text="{.Zanocy}[Баттанія]Жалезная Монтэфарціна"/>
+  <string id="cla_celt_helm_port_a" text="{.Muzcynski}[Баттанія]Жалезны Партовы Шалом"/>
+  <string id="cla_celt_helmet_elephant_agen_port_a" text="{.Muzcynski}[Баттанія]Жалезны Ажонскі Партовы Шлем"/>
+  <string id="cla_celt_helmet_elephant_agen_port_b_black" text="{.Muzcynski}[Баттанія]Жалезны Ажонскі Партовы Апераны Шлем"/>
+  <string id="cla_celt_helmet_elephant_agen_port_b_gold" text="{.Muzcynski}[Баттанія]Жалезны Ажонскі Партовы Апераны Шлем"/>
+  <string id="cla_celtic_ambaxtoi_helmet_iron_black" text="{.Muzcynski}[Баттанія]Жалезны Амбакстойскі Шлем з Чорным Валосьсем"/>
+  <string id="cla_celtic_ambaxtoi_helmet_iron_gold" text="{.Muzcynski}[Баттанія]Жалезны Амбакстойскі Шлем з Залатым Валосьсем"/>
+  <string id="cla_celtic_ambaxtoi_helmet_brass_black" text="{.Muzcynski}[Баттанія]Латуневы Амбакстойскі Шлем з Чорным Валосьсем"/>
+  <string id="cla_celtic_ambaxtoi_helmet_brass_gold" text="{.Muzcynski}[Баттанія]Латуневы Амбакстойскі Шлем з Залатым Валосьсем"/>
+  <string id="cla_celtic_helm_montefortino_royal_iron" text="{.Zanocy}[Баттанія]Жалезная Гаспадарская Монтэфарціна"/>
+  <string id="cla_celtic_helm_montefortino_royal_brass" text="{.Zanocy}[Палая]Латуневая Гаспадарская Монтэфарціна"/>
+  <string id="cla_celtic_helm_iceni_royal_iron" text="{.Muzcynski}[Баттанія]Гаспадарскі Іцэнскі Шлем"/>
+  <string id="cla_celtic_helm_iceni_royal_brass" text="{.Muzcynski}[Баттанія]Гаспадарскі Іцэнскі Шлем"/>
+  <string id="cla_celtic_helm_general_iron_gold" text="{.Muzcynski}[Баттанія]Вайскаводзкі Жалезны Шлем з Залатой Птушкай"/>
+  <string id="cla_celtic_helm_general_iron_iron" text="{.Muzcynski}[Баттанія]Вайскаводзкі Жалезны Шлем з Жалезнай Птушкай"/>
+  <string id="cla_celtic_helm_general_brass_gold" text="{.Muzcynski}[Баттанія]Вайскаводзкі Латуневы Шлем з Залатой Птушкай"/>
+  <string id="cla_celtic_helm_general_brass_iron" text="{.Muzcynski}[Battannii]Вайскаводзкі Латуневы Шлем з Жалезнай Птушкай"/>
+  <string id="cla_celtic_helm_long_pointy_iron" text="{.Muzcynski}[Баттанія]Жалезны Берускі Шлем"/>
+  <string id="cla_celtic_helm_long_pointy_brass" text="{.Muzcynski}[Баттанія]Латуневы Берускі Шлем"/>
+  <string id="cla_celtic_bracelet" text="{.Muzcynski}[Баттанія]Адпаліраваныя Бронзавыя Наручы"/>
+  <string id="cla_celtic_torc_boar" text="{.Zanocy}[Баттанія]Шляхетная Шыйная Грыўня Дзіка"/>
+  <string id="cla_celtic_torc_light" text="{.Zanocy}[Баттанія]Шляхетная Лёгкая Шыйная Грыўня"/>
+  <string id="cla_celt_cloak" text="{.Nijaki}[Баттанія]Горнае Покрыва"/>
+  <string id="cla_celt_cloak_a" text="{.Nijaki}[Баттанія]Гладкае Горнае Покрыва"/>
+  <string id="cla_celt_cloak_b" text="{.Zanocy}[Баттанія]Узмоцненая Абарона Шыі"/>
+  <string id="cla_celt_cape_civil" text="{.Muzcynski}[Баттанія]Горны Плашч"/>
+  <string id="cla_celt_cape_long_team" text="{.Muzcynski}[Баттанія]Плашч з Тартанам"/>
+  <string id="cla_celt_wolf_shoulder" text="{.Mnozny}[Баттанія]Воўчыя Плечы"/>
+  <string id="cla_celt_rough_bearskin" text="{.Zanocy}Грубая Скура Мядзьведзя"/>
+  <string id="cla_celtic_shield_hex_1" text="{.Muzcynski}[Баттанія]Кланавы Шасьцікантовы Шчыт"/>
+  <string id="cla_gaul_shield_oval_1" text="{.Muzcynski}[Баттанія]Кланавы Буйны Авальны Шчыт"/>
+  <string id="cla_celtic_shield_oval_a" text="{.Muzcynski}[Баттанія]Кланавы Авальны Шчыт"/>
+  <string id="cla_celtic_shield_oval_a_bronze" text="{.Muzcynski}[Баттанія]Кланавы Авальны Шчыт з Бронзай"/>
+  <string id="cla_celtic_shield_oval_b" text="{.Muzcynski}[Баттанія]Плямённы Авальны Шчыт"/>
+  <string id="cla_celtic_shield_oval_b_bronze" text="{.Muzcynski}[Баттанія]Плямённы Авальны Шчыт з Бронзай"/>
+  <string id="cla_celtic_shield_broad_blue" text="{.Muzcynski}[Баттанія]Шырокі Блакітны Шчыт"/>
+  <string id="cla_celtic_shield_broad_white" text="{.Muzcynski}[Баттанія]Шырокі Белы Шчыт"/>
+  <string id="cla_celtic_shield_royal_1" text="{.Muzcynski}[Баттанія]Шырокі Гаспадарскі Шчыт"/>
+  <string id="cla_dacia_1ax_1" text="{.Zanocy}[Драятыя]Жалезная Сякера"/>
+  <string id="cla_dacia_1ax_2" text="{.Zanocy}[Драятыя]Сталёвая Сякера"/>
+  <string id="cla_dacia_1ax_3" text="{.Zanocy}[Драятыя]Файная Сталёвая Сякера"/>
+  <string id="cla_dacia_2axe_1" text="{.Zanocy}[Драятыя]Выбітная Сякера"/>
+  <string id="cla_dacia_2axe_2" text="{.Zanocy}[Драятыя]Сталёвая Выбітная Сякера"/>
+  <string id="cla_dacia_2axe_3" text="{.Zanocy}[Драятыя]Файная Выбітная Сякера"/>
+  <string id="cla_dacia_sword_sica_1" text="{.Zanocy}[Драятыя]Сіка"/>
+  <string id="cla_dacia_sword_sica_2" text="{.Zanocy}[Драятыя]Файная Сіка"/>
+  <string id="cla_dacia_sword_sica_3" text="{.Zanocy}[Драятыя]Упрыгожаная Сіка"/>
+  <string id="cla_dacia_falx_1" text="{.Muzcynski}[Драятыя]Жалезны Фалькс"/>
+  <string id="cla_dacia_falx_2" text="{.Muzcynski}[Драятыя]Сталёвы Фалькс"/>
+  <string id="cla_dacia_falx_3" text="{.Muzcynski}[Драятыя]Файны Сталёвы Фалькс"/>
+  <string id="cla_dacia_sword_1" text="{.Muzcynski}[Драятыя]Жалезны Кароткі Меч"/>
+  <string id="cla_dacia_sword_2" text="{.Muzcynski}[Драятыя]Жалезны Шырокі Меч"/>
+  <string id="cla_dacia_sword_3" text="{.Muzcynski}[Драятыя]Бронзавы Шырокі Меч"/>
+  <string id="cla_dacia_sword_4" text="{.Muzcynski}[Драятыя]Файны Доўгі Меч"/>
+  <string id="cla_dacia_sword_5" text="{.Muzcynski}[Драятыя]Доўгі Меч Вершніка"/>
+  <string id="cla_dacia_invisible_bracers_1" text="{.Mnozny}[Драятыя]Нябачныя Наручы"/>
+  <string id="cla_dacia_bracelet_silver_both" text="{.Mnozny}[Драятыя]Жалезныя Бранзалеты"/>
+  <string id="cla_dacia_bracelet_gold_both" text="{.Mnozny}[Драятыя]Бронзавыя Бранзалеты"/>
+  <string id="cla_dacia_bracelet_gold_both_2" text="{.Mnozny}[Драятыя]Залатыя Бранзалеты"/>
+  <string id="cla_dacia_body_tunic_tan" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_brown" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_gray" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_black" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_red" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_waist_white" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_waist_blue" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_waist_tan_red" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_design_tan_red" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_design_blue" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_design_red" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_double_gray" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_clothes_camesa_h" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_double_red" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_body_tunic_double_waist_gray" text="{.Zanocy}[Драятыя]Туніка"/>
+  <string id="cla_dacia_armor_leather_vest" text="{.Zanocy}[Драятыя]Скураная Камізэлька над Тунікай"/>
+  <string id="cla_dacia_armor_leather_laminata" text="{.Zanocy}[Драятыя]Скураная Ламіната"/>
+  <string id="cla_dacia_armor_mail_shirt_green" text="{.Zanocy}[Драятыя]Кальчужная Кашуля"/>
+  <string id="cla_dacia_armor_mail_shirt_short_red" text="{.Zanocy}[Драятыя]Кальчужная Кашуля"/>
+  <string id="cla_dacia_armor_mail_shirt_short_blue" text="{.Zanocy}[Драятыя]Кальчужная Кашуля"/>
+  <string id="cla_dacia_armor_mail_shirt_long" text="{.Zanocy}[Драятыя]Кальчужная Кашуля"/>
+  <string id="cla_dacia_armor_mail_long_red" text="{.Zanocy}[Драятыя]Кальчуга з Доўгімі Рукавамі"/>
+  <string id="cla_dacia_armor_scale_vest_iron_white" text="{.Zanocy}[Драятыя]Лускатая Камізэлька"/>
+  <string id="cla_dacia_armor_scale_vest_bronze_blue" text="{.Zanocy}[Драятыя]Лускатая Камізэлька"/>
+  <string id="cla_dacia_armor_scale_long_white" text="{.Zanocy}[Драятыя]Доўгая Лускатая Кальчуга"/>
+  <string id="cla_dacia_armor_scale_noble_iron" text="{.Zanocy}[Драятыя]Шляхетная Лускатая Кальчуга"/>
+  <string id="cla_dacia_armor_scale_noble_bronze" text="{.Zanocy}[Драятыя]Шляхетная Лускатая Кальчуга"/>
+  <string id="cla_dacia_legs_pants_brown" text="{.Mnozny}[Драятыя]Штаны"/>
+  <string id="cla_dacia_legs_pants_tan" text="{.Mnozny}[Драятыя]Штаны"/>
+  <string id="cla_dacia_legs_pants_design_brown" text="{.Mnozny}[Драятыя]Штаны"/>
+  <string id="cla_dacia_legs_pants_design_black" text="{.Mnozny}[Драятыя]Штаны"/>
+  <string id="cla_dacia_legs_pants_design_black_2" text="{.Mnozny}[Драятыя]Чорныя Штаны"/>
+  <string id="cla_dacia_legs_pants_design_blue" text="{.Mnozny}[Драятыя]Штаны"/>
+  <string id="cla_dacia_legs_greaves_black" text="{.Mnozny}[Драятыя]Паножы"/>
+  <string id="cla_dacia_legs_greaves_white" text="{.Mnozny}[Драятыя]Паножы"/>
+  <string id="cla_dacia_cape_fur" text="{.Zanocy}[Драятыя]Накідка"/>
+  <string id="cla_dacia_cape_white" text="{.Zanocy}[Драятыя]Накідка"/>
+  <string id="cla_dacia_cape_red" text="{.Zanocy}[Драятыя]Накідка"/>
+  <string id="cla_dacia_cape_black" text="{.Zanocy}[Драятыя]Накідка"/>
+  <string id="cla_dacia_cape_decorated_light" text="{.Zanocy}[Драятыя]Накідка"/>
+  <string id="cla_dacia_cape_decorated_dark" text="{.Zanocy}[Драятыя]Накідка"/>
+  <string id="cla_dacia_helm_cape_wolf_brown" text="{.Zanocy}[Драятыя]Воўчая Скура"/>
+  <string id="cla_dacia_head_phrygian_cap_blue" text="{.Muzcynski}[Драятыя]Фрыгійскі Каўпак"/>
+  <string id="cla_dacia_head_phrygian_cap_red" text="{.Muzcynski}[Драятыя]Фрыгійскі Каўпак"/>
+  <string id="cla_dacia_head_phrygian_cap_white_1" text="{.Muzcynski}[Драятыя]Фрыгійскі Каўпак"/>
+  <string id="cla_dacia_head_phrygian_cap_white_2" text="{.Muzcynski}[Драятыя]Фрыгійскі Каўпак"/>
+  <string id="cla_dacia_head_phrygian_cap_black" text="{.Muzcynski}[Драятыя]Фрыгійскі Каўпак"/>
+  <string id="cla_dacia_head_phrygian_cap_green" text="{.Muzcynski}[Драятыя]Фрыгійскі Каўпак"/>
+  <string id="cla_dacia_helm_chalcidian_iron" text="{.Muzcynski}[Драятыя]Жалезны Халкідзкі Шалом"/>
+  <string id="cla_dacia_helm_chalcidian_bronze" text="{.Muzcynski}[Драятыя]Бронзавы Халкідзкі Шалом"/>
+  <string id="cla_dacia_helm_domed_bronze" text="{.Muzcynski}[Драятыя]Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_iron" text="{.Muzcynski}[Драятыя]Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_mix" text="{.Muzcynski}[Драятыя]Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_wing_bronze" text="{.Muzcynski}[Драятыя]Крылаты Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_wing_iron" text="{.Muzcynski}[Драятыя]Крылаты Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_wing_mix" text="{.Muzcynski}[Драятыя]Крылаты Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_ram_bronze" text="{.Muzcynski}[Драятыя]Барані Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_ram_iron" text="{.Muzcynski}[Драятыя]Барані Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_ram_mix" text="{.Muzcynski}[Драятыя]Барані Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_leaf_bronze" text="{.Muzcynski}[Драятыя]Ліставы Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_leaf_iron" text="{.Muzcynski}[Драятыя]Ліставы Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_leaf_mix" text="{.Muzcynski}[Драятыя]Грыфоні Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_griffon_bronze" text="{.Muzcynski}[Драятыя]Грыфоні Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_griffon_iron" text="{.Muzcynski}[Драятыя]Грыфоні Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_domed_griffon_mix" text="{.Muzcynski}[Драятыя]Грыфоні Эмбасаваны Купалаваты Шалом"/>
+  <string id="cla_dacia_helm_tall_leaf_bronze" text="{.Muzcynski}[Драятыя]Ліставы Эмбасаваны Бронзавы Шалом"/>
+  <string id="cla_dacia_helm_tall_leaf_iron" text="{.Muzcynski}[Драятыя]Ліставы Эмбасаваны Жалезны Шалом"/>
+  <string id="cla_dacia_helm_tall_leaf_mix" text="{.Muzcynski}[Драятыя]Ліставы Эмбасаваны Шалом"/>
+  <string id="cla_dacia_helm_tall_poseidon_bronze" text="{.Muzcynski}[Драятыя]Пасейдоні Эмбасаваны Бронзавы Шалом"/>
+  <string id="cla_dacia_helm_tall_poseidon_iron" text="{.Muzcynski}[Драятыя]Пасейдоні Эмбасаваны Жалезны Шалом"/>
+  <string id="cla_dacia_helm_tall_poseidon_mix" text="{.Muzcynski}[Драятыя]Пасейдоні Эмбасаваны Шалом"/>
+  <string id="cla_dacia_helm_tall_griffon_bronze" text="{.Muzcynski}[Драятыя]Грыфоні Эмбасаваны Бронзавы Шалом"/>
+  <string id="cla_dacia_helm_tall_griffon_iron" text="{.Muzcynski}[Драятыя]Грыфоні Эмбасаваны Жалезны Шалом"/>
+  <string id="cla_dacia_helm_tall_griffon_mix" text="{.Muzcynski}[Драятыя]Грыфоні Эмбасаваны Шалом"/>
+  <string id="cla_dacia_helm_tall_full_iron" text="{.Muzcynski}[Драятыя]Эмбасаваны Жалезны Поўны Шалом"/>
+  <string id="cla_dacia_helm_tall_full_bronze" text="{.Muzcynski}[Драятыя]Эмбасаваны Бронзавы Поўны Шалом"/>
+  <string id="cla_dacia_helm_tall_full_mix" text="{.Muzcynski}[Драятыя]Эмбасаваны Поўны Шалом"/>
+  <string id="cla_dacia_helm_tall_ridge_brass" text="{.Muzcynski}[Драятыя]Дарагі Эмбасаваны Высокі Рабрысты Шлём"/>
+  <string id="cla_dacia_helm_tall_eagle_emboss" text="{.Muzcynski}[Драятыя]Арліны Эмбасаваны Шалом"/>
+  <string id="cla_dacia_helm_cucuteni_gold" text="{.Muzcynski}[Драятыя]Залаты Кукутэнскі Шалом"/>
+  <string id="cla_dacia_helm_cotofanesti_gold" text="{.Muzcynski}[Драятыя]Залаты Котафэнскі Шалом"/>
+  <string id="cla_dacia_helm_peretu_silver_1" text="{.Muzcynski}[Драятыя]Срэбны Пэрэцкі Шалом"/>
+  <string id="cla_dacia_helm_peretu_silver_2" text="{.Muzcynski}[Драятыя]Срэбны Пэрэцкі Шалом"/>
+  <string id="cla_dacia_standard_draco_bronze" text="{.Muzcynski}[Драятыя]Цмачыны Штандар"/>
+  <string id="cla_dacia_standard_draco_iron" text="{.Muzcynski}[Драятыя]Цмачыны Штандар"/>
+  <string id="cla_dacia_standard_carnyx_bucium" text="{.Muzcynski}[Драятыя]Бучумскі Карнікс"/>
+  <string id="cla_dacia_standard_flag_1" text="{.Muzcynski}[Драятыя]Штандар"/>
+  <string id="cla_dacia_standard_flag_2" text="{.Muzcynski}[Драятыя]Штандар"/>
+  <string id="cla_dacia_shield_a_1" text="{.Muzcynski}[Драятыя]Авальны Шчыт"/>
+  <string id="cla_dacia_shield_oval_bronze_1" text="{.Muzcynski}[Драятыя]Авальны Бронзавы Шчыт"/>
+  <string id="cla_dacia_shield_oval_bronze_2" text="{.Muzcynski}[Драятыя]Авальны Бронзавы Шчыт"/>
+  <string id="cla_dacia_shield_oval_bronze_3" text="{.Muzcynski}[Драятыя]Авальны Бронзавы Шчыт"/>
+  <string id="cla_dacia_shield_oval_bronze_4" text="{.Muzcynski}[Драятыя]Авальны Бронзавы Шчыт"/>
+  <string id="cla_dacia_shield_oval_iron_1" text="{.Muzcynski}[Драятыя]Авальны Жалезны Шчыт"/>
+  <string id="cla_dacia_shield_oval_iron_2" text="{.Muzcynski}[Драятыя]Авальны Жалезны Шчыт"/>
+  <string id="cla_dacia_shield_oval_iron_3" text="{.Muzcynski}[Драятыя]Авальны Жалезны Шчыт"/>
+  <string id="cla_dacia_shield_oval_iron_4" text="{.Muzcynski}[Драятыя]Авальны Жалезны Шчыт"/>
+  <string id="cla_dacia_shield_oval_iron_5" text="{.Muzcynski}[Драятыя]Авальны Жалезны Шчыт"/>
+  <string id="dawa_assyrian_bow_1" text="{.Muzcynski}Асірыйскі Лук"/>
+  <string id="dawa_assyrian_bow_2" text="{.Muzcynski}Палепшаны Асірыйскі Лук"/>
+  <string id="dawa_assyrian_bow_3" text="{.Muzcynski}Моцны Асірыйскі Лук"/>
+  <string id="dawa_assyrian_bow_4" text="{.Muzcynski}Хуткі Асірыйскі Лук"/>
+  <string id="dawa_hungarian_bow_1" text="{.Muzcynski}Сухажыльны Вугорскі Лук"/>
+  <string id="dawa_hungarian_bow_3" text="{.Muzcynski}Лалавы Вугорскі Лук"/>
+  <string id="dawa_hungarian_bow_4" text="{.Muzcynski}Шляхетны Вугорскі Лук"/>
+  <string id="cla_rome_bracelet_eagle_bronze" text="{.Mnozny}[Імперыя]Бронзавыя Бранзалеты"/>
+  <string id="cla_rome_bracelet_eagle_iron" text="{.Mnozny}[Імперыя]Жалезныя Бранзалеты"/>
+  <string id="cla_rome_bracelet_eagle_silver_rich" text="{.Mnozny}[Імперыя]Аздобленыя Срэбныя Бранзалеты"/>
+  <string id="cla_rome_bracelet_eagle_gold_rich" text="{.Mnozny}[Імперыя]Аздобленыя Залатыя Бранзалеты"/>
+  <string id="cla_rome_arm_invisible" text="{.Mnozny}[Імперыя]Рымляне Ня Носяць Наручы 1"/>
+  <string id="cla_rome_arm_invisible_2" text="{.Mnozny}[Імперыя]Рымляне Ня Носяць Наручы 2"/>
+  <string id="cla_rome_arm_invisible_3" text="{.Mnozny}[Імперыя]Рымляне Ня Носяць Наручы 3"/>
+  <string id="cla_rome_arm_archer_bracer_left" text="{.Muzcynski}[Імперыя]Наруч Лучніка"/>
+  <string id="cla_rome_arm_manica_mail_brass" text="{.Zanocy}[Імперыя]Латуневая Кальчужная Маніка"/>
+  <string id="cla_rome_arm_manica_mail_iron" text="{.Zanocy}[Імперыя]Жалезная Кальчужная Маніка"/>
+  <string id="cla_rome_arm_manica_plate_brass" text="{.Zanocy}[Імперыя]Латуневая Пласьцінкавая Маніка"/>
+  <string id="cla_rome_arm_manica_plate_iron" text="{.Zanocy}[Імперыя]Жалезная Пласьцінкавая Маніка"/>
+  <string id="cla_rome_arm_manica_scale_brass" text="{.Zanocy}[Імперыя]Латуневая Лускатая Маніка"/>
+  <string id="cla_rome_arm_manica_scale_iron" text="{.Zanocy}[Імперыя]Жалезная Лускатая Маніка"/>
+  <string id="cla_rome_body_toga_senate" text="{.Zanocy}[Імперыя]Сенатарская Дарагая Тога"/>
+  <string id="cla_rome_body_toga_rich" text="{.Zanocy}[Імперыя]Дарагая Тога"/>
+  <string id="cla_rome_body_toga" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_blue" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_blue_2" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_blue_light" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_blue_light_2" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_brown" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_brown_light" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_green" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_green_light" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_gray" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_yellow" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_red" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_toga_red_light" text="{.Zanocy}[Імперыя]Тога"/>
+  <string id="cla_rome_body_tunic_short" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_short_woad" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_short_madder" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_short_red" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_short_weld" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_short_lichen" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_short_brown" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_long" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_long_woad" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_long_madder" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_long_red" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_long_weld" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_long_lichen" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_long_brown" text="{.Zanocy}[Імперыя]Туніка"/>
+  <string id="cla_rome_body_tunic_short_team" text="{.Zanocy}[Імперыя]Туніка Пасьлядоўніка"/>
+  <string id="cla_rome_body_tunic_long_team" text="{.Zanocy}[Імперыя]Туніка Пасьлядоўніка"/>
+  <string id="cla_rome_body_tunic_short_cingulum" text="{.Zanocy}[Імперыя]Туніка Легіёнарыуса"/>
+  <string id="cla_rome_body_tunic_long_cingulum" text="{.Zanocy}[Імперыя]Туніка Легіёнарыуса"/>
+  <string id="cla_rome_body_squamata_dress_brass" text="{.Zanocy}[Імперыя]Латуневая Сквамата Ауксілія"/>
+  <string id="cla_rome_body_squamata_dress_iron" text="{.Zanocy}[Імперыя]Жалезная Сквамата Ауксілія"/>
+  <string id="cla_rome_body_squamata_dress_mix" text="{.Zanocy}[Імперыя]Дарагая Сквамата Ауксілія"/>
+  <string id="cla_rome_body_subarmalis" text="{.Muzcynski}[Імперыя]Субармаліс"/>
+  <string id="cla_rome_body_cj_hamata_light_1" text="{.Zanocy}[Імперыя]Лорыка Хамата"/>
+  <string id="cla_rome_body_cj_hamata_light_2" text="{.Zanocy}[Імперыя]Лорыка Хамата"/>
+  <string id="cla_rome_body_cj_hamata_light_pteru" text="{.Zanocy}[Імперыя]Лорыка Хамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_hamata_light_pteru_w" text="{.Zanocy}[Імперыя]Лорыка Хамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_hamata_pteru" text="{.Zanocy}[Імперыя]Узмоцненпя Лорыка Хамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_hamata_pteru_w" text="{.Zanocy}[Імперыя]Узмоцненпя Лорыка Хамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_hamata_long" text="{.Zanocy}[Імперыя]Лорыка Хамата з Рукавамі"/>
+  <string id="cla_rome_body_segmentata" text="{.Zanocy}[Імперыя]Лорыка Сегментата"/>
+  <string id="cla_rome_body_segmentata_pteruges" text="{.Zanocy}[Імперыя]Лорыка Сегментата з Птэрыгамі"/>
+  <string id="cla_rome_body_segmentata_pteruges_w" text="{.Zanocy}[Імперыя]Лорыка Сегментата з Белымі Птэрыгамі"/>
+  <string id="cla_rome_body_segmentata_praetorian" text="{.Zanocy}[Імперыя]Лорыка Сегментата Прэторыяна"/>
+  <string id="cla_rome_body_segmentata_praetorian_pteruges" text="{.Zanocy}[Імперыя]Лорыка Сегментата Прэторыяна з Птэрыгамі"/>
+  <string id="cla_rome_body_segmentata_praetorian_pteruges_w" text="{.Zanocy}[Імперыя]Лорыка Сегментата Прэторыяна з Белымі Птэрыгамі"/>
+  <string id="cla_rome_body_segmentata_lord" text="{.Zanocy}[Імперыя]Дарагая Лорыка Сегментата"/>
+  <string id="cla_rome_body_segmentata_lord_white" text="{.Zanocy}[Імперыя]Дарагая Лорыка Сегментата з Белымі Птэрыгамі"/>
+  <string id="cla_rome_body_cjiaba_squamata_brass" text="{.Zanocy}[Імперыя]Латуневая Лорыка Сквамата"/>
+  <string id="cla_rome_body_cjiaba_squamata_iron" text="{.Zanocy}[Імперыя]Жалезная Лорыка Сквамата"/>
+  <string id="cla_rome_body_cj_squamata_li_brass_pteru" text="{.Zanocy}[Імперыя]Латуневая Лорыка Сквамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_squamata_li_brass_pteru_w" text="{.Zanocy}[Імперыя]Латуневая Лорыка Сквамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_squamata_li_iron_pteru" text="{.Zanocy}[Імперыя]Жалезная Лорыка Сквамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_squamata_li_iron_pteru_w" text="{.Zanocy}[Імперыя]Жалезная Лорыка Сквамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_squamata_brass_pteru" text="{.Zanocy}[Імперыя]Узмоцненая Латуневая Лорыка Сквамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_squamata_brass_pteru_w" text="{.Zanocy}[Імперыя]Узмоцненая Латуневая Лорыка Сквамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_squamata_iron_pteru" text="{.Zanocy}[Імперыя]Узмоцненая Жалезная Лорыка Сквамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_squamata_iron_pteru_w" text="{.Zanocy}[Імперыя]Узмоцненая Жалезная Лорыка Сквамата з Птэрыгамі"/>
+  <string id="cla_rome_body_cj_squamata_new_brass_white" text="{.Zanocy}[Імперыя]Латуневая Мяккая Лорыка Сквамата"/>
+  <string id="cla_rome_body_cj_squamata_new_brass_red" text="{.Zanocy}[Імперыя]Латуневая Мяккая Лорыка Сквамата"/>
+  <string id="cla_rome_body_cj_squamata_new_brass_blue" text="{.Zanocy}[Імперыя]Латуневая Мяккая Лорыка Сквамата"/>
+  <string id="cla_rome_body_cj_squamata_new_iron_white" text="{.Zanocy}[Імперыя]Жалезная Мяккая Лорыка Сквамата"/>
+  <string id="cla_rome_body_cj_squamata_new_iron_red" text="{.Zanocy}[Імперыя]Жалезная Мяккая Лорыка Сквамата"/>
+  <string id="cla_rome_body_cj_squamata_new_iron_blue" text="{.Zanocy}[Імперыя]Жалезная Мяккая Лорыка Сквамата"/>
+  <string id="cla_rome_body_cj_squamata_new_mix_white" text="{.Zanocy}[Імперыя]Зьмяшаная Мяккая Лорыка Сквамата"/>
+  <string id="cla_rome_body_cj_squamata_new_mix_red" text="{.Zanocy}[Імперыя]Зьмяшаная Мяккая Лорыка Сквамата"/>
+  <string id="cla_rome_body_cj_squamata_new_mix_blue" text="{.Zanocy}[Імперыя]Мяккая Лорыка Сквамата"/>
+  <string id="cla_rome_body_musc_cav_leather_red" text="{.Zanocy}[Імперыя]Скураная Мускулата Вершніка"/>
+  <string id="cla_rome_body_musc_basic_bronze_red" text="{.Zanocy}[Імперыя]Латуневая Мускулата"/>
+  <string id="cla_rome_body_musc_basic_iron_red" text="{.Zanocy}[Імперыя]Жалезная Чырвоная Мускулата Вершніка"/>
+  <string id="cla_rome_body_musc_cav_bronze_red" text="{.Zanocy}[Імперыя]Латуневая Мускулата Вершніка"/>
+  <string id="cla_rome_body_musc_cav_iron_red" text="{.Zanocy}[Імперыя]Жалезная Чырвоная Мускулата Вершніка"/>
+  <string id="cla_rome_body_musc_cav_iron_blue" text="{.Zanocy}[Імперыя]Жалезная Блакітная Мускулата Вершніка"/>
+  <string id="cla_rome_body_musc_basic_praetorian" text="{.Zanocy}[Імперыя]Мускулата Вершніка-Прэторыяна"/>
+  <string id="cla_rome_body_gulag_musc_brass" text="{.Zanocy}[Імперыя]Упрыгожаная Латуневая Мускулата"/>
+  <string id="cla_rome_body_gulag_musc_iron" text="{.Zanocy}[Імперыя]Упрыгожаная Жалезная Мускулата"/>
+  <string id="cla_rome_body_gulag_musc_praetorian" text="{.Zanocy}[Імперыя]Упрыгожаная Мускулата Прэторыяна"/>
+  <string id="cla_rome_body_squamata_brass_phalera" text="{.Zanocy}[Імперыя]Латуневая Сквамата з Фалера"/>
+  <string id="cla_rome_body_squamata_iron_phalera" text="{.Zanocy}[Імперыя]Жалезная Сквамата з Фалера"/>
+  <string id="cla_rome_body_hamata_phalera" text="{.Zanocy}[Імперыя]Лорыка Хамата з Фалера"/>
+  <string id="cla_rome_body_hamata_phalera_gold" text="{.Zanocy}[Імперыя]Лорыка Хамата з Фалера"/>
+  <string id="cla_rome_body_squamata_centurio_gulag" text="{.Zanocy}[Імперыя]Сквамата Цэнтурыёна з Фалера"/>
+  <string id="cla_invisible_shoulders_1" text="{.Mnozny}[Імперыя]Нябачныя Наплечнікі"/>
+  <string id="cla_invisible_shoulders_2" text="{.Mnozny}[Імперыя]Нябачныя Наплечнікі У2"/>
+  <string id="cla_rome_cloak_cjiaba_frilled_brown" text="{.Nijaki}[Імперыя]Гафраванае Наплечнае Покрыва"/>
+  <string id="cla_rome_cloak_cjiaba_frilled_green" text="{.Nijaki}[Імперыя]Гафраванае Наплечнае Покрыва"/>
+  <string id="cla_rome_cape_long_cape_2" text="{.Zanocy}[Імперыя]Наплечная Накідка"/>
+  <string id="cla_rome_cape_long_cape_elite" text="{.Zanocy}[Імперыя]Файная Наплечная Накідка"/>
+  <string id="cla_rome_cape_cloak_1" text="{.Nijaki}[Імперыя]Імперскае Кароткае Покрыва"/>
+  <string id="cla_rome_cape_fur_1" text="{.Zanocy}[Імперыя]Футравая Накідка"/>
+  <string id="cla_rome_helm_pfrondorf_gulag" text="{.Muzcynski}[Імперыя]Шалом-Франдорф"/>
+  <string id="cla_rome_helm_pfrondorf_gulag_maskless" text="{.Muzcynski}[Імперыя]Шалом-Франдорф бяз Маскі"/>
+  <string id="cla_rome_helm_aurelian" text="{.Muzcynski}[Імперыя]Рэсьцітутар Орбіс"/>
+  <string id="cla_rome_helm_aurelian_jewel" text="{.Muzcynski}[Імперыя]Рэсьцітутар Орбіс"/>
+  <string id="cla_rome_helm_aurelian_maskless" text="{.Muzcynski}[Імперыя]Рэсьцітутар Орбіс"/>
+  <string id="cla_rome_helm_aurelian_jewel_maskless" text="{.Muzcynski}[Імперыя]Рэсьцітутар Орбіс"/>
+  <string id="cla_rome_hat_kausia" text="{.Zanocy}[Імперыя]Каусія"/>
+  <string id="cla_rome_hat_kausia_woad" text="{.Zanocy}[Імперыя]Каусія"/>
+  <string id="cla_rome_hat_kausia_madder" text="{.Zanocy}[Імперыя]Каусія"/>
+  <string id="cla_rome_hat_kausia_red" text="{.Zanocy}[Імперыя]Каусія"/>
+  <string id="cla_rome_hat_kausia_weld" text="{.Zanocy}[Імперыя]Каусія"/>
+  <string id="cla_rome_hat_kausia_lichen" text="{.Zanocy}[Імперыя]Каусія"/>
+  <string id="cla_rome_hat_petasos" text="{.Muzcynski}[Імперыя]Пэтасос"/>
+  <string id="cla_rome_hat_petasos_woad" text="{.Muzcynski}[Імперыя]Пэтасос"/>
+  <string id="cla_rome_hat_petasos_madder" text="{.Muzcynski}[Імперыя]Пэтасос"/>
+  <string id="cla_rome_hat_petasos_red" text="{.Muzcynski}[Імперыя]Пэтасос"/>
+  <string id="cla_rome_hat_petasos_weld" text="{.Muzcynski}[Імперыя]Пэтасос"/>
+  <string id="cla_rome_hat_petasos_lichen" text="{.Muzcynski}[Імперыя]Пэтасос"/>
+  <string id="cla_rome_hat_phrygian" text="{.Muzcynski}[Імперыя]Фрыгійскі Каўпак"/>
+  <string id="cla_rome_hat_phrygian_woad" text="{.Muzcynski}[Імперыя]Фрыгійскі Каўпак"/>
+  <string id="cla_rome_hat_phrygian_madder" text="{.Muzcynski}[Імперыя]Фрыгійскі Каўпак"/>
+  <string id="cla_rome_hat_phrygian_red" text="{.Muzcynski}[Імперыя]Фрыгійскі Каўпак"/>
+  <string id="cla_rome_hat_phrygian_weld" text="{.Muzcynski}[Імперыя]Фрыгійскі Каўпак"/>
+  <string id="cla_rome_hat_phrygian_lichen" text="{.Muzcynski}[Імперыя]Фрыгійскі Каўпак"/>
+  <string id="cla_rome_hat_pilos" text="{.Muzcynski}[Імперыя]Пілос"/>
+  <string id="cla_rome_hat_pilos_woad" text="{.Muzcynski}[Імперыя]Пілос"/>
+  <string id="cla_rome_hat_pilos_madder" text="{.Muzcynski}[Імперыя]Пілос"/>
+  <string id="cla_rome_hat_pilos_red" text="{.Muzcynski}[Імперыя]Пілос"/>
+  <string id="cla_rome_hat_pilos_weld" text="{.Muzcynski}[Імперыя]Пілос"/>
+  <string id="cla_rome_hat_pilos_lichen" text="{.Muzcynski}[Імперыя]Пілос"/>
+  <string id="cla_gladiator_head_helm_1" text="{.Muzcynski}[Імперыя]Шалом Гладыятара"/>
+  <string id="cla_gladiator_head_thracian_brass_basic" text="{.Muzcynski}[Імперыя]Латуневы Шалом Гладыятара"/>
+  <string id="cla_gladiator_head_thracian_bronze_basic" text="{.Muzcynski}[Імперыя]Бронзавы Шалом Гладыятара"/>
+  <string id="cla_gladiator_head_thracian_iron_basic" text="{.Muzcynski}[Імперыя]Жалезны Шалом Гладыятара"/>
+  <string id="cla_gladiator_head_thracian_brass" text="{.Muzcynski}[Імперыя]Латуневы Шалом Гладыятара Аздоблены Пёрамі"/>
+  <string id="cla_gladiator_head_thracian_bronze" text="{.Muzcynski}[Імперыя]Бронзавы Шалом Гладыятара Аздоблены Пёрамі"/>
+  <string id="cla_gladiator_helm_thracian_iron" text="{.Muzcynski}[Імперыя]Жалезны Шалом Гладыятара Аздоблены Пёрамі"/>
+  <string id="cla_rome_helm_aux_b_brass" text="{.Zanocy}[Імперыя]Ауксілія Тып-B"/>
+  <string id="cla_rome_helm_italic_c_brass" text="{.Zanocy}[Імперыя]Латуневая Італія Тып-C"/>
+  <string id="cla_rome_helm_italic_g_brass" text="{.Zanocy}[Імперыя]Латуневая Італія Тып-G"/>
+  <string id="cla_rome_helm_aux_a_brass" text="{.Zanocy}[Імперыя]Галея Ауксілія Вершніка Тып-A"/>
+  <string id="cla_rome_helm_aux_a_iron" text="{.Zanocy}[Імперыя]Галея Ауксілія Вершніка Тып-A"/>
+  <string id="cla_rome_helm_aux_a_mix" text="{.Zanocy}[Імперыя]Галея Ауксілія Вершніка Тып-A"/>
+  <string id="cla_rome_helm_aux_a_guard_brass" text="{.Zanocy}[Імперыя]Галея Ауксілія Вершніка"/>
+  <string id="cla_rome_helm_aux_a_guard_iron" text="{.Zanocy}[Імперыя]Галея Ауксілія Вершніка"/>
+  <string id="cla_rome_helm_aux_a_guard_praetorian" text="{.Zanocy}[Імперыя]Галея Прэторыяна Вершніка"/>
+  <string id="cla_rome_helm_aux_a_guard_brass_elite" text="{.Zanocy}[Імперыя]Упрыгожаная Галея Ауксілія Вершніка"/>
+  <string id="cla_rome_helm_aux_a_guard_iron_elite" text="{.Zanocy}[Імперыя]Упрыгожаная Галея Ауксілія Вершніка"/>
+  <string id="cla_rome_helm_aux_a_guard_praetorian_elite" text="{.Zanocy}[Імперыя]Упрыгожаная Галея Прэторыяна Вершніка"/>
+  <string id="cla_syria_helm_aux_archer_b" text="{.Zanocy}[Імперыя]Галея Ауксілія Лучніка"/>
+  <string id="cla_rome_helm_cjiaba_coolus_bronze" text="{.Nijaki}[Імперыя]Колю"/>
+  <string id="cla_rome_helm_cjiaba_coolus_iron" text="{.Nijaki}[Імперыя]Колю"/>
+  <string id="cla_rome_helm_gallic_a" text="{.Zanocy}[Імперыя]Гальліка Тып-A"/>
+  <string id="cla_rome_helm_gallic_c" text="{.Zanocy}[Імперыя]Гальліка Тып-C"/>
+  <string id="cla_rome_helm_italic_b" text="{.Zanocy}[Імперыя]Італія Тып-B"/>
+  <string id="cla_rome_helm_gallic_g" text="{.Zanocy}[Імперыя]Гальліка Тып-G"/>
+  <string id="cla_rome_helm_gallic_h" text="{.Zanocy}[Імперыя]Гальліка Тып-H"/>
+  <string id="cla_rome_helm_italic_g" text="{.Zanocy}[Імперыя]Італія Тып-G"/>
+  <string id="cla_rome_helm_gallic_i_brass" text="{.Zanocy}[Імперыя]Латуневая Гальліка Тып-I"/>
+  <string id="cla_rome_helm_gallic_f" text="{.Zanocy}[Імперыя]Гальліка Тып-F"/>
+  <string id="cla_rome_helm_gallic_j" text="{.Zanocy}[Імперыя]Гальліка Тып-J"/>
+  <string id="cla_rome_helm_italic_g_decorated" text="{.Zanocy}[Імперыя]Упрыгожаная Італія Тып-G"/>
+  <string id="cla_rome_helm_italic_d" text="{.Zanocy}[Імперыя]Італія Тып-D Майнц"/>
+  <string id="cla_rome_helm_italic_d_krefeld" text="{.Zanocy}[Імперыя]Італія Тып-D Крэфельд"/>
+  <string id="cla_rome_helm_weisenau" text="{.Muzcynski}[Імперыя]Вайзэнаў"/>
+  <string id="cla_rome_helm_gallic_d" text="{.Zanocy}[Імперыя]Гальліка Тып-D"/>
+  <string id="cla_rome_helm_gallic_d_gulag" text="{.Zanocy}[Імперыя]Эмбасаваная Гальліка Тып-D"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_brown_aux_b" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Ауксіліяй Тып-B"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_blue_aux_b" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Ауксіліяй Тып-B"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_brown_italic_c" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Італіяй Тып-C"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_blue_italic_c" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Італіяй Тып-C"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_brown_gallic_g" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Гальлікай Тып-G"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_blue_gallic_g" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Гальлікай Тып-G"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_brown_gallic_i" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Гальлікай Тып-I"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_brown_italic_g" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Італіяй Тып-G"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_brown_italic_g_brass" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Латуневай Італіяй Тып-G "/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_blue_italic_g" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Італіяй Тып-G"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_blue_italic_g_brass" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Латуневай Італія Тып-G"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_blue_gallic_j" text="{.Nijaki}[Імперыя]Покрыва з Каптурам над Гальлікай Тып-J"/>
+  <string id="cla_rome_helm_niederbieber_iron" text="{.Zanocy}[Імперыя]Жалезная Цяжкая Галея"/>
+  <string id="cla_rome_helm_neiderbeiber_brass" text="{.Zanocy}[Імперыя]Латуневая Цяжкая Галея"/>
+  <string id="cla_rome_helm_niederbieber_mix" text="{.Zanocy}[Імперыя]Дарагая Цяжкая Галея"/>
+  <string id="cla_rome_helm_niedermormter_brass_1" text="{.Zanocy}[Імперыя]Латуневая Італія, Шалом Тып Тып-H"/>
+  <string id="cla_rome_helm_niedermormter_brass_2" text="[Імперыя]Латуневы Шлем Тып-H"/>
+  <string id="cla_rome_helm_niedermormter" text="{.Zanocy}[Імперыя]Упрыгожаная Італія, Шалом Тып Тып-H"/>
+  <string id="cla_rome_helm_niedermormter_mice_bread" text="{.Zanocy}[Імперыя]Упрыгожаная Італія, Шалом Тып Тып-H"/>
+  <string id="cla_rome_helm_niedermormter_high_brass" text="{.Zanocy}[Імперыя]Эмбасаваная Італія, Шалом Тып Тып-H"/>
+  <string id="cla_rome_helm_niedermormter_high_iron" text="{.Zanocy}[Імперыя]Эмбасаваная Італія, Шалом Тып Тып-H"/>
+  <string id="cla_rome_helm_gallic_f_blue" text="{.Zanocy}[Імперыя]Гальліка-Галея Арлінай Кагорты Тып-F"/>
+  <string id="cla_rome_helm_gallic_f_red" text="{.Zanocy}[Імперыя]Гальліка-Галея Арлінай Кагорты Тып-F"/>
+  <string id="cla_rome_helm_gallic_f_white" text="{.Zanocy}[Імперыя]Гальліка-Галея Арлінай Кагорты Тып-F"/>
+  <string id="cla_rome_helm_gallic_f_black" text="{.Zanocy}[Імперыя]Гальліка-Галея Арлінай Кагорты Тып-F"/>
+  <string id="cla_rome_helm_gallic_f_yellow" text="{.Zanocy}[Імперыя]Гальліка-Галея Арлінай Кагорты Тып-F"/>
+  <string id="cla_rome_helm_gallic_i_brass_blue" text="{.Zanocy}[Імперыя]Латуневая Гальліка Арлінай Кагорты Тып-I"/>
+  <string id="cla_rome_helm_gallic_i_brass_red" text="{.Zanocy}[Імперыя]Латуневая Гальліка Арлінай Кагорты Тып-I"/>
+  <string id="cla_rome_helm_gallic_i_brass_white" text="{.Zanocy}[Імперыя]Латуневая Гальліка Арлінай Кагорты Тып-I"/>
+  <string id="cla_rome_helm_gallic_i_brass_black" text="{.Zanocy}[Імперыя]Латуневая Гальліка Арлінай Кагорты Тып-I"/>
+  <string id="cla_rome_helm_gallic_i_brass_yellow" text="{.Zanocy}[Імперыя]Латуневая Гальліка Арлінай Кагорты Тып-I"/>
+  <string id="cla_rome_helm_weisenau_black" text="{.Muzcynski}[Імперыя]Вайзэнаў Арлінай Кагорты"/>
+  <string id="cla_rome_helm_weisenau_white" text="{.Muzcynski}[Імперыя]Вайзэнаў Арлінай Кагорты"/>
+  <string id="cla_rome_helm_weisenau_blue" text="{.Muzcynski}[Імперыя]Вайзэнаў Арлінай Кагорты"/>
+  <string id="cla_rome_helm_weisenau_red" text="{.Muzcynski}[Імперыя]Вайзэнаў Арлінай Кагорты"/>
+  <string id="cla_rome_helm_weisenau_yellow" text="{.Muzcynski}[Імперыя]Вайзэнаў Арлінай Кагорты"/>
+  <string id="cla_rome_helm_italic_b_praetorian" text="{.Zanocy}[Імперыя]Італія Прэторыяна Тып-B"/>
+  <string id="cla_rome_helm_italic_d_praetorian" text="{.Zanocy}[Імперыя]Італія Прэторыяна Тып-D"/>
+  <string id="cla_rome_helm_gallic_d_praetorian" text="{.Zanocy}[Імперыя]Гальліка Прэторыяна Тып-D"/>
+  <string id="cla_rome_helm_italic_d_praetorian_crest_white" text="{.Zanocy}[Імперыя]Італія Прэторыяна з Кляйнотам Тып-D"/>
+  <string id="cla_rome_helm_signifer_gallic_i_wolf_brown" text="{.Zanocy}[Імперыя]Гальліка Тып-I Воўчая Скура"/>
+  <string id="cla_rome_helm_signifer_gallic_i_wolf_gray" text="{.Zanocy}[Імперыя]Гальліка Тып-I Воўчая Скура"/>
+  <string id="cla_rome_helm_signifer_gallic_i_wolf_black" text="{.Zanocy}[Імперыя]Гальліка Тып-I Воўчая Скура"/>
+  <string id="cla_rome_helm_signifer_gallic_j_wolf_brown" text="{.Zanocy}[Імперыя]Гальліка Тып-J Воўчая Скура"/>
+  <string id="cla_rome_helm_signifer_gallic_j_wolf_gray" text="{.Zanocy}[Імперыя]Гальліка Тып-J Воўчая Скура"/>
+  <string id="cla_rome_helm_signifer_gallic_j_wolf_black" text="{.Zanocy}[Імперыя]Гальліка Тып-J Воўчая Скура"/>
+  <string id="cla_rome_helm_signifer_weisenau_bear" text="{.Muzcynski}[Імперыя]Вайзэнаў Мядзьведжая Скура"/>
+  <string id="cla_rome_helm_optio_f_red_white" text="{.Zanocy}[Імперыя]Опціа Гальліка-Галея Тып-F"/>
+  <string id="cla_rome_helm_optio_f_blue_white" text="{.Zanocy}[Імперыя]Опціа Гальліка-Галея Тып-F"/>
+  <string id="cla_rome_helm_optio_f_black_white" text="{.Zanocy}[Імперыя]Опціа Гальліка-Галея Тып-F"/>
+  <string id="cla_rome_helm_optio_f_white_black" text="{.Zanocy}[Імперыя]Опціа Гальліка-Галея Тып-F"/>
+  <string id="cla_rome_helm_weisenau_optio_black_white" text="{.Muzcynski}[Імперыя]Опціа Вайзэнаў"/>
+  <string id="cla_rome_helm_weisenau_optio_blue_white" text="{.Muzcynski}[Імперыя]Опціа Вайзэнаў"/>
+  <string id="cla_rome_helm_weisenau_optio_red_white" text="{.Muzcynski}[Імперыя]Опціа Вайзэнаў"/>
+  <string id="cla_rome_helm_weisenau_optio_white_black" text="{.Muzcynski}[Імперыя]Опціа Вайзэнаў"/>
+  <string id="cla_rome_helm_weisenau_optio_white_blue_alt" text="{.Muzcynski}[Імперыя]Опціа Вайзэнаў"/>
+  <string id="cla_rome_helm_weisenau_optio_white_blue_row" text="{.Muzcynski}[Імперыя]Опціа Вайзэнаў"/>
+  <string id="cla_rome_helm_weisenau_optio_white_red_alt" text="{.Muzcynski}[Імперыя]Опціа Вайзэнаў"/>
+  <string id="cla_rome_helm_weisenau_optio_white_red_row" text="{.Muzcynski}[Імперыя]Опціа Вайзэнаў"/>
+  <string id="cla_rome_helm_gallic_b_centurion_black" text="{.Zanocy}[Імперыя]Гальліка Цэнтурыёна Тып-B"/>
+  <string id="cla_rome_helm_gallic_b_centurion_blue" text="{.Zanocy}[Імперыя]Гальліка Цэнтурыёна Тып-B"/>
+  <string id="cla_rome_helm_gallic_b_centurion_red" text="{.Zanocy}[Імперыя]Гальліка Цэнтурыёна Тып-B"/>
+  <string id="cla_rome_helm_gallic_d_centurion_black" text="{.Zanocy}[Імперыя]Гальліка Цэнтурыёна Тып-D"/>
+  <string id="cla_rome_helm_gallic_d_centurion_blue" text="{.Zanocy}[Імперыя]Гальліка Цэнтурыёна Тып-D"/>
+  <string id="cla_rome_helm_gallic_d_centurion_red" text="{.Zanocy}[Імперыя]Гальліка Цэнтурыёна Тып-D"/>
+  <string id="cla_rome_helm_gallic_b_centurion_f_red" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-B"/>
+  <string id="cla_rome_helm_gallic_b_centurion_f_blue" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-B"/>
+  <string id="cla_rome_helm_gallic_b_centurion_f_white_blue_alt" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-B"/>
+  <string id="cla_rome_helm_gallic_b_centurion_f_white_blue_row" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-B"/>
+  <string id="cla_rome_helm_gallic_b_centurion_f_white_red_alt" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-B"/>
+  <string id="cla_rome_helm_gallic_b_centurion_f_white_red_row" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-B"/>
+  <string id="cla_rome_helm_gallic_d_centurion_f_red" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-D"/>
+  <string id="cla_rome_helm_gallic_d_centurion_f_blue" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-D"/>
+  <string id="cla_rome_helm_gallic_d_centurion_f_white_blue_alt" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-D"/>
+  <string id="cla_rome_helm_gallic_d_centurion_f_white_blue_row" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-D"/>
+  <string id="cla_rome_helm_gallic_d_centurion_f_white_red_alt" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-D"/>
+  <string id="cla_rome_helm_gallic_d_centurion_f_white_red_row" text="{.Zanocy}[Імперыя]Гальліка Пілус Прайор Тып-D"/>
+  <string id="cla_rome_head_cavalry_officer_1" text="{.Muzcynski}[Імперыя]Афіцэрскі Шлем Вершніка"/>
+  <string id="cla_rome_helm_cjiaba_coolus_bronze_mask" text="{.Muzcynski}[Імперыя]Бронзавы Колю з Маскай"/>
+  <string id="cla_rome_helm_cjiaba_coolus_iron_mask" text="{.Muzcynski}[Імперыя]Колю з Маскай"/>
+  <string id="cla_rome_helm_gallic_i_brass_mask" text="{.Muzcynski}[Імперыя]Латуневы Гальлік з Маскай Тып-I"/>
+  <string id="cla_rome_helm_gallic_j_mask" text="{.Muzcynski}[Імперыя]Гальлік з Маскай Тып-J"/>
+  <string id="cla_rome_helm_italic_d_krefeld_mask" text="{.Muzcynski}[Імперыя]Італік з Маскай Тып-D Крэфельд"/>
+  <string id="cla_rome_helm_italic_d_praetorian_mask" text="{.Muzcynski}[Імперыя]Італік Прэторыяна з Маскай Тып-D"/>
+  <string id="cla_rome_helm_italic_d_praetorian_crest_white_mask" text="{.Muzcynski}[Імперыя]Італік Прэторыяна з Маскай і Кляйнотам Тып-D"/>
+  <string id="cla_rome_helm_gulag_attic_gold_white_blue_mask" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса з Маскай"/>
+  <string id="cla_rome_helm_niedermormter_high_brass_mask" text="{.Muzcynski}[Імперыя]Эмбасаваны Шлем-Італік з Маскай Тып-H "/>
+  <string id="cla_rome_helm_niedermormter_high_iron_mask" text="{.Muzcynski}[Імперыя]Эмбасаваны Шлем-Італік з Маскай Тып-H "/>
+  <string id="cla_rome_head_cavalry_officer_mask" text="{.Muzcynski}[Імперыя]Афіцэрскі Шлем Вершніка з Маскай"/>
+  <string id="cla_rome_helm_signifer_coolus_bronze_bear" text="{.Muzcynski}[Імперыя]Бронзавы Колю з Маскай і Скурай Мядзьведзя"/>
+  <string id="cla_rome_helm_signifer_coolus_iron_bear" text="{.Muzcynski}[Імперыя]Бронзавы Колю з Маскай і Скурай Мядзьведзя"/>
+  <string id="cla_rome_helm_laurel_gold" text="{.Muzcynski}[Імперыя]Шляхетны Залаты Лорэль"/>
+  <string id="cla_rome_helm_laurel_silver" text="{.Muzcynski}[Імперыя]Шляхетны Срэбны Лорэль"/>
+  <string id="cla_rome_helm_tribune_brass_bull_white_red" text="{.Muzcynski}[Імперыя]Латуневы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_brass_eagle_red" text="{.Muzcynski}[Імперыя]Латуневы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_brass_horse_black" text="{.Muzcynski}[Імперыя]Латуневы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_brass_wolf_blue" text="{.Muzcynski}[Імперыя]Латуневы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_iron_bull_white_blue" text="{.Muzcynski}[Імперыя]Жалезны Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_iron_eagle_red" text="{.Muzcynski}[Імперыя]Жалезны Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_iron_horse_black" text="{.Muzcynski}[Імперыя]Жалезны Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_iron_wolf_blue" text="{.Muzcynski}[Імперыя]Жалезны Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_leather_bull_white_blue" text="{.Muzcynski}[Імперыя]Скураны Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_leather_eagle_red" text="{.Muzcynski}[Імперыя]Скураны Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_leather_horse_black" text="{.Muzcynski}[Імперыя]Скураны Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_leather_wolf_blue" text="{.Muzcynski}[Імперыя]Скураны Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_ebony_bull_white_blue" text="{.Muzcynski}[Імперыя]Эбанітавы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_ebony_eagle_red" text="{.Muzcynski}[Імперыя]Эбанітавы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_ebony_horse_black" text="{.Muzcynski}[Імперыя]Эбанітавы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_ebony_wolf_blue" text="{.Muzcynski}[Імперыя]Эбанітавы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_ivory_bull_white_red" text="{.Muzcynski}[Імперыя]Слановы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_ivory_eagle_red" text="{.Muzcynski}[Імперыя]Слановы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_ivory_horse_yellow_blue" text="{.Muzcynski}[Імперыя]Слановы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_tribune_ivory_wolf_blue" text="{.Muzcynski}[Імперыя]Слановы Ацьцічны Шлем"/>
+  <string id="cla_rome_helm_gulag_attic_gold_black_red" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_gold_blue" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_gold_red" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_gold_white_blue" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_gold_white_red" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_red_black_red" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_red_blue" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_red_red" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_red_white" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_red_white_blue" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_red_white_red" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_silver_black_red" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_silver_blue" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_silver_red" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_silver_white" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_silver_white_blue" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_silver_white_red" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Легатуса"/>
+  <string id="cla_rome_helm_gulag_attic_praetorian_white" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Прэторыяна"/>
+  <string id="cla_rome_helm_gulag_attic_praetorian_purple" text="{.Muzcynski}[Імперыя]Ацьцічны Шлем Прэторыяна"/>
+  <string id="cla_rome_horse_striped_harness_1" text="{.Zanocy}[Імперыя]Паласатая Скураная Вупраж"/>
+  <string id="cla_rome_horse_striped_harness_2" text="{.Zanocy}[Імперыя]Паласатая Скураная Вупраж Эквайта"/>
+  <string id="cla_rome_horse_striped_harness_3" text="{.Zanocy}[Імперыя]Паласатая Скураная Вупраж Прэторыяна"/>
+  <string id="cla_rome_leg_caligae" text="{.Muzcynski}[Імперыя]Калігай"/>
+  <string id="cla_rome_leg_caligae_socks" text="{.Muzcynski}[Імперыя]Цёплы Калігай"/>
+  <string id="cla_rome_leg_calcei" text="{.Mnozny}[Імперыя]Кальцэі"/>
+  <string id="cla_rome_leg_calcei_socks" text="{.Mnozny}[Імперыя]Цёплыя Кальцэі"/>
+  <string id="cla_rome_leg_calcei_blue" text="{.Mnozny}[Імперыя]Блакітныя Кальцэі"/>
+  <string id="cla_rome_leg_calcei_socks_blue" text="{.Mnozny}[Імперыя]Блакітныя Цёплыя Кальцэі"/>
+  <string id="cla_rome_legs_cj_wrapped_pants_a" text="{.Mnozny}[Імперыя]Загорнутыя Боты"/>
+  <string id="cla_rome_legs_cj_wrapped_pants_white_a" text="{.Mnozny}[Імперыя]Загорнутыя Боты"/>
+  <string id="cla_rome_legs_cj_wrapped_pants_b" text="{.Mnozny}[Імперыя]Загорнутыя Боты"/>
+  <string id="cla_rome_legs_cj_wrapped_pants_white_b" text="{.Mnozny}[Імперыя]Загорнутыя Боты"/>
+  <string id="cla_rome_leg_cjiaba_braccae_wrap_caligae" text="{.Muzcynski}[Імперыя]Загорнуты Калігай"/>
+  <string id="cla_rome_leg_cjiaba_braccae_greaves_bronze_wrap_caligae" text="{.Mnozny}[Імперыя]Бронзавыя Паножы над Загорнутым Калігам"/>
+  <string id="cla_rome_leg_cjiaba_braccae_greaves_iron_wrap_caligae" text="{.Mnozny}[Імперыя]Жалезныя Паножы над Загорнутым Калігам"/>
+  <string id="cla_rome_legs_pants_caligae_blue" text="{.Mnozny}[Імперыя]Штаны з Калігамі"/>
+  <string id="cla_rome_legs_pants_caligae_brown" text="{.Mnozny}[Імперыя]Штаны з Калігамі"/>
+  <string id="cla_rome_legs_pants_caligae_green" text="{.Mnozny}[Імперыя]Штаны з Калігамі"/>
+  <string id="cla_rome_legs_pants_caligae_red" text="{.Mnozny}[Імперыя]Штаны з Калігамі"/>
+  <string id="cla_rome_legs_pants_caligae_brown_socks" text="{.Mnozny}[Імперыя]Штаны з Цёплымі Калігамі"/>
+  <string id="cla_rome_legs_pants_caligae_green_socks" text="{.Mnozny}[Імперыя]Штаны з Цёплымі Калігамі"/>
+  <string id="cla_rome_legs_pants_caligae_red_socks" text="{.Mnozny}[Імперыя]Штаны з Цёплымі Калігамі"/>
+  <string id="cla_rome_legs_pants_calcei_blue" text="{.Mnozny}[Імперыя]Штаны з Кальцэямі"/>
+  <string id="cla_rome_legs_pants_calcei_brown" text="{.Mnozny}[Імперыя]Штаны з Кальцэямі"/>
+  <string id="cla_rome_legs_pants_calcei_green" text="{.Mnozny}[Імперыя]Штаны з Кальцэямі"/>
+  <string id="cla_rome_legs_pants_calcei_red" text="{.Mnozny}[Імперыя]Штаны з Кальцэямі"/>
+  <string id="cla_rome_legs_pants_calcei_blue_greaves_brass" text="{.Mnozny}[Імперыя]Латуневыя Паножы Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_brown_greaves_brass" text="{.Mnozny}[Імперыя]Латуневыя Паножы Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_green_greaves_brass" text="{.Mnozny}[Імперыя]Латуневыя Паножы Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_red_greaves_brass" text="{.Mnozny}[Імперыя]Латуневыя Паножы Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_blue_greaves" text="{.Mnozny}[Імперыя]Жалезныя Паножы Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_brown_greaves" text="{.Mnozny}[Імперыя]Жалезныя Паножы Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_green_greaves" text="{.Mnozny}[Імперыя]Жалезныя Паножы Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_red_greaves" text="{.Mnozny}[Імперыя]Жалезныя Паножы Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_blue_cav_praetorian" text="{.Mnozny}[Імперыя]Паножы Прэторыяна-Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_brown_cav_praetorian" text="{.Mnozny}[Імперыя]Паножы Прэторыяна-Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_green_cav_praetorian" text="{.Mnozny}[Імперыя]Паножы Прэторыяна-Вершніка"/>
+  <string id="cla_rome_legs_pants_calcei_red_cav_praetorian" text="{.Mnozny}[Імперыя]Паножы Прэторыяна-Вершніка"/>
+  <string id="cla_rome_leg_greaves_basic_brass_calcei" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Кальцэямі"/>
+  <string id="cla_rome_leg_greaves_basic_brass_caligae" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Калігамі"/>
+  <string id="cla_rome_leg_greaves_basic_brass_caligae_warm" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Цёплымі Калігамі"/>
+  <string id="cla_rome_leg_greaves_basic_iron_calcei" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Кальцэямі"/>
+  <string id="cla_rome_leg_greaves_basic_iron_caligae" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Калігамі"/>
+  <string id="cla_rome_leg_greaves_basic_iron_caligae_warm" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Цёплымі Калігамі"/>
+  <string id="cla_rome_leg_greaves_basic_praetorian_calcei" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Кальцэямі"/>
+  <string id="cla_rome_leg_greaves_basic_praetorian_caligae" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Калігамі"/>
+  <string id="cla_rome_leg_greaves_basic_praetorian_caligae_warm" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_blue_greaves_basic_brass_caligae" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Калігамі"/>
+  <string id="cla_rome_pants_blue_greaves_basic_brass_caligae_warm" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_blue_greaves_basic_iron_calcei" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Кальцэямі"/>
+  <string id="cla_rome_pants_blue_greaves_basic_iron_caligae" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Калігамі"/>
+  <string id="cla_rome_pants_blue_greaves_basic_iron_caligae_warm" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_blue_greaves_basic_praetorian_calcei" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Кальцэямі"/>
+  <string id="cla_rome_pants_blue_greaves_basic_praetorian_caligae" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Калігамі"/>
+  <string id="cla_rome_pants_blue_greaves_basic_praetorian_caligae_warm" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_brown_greaves_basic_brass_calcei" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Кальцэямі"/>
+  <string id="cla_rome_pants_brown_greaves_basic_brass_caligae" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Калігамі"/>
+  <string id="cla_rome_pants_brown_greaves_basic_brass_caligae_warm" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_brown_greaves_basic_iron_calcei" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Кальцэямі"/>
+  <string id="cla_rome_pants_brown_greaves_basic_iron_caligae" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Калігамі"/>
+  <string id="cla_rome_pants_brown_greaves_basic_iron_caligae_warm" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_brown_greaves_basic_praetorian_calcei" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Кальцэямі"/>
+  <string id="cla_rome_pants_brown_greaves_basic_praetorian_caligae" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Калігамі"/>
+  <string id="cla_rome_pants_brown_greaves_basic_praetorian_caligae_warm" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_green_greaves_basic_brass_calcei" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Кальцэямі"/>
+  <string id="cla_rome_pants_green_greaves_basic_brass_caligae" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Калігамі"/>
+  <string id="cla_rome_pants_green_greaves_basic_brass_caligae_warm" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_green_greaves_basic_iron_calcei" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Кальцэямі"/>
+  <string id="cla_rome_pants_green_greaves_basic_iron_caligae" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Калігамі"/>
+  <string id="cla_rome_pants_green_greaves_basic_iron_caligae_warm" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_green_greaves_basic_praetorian_calcei" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Кальцэямі"/>
+  <string id="cla_rome_pants_green_greaves_basic_praetorian_caligae" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Калігамі"/>
+  <string id="cla_rome_pants_green_greaves_basic_praetorian_caligae_warm" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_red_greaves_basic_brass_calcei" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Кальцэямі"/>
+  <string id="cla_rome_pants_red_greaves_basic_brass_caligae" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Калігамі"/>
+  <string id="cla_rome_pants_red_greaves_basic_brass_caligae_warm" text="{.Mnozny}[Імперыя]Латуневыя Паножы з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_red_greaves_basic_iron_calcei" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Кальцэямі"/>
+  <string id="cla_rome_pants_red_greaves_basic_iron_caligae" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Калігамі"/>
+  <string id="cla_rome_pants_red_greaves_basic_iron_caligae_warm" text="{.Mnozny}[Імперыя]Жалезныя Паножы з Цёплымі Калігамі"/>
+  <string id="cla_rome_pants_red_greaves_basic_praetorian_calcei" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Кальцэямі"/>
+  <string id="cla_rome_pants_red_greaves_basic_praetorian_caligae" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Калігамі"/>
+  <string id="cla_rome_pants_red_greaves_basic_praetorian_caligae_warm" text="{.Mnozny}[Імперыя]Паножы Прэторыяна з Цёплымі Калігамі"/>
+  <string id="cla_rome_legs_gulag_greaves_brass" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Латуневыя Паножы"/>
+  <string id="cla_rome_pants_blue_greaves_dec_brass_calcei" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Латуневыя Паножы над Штанамі"/>
+  <string id="cla_rome_pants_brown_greaves_dec_brass_calcei" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Латуневыя Паножы над Штанамі"/>
+  <string id="cla_rome_pants_green_greaves_dec_brass_calcei" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Жалезныя Паножы над Штанамі"/>
+  <string id="cla_rome_pants_red_greaves_dec_brass_calcei" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Латуневыя Паножы над Штанамі"/>
+  <string id="cla_rome_pants_blue_greaves_dec_brass_caligae" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Латуневыя Паножы над Штанамі"/>
+  <string id="cla_rome_pants_brown_greaves_dec_brass_caligae" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Латуневыя Паножы над Штанамі"/>
+  <string id="cla_rome_pants_green_greaves_dec_brass_caligae" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Жалезныя Паножы над Штанамі"/>
+  <string id="cla_rome_pants_red_greaves_dec_brass_caligae" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Латуневыя Паножы над Штанамі"/>
+  <string id="cla_rome_legs_gulag_greaves_iron" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Жалезныя Паножы"/>
+  <string id="cla_rome_pants_blue_greaves_dec_iron_caligae" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Жалезныя Паножы над Штанамі"/>
+  <string id="cla_rome_pants_brown_greaves_dec_iron_caligae" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Жалезныя Паножы над Штанамі"/>
+  <string id="cla_rome_pants_green_greaves_dec_iron_caligae" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Жалезныя Паножы над Штанамі"/>
+  <string id="cla_rome_pants_red_greaves_dec_iron_caligae" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Жалезныя Паножы над Штанамі"/>
+  <string id="cla_rome_legs_gulag_greaves_praetorian" text="{.Mnozny}[Імперыя]Дарагія Упрыгожаныя Жалезныя Паножы"/>
+  <string id="cla_rome_pants_blue_greaves_dec_praetorian_calcei" text="{.Mnozny}[Імперыя]Паножы Прэторыяна над Штанамі"/>
+  <string id="cla_rome_pants_brown_greaves_dec_praetorian_calcei" text="{.Mnozny}[Імперыя]Паножы Прэторыяна над Штанамі"/>
+  <string id="cla_rome_pants_green_greaves_dec_praetorian_calcei" text="{.Mnozny}[Імперыя]Паножы Прэторыяна над Штанамі"/>
+  <string id="cla_rome_pants_red_greaves_dec_praetorian_calcei" text="{.Mnozny}[Імперыя]Паножы Прэторыяна над Штанамі"/>
+  <string id="cla_rome_pants_blue_greaves_dec_praetorian_caligae" text="{.Mnozny}[Імперыя]Паножы Прэторыяна над Штанамі"/>
+  <string id="cla_rome_pants_brown_greaves_dec_praetorian_caligae" text="{.Mnozny}[Імперыя]Паножы Прэторыяна над Штанамі"/>
+  <string id="cla_rome_pants_green_greaves_dec_praetorian_caligae" text="{.Mnozny}[Імперыя]Паножы Прэторыяна над Штанамі"/>
+  <string id="cla_rome_pants_red_greaves_dec_praetorian_caligae" text="{.Mnozny}[Імперыя]Паножы Прэторыяна над Штанамі"/>
+  <string id="cla_rome_leg_calcei_red" text="{.Mnozny}[Імперыя]Сенатарскія Кальцэі"/>
+  <string id="cla_rome_leg_calcei_red_socks" text="{.Mnozny}[Імперыя]Сенатарскія Цёплыя Кальцэі"/>
+  <string id="cla_banner_shield" text="{.Muzcynski}[Сьцяг]Сьцяг-Шчыт Кампаніі"/>
+  <string id="cla_rome_standard_vexillum_spqr" text="{.Muzcynski}[Імперыя]Вэксіллум SPQR"/>
+  <string id="cla_rome_standard_vexillum_victoria" text="{.Muzcynski}[Імперыя]Вэксіллум Вікторыя"/>
+  <string id="cla_rome_standard_vexillum_romulus_remus_1" text="{.Muzcynski}[Імперыя]Вэксіллум Ромулуса і Рэмуса"/>
+  <string id="cla_rome_standard_vexillum_leg_i_calradica" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё Тып-I Кальрадыка"/>
+  <string id="cla_rome_standard_vexillum_leg_i_germanica" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё Тып-I Германіка"/>
+  <string id="cla_rome_standard_vexillum_leg_iii_cyrenaika" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё III Кіренаіка"/>
+  <string id="cla_rome_standard_vexillum_leg_iiii_flaviafelix" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё IIII Флавія Фэлікс"/>
+  <string id="cla_rome_standard_vexillum_leg_vi_victrix" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё VI Віктрыкс"/>
+  <string id="cla_rome_standard_vexillum_leg_vii_claudiapiafidelis" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё VII Клаўдзія Піа Фідэліс"/>
+  <string id="cla_rome_standard_vexillum_leg_viiii_hispana" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё VIIII Гіспана"/>
+  <string id="cla_rome_standard_vexillum_leg_x_fretensis" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё X Фрэтэнсіс"/>
+  <string id="cla_rome_standard_vexillum_leg_xi_claudiapiafidelis" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё XI Клаўдзія Піа Фідэліс"/>
+  <string id="cla_rome_standard_vexillum_leg_xix" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё XIX "/>
+  <string id="cla_rome_standard_vexillum_leg_xv_apollinaris" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё XV Апольлінарыс"/>
+  <string id="cla_rome_standard_vexillum_leg_xv_primigenia" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё XV Прімігеніа"/>
+  <string id="cla_rome_standard_vexillum_leg_xviii" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё XVIII "/>
+  <string id="cla_rome_standard_vexillum_leg_xx_valeriavictrix" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё XX Валэрыя Віктрыкс"/>
+  <string id="cla_rome_standard_vexillum_leg_xxi_rapax" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё XXI Рапакс"/>
+  <string id="cla_rome_standard_vexillum_leg_xxii_primigenia" text="{.Muzcynski}[Імперыя]Вэксіллум Легіё XXII Прімігеніа"/>
+  <string id="cla_rome_standard_signum_1" text="{.Muzcynski}[Імперыя]Імперскі Сігнум"/>
+  <string id="cla_rome_standard_signum_2" text="{.Muzcynski}[Імперыя]Імперскі Сігнум"/>
+  <string id="cla_rome_standard_signum_3" text="{.Muzcynski}[Імперыя]Імперскі Сігнум"/>
+  <string id="cla_rome_shield_standard_aquila" text="{.Muzcynski}[Імперыя][Сьцяг]Штандар Аквіла"/>
+  <string id="cla_rome_shield_cjiaba_round_bronze" text="{.Zanocy}[Імперыя]Бронзавая Круглая Парма"/>
+  <string id="cla_rome_shield_cjiaba_round_iron" text="{.Zanocy}[Імперыя]Жалезная Круглая Парма"/>
+  <string id="cla_rome_shield_scutum_leg_i_calradica" text="{.Muzcynski}[Імперыя]Скутум Легіё Тып-I Кальрадыка"/>
+  <string id="cla_rome_shield_scutum_leg_i_germanica" text="{.Muzcynski}[Імперыя]Скутум Легіё Тып-I Германіка"/>
+  <string id="cla_rome_shield_scutum_leg_iii_cyrenaica" text="{.Muzcynski}[Імперыя]Скутум Легіё III Кіренаіка "/>
+  <string id="cla_rome_shield_scutum_leg_iiii_flaviafelix" text="{.Muzcynski}[Імперыя]Скутум Легіё IIII Флавія Фэлікс"/>
+  <string id="cla_rome_shield_scutum_leg_vi_victrix" text="{.Muzcynski}[Імперыя]Скутум Легіё VI Віктрыкс"/>
+  <string id="cla_rome_shield_scutum_leg_vii_claudiapiafidelis" text="{.Muzcynski}[Імперыя]Скутум Легіё VII Клаўдзія Піа Фідэліс"/>
+  <string id="cla_rome_shield_scutum_leg_x_fretensis" text="{.Muzcynski}[Імперыя]Скутум Легіё X Фрэтэнсіс"/>
+  <string id="cla_rome_shield_scutum_leg_xi_claudiapiafidelis" text="{.Muzcynski}[Імперыя]Скутум Легіё XI Клаўдзія Піа Фідэліс"/>
+  <string id="cla_rome_shield_scutum_leg_xix" text="{.Muzcynski}[Імперыя]Скутум Легіё XIX"/>
+  <string id="cla_rome_shield_scutum_leg_xv_apollinaris" text="{.Muzcynski}[Імперыя]Скутум Легіё XV Апольлінарыс"/>
+  <string id="cla_rome_shield_scutum_leg_xv_primigenia" text="{.Muzcynski}[Імперыя]Скутум Легіё XV Прімігеніа"/>
+  <string id="cla_rome_shield_scutum_leg_xviii_gallica" text="{.Muzcynski}[Імперыя]Скутум Легіё XVIII Гальліка"/>
+  <string id="cla_rome_shield_scutum_leg_xx_valeriavictrix" text="{.Muzcynski}[Імперыя]Скутум Легіё XX Валэрыя Віктрыкс "/>
+  <string id="cla_rome_shield_scutum_leg_xxi_rapax" text="{.Muzcynski}[Імперыя]Скутум Легіё XXI Рапакс "/>
+  <string id="cla_rome_shield_scutum_leg_xxii_primigenia" text="{.Muzcynski}[Імперыя]Скутум Легіё XXII Прімігеніа"/>
+  <string id="cla_rome_shield_scutum_plain" text="{.Muzcynski}[Імперыя]Прасты Скутум"/>
+  <string id="cla_rome_shield_scutum_tiro_1" text="{.Muzcynski}[Імперыя]Ціра Скутум"/>
+  <string id="cla_rome_shield_scutum_tiro_2" text="{.Muzcynski}[Імперыя]Ціра Скутум"/>
+  <string id="cla_rome_shield_scutum_miles_1" text="{.Muzcynski}[Імперыя]Майлс Скутум"/>
+  <string id="cla_rome_shield_scutum_miles_2" text="{.Muzcynski}[Імперыя]Майлс Скутум"/>
+  <string id="cla_rome_shield_scutum_eagle_cohort_1" text="{.Muzcynski}[Імперыя]Скутум Кагорты Аквіла"/>
+  <string id="cla_rome_shield_scutum_eagle_cohort_2" text="{.Muzcynski}[Імперыя]Скутум Кагорты Аквіла"/>
+  <string id="cla_rome_shield_scutum_evocatus" text="{.Muzcynski}[Імперыя]Эвокатус Скутум"/>
+  <string id="cla_rome_shield_scutum_centurion" text="{.Muzcynski}[Імперыя]Цэнтурыё Скутум"/>
+  <string id="cla_rome_shield_scutum_aug_leg_viiii_hispana" text="{.Muzcynski}[Імперыя]Скутум Легіё VIIII Гіспана "/>
+  <string id="cla_rome_shield_aux_generic" text="{.Muzcynski}[Імперыя]Шчыт Ауксілія"/>
+  <string id="cla_rome_shield_aux_celtic" text="{.Muzcynski}[Імперыя]Шчыт Баттанійскага Ауксілія"/>
+  <string id="cla_rome_shield_aux_dacian" text="{.Muzcynski}[Імперыя]Шчыт Драятычнага Ауксілія"/>
+  <string id="cla_rome_shield_aux_germanic" text="{.Muzcynski}[Імперыя]Шчыт Ціўдзійскага Ауксілія"/>
+  <string id="cla_rome_shield_aux_scythia" text="{.Muzcynski}[Імперыя]Шчыт Сацкага Ауксілія"/>
+  <string id="cla_rome_shield_aux_emperor" text="{.Muzcynski}[Імперыя]Авальны Шчыт Імператара"/>
+  <string id="cla_rome_shield_aux_lord_high" text="{.Muzcynski}[Імперыя]Авальны Шчыт Легатуса"/>
+  <string id="cla_rome_shield_aux_lord_mid" text="{.Muzcynski}[Імперыя]Авальны Шчыт Трыбуна"/>
+  <string id="cla_rome_shield_aux_lord_low" text="{.Muzcynski}[Імперыя]Авальны Шчыт Трыбуна"/>
+  <string id="cla_rome_shield_aux_praetorian" text="{.Muzcynski}[Імперыя]Авальны Шчыт Прэторыяна"/>
+  <string id="cla_rome_shield_scutum_praetorian" text="{.Muzcynski}[Імперыя]Скутум Прэторыяна"/>
+  <string id="cla_rome_shield_square_1" text="{.Muzcynski}[Імперыя]Шчыт Гладыятара"/>
+  <string id="cla_rome_weapon_gladius_blunt" text="{.Muzcynski}[Імперыя]Тупы Гладзіус"/>
+  <string id="cla_rome_weapon_gladius_1" text="{.Muzcynski}[Імперыя]Гладзіус, Тып Чарас"/>
+  <string id="cla_rome_weapon_gladius_2" text="{.Muzcynski}[Імперыя]Гладзіус, Тып Баравэнус"/>
+  <string id="cla_gladiator_spear_trident_2" text="{.Mnozny}[Гладыятар]Вілы"/>
+  <string id="cla_gladiator_spear_trident_3" text="{.Mnozny}[Гладыятар]Вілы"/>
+  <string id="cla_rome_weapon_pila" text="{.Zanocy}[Імперыя]Піла"/>
+  <string id="cla_rome_weapon_pila_weight" text="{.Zanocy}[Імперыя]Уцяжараная Піла"/>
+  <string id="cla_rome_weapon_pila_training" text="{.Zanocy}[Імперыя]Рыхтавальная Піла"/>
+  <string id="cla_rome_weapon_pugio" text="{.Nijaki}[Імперыя]Пугіё"/>
+  <string id="cla_rome_weapon_pugio_expensive" text="{.Nijaki}[Імперыя]Загартаванае Пугіё"/>
+  <string id="cla_rome_weapon_spatha_1" text="{.Zanocy}[Імперыя]Спата"/>
+  <string id="cla_rome_weapon_spatha_2" text="{.Zanocy}[Імперыя]Файная Сталёвая Спата"/>
+  <string id="cla_rome_weapon_spatha_podlodow" text="{.Zanocy}[Імперыя]Падлодаўская Спата"/>
+  <string id="cla_rome_weapon_ejsbol_sarry_spatha" text="{.Zanocy}[Імперыя]Эйсбола-Саррыйская Спата"/>
+  <string id="cla_rome_weapon_gladius_pompeii_gt" text="[Імперыя]Gladius Type Pompeii"/>
+  <string id="cla_rome_weapon_gladius_mainz" text="{.Muzcynski}[Імперыя]Загартаваны Гладзіус, Тып Баравэнус"/>
+  <string id="cla_rome_weapon_gladius_mainz_fine" text="{.Muzcynski}[Імперыя]Узмоцнены Гладзіус, Тып Баравэнус"/>
+  <string id="cla_rome_weapon_gladius_mainz_decorated" text="{.Muzcynski}[Імперыя]Упрыгожаны Гладзіус, Тып Баравэнус"/>
+  <string id="cla_weapon_javelin_leaf_short" text="{.Mnozny}[Германія]Кароткія Дротыкі з Ліставым Навершам"/>
+  <string id="cla_weapon_spear_medium_leaf" text="{.Nijaki}[Германія]Кап'ё з Ліставым Навершам"/>
+  <string id="cla_weapon_spear_long_kited" text="{.Nijaki}[Германія]Кап'ё з Тонкім Навершам"/>
+  <string id="cla_weapon_javelin_leaf_short_tournament" text="{.Mnozny}[Турнір]Тупыя Кароткія Дротыкі з Ліставым Навершам"/>
+  <string id="cla_weapon_spear_medium_leaf_tournament" text="{.Nijaki}[Турнір]Тупое Кап'ё з Ліставым Навершам"/>
+  <string id="cla_germ_tunic_blue" text="{.Zanocy}[Германія]Блакітная Туніка"/>
+  <string id="cla_germ_tunic_red" text="{.Zanocy}[Германія]Чырвоная Туніка"/>
+  <string id="cla_germ_tunic_green" text="{.Zanocy}[Германія]Зялёная Туніка"/>
+  <string id="cla_germ_tunic_gray" text="{.Zanocy}[Германія]Шэрая Туніка"/>
+  <string id="cla_germ_tunic_yellow" text="{.Zanocy}[Германія]Жоўтая Туніка"/>
+  <string id="cla_germ_tunic6" text="{.Zanocy}[Германія]Рудая Туніка"/>
+  <string id="cla_germ_mail_yellow" text="{.Zanocy}[Германія]Ланцугова-Кальчужная Кашуля з Жоўтай Тунікай"/>
+  <string id="cla_germ_mail_red" text="{.Zanocy}[Германія]Ланцугова-Кальчужная Кашуля з Чырвонай Тунікай"/>
+  <string id="cla_germ_mail_blue" text="{.Zanocy}[Германія]Ланцугова-Кальчужная Кашуля з Блакітнай Тунікай"/>
+  <string id="cla_germ_mail_green" text="{.Zanocy}[Германія]Ланцугова-Кальчужная Кашуля з Зялёнай Тунікай"/>
+  <string id="cla_germ_mail_gray" text="{.Zanocy}[Германія]Ланцугова-Кальчужная Кашуля з Шэрай Тунікай"/>
+  <string id="cla_germ_mail_yellow_reinforced" text="{.Zanocy}[Германія]Узмоцненая Ланцугова-Кальчужная Кашуля з Жоўтай Тунікай"/>
+  <string id="cla_germ_mail_green_reinforced" text="{.Zanocy}[Германія]Узмоцненая Ланцугова-Кальчужная Кашуля з Зялёнай Тунікай"/>
+  <string id="cla_germ_mail_red_reinforced" text="{.Zanocy}[Германія]Узмоцненая Ланцугова-Кальчужная Кашуля з Чырвонай Тунікай"/>
+  <string id="cla_germ_mail_blue_reinforced" text="{.Zanocy}[Германія]Узмоцненая Ланцугова-Кальчужная Кашуля з Блакітнай Тунікай"/>
+  <string id="cla_germ_mail_gray_reinforced" text="{.Zanocy}[Германія]Узмоцненая Ланцугова-Кальчужная Кашуля з Шэрай Тунікай"/>
+  <string id="cla_germ_mail_long_green" text="{.Zanocy}[Германія]Доўгая Ланцугова-Кальчужная Кашуля з Зялёнай Тунікай"/>
+  <string id="cla_germ_mail_long_blue" text="{.Zanocy}[Германія]Доўгая Ланцугова-Кальчужная Кашуля з Блакітнай Тунікай"/>
+  <string id="cla_germ_mail_long_yellow" text="{.Zanocy}[Германія]Доўгая Ланцугова-Кальчужная Кашуля з Жоўтай Тунікай"/>
+  <string id="cla_germ_mail_long_red" text="{.Zanocy}[Германія]Доўгая Ланцугова-Кальчужная Кашуля з Чырвонай Тунікай"/>
+  <string id="cla_germ_mail_long_green_reinforced" text="{.Zanocy}[Германія]Узмоцненая Доўгая Ланцугова-Кальчужная Кашуля з Зялёнай Тунікай"/>
+  <string id="cla_germ_mail_long_blue_reinforced" text="{.Zanocy}[Германія]Узмоцненая Доўгая Ланцугова-Кальчужная Кашуля з Блакітнай Тунікай"/>
+  <string id="cla_germ_mail_long_yellow_reinforced" text="{.Zanocy}[Германія]Узмоцненая Доўгая Ланцугова-Кальчужная Кашуля з Жоўтай Тунікай"/>
+  <string id="cla_germ_mail_long_red_reinforced" text="{.Zanocy}[Германія]Узмоцненая Доўгая Ланцугова-Кальчужная Кашуля з Чырвонай Тунікай"/>
+  <string id="cla_germ_tartan_cape" text="{.Muzcynski}[Германія]Плашч з Тартанам"/>
+  <string id="cla_germ_cloak_cjiaba_frilled_brown" text="{.Nijaki}[Германія]Гафраванае Наплечнае Покрыва"/>
+  <string id="cla_germ_cloak_cjiaba_frilled_green" text="{.Nijaki}[Германія]Гафраванае Наплечнае Покрыва"/>
+  <string id="cla_germ_pants_red" text="{.Mnozny}[Германія]Чырвоныя Штаны"/>
+  <string id="cla_germ_pants_blue" text="{.Mnozny}[Германія]Блакітныя Штаны"/>
+  <string id="cla_germ_pants_gray" text="{.Mnozny}[Германія]Шэрыя Штаны"/>
+  <string id="cla_germ_pants_green" text="{.Mnozny}[Германія]Зялёныя Штаны"/>
+  <string id="cla_germ_pants6" text="{.Mnozny}[Германія]Рудыя Штаны"/>
+  <string id="cla_germ_pants_yellow" text="{.Mnozny}[Германія]Жоўтыя Штаны"/>
+  <string id="cla_germ_helm_light_iron" text="{.Muzcynski}[Германія]Лёгкі Жалезны Шалом"/>
+  <string id="cla_germ_helm_light_brass" text="{.Muzcynski}[Германія]Лёгкі Латуневы Шалом"/>
+  <string id="cla_germ_helm_light_iron_f" text="{.Muzcynski}[Германія]Жалезны Шалом Аздоблены Пёрамі"/>
+  <string id="cla_germ_helm_light_brass_f" text="{.Muzcynski}[Германія]Латуневы Шалом Аздоблены Пёрамі"/>
+  <string id="cla_germ_helm_light_iron_pelt" text="{.Muzcynski}[Германія]Жалезны Шалом са Скурай"/>
+  <string id="cla_germ_helm_light_brass_pelt" text="{.Muzcynski}[Германія]Латуневы Шалом са Скурай"/>
+  <string id="cla_germ_helm_noble_iron" text="{.Muzcynski}[Германія]Шляхетны Жалезны Шалом"/>
+  <string id="cla_germ_helm_noble_brass" text="{.Muzcynski}[Германія]Шляхетны Латуневы Шалом"/>
+  <string id="cla_germ_helm_noble_iron_pelt" text="{.Muzcynski}[Германія]Шляхетны Жалезны Шалом са Скурай"/>
+  <string id="cla_germ_helm_noble_brass_pelt" text="{.Muzcynski}[Германія]Шляхетны Латуневы Шалом са Скурай"/>
+  <string id="cla_germ_helm_lord_iron" text="{.Muzcynski}[Германія]Правадырскі Жалезны Шалом"/>
+  <string id="cla_germ_helm_lord_brass" text="{.Muzcynski}[Германія]Правадырскі Латуневы Шалом"/>
+  <string id="cla_germ_weapon_sword_single_blunt" text="{.Muzcynski}[Германія]Тупы Аднабаковы Меч"/>
+  <string id="cla_germ_weapon_sword_single" text="{.Muzcynski}[Германія]Аднабаковы Меч"/>
+  <string id="cla_germ_weapon_sword_single_noble" text="{.Muzcynski}[Германія]Дарагі Аднабаковы Меч"/>
+  <string id="cla_germ_shield_hex_small_1" text="{.Muzcynski}[Германія]Шасьцікантовы Шчыт"/>
+  <string id="cla_germ_shield_hex_small_2" text="{.Muzcynski}[Германія]Шасьцікантовы Шчыт"/>
+  <string id="cla_germ_shield_hex_small_3" text="{.Muzcynski}[Германія]Шасьцікантовы Шчыт"/>
+  <string id="cla_germ_shield_hex_small_4" text="{.Muzcynski}[Германія]Шасьцікантовы Шчыт"/>
+  <string id="cla_germ_shield_hex_small_5" text="{.Muzcynski}[Германія]Шасьцікантовы Маленькі Шчыт"/>
+  <string id="cla_germ_shield_hex_half_1" text="{.Muzcynski}[Германія]Шасьцікантовы Паўшчыт"/>
+  <string id="cla_germ_shield_hex_half_2" text="{.Muzcynski}[Германія]Шасьцікантовы Паўшчыт"/>
+  <string id="cla_germ_shield_hex_half_3" text="{.Muzcynski}[Германія]Шасьцікантовы Паўшчыт"/>
+  <string id="cla_germ_shield_hex_half_4" text="{.Muzcynski}[Германія]Шасьцікантовы Паўшчыт"/>
+  <string id="cla_germ_shield_hex_1" text="{.Muzcynski}[Германія]Шасьцікантовы Шчыт"/>
+  <string id="cla_germ_shield_hex_2" text="{.Muzcynski}[Германія]Шасьцікантовы Шчыт"/>
+  <string id="cla_germ_shield_hex_3" text="{.Muzcynski}[Германія]Шасьцікантовы Шчыт"/>
+  <string id="cla_germ_shield_hex_4" text="{.Muzcynski}[Германія]Шасьцікантовы Шчыт"/>
+  <string id="germanic_tunic_hayster_low" text="{.Zanocy}[Хэйстэр]Туніка Сігруны"/>
+  <string id="germanic_pants_hayster_low" text="{.Mnozny}[Хэйстэр]Штаны Сігруны"/>
+  <string id="germanic_cloak_hayster_low" text="{.Nijaki}[Хэйстэр]Покрыва Сігруны"/>
+  <string id="cla_iberian_weapon_gladius_mid_bronze_blunt" text="{.Muzcynski}[Масса]Тупы Кароткі Меч"/>
+  <string id="cla_iberian_weapon_gladius_mid_bronze" text="{.Muzcynski}[Масса]Узмоцнены Кароткі Меч"/>
+  <string id="cla_iberian_weapon_gladius_mid_iron" text="{.Muzcynski}[Масса]Узмоцнены Кароткі Меч"/>
+  <string id="cla_iberian_weapon_gladius_decorated_bronze" text="{.Muzcynski}[Масса]Упрыгожаны Узмоцнены Кароткі Меч"/>
+  <string id="cla_iberian_weapon_gladius_decorated_iron" text="{.Muzcynski}[Масса]Упрыгожаны Узмоцнены Кароткі Меч"/>
+  <string id="cla_carthage_shield_round_small_iron_iberian" text="{.Muzcynski}[Масса]Жалезны Узмоцнены Каэтра"/>
+  <string id="cla_carthage_shield_round_small_iron_iberian_2" text="{.Muzcynski}[Масса]Жалезны Узмоцнены Каэтра"/>
+  <string id="cla_iberian_shield_scutarii_bronze_1" text="{.Muzcynski}[Масса]Бронзавы Скутары"/>
+  <string id="cla_iberian_shield_scutarii_bronze_2" text="{.Muzcynski}[Масса]Бронзавы Скутары"/>
+  <string id="cla_iberian_shield_scutarii_iron_1" text="{.Muzcynski}[Масса]Жалезны Скутары"/>
+  <string id="cla_iberian_shield_scutarii_iron_2" text="{.Muzcynski}[Масса]Жалезны Скутары"/>
+  <string id="cla_iberian_helm_bronze" text="{.Muzcynski}[Кваз]Масскі Шалом"/>
+  <string id="cla_iberian_helm_bronze_cap_1" text="{.Muzcynski}[Кваз]Масскі Шалом з Каптурам"/>
+  <string id="cla_iberian_helm_bronze_cap_2" text="{.Muzcynski}[Кваз]Масскі Шалом з Каптурам"/>
+  <string id="cla_iberian_helm_crested_black_white" text="{.Muzcynski}[Кваз]Масскі Шалом з Кляйнотам"/>
+  <string id="cla_iberian_helm_crested_red_white" text="{.Muzcynski}[Кваз]Шалом з Кляйнотам"/>
+  <string id="cla_iberian_body_tunic_1" text="{.Zanocy}[Масса]Масская Туніка"/>
+  <string id="cla_iberian_body_tunic_2" text="{.Zanocy}[Масса]Масская Туніка"/>
+  <string id="cla_iberian_body_tunic_3" text="{.Zanocy}[Масса]Масская Туніка"/>
+  <string id="cla_iberian_body_tunic_4" text="{.Zanocy}[Масса]Масская Туніка"/>
+  <string id="cla_iberian_body_tunic_5" text="{.Zanocy}[Масса]Масская Туніка"/>
+  <string id="cla_iberian_body_cardiophylax_1" text="{.Muzcynski}[Масса]Масскі Кардзіофілакс"/>
+  <string id="cla_iberian_body_cardiophylax_2" text="{.Muzcynski}[Масса]Масскі Кардзіофілакс"/>
+  <string id="cla_iberian_body_cardiophylax_3" text="{.Muzcynski}[Масса]Масскі Кардзіофілакс"/>
+  <string id="cla_iberian_body_cardiophylax_4" text="{.Muzcynski}[Масса]Масскі Кардзіофілакс"/>
+  <string id="cla_iberian_body_scale_mail_bronze_blue" text="{.Zanocy}[Масса]Лускатая Кальчуга"/>
+  <string id="cla_iberian_body_scale_mail_bronze_brown" text="{.Zanocy}[Масса]Лускатая Кальчуга"/>
+  <string id="cla_iberian_body_scale_mail_iron_white" text="{.Zanocy}[Масса]Лускатая Кальчуга"/>
+  <string id="cla_iberian_body_scale_mail_mix_brown" text="{.Zanocy}[Масса]Лускатая Кальчуга"/>
+  <string id="cla_rome_helm_republic_montefortino_bronze" text="{.Zanocy}[Рэспубліка]Бронзавая Монтэфарціна"/>
+  <string id="cla_rome_helm_republic_montefortino_iron" text="{.Zanocy}[Рэспубліка]Жалезная Монтэфарціна"/>
+  <string id="cla_rome_helm_republic_montefortino_bronze_wblack" text="{.Zanocy}[Рэспубліка]Бронзавая Монтэфарціна з Чорнай Воўчай Скурай"/>
+  <string id="cla_rome_helm_republic_montefortino_iron_wblack" text="{.Zanocy}[Рэспубліка]Жалезная Монтэфарціна з Чорнай Воўчай Скурай"/>
+  <string id="cla_rome_helm_republic_montefortino_bronze_wbrown" text="{.Zanocy}[Рэспубліка]Бронзавая Монтэфарціна з Рудай Воўчай Скурай"/>
+  <string id="cla_rome_helm_republic_montefortino_iron_wbrown" text="{.Zanocy}[Рэспубліка]Жалезная Монтэфарціна з Рудай Воўчай Скурай"/>
+  <string id="cla_rome_helm_republic_montefortino_bronze_wgray" text="{.Zanocy}[Рэспубліка]Бронзавая Монтэфарціна з Шэрай Воўчай Скурай"/>
+  <string id="cla_rome_helm_republic_montefortino_iron_wgray" text="{.Zanocy}[Рэспубліка]Жалезная Монтэфарціна з Шэрай Воўчай Скурай"/>
+  <string id="cla_rome_helm_republic_montefortino_bronze_crest" text="{.Zanocy}[Рэспубліка]Бронзавая Монтэфарціна з Кляйнотам"/>
+  <string id="cla_rome_helm_republic_montefortino_iron_crest" text="{.Zanocy}[Рэспубліка]Жалезная Монтэфарціна з Кляйнотам"/>
+  <string id="cla_greek_helm_konos_bronze" text="{.Muzcynski}[Рэспубліка]Бронзавы Шлем-Конас"/>
+  <string id="cla_rome_helm_boeotian_iron_black" text="{.Muzcynski}[Рэспубліка]Біоскі Шлем з Кляйнотам"/>
+  <string id="cla_rome_helm_boeotian_iron_red" text="{.Muzcynski}[Рэспубліка]Біоскі Шлем з Кляйнотам"/>
+  <string id="cla_rome_helm_boeotian_iron_blue" text="{.Muzcynski}[Рэспубліка]Біоскі Шлем з Кляйнотам"/>
+  <string id="cla_rome_republic_greaves_single" text="{.Mnozny}[Рэспубліка]Бронзавыя Паножы"/>
+  <string id="cla_rome_republic_greaves" text="{.Mnozny}[Рэспубліка]Бронзавыя Паножы"/>
+  <string id="cla_rome_republic_greaves_expensive_single" text="{.Mnozny}[Рэспубліка]Бронзавыя Упрыгожаныя Паножы"/>
+  <string id="cla_rome_republic_greaves_expensive" text="{.Mnozny}[Рэспубліка]Бронзавыя Упрыгожаныя Паножы"/>
+  <string id="cla_rome_republic_cj_hamata" text="{.Zanocy}[Рэспубліка]Лорыка Хамата"/>
+  <string id="cla_rome_republic_cj_hamata_reinforced" text="{.Zanocy}[Рэспубліка]Лорыка Хамата Узмоцнены з Птэругамі"/>
+  <string id="cla_rome_republic_shield_scutum_tiro" text="{.Muzcynski}[Рэспубліка]Скутум Хастатуса"/>
+  <string id="cla_rome_republic_shield_scutum_miles" text="{.Muzcynski}[Рэспубліка]Скутум Прынцэпса"/>
+  <string id="cla_rome_republic_shield_scutum_officer" text="{.Muzcynski}[Repbulic]Скутум Трыарыуса"/>
+  <string id="cla_scythia_arm_invisible" text="{.Mnozny}[Сака]Нябачныя Наручы"/>
+  <string id="cla_scythia_arm_invisible_2" text="{.Mnozny}[Сака]Нябачныя Надзейныя Наручы"/>
+  <string id="cla_scythia_arm_invisible_3" text="{.Mnozny}[Сака]Нябачныя Узмоцненыя Наручы"/>
+  <string id="cla_scythia_invisible_shoulders_1" text="{.Mnozny}[Сака]Нябачныя Наплечнікі"/>
+  <string id="cla_scythia_invisible_shoulders_2" text="{.Mnozny}[Сака]Нябачныя Надзейныя Наплечнікі"/>
+  <string id="cla_scythia_pants_brown" text="{.Mnozny}[Сака]Пляменныя Штаны"/>
+  <string id="cla_scythia_pants_red" text="{.Mnozny}[Сака]Пляменныя Штаны"/>
+  <string id="cla_scythia_pants_black" text="{.Mnozny}[Сака]Пляменныя Штаны"/>
+  <string id="cla_scythia_pants_red_half" text="{.Mnozny}[Сака]Пляменныя Штаны"/>
+  <string id="cla_scythia_pants_red_blue_dots" text="{.Mnozny}[Сака]Пляменныя Штаны"/>
+  <string id="cla_scythia_pants_black_dots_gold" text="{.Mnozny}[Сака]Дарагія Пляменныя Штаны"/>
+  <string id="cla_scythia_pants_gray_gold" text="{.Mnozny}[Сака]Дарагія Пляменныя Штаны"/>
+  <string id="cla_schytian_pants" text="{.Mnozny}[Сака]Дарагія Пляменныя Штаны"/>
+  <string id="cla_scythia_pants_scale_half" text="{.Mnozny}[Сака]Паўлускатыя Штаны"/>
+  <string id="cla_scythia_pants_plate_half" text="{.Mnozny}[Сака]Паўпласьцінкавыя Штаны"/>
+  <string id="cla_scythia_pants_scale_full_brown" text="{.Mnozny}[Сака]Цалкам Лускатыя Штаны"/>
+  <string id="cla_scythia_pants_scale_full_blue" text="{.Mnozny}[Сака]Цалкам Лускатыя Штаны"/>
+  <string id="cla_scythia_tunic_red" text="{.Zanocy}[Сака]Пляменная Туніка"/>
+  <string id="cla_scythia_tunic_textile_fur" text="{.Zanocy}[Сака]Пляменная Туніка"/>
+  <string id="cla_scythia_tunic_leather_fur" text="{.Zanocy}[Сака]Пляменная Туніка"/>
+  <string id="cla_scythia_tunic_red_gold" text="{.Zanocy}[Сака]Дарагая Пляменная Туніка"/>
+  <string id="cla_scythia_tunic_brown_gold" text="{.Zanocy}[Сака]Дарагая Пляменная Туніка"/>
+  <string id="cla_scythia_tunic_black_gold" text="{.Zanocy}[Сака]Дарагая Пляменная Туніка"/>
+  <string id="cla_scythia_armor_leather" text="{.Zanocy}[Сака]Скураная Браня"/>
+  <string id="cla_scythia_armor_leather_scale_tan" text="{.Zanocy}[Сака]Луската над Скураной Бранёй"/>
+  <string id="cla_scythia_armor_leather_scale_red" text="{.Zanocy}[Сака]Луската над Скураной Бранёй"/>
+  <string id="cla_scythia_armor_scale_iron" text="{.Zanocy}[Сака]Жалезная Лускатая Браня"/>
+  <string id="cla_scythia_armor_scale_bronze" text="{.Zanocy}[Сака]Бронзавы Лускатая Браня"/>
+  <string id="cla_scythia_armor_scale_full" text="{.Zanocy}[Сака]Цяжкая Лускатая Браня"/>
+  <string id="cla_scythia_armor_plate_saka" text="{.Zanocy}[Сака]Пласьцінкавая Браня"/>
+  <string id="cla_scythia_hat_light" text="{.Muzcynski}[Сака]Пляменны Капялюх"/>
+  <string id="cla_scythia_hat_fur_leather" text="{.Muzcynski}[Сака]Пляменны Капялюх"/>
+  <string id="cla_scythia_hat_fur_fabric" text="{.Muzcynski}[Сака]Пляменны Капялюх"/>
+  <string id="cla_scythia_hat_red_dots" text="{.Muzcynski}[Сака]Пляменны Капялюх"/>
+  <string id="cla_schytian_hat_small_black" text="{.Muzcynski}[Сака]Пляменны Капялюх"/>
+  <string id="cla_scythia_hat_red_gold" text="{.Muzcynski}[Сака]Дарагі Пляменны Капялюх"/>
+  <string id="cla_scythian_hat" text="{.Muzcynski}[Сака]Дарагі Пляменны Капялюх"/>
+  <string id="cla_schytian_hat_small_light_gold" text="{.Muzcynski}[Сака]Дарагі Пляменны Капялюх"/>
+  <string id="cla_scythia_helm_bronze_leather" text="{.Muzcynski}[Сака]Бронзавы Шалом са Скурай"/>
+  <string id="cla_scythia_helm_bronze_scale" text="{.Muzcynski}[Сака]Бронзавы Шалом з Лускатай"/>
+  <string id="cla_scythian_helmet" text="{.Muzcynski}[Сака]Жалезны Шалом"/>
+  <string id="cla_scythia_helm_rams" text="{.Muzcynski}[Сака]Барані Шалом"/>
+  <string id="cla_scythia_shield_tower" text="{.Muzcynski}[Сака]Пласьцінавы Шчыт-Вежа"/>
+  <string id="cla_scythian_shield_c" text="{.Muzcynski}[Сака]Пласьцінавы Шчыт-Паўмесяц"/>
+  <string id="cla_scythian_shield_small_a" text="{.Muzcynski}[Сака]Плецены Маленькі Шчыт"/>
+  <string id="cla_scythia_adarga" text="{.Muzcynski}[Сака]Шчыт Коннага Лучніка"/>
+  <string id="cla_scythia_ornate_adarga" text="{.Muzcynski}[Сака]Цяжкі Шчыт Коннага Лучніка"/>
+  <string id="dawa_scythian_bow_1" text="{.Muzcynski}[Сака]Вішнёвы Лук"/>
+  <string id="dawa_scythian_bow_2" text="{.Muzcynski}[Сака]Цёмна-Сіні Лук"/>
+  <string id="dawa_scythian_bow_3" text="{.Muzcynski}[Сака]Паласаты Лук"/>
+  <string id="dawa_scythian_bow_4" text="{.Muzcynski}[Сака]Нефрытавы Лук"/>
+  <string id="cla_scythian_large_bodkin_arrows_a" text="{.Mnozny}[Сака]Складзеныя Стрэлы Качэўніка"/>
+  <string id="cla_scythia_steppe_arrows" text="{.Mnozny}[Сака]Стрэлы Качэўніка"/>
+  <string id="cla_scythia_sword_1" text="{.Muzcynski}[Сака]Утоены Меч"/>
+  <string id="cla_scythia_sword_2" text="{.Muzcynski}[Сака]Жалезны Меч"/>
+  <string id="cla_scythia_sword_3" text="{.Muzcynski}[Сака]Сталёвы Меч"/>
+  <string id="cla_scythia_sword_4" text="{.Muzcynski}[Сака]Файны Меч"/>
+  <string id="cla_scythia_sword_noble_5" text="{.Muzcynski}[Сака]Шляхетны Меч"/>
+  <string id="cla_scythia_sword_noble_6" text="{.Muzcynski}[Сака]Шляхетны Конны Меч"/>
+  <string id="cla_tartan_cape" text="[All]з Тартанам Плашч"/>
+  <string id="cla_cloak_heavy" text="[All]Heavy Покрыва"/>
+  <string id="cla_cloak_cjiaba_frilled_brown" text="[All]Гафраванае Наплечнае Покрыва"/>
+  <string id="cla_cloak_cjiaba_frilled_green" text="[All]Гафраванае Наплечнае Покрыва"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_brown" text="{.Nijaki}[Імперыя]Покрыва з Каптурам"/>
+  <string id="cla_rome_cloak_cjiaba_hood_up_blue" text="{.Nijaki}[Імперыя]Покрыва з Каптурам"/>
+  <string id="cla_rome_helm_cape_wolf_brown" text="{.Zanocy}[Імперыя]Рудая Воўчая Скура"/>
+  <string id="cla_rome_helm_cape_wolf_gray" text="{.Zanocy}[Імперыя]Шэрая Воўчая Скура"/>
+  <string id="cla_rome_helm_cape_wolf_black" text="{.Zanocy}[Імперыя]Чорная Воўчая Скура"/>
+  <string id="cla_cape_bear" text="{.Zanocy}[Імперыя]Мядзьведжая Скура"/>
+  <string id="cla_sling_1" text="{.Zanocy}[Прашча]Прашча"/>
+  <string id="cla_sling_2" text="{.Zanocy}[Прашча]Удасканаленая Прашча"/>
+  <string id="cla_sling_3" text="{.Zanocy}[Прашча]Узмоцненая Прашча"/>
+  <string id="cla_sling_stones" text="{.Mnozny}[Прашча]Каменныя Снарады"/>
+  <string id="cla_sling_stones_2" text="{.Mnozny}[Прашча]Гліняныя Снарады"/>
+  <string id="cla_sling_stones_3" text="{.Mnozny}[Прашча]Сьвінцовыя Снарады"/>
+  <string id="cla_body_tunic_sleeveless_bronze_white" text="{.Zanocy}[Агульнае]Туніка без Рукавоў"/>
+  <string id="cla_body_tunic_sleeveless_bronze_red" text="{.Zanocy}[Агульнае]Туніка без Рукавоў"/>
+  <string id="cla_body_tunic_sleeveless_bronze_green" text="{.Zanocy}[Агульнае]Туніка без Рукавоў"/>
+  <string id="cla_body_tunic_sleeveless_bronze_blue" text="{.Zanocy}[Агульнае]Туніка без Рукавоў"/>
+  <string id="cla_body_tunic_sleeveless_bronze_brown" text="{.Zanocy}[Агульнае]Туніка без Рукавоў"/>
+  <string id="ELsDFwAD" text="Віно{@Plural}амфараў віна{\@}"/>
+  <string id="k3dvbLDi" text="{.Nijaki}Сядло Энэя"/>
+ </strings>
+</base>
