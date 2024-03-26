@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+
+  <Kingdom id="goldenhorde"
+		   owner="Hero.lord_baltic_1a"
+		   banner_key="11.27.48.1836.1836.767.764.1.0.0.510.149.116.350.300.672.786.0.0.45.510.149.116.150.300.612.914.0.0.135.510.149.116.150.300.668.856.0.0.135.510.149.116.350.300.859.786.0.1.314.510.149.116.150.300.918.914.0.1.224.510.149.116.150.300.862.856.0.1.224.510.149.116.350.300.670.743.0.1.134.510.149.116.150.300.610.615.0.1.44.510.149.116.150.300.666.672.0.1.44.510.149.116.350.300.857.743.0.0.-135.510.149.116.150.300.916.615.0.0.-45.510.149.116.150.300.860.672.0.0.-45"
+		   primary_banner_color="0xff000000"
+		   secondary_banner_color="0xff940000"
+		   label_color="ffB01301"
+		   color="ffD22D33"
+		   color2="fff5f5f5"
+		   alternative_color="fff5f5f5"
+		   alternative_color2="ffD22D33"
+		   culture="Culture.goldenhorde"
+		   settlement_banner_mesh="encounter_flag_a"
+		   flag_mesh="info_screen_flags_b"
+		   name="{=baltic_tribes_name}The Baltic Tribes"
+		   short_name="{=baltic_tribes_short_name}Baltic Tribes"
+		   title="{=baltic_tribes_title}The Baltic Tribes"
+		   ruler_title="{=polish_ruler_title}Kunigas"
+		   text="{=baltic_tribes_text}In the 12th and 13th centuries, internal struggles and invasions by Ruthenians and Poles, and later the expansion of the Teutonic Order, resulted in an almost complete annihilation of the Galindians, Curonians, and Yotvingians. Gradually, Old Prussians became Germanized or Lithuanized between the 15th and 17th centuries, especially after the Reformation in Prussia. The cultures of the Lithuanians and Latgalians/Latvians survived and became the ancestors of the populations of the modern-day countries of Latvia and Lithuania.">
+    <relationships>
+		<relationship kingdom="Kingdom.rus" value="-50" isAtWar="false" />
+		<relationship kingdom="Kingdom.volhynia" value="-50" isAtWar="false" />
+		<relationship kingdom="Kingdom.polotsk" value="50" isAtWar="false" />
+		<relationship kingdom="Kingdom.poland" value="-25" isAtWar="false" />
+		<relationship kingdom="Kingdom.jatvingian" value="50" isAtWar="false" />
+	</relationships>
+    <policies>
+
+	</policies>
+  </Kingdom>
+  
+ </Kingdoms>
