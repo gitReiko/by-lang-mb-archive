@@ -14,12 +14,22 @@
 		<DependedModule Id="Sandbox" DependentVersion="v1.2.9"/>
 		<DependedModule Id="StoryMode" DependentVersion="v1.2.9"/>
 		<DependedModule Id="Belarusian Core" DependentVersion="v1.2.7"/>
+		<DependedModule Id="Belarusian Europe 1100" DependentVersion="v1.2.8"/>
 	</DependedModules>
 	<SubModules/>
 	<Xmls>
 
 		<XmlNode>
 		<XmlName id="Kingdoms" path="spkingdoms"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+		<XmlName id="SPCultures" path="baltic_culture"/>
 		<IncludedGameTypes>
 			<GameType value = "Campaign"/>
 			<GameType value = "CampaignStoryMode"/>
