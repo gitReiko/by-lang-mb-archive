@@ -18,6 +18,7 @@
 	<SubModules/>
 	<Xmls>
 
+
 		<XmlNode>
             <XmlName id="SPCultures" path="cultures"/>
             <IncludedGameTypes>
@@ -26,7 +27,7 @@
                 <GameType value="CustomGame"/>
             </IncludedGameTypes>
         </XmlNode>
-
+		<!-- Crash game
 		<XmlNode>
 			<XmlName id="Factions" path="clans"/>
 			<IncludedGameTypes>
@@ -36,6 +37,7 @@
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
+		-->
 
 		<XmlNode>                
 			<XmlName id="WorkshopTypes" path="workshops"/>
