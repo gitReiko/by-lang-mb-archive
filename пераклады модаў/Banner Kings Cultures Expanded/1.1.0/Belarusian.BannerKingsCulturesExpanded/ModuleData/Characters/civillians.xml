@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+	<NPCCharacter id="bannerkings_bookseller_darshi" name="{=bannerkings_bookseller_darshi.name}{FIRSTNAME}, the Scholar" default_group="Infantry" age="65" voice="softspoken" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Special">
+		<face>
+			<face_key_template value="BodyProperty.villager_aserai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="+1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.AR_monk_robe_a2"/>
+				<equipment slot="Leg" id="Item.folded_town_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bannerkings_bookseller_siri" name="{=bannerkings_bookseller_siri.name}{FIRSTNAME}, the Writess" default_group="Infantry" age="65" voice="softspoken" is_template="true" is_hero="false" culture="Culture.siri" is_female="true" occupation="Special">
+		<face>
+			<face_key_template value="BodyProperty.fighter_siri"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="+1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_civil_c"/>
+				<equipment slot="Head" id="Item.aserai_civil_c_head"/>
+				<equipment slot="Leg" id="Item.folded_town_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+</NPCCharacters>

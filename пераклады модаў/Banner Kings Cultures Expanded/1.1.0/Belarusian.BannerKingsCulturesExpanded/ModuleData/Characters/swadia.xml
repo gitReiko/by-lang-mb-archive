@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="bk_swadia_knight" default_group="Cavalry" level="31" name="{=bk_swadia_knight.name}Swadisch Herre" occupation="Soldier" culture="Culture.swadia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="110"/>
+      <skill id="Riding" value="180"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="50"/>
+      <skill id="Polearm" value="200"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="50"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_italonorman_1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_gambeson1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+			<equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
+			<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zau"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			<equipment slot="Item2" id="Item.wide_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_italonorman_1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_gambeson1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+			<equipment slot="Cape" id="Item.ota_northcloak_1"/>
+			<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zau"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			<equipment slot="Item2" id="Item.wide_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_f2"/>
+			<equipment slot="Body" id="Item.el_gambeson_twolayer_gambchain_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_1"/>
+			<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zau"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			<equipment slot="Item2" id="Item.wide_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_f2"/>
+			<equipment slot="Body" id="Item.el_gambeson_twolayer_gambchain_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+			<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zau"/>
+			<equipment slot="Item0" id="Item.AR_vlandia_axe_5_t5"/>
+			<equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			<equipment slot="Item2" id="Item.wide_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_j2"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+			<equipment slot="Cape" id="Item.ota_u_mailhood1"/>
+			<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zau"/>
+			<equipment slot="Item0" id="Item.AR_vlandia_axe_5_t5"/>
+			<equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			<equipment slot="Item2" id="Item.wide_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_j"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1_noble"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+			<equipment slot="Cape" id="Item.el_e_cloak_1"/>
+			<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zau"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+			<equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			<equipment slot="Item2" id="Item.wide_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_f"/>
+			<equipment slot="Body" id="Item.we_e_lmail_longtunic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.el_chasseus_1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_2"/>
+			<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zau"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+			<equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			<equipment slot="Item2" id="Item.wide_heater_shield"/>
+		</EquipmentRoster>
+	<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+
+
+  <NPCCharacter id="bk_swadia_squire" default_group="Cavalry" level="26" name="{=bk_swadia_squire.name}Swadisch Knappe" occupation="Soldier" is_basic_troop="true" culture="Culture.swadia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="150"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="160"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="40"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_swadia_knight"/>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+		<equipment slot="Head" id="Item.we_e_bayeux_nasal_p1"/> 
+		<equipment slot="Cape" id="Item.el_e_cloak_1"/>
+		<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+		<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+		<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+		<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+		<equipment slot="Item0" id="Item.AR_vlandia_axe_5_t5"/>
+		<equipment slot="Item1" id="Item.vlandia_lance_2_t4"/>
+		<equipment slot="Item2" id="Item.flat_heater_shield"/>
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+		<equipment slot="Head" id="Item.el_reinfoced_nasal_1"/> 
+		<equipment slot="Cape" id="Item.ota_u_downedhood_1"/>
+		<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+		<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+		<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+		<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+		<equipment slot="Item0" id="Item.AR_vlandia_axe_5_t5"/>
+		<equipment slot="Item1" id="Item.vlandia_lance_2_t4"/>
+		<equipment slot="Item2" id="Item.flat_heater_shield"/>
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+		<equipment slot="Head" id="Item.we_earlynasal_seam_1"/> 
+		<equipment slot="Cape" id="Item.ota_u_downedhood_2"/>
+		<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+		<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+		<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+		<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+		<equipment slot="Item0" id="Item.AR_vlandia_axe_5_t5"/>
+		<equipment slot="Item1" id="Item.vlandia_lance_2_t4"/>
+		<equipment slot="Item2" id="Item.flat_heater_shield"/>
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+		<equipment slot="Head" id="Item.brass_segmental_nasal_1"/> 
+		<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+		<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+		<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+		<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+		<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+		<equipment slot="Item1" id="Item.vlandia_lance_2_t4"/>
+		<equipment slot="Item2" id="Item.flat_heater_shield"/>
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+		<equipment slot="Head" id="Item.we_e_tiltednasal_1"/> 
+		<equipment slot="Body" id="Item.norman_longchain_1"/>
+		<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+		<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+		<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+		<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+		<equipment slot="Item1" id="Item.vlandia_lance_2_t4"/>
+		<equipment slot="Item2" id="Item.flat_heater_shield"/>
+	  </EquipmentRoster>
+	  <EquipmentRoster>
+		<equipment slot="Head" id="Item.we_nor_seg_nasal_1"/> 
+		<equipment slot="Body" id="Item.we_norman_chainmail_1"/>
+		<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>	
+		<equipment slot="Leg" id="Item.el_chasseus_1"/>
+		<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+		<equipment slot="HorseHarness" id="Item.celtic_frost"/>
+		<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+		<equipment slot="Item1" id="Item.vlandia_lance_2_t4"/>
+		<equipment slot="Item2" id="Item.flat_heater_shield"/>
+	  </EquipmentRoster>
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_swadia_burgman" default_group="Infantry" level="26" name="{=bk_swadia_burgman.name}Swadisch Burcma" occupation="Soldier" is_basic_troop="true" culture="Culture.swadia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="150"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="160"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="40"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	   <EquipmentRoster>
+			<equipment slot="Head" id="Item.el_e_p_nasal_chain_1"/> 
+			<equipment slot="Cape" id="Item.ota_northcloak_1"/>
+			<equipment slot="Body" id="Item.el_mailhauber_twolayer_gamb_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_thrown_spear_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_painted_nasal_1"/> 
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_thrown_spear_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_earlynasal_seam_1"/> 
+			<equipment slot="Cape" id="Item.ota_u_downedhood_2"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_thrown_spear_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.el_e_nasal_chain_1"/> 
+			<equipment slot="Cape" id="Item.ota_u_downedhood_1"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_thrown_spear_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.el_e_p_nasal_chain_1"/> 
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_thrown_spear_western"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_painted_nasal_1"/> 
+			<equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+			<equipment slot="Gloves" id="Item.el_mail_gloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.flat_heater_shield"/>
+			<equipment slot="Item2" id="Item.bk_thrown_spear_western"/>
+		</EquipmentRoster>
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <NPCCharacter id="bk_swadia_sergeant" default_group="Infantry" level="21" name="{=bk_swadia_sergeant.name}Swadisch Veltweibel" occupation="Soldier" culture="Culture.swadia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="120"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_earlynasal_seam_1"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.ota_u_boots_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t4"/>
+			<equipment slot="Item2" id="Item.flat_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_painted_nasal_1"/>
+			<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t4"/>
+			<equipment slot="Item2" id="Item.flat_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.el_e_nasal_chain_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.ota_u_boots_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t4"/>
+			<equipment slot="Item2" id="Item.flat_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_earlynasal_seam_1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_2"/>
+			<equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+			<equipment slot="Gloves" id="Item.leathergloves_1"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t4"/>
+			<equipment slot="Item2" id="Item.flat_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.el_e_p_nasal_chain_1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_1"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1"/>
+			<equipment slot="Gloves" id="Item.leathergloves_1"/>
+			<equipment slot="Leg" id="Item.ota_u_boots_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t4"/>
+			<equipment slot="Item2" id="Item.flat_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_swadia_militiaman" default_group="Infantry" level="16" name="{=bk_swadia_militiaman.name}Swadisch Militiaman" occupation="Soldier" culture="Culture.swadia" skill_template="SkillSet.bk_militia_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills/>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_swadia_sergeant"/>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/> 
+			<equipment slot="Cape" id="Item.ota_u_downedhood_1"/>
+			<equipment slot="Body" id="Item.el_w_long_gambeson_1"/>
+			<equipment slot="Gloves" id="Item.ota_e_sta_legloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item2" id="Item.small_heater_shield"/>
+		</EquipmentRoster>		
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_early_mun_nasal1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_2"/>
+			<equipment slot="Body" id="Item.el_e_sleevgambeson_1"/>
+			<equipment slot="Gloves" id="Item.ota_e_sta_legloves_1"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item2" id="Item.small_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_stacoif_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item2" id="Item.small_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.veiled_coif_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_k"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item2" id="Item.small_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ota_reg_skullcap_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_m"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item2" id="Item.small_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.saxon_spangen_helmet1"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.mercenary_gambeson"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item2" id="Item.small_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.orchowksi_nasal_1rag"/>
+			<equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<equipment slot="Body" id="Item.el_w_long_gambeson_1"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.light_mace_t3"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item2" id="Item.small_flat_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/>
+			<equipment slot="Body" id="Item.gambeson_b"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.light_mace_t3"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item2" id="Item.small_flat_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_mailcoif_1"/>
+			<equipment slot="Body" id="Item.aketon"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.light_mace_t3"/>
+			<equipment slot="Item1" id="Item.western_spear_4_t3"/>
+			<equipment slot="Item2" id="Item.small_flat_heater_shield"/>
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_swadia_sergeant_bill" default_group="Infantry" level="21" name="{=bk_swadia_sergeant_bill.name}Swadisch Spiezma" occupation="Soldier" culture="Culture.swadia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="60"/>
+      <skill id="TwoHanded" value="150"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_earlynasal_seam_1"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.ota_u_boots_1"/>
+			<equipment slot="Item0" id="Item.bk_swadia_bill_t4"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_painted_nasal_1"/>
+			<equipment slot="Body" id="Item.el_prec_mailtunic_1"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.bk_swadia_bill_t4"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.el_e_nasal_chain_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.ota_u_boots_1"/>
+			<equipment slot="Item0" id="Item.bk_swadia_bill_t4"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_earlynasal_seam_1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_2"/>
+			<equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+			<equipment slot="Gloves" id="Item.leathergloves_1"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.bk_swadia_bill_t4"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.el_e_nasal_chain_1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_1"/>
+			<equipment slot="Body" id="Item.el_e_mailhauberk_1"/>
+			<equipment slot="Gloves" id="Item.leathergloves_1"/>
+			<equipment slot="Leg" id="Item.ota_u_boots_1"/>
+			<equipment slot="Item0" id="Item.bk_swadia_bill_t4"/>
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="bk_swadia_militiaman_bill" default_group="Infantry" level="16" name="{=bk_swadia_militiaman_bill.name}Swadisch Militia Spiezma" occupation="Soldier" culture="Culture.swadia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="40"/>
+      <skill id="TwoHanded" value="100"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_swadia_sergeant_bill"/>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/> 
+			<equipment slot="Cape" id="Item.ota_u_downedhood_1"/>
+			<equipment slot="Body" id="Item.el_w_long_gambeson_1"/>
+			<equipment slot="Gloves" id="Item.ota_e_sta_legloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+		</EquipmentRoster>		
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_early_mun_nasal1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_2"/>
+			<equipment slot="Body" id="Item.el_e_sleevgambeson_1"/>
+			<equipment slot="Gloves" id="Item.ota_e_sta_legloves_1"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_stacoif_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.veiled_coif_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_k"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ota_reg_skullcap_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_m"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.saxon_spangen_helmet1"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.mercenary_gambeson"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.orchowksi_nasal_1rag"/>
+			<equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<equipment slot="Body" id="Item.el_w_long_gambeson_1"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/>
+			<equipment slot="Body" id="Item.gambeson_b"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_mailcoif_1"/>
+			<equipment slot="Body" id="Item.aketon"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="bk_swadia_levy" default_group="Infantry" level="11" name="{=bk_swadia_levy.name}Swadisch Levy" occupation="Soldier" culture="Culture.swadia" is_basic_troop="true" skill_template="SkillSet.bk_levy_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_swadia_militiaman"/>
+	  <upgrade_target id="NPCCharacter.bk_swadia_militiaman_bill"/>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.small_heater_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_1_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cloth_tunic"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.small_heater_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_1_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.small_heater_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_1_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.small_heater_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_1_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.small_heater_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_1_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.sackcloth_tunic"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item1" id="Item.worn_horsemans_kite_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_1_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item1" id="Item.worn_horsemans_kite_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_2_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.levy_hood_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.worn_horsemans_kite_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_2_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.arm_coif1"/>
+			<equipment slot="Body" id="Item.cloth_tunic"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item1" id="Item.worn_horsemans_kite_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_2_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leather_cap"/>
+			<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item1" id="Item.worn_horsemans_kite_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_2_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.laced_cloth_coif"/>
+			<equipment slot="Body" id="Item.cloth_tunic"/>
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h"/>
+			<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item1" id="Item.worn_horsemans_kite_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_2_t2"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.laced_coif"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h"/>
+			<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item1" id="Item.worn_horsemans_kite_shield"/>
+			<equipment slot="Item2" id="Item.western_spear_2_t2"/>
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <NPCCharacter id="bk_swadia_militiaman_crossbow" default_group="Ranged" level="16" name="{=bk_swadia_militiaman_crossbow.name}Swadisch Militia Crossbowman" occupation="Soldier" culture="Culture.swadia" skill_template="SkillSet.bk_militia_xbowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills/>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/> 
+			<equipment slot="Cape" id="Item.ota_u_downedhood_1"/>
+			<equipment slot="Body" id="Item.el_w_long_gambeson_1"/>
+			<equipment slot="Gloves" id="Item.ota_e_sta_legloves_1"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>		
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_early_mun_nasal1"/>
+			<equipment slot="Cape" id="Item.ota_u_downedhood_2"/>
+			<equipment slot="Body" id="Item.el_e_sleevgambeson_1"/>
+			<equipment slot="Gloves" id="Item.ota_e_sta_legloves_1"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_stacoif_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.veiled_coif_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_k"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ota_reg_skullcap_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_m"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.saxon_spangen_helmet1"/>
+			<equipment slot="Cape" id="Item.hood"/>
+			<equipment slot="Body" id="Item.mercenary_gambeson"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.we_e_loosepants_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.orchowksi_nasal_1rag"/>
+			<equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<equipment slot="Body" id="Item.el_w_long_gambeson_1"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_poorskullcap_1"/>
+			<equipment slot="Body" id="Item.gambeson_b"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.we_e_mailcoif_1"/>
+			<equipment slot="Body" id="Item.aketon"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_swadia_levy_crossbow" default_group="Ranged" level="11" name="{=bk_swadia_levy_crossbow.name}Swadisch Levy Crossbowman" occupation="Soldier" culture="Culture.swadia" is_basic_troop="true" skill_template="SkillSet.bk_levy_xbowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia"/>
+    </face>
+    <skills/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_swadia_militiaman_crossbow"/>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cloth_tunic"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<equipment slot="Leg" id="Item.el_we_poor_shoes_1"/>
+			<equipment slot="Item0" id="Item.vlandia_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.sackcloth_tunic"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.levy_hood_1"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.arm_coif1"/>
+			<equipment slot="Body" id="Item.cloth_tunic"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leather_cap"/>
+			<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+			<equipment slot="Leg" id="Item.poor_el_boots1"/>
+			<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.laced_cloth_coif"/>
+			<equipment slot="Body" id="Item.cloth_tunic"/>
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h"/>
+			<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.laced_coif"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h"/>
+			<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+ 
+
+</NPCCharacters>
