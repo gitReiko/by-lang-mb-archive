@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Belarusian Ancient Calradia"/>
+	<Id value = "Belarusian Ancient Calradia"/>
+	<Version value = "v1.0.0"/>
+	<DefaultModule value="true"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Author value="Denis Makouski (Reiko17)" />
+  	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.2.9"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.2.9"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.2.9"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.2.9"/>
+		<DependedModule Id="Belarusian Core" DependentVersion="v1.2.7"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls> 
+		<XmlNode>
+			<XmlName id="Scene" path="Scene"/>
+		</XmlNode>
+	</Xmls>
+</Module>
