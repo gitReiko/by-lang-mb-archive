@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="nordling_skirmisher" default_group="Infantry" level="16" name="{=nordling_skirmisher.name}Nordling Skirmisher" occupation="Soldier" culture="Culture.nordling">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="40"/>
+      <skill id="OneHanded" value="40"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="90"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="10"/>
+      <skill id="Throwing" value="70"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.nordling_trained_skirmisher"/>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t3"/>
+        <equipment slot="Item1" id="Item.northern_round_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.nasal_helmet_over_cloth_headwrap"/>
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
+        <equipment slot="Leg" id="Item.rough_tied_boots"/>
+        <equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+        <equipment slot="Gloves" id="Item.padded_vambrace"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t3"/>
+        <equipment slot="Item1" id="Item.northern_round_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+        <equipment slot="Body" id="Item.leather_scale_armor"/>
+        <equipment slot="Leg" id="Item.turndown_leather_boots"/>
+        <equipment slot="Cape" id="Item.battania_civil_cape"/>
+        <equipment slot="Gloves" id="Item.padded_vambrace"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t3"/>
+        <equipment slot="Item1" id="Item.northern_scouts_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.nasal_helmet_with_leather"/>
+        <equipment slot="Body" id="Item.leather_scale_armor"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Cape" id="Item.hood"/>
+        <equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t3"/>
+        <equipment slot="Item1" id="Item.northern_round_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.goggled_helmet_over_leather"/>
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
+        <equipment slot="Leg" id="Item.rough_tied_boots"/>
+        <equipment slot="Cape" id="Item.wrapped_scarf"/>
+        <equipment slot="Gloves" id="Item.padded_vambrace"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t3"/>
+        <equipment slot="Item1" id="Item.northern_round_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.nasal_helmet_over_cloth_headwrap"/>
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
+        <equipment slot="Leg" id="Item.turndown_leather_boots"/>
+        <equipment slot="Cape" id="Item.battania_civil_cape"/>
+        <equipment slot="Gloves" id="Item.padded_vambrace"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t3"/>
+        <equipment slot="Item1" id="Item.northern_scouts_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif"/>
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t3"/>
+        <equipment slot="Item1" id="Item.northern_round_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_coif"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Leg" id="Item.rough_tied_boots"/>
+        <equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+        <equipment slot="Gloves" id="Item.padded_vambrace"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t3"/>
+        <equipment slot="Item1" id="Item.northern_round_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.nasal_helmet_over_padded_cloth"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Leg" id="Item.turndown_leather_boots"/>
+        <equipment slot="Gloves" id="Item.padded_vambrace"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_2_t3"/>
+        <equipment slot="Item1" id="Item.northern_scouts_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.goggled_helmet_over_leather"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_2_t3"/>
+        <equipment slot="Item1" id="Item.northern_round_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.nasal_helmet_over_laced_coif"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Leg" id="Item.rough_tied_boots"/>
+        <equipment slot="Cape" id="Item.battania_civil_cape"/>
+        <equipment slot="Gloves" id="Item.padded_vambrace"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_2_t3"/>
+        <equipment slot="Item1" id="Item.northern_round_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.goggled_helmet_over_leather"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Leg" id="Item.turndown_leather_boots"/>
+        <equipment slot="Cape" id="Item.wolf_shoulder"/>
+        <equipment slot="Gloves" id="Item.padded_vambrace"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_2_t3"/>
+        <equipment slot="Item1" id="Item.northern_scouts_shield"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.nasalhelm_over_mail"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+      </EquipmentRoster>
+	   <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+   <NPCCharacter id="nordling_trained_skirmisher" default_group="Infantry" level="21" name="{=nordling_trained_skirmisher.name}Nordling Veteran Skirmisher" occupation="Soldier" culture="Culture.nordling">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="60"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="20"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="110"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.nordling_skirmisher_veteran"/>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+		<equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item1" id="Item.viking_round_shield"/>
+        <equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve"/>
+        <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item1" id="Item.viking_round_shield"/>
+        <equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
+        <equipment slot="Body" id="Item.vlandia_chainmail"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+        <equipment slot="Cape" id="Item.bearskin"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+		<equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.nasal_helmet_with_mail"/>
+        <equipment slot="Body" id="Item.mail_shirt"/>
+        <equipment slot="Leg" id="Item.woven_leather_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+        <equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item1" id="Item.viking_round_shield"/>
+        <equipment slot="Head" id="Item.northern_goggled_helmet"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_armor"/>
+        <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+        <equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+        <equipment slot="Head" id="Item.goggled_helmet_over_mail"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+        <equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item1" id="Item.viking_round_shield"/>
+        <equipment slot="Head" id="Item.goggled_helmet_over_mail"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Leg" id="Item.woven_leather_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+        <equipment slot="Cape" id="Item.wolf_shoulder"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+        <equipment slot="Head" id="Item.sturgian_helmet_b_open"/>
+        <equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+        <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+        <equipment slot="Cape" id="Item.battania_civil_cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item1" id="Item.viking_round_shield"/>
+        <equipment slot="Head" id="Item.sturgian_helmet_b_open"/>
+        <equipment slot="Body" id="Item.nordic_hauberk"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+        <equipment slot="Cape" id="Item.wolf_shoulder"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+		<equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.sturgian_helmet_open"/>
+        <equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+        <equipment slot="Leg" id="Item.woven_leather_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+        <equipment slot="Cape" id="Item.armored_bearskin"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item1" id="Item.viking_round_shield"/>
+        <equipment slot="Head" id="Item.sturgian_helmet_open"/>
+        <equipment slot="Body" id="Item.vlandia_chainmail"/>
+        <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+        <equipment slot="Cape" id="Item.armored_bearskin"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+        <equipment slot="Head" id="Item.vaegir_helmet_open"/>
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+        <equipment slot="Cape" id="Item.bearskin"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t4"/>
+        <equipment slot="Item1" id="Item.viking_round_shield"/>
+		<equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.vaegir_helmet_open"/>
+        <equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve"/>
+        <equipment slot="Leg" id="Item.woven_leather_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+        <equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+        <equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+        <equipment slot="Head" id="Item.northern_goggled_helmet"/>
+        <equipment slot="Body" id="Item.vlandia_chainmail"/>
+        <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+        <equipment slot="Cape" id="Item.bearskin"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+        <equipment slot="Item1" id="Item.viking_round_shield"/>
+		<equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Head" id="Item.nasal_helmet_over_mail"/>
+        <equipment slot="Body" id="Item.mail_shirt"/>
+        <equipment slot="Leg" id="Item.woven_leather_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+        <equipment slot="Cape" id="Item.battania_shoulder_strap"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+        <equipment slot="Item3" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_a"/>
+        <equipment slot="Head" id="Item.nasal_helmet_over_mail_coif"/>
+        <equipment slot="Body" id="Item.mail_shirt"/>
+        <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+        <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+        <equipment slot="Cape" id="Item.stitched_leather_shoulders"/>
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="nordling_skirmisher_veteran" default_group="Infantry" level="26" name="{=nordling_skirmisher_veteran.name}Nordling Wildling" occupation="Soldier" culture="Culture.nordling">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="60"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="160"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t5"/>
+        <equipment slot="Item1" id="Item.strapped_round_shield"/>
+        <equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.sturgian_helmet_closed"/>
+        <equipment slot="Cape" id="Item.wolf_shoulder"/>
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve"/>
+        <equipment slot="Leg" id="Item.plated_strip_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t5"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+        <equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.goggled_helmet_over_full_mail"/>
+        <equipment slot="Cape" id="Item.battania_civil_cape"/>
+        <equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+        <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+        <equipment slot="Gloves" id="Item.mail_mitten"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t5"/>
+        <equipment slot="Item1" id="Item.strapped_round_shield"/>
+		<equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.sturgian_helmet_closed"/>
+        <equipment slot="Cape" id="Item.armored_bearskin"/>
+        <equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+        <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t5"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+        <equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.sturgian_helmet_closed"/>
+        <equipment slot="Cape" id="Item.wolf_shoulder"/>
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve"/>
+        <equipment slot="Leg" id="Item.plated_strip_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t5"/>
+        <equipment slot="Item1" id="Item.strapped_round_shield"/>
+        <equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.sturgian_helmet_b_close"/>
+        <equipment slot="Cape" id="Item.battania_civil_cape"/>
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve"/>
+        <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+        <equipment slot="Gloves" id="Item.mail_mitten"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t5"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+		<equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.sturgian_helmet_b_close"/>
+        <equipment slot="Cape" id="Item.wrapped_scarf"/>
+        <equipment slot="Body" id="Item.sturgian_chainmale_longsleeve"/>
+        <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t5"/>
+        <equipment slot="Item1" id="Item.strapped_round_shield"/>
+        <equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.vaegir_helmet_closed"/>
+        <equipment slot="Cape" id="Item.lamellar_shoulder_scarf"/>
+        <equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+        <equipment slot="Leg" id="Item.plated_strip_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t5"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+        <equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.vaegir_helmet_closed"/>
+        <equipment slot="Cape" id="Item.lamellar_shoulder"/>
+        <equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+        <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+        <equipment slot="Gloves" id="Item.mail_mitten"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordling_spear_t5"/>
+        <equipment slot="Item1" id="Item.strapped_round_shield"/>
+		<equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.tv_vlandia_helmet_f"/>
+        <equipment slot="Cape" id="Item.a_battania_cloak_a"/>
+        <equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+        <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+        <equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.tv_vlandia_helmet_f"/>
+        <equipment slot="Cape" id="Item.bearskin"/>
+        <equipment slot="Body" id="Item.nordic_hauberk"/>
+        <equipment slot="Leg" id="Item.plated_strip_boots"/>
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+        <equipment slot="Item1" id="Item.strapped_round_shield"/>
+        <equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.tv_vlandia_helmet_f"/>
+        <equipment slot="Body" id="Item.hauberk"/>
+        <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_spear_4_t5"/>
+        <equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+		<equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+        <equipment slot="Head" id="Item.goggled_helmet_over_full_mail"/>
+        <equipment slot="Cape" id="Item.wolf_shoulder"/>
+        <equipment slot="Body" id="Item.hauberk"/>
+        <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+</NPCCharacters>

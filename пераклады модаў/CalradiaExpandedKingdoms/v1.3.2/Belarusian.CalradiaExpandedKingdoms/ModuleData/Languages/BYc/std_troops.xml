@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <!--input/troops/apolssalian.xml-->
+  <string id="npc.apolssalian_noble_recruit" text="Аполсэльскі Арыстакрат-Маладзён"/>
+  <string id="npc.apolssalian_noble_horseman" text="Аполсэльскі Шляхетны Коньнік"/>
+  <string id="npc.apolssalian_noble_lancer" text="Аполсэльскі Шляхетны Улан"/>
+  <string id="npc.apolssalian_companion" text="Аполсэльскі Кампаньён"/>
+  <string id="npc.apolssalian_honor_companion" text="Аполсэльскі Гонарлівы Кампаньён"/>
+  <string id="npc.apolssalian_recruit" text="Аполсэльскі Рэкрут"/>
+  <string id="npc.apolssalian_footman" text="Аполсэльскі Пехацінец"/>
+  <string id="npc.apolssalian_pikeman" text="Аполсэльскі Фалангіт-Навік"/>
+  <string id="npc.apolssalian_trained_pikeman" text="Аполсэльскі Фалангіт"/>
+  <string id="npc.apolssalian_expert_pikeman" text="Аполсэльскі Фалангіт-Ветэран"/>
+  <string id="npc.apolssalian_ekdromos" text="Аполсэльскі Экдромас"/>
+  <string id="npc.apolssalian_trained_ekdromos" text="Аполсэльскі Экдромас-Ветэран"/>
+  <string id="npc.apolssalian_hunter" text="Аполсэльскі Паляўнічы"/>
+  <string id="npc.apolssalian_bowman" text="Аполсэльскі Токсатэс-Навік"/>
+  <string id="npc.apolssalian_trained_bowman" text="Аполсэльскі Токсатэс"/>
+  <string id="npc.apolssalian_veteran_bowman" text="Аполсэльскі Токсатэс-Ветэран"/>
+  <string id="npc.apolssalian_peltast" text="Аполсэльскі Пельтаст"/>
+  <string id="npc.apolssalian_agrianian" text="Аполсэльскі Агрыянскі Пельтаст"/>
+  <string id="npc.apolssalian_veteran_agrianian" text="Аполсэльскі Агрыянскі Пельтаст-Ветэран"/>
+  <!--input/troops/aserai.xml-->
+  <string id="npc.aserai_recruit_new" text="Эсэрайскі Рэкрут"/>
+  <string id="npc.aserai_tribesman_new" text="Эсэрайскі Суродзіч"/>
+  <string id="npc.aserai_footman_new" text="Эсэрайскі Пехацінец"/>
+  <string id="npc.aserai_skirmisher_new" text="Эсэрайскі Застрэльнік"/>
+  <string id="npc.aserai_archer_new" text="Эсэрайскі Лучнік"/>
+  <string id="npc.aserai_master_archer_new" text="Эсэрайскі Каннаас"/>
+  <string id="npc.aserai_camel_recruit" text="Эсэрайскі Вярблюджы Наезьнік"/>
+  <string id="npc.aserai_camel_archer" text="Эсэрайскі Вярблюджы Лучнік"/>
+  <string id="npc.aserai_camel_marksman" text="Эсэрайскі Вярблюджы Каннаас"/>
+  <string id="npc.aserai_camel_warrior" text="Эсэрайскі Вярблюджы Ваяр"/>
+  <string id="npc.aserai_camel_lancer" text="Эсэрайскі Вярблюджы Улан"/>
+  <string id="npc.aserai_infantry_new" text="Эсэрайскі Пяхотнік"/>
+  <string id="npc.aserai_veteran_infantry_new" text="Эсэрайскі Пяхотнік-Ветэран"/>
+  <string id="npc.aserai_mameluke_soldier_new" text="Эсэрайскі Мамлюк-Салдат"/>
+  <string id="npc.aserai_mameluke_regular_new" text="Эсэрайскі Мамлюк-Коньнік"/>
+  <string id="npc.aserai_mameluke_cavalry_new" text="Эсэрайскі Мамлюк-Вершнік"/>
+  <string id="npc.aserai_mameluke_heavy_cavalry_new" text="Эсэрайскі Цяжкі Мамлюк-Вершнік"/>
+  <string id="npc.aserai_mameluke_axeman_new" text="Эсэрайскі Мамлюк-Сякірнік"/>
+  <string id="npc.aserai_mameluke_guard_new" text="Эсэрайскі Мамлюк-Гвардзеец"/>
+  <string id="npc.mamluke_palace_guard_new" text="Эсэрайскі Палацавы Мамлюк-Гвардзеец"/>
+  <string id="npc.aserai_youth_new" text="Эсэрайскі Шляхетны Маладзён"/>
+  <string id="npc.aserai_tribal_horseman_new" text="Эсэрайскі Пляменны Коньнік"/>
+  <string id="npc.aserai_faris_new" text="Эсэрайскі Фаарыс"/>
+  <string id="npc.aserai_veteran_faris_new" text="Эсэрайскі Фаарыс-Ветэран"/>
+  <string id="npc.aserai_vanguard_faris_new" text="Эсэрайскі Фаарыс-Талія"/>
+  <!--input/troops/bandits.xml-->
+  <string id="npc.looter" text="Рабаўнік"/>
+  <string id="npc.pillager" text="Грабежнік"/>
+  <string id="npc.deserter" text="Дэзэртыр"/>
+  <string id="npc.sea_raiders_bandit" text="Марскі Налётнік"/>
+  <string id="npc.sea_raiders_raider" text="Марскі Налётнік-Ваяр"/>
+  <string id="npc.sea_raiders_chief" text="Правадыр Марскіх Налётнікаў"/>
+  <string id="npc.mountain_bandits_bandit" text="Горнік"/>
+  <string id="npc.mountain_bandits_raider" text="Разбойнік"/>
+  <string id="npc.mountain_bandits_chief" text="Прыдарожны Грабежнік"/>
+  <string id="npc.forest_bandits_trapper" text="Лавец"/>
+  <string id="npc.forest_bandits_ambusher" text="Засаднік"/>
+  <string id="npc.forest_bandits_bandit" text="Куставы Лайдак"/>
+  <string id="npc.forest_bandits_raider" text="Босаногі"/>
+  <string id="npc.forest_bandits_chief" text="Лясны Бандыт"/>
+  <string id="npc.desert_bandits_bandit" text="Бедуін-Вандроўнік"/>
+  <string id="npc.desert_bandits_raider" text="Качэўнік-Бандыт"/>
+  <string id="npc.desert_bandits_chief" text="Харамі"/>
+  <string id="npc.steppe_bandits_bandit" text="Стэпавы Бандыт"/>
+  <string id="npc.steppe_bandits_raider" text="Марадзёр"/>
+  <string id="npc.steppe_bandits_chief" text="Налётнік"/>
+  <string id="npc.sea_raiders_boss" text="Верхавод Марскіх Налётнікаў"/>
+  <string id="npc.mountain_bandits_boss" text="Верхавод Горных Бандытаў"/>
+  <string id="npc.forest_bandits_boss" text="Верхавод Лясных Бандытаў"/>
+  <string id="npc.desert_bandits_boss" text="Верхавод Пустэльных Бандытаў"/>
+  <string id="npc.steppe_bandits_boss" text="Верхавод Стэпавых Бандытаў"/>
+  <!--input/troops/battania.xml-->
+  <string id="npc.battanian_volunteer_new" text="Баттанійскі Самаахвотнік"/>
+  <string id="npc.battanian_clanwarrior_new" text="Баттанійскі Ваяр Клану"/>
+  <string id="npc.battanian_trained_warrior_new" text="Баттанійскі Навучаны Ваяр"/>
+  <string id="npc.battanian_picked_warrior_new" text="Баттанійскі Абраны Ваяр"/>
+  <string id="npc.battanian_oathsworn_new" text="Баттанійскі Прысягацель"/>
+  <string id="npc.battanian_raider_new" text="Баттанійскі Налётнік"/>
+  <string id="npc.battanian_falxman_new" text="Баттанійскі Фальксман"/>
+  <string id="npc.battanian_veteran_falxman_new" text="Баттанійскі Фальксман-Ветэран"/>
+  <string id="npc.battanian_woodrunner_new" text="Баттанійскі Лясны Бягун"/>
+  <string id="npc.battanian_skirmisher_new" text="Баттанійскі Застрэльнік"/>
+  <string id="npc.battanian_veteran_skirmisher_new" text="Баттанійскі Застрэльнік-Ветэран"/>
+  <string id="npc.battanian_wildling_new" text="Баттанійскі Адзічэлы"/>
+  <string id="npc.battanian_archer" text="Баттанійскі Лучнік"/>
+  <string id="npc.battanian_veteran_archer" text="Баттанійскі Лучнік-Ветэран"/>
+  <string id="npc.battanian_wolf_archer" text="Баттанійскі Дзікі Стралок"/>
+  <string id="npc.battanian_highborn_youth_new" text="Баттанійскі Высакародны Маладзён"/>
+  <string id="npc.battanian_highborn_warrior_new" text="Баттанійскі Высакародны Ваяр"/>
+  <string id="npc.battanian_hero_new" text="Баттанійскі Герой"/>
+  <string id="npc.battanian_fian_new" text="Баттанійскі Фіан"/>
+  <string id="npc.battanian_fian_champion_new" text="Баттанійскі Фіан-Чэмпіён"/>
+  <string id="npc.battanian_scout_new" text="Баттанійскі Выведнік"/>
+<string id="npc.battanian_horseman_new" text="Баттанійскі Горны Наезьнік"/>
+  <string id="npc.battanian_mounted_skirmisher_new" text="Баттанійскі Горны Застрэльнік"/>
+  <string id="npc.battanian_cavalry_new" text="Баттанійскі Горны Вершнік"/>
+  <string id="npc.retinue_battanian_2" text="Баттанійскі Рыога Фіан"/>
+  <string id="npc.highlander_mercenary_2" text="Горны Найміт-Застрэльнік"/>
+  <string id="npc.highlander_mercenary_3" text="Горны Найміт-Дротыкар"/>
+  <string id="npc.highlander_mercenary_4" text="Горны Найміт-Ветэран"/>
+  <!--input/troops/caravans.xml-->
+  <string id="npc.caravan_master_apolssalian" text="Аполсэльскі Майстар Караванаў"/>
+  <string id="npc.armed_trader_apolssalian" text="Аполсэльскі Узброены Гандляр"/>
+  <string id="npc.caravan_guard_apolssalian" text="Аполсэльскі Ахоўнік Караванаў"/>
+  <string id="npc.veteran_caravan_guard_apolssalian" text="Аполсэльскі Ахоўнік Караванаў Ветэран"/>
+  <string id="npc.apolssalian_militia_archer" text="Аполсэльскі Лучнік Рушэньня"/>
+  <string id="npc.apolssalian_militia_veteran_archer" text="Аполсэльскі Лучнік-Ветэран Рушэньня"/>
+  <string id="npc.apolssalian_militia_spearman" text="Аполсэльскі Капійнік Рушэньня"/>
+  <string id="npc.apolssalian_militia_veteran_spearman" text="Аполсэльскі Капійнік-Ветэран Рушэньня"/>
+  <string id="npc.caravan_master_ariorum" text="Арыёрумскі Майстар Караванаў"/>
+  <string id="npc.armed_trader_ariorum" text="Арыёрумскі Узброены Гандляр"/>
+  <string id="npc.caravan_guard_ariorum" text="Арыёрумскі Ахоўнік Караванаў"/>
+  <string id="npc.veteran_caravan_guard_ariorum" text="Арыёрумскі Ахоўнік Караванаў Ветэран"/>
+  <string id="npc.ariorum_militia_archer" text="Арыёрумскі Гарадзкі Лучнік"/>
+  <string id="npc.ariorum_militia_archer_veteran" text="Арыёрумскі Палацавы Ахоўнік"/>
+  <string id="npc.ariorum_militia_infantry" text="Арыёрумскі Гарадзкі Вартавы"/>
+  <string id="npc.ariorum_militia_infantry_veteran" text="Арыёрумскі Гаспадарскі Вартавы"/>
+  <string id="npc.caravan_master_lyrion" text="Лірыйскі Майстар Караванаў"/>
+  <string id="npc.armed_trader_lyrion" text="Лірыйскі Узброены Гандляр"/>
+  <string id="npc.caravan_guard_lyrion" text="Лірыйскі Ахоўнік Караванаў"/>
+  <string id="npc.veteran_caravan_guard_lyrion" text="Лірыйскі Ахоўнік Караванаў Ветэран"/>
+  <string id="npc.lyrion_militia_archer" text="Лірыйскі Лучнік Рушэньня"/>
+  <string id="npc.lyrion_militia_veteran_archer" text="Лірыйскі Лучнік-Ветэран Рушэньня"/>
+  <string id="npc.lyrion_militia_spearman" text="Лірыйскі Капійнік Рушэньня"/>
+  <string id="npc.lyrion_militia_veteran_spearman" text="Лірыйскі Капійнік-Ветэран Рушэньня"/>
+  <string id="npc.caravan_master_nordling" text="Нордлінскі Майстар Караванаў"/>
+  <string id="npc.armed_trader_nordling" text="Нордлінскі Узброены Гандляр"/>
+  <string id="npc.caravan_guard_nordling" text="Нордлінскі Ахоўнік Караванаў"/>
+  <string id="npc.veteran_caravan_guard_nordling" text="Нордлінскі Ахоўнік Караванаў Ветэран"/>
+  <string id="npc.nordling_militia_archer" text="Нордлінскі Лучнік Рушэньня"/>
+  <string id="npc.nordling_militia_veteran_archer" text="Нордлінскі Лучнік-Ветэран Рушэньня"/>
+  <string id="npc.nordling_militia_spearman" text="Нордлінскі Капійнік Рушэньня"/>
+  <string id="npc.nordling_militia_veteran_spearman" text="Нордлінскі Капійнік-Ветэран Рушэньня"/>
+  <string id="npc.caravan_master_paleician" text="Палейцкі Майстар Караванаў"/>
+  <string id="npc.armed_trader_paleician" text="Палейцкі Узброены Гандляр"/>
+  <string id="npc.caravan_guard_paleician" text="Палейцкі Ахоўнік Караванаў"/>
+  <string id="npc.veteran_caravan_guard_paleician" text="Палейцкі Ахоўнік Караванаў Ветэран"/>
+  <string id="npc.paleician_militia_archer" text="Палейцкі Лучнік Рушэньня"/>
+  <string id="npc.paleician_militia_veteran_archer" text="Палейцкі Лучнік-Ветэран Рушэньня"/>
+  <string id="npc.paleician_militia_spearman" text="Палейцкі Капійнік Рушэньня"/>
+  <string id="npc.paleician_militia_veteran_spearman" text="Палейцкі Капійнік-Ветэран Рушэньня"/>
+  <string id="npc.caravan_master_rebkhu" text="Хергіцкі Майстар Караванаў"/>
+  <string id="npc.armed_trader_rebkhu" text="Хергіцкі Узброены Гандляр"/>
+  <string id="npc.caravan_guard_rebkhu" text="Хергіцкі Ахоўнік Караванаў"/>
+  <string id="npc.veteran_caravan_guard_rebkhu" text="Хергіцкі Ахоўнік Караванаў Ветэран"/>
+  <string id="npc.rebkhu_militia_archer" text="Хергіцкі Лучнік Рушэньня"/>
+  <string id="npc.rebkhu_militia_veteran_archer" text="Хергіцкі Лучнік-Ветэран Рушэньня"/>
+  <string id="npc.rebkhu_militia_spearman" text="Хергіцкі Капійнік Рушэньня"/>
+  <string id="npc.rebkhu_militia_veteran_spearman" text="Хергіцкі Капійнік-Ветэран Рушэньня"/>
+  <string id="npc.caravan_master_republic" text="Рэспубліканскі Майстар Караванаў"/>
+  <string id="npc.armed_trader_republic" text="Рэспубліканскі Узброены Гандляр"/>
+  <string id="npc.caravan_guard_republic" text="Рэспубліканскі Ахоўнік Караванаў"/>
+  <string id="npc.veteran_caravan_guard_republic" text="Рэспубліканскі Ахоўнік Караванаў Ветэран"/>
+  <string id="npc.republic_militia_archer" text="Рэспубліканскі Лучнік Рушэньня"/>
+  <string id="npc.republic_militia_veteran_archer" text="Рэспубліканскі Лучнік-Ветэран Рушэньня"/>
+  <string id="npc.republic_militia_spearman" text="Рэспубліканскі Капійнік Рушэньня"/>
+  <string id="npc.republic_militia_veteran_spearman" text="Рэспубліканскі Капійнік-Ветэран Рушэньня"/>
+  <string id="npc.caravan_master_rhodok" text="Родаскі Майстар Караванаў"/>
+  <string id="npc.armed_trader_rhodok" text="Родаскі Узброены Гандляр"/>
+  <string id="npc.caravan_guard_rhodok" text="Родаскі Ахоўнік Караванаў"/>
+  <string id="npc.veteran_caravan_guard_rhodok" text="Родаскі Ахоўнік Караванаў Ветэран"/>
+  <string id="npc.rhodok_militia_archer" text="Родаскі Лучнік Рушэньня"/>
+  <string id="npc.rhodok_militia_veteran_archer" text="Родаскі Лучнік-Ветэран Рушэньня"/>
+  <string id="npc.rhodok_militia_spearman" text="Родаскі Капійнік Рушэньня"/>
+  <string id="npc.rhodok_militia_veteran_spearman" text="Родаскі Капійнік-Ветэран Рушэньня"/>
+  <string id="npc.caravan_master_vagir" text="Вагірскі Майстар Караванаў"/>
+  <string id="npc.armed_trader_vagir" text="Вагірскі Узброены Гандляр"/>
+  <string id="npc.caravan_guard_vagir" text="Вагірскі Ахоўнік Караванаў"/>
+  <string id="npc.veteran_caravan_guard_vagir" text="Вагірскі Ахоўнік Караванаў Ветэран"/>
+  <string id="npc.vagir_militia_archer" text="Вагірскі Лучнік Рушэньня"/>
+  <string id="npc.vagir_militia_veteran_archer" text="Вагірскі Лучнік-Ветэран Рушэньня"/>
+  <string id="npc.vagir_militia_spearman" text="Вагірскі Капійнік Рушэньня"/>
+  <string id="npc.vagir_militia_veteran_spearman" text="Вагірскі Капійнік-Ветэран Рушэньня"/>
+  <string id="nDoENDqD" text="Эсэрайскі Майстар Караванаў"/>
+  <string id="LKb8DXby" text="Баттанійскі Майстар Караванаў"/>
+  <string id="TpECDErA" text="Імперскі Майстар Караванаў"/>
+  <string id="WEHDGbEE" text="Хузаіцкі Майстар Караванаў"/>
+  <string id="uDseaKcb" text="Стургійскі Майстар Караванаў"/>
+  <string id="QbSjMefR" text="Вландыйскі Майстар Караванаў"/>
+  <string id="8TdbKFa9" text="Эсэрайскі Узброены Гандляр"/>
+  <string id="v8hRrmY2" text="Баттанійскі Узброены Гандляр"/>
+  <string id="LEJukldW" text="Імперскі Узброены Гандляр"/>
+  <string id="l6NFOl8c" text="Хузаіцкі Узброены Гандляр"/>
+  <string id="cPQx1RXt" text="Стургійскі Узброены Гандляр"/>
+  <string id="X12lazIs" text="Вландыйскі Узброены Гандляр"/>
+  <string id="yG42k5GC" text="Эсэрайскі Ахоўнік Караванаў"/>
+  <string id="qfaTMEBw" text="Баттанійскі Ахоўнік Караванаў"/>
+  <string id="TbBnWiao" text="Імперскі Ахоўнік Караванаў"/>
+  <string id="THOfB9DZ" text="Хузаіцкі Ахоўнік Караванаў"/>
+  <string id="pzmgMODE" text="Стургійскі Ахоўнік Караванаў"/>
+  <string id="rQ0t0Wws" text="Вландыйскі Ахоўнік Караванаў"/>
+  <string id="QlVeZvbv" text="Эсэрайскі Ахоўнік Караванаў Ветэран"/>
+  <string id="juBPAThy" text="Баттанійскі Ахоўнік Караванаў Ветэран"/>
+  <string id="bLq2HXMo" text="Імперскі Ахоўнік Караванаў Ветэран"/>
+  <string id="6hhspFvz" text="Хузаіцкі Ахоўнік Караванаў Ветэран"/>
+  <string id="0GkJB08d" text="Стургійскі Ахоўнік Караванаў Ветэран"/>
+  <string id="YE4RGuzU" text="Вландыйскі Ахоўнік Караванаў Ветэран"/>
+  <string id="CPcJ2gRF" text="Эсэрайскі Лучнік Рушэньня"/>
+  <string id="tL6aGah4" text="Эсэрайскі Лучнік-Ветэран Рушэньня"/>
+  <string id="ULaNn3pp" text="Эсэрайскі Капійнік Рушэньня"/>
+  <string id="Pd9qAiOu" text="Эсэрайскі Капійнік-Ветэран Рушэньня"/>
+  <string id="vkuJeNSa" text="Вландыйскі Лучнік Рушэньня"/>
+  <string id="DNIa6a5p" text="Вландыйскі Лучнік-Ветэран Рушэньня"/>
+  <string id="aUHtqC9o" text="Вландыйскі Капійнік Рушэньня"/>
+  <string id="vGFdbjFC" text="Вландыйскі Капійнік-Ветэран Рушэньня"/>
+  <string id="b4QPaEnA" text="Баттанійскі Лучнік Рушэньня"/>
+  <string id="i5DfUz6D" text="Баттанійскі Лучнік-Ветэран Рушэньня"/>
+  <string id="L0cGAnWw" text="Баттанійскі Капійнік Рушэньня"/>
+  <string id="IxcCmtxz" text="Баттанійскі Капійнік-Ветэран Рушэньня"/>
+  <string id="P8EATvn8" text="Імперскі Лучнік Рушэньня"/>
+  <string id="HsboF2mR" text="Імперскі Лучнік-Ветэран Рушэньня"/>
+  <string id="ZhKoCVby" text="Імперскі Капійнік Рушэньня"/>
+  <string id="c5rVdg75" text="Імперскі Капійнік-Ветэран Рушэньня"/>
+  <string id="jRFfRZv2" text="Стургійскі Лучнік Рушэньня"/>
+  <string id="gZ4JeEw4" text="Стургійскі Лучнік-Ветэран Рушэньня"/>
+  <string id="Zmajp2o1" text="Стургійскі Капійнік Рушэньня"/>
+  <string id="LVEU4se3" text="Стургійскі Капійнік-Ветэран Рушэньня"/>
+  <string id="CKoq1wQa" text="Хузаіцкі Лучнік Рушэньня"/>
+  <string id="5JFkQn5U" text="Хузаіцкі Лучнік-Ветэран Рушэньня"/>
+  <string id="MDIuyBHP" text="Хузаіцкі Капійнік Рушэньня"/>
+  <string id="f2a1fPca" text="Хузаіцкі Капійнік-Ветэран Рушэньня"/>
+  <!--input/troops/empire.xml-->
+  <string id="npc.imperial_archer_new" text="Імперскі Лучнік"/>
+  <string id="npc.imperial_trained_archer_new" text="Імперскі Навучаны Лучнік"/>
+  <string id="npc.imperial_veteran_archer_new" text="Імперскі Ветэран Лучнік"/>
+  <string id="npc.imperial_palatine_guard_new" text="Імперскі Палаці Віджыліс"/>
+  <string id="npc.imperial_crossbowman_new" text="Імперскі Арбалетнік"/>
+  <string id="npc.imperial_sergeant_crossbowman_new" text="Імперскі Гастрафітэс"/>
+  <string id="npc.imperial_recruit_new" text="Імперскі Сервус"/>
+  <string id="npc.imperial_infantryman_new" text="Імперскі Пяхотнік"/>
+  <string id="npc.imperial_peltast" text="Імперскі Пельтаст"/>
+  <string id="npc.imperial_trained_peltast" text="Імперскі Навучаны Пельтаст"/>
+  <string id="npc.imperial_veteran_peltast" text="Імперскі Загартаваны Пельтаст"/>
+  <string id="npc.imperial_trained_infantryman_new" text="Імперскі Навучаны Пяхотнік"/>
+  <string id="npc.imperial_veteran_infantryman_new" text="Імперскі Пяхотнік-Ветэран"/>
+  <string id="npc.imperial_legionary_new" text="Імперскі Легіёнарыўс"/>
+  <string id="npc.imperial_skoutatoi" text="Імперскі Скутатас"/>
+  <string id="npc.imperial_menavliaton_new" text="Імперскі Менавліятан"/>
+  <string id="npc.imperial_elite_menavliaton_new" text="Імперскі Элітны Менавліятан"/>
+  <string id="npc.imperial_vigla_recruit_new" text="Імперскі Вігла Нобіліс"/>
+  <string id="npc.imperial_equite_new" text="Імперскі Вігла Эквітас"/>
+  <string id="npc.imperial_vigla_equestris" text="Імперскі Вігла Аларыс"/>
+  <string id="npc.imperial_cataphractes" text="Імперскі Катафрактас"/>
+  <string id="npc.imperial_elite_cataphractes" text="Імперскі Катафрактас Гонаратус"/>
+  <string id="npc.imperial_scholaris_equites" text="Імперскі Школярыс Эквітас"/>
+  <string id="npc.imperial_scholaris_alaris" text="Імперскі Школярыс Аларыс"/>
+  <string id="npc.imperial_scholaris_kataphraktos" text="Імперскі Школярыс Катафрактас"/>
+  <string id="npc.imperial_excubitores_equites" text="Імперскі Экскубіторыс Эквітас"/>
+  <string id="npc.imperial_excubitores_alaris" text="Імперскі Экскубіторыс Аларыс"/>
+  <string id="npc.imperial_excubitores_kataphraktos" text="Імперскі Экскубіторыс Катафрактас"/>
+  <string id="npc.imperial_hikanatos_equites" text="Імперскі Хіканатас Эквітас"/>
+  <string id="npc.imperial_hikanatos_alaris" text="Імперскі Хіканатас Аларыс"/>
+  <string id="npc.imperial_hikanatos_kataphraktos" text="Імперскі Хіканатас Катафрактас"/>
+  <!--input/troops/khuzait.xml-->
+  <string id="npc.khuzait_nomad_new" text="Хузаіцкі Качэўнік"/>
+  <string id="npc.khuzait_footman_new" text="Хузаіцкі Пехацінец"/>
+  <string id="npc.khuzait_spearman_new" text="Хузаіцкі Дзіднік"/>
+  <string id="npc.khuzait_glaiveman" text="Хузаіцкі Глефнік"/>
+  <string id="npc.khuzait_darkhan_glaive" text="Хузаіцкі Дархан-Глефнік"/>
+  <string id="npc.khuzait_tribal_warrior_new" text="Хузаіцкі Пляменны Ваяр"/>
+  <string id="npc.khuzait_hunter_new" text="Хузаіцкі Паляўнічы"/>
+  <string id="npc.khuzait_archer_new" text="Хузаіцкі Лучнік"/>
+  <string id="npc.khuzait_marksman_new" text="Хузаіцкі Трапны Стралок"/>
+  <string id="npc.khuzait_raider_new" text="Хузаіцкі Налётнік"/>
+  <string id="npc.khuzait_horseman_new" text="Хузаіцкі Коньнік"/>
+  <string id="npc.khuzait_noble_son_new" text="Хузаіцкі Шляхетны Сын"/>
+  <string id="npc.khuzait_qanqli_new" text="Хузаіцкі Канклі"/>
+  <string id="npc.khuzait_torguud_new" text="Хузаіцкі Торгуд"/>
+  <string id="npc.khuzait_kheshig_new" text="Хузаіцкі Хешыг"/>
+  <string id="npc.khuzait_khans_guard_new" text="Хузаіцкі Саанскі Гвардзеец"/>
+  <string id="npc.khuzait_horse_archer_new" text="Хузаіцкі Конны Лучнік"/>
+  <string id="npc.khuzait_lancer_new" text="Хузаіцкі Улан"/>
+  <string id="npc.khuzait_heavy_horse_archer_new" text="Хузаіцкі Цяжкі Конны Лучнік"/>
+  <string id="npc.khuzait_heavy_lancer_new" text="Хузаіцкі Цяжкі Улан"/>
+  <string id="npc.eastern_mercenary_1" text="Усходні Найміт-Наезьнік"/>
+  <string id="npc.eastern_mercenary_2" text="Усходні Найміт Конны Лучнік"/>
+  <string id="npc.eastern_mercenary_3" text="Усходні Найміт Цяжкі Конны Лучнік"/>
+  <!--input/troops/lyrion.xml-->
+  <string id="npc.fighter_ibis" text="Баттанійскі Змагар"/>
+  <string id="npc.lyrion_recruit" text="Лірыйскі Рэкрут"/>
+  <string id="npc.lyrion_hunter" text="Лірыйскі Паляўнічы"/>
+  <string id="npc.lyrion_mounted_skirmisher" text="Лірыйскі Конны Застрэльнік"/>
+  <string id="npc.lyrion_numes_cavalry" text="Лірыйскі Нумэс-Коньнік"/>
+  <string id="npc.lyrion_veteran_numes_cavalry" text="Лірыйскі Нумэс-Вершнік"/>
+  <string id="npc.lyrion_tribesman" text="Лірыйскі Суродзіч"/>
+  <string id="npc.lyrion_horseman" text="Лірыйскі Пляменны Коньнік"/>
+  <string id="npc.lyrion_cavalry" text="Лірыйскі Вершнік"/>
+  <string id="npc.lyrion_veteran_cavalry" text="Лірыйскі Загартаваны Вершнік"/>
+  <string id="npc.lyrion_warrior" text="Лірыйскі Ваяр"/>
+  <string id="npc.lyrion_soldier" text="Лірыйскі Пешы Салдат"/>
+  <string id="npc.lyrion_veteran_soldier" text="Лірыйскі Загартаваны Салдат"/>
+  <string id="npc.lyrion_noble_recruit" text="Лірыйскі Грамадзянін-Навік"/>
+  <string id="npc.lyrion_noble_spearman" text="Лірыйскі Грамадзянін-Дзіднік"/>
+  <string id="npc.lyrion_hoplite" text="Лірыйскі Гопліт"/>
+  <string id="npc.lyrion_veteran_hoplite" text="Лірыйскі Гопліт-Ветэран"/>
+  <string id="npc.lyrion_sacred_band" text="Лірыйскі Святы Пояс"/>
+  <string id="npc.lyrion_aux_sicis_recruit" text="Сіцыйскі Стралок-Навік"/>
+  <string id="npc.lyrion_aux_sicis_bowman" text="Сіцыйскі Стралок"/>
+  <string id="npc.lyrion_aux_sicis_trained_archer" text="Сіцыйскі Дасведчаны Лучнік"/>
+  <string id="npc.lyrion_aux_sicis_sharpshooter" text="Сіцыйскі Снайпер"/>
+  <string id="npc.lyrion_aux_ibis_footman" text="Ібійскі Пляменны Пехацінец"/>
+  <string id="npc.lyrion_aux_ibis_soldier" text="Ібійскі Пляменны Ваяр"/>
+  <string id="npc.lyrion_aux_ibis_veteran_soldier" text="Ібійскі Пляменны Салдат"/>
+  <string id="npc.lyrion_aux_ibis_oathsworn" text="Ібійскі Пляменны Ветэран"/>
+  <!--input/troops/nordling.xml-->
+  <string id="npc.nordling_recruit" text="Нордлінскі Трол"/>
+  <string id="npc.nordling_shield_brother" text="Нордлінскі Брат Шчыта"/>
+  <string id="npc.nordling_warrior" text="Нордлінскі Ваяр"/>
+  <string id="npc.nordling_trained_warrior" text="Нордлінскі Навучаны Ваяр"/>
+  <string id="npc.nordling_drengr" text="Нордлінскі Дрэнгар"/>
+  <string id="npc.nordling_horseman" text="Нордлінскі Коньнік"/>
+  <string id="npc.nordling_cavalry" text="Нордлінскі Вершнік"/>
+  <string id="npc.nordlin_axeman" text="Нордлінскі Сякірнік"/>
+  <string id="npc.nordling_ulfhednar" text="Нордлінскі Ульфэднар"/>
+  <string id="npc.nordling_berserker" text="Нордлінскі Берсеркер"/>
+  <string id="npc.nordling_hunter" text="Нордлінскі Паляўнічы"/>
+  <string id="npc.nordling_archer" text="Нордлінскі Лучнік"/>
+  <string id="npc.nordling_trained_archer" text="Нордлінскі Навучаны Лучнік"/>
+  <string id="npc.nordling_veteran_archer" text="Нордлінскі Эскэльфір"/>
+  <string id="npc.nordling_noble_recruit" text="Нордлінскі Шляхетны Сын"/>
+  <string id="npc.nordling_noble_warrior" text="Нордлінскі Шляхетны Ваяр"/>
+  <string id="npc.nordling_noble_retainer" text="Нордлінскі Шляхетны Землеўласьнік"/>
+  <string id="npc.nordling_huskarl" text="Нордлінскі Хускарл"/>
+  <string id="npc.nordling_royal_huskarl" text="Нордлінскі Айнхеры"/>
+  <!--input/troops/paleician.xml-->
+  <string id="npc.paleician_levy_archer" text="Палейцкі Лучнік-Навік"/>
+  <string id="npc.paleician_longbowman" text="Палейцкі Доўгалучнік"/>
+  <string id="npc.paleician_veteran_longbowman" text="Палейцкі Навучаны Доўгалучнік"/>
+  <string id="npc.paleician_expert_longbowman" text="Палейцкі Саэтўр"/>
+  <string id="npc.paleician_recruit" text="Палейцкі Заклічнік"/>
+  <string id="npc.paleician_footman" text="Палейцкі Фардманн"/>
+  <string id="npc.paleician_infantry" text="Палейцкі Пяхотнік"/>
+  <string id="npc.paleician_trained_infantry" text="Палейцкі Навучаны Пяхотнік"/>
+  <string id="npc.paleician_expert_infantry" text="Палейцкі Ваяр"/>
+  <string id="npc.paleician_light_cavalry" text="Палейцкі Выведнік"/>
+  <string id="npc.paleician_trained_cavalry" text="Палейцкі Лёгкі Вершнік"/>
+  <string id="npc.paleician_lancer" text="Палейцкі Хобелар"/>
+  <string id="npc.paleician_noble_recruit" text="Палейцкі Шляхетны Сын"/>
+  <string id="npc.paleician_noble_infantry" text="Палейцкі Шляхетны Фардманн"/>
+  <string id="npc.paleician_noble_man_at_arms" text="Палейцкі Шляхетны Пяхотнік"/>
+  <string id="npc.paleician_sergeant" text="Палейцкі Хаўскарл"/>
+  <string id="npc.paleician_knight" text="Палейцкі Ганаровы Хаўскарл"/>
+  <string id="npc.paleician_mercenary_1" text="Палейцкі Найміт Горнік"/>
+  <string id="npc.paleician_mercenary_2" text="Палейцкі Найміт Галлоўглас"/>
+  <string id="npc.paleician_mercenary_3" text="Палейцкі Найміт Галл-оглач"/>
+  <!--input/troops/rebkhu.xml-->
+  <string id="npc.rebkhu_nomad" text="Хергіцкі Качэўнік" />
+  <string id="npc.rebkhu_tribal_warrior" text="Хергіцкі Пляменны Навік" />
+  <string id="npc.rebkhu_raider" text="Хергіцкі Налётнік" />
+  <string id="npc.rebkhu_mounted_skirmisher" text="Хергіцкі Конны Застрэльнік" />
+  <string id="npc.rebkhu_impaler" text="Хергіцкі Працінальнік" />
+  <string id="npc.rebkhu_hunter" text="Хергіцкі Арбалетнік" />
+  <string id="npc.rebkhu_archer" text="Хергіцкі Навучаны Арбалетнік" />
+  <string id="npc.rebkhu_marksman" text="Хергіцкі Трапны Стралок Арбалетнік" />
+  <string id="npc.rebkhu_footman" text="Хергіцкі Пехацінец" />
+  <string id="npc.rebkhu_horseman" text="Хергіцкі Коньнік" />
+  <string id="npc.rebkhu_lancer" text="Хергіцкі Улан" />
+  <string id="npc.rebkhu_heavy_lancer" text="Хергіцкі Цяжкі Улан" />
+  <string id="npc.rebkhu_spearman" text="Хергіцкі Дзіднік" />
+  <string id="npc.rebkhu_spear_infantry" text="Хергіцкі Пяхотнік-Капійнік" />
+  <string id="npc.rebkhu_darkhan" text="Хергіцкі Дархан" />
+  <string id="npc.rebkhu_noble_son" text="Хергіцкі Шляхетны Сын" />
+  <string id="npc.rebkhu_noble_horseman" text="Хергіцкі Канклі-Коньнік" />
+  <string id="npc.rebkhu_noble_lancer" text="Хергіцкі Торгуд Коньнік" />
+  <string id="npc.rebkhu_kheshig_lancer" text="Хергіцкі Хешыг Улан" />
+  <string id="npc.rebkhu_khans_lancer" text="Хергіцкі Саанскі Улан" />
+  <!--input/troops/rhodok.xml-->
+  <string id="npc.rhodok_recruit" text="Родаскі Прыгонны"/>
+  <string id="npc.rhodok_footman" text="Родаскі Пехацінец"/>
+  <string id="npc.rhodok_2h_infantry" text="Родаскі Заклічны Пікінёр"/>
+  <string id="npc.rhodok_trained_infantry" text="Родаскі Пяхотнік-Навік"/>
+  <string id="npc.rhodok_pike" text="Родаскі Пікінёр"/>
+  <string id="npc.rhodok_veteran_pike" text="Родаскі Пікінёр-Сяржант"/>
+  <string id="npc.rhodok_soldier" text="Родаскі Салдат"/>
+  <string id="npc.rhodok_veteran_soldier" text="Родаскі Сяржант"/>
+  <string id="npc.rhodok_levy_crossbowman" text="Родаскі Арбалестар-Навік"/>
+  <string id="npc.rhodok_crossbowman" text="Родаскі Арбалестар"/>
+  <string id="npc.rhodok_veteran_crossbowman" text="Родаскі Арбалестар-Ветэран"/>
+  <string id="npc.rhodok_marksman" text="Родаскі Балестрыэр"/>
+  <string id="npc.rhodok_noble_son" text="Родаскі Шляхетны Сын"/>
+  <string id="npc.rhodok_squire" text="Родаскі Зброянос"/>
+  <string id="npc.rhodok_noble_swordsman" text="Родаскі Фусрыттар"/>
+  <string id="npc.rhodok_foot_knight" text="Родаскі Майстар Рыттар"/>
+  <string id="npc.rhodok_royal_guard" text="Родаскі Кунігліхер Фусрыттар"/>
+  <string id="npc.rhodok_scout" text="Родаскі Выведнік"/>
+  <string id="npc.rhodok_horseman" text="Родаскі Коньнік"/>
+  <string id="npc.rhodok_light_cavalryman" text="Родаскі Лёгкі Вершнік"/>
+  <string id="npc.rhodok_cavalryman" text="Родаскі Вершнік"/>
+  <string id="npc.western_mercenary_1" text="Вландзкі Найміт Коньнік"/>
+  <string id="npc.western_mercenary_2" text="Вландзкі Найміт Вершнік"/>
+  <string id="npc.western_mercenary_3" text="Вландзкі Найміт Катафракт"/>
+  <!--input/troops/sturgia.xml-->
+  <string id="npc.sturgian_recruit_new" text="Стургійскі Супляменьнік"/>
+  <string id="npc.sturgian_warrior_new" text="Стургійскі Ваяр"/>
+  <string id="npc.sturgian_soldier_new" text="Стургійскі Салдат"/>
+  <string id="npc.sturgian_spearman_new" text="Стургійскі Дзіднік"/>
+  <string id="npc.sturgian_shock_troop_new" text="Стургійскі Шокавы Ваяўнік"/>
+  <string id="npc.sturgian_warrior_son_new" text="Стургійскі Сын Ваяра"/>
+  <string id="npc.sturgian_horseman" text="Стургійскі Шляхетны Коньнік"/>
+  <string id="npc.sturgian_noble_cavalry" text="Стургійскі Шляхетны Вершнік"/>
+  <string id="npc.sturgian_horse_archer" text="Паўночны Найміт Конны Лучнік"/>
+  <string id="npc.sturgian_pancerny" text="Паўночны Найміт Панцэрны"/>
+  <string id="npc.druzina" text="Стургійскі Дружыньнік"/>
+  <string id="npc.royal_druzina" text="Стургійскі Княскі Дружыньнік"/>
+  <string id="npc.sturgian_woodsman_new" text="Стургійскі Лясьнік"/>
+  <string id="npc.sturgian_hunter_new" text="Стургійскі Лучнік"/>
+  <string id="npc.sturgian_archer_new" text="Стургійскі Загартаваны Лучнік"/>
+  <string id="npc.sturgian_veteran_bowman_new" text="Стургійскі Лучнік"/>
+  <string id="npc.sturgian_brigand_new" text="Стургійскі Разбойнік"/>
+  <string id="npc.sturgian_hardened_brigand_new" text="Стургійскі Загартаваны Разбойнік"/>
+  <string id="npc.sturgian_horse_raider_new" text="Стургійскі Рэйдар"/>
+  <string id="npc.sturgian_veteran_soldier" text="Стургійскі Загартаваны Салдат"/>
+  <string id="npc.sturgian_voyak" text="Стургійскі Ваяўнік"/>
+  <!--input/troops/swadia.xml-->
+  <string id="npc.vlandian_recruit_new" text="Кортанскі Рэкрут"/>
+  <string id="npc.vlandian_footman_new" text="Кортанскі Пяхотны"/>
+  <string id="npc.vlandian_spearman_new" text="Кортанскі Кайпійнік"/>
+  <string id="npc.vlandian_infantry_new" text="Кортанскі Пяхотнік"/>
+  <string id="npc.vlandian_swordsman_new" text="Кортанскі Мечнік"/>
+  <string id="npc.vlandian_sergeant_new" text="Кортанскі Сяржант"/>
+  <string id="npc.vlandian_trained_spearman" text="Кортанскі Падрыхтаваны Кайпійнік"/>
+  <string id="npc.vlandian_spear_sergeant_new" text="Кортанскі Кайпіны Сяржант"/>
+  <string id="npc.vlandian_light_cavalry_new" text="Кортанскі Лёгкі Вершнік"/>
+  <string id="npc.vlandian_vanguard_new" text="Кортанскі Авангард"/>
+  <string id="npc.vlandian_levy_crossbowman_new" text="Кортанскі Заклічны Лучнік"/>
+  <string id="npc.vlandian_crossbowman_new" text="Кортанскі Лучнік"/>
+  <string id="npc.vlandian_hardened_crossbowman_new" text="Кортанскі Доўгалучнік"/>
+  <string id="npc.vlandian_sharpshooter_new" text="Кортанскі Снайпер"/>
+  <string id="npc.vlandian_squire_new" text="Кортанскі Экўер"/>
+  <string id="npc.vlandian_gallant_new" text="Кортанскі Галлант"/>
+  <string id="npc.vlandian_knight_new" text="Кортанскі Шэвалье"/>
+  <string id="npc.vlandian_champion_new" text="Кортанскі Шэвалье-Чэмпіён"/>
+  <string id="npc.vlandian_banner_knight_new" text="Кортанскі Гаспадарскі Шэвалье"/>
+  <!--input/troops/vagir.xml-->
+  <string id="npc.vagir_recruit" text="Вагірскі Суродзіч"/>
+  <string id="npc.vagir_warrior" text="Вагірскі Ваяр"/>
+  <string id="npc.vagir_soldier" text="Вагірскі Навучаны Ваяр"/>
+  <string id="npc.vagir_veteran_soldier" text="Вагірскі Носьбіт Шчыта"/>
+  <string id="npc.vagir_expert_soldier" text="Вагірскі Гвардзеец Шчыта"/>
+  <string id="npc.vagir_axeman" text="Вагірскі Сякірнік"/>
+  <string id="npc.vagir_guard" text="Вагірскі Гвардзеец Бердыша"/>
+  <string id="npc.vagir_iron_guard" text="Вагірскі Жалезны Гвардзеец"/>
+  <string id="npc.vagir_levy_archer" text="Вагірскі Лучнік-Навік"/>
+  <string id="npc.vagir_archer" text="Вагірскі Лучнік"/>
+  <string id="npc.vagir_veteran_archer" text="Вагірскі Лучнік-Ветэран"/>
+  <string id="npc.vagir_luchnyk" text="Вагірскі Лучнік"/>
+  <string id="npc.vagir_outrider" text="Вагірскі Межавы Наезьнік"/>
+  <string id="npc.vagir_horse_archer" text="Вагірскі Конны Лучнік"/>
+  <string id="npc.vagir_heavy_horse_archer" text="Вагірскі Межавы Гвардзеец"/>
+  <string id="npc.vagir_noble_recruit" text="Вагірскі Баярскі Сын"/>
+  <string id="npc.vagir_noble_horseman" text="Вагірскі Шляхетны Коньнік"/>
+  <string id="npc.vagir_noble_cavalry" text="Вагірскі Шляхетны Вершнік"/>
+  <string id="npc.vagir_bardiche_cavalry" text="Вагірскі Богатыр"/>
+  <string id="npc.vagir_druzina" text="Вагірскі Дружыньнік"/>
+ </strings>
+</base>
