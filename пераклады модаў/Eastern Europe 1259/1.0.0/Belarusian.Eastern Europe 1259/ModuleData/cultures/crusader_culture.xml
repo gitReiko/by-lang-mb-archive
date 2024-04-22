@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+
+	<Culture
+		id="crusader"
+		name="{=crusaderCulture}Northern Crusaders"
+		is_main_culture="true"
+        color="0xffB9B9B9"
+        color2="0xffeae9e5"
+		elite_basic_troop="NPCCharacter.crusader_knight_brother"
+		basic_troop="NPCCharacter.crusader_levy"
+		melee_militia_troop="NPCCharacter.crusader_militia_spearman"
+		ranged_militia_troop="NPCCharacter.crusader_militia_crossbowman"
+		melee_elite_militia_troop="NPCCharacter.crusader_militia_veteran_spearman"
+		ranged_elite_militia_troop="NPCCharacter.crusader_militia_veteran_crossbowman"
+		can_have_settlement="true"
+		town_edge_number="16"
+		encounter_background_mesh="encounter_crusader"
+        faction_banner_key="11.34.34.1750.1750.764.787.0.0.0.419.45.116.548.548.765.765.0.0.0.419.45.116.105.105.889.639.0.0.0.419.45.116.105.105.639.639.0.0.0.419.45.116.105.105.639.889.0.0.0.419.45.116.105.105.889.889.0.0.0"
+        default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"	
+        villager_party_template="PartyTemplate.villager_crusader_template"
+		default_party_template="PartyTemplate.kingdom_hero_party_crusader_template"        
+        elite_caravan_party_template="PartyTemplate.elite_caravan_template_crusader"
+		caravan_party_template="PartyTemplate.caravan_template_crusader"
+		militia_party_template="PartyTemplate.militia_crusader_template"
+		rebels_party_template="PartyTemplate.rebels_crusader_template"
+		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_crusader"       
+        text="{=crusaderCultureText}The Northern Crusaders are a group of Teutonic Knights who embarked on military campaigns to Christianize the Baltic people, leading to significant cultural and territorial changes in the region."
+		tournament_master="NPCCharacter.tournament_master_crusader"
+		villager="NPCCharacter.crusader_villager"
+		caravan_master="NPCCharacter.crusader_caravan_master"
+		armed_trader="NPCCharacter.crusader_armed_trader"
+		caravan_guard="NPCCharacter.crusader_caravan_guard"
+		veteran_caravan_guard="NPCCharacter.crusader_veteran_caravan_guard"
+		prison_guard="NPCCharacter.prison_guard_crusader"
+		guard="NPCCharacter.guard_crusader"
+		blacksmith="NPCCharacter.blacksmith_crusader"
+		weaponsmith="NPCCharacter.weaponsmith_crusader"
+		townswoman="NPCCharacter.townswoman_crusader"
+		townswoman_infant="NPCCharacter.townswoman_infant_crusader"
+		townswoman_child="NPCCharacter.townswoman_child_crusader"
+		townswoman_teenager="NPCCharacter.townswoman_teenager_crusader"
+		townsman="NPCCharacter.townsman_crusader"
+		townsman_infant="NPCCharacter.townsman_infant_crusader"
+		townsman_child="NPCCharacter.townsman_child_crusader"
+		townsman_teenager="NPCCharacter.townsman_teenager_crusader"
+		village_woman="NPCCharacter.village_woman_crusader"
+		villager_male_child="NPCCharacter.villager_child_crusader"
+		villager_male_teenager="NPCCharacter.villager_teenager_crusader"
+		villager_female_child="NPCCharacter.village_woman_child_crusader"
+		villager_female_teenager="NPCCharacter.village_woman_teenager_crusader"
+		ransom_broker="NPCCharacter.ransom_broker_crusader"
+		gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_crusader"
+		merchant_notary="NPCCharacter.merchant_notary_crusader"
+		artisan_notary="NPCCharacter.artisan_notary_crusader"
+		preacher_notary="NPCCharacter.preacher_notary_crusader"
+		rural_notable_notary="NPCCharacter.rural_notable_notary_crusader"
+		shop_worker="NPCCharacter.shop_worker_crusader"
+		tavernkeeper="NPCCharacter.tavernkeeper_crusader"
+		taverngamehost="NPCCharacter.taverngamehost_crusader"
+		musician="NPCCharacter.musician_crusader"
+		tavern_wench="NPCCharacter.tavern_wench_crusader"
+		armorer="NPCCharacter.armorer_crusader"
+		horseMerchant="NPCCharacter.horseMerchant_crusader"
+		barber="NPCCharacter.barber_crusader"
+		merchant="NPCCharacter.merchant_crusader"
+		beggar="NPCCharacter.beggar_crusader"
+		female_beggar="NPCCharacter.female_beggar_crusader"
+		female_dancer="NPCCharacter.female_dancer_crusader"
+		gear_practice_dummy="NPCCharacter.gear_practice_dummy_crusader"
+		weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_crusader"
+		weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_crusader"
+		weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_crusader"
+		gear_dummy="NPCCharacter.gear_practice_dummy_crusader"
+
+		default_battle_equipment_roster="EquipmentRoster.crusader_lord_equipmentset_template"
+		default_civilian_equipment_roster="EquipmentRoster.crusader_lord_equipmentset_template_civilian"
+		
+        duel_preset_equipment_roster="EquipmentRoster.stu_duel_preset_template"
+		board_game_type="MuTorere">
+		<vassal_reward_items>
+			<item id="Item.justicier_2hsword" />
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2" />
+			<item id="Item.sturgia_sword_4_t4" />
+			<item id="Item.vlandia_sword_5_t5" />
+			<item id="Item.empire_sword_6_t5" />
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_feudal_inheritance" />
+		</default_policies>
+		<male_names>
+			<name name="{=Adalbert}Adalbert" />
+			<name name="{=Adalbern}Adalbern" />
+			<name name="{=Albert}Albert" />
+			<name name="{=Albertus}Albertus" />
+			<name name="{=Albrecht}Albrecht" />
+			<name name="{=Alexander}Alexander" />
+			<name name="{=Andreas}Andreas" />
+			<name name="{=Anno}Anno" />
+			<name name="{=Anton}Anton" />
+			<name name="{=Arnold}Arnold" />
+			<name name="{=Bartholomäus}Bartholomäus" />
+			<name name="{=Bernd}Bernd" />
+			<name name="{=Bernhard}Bernhard" />
+			<name name="{=Berthold}Berthold" />
+			<name name="{=Bertoldus}Bertoldus" />
+			<name name="{=Bromhold}Bromhold" />
+			<name name="{=Bruno}Bruno" />
+			<name name="{=Burchard}Burchard" />
+			<name name="{=Burkhard}Burkhard" />
+            <name name="{=Charles}Charles" />
+            <name name="{=Christoph}Christoph" />
+            <name name="{=Christian}Christian" />
+            <name name="{=Clemens}Clemens" />
+            <name name="{=Conrad}Conrad" />
+            <name name="{=Daniel}Daniel" />
+            <name name="{=Diderick}Diderick" />
+            <name name="{=Dietrich}Dietrich" />
+            <name name="{=Dithmarus}Dithmarus" />
+            <name name="{=Engelbert}Engelbert" />
+            <name name="{=Ernst}Ernst" />
+            <name name="{=Everhardus}Everhardus" />
+            <name name="{=Everhard}Everhard" />
+            <name name="{=Franco}Franco" />
+            <name name="{=Franz}Franz" />
+            <name name="{=Gawain}Gawain" />
+            <name name="{=Georg}Georg" />
+            <name name="{=Gerardus}Gerardus" />
+            <name name="{=Gerhard}Gerhard" />
+            <name name="{=Godefridus}Godefridus" />
+            <name name="{=Godert}Godert" />
+            <name name="{=Goswin}Goswin" />
+            <name name="{=Gotfrid}Gotfrid" />
+            <name name="{=Gottfried}Gottfried" />
+            <name name="{=Gotthard}Gotthard" />
+            <name name="{=Gunther}Gunther" />
+            <name name="{=Halt}Halt" />
+            <name name="{=Hartmann}Hartmann" />
+            <name name="{=Heinrich}Heinrich" />
+            <name name="{=Helmich}Helmich" />
+            <name name="{=Hermann}Hermann" />
+            <name name="{=Hermannus}Hermannus" />
+            <name name="{=Isarnus}Isarnus" />
+            <name name="{=Johann}Johann" />
+            <name name="{=Johannes}Johannes" />
+            <name name="{=Karl}Karl" />
+            <name name="{=Konrad}Konrad" />
+            <name name="{=Lambert}Lambert" />
+            <name name="{=Leopold}Leopold" />
+            <name name="{=Ludolf}Ludolf" />
+            <name name="{=Luther}Luther" />
+            <name name="{=Martin}Martin" />
+            <name name="{=Maximilian}Maximilian" />
+            <name name="{=Meinhard}Meinhard" />
+            <name name="{=Michael}Michael" />
+            <name name="{=Nikolaus}Nikolaus" />
+            <name name="{=Norbert}Norbert" />
+            <name name="{=Olaf}Olaf" />
+            <name name="{=Otto}Otto" />
+            <name name="{=Paul}Paul" />
+            <name name="{=Phillip}Phillip" />
+            <name name="{=Poppo}Poppo" />
+            <name name="{=Reimar}Reimar" />
+            <name name="{=Robin}Robin" />
+            <name name="{=Rudolph}Rudolph" />
+            <name name="{=Sibrand}Sibrand" />
+            <name name="{=Siegfried}Siegfried" />
+            <name name="{=Thomas}Thomas" />
+            <name name="{=Ulrich}Ulrich" />
+            <name name="{=Zisse}Zisse" />
+            <name name="{=Walther}Walther" />
+            <name name="{=Wennemar}Wennemar" />
+            <name name="{=Werner}Werner" />
+            <name name="{=Wescelus}Wescelus" />
+            <name name="{=Wilhelm}Wilhelm" />
+            <name name="{=Wilken}Wilken" />
+            <name name="{=Winandus}Winandus" />
+            <name name="{=Winrich}Winrich" />
+            <name name="{=Wolfgang}Wolfgang" />
+            <name name="{=Wolter}Wolter" />
+            <name name="{=Wulfstan}Wulfstan" />
+		</male_names>
+		<female_names>
+            <name name="{=Aalis}Aalis" />
+            <name name="{=Adalgaria}Adalgaria" />
+            <name name="{=Adalinda}Adalinda" />
+            <name name="{=Adelaide}Adelaide" />
+            <name name="{=Adilasia}Adilasia" />
+            <name name="{=Affra}Affra" />
+            <name name="{=Alamanda}Alamanda" />
+            <name name="{=Albreda}Albreda" />
+            <name name="{=Aldhild}Aldhild" />
+            <name name="{=Alice}Alice" />
+            <name name="{=Alix}Alix" />
+            <name name="{=Altabella}Altabella" />
+            <name name="{=Alys}Alys" />
+            <name name="{=Amelia}Amelia" />
+            <name name="{=Amicie}Amicie" />
+            <name name="{=Amée}Amée" />
+            <name name="{=Angnes}Angnes" />
+            <name name="{=Angnolina}Angnolina" />
+            <name name="{=Angéle}Angéle" />
+            <name name="{=Annlin}Annlin" />
+            <name name="{=Anstrude}Anstrude" />
+            <name name="{=Anthonia}Anthonia" />
+            <name name="{=Arna}Arna" />
+            <name name="{=Auffra}Auffra" />
+            <name name="{=Avoise}Avoise" />
+            <name name="{=Ayla}Ayla" />
+            <name name="{=Barbera}Barbera" />
+            <name name="{=Beatrice}Beatrice" />
+            <name name="{=Belaflore}Belaflore" />
+            <name name="{=Belcolore}Belcolore" />
+            <name name="{=Belladonna}Belladonna" />
+            <name name="{=Bellina}Bellina" />
+            <name name="{=Berchte}Berchte" />
+            <name name="{=Bilhidis}Bilhidis" />
+            <name name="{=Blanche}Blanche" />
+            <name name="{=Brida}Brida" />
+            <name name="{=Cateline}Cateline" />
+            <name name="{=Catherine}Catherine" />
+            <name name="{=Clementia}Clementia" />
+            <name name="{=Constance}Constance" />
+            <name name="{=Costanza}Costanza" />
+            <name name="{=Douceline}Douceline" />
+            <name name="{=Eila}Eila" />
+            <name name="{=Eiliswintha}Eiliswintha" />
+            <name name="{=Eldonza}Eldonza" />
+            <name name="{=Eleanor}Eleanor" />
+            <name name="{=Elizabeth}Elizabeth" />
+            <name name="{=Elsebeth}Elsebeth" />
+            <name name="{=Enede}Enede" />
+            <name name="{=Enneleyn}Enneleyn" />
+            <name name="{=Eufemia}Eufemia" />
+            <name name="{=Fey}Fey" />
+            <name name="{=Francesa}Francesa" />
+            <name name="{=Frederuna}Frederuna" />
+            <name name="{=Gertrude}Gertrude" />
+            <name name="{=Geruscha}Geruscha" />
+            <name name="{=Gesualda}Gesualda" />
+            <name name="{=Ginivra}Ginivra" />
+            <name name="{=Graciosa}Graciosa" />
+            <name name="{=Graña}Graña" />
+            <name name="{=Guillemette}Guillemette" />
+            <name name="{=Guntroda}Guntroda" />
+            <name name="{=Gyrlin}Gyrlin" />
+            <name name="{=Hazecha}Hazecha" />
+            <name name="{=Heilken}Heilken" />
+            <name name="{=Heilwige}Heilwige" />
+            <name name="{=Henne}Henne" />
+            <name name="{=Hereswind}Hereswind" />
+            <name name="{=Husa}Husa" />
+            <name name="{=Ida}Ida" />
+            <name name="{=Ilduara}Ilduara" />
+            <name name="{=Ilsebet}Ilsebet" />
+            <name name="{=Imagina}Imagina" />
+            <name name="{=Imnechildis}Imnechildis" />
+            <name name="{=Iremele}Iremele" />
+            <name name="{=Isabeau}Isabeau" />
+            <name name="{=Isalde}Isalde" />
+            <name name="{=Isengard}Isengard" />
+            <name name="{=Islana}Islana" />
+            <name name="{=Iñiguez}Iñiguez" />
+            <name name="{=Jeanne}Jeanne" />
+            <name name="{=Jehanne}Jehanne" />
+            <name name="{=Joan}Joan" />
+            <name name="{=Johanne}Johanne" />
+            <name name="{=Jonatha}Jonatha" />
+            <name name="{=Judenta}Judenta" />
+            <name name="{=Judentha}Judentha" />
+            <name name="{=Kaetherlin}Kaetherlin" />
+            <name name="{=Katherin}Katherin" />
+            <name name="{=Katrey}Katrey" />
+            <name name="{=Ketha}Ketha" />
+            <name name="{=Ketherlein}Ketherlein" />
+            <name name="{=Ketlin}Ketlin" />
+            <name name="{=Kunegund}Kunegund" />
+            <name name="{=Kunizza}Kunizza" />
+            <name name="{=Leonetta}Leonetta" />
+            <name name="{=Libusch}Libusch" />
+            <name name="{=Liutberga}Liutberga" />
+            <name name="{=Liutgarde}Liutgarde" />
+            <name name="{=Lorencia}Lorencia" />
+            <name name="{=Lüfthildis}Lüfthildis" />
+            <name name="{=Madelena}Madelena" />
+            <name name="{=Magdalin}Magdalin" />
+            <name name="{=Mahaut}Mahaut" />
+            <name name="{=Margaret}Margaret" />
+            <name name="{=Margred}Margred" />
+            <name name="{=Marguerite}Marguerite" />
+            <name name="{=Marhaus}Marhaus" />
+            <name name="{=Marie}Marie" />
+            <name name="{=Marlein}Marlein" />
+            <name name="{=Martha}Martha" />
+            <name name="{=Marusch}Marusch" />
+            <name name="{=Mathilde}Mathilde" />
+            <name name="{=Matilda}Matilda" />
+            <name name="{=Mayor}Mayor" />
+            <name name="{=Melisende}Melisende" />
+            <name name="{=Metze}Metze" />
+            <name name="{=Monnia}Monnia" />
+            <name name="{=Nicoluccia}Nicoluccia" />
+            <name name="{=Ninuccia}Ninuccia" />
+            <name name="{=Ochanda}Ochanda" />
+            <name name="{=Odelrada}Odelrada" />
+            <name name="{=Odierna}Odierna" />
+            <name name="{=Odolia}Odolia" />
+            <name name="{=Odulina}Odulina" />
+            <name name="{=Onofria}Onofria" />
+            <name name="{=Oradina}Oradina" />
+            <name name="{=Oreca}Oreca" />
+            <name name="{=Orelia}Orelia" />
+            <name name="{=Oroana}Oroana" />
+            <name name="{=Orodueyna}Orodueyna" />
+            <name name="{=Orsetta}Orsetta" />
+            <name name="{=Osterhilde}Osterhilde" />
+            <name name="{=Ostosia}Ostosia" />
+            <name name="{=Othilia}Othilia" />
+            <name name="{=Palmeria}Palmeria" />
+            <name name="{=Pasquina}Pasquina" />
+            <name name="{=Peironella}Peironella" />
+            <name name="{=Peronnelle}Peronnelle" />
+            <name name="{=Peternella}Peternella" />
+            <name name="{=Petrissa}Petrissa" />
+            <name name="{=Petronilla}Petronilla" />
+            <name name="{=Philippa}Philippa" />
+            <name name="{=Placia}Placia" />
+            <name name="{=Pleneria}Pleneria" />
+            <name name="{=Ranulfa}Ranulfa" />
+            <name name="{=Regißwindis}Regißwindis" />
+            <name name="{=Reineldis}Reineldis" />
+            <name name="{=Sancia}Sancia" />
+            <name name="{=Scemena}Scemena" />
+            <name name="{=Sennehilda}Sennehilda" />
+            <name name="{=Siburgis}Siburgis" />
+            <name name="{=Soloro}Soloro" />
+            <name name="{=Sonifrida}Sonifrida" />
+            <name name="{=Stéphanie}Stéphanie" />
+            <name name="{=Talesa}Talesa" />
+            <name name="{=Taresa}Taresa" />
+            <name name="{=Techildis}Techildis" />
+            <name name="{=Tegrida}Tegrida" />
+            <name name="{=Thelea}Thelea" />
+            <name name="{=Thera}Thera" />
+            <name name="{=Theudelinde}Theudelinde" />
+            <name name="{=Ursilda}Ursilda" />
+            <name name="{=Velasquita}Velasquita" />
+            <name name="{=Waltilde}Waltilde" />
+            <name name="{=Weltrude}Weltrude" />
+            <name name="{=Willberna}Willberna" />
+            <name name="{=Willebirg}Willebirg" />
+            <name name="{=Wulfhilde}Wulfhilde" />
+            <name name="{=Wulfhild}Wulfhild" />
+            <name name="{=Ynes}Ynes" />
+            <name name="{=Yolanda}Yolanda" />
+            <name name="{=Yolande}Yolande" />
+            <name name="{=Ysentrud}Ysentrud" />           
+		</female_names>
+		<clan_names>
+			<name name="{=OKFhjVcl}de Bouillon" />
+			<name name="{=OKFhjVcl}de Saint-Gilles" />
+			<name name="{=OKFhjVcl}Curthose" />
+			<name name="{=OKFhjVcl}de Nevers" />
+		</clan_names>
+		<cultural_feats>
+			<feat id="empire_decreased_garrison_wage" />
+			<feat id="battanian_militia_production" />
+			<feat id="aserai_increased_wages" />
+		</cultural_feats>        
+		<possible_clan_banner_icon_ids>
+			<icon id="102" />
+			<icon id="140" />
+			<icon id="141" />
+			<icon id="101" />
+			<icon id="100" />
+			<icon id="103" />
+			<icon id="104" />
+			<icon id="110" />
+			<icon id="109" />
+			<icon id="144" />
+			<icon id="315" />
+			<icon id="302" />
+			<icon id="301" />
+			<icon id="318" />
+			<icon id="319" />
+			<icon id="340" />
+			<icon id="336" />
+			<icon id="337" />
+			<icon id="334" />
+			<icon id="345" />
+			<icon id="346" />
+			<icon id="327" />
+			<icon id="326" />
+			<icon id="325" />
+			<icon id="419" />
+			<icon id="424" />
+			<icon id="333" />
+			<icon id="300" />
+			<icon id="329" />
+			<icon id="160" />
+			<icon id="161" />
+			<icon id="162" />
+			<icon id="163" />
+			<icon id="164" />
+		</possible_clan_banner_icon_ids>
+		<notable_and_wanderer_templates>
+			<template name="NPCCharacter.spc_wanderer_crusader_0" />
+			<template name="NPCCharacter.spc_wanderer_crusader_1" />
+			<template name="NPCCharacter.spc_wanderer_crusader_2" />
+			<template name="NPCCharacter.spc_wanderer_crusader_3" />
+			<template name="NPCCharacter.spc_wanderer_crusader_4" />
+			<template name="NPCCharacter.spc_wanderer_crusader_5" />
+			<template name="NPCCharacter.spc_wanderer_crusader_6" />
+			<template name="NPCCharacter.spc_wanderer_crusader_7" />
+			<template name="NPCCharacter.spc_wanderer_crusader_8" />
+			<template name="NPCCharacter.spc_wanderer_crusader_9" />
+			<template name="NPCCharacter.spc_wanderer_crusader_10" />
+			<template name="NPCCharacter.spc_wanderer_crusader_11" />
+
+			<template name="NPCCharacter.spc_notable_crusader_0" />	
+			<template name="NPCCharacter.spc_notable_crusader_0b" />
+			<template name="NPCCharacter.spc_notable_crusader_1" />
+			<template name="NPCCharacter.spc_notable_crusader_1b" />
+            <template name="NPCCharacter.spc_notable_crusader_2" />
+			<template name="NPCCharacter.spc_notable_crusader_2b" />
+			<template name="NPCCharacter.spc_notable_crusader_3" />
+			<template name="NPCCharacter.spc_notable_crusader_3b" />
+			<template name="NPCCharacter.spc_notable_crusader_4" />
+			<template name="NPCCharacter.spc_notable_crusader_4b" />
+            <template name="NPCCharacter.spc_notable_crusader_5" />
+			<template name="NPCCharacter.spc_notable_crusader_6" />
+			<template name="NPCCharacter.spc_notable_crusader_7" />
+			<template name="NPCCharacter.spc_notable_crusader_8" />
+			<template name="NPCCharacter.spc_notable_crusader_9" />
+			<template name="NPCCharacter.spc_notable_crusader_10" />
+			<template name="NPCCharacter.spc_notable_crusader_10b" />
+			<template name="NPCCharacter.spc_notable_crusader_11" />
+			<template name="NPCCharacter.spc_notable_crusader_12" />            
+			<template name="NPCCharacter.spc_notable_crusader_13" />            
+            <template name="NPCCharacter.spc_notable_crusader_21" />
+			<template name="NPCCharacter.spc_notable_crusader_22" />
+            <template name="NPCCharacter.spc_crusader_headman_1" />
+			<template name="NPCCharacter.spc_crusader_headman_2" />
+			<template name="NPCCharacter.spc_crusader_headman_3" />
+		</notable_and_wanderer_templates>
+		<lord_templates>
+			<template name="NPCCharacter.crusader_leader_template_0" />
+			<template name="NPCCharacter.crusader_leader_template_1" />
+			<template name="NPCCharacter.crusader_leader_template_2" />
+			<template name="NPCCharacter.crusader_leader_template_3" />
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.crusader_leader_template_0" />
+			<template name="NPCCharacter.crusader_leader_template_1" />
+			<template name="NPCCharacter.crusader_leader_template_2" />
+			<template name="NPCCharacter.crusader_leader_template_3" />
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_crusader_one_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_crusader_one_participant_set_v2" />
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_crusader_two_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_crusader_two_participant_set_v2" />
+			<template name="NPCCharacter.tournament_template_crusader_two_participant_set_v3" />
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_crusader_four_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_crusader_four_participant_set_v2" />
+			<template name="NPCCharacter.tournament_template_crusader_four_participant_set_v3" />
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary" />
+			<template name="NPCCharacter.western_mercenary" />
+		</basic_mercenary_troops>
+	</Culture>
+
+</SPCultures>

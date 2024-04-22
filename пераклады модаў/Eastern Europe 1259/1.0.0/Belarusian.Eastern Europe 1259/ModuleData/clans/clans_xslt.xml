@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old clan entries by adding nodes to this xml. For examples please refer to: SandBox/ModuleData/spclans.xml.-->
+<Factions>
+
+    <Faction id="clan_vlandia_1"
+        name="{=clan_vlandia_1.name}Skalvians"
+        tier="5"
+        owner="Hero.lord_4_1"
+        culture="Culture.baltic"
+        super_faction="Kingdom.baltic_tribes"
+        is_noble="true"
+        banner_key="11.37.140.1836.1836.768.788.1.0.-30.458.35.127.348.348.728.716.1.0.0.458.35.127.348.348.803.839.1.0.180" />		
+
+    <Faction id="clan_khuzait_1"
+        name="{=clan_khuzait_1.name}Curonians"
+        tier="4"
+        owner="Hero.lord_6_1"
+        culture="Culture.baltic"
+        super_faction="Kingdom.baltic_tribes"
+        is_noble="true"
+        banner_key="11.37.140.1836.1836.768.788.1.0.-30.307.35.127.475.475.764.752.1.0.0" />	
+
+    <Faction id="clan_battania_1"
+        name="{=clan_battania_1.name}Semigallians"
+        tier="5"
+        owner="Hero.lord_5_1"
+        culture="Culture.baltic"
+        super_faction="Kingdom.baltic_tribes"
+        is_noble="true"
+        banner_key="11.37.140.1836.1836.768.788.1.0.-30.405.35.127.460.460.764.752.1.0.0" />		
+
+    <Faction id="clan_sturgia_1"
+        name="{=clan_sturgia_1.name}Yotvingians"
+        tier="5"
+        owner="Hero.lord_2_1"
+        culture="Culture.baltic"
+        super_faction="Kingdom.baltic_tribes"
+        is_noble="true"
+        banner_key="11.37.140.1836.1836.768.788.1.0.-30.533.35.127.460.502.764.752.1.0.0" />	
+
+    <Faction id="clan_aserai_1"
+        name="{=clan_aserai_1.name}Warmia"
+        tier="5"
+        owner="Hero.lord_3_1"
+        culture="Culture.baltic"
+        super_faction="Kingdom.prussia"
+        is_noble="true"
+        banner_key="11.2.140.1836.1836.768.788.1.0.-30.449.35.127.402.517.764.762.1.0.180" />		
+
+    <Faction id="clan_empire_south_1"
+        name="{=clan_empire_south_1.name}Pomesania"
+        tier="4"
+        owner="Hero.lord_1_14"
+        culture="Culture.baltic"
+        super_faction="Kingdom.prussia"
+        is_noble="true"
+        banner_key="11.2.140.1836.1836.768.788.1.0.-30.532.35.127.356.459.764.762.1.0.-1.457.35.127.328.350.762.845.1.0.179" />	
+
+    <Faction id="clan_empire_north_1"
+    name="{=clan_empire_north_1.name}Natangen"
+    tier="5"
+    owner="Hero.lord_1_1"
+    culture="Culture.baltic"
+    super_faction="Kingdom.prussia"
+    is_noble="true"
+    banner_key="11.2.140.1836.1836.768.788.1.0.-30.457.35.127.320.340.653.775.1.0.-270.457.35.127.319.340.875.775.1.0.-90" />		
+
+    <Faction id="clan_empire_west_1"
+    name="{=clan_empire_west_1.name}Pogesania"
+    tier="5"
+    owner="Hero.lord_1_7"
+    culture="Culture.baltic"
+    super_faction="Kingdom.prussia"
+    is_noble="true"
+    banner_key="11.2.140.1836.1836.768.788.1.0.-30.524.35.127.319.340.819.822.1.0.43.524.35.127.319.340.722.686.1.0.223" />		
+
+</Factions>

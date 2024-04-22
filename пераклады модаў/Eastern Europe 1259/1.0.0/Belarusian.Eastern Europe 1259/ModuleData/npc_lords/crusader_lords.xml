@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+	<NPCCharacter id="dead_lord_crus_1_1" name="{=dead_lord_crus_1_1.name}Siegfried von Heldrungen" age="69" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.crusader" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="0016200140BC140143FBBB8747BD9C66A9446A946C85E738A778E765678CA9B4000BD8350BB5C64C0000037F0000000F00000037049140010000000001903000"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.full_helm_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_1_1" name="{=lord_crus_1_1.name}Anno von Sangerhausen" voice="curt" age="42" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<!-- custom face -->
+			<BodyProperties version="4" age="42" weight="0.6287" build="0.4113" key="000A000C4000188D077607FA61130E7300FF88E4F8A3A9E67336080083F460124A90063507F8F5A3692293445165F47300000000000000370000000024FC3000"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm_crest"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+    
+	<NPCCharacter id="lord_crus_1_2" name="{=lord_crus_1_2.name}Hartmann von Heldrungen" voice="earnest" age="49" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="49.33" weight="0.2134" build="0.6973" key="0005440C4000140540745FFFE7086F631CF58860EB35BFBE770F05008FF20E7B5F39564606007000A30057004550009300000000000000460000000068CC9042"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm_winged"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_rectangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_rectangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_1_3" name="{=lord_crus_1_3.name}Hermann von Heldrungen" voice="ironic" age="47" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="47" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.full_helm_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_triangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_triangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_1_4" name="{=lord_crus_1_4.name}Dietrich von Grüningen" voice="softspoken" age="49" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="49.83" weight="0.0238" build="0.3908" key="00059C06C000101C49794FFF7A5B0FE900E389E1E9A6D04FA96AB80A8F9962476F7776460AC6304060100000009964AA000000000000004A00000000134C3000"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm_horns"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_1_5" name="{=lord_crus_1_5.name}Poppo von Osterna" voice="curt" age="59" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="59.41" weight="0.5" build="0.5" key="0000540C4000188DA0749FEF7504000BF1F087EE9900017EA6B6660086E4501C579006570A05CA417713530004355043000000000000005A000000003F544080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.winged_great_helm_base"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_1_6" name="{=lord_crus_1_6.name}Konrad von Thierberg the Elder" voice="earnest" age="45" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="45.8" weight="0.1209" build="0.863" key="00056006C000144EF974598738016F8581E880A4AB8392007709040086E007560F7706350AAA8041D200000000000000000000000000003A000000003D4C3041"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.winged_great_helm_brass"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_rectangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_rectangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_1_7" name="{=lord_crus_1_7.name}Werner III. von Battenberg" voice="ironic" age="43" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="43" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.winged_great_helm_dark"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_triangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_triangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_1_8" name="{=lord_crus_1_8.name}Friedrich von Ueberkingen" voice="softspoken" age="41" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="41" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.lt_maciejowski_helmet"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_1_9" name="{=lord_crus_1_9.name}Konrad von Ursensollen" voice="curt" age="39" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="39" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.lt_maciejowski_helmet_with_brim"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_1_10" name="{=lord_crus_1_10.name}Konrad Welzo" voice="earnest" age="37" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="37" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.winged_great_helm_base"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_rectangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_rectangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_2_1" name="{=lord_crus_2_1.name}Burchard von Hornhausen" voice="ironic" age="39" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="39.32" weight="0.0238" build="0.6045" key="001358000000394E9076AD5F7F7150EAD0E084E0F7839010A21198208AEB07484FB0063506A6F11090235400025472430000000000000036000000003CD44044"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.winged_great_helm_brass"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_triangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_triangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_2_2" name="{=lord_crus_2_2.name}Heinrich Botel" voice="softspoken" age="39" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="39" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.winged_great_helm_dark"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_2_3" name="{=lord_crus_2_3.name}Georg von Eichstätt" voice="curt" age="41" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="41" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm_winged"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_2_4" name="{=lord_crus_2_4.name}Konrad von Mandern" voice="earnest" age="29" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="32.97" weight="0.0365" build="0.949" key="000AB808007020049446BB57A5544C67798D74486BB43B64437C79897AA65631019E16130932A5510000000000000000000000000000000000000000293C7042"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm_horns"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_rectangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_rectangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_2_5" name="{=lord_crus_2_5.name}Werner von Breithausen" voice="ironic" age="46" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="46" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.lt_maciejowski_helmet"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_triangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_triangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_3_1" name="{=lord_crus_3_1.name}Archbishop Albert Suerbeer" voice="softspoken" age="59" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<!-- custom face -->
+			<BodyProperties version="4" age="59" weight="0.4098" build="0.1043" key="0000D80AC000100B7F76613C7A340F9851F283016594CCF0D9861A3885F00306986576570A44F41426772BEAE774599A000000000000005A000000002D5C3080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_crus_3_2" name="{=lord_crus_3_2.name}Wolfram von Adelmannsfelden" voice="curt" age="31" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="31" weight="0.4098" build="0.1043" key="0000D80AC000100B7F76613C7A340F9851F283016594CCF0D9861A3885F00306986576570A44F41426772BEAE774599A000000000000005A000000002D5C3080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_4_1" name="{=lord_crus_4_1.name}Bishop Godefridus" voice="curt" age="55" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="55" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_crus_4_2" name="{=lord_crus_4_2.name}Henry gen Charity" voice="curt" age="29" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="29" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_rectangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_rectangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+
+
+	<NPCCharacter id="lord_crus_5_1" name="{=lord_crus_5_1.name}Bishop Heinrich I. Dominican" voice="earnest" age="55" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<!-- custom face -->
+			<BodyProperties version="4" age="55" weight="0.23" build="0.80" key="0005C8080000000099B5AC5AA799545D53965E94A0C39E86628D59FC5AB6724A05BC36560B9976B20000000000000000000000000000000000000000296C9102"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_crus_5_2" name="{=lord_crus_5_2.name}Friedrich von Giengen" voice="earnest" age="27" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="27" weight="0.23" build="0.80" key="0005C8080000000099B5AC5AA799545D53965E94A0C39E86628D59FC5AB6724A05BC36560B9976B20000000000000000000000000000000000000000296C9102"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_triangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_triangle_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross2"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_crus_6_1" name="{=lord_crus_6_1.name}Bishop Heinrich von Lützelburg" voice="ironic" age="55" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="55.38" weight="0.4098" build="0.1043" key="0005B40D8000100E9A7260359F800FFA11F0810009C48B11B0000B5B84F0010898F0E6560936E60426772BEAE774591A0000000000000059000000007F249106"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.great_prankh_helm"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_round_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross3"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+    
+	<NPCCharacter id="lord_crus_6_2" name="{=lord_crus_6_2.name}Edmund von Werth" voice="softspoken" age="55" is_female="false" is_hero="true" culture="Culture.crusader" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="55" weight="0.01" build="0.45" key="000AA4080088260E2E94BD5AD8B9529163A87BB9607CBE248ACB47EA7A942453059706560987957500000000000000000000000000000000000000005B3C70C2"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.bracketed_heater_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_4_t4"/>
+				<equipment slot="Head" id="Item.winged_great_helm_base"/>
+				<equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Gloves" id="Item.lt_mail_mitten_c"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+				<equipment slot="Horse" id="Item.t3_aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+                <equipment slot="Cape" id="Item.lt_mail_mantle_square_with_cross"/>
+				<equipment slot="Body" id="Item.lt_surcoat_over_full_mail_white_cross"/>
+				<equipment slot="Leg" id="Item.lt_mail_chausses_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

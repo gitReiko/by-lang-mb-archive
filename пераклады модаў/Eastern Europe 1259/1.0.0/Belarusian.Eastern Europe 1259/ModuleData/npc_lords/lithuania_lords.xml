@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="dead_lord_lit_1_1" name="{=dead_lord_lit_1_1.name}Ringaudas" age="85" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- Mindaugas' face -->
+			<BodyProperties version="4" key="00055008C00003C2C976649E9CD0408B50E681F0F7A09710F004F7898FF6304505DB06570D19B8070920B142012404300000000000000057000000003DB44002"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="dead_lord_lit_1_2" name="{=dead_lord_lit_1_2.name}Vilija" age="50" voice="curt" default_group="Infantry" is_female="true" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- custom face -->
+            <BodyProperties version="4" age="50.82" weight="0.8769" build="0.4834" key="000A5C08C08820059964758F5FA07FA346D486A0F756630762F5D0008CFF45277C8396460825F70A7DBB9B47B863324B00000000000000480000000025141082"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+        </Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="dead_lord_lit_1_3" name="{=dead_lord_lit_1_3.name}Lingailė" age="65" voice="curt" default_group="Infantry" is_female="true" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- custom face -->
+            <BodyProperties version="4" age="65.4" weight="0.2537" build="0.7054" key="000A4C06C088300EC567543F5F41FF73B0F6852584377A023505145589FF47A57C83965708D08851B41654000863324B000000000000005800000000551420C2"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+        </Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_lit_1_1" name="{=lord_lit_1_1.name}King Mindaugas" voice="curt" age="59" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<!-- custom face -->
+			<BodyProperties version="4" age="59" weight="0.0017" build="0.7153" key="00055008C00003C2C976649E9CD0408B50E681F0F7A09710F004F7898FF6304505DB06570D19B8070920B142012404300000000000000057000000003DB44002"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.justicier_2hsword"/>
+				<equipment slot="Item1" id="Item.battania_axe_3_t5"/>
+				<equipment slot="Head" id="Item.western_crowned_plated_helmet"/>
+				<equipment slot="Cape" id="Item.pauldron_over_scale_armor"/>
+				<equipment slot="Body" id="Item.sturgian_lamellar_fortified"/>
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+                <equipment slot="Horse" id="Item.noble_horse_battania"/>
+                <equipment slot="HorseHarness" id="Item.studded_steppe_barding"/>                
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.justicier_2hsword"/>
+				<equipment slot="Item1" id="Item.battania_axe_3_t5"/>
+				<!-- <equipment slot="Item2" id="Item.empire_sword_3_t3" /> -->
+				<equipment slot="Body" id="Item.dummy_armor_lower_average"/>
+				<!-- <equipment slot="Gloves" id="Item.padded_mitten" /> -->
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				<equipment slot="Head" id="Item.lt_mindaugas_crown"/>
+				<!--<equipment slot="Cape"  id="Item.empire_cape_a" /> -->
+				<!-- <equipment slot="Horse" id="Item.noble_horse" /> -->
+			</EquipmentRoster>
+			<!-- <EquipmentSet id="npc_wanderer_equipment_template_empire" /> -->
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_lit_1_2" name="{=lord_lit_1_2.name}Morta" voice="softspoken" age="49" is_female="true" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<!-- custom face -->
+			<BodyProperties version="4" age="49" weight="0.5" build="0.5" key="00133C0C400000159B76625F5F00FFC8F0F084F2F9A6601041853A048BEE0CB6497226460A9759167704547310880342000000000000004A000000001B441000"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="89"/>
+			<skill id="Medicine" value="150"/>
+			<skill id="Leadership" value="150"/>
+			<skill id="Steward" value="150"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Charm" value="166"/>
+			<skill id="Roguery" value="50"/>
+			<skill id="Scouting" value="50"/>
+			<skill id="Crafting" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<!-- <equipment slot="Item0" id="Item.justicier_2hsword" /> -->
+				<equipment slot="Body" id="Item.vlandian_corset_dress"/>
+				<!-- vlandian_corset_dress -->
+				<equipment slot="Leg" id="Item.woven_leather_boots"/>
+				<equipment slot="Head" id="Item.lt_mortas_crown_with_wimple"/>
+				<equipment slot="Cape" id="Item.lt_cross_steel"/>
+				<equipment slot="Horse" id="Item.noble_horse"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<!-- <equipment slot="Item0" id="Item.justicier_2hsword" /> -->
+				<!--<equipment slot="Item1"  id="Item.justicier_2hsword" />
+                            <equipment slot="Item2"   id="Item.empire_sword_3_t3" /> -->
+				<equipment slot="Body" id="Item.vlandian_corset_dress"/>
+				<!-- <equipment slot="Gloves"
+                                   id="Item.padded_mitten" /> -->
+				<equipment slot="Leg" id="Item.woven_leather_boots"/>
+				<equipment slot="Head" id="Item.lt_mortas_crown_with_wimple"/>
+				<equipment slot="Cape" id="Item.lt_cross_steel"/>
+			</EquipmentRoster>
+			<!-- <EquipmentSet id="npc_wanderer_equipment_template_empire" /> -->
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_lit_1_3" name="{=lord_lit_1_3.name}Ruklys" age="9" is_female="false" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000500440B407823E895C86B34CA38993A369B8B280570970538AC46B6781990079880307C60384000000000000000000000000000000000000000000F05000"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- CHILD, NO SKILLS OR TRAITS YET-->
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_lit_1_4" name="{=lord_lit_1_4.name}Rupeikis" age="7" is_female="false" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000500440B407823E895C86B34CA38993A369B8B280570970538AC46B6781990079880307C60384000000000000000000000000000000000000000000F05000"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- CHILD, NO SKILLS OR TRAITS YET-->
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_1_5" name="{=lord_lit_1_5.name}Vaišvilkas" voice="ironic" age="36" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="35.83" weight="0.5129" build="0.7008" key="0005400AC0A01349C86189ED31182FDDC0D47A7097B49F00817668C47BC10349AABC16240BA97946B8D944010C4A449A000000000000002B000000002B847080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_1_6" name="{=lord_lit_1_6.name}Parbus" voice="softspoken" age="52" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="51.78" weight="0.411" build="0.6731" key="0005000140A004847E659B160FB070BC80F8746183B68100A1E400078EE00F7301FE06350BC6D110A67FFF000FEFF006000000000000003B0000000041843083"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_lit_1_7" name="{=lord_lit_1_7.name}Lengvenis" voice="softspoken" age="39" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="39.21" weight="0.7094" build="0.5279" key="000D480980A033C8DF666FB62402FFBB8188779AE9B47200AFF649C38C98047301FE06240B5361528B7FFF000FEFF006000000000000002B0000000041847080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_lit_1_8" name="{=lord_lit_1_8.name}Bikšys" voice="curt" age="55" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="55.18" weight="0.1622" build="0.483" key="0010500C40A0034D9C63AED758830CC586F1784C3C86CB029F66232979410749D56706790AB970F3727BC7101B96848A000000000000007A000000004F546080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="dead_lord_lit_2_1" name="{=dead_lord_lit_2_1.name}Vitas 'The Wolf'" age="67" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="67.03" weight="0.5" build="0.5" key="0005400C400004864F73592E7D8331DA63F783CC99A2B700708570E7809338060F7776790746879477000000000000000000000000000077000000003CFC3080"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_2_1" name="{=lord_lit_2_1.name}Traidenis" voice="curt" age="39" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="39.82" weight="0.1814" build="0.7016" key="00205808C0001382A673976D7D9233AB51F783A0E3A09610B09800E28CC085422F9106350975B421B3036000005555210000000000000039000000002B243140"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_2_2" name="{=lord_lit_2_2.name}Svelkenis" voice="softspoken" age="33" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="32.71" weight="0.0238" build="0.6489" key="000A4C0D80A033C3AB68489F200900EA51F475189BB7A9007D19307683F1474601FE062409079634A04EFF000FEFF00600000000000000290000000041243083"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_2_3" name="{=lord_lit_2_3.name}Liesis" voice="ironic" age="29" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="28.64" weight="0.0722" build="0.7296" key="000A200AC0A0135B5B64BD4F5468009A51B4722888B79C05A81930968FF0444401FE06130B993604B17FFF000FEFF006000000000000001B0000000041843043"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_2_4" name="{=lord_lit_2_4.name}Sirputis" voice="earnest" age="27" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="27.16" weight="0.3874" build="0.5241" key="00081C06C0A0335C9F63989A4A0A00CA8BF698DBD970AD008786585687F1464BD888761309EBC40486C0AC00047C589B0000000000000019000000004F343000"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="200"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="79"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="69"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="dead_lord_lit_3_1" name="{=dead_lord_lit_3_1.name}Saumantas" age="59" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="59.24" weight="0.3565" build="0.5725" key="0008400AC00003C8BA6A71464E517CA5C3E3870A0CB0FD007A17405980530B380F77766809D844B69500000000758800000000000000006900000000392C9040"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="dead_lord_lit_3_2" name="{=dead_lord_lit_3_2.name}Naumantas" age="39" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="39.24" weight="0.3565" build="0.5725" key="0008400AC00003C8BA6A71464E517CA5C3E3870A0CB0FD007A17405980530B380F77766809D844B69500000000758800000000000000006900000000392C9040"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_3_1" name="{=lord_lit_3_1.name}Daumantas" voice="ironic" age="19" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="19.18" weight="0.0597" build="0.4985" key="0002440980A0301B1E437BB8361310B593F57468FD95AF177E26B54378F13627897A96130AB3A9277168D90006956C69000000000000001A0000000021543080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_lit_3_2" name="{=lord_lit_3_2.name}Agna" voice="earnest" age="39" is_female="true" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<!-- custom face -->
+			<BodyProperties version="4" age="39" weight="0.044" build="0.6247" key="0005480000001015D179015F1B000FE5A1F085619EA401008E0607188FFF3F86598106350709CF9591023000038402000000000000000037000000003CFC1080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="89"/>
+			<skill id="Medicine" value="150"/>
+			<skill id="Leadership" value="150"/>
+			<skill id="Steward" value="150"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Charm" value="166"/>
+			<skill id="Roguery" value="50"/>
+			<skill id="Scouting" value="50"/>
+			<skill id="Crafting" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<!-- <equipment slot="Item0" id="Item.justicier_2hsword" /> -->
+				<equipment slot="Body" id="Item.vlandian_corset_dress"/>
+				<!-- vlandian_corset_dress -->
+				<equipment slot="Leg" id="Item.woven_leather_boots"/>
+				<!-- <equipment slot="Head"  id="Item.lt_mortas_crown_with_wimple" /> -->
+				<!--<equipment slot="Cape"  id="Item.empire_cape_a" /> -->
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<!-- <equipment slot="Item0" id="Item.justicier_2hsword" /> -->
+				<!--<equipment slot="Item1"  id="Item.justicier_2hsword" />
+                            <equipment slot="Item2"   id="Item.empire_sword_3_t3" /> -->
+				<equipment slot="Body" id="Item.vlandian_corset_dress"/>
+				<!-- <equipment slot="Gloves"
+                                   id="Item.padded_mitten" /> -->
+				<equipment slot="Leg" id="Item.woven_leather_boots"/>
+				<!-- <equipment slot="Head"  id="Item.lt_mortas_crown_with_wimple" /> -->
+				<!--<equipment slot="Cape"  id="Item.empire_cape_a" /> -->
+				<!-- <equipment slot="Horse" id="Item.noble_horse" /> -->
+			</EquipmentRoster>
+			<!-- <EquipmentSet id="npc_wanderer_equipment_template_empire" /> -->
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_3_3" name="{=lord_lit_3_3.name}Suksė" voice="softspoken" age="35" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<!-- custom face -->
+            <BodyProperties version="4" age="34.78" weight="0.3827" build="0.9998" key="0008000AC0A0141C6E659E4F0FF000B907F8743985C54100A15414558C70065401FE06350BA8B686F67FFF000FEFF006000000000000003B0000000041843083"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="dead_lord_lit_4_1" name="{=dead_lord_lit_4_1.name}Dausprungas" age="61" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="52.58" weight="0.2346" build="0.6867" key="0008000F0000134D5575969440B22F79A0F3830415B49001C14140628FF03C700F70364607C74150A40000000067A3400000000000000047000000003CFC1141"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="dead_lord_lit_4_2" name="{=dead_lord_lit_4_2.name}Gedvydas" age="41" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="41.17" weight="0.1651" build="0.6065" key="0008300E40A02343B76268B577C410AA20F57B3F67B1DD007E9638627483344658D2B64608B57129929754000CB8998C000000000000004800000000190C30C0"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_4_1" name="{=lord_lit_4_1.name}Tautvilas" voice="earnest" age="39" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="39.25" weight="0.2214" build="0.54" key="000D4406C00037CE907A7F0E101517F760F18083FFA59118021616937BF000277C8006350AA1E0048300040005998512000000000000003A00000000194C4080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_4_2" name="{=lord_lit_4_2.name}Gerdenis" voice="earnest" age="39" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="39.23" weight="0.4579" build="0.671" key="0008400A40A0034E6770C9F5A33742A780F57684BD66AD507A2800C875913629897A965605691529A768D90006956C6900000000000000550000000040AC8080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_4_3" name="{=lord_lit_4_3.name}Gotartas" voice="softspoken" age="37" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="38.69" weight="0.054" build="0.6744" key="0000040D80A0134E9454797863685F6940F7740E1DB38F01600901027F512C0999B866250BF4D000A17994100C5A79B8000000000000002B00000000297C3040"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_4_4" name="{=lord_lit_4_4.name}Gabija" voice="softspoken" age="37" is_female="true" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+            <BodyProperties version="4" age="37.25" weight="0.0641" build="0.7376" key="000D500B9488100B1573927431020159B0F684409686400C430507E78507303797F016350CB04375B138760000F997A5000000000000003C0000000065A41080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="89"/>
+			<skill id="Medicine" value="150"/>
+			<skill id="Leadership" value="150"/>
+			<skill id="Steward" value="150"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Charm" value="166"/>
+			<skill id="Roguery" value="50"/>
+			<skill id="Scouting" value="50"/>
+			<skill id="Crafting" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+        </Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="dead_lord_lit_5_1" name="{=dead_lord_lit_5_1.name}Jugintas" age="90" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="90.34" weight="0.0571" build="0.0108" key="0008580A400024045F79B4248D505099A0F18A317F649A05950D00A78CB43F2B97870689072471B0017CA400193A8A6C00000000000000870000000056EC7000"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="dead_lord_lit_5_2" name="{=dead_lord_lit_5_2.name}Jūratė" age="70" voice="curt" default_group="Infantry" is_female="true" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- custom face -->
+            <BodyProperties version="4" age="70.5" weight="0.1932" build="0.4836" key="001004040088200C0E7A62093F03EF8AF0A08573A42C5004C000002A80E35D0682607678091976F77331360030700255000000000000007900000000392C3100"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+        </Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="dead_lord_lit_5_3" name="{=dead_lord_lit_5_3.name}Vykintas" age="72" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- Custom face -->
+			<BodyProperties version="4" age="72.01" weight="0.3101" build="0.5403" key="00138C0340001384F078478F0E61A66C83F18370B3A553109659459088E036482F8306780A87A2538500000024404450000000000000007A0000000005544100"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="dead_lord_lit_5_4" name="{=dead_lord_lit_5_4.name}Erdvilas" age="69" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="73.79" weight="0.0386" build="0.7114" key="00050C0AC00017838A7876AE9E920FD9413987373F9051338F5910028F362029A94A76790BF8F001B156840004DC3B97000000000000007B0000000031843080"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="dead_lord_lit_5_5" name="{=dead_lord_lit_5_5.name}Gaudvydė" age="67" voice="curt" default_group="Infantry" is_female="true" is_hero="true" culture="Culture.baltic" occupation="Lord" face_mesh_cache="true">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="67.54" weight="0" build="0.7376" key="000D50040088000ECC72C35346138F5B40D782005748000070F016108F7A6E368893868907C34976B012A6003066025500000000000000870000000044F43100"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+        </Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_5_1" name="{=lord_lit_5_1.name}Treniota" voice="curt" age="49" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+			<!-- custom face -->
+			<BodyProperties version="4" age="49" weight="0.2214" build="0.54" key="000D8002800001428072A90F7010128AC0E1819599B551C1B76616565FF44A717C8006460A8768468300040005998512000000000000004A00000000194C3000"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_5_2" name="{=lord_lit_5_2.name}Alminas" voice="earnest" age="38" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="38.26" weight="0.4153" build="0.6936" key="000560015A0003DB4075668F46100EF640F584EFBE72FA87650A075085F228835A70162406868840A6003400004536240000000000000026000000001CD43085"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="lord_lit_5_3" name="{=Saule}Saule" voice="softspoken" age="37" is_female="true" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+            <BodyProperties version="4" age="37.11" weight="0.1609" build="0.903" key="0002600AC0E400067A5772437AA47F08C0B5763575C41701895C743578F7054855A006030A83C368E2030200017C19AD000000000000000A000000004B4C4080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="89"/>
+			<skill id="Medicine" value="150"/>
+			<skill id="Leadership" value="150"/>
+			<skill id="Steward" value="150"/>
+			<skill id="Trade" value="100"/>
+			<skill id="Charm" value="166"/>
+			<skill id="Roguery" value="50"/>
+			<skill id="Scouting" value="50"/>
+			<skill id="Crafting" value="50"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+        </Equipments>
+	</NPCCharacter>
+
+    <NPCCharacter id="lord_lit_5_4" name="{=Gaile}Gaile" voice="softspoken" age="18" is_female="true" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+        <face>
+            <!-- custom face -->
+            <BodyProperties version="4" age="17.86" weight="0.1609" build="0.903" key="0000480980E4100B9C5461088F327865B0E67997A9B134056F5A1B7F77FF075955A006130A42B051E2030200017C19AD000000000000001A000000004B4C1080"/>
+        </face>
+        <skills>
+            <skill id="Engineering" value="10"/>
+            <skill id="Medicine" value="20"/>
+            <skill id="Leadership" value="10"/>
+            <skill id="Steward" value="20"/>
+            <skill id="Trade" value="10"/>
+            <skill id="Charm" value="100"/>
+            <skill id="Roguery" value="10"/>
+            <skill id="Scouting" value="10"/>
+            <skill id="Crafting" value="10"/>
+        </skills>
+        <Traits>
+            <Trait id="Mercy" value="0"/>
+            <Trait id="Valor" value="0"/>
+            <Trait id="Honor" value="1"/>
+            <Trait id="Generosity" value="1"/>
+            <Trait id="Calculating" value="1"/>
+            <Trait id="Egalitarian" value="-2"/>
+            <Trait id="Oligarchic" value="-1"/>
+            <Trait id="Authoritarian" value="-1"/>
+        </Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Body" id="Item.vlandian_corset_dress"/>
+                <equipment slot="Leg" id="Item.woven_leather_boots"/>
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+
+
+	<NPCCharacter id="lord_lit_6_1" name="{=lord_lit_6_1.name}Vembutas" voice="softspoken" age="57" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="57.3" weight="0.4132" build="0.3433" key="00025008C00013488A78827A4396008A411982864F655100525A140A8CC0202643A676350A44746356752600008B7448000000000000003A000000003B3C4080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_6_2" name="{=lord_lit_6_2.name}Vaišna" voice="ironic" age="40" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="39.72" weight="0" build="0.4429" key="00085C0D800022800755910BE5800908A3F985D2A8B6F1167F5A110080992E1876E9C6450C62700470AAD697B57A98C5000000000000004C0000000053948100"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+
+	<NPCCharacter id="lord_lit_6_3" name="{=lord_lit_6_3.name}Sirvydas" voice="curt" age="43" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="42.92" weight="0.4495" build="0.2374" key="00103806C000138D0A75B4898DA6106DA17683031AC3D4F1B55A82008836A039A94A76240B9660014756840004DC3B97000000000000002B0000000031842080"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+    
+	<NPCCharacter id="lord_lit_6_4" name="{=lord_lit_6_4.name}Velžys" voice="ironic" age="60" is_female="false" is_hero="true" culture="Culture.baltic" occupation="Lord" default_group="Cavalry">
+		<face>
+            <!-- custom face -->
+			<BodyProperties version="4" age="60.64" weight="0.3565" build="0.5725" key="0008080AC0002385AF60CAF04DF610E965A384003ED43F05AFA7D0258E5209580F777679090820E19500000000758800000000000000007900000000392C80C0"/>
+		</face>
+		<skills>
+			<skill id="Engineering" value="170"/>
+			<skill id="Medicine" value="71"/>
+			<skill id="Leadership" value="250"/>
+			<skill id="Steward" value="53"/>
+			<skill id="Trade" value="199"/>
+			<skill id="Charm" value="150"/>
+			<skill id="Roguery" value="66"/>
+			<skill id="Scouting" value="121"/>
+			<skill id="Tactics" value="200"/>
+			<skill id="Crafting" value="131"/>
+			<skill id="Athletics" value="240"/>
+			<skill id="Riding" value="200"/>
+			<skill id="Throwing" value="4"/>
+			<skill id="Crossbow" value="81"/>
+			<skill id="Bow" value="169"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="OneHanded" value="200"/>
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="baltic_lord_equipmentset_template"/>
+			<EquipmentSet id="baltic_lord_equipmentset_template_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>

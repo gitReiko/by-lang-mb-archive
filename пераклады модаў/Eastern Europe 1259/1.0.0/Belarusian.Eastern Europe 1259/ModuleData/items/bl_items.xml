@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<!-- Native Bannerlord items -->
+<Items>
+
+    <!-- retextured -->
+
+    <Item id="lt_mail_mitten_c" name="{=lt_mail_mitten_c.name}Mail Mittens - Shiny" mesh="lt_mail_mitten_c" culture="Culture.crusader" weight="1.4" difficulty="0" appearance="1.6" Type="HandArmor">
+        <ItemComponent>
+            <Armor arm_armor="20" covers_hands="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+
+    <Item id="lt_mail_chausses_a" name="{=lt_mail_chausses_a.name}Mail Chausses - Shiny" mesh="lt_mail_chausses_a" culture="Culture.crusader" weight="2.9" appearance="1.6" Type="LegArmor">
+        <ItemComponent>
+            <Armor leg_armor="22" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+
+</Items>

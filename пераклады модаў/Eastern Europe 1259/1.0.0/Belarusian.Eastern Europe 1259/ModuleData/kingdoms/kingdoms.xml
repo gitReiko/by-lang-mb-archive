@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom
+		id="lithuania"
+		owner="Hero.lord_lit_1_1"
+		banner_key="11.148.140.1836.1836.768.788.1.0.-30.129.35.116.403.339.759.769.1.0.0"
+		primary_banner_color="0xff8D291A"
+		secondary_banner_color="0xff000000"
+		label_color="ffB01301"
+		color="0xFF5C2017"
+		color2="0xffC0C0C0"
+		alternative_color="FFDBBA27"
+		alternative_color2="ff910101"
+		culture="Culture.baltic"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=lithuania.name}Lithuania"
+		short_name="{=lithuania.short_name}Lithuanians"
+		title="{=lithuania.title}Kingdom of Lithuania"
+		ruler_title="{=hwnp9abW}King"
+		text="{=lithuania.text}The Kingdom of Lithuania exists from 1251. King Mindaugas is the first chieftain crowned as King of Lithuania with the Pope's assent. The formation of the Kingdom of Lithuania represents a partially successful attempt at unifying all surrounding Baltic tribes into a single state.">
+		<relationships>
+			<relationship kingdom="Kingdom.prussia" value="1" isAtWar="false" />
+			<relationship kingdom="Kingdom.baltic_tribes" value="1" isAtWar="false" />
+		</relationships>
+	</Kingdom>
+
+
+    <!-- Teutonic black cross on white 
+		banner_key="11.127.127.1836.1836.768.788.1.0.-30.510.116.116.1609.793.764.764.1.1.180.510.116.116.1975.868.764.764.1.1.270"
+
+        Anno's family coat of arms    
+        11.128.116.2000.2000.764.764.1.0.0.510.116.116.2028.553.764.764.1.0.180.510.116.116.2028.553.764.764.1.0.270.316.128.116.892.836.764.767.1.0.0.510.116.116.590.50.764.764.1.0.0.510.116.116.683.50.764.802.1.0.90.505.142.142.301.293.898.627.1.0.90.505.142.142.229.225.662.870.1.0.90.513.142.142.282.276.618.960.1.0.62.513.142.142.282.276.626.973.1.0.229.513.142.142.282.276.676.1007.1.0.219.505.142.142.135.158.562.835.1.0.180.505.142.142.135.158.700.959.1.0.180.513.142.142.271.276.638.991.1.0.219.510.116.116.300.280.630.626.1.0.90.510.116.116.300.280.630.626.1.0.180.510.116.116.300.280.901.903.1.0.269.510.116.116.288.280.898.900.1.0.180.510.116.116.300.280.901.924.1.0.269.504.116.116.25.89.906.1064.1.0.284.321.121.116.85.85.901.842.1.0.0.321.121.116.85.85.859.898.1.0.90.321.121.116.85.85.947.898.1.1.270.321.121.116.85.85.902.955.1.1.180.321.121.116.85.85.630.569.1.0.0.321.121.116.85.85.630.677.1.1.180.321.121.116.85.85.676.626.1.1.270.321.121.116.85.85.587.626.1.0.90.424.121.116.58.62.630.512.1.0.-1.424.121.116.58.62.630.739.1.1.180.424.121.116.58.62.524.626.1.1.89.424.121.116.58.62.739.626.1.0.270.424.121.116.58.62.1008.899.1.0.270.424.121.116.58.62.796.899.1.1.89.424.121.116.58.62.902.787.1.1.0.424.121.116.58.62.902.1015.1.0.180.319.121.116.160.160.902.896.1.0.0.319.121.116.160.160.631.626.1.0.0.102.116.121.120.120.902.884.1.0.0.102.116.121.120.120.629.614.1.0.0.141.121.142.251.199.899.540.1.0.0.141.121.142.251.199.899.620.1.0.0.141.121.142.251.199.899.702.1.0.0.141.121.142.251.199.635.810.1.0.0.141.121.142.251.199.634.810.1.0.0.141.121.142.251.199.634.889.1.0.0.141.121.142.247.190.643.973.1.0.0
+    -->
+
+	<Kingdom
+		id="northern_crusaders"
+		owner="Hero.lord_crus_1_1"
+        banner_key="11.127.127.1836.1836.768.788.1.0.-30.510.116.116.1609.793.764.764.1.1.180.510.116.116.1975.868.764.764.1.1.270"
+		primary_banner_color="0xffFFFFFF"
+		secondary_banner_color="0xff000000"
+		label_color="ff000000"
+		color="FFFFFFFF"
+		color2="FF000000"
+		alternative_color="FF555555"
+		alternative_color2="ffeeeeee"
+		culture="Culture.crusader"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=northern_crusaders.name}Teutonic Order"
+		short_name="{=northern_crusaders.short_name}Teutonic Order"
+		title="{=northern_crusaders.title}Teutonic Order"
+		ruler_title="{=northern_crusaders.ruler_title}Grand Master"
+		text="{=northern_crusaders.text}The Teutonic Order is a Catholic religious institution founded as a military society in 1190 in Acre, Kingdom of Jerusalem. It is the leading power of The Northern Crusades or Baltic Crusades - colonization and Christianization campaigns undertaken by Catholic Christian military orders and kingdoms, primarily against the pagan Baltic, Finnic and West Slavic peoples around the southern and eastern shores of the Baltic Sea, and also against Orthodox Christian Slavs.">
+		<relationships>
+		</relationships>
+	</Kingdom>
+
+	<Kingdom
+		id="prussia"
+		owner="Hero.lord_1_1"
+		banner_key="11.2.140.1836.1836.768.788.1.0.-30.457.35.127.320.340.653.775.1.0.-270.457.35.127.319.340.875.775.1.0.-90"
+		primary_banner_color="0xff264D16"
+		secondary_banner_color="0xff000000"
+		label_color="0xff264D16"
+		color="0xff0B2600"
+		color2="0xffC0C0C0"
+		alternative_color="FFDBBA27"
+		alternative_color2="ff910101"
+		culture="Culture.baltic"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=prussia.name}Prussia"
+		short_name="{=prussia.short_name}Prussians"
+		title="{=prussia.title}Prussian Tribes"
+		ruler_title="{=prussia.ruler_title}Chief"
+		text="{=prussia.text}Prussia is a loose alliance of pagan Prussian tribes with similar languages and cultures. Prussian tribes are organized in a loose confederation led by local chieftains. Their society is largely tribal and clan-based, with leaders known as 'kriwe' or 'kriwes' who hold both religious and political authority. These leaders are supported by a council of nobles or elders. The Prussian tribes do not have a centralized state structure, and their political organization are more focused on local governance and tribal coalitions, which often shifted alliances and rivalries.">
+		<relationships>
+			<relationship kingdom="Kingdom.lithuania" value="1" isAtWar="false" />
+			<relationship kingdom="Kingdom.baltic_tribes" value="1" isAtWar="false" />		
+		</relationships>
+	</Kingdom>
+
+	<Kingdom
+		id="baltic_tribes"
+		owner="Hero.lord_2_1"
+		banner_key="11.37.140.1836.1836.768.788.1.0.-30.533.35.127.460.502.764.752.1.0.0"
+		primary_banner_color="0xffF6B365"
+		secondary_banner_color="0xff000000"
+		label_color="0xffF6B365"
+		color="0xffF6B365"
+		color2="0xffC0C0C0"
+		alternative_color="FFDBBA27"
+		alternative_color2="ff910101"
+		culture="Culture.baltic"
+		settlement_banner_mesh="encounter_flag_d"
+		flag_mesh="info_screen_flags_c"
+		name="{=baltic_tribes.name}Baltic Tribes"
+		short_name="{=baltic_tribes.short_name}Baltic Tribes"
+		title="{=baltic_tribes.title}Baltic Tribes"
+		ruler_title="{=baltic_tribes.ruler_title}Chief"
+		text="{=baltic_tribes.text}Baltic Tribes is a loose alliance of pagan baltic tribes with similar languages and cultures.">
+		<relationships>
+			<relationship kingdom="Kingdom.lithuania" value="1" isAtWar="false" />
+			<relationship kingdom="Kingdom.prussia" value="1" isAtWar="false" />			
+		</relationships>
+	</Kingdom>
+
+</Kingdoms>

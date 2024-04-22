@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+
+    <!-- crowns -->
+
+    <Item id="lt_mortas_crown_with_wimple" name="{=lt_mortas_crown_with_wimple.name}Morta's Crown with Wimple" mesh="lt_mortas_crown_with_wimple" culture="Culture.baltic" weight="1.5" is_merchandise="false" appearance="9" value="100000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="10" has_gender_variations="false" hair_cover_type="all" modifier_group="cloth_unarmoured" material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+    <Item id="lt_mindaugas_crown" name="{=lt_mindaugas_crown.name}Mindaugas' Crown" mesh="lt_mindaugas_crown" culture="Culture.baltic" weight="1.5" is_merchandise="false" appearance="9" value="100000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="10" has_gender_variations="false" hair_cover_type="none" modifier_group="cloth_unarmoured" material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+
+    <!-- helmets -->
+
+    <Item id="lt_maciejowski_helmet" name="{=lt_maciejowski_helmet.name}Maciejowski Helmet" subtype="head_armor" mesh="lt_maciejowski_helmet" culture="Culture.crusader" weight="3.5" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true"/>
+    </Item>
+
+    <Item id="lt_maciejowski_helmet_with_brim" name="{=lt_maciejowski_helmet_with_brim.name}Maciejowski Helmet - With Brim" subtype="head_armor" mesh="lt_maciejowski_helmet_with_brim" culture="Culture.crusader" weight="3.5" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags UseTeamColor="true"/>
+    </Item>
+
+
+            
+
+    <!-- Surcoat over Mail -->
+
+    <Item id="lt_surcoat_over_mail_custom" name="{=lt_surcoat_over_mail_custom.name}Surcoat over Mail with Clan Banner" subtype="body_armor" mesh="lt_surcoat_over_mail_custom" using_tableau="true" culture="Culture.crusader" weight="23.2" difficulty="0" appearance="8" Type="BodyArmor" value="100000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+    <!-- White -->
+
+    <Item id="lt_surcoat_over_mail_white_cross" name="{=lt_surcoat_over_mail_white_cross.name}Teutonic Surcoat over Mail - White/Cross" subtype="body_armor" mesh="lt_surcoat_over_mail_white_cross" using_tableau="true" culture="Culture.crusader" weight="23.2" difficulty="0" appearance="8" Type="BodyArmor" value="100000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+    <Item id="lt_surcoat_over_mail_white_cross2" name="{=lt_surcoat_over_mail_white_cross2.name}Teutonic Surcoat over Mail - White/Cross 2" subtype="body_armor" mesh="lt_surcoat_over_mail_white_cross2" using_tableau="true" culture="Culture.crusader" weight="23.2" difficulty="0" appearance="8" Type="BodyArmor" value="100000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+    <Item id="lt_surcoat_over_mail_white_cross3" name="{=lt_surcoat_over_mail_white_cross3.name}Teutonic Surcoat over Mail - White/Cross 3" subtype="body_armor" mesh="lt_surcoat_over_mail_white_cross3" using_tableau="true" culture="Culture.crusader" weight="23.2" difficulty="0" appearance="8" Type="BodyArmor" value="100000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+
+    <!-- Grey -->
+
+    <Item id="lt_surcoat_over_mail_grey_cross" name="{=lt_surcoat_over_mail_grey_cross.name}Teutonic Surcoat over Mail - Grey/Cross" subtype="body_armor" mesh="lt_surcoat_over_mail_grey_cross" using_tableau="true" culture="Culture.crusader" weight="23.2" difficulty="0" appearance="8" Type="BodyArmor" value="60000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>    
+
+    <Item id="lt_surcoat_over_mail_grey_cross2" name="{=lt_surcoat_over_mail_grey_cross2.name}Teutonic Surcoat over Mail - Grey/Cross 2" subtype="body_armor" mesh="lt_surcoat_over_mail_grey_cross2" using_tableau="true" culture="Culture.crusader" weight="23.2" difficulty="0" appearance="8" Type="BodyArmor" value="60000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+    <Item id="lt_surcoat_over_mail_grey_cross3" name="{=lt_surcoat_over_mail_grey_cross3.name}Teutonic Surcoat over Mail - Grey/Cross 3" subtype="body_armor" mesh="lt_surcoat_over_mail_grey_cross3" using_tableau="true" culture="Culture.crusader" weight="23.2" difficulty="0" appearance="8" Type="BodyArmor" value="60000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+    <Item id="lt_surcoat_over_mail_grey_tau" name="{=lt_surcoat_over_mail_grey_tau.name}Teutonic Surcoat over Mail - Grey/Tau Cross" subtype="body_armor" mesh="lt_surcoat_over_mail_grey_tau" using_tableau="true" culture="Culture.crusader" weight="23.2" difficulty="0" appearance="8" Type="BodyArmor" value="300000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+ 
+
+    <!-- Surcoat over Full Mail -->
+
+    <Item id="lt_surcoat_over_full_mail_custom" name="{=lt_surcoat_over_full_mail_custom.name}Surcoat over Full Mail with Clan Banner" subtype="body_armor" mesh="lt_surcoat_over_full_mail_custom" using_tableau="true" culture="Culture.crusader" weight="25.2" difficulty="0" appearance="8" Type="BodyArmor" value="110000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="20" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+  
+
+    <!-- White -->
+
+    <Item id="lt_surcoat_over_full_mail_white_cross" name="{=lt_surcoat_over_full_mail_white_cross.name}Teutonic Surcoat over Full Mail - White/Cross" subtype="body_armor" mesh="lt_surcoat_over_full_mail_white_cross" using_tableau="true" culture="Culture.crusader" weight="25.2" difficulty="0" appearance="8" Type="BodyArmor" value="110000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="20" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+    <Item id="lt_surcoat_over_full_mail_white_cross2" name="{=lt_surcoat_over_full_mail_white_cross2.name}eutonic Surcoat over Full Mail - White/Cross 2" subtype="body_armor" mesh="lt_surcoat_over_full_mail_white_cross2" using_tableau="true" culture="Culture.crusader" weight="25.2" difficulty="0" appearance="8" Type="BodyArmor" value="110000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="20" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+    <Item id="lt_surcoat_over_full_mail_white_cross3" name="{=lt_surcoat_over_full_mail_white_cross3.name}Teutonic Surcoat over Full Mail - White/Cross 3" subtype="body_armor" mesh="lt_surcoat_over_full_mail_white_cross3" using_tableau="true" culture="Culture.crusader" weight="25.2" difficulty="0" appearance="8" Type="BodyArmor" value="110000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="20" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+
+    <!-- Grey -->
+
+    <Item id="lt_surcoat_over_full_mail_grey_cross" name="{=lt_surcoat_over_full_mail_grey_cross.name}Teutonic Surcoat over Full Mail - Grey/Cross" subtype="body_armor" mesh="lt_surcoat_over_full_mail_grey_cross" using_tableau="true" culture="Culture.crusader" weight="25.2" difficulty="0" appearance="8" Type="BodyArmor" value="70000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="20" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>    
+
+    <Item id="lt_surcoat_over_full_mail_grey_cross2" name="{=lt_surcoat_over_full_mail_grey_cross2.name}Teutonic Surcoat over Full Mail - Grey/Cross 2" subtype="body_armor" mesh="lt_surcoat_over_full_mail_grey_cross2" using_tableau="true" culture="Culture.crusader" weight="25.2" difficulty="0" appearance="8" Type="BodyArmor" value="70000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="20" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+    <Item id="lt_surcoat_over_full_mail_grey_cross3" name="{=lt_surcoat_over_full_mail_grey_cross3.name}Teutonic Surcoat over Full Mail - Grey/Cross 3" subtype="body_armor" mesh="lt_surcoat_over_full_mail_grey_cross3" using_tableau="true" culture="Culture.crusader" weight="25.2" difficulty="0" appearance="8" Type="BodyArmor" value="40000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="20" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+    <Item id="lt_surcoat_over_full_mail_grey_tau" name="{=lt_surcoat_over_full_mail_grey_tau.name}Teutonic Surcoat over Full Mail - Grey/Tau Cross" subtype="body_armor" mesh="lt_surcoat_over_full_mail_grey_tau" using_tableau="true" culture="Culture.crusader" weight="25.2" difficulty="0" appearance="8" Type="BodyArmor" value="70000">
+        <ItemComponent>
+            <Armor body_armor="34" leg_armor="20" arm_armor="12" has_gender_variations="false" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags Civilian="false"/>
+    </Item>
+
+
+    <!-- shoulder armors -->
+
+    <Item id="lt_mail_mantle_round" name="{=lt_mail_mantle_round.name}Mail Mantle - Round" mesh="lt_mail_mantle_round" culture="Culture.crusader" weight="5.8" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="9" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+    <Item id="lt_mail_mantle_square" name="{=lt_mail_mantle_square.name}Mail Mantle - Square" mesh="lt_mail_mantle_square" culture="Culture.crusader" weight="5.8" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="9" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+    <Item id="lt_mail_mantle_rectangle" name="{=lt_mail_mantle_rectangle.name}Mail Mantle - Rectangle" mesh="lt_mail_mantle_rectangle" culture="Culture.crusader" weight="5.8" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="9" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+    <Item id="lt_mail_mantle_triangle" name="{=lt_mail_mantle_triangle.name}Mail Mantle - Triangle" mesh="lt_mail_mantle_triangle" culture="Culture.crusader" weight="5.8" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="9" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>        
+
+    <!-- with crosses -->
+
+    <Item id="lt_mail_mantle_round_with_cross" name="{=lt_mail_mantle_round_with_cross.name}Mail Mantle - Round with Cross" mesh="lt_mail_mantle_round_with_cross" culture="Culture.crusader" weight="5.8" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="9" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+    <Item id="lt_mail_mantle_square_with_cross" name="{=lt_mail_mantle_square_with_cross.name}Mail Mantle - Square with Cross" mesh="lt_mail_mantle_square_with_cross" culture="Culture.crusader" weight="5.8" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="9" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+    <Item id="lt_mail_mantle_rectangle_with_cross" name="{=lt_mail_mantle_rectangle_with_cross.name}Mail Mantle - Rectangle with Cross" mesh="lt_mail_mantle_rectangle_with_cross" culture="Culture.crusader" weight="5.8" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="9" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+    <Item id="lt_mail_mantle_triangle_with_cross" name="{=lt_mail_mantle_triangle_with_cross.name}Mail Mantle - Triangle with Cross" mesh="lt_mail_mantle_triangle_with_cross" culture="Culture.crusader" weight="5.8" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="9" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>    
+
+
+    <!-- crosses -->
+
+    <Item id="lt_cross_copper" name="{=lt_cross_copper.name}Cross - Copper" mesh="lt_cross_copper" culture="Culture.crusader" weight="0.1" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="1" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+    <Item id="lt_cross_steel" name="{=lt_cross_steel.name}Cross - Steel" mesh="lt_cross_steel" culture="Culture.crusader" weight="0.1" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="1" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+    <Item id="lt_cross_wood" name="{=lt_cross_wood.name}Cross - Wood" mesh="lt_cross_wood" culture="Culture.crusader" weight="0.1" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="1" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>
+
+    <Item id="lt_cross_dark_steel" name="{=lt_cross_dark_steel.name}Cross - Dark Steel" mesh="lt_cross_dark_steel" culture="Culture.crusader" weight="0.1" appearance="4" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="1" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+        </ItemComponent>
+        <Flags/>
+    </Item>  
+
+</Items>

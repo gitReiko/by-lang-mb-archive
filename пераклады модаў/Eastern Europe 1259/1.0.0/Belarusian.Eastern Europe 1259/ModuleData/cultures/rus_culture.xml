@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+
+	<Culture
+		id="rus"
+		name="{=rus.name}Rus"
+		is_main_culture="true"
+		color="0xff224277"
+		color2="0xffCEDAE7"
+		elite_basic_troop="NPCCharacter.rus_boyar"
+		basic_troop="NPCCharacter.rus_levy"
+		melee_militia_troop="NPCCharacter.rus_militia_spearman"
+		ranged_militia_troop="NPCCharacter.rus_militia_archer"
+		melee_elite_militia_troop="NPCCharacter.rus_militia_veteran_spearman"
+		ranged_elite_militia_troop="NPCCharacter.rus_militia_veteran_archer"
+		can_have_settlement="true"
+		town_edge_number="16"
+		encounter_background_mesh="encounter_rus"
+		faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0"
+
+        default_party_template="PartyTemplate.kingdom_hero_party_rus_template"	
+        villager_party_template="PartyTemplate.villager_rus_template"
+        elite_caravan_party_template="PartyTemplate.elite_caravan_template_rus"
+		caravan_party_template="PartyTemplate.caravan_template_rus"
+        militia_party_template="PartyTemplate.militia_rus_template"
+		rebels_party_template="PartyTemplate.rebels_rus_template"
+		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_rus"
+        
+		default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+		text="{=rus.text}Rus' culture, notable in Eastern Europe, blends Slavic traditions with influences from neighboring regions. It encompasses city-states like Kiev, Novgorod, and Vladimir, each governed by a prince. The society is hierarchically structured with princes, nobles, free peasants, and servants. Predominantly Eastern Orthodox since Prince Vladimir's Christianization in 988, Rus' culture aligns closely with Byzantium, contrasting with Western Catholic and Baltic pagan customs."
+		tournament_master="NPCCharacter.tournament_master_rus"
+		villager="NPCCharacter.rus_villager"
+		caravan_master="NPCCharacter.rus_caravan_master"
+		armed_trader="NPCCharacter.rus_armed_trader"
+		caravan_guard="NPCCharacter.rus_caravan_guard"
+		veteran_caravan_guard="NPCCharacter.rus_veteran_caravan_guard"
+		prison_guard="NPCCharacter.prison_guard_rus"
+		guard="NPCCharacter.guard_rus"
+		blacksmith="NPCCharacter.blacksmith_rus"
+		weaponsmith="NPCCharacter.weaponsmith_rus"
+		townswoman="NPCCharacter.townswoman_rus"
+		townswoman_infant="NPCCharacter.townswoman_infant_rus"
+		townswoman_child="NPCCharacter.townswoman_child_rus"
+		townswoman_teenager="NPCCharacter.townswoman_teenager_rus"
+		townsman="NPCCharacter.townsman_rus"
+		townsman_infant="NPCCharacter.townsman_infant_rus"
+		townsman_child="NPCCharacter.townsman_child_rus"
+		townsman_teenager="NPCCharacter.townsman_teenager_rus"
+		village_woman="NPCCharacter.village_woman_rus"
+		villager_male_child="NPCCharacter.villager_child_rus"
+		villager_male_teenager="NPCCharacter.villager_teenager_rus"
+		villager_female_child="NPCCharacter.village_woman_child_rus"
+		villager_female_teenager="NPCCharacter.village_woman_teenager_rus"
+		ransom_broker="NPCCharacter.ransom_broker_rus"
+		gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_rus"
+		merchant_notary="NPCCharacter.merchant_notary_rus"
+		artisan_notary="NPCCharacter.artisan_notary_rus"
+		preacher_notary="NPCCharacter.preacher_notary_rus"
+		rural_notable_notary="NPCCharacter.rural_notable_notary_rus"
+		shop_worker="NPCCharacter.shop_worker_rus"
+		tavernkeeper="NPCCharacter.tavernkeeper_rus"
+		taverngamehost="NPCCharacter.taverngamehost_rus"
+		musician="NPCCharacter.musician_rus"
+		tavern_wench="NPCCharacter.tavern_wench_rus"
+		armorer="NPCCharacter.armorer_rus"
+		horseMerchant="NPCCharacter.horseMerchant_rus"
+		barber="NPCCharacter.barber_rus"
+		merchant="NPCCharacter.merchant_rus"
+		beggar="NPCCharacter.beggar_rus"
+		female_beggar="NPCCharacter.female_beggar_rus"
+		female_dancer="NPCCharacter.female_dancer_rus"
+		gear_practice_dummy="NPCCharacter.gear_practice_dummy_rus"
+		weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_rus"
+		weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_rus"
+		weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_rus"
+		gear_dummy="NPCCharacter.gear_practice_dummy_rus"
+		default_battle_equipment_roster="EquipmentRoster.stu_civ_template_default"
+		default_civilian_equipment_roster="EquipmentRoster.stu_civ_template_default"
+		duel_preset_equipment_roster="EquipmentRoster.stu_duel_preset_template"
+		board_game_type="Konane">
+		<vassal_reward_items>
+			<item id="Item.avalanche_2haxe" />
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2" />
+			<item id="Item.sturgia_sword_2_t3" />
+			<item id="Item.sturgia_sword_4_t4" />
+			<item id="Item.sturgia_sword_5_t5" />
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy	id="policy_lawspeakers" />
+			<policy	id="policy_precarial_land_tenure" />
+		</default_policies>
+		<male_names>
+			<name name="{=Aleksandr}Aleksandr" />
+			<name name="{=Bogdan}Bogdan" />
+			<name name="{=Bogomil}Bogomil" />
+			<name name="{=Bojan}Bojan" />
+			<name name="{=Boleslav}Boleslav" />
+			<name name="{=Boris}Boris" />
+			<name name="{=Bozhidar}Bozhidar" />
+			<name name="{=Dmitri}Dmitri" />
+			<name name="{=Dragomir}Dragomir" />
+			<name name="{=Dobromir}Dobromir" />
+			<name name="{=Ivan}Ivan" />
+			<name name="{=Jaromir}Jaromir" />
+			<name name="{=Jaroslav}Jaroslav" />
+			<name name="{=Oleg}Oleg" />
+			<name name="{=Ljudevit}Ljudevit" />
+			<name name="{=Miroslav}Miroslav" />
+			<name name="{=Radoslav}Radoslav" />
+			<name name="{=Radovan}Radovan" />
+			<name name="{=Ratimir}Ratimir" />
+			<name name="{=Rostislav}Rostislav" />
+			<name name="{=Stanislav}Stanislav" />
+			<name name="{=Svantevit}Svantevit" />
+			<name name="{=Sviatoslav}Sviatoslav" />
+			<name name="{=Velimir}Velimir" />
+			<name name="{=Vladimir}Vladimir" />
+			<name name="{=Vlastimil}Vlastimil" />
+			<name name="{=Yaroslav}Yaroslav" />
+			<name name="{=Zlatan}Zlatan" />
+			<name name="{=Zvonimir}Zvonimir" />
+		</male_names>
+		<female_names>
+			<name name="{=Anastasia}Anastasia" />
+			<name name="{=Darina}Darina" />
+			<name name="{=Dobromila}Dobromila" />
+			<name name="{=Dragana}Dragana" />
+			<name name="{=Elena}Elena" />
+			<name name="{=Ivanka}Ivanka" />
+			<name name="{=Ivona}Ivona" />
+			<name name="{=Ljubica}Ljubica" />
+			<name name="{=Ludmila}Ludmila" />
+			<name name="{=Mariana}Mariana" />
+			<name name="{=Milena}Milena" />
+			<name name="{=Miroslava}Miroslava" />
+			<name name="{=Nadezhda}Nadezhda" />
+			<name name="{=Natasha}Natasha" />
+			<name name="{=Olga}Olga" />
+			<name name="{=Radmila}Radmila" />
+			<name name="{=Radoslava}Radoslava" />
+			<name name="{=Roksana}Roksana" />
+			<name name="{=Rozalia}Rozalia" />
+			<name name="{=Slavka}Slavka" />
+			<name name="{=Stanislava}Stanislava" />
+			<name name="{=Svetlana}Svetlana" />
+			<name name="{=Vasilisa}Vasilisa" />
+			<name name="{=Vesna}Vesna" />
+			<name name="{=Viera}Viera" />
+			<name name="{=Vlasta}Vlasta" />
+			<name name="{=Yaroslava}Yaroslava" />
+			<name name="{=Zdenka}Zdenka" />
+			<name name="{=Zlata}Zlata" />
+			<name name="{=Zora}Zora" />
+			<name name="{=Zuzana}Zuzana" />
+		</female_names>
+		<clan_names>
+			<name name="{=Davydovichi}Davydovichi" />
+			<name name="{=Gostomski}Gostomski" />
+			<name name="{=Izyaslavichi}Izyaslavichi" />
+			<name name="{=Kievan}Kievan" />
+			<name name="{=Monomakhovichi}Monomakhovichi" />
+			<name name="{=Mstislavichi}Mstislavichi" />
+			<name name="{=Olgovichi}Olgovichi" />
+			<name name="{=Piast}Piast" />
+			<name name="{=Rostislavichi}Rostislavichi" />
+			<name name="{=Vsevolodoviches}Vsevolodoviches" />
+			<name name="{=Yaroslavichi}Yaroslavichi" />
+		</clan_names>
+		<cultural_feats>
+			<feat id="empire_decreased_garrison_wage" />
+			<feat id="empire_army_influence" />
+			<feat id="khuzait_decreased_town_tax" />
+		</cultural_feats>        
+		<possible_clan_banner_icon_ids>
+			<icon id="115" />
+			<icon id="111" />
+			<icon id="133" />
+			<icon id="113" />
+			<icon id="145" />
+			<icon id="130" />
+			<icon id="153" />
+			<icon id="126" />
+			<icon id="159" />
+			<icon id="117" />
+			<icon id="138" />
+			<icon id="203" />
+			<icon id="306" />
+			<icon id="308" />
+			<icon id="303" />
+			<icon id="304" />
+			<icon id="309" />
+			<icon id="445" />
+			<icon id="302" />
+			<icon id="307" />
+			<icon id="310" />
+			<icon id="321" />
+			<icon id="438" />
+			<icon id="450" />
+			<icon id="525" />
+			<icon id="339" />
+			<icon id="300" />
+		</possible_clan_banner_icon_ids>
+		<notable_and_wanderer_templates>
+			<template name="NPCCharacter.spc_wanderer_rus_0" />
+			<template name="NPCCharacter.spc_wanderer_rus_1" />
+			<template name="NPCCharacter.spc_wanderer_rus_2" />
+			<template name="NPCCharacter.spc_wanderer_rus_3" />
+			<template name="NPCCharacter.spc_wanderer_rus_4" />
+			<template name="NPCCharacter.spc_wanderer_rus_5" />
+			<template name="NPCCharacter.spc_wanderer_rus_6" />
+			<template name="NPCCharacter.spc_wanderer_rus_7" />
+			<template name="NPCCharacter.spc_wanderer_rus_8" />
+			<template name="NPCCharacter.spc_wanderer_rus_9" />                    
+			<template name="NPCCharacter.spc_notable_rus_0" />
+			<template name="NPCCharacter.spc_notable_rus_0b" />
+			<template name="NPCCharacter.spc_notable_rus_1" />
+			<template name="NPCCharacter.spc_notable_rus_1b" />
+            <template name="NPCCharacter.spc_notable_rus_2" />
+			<template name="NPCCharacter.spc_notable_rus_2b" />
+			<template name="NPCCharacter.spc_notable_rus_3" />
+			<template name="NPCCharacter.spc_notable_rus_3b" />
+			<template name="NPCCharacter.spc_notable_rus_4" />
+			<template name="NPCCharacter.spc_notable_rus_4b" />
+            <template name="NPCCharacter.spc_notable_rus_5" />
+			<template name="NPCCharacter.spc_notable_rus_6" />
+			<template name="NPCCharacter.spc_notable_rus_7" />
+			<template name="NPCCharacter.spc_notable_rus_8" />
+			<template name="NPCCharacter.spc_notable_rus_9" />
+			<template name="NPCCharacter.spc_notable_rus_10" />
+			<template name="NPCCharacter.spc_notable_rus_10b" />
+			<template name="NPCCharacter.spc_notable_rus_11" />
+			<template name="NPCCharacter.spc_notable_rus_11b" />
+			<template name="NPCCharacter.spc_notable_rus_12" />
+            <template name="NPCCharacter.spc_notable_rus_13" />
+            <template name="NPCCharacter.spc_notable_rus_21" />
+			<template name="NPCCharacter.spc_notable_rus_22" />
+            <template name="NPCCharacter.spc_rus_headman_1" />
+			<template name="NPCCharacter.spc_rus_headman_2" />
+			<template name="NPCCharacter.spc_rus_headman_3" />
+		</notable_and_wanderer_templates>
+		<lord_templates>
+			<template name="NPCCharacter.rus_leader_template_0" />
+			<template name="NPCCharacter.rus_leader_template_1" />
+			<template name="NPCCharacter.rus_leader_template_2" />
+			<template name="NPCCharacter.rus_leader_template_3" />
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.rus_leader_template_0" />
+			<template name="NPCCharacter.rus_leader_template_1" />
+			<template name="NPCCharacter.rus_leader_template_2" />
+			<template name="NPCCharacter.rus_leader_template_3" />
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_rus_one_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_rus_one_participant_set_v2" />
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_rus_two_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_rus_two_participant_set_v2" />
+			<template name="NPCCharacter.tournament_template_rus_two_participant_set_v3" />
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_rus_four_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_rus_four_participant_set_v2" />
+			<template name="NPCCharacter.tournament_template_rus_four_participant_set_v3" />
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary" />
+			<template name="NPCCharacter.western_mercenary" />
+		</basic_mercenary_troops>
+	</Culture>
+
+</SPCultures>

@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+
+	<Culture
+		id="baltic"
+		name="{=baltic.name}Baltic"
+		is_main_culture="true"
+		color="0xffC0C0C0"
+		color2="0xffFFC5C5"
+
+		elite_basic_troop="NPCCharacter.baltic_noble"
+		basic_troop="NPCCharacter.baltic_levy"
+		melee_militia_troop="NPCCharacter.baltic_militia_spearman"
+		ranged_militia_troop="NPCCharacter.baltic_militia_archer"
+		melee_elite_militia_troop="NPCCharacter.baltic_militia_veteran_spearman"
+		ranged_elite_militia_troop="NPCCharacter.baltic_militia_veteran_archer"
+
+		can_have_settlement="true"
+		town_edge_number="16"
+		encounter_background_mesh="encounter_baltic"
+		faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0"
+
+        villager_party_template="PartyTemplate.villager_baltic_template"
+		default_party_template="PartyTemplate.kingdom_hero_party_baltic_template"
+        elite_caravan_party_template="PartyTemplate.elite_caravan_template_baltic"
+		caravan_party_template="PartyTemplate.caravan_template_baltic"
+		militia_party_template="PartyTemplate.militia_baltic_template"
+		rebels_party_template="PartyTemplate.rebels_baltic_template"
+		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_baltic"
+
+        default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+		text="{=baltic.text}The Balts, who live along the southeastern Baltic Sea, have their own languages, unique cultural practices, and pagan beliefs. They organize themselves into tribes, each led by a chieftain, maintaining independence while sharing a common cultural and religious bond."
+		tournament_master="NPCCharacter.tournament_master_baltic"
+
+		caravan_master="NPCCharacter.baltic_caravan_master"
+		armed_trader="NPCCharacter.baltic_armed_trader"
+		caravan_guard="NPCCharacter.baltic_caravan_guard"
+		veteran_caravan_guard="NPCCharacter.baltic_veteran_caravan_guard"
+
+        townswoman="NPCCharacter.townswoman_baltic"
+		townswoman_teenager="NPCCharacter.townswoman_teenager_baltic"
+		townswoman_child="NPCCharacter.townswoman_child_baltic"
+		townswoman_infant="NPCCharacter.townswoman_infant_baltic"
+
+		townsman="NPCCharacter.townsman_baltic"
+		townsman_teenager="NPCCharacter.townsman_teenager_baltic"
+		townsman_child="NPCCharacter.townsman_child_baltic"
+        townsman_infant="NPCCharacter.townsman_infant_baltic"
+
+		villager="NPCCharacter.baltic_villager"
+        village_woman="NPCCharacter.village_woman_baltic"
+		villager_male_teenager="NPCCharacter.villager_teenager_baltic"
+        villager_male_child="NPCCharacter.villager_child_baltic"
+		villager_female_teenager="NPCCharacter.village_woman_teenager_baltic"
+		villager_female_child="NPCCharacter.village_woman_child_baltic"
+
+        prison_guard="NPCCharacter.prison_guard_baltic"
+		guard="NPCCharacter.baltic_guard"
+		blacksmith="NPCCharacter.blacksmith_baltic"
+		weaponsmith="NPCCharacter.weaponsmith_baltic"
+		ransom_broker="NPCCharacter.ransom_broker_baltic"
+		gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_baltic"
+		merchant_notary="NPCCharacter.merchant_notary_baltic"
+		artisan_notary="NPCCharacter.artisan_notary_baltic"
+		preacher_notary="NPCCharacter.preacher_notary_baltic"
+		rural_notable_notary="NPCCharacter.rural_notable_notary_baltic"
+		shop_worker="NPCCharacter.shop_worker_baltic"
+		tavernkeeper="NPCCharacter.tavernkeeper_baltic"
+		taverngamehost="NPCCharacter.taverngamehost_baltic"
+		musician="NPCCharacter.musician_baltic"
+		tavern_wench="NPCCharacter.tavern_wench_baltic"
+		armorer="NPCCharacter.armorer_baltic"
+		horseMerchant="NPCCharacter.horseMerchant_baltic"
+		barber="NPCCharacter.barber_baltic"
+		merchant="NPCCharacter.merchant_baltic"
+		beggar="NPCCharacter.beggar_baltic"
+		female_beggar="NPCCharacter.female_beggar_baltic"
+		female_dancer="NPCCharacter.female_dancer_baltic"
+		gear_practice_dummy="NPCCharacter.gear_practice_dummy_baltic"
+
+		weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_baltic"
+		weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_baltic"
+		weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_baltic"
+		gear_dummy="NPCCharacter.gear_practice_dummy_baltic"
+
+		default_battle_equipment_roster="EquipmentRoster.baltic_lord_equipmentset_template"
+		default_civilian_equipment_roster="EquipmentRoster.baltic_lord_equipmentset_template_civilian"
+
+		duel_preset_equipment_roster="EquipmentRoster.stu_duel_preset_template"
+		
+        board_game_type="Konane">
+		<vassal_reward_items>
+			<item id="Item.avalanche_2haxe" />
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2" />
+			<item id="Item.sturgia_sword_2_t3" />
+			<item id="Item.sturgia_sword_4_t4" />
+			<item id="Item.sturgia_sword_5_t5" />
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy	id="policy_lawspeakers" />
+			<policy	id="policy_precarial_land_tenure" />
+		</default_policies>
+		<male_names>
+            <name name="{=Aidas}Aidas" />
+            <name name="{=Ainis}Ainis" />
+            <name name="{=Aistis}Aistis" />
+            <name name="{=Aldas}Aldas" />
+            <name name="{=Aldonas}Aldonas" />
+            <name name="{=Algimantas}Algimantas" />
+            <name name="{=Algirdas}Algirdas" />
+            <name name="{=Algis}Algis" />
+            <name name="{=Algminas}Algminas" />
+            <name name="{=Alkius}Alkius" />
+            <name name="{=Almantas}Almantas" />
+            <name name="{=Almenas}Almenas" />
+            <name name="{=Alminas}Alminas" />
+            <name name="{=Alvydas}Alvydas" />
+            <name name="{=Alšis}Alšis" />
+            <name name="{=Aras}Aras" />
+            <name name="{=Arimantas}Arimantas" />
+            <name name="{=Armantas}Armantas" />
+            <name name="{=Arminas}Arminas" />
+            <name name="{=Arvydas}Arvydas" />
+            <name name="{=Arūnas}Arūnas" />
+            <name name="{=Audrius}Audrius" />
+            <name name="{=Audronius}Audronius" />
+            <name name="{=Audrys}Audrys" />
+            <name name="{=Audrūnas}Audrūnas" />
+            <name name="{=Augis}Augis" />
+            <name name="{=Augutis}Augutis" />
+            <name name="{=Aurimas}Aurimas" />
+            <name name="{=Aurius}Aurius" />
+            <name name="{=Austas}Austas" />
+            <name name="{=Austis}Austis" />
+            <name name="{=Austėjas}Austėjas" />
+            <name name="{=Austėjus}Austėjus" />
+            <name name="{=Autautas}Autautas" />
+            <name name="{=Aušrius}Aušrius" />
+            <name name="{=Aušrys}Aušrys" />
+            <name name="{=Aušvydas}Aušvydas" />
+            <name name="{=Ažuolas}Ažuolas" />
+            <name name="{=Bardis}Bardis" />
+            <name name="{=Bartas}Bartas" />
+            <name name="{=Beitas}Beitas" />
+            <name name="{=Bikšis}Bikšis" />
+            <name name="{=Bikšys}Bikšys" />
+            <name name="{=Bilšys}Bilšys" />
+            <name name="{=Bunius}Bunius" />
+            <name name="{=Bunys}Bunys" />
+            <name name="{=Butautas}Butautas" />
+            <name name="{=Buteikis}Buteikis" />
+            <name name="{=Butvydas}Butvydas" />
+            <name name="{=Būga}Būga" />
+            <name name="{=Dainius}Dainius" />
+            <name name="{=Dainoras}Dainoras" />
+            <name name="{=Dalius}Dalius" />
+            <name name="{=Dangerutis}Dangerutis" />
+            <name name="{=Dangiras}Dangiras" />
+            <name name="{=Dangirutis}Dangirutis" />
+            <name name="{=Dangis}Dangis" />
+            <name name="{=Dargaudas}Dargaudas" />
+            <name name="{=Darvydas}Darvydas" />
+            <name name="{=Dauga}Dauga" />
+            <name name="{=Daugerutis}Daugerutis" />
+            <name name="{=Daugirdas}Daugirdas" />
+            <name name="{=Daujotas}Daujotas" />
+            <name name="{=Daumantas}Daumantas" />
+            <name name="{=Dausprungas}Dausprungas" />
+            <name name="{=Dobilas}Dobilas" />
+            <name name="{=Domantas}Domantas" />
+            <name name="{=Domas}Domas" />
+            <name name="{=Drogaila}Drogaila" />
+            <name name="{=Drąsius}Drąsius" />
+            <name name="{=Drąsutis}Drąsutis" />
+            <name name="{=Dutkus}Dutkus" />
+            <name name="{=Džiugas}Džiugas" />
+            <name name="{=Edivilas}Edivilas" />
+            <name name="{=Edivydas}Edivydas" />
+            <name name="{=Eibūtas}Eibūtas" />
+            <name name="{=Eigirdas}Eigirdas" />
+            <name name="{=Eimantas}Eimantas" />
+            <name name="{=Eimutis}Eimutis" />
+            <name name="{=Einius}Einius" />
+            <name name="{=Einoras}Einoras" />
+            <name name="{=Eirimas}Eirimas" />
+            <name name="{=Eismantas}Eismantas" />
+            <name name="{=Eisvinas}Eisvinas" />
+            <name name="{=Eitvydas}Eitvydas" />
+            <name name="{=Eivinas}Eivinas" />
+            <name name="{=Eivydas}Eivydas" />
+            <name name="{=Eišys}Eišys" />
+            <name name="{=Erdvilas}Erdvilas" />
+            <name name="{=Gabijus}Gabijus" />
+            <name name="{=Gabis}Gabis" />
+            <name name="{=Galmantas}Galmantas" />
+            <name name="{=Gantas}Gantas" />
+            <name name="{=Gediminas}Gediminas" />
+            <name name="{=Gedutis}Gedutis" />
+            <name name="{=Gedvilas}Gedvilas" />
+            <name name="{=Gedvydas}Gedvydas" />
+            <name name="{=Gelgaudas}Gelgaudas" />
+            <name name="{=Gendrutis}Gendrutis" />
+            <name name="{=Gerdenis}Gerdenis" />
+            <name name="{=Gerdvilas}Gerdvilas" />
+            <name name="{=Gerimantas}Gerimantas" />
+            <name name="{=Gerutis}Gerutis" />
+            <name name="{=Giedrius}Giedrius" />
+            <name name="{=Giedrutis}Giedrutis" />
+            <name name="{=Ginas}Ginas" />
+            <name name="{=Gineitis}Gineitis" />
+            <name name="{=Gintaras}Gintaras" />
+            <name name="{=Gintas}Gintas" />
+            <name name="{=Gintautas}Gintautas" />
+            <name name="{=Girius}Girius" />
+            <name name="{=Girmantas}Girmantas" />
+            <name name="{=Girstukas}Girstukas" />
+            <name name="{=Girstutis}Girstutis" />
+            <name name="{=Girėnas}Girėnas" />
+            <name name="{=Gražvydas}Gražvydas" />
+            <name name="{=Grumpis}Grumpis" />
+            <name name="{=Gytenis}Gytenis" />
+            <name name="{=Gytis}Gytis" />
+            <name name="{=Gėdas}Gėdas" />
+            <name name="{=Gėdvydas}Gėdvydas" />
+            <name name="{=Irmantas}Irmantas" />
+            <name name="{=Jamantas}Jamantas" />
+            <name name="{=Jaunius}Jaunius" />
+            <name name="{=Jaunutis}Jaunutis" />
+            <name name="{=Jezbutis}Jezbutis" />
+            <name name="{=Jogaila}Jogaila" />
+            <name name="{=Jomantas}Jomantas" />
+            <name name="{=Joris}Joris" />
+            <name name="{=Jorūnas}Jorūnas" />
+            <name name="{=Jotkus}Jotkus" />
+            <name name="{=Jovaras}Jovaras" />
+            <name name="{=Jovydas}Jovydas" />
+            <name name="{=Judikis}Judikis" />
+            <name name="{=Juodikis}Juodikis" />
+            <name name="{=Juodkys}Juodkys" />
+            <name name="{=Jūris}Jūris" />
+            <name name="{=Kastytis}Kastytis" />
+            <name name="{=Kenius}Kenius" />
+            <name name="{=Kernius}Kernius" />
+            <name name="{=Kimantas}Kimantas" />
+            <name name="{=Kineitis}Kineitis" />
+            <name name="{=Kintibutas}Kintibutas" />
+            <name name="{=Kirkautas}Kirkautas" />
+            <name name="{=Kitenis}Kitenis" />
+            <name name="{=Koris}Koris" />
+            <name name="{=Kuntas}Kuntas" />
+            <name name="{=Kęstas}Kęstas" />
+            <name name="{=Kęstutis}Kęstutis" />
+            <name name="{=Laimantas}Laimantas" />
+            <name name="{=Laimas}Laimas" />
+            <name name="{=Laimis}Laimis" />
+            <name name="{=Laimonas}Laimonas" />
+            <name name="{=Laimutis}Laimutis" />
+            <name name="{=Laisvydas}Laisvydas" />
+            <name name="{=Laisvūnas}Laisvūnas" />
+            <name name="{=Lengvenis}Lengvenis" />
+            <name name="{=Liesis}Liesis" />
+            <name name="{=Ligeikis}Ligeikis" />
+            <name name="{=Ligitas}Ligitas" />
+            <name name="{=Linas}Linas" />
+            <name name="{=Mandvila}Mandvila" />
+            <name name="{=Mangirdas}Mangirdas" />
+            <name name="{=Manstas}Manstas" />
+            <name name="{=Mantas}Mantas" />
+            <name name="{=Mantautas}Mantautas" />
+            <name name="{=Mantvila}Mantvila" />
+            <name name="{=Mantvydas}Mantvydas" />
+            <name name="{=Manvydas}Manvydas" />
+            <name name="{=Margiris}Margiris" />
+            <name name="{=Mažonas}Mažonas" />
+            <name name="{=Mažvydas}Mažvydas" />
+            <name name="{=Merūnas}Merūnas" />
+            <name name="{=Milvydas}Milvydas" />
+            <name name="{=Mindaugas}Mindaugas" />
+            <name name="{=Mingaudas}Mingaudas" />
+            <name name="{=Mintaras}Mintaras" />
+            <name name="{=Mintautas}Mintautas" />
+            <name name="{=Minvydas}Minvydas" />
+            <name name="{=Naglis}Naglis" />
+            <name name="{=Narimantas}Narimantas" />
+            <name name="{=Narvydas}Narvydas" />
+            <name name="{=Neimantas}Neimantas" />
+            <name name="{=Nemunas}Nemunas" />
+            <name name="{=Nemūras}Nemūras" />
+            <name name="{=Nerimantas}Nerimantas" />
+            <name name="{=Norvydas}Norvydas" />
+            <name name="{=Nėrius}Nėrius" />
+            <name name="{=Orintas}Orintas" />
+            <name name="{=Parbas}Parbas" />
+            <name name="{=Parbus}Parbus" />
+            <name name="{=Parnušis}Parnušis" />
+            <name name="{=Plikienis}Plikienis" />
+            <name name="{=Plikis}Plikis" />
+            <name name="{=Pukeikis}Pukeikis" />
+            <name name="{=Puteikis}Puteikis" />
+            <name name="{=Radvilas}Radvilas" />
+            <name name="{=Raigardas}Raigardas" />
+            <name name="{=Ramojus}Ramojus" />
+            <name name="{=Ramutis}Ramutis" />
+            <name name="{=Ramūnas}Ramūnas" />
+            <name name="{=Replys}Replys" />
+            <name name="{=Rimantas}Rimantas" />
+            <name name="{=Rimas}Rimas" />
+            <name name="{=Rimdaudas}Rimdaudas" />
+            <name name="{=Rimgaudas}Rimgaudas" />
+            <name name="{=Rimtautas}Rimtautas" />
+            <name name="{=Rimvydas}Rimvydas" />
+            <name name="{=Ringaudas}Ringaudas" />
+            <name name="{=Romantas}Romantas" />
+            <name name="{=Ruibys}Ruibys" />
+            <name name="{=Ruklys}Ruklys" />
+            <name name="{=Rumuntas}Rumuntas" />
+            <name name="{=Rupeikis}Rupeikis" />
+            <name name="{=Rytis}Rytis" />
+            <name name="{=Rūkantas}Rūkantas" />
+            <name name="{=Rūkas}Rūkas" />
+            <name name="{=Rūtenis}Rūtenis" />
+            <name name="{=Saugirdas}Saugirdas" />
+            <name name="{=Saulius}Saulius" />
+            <name name="{=Sirputas}Sirputas" />
+            <name name="{=Sirputis}Sirputis" />
+            <name name="{=Skabis}Skabis" />
+            <name name="{=Skabys}Skabys" />
+            <name name="{=Skaidrius}Skaidrius" />
+            <name name="{=Skirmantas}Skirmantas" />
+            <name name="{=Skolmantas}Skolmantas" />
+            <name name="{=Skomantas}Skomantas" />
+            <name name="{=Sprudeikis}Sprudeikis" />
+            <name name="{=Spudas}Spudas" />
+            <name name="{=Spūdas}Spūdas" />
+            <name name="{=Stakys}Stakys" />
+            <name name="{=Stekšys}Stekšys" />
+            <name name="{=Sudargas}Sudargas" />
+            <name name="{=Sudimantas}Sudimantas" />
+            <name name="{=Sudintas}Sudintas" />
+            <name name="{=Sukautas}Sukautas" />
+            <name name="{=Surminas}Surminas" />
+            <name name="{=Svajūnas}Svajūnas" />
+            <name name="{=Svalkenis}Svalkenis" />
+            <name name="{=Sykas}Sykas" />
+            <name name="{=Tauras}Tauras" />
+            <name name="{=Taurius}Taurius" />
+            <name name="{=Tautrimas}Tautrimas" />
+            <name name="{=Tautvilas}Tautvilas" />
+            <name name="{=Tautvilis}Tautvilis" />
+            <name name="{=Tautvydas}Tautvydas" />
+            <name name="{=Teisutis}Teisutis" />
+            <name name="{=Timantas}Timantas" />
+            <name name="{=Tolvaikis}Tolvaikis" />
+            <name name="{=Tolvaišis}Tolvaišis" />
+            <name name="{=Traidenis}Traidenis" />
+            <name name="{=Treniota}Treniota" />
+            <name name="{=Ugnius}Ugnius" />
+            <name name="{=Uvis}Uvis" />
+            <name name="{=Vaidas}Vaidas" />
+            <name name="{=Vaidotas}Vaidotas" />
+            <name name="{=Vaidutis}Vaidutis" />
+            <name name="{=Vainius}Vainius" />
+            <name name="{=Vainoras}Vainoras" />
+            <name name="{=Vaišelga}Vaišelga" />
+            <name name="{=Vaišvilkas}Vaišvilkas" />
+            <name name="{=Vakaris}Vakaris" />
+            <name name="{=Valdimantas}Valdimantas" />
+            <name name="{=Valmantas}Valmantas" />
+            <name name="{=Valys}Valys" />
+            <name name="{=Vasaris}Vasaris" />
+            <name name="{=Veinoras}Veinoras" />
+            <name name="{=Velžys}Velžys" />
+            <name name="{=Vembutas}Vembutas" />
+            <name name="{=Vidas}Vidas" />
+            <name name="{=Vidmantas}Vidmantas" />
+            <name name="{=Vidminas}Vidminas" />
+            <name name="{=Vidutis}Vidutis" />
+            <name name="{=Viesulas}Viesulas" />
+            <name name="{=Viligaila}Viligaila" />
+            <name name="{=Vilikaila}Vilikaila" />
+            <name name="{=Vilmantas}Vilmantas" />
+            <name name="{=Viltenis}Viltenis" />
+            <name name="{=Viltotas}Viltotas" />
+            <name name="{=Viltys}Viltys" />
+            <name name="{=Vingaudas}Vingaudas" />
+            <name name="{=Virgaudas}Virgaudas" />
+            <name name="{=Vismantas}Vismantas" />
+            <name name="{=Visvaldas}Visvaldas" />
+            <name name="{=Visvaldis}Visvaldis" />
+            <name name="{=Vitas}Vitas" />
+            <name name="{=Višlys}Višlys" />
+            <name name="{=Vydantas}Vydantas" />
+            <name name="{=Vygantas}Vygantas" />
+            <name name="{=Vygaudas}Vygaudas" />
+            <name name="{=Vykintas}Vykintas" />
+            <name name="{=Vyktintas}Vyktintas" />
+            <name name="{=Vytas}Vytas" />
+            <name name="{=Vytautas}Vytautas" />
+            <name name="{=Vytenis}Vytenis" />
+            <name name="{=Vytis}Vytis" />
+            <name name="{=Vyžeikis}Vyžeikis" />
+            <name name="{=Vyžeitis}Vyžeitis" />
+            <name name="{=Zerstakis}Zerstakis" />
+            <name name="{=Zervis}Zervis" />
+            <name name="{=Živinbudas}Živinbudas" />
+            <name name="{=Živinbutas}Živinbutas" />
+            <name name="{=Žvelgaitis}Žvelgaitis" />
+            <name name="{=Žybartas}Žybartas" />
+            <name name="{=Žytautas}Žytautas" />         
+		</male_names>
+		<female_names>
+            <name name="{=Aida}Aida" />
+            <name name="{=Ainė}Ainė" />
+            <name name="{=Aistė}Aistė" />
+            <name name="{=Alanta}Alanta" />
+            <name name="{=Aldona}Aldona" />
+            <name name="{=Algė}Algė" />
+            <name name="{=Algimantė}Algimantė" />
+            <name name="{=Algimanta}Algimanta" />
+            <name name="{=Algina}Algina" />
+            <name name="{=Algirda}Algirda" />
+            <name name="{=Almantė}Almantė" />
+            <name name="{=Almina}Almina" />
+            <name name="{=Almonė}Almonė" />
+            <name name="{=Alvyda}Alvyda" />
+            <name name="{=Alvita}Alvita" />
+            <name name="{=Armina}Armina" />
+            <name name="{=Arūnė}Arūnė" />
+            <name name="{=Alsėda}Alsėda" />
+            <name name="{=Audinga}Audinga" />
+            <name name="{=Audra}Audra" />
+            <name name="{=Audrė}Audrė" />
+            <name name="{=Audronė}Audronė" />
+            <name name="{=Augutė}Augutė" />
+            <name name="{=Auksė}Auksė" />
+            <name name="{=Auksuolė}Auksuolė" />
+            <name name="{=Austa}Austa" />
+            <name name="{=Austė}Austė" />
+            <name name="{=Austėja}Austėja" />
+            <name name="{=Aušra}Aušra" />
+            <name name="{=Aušrinė}Aušrinė" />
+            <name name="{=Banga}Banga" />
+            <name name="{=Banguolė}Banguolė" />
+            <name name="{=Birutė}Birutė" />
+            <name name="{=Bruknė}Bruknė" />
+            <name name="{=Daina}Daina" />
+            <name name="{=Dainė}Dainė" />
+            <name name="{=Dainora}Dainora" />
+            <name name="{=Daiva}Daiva" />
+            <name name="{=Dalia}Dalia" />
+            <name name="{=Dangė}Dangė" />
+            <name name="{=Dangira}Dangira" />
+            <name name="{=Dangirutė}Dangirutė" />
+            <name name="{=Danguolė}Danguolė" />
+            <name name="{=Dangūtė}Dangūtė" />
+            <name name="{=Danutė}Danutė" />
+            <name name="{=Danė}Danė" />
+            <name name="{=Daumantė}Daumantė" />
+            <name name="{=Deimilė}Deimilė" />
+            <name name="{=Domantė}Domantė" />
+            <name name="{=Domilė}Domilė" />
+            <name name="{=Dovilė}Dovilė" />
+            <name name="{=Džiuginta}Džiuginta" />
+            <name name="{=Eglė}Eglė" />
+            <name name="{=Eidvilė}Eidvilė" />
+            <name name="{=Eimantė}Eimantė" />
+            <name name="{=Eimutė}Eimutė" />
+            <name name="{=Eivilė}Eivilė" />
+            <name name="{=Eivina}Eivina" />
+            <name name="{=Gabija}Gabija" />
+            <name name="{=Gabėta}Gabėta" />
+            <name name="{=Gabijota}Gabijota" />
+            <name name="{=Gaila}Gaila" />
+            <name name="{=Gailė}Gailė" />
+            <name name="{=Gailutė}Gailutė" />
+            <name name="{=Gaiva}Gaiva" />
+            <name name="{=Gaivilė}Gaivilė" />
+            <name name="{=Gaudrė}Gaudrė" />
+            <name name="{=Gėdvilė}Gėdvilė" />
+            <name name="{=Giedra}Giedra" />
+            <name name="{=Giedrė}Giedrė" />
+            <name name="{=Giedrūna}Giedrūna" />
+            <name name="{=Giedrūnė}Giedrūnė" />
+            <name name="{=Giedrutė}Giedrutė" />
+            <name name="{=Gilija}Gilija" />
+            <name name="{=Ginta}Ginta" />
+            <name name="{=Gintė}Gintė" />
+            <name name="{=Gintarė}Gintarė" />
+            <name name="{=Gintautė}Gintautė" />
+            <name name="{=Gintvilė}Gintvilė" />
+            <name name="{=Girmantė}Girmantė" />
+            <name name="{=Gytė}Gytė" />
+            <name name="{=Goda}Goda" />
+            <name name="{=Gražina}Gražina" />
+            <name name="{=Gražvyda}Gražvyda" />
+            <name name="{=Gražvilė}Gražvilė" />
+            <name name="{=Guoda}Guoda" />
+            <name name="{=Guostė}Guostė" />
+            <name name="{=Gruodė}Gruodė" />
+            <name name="{=Ilma}Ilma" />
+            <name name="{=Indraja}Indraja" />
+            <name name="{=Indrė}Indrė" />
+            <name name="{=Irmantė}Irmantė" />
+            <name name="{=Jogailė}Jogailė" />
+            <name name="{=Jogilė}Jogilė" />
+            <name name="{=Jomantė}Jomantė" />
+            <name name="{=Jorė}Jorė" />
+            <name name="{=Jorūnė}Jorūnė" />
+            <name name="{=Jovilė}Jovilė" />
+            <name name="{=Junda}Junda" />
+            <name name="{=Jūra}Jūra" />
+            <name name="{=Jūratė}Jūratė" />
+            <name name="{=Jurgina}Jurgina" />
+            <name name="{=Laima}Laima" />
+            <name name="{=Laimė}Laimė" />
+            <name name="{=Laimutė}Laimutė" />
+            <name name="{=Laisvutė}Laisvutė" />
+            <name name="{=Laisvūnė}Laisvūnė" />
+            <name name="{=Laisvė}Laisvė" />
+            <name name="{=Liepa}Liepa" />
+            <name name="{=Ligija}Ligija" />
+            <name name="{=Lina}Lina" />
+            <name name="{=Luknė}Luknė" />
+            <name name="{=Mantė}Mantė" />
+            <name name="{=Mantvilė}Mantvilė" />
+            <name name="{=Medeina}Medeina" />
+            <name name="{=Medeinė}Medeinė" />
+            <name name="{=Meilė}Meilė" />
+            <name name="{=Mėta}Mėta" />
+            <name name="{=Miglė}Miglė" />
+            <name name="{=Milda}Milda" />
+            <name name="{=Mingailė}Mingailė" />
+            <name name="{=Mintarė}Mintarė" />
+            <name name="{=Mintautė}Mintautė" />
+            <name name="{=Morta}Morta" />
+            <name name="{=Nemira}Nemira" />
+            <name name="{=Nėrija}Nėrija" />
+            <name name="{=Nerilė}Nerilė" />
+            <name name="{=Neringa}Neringa" />
+            <name name="{=Nerutė}Nerutė" />
+            <name name="{=Nida}Nida" />
+            <name name="{=Nijolė}Nijolė" />
+            <name name="{=Nomeda}Nomeda" />
+            <name name="{=Orinta}Orinta" />
+            <name name="{=Pūsnė}Pūsnė" />
+            <name name="{=Radvilė}Radvilė" />
+            <name name="{=Raminta}Raminta" />
+            <name name="{=Ramunė}Ramunė" />
+            <name name="{=Ramutė}Ramutė" />
+            <name name="{=Ramūnė}Ramūnė" />
+            <name name="{=Rasa}Rasa" />
+            <name name="{=Rasuolė}Rasuolė" />
+            <name name="{=Rėda}Rėda" />
+            <name name="{=Rima}Rima" />
+            <name name="{=Rimantė}Rimantė" />
+            <name name="{=Rimgailė}Rimgailė" />
+            <name name="{=Rimvyda}Rimvyda" />
+            <name name="{=Rimvydė}Rimvydė" />
+            <name name="{=Ringailė}Ringailė" />
+            <name name="{=Rugilė}Rugilė" />
+            <name name="{=Rusnė}Rusnė" />
+            <name name="{=Rūta}Rūta" />
+            <name name="{=Rytė}Rytė" />
+            <name name="{=Saulė}Saulė" />
+            <name name="{=Saulena}Saulena" />
+            <name name="{=Saulenė}Saulenė" />
+            <name name="{=Skaidrė}Skaidrė" />
+            <name name="{=Skaistė}Skaistė" />
+            <name name="{=Skirma}Skirma" />
+            <name name="{=Skirmantė}Skirmantė" />
+            <name name="{=Smiltė}Smiltė" />
+            <name name="{=Svaja}Svaja" />
+            <name name="{=Svajonė}Svajonė" />
+            <name name="{=Svajūnė}Svajūnė" />
+            <name name="{=Tautvilė}Tautvilė" />
+            <name name="{=Tautvydė}Tautvydė" />
+            <name name="{=Ugnė}Ugnė" />
+            <name name="{=Ūla}Ūla" />
+            <name name="{=Upė}Upė" />
+            <name name="{=Vaida}Vaida" />
+            <name name="{=Vaidilė}Vaidilė" />
+            <name name="{=Vaidilutė}Vaidilutė" />
+            <name name="{=Vaidota}Vaidota" />
+            <name name="{=Vaiga}Vaiga" />
+            <name name="{=Vaiva}Vaiva" />
+            <name name="{=Vakarė}Vakarė" />
+            <name name="{=Valdonė}Valdonė" />
+            <name name="{=Vasarė}Vasarė" />
+            <name name="{=Vida}Vida" />
+            <name name="{=Vidmantė}Vidmantė" />
+            <name name="{=Vijolė}Vijolė" />
+            <name name="{=Vilė}Vilė" />
+            <name name="{=Vilija}Vilija" />
+            <name name="{=Vilma}Vilma" />
+            <name name="{=Vilmantė}Vilmantė" />
+            <name name="{=Viltautė}Viltautė" />
+            <name name="{=Viltenė}Viltenė" />
+            <name name="{=Viltė}Viltė" />
+            <name name="{=Viltėja}Viltėja" />
+            <name name="{=Virga}Virga" />
+            <name name="{=Vismantė}Vismantė" />
+            <name name="{=Vyginta}Vyginta" />
+            <name name="{=Vykinta}Vykinta" />
+            <name name="{=Vytėnė}Vytėnė" />
+            <name name="{=Vygantė}Vygantė" />
+            <name name="{=Vyltė}Vyltė" />
+            <name name="{=Vyta}Vyta" />
+            <name name="{=Vytautė}Vytautė" />
+            <name name="{=Vytė}Vytė" />
+            <name name="{=Žavinta}Žavinta" />
+            <name name="{=Žemyna}Žemyna" />
+            <name name="{=Žiedė}Žiedė" />                               
+		</female_names>
+		<clan_names>
+            <name name="{=Bobausis}Bobausis" />
+            <name name="{=Krevaitis}Krevaitis" />
+            <name name="{=Medekša}Medekša" />
+            <name name="{=Vilkas}Vilkas" />
+            <name name="{=Kraujalis}Kraujalis" />
+            <name name="{=Žemaitis}Žemaitis" />
+            <name name="{=Molėtis}Molėtis" />
+            <name name="{=Kunigaitis}Kunigaitis" />
+            <name name="{=Stuoka}Stuoka" />
+            <name name="{=Sruoga}Sruoga" />           
+            <name name="{=Papelkys}Papelkys" />  
+		</clan_names>
+        <cultural_feats>
+			<feat id="battanian_forest_speed" />
+			<feat id="sturgian_cheaper_recruits_infantry" />
+			<feat id="battanian_slower_construction" />
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="138" />
+			<icon id="125" />
+			<icon id="149" />
+			<icon id="157" />
+			<icon id="124" />
+			<icon id="158" />
+			<icon id="420" />
+			<icon id="118" />
+			<icon id="133" />
+			<icon id="127" />
+			<icon id="151" />
+			<icon id="135" />
+			<icon id="126" />
+			<icon id="308" />
+			<icon id="304" />
+			<icon id="307" />
+			<icon id="311" />
+			<icon id="302" />
+			<icon id="301" />
+			<icon id="405" />
+			<icon id="442" />
+			<icon id="415" />
+			<icon id="451" />
+			<icon id="410" />
+			<icon id="449" />
+			<icon id="411" />
+			<icon id="457" />
+			<icon id="524" />
+			<icon id="534" />
+			<icon id="530" />
+			<icon id="532" />            
+			<icon id="533" /> 
+			<icon id="531" /> 
+		</possible_clan_banner_icon_ids>
+		<notable_and_wanderer_templates>
+			<template name="NPCCharacter.spc_wanderer_baltic_0" />
+			<template name="NPCCharacter.spc_wanderer_baltic_1" />
+			<template name="NPCCharacter.spc_wanderer_baltic_2" />
+			<template name="NPCCharacter.spc_wanderer_baltic_3" />
+			<template name="NPCCharacter.spc_wanderer_baltic_4" />
+			<template name="NPCCharacter.spc_wanderer_baltic_5" />
+			<template name="NPCCharacter.spc_wanderer_baltic_6" />
+			<template name="NPCCharacter.spc_wanderer_baltic_7" />
+			<template name="NPCCharacter.spc_wanderer_baltic_8" />
+			<template name="NPCCharacter.spc_wanderer_baltic_9" />        
+			<template name="NPCCharacter.spc_notable_baltic_0" />
+			<template name="NPCCharacter.spc_notable_baltic_0b" />
+			<template name="NPCCharacter.spc_notable_baltic_1" />
+			<template name="NPCCharacter.spc_notable_baltic_1b" />
+            <template name="NPCCharacter.spc_notable_baltic_2" />
+			<template name="NPCCharacter.spc_notable_baltic_2b" />
+			<template name="NPCCharacter.spc_notable_baltic_3" />
+			<template name="NPCCharacter.spc_notable_baltic_3b" />
+			<template name="NPCCharacter.spc_notable_baltic_4" />
+			<template name="NPCCharacter.spc_notable_baltic_4b" />
+            <template name="NPCCharacter.spc_notable_baltic_5" />
+			<template name="NPCCharacter.spc_notable_baltic_6" />
+			<template name="NPCCharacter.spc_notable_baltic_7" />
+			<template name="NPCCharacter.spc_notable_baltic_8" />
+			<template name="NPCCharacter.spc_notable_baltic_9" />
+			<template name="NPCCharacter.spc_notable_baltic_10" />
+			<template name="NPCCharacter.spc_notable_baltic_10b" />
+			<template name="NPCCharacter.spc_notable_baltic_11" />
+			<template name="NPCCharacter.spc_notable_baltic_11b" />
+			<template name="NPCCharacter.spc_notable_baltic_12" />
+			<template name="NPCCharacter.spc_notable_baltic_13" />
+            <template name="NPCCharacter.spc_notable_baltic_21" />
+			<template name="NPCCharacter.spc_notable_baltic_22" />
+            <template name="NPCCharacter.spc_baltic_headman_1" />
+			<template name="NPCCharacter.spc_baltic_headman_2" />
+			<template name="NPCCharacter.spc_baltic_headman_3" />
+		</notable_and_wanderer_templates>
+		<lord_templates>
+			<template name="NPCCharacter.baltic_leader_template_0" />
+			<template name="NPCCharacter.baltic_leader_template_1" />
+			<template name="NPCCharacter.baltic_leader_template_2" />
+			<template name="NPCCharacter.baltic_leader_template_3" />
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.baltic_leader_template_0" />
+			<template name="NPCCharacter.baltic_leader_template_1" />
+			<template name="NPCCharacter.baltic_leader_template_2" />
+			<template name="NPCCharacter.baltic_leader_template_3" />
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_baltic_one_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_baltic_one_participant_set_v2" />
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_baltic_two_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_baltic_two_participant_set_v2" />
+			<template name="NPCCharacter.tournament_template_baltic_two_participant_set_v3" />
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_baltic_four_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_baltic_four_participant_set_v2" />
+			<template name="NPCCharacter.tournament_template_baltic_four_participant_set_v3" />
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.eastern_mercenary" />
+			<template name="NPCCharacter.western_mercenary" />
+		</basic_mercenary_troops>
+	</Culture>
+
+</SPCultures>
