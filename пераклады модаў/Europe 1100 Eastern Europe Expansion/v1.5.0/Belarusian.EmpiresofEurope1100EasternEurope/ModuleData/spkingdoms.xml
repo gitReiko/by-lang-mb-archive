@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+
+  <Kingdom id="lithuanian"
+		   owner="Hero.lord_lithuanian_3a"
+		   banner_key="11.121.48.1836.1836.767.764.1.0.0.510.129.116.470.300.764.800.0.0.45.510.129.116.188.300.678.979.0.0.135.510.129.116.470.300.764.728.0.1.134.510.129.116.188.300.678.549.0.1.44"
+		   primary_banner_color="0xfff4d32e"
+		   secondary_banner_color="0xff35671c"
+		   label_color="fff4d32e"
+		   color="fff4d32e"
+		   color2="ff35671c"
+		   alternative_color="fff4702e"
+		   alternative_color2="ff35671c"
+		   culture="Culture.goldenhorde"
+		   settlement_banner_mesh="encounter_flag_a"
+		   flag_mesh="info_screen_flags_a"
+		   name="{=lithuanian_kingdom_name}The Lithuanian Tribal Principalities"
+		   short_name="{=lithuanian_kingdom_short_name}Lithuanians"
+		   title="{=lithuanian_kingdom_title}Lithuanian Tribal Principalities"
+		   ruler_title="{=lithuanian_ruler_title}Knyaz"
+		   text="{=lithuanian_kingdom_text}Approximately from the 10th century vassal-union relations between Polatsk and Lithuania began to form. Lithuania's vassality/alliance is difficult to determine due to lack of information. The driver of relations was the joint struggle with Rus. Polatsk often went on campaigns together with Lithuania. In 1100 the principalities close to Polatsk were probably vassals (Nalša and Alša). Other principalities were independent but not united, they traded, fought with each other and against common enemies (Deltuva, Lietuva and Neris). To the first half of the 12th century Lithuania took the leading role, and the Polatsk through dynastic alliances became part of Lithuania.">
+    <relationships>
+		<relationship kingdom="Kingdom.rus" value="-75" isAtWar="true" />
+		<relationship kingdom="Kingdom.zemgalian" value="-75" isAtWar="true" />
+	</relationships>
+    <policies>
+
+	</policies>
+  </Kingdom>
+  
+ </Kingdoms>
