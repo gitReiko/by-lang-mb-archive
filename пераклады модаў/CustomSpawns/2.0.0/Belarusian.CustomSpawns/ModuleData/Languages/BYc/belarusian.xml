@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base>
+
+
+
+ <strings>
+  <string id="SpawnAPIWarn001" text="Увага: API Custom Spawns выявіў, што вы спрабуеце загрузіць мод Custom Spawns у існую захаваную гульню. Дзеля слушнай працы гэтага моду трэба пачаць гульню наноў.{newline}Калі вы вырашыце працягнуць, чакайце вельмі нестабільныя паводзіны падчас гульні." />
+  <string id="SpawnAPIWarn002" text="Верагодна, хібныя дадзеныя адраджэньня (спавна). Стварэньне партыі пазьбегнута." />
+  <string id="SpawnAPIWarn003" text="Не ўдалося знайсьці канфігурацыйны файл Дадзеных Кампаніі дзеля тыпу {NAME}" />
+  <string id="SpawnAPIDebug001" text="CustomSpawns: Стварэньне {NAME} у селішчы {SETTLEMENT}, месцаваньне {POSITION}" />
+  <string id="SpawnAPIErr001" text="Адбылася памылка CustomSpawns, калі ласка, паведамце распрацоўніку мода:" />
+  <string id="SpawnAPIErr002" text="Не ўдалося разабраць дыялог пасьлядоўнасьці:{NEWLINE}{TEXT}{NEWLINE}Паведамленьне пра Памылку:{NEWLINE}{ERROR}" />
+  <string id="SpawnAPIMsg000" text="Загружана Custom Spawns API" />
+  <string id="SpawnAPIMsg001" text="Вы запаланілі сваіх ворагаў." />
+  <string id="SpawnAPIMsg002" text="Нельга інтэрпрэтаваць {PLAYER} як bool. Магчыма з-за памылкі друку ў XML-пасьлядоўнасьці 'Surrender'" />
+  <string id="SpawnAPIMsg003" text="Змагаецца ў {SETTLEMENT}. Апустошваньне павялічваецца на {VALUE1}. Новае апустошваньне складае: {VALUE2}" />
+  <string id="SpawnAPIMsg004" text="Пасьпяховае рабаваньне {NAME}. Павялічэньне апустошваньня на {VALUE}" />
+  <string id="SpawnAPIMsg005" text="Разьлік прыросту апустошваньняў ад варожай прысутнасьці ў {NAME}. Павялічэньне апустошваньня на {VALUE}" />
+  <string id="SpawnAPIMsg006" text="Разьлік штодзённага зьмяншэньня апустошваньня ў {NAME}. Зьмяншэньне апустошваньня на {VALUE}" />
+  <string id="SpawnAPIMsg007" text="Цяперашняе Апустошваньне ў {NAME} складае {VALUE}" />
+  <string id="SpawnAPIMsg010" text="{NAME} цяпер інтэграваны ў Custom Spawns API." />
+ </strings>
+</base>
