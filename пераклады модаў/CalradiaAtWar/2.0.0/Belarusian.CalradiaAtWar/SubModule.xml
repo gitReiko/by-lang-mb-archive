@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Belarusian CalradiaAtWar"/>
+	<Id value = "Belarusian CalradiaAtWar"/>
+	<Version value = "v1.2.10"/>
+	<DefaultModule value="true"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Author value="Denis Makouski (Reiko17)" />
+  	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.2.10"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.2.10"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.2.10"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.2.10"/>
+		<DependedModule Id="Belarusian Core" DependentVersion="v1.2.10"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls>
+
+		<XmlNode>
+			<XmlName path="CustomFactions" id="Factions"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Heroes" path="CustomHeroes"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="CustomLords"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="CustomTroopGear"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="CraftingPieces" path="CustomTroopGearPieces"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName path="CustomTroops" id="NPCCharacters"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+	</Xmls>
+</Module>
