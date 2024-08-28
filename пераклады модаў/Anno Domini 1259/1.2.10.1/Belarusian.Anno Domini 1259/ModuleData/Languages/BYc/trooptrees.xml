@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <!--input/trooptrees/trooptrees_bandits.xml-->
+  <string id="C8DE6L73" text="Дэзэртыр"/>
+  <string id="Sailor" text="Марак"/>
+  <string id="Pirate" text="Пірат"/>
+  <string id="Pirate Chief" text="Верхавод Піратаў"/>
+  <string id="9laVlEH9" text="Горнік"/>
+  <string id="ZKdiaaFo" text="Разбойнік"/>
+  <string id="P6Md9DpR" text="Прыдарожны Грабежнік"/>
+  <string id="Forest_Bandit" text="Лясны Бандыт"/>
+  <string id="Forest_Bandit_raider" text="Лясны Бандыт-Налётнік"/>
+  <string id="Forest_Bandit_chief" text="Лясны Бандыт-Верхавод"/>
+  <string id="uOAnHN47" text="Бедуін-Вандроўнік"/>
+  <string id="0qDNS83n" text="Качэўнік-Бандыт"/>
+  <string id="cdbSCr6G" text="Харамі"/>
+  <string id="ZA4bgJ5V" text="Стэпавы Бандыт"/>
+  <string id="Awc23bFS" text="Марадзёр"/>
+  <string id="cbnvgVhH" text="Налётнік"/>
+  <string id="Pirate Captain" text="Капітан Піратаў"/>
+  <string id="ziOBJSzR" text="Верхавод Горных Бандытаў"/>
+  <string id="dc2qxanZ" text="Верхавод Лясных Бандытаў"/>
+  <string id="Q2V4uQrr" text="Верхавод Пустэльных Бандытаў"/>
+  <string id="Bg63YFnh" text="Верхавод Стэпавых Бандытаў"/>
+  <string id="C8hwcOdF" text="Конны Грабежнік"/>
+  <string id="J6Yksji5" text="Конны Рабаўнік"/>
+  <string id="Robber Servant" text="Рабаўнік-Слуга"/>
+  <string id="Robber Footman" text="Рабаўнік-Пяхотнік"/>
+  <string id="Robber Squire" text="Рабаўнік-Зброянос"/>
+  <string id="Robber Knight" text="Рабаўнік-Рыцар"/>
+  <string id="Adventurer" text="Прыгоднік"/>
+  <string id="Runaway Thrall" text="Зьбеглы Трал"/>
+  <string id="Runaway Slave" text="Зьбеглы Раб"/>
+  <string id="RogueServant" text="Злачынны Слуга"/>
+  <string id="RogueSquire" text="Злачынны Зброянос"/>
+  <string id="RogueKnight" text="Злачынны Рыцар"/>
+  <string id="RogueKnightsB" text="Злачынны Рыцар-Бос"/>
+  <!--input/trooptrees/trooptrees_bohemia.xml-->
+  <string id="BohemianRecruit" text="Багемскі Рэкрут"/>
+  <string id="BohemianMilitia" text="Багемскі Рушэнны"/>
+  <string id="BohemianSwordsman" text="Багемскі Мечнік"/>
+  <string id="BohemianMenAtArms" text="Багемскі Збройны Чын"/>
+  <string id="BohemianSerjeant" text="Багемскі Сяржант"/>
+  <string id="BohemianSpearman" text="Багемскі Капійнік"/>
+  <string id="BohemianPikeman" text="Багемскі Пікінёр"/>
+  <string id="BohemianHPikeman" text="Багемскі Цяжкі Пікінёр"/>
+  <string id="BohemianSkirmisher" text="Багемскі Застрэльнік"/>
+  <string id="BohemianArcher" text="Багемскі Лучнік"/>
+  <string id="BohemianVArcher" text="Багемскі Лучнік-Ветэран"/>
+  <string id="BohemianMarksman" text="Багемскі Трапнастрэл"/>
+  <string id="BohemianCrossbowman" text="Багемскі Арбалетнік"/>
+  <string id="BohemianVCrossbowman" text="Багемскі Арбалетнік-Ветэран"/>
+  <string id="BohemianPavise" text="Багемская Павеза"/>
+  <string id="BohemianScout" text="Багемскі Выведнік"/>
+  <string id="BohemianMCrossbow" text="Багемскі Конны Арбалетнік"/>
+  <string id="BohemianHMCrossbow" text="Багемскі Цяжкі Конны Арбалетнік"/>
+  <string id="BohemianLightCavalry" text="Багемскі Лёгкі Вершнік"/>
+  <string id="bohemia Household Knight" text="Багемскі Зброянос"/>
+  <string id="BohemianGuardKnight" text="Багемскі Вартавы Рыцар"/>
+  <!--input/trooptrees/trooptrees_bulgaria.xml-->
+  <string id="bulgariaian Levied Serf" text="Балгарскі Заклічны Прыгонны"/>
+  <string id="Bulgarian Trained Serf" text="Балгарскі Падрыхтаваны Прыгонны"/>
+  <string id="Bulgarian Recruit Archer" text="Балгарскі Лучнік-Рэкрут"/>
+  <string id="Bulgarian Trained Archer" text="Балгарскі Падрыхтаваны Лучнік"/>
+  <string id="Bulgarian Crossbowman" text="Балгарскі Арбалетнік"/>
+  <string id="Bulgarian Armored Crossbowman" text="Балгарскі Браняваны Арбалетнік"/>
+  <string id="Bulgarian Marksman" text="Балгарскі Трапнастрэл"/>
+  <string id="Bulgarian Horse Archer" text="Балгарскі Конны Лучнік"/>
+  <string id="Bulgarian Mounted Vadász" text="Балгарскі Конны Вадас"/>
+  <string id="Bulgarian Vadász" text="Балгарскі Вадас"/>
+  <string id="Bulgarian Footman" text="Балгарскі Пяхотнік"/>
+  <string id="Bulgarian Spearman" text="Балгарскі Капійнік"/>
+  <string id="Bulgarian Light Spearman" text="Балгарскі Лёгкі Капійнік"/>
+  <string id="Bulgarian Veteran Light Spearman" text="Балгарскі Лёгкі Капійнік-Ветэран"/>
+  <string id="Bulgarian Veteran Spearman" text="Балгарскі Капійнік-Ветэран"/>
+  <string id="Bulgarian Voulgier" text="Балгарскі Вульжар"/>
+  <string id="Bulgarian Noble Youth" text="Балгарскі Шляхетны Маладзён"/>
+  <string id="Bulgarian Várjobbágy" text="Балгарскі Вар'ёбаг"/>
+  <string id="Bulgarian Knight" text="Балгарскі Рыцар"/>
+  <string id="Bulgarian Lesser Baron" text="Балгарскі Малодшы Барон"/>
+  <!--input/trooptrees/trooptrees_castile.xml-->
+  <string id="Castilian Levied Peasant" text="Кастыльскі Рушэнны Просты Чалавек"/>
+  <string id="Castilian Levy Spearman" text="Кастыльскі Рушэнны Капійнік"/>
+  <string id="Castilian Levy Infantry" text="Кастыльскі Рушэнны Пяхотнік"/>
+  <string id="Castilian Infantry" text="Кастыльскі Пяхотнік"/>
+  <string id="Castilian Senior Infantry" text="Кастыльскі Старэйшы Пяхотнік"/>
+  <string id="Castilian Heavy Infantry" text="Кастыльскі Цяжкі Пяхотнік"/>
+  <string id="Castilian Swordsman" text="Кастыльскі Мечнік"/>
+  <string id="Castilian Veteran Swordsman" text="Кастыльскі Мечнік-Ветэран"/>
+  <string id="Castilian Vanguard" text="Кастыльскі Авангард"/>
+  <string id="Castilian Spearman" text="Кастыльскі Капійнік"/>
+  <string id="Castilian Senior Spearman" text="Кастыльскі Старэйшы Капійнік"/>
+  <string id="Castilian Sergeant Spearman" text="Кастыльскі Капійнік-Сяржант"/>
+  <string id="Castilian Levied Archer" text="Кастыльскі Рушэнны Арбалетнік"/>
+  <string id="Castilian Skirmisher" text="Кастыльскі Застрэльнік"/>
+  <string id="Castilian Crossbowman" text="Кастыльскі Арбалетнік"/>
+  <string id="Castilian Arbalester" text="Кастыльскі Трапны Стралок"/>
+  <string id="Castilian Senior Skirmisher" text="Кастыльскі Старэйшы Застрэльнік"/>
+  <string id="Castilian Veteran Skirmisher" text="Кастыльскі Застрэльнік-Ветэран"/>
+  <string id="Castilian Horseman" text="Кастыльскі Коньнік"/>
+  <string id="Castilian Squire" text="Кастыльскі Зброянос"/>
+  <string id="Castilian Lesser Knight" text="Кастыльскі Малодшы Рыцар"/>
+  <string id="Castilian Knight" text="Кастыльскі Рыцар"/>
+  <!--input/trooptrees/trooptrees_crusader.xml-->
+  <string id="European Levy" text="Еўрапейскі Рушэнны"/>
+  <string id="European Levied Footman" text="Еўрапейскі Рушэнны Пяхотнік"/>
+  <string id="European Levied Bowman" text="Еўрапейскі Рушэнны Стралок"/>
+  <string id="Crusader Trained Bowman" text="Крыжацкі Падрыхтаваны Стралок"/>
+  <string id="Crusader Trained Crossbowman" text="Крыжацкі Падрыхтаваны Арбалетнік"/>
+  <string id="Crusader Veteran Crossbowman" text="Крыжацкі Арбалетнік-Ветэран"/>
+  <string id="Crusader Heavy Crossbowman" text="Крыжацкі Цяжкі Арбалетнік"/>
+  <string id="Crusader Skirmisher Crossbowman" text="Крыжацкі Арбалетнік-Застрэльнік"/>
+  <string id="Crusader Longbowman" text="Крыжацкі Доўгалучнік"/>
+  <string id="Crusader Skirmisher Bowman" text="Крыжацкі Стралок-Застрэльнік"/>
+  <string id="Crusader Novice Spearman" text="Крыжацкі Капійнік-Навік"/>
+  <string id="Crusader Novice Guisarmer" text="Крыжацкі Гвізармар-Навік"/>
+  <string id="Crusader Voulgier" text="Крыжацкі Вульжар"/>
+  <string id="Crusader Expert Voulgier" text="Крыжацкі Дасьведчаны Вульжар"/>
+  <string id="Crusader Veteran Spearman" text="Крыжацкі Капійнік-Ветэран"/>
+  <string id="Crusader Expert Spearman" text="Крыжацкі Дасьведчаны Капійнік"/>
+  <string id="European Nobleman" text="Еўрапейскі Шляхціч"/>
+  <string id="European Noble Cavalryman" text="Еўрапейскі Шляхетны Вершнік"/>
+  <string id="European Noble Serjeant" text="Еўрапейскі Шляхетны Сяржант"/>
+  <string id="Dismounted Crusader Knight" text="Крыжацкі Пешы Рыцар"/>
+  <string id="Dismounted Crusader Knight-Serjeant" text="Крыжацкі Пешы Рыцар-Сяржант"/>
+  <string id="Crusader Knight" text="Крыжацкі Рыцар"/>
+  <string id="Crusader Knight-Serjeant" text="Крыжацкі Рыцар-Сяржант"/>
+  <string id="Knight of Jerusalem" text="Рыцар Ерусаліма"/>
+  <!--input/trooptrees/trooptrees_denmark.xml-->
+  <string id="Danish Levy" text="Дацкі Рушэнны"/>
+  <string id="Danish Drilled Spearman" text="Дацкі Сьвідравальнк Капійнік"/>
+  <string id="Danish Axe Lithsman" text="Дацкі Сякірны Ліцмэн"/>
+  <string id="Danish Marauder" text="Дацкі Марадзёр"/>
+  <string id="Danish Lithsman" text="Дацкі Ліцмэн"/>
+  <string id="Danish Senior Lithsman" text="Дацкі Старэйшы Ліцмэн"/>
+  <string id="Danish Veteran Lithsman" text="Дацкі Ветэран Ліцмэн"/>
+  <string id="Danish Skirmisher" text="Дацкі Застрэльнік"/>
+  <string id="Danish Crossbowman" text="Дацкі Арбалетнік"/>
+  <string id="Danish Arbalester" text="Дацкі Арбалестар"/>
+  <string id="Danish Levy Bowman" text="Дацкі Рушэнны Стралок"/>
+  <string id="Danish Trained Bowman" text="Дацкі Падрыхтаваны Стралок"/>
+  <string id="Danish Veteran Bowman" text="Дацкі Стралок-Ветэран"/>
+  <string id="Danish Page" text="Дацкі Пэйдж"/>
+  <string id="Danish Dróttman" text="Дацкі Дроттмэн"/>
+  <string id="Danish Senior Dróttman" text="Дацкі Старэйшы Дроттмэн"/>
+  <string id="Danish Squire" text="Дацкі Зброянос"/>
+  <string id="Danish Man-at-arms" text="Дацкі Збройны Чын"/>
+  <string id="Danish Knight" text="Дацкі Рыцар"/>
+  <!--input/trooptrees/trooptrees_england_battania.xml-->
+  <string id="English Levy" text="Англійскі Рушэнны Лучнік"/>
+  <string id="English Archer" text="Англійскі Лучнік"/>
+  <string id="English Trained Archer" text="Англійскі Падрыхтаваны Лучнік"/>
+  <string id="English Longbowman" text="Англійскі Доўгалучнік"/>
+  <string id="English Yeoman Archer" text="Англійскі Ёмэн-Лучнік"/>
+  <string id="English Crossbowman" text="Англійскі Арбалетнік"/>
+  <string id="English Senior Crossbowman" text="Англійскі Старэйшы Арбалетнік"/>
+  <string id="English Armoured Crossbowman" text="Англійскі Браняваны Арбалетнік"/>
+  <string id="English Levied Peasant" text="Англійскі Рушэнны Просты Чалавек"/>
+  <string id="English Levy Spearman" text="Англійскі Рушэнны Капійнік"/>
+  <string id="English Senior Spearman" text="Англійскі Малодшы Капійнік"/>
+  <string id="English Veteran Spearman" text="Англійскі Старэйшы Капійнік"/>
+  <string id="English Serjeant Spearman" text="Англійскі Капійнік-Сяржант"/>
+  <string id="English Serjeant Billman" text="Англійскі Більнік-Сяржант"/>
+  <string id="English Scout" text="Англійскі Выведнік"/>
+  <string id="English Squire" text="Англійскі Зброянос"/>
+  <string id="English Lesser Knight" text="Англійскі Малодшы Рыцар"/>
+  <string id="English Senior Knight" text="Англійскі Рыцар"/>
+  <!--input/trooptrees/trooptrees_france_vlandia.xml-->
+  <string id="French Levy Archer" text="Французкі Рушэнны Лучнік"/>
+  <string id="French Lesser Archer" text="Французкі Малодшы Лучнік"/>
+  <string id="French Senior Archer" text="Французкі Старэйшы Лучнік"/>
+  <string id="French Veteran Archer" text="Французкі Лучнік-Ветэран"/>
+  <string id="French Lesser Crossbowman" text="Французкі Малодшы Арбалетнік"/>
+  <string id="French Senior Crossbowman" text="Французкі Старэйшы Арбалетнік"/>
+  <string id="French Veteran Crossbowman" text="Французкі Арбалетнік-Ветэран"/>
+  <string id="French Serjeant Crossbowman" text="Французкі Арбалетнік-Сяржант"/>
+  <string id="French Levied Peasant" text="Французкі Рушэнны Просты Чалавек"/>
+  <string id="French Levy Spearman" text="Французкі Рушэнны Капійнік"/>
+  <string id="French Senior Spearman" text="Французкі Капійнік"/>
+  <string id="French Veteran Spearman" text="Французкі Старэйшы Капійнік"/>
+  <string id="French Serjeant Spearman" text="Французкі Капійнік-Сяржант"/>
+  <string id="French Levy Voulgier" text="Французкі Рушэнны Вульжар"/>
+  <string id="French Voulgier" text="Французкі Вульжар"/>
+  <string id="French Senior Voulgier" text="Французкі Старэйшы Вульжар"/>
+  <string id="French Serjeant Guisarmer" text="Французкі Гвізармар-Сяржант"/>
+  <string id="French Squire" text="Французкі Зброянос"/>
+  <string id="French Man-at-Arms" text="Французкі Збройны Чын"/>
+  <string id="French Knight" text="Французкі Рыцар"/>
+  <string id="French Chevalier" text="Французкі Шэвалье"/>
+  <!--input/trooptrees/trooptrees_gaelic.xml-->
+  <string id="Gaelic Armed Peasant" text="Гэльскі Узброены Просты Чалавек"/>
+  <string id="Kern Recruit" text="Керн Рэкрут"/>
+  <string id="Kern Recruit Archer" text="Керн-Лучнік-Рэкрут"/>
+  <string id="Kern Archer" text="Керн-Лучнік"/>
+  <string id="Kern Longbowman" text="Керн-Доўгалучнік"/>
+  <string id="Kern Crossbowman" text="Керн-Арбалетнік"/>
+  <string id="Kern Spearman" text="Керн-Капійнік"/>
+  <string id="Kern Veteran Spearman" text="Керн-Капійнік-Ветэран"/>
+  <string id="Kern Serjeant" text="Керн-Сяржант"/>
+  <string id="Kern Horse Boy" text="Керн Конны Хлопец"/>
+  <string id="Gaelic Scion" text="Гэльскі Нашчадак"/>
+  <string id="Gaelic Noble Cavalryman" text="Гэльскі Шляхетны Вершнік"/>
+  <string id="Gaelic Noble Clansman" text="Гэльскі Шляхетны Супляменьнік"/>
+  <string id="Gaelic Noble Chieftain" text="Гэльскі Шляхетны Правадыр"/>
+  <string id="Gallóglach Recruit" text="Галлогаскі Рэкрут"/>
+  <string id="Gallóglach Footman" text="Галлогаскі Пяхотнік"/>
+  <string id="Gallóglach Shieldbreaker" text="Галлогаскі Руйнавальнік Шчытоў"/>
+  <string id="Gallóglach Sword-bearer" text="Галлогаскі Носьбіт Мяча"/>
+  <!--input/trooptrees/trooptrees_german.xml-->
+  <string id="German Levy Archer" text="Германскі Рушэнны Лучнік"/>
+  <string id="German Lesser Bowman" text="Германскі Малодшы Лучнік"/>
+  <string id="German Senior Archer" text="Германскі Старэйшы Лучнік"/>
+  <string id="German Longbowman" text="Германскі Доўгалучнік"/>
+  <string id="German Crossbowman" text="Германскі Малодшы Арбалетнік"/>
+  <string id="German Senior Crossbowman" text="Германскі Арбалетнік"/>
+  <string id="German Veteran Crossbowman" text="Германскі Арбалетнік-Ветэран"/>
+  <string id="German Levied Peasant" text="Германскі Рушэнны Просты Чалавек"/>
+  <string id="German Levy Spearman" text="Германскі Рушэнны Капійнік"/>
+  <string id="German Levy Guisarmer" text="Германскі Рушэнны Гвізармар"/>
+  <string id="German Senior Guisarmer" text="Германскі Старэйшы Гвізармар"/>
+  <string id="German Serjeant Guisarmer" text="Германскі Гвізармар-Сяржант"/>
+  <string id="German Spearman" text="Германскі Капійнік"/>
+  <string id="German Senior Spearman" text="Германскі Старэйшы Капійнік"/>
+  <string id="German Serjeant Spearman" text="Германскі Капійнік-Сяржант"/>
+  <string id="German Horseman" text="Германскі Коньнік"/>
+  <string id="German Konstafler" text="Германскі Констафлер"/>
+  <string id="German Squire" text="Германскі Зброянос"/>
+  <string id="German Lesser Knight" text="Германскі Малодшы Рыцар"/>
+  <string id="German Lesser Dienstmann" text="Германскі Малодшы Дзінстманн"/>
+  <string id="German Ministeriales" text="Германскі Міністэрыалес"/>
+  <string id="German Knight" text="Германскі Рыцар"/>
+  <!--input/trooptrees/trooptrees_greek.xml-->
+  <string id="Greek Levied Citizen" text="Грэцкі Заклічны Грамадзянін"/>
+  <string id="Greek Foot Soldier" text="Грэцкі Пешы Салдат"/>
+  <string id="Greek Novice Archer" text="Грэцкі Лучнік-Навік"/>
+  <string id="Greek Trained Archer" text="Грэцкі Падрыхтаваны Лучнік"/>
+  <string id="Greek Crossbowman" text="Грэцкі Арбалетнік"/>
+  <string id="Greek Veteran Crossbowman" text="Грэцкі Арбалетнік-Ветэран"/>
+  <string id="Greek Heavy Crossbowman" text="Грэцкі Цяжкі Арбалетнік"/>
+  <string id="Greek Longbowman" text="Грэцкі Доўгалучнік"/>
+  <string id="Greek Veteran Archer" text="Грэцкі Лучнік-Ветэран"/>
+  <string id="Greek Heavy Archer" text="Грэцкі Цяжкі Лучнік"/>
+  <string id="Greek Light Spearman" text="Грэцкі Лёгкі Капійнік"/>
+  <string id="Greek Swordsman" text="Грэцкі Мечнік"/>
+  <string id="Greek Veteran Swordsman" text="Грэцкі Мечнік-Ветэран"/>
+  <string id="Greek Veteran Light Spearman" text="Грэцкі Ветэран Лёгкі Капійнік"/>
+  <string id="Greek Medium Spearman" text="Грэцкі Сярэдні Капійнік"/>
+  <string id="Greek Heavy Spearman" text="Грэцкі Цяжкі Капійнік"/>
+  <string id="Greek Pikeman" text="Грэцкі Пікінёр"/>
+  <string id="Greek Elite Light Spearman" text="Грэцкі Элітны Лёгкі Капійнік"/>
+  <string id="Greek Horseman" text="Грэцкі Коньнік"/>
+  <string id="Greek Mounted Archer" text="Грэцкі Конны Лучнік"/>
+  <string id="Greek Light Lancer" text="Грэцкі Лёгкі Улан"/>
+  <string id="Greek Medium Lancer" text="Грэцкі Сярэдні Улан"/>
+  <string id="Greek Cataphract" text="Грэцкі Катафракт"/>
+  <string id="Greek Veteran Mounted Archer" text="Грэцкі Конны Лучнік-Ветэран"/>
+  <!--input/trooptrees/trooptrees_halych.xml-->
+  <string id="Halychian Levied Serf" text="Галіцкі Заклічны Прыгонны"/>
+  <string id="Halychian Trained Serf" text="Галіцкі Падрыхтаваны Прыгонны"/>
+  <string id="Halychian Recruit Archer" text="Галіцкі Лучнік-Рэкрут"/>
+  <string id="Halychian Trained Archer" text="Галіцкі Падрыхтаваны Лучнік"/>
+  <string id="Halychian Crossbowman" text="Галіцкі Арбалетнік"/>
+  <string id="Halychian Armored Crossbowman" text="Галіцкі Браняваны Арбалетнік"/>
+  <string id="Halychian Marksman" text="Галіцкі Трапнастрэл"/>
+  <string id="Halychian Horse Archer" text="Галіцкі Конны Лучнік"/>
+  <string id="Halychian Mounted Vadász" text="Галіцкі Конны Водас"/>
+  <string id="Halychian Vadász" text="Галіцкі Водас"/>
+  <string id="Halychian Footman" text="Галіцкі Пяхотны"/>
+  <string id="Halychian Spearman" text="Галіцкі Капійнік"/>
+  <string id="Halychian Light Spearman" text="Галіцкі Лёгкі Капійнік"/>
+  <string id="Halychian Veteran Light Spearman" text="Галіцкі Лёгкі Капійнік-Ветэран"/>
+  <string id="Halychian Veteran Spearman" text="Галіцкі Капійнік-Ветэран"/>
+  <string id="Halychian Voulgier" text="Галіцкі Вульжар"/>
+  <string id="Halychian Noble Youth" text="Галіцкі Шляхетны Маладзён"/>
+  <string id="Halychian Várjobbágy" text="Галіцкі Вар'ёбаг"/>
+  <string id="Halychian Knight" text="Галіцкі Рыцар"/>
+  <string id="Halychian Lesser Baron" text="Галіцкі Малодшы Барон"/>
+  <!--input/trooptrees/trooptrees_hungary.xml-->
+  <string id="Hungarian Levied Serf" text="Вугорскі Заклічны Прыгонны"/>
+  <string id="Hungarian Trained Serf" text="Вугорскі Падрыхтаваны Прыгонны"/>
+  <string id="Hungarian Recruit Archer" text="Вугорскі Лучнік-Рэкрут"/>
+  <string id="Hungarian Trained Archer" text="Вугорскі Падрыхтаваны Лучнік"/>
+  <string id="Hungarian Crossbowman" text="Вугорскі Арбалетнік"/>
+  <string id="Hungarian Armored Crossbowman" text="Вугорскі Узброены Арбалетнік"/>
+  <string id="Hungarian Marksman" text="Вугорскі Трапнастрэл"/>
+  <string id="Hungarian Horse Archer" text="Вугорскі Конны Лучнік"/>
+  <string id="Hungarian Mounted Vadász" text="Вугорскі Конны Водас"/>
+  <string id="Hungarian Vadász" text="Вугорскі Водас"/>
+  <string id="Hungarian Footman" text="Вугорскі Пяхотнік"/>
+  <string id="Hungarian Spearman" text="Вугорскі Капійнік"/>
+  <string id="Hungarian Light Spearman" text="Вугорскі Лёгкі Капійнік"/>
+  <string id="Hungarian Veteran Light Spearman" text="Вугорскі Ветэран Лёгкі Капійнік"/>
+  <string id="Hungarian Veteran Spearman" text="Вугорскі Капійнік-Ветэран"/>
+  <string id="Hungarian Voulgier" text="Вугорскі Вульжар"/>
+  <string id="Hungarian Noble Youth" text="Вугорскі Шляхетны Маладзён"/>
+  <string id="Hungarian Várjobbágy" text="Вугорскі Вар'ёбаг"/>
+  <string id="Hungarian Knight" text="Вугорскі Рыцар"/>
+  <string id="Hungarian Lesser Baron" text="Вугорскі Малодшы Барон"/>
+  <!--input/trooptrees/trooptrees_latin.xml-->
+  <string id="Latin Levy" text="Лацінскі Заклічнік"/>
+  <string id="Latin Footman" text="Лацінскі Пяхотнік"/>
+  <string id="Latin Crossbowman" text="Лацінскі Арбалетнік"/>
+  <string id="Latin Veteran Crossbowman" text="Лацінскі Арбалетнік-Ветэран"/>
+  <string id="Latin Light Infantryman" text="Лацінскі Лёгкі Пяхотнік"/>
+  <string id="Latin Veteran Light Infantryman" text="Лацінскі Лёгкі Пяхотнік-Ветэран"/>
+  <string id="Latin Horseman" text="Лацінскі Коньнік"/>
+  <string id="Latin Light Lancer" text="Лацінскі Лёгкі Улан"/>
+  <string id="Latin Medium Horseman" text="Лацінскі Сярэдні Коньнік"/>
+  <!--input/trooptrees/trooptrees_lithuania.xml-->
+  <string id="Baltic Village Levy" text="Балтыйскі Вясковы Заклічнік"/>
+  <string id="Baltic Spearman" text="Балтыйскі Капійнік"/>
+  <string id="Baltic Glaiveman" text="Балтыйскі Глефнік"/>
+  <string id="Baltic Veteran Glaiveman" text="Балтыйскі Глефнік-Ветэран"/>
+  <string id="Masovian Axeman" text="Балтыйскі Сякірнік-Ветэран"/>
+  <string id="Masovian Warrior" text="Балтыйскі Сякірнік-Сяржант"/>
+  <string id="Baltic Serjeant Glaiveman" text="Балтыйскі Глефнік-Сяржант"/>
+  <string id="Baltic Veteran Spearman" text="Балтыйскі Капійнік-Ветэран"/>
+  <string id="Baltic Serjeant Spearman" text="Балтыйскі Капійнік-Сяржант"/>
+  <string id="Baltic Village Huntsman" text="Балтыйскі Вясковы Паляўнічы"/>
+  <string id="Baltic Trained Archer" text="Балтыйскі Падрыхтаваны Лучнік"/>
+  <string id="Baltic Trained Crossbowman" text="Балтыйскі Падрыхтаваны Арбалетнік"/>
+  <string id="Baltic Veteran Crossbowman" text="Балтыйскі Арбалетнік-Ветэран"/>
+  <string id="Baltic Veteran Archer" text="Балтыйскі Лучнік-Ветэран"/>
+  <string id="Baltic Longbowman" text="Балтыйскі Трапнастрэл"/>
+  <string id="Baltic Man-at-Arms" text="Балтыйскі Збройны Чын"/>
+  <string id="Baltic Squire" text="Балтыйскі Зброянос"/>
+  <string id="Baltic Household Knight" text="Балтыйскі Рыцар Трыманьня"/>
+  <string id="Baltic Baron" text="Балтыйскі Барон"/>
+  <!--input/trooptrees/trooptrees_mamluk.xml-->
+  <string id="Halqa Recruit" text="Халканскі Рэкрут"/>
+  <string id="Halqa Footman" text="Халканскі Пяхотнік"/>
+  <string id="Halqa Archer" text="Халканскі Лучнік"/>
+  <string id="Halqa Trained Archer" text="Халканскі Падрыхтаваны Лучнік"/>
+  <string id="Halqa Mounted Archer" text="Халканскі Конны Лучнік"/>
+  <string id="Halqa Veteran Mounted Archer" text="Халканскі Конны Лучнік-Ветэран"/>
+  <string id="Halqa Mounted Marksman" text="Халканскі Конны Трапнастрэл"/>
+  <string id="Halqa Veteran Archer" text="Халканскі Лучнік-Ветэран"/>
+  <string id="Halqa Expert Archer" text="Халканскі Дасьведчаны Лучнік"/>
+  <string id="Halqa Trained Footman" text="Халканскі Падрыхтаваны Пяхотнік"/>
+  <string id="Halqa Light Spearman" text="Халканскі Лёгкі Капійнік"/>
+  <string id="Halqa Veteran Spearman" text="Халканскі Капійнік-Ветэран"/>
+  <string id="Halqa Light Lancer" text="Халканскі Лёгкі Вершнік"/>
+  <string id="Halqa Mounted Harasser" text="Халканскі Конны Перасьледнік"/>
+  <string id="Halqa Linebreaker" text="Халканскі Руйнавальнік Шыхтоў"/>
+  <string id="Halqa Infantryman" text="Халканскі Пяхотнік"/>
+  <string id="Halqa Elite Infantryman" text="Халканскі Элітны Пяхотнік"/>
+  <string id="Enslaved Warrior" text="Заняволены Ваяр"/>
+  <string id="Mamluk Trainee" text="Мамлюскі Вучань"/>
+  <string id="Mamluk Bowman Trainee" text="Мамлюскі Вучань-Стралок"/>
+  <string id="Mamluk Crossbowman" text="Мамлюскі Арбалетнік"/>
+  <string id="Mamluk Mounted Crossbowman" text="Мамлюскі Конны Арбалетнік"/>
+  <string id="Mamluk Mounted Sharpshooter" text="Мамлюскі Конны Трапны Стралок"/>
+  <string id="Mamluk Lancer" text="Мамлюскі Улан"/>
+  <string id="Mamluk Heavy Lancer" text="Мамлюскі Цяжкі Улан"/>
+  <string id="Royal Mamluk" text="Гаспадарскі Мамлюк"/>
+  <string id="Mamluk Rider" text="Мамлюскі Наезьнік"/>
+  <string id="Mamluk Outrider" text="Мамлюскі Межавы Наезьнік"/>
+  <string id="Mamluk Elite Outrider" text="Мамлюскі Элітны Межавы Наезьнік"/>
+  <!--input/trooptrees/trooptrees_marinid_berber_asarai.xml-->
+  <string id="Berber Rural Levy" text="Берберскі Сельскі Заклічнік"/>
+  <string id="Berber Skirmisher" text="Берберскі Застрэльнік"/>
+  <string id="Berber Novice Spearman" text="Берберскі Капійнік-Навік"/>
+  <string id="Berber Experienced Spearman" text="Берберскі Спрактыкаваны Капійнік"/>
+  <string id="Berber Senior Spearman" text="Берберскі Старэйшы Капійнік"/>
+  <string id="Berber Emir's Guardsman" text="Берберскі Вартавы Эміра"/>
+  <string id="Berber Veteran Skirmisher" text="Берберскі Застрэльнік-Ветэран"/>
+  <string id="Berber Hillman" text="Берберскі Горнік"/>
+  <string id="Berber Ambusher" text="Берберскі Засаднік"/>
+  <string id="Bedouin Village Recruit" text="Бедуін Вясковы Рэкрут"/>
+  <string id="Bedouin Novice Bowman" text="Бедуін-Стралок-Навік"/>
+  <string id="Bedouin Novice Crossbowman" text="Бедуін-Арбалетнік-Навік"/>
+  <string id="Bedouin Trained Crossbowman" text="Бедуін Падрыхтаваны Арбалетнік"/>
+  <string id="Bedouin Veteran Crossbowman" text="Бедуін-Арбалетнік-Ветэран"/>
+  <string id="Bedouin Trained Bowman" text="Бедуін Падрыхтаваны Стралок"/>
+  <string id="Bedouin Veteran Bowman" text="Бедуін-Стралок-Ветэран"/>
+  <string id="Western Muslim Novice Cavalryman" text="Заходні Мусульманскі Вершнік-Навік"/>
+  <string id="Western Muslim Javelin Cavalry" text="Заходні Мусульманскі Вершнік-Застрэльнік"/>
+  <string id="Western Muslim Trained Horseman" text="Заходні Мусульманскі Падрыхтаваны Коньнік"/>
+  <string id="Western Muslim Light Lancer" text="Заходні Мусульманскі Лёгкі Вершнік"/>
+  <string id="Noble Western Muslim Lancer" text="Заходні Мусульманскі Шляхетны Улан"/>
+  <string id="Western Muslim Expert Javelineer" text="Заходні Мусульманскі Дасьведчаны Застрэльнік"/>
+  <string id="Western Muslim Javelin Cameleer" text="Заходні Мусульманскі Вярблюджы Застрэльнік"/>
+  <!--input/trooptrees/trooptrees_minor.xml-->
+  <string id="Genoese Crossbowman" text="Генуэскі Арбалетнік"/>
+  <string id="Genoese Veteran Crossbowman" text="Генуэскі Арбалетнік-Ветэран"/>
+  <string id="Genoese Sergeant Crossbowman" text="Генуэскі Арбалетнік-Сяржант"/>
+  <string id="Cuman Rider" text="Палавецкі Наезьнік"/>
+  <string id="Cuman Lancer" text="Палавецкі Улан"/>
+  <string id="Cuman Bek" text="Палавецкі Бек"/>
+  <string id="Initiate of Santiago" text="Пасьвечаны Сант’яга"/>
+  <string id="Squire of Santiago" text="Зброянос Сант’яга"/>
+  <string id="Knight of Santiago" text="Рыцар Сант’яга"/>
+  <string id="Grand Knight of Santiago" text="Гранд Рыцар Сант’яга"/>
+  <string id="Leper Brother" text="Пракажоны Брат"/>
+  <string id="Squire of Lazarus" text="Зброянос Лазара"/>
+  <string id="Knight of Lazarus" text="Рыцар Лазара"/>
+  <string id="Grand Knight of Lazarus" text="Гранд Рыцар Лазара"/>
+  <string id="templar Initiate" text="Тампліер-Ініцыянт"/>
+  <string id="templar Crossbowman" text="Тампліер-Арбалетнік"/>
+  <string id="Sámi Tribesman" text="Саамскі Супляменьнік"/>
+  <string id="Sámi Warrior" text="Саамскі Ваяр"/>
+  <string id="Sámi Chieftain" text="Саамскі Правадыр"/>
+  <string id="Sámi Hunter" text="Саамскі Паляўнічы"/>
+  <string id="Sámi Ranger" text="Саамскі Сьледапыт"/>
+  <string id="Credente" text="Крэдэнт"/>
+  <string id="Perfectus" text="Пэрфектус"/>
+  <string id="Albigensian Knight" text="Альбігойскі Рыцар"/>
+  <string id="Protector of the Grail" text="Абаронца Грааля"/>
+  <string id="Fidayin" text="Фідай"/>
+  <string id="Hashishin" text="Хашышын"/>
+  <string id="Mujahid" text="Муджахід"/>
+  <string id="KnhpjA7Y" text="Колеман"/>
+  <string id="ghilmanUnit" text="Гхільман"/>
+  <string id="7EUhAv8b" text="Гхулам"/>
+  <string id="Hospitaller Initiate" text="Шпітальер-Пасьвечаны"/>
+  <string id="Brother-at-Arms" text="Збройны Брат"/>
+  <string id="Hospitaller Crossbowman" text="Шпітальер-Арбалетнік"/>
+  <string id="Hospitaller Arbalester" text="Шпітальер-Арбалестар"/>
+  <string id="Brother-Sergeant" text="Шпітальер Брат-Сяржант"/>
+  <string id="Brother-Squire" text="Шпітальер Брат-Зброянос"/>
+  <string id="Brother-Knight" text="Брат-Рыцар"/>
+  <string id="Brother-Knight-Captain" text="Брат-Рыцар-Капітан"/>
+  <string id="Almogavar" text="Альмогаварскі Лёгкі Пяхотнік"/>
+  <string id="Almogavar0" text="Альмогаварскі Старэйшы Застрэльнік"/>
+  <string id="Almogavar00" text="Альмогаварскі Застрэльнік-Ветэран"/>
+  <string id="Euro Mercenary Spearman" text="Еўрапейскі Найміт-Капійнік"/>
+  <string id="Euro Mercenary Guisarmer" text="Еўрапейскі Найміт-Гвізармар"/>
+  <string id="Euro Mercenary Crossbowman" text="Еўрапейскі Найміт-Арбалетнік"/>
+  <string id="Euro Mercenary Horseman" text="Еўрапейскі Найміт-Коньнік"/>
+  <string id="Scandinavian Mercenary Spearman" text="Скандынаўскі Найміт-Капійнік"/>
+  <string id="Scandinavian Mercenary Axeman" text="Скандынаўскі Найміт-Сякірнік"/>
+  <string id="Scandinavian Mercenary Archer" text="Скандынаўскі Найміт-Лучнік"/>
+  <string id="Scandinavian Mercenary Horseman" text="Скандынаўскі Найміт-Коньнік"/>
+  <string id="Outremer Genoese Crossbowman" text="Утрумэра-Генуэскі Арбалетнік"/>
+  <string id="Outremer Genoese Sharpshooter" text="Утрумэра-Генуэскі Трапны Стралок"/>
+  <string id="Turcopole Recruit" text="Туркапульскі Рэкрут"/>
+  <string id="Turcopole Light Horseman" text="Туркапульскі Лёгкі Коньнік"/>
+  <string id="Turcopole Archer" text="Туркапульскі Лучнік"/>
+  <string id="Turcopole Raider" text="Туркапульскі Налётнік"/>
+  <string id="Turcopole Flanker" text="Туркапульскі Флангавы"/>
+  <string id="Turcopole Lancer" text="Туркапульскі Улан"/>
+  <string id="Gaelic Mercenary Horseman" text="Гэльскі Найміт-Коньнік"/>
+  <string id="Mercenary Hobelar" text="Найміт-Хобелар"/>
+  <string id="Mercenary Hobelar Archer" text="Найміт-Хобелар-Лучнік"/>
+  <string id="Mercenary Hobelar Hunter" text="Найміт-Хобелар-Паляўнічы"/>
+  <string id="Master Mercenary Hobelar" text="Найміт-Хобелар-Майстар"/>
+  <string id="Kipchak Bowman" text="Кыпчаскі Стралок"/>
+  <string id="Kipchak Horseman" text="Кыпчаскі Коньнік"/>
+  <string id="Kipchak Heavy Horseman" text="Кыпчаскі Цяжкі Коньнік"/>
+  <string id="Manhunter" text="Паляўнічы за Людзьмі"/>
+  <string id="Headhunter" text="Паляўнічы за Галавамі"/>
+  <string id="Manhunter Chief" text="Верхавод Паляўнічых за Людзьмі"/>
+  <string id="Welsh Bowman" text="Ўэльскі Стралок"/>
+  <string id="Welsh Veteran Bowman" text="Ўэльскі Стралок-Ветэран"/>
+  <string id="Welsh Marskman" text="Ўэльскі Трапнастрэл"/>
+  <string id="Balkan Mercenary Spearman" text="Балканскі Найміт-Капійнік"/>
+  <string id="Veteran Balkan Mercenary Spearman" text="Балканскі Найміт-Капійнік-Ветэран"/>
+  <string id="Elite Balkan Mercenary Spearman" text="Балканскі Элітны Найміт-Капійнік"/>
+  <string id="Mercenary Recruit" text="Балканскі Найміт-Гвізармар"/>
+  <string id="Veteran Balkan Mercenary Guisarmer" text="Балканскі Найміт-Гвізармар-Ветэран"/>
+  <string id="Elite Balkan Mercenary Guisarmer" text="Балканскі Элітны Найміт-Гвізармар"/>
+  <string id="Balkan Mercenary Archer" text="Балканскі Найміт-Лучнік"/>
+  <string id="Veteran Balkan Mercenary Archer" text="Балканскі Найміт-Лучнік-Ветэран"/>
+  <string id="Elite Balkan Mercenary Archer" text="Балканскі Элітны Найміт-Лучнік"/>
+  <string id="Varrangoi Guard" text="Вараскі Вартавы"/>
+  <string id="Varrangoi Serjeant" text="Вараскі Сяржант"/>
+  <string id="Varrangoi Captain" text="Вараскі Капітан"/>
+  <string id="Alan Mercenary Tribesman" text="Аланскі Найміт Супляменьнік"/>
+  <string id="Alan Mercenary Bowman" text="Аланскі Найміт Стралок"/>
+  <string id="Alan Mercenary Massagetoi" text="Алана-Масагецкі Найміт"/>
+  <string id="Rus Mercenary Spearman" text="Руські Найміт-Капійнік"/>
+  <string id="Veteran Rus Mercenary Spearman" text="Руські Найміт-Капійнік-Ветэран"/>
+  <string id="Elite Rus Mercenary Spearman" text="Руські Элітны Найміт-Капійнік"/>
+  <!--input/trooptrees/trooptrees_mongol_goldenhorde.xml-->
+  <string id="Steppe Tribesman" text="Стэпавы Супляменьнік"/>
+  <string id="Mongolian Rider" text="Мангольскі Наезьнік"/>
+  <string id="Mongolian Light Horseman" text="Мангольскі Лёгкі Коньнік"/>
+  <string id="Mongolian Light Lancer" text="Мангольскі Лёгкі Улан"/>
+  <string id="Mongolian Veteran Light Lancer" text="Мангольскі Лёгкі Улан-Ветэран"/>
+  <string id="Mongolian Heavy Lancer" text="Мангольскі Цяжкі Улан"/>
+  <string id="Mongolian Light Archer" text="Мангольскі Лёгкі Лучнік"/>
+  <string id="Mongolian Light Raider" text="Мангольскі Лёгкі Налётнік"/>
+  <string id="Dismounted Mongolian Archer" text="Мангольскі Пешы Лучнік"/>
+  <string id="Mongolian Armored Archer" text="Мангольскі Узброены Лучнік"/>
+  <string id="Mongolian Horde Raider" text="Мангольскі Налётнік Арды"/>
+  <string id="Mongolian Medium Raider" text="Мангольскі Сярэдні Налётнік"/>
+  <!--input/trooptrees/trooptrees_norway.xml-->
+  <string id="Norwegian Raised Levy" text="Нарвескі Рушэнны"/>
+  <string id="Norwegian Drilled Spearman" text="Нарвескі Капійнік-Сьвідравальнк"/>
+  <string id="Norwegian Hirdman" text="Нарвескі Хірдман"/>
+  <string id="Norwegian Senior Hirdman" text="Нарвескі Старэйшы Хірдман"/>
+  <string id="Norwegian Hird Veteran" text="Нарвескі Хірд-Ветэран"/>
+  <string id="Norwegian Axe Hirdman" text="Нарвескі Сякірны Хірдман"/>
+  <string id="Norwegian Hirdman Axe-bearer" text="Нарвескі Хірдман Носьбіт Сякеры"/>
+  <string id="Norwegian Huntsman" text="Нарвескі Паляўнічы"/>
+  <string id="Norwegian Lesser Archer" text="Нарвескі Малодшы Лучнік"/>
+  <string id="Norwegian Archer" text="Нарвескі Лучнік"/>
+  <string id="Norwegian Veteran Archer" text="Нарвескі Лучнік-Ветэран"/>
+  <string id="Norwegian Crossbowman" text="Нарвескі Арбалетнік"/>
+  <string id="Norwegian Veteran Crossbowman" text="Нарвескі Арбалетнік-Ветэран"/>
+  <string id="Norwegian Young Noble" text="Нарвескі Шляхетны Маладзён"/>
+  <string id="Norwegian Housecarl" text="Нарвескі Хускарл"/>
+  <string id="Norwegian Senior Housecarl" text="Нарвескі Старэйшы Хускарл"/>
+  <string id="Norwegian Svein" text="Нарвескі Свайн"/>
+  <string id="Norwegian Man-at-arms" text="Нарвескі Збройны Чын"/>
+  <string id="Norwegian Knight" text="Нарвескі Рыцар"/>
+  <!--input/trooptrees/trooptrees_persian.xml-->
+  <string id="persian_persian_kuttabi.name" text="Куттабі"/>
+  <string id="persian_persian_ghulam_spearman.name" text="Персіцкі Гхулам-Капійнік"/>
+  <string id="persian_persian_veteran_ghulam_spearman.name" text="Персіцкі Гхулам-Капійнік-Ветэран"/>
+  <string id="persian_persian_at_thaqal_ghulam.name" text="Персіцкі Гхулам Ат-Такал"/>
+  <string id="persian_persian_pushan_dar_ghulam.name" text="Персіцкі Гхулам Пушан-Дар"/>
+  <string id="persian_persian_tabardaran_ghulam.name" text="Персіцкі Гхулам Табардаран"/>
+  <string id="persian_persian_ghulam_archer.name" text="Персіцкі Гхулам-Лучнік"/>
+  <string id="persian_persian_veteran_ghulam_archer.name" text="Персіцкі Гхулам-Лучнік-Ветэран"/>
+  <string id="persian_persian_trikash_band_ghulam.name" text="Персіцкі Гхулам Трыкаш-Банд"/>
+  <string id="persian_persian_charkh_ghulam.name" text="Персіцкі Гхулам Чарх"/>
+  <string id="persian_persian_ghulam_conscript.name" text="Персіцкі Гхулам-Заклічнік"/>
+  <string id="persian_persian_ghulam_horse_archer.name" text="Персіцкі Гхулам Конны Лучнік"/>
+  <string id="persian_persian_veteran_ghulam_horse_archer.name" text="Персіцкі Гхулам Конны Лучнік-Ветэран"/>
+  <string id="persian_persian_ghulam_lancer.name" text="Персіцкі Гхулам-Улан"/>
+  <string id="persian_persian_veteran_ghulam_lancer.name" text="Персіцкі Гхулам-Улан-Ветэран"/>
+  <!--input/trooptrees/trooptrees_poland_khuzait.xml-->
+  <string id="Polish Levy Peasant" text="Польскі Рушэнны Просты Чалавек"/>
+  <string id="Polish Levy Spearman" text="Польскі Рушэнны Капійнік"/>
+  <string id="Polish Spearman" text="Польскі Капійнік"/>
+  <string id="Polish Senior Spearman" text="Польскі Старэйшы Капійнік"/>
+  <string id="Polish Armoured Spearman" text="Польскі Браняваны Капійнік"/>
+  <string id="Polish Levy Axeman" text="Польскі Рушэнны Сякірнік"/>
+  <string id="Polish Axeman" text="Польскі Сякірнік"/>
+  <string id="Polish Veteran Axeman" text="Польскі Сякірнік-Ветэран"/>
+  <string id="Polish Serjeant Axeman" text="Польскі Сякірнік-Сяржант"/>
+  <string id="Polish Levy Infantry" text="Польскі Рушэнны Пяхотнік"/>
+  <string id="Polish Infantry" text="Польскі Пяхотнік"/>
+  <string id="Polish Senior Infantry" text="Польскі Старэйшы Пяхотнік"/>
+  <string id="Polish Veteran Infantry" text="Польскі Пяхотнік-Ветэран"/>
+  <string id="Polish Huntsman" text="Польскі Паляўнічы"/>
+  <string id="Polish Levy Archer" text="Польскі Рушэнны Лучнік"/>
+  <string id="Polish Archer" text="Польскі Лучнік"/>
+  <string id="Polish Veteran Archer" text="Польскі Лучнік-Ветэран"/>
+  <string id="Polish Levy Crossbowman" text="Польскі Рушэнны Арбалетнік"/>
+  <string id="Polish Crossbowman" text="Польскі Арбалетнік"/>
+  <string id="Polish Strzelcy" text="Польскі Стрэлец"/>
+  <string id="Polish Mounted Serjeant" text="Польскі Конны Сяржант"/>
+  <string id="Polish Squire" text="Польскі Зброянос"/>
+  <string id="Polish Lesser Knight" text="Польскі Малодшы Рыцар"/>
+  <!--input/trooptrees/trooptrees_portugal.xml-->
+  <string id="Portuguese Levied Peasant" text="Партугальскі Рушэнны Просты Чалавек"/>
+  <string id="Portuguese Levy Spearman" text="Партугальскі Рушэнны Капійнік"/>
+  <string id="Portuguese Spearman" text="Партугальскі Капійнік"/>
+  <string id="Portuguese Senior Spearman" text="Партугальскі Старэйшы Капійнік"/>
+  <string id="Portuguese Sergeant Spearman" text="Партугальскі Капійнік-Сяржант"/>
+  <string id="Portuguese Levy Infantry" text="Партугальскі Рушэнны Пяхотнік"/>
+  <string id="Portuguese Infantry" text="Партугальскі Пяхотнік"/>
+  <string id="Portuguese Senior Infantry" text="Партугальскі Старэйшы Пяхотнік"/>
+  <string id="Portuguese Heavy Infantry" text="Партугальскі Цяжкі Пяхотнік"/>
+  <string id="Portuguese Levy Crossbowman" text="Партугальскі Рушэнны Арбалетнік"/>
+  <string id="Portuguese Crossbowman" text="Партугальскі Арбалетнік"/>
+  <string id="Portuguese Senior Crossbowman" text="Партугальскі Старэйшы Арбалетнік"/>
+  <string id="Portuguese Veteran Crossbowman" text="Партугальскі Арбалетнік-Ветэран"/>
+  <string id="Portuguese Skirmisher" text="Партугальскі Застрэльнік"/>
+  <string id="Portuguese Senior Skirmisher" text="Партугальскі Старэйшы Застрэльнік"/>
+  <string id="Portuguese Veteran Skirmisher" text="Партугальскі Застрэльнік-Ветэран"/>
+  <string id="Portuguese Horseman" text="Партугальскі Коньнік"/>
+  <string id="Portuguese Squire" text="Партугальскі Зброянос"/>
+  <string id="Portuguese Lesser Knight" text="Партугальскі Малодшы Рыцар"/>
+  <string id="Portuguese Knight" text="Партугальскі Рыцар"/>
+  <!--input/trooptrees/trooptrees_rus.xml-->
+  <string id="rus_polk" text="Руські Сьмерд"/>
+  <!--input/trooptrees/trooptrees_scotland.xml-->
+  <string id="Scottish Levy Archer" text="Шатландзкі Рушэнны Лучнік"/>
+  <string id="Scottish Archer" text="Шатландзкі Лучнік"/>
+  <string id="Scottish Senior Archer" text="Шатландзкі Старэйшы Лучнік"/>
+  <string id="Scottish Expert Archer" text="Шатландзкі Дасьведчаны Лучнік"/>
+  <string id="Scottish Levied Peasant" text="Шатландзкі Рушэнны Просты Чалавек"/>
+  <string id="Scottish Levy Pikeman" text="Шатландзкі Рушэнны Пікінёр"/>
+  <string id="Scottish Pikeman" text="Шатландзкі Пікінёр"/>
+  <string id="Scottish Veteran Pikeman" text="Шатландзкі Пікінёр-Ветэран"/>
+  <string id="Scottish Heavy Pikeman" text="Шатландзкі Цяжкі Пікінёр"/>
+  <string id="Scottish Levy Billman" text="Шатландзкі Рушэнны Більман"/>
+  <string id="Scottish Billman" text="Шатландзкі Більман"/>
+  <string id="Scottish Veteran Billman" text="Шатландзкі Більман-Ветэран"/>
+  <string id="Scottish Armoured Billman" text="Шатландзкі Браняваны Більман"/>
+  <string id="Scottish Lowlander" text="Шатландзкі Нізінны"/>
+  <string id="Scottish Armored Swordsman" text="Шатландзкі Браняваны Мечнік"/>
+  <string id="Scottish Armored Axeman" text="Шатландзкі Браняваны Сякірнік"/>
+  <string id="Scottish Highlander" text="Шатландзкі Горны"/>
+  <string id="Scottish Rider" text="Шатландзкі Наезьнік"/>
+  <string id="Scottish Man-at-arms" text="Шатландзкі Збройны Чын"/>
+  <string id="Scottish Squire" text="Шатландзкі Зброянос"/>
+  <string id="Scottish Knight" text="Шатландзкі Рыцар"/>
+  <string id="Scottish Light Horseman" text="Шатландзкі Лёгкі Коньнік"/>
+  <string id="Scottish Hobelar" text="Шатландзкі Хобелар"/>
+  <!--input/trooptrees/trooptrees_seljuk.xml-->
+  <string id="Anatolian Levied Peasant" text="Анаталійскі Рушэнны Просты Чалавек"/>
+  <string id="Anatolian Lesser Footman" text="Анаталійскі Малодшы Пяхотнік"/>
+  <string id="Anatolian Lesser Archer" text="Анаталійскі Малодшы Лучнік"/>
+  <string id="Anatolian Senior Archer" text="Анаталійскі Старэйшы Лучнік"/>
+  <string id="Anatolian Horse Archer" text="Анаталійскі Конны Лучнік"/>
+  <string id="Anatolian Veteran Horse Archer" text="Анаталійскі Конны Лучнік-Ветэран"/>
+  <string id="Anatolian Hill Raider" text="Анаталійскі Горны Налётнік"/>
+  <string id="Anatolian Veteran Archer" text="Анаталійскі Лучнік-Ветэран"/>
+  <string id="Anatolian Expert Archer" text="Анаталійскі Дасьведчаны Лучнік"/>
+  <string id="Anatolian Lesser Spearman" text="Анаталійскі Малодшы Капійнік"/>
+  <string id="Anatolian Hillman" text="Анаталійскі Горнік"/>
+  <string id="Anatolian Hillman Skirmisher" text="Анаталійскі Горнік-Застрэльнік"/>
+  <string id="Anatolian Senior Spearman" text="Анаталійскі Старэйшы Капійнік"/>
+  <string id="Anatolian Heavy Infantryman" text="Анаталійскі Цяжкі Пяхотнік"/>
+  <string id="Anatolian Light Horseman" text="Анаталійскі Лёгкі Коньнік"/>
+  <string id="Anatolian Light Lancer" text="Анаталійскі Лёгкі Улан"/>
+  <string id="Ghulam Light Cavalryman" text="Гхулам Лёгкі Вершнік"/>
+  <string id="Ghulam Retainer Lancer" text="Гхулам Васальны Улан"/>
+  <string id="Ghulam Imperial Lancer" text="Гхулам Імперскі Улан"/>
+  <string id="Anatolian Senior Light Lancer" text="Анаталійскі Старэйшы Лёгкі Улан"/>
+  <!--input/trooptrees/trooptrees_sicily_empire.xml-->
+  <string id="Italian Guastatore" text="Італьянскі Гуастаторэ"/>
+  <string id="Italian Fante a Tavolaccio" text="Італьянскі Фантэ а Таволаччо"/>
+  <string id="Italian Pavesario" text="Італьянскі Павезарыё"/>
+  <string id="Italian Veteran Guisarmer" text="Італьянскі Сэрраджэнтэ Павезарыё"/>
+  <string id="Italian Pavesario da Compagna" text="Італьянскі Павезарыё да Компанья"/>
+  <string id="Italian Fante a Falcione" text="Італьянскі Фантэ а Фалчёнэ"/>
+  <string id="Italian Guisarmer" text="Італьянскі Гўізармер"/>
+  <string id="Italian Falcioniere Armato" text="Італьянскі Фальчьён'ерэ Армато"/>
+  <string id="Italian Levy Pikeman" text="Італьянскі Рушэнны Пікінёр"/>
+  <string id="Italian Pikeman" text="Італьянскі Пікінёр"/>
+  <string id="Italian Serragente Picchiero" text="Італьянскі Сэрраджэнтэ Піккейро"/>
+  <string id="Italian Picchiero da Compagna" text="Італьянскі Піккейро да Компанья"/>
+  <string id="Italian Fante Leggero" text="Італьянскі Фантэ Леджэро"/>
+  <string id="Italian Berroviere Pediti" text="Італьянскі Берровьерэ Педыты"/>
+  <string id="Italian Scudiero a Piedi" text="Італьянскі Скуд'еро а Пьеды"/>
+  <string id="Italian Dismounted Knight" text="Італьянскі Пешы Рыцар"/>
+  <string id="Italian Levied Bowman" text="Італьянскі Рушэнны Стралок"/>
+  <string id="Italian Recruit Archer" text="Італьянскі Лучнік-Рэкрут"/>
+  <string id="Italian Trained Archer" text="Італьянскі Падрыхтаваны Лучнік"/>
+  <string id="Italian Veteran Archer" text="Італьянскі Лучнік-Ветэран"/>
+  <string id="Italian Recruit Crossbowman" text="Італьянскі Арбалетнік-Рэкрут"/>
+  <string id="Italian Trained Crossbowman" text="Італьянскі Падрыхтаваны Арбалетнік"/>
+  <string id="Italian Veteran Crossbowman" text="Італьянскі Арбалетнік-Ветэран"/>
+  <string id="Italian Master Crossbowman" text="Італьянскі Арбалетнік-Майстар"/>
+  <string id="Italian Berroviere a Cavallo" text="Італьянскі Берровьерэ а Кавалло"/>
+  <string id="Italian Scudiero" text="Італьянскі Скуд'еро"/>
+  <string id="Italian Mounted Crossbowman" text="Італьянскі Конны Арбалетнік"/>
+  <string id="Italian Senior Mounted Crossbowman" text="Італьянскі Старэйшы Конны Арбалетнік"/>
+  <string id="Italian Lesser Knight" text="Італьянскі Малодшы Рыцар"/>
+  <string id="Italian Knight" text="Італьянскі Рыцар"/>
+  <!--input/trooptrees/trooptrees_sweden_sturgia.xml-->
+  <string id="Swedish Recruit Footman" text="Швецкі Заклічны Прыгонны"/>
+  <string id="Swedish Spearman" text="Швецкі Капійнік"/>
+  <string id="Swedish Axeman" text="Швецкі Сякірнік"/>
+  <string id="Swedish Experienced Axeman" text="Швецкі Спрактыкаваны Сякірнік"/>
+  <string id="Swedish Armored Axeman" text="Швецкі Узброены Сякірнік"/>
+  <string id="Swedish Experienced Spearman" text="Швецкі Спрактыкаваны Капійнік"/>
+  <string id="Swedish Armored Spearman" text="Швецкі Узброены Капійнік"/>
+  <string id="Swedish Villager Huntsman" text="Швецкі Вясковы Паляўнічы"/>
+  <string id="Swedish Trained Huntsman" text="Швецкі Падрыхтаваны Паляўнічы"/>
+  <string id="Swedish Bowman" text="Швецкі Стралок"/>
+  <string id="Swedish Crossbowman" text="Швецкі Арбалетнік"/>
+  <string id="Swedish Armored Crossbowman" text="Швецкі Узброены Арбалетнік"/>
+  <string id="Swedish Expert Bowman" text="Швецкі Дасьведчаны Стралок"/>
+  <string id="Swedish Horseman" text="Швецкі Коньнік"/>
+  <string id="Swedish Squire" text="Швецкі Зброянос"/>
+  <string id="Swedish Knight" text="Швецкі Рыцар"/>
+  <string id="Swedish Baron" text="Швецкі Барон"/>
+ </strings>
+</base>
