@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <string id="str_tor_cc_growth.battania.text" text="You spent most of your life venerating one of the Asrai deities..."/>
+  <string id="str_tor_cc_profession.battania.text" text="Choose your path..."/>
+  <string id="str_quest_tor_engineer.rogueEngineerParty.text" text="{ROGUE_ENGINEER_NAME}s Part Thieves"/>
+  <string id="str_quest_tor_engineer.rogueEngineerFirstTime.text" text="Vy majecie postać čałavieka, jaki nikoli nia bačyŭ ani hramu čornaha porachu, ani hary. Vy ŭ słušnym miescy?"/>
+  <string id="str_quest_tor_engineer.cultistDone.text" text="Voch, vy viarnulisia. Jakija naviny prynieśli?"/>
+  <string id="str_quest_tor_engineer.cultistInProgress.text" text="Viartajciesia, kali budziecie mieć naviny."/>
+  <string id="str_quest_tor_engineer.rogueEngineerFound.text" text="Vy znajšli {ROGUE_ENGINEER_NAME}?"/>
+  <string id="str_quest_tor_engineer.hubGreet.text" text="Iznoŭ vy, čaho žadajecie?"/>
+  <string id="str_quest_tor_engineer.hubPlayerCannons.text" text="Ja žadaju nabyć ryštunak."/>
+  <string id="str_quest_tor_engineer.hubPlayerEngineers.text" text="Ja žadaju rekrutavać inžynieraŭ."/>
+  <string id="str_quest_tor_engineer.hubPlayerCannonsInstruction.text" text="Jak ja mahu vykarystoŭvać harmaty?"/>
+  <string id="str_quest_tor_engineer.hubPlayerCannonsLimitInstruction.text" text="Jak ja mahu nabyć bolej harmat?"/>
+  <string id="str_quest_tor_engineer.hubPlayerLeave.text" text="Pakul ničoha, ja mušu iści."/>
+  <string id="str_quest_tor_engineer.playerReconsider.text" text="Ja pierahladzieŭ vašuju prapanovu, i žadaju dapamahčy."/>
+  <string id="str_quest_tor_engineer.playerGreet0.text" text="Vitaju Inžynier-Majstar, majo imia {PlAYERNAME}. Ja šukaju dostup da kuźniaŭ Nulna. Možacie dapamahčy?"/>
+  <string id="str_quest_tor_engineer.playerGreet1.text" text="Tak, ja. Ja {?PLAYER.GENDER}pryjšła{?}pryjšoŭ{\?} šukać dostup da zbroi čornaha porachu."/>
+  <string id="str_quest_tor_engineer.engineerSkillCheck.text" text="Cha! Vy nie padobnyja na čałavieka, jaki raźbirajecca ŭ našych ramiostvach. Što vam treba ad nas?"/>
+  <string id="str_quest_tor_engineer.engineerSkillCheckFailed.text" text="Ja zanadta zaniaty dziela hetaha, preč z maich vačej."/>
+  <string id="str_quest_tor_engineer.engineerSkillCheckPassed.text" text="Heta najmahutnaja zbroja Impieryi, jana nia raz strymlivała nacisk ciemry. My nie razdajom našyja vynachodstvy ŭsim, chto zojdzie da nas. Dy j vy nie zasłužyli našaha davieru."/>
+  <string id="str_quest_tor_engineer.cultistBriefing0.text" text="Ale my možam pryjści da ahulnaj uhody, isnuje ŭnutranaja sprava, jakaja patrabuje chutkaha vyrašeńnia, i ja nie mahu dziejničać. Kali vy dapamožycie nam, u jakaści asabistaj pasłuhi, ja pahladžu, što mahu zrabić dziela vas. Što skažycie?"/>
+  <string id="str_quest_tor_engineer.cultistBriefingPlayer.text" text="Što ja mušu zrabić?"/>
+  <string id="str_quest_tor_engineer.cultistBriefingDecline.text" text="Ja nia maju času na hetaje."/>
+  <string id="str_quest_tor_engineer.cultistBriefing1.text" text="Zvyčajna my nie prybiahajem da čužoj dapamohi, ale nam brakuje srodkaŭ. Z kuźniaŭ Nulna byli skradzienyja važnyja kampanienty, i ich treba viarnuć. Nieadkładna. Kali vy zmožacie vysačyć hetych uciekačoŭ i znajści častki, my zmožam pahavaryć dalej."/>
+  <string id="str_quest_tor_engineer.rogueEngineerBriefingPlayerAccept0.text" text="Zmahu, ale kali našaja ŭhoda zastaniecca raniejšaj. Ja znajdu ich dziela vas, a vy naŭzamien zabiaśpiečycie mnie dostup da kuźniaŭ Nulna."/>
+  <string id="str_quest_tor_engineer.rogueEngineerBriefingPlayerAccept1.text" text="Kali heta adziny šlach atrymańnia dostupa da kuźniaŭ, niachaj budzie tak. Ja pryniasu ichnija hałovy."/>
+  <string id="str_quest_tor_engineer.rogueEngineerBriefingPlayerDecline0.text" text="Bajusia, nie, ja maju inšyja spravy."/>
+  <string id="str_quest_tor_engineer.rogueEngineerBriefingEnd.text" text="Tady damovilisia, miarkuju, ja viedaju ichniaje miescavańnie. Ja adznaču jaho na vašaj mapie, niachaj Zihmar nakiruje ciabie, {?PLAYER.GENDER}čužynka{?}čužyniec{\?}."/>
+  <string id="str_quest_tor_engineer.cultistPlayerAccept0.text" text="Ja razumieju, viarnusia, kali budu mieć naviny."/>
+  <string id="str_quest_tor_engineer.cultistPlayerAccept1.text" text="Heta ŭsio, što dla hetaha treba. Hučyć dosyć lohka."/>
+  <string id="str_quest_tor_engineer.cultistPlayerDecline.text" text="Ja nia maju času dla hetaha."/>
+  <string id="str_quest_tor_engineer.cultistReactionPositive.text" text="Fajna, čakaju stanoŭčych vynikaŭ i chutkaha viartańnia."/>
+  <string id="str_quest_tor_engineer.cultistReactionNegative.text" text="Kryŭdna, padumajcie znoŭ i viartajciesia, kali źmienicie dumku."/>
+  <string id="str_quest_tor_engineer.questFail.text" text="Na žal, ja {?PLAYER.GENDER}nie zmahła{?}nia zmoh{\?} prynieści zapytanaje vami."/>
+  <string id="str_quest_tor_engineer.questFailAnswer.text" text="Ccc, ja čakaŭ lepšaha. Mahčyma, jašče majecca čas, i vy zmožacie adsačyć ich, kali budziecie {?PLAYER.GENDER}imklivaj{?}imklivym{\?}."/>
+  <string id="str_quest_tor_engineer.questRepeat.text" text="Ja nie rasčaruju vas u druhi raz."/>
+  <string id="str_quest_tor_engineer.questGiveup.text" text="Na žal, ja nie mahu zrabić hetaje zaraz."/>
+  <string id="str_quest_tor_engineer.cultistReturn0.text" text="Ja viarnuŭsia, ale biez skradzienych kampanientaŭ, bajusia skazać, ale jany dahetul stračanyja."/>
+  <string id="str_quest_tor_engineer.cultistReturn1.text" text="Razumieju, heta nie toje, na što ja spadziavaŭsia. Ci byli jašče niejkija začepki, ci dapytvali vy hetych niahodnikaŭ?"/>
+  <string id="str_quest_tor_engineer.cultistReturn2.text" text="Adzin z bandytaŭ nazvaŭ imia, zdajecca {ROGUE_ENGINEER_NAME}?"/>
+  <string id="str_quest_tor_engineer.cultistReturn3.text" text="Viadoma! Kali vy zhodnyja, ja znoŭ zapytaju vašuju dapamohu. Sprava moža apynucca bolš surjoznaj, čym ja mierkavaŭ. {ROGUE_ENGINEER_NAME} - inžynier, prytym dobry, ale jaho pracy zaŭždy zdavalisia... chibnymi."/>
+  <string id="str_quest_tor_engineer.rogueEngineerQuestStart.text" text="Kali jon skraŭ hetyja častki, to tolki dla niečaha žudasnaha. Ja vinien prasić vas adšukać jaho i spynić varjactva, jakoje jon sprabuje prydumać. Vy zrobicie hetaje?
+  
+  
+  "/>
+  <string id="str_quest_tor_engineer.cultistInProgressPlayer.text" text="Spačatku ja mušu adsačyć uciekačoŭ."/>
+  <string id="str_quest_tor_engineer.cultistInProgressAnswer.text" text="Zrazumieła, viartajciesia da mianie, kali budziecie mieć štości karysnaje."/>
+  <string id="str_quest_tor_engineer.rogueEngineerHandIn.text" text="{ROGUE_ENGINEER_NAME} bolej nia budzie prablemaj, i ja viarnuŭ skradzienaje. Ja nia viedaju, što jon žadaŭ ź imi zrabić."/>
+  <string id="str_quest_tor_engineer.rogueEngineerDebrief.text" text="Heta nia maje značeńnia, biez sumnievu, toje było čymści pierakručanym. Ja mušu adziakavać vas za vašyja vysiłki i vašuju abačlivaść. Jak i było abumoŭlena, zaraz vy majecie dostup da našych liciejniaŭ i možacie zamović usio pažadanaje."/>
+  <string id="str_quest_tor_engineer.hubEntry.text" text="Dyk, što vam treba?"/>
+  <string id="str_quest_tor_engineer.rogueEngineerInProgressPlayer.text" text="Ja dahetul adsočvaju jaho."/>
+  <string id="str_quest_tor_engineer.rogueEngineerInProgressAnswer.text" text="Zrazumieła, viartajciesia da mianie, kali budziecie mieć lepšyja naviny."/>
+  <string id="str_quest_tor_engineer.openShop.text" text="Viadoma, u vas vy znojdziecie tolki najlepšaje z kuźniaŭ Nulna!"/>
+  <string id="str_quest_tor_engineer.closeShop.text" text="Što jašče ja mahu zrabić dziela vas?"/>
+  <string id="str_quest_tor_engineer.hireEngineers.text" text="Dvoje našych inžynieraŭ-navikoŭ hatovyja dałučycca da vas za adpaviedny košt ({RECRUITMENT_PRICE})."/>
+  <string id="str_quest_tor_engineer.hireEngineersAccept.text" text="Sardečna zaprašajem na bort."/>
+  <string id="str_quest_tor_engineer.hireEngineersNotEnoughMoney.text" text="Zaraz mnie brakuje hrošaŭ na ich."/>
+  <string id="str_quest_tor_engineer.hireEngineersDecline.text" text="Kali padumać, to, mahčyma, paźniej."/>
+  <string id="str_quest_tor_engineer.CannonsLimitInstruction0.text" text="Kab nabyć harmaty vy musicie słužyć Impierskamu Hrafu-Elektaru."/>
+  <string id="str_quest_tor_engineer.CannonsLimitInstruction1.text" text="Kolkaść harmat, jakuju moža mieć vašaje palavoje vojska, pavialičvajecca za kožnyja 50 roŭniej navyka Inžynieryja."/>
+  <string id="str_quest_tor_engineer.CannonsLimitInstruction2.text" text="Kali vy adpaviadajecie hetym patrabavańniam, prosta pahavarycie sa mnoj, i ja pakažu, što maju."/>
+  <string id="str_quest_tor_engineer.CannonsUse0.text" text="Harmaty ŭstaloŭvajucca z dapamohaj Režyma vykarystańnia zaklonaŭ, ale dla stralby z harmat patrebna naniać prynamsi dvuch artylerystaŭ."/>
+  <string id="str_quest_tor_engineer.CannonsUse1.text" text="Taksama patrebna pierakanacca, što harmata znachodzicca ŭva invientary partyi."/>
+  <string id="str_quest_tor_engineer.CannonsUse2.text" text="Inžyniery i Artylerysty mohuć stralać z harmataŭ."/>
+  <string id="str_quest_tor_engineer.cultistEncounter.text" text="{ROGUE_ENGINEER_NAME} byŭ pravy, jany dasłali kahości pa nas! Chutka chapajcie zbroju!"/>
+  <string id="str_quest_tor_engineer.cultistEncounterPlayer0.text" text="Pačakajcie, ja prosta pryjšoŭ za skradzienymi častkami, niama patreby lić kroŭ. Moža damovimsia?"/>
+  <string id="str_quest_tor_engineer.cultistEncounterPlayer1.text" text="Kidajcie svaju zbroju, i ja paškaduju vašyja žyćci."/>
+  <string id="str_quest_tor_engineer.cultistEncounterPlayer2.text" text="Sa zbrojaj ci nie, my źniščym vas usich i viarniom skradzienaje vami!"/>
+  <string id="str_quest_tor_engineer.cultistEncounterAnswer.text" text="Vy nie padmanicie nas! Jany buduć słužyć vialikaj mecie! Vy nie zabiarecie ich!"/>
+  <string id="str_quest_tor_engineer.rogueEngineerEncounter.text" text="Dyk, stary durań pasłaŭ ciabie za nami? Jak jon zrazumieŭ maje płany? Niavažna, ty nia budzieš stajać na šlachu maich stvareńniaŭ. Ty pamreš tut!"/>
+  <string id="str_quest_tor_engineer.rogueEngineerEncounterPlayerAfterBattleAnswer.text" text="Vašyja schiemy skončacca tut."/>
+  <string id="str_culture_rich_name.khuzait.text" text="Hrafstvy Vampiraŭ"/>
+  <string id="str_culture_rich_name.empire.text" text="Impieryja Ludziej"/>
+  <string id="str_culture_rich_name.vlandia.text" text="Bretońnija"/>
+  <string id="str_culture_rich_name.mousillon.text" text="Muziljon"/>
+  <string id="str_culture_rich_name.battania.text" text="Asrai"/>
+  <string id="str_culture_rich_name.eonir.text" text="Eonir"/>
+  <string id="str_culture_rich_name.chaos_culture.text" text="Chaos"/>
+  <string id="str_culture_description.khuzait.text" text="Hrafy-Vampiraŭ - vyradki, jakija nia majuć roŭnych. Jany imknucca zrynuć cyvilizacyju žyvych i pabudavać na jaje miescy impieryju Niežyci. Kožny vampir - unikalnaja i vieličnaja postać sa svajoj indyvidualnaściu, imknieńniami i ambicyjami. U adroźnieńni ad ich, ichnija pasłuhačy pakorliva padparadkoŭvajucca im: šerah za šeraham - patrapanyja i pakrytyja brudam trupy, viernutyja da žyćcia mocaj niekramantyi svaich vaładaroŭ."/>
+  <string id="str_culture_description.empire.text" text="Impieryja Ludziej - vieličeznaja čałaviečaja nacyja ŭ Starym Śviecie, jakaja viadzie štodzionnaje zmahańnie za vyžyvańnie. Vojski Impieryi, što ŭznačalvaje Karł Franc, śviedčać pra niepachisnuju dyscyplinu i daskanałaje bajavoje majsterstva. U śviecie, što pierapoŭnieny lutymi dzikunami i kryvažernymi pačvarami, Impieryja vyžyvaje dziakujučy znakamitaj dyscyplinie svaich vojskaŭ, vyvostranaj surovymi rychtoŭlami i ŭzmocnienaj niepachisnaj vieraj u Zihmara. Zjaŭlajučysia majakom čałavieckaj tryvałaści, sałdaty Impieryi słužać prykładam niaŭpynnaha ducha čałavieka, što pieramahaje siarod biaskoncych vorahaŭ."/>
+  <string id="str_culture_description.vlandia.text" text="Bretońskaje Karaleŭstva - kraj, słavuty mahutnymi rycarami i ichnim silnym pačyćciom rycarstva. Čaradziejka Fej i Cnatliŭki Łedzi ŭznačalvajuć pracavitych pryhonnych i šlachietnych łordaŭ, što baraniać lud ad šmatlikich niebiaśpiekaŭ, pahražajučych ich žyćciam. Padčas vajny ŭsio karaleŭstva moža abjadnacca i adpravicca ŭ kryžovy pachod suprać vorahaŭ pad čałom Karala Łua Lionkiora, jakoha dahetul nia zmoh pieramahčy nivodny vorah."/>
+  <string id="str_culture_description.mousillon.text" text="Muziljon, praklataje vaładarstva, źmiescavanaje ŭ samym sercy Bretońnii, što adkidvaje zmročnuju i złaviesnuju cieniu na ziemlu. Niekali hanarlivaje hiercahstva, zaraz słužyć panurym śviedkam razbeščanaści, što chavajecca ŭ cieni. Heta panstva bahnaŭ i zaraśnikaŭ, jakoje ŭznačalvaje Źmiej Muziljona, mocna kantrastuje ź jaskravym nastrojem šlachietnaj Bretońnii. Jašče bolš trahična i tryvožna vyhladaje mutavaŭšaje pryhońnictva, jakim kirujuć nie šlachietnyja rycary, a sapsavanaja niežyć, čornyja rycary, jakija zjaŭlajucca pałochajučaj dušu miešaninaj tradycyjnaj Bretońskaj vajarskaj advahi i niačystaj mocy."/>
+  <string id="str_culture_description.battania.text" text="The Asrai are the elvish inhabitants of Athel Loren; they are a suspicious, isolationist and savage kin who live their lives surrounded by the nature of Athel Loren. Their magical forest home is as dangerous as it is beautiful, and its unforgiving nature has sharpened the skills of its people to a razers edge. The Asrai live under the teachings of Isha and Kurnous as hunters and warriors defending the Weave and natural world, but darker voices ever seek to tempt them to slaughter and mayhem."/>
+  <string id="str_culture_description.eonir.text" text="Between Nordland and the Wasteland lies the forest of Laurelorn and its inhabitants, the proud Eonir. They refused to flee the Old World with the rest of their kin and instead stood against and defeated the dwarfish advance on their forest. The Eonir live in a caste society split between the city and forest kin, and maintain their security through careful diplomacy; both with their neighbours and factions as far abroad as the Asur and the Druchii. Their governance works through layers of councils to promote a level of democracy. When the time for battle comes Eonir call on everything from the darkest magic to the purest spirits of the forest to ensure the safety of their home."/>
+  <string id="str_culture_description.chaos_culture.text" text="No one truly knows the origin of Chaos in the mortal world. Even the long-lived scholars of the High Elves can only speculate as to where the forces of Chaos first originated. War, famine, natural disaster and the destroyer known as time have eroded away nearly all indications of the roots of Chaos."/>
+  <string id="str_faction_official.empire.text" text="hraf"/>
+  <string id="str_faction_official.empire_f.text" text="hrafinia"/>
+  <string id="str_faction_ruler.empire.text" text="Hraf-Elektar"/>
+  <string id="str_faction_ruler.empire_f.text" text="Hrafinia-Elektar"/>
+  <string id="str_faction_official.khuzait.text" text="łord"/>
+  <string id="str_faction_official.khuzait_f.text" text="łedzi"/>
+  <string id="str_faction_ruler.khuzait.text" text="Vampir-Łord"/>
+  <string id="str_faction_ruler.khuzait_f.text" text="Vampir-Łedzi"/>
+  <string id="str_faction_official.vlandia.text" text="łord"/>
+  <string id="str_faction_official.vlandia_f.text" text="łedzi"/>
+  <string id="str_faction_ruler.vlandia.text" text="Hiercah"/>
+  <string id="str_faction_ruler.vlandia_f.text" text="Hiercahinia"/>
+  <string id="str_faction_official.mousillon.text" text="łord"/>
+  <string id="str_faction_official.mousillon_f.text" text="łedzi"/>
+  <string id="str_faction_ruler.mousillon.text" text="Hiercah"/>
+  <string id="str_faction_ruler.mousillon_f.text" text="Hiercahinia"/>
+  <string id="str_faction_official.battania.text" text="łord"/>
+  <string id="str_faction_official.battania_f.text" text="łedzi"/>
+  <string id="str_faction_ruler.battania.text" text="Highborn"/>
+  <string id="str_faction_ruler.battania_f.text" text="Highborn"/>
+  <string id="str_faction_ruler.eonir.text" text="Highborn"/>
+  <string id="str_faction_ruler.eonir_f.text" text="Highborn"/>
+  <string id="str_faction_official.eonir.text" text="łord"/>
+  <string id="str_faction_official.eonir_f.text" text="łedzi"/>
+  <string id="str_faction_ruler.chaos_culture.text" text="Chaos Lord"/>
+  <string id="str_faction_ruler.chaos_culture_f.text" text="Chaos Lord"/>
+  <string id="str_faction_official.chaos_culture.text" text="chaos lord"/>
+  <string id="str_faction_official.chaos_culture_f.text" text="chaos lord"/>
+  <string id="str_faction_ruler_term_in_speech.empire.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.khuzait.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.vlandia.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.mousillon.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.battania.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.eonir.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.chaos_culture.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.empire.text" text="{RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.empire.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.khuzait.text" text="{RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.khuzait.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.vlandia.text" text="{RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.vlandia.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.mousillon.text" text="{RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.mousillon.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.battania.text" text="{RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.battania.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.eonir.text" text="{RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.eonir.text" text="{RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.chaos_culture.text" text="{RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.chaos_culture.text" text="{RULER.NAME}"/>
+  <string id="str_adjective_for_faction.averland.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.stirland.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.wissenland.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.talabecland.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.reikland.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.middenland.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.ostermark.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.hochland.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.nordland.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.ostland.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.wasteland.text" text="Impierskaja"/>
+  <string id="str_adjective_for_faction.couronne.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.anguille.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.lyonesse.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.artois.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.gisoreux.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.parravon.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.montfort.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.bastonne.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.bordeleaux.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.carcassonne.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.aquitaine.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.brionne.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.quenelles.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_faction.moot.text" text="Paŭrośliki"/>
+  <string id="str_adjective_for_faction.mousillon.text" text="Muziljonskaja"/>
+  <string id="str_adjective_for_faction.sylvania.text" text="Silvanija"/>
+  <string id="str_adjective_for_faction.blooddragons.text" text="Silvanija"/>
+  <string id="str_adjective_for_faction.athel_loren.text" text="asrai"/>
+  <string id="str_adjective_for_faction.laurelorn.text" text="eonir"/>
+  <string id="str_short_term_for_faction.averland.text" text="Avierland"/>
+  <string id="str_short_term_for_faction.stirland.text" text="Šcirland"/>
+  <string id="str_short_term_for_faction.wissenland.text" text="Vissenland"/>
+  <string id="str_short_term_for_faction.talabecland.text" text="Tałabekland"/>
+  <string id="str_short_term_for_faction.reikland.text" text="Rajkland"/>
+  <string id="str_short_term_for_faction.middenland.text" text="Middenland"/>
+  <string id="str_short_term_for_faction.ostermark.text" text="Ostermark"/>
+  <string id="str_short_term_for_faction.hochland.text" text="Hochland"/>
+  <string id="str_short_term_for_faction.nordland.text" text="Nordland"/>
+  <string id="str_short_term_for_faction.ostland.text" text="Ostland"/>
+  <string id="str_short_term_for_faction.wasteland.text" text="Wasteland"/>
+  <string id="str_short_term_for_faction.couronne.text" text="Couronne"/>
+  <string id="str_short_term_for_faction.anguille.text" text="LAnguille"/>
+  <string id="str_short_term_for_faction.lyonesse.text" text="Lyonesse"/>
+  <string id="str_short_term_for_faction.artois.text" text="Artois"/>
+  <string id="str_short_term_for_faction.gisoreux.text" text="Gisoreux"/>
+  <string id="str_short_term_for_faction.parravon.text" text="Parravon"/>
+  <string id="str_short_term_for_faction.montfort.text" text="Montfort"/>
+  <string id="str_short_term_for_faction.bastonne.text" text="Bastonne"/>
+  <string id="str_short_term_for_faction.bordeleaux.text" text="Bordeleaux"/>
+  <string id="str_short_term_for_faction.carcassonne.text" text="Carcassonne"/>
+  <string id="str_short_term_for_faction.aquitaine.text" text="Aquitaine"/>
+  <string id="str_short_term_for_faction.brionne.text" text="Brionne"/>
+  <string id="str_short_term_for_faction.quenelles.text" text="Quenelles"/>
+  <string id="str_short_term_for_faction.moot.text" text="Paŭrośliki"/>
+  <string id="str_short_term_for_faction.mousillon.text" text="Muziljon"/>
+  <string id="str_short_term_for_faction.sylvania.text" text="Silvanija"/>
+  <string id="str_short_term_for_faction.blooddragons.text" text="Silvanija"/>
+  <string id="str_short_term_for_faction.athel_loren.text" text="asrai"/>
+  <string id="str_short_term_for_faction.laurelorn.text" text="eonir"/>
+  <string id="str_faction_formal_name_for_culture.khuzait.text" text="Silvanija"/>
+  <string id="str_faction_formal_name_for_culture.empire.text" text="Impieryja"/>
+  <string id="str_faction_formal_name_for_culture.vlandia.text" text="Bretońnija"/>
+  <string id="str_faction_formal_name_for_culture.mousillon.text" text="Muziljon"/>
+  <string id="str_faction_formal_name_for_culture.battania.text" text="Athel Loren"/>
+  <string id="str_faction_formal_name_for_culture.eonir.text" text="Laurelorn Forest"/>
+  <string id="str_faction_formal_name_for_culture.chaos_culture.text" text="Forces of Chaos"/>
+  <string id="str_faction_informal_name_for_culture.khuzait.text" text="Silvanija"/>
+  <string id="str_faction_informal_name_for_culture.empire.text" text="Impieryja"/>
+  <string id="str_faction_informal_name_for_culture.vlandia.text" text="Bretońnija"/>
+  <string id="str_faction_informal_name_for_culture.mousillon.text" text="Muziljon"/>
+  <string id="str_faction_informal_name_for_culture.battania.text" text="Athel Loren"/>
+  <string id="str_faction_informal_name_for_culture.eonir.text" text="Laurelorn"/>
+  <string id="str_faction_informal_name_for_culture.chaos_culture.text" text="Chaos"/>
+  <string id="str_adjective_for_culture.khuzait.text" text="Silvanija"/>
+  <string id="str_adjective_for_culture.empire.text" text="Impierskaja"/>
+  <string id="str_adjective_for_culture.vlandia.text" text="Bretońskaja"/>
+  <string id="str_adjective_for_culture.mousillon.text" text="Muziljonskaja"/>
+  <string id="str_adjective_for_culture.battania.text" text="asrai"/>
+  <string id="str_adjective_for_culture.eonir.text" text="eonir"/>
+  <string id="str_adjective_for_culture.chaos_culture.text" text="chaos"/>
+  <string id="str_neutral_term_for_culture.khuzait.text" text="Silvanskaja"/>
+  <string id="str_neutral_term_for_culture.empire.text" text="Impierskaja"/>
+  <string id="str_neutral_term_for_culture.vlandia.text" text="Bretońskaja"/>
+  <string id="str_neutral_term_for_culture.mousillon.text" text="Muziljonskaja"/>
+  <string id="str_neutral_term_for_culture.battania.text" text="asrai"/>
+  <string id="str_neutral_term_for_culture.eonir.text" text="eonir"/>
+  <string id="str_neutral_term_for_culture.chaos_culture.text" text="chaos"/>
+  <string id="tor_feudal_oath_line1.averland.text" text="Hetym ja klanusia słužyć Hrand Hrafu Avierlanda."/>
+  <string id="tor_feudal_oath_line2.averland.text" text="Ja abviaščaju Hrafa-Elektara, Maryusa Lajtdorfa svaim zakonnym haspadarom i lepšym za Kurta Chełborynha."/>
+  <string id="tor_feudal_oath_line3.averland.text" text="Ja budu baranić svaim miačom pacałavanyja soncam ziemli Avierlanda, jaho ludziej, žyviołu, i pierš za ŭsio, sałodkija viny."/>
+  <string id="tor_feudal_oath_line4.averland.text" text="Ja vyznaju vas Svaim Haspadarom i Vyratavalnikam, i pajdu ŭśled za vami da samych hłybiń piekła dy nazad, i znoŭ u piekła dy... kchm - nazad."/>
+  <string id="tor_feudal_oath_line1.hochland.text" text="I swear my loyalty to the Grand Barony of Hochland."/>
+  <string id="tor_feudal_oath_line2.hochland.text" text="I acknowledge Aldebrand Ludenhof, the Grand Baron of Hochland and Baron of Hergig as my rightful ruler."/>
+  <string id="tor_feudal_oath_line3.hochland.text" text="Let Taal, Rhya and Sigmar guide me in my duty."/>
+  <string id="tor_feudal_oath_line4.hochland.text" text="Let my sword, shield and bow remain steady in the face of the enemy."/>
+  <string id="tor_feudal_oath_line1.middenland.text" text="I solemnly swear to serve the Grand Duchies of Middenland and Middenheim."/>
+  <string id="tor_feudal_oath_line2.middenland.text" text="I recognize Boris Todbringer, the Graf of Middenheim, the Grand Duke of Middenland, and the Prince of Carroburg as my lord and commander."/>
+  <string id="tor_feudal_oath_line3.middenland.text" text="May Ulric, the Lord of Winter, guide my steps and lead me to victory for this great province."/>
+  <string id="tor_feudal_oath_line4.middenland.text" text="I shall not rest until the enemy is no more or the Great Wolf claims me in death."/>
+  <string id="tor_feudal_oath_line1.ostermark.text" text="I swear my loyalty to the League of Ostermark, the East March."/>
+  <string id="tor_feudal_oath_line2.ostermark.text" text="I acknowledge Elector Count Wolfram Hertwig, Chancellor of the League of Ostermark and Prince of Bechafen, as my liege."/>
+  <string id="tor_feudal_oath_line3.ostermark.text" text="As long as I draw breath, I vow to keep the mutant and undead foe at bay."/>
+  <string id="tor_feudal_oath_line4.ostermark.text" text="I pledge to always work for the benefit of this realm and its stout citizens."/>
+  <string id="tor_feudal_oath_line1.ostland.text" text="I hereby swear to serve the Grand Principality of Ostland."/>
+  <string id="tor_feudal_oath_line2.ostland.text" text="May my service to Valmir von Raukov, Grand Prince of Ostland, Margrave of the Northern March, and Hammer of the East allow me to crush our enemies."/>
+  <string id="tor_feudal_oath_line3.ostland.text" text="Grant me the opportunity to fight for you until I rest in Morrs embrace."/>
+  <string id="tor_feudal_oath_line4.ostland.text" text="Let us slay the wolf at the door and protect the people of Ostland!"/>
+  <string id="tor_feudal_oath_line1.stirland.text" text="Hetym ja klanusia ŭ viernaści Hrand Hrafu Šcirlanda."/>
+  <string id="tor_feudal_oath_line2.stirland.text" text="Ja vyznaju Albierycha Haŭpt-Andersana Hrand Hrafam Šcirlanda, Pryncam Vurtbada i Vaładarom Silvanii, svaim haspadarom i panam da samaj śmierci."/>
+  <string id="tor_feudal_oath_line3.stirland.text" text="Niachaj majo cieła budzie ščytom Šcirlanda dziela abarony ad pahrozy niežyci."/>
+  <string id="tor_feudal_oath_line4.stirland.text" text="Ja pajdu za vami ŭ samyja hłubokija krai miortvych ziamiel."/>
+  <string id="tor_feudal_oath_line1.wasteland.text" text="I hereby swear fealthy to the mercantile city-state of the Wasteland."/>
+  <string id="tor_feudal_oath_line2.wasteland.text" text="I will fight with the blessing of Manann for the sea is my home."/>
+  <string id="tor_feudal_oath_line3.wasteland.text" text="My blood is filled with salt and my pockets are filled with gold for i am a Marienburger."/>
+  <string id="tor_feudal_oath_line4.wasteland.text" text="The debt will be repaid!"/>
+  <string id="tor_feudal_oath_line1.wissenland.text" text="Hetym u klanusia ŭ viernaści Nuln, Bastyjonu Poŭdnia i Žamčužynie Impieryi, i mieńšym navakolnym vioskam, zamkam i haradam Vissenlanda."/>
+  <string id="tor_feudal_oath_line2.wissenland.text" text="Ja vyznaju Emanuel fon Libvic, Hrand Hrafiniu Vissenlanda, Hrafiniu Nulna i Hiercahiniu Majssena, svajoj viečnaj panaj."/>
+  <string id="tor_feudal_oath_line3.wissenland.text" text="U časy vostraj patreby, ja budu baranić Nuln u mieru svaich siłaŭ i mahčymaściaŭ."/>
+  <string id="tor_feudal_oath_line4.wissenland.text" text="Ja abiacaju iści za vami, kudy b vy nie pajšli, i budu baranić vas da śmierci."/>
+  <string id="tor_feudal_oath_line1.talabecland.text" text="Hetym ja klanusia nieśmiarotnaj addanaściu da Hrand Hiercaha Tałabeklanda."/>
+  <string id="tor_feudal_oath_line2.talabecland.text" text="Ja vyznaju Hielmuta Fojerbacha, Hrand Hiercaha Tałabeklanda, Markhrafa Uschodniaj Marki i Ŭmiłavanaha Taala svaim viečnym haspadarom."/>
+  <string id="tor_feudal_oath_line3.talabecland.text" text="U časy patreby ja budu baranić Taalbaston da apošniaha ŭzdycha."/>
+  <string id="tor_feudal_oath_line4.talabecland.text" text="Ja budu dapamahać vam u abaronie śviatoj ziamli Taala da apošnich dzion."/>
+  <string id="tor_feudal_oath_line1.reikland.text" text="Hetym ja klanusia ŭ viečnym słužeńni Rajklandu i jaho suvierenu Karłu Francu fon Cholšvih-Šlištajnu, Zachiśniku Impieryi, Zmaharu z Ciemraj, Spadčyńniku Zihmara, Impierataru Poŭdnia i Synu Impierataraŭ."/>
+  <string id="tor_feudal_oath_line2.reikland.text" text="Ja addaju svaju dušu bohu-vajaru Zihmaru, chaj jaho vorahi paznajuć maju lutaść."/>
+  <string id="tor_feudal_oath_line3.reikland.text" text="Niachaj vašyja vorahi pryznajuć mianie svaim stałym voraham, bo pokul majo cieła dychaje, ja nie supakojusia."/>
+  <string id="tor_feudal_oath_line4.reikland.text" text="Chvała Karłu Francu, za jakim ja pajdu ŭ hłybini biezdani."/>
+  <string id="tor_feudal_oath_line1.moot.text" text="Hetym ja klanusia słužyć Hrand Hrafu Muutlanda."/>
+  <string id="tor_feudal_oath_line2.moot.text" text="Ja abviaščaju starejšynu Hizme Advažnaje Serca svaim zakonnym haspadarom."/>
+  <string id="tor_feudal_oath_line3.moot.text" text="Ja trymaju svoj mieč, kab baranić ludziej ad niežyci."/>
+  <string id="tor_feudal_oath_line4.moot.text" text="Ja biaru abaviazak dapamahać vam u miry i vajnie."/>
+  <string id="tor_feudal_oath_line1.nordland.text" text="I proclaim to serve the Grand Barony of Nordland."/>
+  <string id="tor_feudal_oath_line2.nordland.text" text="I acknowledge Elector Count Theoderic Gausser, Grand Baron of Nordland, Prince of Salzenmund as my rightful liege and commander."/>
+  <string id="tor_feudal_oath_line3.nordland.text" text="I swear to protect the fine province of Nordland, its shorelines, harbors and forests, from anyone and anything that dares threaten it."/>
+  <string id="tor_feudal_oath_line4.nordland.text" text="May Manann, Ulric, Taal and Sigmar guide me on this path…"/>
+  <string id="tor_feudal_oath_line1.sylvania.text" text="Ja addaju svaju dušu ŭva viečnaje rabstva kraju Silvanija."/>
+  <string id="tor_feudal_oath_line2.sylvania.text" text="Hetym ja klanusia ŭ nieparušnaści svajoj addanaści da Manfreda fon Karštajna, Hrafa Silvanii, najchitraha i najadoranaha mahijaj vampira z usich kryŭnych linijaŭ fon Karštajnaŭ."/>
+  <string id="tor_feudal_oath_line3.sylvania.text" text="Niachaj vašyja vorahi dryžać pry maim vidzie i maich lehijonaŭ niežyci."/>
+  <string id="tor_feudal_oath_line4.sylvania.text" text="Ja dałučajusia da vašaha pałacu i pajdu ŭśled za vami ŭ hłybini ziamiel impieryi."/>
+  <string id="tor_feudal_oath_line1.anguille.text" text="With the lady as my witness, i shall swear loyalty to the salt bitten lands of Languille"/>
+  <string id="tor_feudal_oath_line2.anguille.text" text="Duke Taubert will be my Liege and in times of need i will flock to his banner."/>
+  <string id="tor_feudal_oath_line3.anguille.text" text="As a knight and as a seafahrer, i will protect the land and coast of Languille that i vow."/>
+  <string id="tor_feudal_oath_line4.anguille.text" text="Blessed by the lady we will overcome!"/>
+  <string id="tor_feudal_oath_line1.artois.text" text="I give my hearth and dedication to the protection of the forest lands of the dukedom of Artois."/>
+  <string id="tor_feudal_oath_line2.artois.text" text="My sword and lance are yours Duke Chilfroy for i am your subject."/>
+  <string id="tor_feudal_oath_line3.artois.text" text="My shield is for the people of Gisoreux whom i will protect with my body and soul, for i am pure a true knight of Brettonia."/>
+  <string id="tor_feudal_oath_line4.artois.text" text="As a knight of Gisoreux no harm will overcome my people this i vow."/>
+  <string id="tor_feudal_oath_line1.aquitaine.text" text="Z honaram, ja klanusia ŭ viernaści da vieličnaha Hiercahstva Akvitań."/>
+  <string id="tor_feudal_oath_line2.aquitaine.text" text="Ja budu śledavać nastaŭleńniam šanoŭnaha Hiercaha Armo, uzora rycarstva i dabračynnaści."/>
+  <string id="tor_feudal_oath_line3.aquitaine.text" text="Ja paśviačaju svoj mieč abaronie ŭradlivych paloŭ Akvitani, jaje narodu i bahaćciu rycarskich tradycyjaŭ."/>
+  <string id="tor_feudal_oath_line4.aquitaine.text" text="Jak {?PLAYER.GENDER}addanaja rycarka{?}addany rycar{\?}, ja budu stojka supraćstajać usiakamu vorahu, zachoŭvajučy honar i vytančanaść, ułaścivyja Akvitani."/>
+  <string id="tor_feudal_oath_line1.bastonne.text" text="Z honaram i cichmianaściu ja paśviačaju siabie słužbie šlachietnamu Bastonskamu Hiercahstvu."/>
+  <string id="tor_feudal_oath_line2.bastonne.text" text="Ja zajaŭlaju pra svaju addanaść da hanarovaha Hiercaha Baemunda, majaka advahi i rycarstva."/>
+  <string id="tor_feudal_oath_line3.bastonne.text" text="Ja budu baranić kraj Bastonn, jaje chrabrych rycaraŭ i lehiendarnyja śviatyje ziemli našaj Vaziornaj Łedzi."/>
+  <string id="tor_feudal_oath_line4.bastonne.text" text="Jak {?PLAYER.GENDER}sapraŭdnaja rycarka{?}sapraŭdny rycar{\?} Bastońni, ja budu adstojvać rycarskija dabračynnaści i advahu, baroniačy panstva i jaho šanoŭnyja tradycyi."/>
+  <string id="tor_feudal_oath_line1.bordeleaux.text" text="Z vialikim honaram, ja klanusia ŭ viernaści da vieličnaha Bordulskaha Hiercahstva."/>
+  <string id="tor_feudal_oath_line2.bordeleaux.text" text="Ja zajaŭlaju pra svaju addanaść da Hiercaha Albieryka, dalnabačnaha lidara, čyja ciaha da roskvitu i viadzieńnia vojnaŭ nia viedaje sabie roŭnych pad uładaj našaj Łedzi."/>
+  <string id="tor_feudal_oath_line3.bordeleaux.text" text="Ja klanusia baranić uradlivyja vinahradniki Bordulu, jaho žycharoŭ i vino."/>
+  <string id="tor_feudal_oath_line4.bordeleaux.text" text="U imia rycarstva i dobleści ja rušu ŭ darohu jak {?PLAYER.GENDER}sapraŭdnaja rycarka{?}sapraŭdny rycar{\?} Bordulu, kab baranić našyja ziemli svaim žyćciom."/>
+  <string id="tor_feudal_oath_line1.brionne.text" text="Z honaram i pakoraj ja klanusia ŭva addanaści da šlachietnaha Bryjonskaha Hiercahstva."/>
+  <string id="tor_feudal_oath_line2.brionne.text" text="Ja abviaščaju pra svaju viernaść da Hiercaha Tyadoryka, mudraha i spraviadlivaha haspadara, jakoha lubiać jaho paddanyja."/>
+  <string id="tor_feudal_oath_line3.brionne.text" text="Ja budu zaścierahać ziemli Bryjonna, jaho žycharoŭ i mahutnyja zamki, što ŭpryhožvajuć viaskovaje navakolle."/>
+  <string id="tor_feudal_oath_line4.brionne.text" text="Jak {?PLAYER.GENDER}sapraŭdnaja rycarka{?}sapraŭdny rycar{\?} Bryjonna, ja budu adstojvać dobradziejnaść honaru i łajalnaści, baroniačy našaje hiercahstva ad tych, chto pahražaje jaho pryhažości i majsterstvu."/>
+  <string id="tor_feudal_oath_line1.carcassonne.text" text="Hetym ja klanusia ŭva nieparušnaj łajalnaści da doblesnaha Karkassonskaha Hiercahstva."/>
+  <string id="tor_feudal_oath_line2.carcassonne.text" text="Ja abviaščaju pra svaju addanaść da Hiercaha Chiubulda, advažnaha lidara, čyi dziei natchniajuć usich nas."/>
+  <string id="tor_feudal_oath_line3.carcassonne.text" text="Ja klanusia zaścierahać pali Karkassona, jaho chrabrych rycaraŭ i daśviedčanyja vojski."/>
+  <string id="tor_feudal_oath_line4.carcassonne.text" text="Jak {?PLAYER.GENDER}viernaja{?}vierny{\?} abaronca Karkassona, ja budu ćviorda stajać na varcie honaru i dobleści našaha ŭpadabanaha panstva."/>
+  <string id="tor_feudal_oath_line1.couronne.text" text="I pledge my loyalty and life to the majestic dukedom of Couronne"/>
+  <string id="tor_feudal_oath_line2.couronne.text" text="I vow to protect, serve and follow The king of Brettonia King Louen Leoncoeur."/>
+  <string id="tor_feudal_oath_line3.couronne.text" text="Im the king his subject and his to command."/>
+  <string id="tor_feudal_oath_line4.couronne.text" text="All hail King Louen Leoncoeur!"/>
+  <string id="tor_feudal_oath_line1.gisoreux.text" text="I swear to protect the honourable lands of the dukedom Gisoreux."/>
+  <string id="tor_feudal_oath_line2.gisoreux.text" text="My banners shall wear the colours of my duke Hagen, for i am his servant and i will aid in his will."/>
+  <string id="tor_feudal_oath_line3.gisoreux.text" text="I shall guard the mountain tops of the Pale sisters and the plains of Gisoreux as i would defend my family."/>
+  <string id="tor_feudal_oath_line4.gisoreux.text" text="As a true son of Gisoreux, i will uphold the values of Gisoreux and die for its glory."/>
+  <string id="tor_feudal_oath_line1.lyonesse.text" text="I offer my sword and shield to the blessed dukedom of Lyonesse."/>
+  <string id="tor_feudal_oath_line2.lyonesse.text" text="I will vow to support Duke Adalhard in his rule over Lyonesse."/>
+  <string id="tor_feudal_oath_line3.lyonesse.text" text="I will ride down my enemies, and defend the holy land of Lyonesse."/>
+  <string id="tor_feudal_oath_line4.lyonesse.text" text="As a knight of Lyonesse i will fight with the courage of a lion, I shall be the pillar that uphold our values and legacy."/>
+  <string id="tor_feudal_oath_line1.montfort.text" text="Ja klanusia ŭ svajoj niepachisnaj viernaści da šlachietnaha Munforskaha Hiercahstva."/>
+  <string id="tor_feudal_oath_line2.montfort.text" text="Ja abviaščaju pra svaju addanaść da Hiercaha Folkara, advažnaha lidara, čyja advaha ćviordaja jak šmatlikija hory, jakimi jon kiruje."/>
+  <string id="tor_feudal_oath_line3.montfort.text" text="Ja klanusia zaścierahać vieličnyja ziemli Munfora, jaho narod i vysokija zamki, jakija zjaŭlajucca symbalam našaj mocy."/>
+  <string id="tor_feudal_oath_line4.montfort.text" text="Z nieparušnaj viernaściu ja budu słužyć jak {?PLAYER.GENDER}sapraŭdnaja rycarka{?}sapraŭdny rycar{\?} Munfora, z kožnym uzdycham baranić honar i suvierenitet našaha haspadarstva."/>
+  <string id="tor_feudal_oath_line1.parravon.text" text="Hetym ja klanusia ŭ viernaści da vybitnaha Parravunskaha Hiercahstva."/>
+  <string id="tor_feudal_oath_line2.parravon.text" text="Ja klanusia ŭ viernaści da Hiercaha Kaśsiona, doblesnaha abaroncy našych horaŭ i lasoŭ."/>
+  <string id="tor_feudal_oath_line3.parravon.text" text="Ja budu baranić śviatyja ziemli Parravuna, jaho narod i jaho šanoŭnych piehasaŭ."/>
+  <string id="tor_feudal_oath_line4.parravon.text" text="Jak {?PLAYER.GENDER}addanaja rycarka{?}addany rycar{\?} Parravuna, ja budu stajać jak majak nadziei, baroniačy našaje haspadarstva i padtrymlivaja spadkajemstva našaha hiercahstva."/>
+  <string id="tor_feudal_oath_line1.quenelles.text" text="Z honaram i pakoraj ja klanusia ŭva addanaści šlachietnamu Kunelskamu Hiercahstvu."/>
+  <string id="tor_feudal_oath_line2.quenelles.text" text="Ja abviaščaju pra svaju łajalnaść da Hiercaha Tonkreda II, mudraha i rašučaha lidara, jaki natchniaje ŭsich nas."/>
+  <string id="tor_feudal_oath_line3.quenelles.text" text="Ja klanusia baranić kraj Kunel, jaho žycharoŭ i śviatyja chramy, što ušanoŭvajuć Vaziornuju Łedzi."/>
+  <string id="tor_feudal_oath_line4.quenelles.text" text="Jak {?PLAYER.GENDER}sapraŭdnaja rycarka{?}sapraŭdny rycar{\?} Kunela, ja budu prytrymlivacca rycarskich ideałaŭ, baranić našaje vaładarstva i zachoŭvać jaho stałuju hracyju i pryhažość."/>
+  <string id="tor_feudal_oath_line1.mousillon.text" text="Ja, {?PLAYER.GENDER}ścipłaja rycarka{?}ścipły rycar{\?}, klanusia ŭ svajoj niepachisnaj viernaści da Muziljonskaha Haspadarstva."/>
+  <string id="tor_feudal_oath_line2.mousillon.text" text="Ja klanusia słužyć vaładaru Hiercahstva, Źmieju, i dałučacca da cieniaŭ, što achutvajuć hetuju ziemlu."/>
+  <string id="tor_feudal_oath_line3.mousillon.text" text="Ja budu baranić nasielnikaŭ Muziljona i zabytych duchaŭ, jakija chavajucca ŭ ciemry."/>
+  <string id="tor_feudal_oath_line4.mousillon.text" text="Ja vyznaju vas, svaim suvierennym šlachcičam, i budu rašuča stajać pierad tvaram pahardy śvietu da našaha domu, abjadnaŭšysia pad vašym ściaham."/>
+  <string id="tor_feudal_oath_line1.blooddragons.text" text="Hetym ja klanusia ŭ svajoj viernaści da Vałacha Charkona, Orda Drakonisa i svaich paplečnikaŭ rycaraŭ."/>
+  <string id="tor_feudal_oath_line2.blooddragons.text" text="Ja klanusia svaim lazom całkam źniščyć čałaviectva i ŭsich inšych, chto vystupaje suprać ułady vampiraŭ."/>
+  <string id="tor_feudal_oath_line3.blooddragons.text" text="Niachaj ja zaŭždy budu spatalać prahu kryvi svajho miača i šukać našych najvybitnych vorahaŭ."/>
+  <string id="tor_feudal_oath_line4.blooddragons.text" text="Ja nikoli nie adstuplu z bitvy i budu addany vam ci paniasu vyniki zdrady."/>
+  <string id="tor_feudal_oath_line1.necrachs.text" text="Upon this baleful night, I do swear mine eternal allegiance to the Necrarch bloodline, and mine Lord, Zacharias the Everliving."/>
+  <string id="tor_feudal_oath_line2.necrachs.text" text="I dedicate mine mind to the pursuit of the arcane, and I bind mine spirit to the essence of magic."/>
+  <string id="tor_feudal_oath_line3.necrachs.text" text="With tomes of old, I will navigate the shadows, unlock the whispers and secrets long forgotten."/>
+  <string id="tor_feudal_oath_line4.necrachs.text" text="As thou dost guide mine fate through this accursed unlife."/>
+  <string id="tor_feudal_oath_line1.laurelorn.text" text="Your Majesty, in this sacred moment, I stand before you, deeply honored by your presence."/>
+  <string id="tor_feudal_oath_line2.laurelorn.text" text="I pledge to protect the harmony of our land, nurture its magic, and preserve its beauty that binds us all."/>
+  <string id="tor_feudal_oath_line3.laurelorn.text" text="In the presence of shimmering streams and ancient trees, I commit to being a guardian of our realm."/>
+  <string id="tor_feudal_oath_line4.laurelorn.text" text="May Laurelorn, Queen Marrisith, and Eonir flourish and prosper forevermore!"/>
+  <string id="tor_feudal_oath_line1.athel_loren.text" text="I swear to protect the kingdom of Athel loren."/>
+  <string id="tor_feudal_oath_line2.athel_loren.text" text="I shall be Athel lorens bow and she shall be my arrow."/>
+  <string id="tor_feudal_oath_line3.athel_loren.text" text="I swear fealthy to the king and queen of the forest Orion and Ariel and i will answer their horn in times of need."/>
+  <string id="tor_feudal_oath_line4.athel_loren.text" text="May the roots of the forest guide me!"/>
+  <string id="tor_feudal_oath_line1.brasskeep.text" text="Forged in plague we rise from decay."/>
+  <string id="tor_feudal_oath_line2.brasskeep.text" text="With the plague lords gifts we march into the fray."/>
+  <string id="tor_feudal_oath_line3.brasskeep.text" text="From death our power grows."/>
+  <string id="tor_feudal_oath_line4.brasskeep.text" text="In Nurgles name we will deliver death!"/>
+  <string id="tor_player_accept_vassalage.empire.text" text="Ja abviaščaju vas {?PLAYER.GENDER}šlachciankaj{?}šlachcičam{\?} Impieryi. Vašaje žyćcio i majomaść buduć baranicca našymi zakonami i nia mohuć być adniaty ŭ vas inačaj jak pa zakonu. Vy možacie słužyć čynoŭnikam u haradach i vioskach i hienierałam vojska, kali my vas zakličam da hetaha."/>
+  <string id="tor_player_accept_vassalage.khuzait.text" text="Ja abviaščaju vas {?PLAYER.GENDER}šlachciankaj{?}šlachcičam{\?} Silvanii i słuhoj fon Karštajnaŭ. Vy musicie vykonvać našyja zahady i bracca za zbroju padčas vajny."/>
+  <string id="tor_player_accept_vassalage.mousillon.text" text="Ja ŭskładvaju na vas {PLAYER.NAME} vialikija nadziei. Ja viedaju, što vy budziecie vartyja davieru, jakoje ja vam akazaŭ."/>
+  <string id="tor_player_accept_vassalage.blooddragons.text" text="Sardečna zaprašaju ŭ Orda Drakonis {PLAYER.NAME}. Voś maje paśladoŭniki, niachaj jany dapamohuć tabie ŭ bitvie. Biary hetaje lazo."/>
+  <string id="tor_player_accept_vassalage.vlandia.text" text="By the lady of the lake. I proclaim you a noble of Brettonia and defender of the realm."/>
+  <string id="tor_player_accept_vassalage.battania.text" text="I name you guardian of Athel Loren, noble of the Asrai, may thy bow aim true."/>
+  <string id="tor_player_accept_vassalage.eonir.text" text="I proclaim you a noble of the Eonir, stand proud for you are now a protector of the holy forest of Laurorn."/>
+  <string id="tor_player_accept_vassalage.chaos_culture.text" text="May Nurgle gift you with his blessings."/>
+  <string id="str_liege_title.empire.text" text="Hraf-Elektar Impieryi"/>
+  <string id="str_liege_title_female.empire.text" text="Hrafinia-Elektar Impieryi"/>
+  <string id="str_liege_title.blooddragons.text" text="Hrand Majstar Kryvavych Drakonaŭ"/>
+  <string id="str_liege_title.khuzait.text" text="Vampir-Łord Silvanii"/>
+  <string id="str_liege_title_female.khuzait.text" text="Vampir-Łedzi Silvanii"/>
+  <string id="str_liege_title.vlandia.text" text="Hiercah Bretońnii"/>
+  <string id="str_liege_title_female.vlandia.text" text="Hiercahinia Bretońnii"/>
+  <string id="str_liege_title.mousillon.text" text="Hiercah Muziljona"/>
+  <string id="str_liege_title_female.mousillon.text" text="Hiercahinia Muziljona"/>
+  <string id="str_liege_title.battania.text" text="Highborn of Athel Loren"/>
+  <string id="str_liege_title_female.battania.text" text="Highborn of Athel Loren"/>
+  <string id="str_liege_title.eonir.text" text="Highborn of Laurelorn"/>
+  <string id="str_liege_title_female.eonir.text" text="Highborn of Laurelorn"/>
+  <string id="str_liege_title.chaos_culture.text" text="Chaos Lord"/>
+  <string id="str_liege_title_female.chaos_culture.text" text="Chaos Lord"/>
+  <string id="str_comment_noble_introduces_self.empire.text" text="Ja {CONVERSATION_CHARACTER.LINK} z domu {CLAN_NAME}."/>
+  <string id="str_comment_noble_introduces_self_and_clan.empire.text" text="Ja {CONVERSATION_CHARACTER.LINK} z domu {CLAN_NAME}. Našaja siamja słužyć Impieryi pakaleńniami."/>
+  <string id="str_comment_noble_introduces_self_and_clan.empire_honor.text" text="Ja {CONVERSATION_CHARACTER.LINK} z domu {CLAN_NAME}. Našaja siamja z honaram vykonvaje svaje abaviazki z časoŭ samoha Zihmara."/>
+  <string id="str_comment_noble_introduces_self_and_clan.empire_mercy.text" text="Ja {CONVERSATION_CHARACTER.LINK} z domu {CLAN_NAME}. Chacia nia varta zanadta hanarycca svaim radavodam, z radaściu havaru, my zaŭždy surjozna stavilisia da svajho abaviazku pa abaronie prostych ludziej Impieryi."/>
+  <string id="str_comment_noble_introduces_self_and_clan.empire_boasting.text" text="Ja {CONVERSATION_CHARACTER.LINK} z domu {CLAN_NAME}, adnoha z najsłavutych radavodaŭ u letapisach Impieryi."/>
+  <string id="str_comment_noble_introduces_self_and_clan.empire_boasting_cruel.text" text="Ja {CONVERSATION_CHARACTER.LINK} z domu {CLAN_NAME}, adnoha z najsłavutych radavodaŭ u letapisach Impieryi. Jakoje žyćcio najlepšaje? Kryšyć svaich vorahaŭ. Bačyć, jak ich honiać pierad taboj. I čuć hałašeńni ichnich žančyn."/>
+  <string id="str_comment_intro.cruel_khuzait.text" text="Viedaj, što kali ty choć adnojčy pierojdzieš mnie šlach, to stanieš niežyvym miasam u našych vojskach."/>
+  <string id="str_comment_noble_introduces_self.khuzait.text" text="Ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}."/>
+  <string id="str_comment_noble_introduces_self_and_clan.khuzait_boasting.text" text="Ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Biez sumnievu, vy čuli, jak sałdaty Impieryi ŭ žachie šepčuć imia našaha kłanu."/>
+  <string id="str_comment_noble_introduces_self_and_clan.khuzait.text" text="Ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Našy kłan addana słuža fon Karštajnam pakaleńniami."/>
+  <string id="str_comment_noble_introduces_self.vlandia.text" text="Pryjemna sustrecca, ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}."/>
+  <string id="str_comment_noble_introduces_self_and_clan.vlandia.text" text="Pryjemna sustrecca, ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Maja siamja słužyć narodu Bretońnii i Łedzi pakaleńniami."/>
+  <string id="str_comment_noble_introduces_self_and_clan.vlandia_honor.text" text="Ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Chodźma, budź ty siabrom ci voraham, pryjdzi i daj mnie pačuć, što vy žadajecie skazać."/>
+  <string id="str_comment_noble_introduces_self_and_clan.vlandia_mercy.text" text="Ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Moj łord nakazvaje mnie nie škadavać nikoha, i vy zdajeciesia pahrozaj da majoj spravy."/>
+  <string id="str_comment_noble_introduces_self_and_clan.vlandia_boasting.text" text="Ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Havary chutka, ja nia maju ciarpieńnia da tych, chto maje maleńkija ambicyi."/>
+  <string id="str_comment_noble_introduces_self_and_clan.vlandia_boasting_cruel.text" text="Chto advažyŭsia stać pierada mnoj, {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Pieony, žabraki i bajaźliŭcy nia majuć prava chadzić pa ziamle, pa jakoj chadžu ja. Havary ci budzieš zabity."/>
+  <string id="str_comment_noble_introduces_self.mousillon.text" text="Ja {CONVERSATION_CHARACTER.LINK} z domu {CLAN_NAME}."/>
+  <string id="str_comment_noble_introduces_self_and_clan.mousillon.text" text="Vy staicie pierad mnoj, {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}."/>
+  <string id="str_comment_noble_introduces_self_and_clan.mousillon_honor.text" text="Vy staicie pierad mnoj, {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Vy zdajeciesia zdolnym supiernikam, dobraja sustreča."/>
+  <string id="str_comment_noble_introduces_self_and_clan.mousillon_mercy.text" text="Ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Moj łord nakazvaje mnie nie škadavać nikoha, i vy zdajeciesia pahrozaj da majoj spravy."/>
+  <string id="str_comment_noble_introduces_self_and_clan.mousillon_boasting.text" text="Ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Havary chutka, ja nia maju ciarpieńnia da tych, chto maje maleńkija ambicyi."/>
+  <string id="str_comment_noble_introduces_self_and_clan.mousillon_boasting_cruel.text" text="Chto advažyŭsia stać pierada mnoj, {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Pieony, žabraki i bajaźliŭcy nia majuć prava chadzić pa ziamle, pa jakoj chadžu ja. Havary ci budzieš zabity."/>
+  <string id="str_comment_noble_introduces_self.battania.text" text="I am {CONVERSATION_CHARACTER.LINK} of the realm of {CLAN_NAME}."/>
+  <string id="str_comment_noble_introduces_self_and_clan.battania.text" text="Vy staicie pierad mnoj, {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}."/>
+  <string id="str_comment_noble_introduces_self_and_clan.battania_honor.text" text="You come before {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}. Our realm has stood the test of time since the Sundering."/>
+  <string id="str_comment_noble_introduces_self_and_clan.battania_mercy.text" text="Ja {CONVERSATION_CHARACTER.LINK} z {CLAN_NAME}. Moj łord nakazvaje mnie nie škadavać nikoha, i vy zdajeciesia pahrozaj da majoj spravy."/>
+  <string id="str_comment_noble_introduces_self_and_clan.battania_boasting.text" text="I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}. Speak quickly, I have little patience for insignificance."/>
+  <string id="str_comment_noble_introduces_self_and_clan.battania_boasting_cruel.text" text="Who dares to come before {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}?"/>
+  <string id="str_how_to_learn_skill.Faith.text" text="Vykarystoŭvajcie bajavyja paciery."/>
+  <string id="str_how_to_learn_skill.Gunpowder.text" text="Zmahajciesia ahniapalnaj zbrojaj."/>
+  <string id="str_how_to_learn_skill.Spellcraft.text" text="Nakładvajcie zaklony, čynicie škodu mahijaj."/>
+  <string id="smgrs" text="Vialikija Miačy (TOR)"/>
+  <string id="sms" text="Miačy (TOR)"/>
+  <string id="smr" text="Rapiry (TOR)"/>
+  <string id="smsc" text="Kosy (TOR)"/>
+  <string id="smst" text="Posachi (TOR)"/>
+  <string id="smpol" text="Tronki (TOR)"/>
+  <string id="sma" text="Siakiery (TOR)"/>
+  <string id="smgra" text="Vialikija Siakiery (TOR)"/>
+  <string id="smma" text="Bułavy (TOR)"/>
+  <string id="smthma" text="Dvuchručnyja Bułavy (TOR)"/>
+  <string id="smla" text="Dzidy (TOR)"/>
+  <string id="str_weapon_usage.TorOneHandedSword.text" text="Adnaručny Mieč"/>
+  <string id="str_weapon_usage.TorTwoHandedSword.text" text="Dvuchručny Mieč"/>
+  <string id="str_weapon_usage.TorRapier.text" text="Rapira"/>
+  <string id="str_weapon_usage.TorOneHandedAxe.text" text="Adnaručnaja Siakiera"/>
+  <string id="str_weapon_usage.TorTwoHandedAxe.text" text="Dvuchručnaja Siakiera"/>
+  <string id="str_weapon_usage.TorMace.text" text="Bułava"/>
+  <string id="str_weapon_usage.TorTwoHandedMace.text" text="Dvuchručnaja Bułava"/>
+  <string id="str_weapon_usage.TorOneHandedPolearm.text" text="Adnaručny Tronak"/>
+  <string id="str_weapon_usage.TorTwoHandedPolearm.text" text="Dvuchručny Tronak"/>
+  <string id="str_weapon_usage.TorTwoHandedPolearm_Bracing.text" text="Najezd Dzidaj"/>
+  <string id="str_weapon_usage.TorStaves.text" text="Posach"/>
+  <string id="str_weapon_usage.TorScythe.text" text="Kasa"/>
+  <string id="str_weapon_usage.TorLance.text" text="Dzida"/>
+  <string id="str_weapon_usage.TorLance_Couchable.text" text="Najezd Dzidaj"/>
+  <string id="str_inventory_weapon.22.text" text="Pistol"/>
+  <string id="str_inventory_weapon.23.text" text="Pistol"/>
+  <string id="str_customresource_trade_label.text" text="You will {?PAY_OR_GET}get{?}pay{\?} {TRADE_AMOUNT}"/>
+  <string id="customsettlement_intro.oak_of_ages.text" text="You arrive at the Oak of Ages. The Heart of Athel Loren."/>
+  <string id="customsettlement_disabled.oak_of_ages.text" text="You arrive at the Oak of Ages. The Heart of Athel Loren."/>
+  <string id="customsettlement_intro.worldroot_01.text" text="You found the world roots ends in the Arden forest."/>
+  <string id="customsettlement_disabled.worldroot_01.text" text="You found the world roots ends in the Arden forest."/>
+  <string id="customsettlement_intro.worldroot_02.text" text="You found the world roots ends in the Laurelorn forest."/>
+  <string id="customsettlement_intro.worldroot_02b.text" text="You found the world roots ends in the Laurelorn forest. A friendly Spellsinger greets you. He is willing to take you with him to the Maisontaal forest for a fee. This fee however is not in gold... Are you willing to accept the offer?"/>
+  <string id="customsettlement_disabled.worldroot_02.text" text="You found the world roots ends in the Laurelorn forest."/>
+  <string id="customsettlement_intro.worldroot_03.text" text="You found the world roots ends in the Gryphenwood."/>
+  <string id="customsettlement_disabled.worldroot_03.text" text="You found the world roots ends in the Gryphenwood."/>
+  <string id="customsettlement_intro.worldroot_04.text" text="You found an inconspicuous world roots end. A friendly Spellsinger greets you. He is willing to take you with him to the Laurelorn forest for a fee. This fee however is not in gold... Are you willing to accept the offer?"/>
+  <string id="customsettlement_disabled.worldroot_04.text" text="You found an inconspicuous world roots end."/>
+  <string id="customsettlement_intro.darkelf_camp_01.text" text="You arrive at a druchii slaver camp. Ships are anchored in the bay and the cages are full of stock."/>
+  <string id="customsettlement_disabled.darkelf_camp_01.text" text="The slavers have left these shores. Come back at a later time."/>
+  <string id="customsettlement_battle.darkelf_camp_01.text" text="Attempt to drive the slavers away."/>
+  <string id="customsettlement_intro.chaos_portal_01.text" text="Vy prybyli da aktyŭnaha partała chaosu. Ahidnaja reč pulsuje arkannaj mahijaj, siły chaosu ŭ niaznačnaj kolkaści ŭryvajucca sa svaich haspadarstvaŭ."/>
+  <string id="customsettlement_disabled.chaos_portal_01.text" text="Partał dremle. Viartajciesia paźniej."/>
+  <string id="customsettlement_battle.chaos_portal_01.text" text="Pasprabujcie pieramahčy prysutnyja siły chaosu i zakryć partał."/>
+  <string id="customsettlement_intro.herdstone_01.text" text="Vy prybyli da statkavaha kamienia źvieraludaŭ. Pyłaje sihnalny kaścior dziela zboru vajskovaha statku tut."/>
+  <string id="customsettlement_disabled.herdstone_01.text" text="Łahier statkavaha kamienia pustuje, prychodźcie paźniej."/>
+  <string id="customsettlement_battle.herdstone_01.text" text="Pasprabujcie pieramahčy vajskovy statak źvieraludaŭ na svaich kryvavych ziemlach."/>
+  <string id="customsettlement_intro.herdstone_02.text" text="Vy prybyli da statkavaha kamienia źvieraludaŭ. Pyłaje sihnalny kaścior dziela zboru vajskovaha statku tut."/>
+  <string id="customsettlement_disabled.herdstone_02.text" text="Łahier statkavaha kamienia pustuje, prychodźcie paźniej."/>
+  <string id="customsettlement_battle.herdstone_02.text" text="Pasprabujcie pieramahčy vajskovy statak źvieraludaŭ na svaich kryvavych ziemlach."/>
+  <string id="customsettlement_intro.herdstone_03.text" text="Vy prybyli da statkavaha kamienia źvieraludaŭ. Pyłaje sihnalny kaścior dziela zboru vajskovaha statku tut."/>
+  <string id="customsettlement_disabled.herdstone_03.text" text="Łahier statkavaha kamienia pustuje, prychodźcie paźniej."/>
+  <string id="customsettlement_battle.herdstone_03.text" text="Pasprabujcie pieramahčy vajskovy statak źvieraludaŭ na svaich kryvavych ziemlach."/>
+  <string id="customsettlement_intro.herdstone_04.text" text="Vy prybyli da statkavaha kamienia źvieraludaŭ. Pyłaje sihnalny kaścior dziela zboru vajskovaha statku tut."/>
+  <string id="customsettlement_disabled.herdstone_04.text" text="Łahier statkavaha kamienia pustuje, prychodźcie paźniej."/>
+  <string id="customsettlement_battle.herdstone_04.text" text="Pasprabujcie pieramahčy vajskovy statak źvieraludaŭ na svaich kryvavych ziemlach."/>
+  <string id="customsettlement_intro.herdstone_05.text" text="Vy prybyli da statkavaha kamienia źvieraludaŭ. Pyłaje sihnalny kaścior dziela zboru vajskovaha statku tut."/>
+  <string id="customsettlement_disabled.herdstone_05.text" text="Łahier statkavaha kamienia pustuje, prychodźcie paźniej."/>
+  <string id="customsettlement_battle.herdstone_05.text" text="Pasprabujcie pieramahčy vajskovy statak źvieraludaŭ na svaich kryvavych ziemlach."/>
+  <string id="customsettlement_intro.sigmar_shrine_01.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Karalu."/>
+  <string id="customsettlement_disabled.sigmar_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.sigmar_shrine_02.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Karalu."/>
+  <string id="customsettlement_disabled.sigmar_shrine_02.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.sigmar_shrine_03.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Karalu."/>
+  <string id="customsettlement_disabled.sigmar_shrine_03.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.sigmar_shrine_04.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Karalu."/>
+  <string id="customsettlement_disabled.sigmar_shrine_04.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.sigmar_shrine_05.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Karalu."/>
+  <string id="customsettlement_disabled.sigmar_shrine_05.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.sigmar_shrine_06.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Karalu."/>
+  <string id="customsettlement_disabled.sigmar_shrine_06.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.sigmar_shrine_07.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Karalu."/>
+  <string id="customsettlement_disabled.sigmar_shrine_07.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.taal_shrine_01.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Pryrody."/>
+  <string id="customsettlement_disabled.taal_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.taal_shrine_02.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Pryrody."/>
+  <string id="customsettlement_disabled.taal_shrine_02.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.taal_shrine_03.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Pryrody."/>
+  <string id="customsettlement_disabled.taal_shrine_03.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.taal_shrine_04.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Pryrody."/>
+  <string id="customsettlement_disabled.taal_shrine_04.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.taal_shrine_05.text" text="Vy prybyli da chramu {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Bohu-Pryrody."/>
+  <string id="customsettlement_disabled.taal_shrine_05.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.grove_of_the_lady_01.text" text="Vy prybyvajecie ŭ haj {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Łedzi Voziera."/>
+  <string id="customsettlement_disabled.grove_of_the_lady_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.grove_of_the_lady_02.text" text="Vy prybyvajecie ŭ haj {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Łedzi Voziera."/>
+  <string id="customsettlement_disabled.grove_of_the_lady_02.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.grove_of_the_lady_03.text" text="Vy prybyvajecie ŭ haj {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Łedzi Voziera."/>
+  <string id="customsettlement_disabled.grove_of_the_lady_03.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.grove_of_the_lady_04.text" text="Vy prybyvajecie ŭ haj {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Łedzi Voziera."/>
+  <string id="customsettlement_disabled.grove_of_the_lady_04.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.grove_of_the_lady_05.text" text="Vy prybyvajecie ŭ haj {RELIGION_LINK}. Pilihrymy z navakolnych sieliščaŭ molacca Łedzi Voziera."/>
+  <string id="customsettlement_disabled.grove_of_the_lady_05.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.haunted_site_01.text" text="Tutejšyja Silvany zavuć hetaje miesca Ferfunharn. Heta pakinutaja ziamla kišyć kryvasmokami, i chutčej za ŭsio duchami, jana zjaŭlajecca łabiryntam chmyźniakoŭ i bahnaŭ. Tolki varjaty i rospačnyja mohuć zaleźci ŭ hetyja nietry."/>
+  <string id="customsettlement_disabled.haunted_site_01.text" text="Vy nia musili bačyć hetaje."/>
+  <string id="customsettlement_intro.haunted_site_02.text" text="Razburany niazbožnym połymiam, abrynuty z niabios šmat stahodździaŭ tamu, Cheł Fenn, vierahodna, zjaŭlajecca samym praklatym miescam uva ŭsim basiejnie Rajka. Kryvyja budynki, hniłyja drevy i pakrytyja smałoj trupy ŭsiejvajuć pustelny krajavid. Tut taksama zdaryłasia paraza Manfreda fon Karštajna i skončylisia Vampirskija Vojny."/>
+  <string id="customsettlement_disabled.haunted_site_02.text" text="Vy nia musili bačyć hetaje."/>
+  <string id="customsettlement_intro.haunted_site_03.text" text="Daŭno praklatyja ŭzhorki na paŭdniovym-uschodzie ad Tałabchajma. Dzivoctva i trahiedyi nie daloki hetaj ziamle. Niahledziačy na toje, nichto nia viedaje, u čym pryčyna mijazmaŭ, chacia i nie sprabuje."/>
+  <string id="customsettlement_disabled.haunted_site_03.text" text="Vy nia musili bačyć hetaje."/>
+  <string id="customsettlement_intro.haunted_site_04.text" text="Šmat stahodździaŭ tamu na ŭzhorkach u navakollach Muziljona była zładžana braterskaja mahiła dziela pachavańniaŭ tysiač pamieršych ad čyrvonaj vospy. Achviaraŭ było tak mnoha, što ziamla, jakaja nakryvaje jamu, dahetul bačna z haradzkich ścienaŭ. Časam tutejšaje pavietra atrutnaje, i, jak i na ŭsiakaj praklataj ziamli, daŭno pamioršyja spačyvajuć tut niespakojna."/>
+  <string id="customsettlement_disabled.haunted_site_04.text" text="Vy nia musili bačyć hetaje."/>
+  <string id="customsettlement_intro.manaan_shrine_01.text" text="You arrive at the shrine of the {RELIGION_LINK}. The temple is wet and priests are praying."/>
+  <string id="customsettlement_disabled.manaan_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.manaan_shrine_02.text" text="You arrive at the shrine of the {RELIGION_LINK}. The temple is wet and priests are praying."/>
+  <string id="customsettlement_disabled.manaan_shrine_02.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.manaan_shrine_03.text" text="You arrive at the shrine of the {RELIGION_LINK}. The temple is wet and priests are praying."/>
+  <string id="customsettlement_disabled.manaan_shrine_03.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.manaan_shrine_04.text" text="You arrive at the shrine of the {RELIGION_LINK}. The temple is wet and priests are praying."/>
+  <string id="customsettlement_disabled.manaan_shrine_04.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.manaan_shrine_05.text" text="You arrive at the shrine of the {RELIGION_LINK}. The temple is wet and priests are praying."/>
+  <string id="customsettlement_disabled.manaan_shrine_05.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.manaan_shrine_06.text" text="You arrive at the shrine of the {RELIGION_LINK}. The temple is wet and priests are praying."/>
+  <string id="customsettlement_disabled.manaan_shrine_06.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.asuryan_shrine_01.text" text="You arrive at the shrine of the {RELIGION_LINK}. The sacred flames of Asuryan burn hot."/>
+  <string id="customsettlement_disabled.asuryan_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.ulric_shrine_01.text" text="You arrive at the shrine of the {RELIGION_LINK}. The Wolf head seems to follow your every step with its gaze."/>
+  <string id="customsettlement_disabled.ulric_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.ulric_shrine_02.text" text="You arrive at the shrine of the {RELIGION_LINK}. The Wolf head seems to follow your every step with its gaze."/>
+  <string id="customsettlement_disabled.ulric_shrine_02.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.ulric_shrine_03.text" text="You arrive at the shrine of the {RELIGION_LINK}. The Wolf head seems to follow your every step with its gaze."/>
+  <string id="customsettlement_disabled.ulric_shrine_03.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.ulric_shrine_04.text" text="You arrive at the shrine of the {RELIGION_LINK}. The Wolf head seems to follow your every step with its gaze."/>
+  <string id="customsettlement_disabled.ulric_shrine_04.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.ulric_shrine_05.text" text="You arrive at the shrine of the {RELIGION_LINK}. The Wolf head seems to follow your every step with its gaze."/>
+  <string id="customsettlement_disabled.ulric_shrine_05.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.shallya_shrine_01.text" text="You arrive at the shrine of the {RELIGION_LINK}. The sisterhood is tending the wounded."/>
+  <string id="customsettlement_disabled.shallya_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.shallya_shrine_02.text" text="You arrive at the shrine of the {RELIGION_LINK}. The sisterhood is tending the wounded."/>
+  <string id="customsettlement_disabled.shallya_shrine_02.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.shallya_shrine_03.text" text="You arrive at the shrine of the {RELIGION_LINK}. The sisterhood is tending the wounded."/>
+  <string id="customsettlement_disabled.shallya_shrine_03.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.shallya_shrine_04.text" text="You arrive at the shrine of the {RELIGION_LINK}. The sisterhood is tending the wounded."/>
+  <string id="customsettlement_disabled.shallya_shrine_04.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.shallya_shrine_05.text" text="You arrive at the shrine of the {RELIGION_LINK}. The sisterhood is tending the wounded."/>
+  <string id="customsettlement_disabled.shallya_shrine_05.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.loec_shrine_01.text" text="You arrive at the shrine of the {RELIGION_LINK}. The shadows themselves seem to dance around the trees."/>
+  <string id="customsettlement_disabled.loec_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.anath_shrine_01.text" text="You arrive at the shrine of the {RELIGION_LINK}. Bowls filled with blood lie around the shrine."/>
+  <string id="customsettlement_disabled.anath_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.vaul_shrine_01.text" text="You arrive at the shrine of the {RELIGION_LINK}. Artisans and smiths from all corners of Athel Loren work the mighty forge."/>
+  <string id="customsettlement_disabled.vaul_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.kurnous_shrine_01.text" text="You arrive at the shrine of the {RELIGION_LINK}. Wild hunters are seen worshipping the God of the Hunt."/>
+  <string id="customsettlement_disabled.kurnous_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="customsettlement_intro.isha_shrine_01.text" text="You arrive at the shrine of the {RELIGION_LINK}. The temple of the divine mother emits rays of life and fertility."/>
+  <string id="customsettlement_disabled.isha_shrine_01.text" text="Chram u ruinach. Tut niama čaho rabić."/>
+  <string id="prebackstory.tor_wanderer_empire_0.text" text="Maja historyja? Viadoma, ja mahu padzialicca."/>
+  <string id="backstory_a.tor_wanderer_empire_0.text" text="Jašče ŭ dziacinstvie ja vyjaviŭ, što nie padobny na inšych dziaciej, niaŭzabavie hetaje zrazumieli i ŭ kalehii."/>
+  <string id="backstory_b.tor_wanderer_empire_0.text" text="Jak tolki stała viadoma pra majo svajactva z Ekšy, ja byŭ vydrany z viaskovaha žyćcia i pryniaty ŭ Kalehiju Altdorfa."/>
+  <string id="backstory_c.tor_wanderer_empire_0.text" text="Toj pažar u Altdorfie niekalki hadoŭ tamu, jaki pačaŭsia ŭ karčmie? Heta dakładna byŭ nie ja!"/>
+  <string id="response_1.tor_wanderer_empire_0.text" text="Cikava."/>
+  <string id="response_2.tor_wanderer_empire_0.text" text="Pff."/>
+  <string id="backstory_d.tor_wanderer_empire_0.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_empire_0.text" text="Ja licenzavany Zyrki Čaraŭnik z Kalehii Altdorfa. Upeŭnieny, što vy mahli sustrakacca z niekatorymi z nas, i, vierahodna, viedajecie, nakolki mahutnymi my možam być."/>
+  <string id="prebackstory.tor_wanderer_empire_1.text" text="Historyja majho žyćcia niaznačnaja, ale ja raskažu."/>
+  <string id="backstory_a.tor_wanderer_empire_1.text" text="Ja byŭ siratoj, kinutaj la dźviarej Carkvy. Kult Zihmara pryniaŭ mianie i vychavaŭ."/>
+  <string id="backstory_b.tor_wanderer_empire_1.text" text="Ja vyvučyŭ mnostva śviatych pisańniaŭ i paśviaciŭ svajo žyćcio biaskoncaj baraćbie z brudam Chaosu."/>
+  <string id="backstory_c.tor_wanderer_empire_1.text" text="Ja badziaju pa viaskovamu navakollu i z niepachisnaj ačyščaju jaje ad jerasi."/>
+  <string id="response_1.tor_wanderer_empire_1.text" text="Uchvalaju."/>
+  <string id="response_2.tor_wanderer_empire_1.text" text="Vy skončyli?"/>
+  <string id="backstory_d.tor_wanderer_empire_1.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_empire_1.text" text="Ja Śviatar-Vajar Zihmara i nivodny karupcyjanier nia syjdzie ad majho hnievu."/>
+  <string id="prebackstory.tor_wanderer_empire_2.text" text="Toje budzie nievialiki apovied, ale ja raskažu pra svajo žyćcio."/>
+  <string id="backstory_a.tor_wanderer_empire_2.text" text="Mać pracavała ŭva bardeli, nam ledź chapała na ježu. Baćku nikoli nia viedaŭ."/>
+  <string id="backstory_b.tor_wanderer_empire_2.text" text="U maładości mnie pryjšłosia navučycca baranicca ad pjanic. Mać nie sychodziła, jak ja jaje ni uprošvaŭ."/>
+  <string id="backstory_c.tor_wanderer_empire_2.text" text="U adzin dzień rečy zajšli zadaloka, adzin ź jaje naviednikaŭ sprabavaŭ jaje zabić u chodzie niejkaha dziŭnaha rytuała. Ja skraŭ jaho nož i zabiŭ jaho, niaŭzabavaje i syjšoŭ i dałučyŭsia da Tamplijeraŭ."/>
+  <string id="response_1.tor_wanderer_empire_2.text" text="Ty robiš spravu Zihmara!"/>
+  <string id="response_2.tor_wanderer_empire_2.text" text="Heta varta žalu."/>
+  <string id="backstory_d.tor_wanderer_empire_2.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_empire_2.text" text="Ja Palaŭničy na Viadźmarak, Tamplijer Zihmara. Vinavatym ad mianie nie schavacca."/>
+  <string id="prebackstory.tor_wanderer_empire_3.text" text="Maja historyja nie takaja ŭžo ŭnikalnaja, ale ja nie suprać raskazać pra jaje."/>
+  <string id="backstory_a.tor_wanderer_empire_3.text" text="Ja naradziŭsia ŭva siamji chedž-čaraŭnika, i kali ŭ mianie taksama prajaviłasia mahičnaja schilnaść, mianie dasłali da Kalehijaŭ."/>
+  <string id="backstory_b.tor_wanderer_empire_3.text" text="Ja zaŭždy byŭ najlepšym uva svaich kłasach. Inšyja vinavacili mianie ŭ fanaberystaści, ale jany prosta byli aślepleny svajoj biazdarnaściu."/>
+  <string id="backstory_c.tor_wanderer_empire_3.text" text="Bolš pierśpiektyŭnaha maha nie znajści ŭva ŭsioj Impieryi. Ja na šlachu da taho, kab pierasiahnuć samoha Baltazara Hielta!"/>
+  <string id="response_1.tor_wanderer_empire_3.text" text="Baču."/>
+  <string id="response_2.tor_wanderer_empire_3.text" text="Pff, jak niedarečna."/>
+  <string id="backstory_d.tor_wanderer_empire_3.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_empire_3.text" text="Ja Śvietły Čaraŭnik ź Impierskich Kalehijaŭ. Biez sumnievu, vy čuli pra našaje vialikaje majsterstva."/>
+  <string id="prebackstory.tor_wanderer_empire_4.text" text="Maja historyja nie takaja ŭžo ŭnikalnaja, ale ja nie suprać raskazać pra jaje."/>
+  <string id="backstory_a.tor_wanderer_empire_4.text" text="Ja naradziŭsia ŭva siamji chedž-čaraŭnika, i kali ŭ mianie taksama prajaviłasia mahičnaja schilnaść, mianie dasłali da Kalehijaŭ."/>
+  <string id="backstory_b.tor_wanderer_empire_4.text" text="Ja zaŭždy byŭ najlepšym uva svaich kłasach. Inšyja vinavacili mianie ŭ fanaberystaści, ale jany prosta byli aślepleny svajoj biazdarnaściu."/>
+  <string id="backstory_c.tor_wanderer_empire_4.text" text="Bolš pierśpiektyŭnaha maha nie znajści ŭva ŭsioj Impieryi. Ja na šlachu da taho, kab pierasiahnuć samoha Baltazara Hielta!"/>
+  <string id="response_1.tor_wanderer_empire_4.text" text="Baču."/>
+  <string id="response_2.tor_wanderer_empire_4.text" text="Pff, jak niedarečna."/>
+  <string id="backstory_d.tor_wanderer_empire_4.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_empire_4.text" text="Ja Niabiosny Čaraŭnik ź Impierskich Kalehijaŭ. Biez sumnievu, vy čuli pra našaje vialikaje majsterstva."/>
+  <string id="prebackstory.tor_wanderer_empire_5.text" text="Gladly."/>
+  <string id="backstory_a.tor_wanderer_empire_5.text" text="Ja naradziŭsia ŭ siamji pryhonnych, ale praca na palach była nie dziela mianie!"/>
+  <string id="backstory_b.tor_wanderer_empire_5.text" text="Ja staŭ vučniem majstra-ałchimika, ale hety vyradak ničomu nie navučyŭ mianie, chacia ja hadami pracavaŭ na jaho da śmierci."/>
+  <string id="backstory_c.tor_wanderer_empire_5.text" text="Adnojčy ja pakinuŭ jaho na zboččy darohi, kali jaho furmanka złamałasia, i pajšoŭ u vojska, dzie navučyŭsia absłuhoŭvać reštunak. Vybuchoŭka - maja novaja praha."/>
+  <string id="response_1.tor_wanderer_empire_5.text" text="Cikava."/>
+  <string id="response_2.tor_wanderer_empire_5.text" text="Vy skončyli?"/>
+  <string id="backstory_d.tor_wanderer_empire_5.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_empire_5.text" text="Ja Inžynier, jaki maje dośvied ekspłuatacyi i padtrymańnia parachavoj zbroi."/>
+  <string id="prebackstory.tor_wanderer_empire_6.text" text="Nia važna chto ja, važna, što ja rablu. Ja imknusia dapahać tym, chto maje patrebu."/>
+  <string id="backstory_a.tor_wanderer_empire_6.text" text="Dapamahać chvorym i paranienym zaŭždy było maim pryznačeńniem. Maje baćki pamiorli, kali ja byŭ maleńkim, i ja nie chaču, kab inšyja adčuvali takuju bol."/>
+  <string id="backstory_b.tor_wanderer_empire_6.text" text="Ja pryśviaciŭ svajo žyćcio Šalli, a ŭzamien atrymaŭ darunak lekavać inšych."/>
+  <string id="backstory_c.tor_wanderer_empire_6.text" text="Z ty časoŭ ja vandruju pa Impieryi, šukajučy, dzie maje navyki patrebnyja bolš za ŭsio. Kłapačusia pra pryhonnych i vajarach."/>
+  <string id="response_1.tor_wanderer_empire_6.text" text="Baču."/>
+  <string id="response_2.tor_wanderer_empire_6.text" text="Zrazumieła."/>
+  <string id="backstory_d.tor_wanderer_empire_6.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_empire_6.text" text="Ja Śviatarka Bahini Šalli, što pryśviaciła siabie majsterstvu lekavańnia."/>
+  <string id="prebackstory.tor_wanderer_empire_7.text" text="Vam nia treba viedać maju historyju nieznajomca, tolki maje navyki."/>
+  <string id="backstory_a.tor_wanderer_empire_7.text" text="Ja Pałacavy Palaŭničy, ci chutčej. Byŭ im. Skažam tak, ja pramachnuŭsia mima svajoj celi na adlehłaści dobraha skačka."/>
+  <string id="backstory_b.tor_wanderer_empire_7.text" text="Ciapier ja adsočvaju, paluju i pracuju najmitam za manietu."/>
+  <string id="backstory_c.tor_wanderer_empire_7.text" text="Ja palavaŭ na źviaroŭ, źvieraludaŭ i navat orkaŭ usich hatunkaŭ. Maje navyki dastajucca tym, chto bolej zapłacić."/>
+  <string id="response_1.tor_wanderer_empire_7.text" text="Emm."/>
+  <string id="response_2.tor_wanderer_empire_7.text" text="Emmm..."/>
+  <string id="backstory_d.tor_wanderer_empire_7.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_empire_7.text" text="Ja Palaŭničy, šmat monstraŭ zahinuła ad majoj ruki na słužbie ŭ Impieryi."/>
+  <string id="prebackstory.tor_wanderer_empire_8.text" text="What matters is my tale, not my name…"/>
+  <string id="backstory_a.tor_wanderer_empire_8.text" text="I was admitted to the esteemed Golden College, and quickly distinguished myself among the apprentices."/>
+  <string id="backstory_b.tor_wanderer_empire_8.text" text="My command of the Wind of Chamon was nearly flawless. Yet, soon Balthasar Gelt arrived, eclipsing all others with his skill. I could have been the greatest Gold Wizard the Empire has ever seen."/>
+  <string id="backstory_c.tor_wanderer_empire_8.text" text="And yet, not all is lost. I have amassed invaluable knowledge at the College and shall prove my worth across the Old World, while he occupies some dusty seat on some council."/>
+  <string id="response_1.tor_wanderer_empire_8.text" text="Yes… of course."/>
+  <string id="response_2.tor_wanderer_empire_8.text" text="Looks like Ill have to settle for the second best Metal Wizard."/>
+  <string id="backstory_d.tor_wanderer_empire_8.text" text="Do not let appearances deceive your eyes; in a short time, I will surpass Gelt. You shall all see. In the meantime, I must hone my skills, preferably by the side of someone competent. Additionally, I expect certain comforts to be assured."/>
+  <string id="generic_backstory.tor_wanderer_empire_8.text" text="I am a Metal Wizard of the Imperial College, master spellcaster and alchemist."/>
+  <string id="prebackstory.tor_wanderer_empire_9.text" text="Life is full of questions. I will answer yours."/>
+  <string id="backstory_a.tor_wanderer_empire_9.text" text="My home was the Drakwald Forest — its where I was raised and where I felt the nourishing Wind of Ghyran for the first time. People also call us druids."/>
+  <string id="backstory_b.tor_wanderer_empire_9.text" text="I look after all things natural and heal the injured, for my magic is one of restoration, not mindless destruction."/>
+  <string id="backstory_c.tor_wanderer_empire_9.text" text="My mission is to uphold the balance between the Empire and nature that feeds us."/>
+  <string id="response_1.tor_wanderer_empire_9.text" text="Amazing!"/>
+  <string id="response_2.tor_wanderer_empire_9.text" text="A most important duty."/>
+  <string id="backstory_d.tor_wanderer_empire_9.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_empire_9.text" text="I am a Life Wizard of the Imperial College. No doubt you have heard of our immense healing capabilities."/>
+  <string id="prebackstory.tor_wanderer_empire_10.text" text="You have a curious smell, traveler. Will you listen to my story?"/>
+  <string id="backstory_a.tor_wanderer_empire_10.text" text="When I was young, I felt a strong connection with all kinds of woodland creatures. And soon I learned to converse with them."/>
+  <string id="backstory_b.tor_wanderer_empire_10.text" text="When the villagers found out, they charged me with heresy and wished to burn me at the stake. Fortunately, I escaped and hid with the animals in the forest."/>
+  <string id="backstory_c.tor_wanderer_empire_10.text" text="After a long time in isolation, a wizard of the Amber Order found and invited me to come along. It was him that taught me these abilities dont make you a spawn of Chaos. Instead, they mean blessings of the Wind of Ghur."/>
+  <string id="response_1.tor_wanderer_empire_10.text" text="Citizens of the Empire can be cruel."/>
+  <string id="response_2.tor_wanderer_empire_10.text" text="No wonder you live in isolation."/>
+  <string id="backstory_d.tor_wanderer_empire_10.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_empire_10.text" text="I am a Beast Wizard of the Imperial College. You have certainly heard of our might and talent for survival."/>
+  <string id="prebackstory.tor_wanderer_vampire_0.text" text="Chmm, žadajecie daviedacca pra majo žyćcio? Ja mahu padzialicca hetaj historyjaŭ."/>
+  <string id="backstory_a.tor_wanderer_vampire_0.text" text="Mianie zaŭždy atačała śmierć, u Silvanii śmierć - heta ŭsio."/>
+  <string id="backstory_b.tor_wanderer_vampire_0.text" text="Moj los nikoli nia byŭ u tym, kab dałučycca da niežyci, što vałancuža pa ziamli, a kiravać joj. Vychoŭvać jaje i padparadkoŭvać svajoj voli."/>
+  <string id="backstory_c.tor_wanderer_vampire_0.text" text="Spatrebiŭsia čas, ale miortvyja vykonvajuć maje zahady, i maje siły niaŭchilna rastuć."/>
+  <string id="response_1.tor_wanderer_vampire_0.text" text="Intryhuje."/>
+  <string id="response_2.tor_wanderer_vampire_0.text" text="Mnie zusim nie cikava vašaje nikčemnaje pachodžańnie."/>
+  <string id="backstory_d.tor_wanderer_vampire_0.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_vampire_0.text" text="Ja majstar śmierci i niežyci, mnohija mianie pałochajucca. A vy?"/>
+  <string id="prebackstory.tor_wanderer_vampire_1.text" text="Ja mała pamiataju pra svajo minułaje žyćcio, isnuje tolki ciapier i praha."/>
+  <string id="backstory_a.tor_wanderer_vampire_1.text" text="Być čałaviekam - heta son, son ad jakoha ja rady vyzvalicca."/>
+  <string id="backstory_b.tor_wanderer_vampire_1.text" text="Mianie zabrali z vioski dziela padatku na kryviu, ale zamiž toha ja stał pažadanym dla svajho majstara-vampira. Ja byŭ błasłaŭlony darunkam Nahaša."/>
+  <string id="backstory_c.tor_wanderer_vampire_1.text" text="Ale moj majstar zahinuŭ padčas Vampirskich Vojnaŭ, i z tych časoŭ, kali ŭ mianie nikoha nie zastałosia, byŭ vymušany błukać pa nočach."/>
+  <string id="response_1.tor_wanderer_vampire_1.text" text="Intryhuje."/>
+  <string id="response_2.tor_wanderer_vampire_1.text" text="Mnie zusim nie cikava vašaje nikčemnaje pachodžańnie."/>
+  <string id="backstory_d.tor_wanderer_vampire_1.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_vampire_1.text" text="Ja pačynajučy Vampir, mahutny i nieśmiarotny."/>
+  <string id="prebackstory.tor_wanderer_vampire_2.text" text="Chmm."/>
+  <string id="backstory_a.tor_wanderer_vampire_2.text" text="Raźbityja ŭspaminy, vajar, sałdat? Tak daŭno."/>
+  <string id="backstory_b.tor_wanderer_vampire_2.text" text="Mnohaje stračana, krovapralićcie, bitvy, śmierć."/>
+  <string id="backstory_c.tor_wanderer_vampire_2.text" text="Ja słužu, ja zmahajusia, ja źniščaju."/>
+  <string id="response_1.tor_wanderer_vampire_2.text" text="Baču."/>
+  <string id="response_2.tor_wanderer_vampire_2.text" text="Zrazumieła..."/>
+  <string id="backstory_d.tor_wanderer_vampire_2.text" text="Mmm."/>
+  <string id="generic_backstory.tor_wanderer_vampire_2.text" text="Ja Vaładar-Miarćviak, słuha ŭ śmierci."/>
+  <string id="prebackstory.tor_wanderer_vampire_3.text" text="Voch, žadajecie pačuć maju historyju? Cudoŭna."/>
+  <string id="backstory_a.tor_wanderer_vampire_3.text" text="Jak vy ŭžo zrazumieli, ja hrafinia-vampirka."/>
+  <string id="backstory_b.tor_wanderer_vampire_3.text" text="Ale ja siadžu i čakaju, kali chtości z prysutnych apyniecca vartym majho času, bo zajmacca palitykaj kroŭna narodžanych Niefieraty mnie da śmierci apastyliła."/>
+  <string id="backstory_c.tor_wanderer_vampire_3.text" text="I paviercie, kali vy zacikaŭleny, maje pasłuhi sapraŭdy buduć vielmi kaštoŭnymi."/>
+  <string id="response_1.tor_wanderer_vampire_3.text" text="Cikava."/>
+  <string id="response_2.tor_wanderer_vampire_3.text" text="Miarkuju tak."/>
+  <string id="backstory_d.tor_wanderer_vampire_3.text" text="Dobra, što vy tady skažycie?"/>
+  <string id="generic_backstory.tor_wanderer_vampire_3.text" text="Ja Łamianskaja Hrafinia, i nia tolki mahu strymlivacca ŭ bojkie, ale i być karysnaj u vašych vandroŭkach."/>
+  <string id="prebackstory.tor_wanderer_bretonnia_0.text" text="Ja nie saromiejusia raskazvać pra svajo žyćcio {?PLAYER.GENDER}nieznajomrt{?}nieznajomcu{\?}."/>
+  <string id="backstory_a.tor_wanderer_bretonnia_0.text" text="Ja naradziŭsia ŭ šlachietnaj siamji z Karkassona, moj baćka byŭ rycaram da mianie."/>
+  <string id="backstory_b.tor_wanderer_bretonnia_0.text" text="Moj abaviazak - stać rycaram, i zaraz ja na kveście, kab dabicca prychilnaści Łedzi."/>
+  <string id="backstory_c.tor_wanderer_bretonnia_0.text" text="Ja tolki pačaŭ svoj puć, mnie jašče mnohamu treba navučycca."/>
+  <string id="response_1.tor_wanderer_bretonnia_0.text" text="Spadziajusia, vy dasiahniocie zadumlenaha."/>
+  <string id="response_2.tor_wanderer_bretonnia_0.text" text="Nia varta była vandravać tak daloka ad doma."/>
+  <string id="backstory_d.tor_wanderer_bretonnia_0.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_bretonnia_0.text" text="Ja Kvestavy Rycar, što pryśviaciŭ svajo žyćcio Łedzi i Bretońnii."/>
+  <string id="prebackstory.tor_wanderer_bretonnia_1.text" text="Nia važna chto ja, važna, što ja rablu. Ja imknusia dapahać tym, chto maje patrebu."/>
+  <string id="backstory_a.tor_wanderer_bretonnia_1.text" text="Dapamahać chvorym i paranienym zaŭždy było maim pryzvańniem, i, jak mnohija inšyja, ja była vyratavana i padrychtavana dziakujučy svajoj schilnaści da viatroŭ mahii."/>
+  <string id="backstory_b.tor_wanderer_bretonnia_1.text" text="Ja pryśviaciła svajo žyćcio Łedzi, a ŭzamien atrymała darunak za dapamohu jaje rycaram."/>
+  <string id="backstory_c.tor_wanderer_bretonnia_1.text" text="Z tych časoŭ ja vandruju pa ziemlach, šukaju, dzie maje navyki mohuć spatrebicca, i kłapačusia pra pryhonnych i vajaroŭ."/>
+  <string id="response_1.tor_wanderer_bretonnia_1.text" text="Baču."/>
+  <string id="response_2.tor_wanderer_bretonnia_1.text" text="Zrazumieła."/>
+  <string id="backstory_d.tor_wanderer_bretonnia_1.text" text="Słušna."/>
+  <string id="prebackstory.tor_wanderer_mousillon_0.text" text="Chmmm. Žadajecie pačuć maju historyju?"/>
+  <string id="backstory_a.tor_wanderer_mousillon_0.text" text="Ja byŭ adnym z tych kvestavych rycaraŭ šmat času tamu, što pryśviacili svajo žyćcio hetaj praklataj Łedzi."/>
+  <string id="backstory_b.tor_wanderer_mousillon_0.text" text="Ale minajuć hody, kvest za kvestam, zabojstva za zabojstvam, a jana dahetul nie ličyć mianie vartym! Brydota!"/>
+  <string id="backstory_c.tor_wanderer_mousillon_0.text" text="Tamu ja bolš nie idu pa šlachu relihii i bałbatni, a šukaju taho, chto maje najciažki miech z manietami."/>
+  <string id="response_1.tor_wanderer_mousillon_0.text" text="Intryhuje."/>
+  <string id="response_2.tor_wanderer_mousillon_0.text" text="Spadziajusia heta adzinaja reč, jakuju vy šukajecie."/>
+  <string id="backstory_d.tor_wanderer_mousillon_0.text" text="Fajna, nie marnujcie majho času."/>
+  <string id="generic_backstory.tor_wanderer_mousillon_0.text" text="Ja niekali byŭ Bretońskim Rycaram, kali vam treba niekaha zabić, ja - vašy vajar."/>
+  <string id="prebackstory.tor_wanderer_mousillon_1.text" text="Chmm, žadajecie daviedacca pra majo žyćcio? Ja mahu padzialicca hetaj historyjaŭ."/>
+  <string id="backstory_a.tor_wanderer_mousillon_1.text" text="I have always been surrounded by death, death is everything in the swamps of mousillon"/>
+  <string id="backstory_b.tor_wanderer_mousillon_1.text" text="Moj los nikoli nia byŭ u tym, kab dałučycca da niežyci, što vałancuža pa ziamli, a kiravać joj. Vychoŭvać jaje i padparadkoŭvać svajoj voli."/>
+  <string id="backstory_c.tor_wanderer_mousillon_1.text" text="Spatrebiŭsia čas, ale miortvyja vykonvajuć maje zahady, i maje siły niaŭchilna rastuć."/>
+  <string id="response_1.tor_wanderer_mousillon_1.text" text="Intryhuje."/>
+  <string id="response_2.tor_wanderer_mousillon_1.text" text="Mnie zusim nie cikava vašaje nikčemnaje pachodžańnie."/>
+  <string id="backstory_d.tor_wanderer_mousillon_1.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_mousillon_1.text" text="Ja majstar śmierci i niežyci, mnohija mianie pałochajucca. A vy?"/>
+  <string id="prebackstory.tor_wanderer_eonir_0.text" text="About me? There is not much to tell."/>
+  <string id="backstory_a.tor_wanderer_eonir_0.text" text="I have fought all my life against ruinous powers. I made my own bow with the wood of trees so old that they stood tall when Ariel was just a mortal. I killed my first ungor at the age of eleven, and my first chaos spawn at fourteen. Recently, I struck a troll between the eyes with an arrow from two hundred paces away."/>
+  <string id="backstory_b.tor_wanderer_eonir_0.text" text="Beasts, monsters, humans, or even other elves, if necessary—any creature that threatens the forest shall feel the sting of my arrows."/>
+  <string id="backstory_c.tor_wanderer_eonir_0.text" text="Behold, with each enemy slain, my people cut their forearms to remember each enemy defeated. There remains space for more deaths."/>
+  <string id="response_1.tor_wanderer_eonir_0.text" text="Its always good that there are fewer of those disgusting creatures in this world."/>
+  <string id="response_2.tor_wanderer_eonir_0.text" text="A boy killing beasts? I find it hard to believe."/>
+  <string id="backstory_d.tor_wanderer_eonir_0.text" text="I am a Guardian Mage of the Toriour caste, an expert in the art of conjuration. I shall deliver the justice of the Eonir."/>
+  <string id="generic_backstory.tor_wanderer_eonir_0.text" text="I would prefer not to leave my beloved forests, but for a reasonable fee, I might be persuaded to accompany you on your travels for a time."/>
+  <string id="prebackstory.tor_wanderer_eonir_1.text" text="Insolent boy, you stand before a Guardian Mage of the Eonir."/>
+  <string id="backstory_a.tor_wanderer_eonir_1.text" text="My lineage descends from an ancient line of warriors, tracing its origins to the War of the Beard itself. Indeed, one of my ancestors stood as the right hand of the great Caledor II, fighting alongside him in the Battle of the Three Towers."/>
+  <string id="backstory_b.tor_wanderer_eonir_1.text" text="Beasts, monsters, humans, or even other elves, if necessary—any creature that threatens the forest shall feel the sting of my arrows."/>
+  <string id="backstory_c.tor_wanderer_eonir_1.text" text="Behold, with each enemy slain, my people cut their forearms to remember each enemy defeated. There remains space for more deaths."/>
+  <string id="response_1.tor_wanderer_eonir_1.text" text="A proud lineage."/>
+  <string id="response_2.tor_wanderer_eonir_1.text" text="Many people claim to be descended from great heroes of the past."/>
+  <string id="backstory_d.tor_wanderer_eonir_1.text" text="Słušna."/>
+  <string id="generic_backstory.tor_wanderer_eonir_1.text" text="Hold a moment, stranger. My services do not come cheap — youd best prove your worth."/>
+  <string id="prebackstory.tor_wanderer_woodelf_0.text" text="Ah, I do not believe we have met. Peace be upon you, stranger."/>
+  <string id="backstory_a.tor_wanderer_woodelf_0.text" text="Have you not encountered someone like me before? It is not surprising for I am a Spellsinger of the Asrai."/>
+  <string id="backstory_b.tor_wanderer_woodelf_0.text" text="Unlike the majority of my people, I possess the rare ability to commune with the magical beings of the deep forest. I can merge their minds with mine and assure their cooperation."/>
+  <string id="backstory_c.tor_wanderer_woodelf_0.text" text="For most Elves, the talent I wield amounts to little more than a mere instinct. But in truly gifted ones like myself, it becomes a formidable power."/>
+  <string id="response_1.tor_wanderer_woodelf_0.text" text="Certainly a fearsome power."/>
+  <string id="response_2.tor_wanderer_woodelf_0.text" text="Those are stories one scares children with."/>
+  <string id="backstory_d.tor_wanderer_woodelf_0.text" text="The forest is a living entity. With proper respect, it can be persuaded to follow your command. Many seek out those with my abilities."/>
+  <string id="generic_backstory.tor_wanderer_woodelf_0.text" text="Many desire the presence of a Spellsinger, but few are prepared to pay the price."/>
+  <string id="prebackstory.tor_wanderer_woodelf_1.text" text="I do not recall seeing you here before. Who might you be?"/>
+  <string id="backstory_a.tor_wanderer_woodelf_1.text" text="I am the youngest daughter of a humble family that served a distinguished Asrai lord. However, lineage is not everything to us. For years, I have honed my skills with spear, sword, and bow. My bravery and leadership have earned me the title of Glade Captain."/>
+  <string id="backstory_b.tor_wanderer_woodelf_1.text" text="Yet, I still aspire to reach greater heights. To become a Glade Lady and earn the title of ‘Talon of Kurnous, I must build a formidable reputation and demonstrate my prowess to all of Athel Loren."/>
+  <string id="backstory_c.tor_wanderer_woodelf_1.text" text="The forest is a living entity. With proper respect, it can be shaped to your will. Many seek out those with my abilities. That is why I have ventured far from home, seeking new challenges to perfect my skills and earn a name that commands respect among the great houses of the Asrai."/>
+  <string id="response_1.tor_wanderer_woodelf_1.text" text="If you join in my company, I guarantee that you will have that opportunity"/>
+  <string id="response_2.tor_wanderer_woodelf_1.text" text="An Asrais duty is in the forest, you should return home."/>
+  <string id="backstory_d.tor_wanderer_woodelf_1.text" text="If your warband could need a second leader in command I am willing to join. I will lead your troops to victory"/>
+  <string id="generic_backstory.tor_wanderer_woodelf_1.text" text="Are you a renowned commander? Can you aid me in achieving such a status? I trust you have no objection to proving your worth."/>
+  <string id="prebackstory.tor_wanderer_woodelf_2.text" text="May Kurnous be with you, Stranger."/>
+  <string id="backstory_a.tor_wanderer_woodelf_2.text" text="I am a Waywatcher, a master of ambush and stealth. As a child, I felt the call of the forest coursing through my blood. I was trained to vanish into the wilds, unseen and undetectable, as I awaited my prey."/>
+  <string id="backstory_b.tor_wanderer_woodelf_2.text" text="I have ventured deep into the forest, where even the Asrai are not safe. While others remain sheltered in their halls, I have honed my skills and sharpened my aim."/>
+  <string id="backstory_c.tor_wanderer_woodelf_2.text" text="Few among the elves can hope to rival a Waywatcher like me with the bow."/>
+  <string id="response_1.tor_wanderer_woodelf_2.text" text="Certainly, you must be a prodigy"/>
+  <string id="response_2.tor_wanderer_woodelf_2.text" text="Didnt the Asrai enjoy your company?"/>
+  <string id="backstory_d.tor_wanderer_woodelf_2.text" text="I am adept in the arts of survival, disruption, and ambush. I can approach my quarry, strike swiftly, and vanish before its body hits the ground. Alternatively, I can subtly lead it into one of my traps."/>
+  <string id="generic_backstory.tor_wanderer_woodelf_2.text" text="I have but one request. Although I seldom leave the forest, when I do, I seek the pleasures of civilised life. A fine wine in the tavern, pleasant company... I trust your group can provide these comforts."/>
+  <string id="tor_religion_label_str" text="Relihija"/>
+  <string id="tor_religion_text_frame_str" text="{TOR_DEVOTION_LEVEL} of {TOR_RELIGION}"/>
+  <string id="tor_religion_change_notification_frame_str" text="{PLAYER.NAME} is now a {TOR_DEVOTION_LEVEL} of the {TOR_RELIGION}"/>
+  <string id="tor_religion_label_none_str" text="Not a follower of any religion"/>
+  <string id="tor_religion_label_follower_str" text="Follower"/>
+  <string id="tor_religion_label_devoted_str" text="Devoted"/>
+  <string id="tor_religion_label_fanatic_str" text="Fanatic"/>
+  <string id="tor_religion_description_cult_of_sigmar_str" text="Kult Zihmara, časam zvany Carkvoj Zihmara, Śviatym Chramam Zihmara, Śviatarstvam Zihmara albo prosta Kultam Zihmarytaŭ, zjaŭlajecca dziaržaŭnaj carkvoj Impieryi, jakaja kiruje pašanaj boha patrona haspadarstva, Zihmara Cheldenchammara. Kult Zihmara byŭ zasnavany manacham dzikaha-voka Johannam Chelstrumam u 73 hodzie IC, padčas zjaŭleńnia narodu dziela kazańnia pra svajo bačańnie, u jakim Zihmar stajaŭ na kaleniach pierad Ulrykam, boham vajny i zimy, jaki ŭskłaŭ na jaho čało karonu boskaści, i Zihmar zaniaŭ svajo miesca siarod bahoŭ panteona Staroha Śvieta. Siońnia, Kult Zihmara staŭ nieadjemnaj častkaj Impierskaha hramadstva. Amal kožny horad, miastečka i vioska ŭ Impieryi vydzielili častku svaich bahaćciaŭ i ziamli dziela stvareńnia i padtrymańnia Zihmaryckaha Chrama. Za hetyja srodki śviatary Kulta Zihmara kłapaciacca pra duchoŭny dastatak svaich hramadzianaŭ śviatymi słovami malitvy, hieraičnymi dziejami i bajavymi ispytami."/>
+  <string id="tor_religion_description_cult_of_taal_str" text="Kult Taala i Rai - adzin z najstaražytnych i raspaŭsiudžanych u Starym Śviecie, jon viadzie pramuju liniju da pieršabytnych bahoŭ z samych hłybiń historyi. Kult raźvivaŭsia arhanična padčas sprob pieršych ludziej patłumačyć pryrodnyja zjavy, naprykład, hrom, źmienu poraŭ hoda, prylivaŭ i adlivaŭ mora. Z časam zjavilisia Bohi Taal i Raja, jakija spačatku byli adzinym cełym, viadomym jak Išnernas. Hety padzieł adbyŭsia šmat tysiač hadoŭ tamu, i Kult Išnernasa zastaŭsia tolki ŭva ŭspaminach. Taal panuje nad pryrodaj i ličycca Haspadarom Bahoŭ. Jon ličyć dzikija miescy svaimi vaładarstvami, i jamu pakłaniajucca pa-bolšaści tryvałyja laśniki, pastkary i śledapyty. Paśladoŭnikaŭ Rai lha sustreć na apracavanych palach i ŭ sadach Impieryi, siarod ziemlarobaŭ, rybakoŭ i maładych kachankaŭ. Kult Taala i Rai zjaŭlajecca sankcyjanavanym kultam Tałabeklanda i karystajecca vialikaj papularnaściu ŭva ŭschodnich i paŭnočnych častkach Impieryi. Najvialikaje pryznańnie atrymlivaje Taal, a rola Rai značna źmianšajecca. U bujnych haradach Tałabchajma asabliva dbajna ŭšanoŭvajuć abodvuch Taala i Raju. Ale ŭ inšych haradach, chacia imia Rai šyroka viadomaje, ušanoŭvajuć jaje redka, što prymušaje šmatlikich haradžan rabić vysnovu, što jaje kult u zaniapadzie."/>
+  <string id="tor_religion_description_cult_of_ulric_str" text="The Ulrican cult, Church of Ulric or simply the Cult of Ulric is the state approved religious organisation that administrates the worship of the god of war, winter, and wolves. It is second in power and influence to the Cult of Sigmar, but is amongst the most ancient religions of the Empire of Man and dates back before the Empire was created by Sigmar. As a god of war, it is through battle and bloodshed that Ulric is worshipped, any who dare oppose him are merely awaiting the ferocious bite of his priests. {newline}   {newline}   Ulric give me the fangs of the wolf,   {newline}   Ulric give me the claws of the wolf,   {newline}   Ulric give me the coat of the wolf,   {newline}   And I will show your enemies the mercy of the wolf."/>
+  <string id="tor_religion_description_cult_of_shallya_str" text="The Cult of Shallya is dedicated to the White Dove of Mercy, the Lady in White, Shallya. Compassion, mercy and healing are the doctrines of the cult, and her priests offer aid to those in need across the Empire. The Old World is a gruelling place filled with disease, injury and bad fortune that can drive a person to utter despair, it is these folk who turn to Shallya whose priests bring the promise of mercy and comfort. Her temples double as hospitals for those who cannot afford a physician, run by her devout priestesses for few men serve her order."/>
+  <string id="tor_religion_description_cult_of_manaan_str" text="The religious organisation that oversees and administrates the worship of the god of the sea, oceans, and tides across the Old World. It is most prevalent along the western border of the Empire where the waters of the Sea of Claws touch the shores of man, and most influential within Marienburg. Its members are often navigators, pilots and able-bodied sailors and it is seen as immense luck to have a priest of Manaan aboard your vessel.   {newline}   {newline}   Manann be praised, for he is the breeze to take us out, {newline}   Manann be praised, for he is the wave to bring us home, {newline}   Manann be praised, for he is the food to feed us,{newline}   Manann be praised, or his be the wrath that drowns us."/>
+  <string id="tor_religion_description_cult_of_lady_str" text="Kult Vaziornaj Łedzi, ci prosta Kult Łedzi, - heta dziaržaŭny relihijny kult zaklikany prytrymlivacca i padtrymlivać kaštoŭnaści, ustalavanyja Vaziornaj Łedzi, i słužyć jaje zacikaŭlennaściam i Bretońskaha Karaleŭstva. Z daŭnich časoŭ Bretońcy ŭšanoŭvajuć Łedzi Voziera jak svaju bahiniu i hałoŭnaje bostva, postaci z mitaŭ i lahiendaŭ, jakaja nakiroŭvaje ich Karalej i baronić kraj ad licha. Pakłanieńnie Łedzi prasočvajecca ad najrańnich dzion isnavańnia Karaleŭsta. Havorać, što jana zjaviłasia z śviatoha voziera pierad Žylam lu Bretonam i jaho Rycarskimi Paplečnikami na zołkie Vialikaj Pieramohi la Bordulu. Achutanaja śviatłom fejaŭ, Łedzi ŭźniałasia z vady z Hraalem, pierapoŭnienym śviatłom, što raŭlivałasia pa vodam voziera, i dabrasłaŭlała sabranych rycaraŭ da tych časoŭ, pakul nad horami nie zamihacieŭ śvitanak."/>
+  <string id="tor_religion_description_cult_of_nagash_str" text="Vampiry ŭsich hatunkaŭ nienavidziać bahoŭ. Jany nie admaŭlaŭć ich isnavańnia, ale nia słužać im, imknucca być roŭnymi im. Najblizkaj da relihii vampirskaj idejaj zjaŭlajecca ich ahulnaje pryznańnie Nahaša jak stvaralnika śmierci. Narešcie, usie vampiry pachodziać ad jaho. Nahaš viadomy pad mnohimi imionami: Vialiki Niekramant, Vialiki Zdradnik, Uzurpatar, Nieśmiarotny Vaładar, Viarchoŭny Vaładar Niamiortvych abo prosta Toj Chto Nia Musić Być Nazvany, - vyšejšaje uvasableńnie śmierci i niežyci, staražytnaje, złoje stvareńnie, što imkniocca pakaryć hety luty, chaatyčny śmiertny śviet i pačać eru Niamiortvych, jakija buduć panavać viečnaść. Nahaš - heta ciemra i biespryčynnaja nianaviść, što zdabyła formu, baćka i stvaralnik strašennaha majsterstva niekramancii dy vaładar usich Vampiraŭ. Usie jaho dziejańni i ŭčynki nakiravany na dasiahnieńnie ŭłasnych metaŭ, usie jaho dasiahnieńni žachlivyja i ahidnyja; ŭsie jaho žadańni nakiravany tolki na toje, kab nichto i nikoli nie admaŭlaŭ i nie asprečvaŭ jaho prava na ŭładu."/>
+  <string id="tor_religion_description_cult_of_chaos_undivided_str" text="Termin Chaos Niepadzielny tyčycca siłaŭ Chaosu, što słužać usiomu panteonu asnoŭnych Bahoŭ Chaosu ahulna, i nie zachoŭvajuć poŭnuju addanaść adnomu z Bahoŭ. Pradstaŭnikom hetaj frakcyi časta vystupaje Stałaabrany Chaosu, Śmiertny Łord Chaosu, jaki zjaŭlajecca najvialikim čiompijonam Bahoŭ Chaosu. Paśladoŭniki Chaosu Niepadzielnaha ŭšanoŭvajuć samu moc Chaosu, časam u formie istoty, jakuju niekatoryja šalonyja vučonyja Staroha Śvieta kličuć Vialikim Źvieram, u jakoj asnoŭnyja Bahi Chaosu razhledžvajucca jak adzinaje bostva, čatyry hałoŭnyja składalnyja častki jakoha musiać ušanoŭvacca ŭ roŭnaj stupieni jak  roznyja emanacyja adnoj i toj ža ŭniviersalnaj siły. Časam hetaja istota adkidvaje svaju šalonuju ŭnutranuju baraćbu, viadomuju jak Vialikaja Hulnia, kab dać mahčymaść razroźnienym vojskam asnoŭnych Bahoŭ Chaosu sabracca pad adzinym ściaham, jak, naprykład, padčas raznych uvarvańniaŭ Chaosu ŭva Viadomy Śviet, naprykład, Vialikaj Vajny Suprać Chaosu i Kanca Časoŭ. Hetyja momanty prymušajuć Stary Śviet dryžać i kałacicca ad strachu i nianaviści."/>
+  <string id="tor_religion_description_cult_of_chaos_slaanesh_str" text="Słaaneš, viadomy taksama jak Ciomny Prync, Prync Asałody, Vaładar Praźmiernaściaŭ, Bostva Apantanaści, Źmiej, Majstar Praźmiernaściaŭ Usich Hatunkaŭ, Daskanały Prync i navat Prync Chaosu, - hałoŭny Boh Chaosu, što ŭvasablaje asałodu, prahu, apantanaść, praźmiernaści, hiedanizm, dekadans i bolu. Narodžany z natchnieńniaŭ i žadańniaŭ śmiertnych, Słaaneš - vialikaja muza, što vykonvaje mary. Jon praha, što zdabyła formu. Jon - uvasoblenaja asałoda, ad intelektualnaha zadavalnieńnia za vyrašeńnie prablemy da zabieśpiačeńnia nizkich žadańniaŭ. Jon - kraj rasčaravańnia i pakut; zmahańnie za dasiahnieńnie taho, čaho prahnuć śmiertnyja. Jon - jurlivaść. Jon - pakuta. Jon - suma ŭsich pieražyvańniaŭ śmiertnaha."/>
+  <string id="tor_religion_description_cult_of_chaos_nurgle_str" text="Nurhł, taksama viadomy jak Vaładar Čumy, Dziadunia Nurhl, Vaładar Moru, Vaładar Much, Tvojbaćka i Krumkač dy šmat inšych imion, - hałoŭny Boh Chaosu, što sparadžaje chvaroby, zaniapad, rospač, rujnavańnie, śmierć i adradžeńnie. Nurhł - Boh Chaosu, najbolš niepasredna źviazany z dolej śmiarotnych, asabliva ludziej, jakija hetak vostra pakutujuć ad strachu śmierci. Jon starejšy z čatyroch Bahoŭ Chaosu i, biez sumnievu, najstaražytny z usich Bahoŭ Chaosu, bo praces śmierci i raspadu taki ž staražytny, jak i samo žyćcio. Nurhł - uvasableńnie stałaha cykłu śmierci i adradžeńnia, što adušaŭlaje ŭsio žyvoje ŭva Suśviecie, i zjaŭviŭsia na śviet dziakujučy strachu śmiertnych pierad śmierciu i rospačču, jakoje jany adčuvajuć da niepaźbiežnaj śmierci ad staraści i chvarobaŭ."/>
+  <string id="tor_religion_description_cult_of_chaos_khorne_str" text="Kchorn, taksama viadomy jak Kryvavy Boh, Vaładar Zabojstvaŭ, Vaładar Čerapoŭ, Palaŭničy za Dušami i Hančak u Norskie, - hałoŭny Boh Chaosu, što ŭvasablaje vajnu, nianaviść, hnieŭ, lutaść, zabojstva, kryviu, moc, advahu i vajarski honar. Kchorn - druhi pa staršynstvu z asnoŭnych Rujnavalnych Mocaŭ, dy j jaho rosłaja siła ŭ hety čas stałych kanfliktaŭ časta robić jaho najmahutnym z Bahoŭ Chaosu ŭva jaho ŭpłyvie na śviet śmiarotnych i Vialikuju Hulniu pamiž bahami. Jaho haspadarstva achutvaje najhałoŭnyja i najžorstkija emocyi - nianaviść, hnieŭ, lutaść, imknieńnie da razbureńnia i radaść ad zabojstva vorahaŭ. Usiaki akt zabojstva ŭ śviecie śmiertnych siłkuje i ŭzmacniaje Kchorna, i čym bolš biassensoŭna, źlej i kryvažerniej, tym lepiej."/>
+  <string id="tor_religion_description_cult_of_chaos_tzeentch_str" text="Tziinč, taksama viadomy jak Źmieńnik Šlachoŭ, Vaładar Źmienaŭ, Architektar Losu, Vaładar Viatroŭ, Krumkačy Boh i Vialiki Zmoŭnik, - hałoŭny Boh Chaosu, adkazny za pieramieny, evalucyju, ambicyi, intryhi, losy, chłuśniu, chitraść, viadźmarstva, viedy i mutacyi. Chacia stomlenyja vučonyja-demanołahi viedajuć hetaha boha pad imiom Tziinč, nasamreč jon pierasiahaje ŭsie astatnija Rujnavalnyja Mocy pa kolkaści hraniaŭ, imion i aśpiektaŭ. Bo jon - źmiena; havorać, jon uvasablaje ŭ sabie ŭśviedamleńnie i žadańnie kožnaj śmiarotnaj istoty źmianiacca, raści, ruchacca, imknucca da bolšaha - da viedaŭ, bahaćcia, ułady. Jaho tvar i forma źmianiajucca i pieratvarajucca z viečnaści ŭva viečnaść."/>
+  <string id="tor_religion_name_of_god_cult_of_sigmar_str" text="Zihmar"/>
+  <string id="tor_religion_name_of_god_cult_of_taal_str" text="Taal"/>
+  <string id="tor_religion_name_of_god_cult_of_ulric_str" text="Ulric"/>
+  <string id="tor_religion_name_of_god_cult_of_shallya_str" text="Shallya"/>
+  <string id="tor_religion_name_of_god_cult_of_manaan_str" text="Manaan"/>
+  <string id="tor_religion_name_of_god_cult_of_lady_str" text="Łedzi"/>
+  <string id="tor_religion_name_of_god_cult_of_nagash_str" text="Nahaš"/>
+  <string id="tor_religion_name_of_god_cult_of_isha_str" text="Isha"/>
+  <string id="tor_religion_name_of_god_cult_of_kurnous_str" text="Kurnous"/>
+  <string id="tor_religion_name_of_god_cult_of_vaul_str" text="Vaul"/>
+  <string id="tor_religion_name_of_god_cult_of_anath_raema_str" text="Anath Raema"/>
+  <string id="tor_religion_name_of_god_cult_of_asuryan_str" text="Asuryan"/>
+  <string id="tor_religion_name_of_god_cult_of_loec_str" text="Loec"/>
+  <string id="tor_religion_name_of_god_chaos_undivided_str" text="Rujnavalnyja Mocy"/>
+  <string id="tor_religion_name_of_god_cult_of_slaanesh_str" text="Słaaneš"/>
+  <string id="tor_religion_name_of_god_cult_of_nurgle_str" text="Nurhł"/>
+  <string id="tor_religion_name_of_god_cult_of_khorne_str" text="Kchorn"/>
+  <string id="tor_religion_name_of_god_cult_of_tzeentch_str" text="Tziinč"/>
+  <string id="tor_religion_blessing_effect_description_cult_of_sigmar" text="Earn 20% more prestige."/>
+  <string id="tor_religion_blessing_effect_description_cult_of_shallya" text="Čalcy vašaj partyi zahojvajuć (lekujuć) rany na 20% chutčej."/>
+  <string id="tor_religion_blessing_effect_description_cult_of_taal" text="Pavialičvaje chutkaść ruchu vašaj partyi ŭ lasach na 20%."/>
+  <string id="tor_religion_blessing_name_cult_of_ulric_str" text="Pavialičvaje atrymańnie dośviedu ad bitvaŭ na 20%."/>
+  <string id="tor_religion_blessing_effect_description_cult_of_manaan" text="All troops in your party deal an extra 10% damage as lightning damage."/>
+  <string id="tor_religion_blessing_effect_description_cult_of_lady" text="Bretonnian origin only, earn 15 Chivalry every day."/>
+  <string id="tor_religion_blessing_effect_description_cult_of_loec" text="All troops in your party gain an extra 15% movement speed and 10% attack speed."/>
+  <string id="tor_religion_blessing_effect_description_cult_of_isha" text="Your winds of magic regenerate 25% faster."/>
+  <string id="tor_religion_blessing_effect_description_cult_of_asuryan" text="All troops in your party deal an extra 10% damage as fire damage."/>
+  <string id="tor_religion_blessing_effect_description_cult_of_vaul" text="All troops in your party gain 10% physical resistance."/>
+  <string id="tor_religion_blessing_effect_description_cult_of_raema" text="Get 7 copies of a random item looted post-battle."/>
+  <string id="tor_religion_blessing_effect_description_cult_of_kurnous" text="All ranged troops in your party deal an extra 10% physical damage."/>
+  <string id="tor_religion_blessing_name_cult_of_sigmar_str" text="Błasłavieńnie Zihmara"/>
+  <string id="tor_religion_blessing_name_cult_of_taal_str" text="Blessing of Shallya"/>
+  <string id="tor_religion_blessing_name_cult_of_lady_str" text="Błasłavieńnie Łedzi"/>
+  <string id="tor_religion_blessing_name_cult_of_manaan_str" text="Blessing of Manaan."/>
+  <string id="tor_religion_blessing_name_cult_of_loec_str" text="Blessing of Loec."/>
+  <string id="tor_religion_blessing_name_cult_of_isha_str" text="Blessing of Isha."/>
+  <string id="tor_religion_blessing_name_cult_of_asuryan_str" text="Blessing of Asuryan."/>
+  <string id="tor_religion_blessing_name_cult_of_vaul_str" text="Blessing of Vaul."/>
+  <string id="tor_religion_blessing_name_cult_of_raema_str" text="Blessing of Anath Raema."/>
+  <string id="tor_religion_blessing_name_cult_of_kurnous_str" text="Blessing of Manaan."/>
+  <string id="tor_career_title_warrior_priest_str" text="Śviatar-Vajar Zihmara"/>
+  <string id="tor_career_title_minor_vampire_str" text="Vampirski Šlachcič"/>
+  <string id="tor_career_title_grail_knight_str" text="Bretoński Rycar"/>
+  <string id="tor_career_title_grail_damsel_str" text="Cnatliŭka Łedzi"/>
+  <string id="tor_career_title_blood_knight_str" text="Kryvavy Rycar"/>
+  <string id="tor_career_title_mercenary_str" text="Najmit"/>
+  <string id="tor_career_title_necromancer_str" text="Necromancer"/>
+  <string id="tor_career_title_black_grail_knight_str" text="Knight of Mousillon"/>
+  <string id="tor_career_title_necrarch_str" text="Necrarch"/>
+  <string id="tor_career_title_waywatcher_str" text="Waywatcher"/>
+  <string id="tor_career_switch_title_necrarch_str" text="Become a Carstein Vampire"/>
+  <string id="career_choicegroup1_witch_hunter_str" text="Witch Hunter Initiate"/>
+  <string id="career_choicegroup2_witch_hunter_str" text="Witch Hunter Captain"/>
+  <string id="career_choicegroup3_witch_hunter_str" text="Master Witch Hunter"/>
+  <string id="career_choicegroup1_warrior_priest_ulric_str" text="Acolyte"/>
+  <string id="career_choicegroup2_warrior_priest_ulricstr" text="Wolf Priest"/>
+  <string id="career_choicegroup3_nwarrior_priest_ulric_str" text="High Priest of Ulric"/>
+  <string id="career_choicegroup1_warrior_priest_str" text="Kultyst Zihmara"/>
+  <string id="career_choicegroup2_warrior_priest_str" text="Śviatar-Vajar"/>
+  <string id="career_choicegroup3_warrior_priest_str" text="Archilektar"/>
+  <string id="career_choicegroup1_minor_vampire_str" text="Novaja Kryvia"/>
+  <string id="career_choicegroup2_minor_vampire_str" text="Vampir"/>
+  <string id="career_choicegroup3_minor_vampire_str" text="Uzvyšany"/>
+  <string id="career_choicegroup1_blood_knight_str" text="Paśviečany"/>
+  <string id="career_choicegroup2_blood_knight_str" text="Kryvavy Rycar"/>
+  <string id="career_choicegroup3_blood_knight_str" text="Majstar"/>
+  <string id="career_choicegroup1_grail_knight_str" text="Vandroŭny Rycar"/>
+  <string id="career_choicegroup2_grail_knight_str" text="Kvestavy Rycar"/>
+  <string id="career_choicegroup3_grail_knight_str" text="Rycar Hraala"/>
+  <string id="career_choicegroup1_mercenary_str" text="Rekrut"/>
+  <string id="career_choicegroup2_mercenary_str" text="Siaržant"/>
+  <string id="career_choicegroup3_mercenary_str" text="Kamandzir"/>
+  <string id="career_choicegroup1_grail_damsel_str" text="Dzieva Hraala"/>
+  <string id="career_choicegroup2_grail_damsel_str" text="Cnatliŭka Hraala"/>
+  <string id="career_choicegroup3_grail_damsel_str" text="Praročyca"/>
+  <string id="career_choicegroup1_black_grail_knight_str" text="Ill-fated Noble"/>
+  <string id="career_choicegroup2_black_grail_knight_str" text="Ill-fated Questing Knight"/>
+  <string id="career_choicegroup3_black_grail_knight_str" text="Knight of the Black Grail"/>
+  <string id="career_choicegroup1_necrarch_str" text="Apprentise"/>
+  <string id="career_choicegroup2_necrarch_str" text="Seeker"/>
+  <string id="career_choicegroup3_necrarch_str" text="Ascended"/>
+  <string id="career_choicegroup1_imperialmagister_str" text="Apprentice Magister"/>
+  <string id="career_choicegroup2_imperialmagister_str" text="Battle Wizard"/>
+  <string id="career_choicegroup3_imperialmagister_str" text="Lord Magister"/>
+  <string id="career_choicegroup1_waywatcher_str" text="Scout"/>
+  <string id="career_choicegroup2_waywatcher_str" text="Waywatcher"/>
+  <string id="career_choicegroup3_waywatcher_str" text="Waystalker"/>
+  <string id="career_choicegroup1_spellsinger_str" text="Spellsinger"/>
+  <string id="career_choicegroup2_spellsinger_str" text="Spellweaver"/>
+  <string id="career_choicegroup1_greylord_str" text="Exiles Apprentice"/>
+  <string id="career_choicegroup2_greylord_str" text="Grey Mage"/>
+  <string id="career_choicegroup3_greylord_str" text="Grey Lord"/>
+  <string id="career_description_warriorpriest_str" text="Pry žyćci Zihmar vystupaŭ za abjadnańnie Čałaviectva, źniščeńnie zła i supraćstajańnie karupcyi. Vy stroha prytrymlivajeciesia jaho šlachu. Zjaŭlacca śviatarom relihii Zihmara - značyć być pastyram dla ŭsioha čałaviectva. Mnohija śviatary zastajucca ŭva svaich chramach i saborach, ale vy viedajecie praŭdu: praklatyja i čartoŭskija musiać być znojdzieny i pieramožany."/>
+  <string id="career_description_warriorpriest_ulric_str" text="To be a Wolf Priest is to be one of Ulrics champions, powerful, zealous, and blessed by the feral god himself. The battleground is where the word of Ulric is spread, and it is through bloodshed that he is honoured in worship."/>
+  <string id="career_description_bloodknight_str" text="Kryvavy Rycar, narodžany Abchorašaš, - heta zmročnaja ŭchmyłka nad usim šlachietnym i dabradziejnym, što majuć jaho śmiertnyja subraty. Tam, dzie da Kryvavaha Pacałunka byŭ honar, zaraz zastałasia tolki lutaść; viera pieratvaryłasia ŭva biezrazvažnaść; abaviazak - u biespryncypovaść. Heta tyčycca ŭsich vampiraŭ, ale asabliva trahična heta vyhladaje dla pałych rycaraŭ Staroha Śvieta."/>
+  <string id="career_description_minorvampire_str" text="Vampiry viadomyja pad roznymi imionami i ich bajacca, jany - ciomnyja vaładary nočy. Nočču ŭsiaki, Čałaviek ci Źvier, Śviaty ci Deman, moža sustreć jaho ŭ tvar i vyžyć. Usie vampiry imknucca stać adzinymi haspadarami svajho žyćcia, volnymi ad choć-jakich abaviazkaŭ da relihijaŭ i majstaraŭ. Hetaje ehaistyčnaje imknieńnie šturchaje ich na ŭsie bolšyja i bolšyja ambicyi, kab adnojčy stać haspadarom usiaho, što bačna."/>
+  <string id="career_description_mercenary_str" text="Być čałaviekam ŭ 25-m stahodździ - značyć być adnym z tysiač. Stary Śviet staić na parozie razbureńnia i chvalavańniaŭ, chaosu i śmierci. Nichto ŭ hetuju eru nia moža być słabym; niekatoryja vykarystoŭvajuć čas u svaich zacikaŭlennaściach i pieratvarajuć vajnu ŭ svajo bahaćcie, bojku - u chvału, trahiedyju - u dolu. Niachaj vas zavuć najmitam, ale, jak by vas nie nazyvali, nichto nia budzie rasparadžacca vašaj dolaj."/>
+  <string id="career_description_grailknight_str" text="Być rycaram Bretońnii - značyć imknucca da błasłavieńnia Łedzi i jaje śviatoha Hraala. Kožny, kaho paličać vartym vypić ź jaje čašy, stanovicca śviatym vajarom, šanavanym i pavažanym uva ŭsioj Bretońnii i navat dalej. Niachaj daroha da hetaj mety składanaja, hetak, što balšynia rycaraŭ nie dasiahajuć jaje, niahledziačy na toje, što žadajuć ahulnuju adzinuju maru."/>
+  <string id="career_description_graildamsel_str" text="Cnatlivak u dziacinstvie šukajuć Fei-Čaradziejki za ichni ŭtojeny mahičny patencyjał. Zabranyja z siemjaŭ, jany tajemna vychoŭvajucca, kab stać mahutnymi zachoŭnicami spraviadlivaj Bretońnii. Paśla zaviaršeńnia navučańnia jany rušać u darohu, prychodziać na dapamohu ludziam, upłyvajuć na rycaraŭ dziela realizacyi svajho bajavoha patencyjału."/>
+  <string id="career_description_necromancer_str" text="While many of these dark magisters serve under immortal vampires, it is actually the study of death and undeath that predates the vampire. Necromancers dedicate their lives researching the ultimate question facing every mortal; how to live forever? To the philosophically virtuous necromancer, vampirism is but one of the more successful failures at answering this question. The true answer is believed by these fell scholars to lay in study and innovation of the work of Nagash, the first and greatest necromancer of all time."/>
+  <string id="career_description_witchHunter_str" text="Whether in the name of faith, purity or reward, Witch Hunters are charged with ending the threat created by all those who spread the taint of darkness. They justify their weapons, unconventional instruments and methods of investigations in the name of protecting innocent souls. A mostly thankless task, as even those who they are sworn to protect fear the shadow of a Witch Hunter at their threshold."/>
+  <string id="career_description_black_grail_knight_str" text="Foreboding and Dreadful, Knights of the Black Grail are the personal retinue of the mysterious Serpent of Mousillon. As strong as they are cunning, Knights of the Black Grail have a knack for strategy and show great aptitude when faced with the many politics of Bretonnia. Even so, their honeyed words and forked tongue often reach into the hearts of many, drawing more to their cause of &quot;freeing&quot; Bretonnia from the filthy lie of the Lady."/>
+  <string id="career_description_necrarch_str" text="Amongst all the creations of Nagash, the Necrarchs are perhaps the closest in image to their dark lord. All Necrarchs are dedicated towards one single goal, furthering their necromantic power; hiding away from civilisation they endlessly study and practice their foul magic. On the few occasions one has left their self-imposed isolation, it is almost always followed by a trail of carnage and ruin as few can survive these eternal fiends."/>
+  <string id="career_description_imperialmagister_str" text="Magisters of the Colleges of Magic lead a prestigious life as they are given space and resources to hone their skills in safety – all this in exchange for a life of service to their Order and the Empire as a whole. The duties of a Magister are vast and may range from the destruction of dark forces to advising the lords and ladies of the Empire in various matters. While ordinary men of the Empire may scoff at the necessity of Magisters, the wise know them to be wardens against Chaos and its sorcery."/>
+  <string id="career_description_waywatcher_str" text="Waywatchers serve as the ultimate watchmen of Athel Loren, lords over the many paths leading in and out of the ancient wood. Master woodsmen and hunters, they can lie in ambush for several days, fire unerringly accurate barrages of arrows, and lay terrifying traps designed to kill, maim and dishearten any trespasser. Few marksmen can even approach a Waywatchers ability with the bow, even among the elves, as these elves have drifted the furthest away from elven civilization, embracing fully the call of the living forest."/>
+  <string id="career_description_greylord_str" text="The Greylords were once powerful mages of Ulthuan, but they were exiled for their cruel experiments. Today, the Greylords continue their often-dangerous experiments in secret in Laurelorn, willingly teach their apprentices the forbidden magic. The Greylords are not to be trifled with, by their power alone has the forest of Laurelorn been saved many times, though some remain fearful their powers may also doom the Eonir."/>
+  <string id="career_description_spellsinger_str" text="Spellsingers have a unique bond with Athel Loren, they are bound to the forest through magical ritual, giving then the same communal awareness that dryads or treekin enjoy, without sacrificing their individuality. While the lesser Spellsingers commune with the forest, the greater ones can reshape it for building of homes or destruction of enemies. In Athel Loren Spellsingers are artists and mages, and invariably are the ones that travel outside the forest to engage in rare diplomacy. While both men and women become Spellsingers, the women typically become stronger due to Ariels bond with the forest of Athel Loren."/>
+  <string id="tor_extendedInfo_undead_str" text="Undead- Is not affected by morale and instead of fleeing this unit crumble. If defeated, unit cannot be wounded."/>
+  <string id="tor_extendedInfo_artillerycrew_str" text="Artillery Crew -  Can and is required to operate a cannon"/>
+  <string id="tor_extendedInfo_unbreakable_str" text="Unbreakable -  Unit will not flee due to low morale"/>
+  <string id="tor_extendedInfo_unstoppable_str" text="Unstoppable -  Unit will not show any signs of pain when being hit"/>
+  <string id="tor_damagetype_invalid_str" text="Invalid"/>
+  <string id="tor_damagetype_physical_str" text="Physical"/>
+  <string id="tor_damagetype_magical_str" text="Magical"/>
+  <string id="tor_damagetype_fire_str" text="Fire"/>
+  <string id="tor_damagetype_holy_str" text="Holy"/>
+  <string id="tor_damagetype_frost_str" text="Frost"/>
+  <string id="tor_damagetype_lightning_str" text="Lightning"/>
+  <string id="str_facegen_skin.TorsoBelly.text" text="Belly Girth"/>
+  <string id="str_facegen_skin.TorsoHips.text" text="Hip Size"/>
+  <string id="str_facegen_skin.TorsoButt.text" text="Butt Size"/>
+  <string id="str_facegen_skin.Thigh.text" text="Thigh Size"/>
+  <string id="str_facegen_skin.Calf.text" text="Calf Size"/>
+  <string id="str_facegen_skin.Foot.text" text="Foot Size"/>
+  <string id="str_facegen_skin.TorsoX.text" text="Torso Width"/>
+  <string id="str_facegen_skin.TorsoY.text" text="Torso Depth"/>
+  <string id="str_facegen_skin.TorsoZ.text" text="Torso Height"/>
+  <string id="str_facegen_skin.ThoraxX.text" text="Chest Width"/>
+  <string id="str_facegen_skin.ThoraxY.text" text="Chest Depth"/>
+  <string id="str_facegen_skin.ThoraxZ.text" text="Chest Height"/>
+  <string id="str_facegen_skin.Neck.text" text="Neck Size"/>
+  <string id="str_facegen_skin.HeadDepth.text" text="Head Depth"/>
+  <string id="str_facegen_skin.HeadWidth.text" text="Head Width"/>
+  <string id="str_facegen_skin.HeadHeight.text" text="Head Height"/>
+  <string id="str_facegen_skin.Shoulders.text" text="Shoulder Size"/>
+  <string id="str_facegen_skin.UpperarmSize.text" text="Bicep Size"/>
+  <string id="str_facegen_skin.ForearmSize.text" text="Forearm Size"/>
+  <string id="str_facegen_skin.HandSize.text" text="Hand Size"/>
+  <string id="str_facegen_skin.weight.text" text="Muscle Tone"/>
+  <string id="str_facegen_skin.build.text" text="Ignore this"/>
+  <string id="str_facegen_skin.Weight2.text" text="Body Weight"/>
+  <string id="str_facegen_skin.Build2.text" text="Body Muscle"/>
+  <string id="careerchoice_description_warriorpriest_root_str" text="Śviatar-Vajar vyzvalaje lutaść Zihmara na 8 siakundaŭ. Nadzialaje śviatara i atačalnych chaŭruśnikaŭ uzmocnienymi na 20% atakami blizkaha boju. Kožnaje ačko Viery pavialičvaje efiekt blizkaha boju na 0.05% i praciahłaść na 0.05 siakund. Zdolnaść pierazaradžajecca padčas atrymańnia 50% škody ad ahulnaha zdaroŭja. Błakavanaja škoda ličycca jak 10% ad atrymanaj škody."/>
+  <string id="tor_hunt_perk_result_failed_str" text="Your daily hunt was not successful"/>
+  <string id="tor_hunt_perk_result_success_str" text="You were able to hunt down a {PERK_HUNT_ANIMAL_SIZE}, you gained {PERK_HUNT_PREY}"/>
+  <string id="str_tor_career_choice_basic_health" text="Increases Hitpoints by {EFFECT_VALUE}"/>
+  <string id="str_tor_career_choice_basic_companion_limit" text="Increases Companion Limit by {EFFECT_VALUE}."/>
+  <string id="str_tor_career_choice_basic_damage" text="{EFFECT_VALUE}% extra {EFFECT_DAMAGE_TYPE} {EFFECT_ATTACK_TYPE} damage"/>
+  <string id="str_tor_career_choice_basic_resistance" text="Add {EFFECT_VALUE}% {EFFECT_DAMAGE_TYPE} {EFFECT_ATTACK_TYPE} resistance"/>
+  <string id="str_tor_career_choice_basic_armorpenetration" text="Add {EFFECT_VALUE}% armor penetration"/>
+  <string id="str_tor_career_choice_basic_horsehealth" text="{EFFECT_VALUE}% additional Hitpoints for the players mount."/>
+  <string id="str_tor_career_choice_basic_horsechargedamage" text="Horse charge damage is increased by {EFFECT_VALUE}%"/>
+  <string id="str_tor_career_choice_basic_windsofmagic" text="Increases max Winds of Magic by {EFFECT_VALUE}%."/>
+  <string id="inky_battlefield_strid_title" text="Kithband Symbol"/>
+  <string id="str_tor_treesymbol_description_kithbandsymbol" text="Increase your party size by 50% , Forest harmony gain is decreased by 25% and wages are increased by 15%."/>
+  <string id="str_tor_treesymbol_description_wardancersymbol" text="The Player and companion gain 25% additional health, and recover wounds 25% faster. All troops heal 25% slower and Forest Harmony is gained 25% slower."/>
+  <string id="str_tor_treesymbol_description_treekinsymbol" text="Treekin Forest Harmony upkeep is 50% lower. Wages of elves are 25% higher."/>
+  <string id="str_tor_treesymbol_description_orionsymbol" text="Wages of elves are reduced by 50%. Forest Spirit unit upkeep is doubled."/>
+  <string id="str_tor_treesymbol_description_arielsymbol" text="Winds capacity is increased by 25%. Regenerate +1 more Winds in Athel Loren. Upkeepcosts are increased by 50%."/>
+  <string id="str_tor_treesymbol_description_durthusymbol" text="Treeman capacity is increased by 50%. Health is increased by 25%. Party size is decreased by 25%. -20% Fire resistance."/>
+  <string id="str_tor_treesymbol_description_wanderersymbol" text="Low Forest Harmony has no negative Effect. Forest Harmony gain is reduced by 50% and upkeep is increased by 50%."/>
+  <string id="inky_continue.text" text="{inky_continue_str}"/>
+  <string id="inky_end.text" text="{inky_end_str}"/>
+  <string id="inky_party_skill_check_template_str" text="({inky_skill_check_skill_name} check with success chance {inky_Party_skill_CheckChance}%)"/>
+  <string id="inky_player_skill_check_template_str" text="({inky_skill_check_skill_name} check with success chance {inky_Player_skill_CheckChance}%)"/>
+  <string id="inky_player_attribute_check_template_str" text="({inky_attribute_check_attribute_name} check with success chance {inky_Player_attribute_CheckChance}%)"/>
+  <string id="inky_party_attribute_check_template_str" text="({inky_attribute_check_attribute_name} check with success chance {inky_Party_attribute_CheckChance}%)"/>
+  <string id="inky_cabin_in_the_woods_locked_door_text_weak_str" text=" weak"/>
+  <string id="inky_cabin_in_the_woods_locked_door_text_average_str" text=" average"/>
+  <string id="inky_cabin_in_the_woods_locked_door_text_strong_str" text=" strong"/>
+  <string id="inky_cabin_in_the_woods_locked_lock_text_weak_str" text=" weak"/>
+  <string id="inky_cabin_in_the_woods_locked_lock_text_average_str" text=" average"/>
+  <string id="inky_cabin_in_the_woods_locked_lock_text_strong_str" text=" strong"/>
+  <string id="inky_cabin_in_the_woods_locked_reward_text_1_str" text=" 5 grain"/>
+  <string id="inky_duel_met_before_false_str" text="you spot a mysterious figure approaching with confident strides. As they draw nearer, the glint of a finely crafted rapier catches your eye. The stranger stops before you, a warm smile on their face as they appraise you."/>
+  <string id="inky_duel_met_before_true_str" text="you spot the familiar figure of Vittorio de Luca, the renowned Tilean duelist, making his way towards your group with confident strides.{inky_DeniedBefore1}"/>
+  <string id="inky_duel_denied_before_false_str" text=" Memories of your previous encounter flood back, the thrill of the first duel still lingering in your mind."/>
+  <string id="inky_duel_denied_before2_false_str" text=" Care to prove your skills this time around?"/>
+  <string id="inky_duel_denied_before2_true_str" text="Care to prove your skills once more in a rematch?"/>
+  <string id="inky_duel_met_before2_true_str" text=" Once More"/>
+  <string id="inky_Duel.STR_Start2.text" text="{inky_MetBefore}"/>
+  <string id="inky_Duel.STR_Start3MetBefore.text" text="As Vittorio draws nearer, the glint of his finely crafted rapier catches your eye, and a warm smile spreads across his face as he appraises you. &quot;Ah, what a stroke of luck to meet again on this lonely path,&quot; he says, his voice carrying a playful undertone. &quot;I see the fire of a warrior still burns within you.&quot; {inky_DeniedBefore2}"/>
+  <string id="inky_Duel.STR_Start3NotMetBefore.text" text="&quot;Ah, what a stroke of luck to meet a band of worthy warriors on this lonely path,&quot; they say. &quot;I am Vittorio de Luca, a master of the blade from the distant lands of Tilea. I have journeyed far and wide, seeking a worthy adversary who can match my skills in combat. And now, fate has led me to you. Care to prove your skills in a friendly duel, with a little wager to make it exciting?&quot;"/>
+  <string id="HirelingLordQuit.default.text" text="If this is your wish. fine."/>
+  <string id="HirelingLordExplain.default.text" text="A hireling? Surely I have use for you. Just note that I am not accepting any additional troops."/>
+  <string id="HirelingLordExplain.empire.text" text="The Empire needs fresh blood, surely I have use for you. Just note that I am not accepting any additional troops."/>
+  <string id="HirelingLordExplain.vlandia.text" text="Serving the country in the knightly Service is the highest duty among Bretones. Just note that I am not accepting any additional troops."/>
+  <string id="HirelingLordExplain.khuzait.text" text="Arrr Freshblood. Sure I have use for you. Just note you will serve me and I tolerate no further sheep in my warband."/>
+  <string id="HirelingLordExplain.mousillion.text" text="A hired sword? How convienient. Just note you are serving me, and I have no use for more peasants."/>
+  <string id="HirelingLordResult.default.text" text="Pack your gear. I expect you in my rows Immediately."/>
+  <string id="HirelingLordResult.empire.text" text="Pack your gear. The Empire needs you."/>
+  <string id="HirelingLordResult.vlandia.text" text="A welcome decision. There is no higher duty than serving the Land of the Lady."/>
+  <string id="HirelingLordResult.khuzait.text" text="Get out of my sight there is work to do!"/>
+  <string id="HirelingLordResult.mousillon.text" text="Get out of my sight there is work to do!"/>
+  <string id="Hireling.PromptTitle.text" text="Serve as a Hireling."/>
+  <string id="Hireling.PromptText.text" text="You are about to serve as a Hireling, following a Lord instead of leading your own warband. All your troops will be removed (your companions stay). Do you want to continue?"/>
+  <string id="Hireling.TalkToLord.text" text="Talk to the Lord"/>
+  <string id="Hireling.PauseTime.text" text="Pause on entering the next settlement: {PAUSE_ONOFF}"/>
+  <string id="Hireling.EnlistingArmy.text" text="Party is part of: {ENLISTING_ARMY}"/>
+  <string id="HirelingActivity0.Waywatcher.text" text="Target practice in solitude"/>
+  <string id="HirelingActivity1.Waywatcher.text" text="Climb trees and scout the area"/>
+  <string id="HirelingActivity2.Waywatcher.text" text="Cover the perimeter and set up traps"/>
+  <string id="HirelingActivity3.Waywatcher.text" text="Advanced sparring sessions"/>
+  <string id="HirelingActivity4.Waywatcher.text" text="Gather medical herbs"/>
+  <string id="HirelingActivity0.ImperialMagister.text" text="Focus on your studies"/>
+  <string id="HirelingActivity1.ImperialMagister.text" text="Assist your lord with accounting tasks"/>
+  <string id="HirelingActivity2.ImperialMagister.text" text="Join the sparring soldiers"/>
+  <string id="HirelingActivity3.ImperialMagister.text" text="Care for the wounded troops"/>
+  <string id="HirelingActivity4.ImperialMagister.text" text="Advise the commander"/>
+  <string id="HirelingActivity0.GrailKnight.text" text="Practice sword-fighting"/>
+  <string id="HirelingActivity1.GrailKnight.text" text="Socialize with other nobles"/>
+  <string id="HirelingActivity2.GrailKnight.text" text="Ride ahead of the army"/>
+  <string id="HirelingActivity3.GrailKnight.text" text="Assist the commander"/>
+  <string id="HirelingActivity4.GrailKnight.text" text="Pray to the Lady of the Lake"/>
+  <string id="HirelingActivity0.GrailDamsel.text" text="Converse with the stabled horses"/>
+  <string id="HirelingActivity1.GrailDamsel.text" text="Prepare warding rituals"/>
+  <string id="HirelingActivity2.GrailDamsel.text" text="Bless the troops in the name of The Lady"/>
+  <string id="HirelingActivity3.GrailDamsel.text" text="Advise the army commander"/>
+  <string id="HirelingActivity4.GrailDamsel.text" text="Mediate the quarreling nobles"/>
+  <string id="HirelingActivity0.WarriorPriestUlric.text" text="Scour the wilds"/>
+  <string id="HirelingActivity1.WarriorPriestUlric.text" text="Train with a battleaxe"/>
+  <string id="HirelingActivity2.WarriorPriestUlric.text" text="Help with firewood"/>
+  <string id="HirelingActivity3.WarriorPriestUlric.text" text="Inspire the troops to drive away weakness"/>
+  <string id="HirelingActivity4.WarriorPriestUlric.text" text="Preach the teachings of Ulric"/>
+  <string id="HirelingActivity0.Mercenary.text" text="Discuss techniques with shock troops"/>
+  <string id="HirelingActivity1.Mercenary.text" text="Target practice with archer regiments"/>
+  <string id="HirelingActivity2.Mercenary.text" text="Maintain gunpowder weapons"/>
+  <string id="HirelingActivity3.Mercenary.text" text="Barter and haggle with the quartermaster"/>
+  <string id="HirelingActivity4.Mercenary.text" text="Eavesdrop by the commanders tent"/>
+  <string id="HirelingActivity0.BlackGrailKnight.text" text="Practice sword-fighting"/>
+  <string id="HirelingActivity1.BlackGrailKnight.text" text="Spread The Ladys Lie among the nobles"/>
+  <string id="HirelingActivity2.BlackGrailKnight.text" text="Ride ahead of the army"/>
+  <string id="HirelingActivity3.BlackGrailKnight.text" text="Saddle up and joust with other nobles"/>
+  <string id="HirelingActivity4.BlackGrailKnight.text" text="Discipline the peasantry"/>
+  <string id="HirelingActivity0.BloodKnight.text" text="Train with a sword"/>
+  <string id="HirelingActivity4.BloodKnight.text" text="Train with a great sword"/>
+  <string id="HirelingActivity1.BloodKnight.text" text="Ride in the vanguard"/>
+  <string id="HirelingActivity2.BloodKnight.text" text="Participate in strategy meetings"/>
+  <string id="HirelingActivity3.BloodKnight.text" text="Seperate the weak from the strong"/>
+  <string id="HirelingActivity0.MinorVampire.text" text="Spar with the troops"/>
+  <string id="HirelingActivity4.MinorVampire.text" text="Curry favor with the commander"/>
+  <string id="HirelingActivity1.MinorVampire.text" text="Focus on the vile energies in the area"/>
+  <string id="HirelingActivity2.MinorVampire.text" text="Search for prey to feed on"/>
+  <string id="HirelingActivity3.MinorVampire.text" text="Command the sheep"/>
+  <string id="HirelingActivity1.Necrarch.text" text="Hone your Witchsight"/>
+  <string id="HirelingActivity2.Necrarch.text" text="Search for prey to feed on"/>
+  <string id="HirelingActivity3.Necrarch.text" text="Dissect test subjects"/>
+  <string id="HirelingActivity0.Necromancer.text" text="Study tomes of knowledge"/>
+  <string id="HirelingActivity1.Necromancer.text" text="Raid nearby cemeteries"/>
+  <string id="HirelingActivity2.Necromancer.text" text="Experiment on dead bodies"/>
+  <string id="HirelingActivity0.WitchHunter.text" text="Great sword sparring"/>
+  <string id="HirelingActivity1.WitchHunter.text" text="Target practice with crossbows"/>
+  <string id="HirelingActivity2.WitchHunter.text" text="Maintain gunpowder weapons"/>
+  <string id="HirelingActivity3.WitchHunter.text" text="Lecture on the dangers of Corruption"/>
+  <string id="HirelingActivity4.WitchHunter.text" text="Practice with a rapier"/>
+  <string id="HirelingActivity0.WarriorPriest.text" text="Spar with the troops"/>
+  <string id="HirelingActivity1.WarriorPriest.text" text="Train with a warhammer"/>
+  <string id="HirelingActivity2.WarriorPriest.text" text="Help set up tents"/>
+  <string id="HirelingActivity3.WarriorPriest.text" text="Assist the priestesses of Shallya"/>
+  <string id="HirelingActivity4.WarriorPriest.text" text="Preach about Sigmar Heldenhammer"/>
+  <string id="HirelingActivity0.Spellsinger.text" text="Commune with forest spirits"/>
+  <string id="HirelingActivity1.Spellsinger.text" text="Converse with the stabled horses"/>
+  <string id="HirelingActivity2.Spellsinger.text" text="Offer a prayer to Isha, the Mother"/>
+  <string id="HirelingActivity3.Spellsinger.text" text="Discuss diplomatic matters with the commander"/>
+  <string id="HirelingActivity4.Spellsinger.text" text="Gather medicinal herbs"/>
+  <string id="HirelingActivity0.GreyLord.text" text="Study manuscripts."/>
+  <string id="HirelingActivity1.GreyLord.text" text="Engage in book keeping tasks"/>
+  <string id="HirelingActivity2.GreyLord.text" text="Hold speeches about the dragons of Caledor"/>
+  <string id="HirelingActivity3.GreyLord.text" text="Maintain Asurian etiquette"/>
+  <string id="HirelingActivity4.GreyLord.text" text="Experiment with alchemistic substances"/>
+  <string id="inky_Meadow_is_night_true_str" text="Silver moonlight"/>
+  <string id="inky_Meadow_is_night_false_str" text="Golden sunlight"/>
+  <string id="inky_Meadow.STR_Start3.text" text="{inky_IsNight} filters through the tree canopy, bathing the meadow in warmth. A gentle aroma of blooming flowers perfumes the air. Birds serenade with their melodies, filling the clearing with a symphony that feels like a balm to your weary spirit."/>
+  <string id="inky_overturned_cart_injury1_1_str" text="weak"/>
+  <string id="inky_overturned_cart_injury1_2_str" text="mild"/>
+  <string id="inky_overturned_cart_injury1_3_str" text="severely"/>
+  <string id="inky_overturned_cart_injury2_1_str" text="asks"/>
+  <string id="inky_overturned_cart_injury2_2_str" text="begs"/>
+  <string id="inky_overturned_cart_injury2_3_str" text="gasps"/>
+  <string id="inky_overturned_cart_injury3_1_str" text="gets up"/>
+  <string id="inky_overturned_cart_injury3_2_str" text="barely gets up"/>
+  <string id="inky_overturned_cart_injury3_3_str" text="lays there trying not do die"/>
+  <string id="inky_overturned_cart_injury4_2_str" text="seems to get a bit depressed knowing that he will be crippled for at least some time"/>
+  <string id="inky_overturned_cart_injury4_3_str" text="dies"/>
+  <string id="inky_overturned_cart_profession_1_str" text="merchant"/>
+  <string id="inky_overturned_cart_profession_2_str" text="farmer"/>
+  <string id="inky_overturned_cart_profession_3_str" text="blacksmith"/>
+  <string id="inky_overturned_cart_rewardtext_0_str" text="500 gold"/>
+  <string id="inky_overturned_cart_rewardtext_1_str" text="5 grain"/>
+  <string id="inky_overturned_cart_rewardtext_2_str" text="2 steel ingots"/>
+  <string id="inky_overturned_cart_horsesaround_1_str" text="take the horses,"/>
+  <string id="inky_overturned_cart_start_1_str" text="As your party is travelling along you see a cart in the distance."/>
+  <string id="inky_overturned_cart_start_2_str" text="As you get closer you can see that it had broken down and tipped over."/>
+  <string id="inky_overturned_cart_approach_2_str" text="You notice that the man trapped under the cart is {inky_InjuryText1}."/>
+  <string id="inky_overturned_cart_approach_3_str" text="As you get close he {inky_InjuryText2} to you, &quot;Please help me&quot;."/>
+  <string id="inky_overturned_cart_reward_for_help_1_str" text="You ask the man what he can do for you."/>
+  <string id="inky_overturned_cart_reward_for_help_2_str" text="The man replies, &quot;I am just a simple {Profession} from {Settlement}, I cannot give you a reward other than my thanks.&quot;"/>
+  <string id="inky_overturned_cart_reward_for_help_3_str" text="After a moment he says, &quot;I am a friend of {Notable} and I will put in a good word for you.&quot;"/>
+  <string id="inky_overturned_cart_helpextort_3_str" text="You tell the {inky_Profession} that he shouldnt be so modest. He is clearly a man of some means and can easily spare {inky_RewardText} as compensation for the assistance."/>
+  <string id="inky_overturned_cart_after_Lift_Medicine_3_str" text="You tell the {inky_Profession} that he shouldnt be so modest. He is clearly a man of some means and can easily spare {inky_RewardText} as compensation for the assistance."/>
+ </strings>
+</base>
