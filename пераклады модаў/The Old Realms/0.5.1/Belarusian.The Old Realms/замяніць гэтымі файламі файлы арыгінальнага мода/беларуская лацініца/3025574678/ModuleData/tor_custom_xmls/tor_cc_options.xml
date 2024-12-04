@@ -1,0 +1,1175 @@
+<?xml version="1.0"?>
+<ArrayOfCharacterCreationOption xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!--This is a single character creation option. ID has no naming convention, but has to be unique. 
+	SkillsToIncrease possible values:
+			OneHanded
+			TwoHanded
+			Polearm
+			Bow
+			Crossbow
+			Throwing
+			Riding
+			Athletics
+			Scouting
+			Tactics
+			Crafting
+			Roguery
+			Charm
+			Leadership
+			Trade
+			Steward
+			Medicine
+			Engineering
+			Faith
+			Gunpowder
+			Spellcraft
+	AttributeToIncrease possible values:
+			Vigor
+			Control
+			Endurance
+			Cunning
+			Social
+			Intelligence
+			Discipline
+	-->
+	<!-- Empire stage 1 -->
+	<CharacterCreationOption Id="option1" Culture="empire" StageNumber="1" EquipmentSetId="tor_cc_imperial_nobility_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Leadership</string>
+			<string>Polearm</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option1_label_str}Impierskaja Šlachta</OptionText>
+		<OptionFlavourText>{=tor_cc_option1_text_str}Vašyja baćki addana słužyli hrafu Haŭpt-Andersanu, jany nie byli bujnymi šlachcičami, ale zajmali značnaje stanovišča pry pałacy Hrafa-Elektara i zabiaśpiečyli vam kamfortnaje dziacinstva. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option2" Culture="empire" StageNumber="1" EquipmentSetId="tor_cc_imperial_sergeant_1">
+		<SkillsToIncrease>
+			<string>TwoHanded</string>
+			<string>Gunpowder</string>
+			<string>Athletics</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option2_label_str}Impierskaha Siaržanta</OptionText>
+		<OptionFlavourText>{=tor_cc_option2_text_str}Vašy baćka nia tolki ŭdała słužyŭ, ale i vyžyvaŭ dosyć doŭha, kab atrymać pasadu siaržanta, vieterana, što pralivaŭ kroŭ jak źvieraludziej, hetak i bandytaŭ.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option3" Culture="empire" StageNumber="1" EquipmentSetId="tor_cc_thieves_1">
+		<SkillsToIncrease>
+			<string>Throwing</string>
+			<string>OneHanded</string>
+			<string>Roguery</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option3_label_str}Złačyncy</OptionText>
+		<OptionFlavourText>{=tor_cc_option3_text_str}Nie ŭsio ŭ Impieryi błasłaŭlonyja Ranaldam, vašaja siamja była biednaj i zarablała na žyćcio chutkimi rukami i kiemlivaściu. Jana krała maniety z adkrytych kišeniaŭ i zasoŭvali ich u svaje. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option4" Culture="empire" StageNumber="1" EquipmentSetId="tor_cc_commoners_1">
+		<SkillsToIncrease>
+			<string>Engineering</string>
+			<string>Crossbow</string>
+			<string>Scouting</string>
+			<string>Crafting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option4_label_str}Prostyja Ludzi</OptionText>
+		<OptionFlavourText>{=tor_cc_option4_text_str}</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option5" Culture="empire" StageNumber="1" EquipmentSetId="tor_cc_merchants_1">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Charm</string>
+			<string>Steward</string>
+			<string>Medicine</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option5_label_str}Handlary</OptionText>
+		<OptionFlavourText>{=tor_cc_option5_text_str}Vino - kroŭ Vurtbada. Vašaja siamja zarablała na jaho handli vyšej pa race Šcir i ŭsioj Impieryi. Vašaje malenstva było źviazana sa stałymi vandroŭkami. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Empire stage 2 -->
+	<CharacterCreationOption Id="option6" Culture="empire" StageNumber="2" EquipmentSetId="tor_cc_enlisted_militia_2">
+		<SkillsToIncrease>
+			<string>Athletics</string>
+			<string>TwoHanded</string>
+			<string>Polearm</string>
+			<string>Crossbow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option6_label_str}Dałučyŭsia da Rušeńnia</OptionText>
+		<OptionFlavourText>{=tor_cc_option6_text_str}Źvieraludy i bandyty kvitniejuć u Impieryi. Tamu vašy dom zaŭždy mieŭ patrebu ŭ dužych mužčynach. U rychtoŭlach z rušeńniem vy nieŭzabavie zdabyli mocnyja ruki i hust da bojki.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option7" Culture="empire" StageNumber="2" EquipmentSetId="tor_cc_merchants_assistant_2">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Polearm</string>
+			<string>Tactics</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option7_label_str}Pamahaty Handlara</OptionText>
+		<OptionFlavourText>{=tor_cc_option7_text_str}Handlar, što prajazžaŭ la vašaj chaty, zaŭvažyŭ vašyja zdolnaści da ličbaŭ i ŭziaŭ vas pad svajo kryło. Jon prapanavaŭ navučyć vas svajmu ramiastvu ŭ pamien na štodzionnuju dapamohu ŭ vykanańni jaho zadańniaŭ.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option8" Culture="empire" StageNumber="2" EquipmentSetId="tor_cc_blacksmith_apprentice_2">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Trade</string>
+			<string>Tactics</string>
+			<string>Crafting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option8_label_str}Vučań Kavala</OptionText>
+		<OptionFlavourText>{=tor_cc_option8_text_str}Kanflikty ŭ Impieryi nie spynialisia ni na chvilinu, jak i praca jaje kavaloŭ. Pad kiraŭnictvam miascovaha kavala vy vyrašyli pieratvaryć svaju siłu ŭ ramiastvo i stali kuć žaleza pa svajmu žadańniu. Vašy pieršy mieč, chacia i atrymaŭsia kryvym, ale zatoje vostrym!</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option9" Culture="empire" StageNumber="2" EquipmentSetId="tor_cc_imperial_cultist_2">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Medicine</string>
+			<string>Faith</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option9_label_str}Impierski Kultyst</OptionText>
+		<OptionFlavourText>{=tor_cc_option9_text_str}Bolšuju častku času vy bavili ŭ chramavym rajonie i malilisia roznym baham Impierskaha Panteona. Niekatoryja z tamtejšych śviataroŭ źviarnuli na vas svaju ŭvahu i stali vučyć vas svaim pisańniam. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option10" Culture="empire" StageNumber="2" EquipmentSetId="tor_cc_engineering_student_2">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Steward</string>
+			<string>Gunpowder</string>
+			<string>Engineering</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option10_label_str}Student Inžyniera</OptionText>
+		<OptionFlavourText>{=tor_cc_option10_text_str}Historyi pra Kalehii Nulna zaŭždy byli vašymi ŭpadabanymi, zdajecca, Ranald błasłaviŭ vas, kali Majstar-Inžynier, jaki šukaŭ vučnia, vyrašyŭ, što vy budziecie idealnym kandydatam. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Empire stage 3 -->
+	<CharacterCreationOption Id="option11" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_free_company_militiaman_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Gunpowder</string>
+			<string>TwoHanded</string>
+			<string>Bow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option11_label_str}Rušenny Volnaj Kampanii</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option11_text_str}Bojki i vypiŭka - što jašče treba ŭ žyćci? Z miačom u ruce vy maršavali sa svajoj raznašersnaj Volnaj Kampanijaj ad bitvy da bitvy i zarablali svaju ščyruju dolu šnaraŭ. Vy hatovyja słužyć kožnamu šlachciču za adpaviedny košt.</OptionFlavourText>
+	</CharacterCreationOption>
+	
+	<CharacterCreationOption Id="option12" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_magister_apprentice_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Athletics</string>
+			<string>Spellcraft</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option12_label_str}Vučań Mahistra</OptionText>
+		<PositiveEffectText>"Imperial Magister" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option12_text_str}Zdolnaści da Viatroŭ Mahii dazvolili vam zaniać miesca ŭ Kalehijach Altdorfa, z časam vy navučylisia karystacca asnovami svajoj siły i paznali naturu svajho vietru.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option13" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_priest_acolyte_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Medicine</string>
+			<string>Faith</string>
+			<string>Faith</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option13_label_str}Akalit Śviatara</OptionText>
+		<PositiveEffectText>Choose a "Priest" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option13_text_str}Pryśviaciŭšy žyćcio kultu svajho boha-zastupnika, vy šukajecie šlach praviednaści ŭ adpaviednaści sa svajoj vieraj. Być Akalitam - značyć hartavać siabie suprać zła, nienaturalnaha i žachlivaha (Daje dostup da Malitvaŭ, ale nie daje vučyć Zaklony).</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option14" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_trainee_templar_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Roguery</string>
+			<string>Riding</string>
+			<string>Crossbow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option14_label_str}Inicyjant Palaŭničaha na Viadźmaroŭ</OptionText>
+		<PositiveEffectText>"Witch Hunter" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option14_text_str}Jeraś była bizunom dobrych ludziej Impieryi, hniłatoj, ad jakoj treba było pazbavicca. Vyvučajučy majsterstva Palaŭničych na Viadźmarak, vy rychtavalisia sustrecca z usimi vidami niazbožnych źviaroŭ i mahaŭ, z vieraj i srebram. </OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option15" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_merchant_3">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Steward</string>			
+			<string>Trade</string>
+			<string>Trade</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option15_label_str}Handlar</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option15_text_str}U Impieryi šmat handlovych tavaraŭ, i vy vyrašyli zaniać svajo miesca siarod šmatlikich handlaroŭ. Na zaaščadžanyja hrošy vy źbirajeciesia stvaryć svoj ułasny karavan i zrabić sabie imia. </OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<!-- VC stage 1 -->
+	<CharacterCreationOption Id="option16" Culture="khuzait" StageNumber="1" EquipmentSetId="tor_cc_exiled_nobility_1">
+		<SkillsToIncrease>
+			<string>Leadership</string>
+			<string>Steward</string>
+			<string>OneHanded</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option16_label_str}Šlachietnyja Vyhnańniki</OptionText>
+		<OptionFlavourText>{=tor_cc_option16_text_str}Słavalubstva zahubiła mnohich, i vašaja siamja apynułasia nie ŭ litaści z Elektaram. Vyhnanaja ŭ Silvaniju z drobnym bahaćciem, vašaja siamja była vymušana žyć siarod viaskoŭcaŭ. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option17" Culture="khuzait" StageNumber="1" EquipmentSetId="tor_cc_strigany_caravanners_1">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Scouting</string>
+			<string>Crafting</string>
+			<string>Charm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option17_label_str}Stryhanskija Karavańniki</OptionText>
+		<OptionFlavourText>{=tor_cc_option17_text_str}Vy naradzilisia ŭ siamji Stryhanaŭ. Vašaje dziacinstva prajšło ŭ padarožžach z horada ŭ horad razam z karavanam kłana.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option18" Culture="khuzait" StageNumber="1" EquipmentSetId="tor_cc_graverobbers_1">
+		<SkillsToIncrease>
+			<string>Throwing</string>
+			<string>Athletics</string>
+			<string>Roguery</string>
+			<string>Polearm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option18_label_str}Mahilnyja Hrabiežniki</OptionText>
+		<OptionFlavourText>{=tor_cc_option18_text_str}U Silvanii majucca tyja, chto dobra płacić za trupy, i vašaja siamja vybrała mienavita hetaje ramiastvo. Vykradali kachanych ludziej hłubokaj nočču i vieźli ich u zamki ci trymańni šlachty, nikoli nie zadajučy sabie pytańnie, navošta toje patrebna.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option19" Culture="khuzait" StageNumber="1" EquipmentSetId="tor_cc_fisherfolk_1">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Medicine</string>
+			<string>Athletics</string>
+			<string>Engineering</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option19_label_str}Rybaki</OptionText>
+		<OptionFlavourText>{=tor_cc_option19_text_str}Na praciahu šmatlikich pakaleńniaŭ vašaja siamja łaviła rybu ŭ rekach i bahnavych łužynach, kab pracharčavacca. Heta było daloka nie bahataje žyćcio, ale heta była sumlennaja praca, i vašaja siamja była zadavolena. Navat paśla źniknieńnia vašaha brata...</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option20" Culture="khuzait" StageNumber="1" EquipmentSetId="tor_cc_orphan_1">
+		<SkillsToIncrease>
+			<string>Athletics</string>
+			<string>OneHanded</string>
+			<string>Tactics</string>
+			<string>Roguery</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option20_label_str}Sirata</OptionText>
+		<OptionFlavourText>{=tor_cc_option20_text_str}Vy nikoli nia viedali pra svaju siamju, chacia mnohija hladzieli na vas sa stracham i šaptalisia napaŭhołasu, i vam zastavałasia tolki zmahacca za vyžyvańnie, zdabyvać sabie pražytak i siłkavacca čužymi zjedkami. Vam časta davadziłasia chavacca ad stvareńniaŭ, što chavajucca ŭnačy.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- VC stage 2 -->
+	<CharacterCreationOption Id="option21" Culture="khuzait" StageNumber="2" EquipmentSetId="tor_cc_noble_attendant_2">
+		<SkillsToIncrease>
+			<string>Scouting</string>
+			<string>Charm</string>
+			<string>Riding</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option21_label_str}Pamahaty Šlachciča </OptionText>
+		<OptionFlavourText>{=tor_cc_option21_text_str}Słužba ŭ pałacy fon Karštajnaŭ dała vam ujaŭleńnie pra pobyt viečna žyvych, a chitrasplacieńni i palityki šlachty navučyli vas mnohamu. Vašaja starannaść dapamahła vam vyžyć i pačuvacca kamfortna. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option22" Culture="khuzait" StageNumber="2" EquipmentSetId="tor_cc_necromancers_apprentice_2">
+		<SkillsToIncrease>
+			<string>Medicine</string>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+			<string>Polearm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option22_label_str}Vučań Niekramanta </OptionText>
+		<OptionFlavourText>{=tor_cc_option22_text_str}Pra ćviarozy rozum vašaha majstara nielha šmat skazać: usie jaho dni byli pryśviečany raskryćciu skrutkaŭ i praviadzieńniu ciomnych rytuałaŭ. Apantany žadańniem stać mahutnym, ale nia majučy takoj mahčymaści, jon imknuŭsia karystacca vašymi zdolnaściami dziela ŭzmacnieńnia ŭłasnych.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option23" Culture="khuzait" StageNumber="2" EquipmentSetId="tor_cc_peat_farmer_2">
+		<SkillsToIncrease>
+			<string>Crafting</string>
+			<string>OneHanded</string>
+			<string>Polearm</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option23_label_str}Tarfiany Ziemlarob</OptionText>
+		<OptionFlavourText>{=tor_cc_option23_text_str}Kapańnie bahnavaj hleby z brudnymi adkidami - nialohki zaniatak. Ale heta dazvalała vam i vašaj vioscy źbirać biedny ŭradžaj z prydatnych dla ziemlarobstva ziemlaŭ.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option24" Culture="khuzait" StageNumber="2" EquipmentSetId="tor_cc_stableboy_2">
+		<SkillsToIncrease>
+			<string>Engineering</string>
+			<string>TwoHanded</string>
+			<string>OneHanded</string>
+			<string>Bow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option24_label_str}Zakličnik Rušeńnia</OptionText>
+		<OptionFlavourText>{=tor_cc_option24_text_str}Zaklikany ŭ vojska svajho majstara, vy praviali svajo junactva na poli boju. Vajujučy razam z žachami niežyci i niekratyčnymi brydotami. Ale vy niejkim čynam zastalisia žyvyja i možacie raskazać pra hetaje.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option25" Culture="khuzait" StageNumber="2" EquipmentSetId="tor_cc_strigany_rake_2">
+		<SkillsToIncrease>
+			<string>Scouting</string>
+			<string>Roguery</string>
+			<string>Charm</string>
+			<string>Trade</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option25_label_str}Stryhanski Hojsak</OptionText>
+		<OptionFlavourText>{=tor_cc_option25_text_str}Hojsajučy pa ŭskrajkam łahieraŭ, vy padhladvali lohkija zdabyčy i maładych dziaŭčyn dy, karystaliś svaimi spakuślivymi i debašyrskimi pavodzinami, kab zajmacca ramiastvom. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- VC stage 3 -->
+	<CharacterCreationOption Id="option26" Culture="khuzait" StageNumber="3" EquipmentSetId="tor_cc_vampiric_nobility_3">
+		<SkillsToIncrease>
+            <string>Athletics</string>
+			<string>Athletics</string>
+		    <string>Athletics</string>
+			<string>OneHanded</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option26_label_str}Šlachcič-Vampir</OptionText>
+		<PositiveEffectText>Choose a "Vampire Bloodline" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option26_text_str}U niejki momant vašy vaładar raspaznaŭ vašyja jakaści, vyvieŭ vas z halečy i adkryŭ svaju sapraŭdnuju isnaść. Paśla pacałunka kryvi vy adradzilisia, zrabilisia nieśmiarotnym i bolš mahutnym. - Daje zdolnaść vyvučać zaklony i ŭzdymać miortvych paśla boju i na mohiłkach. Napačatku hulni vy musicie abrać kreŭnuju liniju.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option27" Culture="khuzait" StageNumber="3" EquipmentSetId="tor_cc_novice_necromancer_3">
+		<SkillsToIncrease>
+			<string>Medicine</string>
+			<string>Crafting</string>
+			<string>Spellcraft</string>
+			<string>Roguery</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option27_label_str}Niekramant-Navik</OptionText>
+		<PositiveEffectText>"Necromancer" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option27_text_str}Niečakana zjaviłasia mahčymaść skraści staražytny falijant viedaŭ. Tak vy stali na šlach niekramantyi - Daje dostup da zaklonaŭ, vykliku kaściakoŭ i zdolnaści ŭzdymać miortvych paśla boju ci na mohiłkach.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option28" Culture="khuzait" StageNumber="3" EquipmentSetId="tor_cc_night_watchman_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Polearm</string>
+		    <string>Bow</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option28_label_str}Načny Vartaŭnik</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option28_text_str}Śmiarotnych časta zaklikajuć słužyć svaim miortvym majstram. Zrazumieła, što hetyja prafiesijnyja vajary iduć u boj razam z proćmaj niežyci svaich majstraŭ. Bolš panurych i zababonnych ludziej składana sustreć, ale jany redka łamajucca ŭ zapału bitvy. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option29" Culture="khuzait" StageNumber="3" EquipmentSetId="tor_cc_strigany_donmu_3">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Throwing</string>
+			<string>Charm</string>
+			<string>Scouting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option29_label_str}Stryhanski Donmu</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option29_text_str}Chacia Donmu nie ŭpłyvovyja ŭ paraŭnańni z matryjarchami svajho kłanu, jany zjaŭlajucca važnymi čalcami hramadstva Stryhanaŭ. Bo padtrymlivajuć zhurtavanaść siamji i zjaŭlajucca tvaram kłana padčas kamunikavańnia z čužyncami. Chacia jany nia zjaŭlajucca prafiesijnymi vajarami, ich šmathadovaja praca na čale karavanaŭ u Starym Śviecie nie daje nahody dla pahardy nad imi.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option30" Culture="khuzait" StageNumber="3" EquipmentSetId="tor_cc_vagabond_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Roguery</string>
+			<string>Athletics</string>
+			<string>TwoHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option30_label_str}Badziaha</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option30_text_str}Darohi Silvanii ciomnyja i niebiaśpiečnyja, vy palujecie na jaje małalikich vandraŭnikoŭ i zabirajecie sabie toje małaje bahaćcie, jakoje možacie zabrać svaim lazom. Ale vy nie adzinaja pačvara, jakaja chavajecca ŭ ciomnych bahnach i lasach: časam ad padarožnikaŭ nie zastajecca ničoha, što lha skraści.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Bretonnia stage 1 -->
+	<CharacterCreationOption Id="option31" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_bretonnian_nobility_1">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Polearm</string>
+			<string>Leadership</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option31_label_str}Bretońskaja Šlachta</OptionText>
+		<OptionFlavourText>{=tor_cc_option31_text_str}Vašaja siamja moža prasačyć svaje karani i suviazi amal da časoŭ Žyla. Vy naradzilisia ŭ Bretońskim šlachiectvie, i ŭsie viedajuć pra hetaje pa tym, jak vy apranajeciesia, jak kažacie i jak zahadvajecie viaskovym.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option32" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_peasants_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Athletics</string>
+			<string>Bow</string>
+			<string>Crafting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option32_label_str}Bretońskija Pryhonnyja</OptionText>
+		<OptionFlavourText>{=tor_cc_option32_text_str}Na praciahu šmatlikich pakaleńniaŭ vašaja siamja apracoŭvała ziamlu svajho fieadała. Vašy baćka daŭno pierastaŭ sprabavać zrazumieć słovy šlachciča i prosta źviartajecca da Jomena, jaki zaŭždy prychodzić da jaho z zahadami, jakija zvyčajna źviazany z ciažkaj fizičnaj pracaj.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option33" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_sailors_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Charm</string>
+			<string>Scouting</string>
+			<string>Gunpowder</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option33_label_str}Bretońskija Morachody</OptionText>
+		<OptionFlavourText>{=tor_cc_option33_text_str}Vašy baćka byŭ morachodam na Bretońskim karabli Bukańjer. Paśla viartańnia ŭ vašuju rybackuju viosku, jon pravodziŭ jak maha bolš času z vašymi maci, bratami i siostrami. Baćka navučyŭ vas mnohim navykam: viazańniu vuzłoŭ, vykarystańniu padzornaj truby i ŭmieńniu aryjentavacca pa načnym niebie.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option34" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_outlaws_1">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Roguery</string>
+			<string>Scouting</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option34_label_str}Złačyncy</OptionText>
+		<OptionFlavourText>{=tor_cc_option34_text_str}Čamuści vašaja siamja parušyła adnu z klatvaŭ, što dała svajmu šlachciču, i z tych časoŭ jaje ličać złačynnaj. Jak vynik vašaja siamja zadavolvajecca tym, što atrymoŭvajecca zdabyć u lasach, bo ŭvieś čas znachodzicca ŭva ŭciokach i žyvie na zavuhollach hramadstva.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option35" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_bretonnian_merchants_1">
+		<SkillsToIncrease>
+			<string>Medicine</string>
+			<string>Trade</string>
+			<string>Polearm</string>
+			<string>Charm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option35_label_str}Vinnyja Handlary</OptionText>
+		<OptionFlavourText>{=tor_cc_option35_text_str}Vašaja siamja naležała da vielmi abmiežavanaha koła viaskoŭcaŭ, što žyvie ŭ Bretońnii. Jany nažyvali svajo bahaćcie na praciahu šmatlikich pakaleńniaŭ praz prodaž Bretońskich vinaŭ u Impieryju, Istaliju i Cileju. Niadaŭna vašy šlachcič zrabiŭ vyklučeńnie z zakonaŭ pra bahaćcie. Toje dazvoliła vam nasić boty, što dachodziać da kalen.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Bretonnia stage 2 -->
+	<CharacterCreationOption Id="option36" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_courtier_2">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Polearm</string>
+			<string>Charm</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option36_label_str}Bretoński Pałacavy</OptionText>
+		<OptionFlavourText>{=tor_cc_option36_text_str}Ciaham šmatlikich hadoŭ vas rychtavali stać lepšaj šlachtaj Bretońnii. Uroki manier, vieršnictva i rycarstva.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option37" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_men_at_arms_2">
+		<SkillsToIncrease>
+			<string>TwoHanded</string>
+			<string>Polearm</string>
+			<string>Athletics</string>
+			<string>Engineering</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option37_label_str}Zbrojny Čyn</OptionText>
+		<OptionFlavourText>{=tor_cc_option37_text_str}Kali vy dasiahnuli paŭnalećcia, vy pastupili na słužbu da svajho šlachciča. Vas vučyli trymać liniju i vyžyvać na poli boju jak maha lepš. Vy dahetul žyvyja, to bok, u vas niadrenna atrymvajecca.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option38" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_highwayman_2">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Tactics</string>
+			<string>Charm</string>
+			<string>Scouting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option38_label_str}Złačynca ŭ Vyšuku</OptionText>
+		<OptionFlavourText>{=tor_cc_option38_text_str}U maładzionstvie vy parušyli adzin sa šmatlikich zakonaŭ, što vyznačaje miežy Bretoński hramadstva. Nia majučy inšaha vyjścia, vy apynulisia na zavuholli hramadstva, viečna chavajučysia ad ułady. Peŭny čas vy žyli vyklučna brakańjerstvam i kradziažom, ale ŭrešcie znajšli prabačeńnie za svaje złačynstvy.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option39" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_apprentice_craftsmen_2">
+		<SkillsToIncrease>
+			<string>Engineering</string>
+			<string>Crafting</string>
+			<string>OneHanded</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option39_label_str}Vučań Ramieśnika</OptionText>
+		<OptionFlavourText>{=tor_cc_option39_text_str}Vašy baćka zmoh uładkavać vas u vučni da adnaho z miascovych ramieśnikaŭ. Ciaham piaci hadoŭ majstar vučyŭ vas usiamu, što mieŭ, i ŭ vyniku vy nabyli navyki, jakija nazaŭždy pastavili vas vyšej za zvyčajnych viaskoŭcaŭ.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option40" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_shephard_2">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Throwing</string>
+			<string>Crafting</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option40_label_str}Šepard</OptionText>
+		<OptionFlavourText>{=tor_cc_option40_text_str}Vy stali pastuchom, jaki dahladaŭ za žyviołaj, ad jakoj zaležali ježa i adzieńnie. Vy i vašyja siabry, vykonvali dźvie roli: baranili statki ad vaŭkoŭ i inšych drapiežnikaŭ, a taksama sačyli za ŭskrainami vioski na pradmiet zjaŭleńnia zachopnikaŭ.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!--  Bretonnia stage 3 -->
+	<CharacterCreationOption Id="option41" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_knight_errant_3">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Riding</string>
+			<string>Riding</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option41_label_str}Vandroŭny Rycar</OptionText>
+		<PositiveEffectText>"Knight of Bretonnia" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option41_text_str}Vy vyrašyli stać na šlach rycara Bretońnii. Daroha šlachietnaha rycarstva ciažkaja - vas čakaje mnostva vorahaŭ i bitvaŭ. Ale kali vy budziecie hodnyja, to naprykancy svajoj vandroŭki atrymajecie najvialikaje z viadomych ludziam dabrasłavieńniaŭ - hłotak z Hraala Łedzi.</OptionFlavourText>
+	</CharacterCreationOption>
+	
+	<CharacterCreationOption Id="option42" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_damsel_3">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+			<string>Faith</string>
+			<string>Charm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option42_label_str}Cnatliŭka Łedzi</OptionText>
+		<PositiveEffectText>"Damsel of the Lady" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option42_text_str}Napačatku vašaha žyćcia Čaradziejka Fej naviedała vašuju siamju i zabrała vas da siabie. Jana ŭbačyła ŭ vas vialiki patencyjał, i vy dałučylisia da inšych jaje vučanic. Paśla doŭhich hadoŭ navučańnia jana paličyła vas hatovym rušyć u darohu, kab słužyć voli Łedzi.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option43" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_yeoman_warden_3">
+		<SkillsToIncrease>
+			<string>Tactics</string>
+			<string>TwoHanded</string>
+			<string>OneHanded</string>
+			<string>Bow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option43_label_str}Jomen-Nahladnik</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option43_text_str}Vy daviali svajmu šlachciču svaju vartaść, i jon uznaharodziŭ vas tytułam Jomena. Tytuł daŭ vam prava kiravać inšymi viaskoŭcami, a ŭ rušeńniach vy musili brać na siabie rolu Najeźnika.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option44" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_freemen_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Steward</string>
+			<string>Crafting</string>
+			<string>Trade</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option44_label_str}Volny Čałaviek</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option44_text_str}Dziakujučy voli pierasoŭvańnia i imknieńniu da samaŭdaskanaleńnia, vy nikoli nie byli va ŭładzie šlachciča i zmahli rabić štości svajo. Majučy peŭny navyk u ramiastvie ci pośpiech u handli vy dahetul možacie stać viaskoŭcam, vartym vyzvaleńnia ad padatkaŭ.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option45" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_wall_warden_3">
+		<SkillsToIncrease>
+			<string>Engineering</string>
+			<string>Crossbow</string>
+			<string>Crossbow</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option45_label_str}Nahladnik Ściany</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option45_text_str}Peŭny čas vy byli vučniem Nahladnika Ściany. Vy dapamahali jamu vyznačać škodu i padtrymlivać zamak svajho šlachciča ŭ paradku. Kali vašy nastaŭnik byŭ zabity padčas šturmu zamkavych ścien, vy stali Nahladnikam Ściany. Adnak paśla maleńkaj pamyłki vašy šlachcič vyzvaliŭ vas ad abaviazkaŭ, kab znajści kahości bolš daśviedčanaha.</OptionFlavourText>
+	</CharacterCreationOption> 
+	
+	<!-- Mousillon stage 1 -->
+	<CharacterCreationOption Id="option46" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_mousillon_nobility_1">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Leadership</string>
+			<string>Riding</string>
+			<string>Polearm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option46_label_str}Muziljonskaja Šlachta</OptionText>
+		<OptionFlavourText>{=tor_cc_option46_text_str}Vašyja baćki rodam z Muziljonskaha ‘Šlachiectva, kali jaho lha tak nazvać. Šlachta tut pa bolšaści składajecca z abvieščanaj pa-za zakonam Bretońskaj šlachty, vyhnancaŭ i lichadziejaŭ ź inšych krain, vampiraŭ, mumijaŭ i inšych razmaitych pačvar. Chacia jany, biezumoŭna, znachodziacca na viaršyni Muziljonskaha hramadstva, za miežami praklatych ziemlaŭ na ich hladziać pahardliva, jak i na ŭsich inšych tutejšych.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option47" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_mousillon_yeoman_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Athletics</string>
+			<string>Bow</string>
+			<string>Roguery</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option47_label_str}Muziljonski Jomen</OptionText>
+		<OptionFlavourText>{=tor_cc_option47_text_str}Vašy baćka byŭ Jomenam adnaho z šlachcicaŭ praklataha hiercahstva. Jaho pasada zabiaśpiečvała vašaj siamji suchoje žytło i prystojnuju ježu bolšaść času. Kali jon byŭ nie ŭ rušeńni, to rabiŭ usio mahčymaje, kab navučyć vas bajavym navykam.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option48" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_bog_smuggler_1">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Roguery</string>
+			<string>Charm</string>
+			<string>TwoHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option48_label_str}Bahnavyja Kantrabandysty</OptionText>
+		<OptionFlavourText>{=tor_cc_option48_text_str}Handal u Muziljonie i za jaho miežami praktyčna niemahčymy z-za Sanitarnaha Kardonu. Niahledziačy na hetaje, vašaja siamja stała majstrami kantrabandy praz bramy i ich achovu. Nie bahaty pa ahulnapryniatych mierkach, dla Muziljona vy, biezumoŭna, naradzilisia sa srebnaj łyžkaj.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option49" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_peat_farmer_1">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Throwing</string>
+			<string>Engineering</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option49_label_str}Tarfiany Ziemlarob i Jaho Žonka-Žaba</OptionText>
+		<OptionFlavourText>{=tor_cc_option49_text_str}Niejkim čynam vašaja siamja parušyła adnu z klatvaŭ, dadzienych svajmu šlachcicu, i z toha času jaje zaličyli da złačyncaŭ. Uvieś čas uciakajučy i žyvia na zavuhollach hramadstva, vašaja siamja zadavolvajecca tym, što moža zdabyć u lasach.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option50" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_outlaws_1">
+		<SkillsToIncrease>
+			<string>Roguery</string>
+			<string>Throwing</string>
+			<string>Bow</string>
+			<string>Scouting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option50_label_str}Złačyncy</OptionText>
+		<OptionFlavourText>{=tor_cc_option50_text_str}Adna z najraspaŭsiudžanych prafiesijaŭ Muziljona, vašaja siamja była hrubaj zhrajaj, što vykarystoŭvała svaju siłu i kiemlivaść, kab atrymlivać pieravahu nad słabymi i durnymi suisnavalnikami, siarod jakich vy apynulisia.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Mousillon stage 2 -->
+	<CharacterCreationOption Id="option51" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_mousillon_courtier_2">
+		<SkillsToIncrease>
+			<string>Riding</string>
+			<string>Steward</string>
+			<string>Charm</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option51_label_str}Muziljonski Kurćje</OptionText>
+		<OptionFlavourText>{=tor_cc_option51_text_str}Ciaham šmatlikich hadoŭ vas rychtavali stać lepšaj šlachtaj Muziljona. Uroki manier, vieršnictva i rycarstva.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option52" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_student_of_witchcraft_2">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Medicine</string>
+			<string>Roguery</string>
+			<string>Crafting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option52_label_str}Vučań-Viadźmar</OptionText>
+		<OptionFlavourText>{=tor_cc_option52_text_str}Viadźmarstva i Mahija vielmi raspaŭsiudžany ŭ Muziljonie. Vy stali vučniem adnaho z takich praktykaŭ i zajmalisia hatavańniem vareńniaŭ i ziellaŭ, pakul vam nie daručyli vyvučać hłybiejšyja arkannyja viedy.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option53" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_man_at_arms_2">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Throwing</string>
+			<string>Crafting</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option53_label_str}Muziljonski Zbrojny Čyn</OptionText>
+		<OptionFlavourText>{=tor_cc_option53_text_str}Kali vy dasiahnuli paŭnalećcia, vy pastupili na słužbu da svajho šlachciča. Vas vučyli trymać liniju i vyžyvać na poli boju jak maha lepš. Vy dahetul žyvyja, to bok, u vas niadrenna atrymvajecca.</OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<CharacterCreationOption Id="option54" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_swampaire_2">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Throwing</string>
+			<string>Scouting</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option54_label_str}Bahnampir</OptionText>
+		<OptionFlavourText>{=tor_cc_option54_text_str}Kab prakarmić siamju, vy palavali na žab i ślimakoŭ u amšarach i bahnach. Hety niaprostaje ramiastvo, što patrabuje peŭnaha sprytu i šparkaści palcaŭ, ale ślimaki i žaby - adzin z niamnohich resursaŭ, jakimi bahataja vašaja ziamla.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option55" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_brigand_2">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Tactics</string>
+			<string>Roguery</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option55_label_str}Hrabiežnik</OptionText>
+		<OptionFlavourText>{=tor_cc_option55_text_str}Vy pilnujecie svaich achviar uzdoŭž vialikich daroh i kala pierapraŭ, dy zarablajecie na žyćcio napadam na minakoŭ i patrabujecie ich majomaść. Heta składanaje žyćcio, ale vy chutčej zachavajecie svajo ŭłasnaje žyćcio, čym žyćcio achviar.</OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<!--  Mousillon stage 3 -->
+	<CharacterCreationOption Id="option56" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_knight_errant_3">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Riding</string>
+			<string>Riding</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option56_label_str}Muziljonski Vandroŭny Rycar</OptionText>
+		<PositiveEffectText>"Knight of Mousillon" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option56_text_str}Ništo nie kaža pra toje, što čałaviek z Muziljona nia moža stać na šlach Bretońskaha Rycara. Kudy pryviadzie hety šlach, jak zaŭždy, zaležyć ad voli i čyścini taho, chto pa im rušyć.</OptionFlavourText>
+	</CharacterCreationOption>
+	
+	<CharacterCreationOption Id="option57" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_vampire_of_mousillon_3">
+		<SkillsToIncrease>
+			<string>Athletics</string>
+			<string>Athletics</string>
+			<string>Athletics</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option57_label_str}Muziljonski Vampir</OptionText>
+		<PositiveEffectText>Choose a "Vampire Bloodline" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option57_text_str}Amšary nie dazvalajuć rycarstvu praklatych hiercahstvaŭ uziać pad kantrol usie ziemli. Jak vynik šmatlikaja niečyść znachodzić u Muziljonie schovišča, navat vaładary nočy.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option58" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_necromancer_3">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Medicine</string>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option58_label_str}Niekramant</OptionText>
+		<PositiveEffectText>"Necromancer" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option58_text_str}Viedźmary i Čartaŭniki, Haradzilniki i Demanołahi, Viaduńni i Stryhany... U takoj niapraŭnaj i praklataj krainie, jak Muziljon, chto jašče moža nie padnačalvacca voli Morra?</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option59" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_cordon_runner_3">
+		<SkillsToIncrease>
+			<string>Athletics</string>
+			<string>Roguery</string>
+			<string>Charm</string>
+			<string>Trade</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option59_label_str}Miežavy Biahun</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option59_text_str}U Muziljon prybyvajuć rečy, jakija byli b kanfiskavany ŭ lubym inšym porcie Staroha Śvieta. Varpkamień, dziŭnyja narkotyki, raby, kradzienyja rečy, zachoplenyja piratami karabli i šmat što inšaje i značna ciamniejšaje. Niechta pavinien dastaŭlać hetyja tavary da pryznačanych pakupnikoŭ, jakija amal zaŭsiody znachodziacca za miežami Muziljona. To bok, patrebien niechta, chto zmoža pranieści hetyja pradmiety praz Sanitarny Kardon.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option60" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_bog_pirate_3">
+		<SkillsToIncrease>
+			<string>Engineering</string>
+			<string>Crossbow</string>
+			<string>Crossbow</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option60_label_str}Amšarny Pirat</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option60_text_str}Viarchoŭji Imhlistaj raki i bahnistyja buchty Muziljona - vydatnaje schovišča dla tych, chto zajmajecca nie zusim zakonnym ramiastvom. Bretońskija karabli - adny z najlepšych u śviecie, i časta jany zahružany dziŭnymi i kaštoŭnymi tavarami. Toje, što hetym karablam časta davodzicca baraźnić vody ŭźbiarežža Muziljona, stvaraje mnostva mahčymaściaŭ dla tych, chto choča ich ‘nabyć.</OptionFlavourText>
+	</CharacterCreationOption> 
+	
+	<!-- Asrai stage 1 -->
+	<CharacterCreationOption Id="option_1_we_daith" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_daith_apprentise_1">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Crafting</string>
+			<string>Bow</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_daith_label_str}Student Dajta</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_daith_text_str}Vy trapili pad kryło Dajta, Asrajskaha majstra-kavala. Pad jaho kiraŭnictvam vy zrazumieli sakrety koŭki začaravanaj zbroi i daśpiechaŭ. Vašaje majsterstva ŭ ramiastvie paraŭnajecca tolki z vašym hieraizmam u bai, što robić vas hroznym vajarom i ŭmiełym ramieśnikam. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_we_forest" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_forest_survivor_1">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Scouting</string>
+			<string>Medicine</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_we_forest_label_str}Lasny Vyžyły</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_we_forest_text_str}Vas vychavaŭ les. Prajšli dziesiacihodździ, pierš čym vy pačali kantaktavać ź inšymi Asrajami. Pakul vy pavolna adaptavalisia da Asrajskaha hramadstva, vy navučylisia havaryć z samim lesam.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_we_mountain" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_mountain_veteran_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Bow</string>
+			<string>Tactics</string>
+			<string>TwoHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_we_mountain_label_str}Vieteran Hornych Sutyknieńniaŭ</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_we_mountain_text_str}Vam davadziłasia sutykacca z ciahavitymi Dvarfami ŭva šmatlikich zakałotkach Šerych Horaŭ, jakija atačajuć Atel Łoren. Dośvied hetych žorstkich bitvaŭ vyvastryŭ vašyja navyki i tryvałaść, zrabiŭšy vas bolš ciahavitym vajarom lesu za inšych.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_we_noble" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_we_noble_1">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Polearm</string>
+			<string>Bow</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_we_noble_label_str}Małodšy Šlachcič Atel Łorena</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_we_noble_text_str}Radziŭšysia ŭ šlachietnaj siemji Atel Łorena, vy atrymali samuju lepšuju adukacyju i vychavańnie ŭ Zialonym Šlachie. Vašaje šlachietnaje pachodžańnie dazvoliła vam atrymać lepšych bajavych i dypłamatyčnych nastaŭnikaŭ.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_we_guardian_anmyr" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_we_guardian_anmyr_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>TwoHanded</string>
+			<string>Bow</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_option_1_we_guardian_anmyr_label_str}Vartavy Anmira</OptionText>
+		<OptionFlavourText>{=tor_option_1_we_guardian_anmyr_text_str}Anmir, Ŭjiterchołd, - spahanieny i hnojny kraj, zaplamleny brudnaj kryvioj Morhura. Z-za hetaha Źvieraludy-hrabiežniki źlatajucca ŭ Anmir, jak matylki na połymia. Vy - adzin z tych Asrajaŭ, jakija zaŭždy z zapałam i pačućciom abaviazku adhukalisia na zaklik Anmira da zbroi. Ŭjiterchołd nie padzie pad hidkimi źviarami! </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Asrai stage 2 -->
+	<CharacterCreationOption Id="option_2_we_kurnous" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_kurnous_2">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Bow</string>
+			<string>Scouting</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option51_label_str}Kurnoŭs, Palaŭničy</OptionText>
+		<PositiveEffectText>Unlocks Kithband Symbol</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option51_text_str}Boh palavańnia i dzikich ziamiel Elfijskaha panteona. Usie Elfy ŭšanoŭvajuć jaho, ale bolš za ŭsich Kurnoŭs darahi Lasnym Elfam, jakija ličać boha palavańnia baćkam svajoj rasy i vierać, što ich ład žyćcia najbolej adpaviadaje šlacham Kurnoŭsa.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_we_isha" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_isha_2">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Faith</string>
+			<string>Faith</string>
+			<string>Charm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<PositiveEffectText>Unlocks Treekin Symbol</PositiveEffectText>
+		<OptionText>{=tor_cc_option52_label_str}Iša, Maci</OptionText>
+		<OptionFlavourText>{=tor_cc_option52_text_str}Elfijskaja bahinia pryrody, uradlivaści, ščodraha ŭradžaju i zastupnica ŭsiaho naturalnaha. Lasnyja Elfy ćviorda vierać, što Asrajskaja Karaleva-Mah Aryel - žyvy avatar išy, jaki niasie jaje volu ŭ panstva śmiarotnych.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_we_loec" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_loec_2">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Athletics</string>
+			<string>Athletics</string>
+			<string>Faith</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<PositiveEffectText>Unlocks Wardancer Symbol</PositiveEffectText>
+		<OptionText>{=tor_cc_option_2_we_loec_label_str}Łojk, Tancor Cieniaŭ</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_we_loec_text_str}Boh chitraści, śmiechu i muzyki, a taksama patron Asrajskich Tancoraŭ Vajny. Łojk - tajamničaja boskaść, bo jaho słuhi zachoŭvajuć sakrety jaho rytuałaŭ. Paśladoŭniki boha-trykstara słaviacca vykanańniem mudrahielistych tancaŭ, u jakich raskazvajecca historyja Atel Łorena. Łojk - boh cieniaŭ, utojlivaści i pomsty. </OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<CharacterCreationOption Id="option_2_we_vaul" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_vaul_2">
+		<SkillsToIncrease>
+			<string>Crafting</string>
+			<string>Crafting</string>
+			<string>Trade</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_2_we_vaul_label_str}Vauł, Stvaralnik</OptionText>
+		<PositiveEffectText>Unlocks Kithband Symbol</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_2_we_vaul_text_str}Elfijski boh kavaloŭ, ramieśnikaŭ i majstroŭ. U čas staražytnych vojnaŭ bahoŭ Vauł byŭ paranieny Kchajnam, u vyniku čaho zastaŭsia kalekam i ślapym. Ale heta nie spyniła zaciataha boha-kavala, bo jon pa-raniejšamu dzień i noč pracuje na karyść svaich surodzičaŭ. Z kuźni Vauła vyšli najmahutnyja artefakty, jakimi kaliści vałodali ludzi, u tym liku i žachlivy Ŭdavarob - Mieč Kchajna.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_we_khaine" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_khaine_2">
+		<SkillsToIncrease>
+			<string>TwoHanded</string>
+			<string>Polearm</string>
+			<string>Leadership</string>
+			<string>Roguery</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<PositiveEffectText>Unlocks Kithband Symbol</PositiveEffectText>
+		<OptionText>{=tor_cc_option_2_we_anath_raema_label_str}Anat Raema, Bahinia Dzikaha Palavańnia</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_we_anath_raema_text_str}Anat Raema, siastra Kchajna, - ciomnaje lusterka Kurnoŭsa, dzikaja drapiežnica, jakuju cikavić tolki pralitaja kroŭ nižejšych istot. Chacia ŭ Łorenie jaje publična adprečvajuć, niekatoryja krainy šukajuć jaje zastupnictva, i značna bolš Asrajaŭ nasupierak čakańniam, pryśviačaje chacia b niekalki svaich zabojstvaŭ Dzikaj Palaŭničaj - usio, čaho Anat Raema damahajecca ad svaich paśladoŭnikaŭ, heta śmierci zdabyčy, ad cmokaŭ da pacukoŭ, usio heta dastaŭlaje joj zadavalnieńnie.</OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<!--  Asrai stage 3 -->
+	<CharacterCreationOption Id="option_3_we_wardancer" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_wardancer_3">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>OneHanded</string>
+			<string>Athletics</string>
+			<string>Faith</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_3_we_wardancer_label_str}Šlach Tancoru Vajny</OptionText>
+		<OptionFlavourText>{=tor_cc_option_3_we_wardancer_text_str}Vy - vajar, jaki idzie pa šlachu Łojka. Jak Tancor Vajny, vaš spryt i hracyja ŭ bai nia majuć sabie roŭnych. Vy ruchajeciesia z płyŭnaj dakładnaściu, pieratvarajučy bitvu ŭ śmiarotny taniec.</OptionFlavourText>
+	</CharacterCreationOption>
+	
+	<CharacterCreationOption Id="option_3_we_waywatcher" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_waywatcher_3">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Scouting</string>
+			<string>Roguery</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_3_we_waywatcher_label_str}Šlach Nahladniku Šlachu</OptionText>
+		<PositiveEffectText>"Waywatcher" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_waywatcher_text_str}Vy daśviedčany vyviednik, jaki baronić i zaścierahaje biaśpieku lesu. Vy robiciesia adnym cełym sa svaim łukam, vałodajučy niepierasiahnienym majsterstvam.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_3_we_spellsinger" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_spellsinger_3">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Riding</string>
+			<string>Medicine</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option58_label_str}Šlach Śpiavaka Zaklonaŭ</OptionText>
+		<PositiveEffectText>"Spellsinger" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_spellsinger_text_str}Vy - Śpiavak Zaklonaŭ, jaki budzie vyvučać vyšejšuju lbo ciomnuju mahiju. Vy zrazumiejecie pryrodu hetaha čaroŭnaha dreva i budziecie baranić jaho, jak sama karaleva mahaŭ.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option_3_we_gladerider" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_gladerider_3">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Polearm</string>
+			<string>Riding</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option59_label_str}Šlach Prahalnaha Najeźnika</OptionText>
+		<OptionFlavourText>{=tor_cc_option_3_we_gladerider_text_str}Asrai žyvuć sa svaimi końmi ŭ harmonii, padobnaj jakoj nie byvaje. U rańnim dziacinstvie vy vyrašyli stać adnym cełym sa svaim kaniom.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option_3_we_warden_3" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_warden_3">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>TwoHanded</string>
+			<string>Scouting</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_3_we_wildwood_label_str}Šlach Nahladnika</OptionText>
+		<OptionFlavourText>{=tor_cc_option60_text_str}Atel Łoren maje patrebu ŭ abaronie, navat znutry. Jak nahladnik, vy paklalisia baranić les ad usiakaj pahrozy.</OptionFlavourText>
+	</CharacterCreationOption> 
+	
+			<!-- Eonir stage 1 -->
+	<CharacterCreationOption Id="option_1_eo_toriour" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_toriour_1">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Crafting</string>
+			<string>Bow</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_eo_toriour_label_str}Naščadak Toryaŭra</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_eo_toriour_text_str}Jak vychadziec horada, vy bolšuju častku času žyli ŭ Tor Litanele, dzie vyvučali tradycyi i ramiesnaje majsterstva, zachavanyja zadoŭha da padziełu vašaha rodu.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_eo_faniour" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_faniour_1">
+		<SkillsToIncrease>
+			<string>Riding</string>
+			<string>Polearm</string>
+			<string>Bow</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_eo_faniour_label_str}Naščadak Faniura</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_eo_faniour_text_str}Vašaja siamja pieražyła Vajnu Barodaŭ i źbiehła ŭ les Łaŭrełorn - apošni bastyjon vyžyłych Asuraŭ u Starym Śviecie. Jak Lesanarodžany, vy praviali bolšuju častku svajoj junackaści ŭ ścienach lesu Łaŭrełorn.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_eo_harioth" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_harioth_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Bow</string>
+			<string>Athletics</string>
+			<string>TwoHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_eo_harioth_label_str}Naščadak Charyota</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_eo_harioth_text_str}Vašaja siamja ŭvajšła ŭ les Łaŭrełorn u minułym tysiačahodździ, praz doŭhi čas paśla padziełu Ianiru. Vy, jak druhoje pakaleńnie, ledź pieražyli abrad pryniaćcia. Bolšuju častku svajoj junackaści vy praviali ŭ miežach Ianirskaha kraju, u piačorach i impravizavanych schoviščach...</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_eo_diplomat" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_diplomat_1">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Leadership</string>
+			<string>Steward</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_eo_diplomat_label_str}Naščadak Asurskich Dypłamataŭ</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_eo_diplomat_text_str}Vy pachodzicie z siamji, jakaja i dasiońnia karystajecca vialikaj słynnaściu va Ultuanie, a taksama siarod Ianiraŭ. Dypłamaty z dalokaha kantynienta Asur, jak i siońniašni sojm, časta prysłuchoŭvajucca, kali čujuć vašaje imia.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_eo_druchii_foundling" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_druchii_foundling_1">
+		<SkillsToIncrease>
+			<string>Roguery</string>
+			<string>OneHanded</string>
+			<string>Medicine</string>
+			<string>Crossbow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_eo_druchii_foundling_label_str}Druchijski Padkidyš</OptionText>
+		<OptionFlavourText>{=tor_option_1_eo_druchii_foundling_text_str}Bierahavyja Asurskija patruli napali na Druchijski Zaniavolnicki Karabiel, i, chacia uvieś ekipaž zahinuŭ, jany znajšli vyžyłaje Druchijskaje dzicia. Nia viedajučy, što z vami rabić, vas pryvieźli ŭ Ianir jak siratu. U ramkach hetaha handlu nichto nia viedaje, adkul vy rodam, ale vy vydatna aśviadomleny pra toje, što adbyłosia.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Eonir stage 2 -->
+	<CharacterCreationOption Id="option_2_eo_council_guard" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_council_guard_2">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Athletics</string>
+			<string>OneHanded</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_2_eo_council_guard_label_str}Sojmavy Vartavy</OptionText>
+		<OptionFlavourText>{=tor_option_2_eo_council_guard_text_str}Vy zajmalisia pytańniami biaśpieki Sojmu. Z časam vy zrabili sabie imia i stali Kapitanam.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_eo_trader_empire" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_trader_empire_2">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Charm</string>
+			<string>Crafting</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_2_eo_trader_empire_label_str}Handlar uva Impierskich haradach</OptionText>
+		<OptionFlavourText>{=tor_cc_option52_text_str}Jak vandroŭny handlar, vy viedajecie, mabyć, bolš ludziej, čym svaich surodzičaŭ. Tym nia mienš vy navučylisia rabić sabie imia, i za hetaje vas šanujuć i ludzi, i elfy. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_eo_witch_king_envoy" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_witch_king_envoy_2">
+		<SkillsToIncrease>
+			<string>Roguery</string>
+			<string>Roguery</string>
+			<string>Charm</string>
+			<string>Crossbow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_option_2_eo_witch_king_envoy_str}Viastun Karala-Viedźmara</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_we_loec_text_str}Pałac časta adpraŭlaŭ vas na zadańni ŭ daloki Nahharot ci na ichnija badziažnyja Čornyja Kaŭčehi. Dziakujučy vašym rehularnym vizitam vy atrymali niekatoraje ŭjaŭleńnie pra štodzionnyja Druchijskija spravy. </OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<CharacterCreationOption Id="option_2_eo_senate_member" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_senat_member_2">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Tactics</string>
+			<string>Leadership</string>
+			<string>Charm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_2_eo_senat_member_label_str}Čalec Sienatu</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_eo_senat_member_text_str}Vašaja kampietentnaść jak vajara pryniesła vam miesca ŭ Sienacie, vy navučylisia dypłamatyi i tamu, jak ažyciaŭlać svaje zadumy ŭ palitycy z dapamohaj maniery pramovy. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_eo_protector_wards" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_protector_wards_2">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Polearm</string>
+			<string>Riding</string>
+			<string>Scouting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_2_eo_protector_wards_label_str}Abaronca Achovy</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_eo_protector_wards_text_str}Bolšuju častku žyćcia vy pravodzicie ŭ Lesie i baronicie Achovy ad viečnych Ianirskich pahrozaŭ.</OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<!--  eonir stage 3 -->
+	<CharacterCreationOption Id="option_3_eo_envoy" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_envoy_3">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Tactics</string>
+			<string>Medicine</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionText>{=tor_cc_option_3_eo_envoy_label_str}Ianirski Ambasadar</OptionText>
+		<OptionFlavourText>{=tor_cc_option_3_eo_envoy_text_str}U jakaści Viestuna vy słužycie Ianiru za miežami lesu, zajmajeciesia handlem i adnosinami z zamiežnymi karaleŭstvami i vybarnymi haspadarstvami.</OptionFlavourText>
+	</CharacterCreationOption>
+	
+	<CharacterCreationOption Id="option_3_eo_ghost_strider" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_ghost_strider_3">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Scouting</string>
+			<string>Roguery</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_3_we_waywatcher_label_str}Pryvidny Badziaha</OptionText>
+		<PositiveEffectText>"Waywatcher" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_waywatcher_text_str}Maŭklivych palaŭničych lesu baicca ŭsiaki lasny vorah. Vy vyrašyli pajści pa šlachu hetkaha śmiarotnaha vajara. Vy vyrašyli stać Pryvidnym Badziahaj.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_3_eo_kithband_warrior" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_kithband_warrior_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>TwoHanded</string>
+			<string>Bow</string>
+			<string>Polearm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option58_label_str}Vajar Svojskaj Chieŭry</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_spellsinger_text_str}Vy zmahajeciesia razam sa svaimi surodzičami za abaronu lesu, čaho b heta ni kaštavała. Choć vajaram Svojskaj Chieŭry brakuje niekatoraj elehantnaści, u paraŭnańni ź inšymi elfami, vynachodlivaść i praktyčnaść robiać ich vydatnymi vajarami lesu.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option_3_eo_greylord_apprentice" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_greylord_apprentice_3">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_3_eo_greylord_apprentice_label_str}Vučań Šeraha Łordu</OptionText>
+		<PositiveEffectText>"Greylord Career"</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_eo_greylord_apprentice_text_str}Vy vyrašyli dałučycca da vučeńnia adnaho z vyhnanych Mahičnych Vaładaroŭ Ultuana. Chacia jany viedajuć usie pra hety śviet i za jaho miežami, mahi prajaŭlajuć vialikuju cikavaść da kantrolu nad cmokami, čaho b heta ni kaštavała. </OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option_3_eo_eonir_expatriate" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_eonir_expatriate_3">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Bow</string>
+			<string>Charm</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionText>{=tor_cc_option_3_eo_eonir_expatriate_label_str}Ianirski Emihrant</OptionText>
+		<OptionFlavourText>{=tor_cc_option_3_eo_eonir_expatriate_text_str}Vy ličycie, što sprava Ianira prajhrana. Zamiž taho vy nazyvajecie čałaviečyja pravincyi svaim domam. Jak najmit dy handlar, vy zarablajecie na svajo žyćcio.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+
+
+
+</ArrayOfCharacterCreationOption>

@@ -1,0 +1,1179 @@
+<?xml version="1.0"?>
+<ArrayOfCharacterCreationOption xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!--This is a single character creation option. ID has no naming convention, but has to be unique. 
+	SkillsToIncrease possible values:
+			OneHanded
+			TwoHanded
+			Polearm
+			Bow
+			Crossbow
+			Throwing
+			Riding
+			Athletics
+			Scouting
+			Tactics
+			Crafting
+			Roguery
+			Charm
+			Leadership
+			Trade
+			Steward
+			Medicine
+			Engineering
+			Faith
+			Gunpowder
+			Spellcraft
+	AttributeToIncrease possible values:
+			Vigor
+			Control
+			Endurance
+			Cunning
+			Social
+			Intelligence
+			Discipline
+	-->
+	<!-- Empire stage 1 -->
+	<CharacterCreationOption Id="option1" Culture="empire" StageNumber="1" EquipmentSetId="tor_cc_imperial_nobility_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Leadership</string>
+			<string>Polearm</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option1_label_str}Імперская Шляхта</OptionText>
+		<OptionFlavourText>{=tor_cc_option1_text_str}Вашыя бацькі аддана служылі графу Гаўпт-Андэрсану, яны не былі буйнымі шляхцічамі, але займалі значнае становішча пры палацы Графа-Электара і забясьпечылі вам камфортнае дзяцінства. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option2" Culture="empire" StageNumber="1" EquipmentSetId="tor_cc_imperial_sergeant_1">
+		<SkillsToIncrease>
+			<string>TwoHanded</string>
+			<string>Gunpowder</string>
+			<string>Athletics</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option2_label_str}Імперскага Сяржанта</OptionText>
+		<OptionFlavourText>{=tor_cc_option2_text_str}Вашы бацька ня толькі ўдала служыў, але і выжываў досыць доўга, каб атрымаць пасаду сяржанта, ветэрана, што праліваў кроў як зьвералюдзей, гэтак і бандытаў.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option3" Culture="empire" StageNumber="1" EquipmentSetId="tor_cc_thieves_1">
+		<SkillsToIncrease>
+			<string>Throwing</string>
+			<string>OneHanded</string>
+			<string>Roguery</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option3_label_str}Злачынцы</OptionText>
+		<OptionFlavourText>{=tor_cc_option3_text_str}Не ўсё ў Імперыі бласлаўлёныя Ранальдам, вашая сям'я была беднай і зарабляла на жыцьцё хуткімі рукамі і кемлівасьцю. Яна крала манеты з адкрытых кішэняў і засоўвалі іх у свае. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option4" Culture="empire" StageNumber="1" EquipmentSetId="tor_cc_commoners_1">
+		<SkillsToIncrease>
+			<string>Engineering</string>
+			<string>Crossbow</string>
+			<string>Scouting</string>
+			<string>Crafting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option4_label_str}Простыя Людзі</OptionText>
+		<OptionFlavourText>{=tor_cc_option4_text_str}</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option5" Culture="empire" StageNumber="1" EquipmentSetId="tor_cc_merchants_1">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Charm</string>
+			<string>Steward</string>
+			<string>Medicine</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option5_label_str}Гандляры</OptionText>
+		<OptionFlavourText>{=tor_cc_option5_text_str}Віно - кроў Вуртбада. Вашая сям'я зарабляла на яго гандлі вышэй па рацэ Шцір і ўсёй Імперыі. Вашае маленства было зьвязана са сталымі вандроўкамі. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Empire stage 2 -->
+	<CharacterCreationOption Id="option6" Culture="empire" StageNumber="2" EquipmentSetId="tor_cc_enlisted_militia_2">
+		<SkillsToIncrease>
+			<string>Athletics</string>
+			<string>TwoHanded</string>
+			<string>Polearm</string>
+			<string>Crossbow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option6_label_str}Далучыўся да Рушэньня</OptionText>
+		<OptionFlavourText>{=tor_cc_option6_text_str}Зьвералюды і бандыты квітнеюць у Імперыі. Таму вашы дом заўжды меў патрэбу ў дужых мужчынах. У рыхтоўлях з рушэньнем вы неўзабаве здабылі моцныя рукі і густ да бойкі.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option7" Culture="empire" StageNumber="2" EquipmentSetId="tor_cc_merchants_assistant_2">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Polearm</string>
+			<string>Tactics</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option7_label_str}Памагаты Гандляра</OptionText>
+		<OptionFlavourText>{=tor_cc_option7_text_str}Гандляр, што праязжаў ля вашай хаты, заўважыў вашыя здольнасьці да лічбаў і ўзяў вас пад сваё крыло. Ён прапанаваў навучыць вас свайму рамяству ў памен на штодзённую дапамогу ў выкананьні яго заданьняў.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option8" Culture="empire" StageNumber="2" EquipmentSetId="tor_cc_blacksmith_apprentice_2">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Trade</string>
+			<string>Tactics</string>
+			<string>Crafting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option8_label_str}Вучань Каваля</OptionText>
+		<OptionFlavourText>{=tor_cc_option8_text_str}Канфлікты ў Імперыі не спыняліся ні на хвіліну, як і праца яе кавалёў. Пад кіраўніцтвам мясцовага каваля вы вырашылі ператварыць сваю сілу ў рамяство і сталі куць жалеза па свайму жаданьню. Вашы першы меч, хаця і атрымаўся крывым, але затое вострым!</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option9" Culture="empire" StageNumber="2" EquipmentSetId="tor_cc_imperial_cultist_2">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Medicine</string>
+			<string>Faith</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option9_label_str}Імперскі Культыст</OptionText>
+		<OptionFlavourText>{=tor_cc_option9_text_str}Большую частку часу вы бавілі ў храмавым раёне і маліліся розным багам Імперскага Пантэона. Некаторыя з тамтэйшых сьвятароў зьвярнулі на вас сваю ўвагу і сталі вучыць вас сваім пісаньням. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option10" Culture="empire" StageNumber="2" EquipmentSetId="tor_cc_engineering_student_2">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Steward</string>
+			<string>Gunpowder</string>
+			<string>Engineering</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option10_label_str}Студэнт Інжынера</OptionText>
+		<OptionFlavourText>{=tor_cc_option10_text_str}Гісторыі пра Калегіі Нульна заўжды былі вашымі ўпадабанымі, здаецца, Ранальд блаславіў вас, калі Майстар-Інжынер, які шукаў вучня, вырашыў, што вы будзеце ідэальным кандыдатам. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Empire stage 3 -->
+	<CharacterCreationOption Id="option11" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_free_company_militiaman_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Gunpowder</string>
+			<string>TwoHanded</string>
+			<string>Bow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option11_label_str}Рушэнны Вольнай Кампаніі</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option11_text_str}Бойкі і выпіўка - што яшчэ трэба ў жыцьці? З мячом у руцэ вы маршавалі са сваёй разнашэрснай Вольнай Кампаніяй ад бітвы да бітвы і зараблялі сваю шчырую долю шнараў. Вы гатовыя служыць кожнаму шляхцічу за адпаведны кошт.</OptionFlavourText>
+	</CharacterCreationOption>
+	
+	<CharacterCreationOption Id="option12" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_magister_apprentice_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Athletics</string>
+			<string>Spellcraft</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option12_label_str}Вучань Магістра</OptionText>
+		<PositiveEffectText>"Imperial Magister" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option12_text_str}Здольнасьці да Вятроў Магіі дазволілі вам заняць месца ў Калегіях Альтдорфа, з часам вы навучыліся карыстацца асновамі сваёй сілы і пазналі натуру свайго ветру.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option13" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_priest_acolyte_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Medicine</string>
+			<string>Faith</string>
+			<string>Faith</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option13_label_str}Акаліт Сьвятара</OptionText>
+		<PositiveEffectText>Choose a "Priest" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option13_text_str}Прысьвяціўшы жыцьцё культу свайго бога-заступніка, вы шукаеце шлях праведнасьці ў адпаведнасьці са сваёй верай. Быць Акалітам - значыць гартаваць сябе супраць зла, ненатуральнага і жахлівага (Дае доступ да Малітваў, але не дае вучыць Заклёны).</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option14" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_trainee_templar_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Roguery</string>
+			<string>Riding</string>
+			<string>Crossbow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option14_label_str}Ініцыянт Паляўнічага на Вядзьмароў</OptionText>
+		<PositiveEffectText>"Witch Hunter" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option14_text_str}Ерась была бізуном добрых людзей Імперыі, гнілатой, ад якой трэба было пазбавіцца. Вывучаючы майстэрства Паляўнічых на Вядзьмарак, вы рыхтаваліся сустрэцца з усімі відамі нязбожных зьвяроў і магаў, з верай і срэбрам. </OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option15" Culture="empire" StageNumber="3" EquipmentSetId="tor_cc_merchant_3">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Steward</string>			
+			<string>Trade</string>
+			<string>Trade</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option15_label_str}Гандляр</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option15_text_str}У Імперыі шмат гандлёвых тавараў, і вы вырашылі заняць сваё месца сярод шматлікіх гандляроў. На заашчаджаныя грошы вы зьбіраецеся стварыць свой уласны караван і зрабіць сабе імя. </OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<!-- VC stage 1 -->
+	<CharacterCreationOption Id="option16" Culture="khuzait" StageNumber="1" EquipmentSetId="tor_cc_exiled_nobility_1">
+		<SkillsToIncrease>
+			<string>Leadership</string>
+			<string>Steward</string>
+			<string>OneHanded</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option16_label_str}Шляхетныя Выгнаньнікі</OptionText>
+		<OptionFlavourText>{=tor_cc_option16_text_str}Славалюбства загубіла многіх, і вашая сям'я апынулася не ў літасьці з Электарам. Выгнаная ў Сільванію з дробным багацьцем, вашая сям'я была вымушана жыць сярод вяскоўцаў. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option17" Culture="khuzait" StageNumber="1" EquipmentSetId="tor_cc_strigany_caravanners_1">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Scouting</string>
+			<string>Crafting</string>
+			<string>Charm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option17_label_str}Стрыганскія Караваньнікі</OptionText>
+		<OptionFlavourText>{=tor_cc_option17_text_str}Вы нарадзіліся ў сям'і Стрыганаў. Вашае дзяцінства прайшло ў падарожжах з горада ў горад разам з караванам клана.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option18" Culture="khuzait" StageNumber="1" EquipmentSetId="tor_cc_graverobbers_1">
+		<SkillsToIncrease>
+			<string>Throwing</string>
+			<string>Athletics</string>
+			<string>Roguery</string>
+			<string>Polearm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option18_label_str}Магільныя Грабежнікі</OptionText>
+		<OptionFlavourText>{=tor_cc_option18_text_str}У Сільваніі маюцца тыя, хто добра плаціць за трупы, і вашая сям'я выбрала менавіта гэтае рамяство. Выкрадалі каханых людзей глубокай ноччу і везьлі іх у замкі ці трыманьні шляхты, ніколі не задаючы сабе пытаньне, навошта тое патрэбна.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option19" Culture="khuzait" StageNumber="1" EquipmentSetId="tor_cc_fisherfolk_1">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Medicine</string>
+			<string>Athletics</string>
+			<string>Engineering</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option19_label_str}Рыбакі</OptionText>
+		<OptionFlavourText>{=tor_cc_option19_text_str}На працягу шматлікіх пакаленьняў вашая сям'я лавіла рыбу ў рэках і багнавых лужынах, каб прахарчавацца. Гэта было далёка не багатае жыцьцё, але гэта была сумленная праца, і вашая сям'я была задаволена. Нават пасьля зьнікненьня вашага брата...</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option20" Culture="khuzait" StageNumber="1" EquipmentSetId="tor_cc_orphan_1">
+		<SkillsToIncrease>
+			<string>Athletics</string>
+			<string>OneHanded</string>
+			<string>Tactics</string>
+			<string>Roguery</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option20_label_str}Сірата</OptionText>
+		<OptionFlavourText>{=tor_cc_option20_text_str}Вы ніколі ня ведалі пра сваю сям'ю, хаця многія глядзелі на вас са страхам і шапталіся напаўголасу, і вам заставалася толькі змагацца за выжываньне, здабываць сабе пражытак і сілкавацца чужымі з'едкамі. Вам часта давадзілася хавацца ад стварэньняў, што хаваюцца ўначы.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- VC stage 2 -->
+	<CharacterCreationOption Id="option21" Culture="khuzait" StageNumber="2" EquipmentSetId="tor_cc_noble_attendant_2">
+		<SkillsToIncrease>
+			<string>Scouting</string>
+			<string>Charm</string>
+			<string>Riding</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option21_label_str}Памагаты Шляхціча </OptionText>
+		<OptionFlavourText>{=tor_cc_option21_text_str}Служба ў палацы фон Карштайнаў дала вам уяўленьне пра побыт вечна жывых, а хітраспляценьні і палітыкі шляхты навучылі вас многаму. Вашая стараннасьць дапамагла вам выжыць і пачувацца камфортна. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option22" Culture="khuzait" StageNumber="2" EquipmentSetId="tor_cc_necromancers_apprentice_2">
+		<SkillsToIncrease>
+			<string>Medicine</string>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+			<string>Polearm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option22_label_str}Вучань Некраманта </OptionText>
+		<OptionFlavourText>{=tor_cc_option22_text_str}Пра цьвярозы розум вашага майстара нельга шмат сказаць: усе яго дні былі прысьвечаны раскрыцьцю скруткаў і правядзеньню цёмных рытуалаў. Апантаны жаданьнем стаць магутным, але ня маючы такой магчымасьці, ён імкнуўся карыстацца вашымі здольнасьцямі дзеля ўзмацненьня ўласных.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option23" Culture="khuzait" StageNumber="2" EquipmentSetId="tor_cc_peat_farmer_2">
+		<SkillsToIncrease>
+			<string>Crafting</string>
+			<string>OneHanded</string>
+			<string>Polearm</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option23_label_str}Тарфяны Земляроб</OptionText>
+		<OptionFlavourText>{=tor_cc_option23_text_str}Капаньне багнавай глебы з бруднымі адкідамі - нялёгкі занятак. Але гэта дазваляла вам і вашай вёсцы зьбіраць бедны ўраджай з прыдатных для земляробства земляў.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option24" Culture="khuzait" StageNumber="2" EquipmentSetId="tor_cc_stableboy_2">
+		<SkillsToIncrease>
+			<string>Engineering</string>
+			<string>TwoHanded</string>
+			<string>OneHanded</string>
+			<string>Bow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option24_label_str}Заклічнік Рушэньня</OptionText>
+		<OptionFlavourText>{=tor_cc_option24_text_str}Закліканы ў войска свайго майстара, вы правялі сваё юнацтва на полі бою. Ваюючы разам з жахамі нежыці і некратычнымі брыдотамі. Але вы нейкім чынам засталіся жывыя і можаце расказаць пра гэтае.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option25" Culture="khuzait" StageNumber="2" EquipmentSetId="tor_cc_strigany_rake_2">
+		<SkillsToIncrease>
+			<string>Scouting</string>
+			<string>Roguery</string>
+			<string>Charm</string>
+			<string>Trade</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option25_label_str}Стрыганскі Гойсак</OptionText>
+		<OptionFlavourText>{=tor_cc_option25_text_str}Гойсаючы па ўскрайкам лагераў, вы падглядвалі лёгкія здабычы і маладых дзяўчын ды, карысталісь сваімі спакусьлівымі і дэбашырскімі паводзінамі, каб займацца рамяством. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- VC stage 3 -->
+	<CharacterCreationOption Id="option26" Culture="khuzait" StageNumber="3" EquipmentSetId="tor_cc_vampiric_nobility_3">
+		<SkillsToIncrease>
+            <string>Athletics</string>
+			<string>Athletics</string>
+		    <string>Athletics</string>
+			<string>OneHanded</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option26_label_str}Шляхціч-Вампір</OptionText>
+		<PositiveEffectText>Choose a "Vampire Bloodline" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option26_text_str}У нейкі момант вашы валадар распазнаў вашыя якасьці, вывеў вас з галечы і адкрыў сваю сапраўдную існасьць. Пасьля пацалунка крыві вы адрадзіліся, зрабіліся несьмяротным і больш магутным. - Дае здольнасьць вывучаць заклёны і ўздымаць мёртвых пасьля бою і на могілках. Напачатку гульні вы мусіце абраць крэўную лінію.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option27" Culture="khuzait" StageNumber="3" EquipmentSetId="tor_cc_novice_necromancer_3">
+		<SkillsToIncrease>
+			<string>Medicine</string>
+			<string>Crafting</string>
+			<string>Spellcraft</string>
+			<string>Roguery</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option27_label_str}Некрамант-Навік</OptionText>
+		<PositiveEffectText>"Necromancer" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option27_text_str}Нечакана з'явілася магчымасьць скрасьці старажытны фаліянт ведаў. Так вы сталі на шлях некрамантыі - Дае доступ да заклёнаў, выкліку касьцякоў і здольнасьці ўздымаць мёртвых пасьля бою ці на могілках.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option28" Culture="khuzait" StageNumber="3" EquipmentSetId="tor_cc_night_watchman_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Polearm</string>
+		    <string>Bow</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option28_label_str}Начны Вартаўнік</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option28_text_str}Сьмяротных часта заклікаюць служыць сваім мёртвым майстрам. Зразумела, што гэтыя прафесійныя ваяры ідуць у бой разам з процьмай нежыці сваіх майстраў. Больш панурых і забабонных людзей складана сустрэць, але яны рэдка ламаюцца ў запалу бітвы. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option29" Culture="khuzait" StageNumber="3" EquipmentSetId="tor_cc_strigany_donmu_3">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Throwing</string>
+			<string>Charm</string>
+			<string>Scouting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option29_label_str}Стрыганскі Донму</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option29_text_str}Хаця Донму не ўплывовыя ў параўнаньні з матрыярхамі свайго клану, яны з'яўляюцца важнымі чальцамі грамадства Стрыганаў. Бо падтрымліваюць згуртаванасьць сям'і і з'яўляюцца тварам клана падчас камунікаваньня з чужынцамі. Хаця яны ня з'яўляюцца прафесійнымі ваярамі, іх шматгадовая праца на чале караванаў у Старым Сьвеце не дае нагоды для пагарды над імі.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option30" Culture="khuzait" StageNumber="3" EquipmentSetId="tor_cc_vagabond_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Roguery</string>
+			<string>Athletics</string>
+			<string>TwoHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option30_label_str}Бадзяга</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option30_text_str}Дарогі Сільваніі цёмныя і небясьпечныя, вы палюеце на яе малалікіх вандраўнікоў і забіраеце сабе тое малае багацьце, якое можаце забраць сваім лязом. Але вы не адзіная пачвара, якая хаваецца ў цёмных багнах і лясах: часам ад падарожнікаў не застаецца нічога, што льга скрасьці.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Bretonnia stage 1 -->
+	<CharacterCreationOption Id="option31" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_bretonnian_nobility_1">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Polearm</string>
+			<string>Leadership</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option31_label_str}Брэтоньская Шляхта</OptionText>
+		<OptionFlavourText>{=tor_cc_option31_text_str}Вашая сям'я можа прасачыць свае карані і сувязі амаль да часоў Жыля. Вы нарадзіліся ў Брэтоньскім шляхецтве, і ўсе ведаюць пра гэтае па тым, як вы апранаецеся, як кажаце і як загадваеце вясковым.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option32" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_peasants_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Athletics</string>
+			<string>Bow</string>
+			<string>Crafting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option32_label_str}Брэтоньскія Прыгонныя</OptionText>
+		<OptionFlavourText>{=tor_cc_option32_text_str}На працягу шматлікіх пакаленьняў вашая сям'я апрацоўвала зямлю свайго феадала. Вашы бацька даўно перастаў спрабаваць зразумець словы шляхціча і проста зьвяртаецца да Ёмэна, які заўжды прыходзіць да яго з загадамі, якія звычайна зьвязаны з цяжкай фізічнай працай.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option33" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_sailors_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Charm</string>
+			<string>Scouting</string>
+			<string>Gunpowder</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option33_label_str}Брэтоньскія Мораходы</OptionText>
+		<OptionFlavourText>{=tor_cc_option33_text_str}Вашы бацька быў мораходам на Брэтоньскім караблі Буканьер. Пасьля вяртаньня ў вашую рыбацкую вёску, ён праводзіў як мага больш часу з вашымі маці, братамі і сёстрамі. Бацька навучыў вас многім навыкам: вязаньню вузлоў, выкарыстаньню падзорнай трубы і ўменьню арыентавацца па начным небе.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option34" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_outlaws_1">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Roguery</string>
+			<string>Scouting</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option34_label_str}Злачынцы</OptionText>
+		<OptionFlavourText>{=tor_cc_option34_text_str}Чамусьці вашая сям'я парушыла адну з клятваў, што дала свайму шляхцічу, і з тых часоў яе лічаць злачыннай. Як вынік вашая сям'я задавольваецца тым, што атрымоўваецца здабыць у лясах, бо ўвесь час знаходзіцца ўва ўцёках і жыве на завугольлях грамадства.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option35" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_bretonnian_merchants_1">
+		<SkillsToIncrease>
+			<string>Medicine</string>
+			<string>Trade</string>
+			<string>Polearm</string>
+			<string>Charm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option35_label_str}Вінныя Гандляры</OptionText>
+		<OptionFlavourText>{=tor_cc_option35_text_str}Вашая сям'я належала да вельмі абмежаванага кола вяскоўцаў, што жыве ў Брэтоньніі. Яны нажывалі сваё багацьце на працягу шматлікіх пакаленьняў праз продаж Брэтоньскіх вінаў у Імперыю, Істалію і Цілею. Нядаўна вашы шляхціч зрабіў выключэньне з законаў пра багацьце. Тое дазволіла вам насіць боты, што даходзяць да кален.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Bretonnia stage 2 -->
+	<CharacterCreationOption Id="option36" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_courtier_2">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Polearm</string>
+			<string>Charm</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option36_label_str}Брэтоньскі Палацавы</OptionText>
+		<OptionFlavourText>{=tor_cc_option36_text_str}Цягам шматлікіх гадоў вас рыхтавалі стаць лепшай шляхтай Брэтоньніі. Урокі манер, вершніцтва і рыцарства.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option37" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_men_at_arms_2">
+		<SkillsToIncrease>
+			<string>TwoHanded</string>
+			<string>Polearm</string>
+			<string>Athletics</string>
+			<string>Engineering</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option37_label_str}Збройны Чын</OptionText>
+		<OptionFlavourText>{=tor_cc_option37_text_str}Калі вы дасягнулі паўналецьця, вы паступілі на службу да свайго шляхціча. Вас вучылі трымаць лінію і выжываць на полі бою як мага лепш. Вы дагэтуль жывыя, то бок, у вас нядрэнна атрымваецца.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option38" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_highwayman_2">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Tactics</string>
+			<string>Charm</string>
+			<string>Scouting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option38_label_str}Злачынца ў Вышуку</OptionText>
+		<OptionFlavourText>{=tor_cc_option38_text_str}У маладзёнстве вы парушылі адзін са шматлікіх законаў, што вызначае межы Брэтоньскі грамадства. Ня маючы іншага выйсьця, вы апынуліся на завугольлі грамадства, вечна хаваючыся ад улады. Пэўны час вы жылі выключна браканьерствам і крадзяжом, але ўрэшце знайшлі прабачэньне за свае злачынствы.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option39" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_apprentice_craftsmen_2">
+		<SkillsToIncrease>
+			<string>Engineering</string>
+			<string>Crafting</string>
+			<string>OneHanded</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option39_label_str}Вучань Рамесьніка</OptionText>
+		<OptionFlavourText>{=tor_cc_option39_text_str}Вашы бацька змог уладкаваць вас у вучні да аднаго з мясцовых рамесьнікаў. Цягам пяці гадоў майстар вучыў вас усяму, што меў, і ў выніку вы набылі навыкі, якія назаўжды паставілі вас вышэй за звычайных вяскоўцаў.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option40" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_shephard_2">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Throwing</string>
+			<string>Crafting</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option40_label_str}Шэпард</OptionText>
+		<OptionFlavourText>{=tor_cc_option40_text_str}Вы сталі пастухом, які даглядаў за жывёлай, ад якой залежалі ежа і адзеньне. Вы і вашыя сябры, выконвалі дзьве ролі: баранілі статкі ад ваўкоў і іншых драпежнікаў, а таксама сачылі за ўскраінамі вёскі на прадмет з'яўленьня захопнікаў.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!--  Bretonnia stage 3 -->
+	<CharacterCreationOption Id="option41" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_knight_errant_3">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Riding</string>
+			<string>Riding</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option41_label_str}Вандроўны Рыцар</OptionText>
+		<PositiveEffectText>"Knight of Bretonnia" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option41_text_str}Вы вырашылі стаць на шлях рыцара Брэтоньніі. Дарога шляхетнага рыцарства цяжкая - вас чакае мноства ворагаў і бітваў. Але калі вы будзеце годныя, то напрыканцы сваёй вандроўкі атрымаеце найвялікае з вядомых людзям дабраславеньняў - глотак з Грааля Лэдзі.</OptionFlavourText>
+	</CharacterCreationOption>
+	
+	<CharacterCreationOption Id="option42" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_damsel_3">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+			<string>Faith</string>
+			<string>Charm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option42_label_str}Цнатліўка Лэдзі</OptionText>
+		<PositiveEffectText>"Damsel of the Lady" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option42_text_str}Напачатку вашага жыцьця Чарадзейка Фэй наведала вашую сям'ю і забрала вас да сябе. Яна ўбачыла ў вас вялікі патэнцыял, і вы далучыліся да іншых яе вучаніц. Пасьля доўгіх гадоў навучаньня яна палічыла вас гатовым рушыць у дарогу, каб служыць волі Лэдзі.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option43" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_yeoman_warden_3">
+		<SkillsToIncrease>
+			<string>Tactics</string>
+			<string>TwoHanded</string>
+			<string>OneHanded</string>
+			<string>Bow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option43_label_str}Ёмэн-Нагляднік</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option43_text_str}Вы давялі свайму шляхцічу сваю вартасьць, і ён узнагародзіў вас тытулам Ёмэна. Тытул даў вам права кіраваць іншымі вяскоўцамі, а ў рушэньнях вы мусілі браць на сябе ролю Наезьніка.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option44" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_freemen_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Steward</string>
+			<string>Crafting</string>
+			<string>Trade</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option44_label_str}Вольны Чалавек</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option44_text_str}Дзякуючы волі перасоўваньня і імкненьню да самаўдасканаленьня, вы ніколі не былі ва ўладзе шляхціча і змаглі рабіць штосьці сваё. Маючы пэўны навык у рамястве ці посьпех у гандлі вы дагэтуль можаце стаць вяскоўцам, вартым вызваленьня ад падаткаў.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option45" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_wall_warden_3">
+		<SkillsToIncrease>
+			<string>Engineering</string>
+			<string>Crossbow</string>
+			<string>Crossbow</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option45_label_str}Нагляднік Сьцяны</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option45_text_str}Пэўны час вы былі вучнем Наглядніка Сьцяны. Вы дапамагалі яму вызначаць шкоду і падтрымліваць замак свайго шляхціча ў парадку. Калі вашы настаўнік быў забіты падчас штурму замкавых сьцен, вы сталі Нагляднікам Сьцяны. Аднак пасьля маленькай памылкі вашы шляхціч вызваліў вас ад абавязкаў, каб знайсьці кагосьці больш дасьведчанага.</OptionFlavourText>
+	</CharacterCreationOption> 
+	
+	<!-- Mousillon stage 1 -->
+	<CharacterCreationOption Id="option46" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_mousillon_nobility_1">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Leadership</string>
+			<string>Riding</string>
+			<string>Polearm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option46_label_str}Музільёнская Шляхта</OptionText>
+		<OptionFlavourText>{=tor_cc_option46_text_str}Вашыя бацькі родам з Музільёнскага ‘Шляхецтва’, калі яго льга так назваць. Шляхта тут па большасьці складаецца з абвешчанай па-за законам Брэтоньскай шляхты, выгнанцаў і ліхадзеяў зь іншых краін, вампіраў, муміяў і іншых размаітых пачвар. Хаця яны, безумоўна, знаходзяцца на вяршыні Музільёнскага грамадства, за межамі праклятых земляў на іх глядзяць пагардліва, як і на ўсіх іншых тутэйшых.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option47" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_mousillon_yeoman_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Athletics</string>
+			<string>Bow</string>
+			<string>Roguery</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option47_label_str}Музільёнскі Ёмэн</OptionText>
+		<OptionFlavourText>{=tor_cc_option47_text_str}Вашы бацька быў Ёмэнам аднаго з шляхціцаў праклятага герцагства. Яго пасада забясьпечвала вашай сям'і сухое жытло і прыстойную ежу большасьць часу. Калі ён быў не ў рушэньні, то рабіў усё магчымае, каб навучыць вас баявым навыкам.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option48" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_bog_smuggler_1">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Roguery</string>
+			<string>Charm</string>
+			<string>TwoHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option48_label_str}Багнавыя Кантрабандысты</OptionText>
+		<OptionFlavourText>{=tor_cc_option48_text_str}Гандаль у Музільёне і за яго межамі практычна немагчымы з-за Санітарнага Кардону. Нягледзячы на гэтае, вашая сям'я стала майстрамі кантрабанды праз брамы і іх ахову. Не багаты па агульнапрынятых мерках, для Музільёна вы, безумоўна, нарадзіліся са срэбнай лыжкай.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option49" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_peat_farmer_1">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Throwing</string>
+			<string>Engineering</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option49_label_str}Тарфяны Земляроб і Яго Жонка-Жаба</OptionText>
+		<OptionFlavourText>{=tor_cc_option49_text_str}Нейкім чынам вашая сям'я парушыла адну з клятваў, дадзеных свайму шляхціцу, і з тога часу яе залічылі да злачынцаў. Увесь час уцякаючы і жывя на завугольлях грамадства, вашая сям'я задавольваецца тым, што можа здабыць у лясах.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option50" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_outlaws_1">
+		<SkillsToIncrease>
+			<string>Roguery</string>
+			<string>Throwing</string>
+			<string>Bow</string>
+			<string>Scouting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option50_label_str}Злачынцы</OptionText>
+		<OptionFlavourText>{=tor_cc_option50_text_str}Адна з найраспаўсюджаных прафесіяў Музільёна, вашая сям'я была грубай зграяй, што выкарыстоўвала сваю сілу і кемлівасьць, каб атрымліваць перавагу над слабымі і дурнымі суіснавальнікамі, сярод якіх вы апынуліся.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Mousillon stage 2 -->
+	<CharacterCreationOption Id="option51" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_mousillon_courtier_2">
+		<SkillsToIncrease>
+			<string>Riding</string>
+			<string>Steward</string>
+			<string>Charm</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option51_label_str}Музільёнскі Курцье</OptionText>
+		<OptionFlavourText>{=tor_cc_option51_text_str}Цягам шматлікіх гадоў вас рыхтавалі стаць лепшай шляхтай Музільёна. Урокі манер, вершніцтва і рыцарства.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option52" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_student_of_witchcraft_2">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Medicine</string>
+			<string>Roguery</string>
+			<string>Crafting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option52_label_str}Вучань-Вядзьмар</OptionText>
+		<OptionFlavourText>{=tor_cc_option52_text_str}Вядзьмарства і Магія вельмі распаўсюджаны ў Музільёне. Вы сталі вучнем аднаго з такіх практыкаў і займаліся гатаваньнем варэньняў і зельляў, пакуль вам не даручылі вывучаць глыбейшыя арканныя веды.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option53" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_man_at_arms_2">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Throwing</string>
+			<string>Crafting</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option53_label_str}Музільёнскі Збройны Чын</OptionText>
+		<OptionFlavourText>{=tor_cc_option53_text_str}Калі вы дасягнулі паўналецьця, вы паступілі на службу да свайго шляхціча. Вас вучылі трымаць лінію і выжываць на полі бою як мага лепш. Вы дагэтуль жывыя, то бок, у вас нядрэнна атрымваецца.</OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<CharacterCreationOption Id="option54" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_swampaire_2">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Throwing</string>
+			<string>Scouting</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option54_label_str}Багнампір</OptionText>
+		<OptionFlavourText>{=tor_cc_option54_text_str}Каб пракарміць сям'ю, вы палявалі на жаб і сьлімакоў у амшарах і багнах. Гэты няпростае рамяство, што патрабуе пэўнага спрыту і шпаркасьці пальцаў, але сьлімакі і жабы - адзін з нямногіх рэсурсаў, якімі багатая вашая зямля.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option55" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_brigand_2">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Tactics</string>
+			<string>Roguery</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option55_label_str}Грабежнік</OptionText>
+		<OptionFlavourText>{=tor_cc_option55_text_str}Вы пільнуеце сваіх ахвяр уздоўж вялікіх дарог і каля перапраў, ды зарабляеце на жыцьцё нападам на мінакоў і патрабуеце іх маёмасьць. Гэта складанае жыцьцё, але вы хутчэй захаваеце сваё ўласнае жыцьцё, чым жыцьцё ахвяр.</OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<!--  Mousillon stage 3 -->
+	<CharacterCreationOption Id="option56" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_knight_errant_3">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Riding</string>
+			<string>Riding</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option56_label_str}Музільёнскі Вандроўны Рыцар</OptionText>
+		<PositiveEffectText>"Knight of Mousillon" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option56_text_str}Нішто не кажа пра тое, што чалавек з Музільёна ня можа стаць на шлях Брэтоньскага Рыцара. Куды прывядзе гэты шлях, як заўжды, залежыць ад волі і чысьціні таго, хто па ім рушыць.</OptionFlavourText>
+	</CharacterCreationOption>
+	
+	<CharacterCreationOption Id="option57" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_vampire_of_mousillon_3">
+		<SkillsToIncrease>
+			<string>Athletics</string>
+			<string>Athletics</string>
+			<string>Athletics</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option57_label_str}Музільёнскі Вампір</OptionText>
+		<PositiveEffectText>Choose a "Vampire Bloodline" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option57_text_str}Амшары не дазваляюць рыцарству праклятых герцагстваў узяць пад кантроль усе землі. Як вынік шматлікая нечысьць знаходзіць у Музільёне сховішча, нават валадары ночы.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option58" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_necromancer_3">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Medicine</string>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option58_label_str}Некрамант</OptionText>
+		<PositiveEffectText>"Necromancer" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option58_text_str}Ведзьмары і Чартаўнікі, Гарадзільнікі і Дэманолагі, Вядуньні і Стрыганы... У такой няпраўнай і праклятай краіне, як Музільён, хто яшчэ можа не падначальвацца волі Морра?</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option59" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_cordon_runner_3">
+		<SkillsToIncrease>
+			<string>Athletics</string>
+			<string>Roguery</string>
+			<string>Charm</string>
+			<string>Trade</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option59_label_str}Межавы Бягун</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option59_text_str}У Музільён прыбываюць рэчы, якія былі б канфіскаваны ў любым іншым порце Старога Сьвета. Варпкамень, дзіўныя наркотыкі, рабы, крадзеныя рэчы, захопленыя піратамі караблі і шмат што іншае і значна цямнейшае. Нехта павінен дастаўляць гэтыя тавары да прызначаных пакупнікоў, якія амаль заўсёды знаходзяцца за межамі Музільёна. То бок, патрэбен нехта, хто зможа пранесьці гэтыя прадметы праз Санітарны Кардон.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option60" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_bog_pirate_3">
+		<SkillsToIncrease>
+			<string>Engineering</string>
+			<string>Crossbow</string>
+			<string>Crossbow</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option60_label_str}Амшарны Пірат</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option60_text_str}Вярхоўі Імглістай ракі і багністыя бухты Музільёна - выдатнае сховішча для тых, хто займаецца не зусім законным рамяством. Брэтоньскія караблі - адны з найлепшых у сьвеце, і часта яны загружаны дзіўнымі і каштоўнымі таварамі. Тое, што гэтым караблям часта даводзіцца баразьніць воды ўзьбярэжжа Музільёна, стварае мноства магчымасьцяў для тых, хто хоча іх ‘набыць’.</OptionFlavourText>
+	</CharacterCreationOption> 
+	
+	<!-- Asrai stage 1 -->
+	<CharacterCreationOption Id="option_1_we_daith" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_daith_apprentise_1">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Crafting</string>
+			<string>Bow</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_daith_label_str}Студэнт Дайта</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_daith_text_str}Вы трапілі пад крыло Дайта, Асрайскага майстра-каваля. Пад яго кіраўніцтвам вы зразумелі сакрэты коўкі зачараванай зброі і дасьпехаў. Вашае майстэрства ў рамястве параўнаецца толькі з вашым гераізмам у баі, што робіць вас грозным ваяром і ўмелым рамесьнікам. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_we_forest" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_forest_survivor_1">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Scouting</string>
+			<string>Medicine</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_we_forest_label_str}Лясны Выжылы</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_we_forest_text_str}Вас выхаваў лес. Прайшлі дзесяцігодзьдзі, перш чым вы пачалі кантактаваць зь іншымі Асраямі. Пакуль вы павольна адаптаваліся да Асрайскага грамадства, вы навучыліся гаварыць з самім лесам.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_we_mountain" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_mountain_veteran_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Bow</string>
+			<string>Tactics</string>
+			<string>TwoHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_we_mountain_label_str}Ветэран Горных Сутыкненьняў</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_we_mountain_text_str}Вам давадзілася сутыкацца з цягавітымі Дварфамі ўва шматлікіх закалотках Шэрых Гораў, якія атачаюць Атэль Лорэн. Досьвед гэтых жорсткіх бітваў вывастрыў вашыя навыкі і трываласьць, зрабіўшы вас больш цягавітым ваяром лесу за іншых.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_we_noble" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_we_noble_1">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Polearm</string>
+			<string>Bow</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_we_noble_label_str}Малодшы Шляхціч Атэль Лорэна</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_we_noble_text_str}Радзіўшыся ў шляхетнай сем'і Атэль Лорэна, вы атрымалі самую лепшую адукацыю і выхаваньне ў Зялёным Шляхе. Вашае шляхетнае паходжаньне дазволіла вам атрымаць лепшых баявых і дыпламатычных настаўнікаў.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_we_guardian_anmyr" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_we_guardian_anmyr_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>TwoHanded</string>
+			<string>Bow</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_option_1_we_guardian_anmyr_label_str}Вартавы Анміра</OptionText>
+		<OptionFlavourText>{=tor_option_1_we_guardian_anmyr_text_str}Анмір, Ўітэрхолд, - спаганены і гнойны край, заплямлены бруднай крывёй Моргура. З-за гэтага Зьвералюды-грабежнікі зьлятаюцца ў Анмір, як матылькі на полымя. Вы - адзін з тых Асраяў, якія заўжды з запалам і пачуцьцём абавязку адгукаліся на заклік Анміра да зброі. Ўітэрхолд не падзе пад гідкімі зьвярамі! </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Asrai stage 2 -->
+	<CharacterCreationOption Id="option_2_we_kurnous" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_kurnous_2">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Bow</string>
+			<string>Scouting</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option51_label_str}Курноўс, Паляўнічы</OptionText>
+		<PositiveEffectText>Unlocks Kithband Symbol</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option51_text_str}Бог паляваньня і дзікіх зямель Эльфійскага пантэона. Усе Эльфы ўшаноўваюць яго, але больш за ўсіх Курноўс дарагі Лясным Эльфам, якія лічаць бога паляваньня бацькам сваёй расы і вераць, што іх лад жыцьця найболей адпавядае шляхам Курноўса.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_we_isha" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_isha_2">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Faith</string>
+			<string>Faith</string>
+			<string>Charm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<PositiveEffectText>Unlocks Treekin Symbol</PositiveEffectText>
+		<OptionText>{=tor_cc_option52_label_str}Іша, Маці</OptionText>
+		<OptionFlavourText>{=tor_cc_option52_text_str}Эльфійская багіня прыроды, урадлівасьці, шчодрага ўраджаю і заступніца ўсяго натуральнага. Лясныя Эльфы цьвёрда вераць, што Асрайская Каралева-Маг Арыэль - жывы аватар ішы, які нясе яе волю ў панства сьмяротных.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_we_loec" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_loec_2">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Athletics</string>
+			<string>Athletics</string>
+			<string>Faith</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<PositiveEffectText>Unlocks Wardancer Symbol</PositiveEffectText>
+		<OptionText>{=tor_cc_option_2_we_loec_label_str}Лойк, Танцор Ценяў</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_we_loec_text_str}Бог хітрасьці, сьмеху і музыкі, а таксама патрон Асрайскіх Танцораў Вайны. Лойк - таямнічая боскасьць, бо яго слугі захоўваюць сакрэты яго рытуалаў. Пасьлядоўнікі бога-трыкстара славяцца выкананьнем мудрагелістых танцаў, у якіх расказваецца гісторыя Атэль Лорэна. Лойк - бог ценяў, утойлівасьці і помсты. </OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<CharacterCreationOption Id="option_2_we_vaul" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_vaul_2">
+		<SkillsToIncrease>
+			<string>Crafting</string>
+			<string>Crafting</string>
+			<string>Trade</string>
+			<string>Athletics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_2_we_vaul_label_str}Ваул, Стваральнік</OptionText>
+		<PositiveEffectText>Unlocks Kithband Symbol</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_2_we_vaul_text_str}Эльфійскі бог кавалёў, рамесьнікаў і майстроў. У час старажытных войнаў багоў Ваул быў паранены Кхайнам, у выніку чаго застаўся калекам і сьляпым. Але гэта не спыніла зацятага бога-каваля, бо ён па-ранейшаму дзень і ноч працуе на карысьць сваіх суродзічаў. З кузьні Ваула вышлі наймагутныя артэфакты, якімі калісьці валодалі людзі, у тым ліку і жахлівы Ўдавароб - Меч Кхайна.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_we_khaine" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_khaine_2">
+		<SkillsToIncrease>
+			<string>TwoHanded</string>
+			<string>Polearm</string>
+			<string>Leadership</string>
+			<string>Roguery</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<PositiveEffectText>Unlocks Kithband Symbol</PositiveEffectText>
+		<OptionText>{=tor_cc_option_2_we_anath_raema_label_str}Анат Раэма, Багіня Дзікага Паляваньня</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_we_anath_raema_text_str}Анат Раэма, сястра Кхайна, - цёмнае люстэрка Курноўса, дзікая драпежніца, якую цікавіць толькі пралітая кроў ніжэйшых істот. Хаця ў Лорэне яе публічна адпрэчваюць, некаторыя краіны шукаюць яе заступніцтва, і значна больш Асраяў насуперак чаканьням, прысьвячае хаця б некалькі сваіх забойстваў Дзікай Паляўнічай - усё, чаго Анат Раэма дамагаецца ад сваіх пасьлядоўнікаў, гэта сьмерці здабычы, ад цмокаў да пацукоў, усё гэта дастаўляе ёй задавальненьне.</OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<!--  Asrai stage 3 -->
+	<CharacterCreationOption Id="option_3_we_wardancer" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_wardancer_3">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>OneHanded</string>
+			<string>Athletics</string>
+			<string>Faith</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_3_we_wardancer_label_str}Шлях Танцору Вайны</OptionText>
+		<OptionFlavourText>{=tor_cc_option_3_we_wardancer_text_str}Вы - ваяр, які ідзе па шляху Лойка. Як Танцор Вайны, ваш спрыт і грацыя ў баі ня маюць сабе роўных. Вы рухаецеся з плыўнай дакладнасьцю, ператвараючы бітву ў сьмяротны танец.</OptionFlavourText>
+	</CharacterCreationOption>
+	
+	<CharacterCreationOption Id="option_3_we_waywatcher" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_waywatcher_3">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Scouting</string>
+			<string>Roguery</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_3_we_waywatcher_label_str}Шлях Наглядніку Шляху</OptionText>
+		<PositiveEffectText>"Waywatcher" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_waywatcher_text_str}Вы дасьведчаны выведнік, які бароніць і засьцерагае бясьпеку лесу. Вы робіцеся адным цэлым са сваім лукам, валодаючы неперасягненым майстэрствам.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_3_we_spellsinger" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_spellsinger_3">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Riding</string>
+			<string>Medicine</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option58_label_str}Шлях Сьпявака Заклёнаў</OptionText>
+		<PositiveEffectText>"Spellsinger" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_spellsinger_text_str}Вы - Сьпявак Заклёнаў, які будзе вывучаць вышэйшую льбо цёмную магію. Вы зразумееце прыроду гэтага чароўнага дрэва і будзеце бараніць яго, як сама каралева магаў.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option_3_we_gladerider" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_gladerider_3">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Polearm</string>
+			<string>Riding</string>
+			<string>Riding</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option59_label_str}Шлях Прагальнага Наезьніка</OptionText>
+		<OptionFlavourText>{=tor_cc_option_3_we_gladerider_text_str}Асраі жывуць са сваімі коньмі ў гармоніі, падобнай якой не бывае. У раньнім дзяцінстве вы вырашылі стаць адным цэлым са сваім канём.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option_3_we_warden_3" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_warden_3">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>TwoHanded</string>
+			<string>Scouting</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_3_we_wildwood_label_str}Шлях Наглядніка</OptionText>
+		<OptionFlavourText>{=tor_cc_option60_text_str}Атэль Лорэн мае патрэбу ў абароне, нават знутры. Як нагляднік, вы пакляліся бараніць лес ад усякай пагрозы.</OptionFlavourText>
+	</CharacterCreationOption> 
+	
+			<!-- Eonir stage 1 -->
+	<CharacterCreationOption Id="option_1_eo_toriour" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_toriour_1">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Crafting</string>
+			<string>Bow</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_eo_toriour_label_str}Нашчадак Торыаўра</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_eo_toriour_text_str}Як выхадзец горада, вы большую частку часу жылі ў Тор Літанэле, дзе вывучалі традыцыі і рамеснае майстэрства, захаваныя задоўга да падзелу вашага роду.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_eo_faniour" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_faniour_1">
+		<SkillsToIncrease>
+			<string>Riding</string>
+			<string>Polearm</string>
+			<string>Bow</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_eo_faniour_label_str}Нашчадак Фаніура</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_eo_faniour_text_str}Вашая сям'я перажыла Вайну Бародаў і зьбегла ў лес Лаўрэлорн - апошні бастыён выжылых Асураў у Старым Сьвеце. Як Лесанароджаны, вы правялі большую частку сваёй юнацкасьці ў сьценах лесу Лаўрэлорн.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_eo_harioth" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_harioth_1">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>Bow</string>
+			<string>Athletics</string>
+			<string>TwoHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_eo_harioth_label_str}Нашчадак Харыота</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_eo_harioth_text_str}Вашая сям'я ўвайшла ў лес Лаўрэлорн у мінулым тысячагодзьдзі, праз доўгі час пасьля падзелу Іаніру. Вы, як другое пакаленьне, ледзь перажылі абрад прыняцьця. Большую частку сваёй юнацкасьці вы правялі ў межах Іанірскага краю, у пячорах і імправізаваных сховішчах...</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_eo_diplomat" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_diplomat_1">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Leadership</string>
+			<string>Steward</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_eo_diplomat_label_str}Нашчадак Асурскіх Дыпламатаў</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_eo_diplomat_text_str}Вы паходзіце з сям'і, якая і дасёньня карыстаецца вялікай слыннасьцю ва Ультуане, а таксама сярод Іаніраў. Дыпламаты з далёкага кантынента Асур, як і сёньняшні сойм, часта прыслухоўваюцца, калі чуюць вашае імя.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_1_eo_druchii_foundling" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_druchii_foundling_1">
+		<SkillsToIncrease>
+			<string>Roguery</string>
+			<string>OneHanded</string>
+			<string>Medicine</string>
+			<string>Crossbow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_1_eo_druchii_foundling_label_str}Друхійскі Падкідыш</OptionText>
+		<OptionFlavourText>{=tor_option_1_eo_druchii_foundling_text_str}Берагавыя Асурскія патрулі напалі на Друхійскі Занявольніцкі Карабель, і, хаця увесь экіпаж загінуў, яны знайшлі выжылае Друхійскае дзіця. Ня ведаючы, што з вамі рабіць, вас прывезьлі ў Іанір як сірату. У рамках гэтага гандлю ніхто ня ведае, адкуль вы родам, але вы выдатна асьвядомлены пра тое, што адбылося.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<!-- Eonir stage 2 -->
+	<CharacterCreationOption Id="option_2_eo_council_guard" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_council_guard_2">
+		<SkillsToIncrease>
+			<string>Polearm</string>
+			<string>Athletics</string>
+			<string>OneHanded</string>
+			<string>Leadership</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_2_eo_council_guard_label_str}Соймавы Вартавы</OptionText>
+		<OptionFlavourText>{=tor_option_2_eo_council_guard_text_str}Вы займаліся пытаньнямі бясьпекі Сойму. З часам вы зрабілі сабе імя і сталі Капітанам.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_eo_trader_empire" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_trader_empire_2">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Charm</string>
+			<string>Crafting</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_2_eo_trader_empire_label_str}Гандляр ува Імперскіх гарадах</OptionText>
+		<OptionFlavourText>{=tor_cc_option52_text_str}Як вандроўны гандляр, вы ведаеце, мабыць, больш людзей, чым сваіх суродзічаў. Тым ня менш вы навучыліся рабіць сабе імя, і за гэтае вас шануюць і людзі, і эльфы. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_eo_witch_king_envoy" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_witch_king_envoy_2">
+		<SkillsToIncrease>
+			<string>Roguery</string>
+			<string>Roguery</string>
+			<string>Charm</string>
+			<string>Crossbow</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Cunning</AttributeToIncrease>
+		<OptionText>{=tor_option_2_eo_witch_king_envoy_str}Вястун Караля-Ведзьмара</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_we_loec_text_str}Палац часта адпраўляў вас на заданьні ў далёкі Наггарот ці на іхнія бадзяжныя Чорныя Каўчэгі. Дзякуючы вашым рэгулярным візітам вы атрымалі некаторае ўяўленьне пра штодзённыя Друхійскія справы. </OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<CharacterCreationOption Id="option_2_eo_senate_member" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_senat_member_2">
+		<SkillsToIncrease>
+			<string>Steward</string>
+			<string>Tactics</string>
+			<string>Leadership</string>
+			<string>Charm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Intelligence</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_2_eo_senat_member_label_str}Чалец Сенату</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_eo_senat_member_text_str}Вашая кампетэнтнасьць як ваяра прынесла вам месца ў Сенаце, вы навучыліся дыпламатыі і таму, як ажыцяўляць свае задумы ў палітыцы з дапамогай манеры прамовы. </OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_2_eo_protector_wards" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_protector_wards_2">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Polearm</string>
+			<string>Riding</string>
+			<string>Scouting</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_2_eo_protector_wards_label_str}Абаронца Аховы</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_eo_protector_wards_text_str}Большую частку жыцьця вы праводзіце ў Лесе і бароніце Аховы ад вечных Іанірскіх пагрозаў.</OptionFlavourText>
+	</CharacterCreationOption>
+
+
+	<!--  eonir stage 3 -->
+	<CharacterCreationOption Id="option_3_eo_envoy" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_envoy_3">
+		<SkillsToIncrease>
+			<string>Charm</string>
+			<string>Tactics</string>
+			<string>Medicine</string>
+			<string>Steward</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Social</AttributeToIncrease>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionText>{=tor_cc_option_3_eo_envoy_label_str}Іанірскі Амбасадар</OptionText>
+		<OptionFlavourText>{=tor_cc_option_3_eo_envoy_text_str}У якасьці Вестуна вы служыце Іаніру за межамі лесу, займаецеся гандлем і адносінамі з замежнымі каралеўствамі і выбарнымі гаспадарствамі.</OptionFlavourText>
+	</CharacterCreationOption>
+	
+	<CharacterCreationOption Id="option_3_eo_ghost_strider" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_ghost_strider_3">
+		<SkillsToIncrease>
+			<string>Bow</string>
+			<string>Scouting</string>
+			<string>Roguery</string>
+			<string>Tactics</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Control</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_3_we_waywatcher_label_str}Прывідны Бадзяга</OptionText>
+		<PositiveEffectText>"Waywatcher" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_waywatcher_text_str}Маўклівых паляўнічых лесу баіцца ўсякі лясны вораг. Вы вырашылі пайсьці па шляху гэткага сьмяротнага ваяра. Вы вырашылі стаць Прывідным Бадзягай.</OptionFlavourText>
+	</CharacterCreationOption>
+
+	<CharacterCreationOption Id="option_3_eo_kithband_warrior" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_kithband_warrior_3">
+		<SkillsToIncrease>
+			<string>OneHanded</string>
+			<string>TwoHanded</string>
+			<string>Bow</string>
+			<string>Polearm</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Vigor</AttributeToIncrease>
+		<OptionText>{=tor_cc_option58_label_str}Ваяр Свойскай Хеўры</OptionText>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_spellsinger_text_str}Вы змагаецеся разам са сваімі суродзічамі за абарону лесу, чаго б гэта ні каштавала. Хоць ваярам Свойскай Хеўры бракуе некаторай элегантнасьці, у параўнаньні зь іншымі эльфамі, вынаходлівасьць і практычнасьць робяць іх выдатнымі ваярамі лесу.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option_3_eo_greylord_apprentice" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_greylord_apprentice_3">
+		<SkillsToIncrease>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+			<string>Spellcraft</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Discipline</AttributeToIncrease>
+		<OptionText>{=tor_cc_option_3_eo_greylord_apprentice_label_str}Вучань Шэрага Лорду</OptionText>
+		<PositiveEffectText>"Greylord Career"</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_eo_greylord_apprentice_text_str}Вы вырашылі далучыцца да вучэньня аднаго з выгнаных Магічных Валадароў Ультуана. Хаця яны ведаюць усе пра гэты сьвет і за яго межамі, магі праяўляюць вялікую цікавасьць да кантролю над цмокамі, чаго б гэта ні каштавала. </OptionFlavourText>
+	</CharacterCreationOption> 
+
+	<CharacterCreationOption Id="option_3_eo_eonir_expatriate" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_eonir_expatriate_3">
+		<SkillsToIncrease>
+			<string>Trade</string>
+			<string>Bow</string>
+			<string>Charm</string>
+			<string>OneHanded</string>
+		</SkillsToIncrease>
+		<AttributeToIncrease>Endurance</AttributeToIncrease>
+		<PositiveEffectText>"Mercenary" Career</PositiveEffectText>
+		<OptionText>{=tor_cc_option_3_eo_eonir_expatriate_label_str}Іанірскі Эмігрант</OptionText>
+		<OptionFlavourText>{=tor_cc_option_3_eo_eonir_expatriate_text_str}Вы лічыце, што справа Іаніра прайграна. Заміж таго вы называеце чалавечыя правінцыі сваім домам. Як найміт ды гандляр, вы зарабляеце на сваё жыцьцё.</OptionFlavourText>
+	</CharacterCreationOption> 
+
+
+
+
+</ArrayOfCharacterCreationOption>
+
+
+
+
