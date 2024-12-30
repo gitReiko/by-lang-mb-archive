@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+
+	<Item multiplayer_item="false" id="eoe_standardsaddle_1" name="{=eoe_standardsaddle_1.name}[EOE HORSE SADDLE] Western Standard Saddle 1" mesh="eoe_standardsaddle_1" culture="Culture.aserai" subtype="body_armor" weight="21" difficulty="0" appearance="1" Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="9" mane_cover_type="none" family_type="1" reins_mesh="bandit_saddle_desert_rein" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+	<Item multiplayer_item="false" id="eoe_standardsaddle_2" name="{=eoe_standardsaddle_2.name}[EOE HORSE SADDLE] Western Standard Saddle 2" mesh="eoe_standardsaddle_2" culture="Culture.aserai" subtype="body_armor" weight="21" difficulty="0" appearance="1" Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="9" mane_cover_type="none" family_type="1" reins_mesh="bandit_saddle_desert_rein" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+
+
+
+
+
+
+
+
+	<!-- UNIVERSAL ARMOR -->
+
+
+	<Item id="eoe_horse_chain_1" name="{=eoe_horse_chain_1.name}[EOE HORSE ARMOR] Chainmail Barding" mesh="eoe_horse_chain_1" culture="Culture.neutral_culture" weight="130" appearance="0.5" Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="64" mane_cover_type="all" tail_cover_type="all" maneuver_bonus="0" speed_bonus="0" reins_mesh="horse_harness_e_rein" charge_bonus="0" family_type="1" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+
+	<Item id="eoe_we_mailcap_1" name="{=eoe_we_mailcap_1.name}[EOE HORSE ARMOR] Mail Caparison Split" mesh="eoe_we_mailcap_1" culture="Culture.neutral_culture" weight="130" appearance="0.5" Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="64" mane_cover_type="all" tail_cover_type="none" maneuver_bonus="0" speed_bonus="0" reins_mesh="horse_harness_khuzait_a_rein" charge_bonus="0" family_type="1" material_type="Cloth"/>
+		</ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+	<Item id="eoe_we_mailcap_2" name="{=eoe_we_mailcap_2.name}[EOE HORSE ARMOR] Gambeson and Mail Caparison" mesh="eoe_we_mailcap_2" culture="Culture.neutral_culture" weight="130" appearance="0.5" Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="64" mane_cover_type="all" tail_cover_type="none" maneuver_bonus="0" speed_bonus="0" reins_mesh="horse_harness_a_new_rein" charge_bonus="0" family_type="1" material_type="Cloth"/>
+		</ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+
+	<!-- HERALDIC ARMOR -->
+
+	<Item id="eoe_horsecap_tab_1" name="{=eoe_horsecap_tab_1.name}[EOE HORSE CAPARISON] Caparison, Heraldic Banner" mesh="eoe_horsecap_tab_1" using_tableau="true" culture="Culture.neutral_culture" weight="130" appearance="0.5" Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="64" mane_cover_type="all" tail_cover_type="all" maneuver_bonus="0" speed_bonus="0" reins_mesh="horse_harness_a_new_rein" charge_bonus="0" family_type="1" material_type="Cloth"/>
+		</ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+	<!-- WESTERN ARMOR -->
+
+
+
+	<Item id="eoe_we_caparison_split1" name="{=eoe_we_caparison_split1.name}[EOE HORSE CAPARISON] Western Caparison, Split 1" mesh="eoe_we_caparison_split1" culture="Culture.neutral_culture" weight="130" appearance="0.5" Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="64" mane_cover_type="all" tail_cover_type="none" maneuver_bonus="0" speed_bonus="0" reins_mesh="horse_harness_khuzait_a_rein" charge_bonus="0" family_type="1" material_type="Cloth"/>
+		</ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+
+
+
+
+
+
+
+
+
+
+	<Item id="eoe_we_stacaparison1" name="{=eoe_we_stacaparison1.name}[EOE HORSE CAPARISON] Western Caparison 1" mesh="eoe_we_stacaparison1" culture="Culture.neutral_culture" weight="130" appearance="0.5" Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="64" mane_cover_type="all" tail_cover_type="all" maneuver_bonus="0" speed_bonus="0" reins_mesh="horse_harness_a_new_rein" charge_bonus="0" family_type="1" material_type="Cloth"/>
+		</ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+
+</Items>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+	<!-- WESTERN ARM ARMOR -->
+
+
+  <Item id="eoe_leathergloves1" name="{=eoe_leathergloves1.name}[EOE ARM ARMOR] Leather Gloves" mesh="eoe_leathergloves1" culture="Culture.neutral_culture" weight="0.6" difficulty="0" appearance="1" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="2" covers_hands="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_mailgoves_1" name="{=eoe_mailgoves_1.name}[EOE ARM ARMOR] Mail Gloves" mesh="eoe_mailgoves_1" culture="Culture.neutral_culture" weight="2" difficulty="0" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="16" covers_hands="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_splinted_gloves_1" name="{=eoe_splinted_gloves_1.name}[EOE ARM ARMOR] Nordic Splinted Gloves" mesh="eoe_splinted_gloves_1" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="22" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+</Items>

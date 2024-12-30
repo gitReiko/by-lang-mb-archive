@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+
+	<!-- UNIVERSAL -->
+
+  <Item id="eoe_we_commoncasque_1" name="{=eoe_we_commoncasque_1.name}[EOE UNI HELMET] Common Casque, Chinstrap" mesh="eoe_we_commoncasque_1" culture="Culture.neutral_culture" weight="9" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="21" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+  <Item id="eoc_we_militianasal_1" name="{=eoc_we_militianasal_1.name}[EOE UNI HELMET] Bayeux Nasal, Chinstrap" mesh="eoc_we_militianasal_1" culture="Culture.neutral_culture" weight="9" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="22" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+  <Item id="eoe_sta_skullcap_1" name="{=eoe_sta_skullcap_1.name}[EOE UNI HELMET] Western Skullcap, Mail Coif" mesh="eoe_sta_skullcap_1" culture="Culture.neutral_culture" weight="11" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+  <Item id="eoe_skullcap_gambeson1" name="{=eoe_skullcap_gambeson1.name}[EOE UNI HELMET] Western Skullcap, Gambeson Hood" mesh="eoe_skullcap_gambeson1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="20" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+  <Item id="eoe_ar_flutskull1" name="{=eoe_ar_flutskull1.name}[EOE UNI HELMET] Fluted Skullcap with Turban, Mail Coif" mesh="eoe_ar_flutskull1" culture="Culture.neutral_culture" weight="11" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+  <Item id="eoe_scarfednasal1" name="{=eoe_scarfednasal1.name}[EOE UNI HELMET] Nasal, Closed Scarf" mesh="eoe_scarfednasal1" culture="Culture.neutral_culture" weight="8" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="24" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_stakettle_1" name="{=eoe_stakettle_1.name}[EOE UNI HELMET] Western Kettle, Chinstrap" mesh="eoe_stakettle_1" culture="Culture.neutral_culture" weight="8" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="24" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_stakettle_light" name="{=eoe_stakettle_light.name}[EOE WESTERN HELMET] Western Kettle, Mail Coif" mesh="eoe_stakettle_light" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="29" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_stakettle_mail" name="{=eoe_stakettle_mail.name}[EOE WESTERN HELMET] Western Kettle, Cloth Coif" mesh="eoe_stakettle_mail" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+	<!-- WESTERN -->
+
+  <Item id="eoe_villagerhood1" name="{=eoe_villagerhood1.name}[EOE WESTERN HEADWEAR] Villagers Tailed Hood" mesh="eoe_villagerhood1" culture="Culture.neutral_culture" weight="1" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="8" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_weflutenasal" name="{=eoe_weflutenasal.name}[EOE WESTERN HELMET] Fluted Nasal, Mail Coif" mesh="eoe_weflutenasal" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_weflutenasalpa1" name="{=eoe_weflutenasalpa1.name}[EOE WESTERN HELMET] Painted Fluted Nasal, Mail Coif" mesh="eoe_weflutenasalpa1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_saxonnasal1" name="{=eoe_saxonnasal1.name}[EOE WESTERN HELMET] Western Spangenhelmet, Mail Coif" mesh="eoe_saxonnasal1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+  <Item id="eoe_eng_flutednasal1" name="{=eoe_eng_flutednasal1.name}[EOE PRETEXTURED WESTERN HELMET] Western Nasal with Veil Coif, Red and Yellow" mesh="eoe_eng_flutednasal1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_wepaintedphryg_1" name="{=eoe_wepaintedphryg_1.name}[EOE PRETEXTURED WESTERN HELMET] Western Phrygian Nasal with Veil Coif, Red and White Stripe" mesh="eoe_wepaintedphryg_1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_tshapenasal1" name="{=eoe_tshapenasal1.name}[EOE WESTERN HELMET] Western T-Shaped Nasal with Veil Coif" mesh="eoe_tshapenasal1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+
+
+  <Item id="eoe_bayeuxphrygian_1" name="{=eoe_bayeuxphrygian_1.name}[EOE WESTERN HELMET] Bayeux Phrygian Nasal, Mail Coif" mesh="eoe_bayeuxphrygian_1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_wesegnasal1" name="{=eoe_wesegnasal1.name}[EOE WESTERN HELMET] Western Segmented Nasal, Mail Coif" mesh="eoe_wesegnasal1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_wesegnasal1circlet" name="{=eoe_wesegnasal1circlet.name}[EOE WESTERN HELMET] Western Segmented Nasal with Western Circlet, Decorated Mail Coif" mesh="eoe_wesegnasal1circlet" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <Item id="eoc_phrygiancap_1" name="{=eoc_phrygiancap_1.name}[EOE WESTERN HEADWEAR] Phrygian Hat" mesh="eoc_phrygiancap_1" culture="Culture.neutral_culture" weight="1" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="5" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+  <Item id="eoe_western_circlet_1" name="{=eoe_western_circlet_1.name}[EOE WESTERN HEADWEAR] Western Circlet" mesh="eoe_western_circlet_1" culture="Culture.neutral_culture" weight="3" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="6" has_gender_variations="false" hair_cover_type="none" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_western_circlet_1mail" name="{=eoe_western_circlet_1mail.name}[EOE WESTERN HEADWEAR] Western Circlet, Mail Coif" mesh="eoe_western_circlet_1mail" culture="Culture.neutral_culture" weight="6" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="17" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_sta_mailcoif1" name="{=eoe_sta_mailcoif1.name}[EOE UNIVERSAL HEADWEAR] Mail Coif" mesh="eoe_sta_mailcoif1" culture="Culture.neutral_culture" weight="6" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="15" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type4" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoc_vla_verdenhelmet_1" name="{=eoc_vla_verdenhelmet_1.name}[EOE WESTERN HELMET] German Early Kettle, Chinstrap" mesh="eoc_vla_verdenhelmet_1" culture="Culture.neutral_culture" weight="7" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="22" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoc_w_segmental_nasal_1" name="{=eoc_w_segmental_nasal_1.name}[EOE WESTERN HELMET] Early Spangenhelmet, Chinstrap" mesh="eoc_w_segmental_nasal_1" culture="Culture.neutral_culture" weight="9" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoc_w_sta_nasal_1" name="{=eoc_w_sta_nasal_1.name}[EOE WESTERN HELMET] Western Nasal, Chinstrap" mesh="eoc_w_sta_nasal_1" culture="Culture.neutral_culture" weight="8" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="24" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+  <Item id="eoe_we_baynasal_p3" name="{=eoe_we_baynasal_p3.name}[EOE WESTERN HELMET] Painted Western Nasal, Veiled Mail Coif" mesh="eoe_we_baynasal_p3" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_we_baynasal_p1" name="{=eoe_we_baynasal_p1.name}[EOE WESTERN HELMET] Painted Western Nasal 1, Open Veiled Mail Coif" mesh="eoe_we_baynasal_p1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_we_baynasal_p2" name="{=eoe_we_baynasal_p2.name}[EOE WESTERN HELMET] Painted Western Nasal 2, Open Veiled Mail Coif" mesh="eoe_we_baynasal_p2" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_we_baynasal_cross1" name="{=eoe_we_baynasal_cross1.name}[EOE WESTERN HELMET] Western Nasal with Cross, Mail Coif" mesh="eoe_we_baynasal_cross1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_we_baynasal_1" name="{=eoe_we_baynasal_1.name}[EOE WESTERN HELMET] Western Nasal, Mail Coif" mesh="eoe_we_baynasal_1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+  <Item id="eoe_wenceshlav_helmet2" name="{=eoe_wenceshlav_helmet2.name}[EOE WESTERN HELMET] Wencheslav Helmet, Mail and Chinstrap" mesh="eoe_wenceshlav_helmet2" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="21" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_stanasal_bib1" name="{=eoe_stanasal_bib1.name}[EOE WESTERN HELMET] Western Nasal, Bibbed Mail Coif" mesh="eoe_stanasal_bib1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_we_stanasal1" name="{=eoe_we_stanasal1.name}[EOE WESTERN HELMET] Western Nasal, Veiled Mail Coif" mesh="eoe_we_stanasal1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_we_stanasal2" name="{=eoe_we_stanasal2.name}[EOE WESTERN HELMET] Western Nasal, Open Veiled Mail Coif" mesh="eoe_we_stanasal2" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_we_stanasal3" name="{=eoe_we_stanasal3.name}[EOE WESTERN HELMET] Western Nasal, Mail Coif" mesh="eoe_we_stanasal3" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+  <Item id="eoe_wenceshlav_helmet1" name="{=eoe_wenceshlav_helmet1.name}[EOE WESTERN HELMET] Decorated Wencheslav Nasal, Open Veiled Mail Coif" mesh="eoe_wenceshlav_helmet1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+  <Item id="eoe_we_phrygian_1" name="{=eoe_we_phrygian_1.name}[EOE WESTERN HELMET] Western Phrygian Nasal, Mail Coif" mesh="eoe_we_phrygian_1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_norman_noblehelmet_1" name="{=eoe_norman_noblehelmet_1.name}[EOE WESTERN HELMET] Brass Norman Segmented Nasal, Mail Coif" mesh="eoe_norman_noblehelmet_1" culture="Culture.neutral_culture" weight="13" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="20" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_norm_nobhelm1" name="{=eoe_norm_nobhelm1.name}[EOE WESTERN HELMET] Norman Noble Nasal, Open Bib Mail Coif" mesh="eoe_norm_nobhelm1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_coppergate_mail1" name="{=eoe_coppergate_mail1.name}[EOE ANGLO HELMET] Coppergate Helmet, Mail" mesh="eoe_coppergate_mail1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="27" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_coppergate_1" name="{=eoe_coppergate_1.name}[EOE ANGLO HELMET] Coppergate Helmet, Full Mail Coif" mesh="eoe_coppergate_1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="31" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_unifaceplate_el1" name="{=eoe_unifaceplate_el1.name}[EOE WESTERN HELMET] Early Faceplate 1, Opened Veiled Mail Coif" mesh="eoe_unifaceplate_el1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="31" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_unifaceplate_el2" name="{=eoe_unifaceplate_el2.name}[EOE WESTERN HELMET] Early Faceplate 2, Opened Veiled Mail Coif" mesh="eoe_unifaceplate_el2" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="31" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+  <Item id="eoe_p_normnasal_1" name="{=eoe_p_normnasal_1.name}[EOE WESTERN HELMET] Painted Norman Segmented Nasal, Veiled Mail Coif" mesh="eoe_p_normnasal_1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="23" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_west_conicalnasal_1" name="{=eoe_west_conicalnasal_1.name}[EOE WESTERN HELMET] Western Conical Nasal, Veiled Mail Coif" mesh="eoe_west_conicalnasal_1" culture="Culture.neutral_culture" weight="13" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="21" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_we_italonorman_1" name="{=eoe_we_italonorman_1.name}[EOE WESTERN HELMET] Italo-Norman Faceplate, Opened Veiled Mail Coif" mesh="eoe_we_italonorman_1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="31" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_iberian_stafaceplate" name="{=eoe_iberian_stafaceplate.name}[EOE WESTERN HELMET] Iberian Faceplate, Mail Coif" mesh="eoe_iberian_stafaceplate" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="37" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_west_elgrthlm1" name="{=eoe_west_elgrthlm1.name}[EOE WESTERN HELMET] Western Early Greathelmet, Mail Coif" mesh="eoe_west_elgrthlm1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="32" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_crusader_faceplate_1" name="{=eoe_crusader_faceplate_1.name}[EOE WESTERN HELMET] Crusader Faceplate, Mail Coif" mesh="eoe_crusader_faceplate_1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="31" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_maciekowski_greathelmet_1" name="{=eoe_maciekowski_greathelmet_1.name}[EOE WESTERN HELMET] Maciekowski Greathelmet, Mail Coif" mesh="eoe_maciekowski_greathelmet_1" culture="Culture.neutral_culture" weight="17" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_maciekowski_greathelmet_2" name="{=eoe_maciekowski_greathelmet_2.name}[EOE WESTERN HELMET] Brass Maciekowski Greathelmet, Mail Coif" mesh="eoe_maciekowski_greathelmet_2" culture="Culture.neutral_culture" weight="17" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="42" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_crusadergreathelmet1" name="{=eoe_crusadergreathelmet1.name}[EOE WESTERN HELMET] Bolzano Greathelmet, Mail Coif" mesh="eoe_crusadergreathelmet1" culture="Culture.neutral_culture" weight="17" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="46" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+	<!-- IBERIA -->
+
+
+
+  <Item id="eoe_preibercerv_1" name="{=eoe_preibercerv_1.name}[EOE PRETEXTURED HELMET] Iberian Nasal, Veiled Mail Coif 1" mesh="eoe_preibercerv_1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_iberian_cerv_1" name="{=eoe_iberian_cerv_1.name}[EOE IBERIA HELMET] Iberian Painted Nasal 1, Veiled Mail Coif 1" mesh="eoe_iberian_cerv_1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_iberian_cerv_2" name="{=eoe_iberian_cerv_2.name}[EOE IBERIA HELMET] Iberian Painted Nasal 2, Veiled Mail Coif 1" mesh="eoe_iberian_cerv_2" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+
+	<!-- NORTHERN -->
+
+  <Item id="eoe_gjermundbu_sta1" name="{=eoe_gjermundbu_sta1.name}[EOE NORTHERN HELMET] Gjermundbu Helmet, Mail and Chinstrap" mesh="eoe_gjermundbu_sta1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="21" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_gjermundbu_1" name="{=eoe_gjermundbu_1.name}[EOE NORTHERN HELMET] Gjermundbu Helmet, Full Mail Coif" mesh="eoe_gjermundbu_1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_northern_google1" name="{=eoe_northern_google1.name}[EOE NORTHERN HELMET] Noble Googled Helmet, Full Mail Coif" mesh="eoe_northern_google1" culture="Culture.neutral_culture" weight="13" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="27" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="ta_vendelhelmet_1" name="{=ta_vendelhelmet_1.name}[EOE NORTHERN HELMET] Decorated Noble Helmet, Full Mail Coif" mesh="ta_vendelhelmet_1" culture="Culture.neutral_culture" weight="13" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="27" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+	<!-- BYZANTINE -->
+
+  <Item id="eoe_stacasque_1" name="{=eoe_stacasque_1.name}[EOE BYZANTINE HELMET] Roman Casque, Full Mail Coif" mesh="eoe_stacasque_1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_byzphrygian_sta_1" name="{=eoe_byzphrygian_sta_1.name}[EOE BYZANTINE HELMET] Roman Phrygian Helmet, Mail Coif" mesh="eoe_byzphrygian_sta_1" culture="Culture.neutral_culture" weight="12" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="18" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_byzantinenasal1" name="{=eoe_byzantinenasal1.name}[EOE BYZANTINE HELMET] Roman Nasal 1, Full Mail Coif" mesh="eoe_byzantinenasal1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="23" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_phrygnasal1" name="{=eoe_phrygnasal1.name}[EOE BYZANTINE HELMET] Phrygian Nasal, Full Mail Coif" mesh="eoe_phrygnasal1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="23" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_paintphrygnasal1" name="{=eoe_paintphrygnasal1.name}[EOE BYZANTINE HELMET] Chi Roh Painted Phrygian Nasal, Full Mail Coif" mesh="eoe_paintphrygnasal1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="23" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+
+  <Item id="eoe_byznasal1" name="{=eoe_byznasal1.name}[EOE BYZANTINE HELMET] Roman Nasal 2, Full Mail Coif" mesh="eoe_byznasal1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="23" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_byz_phrygian1" name="{=eoe_byz_phrygian1.name}[EOE BYZANTINE HELMET] Roman Phrygian Nasal, Full Mail Coif" mesh="eoe_byz_phrygian1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="23" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_varang_stakettle" name="{=eoe_varang_stakettle.name}[EOE BYZANTINE HELMET] Roman Varangian Kettle, Full Mail Coif" mesh="eoe_varang_stakettle" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="24" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_decorbyz_kettle1" name="{=eoe_decorbyz_kettle1.name}[EOE BYZANTINE HELMET] Painted Nobles Roman Kettle, Mail Coif" mesh="eoe_decorbyz_kettle1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="21" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_byzkettle_p1" name="{=eoe_byzkettle_p1.name}[EOE BYZANTINE HELMET] Painted Nobles Roman Kettle, Mail Coif" mesh="eoe_byzkettle_p1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="21" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_noblecasque_byz1" name="{=eoe_noblecasque_byz1.name}[EOE BYZANTINE HELMET] Brass Noble Decorated Casque, Full Mail Coif" mesh="eoe_noblecasque_byz1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_plume_byz_nob1" name="{=eoe_plume_byz_nob1.name}[EOE BYZANTINE HELMET] Brass Noble Decorated Kettle, Plume" mesh="eoe_plume_byz_nob1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="28" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+	<!-- MENA -->
+
+  <Item id="eoe_uniturban1" name="{=eoe_uniturban1.name}[EOE UNIVERSAL HEADWEAR] Turban" mesh="eoe_uniturban1" culture="Culture.neutral_culture" weight="1" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="5" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_kairouan_com1" name="{=eoe_kairouan_com1.name}[EOE MENA HELMET] Kairouan Helmet, Tagelmust Turban" mesh="eoe_kairouan_com1" culture="Culture.neutral_culture" weight="9" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="21" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_tagelmust_1" name="{=eoe_tagelmust_1.name}[EOE MENA HEADWEAR] Open Common Tagelmust 1" mesh="eoe_tagelmust_1" culture="Culture.neutral_culture" weight="1" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="5" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_e_turban1" name="{=eoe_e_turban1.name}[EOE MENA HEADWEAR] Closed Turban 1" mesh="eoe_e_turban1" culture="Culture.neutral_culture" weight="1" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="5" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_e_turban2" name="{=eoe_e_turban2.name}[EOE MENA HEADWEAR] Closed Turban 2" mesh="eoe_e_turban2" culture="Culture.neutral_culture" weight="1" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="5" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_e_turban3" name="{=eoe_e_turban3.name}[EOE MENA HEADWEAR] Closed Turban 3" mesh="eoe_e_turban3" culture="Culture.neutral_culture" weight="1" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="5" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_e_turban4" name="{=eoe_e_turban4.name}[EOE MENA HEADWEAR] Closed Turban 4" mesh="eoe_e_turban4" culture="Culture.neutral_culture" weight="1" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="5" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_ar_turbancasque_1" name="{=eoe_ar_turbancasque_1.name}[EOE MENA HELMET] Common Casque, Turban" mesh="eoe_ar_turbancasque_1" culture="Culture.neutral_culture" weight="9" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="21" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_eastnasal_casque_1" name="{=eoe_eastnasal_casque_1.name}[EOE MENA HELMET] Common Casque, Facecover Turban" mesh="eoe_eastnasal_casque_1" culture="Culture.neutral_culture" weight="9" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="21" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_ar_fchelm_1" name="{=eoe_ar_fchelm_1.name}[EOE MENA HELMET] Decorated Helmet 1, Full Mail Coif" mesh="eoe_ar_fchelm_1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_ar_fcdecor_1" name="{=eoe_ar_fcdecor_1.name}[EOE MENA HELMET] Decorated Helmet 2, Full Mail Coif" mesh="eoe_ar_fcdecor_1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+  <Item id="eoe_ar_clothdec_helm1" name="{=eoe_ar_clothdec_helm1.name}[EOE MENA HELMET] Noble Decorated Helmet 1, Full Mail Coif" mesh="eoe_ar_clothdec_helm1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_ar_clothdec_helm2" name="{=eoe_ar_clothdec_helm2.name}[EOE MENA HELMET] Noble Decorated Helmet 2, Full Mail Coif" mesh="eoe_ar_clothdec_helm2" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="26" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+  <Item id="eoe_seljukwarmask1" name="{=eoe_seljukwarmask1.name}[EOE MENA HELMET] Seljuk Faceplate 1, Full Mail Coif" mesh="eoe_seljukwarmask1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="31" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+	<!-- RUS, EASTERN EUROPE -->
+
+  <Item id="eoe_slovencap_1" name="{=eoe_slovencap_1.name}[EOE UNIVERSAL HEADWEAR] Fur Sloven Cap 1" mesh="eoe_slovencap_1" culture="Culture.neutral_culture" weight="1" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="5" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_lithuanianfaceplate_1" name="{=eoe_lithuanianfaceplate_1.name}[EOE EAST EUROPE HELMET] Vilnius Faceplate, Mail Coif" mesh="eoe_lithuanianfaceplate_1" culture="Culture.neutral_culture" weight="13" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="27" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_plumed_helm1" name="{=eoe_plumed_helm1.name}[EOE RUS HELMET] Rus Brass Decorated Faceplate, Full Mail Coif" mesh="eoe_plumed_helm1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="31" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_rus_brassmask1" name="{=eoe_rus_brassmask1.name}[EOE RUS HELMET] Rus Brass Faceplate, Full Mail Coif" mesh="eoe_rus_brassmask1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="31" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_rusmask_1" name="{=eoe_rusmask_1.name}[EOE RUS HELMET] Rus Faceplate, Full Mail Coif" mesh="eoe_rusmask_1" culture="Culture.neutral_culture" weight="15" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="31" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_rus_officer_npl1" name="{=eoe_rus_officer_npl1.name}[EOE RUS HELMET] Decorated Officers Nasal, Mail Coif" mesh="eoe_rus_officer_npl1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="23" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_rusnasal_1" name="{=eoe_rusnasal_1.name}[EOE RUS HELMET] Rus Nasal, Full Mail Coif" mesh="eoe_rusnasal_1" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="23" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_rusnasal_11" name="{=eoe_rusnasal_11.name}[EOE RUS HELMET] Rus Nasal, Mail Hood" mesh="eoe_rusnasal_11" culture="Culture.neutral_culture" weight="14" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="19" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+
+
+
+	<!-- NICHE -->
+
+  <Item id="eoe_baldwin_mask1" name="{=eoe_baldwin_mask1.name}[EOE NICHE HEADWEAR] Baldwin's Mask, War" mesh="eoe_baldwin_mask1" culture="Culture.neutral_culture" weight="13" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="24" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="eoe_baldwin_mask2" name="{=eoe_baldwin_mask2.name}[EOE NICHE HEADWEAR] Baldwin's Mask, Civil" mesh="eoe_baldwin_mask2" culture="Culture.neutral_culture" weight="1" appearance="1.6" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+
+
+
+
+</Items>
