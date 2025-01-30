@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <!--input/Characters/aserai.xml-->
+  <string id="bk_mamluk_guard.name" text="Мамлюк-Вартавы"/>
+  <string id="bk_aserai_faaris.name" text="Нахасаўскі Фаарыс"/>
+  <string id="bk_aserai_squire.name" text="Нахасаўскі Шляхетнанароджаны"/>
+  <string id="bk_aserai_horsearcher.name" text="Нахасаўскі Хсаан Раамі"/>
+  <string id="bk_aserai_rider.name" text="Нахасаўскі Талія"/>
+  <string id="bk_aserai_2h_mercenary.name" text="Нахасаўскі Каср Мубарызун"/>
+  <string id="bk_aserai_sword_mercenary.name" text="Нахасаўскі Мубарызун"/>
+  <string id="bk_aserai_sergeant.name" text="Нахасаўскі Мухарыб"/>
+  <string id="bk_aserai_militiaman.name" text="Нахасаўскі Рушэнны"/>
+  <string id="bk_aserai_levy.name" text="Нахасаўскі Заклічнік"/>
+  <string id="bk_aserai_militiaman_archer.name" text="Нахасаўскі Раамі"/>
+  <string id="bk_aserai_levy_archer.name" text="Нахасаўскі Заклічны Лучнік"/>
+  <!--input/Characters/balion.xml-->
+  <string id="bk_shipmen_mercenary.name" text="Шэйбмэнн-Найміт"/>
+  <string id="bk_balion_thingman.name" text="Баліёнлінскі Рэчавы"/>
+  <string id="bk_balion_squire.name" text="Баліёнлінскі Хускарл"/>
+  <string id="bk_balion_mercenary.name" text="Баліёнлінскі Хускарл-Найміт"/>
+  <string id="bk_balion_mercenary_cav.name" text="Баліёнлінскі Рыдэр-Найміт"/>
+  <string id="bk_balion_sergeant.name" text="Баліёнлінскі Сяржант"/>
+  <string id="bk_balion_militiaman.name" text="Баліёнлінскі Фьёрдмэн"/>
+  <string id="bk_balion_levy.name" text="Баліёнлінскі Заклічнік"/>
+  <string id="bk_balion_militiaman_longbow.name" text="Баліёнлінскі Фьёрдмэн-Скітэр"/>
+  <string id="bk_balion_levy_longbow.name" text="Баліёнлінскі Заклічны Скітэр"/>
+  <!--input/Characters/bandits.xml-->
+  <string id="bk_palaic_boss.name" text="Драятычны Правадыр-Выгнаньнік"/>
+  <string id="bk_palaic_pillager.name" text="Драятычны Грабежнік"/>
+  <string id="bk_palaic_raider.name" text="Драятычны Налётнік"/>
+  <string id="bk_palaic_bandit.name" text="Драятычны Бандыт"/>
+  <string id="bk_biscania_bandit_boss.name" text="Бісканжанскі Карабельны Майстар"/>
+  <string id="bk_biscania_bandit_chief.name" text="Бісканжанскі Карсарыё"/>
+  <string id="bk_biscania_bandit_raider.name" text="Герояскі Пірата"/>
+  <string id="bk_biscania_bandit.name" text="Герояскі Бадзяга"/>
+  <string id="bk_geroia_bandit_boss.name" text="Герояскі Занявольнік-Майстар"/>
+  <string id="bk_geroia_bandit_chief.name" text="Герояскі Занявольнік-Руйнавальнік"/>
+  <string id="bk_geroia_bandit_raider.name" text="Герояскі Занявольнік-Паляўнічы"/>
+  <string id="bk_geroia_bandit.name" text="Герояскі Піратэ"/>
+  <string id="bk_kannic_bandit_boss.name" text="Каньнійскі Карабельны Майстар"/>
+  <string id="bk_kannic_bandit_chief.name" text="Каньнійскі Карсар"/>
+  <string id="bk_kannic_bandit_raider.name" text="Каньнійскі Піратэ"/>
+  <string id="bk_kannic_bandit.name" text="Каньнійскі Злачынец"/>
+  <string id="bk_darshi_bandit_boss.name" text="Даршыйскі Злачынны Бос"/>
+  <string id="bk_darshi_bandit_chief.name" text="Даршыйскі Грабежнік"/>
+  <string id="bk_darshi_bandit_raider.name" text="Даршыйскі Налётнік"/>
+  <string id="bk_darshi_bandit.name" text="Даршыйскі Ізгой"/>
+  <string id="bk_vakken_bandit_boss.name" text="Ваккенскі Пляменны Правадыр"/>
+  <string id="bk_vakken_bandit_chief.name" text="Ваккенскі Гаймолайнэн-Тайстэлія"/>
+  <string id="bk_vakken_bandit_raider.name" text="Ваккенскі Гаймолайнэн-Ростадая"/>
+  <string id="bk_vakken_bandit.name" text="Ваккенскі Гаймолайнэн"/>
+  <string id="bk_sturgia_bandit_boss.name" text="Стургійскі"/>
+  <string id="bk_sturgia_bandit_chief.name" text="Стургійскі Караванны Грабежнік"/>
+  <string id="bk_sturgia_bandit_raider.name" text="Стургійскі Караванны Налётнік"/>
+  <string id="bk_sturgia_bandit.name" text="Стургійскі Ізгой"/>
+  <string id="bk_vlandia_bandit_boss.name" text="Ўілундзкі Вандроўны Рыцар"/>
+  <string id="bk_vlandia_bandit_chief.name" text="Ўілундзкі Выгнаньнік-Коньнік"/>
+  <string id="bk_vlandia_bandit_raider.name" text="Ўілундзкі Выгнаньнік-Наезьнік"/>
+  <string id="bk_vlandia_bandit.name" text="Ўілундзкі Выгнаньнік"/>
+  <string id="bk_massa_bandit_boss.name" text="Ўідугаўскі Правадыр"/>
+  <string id="bk_massa_bandit_chief.name" text="Ўідугаўскі Ваяр"/>
+  <string id="bk_massa_bandit_raider.name" text="Ўідугаўскі Лавец"/>
+  <string id="bk_massa_bandit.name" text="Ўідугаўскі Лясьнічы"/>
+  <string id="urUwa4bf" text="Рабаўнік"/>
+  <string id="C8DE6L73" text="Дэзэртыр"/>
+  <string id="sea_raiders_bandit.name" text="Юмнэскі Марак"/>
+  <string id="sea_raiders_raider.name" text="Юмнэскі Налётнік"/>
+  <string id="sea_raiders_chief.name" text="Юмнэскі Капітан Карабля"/>
+  <string id="mountain_bandits_bandit.name" text="Кальрадыйскі Горнік"/>
+  <string id="mountain_bandits_raider.name" text="Кальрадыйскі Разбойнік"/>
+  <string id="mountain_bandits_chief.name" text="Кальрадыйскі Прыдарожны Грабежнік"/>
+  <string id="forest_bandits_bandit.name" text="Баттанэcкі Злачынец"/>
+  <string id="forest_bandits_raider.name" text="Баттанэcкі Злачынец-Налётнік"/>
+  <string id="forest_bandits_chief.name" text="Баттанэcкі Бадзяжны Фіанн"/>
+  <string id="desert_bandits_bandit.name" text="Нахасаўскі Туляга"/>
+  <string id="desert_bandits_raider.name" text="Нахасаўскі Качавы Налётнік"/>
+  <string id="cdbSCr6G" text="Харамі"/>
+  <string id="ZA4bgJ5V" text="Стэпавы Бандыт"/>
+  <string id="Awc23bFS" text="Марадзёр"/>
+  <string id="cbnvgVhH" text="Налётнік"/>
+  <string id="C1Fkzdvu" text="Марскі Налётнік-Бос"/>
+  <string id="ziOBJSzR" text="Горны Бандыт-Бос"/>
+  <string id="forest_bandits_boss.name" text="Баттанэcкі Бадзяжны Фіанн"/>
+  <string id="Q2V4uQrr" text="Пустэльны Бандыт-Бос"/>
+  <string id="Bg63YFnh" text="Стэпавы Бандыт-Бос"/>
+  <string id="C8hwcOdF" text="Горны Грабежнік"/>
+  <string id="J6Yksji5" text="Горны Раскрадальнік"/>
+  <!--input/Characters/battania.xml-->
+  <string id="bk_battanian_teulu.name" text="Баттанійскі Целу"/>
+  <string id="bk_battanian_fian.name" text="Баттанійскі Фіанн"/> 
+  <string id="bk_battanian_squire.name" text="Баттанійскі Шляхетны"/>
+  <string id="bk_battanian_lancer.name" text="Баттанійскі Кіфлог-Мархавк"/>
+  <string id="bk_battanian_cavalry.name" text="Баттанійскі Форывр"/>
+  <string id="bk_battanian_mercenary.name" text="Баттанійскі Кіфлог-Хервр"/>
+  <string id="bk_battanian_mercenary_shield.name" text="Баттанійскі Кіфлог-Рыфельвр"/>
+  <string id="bk_battanian_sergeant.name" text="Баттанійскі Рыфельвр"/>
+  <string id="bk_battanian_sergeant_spear.name" text="Баттанійскі Паладвр"/>
+  <string id="bk_battanian_militiaman.name" text="Баттанійскі Рушэнны"/>
+  <string id="bk_battanian_sergeant_2h.name" text="Баттанійскі Хервр"/>
+  <string id="bk_battanian_militiaman_2h.name" text="Баттанійскі Рушэнны Хервр"/>
+  <string id="bk_battanian_sergeant_javelin.name" text="Баттанійскі Лухвір"/>
+  <string id="bk_battanian_skirmisher.name" text="Баттанійскі Рушэнны Лухвір"/>
+  <string id="bk_battanian_levy.name" text="Баттанійскі Заклічнік"/>
+  <string id="bk_battanian_militiaman_archer.name" text="Баттанійскі Сэтвр"/>
+  <string id="bk_battanian_levy_archer.name" text="Баттанійскі Заклічны Лучнік"/>
+  <!--input/Characters/bragantia.xml-->
+  <string id="bk_bragantia_knight.name" text="Бісканжанскі Мэснадэйро"/>
+  <string id="bk_bragantia_squire.name" text="Бісканжанскі Эскудэйро"/>
+  <string id="bk_bragantia_company_merc.name" text="Бісканжанскі Кампаньнейро"/>
+  <string id="bk_bragantia_mercenary.name" text="Бісканжанскі Мэснандэйро-Найміт"/>
+  <string id="bk_bragantia_sergeant.name" text="Бісканжанскі Ланцэйро"/>
+  <string id="bk_bragantia_militiaman.name" text="Бісканжанскі Рушэнны"/>
+  <string id="bk_bragantia_levy.name" text="Бісканжанскі Заклічнік"/>
+  <string id="bk_bragantia_militiaman_crossbow.name" text="Брагантжанцкі Рушэнны Арбалетнік"/>
+  <string id="bk_bragantia_levy_crossbow.name" text="Бісканжанскі Заклічны Арбалетнік"/>
+  <!--input/Characters/civillians.xml-->
+  <string id="bannerkings_bookseller_darshi.name" text="{FIRSTNAME} {?FEMALE}Шкалярка{?}Шкаляр{\?}"/>
+  <string id="bannerkings_bookseller_siri.name" text="{FIRSTNAME} {?FEMALE}Пісьменьніца{?}Пісьменьнік{\?}"/>
+  <!--input/Characters/darshi.xml-->
+  <string id="bk_ghilman.name" text="Гільманскі Найміт"/>
+  <string id="bk_immortal.name" text="Даршыйскі Аношаг"/>
+  <string id="bk_darshiaswar.name" text="Даршыйскі Грыванпар"/>
+  <string id="bk_darshiaswar_ranged.name" text="Даршыйскі Азбар"/>
+  <string id="bk_darshi_squire.name" text="Даршыйскі Шляхетны"/>
+  <string id="bk_darshi_mace_mercenary.name" text="Даршыйскі Срай-Найміт"/>
+  <string id="bk_darshi_camel_mercenary.name" text="Даршыйскі Шутур-Найміт"/>
+  <string id="bk_darshi_camel_lancer.name" text="Даршыйскі Шутур Асўар"/>
+  <string id="bk_darshi_camel_rider.name" text="Даршыйскі Шутур Піштаз"/>
+  <string id="bk_darshi_dehqan.name" text="Даршыйскі Дэхкан"/>
+  <string id="bk_darshi_horse_archer.name" text="Даршыйскі Камансаўар"/>
+  <string id="bk_darshi_scout.name" text="Даршыйскі Піштаз"/>
+  <string id="bk_darshi_sergeant.name" text="Даршыйскі Гонд"/>
+  <string id="bk_darshi_militiaman.name" text="Даршыйскі Рушэнны"/>
+  <string id="bk_darshi_sparabara_sergeant.name" text="Даршыйскі Спарабара Гонд"/>
+  <string id="bk_darshi_takabara.name" text="Даршыйскі Такабара"/>
+  <string id="bk_darshi_sparabara.name" text="Даршыйскі Спарабара"/>
+  <string id="bk_darshi_levy.name" text="Даршыйскі Пайган"/>
+  <string id="bk_darshi_sergeant_archer.name" text="Даршыйскі Камандар"/>
+  <string id="bk_darshi_militiaman_archer.name" text="Даршыйскі Рушэнны Лучнік"/>
+  <string id="bk_darshi_levy_archer.name" text="Даршыйскі Пайган-Лучнік"/>
+  <!--input/Characters/dryatic.xml-->
+  <string id="bk_dryatic_companion.name" text="Драятычны Сурас"/>
+  <string id="bk_dryatic_squire.name" text="Драятычны Ацэніс"/>
+  <string id="bk_dryatic_mercenary.name" text="Драятычны Мерскальмэ"/>
+  <string id="bk_dryatic_sergeant.name" text="Драятычны Тарусурас"/>
+  <string id="bk_dryatic_sergeant_falxman.name" text="Драятычны Скальмэ"/>
+  <string id="bk_dryatic_militiaman_falx.name" text="Драятычны Рушэнны Скальмэ"/>
+  <string id="bk_dryatic_militiaman.name" text="Драятычны Рушэнны"/>
+  <string id="bk_dryatic_skirmisher.name" text="Драятычны Пельтаст"/>
+  <string id="bk_dryatic_levy.name" text="Драятычны Заклічнік"/>
+  <string id="bk_dryatic_militiaman_archer.name" text="Драятычны Ромфеас"/>
+  <string id="bk_dryatic_levy_archer.name" text="Драятычны Заклічны Ромфеас"/>
+  <!--input/Characters/empire.xml-->
+  <string id="bk_warden_mercenary.name" text="Найміт-Нагляднік"/>
+  <string id="bk_imperial_liminatei_battania.name" text="Кальрадыкоскі Лімітанэёс Баттаніэнсіс"/>
+  <string id="bk_imperial_liminatei_aserai.name" text="Кальрадыкоскі Лімітанэёс Аўстраліс"/>
+  <string id="bk_imperial_liminatei_sturgia.name" text="Кальрадыкоскі Лімітанэёс Стургіэнсіс"/>
+  <string id="bk_imperial_liminatei_khuzait.name" text="Кальрадыкоскі Лімітанэёс Орыенталіс"/>
+  <string id="bk_hand.name" text="Найміт Схаванай Рукі"/>
+  <string id="bk_athanatos.name" text="Атанатос"/>
+  <string id="bk_vaegir_guard.name" text="Вагірскі Вартавы"/>
+  <string id="bk_laconian_guard.name" text="Лаканійскі Вартавы"/>
+  <string id="bk_legion.name" text="Найміт-Легіянер"/>
+  <string id="bk_eleftheroi.name" text="Найміт-Элефтэрой"/>
+  <string id="bk_ember.name" text="Найміт-Вугаль"/>
+  <string id="bk_imperial_cataphract.name" text="Кальрадыкоскі Катафрактос"/>
+  <string id="bk_imperial_squire.name" text="Кальрадыкоскі Эквэс"/>
+  <string id="bk_imperial_mercenary.name" text="Кальрадыкоскі Буцэлларыёс-Хіппотаксотэс"/>
+  <string id="bk_imperial_eques.name" text="Кальрадыкоскі Курсорэс"/>
+  <string id="bk_imperial_hippotoxotes.name" text="Кальрадыкоскі Хіппотаксотэс"/>
+  <string id="bk_imperial_menavlion.name" text="Кальрадыкоскі Менавлатос"/>
+  <string id="bk_imperial_sergeant.name" text="Кальрадыкоскі Скутатос"/>
+  <string id="bk_imperial_sergeant_republic.name" text="Кальрадыкоскі Рэспубліканскі Легіянарыёс"/>
+  <string id="bk_imperial_militiaman_republic.name" text="Кальрадыкоскі Рэспубліканскі Рушэнны"/>
+  <string id="bk_imperial_militiaman.name" text="Кальрадыкоскі Рушэнны"/>
+  <string id="bk_imperial_peltast.name" text="Кальрадыкоскі Пэльтаст"/>
+  <string id="bk_imperial_levy.name" text="Кальрадыкоскі Заклічнік"/>
+  <string id="bk_imperial_militiaman_archer.name" text="Кальрадыкоскі Рушэнны Лучнік"/>
+  <string id="bk_imperial_levy_archer.name" text="Кальрадыкоскі Заклічны Лучнік"/>
+  <string id="bk_imperial_militiaman_crossbow.name" text="Кальрадыкоскі Рушэнны Гастрафетос"/>
+  <string id="bk_imperial_levy_crossbow.name" text="Кальрадыкоскі Заклічны Гастрафетос"/>
+  <!--input/Characters/geroia.xml-->
+  <string id="bk_geroia_manhunter.name" text="Герояскі Паляўнічы за Людзьмі"/>
+  <string id="bk_geroia_cavalier.name" text="Герояскі Кавальер"/>
+  <string id="bk_geroia_highborn.name" text="Герояскі Нобіль"/>
+  <string id="bk_geroia_mercenary.name" text="Герояскі Кавальер-Найміт"/>
+  <string id="bk_geroia_mercenary_fire.name" text="Герояскі Херасіфора"/>
+  <string id="bk_geroia_sergeant.name" text="Герояскі Марак"/>
+  <string id="bk_geroia_sergeant_spear.name" text="Герояскі Сконтарые"/>
+  <string id="bk_geroia_militiaman.name" text="Герояскі Рухавы Марак"/>
+  <string id="bk_geroia_militiaman_spear.name" text="Герояскі Рухавы Сконтарые"/>
+  <string id="bk_geroia_levy.name" text="Герояскі Грамадзянскі Рымэкс"/>
+  <string id="bk_geroia_levy_slave.name" text="Герояскі Дамоўны Рымэкс"/>
+  <string id="bk_geroia_sergeant_xbow.name" text="Герояскі Бальлестрыэрэ"/>
+  <string id="bk_geroia_militiaman_archer.name" text="Імперскі Рушэнны Лучнік"/>
+  <string id="bk_geroia_levy_archer.name" text="Імперскі Заклічны Лучнік"/>
+  <!--input/Characters/iltanlar.xml-->
+  <string id="bk_sentinels_mercenary.name" text="Каравульнускі Найміт"/>
+  <string id="bk_iltanlar_companion.name" text="Ільтанларскі Нокар"/>
+  <string id="bk_iltanlar_squire.name" text="Ільтанларскі Высоканароджаны"/>
+  <string id="bk_iltanlar_mercenary.name" text="Ільтанларскі Найміт"/>
+  <string id="bk_iltanlar_sergeant_infantry.name" text="Ільтанларскі Носьбіт Шчыта"/>
+  <string id="bk_iltanlar_militiaman.name" text="Ільтанларскі Рушэнны Носьбіт Шчыта"/>
+  <string id="bk_iltanlar_levy.name" text="Ільтанларскі Заклічны"/>
+  <string id="bk_iltanlar_militiaman_archer.name" text="Ільтанларскі Рушэнны Лучнік"/>
+  <string id="bk_iltanlar_levy_archer.name" text="Ільтанларскі Заклічны Лучнік"/>
+  <!--input/Characters/jarjara.xml-->
+  <string id="bk_jawwal.name" text="Джаввал-Найміт"/>
+  <string id="bk_jarjara_camel_lancer.name" text="Джарджараўскі Джамаал-Найміт"/>
+  <string id="bk_jarjara_camel_sergeant.name" text="Джарджараўскі Джаввал-Мухарыб"/>
+  <string id="bk_jarjara_camel.name" text="Джарджараўскі Джаввал"/>
+  <string id="bk_jarjara_camel_sergeant_archer.name" text="Джарджараўскі Джаввал-Раамі"/>
+  <string id="bk_jarjara_camel_archer.name" text="Джарджараўскі Талія"/>
+  <string id="bk_jarjara_faaris.name" text="Джарджараўскі Фаарыс"/>
+  <string id="bk_jarjara_squire.name" text="Джарджараўскі Шляхетнанароджаны"/>
+  <string id="bk_jarjara_sergeant.name" text="Джарджараўскі Мухарыб"/>
+  <string id="bk_jarjara_militiaman.name" text="Джарджараўскі Рушэнны"/>
+  <string id="bk_jarjara_levy.name" text="Джарджараўскі Заклічнік"/>
+  <string id="bk_jarjara_militiaman_archer.name" text="Джарджараўскі Раамі"/>
+  <string id="bk_jarjara_levy_archer.name" text="Джарджараўскі Заклічны Лучнік"/>
+  <!--input/Characters/kanic.xml-->
+  <string id="bk_sacred_mercenary.name" text="Кешэрскі Наймір"/>
+  <string id="bk_kanic_sacred_band_cavalry.name" text="Каньнійскі Сьвяты Вершнік"/>
+  <string id="bk_kanic_highborn.name" text="Каньнійскі Грамадзянскі Вершнік"/>
+  <string id="bk_kanic_horseman.name" text="Каньнійскі Коньнік"/>
+  <string id="bk_kanic_rider.name" text="Каньнійскі Наезьнік"/>
+  <string id="bk_kanic_sacred_band.name" text="Каньнійскі Сьвяты Гопліт"/>
+  <string id="bk_kanic_citizen.name" text="Каньнійскі Грамадзянскі Гопліт"/>
+  <string id="bk_kanic_mercenary.name" text="Каньнійскі Найміт"/>
+  <string id="bk_kannic_sergeant.name" text="Каньнійскі Марак"/>
+  <string id="bk_kannic_militiaman.name" text="Каньнійскі Рушэнны"/>
+  <string id="bk_kannic_sergeant_pike.name" text="Каньнійскі Сарыссафарос"/>
+  <string id="bk_kannic_militiaman_pike.name" text="Каньнійскі Рушэнны Фалангіт"/>
+  <string id="bk_kannic_levy.name" text="Каньнійскі Заклічнік"/>
+  <string id="bk_kannic_militiaman_archer.name" text="Каньнійскі Рушэнны Лучнік"/>
+  <string id="bk_kannic_levy_archer.name" text="Каньнійскі Заклічны Лучнік"/>
+  <!--input/Characters/khuzait.xml-->
+  <string id="bk_sky_mercenary.name" text="Учмаг-Найміт"/>
+  <string id="bk_karakhergit.name" text="Карахергіцкі Найміт"/>
+  <string id="bk_khuzait_glaiveman.name" text="Дэўсагларскі Хэўтул"/>
+  <string id="bk_khuzait_kheshig.name" text="Дэўсагларскі Торгуд"/>
+  <string id="bk_khuzait_squire.name" text="Дэўсагларскі Сойліг"/>
+  <string id="bk_khuzait_mercenary.name" text="Дэўсагларскі Торгуд-Найміт"/>
+  <string id="bk_khuzait_sergeant_infantry_calradic.name" text="Дэўсаглара-Калрадзкі Керыг"/>
+  <string id="bk_khuzait_sergeant_infantry.name" text="Дэўсаглара-Курліскі Керыг"/>
+  <string id="bk_khuzait_militiaman_infantry.name" text="Дэўсаглара-Курліскі Заклічнік"/>
+  <string id="bk_khuzait_levy_infantry.name" text="Дэўсаглара-Курліскі Рушэнны"/>
+  <string id="bk_khuzait_militiaman_xbow.name" text="Дэўсагларскі Заклічнік Оксі"/>
+  <string id="bk_khuzait_levy_xbow.name" text="Дэўсагларскі Заклічны Оксі"/>
+  <string id="bk_khuzait_sergeant_lancer.name" text="Дэўсагларскі Керыг"/>
+  <string id="bk_khuzait_militiaman_lancer.name" text="Дэўсагларскі Рушэнны Керыг"/>
+  <string id="bk_khuzait_sergeant.name" text="Дэўсагларскі Атлі"/>
+  <string id="bk_khuzait_militiaman.name" text="Дэўсагларскі Рушэнны Атлі"/>
+  <string id="bk_khuzait_levy.name" text="Дэўсагларскі Оксі"/>
+  <!--input/Characters/laconia.xml-->
+  <string id="bk_laconian_spartan.name" text="Лаконікоскі Катафрактос"/>
+  <string id="bk_laconian_squire.name" text="Лаконікоскі Эквэс"/>
+  <string id="bk_laconian_mercenary.name" text="Лаконікоскі Найміт"/>
+  <string id="bk_laconian_sergeant.name" text="Лаконікоскі Скутатос"/>
+  <string id="bk_laconian_sergeant_pike.name" text="Лаконікоскі Сарыссафарос"/>
+  <string id="bk_laconian_militiaman.name" text="Лаконікоскі Рушэнны"/>
+  <string id="bk_laconian_militiaman_pike.name" text="Лаконікоскі Рушэнны Сарыссафарос"/>
+  <string id="bk_laconian_levy.name" text="Лаконікоскі Заклічны"/>
+  <string id="bk_laconian_militiaman_archer.name" text="Лаконікоскі Рушэнны Лучнік"/>
+  <string id="bk_laconian_levy_archer.name" text="Лаконікоскі Заклічны Лучнік"/>
+  <string id="bk_laconian_militiaman_crossbow.name" text="Лаконікоскі Рушэнны Гастрафетос"/>
+  <string id="bk_laconian_levy_crossbow.name" text="Лаконікоскі Заклічны Гастрафетос"/>
+  <!--input/Characters/lokti.xml-->
+  <string id="bk_lokti_companion.name" text="Лоскі Палідовас"/>
+  <string id="bk_lokti_squire.name" text="Лоскі Кілнус"/>
+  <string id="bk_lokti_mercenary.name" text="Лоска-Варчаскі Кірвіс"/>
+  <string id="bk_lokti_cavalry_mercenary.name" text="Лоскі Ланкінінкас-Найміт"/>
+  <string id="bk_lokti_cavalry.name" text="Лоскі Райтэліс"/>
+  <string id="bk_lokti_sergeant.name" text="Лоскі Карыс"/>
+  <string id="bk_lokti_sergeant_bardiche.name" text="Лоскі Кірвіс"/>
+  <string id="bk_lokti_militiaman.name" text="Лоскі Рушэнны"/>
+  <string id="bk_lokti_militiaman_bardiche.name" text="Лоскі Рушэнны Кірвіс"/>
+  <string id="bk_lokti_skirmisher.name" text="Лоскі Меджыётоджас"/>
+  <string id="bk_lokti_levy.name" text="Лоскі Заклічны"/>
+  <string id="bk_lokti_militiaman_archer.name" text="Лоскі Ланкінінкас"/>
+  <string id="bk_lokti_levy_archer.name" text="Лоскі Заклічны Ланкінінкас"/>
+  <!--input/Characters/massa.xml-->
+  <string id="bk_massa_nomad.name" text="Масскі Найміт-Качэўнік"/>
+  <string id="bk_massa_knight.name" text="Масскі Гахлайба"/>
+  <string id="bk_massa_squire.name" text="Масскі Вайлабаўр"/>
+  <string id="bk_massa_mercenary.name" text="Масскі Найміт"/>
+  <string id="bk_massa_sergeant.name" text="Масскі Гадраўтс"/>
+  <string id="bk_massa_militiaman.name" text="Масскі Рушэнны"/>
+  <string id="bk_massa_sergeant_pike.name" text="Масскі Пікінёр-Гадраўтс"/>
+  <string id="bk_massa_militiaman_pike.name" text="Масскі Рухавы Пікінёр"/>
+  <string id="bk_massa_levy.name" text="Масскі Заклічнік"/>
+  <string id="bk_massa_militiaman_sling.name" text="Масскі Рушэнны Прашчнік"/>
+  <string id="bk_massa_levy_sling.name" text="Масскі Заклічны Прашчнік"/>
+  <!--input/Characters/nord.xml-->
+  <string id="bk_nord_huskarl.name" text="Юмнэскі Хускарл"/>
+  <string id="bk_nord_squire.name" text="Юмнэскі Вараг"/>
+  <string id="bk_nord_mercenary.name" text="Юмнэскі Вараг-Найміт"/>
+  <string id="bk_nord_cavalry.name" text="Юмнэскі Рыддары"/>
+  <string id="bk_nord_sergeant.name" text="Юмнэскі Дрэнгр"/>
+  <string id="bk_nord_sergeant_2h.name" text="Юмнэскі Сэггр"/>
+  <string id="bk_nord_sergeant_pike.name" text="Юмнэскі Сьпьютман"/>
+  <string id="bk_nord_militiaman.name" text="Юмнэскі Рушэнны"/>
+  <string id="bk_nord_militiaman_2h.name" text="Юмнэскі Рушэнны Сэггр"/>
+  <string id="bk_nord_levy.name" text="Юмнэскі Заклічнік"/>
+  <string id="bk_nord_militiaman_archer.name" text="Юмнэскі Лучнік"/>
+  <string id="bk_nord_levy_archer.name" text="Юмнэскі Заклічны Лучнік"/>
+  <string id="bk_skolder.name" text="Найміт-Сколдэр"/>
+  <!--input/Characters/notables.xml-->
+  <string id="caravan_master_vakken.name" text="Ваккенскі Майстар Караванаў"/>
+  <string id="caravan_master_laconian.name" text="Лаконікоскі Майстар Караванаў"/>
+  <string id="caravan_master_dryatic.name" text="Драятычны Майстар Караванаў"/>
+  <string id="caravan_master_zendar.name" text="Зэндарскі Майстар Караванаў"/>
+  <string id="caravan_master_lokti.name" text="Лохскі Майстар Караванаў"/>
+  <string id="caravan_master_iltanlar.name" text="Ільтанларскі Майстар Караванаў"/>
+  <string id="caravan_master_nord.name" text="Юмнэскі Майстар Караванаў"/>
+  <string id="caravan_master_massa.name" text="Масьсійскі Майстар Караванаў"/>
+  <string id="caravan_master_rhodok.name" text="Родаскі Майстар Караванаў"/>
+  <string id="caravan_master_swadia.name" text="Свадзійскі Майстар Караванаў"/>
+  <string id="caravan_master_bragantia.name" text="Бісканжанскі Майстар Караванаў"/>
+  <string id="caravan_master_balion.name" text="Баліёнскі Майстар Караванаў"/>
+  <string id="caravan_master_geroia.name" text="Герояскі Майстар Караванаў"/>
+  <string id="caravan_master_darshi.name" text="Даршыйскі Майстар Караванаў"/>
+  <string id="caravan_master_sarranid.name" text="Сарранскі Майстар Караванаў"/>
+  <string id="caravan_master_jarjara.name" text="Джарджараўскі Майстар Караванаў"/>
+  <string id="caravan_master_kannic.name" text="Каньнійскі Майстар Караванаў"/>
+  <string id="caravan_master_siri.name" text="Сірыйскі Майстар Караванаў"/>
+  <!--input/Characters/palaic.xml-->
+  <string id="bk_palaic_sergeant.name" text="Палайскі Тарусурас"/>
+  <string id="bk_palaic_sergeant_falxman.name" text="Баттанійскі Абраны Ваяр"/>
+  <string id="bk_palaic_militiaman.name" text="Палайскі Рушэнны"/>
+  <string id="bk_palaic_skirmisher.name" text="Палайскі Пэльтаст"/>
+  <string id="bk_palaic_levy.name" text="Палайскі Заклічнік"/>
+  <string id="bk_palaic_levy_skirmisher.name" text="Палайскі Застрэльнік"/>
+  <string id="bk_palaic_militiaman_archer.name" text="Баттанійскі Сэтур"/>
+  <string id="bk_palaic_levy_archer.name" text="Баттанійскі Заклічны Лучнік"/>
+  <!--input/Characters/rhodok.xml-->
+  <string id="bk_golden_boar.name" text="Найміт Залатога Дзіка"/>
+  <string id="bk_rhodok_knight.name" text="Родаскі Хэрр"/>
+  <string id="bk_rhodok_squire.name" text="Родаскі Кнапп"/>
+  <string id="bk_vlandia_pikeman.name" text="Родаскі Лінэман-Найміт"/>
+  <string id="bk_rhodok_sergeant_pike.name" text="Родаскі Шпіссманн"/>
+  <string id="bk_rhodok_militiaman_pike.name" text="Родаскі Рушэнны Шпіссманн"/>
+  <string id="bk_rhodok_sergeant_2hmace.name" text="Родаскі Шпіцэманн"/>
+  <string id="bk_rhodok_militiaman_2hmace.name" text="Родаскі Рушэнны Шпіцэманн"/>
+  <string id="bk_rhodok_sergeant.name" text="Родаскі Вэльтвайбэль"/>
+  <string id="bk_rhodok_militiaman.name" text="Родаскі Рушэнны"/>
+  <string id="bk_rhodok_levy.name" text="Родаскі Заклічны"/>
+  <string id="bk_vlandia_jaculan_xbow.name" text="Родаскі Арбалетнік"/>
+  <string id="bk_rhodok_militiaman_crossbow.name" text="Родаскі Рушэнны Арбалетнік"/>
+  <string id="bk_rhodok_levy_crossbow.name" text="Родаскі Заклічны Арбалетнік"/>
+  <!--input/Characters/sarranid.xml-->
+  <string id="bk_furq_cavalry.name" text="Фуркананскі Наезьнік"/>
+  <string id="bk_sarranid_faaris.name" text="Сарранскі Фаарыс"/>
+  <string id="bk_sarranid_squire.name" text="Сарранскі Шляхетнанарожаны"/>
+  <string id="bk_sarranid_horsearcher.name" text="Сарранскі Хсаан Раамі"/>
+  <string id="bk_sarranid_rider.name" text="Сарранскі Талія"/>
+  <string id="bk_sarranid_mace_mercenary.name" text="Сарранскі Каср Мубарызун"/>
+  <string id="bk_sarranid_sword_mercenary.name" text="Сарранскі Мубарызун"/>
+  <string id="bk_sarranid_sergeant.name" text="Сарранскі Мухарыб"/>
+  <string id="bk_sarranid_militiaman.name" text="Сарранскі Рушэнны"/>
+  <string id="bk_sarranid_levy.name" text="Сарранскі Заклічнік"/>
+  <string id="bk_sarranid_militiaman_archer.name" text="Сарранскі Раамі"/>
+  <string id="bk_sarranid_levy_archer.name" text="Сарранскі Заклічны Лучнік"/>
+  <!--input/Characters/siri.xml-->
+  <string id="bk_sons_mercenary.name" text="Серацьцігускі Найміт"/>
+  <string id="bk_siri_kandi.name" text="Сірыйскі Кандзі"/>
+  <string id="bk_siri_squire.name" text="Сірыйскі Нгок-Пес"/>
+  <string id="bk_siri_mercenary.name" text="Сірыйскі Найміт"/>
+  <string id="bk_siri_cavalry.name" text="Сірыйскі Док"/>
+  <string id="bk_siri_sergeant.name" text="Сірыйскі Ваяр"/>
+  <string id="bk_siri_militiaman.name" text="Сірыйскі Рушэнны"/>
+  <string id="bk_siri_sergeant_pike.name" text="Сірыйскі Пікінёр"/>
+  <string id="bk_siri_militiaman_pike.name" text="Сірыйскі Рушэнны Пікінёр"/>
+  <string id="bk_siri_levy.name" text="Сірыйскі Заклічнік"/>
+  <string id="bk_siri_sergeant_horse.name" text="Сірыйскі Коньнік"/>
+  <string id="bk_siri_militiaman_horse.name" text="Сірыйскі Выведнік"/>
+  <string id="bk_siri_militiaman_archer.name" text="Сірыйская Рушэнная Лучніца"/>
+  <string id="bk_siri_levy_archer.name" text="Сірыйская Заклічная Лучніца"/>
+  <!--input/Characters/sturgia.xml-->
+  <string id="bk_sturgia_druzhinnik.name" text="Стургійскі Дружыньнік"/>
+  <string id="bk_sturgia_squire.name" text="Стургійскі Варчег"/>
+  <string id="bk_sturgia_mercenary.name" text="Стургійскі Варчег-Найміт"/>
+  <string id="bk_sturgia_mercenary_cavalry.name" text="Стургійскі Дружыньнік-Найміт"/>
+  <string id="bk_sturgia_cavalry.name" text="Стурга-Рэмінсьнійскі Вершнік"/>
+  <string id="bk_sturgia_sergeant.name" text="Стургійскі Вояк"/>
+  <string id="bk_sturgian_militiaman.name" text="Стургійскі Вой"/>
+  <string id="bk_sturgian_skirmisher.name" text="Стургійскі Лясьнічы"/>
+  <string id="bk_sturgian_levy.name" text="Стургійскі Заклічнік"/>
+  <string id="bk_sturgian_tyalese_archer.name" text="Стурга-Цялійскі Межавы Наезьнік"/>
+  <string id="bk_sturgian_tyalese_scout.name" text="Стурга-Цялійскі Выведнік"/>
+  <string id="bk_sturgian_militiaman_archer.name" text="Стургійскі Вой-Лучнік"/>
+  <string id="bk_sturgian_levy_archer.name" text="Стургійскі Заклічны Лучнік"/>
+  <!--input/Characters/swadia.xml-->
+  <string id="bk_freemen_mercenary.name" text="Врыманскі Найміт"/>
+  <string id="bk_swadia_knight.name" text="Свадзійскі Хэррэ"/>
+  <string id="bk_swadia_squire.name" text="Свадзійскі Кнаппэ"/>
+  <string id="bk_swadia_burgman.name" text="Свадзійскі Буркма"/>
+  <string id="bk_swadia_sergeant.name" text="Свадзійскі Вэльтвайбэль"/>
+  <string id="bk_swadia_militiaman.name" text="Свадзійскі Рушэнны"/>
+  <string id="bk_swadia_mercenary.name" text="Свадзійскі Сьпезма-Найміт"/>
+  <string id="bk_swadia_sergeant_bill.name" text="Свадзійскі Сьпезма"/>
+  <string id="bk_swadia_militiaman_bill.name" text="Свадзійскі Рушэнны Сьпезма"/>
+  <string id="bk_swadia_levy.name" text="Свадзійскі Заклічны"/>
+  <string id="bk_swadia_militiaman_crossbow.name" text="Свадзійскі Рушэнны Арбалетнік"/>
+  <string id="bk_swadia_levy_crossbow.name" text="Свадзійскі Заклічны Арбалетнік"/>
+  <!--input/Characters/vakken.xml-->
+  <string id="bk_vakken_companion.name" text="Ваккенскі Сеўралайнэ"/>
+  <string id="bk_vakken_squire.name" text="Ваккенскі Шляхетны"/>
+  <string id="bk_vakken_mercenary_cavalry.name" text="Ваккенскі Рацастая-Найміт"/>
+  <string id="bk_vakken_cavalry.name" text="Ваккенскі Рацастая"/>
+  <string id="bk_vakken_mercenary.name" text="Ваккенскі Сеўралайнэн-Найміт"/>
+  <string id="bk_vakken_sergeant.name" text="Ваккенскі Сотуры"/>
+  <string id="bk_vakken_sergeant_spear.name" text="Ваккенскі Кайхасьмііс"/>
+  <string id="bk_vakken_militiaman.name" text="Ваккенскі Рушэнны"/>
+  <string id="bk_vakken_levy.name" text="Ваккенскі Заклічнік"/>
+  <string id="bk_vakken_militiaman_archer.name" text="Ваккенскі Лучнік"/>
+  <string id="bk_vakken_levy_archer.name" text="Ваккенскі Заклічны Лучнік"/>
+  <!--input/Characters/vlandia.xml-->
+  <string id="bk_brotherhood.name" text="Найміт-Братэрства"/>
+  <string id="bk_vlandia_thingman.name" text="Оcрыкінскі Рэчавы"/>
+  <string id="bk_vlandia_knight1.name" text="Оcрыкінскі Шэвальер"/>
+  <string id="bk_vlandia_squire.name" text="Оcрыкінскі Эскваэр"/>
+  <string id="bk_vlandia_mercenary.name" text="Оcрыкінскі Шэвачур-Найміт"/>
+  <string id="bk_vlandia_longbowman.name" text="Оcрыкінскі Вольналучнік"/>
+  <string id="bk_vlandia_sergeant_horseman.name" text="Оcрыкінскі Шэвачур"/>
+  <string id="bk_vlandia_militiaman_horseman.name" text="Оcрыкінскі Корур"/>
+  <string id="bk_vlandia_sergeant.name" text="Оcрыкінскі Сяржант"/>
+  <string id="bk_vlandia_militiaman.name" text="Оcрыкінскі Рушэнны"/>
+  <string id="bk_vlandia_sergeant_voulge.name" text="Оcрыкінскі Вульжар"/>
+  <string id="bk_vlandia_billman.name" text="Оcрыкінскі Рушэнны Вульжар"/>
+  <string id="bk_vlandia_levy.name" text="Оcрыкінскі Заклічны"/>
+  <string id="bk_vlandia_militiaman_longbow.name" text="Оcрыкінскі Рушэнны Доўгалучнік"/>
+  <string id="bk_vlandia_levy_longbow.name" text="Оcрыкінскі Заклічны Доўгалучнік"/>
+  <string id="bk_vlandia_militiaman_crossbow.name" text="Оcрыкінскі Рушэнны Арбалетнік"/>
+  <string id="bk_vlandia_levy_crossbow.name" text="Оcрыкінскі Заклічны Арбалетнік"/>
+  <!--input/Characters/zendar.xml-->
+  <string id="bk_zendar_legion.name" text="Легеанарыёс-Найміт"/>
+  <string id="bk_zendar_hoplite.name" text="Зэндарскі Гоплітас"/>
+  <string id="bk_zendar_squire.name" text="Зэндарскі Эвгеніс"/>
+  <string id="bk_zendar_mercenary.name" text="Зэндарскі Найміт"/>
+  <string id="bk_zendar_provocator.name" text="Зэндарскі Правакатарэс"/>
+  <string id="bk_zendar_hoplomarchos.name" text="Зэндарскі Гопламархас"/>
+  <string id="bk_zendar_eques.name" text="Зэндарскі Эквэс"/>
+  <string id="bk_zendar_militiaman.name" text="Зэндарскі Монамархас"/>
+  <string id="bk_zendar_sergeant.name" text="Зэндарскі Тэйхофулакс"/>
+  <string id="bk_zendar_militiaman_shield.name" text="Зэндарскі Гарадзкі Нагляднік"/>
+  <string id="bk_zendar_levy.name" text="Зэндарскі Заклічны"/>
+  <string id="bk_zendar_crossbow.name" text="Зэндарскі Фулакс"/>
+  <string id="bk_zendar_militiaman_crossbow.name" text="Зэндарскі Гастрафетас"/>
+  <string id="bk_zendar_levy_crossbow.name" text="Зэндарскі Заклічны Гастрафетас"/>
+</strings>
+</base>

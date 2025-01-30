@@ -1,0 +1,1126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+
+
+  <NPCCharacter id="bk_zendar_legion" default_group="Infantry" level="26" name="{=bk_zendar_legion.name}Legeonários Mercenary" occupation="Mercenary" is_basic_troop="true" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="30"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="120"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="40"/>
+      <skill id="Throwing" value="80"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.TV_pict_helmet_n"/> 
+		<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+	    <equipment slot="Body" id="Item.AR_battania_armor_p2"/>
+	    <equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item0" id="Item.gladius_b"/>
+		<equipment slot="Item2" id="Item.AD_shield_infantry_a2"/>
+		<equipment slot="Item3" id="Item.woodland_throwing_axe_1_t1"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/> 
+		<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a1"/>
+	    <equipment slot="Body" id="Item.AR_empire_horseman_armor_c"/>
+	    <equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item0" id="Item.gladius_b"/>
+		<equipment slot="Item2" id="Item.AD_shield_infantry_a2"/>
+		<equipment slot="Item3" id="Item.woodland_throwing_axe_1_t1"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth"/> 
+		<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a2"/>
+	    <equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+	    <equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item0" id="Item.gladius_b"/>
+		<equipment slot="Item2" id="Item.AD_shield_infantry_a2"/>
+		<equipment slot="Item3" id="Item.woodland_throwing_axe_1_t1"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather"/> 
+		<equipment slot="Cape" id="Item.ao_focale"/>
+	    <equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+	    <equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item0" id="Item.gladius_b"/>
+		<equipment slot="Item2" id="Item.AD_shield_infantry_a2"/>
+		<equipment slot="Item3" id="Item.woodland_throwing_axe_1_t1"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth"/> 
+	    <equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+	    <equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item0" id="Item.battania_axe_2_t4"/>
+		<equipment slot="Item2" id="Item.AD_shield_infantry_a2"/>
+		<equipment slot="Item3" id="Item.woodland_throwing_axe_1_t1"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather"/> 
+		<equipment slot="Cape" id="Item.AR_imperial_leather_cape_b2"/>
+	    <equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+	    <equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item0" id="Item.battania_axe_2_t4"/>
+		<equipment slot="Item2" id="Item.AD_shield_infantry_a2"/>
+		<equipment slot="Item3" id="Item.woodland_throwing_axe_1_t1"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.TV_pict_helmet_m"/> 
+	    <equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+	    <equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item0" id="Item.battle_axe_t4"/>
+		<equipment slot="Item2" id="Item.AD_shield_infantry_a2"/>
+		<equipment slot="Item3" id="Item.woodland_throwing_axe_1_t1"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.TV_pict_helmet_m"/> 
+		<equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+	    <equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+	    <equipment slot="Leg" id="Item.TV_battania_boots_j"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item0" id="Item.battle_axe_t4"/>
+		<equipment slot="Item2" id="Item.AD_shield_infantry_a2"/>
+		<equipment slot="Item3" id="Item.woodland_throwing_axe_1_t1"/>
+      </EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_zendar_hoplite" default_group="Infantry" level="31" name="{=bk_zendar_hoplite.name}Zendari Hoplitos" occupation="Soldier" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="200"/>
+      <skill id="Riding" value="50"/>
+      <skill id="OneHanded" value="150"/>
+      <skill id="TwoHanded" value="50"/>
+      <skill id="Polearm" value="210"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="50"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.cts_greek_corinthian_simple_a"/>
+	    <equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+	    <equipment slot="Body" id="Item.TV_empire_armor_h"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item3" id="Item.aspis_15"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.phrygian_11"/>
+	    <equipment slot="Cape" id="Item.TV_wolf_pelt_a"/>
+	    <equipment slot="Body" id="Item.AR_empire_horseman_armor"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item3" id="Item.aspis_15"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.phrygian_10"/>
+		<equipment slot="Cape" id="Item.AR_imperial_shoulders_l"/>
+	    <equipment slot="Body" id="Item.TV_empire_armor_g"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item3" id="Item.aspis_15"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.phrygian_12"/>
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_w"/>
+	    <equipment slot="Body" id="Item.AR_empire_horseman_armor_d"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item3" id="Item.aspis_15"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.cts_greek_corinthian_simple_b"/>
+		<equipment slot="Cape" id="Item.AR_imperial_shoulders_za"/>
+	    <equipment slot="Body" id="Item.AR_empire_armor_c"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item3" id="Item.aspis_15"/>
+      </EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_zendar_squire" default_group="Infantry" level="26" name="{=bk_zendar_squire.name}Zendari Eugenys" occupation="Soldier" is_basic_troop="true" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="160"/>
+      <skill id="Riding" value="30"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="170"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="40"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_zendar_hoplite"/>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.phrygian_6"/> 
+	    <equipment slot="Body" id="Item.AR_empire_scout_armor_d"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item2" id="Item.aspis_20"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.cts_greek_corinthian_simple_b"/>
+		<equipment slot="Cape" id="Item.TV_wolf_pelt_a"/>
+	    <equipment slot="Body" id="Item.AR_empire_armor_c"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item2" id="Item.aspis_20"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.phrygian_3"/>
+	    <equipment slot="Body" id="Item.AR_empire_horseman_armor_d"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item2" id="Item.aspis_20"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.phrygian_2"/>
+		<equipment slot="Cape" id="Item.ao_focale"/>
+	    <equipment slot="Body" id="Item.empire_horseman_armor"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item2" id="Item.aspis_20"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.phrygian_4"/>
+		<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+	    <equipment slot="Body" id="Item.TV_empire_armor_g"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item2" id="Item.aspis_20"/>
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.phrygian_5"/>
+	    <equipment slot="Body" id="Item.TV_empire_armor_h"/>
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b"/>
+		<equipment slot="Item1" id="Item.bk_empire_spear_t5"/>
+		<equipment slot="Item2" id="Item.empire_sword_6_t5"/>
+		<equipment slot="Item2" id="Item.aspis_20"/>
+      </EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+
+
+  <NPCCharacter id="bk_zendar_mercenary" default_group="Cavalry" level="26" name="{=bk_zendar_mercenary.name}Zendari Mercenary" occupation="Mercenary" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="30"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="140"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="40"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather"/>
+			<equipment slot="Cape" id="Item.AR_gladiator_shoulder_a"/>
+			<equipment slot="Body" id="Item.empire_horseman_armor"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a3"/>
+			<equipment slot="Item0" id="Item.empire_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.aspis_20"/>
+			<equipment slot="Item2" id="Item.bk_empire_spear_t4"/>
+			<equipment slot="Horse" id="Item.empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a2"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_o"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.empire_mace_2_t4"/>
+			<equipment slot="Item1" id="Item.aspis_20"/>
+			<equipment slot="Item2" id="Item.bk_empire_spear_t4"/>
+			<equipment slot="Horse" id="Item.empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.empire_mace_3_t4"/>
+			<equipment slot="Item1" id="Item.aspis_20"/>
+			<equipment slot="Item2" id="Item.bk_empire_spear_t4"/>
+			<equipment slot="Horse" id="Item.empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_mail"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a1"/>
+			<equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.empire_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.aspis_20"/>
+			<equipment slot="Item2" id="Item.bk_empire_spear_t4"/>
+			<equipment slot="Horse" id="Item.empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_empire_horseman_armor_c"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.empire_sword_4_t4"/>
+			<equipment slot="Item1" id="Item.aspis_20"/>
+			<equipment slot="Item2" id="Item.bk_empire_spear_t4"/>
+			<equipment slot="Horse" id="Item.empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg"/>
+		</EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_zendar_provocator" default_group="Infantry" level="21" name="{=bk_zendar_provocator.name}Zendari Provocatores" occupation="Soldier" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="170"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="80"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		 <EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_a_iron1"/>
+			<equipment slot="Cape" id="Item.cts_shoulder_chaimail_sash_a"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_b"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_a_iron"/>
+			<equipment slot="Cape" id="Item.cts_sash_celt1"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_c"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_b"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a1"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+	    <EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_a1"/>
+			<equipment slot="Cape" id="Item.cts_sash_celt"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_a"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a2"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+		 <EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_a_iron1"/>
+			<equipment slot="Body" id="Item.cts_gladiator_armor_b"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a3"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_a_iron1"/>
+			<equipment slot="Cape" id="Item.cts_shoulder_chaimail_sash_a"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_b"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a4"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+
+   <NPCCharacter id="bk_zendar_hoplomarchos" default_group="Infantry" level="21" name="{=bk_zendar_hoplomarchos.name}Zendari Hoplomarchos" occupation="Soldier" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="80"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		 <EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_b"/>
+			<equipment slot="Cape" id="Item.cts_shoulder_chaimail_sash_a"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_b"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+			<equipment slot="Item2" id="Item.AR_imperial_spear_t4"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_b"/>
+			<equipment slot="Cape" id="Item.cts_sash_celt1"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_c"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_b"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a1"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+	    <EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_b"/>
+			<equipment slot="Cape" id="Item.cts_sash_celt"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_a"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a2"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+		 <EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_b"/>
+			<equipment slot="Body" id="Item.cts_gladiator_armor_b"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a3"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_b"/>
+			<equipment slot="Cape" id="Item.cts_shoulder_chaimail_sash_a"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_b"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a4"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_zendar_eques" default_group="Infantry" level="21" name="{=bk_zendar_eques.name}Zendari Eques" occupation="Soldier" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="80"/>
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		 <EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_b"/>
+			<equipment slot="Cape" id="Item.cts_shoulder_chaimail_sash_a"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_b"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+			<equipment slot="Item2" id="Item.AR_imperial_spear_t4"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_b"/>
+			<equipment slot="Cape" id="Item.cts_sash_celt1"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_c"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_b"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a1"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+	    <EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_b"/>
+			<equipment slot="Cape" id="Item.cts_sash_celt"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_a"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a2"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+		 <EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_b"/>
+			<equipment slot="Body" id="Item.cts_gladiator_armor_b"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a3"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.cts_roman_gladiator_provocatores_b"/>
+			<equipment slot="Cape" id="Item.cts_shoulder_chaimail_sash_a"/> 
+			<equipment slot="Body" id="Item.cts_gladiator_armor_b"/>
+			<equipment slot="Leg" id="Item.cts_roman_gladiator_greaves_a"/>
+			<equipment slot="Item0" id="Item.cts_roman_scutum_a4"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+		</EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+  
+  <NPCCharacter id="bk_zendar_militiaman" default_group="Infantry" level="16" name="{=bk_zendar_militiaman.name}Zendari Monomarchos" occupation="Soldier" culture="Culture.zendar" skill_template="SkillSet.bk_militia_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills/>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_zendar_provocator"/>
+	  <upgrade_target id="NPCCharacter.bk_zendar_hoplomarchos"/>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_a"/>
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2"/>
+			<equipment slot="Body" id="Item.cts_gladiator_armor_d"/>
+			<equipment slot="Gloves" id="Item.cts_roman_gladiator_greaves_b1"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zze"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+			<equipment slot="Item2" id="Item.AR_gladiator_fork_b"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_d"/>
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2"/>
+			<equipment slot="Body" id="Item.cts_gladiator_armor_d"/>
+			<equipment slot="Gloves" id="Item.cts_roman_gladiator_greaves_b1"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zze"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+			<equipment slot="Item2" id="Item.AR_gladiator_fork_b"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_e"/>
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2"/>
+			<equipment slot="Body" id="Item.cts_gladiator_armor_d"/>
+			<equipment slot="Gloves" id="Item.cts_roman_gladiator_greaves_b1"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zze"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+			<equipment slot="Item2" id="Item.AR_gladiator_fork_a"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_a"/>
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2"/>
+			<equipment slot="Body" id="Item.cts_gladiator_armor_d"/>
+			<equipment slot="Gloves" id="Item.cts_roman_gladiator_greaves_b1"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zze"/>
+			<equipment slot="Item1" id="Item.gladius_b"/>
+			<equipment slot="Item2" id="Item.AR_gladiator_fork_a"/>
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_zendar_sergeant" default_group="Infantry" level="21" name="{=bk_zendar_sergeant.name}Zendari Teikhophúlax" occupation="Soldier" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="30"/>
+    <skill id="Polearm" value="120"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather"/>
+			<equipment slot="Cape" id="Item.AR_gladiator_shoulder_a"/>
+			<equipment slot="Body" id="Item.linothorax_3"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a3"/>
+			<equipment slot="Item0" id="Item.empire_mace_2_t4"/>
+			<equipment slot="Item1" id="Item.cts_roman_scutum_a4"/>
+			<equipment slot="Item2" id="Item.bk_empire_spear_t4"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a2"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_o"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.battle_axe_t4"/>
+			<equipment slot="Item1" id="Item.cts_roman_scutum_a3"/>
+			<equipment slot="Item2" id="Item.bk_empire_spear_t4"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.empire_mace_3_t4"/>
+			<equipment slot="Item1" id="Item.cts_roman_scutum_a"/>
+			<equipment slot="Item2" id="Item.bk_empire_spear_t4"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_mail"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a1"/>
+			<equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.gladius_b"/>
+			<equipment slot="Item1" id="Item.cts_roman_scutum_a1"/>
+			<equipment slot="Item2" id="Item.bk_empire_spear_t4"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_empire_horseman_armor_c"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.gladius_b"/>
+			<equipment slot="Item1" id="Item.cts_roman_scutum_a2"/>
+			<equipment slot="Item2" id="Item.bk_empire_spear_t4"/>
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+  
+
+  
+  <NPCCharacter id="bk_zendar_militiaman_shield" default_group="Infatry" level="16" name="{=bk_zendar_militiaman_shield.name}Zendari City Watch" occupation="Soldier" culture="Culture.zendar" skill_template="SkillSet.bk_militia_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills/>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_zendar_sergeant"/>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth"/>
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2"/>
+			<equipment slot="Body" id="Item.linothorax_4"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<equipment slot="Item1" id="Item.AR_shield_infantry_a"/>
+			<equipment slot="Item2" id="Item.AR_imperial_spear_t3"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_empire_armor_e"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<equipment slot="Item1" id="Item.AR_shield_infantry_a"/>
+			<equipment slot="Item2" id="Item.AR_imperial_spear_t3"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_empire_helmet_r"/>
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_m"/>
+			<equipment slot="Body" id="Item.linothorax_3"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_c4"/>
+			<equipment slot="Item0" id="Item.morningstar_mace_t3"/>
+			<equipment slot="Item1" id="Item.AR_shield_infantry_a"/>
+			<equipment slot="Item2" id="Item.AR_imperial_spear_t3"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_empire_helmet_q"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b"/>
+			<equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<equipment slot="Item1" id="Item.AR_shield_infantry_a"/>
+			<equipment slot="Item2" id="Item.AR_imperial_spear_t3"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_leather"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_d"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a4"/>
+			<equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+			<equipment slot="Item1" id="Item.AR_shield_infantry_a"/>
+			<equipment slot="Item2" id="Item.AR_imperial_spear_t3"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_a"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+			<equipment slot="Item1" id="Item.AR_shield_infantry_a"/>
+			<equipment slot="Item2" id="Item.AR_imperial_spear_t3"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.light_mace_t3"/>
+			<equipment slot="Item1" id="Item.AR_shield_infantry_a"/>
+			<equipment slot="Item2" id="Item.AR_imperial_spear_t3"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.light_mace_t3"/>
+			<equipment slot="Item1" id="Item.AR_shield_infantry_a"/>
+			<equipment slot="Item2" id="Item.AR_imperial_spear_t3"/>
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <NPCCharacter id="bk_zendar_levy" default_group="Infantry" level="11" name="{=bk_zendar_levy.name}Zendari Levy" occupation="Soldier" culture="Culture.zendar" is_basic_troop="true" skill_template="SkillSet.bk_levy_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills/>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_zendar_militiaman_shield"/>
+      <upgrade_target id="NPCCharacter.bk_zendar_militiaman"/>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_4"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_1"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_2"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.merchants_hat"/>
+			<equipment slot="Body" id="Item.cts_roman_tunic_b"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cts_roman_tunic_a"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.merchants_hat"/>
+			<equipment slot="Body" id="Item.footmans_tunic"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.AR_empire_armor_k"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.small_bit_axe_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_d"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_roman_hat_a2"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.imperial_padded_cloth"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_c"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_roman_hat_a"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_empire_scout_armor_c"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_c"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.imperial_cloth_coif"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.leather_tunic"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r"/>
+			<equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
+			<equipment slot="Item3" id="Item.AR_gladiator_fork_c"/>
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+ 
+  
+  <NPCCharacter id="bk_zendar_crossbow" default_group="Ranged" level="21" name="{=bk_zendar_crossbow.name}Zendari Phúlax" occupation="Soldier" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="90"/>
+    <skill id="TwoHanded" value="15"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="120"/>
+    <skill id="Throwing" value="40"/>
+    </skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather"/>
+			<equipment slot="Cape" id="Item.AR_gladiator_shoulder_a"/>
+			<equipment slot="Body" id="Item.linothorax_3"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a3"/>
+			<equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_c"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a2"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_o"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_mail"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a1"/>
+			<equipment slot="Body" id="Item.TV_vlandia_armor_l"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_empire_horseman_armor_c"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+
+  
+  <NPCCharacter id="bk_zendar_militiaman_crossbow" default_group="Ranged" level="16" name="{=bk_zendar_militiaman_crossbow.name}Zendari Gastraphetos" occupation="Soldier" culture="Culture.zendar" skill_template="SkillSet.bk_militia_xbowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills/>
+	<upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_zendar_crossbow"/>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth"/>
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2"/>
+			<equipment slot="Body" id="Item.linothorax_4"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_empire_armor_e"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_empire_helmet_r"/>
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_m"/>
+			<equipment slot="Body" id="Item.linothorax_3"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_c4"/>
+			<equipment slot="Item0" id="Item.imperial_axe_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_empire_helmet_q"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b"/>
+			<equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_leather"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_d"/>
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a4"/>
+			<equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_a"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.light_mace_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_b4"/>
+			<equipment slot="Item0" id="Item.light_mace_t3"/>
+			<equipment slot="Item1" id="Item.crossbow_b"/>
+			<equipment slot="Item2" id="Item.GRE_hardened_75_gr_bolts"/>
+			<equipment slot="Item3" id="Item.GRE_hardened_75_gr_bolts"/>
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="bk_zendar_levy_crossbow" default_group="Ranged" level="11" name="{=bk_zendar_levy_crossbow.name}Zendari Levy Gastraphetos" occupation="Soldier" culture="Culture.zendar" is_basic_troop="true" skill_template="SkillSet.bk_levy_xbowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_zendar_militiaman_crossbow"/>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_2"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_4"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_1"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.merchants_hat"/>
+			<equipment slot="Body" id="Item.cts_roman_tunic_b"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cts_roman_tunic_a"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.merchants_hat"/>
+			<equipment slot="Body" id="Item.footmans_tunic"/>
+			<equipment slot="Leg" id="Item.cts_celtic_pants_a2"/>
+			<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.AR_empire_armor_k"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_roman_hat_a2"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.imperial_padded_cloth"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.small_bit_axe_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_roman_hat_a"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.AR_empire_scout_armor_c"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.imperial_cloth_coif"/>
+			<equipment slot="Cape" id="Item.ao_focale"/>
+			<equipment slot="Body" id="Item.leather_tunic"/>
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b"/>
+			<equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<equipment slot="Item1" id="Item.crossbow_a"/>
+			<equipment slot="Item2" id="Item.bolt_e"/>
+			<equipment slot="Item3" id="Item.bolt_e"/>
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

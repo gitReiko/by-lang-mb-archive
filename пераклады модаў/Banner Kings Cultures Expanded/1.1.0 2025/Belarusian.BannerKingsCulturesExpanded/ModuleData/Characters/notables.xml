@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="caravan_master_vakken" default_group="Infantry" level="26" name="{=caravan_master_vakken.name}Vakken Caravan Master" occupation="CaravanGuard" culture="Culture.vakken">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_laconian" default_group="Infantry" level="26" name="{=caravan_master_laconian.name}Lakonikós Caravan Master" occupation="CaravanGuard" culture="Culture.laconian">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="caravan_master_dryatic" default_group="Infantry" level="26" name="{=caravan_master_dryatic.name}Dryata Caravan Master" occupation="CaravanGuard" culture="Culture.dryatic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="caravan_master_zendar" default_group="Infantry" level="26" name="{=caravan_master_zendar.name}Zendari Caravan Master" occupation="CaravanGuard" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_zendar" default_group="Infantry" level="26" name="{=caravan_master_zendar.name}Zendari Caravan Master" occupation="CaravanGuard" culture="Culture.zendar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+   <NPCCharacter id="caravan_master_lokti" default_group="Infantry" level="26" name="{=caravan_master_lokti.name}Lokti Caravan Master" occupation="CaravanGuard" culture="Culture.lokti">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_iltanlar" default_group="Infantry" level="26" name="{=caravan_master_iltanlar.name}Iltanlar Caravan Master" occupation="CaravanGuard" culture="Culture.iltanlar">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_nord" default_group="Infantry" level="26" name="{=caravan_master_nord.name}Junme Caravan Master" occupation="CaravanGuard" culture="Culture.nord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="caravan_master_massa" default_group="Infantry" level="26" name="{=caravan_master_massa.name}Massa Caravan Master" occupation="CaravanGuard" culture="Culture.massa">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_rhodok" default_group="Infantry" level="26" name="{=caravan_master_rhodok.name}Rhodok Caravan Master" occupation="CaravanGuard" culture="Culture.rhodok">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_swadia" default_group="Infantry" level="26" name="{=caravan_master_swadia.name}Swadisch Caravan Master" occupation="CaravanGuard" culture="Culture.swadia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_bragantia" default_group="Infantry" level="26" name="{=caravan_master_bragantia.name}Biscanjan Caravan Master" occupation="CaravanGuard" culture="Culture.bragantia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_balion" default_group="Infantry" level="26" name="{=caravan_master_balion.name}Balion Caravan Master" occupation="CaravanGuard" culture="Culture.balion">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_geroia" default_group="Infantry" level="26" name="{=caravan_master_geroia.name}Geroia Caravan Master" occupation="CaravanGuard" culture="Culture.geroia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_darshi" default_group="Infantry" level="26" name="{=caravan_master_darshi.name}Darshi Caravan Master" occupation="CaravanGuard" culture="Culture.darshi">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_sarranid" default_group="Infantry" level="26" name="{=caravan_master_sarranid.name}Sarrani Caravan Master" occupation="CaravanGuard" culture="Culture.sarranid">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="caravan_master_jarjara" default_group="Infantry" level="26" name="{=caravan_master_jarjara.name}Jarjarawi Caravan Master" occupation="CaravanGuard" culture="Culture.jarjara">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="caravan_master_kannic" default_group="Infantry" level="26" name="{=caravan_master_kannic.name}Kannic Caravan Master" occupation="CaravanGuard" culture="Culture.kannic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+
+    <NPCCharacter id="caravan_master_siri" default_group="Infantry" level="26" name="{=caravan_master_siri.name}Siri Caravan Master" occupation="CaravanGuard" culture="Culture.siri">
+    <face>
+      <face_key_template value="BodyProperty.fighter_jawwal"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="80"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <upgrade_targets/>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.nordic_fur_cap"/>
+        <equipment slot="Body" id="Item.nordic_lamellar_vest"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3"/>
+        <equipment slot="Head" id="Item.northern_fur_cap"/>
+        <equipment slot="Body" id="Item.northern_leather_tabard"/>
+        <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+        <equipment slot="Cape" id="Item.scarf"/>
+        <equipment slot="Leg" id="Item.battania_leather_boots"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+
+</NPCCharacters>

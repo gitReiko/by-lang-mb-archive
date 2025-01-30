@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+
+
+	<Faction id="dryatic_exiles" banner_key="20.101.116.1536.1536.768.768.1.0.0" label_color="FF8B7C73" color="FF8B7C73" color2="FF8B7C73" alternative_color="FF8B7C73" alternative_color2="FF8B7C73" culture="Culture.bk_dryatic_bandits" default_party_template="PartyTemplate.bk_dryatic_bandits_party_template" settlement_banner_mesh="none" is_bandit="true" is_outlaw="true" name="{=dryatic_exiles.name}Dryata Exiles" tier="1"/>
+		
+	<Faction id="bk_darshi_criminals" banner_key="20.101.116.1536.1536.768.768.1.0.0" label_color="FF8B7C73" color="FF8B7C73" color2="FF8B7C73" alternative_color="FF8B7C73" alternative_color2="FF8B7C73" culture="Culture.bk_darshi_bandits" default_party_template="PartyTemplate.bk_darshi_bandits_party_template" settlement_banner_mesh="none" is_bandit="true" is_outlaw="true" name="{=bk_darshi_criminals.name}Darshian Criminals" tier="1"/>
+		
+	<Faction id="bk_kannic_pirates" banner_key="20.101.116.1536.1536.768.768.1.0.0" label_color="FF8B7C73" color="FF8B7C73" color2="FF8B7C73" alternative_color="FF8B7C73" alternative_color2="FF8B7C73" culture="Culture.bk_kannic_pirates" default_party_template="PartyTemplate.bk_kannic_pirates_party_template" settlement_banner_mesh="none" is_bandit="true" is_outlaw="true" name="{=bk_kannic_pirates.name}Kannan Pirates" tier="1"/>
+		
+	<Faction id="bk_geroia_pirates" banner_key="20.101.116.1536.1536.768.768.1.0.0" label_color="FF8B7C73" color="FF8B7C73" color2="FF8B7C73" alternative_color="FF8B7C73" alternative_color2="FF8B7C73" culture="Culture.bk_geroia_pirates" default_party_template="PartyTemplate.bk_geroia_pirates_party_template" settlement_banner_mesh="none" is_bandit="true" is_outlaw="true" name="{=bk_geroia_pirates.name}Geroiaco Pirates" tier="1"/>
+		
+	<Faction id="bk_biscania_pirates" banner_key="20.101.116.1536.1536.768.768.1.0.0" label_color="FF8B7C73" color="FF8B7C73" color2="FF8B7C73" alternative_color="FF8B7C73" alternative_color2="FF8B7C73" culture="Culture.bk_biscania_pirates" default_party_template="PartyTemplate.bk_biscania_pirates_party_template" settlement_banner_mesh="none" is_bandit="true" is_outlaw="true" name="{=bk_biscania_pirates.name}Biscanjano Pirates" tier="1"/>
+		
+	<Faction id="bk_sturgia_bandits" banner_key="20.101.116.1536.1536.768.768.1.0.0" label_color="FF8B7C73" color="FF8B7C73" color2="FF8B7C73" alternative_color="FF8B7C73" alternative_color2="FF8B7C73" culture="Culture.bk_sturgia_bandits" default_party_template="PartyTemplate.bk_sturgia_bandits_party_template" settlement_banner_mesh="none" is_bandit="true" is_outlaw="true" name="{=bk_sturgia_bandits.name}Sturgiskyy Raiders" tier="1"/>
+		
+	<Faction id="bk_vakken_bandits" banner_key="20.101.116.1536.1536.768.768.1.0.0" label_color="FF8B7C73" color="FF8B7C73" color2="FF8B7C73" alternative_color="FF8B7C73" alternative_color2="FF8B7C73" culture="Culture.bk_vakken_bandits" default_party_template="PartyTemplate.bk_vakken_bandits_party_template" settlement_banner_mesh="none" is_bandit="true" is_outlaw="true" name="{=bk_vakken_bandits.name}Vakken Tribesmen" tier="1"/>
+		
+	<Faction id="wilunding_outcasts" banner_key="20.101.116.1536.1536.768.768.1.0.0" label_color="FF8B7C73" color="FF8B7C73" color2="FF8B7C73" alternative_color="FF8B7C73" alternative_color2="FF8B7C73" culture="Culture.bk_wilunding_bandits" default_party_template="PartyTemplate.bk_vlandia_bandits_party_template" settlement_banner_mesh="none" is_bandit="true" is_outlaw="true" name="{=wilunding_outcasts.name}Wilunding Outcasts" tier="1"/>
+		
+    <Faction id="massa_bandits" banner_key="20.101.116.1536.1536.768.768.1.0.0" label_color="FF8B7C73" color="FF8B7C73" color2="FF8B7C73" alternative_color="FF8B7C73" alternative_color2="FF8B7C73" culture="Culture.bk_massa_bandits" default_party_template="PartyTemplate.bk_massa_bandits_party_template" settlement_banner_mesh="none" is_bandit="true" is_outlaw="true" name="{=massa_bandits.name}Widugauja Forestmen" tier="1"/>
+		
+	
+	<Faction id="sacred_band" initial_posX="262.9534" initial_posY="263.2021" banner_key="11.8.116.1836.1836.764.764.1.0.0.449.84.149.191.191.764.984.0.1.-180.450.34.149.322.322.764.764.0.1.0.451.84.149.155.165.764.525.0.1.-180.200.126.149.191.191.923.793.0.1.0.200.126.149.191.191.604.794.0.0.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.kannic" default_party_template="PartyTemplate.bk_kannic_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" is_sect="true" name="{=sacred_band.name}Qesher Maqdishim" tier="4" text="{=!}The Sacred Phalanx, Qesher Maqdishim, is composed by devout Kannan citizens that serve the Vine Goddess. Rather than taking the mantle of priesthood, the phalangites take up spear and sword against the enemies of the Kannan. Many a second or third son of Kannan rich families choose to serve in the phalanx - be it for faith, gold or glory -, making them deeply tied to the Kannan political system. Nevertheless, the phalanx operates on its own devices, a tradition kept ever since the Kannan were separated into petty maritime republics. For their service is for the Vine Goddess, not one or another ruler.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_kannic_template_0"/>
+			<template id="NPCCharacter.bk_kannic_template_1"/>
+			<template id="NPCCharacter.bk_kannic_template_2"/>
+			<template id="NPCCharacter.bk_kannic_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<Faction id="sentinels" initial_posX="730.2615" initial_posY="536.8068" banner_key="11.8.116.1836.1836.764.764.1.0.0.449.84.149.191.191.764.984.0.1.-180.450.34.149.322.322.764.764.0.1.0.451.84.149.155.165.764.525.0.1.-180.200.126.149.191.191.923.793.0.1.0.200.126.149.191.191.604.794.0.0.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.iltanlar" default_party_template="PartyTemplate.bk_iltanlar_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" is_sect="true" name="{=sentinels.name}Dag Qarawulnud" tier="4" text="{=!}The Mountain Sentinels, Dag Qarawulnud, are an ancient brotherhood of the Sulan Daglar. Gathered from second and third sons of herdsman families, the sentinels act as a garrison force for the Iltanlar, fending off foreigners from raiding their mountain domains. Sons of herdmen, they are proeficient trekkers of the mountain paths, waging a mountainous guerilla warfare on forces they can not directly face. They wield long glaives that equally serve them against foot and mounted raiders.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_iltanlar_template_0"/>
+			<template id="NPCCharacter.bk_iltanlar_template_1"/>
+			<template id="NPCCharacter.bk_iltanlar_template_2"/>
+			<template id="NPCCharacter.bk_iltanlar_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<Faction id="chosen_sky" initial_posX="743.0511" initial_posY="443.6095" banner_key="11.179.162.1528.1528.764.764.1.0.0.309.22.116.300.300.946.596.0.1.33.10051.47.161.483.483.745.764.0.1.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.khuzait" default_party_template="PartyTemplate.bk_sky_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" is_nomad="true" is_sect="true" name="{=chosen_sky.name}Seçilmiĺ Uçmagniŋ" tier="4" text="{=!}Known to foreigners as the drum-players, the Chosen of the Sky, Seçilmiĺ Uçmagniŋ, are the only Devseglar clan not bound by blood. Instead, they are bound by their zealotry to the eastern gods, highest amongst them Yel Uçmag, the Heavenly Wind. A band of shamans - who play drums for their sacred rituals - follows the horde of hand-picked warriors that leave their yurts at the beginning of their manhood. The Chosen often wear dark colors and wolf furs in honor of the Black She-Wolf, the legendary ancestor of the Devseglar lineages. In fact, it is said in the Devseglar Omens, a collection of religious poetry passed down by the shamans, that the sighting of a wolf on the steppe is a blessing to its watcher.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_sky_template_0"/>
+			<template id="NPCCharacter.bk_sky_template_1"/>
+			<template id="NPCCharacter.bk_sky_template_2"/>
+			<template id="NPCCharacter.bk_sky_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<!--Schejþweald
+		--> 
+	
+	<Faction id="wardens" initial_posX="405.7087" initial_posY="472.0927" banner_key="10.158.142.690.752.764.764.1.0.0.102216.46.116.592.525.633.692.1.1.0.100115.46.116.373.290.878.585.1.1.0.304.185.116.400.400.915.877.1.0.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.empire" default_party_template="PartyTemplate.bk_wardens_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" is_outlaw="true" is_mafia="true" name="{=wardens.name}Wardens of the Hills" tier="4" text="{=!}The Phúlaxoi toîn Oroîn, Calradic for Wardens of the Hills, are frontiersmen in the northwest of the Empire, where the Calradoi meet the Battaniaidd and Sturgiski. Constant raids from the barbaric tribes meant that many a time the Calradoi were ill equipped to defend themselves, as the legions seldom had an easy path towards Epicrotea. In their absence, a garrison master saw the opportunity to become wealthy with his own sellswords enterprise. They are used to working with the local nobility, specializing in scouting and tracking. But as the Empire descended into civil war, they have begun asserting power in the areas in which they live, becoming a law unto themselves and taking what they want from surrounding villages. They still will cooperate with imperial marcher noble families, but on their terms, not the Empire's.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_wardens_template_0"/>
+			<template id="NPCCharacter.bk_wardens_template_1"/>
+			<template id="NPCCharacter.bk_wardens_template_2"/>
+			<template id="NPCCharacter.bk_wardens_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+
+	<Faction id="shipmen" initial_posX="92.9483" initial_posY="489.2225" banner_key="10.158.142.690.752.764.764.1.0.0.102216.46.116.592.525.633.692.1.1.0.100115.46.116.373.290.878.585.1.1.0.304.185.116.400.400.915.877.1.0.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.balion" default_party_template="PartyTemplate.bk_balion_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" name="{=shipmen.name}Schejþmenn" tier="4" text="{=!}Famous coursairs at the service of the Calradoi, the Schejþmenn, or Shipmen, were active in Calradia before the first settling expeditions lead by Wilund and Horsa. They operated on the northern shores, first making contact with the Calradoi at their northern port, nowadays called Ostican in honor of Wilund - its original name forgotten to history. The Shipmen are expert raiders, their small boats sail both river and sea, allowing them to make lightning attacks at unexpected places. They are known to be merciless in combat, but reliable in their word - so long, of course, that their counterparts also maintain their side of the deal. At times, the Shipmen sail back to their homeland of Balion, likely in search of manpower, for it is in Calradia that they can spend their plunder with fine wines, silks and foreign women.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_balion_template_0"/>
+			<template id="NPCCharacter.bk_balion_template_1"/>
+			<template id="NPCCharacter.bk_balion_template_2"/>
+			<template id="NPCCharacter.bk_balion_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<Faction id="siri_sons" initial_posX="385.5405" initial_posY="53.993" banner_key="11.179.162.1528.1528.764.764.1.0.0.309.22.116.300.300.946.596.0.1.33.10051.47.161.483.483.745.764.0.1.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.siri" default_party_template="PartyTemplate.bk_siri_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" name="{=siri_sons.name}Serattigu" tier="4" text="{=!}'The Successors', an ironic name given to Siri sons that stand to inherit nothing due to their matriarchal laws. The Serattigu are composed of such sons, usually from burgher or noble families, that seek to make a name for themselves, under their own circunstances. They mount steeds from their homeland - deemed to be of great quality - and take the way of the bow, the noble art of Siri warfare.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_siri_sons_template_0"/>
+			<template id="NPCCharacter.bk_siri_sons_template_1"/>
+			<template id="NPCCharacter.bk_siri_sons_template_2"/>
+			<template id="NPCCharacter.bk_siri_sons_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<Faction id="zendar_legion" initial_posX="319.775" initial_posY="521.8525" banner_key="1.121.126.1836.1836.764.764.1.0.0.316.126.121.400.400.764.764.1.1.0.337.34.149.191.191.764.764.0.1.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.zendar" default_party_template="PartyTemplate.bk_zendar_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" is_outlaw="true" name="{=zendar_legion.name}Legeón tou Zendar" tier="4" text="{=!}">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_zendar_template_0"/>
+			<template id="NPCCharacter.bk_zendar_template_1"/>
+			<template id="NPCCharacter.bk_zendar_template_2"/>
+			<template id="NPCCharacter.bk_zendar_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+  
+    <Faction id="fulq" initial_posX="690.0" initial_posY="234.0" banner_key="11.179.162.1528.1528.764.764.1.0.0.309.22.116.300.300.946.596.0.1.33.10051.47.161.483.483.745.764.0.1.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" owner="Hero.bk_fulq_1" culture="Culture.sarranid" default_party_template="PartyTemplate.bk_fulq_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" name="{=fulq.name}Furqaniya" tier="4" text="{=!}The children of Furqan, known to the Calradoi as Phalcos and to the Nahwasi as Fulq. Furqan founded the town currently called Husn Fulq, and eventually sailing back south to the Darshi homelands. Farzad, warlord of the Furqaniya, claims to be the true heir to this legacy, unlike others that make such claims such as the Sarrans, who are second sons at best. The Furqaniya still rule over the city, as well as take contracts for their military service, employing their mounted Darshi tradition, though with Nahawasi influences.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_fulq_template_0"/>
+			<template id="NPCCharacter.bk_fulq_template_1"/>
+			<template id="NPCCharacter.bk_fulq_template_2"/>
+			<template id="NPCCharacter.bk_fulq_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<!-- 5.142.215.1528.1528.764.764.1.0.0.10226.171.164.481.441.765.687.1.1.0.148.123.203.400.400.761.988.1.0.0 -->
+	
+	<Faction id="geroia_manhunters" initial_posX="478.604" initial_posY="217.9456" banner_key="1.121.126.1836.1836.764.764.1.0.0.316.126.121.400.400.764.764.1.1.0.337.34.149.191.191.764.764.0.1.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.geroia" default_party_template="PartyTemplate.bk_geroia_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" is_outlaw="true" name="{=geroia_manhunters.name}Manhunters" tier="4" text="{=!}Created by Geroiaci noblemen in search of adventure and profit, the Manhunters are a group of slavers that operate in the shores of the Perass. Unlike the Geroiaci navy, they are specialized in hunting down their targets on land, running them down with horses and knocking them unconscious with slings and maces. That is, the ones that do not die from head trauma in the process. Any remaining 'victims' are shipped back to Geroia, in exchange, of course, for monetary payment. Thus the Manhunters operate as a kind of unofficial 'police force' that operates in multiple realms. They are not particularly interested in politics nor raid or provoke crimes themselves, instead focusing on capturing outcasts and criminals - people who do not have any legal protection - and making them their property.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_geroia_template_0"/>
+			<template id="NPCCharacter.bk_geroia_template_1"/>
+			<template id="NPCCharacter.bk_geroia_template_2"/>
+			<template id="NPCCharacter.bk_geroia_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<Faction id="freemen_marshes" initial_posX="177.3913" initial_posY="494.0723" banner_key="10.158.142.690.752.764.764.1.0.0.102216.46.116.592.525.633.692.1.1.0.100115.46.116.373.290.878.585.1.1.0.304.185.116.400.400.915.877.1.0.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.swadia" default_party_template="PartyTemplate.bk_freemen_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" name="{=freemen_marshes.name}Freemen of the Marshes" tier="4" text="{=!}The Freemen of the Marshes are a Swadisch peasant movement against the rulings of aristocracy. They defend their forefathers came to this new continent by their own devices, and by their own devices they shall live. The Freemen oppose rulership of any overlords, but specially that of the Calradoi. To defend their own lands, they took upon shield and pike to defend themselves against the arrogant overlords and their knightly retinues. Under Osric's unification, however, the Freemen find themselves dislodged from their lands, fighting at time for coin, at times for the promise of being settled on their own farms at the borders of the Wilunding kingdom.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_freemen_template_0"/>
+			<template id="NPCCharacter.bk_freemen_template_1"/>
+			<template id="NPCCharacter.bk_freemen_template_2"/>
+			<template id="NPCCharacter.bk_freemen_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<Faction id="bragantia_company" initial_posX="176.499" initial_posY="340.1257" banner_key="10.158.142.690.752.764.764.1.0.0.102216.46.116.592.525.633.692.1.1.0.100115.46.116.373.290.878.585.1.1.0.304.185.116.400.400.915.877.1.0.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.bragantia" default_party_template="PartyTemplate.bk_bragantia_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" is_outlaw="true" name="{=bragantia_company.name}Compannia Biscanjana" tier="4" text="{=!}The Biscanian Company is a group of outcasts that hail from the Biscanian isles. Many originally cattle herders, the companions are proeficient throwers and joggers, known for their cunning skirmishing warfare. The Company has found many a service in the Wilunding lands, excelling there at killing the proud mounted knights with overwhelming javelins. However, their name is also known across the Perass, where they do eventually serve, for much plunder is there for the taking. The Company holds no particular loyalty to a realm or ideology - their mission is to serve the highest bidder.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_bragantia_template_0"/>
+			<template id="NPCCharacter.bk_bragantia_template_1"/>
+			<template id="NPCCharacter.bk_bragantia_template_2"/>
+			<template id="NPCCharacter.bk_bragantia_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<Faction id="massa" initial_posX="360.0" initial_posY="72.0" banner_key="10.158.142.690.752.764.764.1.0.0.102216.46.116.592.525.633.692.1.1.0.100115.46.116.373.290.878.585.1.1.0.304.185.116.400.400.915.877.1.0.0" label_color="FFD0884E" color="FFD0884E" color2="FFD0884E" alternative_color="FFD0884E" alternative_color2="FFD0884E" culture="Culture.massa" default_party_template="PartyTemplate.bk_massa_mercenary_party_template" settlement_banner_mesh="encounter_flag_f" is_minor_faction="true" is_clan_type_mercenary="true" name="{=massa.name}Hildscarila" tier="4" text="{=!}The Battle Band, Hildscarila, is the largest Massa group remaining in mainland Calradia. While most of their people have moved on to settle the rainforest shores of the south, these warmongers have chose to continue to live by the sword, bringing brutal pillaging to their victims. The Hildscarila fight in the traditional nomadic way of their ancestors - primarily skirmishing with bow and horse, and ultimately charging down their enemeis with lances.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.bk_massa_template_0"/>
+			<template id="NPCCharacter.bk_massa_template_1"/>
+			<template id="NPCCharacter.bk_massa_template_2"/>
+			<template id="NPCCharacter.bk_massa_template_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<Faction id="bk_clan_jarjara_1" name="{=bk_clan_jarjara_1.name}Banu Qamara" tier="4" owner="Hero.lord_jarjara_1_1" culture="Culture.jarjara" super_faction="Kingdom.jarjara_1" is_noble="true" banner_key="11.224.126.1528.1528.764.764.1.0.0.428.31.116.400.400.755.755.0.0.0.207.207.116.220.222.755.696.1.0.0"/>
+		   
+		   
+	<Faction id="bk_clan_jarjara_2" name="{=bk_clan_jarjara_2.name}Banu Nawwara" tier="3" owner="Hero.lord_jarjara_2_1" culture="Culture.jarjara" super_faction="Kingdom.jarjara_1" is_noble="true" banner_key="1.84.97.1528.1528.764.764.1.0.89.510.212.171.720.400.756.621.0.0.0.510.82.116.719.400.755.667.0.0.0.510.84.116.720.400.755.715.0.0.0.510.88.116.721.400.755.755.0.0.0.510.119.116.723.400.755.800.0.0.0.510.6.116.720.400.755.891.0.0.0.510.227.116.720.400.755.848.0.0.0.521.208.116.325.326.755.755.1.0.0.427.162.116.100.100.755.755.0.0.269"/>
+		   
+		   
+    <Faction id="bk_clan_jarjara_3" name="{=bk_clan_jarjara_3.name}Banu Shamis" tier="3" owner="Hero.lord_jarjara_3_1" culture="Culture.jarjara" super_faction="Kingdom.jarjara_1" is_noble="true" banner_key="1.1.146.1528.1528.764.764.0.0.89.208.171.171.483.483.764.764.0.0.0"/>
+		   
+    <Faction id="bk_clan_jarjara_4" name="{=bk_clan_jarjara_4.name}Banu Ramilis" tier="3" owner="Hero.lord_jarjara_4_1" culture="Culture.jarjara" super_faction="Kingdom.jarjara_1" is_noble="true" banner_key="11.100.166.1528.1528.764.764.1.0.0.425.171.171.483.483.764.764.0.0.0.446.110.162.340.342.755.763.1.0.89"/>
+		   
+		   
+    <Faction id="bk_clan_jarjara_5" name="{=bk_clan_jarjara_5.name}Banu Sayyaaf" tier="4" owner="Hero.lord_jarjara_5_1" culture="Culture.jarjara" super_faction="Kingdom.jarjara_2" is_noble="true" banner_key="35.119.22.1528.1528.764.764.1.0.0.521.171.171.483.483.764.764.0.0.0.309.99.162.200.201.755.755.0.0.0.309.99.116.199.201.755.755.0.1.0"/>
+		   
+		   
+    <Faction id="bk_clan_jarjara_6" name="{=bk_clan_jarjara_6.name}Banu Mayiaz" tier="3" owner="Hero.lord_jarjara_6_1" culture="Culture.jarjara" super_faction="Kingdom.jarjara_2" is_noble="true" banner_key="11.148.22.1528.1528.764.764.1.0.0.521.171.171.202.202.764.579.0.0.0.152.22.162.390.390.755.802.0.0.0"/>
+		   
+		   
+    <Faction id="bk_clan_jarjara_7" name="{=bk_clan_jarjara_7.name}Banu Dalila" tier="3" owner="Hero.lord_jarjara_7_1" culture="Culture.jarjara" super_faction="Kingdom.jarjara_2" is_noble="true" banner_key="11.163.22.1528.1528.764.764.1.0.0.447.22.162.433.448.762.761.1.0.0.427.31.116.200.201.565.755.1.0.89.427.31.116.199.200.965.755.1.0.274"/>
+		   
+    <Faction id="bk_clan_jarjara_8" name="{=bk_clan_jarjara_8.name}Banu Aqaaribis" tier="3" owner="Hero.lord_jarjara_8_1" culture="Culture.jarjara" super_faction="Kingdom.jarjara_2" is_noble="true" banner_key="11.121.227.1528.1528.764.764.1.0.0.156.161.41.356.357.751.834.0.0.0.427.161.116.202.202.755.569.0.0.0"/>
+		   
+		   
+		   
+	
+	<Faction id="bk_clan_sarranid_1" name="{=bk_clan_sarranid_1.name}Banu Nahrin" tier="3" owner="Hero.lord_sarranid_1_1" culture="Culture.sarranid" super_faction="Kingdom.sarranid" is_noble="true" banner_key="29.163.166.1528.1528.764.764.1.0.89.503.163.166.588.589.755.755.1.0.0.10171.171.171.483.483.764.764.0.1.0"/>	
+		   
+		  
+		   
+    <Faction id="bk_clan_sarranid_2" name="{=bk_clan_sarranid_2.name}Banu Qarris" tier="3" owner="Hero.lord_sarranid_2_1" culture="Culture.sarranid" super_faction="Kingdom.sarranid" is_noble="true" banner_key="11.161.166.1528.1528.764.764.1.0.0.447.171.171.483.483.764.764.0.0.0.309.31.116.400.400.610.755.0.0.334.309.31.116.400.400.916.757.0.1.24"/>	
+		   
+		  
+	
+	<Faction id="bk_clan_siri_1" name="{=bk_clan_siri_1.name}Nabra" tier="6" owner="Hero.bk_siri_1" culture="Culture.siri" super_faction="Kingdom.siri" is_noble="true" banner_key="11.216.88.1528.1528.764.764.1.0.0.101313.171.171.483.483.764.764.0.0.0"/>
+		   
+    <Faction id="bk_clan_siri_2" name="{=bk_clan_siri_2.name}Ashri" tier="4" owner="Hero.bk_siri_2" culture="Culture.siri" super_faction="Kingdom.siri" is_noble="true" banner_key="11.97.40.1528.1528.764.764.1.0.0.10042.171.96.483.483.764.764.1.0.0"/>
+		   
+    <Faction id="bk_clan_siri_3" name="{=bk_clan_siri_3.name}Dessi" tier="3" owner="Hero.bk_siri_3" culture="Culture.siri" super_faction="Kingdom.siri" is_noble="true" banner_key="12.14.158.1528.1528.764.764.1.0.0.10033.171.96.483.483.764.764.1.0.0"/> 
+	
+	<Faction id="bk_clan_siri_4" name="{=bk_clan_siri_4.name}Miska" tier="3" owner="Hero.bk_siri_4" culture="Culture.siri" super_faction="Kingdom.siri" is_noble="true" banner_key="11.143.127.1528.1528.764.764.1.0.0.10044.123.96.483.483.764.764.1.0.0.311.123.116.304.319.862.614.0.1.0"/> 
+		   
+    <Faction id="bk_clan_bragantia_1" name="{=bk_clan_bragantia_1.name}de Bragantja" tier="4" owner="Hero.bk_bragantia_1" culture="Culture.bragantia" super_faction="Kingdom.bragantia" is_noble="true" banner_key="8.159.22.1528.1528.764.764.1.0.0.316.123.171.483.483.764.764.1.0.0.125.143.116.281.296.755.777.1.0.0"/>
+		   
+	
+    <Faction id="bk_clan_bragantia_2" name="{=bk_clan_bragantia_2.name}de Bisco" tier="4" owner="Hero.bk_bragantia_2" culture="Culture.bragantia" super_faction="Kingdom.bragantia" is_noble="true" banner_key="12.22.224.1528.1528.764.764.1.0.0.10055.212.162.483.483.764.764.1.0.0"/>
+	
+	<Faction id="bk_clan_massa_1" name="{=bk_clan_massa_1.name}Respendaling" tier="4" owner="Hero.bk_massa_1" culture="Culture.massa" super_faction="Kingdom.massa" is_noble="true" banner_key="36.159.82.645.967.768.746.0.0.0.124.22.106.410.409.768.769.0.1.0"/>
+		   
+    <Faction id="bk_clan_massa_2" name="{=bk_clan_massa_2.name}Geseriling" tier="3" owner="Hero.bk_massa_2" culture="Culture.massa" super_faction="Kingdom.massa" is_noble="true" banner_key="11.158.166.1528.1528.764.764.1.0.0.10232.5.171.483.483.764.764.0.0.0"/>
+		   
+    <Faction id="bk_clan_massa_3" name="{=bk_clan_massa_3.name}Osricling" tier="3" owner="Hero.bk_massa_3" culture="Culture.massa" super_faction="Kingdom.massa" is_noble="true" banner_key="20.158.212.1528.1528.764.764.1.0.0.10225.40.116.400.400.755.755.1.0.0"/>
+  
+    <Faction id="bk_clan_kannic_1" name="{=bk_clan_kannic_1.name}Eshorid" tier="6" owner="Hero.bk_kannic_1" culture="Culture.kannic" super_faction="Kingdom.kannic" is_noble="true" banner_key="29.158.166.1528.1528.764.764.1.0.0.124.31.116.457.457.755.755.1.0.0"/>
+
+	<Faction id="bk_clan_kannic_2" name="{=bk_clan_kannic_2.name}Bareqetid" tier="6" owner="Hero.bk_kannic_2" culture="Culture.kannic" super_faction="Kingdom.kannic" is_noble="true" banner_key="11.176.166.1528.1528.764.764.1.0.0.436.22.116.251.253.552.755.0.0.0.436.22.171.251.253.954.764.0.0.0.10048.22.116.406.406.755.755.0.0.0"/>
+  
+  <!-- Zimahurmahsimush -->
+    <Faction id="bk_clan_darshi_1" name="{=bk_clan_darshi_1.name}Horshtariya" tier="6" owner="Hero.bk_darshi_1_1" culture="Culture.darshi" super_faction="Kingdom.darshi" is_noble="true" banner_key="2.41.1.1528.1528.751.764.1.0.0.10078.110.32.483.483.764.764.0.0.0" text="{=!}A long dynasty of Shahanshahs, the Horshtariya track their ancestry to Hoshtar, the fiersome."/>
+		   
+    <Faction id="bk_clan_darshi_2" name="{=bk_clan_darshi_2.name}Nuro" tier="5" owner="Hero.bk_darshi_2_1" culture="Culture.darshi" super_faction="Kingdom.darshi" is_noble="true" banner_key="11.240.166.1528.1528.764.764.1.0.0.10046.22.171.350.351.764.785.0.0.0.521.84.116.142.142.755.599.0.0.0.100616.31.116.502.648.755.755.1.0.0"/>
+		   
+    <Faction id="bk_clan_darshi_3" name="{=bk_clan_darshi_3.name}Mishtalh" tier="5" owner="Hero.bk_darshi_3_1" culture="Culture.darshi" super_faction="Kingdom.darshi" is_noble="true" banner_key="11.40.166.1528.1528.764.764.1.0.0.101813.200.171.483.483.764.764.0.0.0"/>
+		   
+    <Faction id="bk_clan_darshi_4" name="{=bk_clan_darshi_4.name}Ashurat" tier="4" owner="Hero.bk_darshi_4_1" culture="Culture.darshi" super_faction="Kingdom.darshi" is_noble="true" banner_key="11.22.166.1528.1528.764.764.1.0.0.143.71.162.483.483.764.764.0.0.0.10067.71.116.248.246.755.564.1.0.0"/>
+		   
+    <Faction id="bk_clan_darshi_5" name="{=bk_clan_darshi_5.name}Nuranaiu" tier="4" owner="Hero.bk_darshi_5_1" culture="Culture.darshi" super_faction="Kingdom.darshi" is_noble="true" banner_key="11.71.166.1528.1528.764.764.1.0.0.10191.194.162.276.276.764.764.0.0.0.100615.194.194.523.526.760.762.1.0.0"/>
+		   
+    <Faction id="bk_clan_darshi_6" name="{=bk_clan_darshi_6.name}Mokhdanuta" tier="3" owner="Hero.bk_darshi_6_1" culture="Culture.darshi" super_faction="Kingdom.darshi" is_noble="true" banner_key="29.159.121.1879.1948.768.746.0.0.0.10067.142.212.570.540.755.755.0.0.0.101516.31.116.162.130.755.755.1.0.0"/>
+		   
+    <Faction id="bk_clan_darshi_7" name="{=bk_clan_darshi_7.name}Shuhallashuhazashanesha" tier="3" owner="Hero.bk_darshi_7_1" culture="Culture.darshi" super_faction="Kingdom.darshi" is_noble="true" banner_key="32.171.227.1195.1118.771.716.0.0.0.102713.211.149.721.470.767.887.0.0.0.10067.31.116.165.157.558.497.1.0.0"/>
+	   
+    <Faction id="bk_clan_darshi_8" name="{=bk_clan_darshi_8.name}Sakahstan" tier="3" owner="Hero.bk_darshi_8_1" culture="Culture.darshi" super_faction="Kingdom.darshi" is_noble="true" banner_key="35.171.227.1879.1948.768.746.0.0.0.10051.211.149.559.585.767.761.1.0.0.10067.31.116.165.157.558.497.1.0.0"/>
+		   
+    <Faction id="bk_clan_darshi_9" name="{=bk_clan_darshi_9.name}Kanaran" tier="3" owner="Hero.bk_darshi_9_1" culture="Culture.darshi" super_faction="Kingdom.darshi" is_noble="true" banner_key="11.22.166.1528.1528.764.764.1.0.0.10173.240.171.575.632.764.752.0.0.0.503.31.240.250.295.755.755.1.0.0.218.178.161.208.208.755.755.0.0.0"/>
+		   
+    <Faction id="bk_clan_darshi_10" name="{=bk_clan_darshi_10.name}Adhurban" tier="3" owner="Hero.bk_darshi_10_1" culture="Culture.darshi" super_faction="Kingdom.darshi" is_noble="true" banner_key="1.215.194.1528.1528.764.764.1.0.0.10171.70.171.483.483.764.764.0.0.0"/>
+		   
+		   
+    <Faction id="bk_clan_iltanlar_1" name="{=bk_clan_iltanlar_1.name}Urunid" tier="4" owner="Hero.bk_iltanlar_1" culture="Culture.iltanlar" super_faction="Kingdom.khuzait" is_noble="true" banner_key="1.22.166.1528.1528.764.764.1.0.269.307.162.166.334.333.984.718.0.1.0.101613.162.171.483.483.764.764.0.0.0"/>
+		   
+    <Faction id="bk_clan_iltanlar_2" name="{=bk_clan_iltanlar_2.name}Subid" tier="4" owner="Hero.bk_iltanlar_2" culture="Culture.iltanlar" super_faction="Kingdom.khuzait" is_noble="true" banner_key="2.10.40.1528.1528.764.764.1.0.0.10236.91.166.483.483.764.764.0.0.0"/>
+		   
+    <Faction id="bk_clan_lokti_1" name="{=bk_clan_lokti_1.name}Vilkas" tier="5" owner="Hero.bk_lokti_1" culture="Culture.lokti" super_faction="Kingdom.lokti" is_noble="true" banner_key="1.14.2.1528.1528.764.844.1.0.269.10368.85.116.572.572.760.747.0.0.179.145.162.14.483.483.764.763.1.0.0"/>
+		   
+    <Faction id="bk_clan_lokti_2" name="{=bk_clan_lokti_2.name}Zhirgas" tier="4" owner="Hero.bk_lokti_2" culture="Culture.lokti" super_faction="Kingdom.lokti" is_noble="true" banner_key="11.14.166.1528.1528.764.764.1.0.0.125.31.171.394.393.646.810.0.0.0.125.31.116.394.393.871.810.0.1.0.103615.208.208.176.178.755.552.1.0.0"/>
+		   <!-- https://en.wikipedia.org/wiki/Ašvieniai -->
+		   
+    <Faction id="bk_clan_lokti_3" name="{=bk_clan_lokti_3.name}Smelas" tier="3" owner="Hero.bk_lokti_3" culture="Culture.lokti" super_faction="Kingdom.lokti" is_noble="true" banner_key="36.127.138.1528.1528.764.764.1.0.0.333.121.171.483.483.731.750.0.0.0.103614.162.116.201.201.755.706.0.0.89"/>
+		   
+    <Faction id="bk_clan_lokti_4" name="{=bk_clan_lokti_4.name}Mezhas" tier="3" owner="Hero.bk_lokti_4" culture="Culture.lokti" super_faction="Kingdom.lokti" is_noble="true" banner_key="1.226.158.1528.1528.764.764.1.0.0.103611.211.116.481.481.764.764.1.0.0.135.22.171.483.483.764.764.0.0.0"/>
+		   
+    
+
+    <Faction id="bk_clan_jumne_1" name="{=bk_clan_jumne_1.name}Blotsborg" tier="4" owner="Hero.bk_jumne_1" culture="Culture.nord" super_faction="Kingdom.ebor_jarldom" is_noble="true" banner_key="9.96.176.2000.2000.768.746.0.0.0.307.31.116.402.403.595.755.1.0.0.307.31.116.400.400.755.849.1.0.0.307.31.116.399.398.903.755.1.0.0"/>
+		   
+    <Faction id="bk_clan_jumne_2" name="{=bk_clan_jumne_2.name}Spennare" tier="3" owner="Hero.bk_jumne_2" culture="Culture.nord" super_faction="Kingdom.ebor_jarldom" is_noble="true" banner_key="11.65.176.2000.2000.768.746.0.0.0.512.31.116.401.403.461.546.1.0.89.512.31.116.398.400.679.697.1.0.89.512.31.116.399.398.889.865.1.0.89.512.31.116.400.400.1107.1030.1.0.89"/>
+		   
+    <Faction id="bk_clan_jumne_3" name="{=bk_clan_jumne_3.name}Vinterkraaken" tier="3" owner="Hero.bk_jumne_3" culture="Culture.nord" super_faction="Kingdom.ebor_jarldom" is_noble="true" banner_key="11.122.176.645.967.768.746.0.0.0.10228.109.4.477.492.777.888.0.1.0"/>
+		   
+    <Faction id="bk_clan_jumne_4" name="{=bk_clan_jumne_4.name}Urikid" tier="3" owner="Hero.bk_jumne_4" culture="Culture.nord" super_faction="Kingdom.sturgia" is_noble="true" banner_key="11.227.40.2000.2000.768.746.0.0.0.10087.127.116.402.403.755.755.1.0.0"/>
+		   
+    <Faction id="bk_clan_jumne_5" name="{=bk_clan_jumne_5.name}Viksborg" tier="3" owner="Hero.bk_jumne_5" culture="Culture.nord" super_faction="Kingdom.byal_thegndom" is_noble="true" banner_key="12.226.35.1528.1528.764.764.1.0.0.307.148.116.400.400.884.755.1.1.324.307.148.116.400.400.660.755.1.0.44.332.207.116.400.400.755.755.1.0.0"/>
+		   
+    <Faction id="bk_clan_jumne_6" name="{=bk_clan_jumne_6.name}Viksborg" tier="3" owner="Hero.bk_jumne_6" culture="Culture.nord" super_faction="Kingdom.byal_thegndom" is_noble="true" banner_key="21.227.148.1528.1528.764.764.1.0.0.10303.143.171.483.483.764.764.0.0.0"/>
+		   
+    <Faction id="bk_clan_jumne_7" name="{=bk_clan_jumne_7.name}Viksborg" tier="3" owner="Hero.bk_jumne_7" culture="Culture.nord" super_faction="Kingdom.byal_thegndom" is_noble="true" banner_key="1.162.148.1528.1528.764.764.1.0.269.10084.143.96.483.483.764.764.0.0.0.437.84.116.246.243.755.755.0.0.0"/>
+		   
+		   
+    <Faction id="bk_clan_zendar" name="{=bk_clan_zendar.name}Rhipsaspion" tier="3" owner="Hero.bk_zendar_1" culture="Culture.zendar" super_faction="Kingdom.city_zendar" is_noble="true" banner_key="3.149.142.1528.1528.764.764.1.0.0.10159.171.171.483.483.768.668.0.0.0.10106.31.116.400.400.640.974.1.0.58.10106.31.116.400.400.880.963.1.1.304"/>
+		   
+    <Faction id="bk_clan_vakken" name="{=bk_clan_vakken.name}Vuurinen" tier="3" owner="Hero.bk_vakken_1" culture="Culture.vakken" super_faction="Kingdom.vakken_barony_1" is_noble="true" banner_key="1.158.226.1528.1528.764.764.1.0.89.135.40.171.483.483.764.764.0.0.0" text="{=!}The Vuurinen rule over the most ancient standing forest-fort of the Vakken, Vuulinna. Though a small chiefdom by the standards of most Calradian folks, they represent one of the largest organized gathering of the Vakken. They maintain a trade relationship with the Sturgians to the south, but are weary of the Jumne who come sailing down the Byalic sea."/>
+		   
+    <Faction id="bk_clan_vakken_4" name="{=bk_clan_vakken_4.name}Vanninen" tier="3" owner="Hero.bk_vakken_4" culture="Culture.vakken" super_faction="Kingdom.vakken_barony_4" is_noble="true" banner_key="22.224.35.1528.1528.764.764.1.0.0.133.162.35.483.483.764.737.1.0.0" text="{=!}The Vanni are one of the largest Vakken tribes, by the northern forests near Sibir. These forests connect by sea to the Byalic peninsula, where the Jumne adventurers have settled. In fact, the Vanninen claim descendancy to one such adventurer, who they call Vanni in their language."/>
+		   
+    <Faction id="bk_clan_vakken_2" name="{=bk_clan_vakken_2.name}Kuranen" tier="3" owner="Hero.bk_vakken_2" culture="Culture.vakken" super_faction="Kingdom.vakken_barony_2" is_noble="true" banner_key="12.163.47.1528.1528.764.764.1.0.0.311.20.116.400.400.755.755.1.0.0"/>
+		   
+    <Faction id="bk_clan_vakken_3" name="{=bk_clan_vakken_3.name}Metsaanen" tier="3" owner="Hero.bk_vakken_3" culture="Culture.vakken" super_faction="Kingdom.vakken_barony_3" is_noble="true" banner_key="11.177.166.1528.1528.764.764.1.0.0.203.158.116.400.400.581.755.1.0.0.203.158.116.400.400.943.755.1.0.0.203.158.116.400.399.755.714.1.0.0.137.22.116.400.400.755.755.1.0.0"/>
+	
+	<Faction id="bk_clan_geroia_1" name="{=bk_clan_geroia_1.name}Gallur" tier="5" owner="Hero.bk_geroia_1" culture="Culture.geroia" super_faction="Kingdom.geroia" is_noble="true" banner_key="34.142.110.645.967.768.746.0.0.0.119.162.236.812.769.768.922.0.1.0"/>
+	
+    <Faction id="bk_clan_geroia_2" name="{=bk_clan_geroia_2.name}Bos" tier="4" owner="Hero.bk_geroia_2" culture="Culture.geroia" super_faction="Kingdom.geroia" is_noble="true" banner_key="3.216.224.645.967.768.746.0.0.0.102315.31.116.364.289.926.890.0.0.0.100614.84.84.254.259.632.574.0.0.0.10055.31.116.264.304.628.879.1.0.0.323.208.116.272.303.916.590.1.0.0"/>
+		   
+    <Faction id="bk_clan_geroia_3" name="{=bk_clan_geroia_3.name}Logudor" tier="4" owner="Hero.bk_geroia_3" culture="Culture.geroia" super_faction="Kingdom.geroia" is_noble="true" banner_key="3.142.162.645.967.768.746.0.0.0.328.22.106.236.235.768.769.0.1.0.333.212.22.201.209.589.589.0.0.0.117.162.20.201.201.919.603.0.0.0.105.162.162.201.201.611.919.1.0.0.335.212.116.200.201.920.906.1.0.0"/>   
+   
+   <!-- <Faction
+		id="clan_battania_2"
+		name="{=zvas3ieB}fen Derngil"
+		tier="5"
+		owner="Hero.lord_5_3"
+		culture="Culture.battania"
+		super_faction="Kingdom.duchy_derngil"
+		is_noble="true"
+		banner_key="11.101.75.4345.4345.764.764.1.0.0.412.39.0.454.454.764.764.0.0.180" />
+		
+	<Faction
+		id="clan_battania_3"
+		name="{=0m0IUnL1}fen Uvain"
+		tier="4"
+		owner="Hero.lord_5_5"
+		culture="Culture.battania"
+		super_faction="Kingdom.duchy_derngil"
+		is_noble="true"
+		banner_key="11.101.75.4345.4345.764.764.1.0.0.427.39.0.261.261.764.869.0.0.359.133.39.0.380.380.764.696.0.0.0" />
+		
+	<Faction
+		id="clan_battania_6"
+		name="{=qoLWSdRE}fen Eingal"
+		tier="3"
+		owner="Hero.lord_5_17"
+		culture="Culture.battania"
+		super_faction="Kingdom.duchy_derngil"
+		is_noble="true"
+		banner_key="11.101.75.4345.4345.764.764.1.0.0.504.39.0.90.90.764.942.0.0.180.503.39.0.84.84.764.760.0.0.0.406.39.0.455.455.764.764.0.0.0.504.39.0.90.90.764.587.0.0.0" />
+		-->
+ 
+</Factions>

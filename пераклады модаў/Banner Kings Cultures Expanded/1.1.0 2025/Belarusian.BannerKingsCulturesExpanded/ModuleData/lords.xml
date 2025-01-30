@@ -1,0 +1,2400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="osric" name="{=osric.name}Osric Iron-Arm" age="52" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.vlandia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.02" weight="0.6786" build="0.6188" key="000578054088244478551B363774966CB73A59C96854645769767B4D88AC839300A9A6030AB87895000000000000000000000000000000000000000031443002"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Authoritarian" value="6"/>
+			<Trait id="Oligarchic" value="4"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Item0" id="Item.AR_shield_infantry_s"/>
+			  <equipment slot="Item1" id="Item.vlandia_noble_sword_2_t5"/>
+			  <equipment slot="Head" id="Item.we_ang_suttonhoo_1"/>
+			  <equipment slot="Cape" id="Item.prec_royal_cloak_1"/>
+			  <equipment slot="Body" id="Item.el_e_mailhauberk_1_noble"/>
+			  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			  <equipment slot="Leg" id="Item.ota_u_boots_1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			  <equipment slot="Item0" id="Item.AR_shield_infantry_s"/>
+			  <equipment slot="Item1" id="Item.vlandia_noble_sword_2_t5"/>
+			  <equipment slot="Head" id="Item.we_ang_suttonhoo_1"/>
+			  <equipment slot="Cape" id="Item.prec_royal_cloak_1"/>
+			  <equipment slot="Body" id="Item.el_e_mailhauberk_1_noble"/>
+			  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			  <equipment slot="Leg" id="Item.ota_u_boots_1"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+  <NPCCharacter id="bk_kannic_template_0" name="{=bk_kannic_template_0.name}of the Qesher Maqdishim" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HopliteFightingSkills" value="6"/>
+			<Trait id="EngineerSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_kannic_mercenaries_template"/>
+			<EquipmentSet id="bk_kannic_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter id="bk_kannic_template_1" name="{=bk_kannic_template_1.name}of the Qesher Maqdishim" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Surgery" value="4"/>
+			<Trait id="HopliteFightingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_kannic_mercenaries_template"/>
+			<EquipmentSet id="bk_kannic_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_kannic_template_2" name="{=bk_kannic_template_2.name}of the Qesher Maqdishim" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="ScoutSkills" value="8"/>
+			<Trait id="HopliteFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_kannic_mercenaries_template"/>
+			<EquipmentSet id="bk_kannic_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_kannic_template_3" name="{=bk_kannic_template_3.name}of the Qesher Maqdishim" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.kannic" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="ScoutSkills" value="7"/>
+			<Trait id="HopliteFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_kannic_mercenaries_template"/>
+			<EquipmentSet id="bk_kannic_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_massa_template_0" name="{=bk_massa_template_0.name}of the Hildscarila" voice="curt" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.massa" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="EngineerSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_massa_mercenaries_template"/>
+			<EquipmentSet id="bk_massa_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter id="bk_massa_template_1" name="{=bk_massa_template_1.name}of the Hildscarila" voice="earnest" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.massa" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_1" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Surgery" value="4"/>
+			<Trait id="HorseArcherFightingSkills" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_massa_mercenaries_template"/>
+			<EquipmentSet id="bk_massa_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_massa_template_2" name="{=bk_massa_template_2.name}of the Hildscarila" voice="ironic" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.massa" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_2" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="ScoutSkills" value="8"/>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_massa_mercenaries_template"/>
+			<EquipmentSet id="bk_massa_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_massa_template_3" name="{=bk_massa_template_3.name}of the Hildscarila" voice="curt" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.massa" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_3" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="ScoutSkills" value="7"/>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_massa_mercenaries_template"/>
+			<EquipmentSet id="bk_massa_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_bragantia_template_0" name="{=bk_bragantia_template_0.name}of the Compannia Biscanjana" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.bragantia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="PeltastFightingSkills" value="6"/>
+			<Trait id="ScoutSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_bragantia_mercenaries_template"/>
+			<EquipmentSet id="bk_bragantia_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter id="bk_bragantia_template_1" name="{=bk_bragantia_template_1.name}of the Compannia Biscanjana" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.bragantia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_1" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="PeltastFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_bragantia_mercenaries_template"/>
+			<EquipmentSet id="bk_bragantia_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_bragantia_template_2" name="{=bk_bragantia_template_2.name}of the Compannia Biscanjana" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.bragantia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_2" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="ScoutSkills" value="4"/>
+			<Trait id="PeltastFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_bragantia_mercenaries_template"/>
+			<EquipmentSet id="bk_bragantia_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_bragantia_template_3" name="{=bk_bragantia_template_3.name}of the Compannia Biscanjana" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.bragantia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_3" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="ScoutSkills" value="3"/>
+			<Trait id="Siegecraft" value="4"/>
+			<Trait id="PeltastFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_bragantia_mercenaries_template"/>
+			<EquipmentSet id="bk_bragantia_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_balion_template_0" name="{=bk_balion_template_0.name}of the Schejþmenn" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.balion" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="HuscarlFightingSkills" value="6"/>
+			<Trait id="ScoutSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_balion_mercenaries_template"/>
+			<EquipmentSet id="bk_balion_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter id="bk_balion_template_1" name="{=bk_balion_template_1.name}of the Schejþmenn" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.balion" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_balion_mercenaries_template"/>
+			<EquipmentSet id="bk_balion_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_balion_template_2" name="{=bk_balion_template_2.name}of the Schejþmenn" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.balion" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="ScoutSkills" value="4"/>
+			<Trait id="HuscarlFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_balion_mercenaries_template"/>
+			<EquipmentSet id="bk_balion_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_balion_template_3" name="{=bk_balion_template_3.name}of the Schejþmenn" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.balion" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="ScoutSkills" value="3"/>
+			<Trait id="Siegecraft" value="4"/>
+			<Trait id="HuscarlFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_balion_mercenaries_template"/>
+			<EquipmentSet id="bk_balion_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_zendar_template_0" name="{=bk_zendar_template_0.name}of the Legeón tou Zendar" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.zendar" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="HopliteFightingSkills" value="6"/>
+			<Trait id="ScoutSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_zendar_mercenaries_template"/>
+			<EquipmentSet id="bk_zendar_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter id="bk_zendar_template_1" name="{=bk_zendar_template_1.name}of the Legeón tou Zendar" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.zendar" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_1" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HopliteFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_zendar_mercenaries_template"/>
+			<EquipmentSet id="bk_zendar_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_zendar_template_2" name="{=bk_zendar_template_2.name}of the Legeón tou Zendar" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.zendar" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_2" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="ScoutSkills" value="4"/>
+			<Trait id="HopliteFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_zendar_mercenaries_template"/>
+			<EquipmentSet id="bk_zendar_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_zendar_template_3" name="{=bk_zendar_template_3.name}of the Legeón tou Zendar" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.zendar" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_3" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="ScoutSkills" value="3"/>
+			<Trait id="Siegecraft" value="4"/>
+			<Trait id="HopliteFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_zendar_mercenaries_template"/>
+			<EquipmentSet id="bk_zendar_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_freemen_template_0" name="{=bk_freemen_template_0.name}of the Freemen of the Marshes" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swadia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="HopliteFightingSkills" value="6"/>
+			<Trait id="ScoutSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_swadia_mercenaries_template"/>
+			<EquipmentSet id="bk_swadia_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter id="bk_freemen_template_1" name="{=bk_freemen_template_1.name}of the Freemen of the Marshes" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swadia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_1" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HopliteFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_swadia_mercenaries_template"/>
+			<EquipmentSet id="bk_swadia_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_freemen_template_2" name="{=bk_freemen_template_2.name}of the Freemen of the Marshes" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swadia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_2" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="ScoutSkills" value="4"/>
+			<Trait id="HopliteFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_swadia_mercenaries_template"/>
+			<EquipmentSet id="bk_swadia_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_freemen_template_3" name="{=bk_freemen_template_3.name}of the Freemen of the Marshes" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.swadia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_3" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="ScoutSkills" value="3"/>
+			<Trait id="Siegecraft" value="4"/>
+			<Trait id="HopliteFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_swadia_mercenaries_template"/>
+			<EquipmentSet id="bk_swadia_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_wardens_template_0" name="{=bk_wardens_template_0.name}of the Wardens of the Hills" voice="curt" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="ScoutSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_wardens_mercenaries_template"/>
+			<EquipmentSet id="bk_wardens_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter id="bk_wardens_template_1" name="{=bk_wardens_template_1.name}of the Wardens of the Hills" voice="earnest" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="ScoutSkills" value="4"/>
+			<Trait id="CavalryFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_wardens_mercenaries_template"/>
+			<EquipmentSet id="bk_wardens_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_wardens_template_2" name="{=bk_wardens_template_2.name}of the Wardens of the Hills" voice="ironic" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="ScoutSkills" value="6"/>
+			<Trait id="CavalryFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_wardens_mercenaries_template"/>
+			<EquipmentSet id="bk_wardens_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_wardens_template_3" name="{=bk_wardens_template_3.name}of the Wardens of the Hills" voice="curt" is_template="true" default_group="Cavalry" is_hero="false" culture="Culture.empire" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="ScoutSkills" value="5"/>
+			<Trait id="Siegecraft" value="4"/>
+			<Trait id="CavalryFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_wardens_mercenaries_template"/>
+			<EquipmentSet id="bk_wardens_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+    <NPCCharacter id="bk_siri_sons_template_0" name="{=bk_siri_sons_template_0.name}of the Serattigu" voice="curt" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.siri" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_siri"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="ScoutSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_siri_mercenaries_template"/>
+			<EquipmentSet id="bk_siri_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter id="bk_siri_sons_template_1" name="{=bk_siri_sons_template_1.name}of the Serattigu" voice="earnest" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.siri" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_siri"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_1" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HorseArcherFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_siri_mercenaries_template"/>
+			<EquipmentSet id="bk_siri_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_siri_sons_template_2" name="{=bk_siri_sons_template_2.name}of the Serattigu" voice="ironic" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.siri" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_siri"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_2" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="ScoutSkills" value="4"/>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_siri_mercenaries_template"/>
+			<EquipmentSet id="bk_siri_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_siri_sons_template_3" name="{=bk_siri_sons_template_3.name}of the Serattigu" voice="curt" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.siri" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_siri"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_3" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="ScoutSkills" value="3"/>
+			<Trait id="Siegecraft" value="4"/>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_siri_mercenaries_template"/>
+			<EquipmentSet id="bk_siri_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="bk_fulq_template_0" name="{=bk_fulq_template_0.name}of the Furqaniya" voice="curt" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.sarranid" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="ScoutSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_fulq_mercenaries_template"/>
+			<EquipmentSet id="bk_fulq_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter id="bk_fulq_template_1" name="{=bk_fulq_template_1.name}of the Furqaniya" voice="earnest" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.sarranid" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_1" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HorseArcherFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_fulq_mercenaries_template"/>
+			<EquipmentSet id="bk_fulq_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_fulq_template_2" name="{=bk_fulq_template_2.name}of the Furqaniya" voice="ironic" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.sarranid" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_2" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="ScoutSkills" value="4"/>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_fulq_mercenaries_template"/>
+			<EquipmentSet id="bk_fulq_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_fulq_template_3" name="{=bk_fulq_template_3.name}of the Furqaniya" voice="curt" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.sarranid" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_3" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="ScoutSkills" value="3"/>
+			<Trait id="Siegecraft" value="4"/>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_fulq_mercenaries_template"/>
+			<EquipmentSet id="bk_fulq_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_geroia_template_0" name="{=bk_geroia_template_0.name}of the Manhunters" voice="curt" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.geroia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="ScoutSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_geroia_mercenaries_template"/>
+			<EquipmentSet id="bk_geroia_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter id="bk_geroia_template_1" name="{=bk_geroia_template_1.name}of the Manhunters" voice="earnest" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.geroia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_1" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Manager" value="4"/>	 
+			<Trait id="HorseArcherFightingSkills" value="8"/>
+			<Trait id="KnightFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_geroia_mercenaries_template"/>
+			<EquipmentSet id="bk_geroia_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_geroia_template_2" name="{=bk_geroia_template_2.name}of the Manhunters" voice="ironic" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.geroia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_2" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="ScoutSkills" value="4"/>
+			<Trait id="Manager" value="3"/>	
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_geroia_mercenaries_template"/>
+			<EquipmentSet id="bk_geroia_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_geroia_template_3" name="{=bk_geroia_template_3.name}of the Manhunters" voice="curt" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.geroia" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_3" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="ScoutSkills" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_geroia_mercenaries_template"/>
+			<EquipmentSet id="bk_geroia_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_iltanlar_template_0" name="{=bk_iltanlar_template_0.name}of the Dag Qarawulnud" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.iltanlar" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="HuscarlFightingSkills" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="ScoutSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template"/>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+  <NPCCharacter id="bk_iltanlar_template_1" name="{=bk_iltanlar_template_1.name}of the Dag Qarawulnud" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.iltanlar" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_1" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Manager" value="4"/>	 
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template"/>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_iltanlar_template_2" name="{=bk_iltanlar_template_2.name}of the Dag Qarawulnud" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.iltanlar" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_2" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="ScoutSkills" value="4"/>
+			<Trait id="Manager" value="3"/>	
+			<Trait id="HuscarlFightingSkills" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template"/>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_iltanlar_template_3" name="{=bk_iltanlar_template_3.name}of the Dag Qarawulnud" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.iltanlar" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_3" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="ScoutSkills" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template"/>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_sky_template_0" name="{=bk_sky_template_0.name}of the Seçilmiĺ Uçmagniŋ" voice="curt" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="ScoutSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template"/>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+  <NPCCharacter id="bk_sky_template_1" name="{=bk_sky_template_1.name}of the Seçilmiĺ Uçmagniŋ" voice="earnest" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_1" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Manager" value="4"/>	 
+			<Trait id="HorseArcherFightingSkills" value="8"/>
+			<Trait id="KnightFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template"/>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter id="bk_sky_template_2" name="{=bk_sky_template_2.name}of the Seçilmiĺ Uçmagniŋ" voice="ironic" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_2" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="ScoutSkills" value="4"/>
+			<Trait id="Manager" value="3"/>	
+			<Trait id="HorseArcherFightingSkills" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template"/>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter id="bk_sky_template_3" name="{=bk_sky_template_3.name}of the Seçilmiĺ Uçmagniŋ" voice="curt" is_template="true" default_group="HorseArcher" is_hero="false" culture="Culture.khuzait" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_3" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="ScoutSkills" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="HorseArcherFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template"/>
+			<EquipmentSet id="bk_iltanlar_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_bragantia_1" name="{=bk_bragantia_1.name}Roderico" voice="curt" default_group="Infantry" age="38" is_hero="true" culture="Culture.bragantia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.tv_vlandia_lord_helmet_f2"/>
+			  <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+			  <equipment slot="Body" id="Item.AR_empire_scale_armor_e3"/>
+			  <equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+			  <equipment slot="Leg" id="Item.AR_vlandia_boots_c"/>
+			  <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+			  <equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
+			  <equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			  <equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			  <equipment slot="Item2" id="Item.AR_shield_infantry_e2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="bk_massa_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_bragantia_1_1" name="{=EGatdCLg}Alena" voice="curt" default_group="Infantry" age="20" is_hero="true" culture="Culture.bragantia" occupation="Lord" is_female="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="15"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="4"/>
+			<Trait id="Egalitarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_bragantia_noncom"/>
+			<EquipmentSet id="bk_lord_template_bragantia_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_bragantia_1_2" name="{=bk_bragantia_1_2.name}Vantero" voice="curt" default_group="Infantry" age="20" is_hero="true" culture="Culture.bragantia" occupation="Lord" is_female="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="12"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="EngineerSkills" value="4"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Oligarchic" value="6"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_bragantia"/>
+			<EquipmentSet id="bk_lord_template_bragantia_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_bragantia_2" name="{=bk_bragantia_2.name}Vilmarando" voice="curt" default_group="Infantry" age="45" is_hero="true" culture="Culture.bragantia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.tv_vlandia_lord_helmet_f2"/>
+			  <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+			  <equipment slot="Body" id="Item.AR_empire_scale_armor_e3"/>
+			  <equipment slot="Gloves" id="Item.hmj_plated_mail_mittens"/>
+			  <equipment slot="Leg" id="Item.AR_vlandia_boots_c"/>
+			  <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+			  <equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
+			  <equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			  <equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			  <equipment slot="Item2" id="Item.AR_shield_infantry_e2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="bk_massa_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_massa_1" name="{=bk_massa_1.name}Respendal" voice="curt" default_group="Infantry" age="42" is_hero="true" culture="Culture.massa" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="14"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Oligarchic" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.AR_vlandia_lord_helmet_d"/>
+			  <equipment slot="Cape" id="Item.AR_lion_head_d"/>
+			  <equipment slot="Body" id="Item.TV_vlandia_armor_t2"/>
+			  <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			  <equipment slot="Leg" id="Item.TV_vlandia_boots_c"/>
+			  <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+			  <equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
+			  <equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			  <equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			  <equipment slot="Item2" id="Item.AR_shield_infantry_e2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="bk_massa_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_massa_1_1" name="{=bk_massa_1_1.name}Alaric" voice="curt" default_group="Infantry" age="20" is_hero="true" culture="Culture.massa" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="9"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_massa"/> 
+			<EquipmentSet id="bk_massa_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_massa_1_2" name="{=26tqV3ak}Theuda" voice="curt" default_group="Infantry" age="19" is_hero="true" culture="Culture.massa" occupation="Lord" is_female="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_massa_noncom"/> 
+			<EquipmentSet id="bk_lord_template_massa_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_massa_2" name="{=bk_massa_2.name}Geseric" voice="curt" default_group="Infantry" age="42" is_hero="true" culture="Culture.massa" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="4"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.ao_durkhan_cataphract_helmet_a"/>
+			  <equipment slot="Cape" id="Item.TV_vlandia_shoulders_i"/>
+			  <equipment slot="Body" id="Item.TV_empire_armor_n"/>
+			  <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			  <equipment slot="Leg" id="Item.TV_vlandia_boots_c"/>
+			  <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+			  <equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
+			  <equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			  <equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			  <equipment slot="Item2" id="Item.AR_shield_infantry_e2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="bk_massa_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_massa_3" name="{=bk_massa_3.name}Alaric" voice="curt" default_group="Infantry" age="42" is_hero="true" culture="Culture.massa" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.ao_durkhan_cataphract_helmet_a"/>
+			  <equipment slot="Cape" id="Item.TV_vlandia_shoulders_i"/>
+			  <equipment slot="Body" id="Item.TV_empire_armor_n"/>
+			  <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			  <equipment slot="Leg" id="Item.TV_vlandia_boots_c"/>
+			  <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+			  <equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
+			  <equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			  <equipment slot="Item1" id="Item.vlandia_lance_3_t5"/>
+			  <equipment slot="Item2" id="Item.AR_shield_infantry_e2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="bk_massa_mercenaries_template" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_siri_1" name="{=bk_siri_1.name}Usiatra" voice="curt" default_group="Infantry" age="38" is_female="true" is_hero="true" culture="Culture.siri" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.5571" build="0.4559" key="003CB00E5FCC100875687F776C6CA92B498BA81AC666CBD77785BD79C6E8B87701C786140C748BAB000000000000000000000000000000000000000021A43003"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			 <EquipmentRoster>
+			  <equipment slot="Head" id="Item.AR_aserai_archer_helmet_h"/>
+			  <equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c"/>
+			  <equipment slot="Body" id="Item.AR_aserai_armor_c"/>
+			  <equipment slot="Gloves" id="Item.TV_aserai_gloves_a"/>
+			  <equipment slot="Leg" id="Item.TV_moccasins_c"/>
+			</EquipmentRoster>
+			<EquipmentSet id="bk_lord_template_siri_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+ 
+  
+  <NPCCharacter id="bk_siri_2" name="{=bk_siri_2.name}Peksater" voice="curt" default_group="Infantry" age="48" is_female="true" is_hero="true" culture="Culture.siri" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.5571" build="0.4559" key="003CB00E5FCC100875687F776C6CA92B498BA81AC666CBD77785BD79C6E8B87701C786140C748BAB000000000000000000000000000000000000000021A43003"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_siri"/>
+			<EquipmentSet id="bk_lord_template_siri_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_siri_3" name="{=bk_siri_3.name}Wurthazuwt" voice="curt" default_group="Infantry" age="31" is_female="true" is_hero="true" culture="Culture.siri" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.5571" build="0.4559" key="003CB00E5FCC100875687F776C6CA92B498BA81AC666CBD77785BD79C6E8B87701C786140C748BAB000000000000000000000000000000000000000021A43003"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_siri"/>
+			<EquipmentSet id="bk_lord_template_siri_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_siri_4" name="{=bk_siri_4.name}Shepenupet" voice="curt" default_group="Infantry" age="22" is_female="true" is_hero="true" culture="Culture.siri" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.5571" build="0.4559" key="003CB00E5FCC100875687F776C6CA92B498BA81AC666CBD77785BD79C6E8B87701C786140C748BAB000000000000000000000000000000000000000021A43003"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_siri"/>
+			<EquipmentSet id="bk_lord_template_siri_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_vakken_1" name="{=W1ZpjgQO}Rauko" voice="curt" default_group="Infantry" age="35" is_hero="true" culture="Culture.vakken" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50" weight="0.3946" build="0.7163" key="000000000000344768B2ABC07CDC776F6EDD8485569637B798BCD5CB94671C5904CB60460CDBD36B000000000000000000000000000000000000000015989040"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_vakken"/>
+			<EquipmentSet id="bk_lord_template_vakken_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="bk_vakken_4" name="{=W1ZpjgQO}Rauko" voice="curt" default_group="Infantry" age="35" is_hero="true" culture="Culture.vakken" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50" weight="0.3946" build="0.7163" key="000000000000344768B2ABC07CDC776F6EDD8485569637B798BCD5CB94671C5904CB60460CDBD36B000000000000000000000000000000000000000015989040"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_vakken"/>
+			<EquipmentSet id="bk_lord_template_vakken_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_vakken_2" name="{=jhT7CfhM}Aivar" voice="curt" default_group="Infantry" age="48" is_hero="true" culture="Culture.vakken" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.07" weight="0.2438" build="0.8431" key="0000480400FC26093CA9898577964957588DBB637BB4BCD7BA767C8CA314845700AD46030AA76E9700000000000000000000000000000000000000004B4460C2"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_vakken"/>
+			<EquipmentSet id="bk_lord_template_vakken_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_vakken_3" name="{=kL0ldFLG}Pekko" voice="curt" default_group="Infantry" age="50" is_hero="true" culture="Culture.vakken" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50.07" weight="0.972" build="0.58" key="000D88008014254645966A27B96AA88659937CB27CA675BC2478998967A5862400C9F6030C768657000000000000000000000000000000000000000031945042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="bk_lord_template_vakken"/>
+			<EquipmentSet id="bk_lord_template_vakken_noncom" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_iltanlar_1" name="{=bk_iltanlar_1.name}Kuruntai" voice="curt" default_group="Infantry" age="42" is_hero="true" culture="Culture.iltanlar" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.AR_khuzait_helmet_t"/>
+			  <equipment slot="Cape" id="Item.AR_leopard_pelt_a"/>
+			  <equipment slot="Body" id="Item.AR_aserai_armor_y"/>
+			  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			  <equipment slot="Leg" id="Item.eastern_splint_boots"/>
+			  <equipment slot="Item0" id="Item.eastern_throwing_spear_1_t3"/>
+			  <equipment slot="Item1" id="Item.stronger_footmans_wicker_shield"/>
+			  <equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+			  <equipment slot="Item3" id="Item.eastern_spear_5_t5"/>	
+			</EquipmentRoster>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_iltanlar_2" name="{=bk_iltanlar_2.name}Urkhun" voice="curt" default_group="Infantry" age="38" is_hero="true" culture="Culture.iltanlar" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.AR_khuzait_helmet_t"/>
+			  <equipment slot="Cape" id="Item.AR_leopard_pelt_a"/>
+			  <equipment slot="Body" id="Item.AR_aserai_armor_z"/>
+			  <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			  <equipment slot="Leg" id="Item.eastern_splint_boots"/>
+			  <equipment slot="Item0" id="Item.eastern_throwing_spear_1_t3"/>
+			  <equipment slot="Item1" id="Item.stronger_footmans_wicker_shield"/>
+			  <equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+			  <equipment slot="Item3" id="Item.eastern_spear_5_t5"/>	
+			</EquipmentRoster>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+
+  
+  
+  <NPCCharacter id="bk_lokti_1" name="{=bk_lokti_1.name}Argo" voice="curt" default_group="Infantry" age="48" is_hero="true" culture="Culture.lokti" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_lokti_2" name="{=bk_lokti_2.name}Eero" voice="curt" default_group="Infantry" age="48" is_hero="true" culture="Culture.lokti" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_lokti_3" name="{=bk_lokti_3.name}Hanno" voice="curt" default_group="Infantry" age="48" is_hero="true" culture="Culture.lokti" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_lokti_4" name="{=bk_lokti_4.name}Iskko" voice="curt" default_group="Infantry" age="48" is_hero="true" culture="Culture.lokti" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+
+  <!-- Diplomatic, keeps word, money maker -->
+  <NPCCharacter id="bk_zendar_1" name="{=bk_zendar_1.name}Stravos" voice="curt" default_group="Infantry" age="48" is_hero="true" culture="Culture.zendar" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.2" weight="0.3959" build="0.7026" key="0010B00800E4398F988899556A887657C4AB4675738BA92762A5396E4AAE6A8500AB66030ACA5762000000000000000000000000000000000000000051443002"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HopliteFightingSkills" value="8"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Oligarchic" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="zendar_king_template_bat_m"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+
+
+  <NPCCharacter id="bk_jumne_1" name="{=bk_jumne_1.name}Gundur" voice="curt" default_group="Infantry" age="48" is_hero="true" culture="Culture.nord" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_jumne_2" name="{=bk_jumne_2.name}Ragnar" voice="curt" default_group="Infantry" age="32" is_hero="true" culture="Culture.nord" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_jumne_3" name="{=bk_jumne_3.name}Hjalmar" voice="curt" default_group="Infantry" age="29" is_hero="true" culture="Culture.nord" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_jumne_4" name="{=bk_jumne_4.name}Njal" voice="curt" default_group="Infantry" age="54" is_hero="true" culture="Culture.nord" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_jumne_5" name="{=bk_jumne_5.name}Lethwyn" voice="curt" default_group="Infantry" age="48" is_hero="true" culture="Culture.nord" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_jumne_6" name="{=bk_jumne_6.name}Guthric" voice="curt" default_group="Infantry" age="42" is_hero="true" culture="Culture.nord" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_jumne_7" name="{=bk_jumne_7.name}Leif" voice="curt" default_group="Infantry" age="24" is_hero="true" culture="Culture.nord" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9" build="0.8" key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+  </NPCCharacter>
+ 
+  <NPCCharacter id="bk_kannic_1" name="{=bk_kannic_1.name}Hannibal" age="44" voice="ironic" culture="Culture.kannic" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="10"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="14"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.AR_darshi_mace_5_t5"/>
+        <equipment slot="Item1" id="Item.AR_shield_infantry_zc"/>
+        <equipment slot="Item2" id="Item.AR_aserai_lance_5_t5"/>
+        <equipment slot="Head" id="Item.cts_greek_corinthian_horns_a"/>
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_j"/>
+	    <equipment slot="Body" id="Item.greek_musculata_1"/>
+		<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+	    <equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.AR_empire_armor_m"/>
+        <equipment slot="Leg" id="Item.bronze_greaves_dual_2"/>
+        <equipment slot="Item0" id="Item.bronze_greaves_dual_2"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.noble_horse_southern"/> 
+      <equipment slot="HorseHarness" id="Item.AR_horse_armor_c"/>
+    </Equipments>
+  </NPCCharacter>
+  
+
+  
+  <NPCCharacter id="bk_kannic_2" name="{=bk_kannic_2.name}Baaliaton" age="44" voice="ironic" culture="Culture.kannic" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="7"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="14"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_kannic"/>
+	  <EquipmentSet id="bk_lord_template_kannic_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+ 
+ 
+  <NPCCharacter id="bk_fulq_1" name="{=bk_fulq_1.name}Farzad" age="44" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="14"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="5"/>
+      <Trait id="Manager" value="6"/>
+      <Trait id="Valor" value="2"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.AR_darshi_mace_5_t5"/>
+        <equipment slot="Item1" id="Item.AR_shield_infantry_zc"/>
+        <equipment slot="Item2" id="Item.AR_aserai_lance_5_t5"/>
+        <equipment slot="Head" id="Item.aserai_battle_crown"/>
+	    <equipment slot="Cape" id="Item.AR_aserai_scale_cape_c"/>
+	    <equipment slot="Body" id="Item.empire_plate_vest_armor"/>
+	    <equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.t3_aserai_horse"/>
+      <equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+    </Equipments>
+  </NPCCharacter>
+ 
+ 
+  <NPCCharacter id="bk_darshi_1_1" name="{=bk_darshi_1_1.name}Rashid" age="62" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="5"/>
+      <Trait id="Commander" value="10"/>
+      <Trait id="Politician" value="14"/>
+      <Trait id="Manager" value="10"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="6"/>
+	  <Trait id="Authoritarian" value="2"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.AR_darshi_mace_5_t5"/>
+        <equipment slot="Item1" id="Item.AR_shield_infantry_zc"/>
+        <equipment slot="Item2" id="Item.AR_aserai_lance_5_t5"/>
+        <equipment slot="Head" id="Item.aserai_battle_crown"/>
+	    <equipment slot="Cape" id="Item.AO_aserai_shoulders_c"/>
+	    <equipment slot="Body" id="Item.ao_imperial_brass_scale_armor"/>
+	    <equipment slot="Leg" id="Item.TV_aserai_boots_c"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat"/>
+        <equipment slot="Leg" id="Item.fine_town_boots"/>
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.t3_aserai_horse"/>
+      <equipment slot="HorseHarness" id="Item.AR_horse_armor_c3"/>
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <!-- Cold and fierce soldier, adept at politics, somehwat sympathetic to smallfolk -->
+  <NPCCharacter id="bk_darshi_1_2" name="{=bk_darshi_1_2.name}Farshid" age="39" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="CavalryFightingSkills" value="12"/>
+      <Trait id="Commander" value="9"/>
+      <Trait id="Politician" value="10"/>
+      <Trait id="Manager" value="7"/>
+      <Trait id="Mercy" value="-1"/>
+      <Trait id="Calculating" value="2"/>
+      <Trait id="Oligarchic" value="6"/>
+	  <Trait id="Authoritarian" value="2"/>
+	  <Trait id="Egalitarian" value="4"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/>
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+   <!-- Fierce monarchist, uninterested in combat, political -->
+  <NPCCharacter id="bk_darshi_1_3" name="{=bk_darshi_1_3.name}Sargon" age="32" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="CavalryFightingSkills" value="6"/>
+      <Trait id="Commander" value="8"/>
+      <Trait id="Politician" value="10"/>
+      <Trait id="Manager" value="10"/>
+      <Trait id="Mercy" value="1"/>
+      <Trait id="Generosity" value="1"/>
+	  <Trait id="Oligarchic" value="6"/>
+	  <Trait id="Authoritarian" value="10"/>
+	  <Trait id="Egalitarian" value="2"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/> 
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!-- Republican, political, strong commander but not fighter -->
+  <NPCCharacter id="bk_darshi_2_1" name="{=bk_darshi_2_1.name}Ardashar" age="44" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="CavalryFightingSkills" value="5"/>
+      <Trait id="Commander" value="10"/>
+      <Trait id="Politician" value="12"/>
+      <Trait id="Manager" value="8"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="10"/>
+	  <Trait id="Authoritarian" value="3"/>
+	  <Trait id="Egalitarian" value="5"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/>
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+   <!-- Isolationist, petty shah, fighter -->
+  <NPCCharacter id="bk_darshi_3_1" name="{=bk_darshi_3_1.name}Shahbuhr" age="44" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="12"/>
+      <Trait id="Commander" value="9"/>
+      <Trait id="Politician" value="5"/>
+      <Trait id="Manager" value="7"/>
+      <Trait id="Valor" value="2"/>
+      <Trait id="Generosity" value="-1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="6"/>
+	  <Trait id="Authoritarian" value="5"/>
+	  <Trait id="Egalitarian" value="0"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/>
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <!-- Seeks power, fighter, unforgiving -->
+  <NPCCharacter id="bk_darshi_4_1" name="{=bk_darshi_4_1.name}Sayad" age="44" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="10"/>
+      <Trait id="Commander" value="8"/>
+      <Trait id="Politician" value="7"/>
+      <Trait id="Manager" value="10"/>
+      <Trait id="Valor" value="1"/>
+      <Trait id="Mercy" value="-1"/>
+      <Trait id="Calculating" value="2"/>
+      <Trait id="Oligarchic" value="6"/>
+	  <Trait id="Authoritarian" value="8"/>
+	  <Trait id="Egalitarian" value="0"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/>
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_darshi_5_1" name="{=bk_darshi_5_1.name}Farzad" age="44" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="3"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="14"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/>
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_darshi_6_1" name="{=bk_darshi_6_1.name}Akku" age="44" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="3"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="14"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/>
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_darshi_7_1" name="{=bk_darshi_7_1.name}Nergal-Edir" age="44" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="3"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="14"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/>
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_darshi_8_1" name="{=bk_darshi_8_1.name}Bahram" age="44" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="3"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="14"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/>
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+    <NPCCharacter id="bk_darshi_9_1" name="{=bk_darshi_9_1.name}Esarhaddon" age="44" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="3"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="14"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/>
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+    <NPCCharacter id="bk_darshi_10_1" name="{=bk_darshi_10_1.name}Sarhad" age="44" voice="ironic" culture="Culture.darshi" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475" key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="3"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="14"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="bk_lord_template_darshi_heavy"/>
+	  <EquipmentSet id="bk_lord_template_darshi_noncom" civilian="true"/>
+    </Equipments>
+   </NPCCharacter>
+  
+  
+  <NPCCharacter id="bk_geroia_1" name="{=bk_geroia_1.name}Ugon" age="45" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.geroia" occupation="Lord" face_mesh_cache="true">
+    <face>
+      <BodyProperties version="4" weight="0.2" build="0.7" key="00005C0B4000034D649A7797787A473B743A45888527B857869AA27956B54D3C0007A5A6073DE87C00001105000030A30000001F000000000000000001182000"/>
+      <hair_tags>
+        <hair_tag name="Short"/>
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightShortBeard"/>
+      </beard_tags>
+    </face>
+    <Traits>
+      <Trait id="KnightFightingSkills" value="5"/>
+      <Trait id="Commander" value="10"/>
+      <Trait id="Politician" value="15"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="1"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Generosity" value="-1"/>
+      <Trait id="Oligarchic" value="5"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster/>
+      <EquipmentRoster>
+		  <Equipment slot="Item0" id="Item.steppe_guardian_shield_shoulder"/>
+		  <Equipment slot="Item1" id="Item.empire_lance_3_t5"/>
+		  <Equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
+		  <equipment slot="Head" id="Item.AR_Imperial_Crowned_Helmet_b"/>
+		  <equipment slot="Cape" id="Item.AR_imperial_shoulders_e4"/>
+		  <equipment slot="Body" id="Item.AR_empire_horseman_armor_a2"/>
+		  <equipment slot="Gloves" id="Item.tv_empire_plate_b"/>
+		  <equipment slot="Leg" id="Item.TV_empire_boots_a"/>
+		  <Equipment slot="Horse" id="Item.t3_empire_horse"/>
+		  <Equipment slot="HorseHarness" id="Item.AR_horse_armor_zab"/>
+	  </EquipmentRoster>
+      <EquipmentSet id="n_emp_king_template_civ_m" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_geroia_2" name="{=bk_geroia_2.name}Eder" age="32" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.geroia" occupation="Lord" face_mesh_cache="true">
+    <face>
+      <BodyProperties version="4" weight="0.2" build="0.7" key="00005C0B4000034D649A7797787A473B743A45888527B857869AA27956B54D3C0007A5A6073DE87C00001105000030A30000001F000000000000000001182000"/>
+      <hair_tags>
+        <hair_tag name="Short"/>
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightShortBeard"/>
+      </beard_tags>
+    </face>
+    <Traits>
+      <Trait id="KnightFightingSkills" value="5"/>
+      <Trait id="Commander" value="16"/>
+      <Trait id="Politician" value="12"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="1"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Generosity" value="-1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster/>
+      <EquipmentSet id="bk_lord_template_geroia"/>
+      <EquipmentSet id="n_emp_king_template_civ_m" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_geroia_3" name="{=bk_geroia_3.name}Zenu" age="51" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.geroia" occupation="Lord" face_mesh_cache="true">
+    <face>
+      <BodyProperties version="4" weight="0.2" build="0.7" key="00005C0B4000034D649A7797787A473B743A45888527B857869AA27956B54D3C0007A5A6073DE87C00001105000030A30000001F000000000000000001182000"/>
+      <hair_tags>
+        <hair_tag name="Short"/>
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightShortBeard"/>
+      </beard_tags>
+    </face>
+    <Traits>
+      <Trait id="KnightFightingSkills" value="5"/>
+      <Trait id="Commander" value="16"/>
+      <Trait id="Politician" value="12"/>
+      <Trait id="Manager" value="14"/>
+      <Trait id="Valor" value="1"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Generosity" value="-1"/>
+      <Trait id="Oligarchic" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster/>
+      <EquipmentSet id="bk_lord_template_geroia"/>
+      <EquipmentSet id="n_emp_king_template_civ_m" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="lord_jarjara_1_1" name="{=JPBz1blG}Tariq" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jarjara" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0" build="0" key="001C900FC0FC180886899931423946DB88E588765AA3947958825CAD467C7D4701E006890E57A12A000000000000000000000000000000000000000000843044"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="lord_jarjara_2_1" name="{=JPBz1blG}Tariq" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jarjara" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0" build="0" key="001C900FC0FC180886899931423946DB88E588765AA3947958825CAD467C7D4701E006890E57A12A000000000000000000000000000000000000000000843044"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="lord_jarjara_3_1" name="{=JPBz1blG}Tariq" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jarjara" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0" build="0" key="001C900FC0FC180886899931423946DB88E588765AA3947958825CAD467C7D4701E006890E57A12A000000000000000000000000000000000000000000843044"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	<NPCCharacter id="lord_jarjara_4_1" name="{=JPBz1blG}Tariq" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jarjara" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0" build="0" key="001C900FC0FC180886899931423946DB88E588765AA3947958825CAD467C7D4701E006890E57A12A000000000000000000000000000000000000000000843044"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	<NPCCharacter id="lord_jarjara_5_1" name="{=JPBz1blG}Tariq" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jarjara" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0" build="0" key="001C900FC0FC180886899931423946DB88E588765AA3947958825CAD467C7D4701E006890E57A12A000000000000000000000000000000000000000000843044"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="lord_jarjara_6_1" name="{=JPBz1blG}Tariq" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jarjara" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0" build="0" key="001C900FC0FC180886899931423946DB88E588765AA3947958825CAD467C7D4701E006890E57A12A000000000000000000000000000000000000000000843044"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="lord_jarjara_7_1" name="{=JPBz1blG}Tariq" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jarjara" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0" build="0" key="001C900FC0FC180886899931423946DB88E588765AA3947958825CAD467C7D4701E006890E57A12A000000000000000000000000000000000000000000843044"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="lord_jarjara_8_1" name="{=JPBz1blG}Tariq" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.jarjara" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0" build="0" key="001C900FC0FC180886899931423946DB88E588765AA3947958825CAD467C7D4701E006890E57A12A000000000000000000000000000000000000000000843044"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	<NPCCharacter id="lord_sarranid_1_1" name="{=JPBz1blG}Tariq" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.sarranid" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0" build="0" key="001C900FC0FC180886899931423946DB88E588765AA3947958825CAD467C7D4701E006890E57A12A000000000000000000000000000000000000000000843044"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	<NPCCharacter id="lord_sarranid_2_1" name="{=JPBz1blG}Tariq" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.sarranid" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0" build="0" key="001C900FC0FC180886899931423946DB88E588765AA3947958825CAD467C7D4701E006890E57A12A000000000000000000000000000000000000000000843044"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+  
+</NPCCharacters>

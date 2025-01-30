@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+
+
+
+  <strings>
+	<string id="faction_vlandia" text="Ŭjiłundzki Rys" />	
+	<string id="faction_aserai" text="Sałtana al-Asera" />
+	<string id="faction_sturgia" text="Sturhijskaje Kniastva" />
+	<string id="faction_khuzait" text="Chahanlik Deŭsahłar" />
+	<string id="faction_battania" text="Uchielbrevinet i Battanija" />
+	<string id="faction_empire_n" text="Paliteja ton Kalradyja" />
+	<string id="faction_empire_s" text="Bazileja ton Kalradyja" />
+	<string id="faction_empire_w" text="Dyktatoryja ton Kalradyja" />
+	
+	<string id="duchy_ebor" text="Eborend" />
+	<string id="duchy_rhennod" text="Rennod" />
+	<string id="duchy_biscania" text="Biskanija" />
+	<string id="duchy_epir" text="Epiryja" />
+	<string id="duchy_trand" text="Trand" />
+	<string id="duchy_north_rhennod" text="Nortann Rennod" />
+	<string id="duchy_massa" text="Ansiŭe Frahifc" />
+	
+	<string id="bk_description_vlandia" text="Kličučy siabie naščadkami Ocryka Žaleznarukaha, Ocrykiny - najbujniejšaje Ŭjiłundzkaje plemia, što mihravała z Zachodniaha mora. Siarod pačatkovych plamion Ocrykiny zajmajuć pieršaje miesca. Dertert dej Merok reprezientuje ich, jon kliča sabie Karalom usich Ŭjiłundaŭ - zručnaja chłuśnia. Im taksama ŭłaścivyja tradycyi najeźnictva i hałantnaści, jakija vysoka šanujucca siarod pačatkovych plamion. Ocrykiny kansalidavali ŭładu nad Kalradyjcami, byli ŭ avanhardzie rearhanizacyi svajho karaleŭstva ŭ fieadalnuju ŭparadkovanuju strukturu, a nie kanfiederacyju varožych plamion. Hetyja idei byli ŭziatyja ad zavajavanych Kalradyjskich instytucyjaŭ i šlachiectva, jakoje aktyŭna brała źmiašanyja šluby z novazasielenymi Ŭjiłundzkimi siemjami - toje było lepiej za śmierć. U vyniku hetkaha pieramiešvańnia, sfarmavałasia kultura i mova, zaŭvažna adroznyja ad pačatkovych Ŭjiłundzkich. Za toje, što inšyja plamiony zajmajuć nižejšaje stanovišča i Ocrykiny stanoviacca ŭsio bolš padobnymi na Kalradyjcaŭ, inšyja Ŭjiłundzkija plamiony vinavaciać Ocrykinaŭ u zdradnictvie tradycyjam i ličuć ichni radavod pustym hukam." />
+    
+	
+	<string id="knight_nord" text="Vaepnare" />
+	<string id="knightess_nord" text="Vaepnarynna" />
+	<string id="knights_nord" text="Vaepnarenar" />
+    <string id="prince_nord" text="Fursteson" />
+	<string id="princess_nord" text="Furstedotter" />
+	<string id="princes_nord" text="Furstanar" />
+	<string id="lord_nord" text="Chuvdzinh" />
+	<string id="lady_nord" text="Chuvdzinha" />
+	<string id="lordship_nord" text="Chuvdzinhdomr" />
+	<string id="baron_nord" text="Otlinhr" />
+	<string id="baroness_nord" text="Drott" />
+	<string id="barony_nord" text="Otlinhdomr" />
+	<string id="count_nord" text="Tehn" />
+	<string id="countess_nord" text="Tehna" />
+	<string id="county_nord" text="Tehndomr" />
+	<string id="duke_nord" text="Jarł" />
+	<string id="duchess_nord" text="Chaerskarynna" />
+	<string id="duchy_nord" text="Jarłdomr" />
+	<string id="king_nord" text="Konunhr" />
+	<string id="queen_nord" text="Drottninh" />
+	<string id="kingdom_nord" text="Konunhdomr" />
+	<string id="emperor_nord" text="Storkunhien" />
+	<string id="empress_nord" text="Ryksdrottninh" />
+	<string id="empire_nord" text="Storkunhiendomr" />
+	
+	<string id="knight_dryatic" text="Suras" />
+	<string id="knightess_dryatic" text="Suryna" />
+	<string id="knights_dryatic" text="Sura" />
+    <string id="prince_dryatic" text="Rezaspus" />
+	<string id="princess_dryatic" text="Rezaskientas" />
+	<string id="princes_dryatic" text="Rezaskienta" />
+	<string id="lord_dryatic" text="Burys" />
+	<string id="lady_dryatic" text="Iłteja" />
+	<string id="lordship_dryatic" text="Midne" />
+	<string id="baron_dryatic" text="Dzizarezas" />
+	<string id="baroness_dryatic" text="Dzizarezina" />
+	<string id="barony_dryatic" text="Dziza" />
+	<string id="count_dryatic" text="Bryarezas" />
+	<string id="countess_dryatic" text="Bryarezina" />
+	<string id="county_dryatic" text="Brya" />
+	<string id="duke_dryatic" text="Havarezas" />
+	<string id="duchess_dryatic" text="Havarezina" />
+	<string id="duchy_dryatic" text="Havas" />
+	<string id="king_dryatic" text="Rezas" />
+	<string id="queen_dryatic" text="Rezina" />
+	<string id="kingdom_dryatic" text="Rezasdon" />
+	<string id="emperor_dryatic" text="Mierezas" />
+	<string id="empress_dryatic" text="Mierezina" />
+	<string id="empire_dryatic" text="Mierezasdon" />
+	
+	
+	<string id="knight_massa" text="Rykis" />
+	<string id="knightess_massa" text="Rykis" />
+	<string id="knights_massa" text="Rykija" />
+    <string id="prince_massa" text="Nidžys" />
+	<string id="princess_massa" text="Nidžo" />
+	<string id="princes_massa" text="Nidžo" />
+	<string id="lord_massa" text="Fraŭja" />
+	<string id="lady_massa" text="Fraŭja" />
+	<string id="lordship_massa" text="Fraŭdžynasus" />
+	<string id="baron_massa" text="Charjatuha" />
+	<string id="baroness_massa" text="Charjatuho" />
+	<string id="barony_massa" text="Charjatuhianasus" />
+	<string id="count_massa" text="Rejks" />
+	<string id="countess_massa" text="Kino" />
+	<string id="county_massa" text="Rejki" />
+	<string id="duke_massa" text="Ufarrejks" />
+	<string id="duchess_massa" text="Ufarkino" />
+	<string id="duchy_massa" text="Ufarrejki" />
+	<string id="king_massa" text="Ciŭdans" />
+	<string id="queen_massa" text="Ciŭdana" />
+	<string id="kingdom_massa" text="Ciŭdanhardzi" />
+	<string id="emperor_massa" text="Fraŭjinonds" />
+	<string id="empress_massa" text="Fraŭjinondej" />
+	<string id="empire_massa" text="Fraŭjinondhardzi" />
+	
+	
+	<string id="knight_darshi" text="Asvar" />
+	<string id="knightess_darshi" text="Asvar" />
+	<string id="knights_darshi" text="Asvaran" />
+    <string id="prince_darshi" text="Šachpur" />
+	<string id="princess_darshi" text="Šachdocht" />
+	<string id="princes_darshi" text="Šachzade" />
+	<string id="lord_darshi" text="Dztchkan" />
+	<string id="lady_darshi" text="Ksatun" />
+	<string id="lordship_darshi" text="Dzich" />
+	<string id="baron_darshi" text="Charhbied" />
+	<string id="baroness_darshi" text="Charhbanu" />
+	<string id="barony_darshi" text="Charh" />
+	<string id="count_darshi" text="Marzban" />
+	<string id="countess_darshi" text="Marzbanu" />
+	<string id="county_darshi" text="Marz" />
+	<string id="duke_darshi" text="Šachrab" />
+	<string id="duchess_darshi" text="Šachrabanu" />
+	<string id="duchy_darshi" text="Šachrabr" />
+	<string id="king_darshi" text="Šach" />
+	<string id="queen_darshi" text="Šachbanu" />
+	<string id="kingdom_darshi" text="Šachr" />
+	<string id="emperor_darshi" text="Šachanšach" />
+	<string id="empress_darshi" text="Šachbanu" />
+	<string id="empire_darshi" text="Šachanšachr" />
+	
+	<string id="knight_geroia" text="Kavaljere" />
+	<string id="knightess_geroia" text="Kavaljera" />
+	<string id="knights_geroia" text="Kavaljery" />
+    <string id="prince_geroia" text="Pryncype" />
+	<string id="princess_geroia" text="Pryncypa" />
+	<string id="princes_geroia" text="Pryncypi" />
+	<string id="lord_geroia" text="Kapitane" />
+	<string id="lady_geroia" text="Kapitana" />
+	<string id="lordship_geroia" text="Kapitanery" />
+	<string id="baron_geroia" text="Džudzikach" />
+	<string id="baroness_geroia" text="Džudzikada" />
+	<string id="barony_geroia" text="Džudzikadery" />
+	<string id="count_geroia" text="Hond" />
+	<string id="countess_geroia" text="Honda" />
+	<string id="county_geroia" text="Hondery" />
+	<string id="duke_geroia" text="Duksate" />
+	<string id="duchess_geroia" text="Duksata" />
+	<string id="duchy_geroia" text="Duksatery" />
+	<string id="king_geroia" text="Archiduksate" />
+	<string id="queen_geroia" text="Archiduksata" />
+	<string id="kingdom_geroia" text="Archiduksatery" />
+	<string id="emperor_geroia" text="Archipryncype" />
+	<string id="empress_geroia" text="Archipryncypa" />
+	<string id="empire_geroia" text="Archipryncypatery" />
+  
+    <string id="knight_aserai" text="Farys" />
+	<string id="knightess_aserai" text="Farys" />
+	<string id="knights_aserai" text="Fursan" />
+    <string id="prince_aserai" text="Amir" />
+	<string id="princess_aserai" text="Amira" />
+	<string id="princes_aserai" text="Umara" />
+	<string id="lord_aserai" text="Mavła" />
+	<string id="lady_aserai" text="Biehum" />
+	<string id="lordship_aserai" text="Daja" />
+	<string id="baron_aserai" text="Vali" />
+	<string id="baroness_aserai" text="Valija" />
+	<string id="barony_aserai" text="Vala" />
+	<string id="count_aserai" text="Šajk" />
+	<string id="countess_aserai" text="Šajkach" />
+	<string id="county_aserai" text="Mašyaka" />
+	<string id="duke_aserai" text="Amir" />
+	<string id="duchess_aserai" text="Amira" />
+	<string id="duchy_aserai" text="Imara" />
+	<string id="king_aserai" text="Sułtan" />
+	<string id="queen_aserai" text="Sułtana" />
+	<string id="kingdom_aserai" text="Sałtana" />
+	<string id="emperor_aserai" text="Chalifa" />
+	<string id="empress_aserai" text="Chalifa" />
+	<string id="empire_aserai" text="Chiłafa" />
+  
+	<string id="knight_sturgia" text="Družyńnik" />
+	<string id="knightess_sturgia" text="Družyńnica" />
+	<string id="knights_sturgia" text="Družyna" />
+    <string id="prince_sturgia" text="Kniaź" />
+	<string id="princess_sturgia" text="Kniažna" />
+	<string id="princes_sturgia" text="Kniazi" />
+	<string id="lord_sturgia" text="Spadar" />
+	<string id="lady_sturgia" text="Spadarynia" />
+	<string id="lordship_sturgia" text="Spadarstva" />
+	<string id="baron_sturgia" text="Vajavoda" />
+	<string id="baroness_sturgia" text="Vajavodynia" />
+	<string id="barony_sturgia" text="Vajavodstva" />
+	<string id="count_sturgia" text="Bajaryn" />
+	<string id="countess_sturgia" text="Bajarynia" />
+	<string id="county_sturgia" text="Bajarstva" />
+	<string id="duke_sturgia" text="Kniaź" />
+	<string id="duchess_sturgia" text="Kniažna" />
+	<string id="duchy_sturgia" text="Kniastva" />
+	<string id="king_sturgia" text="Vialiki Kniaź" />
+	<string id="queen_sturgia" text="Vialikaja Kniažna" />
+	<string id="kingdom_sturgia" text="Vialikaje Kniastva" />
+	<string id="emperor_sturgia" text="Karol" />
+	<string id="empress_sturgia" text="Karaleva" />
+	<string id="empire_sturgia" text="Karaleŭstva" />
+	
+	<string id="knight_lokti" text="Lejcis" />
+	<string id="knightess_lokti" text="Lejcis" />
+	<string id="knights_lokti" text="Lejčiaj" />
+    <string id="prince_lokti" text="Ipiedzinis" />
+	<string id="princess_lokti" text="Ipiedzine" />
+	<string id="princes_lokti" text="Ipiedziniaj" />
+	<string id="lord_lokti" text="Vałdovas" />
+	<string id="lady_lokti" text="Vałdove" />
+	<string id="lordship_lokti" text="Vałdovyste" />
+	<string id="baron_lokti" text="Viešpac" />
+	<string id="baroness_lokti" text="Viešpaciene" />
+	<string id="barony_lokti" text="Valšyŭs" />
+	<string id="count_lokti" text="Kunihajkštys" />
+	<string id="countess_lokti" text="Kunihajkšciene" />
+	<string id="county_lokti" text="Kunihajkšciste" />
+	<string id="duke_lokti" text="Kunihas" />
+	<string id="duchess_lokti" text="Kunihiene" />
+	<string id="duchy_lokti" text="Kunihstva" />
+	<string id="king_lokti" text="Kunihu Kunihas" />
+	<string id="queen_lokti" text="Kunihieniu Kunihiene" />
+	<string id="kingdom_lokti" text="Dzidzi Kunihstva" />
+	<string id="emperor_lokti" text="Karaliŭs" />
+	<string id="empress_lokti" text="Karalene" />
+	<string id="empire_lokti" text="Karaliste" />
+	
+	<string id="knight_khuzait" text="Chiešyh" />
+    <string id="knightess_khuzait" text="Chiešyh" />
+    <string id="knights_khuzait" text="Chiešyhnud" />
+    <string id="prince_khuzait" text="Chan Chu" />
+    <string id="princess_khuzait" text="Hondžy" />
+    <string id="princes_khuzait" text="Chan Chunud" />
+    <string id="lord_khuzait" text="Erksiem" />
+    <string id="lady_khuzait" text="Chatahtaj" />
+    <string id="lordship_khuzait" text="Erksiemlik" />
+    <string id="baron_khuzait" text="Bieh" />
+    <string id="baroness_khuzait" text="Biehum" />
+    <string id="barony_khuzait" text="Biehlik" />
+    <string id="count_khuzait" text="Atabieh" />
+    <string id="countess_khuzait" text="Atabiehum" />
+    <string id="county_khuzait" text="Atabiehlik" />
+    <string id="duke_khuzait" text="Chan" />
+    <string id="duchess_khuzait" text="Chanum" />
+    <string id="duchy_khuzait" text="Chanlik" />
+    <string id="king_khuzait" text="Chahan" />
+    <string id="queen_khuzait" text="Chatun" />
+    <string id="kingdom_khuzait" text="Chahanlik" />
+    <string id="emperor_khuzait" text="Erksiem Chahan" />
+    <string id="empress_khuzait" text="Erksiem Chatun" />
+    <string id="empire_khuzait" text="Ułus" />
+	
+	<string id="knight_iltanlar" text="Chiešyh" />
+    <string id="knightess_iltanlar" text="Chiešyh" />
+    <string id="knights_iltanlar" text="Chiešyhnud" />
+    <string id="prince_iltanlar" text="Chan Chu" />
+    <string id="princess_iltanlar" text="Hondžy" />
+    <string id="princes_iltanlar" text="Chan Chunud" />
+    <string id="lord_iltanlar" text="Erksiem" />
+    <string id="lady_iltanlar" text="Chatahtaj" />
+    <string id="lordship_iltanlar" text="Erksiemlik" />
+    <string id="baron_iltanlar" text="Bieh" />
+    <string id="baroness_iltanlar" text="Biehum" />
+    <string id="barony_iltanlar" text="Biehlik" />
+    <string id="count_iltanlar" text="Atabieh" />
+    <string id="countess_iltanlar" text="Atabiehum" />
+    <string id="county_iltanlar" text="Atabiehlik" />
+    <string id="duke_iltanlar" text="Chan" />
+    <string id="duchess_iltanlar" text="Chanum" />
+    <string id="duchy_iltanlar" text="Chanlik" />
+    <string id="king_iltanlar" text="Chahan" />
+    <string id="queen_iltanlar" text="Chatun" />
+    <string id="kingdom_iltanlar" text="Chahanlik" />
+    <string id="emperor_iltanlar" text="Erksiem Chahan" />
+    <string id="empress_iltanlar" text="Erksiem Chatun" />
+    <string id="empire_iltanlar" text="Ułus" />
+
+    <string id="knight_empire" text="Pranojaryŭs" />
+    <string id="knightess_empire" text="Pranojaryja" />
+    <string id="knights_empire" text="Pranojary" />
+    <string id="prince_empire" text="Prynceps" />
+    <string id="princess_empire" text="Pryncepissa" />
+    <string id="princes_empire" text="Pryncepsy" />
+    <string id="lord_empire" text="Dominus" />
+    <string id="lady_empire" text="Domina" />
+    <string id="lordship_empire" text="Dominiŭm" />
+    <string id="baron_empire" text="Baro" />
+    <string id="baroness_empire" text="Baranesa" />
+    <string id="barony_empire" text="Baronatum" />
+    <string id="count_empire" text="Komes" />
+    <string id="countess_empire" text="Komietessa" />
+    <string id="county_empire" text="Komitatus" />
+    <string id="duke_empire" text="Duks" />
+    <string id="duchess_empire" text="Dukisa" />
+    <string id="duchy_empire" text="Dukatum" />
+    <string id="king_empire" text="Reks" />
+    <string id="queen_empire" text="Rehina" />
+    <string id="kingdom_empire" text="Rehnum" />
+    <string id="emperor_empire" text="Impieratar" />
+    <string id="empress_empire" text="Impieratryca" />
+    <string id="empire_empire" text="Impieryŭm" />
+
+	<string id="knight_empire_alt" text="Pranojaryŭs" />
+	<string id="knightess_empire_alt" text="Pranojaryja" />
+	<string id="knights_empire_alt" text="Pranojary" />
+    <string id="prince_empire_alt" text="Prynkips" />
+	<string id="princess_empire_alt" text="Prynkipisa" />
+	<string id="princes_empire_alt" text="Prynkipes" />
+	<string id="lord_empire_alt" text="Karyarchos" />
+	<string id="lady_empire_alt" text="Koryarchusa" />
+	<string id="lordship_empire_alt" text="Korys" />
+	<string id="baron_empire_alt" text="Kiefale" />
+	<string id="baroness_empire_alt" text="Kiefale" />
+	<string id="barony_empire_alt" text="Katepanikon" />
+	<string id="count_empire_alt" text="Archon" />
+	<string id="countess_empire_alt" text="Archusa" />
+	<string id="county_empire_alt" text="Archoncyja" />
+	<string id="duke_empire_alt" text="Duks" />
+	<string id="duchess_empire_alt" text="Dukisa" />
+	<string id="duchy_empire_alt" text="Tema" />
+	<string id="king_empire_alt" text="Ekzarchos" />
+	<string id="queen_empire_alt" text="Ekzarchusa" />
+	<string id="kingdom_empire_alt" text="Ekzarchoncyja" />
+	<string id="emperor_empire_alt" text="Bazileŭs" />
+	<string id="empress_empire_alt" text="Bazileja" />
+	<string id="empire_empire_alt" text="Bazileja" />
+	
+	<string id="knight_zendar" text="Atanatos" />
+	<string id="knightess_zendar" text="Atanate" />
+	<string id="knights_zendar" text="Atanatoi" />
+    <string id="prince_zendar" text="Prynkips" />
+	<string id="princess_zendar" text="Prynkipisa" />
+	<string id="princes_zendar" text="Prynkipes" />
+	<string id="lord_zendar" text="Karyarchos" />
+	<string id="lady_zendar" text="Koryarchusa" />
+	<string id="lordship_zendar" text="Korys" />
+	<string id="baron_zendar" text="Polemarchos" />
+	<string id="baroness_zendar" text="Polemarchusa" />
+	<string id="barony_zendar" text="Polemarchoncyja" />
+	<string id="count_zendar" text="Komis" />
+	<string id="countess_zendar" text="Komisa" />
+	<string id="county_zendar" text="Polis" />
+	<string id="duke_zendar" text="Prynkips" />
+	<string id="duchess_zendar" text="Prynkipisa" />
+	<string id="duchy_zendar" text="Dukaton" />
+	<string id="king_zendar" text="Krator" />
+	<string id="queen_zendar" text="Kratejra" />
+	<string id="kingdom_zendar" text="Kratoryja" />
+	<string id="emperor_zendar" text="Aftokrator" />
+	<string id="empress_zendar" text="Aftokracira" />
+	<string id="empire_zendar" text="Aftokratoryja" />
+	
+	<string id="knight_battania" text="Fian" />
+	<string id="knightess_battania" text="Fianesa" />
+	<string id="knights_battania" text="Fianna" />
+    <string id="prince_battania" text="Piendzievik" />
+	<string id="princess_battania" text="Piendzievikies" />
+	<string id="princes_battania" text="Piendzievikiad" />
+	<string id="lord_battania" text="Arlvit" />
+	<string id="lady_battania" text="Arlvicies" />
+	<string id="lordship_battania" text="Arlvidziaech" />
+	<string id="baron_battania" text="Cieirn" />
+	<string id="baroness_battania" text="Cieirnies" />
+	<string id="barony_battania" text="Cieirnas" />
+	<string id="count_battania" text="Civisaŭk" />
+	<string id="countess_battania" text="Civisokies" />
+	<string id="county_battania" text="Civisaŭkiaech" />
+	<string id="duke_battania" text="Brevin" />
+	<string id="duchess_battania" text="Brevines" />
+	<string id="duchy_battania" text="Brevinech" />
+	<string id="king_battania" text="Uchielbrevin" />
+	<string id="queen_battania" text="Uchielbrevines" />
+	<string id="kingdom_battania" text="Uchielbrevinech" />
+	<string id="emperor_battania" text="Piendrek" />
+	<string id="empress_battania" text="Piendrekies" />
+	<string id="empire_battania" text="Piendrekiaech" />
+	
+	<string id="knight_battania_alt" text="Fiann" />
+	<string id="knightess_battania_alt" text="Fianesa" />
+	<string id="knights_battania_alt" text="Fianna" />
+    <string id="prince_battania_alt" text="Fłach" />
+	<string id="princess_battania_alt" text="Banfłach" />
+	<string id="princes_battania_alt" text="Fłachan" />
+	<string id="lord_battania_alt" text="Ciarna" />
+	<string id="lady_battania_alt" text="Banciarna" />
+	<string id="lordship_battania_alt" text="Cihiernas" />
+	<string id="baron_battania_alt" text="Teisiach" />
+	<string id="baroness_battania_alt" text="Banteisiach" />
+	<string id="barony_battania_alt" text="Tosiacha" />
+	<string id="count_battania_alt" text="Mormer" />
+	<string id="countess_battania_alt" text="Banmormer" />
+	<string id="county_battania_alt" text="Mormeracht" />
+	<string id="duke_battania_alt" text="Ryh" />
+	<string id="duchess_battania_alt" text="Banryh" />
+	<string id="duchy_battania_alt" text="Ryhachd" />
+	<string id="king_battania_alt" text="Ard-Ryh" />
+	<string id="queen_battania_alt" text="Ard-Banryh" />
+	<string id="kingdom_battania_alt" text="Ard-Ryhachd" />
+	<string id="emperor_battania_alt" text="Piendrahon" />
+	<string id="empress_battania_alt" text="Pienbandrahon" />
+	<string id="empire_battania_alt" text="Piendrahonachd" />
+	
+	<!-- https://en.wikipedia.org/wiki/Oblique_case#French -->
+	<string id="knight_vlandia" text="Ševaler" /> 
+	<string id="knightess_vlandia" text="Ševales" />
+	<string id="knights_vlandia" text="Ševaler" />
+    <string id="prince_vlandia" text="Edzielinh" />
+	<string id="princess_vlandia" text="Edzieles" />
+	<string id="princes_vlandia" text="Edzielinh" />
+	<string id="lord_vlandia" text="Sir" />
+	<string id="lady_vlandia" text="Sires" />
+	<string id="lordship_vlandia" text="Sińjory" />
+	<string id="baron_vlandia" text="Bier" />
+	<string id="baroness_vlandia" text="Bieres" />
+	<string id="barony_vlandia" text="Baroni" />
+	<string id="count_vlandia" text="Kun" />
+	<string id="countess_vlandia" text="Kontes" />
+	<string id="county_vlandia" text="Kanci" />
+	<string id="duke_vlandia" text="Pryns" />
+	<string id="duchess_vlandia" text="Prynses" />
+	<string id="duchy_vlandia" text="Prynsypaliz" />
+	<string id="king_vlandia" text="Res" />
+	<string id="queen_vlandia" text="Reńi" />
+	<string id="kingdom_vlandia" text="Reńjes" />
+	<string id="emperor_vlandia" text="Empierer" />
+	<string id="empress_vlandia" text="Empieres" />
+	<string id="empire_vlandia" text="Empieryja" />
+	
+	<string id="knight_swadia" text="Chier" />
+	<string id="knightess_swadia" text="Fraŭ" />
+	<string id="knights_swadia" text="Chierren" />
+    <string id="prince_swadia" text="Edelink" />
+	<string id="princess_swadia" text="Edelfraŭ" />
+	<string id="princes_swadia" text="Edelinkien" />
+	<string id="lord_swadia" text="Huhrev" />
+	<string id="lady_swadia" text="Huhravin" />
+	<string id="lordship_swadia" text="Huhravešaft" />
+	<string id="baron_swadia" text="Burkhrav" />
+	<string id="baroness_swadia" text="Burkhravin" />
+	<string id="barony_swadia" text="Burkhravešaft" />
+	<string id="count_swadia" text="Hrav" />
+	<string id="countess_swadia" text="Hravin" />
+	<string id="county_swadia" text="Hraviešaft" />
+	<string id="duke_swadia" text="Chiercoh" />
+	<string id="duchess_swadia" text="Chiercohin" />
+	<string id="duchy_swadia" text="Chiercohientum" />
+	<string id="king_swadia" text="Kunik" />
+	<string id="queen_swadia" text="Kunihin" />
+	<string id="kingdom_swadia" text="Kunikryš" />
+	<string id="emperor_swadia" text="Fronenant" />
+	<string id="empress_swadia" text="Fronenancin" />
+	<string id="empire_swadia" text="Fronenantryš" />
+	
+	<string id="knight_rhodok" text="Chier" />
+	<string id="knightess_rhodok" text="Fru" />
+	<string id="knights_rhodok" text="Chierren" />
+    <string id="prince_rhodok" text="Edelink" />
+	<string id="princess_rhodok" text="Edelfru" />
+	<string id="princes_rhodok" text="Edelinkien" />
+	<string id="lord_rhodok" text="Łandschier" />
+	<string id="lady_rhodok" text="Łandsfru" />
+	<string id="lordship_rhodok" text="Łandschierešaft" />
+	<string id="baron_rhodok" text="Frychier" />
+	<string id="baroness_rhodok" text="Fryfru" />
+	<string id="barony_rhodok" text="Frychierešaft" />
+	<string id="count_rhodok" text="Hrav" />
+	<string id="countess_rhodok" text="Hravin" />
+	<string id="county_rhodok" text="Hraviešaft" />
+	<string id="duke_rhodok" text="Kunik" />
+	<string id="duchess_rhodok" text="Kunihin" />
+	<string id="duchy_rhodok" text="Kunikryš" />
+	<string id="king_rhodok" text="Chuhiekunik" />
+	<string id="queen_rhodok" text="Chuhiekunihin" />
+	<string id="kingdom_rhodok" text="Chuhiekunikryš" /> <!-- https://en.wiktionary.org/wiki/riche#Middle_High_German Alemannic https://en.wiktionary.org/wiki/hooch#Alemannic_German strong nominative  -->
+	<string id="emperor_rhodok" text="Fronienent" /> <!-- vrou + en + ent, akin to Gothic https://en.wiktionary.org/wiki/𐍆𐍂𐌰𐌿𐌾𐌹𐌽𐍉𐌽𐌳𐍃#Gothic -->
+	<string id="empress_rhodok" text="Fronienencin" />
+	<string id="empire_rhodok" text="Fronienentryš" />
+	
+	<string id="knight_balion" text="Hiesit" />
+	<string id="knightess_balion" text="Hiesiten" />
+	<string id="knights_balion" text="Hiesitas" />
+    <string id="prince_balion" text="Etelinh" />
+	<string id="princess_balion" text="Chłefdzih" />
+	<string id="princes_balion" text="Etelinhas" />
+	<string id="lord_balion" text="Chłaford" />
+	<string id="lady_balion" text="Chłefdzih" />
+	<string id="lordship_balion" text="Chłafordskip" />
+	<string id="baron_balion" text="Tehien" />
+	<string id="baroness_balion" text="Chłefdzih" />
+	<string id="barony_balion" text="Sotnia" />
+	<string id="count_balion" text="Ełdormann" />
+	<string id="countess_balion" text="Chłefdzih" />
+	<string id="county_balion" text="Skir" />
+	<string id="duke_balion" text="Erł" />
+	<string id="duchess_balion" text="Erlen" />
+	<string id="duchy_balion" text="Erłdom" />
+	<string id="king_balion" text="Kininh" />
+	<string id="queen_balion" text="Kvien" />
+	<string id="kingdom_balion" text="Rys" />
+	<string id="emperor_balion" text="Brytenvald" />
+	<string id="empress_balion" text="Brytenvalden" />
+	<string id="empire_balion" text="Brytenrys" />
+	
+
+	
+	<string id="knight_siri" text="Dzihnareł" />
+	<string id="knightess_siri" text="Dzihnareł-Itt" />
+	<string id="knights_siri" text="Dzihnarelihu" />
+    <string id="prince_siri" text="Pur" />
+	<string id="princess_siri" text="Nhonnas" />
+	<string id="princes_siri" text="Purnihoŭ" />
+	<string id="lord_siri" text="Nhod" />
+	<string id="lady_siri" text="Nhod-Itt" />
+	<string id="lordship_siri" text="Erk" />
+	<string id="baron_siri" text="Davkatt" />
+	<string id="baroness_siri" text="Davkatt-Itt" />
+	<string id="barony_siri" text="Dzipp" />
+	<string id="count_siri" text="Samiet" />
+	<string id="countess_siri" text="Samiet-Itt" />
+	<string id="county_siri" text="Samiett" />
+	<string id="duke_siri" text="Miek" />
+	<string id="duchess_siri" text="Miek-Itt" />
+	<string id="duchy_siri" text="Miekk" />
+	<string id="king_siri" text="Uru" />
+	<string id="queen_siri" text="Nhonen" />
+	<string id="kingdom_siri" text="Urkan" />
+	<string id="emperor_siri" text="Urujhun Uru" />
+	<string id="empress_siri" text="Nhonenihun Nhonen" />
+	<string id="empire_siri" text="Urkan Ur" />
+	
+	<string id="knight_kannic" text="Bał" />
+	<string id="knightess_kannic" text="Balit" />
+	<string id="knights_kannic" text="Bałt" />
+    <string id="prince_kannic" text="Bin Miłk" />
+	<string id="princess_kannic" text="Bit Miłk" />
+	<string id="princes_kannic" text="Zar Miłk" />
+	<string id="lord_kannic" text="Rab Bał" />
+	<string id="lady_kannic" text="Rab Balit" /> 
+	<string id="lordship_kannic" text="Bałarst" /> 
+	<string id="baron_kannic" text="Adon" />
+	<string id="baroness_kannic" text="Adonit" />
+	<string id="barony_kannic" text="Hodzir" />
+	<string id="count_kannic" text="Miłkart" />
+	<string id="countess_kannic" text="Miłkarcit" />
+	<string id="county_kannic" text="Kart" />
+	<string id="duke_kannic" text="Šar" /> <!-- https://en.wiktionary.org/wiki/𐤔𐤓 -->
+	<string id="duchess_kannic" text="Šarut" />
+	<string id="duchy_kannic" text="Šararst" />
+	<string id="king_kannic" text="Miłk" />
+	<string id="queen_kannic" text="Miłkut" />
+	<string id="kingdom_kannic" text="Mimłakit" />
+	<string id="emperor_kannic" text="Rab Miłk" />
+	<string id="empress_kannic" text="Rab Miłkut" />
+	<string id="empire_kannic" text="Rab Mimłakit" />
+  </strings>
+</base>
