@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+
+
+
+  <strings>
+	<!-- AI Module Strings -->
+	<string id="RBM_AI_001" text="АТК ЛУК:" />
+	<string id="RBM_AI_002" text="АТК КЛ :" />
+	<string id="RBM_AI_003" text="АТК ВЕР:" />
+	<string id="RBM_AI_004" text="АТК ПЯХ:" />
+	<string id="RBM_AI_005" text="АБА ЛУК:" />
+	<string id="RBM_AI_006" text="АБА КЛ :" />
+	<string id="RBM_AI_007" text="АБА ВЕР:" />
+	<string id="RBM_AI_008" text="АБА ПЯХ:" />
+	<string id="RBM_AI_009" text="Парушэньне паставы: Пастава зьнясілена, нанесена {DMG} скразной шкоды" />
+	<string id="RBM_AI_010" text="Парушэньне варожай паставы: Пастава зьнясілена, нанесена {DMG} скразной шкоды" />
+	<string id="RBM_AI_011" text="Парушэньне паставы: Пастава зьнясілена, дасканалае парыраваньне, нанесена {DMG} скразной шкоды" />
+	<string id="RBM_AI_012" text="Парушэньне варожай паставы: Пастава зьнясілена, дасканалае парыраваньне, нанесена {DMG} скразной шкоды" />
+	<string id="RBM_AI_013" text="Парушэньне паставы: Пастава зьнясілена, дасканалае парыраваньне" />
+	<string id="RBM_AI_014" text="Парушэньне паставы: Пастава зьнясілена, блок з хібнага боку" />
+	<string id="RBM_AI_015" text="Парушэньне паставы: Пастава зьнясілена, блок са слушнага боку" />
+	<string id="RBM_AI_016" text="Парушэньне паставы: Пастава зьнясілена, дасканалае парыраваньне, блок са слушнага боку" />
+	<string id="RBM_AI_017" text="Парушэньне паставы: Пастава зьнясілена, дасканалае парыраваньне, блок са слушнага боку" />
+	<string id="RBM_AI_018" text="Парушэньне паставы: Пастава зьнясілена, ударны блок" />
+	<string id="RBM_AI_019" text="Парушэньне паставы: Пастава зьнясілена, ударны блок, нанесена {DMG} скразной шкоды" />
+	<string id="RBM_AI_020" text="Ударны блок, нанесена {DMG} скразной шкоды" />
+	<string id="RBM_AI_021" text="Вы атрымалі {DMG1} тупой шкоды, {DMG2} бронепрабівальнай шкоды" />
+	<string id="RBM_AI_022" text="Вы нанесьлі {DMG1} тупой шкоды, {DMG2} бронепрабівальнай шкоды" />
+	<string id="RBM_AI_023" text="Пастава" />
+	<!-- Combat Module Strings -->
+	<string id="RBM_COM_001" text="{TYPE} удар" />
+	<string id="RBM_COM_002" text="{TYPE} удар" />
+	<string id="RBM_COM_003" text="Дзяржаньне" />
+	<string id="RBM_COM_004" text="Эфес" />
+	<string id="RBM_COM_005" text="Удар у твар!" />
+	<string id="RBM_COM_006" text="Удар у твар!" />
+	<string id="RBM_COM_007" text="Удар пад плячо" />
+	<string id="RBM_COM_008" text="Удар пад плячо" />
+	<string id="RBM_COM_009" text="Ідэальная Вага Снарадаў Далёкасьць/Шкода, грамаў: " />
+	<string id="RBM_COM_010" text="Пачатковая Хуткасьць Снарада, м/с: " />
+	<string id="RBM_COM_011" text="Цягавая вага з мадыфікатарам: " />
+	<string id="RBM_COM_012" text="Колючая Шкода Снарада" />
+	<string id="RBM_COM_013" text="Рэжучая Шкода Снарада" />
+	<string id="RBM_COM_014" text="Адпаведны Навык: " />
+	<string id="RBM_COM_015" text="Шкода Снарада" />
+	<string id="RBM_COM_016" text="Фактар Рэжучай Шкоды:" />
+	<string id="RBM_COM_017" text="Фактар Колючай Шкоды:" />
+	<string id="RBM_COM_018" text="Рэжучая Дасканаласьць, %: " />
+	<string id="RBM_COM_019" text="RBM Статы Распрацоўніка" />
+	<string id="RBM_COM_020" text="Рэжучая Хуткасьць, м/с: " />
+	<string id="RBM_COM_021" text="Колючая Хуткасьць, м/с: " />
+	<string id="RBM_COM_022" text="Браня Шчыта: " />
+	<string id="RBM_COM_023" text="Браня Твару" />
+	<string id="RBM_COM_024" text="Браня Шыі" />
+	<string id="RBM_COM_025" text="Браня Плячэй" />
+	<string id="RBM_COM_026" text="Браня Жывата" />
+	<string id="RBM_COM_027" text="Ніжняя Браня Плячэй" />
+	<string id="RBM_COM_028" text="Б-Браня" />
+	<string id="RBM_COM_029" text="Н-Нанесеная Шкода" />
+	<string id="RBM_COM_030" text="П-Пранікальная Шкода" />
+	<string id="RBM_COM_031" text="Т-Тупая Шкода" />
+	<string id="RBM_COM_032" text="Б" />
+	<string id="RBM_COM_033" text="Н" />
+	<string id="RBM_COM_034" text="П" />
+	<string id="RBM_COM_035" text="Т" />
+	<string id="RBM_COM_036" text="RBM Статы" />
+	<string id="RBM_COM_037" text="Навядзеньне" />
+	<!-- Config Module Strings -->
+	<string id="RBM_CON_001" text="Неактыўна" />
+	<string id="RBM_CON_002" text="Актыўна (Раіцца)" />
+	<string id="RBM_CON_003" text="Перапрацоўка Ваяроў" />
+	<string id="RBM_CON_004" text="Ваніль" />
+	<string id="RBM_CON_005" text="Рэалізм" />
+	<string id="RBM_CON_006" text="Паўрэалізм" />
+	<string id="RBM_CON_007" text="Стралковая хуткасьць перазарадкі" />
+	<string id="RBM_CON_008" text="Пасіўныя Наплечныя Шчыты" />
+	<string id="RBM_CON_009" text="Палепшаны Візуал Стрэлаў" />
+	<string id="RBM_CON_010" text="GUI Статусу Брані" />
+	<string id="RBM_CON_011" text="Рэалістычная Дуга Стралы" />
+	<string id="RBM_CON_012" text="Сістэма Паставы" />
+	<string id="RBM_CON_013" text="Множнік Паставы Гульца" />
+	<string id="RBM_CON_014" text="GUI Паставы" />
+	<string id="RBM_CON_015" text="Ванільны ШІ Блакаваньне/Парыраваньне/Атака" />
+	<string id="RBM_CON_016" text="RBM Бітвы" />
+	<string id="RBM_CON_017" text="Статус Модуля" />
+	<string id="RBM_CON_018" text="RBM ШІ" />
+	<string id="RBM_CON_019" text="RBM Турніры" />
+	<string id="RBM_CON_020" text="RBM Канфігураваньне" />
+	<string id="RBM_CON_021" text="Перавага колючай зброі для ШІ (стандартная 0.05)" />
+	<!-- Tournament Module Strings -->
+	<string id="RBM_TOU_001" text="Галоўны турнір" />
+	<string id="RBM_TOU_002" text="Турнір ніжэйшага роўню: Ровень {TIER}" />
+	<string id="RBM_TOU_003" text="Віншуем, вы пасьпяхова зрабілі кідок для мадыфікатару прадмету {Name}, выкінута:{Roll} патрабуецца: {Need}" />
+	<string id="RBM_TOU_004" text="Вы прапусьцілі кідок для мадыфікатару прадмету {Name}, выкінута:{Roll} патрабуецца: {Need}" />
+	<!-- module_strings.xml Strings -->
+	<string id="RBM_STR_001" text="{?IS_RIGHT}Правыя {TROOP_NAMES_BEGIN}{?IS_PLURAL} і {?}{\?}{TROOP_NAMES_END} б'юць і ўцякаюць.{?}{\?}{?IS_LEFT}Левыя {TROOP_NAMES_BEGIN}{?IS_PLURAL} і {?}{\?}{TROOP_NAMES_END} б'юць і ўцякаюць.{?}{\?}" />
+	<string id="RBM_STR_002" text="Пяхота атакуе з флангу." />
+	<string id="RBM_STR_003" text="Лучнікі страляюць з флангаў." />
+	<string id="RBM_STR_004" text="Вершніца фармуе лятучы клін прама на пяхоту." />
+	<string id="RBM_STR_005" text="Зладзіце перастрэл" />
+	<string id="RBM_STR_006" text="Біце і ўцякайце." />
+	<string id="RBM_STR_007" text="Атакуйце ворага" />
+	<string id="RBM_STR_008" text="Ладзіце перастрэл {SIDE_STRING} флангу" />
+	<string id="RBM_STR_009" text="Фармуйце лятучы клін прама на пяхоту" />
+	<string id="RBM_STR_010" text="Нашы план - атакаваць усімі сіламі і абысьці з флангу лучнікамі." />
+	<string id="RBM_STR_011" text="Нашы план - падзяліць пяхоту і задушыць яе з усіх бакоў." />
+	<string id="RBM_STR_012" text="Нашы план - прывабіць ворагаў стралянінай, а потым задушыць усімі сіламі." />
+	<string id="RBM_STR_013" text="Нашы план - сфармаваць абарончую лінію з лучнікамі на флангах." />
+	<string id="RBM_STR_014" text="Нашы план - атакаваць у лоб нашай вершніцай, а потым раздушыць дэзарганізаваныя пабудовы." />
+	<!-- RBMCombat_arrow_visuals.xml Strings -->
+	<string id="RBM_ARR_001" text="{.Mnozny}Лёткія Стрэлы 30 Грамаў" />
+	<string id="RBM_ARR_002" text="{.Mnozny}Колкія Стрэлы 40 Грамаў" />
+	<string id="RBM_ARR_003" text="{.Mnozny}Ігольчастыя Стрэлы 40 Грамаў" />
+	<string id="RBM_ARR_004" text="{.Mnozny}Колкія Балты 50 Грамаў" />
+	<string id="RBM_ARR_005" text="{.Mnozny}Ігольчастыя Стрэлы 50 Грамаў" />
+	<string id="RBM_ARR_006" text="{.Mnozny}Колкія Стрэлы 50 Грамаў" />
+	<string id="RBM_ARR_007" text="{.Mnozny}Ігольчастыя Балты 60 Грамаў" />
+	<string id="RBM_ARR_008" text="{.Mnozny}Колкія Стрэлы 60 Грамаў" />
+	<string id="RBM_ARR_009" text="{.Mnozny}Ігольчастыя Стрэлы 60 Грамаў" />
+	<string id="RBM_ARR_010" text="{.Mnozny}Ігольчастыя Стрэлы 70 Грамаў" />
+	<string id="RBM_ARR_011" text="{.Mnozny}Ігольчастыя Балты 75 Грамаў" />
+	<string id="RBM_ARR_012" text="{.Mnozny}Ігольчастыя Стрэлы 80 Грамаў" />
+	<string id="RBM_ARR_013" text="{.Mnozny}Ігольчастыя Балты 90 Грамаў" />
+	<string id="RBM_ARR_014" text="{.Mnozny}Ігольчастыя Стрэлы 90 Грамаў" />
+	<string id="RBM_ARR_015" text="{.Mnozny}Ігольчастыя Стрэлы 100 Грамаў" />
+	<string id="RBM_ARR_016" text="{.Mnozny}Цяжкія Ігольчастыя Стрэлы 110 Грамаў" />
+	<string id="RBM_ARR_017" text="{.Mnozny}Цяжкія Ігольчастыя Балты 120 Грамаў" />
+	<string id="RBM_ARR_018" text="{.Mnozny}Вельмі Цяжкія Ігольчастыя Стрэлы 125 Грамаў" />
+	<string id="RBM_ARR_019" text="{.Mnozny}Вельмі Цяжкія Ігольчастыя Балты 150 Грамаў" />
+	<string id="RBM_ARR_020" text="{.Mnozny}Змазаныя Лёткія Стрэлы 30 Грамаў" />
+	<string id="RBM_ARR_021" text="{.Mnozny}Змазаныя Колкія Стрэлы 40 Грамаў" />
+	<string id="RBM_ARR_022" text="{.Mnozny}Змазаныя Ігольчастыя Стрэлы 40 Грамаў" />
+	<string id="RBM_ARR_023" text="{.Mnozny}Змазаныя Колкія Балты 50 Грамаў" />
+	<string id="RBM_ARR_024" text="{.Mnozny}Змазаныя Ігольчастыя Стрэлы 50 Грамаў" />
+	<string id="RBM_ARR_025" text="{.Mnozny}Змазаныя Колкія Стрэлы 50 Грамаў" />
+	<string id="RBM_ARR_026" text="{.Mnozny}Змазаныя Ігольчастыя Балты 60 Грамаў" />
+	<string id="RBM_ARR_027" text="{.Mnozny}Змазаныя Колкія Стрэлы 60 Грамаў" />
+	<string id="RBM_ARR_028" text="{.Mnozny}Змазаныя Ігольчастыя Стрэлы 60 Грамаў" />
+	<string id="RBM_ARR_029" text="{.Mnozny}Змазаныя Ігольчастыя Стрэлы 70 Грамаў" />
+	<string id="RBM_ARR_030" text="{.Mnozny}Змазаныя Ігольчастыя Балты 75 Грамаў" />
+	<string id="RBM_ARR_031" text="{.Mnozny}Змазаныя Ігольчастыя Стрэлы 80 Грамаў" />
+	<string id="RBM_ARR_032" text="{.Mnozny}Змазаныя Ігольчастыя Балты 90 Грамаў" />
+	<string id="RBM_ARR_033" text="{.Mnozny}Змазаныя Ігольчастыя Стрэлы 90 Грамаў" />
+	<string id="RBM_ARR_034" text="{.Mnozny}Змазаныя Ігольчастыя Стрэлы 100 Грамаў" />
+	<string id="RBM_ARR_035" text="{.Mnozny}Змазаныя Цяжкія Ігольчастыя Стрэлы 110 Грамаў" />
+	<string id="RBM_ARR_036" text="{.Mnozny}Змазаныя Цяжкія Ігольчастыя Балты 120 Грамаў" />
+	<string id="RBM_ARR_037" text="{.Mnozny}Змазаныя Вельмі Цяжкія Ігольчастыя Стрэлы 125 Грамаў" />
+	<string id="RBM_ARR_038" text="{.Mnozny}Змазаныя Вельмі Цяжкія Ігольчастыя Балты 150 Грамаў" />
+	<string id="RBM_ARR_039" text="{.Mnozny}Тамаскінскія Сталёвыя Загартаваныя Колкія Стрэлы 80 Грамаў" />
+	<string id="RBM_ARR_040" text="{.Mnozny}Тамаскінскія Сталёвыя Загартаваныя Колкія Стрэлы 90 Грамаў" />
+	<string id="RBM_ARR_041" text="{.Mnozny}Тамаскінскія Сталёвыя Загартаваныя Колкія Стрэлы 100 Грамаў" />
+	<string id="RBM_ARR_042" text="{.Mnozny}Тамаскінскія Сталёвыя Загартаваныя Колкія Стрэлы 110 Грамаў" />
+	<string id="RBM_ARR_043" text="{.Mnozny}Тамаскінскія Сталёвыя Загартаваныя Колкія Стрэлы 125 Грамаў" />
+	<string id="RBM_ARR_044" text="{.Mnozny}Сталёвыя Загартаваныя Колкія Балты 75 Грамаў" />
+	<string id="RBM_ARR_045" text="{.Mnozny}Сталёвыя Загартаваныя Колкія Балты 90 Грамаў" />
+	<string id="RBM_ARR_046" text="{.Mnozny}Сталёвыя Загартаваныя Колкія Балты 120 Грамаў" />
+	<string id="RBM_ARR_047" text="{.Mnozny}Сталёвыя Загартаваныя Колкія Балты 150 Грамаў" />
+	<string id="RBM_ARR_048" text="{.Mnozny}Змазаныя Сталёвыя Загартаваныя Колкія Стрэлы 80 Грамаў" />
+	<string id="RBM_ARR_049" text="{.Mnozny}Змазаныя Сталёвыя Загартаваныя Колкія Стрэлы 90 Грамаў" />
+	<string id="RBM_ARR_050" text="{.Mnozny}Змазаныя Сталёвыя Загартаваныя Колкія Стрэлы 100 Грамаў" />
+	<string id="RBM_ARR_051" text="{.Mnozny}Змазаныя Сталёвыя Загартаваныя Колкія Стрэлы 110 Грамаў" />
+	<string id="RBM_ARR_052" text="{.Mnozny}Змазаныя Сталёвыя Загартаваныя Колкія Стрэлы 125 Грамаў" />
+	<string id="RBM_ARR_053" text="{.Mnozny}Змазаныя Сталёвыя Загартаваныя Колкія Балты 75 Грамаў" />
+	<string id="RBM_ARR_054" text="{.Mnozny}Змазаныя Сталёвыя Загартаваныя Колкія Балты 90 Грамаў" />
+	<string id="RBM_ARR_055" text="{.Mnozny}Змазаныя Сталёвыя Загартаваныя Колкія Балты 120 Грамаў" />
+	<string id="RBM_ARR_056" text="{.Mnozny}Змазаныя Сталёвыя Загартаваныя Колкія Балты 150 Грамаў" />
+	<string id="RBM_ARR_057" text="{.Mnozny}Кальрадыйскія Вогненыя Стрэлы" />
+	<string id="RBM_ARR_058" text="{.Mnozny}Кальрадыйскія Вогненыя Балты" />
+	<!-- RBMCombat_body_armors.xml Strings -->
+	<string id="RBM_ARM_001" text="{.Muzcynski}Двайны Кальчужны Гаўберк" />
+	<string id="RBM_ARM_002" text="{.Muzcynski}Лёгкі Ламеляр над Кальчужнай Бранёй" />
+	<string id="RBM_ARM_003" text="{.Muzcynski}Лёгкі Ламеляр над Кальчугай" />
+	<string id="RBM_ARM_004" text="{.Zanocy}Лускатая Браня над Кальчугай" />
+	<string id="RBM_ARM_005" text="{.Zanocy}Ламелярная Браня над Кальчугай" />
+	<string id="RBM_ARM_006" text="{.Muzcynski}Цяжкі Ламеляр над Кальчугай з Лускатай Спадніцай" />
+	<string id="RBM_ARM_007" text="{.Muzcynski}Упрыгожаны Двайны Гаўберк" />
+	<string id="RBM_ARM_008" text="{.Muzcynski}Цяжкая Лускатая Браня над Двайной Кальчугай" />
+	<string id="RBM_ARM_009" text="{.Zanocy}Кароткая Ламелярная Камізэлька" />
+	<!-- RBMCombat_couched_lances.xml Strings -->
+	<string id="RBM_CLA_001" text="Наверша Лёгкай Дзіды" />
+	<string id="RBM_CLA_002" text="Наверша Турнірнай Лёгкай Дзіды" />
+	<string id="RBM_CLA_003" text="Наверша Сярэдняй Дзіды" />
+	<string id="RBM_CLA_004" text="Наверша Турнірнай Сярэдняй Дзіды" />
+	<string id="RBM_CLA_005" text="Наверша Цяжкай Дзіды" />
+	<string id="RBM_CLA_006" text="Наверша Тамаскінскай Сталёвай Ліставой Пікі" />
+	<!-- RBMCombat_gladius.xml Strings -->
+	<string id="RBM_GLA_001" text="{.Mnozny}Кідальныя Лабрысы" />
+	<string id="RBM_GLA_002" text="{.Mnozny}Аграмезныя Кідальныя Сякеры" />
+	<string id="RBM_GLA_003" text="{.Mnozny}Вялікія Кідальныя Сякеры" />
+	<string id="RBM_GLA_004" text="{.Mnozny}Сярэднія Кідальныя Сякеры" />
+	<string id="RBM_GLA_005" text="{.Mnozny}Маленькія Кідальныя Сякеры" />
+	<!-- RBMCombat_head_armors.xml Strings -->
+	<string id="RBM_HEA_001" text="{.Muzcynski}Шляхетны Вартавы Шалом" />
+	<!-- RBMCombat_horse_armors.xml Strings -->
+	<string id="RBM_HAR_001" text="{.Muzcynski}Ламелярны Бард" />
+	<!-- RBMCombat_item_modifiers.xml Strings -->
+	<string id="RBM_MOD_001" text="Пашкоджаны" />
+	<string id="RBM_MOD_002" text="Моцна Пашкоджаны" />
+	<string id="RBM_MOD_003" text="Зруйнаваны" />
+	<string id="RBM_MOD_004" text="Падрапаны" />
+	<string id="RBM_MOD_005" text="Падрапаны Друзлы" />
+	<string id="RBM_MOD_006" text="Падрапаны Іржавы" />
+	<string id="RBM_MOD_007" text="Трошкі Пашкоджаны" />
+	<string id="RBM_MOD_008" text="Вельмі Моцна Пашкоджаны" />
+	<!-- RBMCombat_lances.xml Strings -->
+	<string id="RBM_LAN_001" text="{.Muzcynski}Хваёвы Кідальны Дартс" />
+	<string id="RBM_LAN_002" text="{.Muzcynski}Хваёвы Дротык" />
+	<string id="RBM_LAN_003" text="{.Zanocy}Хваёвая Кідальная Дзіда" />
+	<string id="RBM_LAN_004" text="{.Zanocy}Ясянёвая Кідальная Дзіда" />
+	<string id="RBM_LAN_005" text="{.Muzcynski}Ясянёвы Дротык" />
+	<string id="RBM_LAN_006" text="{.Zanocy}Дубовая Кідальная Дзіда" />
+	<string id="RBM_LAN_007" text="{.Muzcynski}Дубовы Ангон" />
+	<string id="RBM_LAN_008" text="{.Muzcynski}Махагонавы Кідальны Дартс" />
+	<string id="RBM_LAN_009" text="{.Muzcynski}Махагонавы Дротык" />
+	<string id="RBM_LAN_010" text="{.Zanocy}Махагонавая Кідальная Дзіда" />
+	<string id="RBM_LAN_011" text="{.Zanocy}Вландыйская Лёгкая Дзіда" />
+	<string id="RBM_LAN_012" text="{.Zanocy}Імперская Лёгкая Дзіда" />
+	<string id="RBM_LAN_013" text="{.Zanocy}Хузаіцкая Лёгкая Дзіда" />
+	<string id="RBM_LAN_014" text="{.Zanocy}Вландыйская Дзіда" />
+	<string id="RBM_LAN_015" text="{.Zanocy}Імперская Дзіда" />
+	<string id="RBM_LAN_016" text="{.Zanocy}Усходняя Шляхетная Дзіда" />
+	<string id="RBM_LAN_017" text="{.Muzcynski}Усходні Меч на Тронке" />
+	<string id="RBM_LAN_018" text="{.Zanocy}Заходняя Піка" />
+	<string id="RBM_LAN_019" text="{.Muzcynski}Лёгкі Менавліён" />
+	<!-- RBMCombat_ranged.xml Strings -->
+	<string id="RBM_RAN_001" text="{.Muzcynski}Арбалет з Двайной Цецівой 500 Фунтаў" />
+	<string id="RBM_RAN_002" text="{.Muzcynski}Арбалет з Двайной Цецівой 450 Фунтаў" />
+	<string id="RBM_RAN_003" text="{.Muzcynski}Арбалет з Двайной Цецівой 410 Фунтаў" />
+	<string id="RBM_RAN_004" text="{.Muzcynski}Арбалет з Двайной Цецівой 370 Фунтаў" />
+	<string id="RBM_RAN_005" text="{.Muzcynski}Арбалет з Ахапляльнай Цецівой 330 Фунтаў" />
+	<string id="RBM_RAN_006" text="{.Muzcynski}Арбалет з Ахапляльнай Цецівой 290 Фунтаў" />
+	<string id="RBM_RAN_007" text="{.Muzcynski}Арбалет з Ахапляльнай Цецівой 250 Фунтаў" />
+	<string id="RBM_RAN_008" text="{.Muzcynski}Вайсковы Доўгі Лук 200 Фунтаў" />
+	<string id="RBM_RAN_009" text="{.Muzcynski}Турнірны Доўгі Лук 200 Фунтаў" />
+	<string id="RBM_RAN_010" text="{.Muzcynski}Вайсковы Доўгі Лук 180 Фунтаў" />
+	<string id="RBM_RAN_011" text="{.Muzcynski}Вайсковы Доўгі Лук 170 Фунтаў" />
+	<string id="RBM_RAN_012" text="{.Muzcynski}Кампазітны Вайсковы Лук 166 Фунтаў" />
+	<string id="RBM_RAN_013" text="{.Muzcynski}Турнірны Кампазітны Лук 166 Фунтаў" />
+	<string id="RBM_RAN_014" text="{.Muzcynski}Вайсковы Доўгі Лук 160 Фунтаў" />
+	<string id="RBM_RAN_015" text="{.Muzcynski}Вайсковы Доўгі Лук 150 Фунтаў" />
+	<string id="RBM_RAN_016" text="{.Muzcynski}Вайсковы Доўгі Лук 140 Фунтаў" />
+	<string id="RBM_RAN_017" text="{.Muzcynski}Кампазітны Вайсковы Лук 135 Фунтаў" />
+	<string id="RBM_RAN_018" text="{.Muzcynski}Вайсковы Доўгі Лук 130 Фунтаў" />
+	<string id="RBM_RAN_019" text="{.Muzcynski}Кампазітны Вайсковы Лук 125 Фунтаў" />
+	<string id="RBM_RAN_020" text="{.Muzcynski}Вайсковы Доўгі Лук 120 Фунтаў" />
+	<string id="RBM_RAN_021" text="{.Muzcynski}Кампазітны Вайсковы Лук 120 Фунтаў" />
+	<string id="RBM_RAN_022" text="{.Muzcynski}Кампазітны Вайсковы Лук 110 Фунтаў" />
+	<string id="RBM_RAN_023" text="{.Muzcynski}Кампазітны Вайсковы Лук 100 Фунтаў" />
+	<string id="RBM_RAN_024" text="{.Muzcynski}Вайсковы Доўгі Лук 100 Фунтаў" />
+	<string id="RBM_RAN_025" text="{.Muzcynski}Доўгі Лук 90 Фунтаў" />
+	<string id="RBM_RAN_026" text="{.Muzcynski}Кампазітны Лук 90 Фунтаў" />
+	<string id="RBM_RAN_027" text="{.Muzcynski}Кампазітны Лук 70 Фунтаў" />
+	<string id="RBM_RAN_028" text="{.Muzcynski}Кампазітны Лук 60 Фунтаў" />
+	<!-- RBMCombat_shields.xml Strings -->
+	<string id="RBM_SHI_001" text="{.Muzcynski}Наплечны Узмоцнены Тарж" />
+	<string id="RBM_SHI_002" text="{.Muzcynski}Наплечны Круглы Стэпавы Шчыт" />
+	<string id="RBM_SHI_003" text="{.Muzcynski}Наплечны Усходні Шчыт Вершніка" />
+	<string id="RBM_SHI_004" text="{.Muzcynski}Наплечны Пляменны Стэпавы Шчыт" />
+	<string id="RBM_SHI_005" text="{.Muzcynski}Наплечны Упрыгожаны Усходні Шчыт" />
+	<string id="RBM_SHI_006" text="{.Muzcynski}Наплечны Маленькі Трохкутны Шчыт Вершніка" />
+	<string id="RBM_SHI_007" text="{.Muzcynski}Наплечны Маленькі Плоскі Трохкутны Шчыт" />
+	<string id="RBM_SHI_008" text="{.Muzcynski}Наплечны Маленькі Трохкутны Шчыт" />
+	<string id="RBM_SHI_009" text="{.Muzcynski}Наплечны Пацёрты Конны Шчыт-Кропля" />
+	<string id="RBM_SHI_010" text="{.Muzcynski}Наплечны Драўляны Шчыт-Кропля" />
+	<string id="RBM_SHI_011" text="{.Muzcynski}Наплечны Самаробны Конны Шчыт-Кропля" />
+	<string id="RBM_SHI_012" text="{.Muzcynski}Наплечны Лёгкі Шчыт-Кропля Вершніка" />
+	<string id="RBM_SHI_013" text="{.Muzcynski}Наплечны Шчыт-Кропля Вершніка" />
+	<string id="RBM_SHI_014" text="{.Muzcynski}Наплечны Узмоцнены Маленькі Шчыт Вершніка" />
+	<string id="RBM_SHI_015" text="{.Muzcynski}Наплечны Паўночны Шчыт-Кропля Вершніка" />
+	<string id="RBM_SHI_016" text="{.Muzcynski}Наплечны Узмоцнены Шчыт Вершніка" />
+	<string id="RBM_SHI_017" text="{.Muzcynski}Наплечны Узмоцнены Шчыт-Кропля Вершніка" />
+	<string id="RBM_SHI_018" text="{.Muzcynski}Наплечны Трохкутны Шчыт з Выразам" />
+	<string id="RBM_SHI_019" text="{.Muzcynski}Наплечны Заходні Спарынгавы Шчыт-Кропля Наезьніка" />
+	<string id="RBM_SHI_020" text="{.Muzcynski}Наплечны Заходні Шчыт-Кропля Наезьніка" />
+	<string id="RBM_SHI_021" text="{.Muzcynski}Наплечны Узмоцнены Аблямаваны Жалезам Шчыт-Кропля" />
+	<string id="RBM_SHI_022" text="{.Muzcynski}Наплечны Плоскі Трохкутны Шчыт" />
+	<string id="RBM_SHI_023" text="{.Muzcynski}Наплечны Шырокі Трохкутны Шчыт" />
+	<string id="RBM_SHI_024" text="{.Muzcynski}Наплечны Рыцарскі Шчыт" />
+	<string id="RBM_SHI_025" text="{.Muzcynski}Наплечны Клямкавы Трохкутны Шчыт" />
+	<string id="RBM_SHI_026" text="{.Muzcynski}Наплечны Цяжкі Трохкутны Шчыт" />
+	<string id="RBM_SHI_027" text="{.Muzcynski}Наплечны Высокі Трохкутны Шчыт" />
+	<string id="RBM_SHI_028" text="{.Muzcynski}Наплечны Пацёрты Шчыт-Кропля" />
+	<string id="RBM_SHI_029" text="{.Muzcynski}Наплечны Спарынгавы Шчыт-Кропля" />
+	<string id="RBM_SHI_030" text="{.Muzcynski}Наплечны Аблямаваны Жалезам Шчыт-Кропля" />
+	<string id="RBM_SHI_031" text="{.Muzcynski}Наплечны Узмоцнены Плоскі Шчыт-Кропля" />
+	<string id="RBM_SHI_032" text="{.Muzcynski}Наплечны Шчыт-Кропля" />
+	<string id="RBM_SHI_033" text="{.Muzcynski}Наплечны Шыпаваны Злучаны Шчыт-Кропля" />
+	<string id="RBM_SHI_034" text="{.Muzcynski}Наплечны Умацаваны Шчыт-Кропля" />
+	<string id="RBM_SHI_035" text="{.Muzcynski}Наплечны Рыцарскі Шчыт-Кропля" />
+	<string id="RBM_SHI_036" text="{.Muzcynski}Шчыт-Павеса з Разгорткай" />
+	<string id="RBM_SHI_037" text="{.Muzcynski}Наплечны Зношаны Шчыт-Кропля" />
+	<string id="RBM_SHI_038" text="{.Muzcynski}Наплечны Скураны Злучаны Шчыт-Кропля" />
+	<string id="RBM_SHI_039" text="{.Muzcynski}Наплечны Узмоцнены Шчыт-Кропля" />
+	<string id="RBM_SHI_040" text="{.Muzcynski}Наплечны Узмоцнены Дубовы Шчыт-Кропля" />
+	<string id="RBM_SHI_041" text="{.Muzcynski}Наплечны Самаробны Спарынгавы Шчыт-Кропля" />
+	<string id="RBM_SHI_042" text="{.Muzcynski}Наплечны Самаробны Шчыт-Кропля" />
+	<string id="RBM_SHI_043" text="{.Muzcynski}Паўднёвы Круглы Спарынгавы Шчыт" />
+	<string id="RBM_SHI_044" text="{.Muzcynski}Паўднёвы Круглы Шчыт" />
+	<string id="RBM_SHI_045" text="{.Muzcynski}Паўночны Круглы Спарынгавы Шчыт" />
+	<string id="RBM_SHI_046" text="{.Muzcynski}Паўночны Круглы Шчыт" />
+	<string id="RBM_SHI_047" text="{.Muzcynski}Паўночны Шчыт-Кропля Вершніка" />
+	<string id="RBM_SHI_048" text="{.Muzcynski}Заходні Спарынгавы Шчыт-Кропля Наезьніка" />
+	<string id="RBM_SHI_049" text="{.Muzcynski}Заходні Шчыт-Кропля Наезьніка" />
+	<string id="RBM_SHI_050" text="{.Muzcynski}Пацёрты Шчыт-Кропля" />
+	<string id="RBM_SHI_051" text="{.Muzcynski}Горны Шчыт Застрэльніка" />
+	<string id="RBM_SHI_052" text="{.Muzcynski}Жалезны Узмоцнены Горны Шчыт Застрэльніка" />
+	<string id="RBM_SHI_053" text="{.Muzcynski}Бронзавы Узмоцнены Горны Шчыт Застрэльніка" />
+	<!-- RBMCombat_unit_overhaul.xml Strings -->
+	<string id="RBM_OVH_001" text="Асэрайскі Дасьведчаны Лучнік" />
+	<string id="RBM_OVH_002" text="Вландыйскі Сярэдні Вершнік" />
+	<string id="RBM_OVH_003" text="Найміт Конны Лучнік Найміт" />
+	<string id="RBM_OVH_004" text="Найміт-Ветэран Конны Лучнік" />
+	<string id="RBM_OVH_005" text="Наёмны Капійнік" />
+	<string id="RBM_OVH_006" text="Наёмны Пікінёр" />
+	<string id="RBM_OVH_007" text="Наёмны Элітны Пікінёр" />
+	<string id="RBM_OVH_008" text="Наёмны Арбалетнік" />
+	<string id="RBM_OVH_009" text="Элітны Наёмны Стралок" />
+	<string id="RBM_OVH_010" text="Коньнік" />
+	<string id="RBM_OVH_011" text="Стургійскі Шокавы Ваяр" />
+	<string id="RBM_OVH_012" text="Баярскі Сын" />
+	<string id="RBM_OVH_013" text="Стургійскі Берсерк" />
+	<string id="RBM_OVH_014" text="Стургійскі Ульфэднар" />
+	<string id="RBM_OVH_015" text="Скен" />
+	<string id="RBM_OVH_016" text="Керн" />
+	<string id="RBM_OVH_017" text="Чырвоны Хвост" />
+	<string id="RBM_OVH_018" text="Вартавы-Рэкрут" />
+	<string id="RBM_OVH_019" text="Загартаваны Вартавы" />
+	<string id="RBM_OVH_020" text="Вартавы-Ветэран" />
+	<string id="RBM_OVH_021" text="Рыцар Сьвятога Агню" />
+	<string id="RBM_OVH_022" text="Карахузаіцкі Качэўнік" />
+	<string id="RBM_OVH_023" text="Карахузаіцкі Наезьнік" />
+	<string id="RBM_OVH_024" text="Карахузаіцкі Старэйшына" />
+	<string id="RBM_OVH_025" text="Нагляднік" />
+	<string id="RBM_OVH_026" text="Найміт-Вартавы" />
+	<string id="RBM_OVH_027" text="Найміт-Выведнік" />
+	<string id="RBM_OVH_028" text="Найміт-Мечнік" />
+	<string id="RBM_OVH_029" text="Найміт-Арбалетнік" />
+	<string id="RBM_OVH_030" text="Найміт-Коньнік" />
+	<string id="RBM_OVH_031" text="Наёмны Меч" />
+	<string id="RBM_OVH_032" text="Найміт-Вершнік" />
+	<string id="RBM_OVH_033" text="Сястра Арбалету" />
+	<string id="RBM_OVH_034" text="Галантная Сястра Глефы" />
+	<string id="RBM_OVH_035" text="Сястра Глефы" />
+	<string id="RBM_OVH_036" text="Імперскі Конны Акрытай" />
+  </strings>
+</base>
