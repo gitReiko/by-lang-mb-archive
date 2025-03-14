@@ -1,0 +1,103 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<base xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd = "http://www.w3.org/2001/XMLSchema" type = "string">
+
+
+
+	<strings>
+	
+		<!--   1. System Log   -->
+		<string id = "RSMAL010" text = " dałučajecca da bitvy ŭ jakaści chaŭruśnika." />
+		<string id = "RSMAL011" text = " dałučajecca da bitvy ŭ jakaści voraha." />
+		<string id = "RSMAL012" text = " nie dałučajecca da bitvy." />
+
+		<!--   2. Common   -->
+		<string id = "RSMAL020" text = " {?HERO.GENDER}Spadarynia,{?}Spadar,{\?} heta ściah {CLAN_NAME}! Našaje padmacavańnie ŭžo tut!" />  
+		<string id = "RSMAL021" text = " {?HERO.GENDER}Šlachcianka!{?}Šlachcič!{\?} Na haryzoncie zjaviłasia vojska, i, zdajecca, jano hatovaje dapamahčy!" />  
+		<string id = "RSMAL022" text = " {?HERO.GENDER}Pani,{?}Panovie,{\?} ściah {CLAN_NAME} uzdymajecca na haryzoncie. Našy vorah atrymlivaje ŭzmacnieńnie!" />
+		<string id = "RSMAL023" text = " {?HERO.GENDER}Haspadarynia!{?}Haspadar!{\?} Na haryzoncie zjaviłasia vojska, jakoje, zdajecca, dałučajecca da voraha." />
+
+		<!--   3. Ally Clan or Enemy Clan  -->
+		<string id = "RSMAL030" text = " Nabližajucca vajary. Na haryzoncie ściah {CLAN_NAME}. {LEADER_NAME} prychodzić na dapamohu!" />
+		<string id = "RSMAL031" text = " {?HERO.GENDER}Vaspana,{?}Vaspan,{\?} nadychodziać novyja vorahi." />
+
+		<!--   4. Father or Mother   -->
+		<string id = "RSMAL040" text = " Ja staju pobač z taboj, {?HERO.GENDER}dačka.{?}syn.{\?}" />
+		<string id = "RSMAL041" text = " {?HERO.GENDER}Dačka{?}Syn{\?}, ja vykanaju svoj abaviazak... navat kali heta aznačaje zmahańnie z taboj na hetym poli boju." />
+
+		<!--   5. Brother or Sister   -->
+		<string id = "RSMAL050" text = " {?HERO.GENDER}Siastra!{?}Brat!{\?} Ja budu zamahacca na tvaim bocy!" />
+		<string id = "RSMAL051" text = " {?HERO.GENDER}Siastra{?}Brat{\?}, ja vykanaju svoj abaviazak... navat kali heta aznačaje zmahańnie z taboj na hetym poli boju." />
+
+		<!--   6. Son or Dauther   -->
+		<string id = "RSMAL060" text = " {?HERO.GENDER}Maci,{?}Baćka,{\?} ja budu stajać na tvaim bocy!" />
+		<string id = "RSMAL061" text = " Cha! {?HERO.GENDER}Maci,{?}Baćka,{\?} Prymi moj praviedny mieč!" />
+
+		<!--   7. Husband or Wife   -->
+		<string id = "RSMAL070" text = " {?HERO.GENDER}Žonka,{?}Muž,{\?} Ja tut, kab dapamahčy!" />
+		<string id = "RSMAL071" text = " Cha! {?HERO.GENDER}Žonka?{?}Muž?{\?} Pamry!" />
+
+		<!--   8. Companion   -->
+		<string id = "RSMAL080" text = " {?HERO.GENDER}Spadarynia,{?}Spadar,{\?} Ja nieadkładna rušu tudy!" />
+		<string id = "RSMAL081" text = " {?HERO.GENDER}Šlachcianka,{?}Šlachcič,{\?} ja vykanaju svoj abaviazak." />
+
+		<!--   9. Friend   -->
+		<string id = "RSMAL090" text = " Hej {HERO_NAME}, Ja prykryju tvaju śpinu!" />
+		<string id = "RSMAL091" text = " {HERO_NAME}, Ja vykanaju svoj abaviazak." />
+
+		<!--   10. Enemy   -->
+		<string id = "RSMAL100" text = " {HERO_NAME}, ja tut, kab pakvitacca, a nie zmahacca razam z taboj." />
+		<string id = "RSMAL101" text = " {HERO_NAME}, ja pryjšoŭ asudzić vas!" />
+
+		<!--   11. King   -->
+		<string id = "RSMAL110" text = " {?HERO.GENDER}Šlachcianka,{?}Šlachcič,{\?} {RULER_TITLE} uznačalvaje {ARMY_TYPE} i rušyć nam na dapamohu!" />
+		<string id = "RSMAL111" text = " {?HERO.GENDER}Spadarynia,{?}Spadar,{\?} {RULER_TITLE} uznačalvaje {ARMY_TYPE} tut, dziela dapamohi!" />
+
+		<!--   12. Vassal   -->
+		<string id = "RSMAL120" text = " {HERO_NAME} - {RULER_TITLE}. Napierad!" />
+		<string id = "RSMAL121" text = " Za {FACTION_NAME}!" />
+
+		<!--   13. Kingdom   -->
+		<string id = "RSMAL130" text = " Heta ściah {FACTION_NAME}! Našaje padmacavańnie prybyło!" />
+		<string id = "RSMAL131" text = " Heta ściah {FACTION_NAME}! Našyja vorahi macujuć svaje siły!" />
+
+		<!--   14. Bandit  -->
+		<string id = "RSMAL140" text = " Ja budu pić z tvajho čerapu!" />
+		<string id = "RSMAL141" text = " Tvaje hrošy ci tvajo žyćcio?" />
+		<string id = "RSMAL142" text = " Mienš razmovaŭ! Bolš rabavańnia!" />
+
+		<!--   15. Caravan or Villager   -->
+		<string id = "RSMAL150" text = " Dazvol nam dapamahčy {HERO_NAME}!" />
+		<string id = "RSMAL151" text = " {HERO_NAME} znachodzicca tut! Chodźma i złovim!" />
+		
+		<!--   16. Rulers army   -->
+		<!-- Default -->
+			<string id = "RSMAL900" text = "Vojska" />
+			<string id = "RSMAL901" text = "Haspadarynia" />
+			<string id = "RSMAL902" text = "Haspadar" />
+		<!-- Empire -->
+			<string id = "RSMAL910" text = "Impierskaje Vojska" />
+			<string id = "RSMAL911" text = "Impieratryca" />
+			<string id = "RSMAL912" text = "Impieratar" />
+		<!-- Battania -->
+			<string id = "RSMAL920" text = "Chost Viarchoŭnaha Karala" />
+			<string id = "RSMAL921" text = "Viarchoŭnaja Karaleva" />
+			<string id = "RSMAL922" text = "Viarchoŭny Karol" />
+		<!-- Sturgia -->
+			<string id = "RSMAL930" text = "Bajarskaja Družyna" />
+			<string id = "RSMAL931" text = "Vialikaja Kniažna" />
+			<string id = "RSMAL932" text = "Vialiki Kniaź" />
+		<!-- Vlandia -->
+			<string id = "RSMAL940" text = "Karaleŭskaje Vojska" />
+			<string id = "RSMAL941" text = "Karaleva" />
+			<string id = "RSMAL942" text = "Karol" />
+		<!-- Khuzait -->
+			<string id = "RSMAL950" text = "Arda" />
+			<string id = "RSMAL951" text = "Chatun" />
+			<string id = "RSMAL952" text = "Chatun" />
+		<!-- Aserai -->
+			<string id = "RSMAL960" text = "Vojska Sułtana" />
+			<string id = "RSMAL961" text = "Sułtana" />
+			<string id = "RSMAL962" text = "Sułtan" />
+				
+	</strings>
+</base>

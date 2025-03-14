@@ -1,0 +1,103 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<base xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd = "http://www.w3.org/2001/XMLSchema" type = "string">
+
+
+
+	<strings>
+	
+		<!--   1. System Log   -->
+		<string id = "RSMAL010" text = " далучаецца да бітвы ў якасьці хаўрусьніка." />
+		<string id = "RSMAL011" text = " далучаецца да бітвы ў якасьці ворага." />
+		<string id = "RSMAL012" text = " не далучаецца да бітвы." />
+
+		<!--   2. Common   -->
+		<string id = "RSMAL020" text = " {?HERO.GENDER}Спадарыня,{?}Спадар,{\?} гэта сьцяг {CLAN_NAME}! Нашае падмацаваньне ўжо тут!" />  
+		<string id = "RSMAL021" text = " {?HERO.GENDER}Шляхцянка!{?}Шляхціч!{\?} На гарызонце з'явілася войска, і, здаецца, яно гатовае дапамагчы!" />  
+		<string id = "RSMAL022" text = " {?HERO.GENDER}Пані,{?}Панове,{\?} сьцяг {CLAN_NAME} уздымаецца на гарызонце. Нашы вораг атрымлівае ўзмацненьне!" />
+		<string id = "RSMAL023" text = " {?HERO.GENDER}Гаспадарыня!{?}Гаспадар!{\?} На гарызонце з'явілася войска, якое, здаецца, далучаецца да ворага." />
+
+		<!--   3. Ally Clan or Enemy Clan  -->
+		<string id = "RSMAL030" text = " Набліжаюцца ваяры. На гарызонце сьцяг {CLAN_NAME}. {LEADER_NAME} прыходзіць на дапамогу!" />
+		<string id = "RSMAL031" text = " {?HERO.GENDER}Васпана,{?}Васпан,{\?} надыходзяць новыя ворагі." />
+
+		<!--   4. Father or Mother   -->
+		<string id = "RSMAL040" text = " Я стаю побач з табой, {?HERO.GENDER}дачка.{?}сын.{\?}" />
+		<string id = "RSMAL041" text = " {?HERO.GENDER}Дачка{?}Сын{\?}, я выканаю свой абавязак... нават калі гэта азначае змаганьне з табой на гэтым полі бою." />
+
+		<!--   5. Brother or Sister   -->
+		<string id = "RSMAL050" text = " {?HERO.GENDER}Сястра!{?}Брат!{\?} Я буду замагацца на тваім боцы!" />
+		<string id = "RSMAL051" text = " {?HERO.GENDER}Сястра{?}Брат{\?}, я выканаю свой абавязак... нават калі гэта азначае змаганьне з табой на гэтым полі бою." />
+
+		<!--   6. Son or Dauther   -->
+		<string id = "RSMAL060" text = " {?HERO.GENDER}Маці,{?}Бацька,{\?} я буду стаяць на тваім боцы!" />
+		<string id = "RSMAL061" text = " Ха! {?HERO.GENDER}Маці,{?}Бацька,{\?} Прымі мой праведны меч!" />
+
+		<!--   7. Husband or Wife   -->
+		<string id = "RSMAL070" text = " {?HERO.GENDER}Жонка,{?}Муж,{\?} Я тут, каб дапамагчы!" />
+		<string id = "RSMAL071" text = " Ха! {?HERO.GENDER}Жонка?{?}Муж?{\?} Памры!" />
+
+		<!--   8. Companion   -->
+		<string id = "RSMAL080" text = " {?HERO.GENDER}Спадарыня,{?}Спадар,{\?} Я неадкладна рушу туды!" />
+		<string id = "RSMAL081" text = " {?HERO.GENDER}Шляхцянка,{?}Шляхціч,{\?} я выканаю свой абавязак." />
+
+		<!--   9. Friend   -->
+		<string id = "RSMAL090" text = " Гэй {HERO_NAME}, Я прыкрыю тваю сьпіну!" />
+		<string id = "RSMAL091" text = " {HERO_NAME}, Я выканаю свой абавязак." />
+
+		<!--   10. Enemy   -->
+		<string id = "RSMAL100" text = " {HERO_NAME}, я тут, каб паквітацца, а не змагацца разам з табой." />
+		<string id = "RSMAL101" text = " {HERO_NAME}, я прыйшоў асудзіць вас!" />
+
+		<!--   11. King   -->
+		<string id = "RSMAL110" text = " {?HERO.GENDER}Шляхцянка,{?}Шляхціч,{\?} {RULER_TITLE} узначальвае {ARMY_TYPE} і рушыць нам на дапамогу!" />
+		<string id = "RSMAL111" text = " {?HERO.GENDER}Спадарыня,{?}Спадар,{\?} {RULER_TITLE} узначальвае {ARMY_TYPE} тут, дзеля дапамогі!" />
+
+		<!--   12. Vassal   -->
+		<string id = "RSMAL120" text = " {HERO_NAME} - {RULER_TITLE}. Наперад!" />
+		<string id = "RSMAL121" text = " За {FACTION_NAME}!" />
+
+		<!--   13. Kingdom   -->
+		<string id = "RSMAL130" text = " Гэта сьцяг {FACTION_NAME}! Нашае падмацаваньне прыбыло!" />
+		<string id = "RSMAL131" text = " Гэта сьцяг {FACTION_NAME}! Нашыя ворагі мацуюць свае сілы!" />
+
+		<!--   14. Bandit  -->
+		<string id = "RSMAL140" text = " Я буду піць з твайго чэрапу!" />
+		<string id = "RSMAL141" text = " Твае грошы ці тваё жыцьцё?" />
+		<string id = "RSMAL142" text = " Менш размоваў! Больш рабаваньня!" />
+
+		<!--   15. Caravan or Villager   -->
+		<string id = "RSMAL150" text = " Дазволь нам дапамагчы {HERO_NAME}!" />
+		<string id = "RSMAL151" text = " {HERO_NAME} знаходзіцца тут! Ходзьма і зловім!" />
+		
+		<!--   16. Ruler's army   -->
+		<!-- Default -->
+			<string id = "RSMAL900" text = "Войска" />
+			<string id = "RSMAL901" text = "Гаспадарыня" />
+			<string id = "RSMAL902" text = "Гаспадар" />
+		<!-- Empire -->
+			<string id = "RSMAL910" text = "Імперскае Войска" />
+			<string id = "RSMAL911" text = "Імператрыца" />
+			<string id = "RSMAL912" text = "Імператар" />
+		<!-- Battania -->
+			<string id = "RSMAL920" text = "Хост Вярхоўнага Караля" />
+			<string id = "RSMAL921" text = "Вярхоўная Каралева" />
+			<string id = "RSMAL922" text = "Вярхоўны Кароль" />
+		<!-- Sturgia -->
+			<string id = "RSMAL930" text = "Баярская Дружына" />
+			<string id = "RSMAL931" text = "Вялікая Княжна" />
+			<string id = "RSMAL932" text = "Вялікі Князь" />
+		<!-- Vlandia -->
+			<string id = "RSMAL940" text = "Каралеўскае Войска" />
+			<string id = "RSMAL941" text = "Каралева" />
+			<string id = "RSMAL942" text = "Кароль" />
+		<!-- Khuzait -->
+			<string id = "RSMAL950" text = "Арда" />
+			<string id = "RSMAL951" text = "Хатун" />
+			<string id = "RSMAL952" text = "Хатун" />
+		<!-- Aserai -->
+			<string id = "RSMAL960" text = "Войска Султана" />
+			<string id = "RSMAL961" text = "Султана" />
+			<string id = "RSMAL962" text = "Султан" />
+				
+	</strings>
+</base>
