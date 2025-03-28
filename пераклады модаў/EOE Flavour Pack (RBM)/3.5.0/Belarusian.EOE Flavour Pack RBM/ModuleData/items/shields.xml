@@ -7,7 +7,7 @@
 
 	<Item id="eoe_sta_roundshield_1" name="{=eoe_sta_roundshield_1.name}[EOE SHIELD] Wooden Round Shield" body_name="bo_cap_eoe_sta_roundshield_1" shield_body_name="bo_eoe_sta_roundshield_1" recalculate_body="false" mesh="eoe_sta_roundshield_1" culture="Culture.neutral_culture" using_tableau="true" weight="7.3" difficulty="0" appearance="1" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0,0,0.01">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="175.0,-90.0,-10.0" weapon_length="70" center_of_mass="0, 0, 0" hit_points="550" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="175.0,-90.0,-10.0" weapon_length="70" center_of_mass="0, 0, 0" hit_points="550" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -19,7 +19,7 @@
 
   <Item id="eoe_kiteshield_1" name="{=eoe_kiteshield_1.name}[EOE Shields] Western Kite Shield, Heraldic" body_name="bo_cap_eoe_kiteshield_1" shield_body_name="bo_eoe_kiteshield_1" recalculate_body="false" mesh="eoe_kiteshield_1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -28,7 +28,7 @@
 
   <Item id="eoe_kiteshield_2" name="{=eoe_kiteshield_2.name}[EOE Shields] Western Kite Shield, Static Faction Colour" body_name="bo_cap_eoe_kiteshield_1" shield_body_name="bo_eoe_kiteshield_1" recalculate_body="false" mesh="eoe_kiteshield_2" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -38,7 +38,7 @@
 
   <Item id="eoe_kite_shield_1" name="{=eoe_kite_shield_1.name}[EOE Shields] Western Kite Shield with Boss, Heraldic" body_name="bo_cap_eoe_kite_shield_1" shield_body_name="bo_eoe_kite_shield_1" recalculate_body="false" mesh="eoe_kite_shield_1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="670" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="670" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -47,7 +47,7 @@
 
   <Item id="eoe_kite_shield_2" name="{=eoe_kite_shield_2.name}[EOE Shields] Western Kite Shield with Boss, Static Faction Colour" body_name="bo_cap_eoe_kite_shield_1" shield_body_name="bo_eoe_kite_shield_1" recalculate_body="false" mesh="eoe_kite_shield_2" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="670" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="670" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -56,7 +56,7 @@
 
   <Item id="eoe_short_heater_1" name="{=eoe_short_heater_1.name}[EOE Shields] Western Heater Shield, Heraldic" body_name="bo_cap_eoe_short_heater_1" shield_body_name="bo_eoe_short_heater_1" recalculate_body="false" mesh="eoe_short_heater_1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -65,7 +65,7 @@
 
   <Item id="eoe_arabshield1" name="{=eoe_arabshield1.name}[EOE Shields] MENA Januwiya Shield, Heraldic" body_name="bo_cap_eoe_arabshield1" shield_body_name="bo_eoe_arabshield1" recalculate_body="false" mesh="eoe_arabshield1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -74,7 +74,7 @@
 
   <Item id="eoe_almondshield_1" name="{=eoe_almondshield_1.name}[EOE Shields] Almond Kite Shield, Heraldic" body_name="bo_cap_eoe_almondshield_1" shield_body_name="bo_eoe_almondshield_1" recalculate_body="false" mesh="eoe_almondshield_1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -83,7 +83,7 @@
 
   <Item id="eoe_almondshield_boss_1" name="{=eoe_almondshield_boss_1.name}[EOE Shields] Almond Kite Shield with Boss, Heraldic" body_name="bo_cap_eoe_almondshield_boss_1" shield_body_name="bo_eoe_almondshield_boss_1" recalculate_body="false" mesh="eoe_almondshield_boss_1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="670" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="670" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -92,7 +92,7 @@
 
   <Item id="eoe_almovarid_lamt1" name="{=eoe_almovarid_lamt1.name}[EOE Shields] Daraqa al-Lamtuniya, Static Color" body_name="bo_cap_eoe_almovarid_lamt1" shield_body_name="bo_eoe_almovarid_lamt1" recalculate_body="false" mesh="eoe_almovarid_lamt1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -101,7 +101,7 @@
 
   <Item id="eoe_arabic_shield_1" name="{=eoe_arabic_shield_1.name}[EOE Shields] Arabic Round Shield, Heraldic" body_name="bo_cap_eoe_arabic_shield_1" shield_body_name="bo_eoe_arabic_shield_1" recalculate_body="false" mesh="eoe_arabic_shield_1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -114,7 +114,7 @@
 
   <Item id="eoe_norman_kiteshield1" name="{=eoe_norman_kiteshield1.name}[EOE Shields] Crusader Heater Shield 1, Heraldic" body_name="bo_cap_eoe_kite_shield_1" shield_body_name="bo_eoe_kite_shield_1" recalculate_body="false" mesh="eoe_norman_kiteshield1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -133,7 +133,7 @@
 
   <Item id="eoe_crus_heater_1" name="{=eoe_crus_heater_1.name}[EOE Shields] Crusader Heater Shield 1, Heraldic" body_name="bo_cap_eoe_short_heater_1" shield_body_name="bo_eoe_short_heater_1" recalculate_body="false" mesh="eoe_crus_heater_1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -142,7 +142,7 @@
 
   <Item id="eoe_crus_heater_2" name="{=eoe_crus_heater_2.name}[EOE Shields] Crusader Heater Shield 1, Heraldic" body_name="bo_cap_eoe_short_heater_1" shield_body_name="bo_eoe_short_heater_1" recalculate_body="false" mesh="eoe_crus_heater_2" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -151,7 +151,7 @@
 
   <Item id="eoe_crus_heater_3" name="{=eoe_crus_heater_3.name}[EOE Shields] Crusader Heater Shield, Static Faction Colour" body_name="bo_cap_eoe_short_heater_1" shield_body_name="bo_eoe_short_heater_1" recalculate_body="false" mesh="eoe_crus_heater_3" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -160,7 +160,7 @@
 
   <Item id="eoe_crus_heater_4" name="{=eoe_crus_heater_4.name}[EOE Shields] Crusader Heater Shield, Coloured Cross" body_name="bo_cap_eoe_short_heater_1" shield_body_name="bo_eoe_short_heater_1" recalculate_body="false" mesh="eoe_crus_heater_4" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -172,7 +172,7 @@
 
   <Item id="eoe_roman_shield1" name="{=eoe_roman_shield1.name}[EOE Shields] Roman Round Shield, Heraldic 1" body_name="bo_cap_eoe_roman_shield1" shield_body_name="bo_eoe_roman_shield1" recalculate_body="false" mesh="eoe_roman_shield1" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -181,7 +181,7 @@
 
   <Item id="eoe_roman_shield4" name="{=eoe_roman_shield4.name}[EOE Shields] Roman Round Shield, Heraldic 2" body_name="bo_cap_eoe_roman_shield1" shield_body_name="bo_eoe_roman_shield1" recalculate_body="false" mesh="eoe_roman_shield4" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -190,7 +190,7 @@
 
   <Item id="eoe_roman_shield2" name="{=eoe_roman_shield2.name}[EOE Shields] Roman Round Shield, Static 1" body_name="bo_cap_eoe_roman_shield1" shield_body_name="bo_eoe_roman_shield1" recalculate_body="false" mesh="eoe_roman_shield2" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -199,7 +199,7 @@
 
   <Item id="eoe_roman_shield3" name="{=eoe_roman_shield3.name}[EOE Shields] Roman Round Shield, Static 2" body_name="bo_cap_eoe_roman_shield1" shield_body_name="bo_eoe_roman_shield1" recalculate_body="false" mesh="eoe_roman_shield3" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -209,7 +209,7 @@
 
   <Item id="eoe_roman_shield5" name="{=eoe_roman_shield5.name}[EOE Shields] Roman Round Shield, Static 3" body_name="bo_cap_eoe_roman_shield1" shield_body_name="bo_eoe_roman_shield1" recalculate_body="false" mesh="eoe_roman_shield5" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
@@ -218,7 +218,7 @@
 
   <Item id="eoe_roman_shield6" name="{=eoe_roman_shield6.name}[EOE Shields] Roman Round Shield, Static 4" body_name="bo_cap_eoe_roman_shield1" shield_body_name="bo_eoe_roman_shield1" recalculate_body="false" mesh="eoe_roman_shield6" culture="Culture.neutral_culture" using_tableau="true" weight="3" appearance="2" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0,-0.025">
 		<ItemComponent>
-			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="150" center_of_mass="0.0,0.05,0.05" hit_points="650" modifier_group="shield">
 				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
 			</Weapon>
 		</ItemComponent>
