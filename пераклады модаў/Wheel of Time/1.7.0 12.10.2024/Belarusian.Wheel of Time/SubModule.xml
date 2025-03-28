@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Belarusian Wheel of Time"/>
+	<Id value = "Belarusian Wheel of Time"/>
+	<Version value = "v1.2.12"/>
+	<DefaultModule value="true"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Author value="Denis Makouski (Reiko17)" />
+  	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.2.12"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.2.12"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.2.12"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.2.12"/>
+		<DependedModule Id="Belarusian Core" DependentVersion="v1.2.10"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls> 
+
+		<XmlNode>
+			<XmlName id="Kingdoms" path="WoTkingdoms"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
+				<GameType value="EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="GameText" path="WoTstrings" />
+		</XmlNode>
+
+	</Xmls>
+</Module>

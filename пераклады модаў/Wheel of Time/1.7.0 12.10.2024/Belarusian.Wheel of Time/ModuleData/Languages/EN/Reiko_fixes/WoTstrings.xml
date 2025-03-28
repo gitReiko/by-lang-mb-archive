@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <string id="str_weapon_usage.WOT_twohandedpolarm.text" text="Two Handed"/>
+  <string id="str_weapon_usage.WOT_twohanded_swordsshadow.text" text="Two Handed"/>
+  <string id="str_weapon_usage.WOT_onehanded_swordstrolloc.text" text="One Handed"/>
+  <string id="str_weapon_usage.WOT_MaceTrolloc.text" text="One Handed"/>
+  <string id="str_weapon_usage.WOT_AxeTrolloc.text" text="One Handed"/>
+  <string id="str_weapon_usage.WOT_TwoHandedAxetrolloc.text" text="Two Handed"/>
+  <string id="str_weapon_usage.WOT_onehanded_callander.text" text="One Handed"/>
+  <string id="str_weapon_usage.AIELnew22OneHandedPolearm.text" text="One Handed"/>
+  <string id="str_weapon_usage.AIELnew22TwoHandedPolearm.text" text="Two Handed"/>
+  <string id="str_crafting_template.Shadowforgedpowerblade.text" text="Shadow Forged Powerblade"/>
+  <string id="str_crafting_template.CallandorTemplate.text" text="Callandor"/>
+  <string id="str_crafting_template.Wotpolearms.text" text="Halberds"/>
+  <string id="str_crafting_template.AIELnew22TwoHandedPolearm.text" text="Aiel Spears"/>
+  <string id="str_crafting_template.TrollocSword1Template.text" text="Trolloc Sword"/>
+  <string id="str_crafting_template.TrollocMace1Template.text" text="Trolloc Mace"/>
+  <string id="str_crafting_template.TrollocAxe1Template.text" text="Trolloc Axe"/>
+  <string id="str_crafting_template.Trolloctwohandedaxe.text" text="Trolloc Two Handed Axe"/>
+  <string id="str_crafting_template.FainDaggertemplate.text" text="Padan Fain Dagger"/>
+  <string id="str_culture_description.vlandia.text" text="Arad Doman is located in the northwest of the Westlands, lying between the Mountains of Mist and the Aryth Ocean. Its capital and principal city is Bandar Eban, located at the mouth of the River Dhagon. Arad Doman is ruled by an absolute monarchy. The King is elected for life by the Council of Merchants, comprised mostly of women. He legally has absolute authority, but can be deposed with a seventy-five percent vote from the Council of Merchants. The king has to come from one of the noble Houses, called the Bloodborn, rather than the mere merchant Houses of Arad Doman. The monarchy is often passed down in one family, but nothing requires this, and only the vote of the Council of Merchants carries weight"/>
+  <string id="str_culture_description.empire.text" text="Once, the Andorans belonged to two proud kingdoms which lay in the heart of the Westlands. These kingdoms stood after the Breaking of the World and remained until their armies were ravaged and their kingdoms erased during the Trolloc Wars. While most Andorans have forgotten their ancestor’s brave and noble deeds as the Ages passed, a strong line of Andoran Queens has maintained Andoran dominance in the heart of the Westlands. Today, the Andorans live within one of the most financially stable kingdoms, and thanks to the Queen’s Guard, one of the safest as well. For the Andorans, wealth is most certainly their greatest strength, as their economy is virtually the strongest within the Westlands thanks to being in the continent’s heart and their rich mines in the Mountains of Mist. Unfortunately, while most Andorans receive the protection of the Queen’s Guard, it is speculated that isolated regions such as the Two Rivers are likely neglected due to their distance from Caemlyn and for greater need to defend the Andoran borders from the ambitious, yet uncoordinated lords of Murandy."/>
+  <string id="str_culture_description.battania.text" text="Saldaea is the westernmost of the four Borderlands, lying adjacent to the nation of Kandor. It is also the largest of the Borderlands, larger than Shienar and Arafel combined.  Saldaea stretches from the Aryth Ocean to the Plain of Lances and consists of forests in the south, mountains (such as the Banikhan range) in the north and plains in the east. Saldaea's coast is extremely rocky and consists of vast cliffs known collectively as World's End. It has no major port or good harbourages"/>
+  <string id="str_culture_description.khuzait.text" text="The Aiel come from a harsh land beyond the spine of the world, because of this harsh desert and constant fight to survive, they breed some of the most formidable and skilled warriors. Although Aiel do not wear armor into battle, they are expert skirmishers that use spears and bows and are known to fight smarter than other nations usually appearing out of nowhere and disappearing just as fast causing devestating losses to their enemies"/>
+  <string id="str_culture_description.sturgia.text" text="The Shadowspawn are not evil incarnate, but rather the forces of the Dark One- the Enemy of the Light, the one who was sealed away by the Dragon. The bulk of their forces are trollocs, abhorrent creatures that possess the bodies of men but the head and feet of animals- be it that of a bear, bird, goat, or wolf. While the number of trollocs are practically endless, they often need to be led by the Eyeless in order to be of any use. Until recently, it was uncommon for any south of the Borderlands to believe in the Shadowspawn. Instead, most feared only the servants of the dark, otherwise known as Darkfriends- those who would swear themselves to the Dark One in pursuit of power. Rumors of a trolloc invasion of the Two Rivers, a region in the western outskirts of Andor, however, have caused many to question their former beliefs."/>
+  <string id="str_culture_description.aserai.text" text="Far to the south, Illian rests along the Sea of Storms and is bordered by the nations of Altara, Murandy, and its rival, Tear. Illian is known for being the hosts of the Great Hunt, and the Hunters for the Horn, and as such it is very common for adventurers and mercenaries to venture to Illian to join the Hunt. While Illian may not field the largest of armies, the King’s standing army, the Illianer Companions, are one of the most renowned forces in the Westlands and are said to have fought valiantly during the Aiel War."/>
+  <string id="str_culture_description.Seanchan.text" text="The Seanchan are the descendants of the great fleet of soldiers led by Hawkwing’s son, Luthair Paendrag Mondwin, on an expedition across the Aryth Ocean. Sent to discover and conquer new lands, Mondwin’s force was thought to be dead or at the bottom of the Aryth Ocean by all aside from the Do Miere A’vron, otherwise known as the Watchers Over the Waves. Nevertheless, when the Seanchan invasion began in 998 NE, Falme was their first target. Clad in insect-like armor, the Seanchan stormed the plateau  of Toman Head, and when they found the Do Miere A’vron, they punished the Watchers for “watching for the wrong thing.” While most scholars of the Westlands cannot decide how the Seanchan are, in fact alive, the truth remains that Hawkwing’s descendants have returned to reconquer the lands which were once his empire."/>
+  <string id="str_culture_description.Altara.text" text="The Altarans are the inhabitants of the Kingdom of Altara, which sits to the east of the River Eldar. To the west of the kingdom lays Amadicia and the Children of the Light, while Illian lays in the east. According to most writings of the past, long ago the Altarans were a unified people. Beneath the rule of House Todande, the Altarans had been a formidable force in the south and relatively stable. That all changed, however, when the most infamous of former Altaran monarchs ascended the throne. When Anarina Todande, the direct descendant of Altara’s founding King Maddin Todande finally sat on the Throne of the Winds in 82 NE, Altara’s fate was decided. In twenty years, Queen Anarina managed to drain Altara’s treasury and plunge House Todande into poverty before being deposed and murdered. Her legacy is that of leaving Altara in utter chaos, a painful truth that the Altarans have faced for nearly 800 years, as to this day, anarchy reigns more firmly over the lands of Altara than the Throne."/>
+  <string id="str_culture_description.WhiteTower.text" text="The White Tower is the only legitimized channeling organization for female channelers in the Westlands. While Novices and Accepted are technically members of the White Tower, most refer to the White Tower as if in reference to the Aes Sedai, also known as the Servants of All, though southerners in lands such as Amadicia or Tear would dispute their title. Whatever the case, the White Tower is stationed at the center of the city of Tar Valon and is also its ruling power. While the Aes Sedai have been attacked on numerous occasions, neither False Dragons, Trolloc hordes, or Hawkwing’s Empire itself have been able to conquer Tar Valon. This has only added to the reasons that the common people and royalty alike are cautious around the Aes Sedai, or any involved with the White Tower for that matter."/>
+  <string id="str_culture_description.Mayene.text" text="Situated on the Sea of Storms far in the southeast of the Westlands, lays the City-State of Mayene, home of the Mayeners. While only a small city, Mayene and its people are wealthy and take pride in their independence from their larger neighbors such as the Nation of Tear, who has long sought to annex Mayene into their kingdom. House Paeron, the ruling family over Mayene, has long claimed to be the descendants of Artur Hawkwing through one of his grandsons, although aside from the Mayeners themselves, the claim has never been taken seriously. Curiously, the trend of Mayene not being taken seriously is rather common, as the majority of historians name Mayene a city-state rather than a nation despite controlling the most territory out of all of the city-states and the Mayener Peninsula, which spans over a hundred miles."/>
+  <string id="str_culture_description.Tear.text" text="While the Nation of Tear is one of the wealthiest countries in the Westlands, that does not necessarily mean that all Tairens are, as most of Tear’s wealth belongs to the upper nobility. That aside, Tairen’s are nearly unanimous in their disdain towards any users of the One Power. It is worth noting, however, that this may be because of the prophecies revolving around the Stone of Tear, Callandor, and the Dragon Reborn. Whatever the case, the Tairens are a proud peoples who have elevated their nation’s status amongst the great countries of the Westlands without the assistance of the White Tower or any use of the One Power."/>
+  <string id="str_culture_description.Tarabon.text" text="Stationed on the west coast of the Westlands, the Taraboners are the civilians of the Kingdom of Tarabon. Often, the Taraboners tie their origins to the Age of Legends, and there are even rumors that their Kingdom once possessed pieces of the tree of Avendesora. In public, it is commonplace for men and women alike to wear a transparent veil, and in Tanchico, the Capital city of Tarabon, it is said, “The best secret to reveal is the face behind a lady's veil, the most deadly is that of an Illuminator's spark.” This saying may be attributed to the fact that Taraboner women are known for their beauty, and Tanchico is the home of the Guild of Illuminators."/>
+  <string id="str_culture_description.Shienar.text" text="Perhaps the most resilient and honorable of those in the Westlands, the Shienarans are a heavily militaristic peoples who live far to the north, closest to the corruption of the ever-growing blight. Due to their proximity to the Blight, Shienarans are trained to maintain a sense of constant vigilance. As such, they are recognized as perhaps the greatest of warriors in the Westlands, let alone amongst the Borderlander Kingdoms. While Saldaea is known for hosting the land’s greatest light cavalry, the Shienarans field some of the finest heavy cavalry and lancers in the Westlands and are recognized to have been the Grand Alliance’s greatest asset during the Aiel War, although scholars’ opinions on the Aiel War still vary drastically. Similar to the other Borderlander Kingdoms, Sheinar has never been troubled by scheming, rebellions, or civil wars, unlike many of their southern neighbors, and is regarded as one of the most stable kingdoms in the Westlands. This reality, however, may be tied to the constant risk of the Shienarans facing a similar fate that their former allies to the north, Malkier succumbed to in 955 NE, when their kingdom was swallowed by the Blight."/>
+  <string id="str_culture_description.Kandor.text" text="The Kandori live within the Borderlands, to the east of Saldaea and west of a tributary of the Erinin. The Kingdom of Kandor itself is a monarchy that is heavily martialized and trained for war against trollocs. Though it is not as large a kingdom as Saldaea or Shienar in terms of military might, the Kandori are very respected in terms of war and host perhaps the greatest economy in the Borderlands due to the Kandori Merchants Guild and the kingdom’s exports in mining. Interestingly, in Kandori culture, it is more common for women to ask men to marry, and while there may be a king or a queen in Kandor, there may never be both, as the Monarch’s spouse is always named Prince or Princess Consort. While the Borderlander Kingdoms have always maintained strong relations, the Kandori possess near excellent ties with the Kingdoms of Arafel and Shienar as the ruling House of Noramaga has steadily married its children off into their ruling families since circa 980 N.E."/>
+  <string id="str_culture_description.Ghealdan.text" text="Ghealdan is a relatively small country that lies along the feet of the Mountains of Mist to the north of Amadicia and northwest of Altara. It is ruled by a hereditary monarch - currently Queen Alliandre Maritha Kigarin - advised by the Crown High Council,As a small country, Ghealdan does not possess a substantial standing army. Instead, it has a small, professional force known as the Legion of the Wall, which protects the borders, polices Jehannah, and protects the ruler"/>
+  <string id="str_culture_description.FarMadding.text" text="The people of Far-Madding live within a city-state in the southwest of the same name. While they are currently a peoples independent of any kingdoms or nations, scholars believe that the City of Far-Madding itself once possessed a far more important role within the world. Today, however, Far-Madding is primarily known for its strong economy, rather irregular means of avoiding violence in its city, and most notably for being the only city where Channelers are unable to use the One Power. Curiously it is not that the One Power is outlawed, but according to the White Tower, impossible to access. Because of this, the superstitious and those who bear hatred for Aes Sedai likely look upon the prospect of living within Far-Madding fondly."/>
+  <string id="str_culture_description.Amamdicia.text" text="Amadicia is a southern nation of the Westlands. The ruling body of Amadicia was always a king, most recently King Ailron Rovere Lukan. Historically, the kings were rather powerful, until a decline in quality of Amadician kings coincided with a rise in power of the Children of the Light"/>
+  <string id="str_culture_description.Arafel.text" text="Resting with the Kandori to the west, and the Shienarans to the east, the Arafellins are perhaps the most unique out of the four Borderlander cultures, as their people are fiery yet extremely honor-bound. While the Blight is still of the utmost concern for the Arafellins, dueling is also a very common practice in Arafel for both men and women, although women often choose champions to fight in their stead. To conceal one’s face is outlawed in all villages, towns, and cities of Arafel. While this is to protect settlements from the Eyeless, the law is amended for women as they may wear transparent veils similar to that of Taraboner fashion should the desire arise. While the Arafellins live within a very formidable kingdom, their economy is known to be strained compared to their fellow Borderlander kingdoms, and they likely would not be in the position of strength they are in without their strong relations with the Kingdoms of Saldaea, Kandor, and Shienar"/>
+  <string id="str_culture_description.Dragonsworn.text" text="Dragonsworn is the name given to a group of people who have sworn to serve and fight for the Dragon Reborn. Dragonsworn forces have become organized better in recent times and include also some members of nobility, several Aes Sedai with their warders, and several Asha'man."/>
+  <string id="str_culture_description.Murandy.text" text="The Murandians live deep within the center of the Westlands and have had a history of conflicts with the Andorans, in which the Murandians often saw the worse of the fighting. While the Murandians are technically the subjects of the Kingdom of Murandy, few scholars would pretend that Murandians see themselves as part of any Kingdom, as they are far more inclined to follow to rule whatever local lord they may choose. In truth, it is believed the only reason Murandy is a “Monarchy” is that a King deters foreign interference into the affairs of the realm, although because of the Murandians’ preference for autonomy, they have never succeeded in playing a larger role in the world’s politics."/>
+  <string id="str_culture_description.BlackTower.text" text="The Black Tower is the headquarters of the Asha'man, the organization of male channelers started by Rand al'Thor and trained by Mazrim Taim. It originated as a converted farmhouse located less than two leagues south of Caemlyn. The Black Tower's name derived from Asha'man themselves, who began calling it such in contrast to the White Tower of Tar Valon, where female channelers are trained"/>
+  <string id="str_culture_description.Cairhien.text" text="Cairhien is a nation that borders the Spine of the World, north of Tear and south of the Borderlands. It stretches from Kinslayer's Dagger to the Maraside Mountains, and from the Spine to the River Erinin. Its capital city is also named Cairhien. It is famous for the Topless Towers of its eponymous capital city."/>
+  <string id="str_culture_rich_name.Seanchan.text" text="Seanchan"/>
+  <string id="str_culture_rich_name.Altara.text" text="Altarans"/>
+  <string id="str_culture_rich_name.WhiteTower.text" text="Aes Sedai"/>
+  <string id="str_culture_rich_name.Mayene.text" text="Mayeners"/>
+  <string id="str_culture_rich_name.Tear.text" text="Tairens"/>
+  <string id="str_culture_rich_name.Tarabon.text" text="Taraboners"/>
+  <string id="str_culture_rich_name.Shienar.text" text="Shienarans"/>
+  <string id="str_culture_rich_name.Kandor.text" text="Kandori"/>
+  <string id="str_culture_rich_name.Ghealdan.text" text="Ghealdanin"/>
+  <string id="str_culture_rich_name.FarMadding.text" text="Far Maddingers"/>
+  <string id="str_culture_rich_name.Arafel.text" text="Arafellins"/>
+  <string id="str_culture_rich_name.Amamdicia.text" text="Amadicians"/>
+  <string id="str_culture_rich_name.Dragonsworn.text" text="Dragonsworn"/>
+  <string id="str_culture_rich_name.Murandy.text" text="Murandians"/>
+  <string id="str_culture_rich_name.BlackTower.text" text="Asha'man"/>
+  <string id="str_culture_rich_name.Cairhien.text" text="Cairhienin"/>
+  <string id="str_culture_rich_name.vlandia.text" text="Domani"/>
+  <string id="str_culture_rich_name.battania.text" text="Saldeans"/>
+  <string id="str_culture_rich_name.khuzait.text" text="Aiel"/>
+  <string id="str_culture_rich_name.sturgia.text" text="Shadowspawn"/>
+  <string id="str_culture_rich_name.aserai.text" text="Illianers"/>
+  <string id="str_culture_rich_name.empire.text" text="Andorans"/>
+  <string id="str_faction_official.Seanchan.text" text="a member of the Blood"/>
+  <string id="str_faction_official.Altara.text" text="a lord"/>
+  <string id="str_faction_official.WhiteTower.text" text="an official"/>
+  <string id="str_faction_official.Mayene.text" text="a lord"/>
+  <string id="str_faction_official.Tear.text" text="a lord"/>
+  <string id="str_faction_official.Tarabon.text" text="a lord"/>
+  <string id="str_faction_official.Shienar.text" text="a lord"/>
+  <string id="str_faction_official.Kandor.text" text="a lord"/>
+  <string id="str_faction_official.Ghealdan.text" text="a lord"/>
+  <string id="str_faction_official.FarMadding.text" text="a lord"/>
+  <string id="str_faction_official.Arafel.text" text="a lord"/>
+  <string id="str_faction_official.Amamdicia.text" text="a lord"/>
+  <string id="str_faction_official.Dragonsworn.text" text="a lord"/>
+  <string id="str_faction_official.Murandy.text" text="a lord"/>
+  <string id="str_faction_official.BlackTower.text" text="an asha'man"/>
+  <string id="str_faction_official.Cairhien.text" text="a lord"/>
+  <string id="str_faction_official.Seanchan_f.text" text="a member of the Blood"/>
+  <string id="str_faction_official.Altara_f.text" text="a lady"/>
+  <string id="str_faction_official.WhiteTower_f.text" text="an aes sedai"/>
+  <string id="str_faction_official.Mayene_f.text" text="a lady"/>
+  <string id="str_faction_official.Tear_f.text" text="a lady"/>
+  <string id="str_faction_official.Tarabon_f.text" text="a lady"/>
+  <string id="str_faction_official.Shienar_f.text" text="a lady"/>
+  <string id="str_faction_official.Kandor_f.text" text="a lady"/>
+  <string id="str_faction_official.Ghealdan_f.text" text="a lady"/>
+  <string id="str_faction_official.FarMadding_f.text" text="a lady"/>
+  <string id="str_faction_official.Arafel_f.text" text="a lady"/>
+  <string id="str_faction_official.Amamdicia_f.text" text="a lady"/>
+  <string id="str_faction_official.Dragonsworn_f.text" text="a lady"/>
+  <string id="str_faction_official.Murandy_f.text" text="a lady"/>
+  <string id="str_faction_official.BlackTower_f.text" text="an aes sedai"/>
+  <string id="str_faction_official.Cairhien_f.text" text="a lady"/>
+  <string id="str_faction_ruler.Seanchan.text" text="emperor"/>
+  <string id="str_faction_ruler.Altara.text" text="king"/>
+  <string id="str_faction_ruler.WhiteTower.text" text="Amyrlin Seat"/>
+  <string id="str_faction_ruler.Mayene.text" text="first"/>
+  <string id="str_faction_ruler.Tear.text" text="high lord"/>
+  <string id="str_faction_ruler.Tarabon.text" text="king"/>
+  <string id="str_faction_ruler.Shienar.text" text="king"/>
+  <string id="str_faction_ruler.Kandor.text" text="king"/>
+  <string id="str_faction_ruler.Ghealdan.text" text="king"/>
+  <string id="str_faction_ruler.FarMadding.text" text="First Counsel"/>
+  <string id="str_faction_ruler.Arafel.text" text="king"/>
+  <string id="str_faction_ruler.Amamdicia.text" text="king"/>
+  <string id="str_faction_ruler.Dragonsworn.text" text="king"/>
+  <string id="str_faction_ruler.Murandy.text" text="king"/>
+  <string id="str_faction_ruler.BlackTower.text" text="M'Hael"/>
+  <string id="str_faction_ruler.Cairhien.text" text="king"/>
+  <string id="str_faction_ruler.Seanchan_f.text" text="empress"/>
+  <string id="str_faction_ruler.Altara_f.text" text="queen"/>
+  <string id="str_faction_ruler.WhiteTower_f.text" text="Amyrlin Seat"/>
+  <string id="str_faction_ruler.Mayene_f.text" text="first"/>
+  <string id="str_faction_ruler.Tear_f.text" text="high lady"/>
+  <string id="str_faction_ruler.Tarabon_f.text" text="panarch"/>
+  <string id="str_faction_ruler.Shienar_f.text" text="queen"/>
+  <string id="str_faction_ruler.Kandor_f.text" text="queen"/>
+  <string id="str_faction_ruler.Ghealdan_f.text" text="queen"/>
+  <string id="str_faction_ruler.FarMadding_f.text" text="First Counsel"/>
+  <string id="str_faction_ruler.Arafel_f.text" text="queen"/>
+  <string id="str_faction_ruler.Amamdicia_f.text" text="queen"/>
+  <string id="str_faction_ruler.Dragonsworn_f.text" text="queen"/>
+  <string id="str_faction_ruler.Murandy_f.text" text="queen"/>
+  <string id="str_faction_ruler.BlackTower_f.text" text="M'Hael"/>
+  <string id="str_faction_ruler.Cairhien_f.text" text="queen"/>
+  <string id="str_faction_ruler_term_in_speech.Seanchan.text" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Altara.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.WhiteTower.text" text="Amyrlin Seat {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Mayene.text" text="First of Mayene {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Tear.text" text="{?RULER.GENDER}High Lady{?}High Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Tarabon.text" text="{?RULER.GENDER}Panarch{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Shienar.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Kandor.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Ghealdan.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.FarMadding.text" text="First Counsel {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Arafel.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Amamdicia.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Dragonsworn.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Murandy.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.BlackTower.text" text="M'Hael {RULER.NAME}"/>
+  <string id="str_faction_ruler_term_in_speech.Cairhien.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Seanchan.text" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Altara.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.WhiteTower.text" text="Amyrlin Seat {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Mayene.text" text="First of Mayene {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Tear.text" text="{?RULER.GENDER}High Lady{?}High Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Tarabon.text" text="{?RULER.GENDER}Panarch{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Shienar.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Kandor.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Ghealdan.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.FarMadding.text" text="First Counsel {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Arafel.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Amamdicia.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Dragonsworn.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Murandy.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.BlackTower.text" text="M'Hael {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.Cairhien.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Seanchan.text" text="{?RULER.GENDER}High Lady{?}High Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Altara.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.WhiteTower.text" text="{?RULER.GENDER}Sitter{?}Captain{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Mayene.text" text="Second of Mayene {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Tear.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Tarabon.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Shienar.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Kandor.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Ghealdan.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.FarMadding.text" text="Counseler {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Arafel.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Amamdicia.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Dragonsworn.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Murandy.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.BlackTower.text" text="{?RULER.GENDER}Aes Sedai{?}Asha'man{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.Cairhien.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+  <string id="str_faction_informal_name_for_culture.Seanchan.text" text="the Seanchan"/>
+  <string id="str_faction_informal_name_for_culture.Altara.text" text="the Altarans"/>
+  <string id="str_faction_informal_name_for_culture.WhiteTower.text" text="the Aes Sedai"/>
+  <string id="str_faction_informal_name_for_culture.Mayene.text" text="the Mayeners"/>
+  <string id="str_faction_informal_name_for_culture.Tear.text" text="the Tairens"/>
+  <string id="str_faction_informal_name_for_culture.Tarabon.text" text="the Taraboners"/>
+  <string id="str_faction_informal_name_for_culture.Shienar.text" text="the Shienarans"/>
+  <string id="str_faction_informal_name_for_culture.Kandor.text" text="the Kandori"/>
+  <string id="str_faction_informal_name_for_culture.Ghealdan.text" text="the Ghealdanin"/>
+  <string id="str_faction_informal_name_for_culture.FarMadding.text" text="the Far Maddingers"/>
+  <string id="str_faction_informal_name_for_culture.Arafel.text" text="the Arafellin"/>
+  <string id="str_faction_informal_name_for_culture.Amamdicia.text" text="the Amadicians"/>
+  <string id="str_faction_informal_name_for_culture.Dragonsworn.text" text="the Dragonsworn"/>
+  <string id="str_faction_informal_name_for_culture.Murandy.text" text="the Murandians"/>
+  <string id="str_faction_informal_name_for_culture.BlackTower.text" text="the Asha'man"/>
+  <string id="str_faction_informal_name_for_culture.Cairhien.text" text="the Cairhienin"/>
+  <string id="str_faction_formal_name_for_culture.Seanchan.text" text="Seanchan Empire"/>
+  <string id="str_faction_formal_name_for_culture.Altara.text" text="Nation of Altara"/>
+  <string id="str_faction_formal_name_for_culture.WhiteTower.text" text="White Tower"/>
+  <string id="str_faction_formal_name_for_culture.Mayene.text" text="City-state of Mayene"/>
+  <string id="str_faction_formal_name_for_culture.Tear.text" text="Nation of Tear"/>
+  <string id="str_faction_formal_name_for_culture.Tarabon.text" text="Nation of Tarabon"/>
+  <string id="str_faction_formal_name_for_culture.Shienar.text" text="Nation of Shienar"/>
+  <string id="str_faction_formal_name_for_culture.Kandor.text" text="Nation of Kandor"/>
+  <string id="str_faction_formal_name_for_culture.Ghealdan.text" text="Nation of Ghealdan"/>
+  <string id="str_faction_formal_name_for_culture.FarMadding.text" text="City-state of Far Madding"/>
+  <string id="str_faction_formal_name_for_culture.Arafel.text" text="Nation of Arafel"/>
+  <string id="str_faction_formal_name_for_culture.Amamdicia.text" text="Nation of Amadicia"/>
+  <string id="str_faction_formal_name_for_culture.Dragonsworn.text" text="Followers of the Dragon"/>
+  <string id="str_faction_formal_name_for_culture.Murandy.text" text="Nation of Murandy"/>
+  <string id="str_faction_formal_name_for_culture.BlackTower.text" text="Black Tower"/>
+  <string id="str_faction_formal_name_for_culture.Cairhien.text" text="Nation of Cairhien"/>
+  <string id="str_adjective_for_faction.Seanchan.text" text="Seanchan"/>
+  <string id="str_adjective_for_faction.Altara.text" text="Altaran"/>
+  <string id="str_adjective_for_faction.WhiteTower.text" text="Aes Sedai"/>
+  <string id="str_adjective_for_faction.Mayene.text" text="Mayener"/>
+  <string id="str_adjective_for_faction.Tear.text" text="Tairen"/>
+  <string id="str_adjective_for_faction.Tarabon.text" text="Taraboner"/>
+  <string id="str_adjective_for_faction.Shienar.text" text="Shienaran"/>
+  <string id="str_adjective_for_faction.Kandor.text" text="Kandori"/>
+  <string id="str_adjective_for_faction.Ghealdan.text" text="Ghealdanin"/>
+  <string id="str_adjective_for_faction.FarMadding.text" text="Far Maddinger"/>
+  <string id="str_adjective_for_faction.Arafel.text" text="Arafellin"/>
+  <string id="str_adjective_for_faction.Amamdicia.text" text="Amadician"/>
+  <string id="str_adjective_for_faction.Dragonsworn.text" text="Dragonsworn"/>
+  <string id="str_adjective_for_faction.Murandy.text" text="Murandian"/>
+  <string id="str_adjective_for_faction.BlackTower.text" text="Asha'man"/>
+  <string id="str_adjective_for_faction.Cairhien.text" text="Cairhienin"/>
+  <string id="str_adjective_for_culture.Seanchan.text" text="Seanchan"/>
+  <string id="str_adjective_for_culture.Altara.text" text="Altaran"/>
+  <string id="str_adjective_for_culture.WhiteTower.text" text="Aes Sedai"/>
+  <string id="str_adjective_for_culture.Mayene.text" text="Mayener"/>
+  <string id="str_adjective_for_culture.Tear.text" text="Tairen"/>
+  <string id="str_adjective_for_culture.Tarabon.text" text="Taraboner"/>
+  <string id="str_adjective_for_culture.Shienar.text" text="Shienaran"/>
+  <string id="str_adjective_for_culture.Kandor.text" text="Kandori"/>
+  <string id="str_adjective_for_culture.Ghealdan.text" text="Ghealdanin"/>
+  <string id="str_adjective_for_culture.FarMadding.text" text="Far Maddinger"/>
+  <string id="str_adjective_for_culture.Arafel.text" text="Arafellin"/>
+  <string id="str_adjective_for_culture.Amamdicia.text" text="Amadician"/>
+  <string id="str_adjective_for_culture.Dragonsworn.text" text="Dragonsworn"/>
+  <string id="str_adjective_for_culture.Murandy.text" text="Murandian"/>
+  <string id="str_adjective_for_culture.BlackTower.text" text="Asha'man"/>
+  <string id="str_adjective_for_culture.Cairhien.text" text="Cairhienin"/>
+  <string id="str_neutral_term_for_culture.Seanchan.text" text="Seanchan"/>
+  <string id="str_neutral_term_for_culture.Altara.text" text="Altarans"/>
+  <string id="str_neutral_term_for_culture.WhiteTower.text" text="Aes Sedai"/>
+  <string id="str_neutral_term_for_culture.Mayene.text" text="Mayeners"/>
+  <string id="str_neutral_term_for_culture.Tear.text" text="Tairen"/>
+  <string id="str_neutral_term_for_culture.Tarabon.text" text="Taraboners"/>
+  <string id="str_neutral_term_for_culture.Shienar.text" text="Shienarans"/>
+  <string id="str_neutral_term_for_culture.Kandor.text" text="Kandori"/>
+  <string id="str_neutral_term_for_culture.Ghealdan.text" text="Ghealdanin"/>
+  <string id="str_neutral_term_for_culture.FarMadding.text" text="Far Maddingers"/>
+  <string id="str_neutral_term_for_culture.Arafel.text" text="Arafellin"/>
+  <string id="str_neutral_term_for_culture.Amamdicia.text" text="Amadicians"/>
+  <string id="str_neutral_term_for_culture.Dragonsworn.text" text="Dragonsworn"/>
+  <string id="str_neutral_term_for_culture.Murandy.text" text="Murandians"/>
+  <string id="str_neutral_term_for_culture.BlackTower.text" text="Asha'man"/>
+  <string id="str_neutral_term_for_culture.Cairhien.text" text="Cairhienin"/>
+  <string id="str_short_term_for_faction.Seanchan.text" text="Seanchan"/>
+  <string id="str_short_term_for_faction.Altara.text" text="Altarans"/>
+  <string id="str_short_term_for_faction.WhiteTower.text" text="Aes Sedai"/>
+  <string id="str_short_term_for_faction.Mayene.text" text="Mayeners"/>
+  <string id="str_short_term_for_faction.Tear.text" text="Tairen"/>
+  <string id="str_short_term_for_faction.Tarabon.text" text="Taraboners"/>
+  <string id="str_short_term_for_faction.Shienar.text" text="Shienarans"/>
+  <string id="str_short_term_for_faction.Kandor.text" text="Kandori"/>
+  <string id="str_short_term_for_faction.Ghealdan.text" text="Ghealdanins"/>
+  <string id="str_short_term_for_faction.FarMadding.text" text="Far Maddingers"/>
+  <string id="str_short_term_for_faction.Arafel.text" text="Arafellins"/>
+  <string id="str_short_term_for_faction.Amamdicia.text" text="Amadicians"/>
+  <string id="str_short_term_for_faction.Dragonsworn.text" text="Dragonsworn"/>
+  <string id="str_short_term_for_faction.Murandy.text" text="Murandians"/>
+  <string id="str_short_term_for_faction.BlackTower.text" text="Asha'man"/>
+  <string id="str_short_term_for_faction.Cairhien.text" text="Cairhienins"/>
+ </strings>
+</base>
