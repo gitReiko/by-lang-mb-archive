@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  
+  <NPCCharacter id="wre_lord_2_1" name="{=wre_lord_2_1.name}Mallobaudes" age="48" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord" face_mesh_cache="true">
+    <face>
+      <BodyProperties version="4" key="000D70040088060E7C3C7AA314675B4975768CD97276394337B7BC8D555922DA00738603078B157C00000000000000000000000000000000000000001AEC4042"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="15"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="13"/>
+      <Trait id="Manager" value="12"/>
+      <Trait id="Honor" value="-1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Authoritarian" value="-1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster/>
+          <EquipmentSet id="emp_bat_template_medium"/>
+          <EquipmentSet id="emp_civ_template_default" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wre_lord_2_2" name="{=wre_lord_2_2.name}Merobaudes" age="46" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord" face_mesh_cache="true">
+    <face>
+      <BodyProperties version="4" key="0002080A548813D42816511C3672567C5ABED31265502702693310023FF35B3101CB56140C397134000000000000000000000000000000000000000013A43102"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="15"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="13"/>
+      <Trait id="Manager" value="12"/>
+      <Trait id="Mercy" value="-1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Generosity" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster/>
+      <EquipmentSet id="emp_bat_template_medium"/>
+      <EquipmentSet id="emp_civ_template_default" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wre_lord_3_1" name="{=wre_lord_3_1.name}Bauto" age="49" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord" face_mesh_cache="true">
+    <face>
+      <BodyProperties version="4" key="000A8C0540FC23CE57A6E7473A5836D858A4D63697988641CD96589B95823B1600699603065947D700000000000000000000000000000000000000002ECC7082"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="7"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="13"/>
+      <Trait id="Manager" value="12"/>
+      <Trait id="Honor" value="-1"/>
+      <Trait id="Generosity" value="1"/>
+      <Trait id="Authoritarian" value="-1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster/>
+      <EquipmentSet id="emp_bat_template_medium"/>
+      <EquipmentSet id="emp_civ_template_default" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wre_lord_3_2" name="{=wre_lord_3_2.name}Arbogastes" age="18" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord" face_mesh_cache="true">
+    <face>
+      <BodyProperties version="4" key="001B6409802C364559ECC95087D9A47B1A54F4995C6785BC84672468C3CEC79A009E96030982298600000000000000000000000000000000000000001F1C80C2"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="7"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="13"/>
+      <Trait id="Manager" value="12"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Calculating" value="1"/>
+      <Trait id="Generosity" value="1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster/>
+      <EquipmentSet id="emp_bat_template_medium"/>
+      <EquipmentSet id="emp_civ_template_default" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wre_lord_3_3" name="{=wre_lord_3_3.name}Richomeres" age="36" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord" face_mesh_cache="true">
+    <face>
+      <BodyProperties version="4" key="00056006C0E433C1389979ACD788D681A2E9958942818D77E979AD57773757C8005BC60305957AA80000000000000000000000000000000000000000449C4082"/>
+    </face>
+    <skills/>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="7"/>
+      <Trait id="Commander" value="14"/>
+      <Trait id="Politician" value="13"/>
+      <Trait id="Manager" value="12"/>
+      <Trait id="Honor" value="1"/>
+      <Trait id="Generosity" value="-1"/>
+    </Traits>
+    <Equipments>
+      <EquipmentRoster/>
+      <EquipmentSet id="emp_bat_template_medium"/>
+      <EquipmentSet id="emp_civ_template_default" civilian="true"/>
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

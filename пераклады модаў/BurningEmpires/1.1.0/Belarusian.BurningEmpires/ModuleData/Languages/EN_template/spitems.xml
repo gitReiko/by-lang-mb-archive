@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <!--input/spitems/celtic_body_items.xml-->
+  <string id="be_battania_dress_a" text="[Celtic] Tartan Dress"/>
+  <string id="be_battania_dress_c" text="[Celtic] Woodland Dress"/>
+  <string id="be_celtic_tunic_a" text="[Celtic] Brown Short Tartan Tunic"/>
+  <string id="be_celtic_tunic_a1" text="[Celtic] Yellow Short Tartan Tunic"/>
+  <string id="be_celtic_tunic_a2" text="[Celtic] Red Short Tartan Tunic"/>
+  <string id="be_celtic_tunic_b" text="[Celtic] Green Tied Tartan Tunic"/>
+  <string id="be_celtic_tunic_b1" text="[Celtic] Yellow Tied Tartan Tunic"/>
+  <string id="be_celtic_tunic_b2" text="[Celtic] Brown Tied Tartan Tunic"/>
+  <string id="be_celt_tunic_cc" text="[Celtic] Green Tartan Tunic"/>
+  <string id="be_celt_tunic_cc1" text="[Celtic] Tartan Tunic"/>
+  <string id="be_celt_tunic_cc2" text="[Celtic] Brown Tunic"/>
+  <string id="be_celtic_tunic_a_dyed" text="[Celtic] Dyed Short Tartan Tunic"/>
+  <string id="be_celtic_tunic_a_dyed1" text="[Celtic] Dyed Short Tartan Tunic"/>
+  <string id="be_celtic_tunic_b_dyed1" text="[Celtic] Dyed Tartan Tunic"/>
+  <string id="be_celtic_tunic_b_dyed" text="[Celtic] Dyed Tartan Tunic"/>
+  <string id="be_celtic_short_mail_a" text="[Celtic] Sleeveless Mail"/>
+  <string id="be_celtic_mail_a" text="[Celtic] Short Sleeved Mail"/>
+  <string id="be_celtic_short_mail_a_dyed" text="[Celtic] Sleeveless Mail with Dyed Tunic"/>
+  <string id="be_celtic_mail_a_dyed" text="[Celtic] Short Sleeved Mail with Dyed Tunic"/>
+  <string id="be_chainmail_short_slevs_a1" text="[Celtic] Sleeveless Chainmail"/>
+  <string id="be_chainmail_short_slevs_a2" text="[Celtic] Short Sleeved Chainmail"/>
+  <string id="be_chainmail_short_slevs_a" text="[Celtic] Chainmail"/>
+  <!--input/spitems/celtic_head_items.xml-->
+  <string id="be_pictish_hood_a" text="[Celtic] Dyed Hood with Frills"/>
+  <string id="be_pictish_hood_b" text="[Celtic] Dyed Hood with Frills"/>
+  <string id="be_battania_simple_spangenhelm" text="[Celtic] Skullcap"/>
+  <string id="be_tim_2023_heavy_ridge_helm_cap" text="[Celtic] Burgh Helmet Skullcap"/>
+  <string id="be_tim_2023_heavy_ridge_helm1" text="[Celtic] Burgh Helmet"/>
+  <string id="be_tim_2023_heavy_ridge_helm2" text="[Celtic] Bronze Burgh Helmet"/>
+  <string id="be_tim_2023_heavy_ridge_helm3" text="[Celtic] Decorated Burgh Helmet"/>
+  <!--input/spitems/celtic_shoulder_items.xml-->
+  <string id="be_pictish_hood_a2" text="[Celtic] Dyed Hood with frills"/>
+  <string id="be_sash_celt" text="[Celtic] Brown Tartan Sash"/>
+  <string id="be_sash_celt1" text="[Celtic] Red Tartan Sash"/>
+  <string id="be_sash_celt2" text="[Celtic] Blue Tartan Sash"/>
+  <string id="be_celtic_sash_lose" text="[Celtic] Red Loose Sash"/>
+  <string id="be_celtic_sash_lose_b" text="[Celtic] Green Sash with Leather"/>
+  <string id="be_celtic_sash_lose_a" text="[Celtic] Red Sash with Mail"/>
+  <string id="be_celtic_sash_lose_dyed" text="[Celtic] Dyed Loose Sash"/>
+  <string id="be_celtic_sash_lose_b_dyed" text="[Celtic] Dyed Sash with Leather"/>
+  <string id="be_celtic_sash_lose_a_dyed" text="[Celtic] Dyed Sash with Mail"/>
+  <string id="be_cape_celtic_a" text="[Celtic] Large Tartan Cloak"/>
+  <string id="be_cape_celtic_a2" text="[Celtic] Large Tartan Cloak"/>
+  <string id="be_cape_celtic_a3" text="[Celtic] Large Tartan Cloak"/>
+  <string id="be_cape_celtic_a4" text="[Celtic] Large Tartan Cloak"/>
+  <string id="be_cape_celtic_b" text="[Celtic] Narrow Tartan Cloak"/>
+  <string id="be_cape_celtic_c" text="[Celtic] Narrow Tartan Cloak"/>
+  <string id="be_cape_celtic_dyed" text="[Celtic] Dyed Tartan Cloak"/>
+  <string id="be_cape_celtic_dyed1" text="[Celtic] Dyed Tartan Cloak"/>
+  <!--input/spitems/celtic_weapon_items.xml-->
+  <string id="be_celtic_dagger_1" text="[Celtic] Dagger"/>
+  <string id="be_celtic_semispatha_1" text="[Celtic] Semi-spatha"/>
+  <string id="be_celtic_spatha_1" text="[Celtic] Simple Spatha"/>
+  <string id="be_celtic_spatha_2" text="[Celtic] Spatha"/>
+  <string id="be_celtic_spatha_3" text="[Celtic] Fine Spatha"/>
+  <string id="be_celtic_spear_1" text="[Celtic] Short Spear"/>
+  <string id="be_celtic_spear_2" text="[Celtic] Spear"/>
+  <string id="be_celtic_spear_3" text="[Celtic] Fine Spear"/>
+  <string id="be_celtic_axe_1" text="[Celtic] Hatchet"/>
+  <string id="be_celtic_axe_2" text="[Celtic] Axe"/>
+  <string id="be_celtic_axe_3" text="[Celtic] Fine Axe"/>
+  <string id="be_celtic_mace_1" text="[Celtic] Wooden Club"/>
+  <string id="be_celtic_mace_2" text="[Celtic] Fine Club"/>
+  <string id="be_celtic_mace_3" text="[Celtic] Heavy Club"/>
+  <string id="be_celtic_mace_2h_1" text="[Celtic] Spiked Two Handed Club"/>
+  <string id="be_celtic_javelin_1" text="[Celtic] Javelin"/>
+  <string id="be_celtic_javelin_2" text="[Celtic] Fine Javelin"/>
+  <string id="be_celtic_throwing_axe" text="[Celtic] Throwing Axe"/>
+  <!--input/spitems/eastern_head_items.xml-->
+  <string id="be_tarasovo_dec" text="[Eastern] Decorated Tarasovo Helmet"/>
+  <string id="be_tarasovo_dec_bronze" text="[Eastern] Bronze Tarasovo Helmet"/>
+  <string id="be_tarasovo_a" text="[Eastern] Tarasovo Helmet"/>
+  <string id="be_tarasovo_a_cap" text="[Eastern] Tarasovo Helmet Cap"/>
+  <string id="be_hunic_helmet_iron" text="[Eastern] Iron Bandhelm"/>
+  <string id="be_hunic_helmet_bronze" text="[Eastern] Bronze Bandhelm"/>
+  <!--input/spitems/german_body_items.xml-->
+  <string id="be_plain_dress" text="[Germanic] Simple Dress"/>
+  <string id="be_tartan_skirt" text="[Germanic] Tartan Trousers"/>
+  <string id="be_savage_armor" text="[Germanic] Berserker Trousers"/>
+  <string id="be_fur_skirt" text="[Germanic] Trousers with Fur"/>
+  <string id="be_fur_skirt_with_tunic" text="[Germanic] Tunic with Fur"/>
+  <string id="be_fur_waistcoat_over_tunic" text="[Germanic] Tunic with Fur Coat"/>
+  <string id="be_fur_coat_over_tunic" text="[Germanic] Fur Coat"/>
+  <string id="be_hemp_tunic" text="[Germanic] Hemp Tunic"/>
+  <string id="be_tundra_tunic" text="[Germanic] Belted Tunic"/>
+  <string id="be_tied_cloth_tunic" text="[Germanic] Tied Tunic"/>
+  <string id="be_tunic_with_rolled_cloth" text="[Germanic] Tunic with Rolled Cloth"/>
+  <string id="be_mail_shirt" text="[Germanic] Mail Shirt"/>
+  <string id="be_germ_tun_stripeblue" text="[Germanic] Checkered Tunic"/>
+  <string id="be_germ_tun_stripered" text="[Germanic] Striped Tunic"/>
+  <string id="be_german_bluedot" text="[Germanic] Blue Dotted Tunic"/>
+  <string id="be_german_tunic_1" text="[Germanic] Green Checkered Tunic"/>
+  <string id="be_german_tunic_1_blue" text="[Germanic] Blue Checkered Tunic"/>
+  <string id="be_german_tunic_1_brown" text="[Germanic] Brown Checkered Tunic"/>
+  <string id="be_german_tunic_1_red" text="[Germanic] Red Checkered Tunic"/>
+  <string id="be_german_tunic_1_dyed" text="[Germanic] Dyed Checkered Tunic"/>
+  <string id="be_german_tunic_1_dyed2" text="[Germanic] Dyed Checkered Tunic"/>
+  <string id="be_german_tunic_2" text="[Germanic] Blue Tunic"/>
+  <string id="be_german_tunic_2_brown" text="[Germanic] Brown Tunic"/>
+  <string id="be_german_tunic_2_green" text="[Germanic] Green Tunic"/>
+  <string id="be_german_tunic_2_orange" text="[Germanic] Orange Tunic"/>
+  <string id="be_german_tunic_2_red" text="[Germanic] Red Tunic"/>
+  <string id="be_german_tunic_2_yellow" text="[Germanic] Yellow Tunic"/>
+  <string id="be_german_tunic_2_dyed" text="[Germanic] Dyed Tunic"/>
+  <string id="be_german_tunic_2_dyed2" text="[Germanic] Dyed Tunic"/>
+  <string id="be_germandecor_1" text="[Germanic] Decorated Dyed Tunic"/>
+  <string id="be_germandecor2" text="[Germanic] Decorated Dyed Tunic"/>
+  <string id="be_germandecor3" text="[Germanic] Decorated Dyed Tunic"/>
+  <string id="be_germandecor4" text="[Germanic] Decorated Dyed Tunic"/>
+  <string id="be_thorsberg_safran_a" text="[Germanic] Dyed Noble Tunic"/>
+  <string id="be_thorsberg_safran_b" text="[Germanic] Dyed Noble Tunic"/>
+  <string id="be_german_doubletunic_1" text="[Germanic] Layered Tunic"/>
+  <string id="be_german_doubletunic_1_dyed" text="[Germanic] Dyed Layered Tunic"/>
+  <string id="be_german_maille_beater" text="[Germanic] Sleeveless Decorated Mail Blue"/>
+  <string id="be_german_maille_beater_red" text="[Germanic] Sleeveless Decorated Mail Red"/>
+  <string id="be_german_maille_beater_green" text="[Germanic] Sleeveless Mail Green"/>
+  <string id="be_german_maille_beater_brown" text="[Germanic] Sleeveless Mail Brown"/>
+  <string id="be_german_maille_beater_dyed" text="[Germanic] Sleeveless Mail"/>
+  <string id="be_german_maille_beater_dyed2" text="[Germanic] Sleeveless Decorated Mail"/>
+  <string id="be_germ_body_mail_dyed" text="[Germanic] Short Sleeved Mail with Dyed Tunic"/>
+  <string id="be_germ_body_mail_dyed2" text="[Germanic] Short Sleeved Mail with Dyed Tunic"/>
+  <string id="be_germ_body_mail_green" text="[Germanic] Short Sleeved Mail with Green Tunic"/>
+  <string id="be_germ_body_mail_blue" text="[Germanic] Short Sleeved Mail with Blue Tunic"/>
+  <string id="be_germ_body_mail_red" text="[Germanic] Short Sleeved Mail with Red Tunic"/>
+  <string id="be_germ_body_mail_long_gray" text="[Germanic] Reinforced Mail with Dyed Tunic"/>
+  <string id="be_germ_body_mail_long_noble" text="[Germanic] Noble Mail with Dyed Tunic"/>
+  <string id="be_german_maille_long" text="[Germanic] Decorated Long Mail with Red Tunic"/>
+  <string id="be_german_maille_long_blue" text="[Germanic] Decorated Long Mail with Blue Tunic"/>
+  <string id="be_german_maille_long_green" text="[Germanic] Decorated Long Mail with Green Tunic"/>
+  <string id="be_german_maille_long_orange" text="[Germanic] Decorated Long Mail with Orange Tunic"/>
+  <string id="be_german_maille_long_lightblue" text="[Germanic] Long Mail with Blue Tunic"/>
+  <string id="be_german_maille_long_lightbrown" text="[Germanic] Long Mail with Brown Tunic"/>
+  <string id="be_german_maille_long_yellow" text="[Germanic] Long Mail with Yellow Tunic"/>
+  <string id="be_german_maille_long_3_dyed" text="[Germanic] Decorated Long Mail with Dyed Tunic"/>
+  <string id="be_german_maille_long_2_dyed" text="[Germanic] Long Mail with Dyed Tunic"/>
+  <!--input/spitems/german_head_items.xml-->
+  <string id="be_bandit_cap" text="[Germanic] Bandit Cap"/>
+  <string id="be_roughhide_cap" text="[Germanic] Roughhide Cap"/>
+  <string id="be_german_hood_a" text="[Germanic] Dyed Hood"/>
+  <string id="be_german_hood_b" text="[Germanic] Dyed Hood"/>
+  <string id="be_germ_leathercap" text="[Germanic] Leather Cap"/>
+  <string id="be_germ_leathercap2" text="[Germanic] Brown Leather Cap"/>
+  <string id="be_germ_leathercap3" text="[Germanic] Dark Brown Leather Cap"/>
+  <string id="be_dacian_hat_a" text="[Germanic] Blue Cap"/>
+  <string id="be_dacian_hat_a1" text="[Germanic] Red Cap"/>
+  <string id="be_dacian_hat_b" text="[Germanic] White Cap"/>
+  <string id="be_dacian_hat_b1" text="[Germanic] Black Cap"/>
+  <string id="be_dacian_hat_c" text="[Germanic] Green Cap"/>
+  <string id="be_dacian_hat_c1" text="[Germanic] White Cap"/>
+  <string id="be_dacian_hat_dyed" text="[Germanic] Dyed Cap"/>
+  <string id="be_dacian_hat_dyed1" text="[Germanic] Dyed Cap"/>
+  <string id="be_battanian_skull_cap" text="[Germanic] Skullcap"/>
+  <string id="be_roman_helm_intercisa_weasel" text="[Germanic] Intercisa with Weasel Fur"/>
+  <string id="be_roman_helm_intercisa_wolf" text="[Germanic] Intercisa with Wolf Fur"/>
+  <string id="be_german_heddern_nocheeks" text="[Germanic] Old Helmet"/>
+  <string id="be_berkasovo_2_helmet_cap" text="[Germanic] Berkasovo 2 Helmet Cap"/>
+  <string id="be_berkasovo_2_helmet_feather" text="[Germanic] Berkasovo 2 Helmet Cap"/>
+  <string id="be_christies_feather" text="[Germanic] Ridge Helmet Cap with Feathers"/>
+  <string id="be_christies_feather_2" text="[Germanic] Ridge Helmet Cap with Feathers"/>
+  <string id="be_concesti_cap" text="[Germanic] Concesti Helmet Cap"/>
+  <string id="be_deurne_helmet_cap" text="[Germanic] Deurne Helmet Cap"/>
+  <string id="be_koblenz_feathers" text="[Germanic] Koblenz Helmet Cap with Feathers"/>
+  <string id="be_german_fernpass_iron" text="[Germanic] Fernpass Helmet"/>
+  <string id="be_germ_fern_b" text="[Germanic] Fernpass Skullcap with Feathers"/>
+  <string id="be_germ_fern_c" text="[Germanic] Fernpass Skullcap with Noseguard"/>
+  <string id="be_germ_fern_d" text="[Germanic] Reinforced Fernpass Skullcap "/>
+  <string id="be_germ_fern_e" text="[Germanic] Fernpass Helmet with Small Horsetail"/>
+  <string id="be_german_fernpass_bronze_tail" text="[Germanic] Gilded Fernpass Helmet"/>
+  <string id="be_german_fernpass_iron_tail" text="[Germanic] Fernpass Helmet with Horsehair"/>
+  <string id="be_augsburg_1_helmet" text="[Germanic] Bronze Augsburg 1 Helmet"/>
+  <string id="be_augsburg_1_helmet_iron" text="[Germanic] Old Augsburg 1 Helmet"/>
+  <string id="be_augsburg_1_helmet_steel" text="[Germanic] Augsburg 1 Helmet"/>
+  <string id="be_augsburg_1_helmet_iron_masked" text="[Germanic] Masked Augsburg 1 Helmet"/>
+  <string id="be_augsburg_2_helmet_boar" text="[Germanic] Augsburg 2 Helmet with Boar Crest"/>
+  <string id="be_koblenz1" text="[Germanic] Koblenz Helmet"/>
+  <string id="be_koblenz2" text="[Germanic] Bronze Koblenz Helmet"/>
+  <string id="be_heteny_a" text="[Germanic] Heteny Helmet"/>
+  <string id="be_jarak" text="[Germanic] Jarak Helmet"/>
+  <string id="be_concesti" text="[Germanic] Old Concesti Helmet"/>
+  <string id="be_concesti_iron" text="[Germanic] Old Iron Concesti Helmet"/>
+  <string id="be_concesti_c" text="[Germanic] Iron Concesti Helmet"/>
+  <string id="be_concesti_b" text="[Germanic] Concesti Helmet"/>
+  <string id="be_concesti_b_feathers" text="[Germanic] Concesti Helmet with Feathers"/>
+  <string id="be_deurne_helmet" text="[Germanic] Deurne Helmet"/>
+  <string id="be_deurne_helmet_iron" text="[Germanic] Iron Deurne Helmet"/>
+  <string id="be_deurne_a_helmet" text="[Germanic] Decorated Deurne Helmet"/>
+  <string id="be_deurne_helmet_feather_a" text="[Germanic] Bronze Deurne Helmet with Feathers"/>
+  <string id="be_deurne_helmet_feather_b" text="[Germanic] Iron Deurne Helmet with Feathers"/>
+  <string id="be_christies_iron" text="[Germanic] Heavy Ridge Helmet"/>
+  <string id="be_christies_bronze" text="[Germanic] Heavy Decorated Ridge Helmet"/>
+  <string id="be_christies_gold" text="[Germanic] Heavy Gilded Ridge Helmet"/>
+  <string id="be_roman_helm_ridge" text="[Germanic] Ridge Helm"/>
+  <string id="be_augs_cheek2" text="[Germanic] Bronze Augsberg Helmet"/>
+  <string id="be_deurne_a_helmet_iron" text="[Germanic] Decorated Iron Deurne Helmet"/>
+  <string id="be_germ_augsberg_cheeks" text="[Germanic] Augsberg Helmet"/>
+  <string id="be_germ_augsberg_nada" text="[Germanic] Augsberg Skullcap"/>
+  <string id="be_germ_augsbergbare" text="[Germanic] Augsberg Skullcap with Noseguard"/>
+  <string id="be_germ_augsberg_nose_cheek" text="[Germanic] Augsberg Helmet with Boar"/>
+  <string id="be_empire_lord_helmet_g" text="[Germanic] Jewelled Augsberg Helmet"/>
+  <string id="be_augsburg_2_helmet" text="[Germanic] Bronze Augsburg Helmet"/>
+  <string id="be_augsburg_2_helmet_iron" text="[Germanic] Iron Augsburg Helmet"/>
+  <string id="be_augsburg_2_helmet_gold" text="[Germanic] Gilded Augsburg Helmet"/>
+  <string id="be_berkasovo_2_helmet" text="[Germanic] Bronze Berkasovo Helmet"/>
+  <string id="be_berkasovo_2_helmet_iron" text="[Germanic] Iron Berkasovo Helmet"/>
+  <string id="be_berkasovo_2_helmet_gold" text="[Germanic] Gilded Berkasovo Helmet"/>
+  <string id="be_german_face_mask" text="[Germanic] Decorated Masked Helmet"/>
+  <string id="be_german_face_mask_iron" text="[Germanic] Masked Helmet"/>
+  <!--input/spitems/german_leg_items.xml-->
+  <string id="be_german_lengeneer_orange" text="[Germanic] Legeneer"/>
+  <string id="be_german_campagi" text="[Germanic] Campagi"/>
+  <string id="be_german_campagi_red" text="[Germanic] Red Campagi"/>
+  <string id="be_german_campagi_legwrapbrown" text="[Germanic] Campagi Brown Legwrap"/>
+  <string id="be_german_campagi_orange" text="[Germanic] Campagi Orange Legwrap"/>
+  <string id="be_german_tiroshoe_legwrap_brown" text="[Germanic] Brown Legwrap"/>
+  <string id="be_campagimanica_1" text="[Germanic] Campagi with Lamellar Guard"/>
+  <!--input/spitems/german_shield_items.xml-->
+  <string id="thorsberg_shield_wood" text="[Germanic] Wooden Thorsberg Shield"/>
+  <string id="thorsberg_shield_white_old" text="[Germanic] Old White Thorsberg Shield"/>
+  <string id="thorsberg_shield_white" text="[Germanic] White Thorsberg Shield"/>
+  <string id="thorsberg_shield_nydam" text="[Germanic] Thorsberg Shield with Circular Pattern"/>
+  <string id="thorsberg_shield_decor_red" text="[Germanic] Thorsberg Shield with Red Pattern"/>
+  <string id="thorsberg_shield_colored" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_3" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_4" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_5" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_6" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_7" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_8" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_9" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_10" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_11" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_12" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_13" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_14" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_15" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_germanic_16" text="[Germanic] Painted Thorsberg Shield"/>
+  <string id="be_cjiaba_gommern_shield" text="[Germanic] Gommern Shield"/>
+  <string id="be_cjiaba_gommern_shield_colored" text="[Germanic] Painted Gommern Shield"/>
+  <string id="be_cjiaba_gommern_shield_colored2" text="[Germanic] Painted Gommern Shield"/>
+  <string id="be_dac_nord_shield_e" text="[Germanic] Red Illerup Shield"/>
+  <string id="be_dac_nord_shield_f" text="[Germanic] Painted Illerup Shield"/>
+  <string id="thorsberg_shield_small_wood" text="[Germanic] Small Wooden Thorsberg Shield"/>
+  <string id="thorsberg_shield_small_1" text="[Germanic] Small Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_small_2" text="[Germanic] Small Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_small_3" text="[Germanic] Small Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_small_4" text="[Germanic] Small Painted Thorsberg Shield"/>
+  <string id="thorsberg_shield_small_5" text="[Germanic] Small Painted Thorsberg Shield"/>
+  <!--input/spitems/german_shoulder_items.xml-->
+  <string id="be_safran_cloak_a" text="[Germanic] Green Striped Cloak"/>
+  <string id="be_safran_cloak_a_blue" text="[Germanic] Blue Striped Cloak"/>
+  <string id="be_safran_cloak_a_brown" text="[Germanic] Brown Striped Cloak"/>
+  <string id="be_safran_cloak_a_red" text="[Germanic] Red Striped Cloak"/>
+  <string id="be_safran_cloak_a_yellow" text="[Germanic] Yellow Striped Cloak"/>
+  <string id="be_safran_cloak_a_dyed" text="[Germanic] Dyed Striped Cloak"/>
+  <string id="be_german_thick_dyed_cape" text="[Germanic] Thick Dyed Cape"/>
+  <string id="be_pelerina_dac_a" text="[Germanic] Red Cape"/>
+  <string id="be_pelerina_dac_a1" text="[Germanic] Fur Cape"/>
+  <string id="be_pelerina_dac_b" text="[Germanic] White Cape"/>
+  <string id="be_pelerina_dac_b1" text="[Germanic] Patterned Cape"/>
+  <string id="be_pelerina_dac_c" text="[Germanic] Black Cape"/>
+  <string id="be_pelerina_dac_c1" text="[Germanic] Patterned Blue Cape"/>
+  <string id="be_pelerina_dac_dyed" text="[Germanic] Dyed Cape"/>
+  <string id="be_goth_cape_levente_a2" text="[Germanic] Red Cloak"/>
+  <string id="be_goth_cape_levente_b2" text="[Germanic] Dyed Cloak"/>
+  <string id="be_helm_cape_wolf_black" text="[Germanic] Black Wolfskin"/>
+  <string id="be_helm_cape_wolf_brown" text="[Germanic] Brown Wolfskin"/>
+  <string id="be_helm_cape_wolf_gray" text="[Germanic] Gray Wolfskin"/>
+  <string id="be_helm_cape_wolf_white" text="[Germanic] White Wolfskin"/>
+  <string id="be_cape_bear" text="[Germanic] Bearskin"/>
+  <!--input/spitems/german_weapon_items.xml-->
+  <string id="be_german_dagger_1" text="[Germanic] Dagger"/>
+  <string id="be_german_dagger_2" text="[Germanic] Seax"/>
+  <string id="be_german_semispatha_1" text="[Germanic] Semi-spatha"/>
+  <string id="be_german_spatha_feltwell" text="[Germanic] Feltwell Spatha"/>
+  <string id="be_german_spatha_1" text="[Germanic] Simple Spatha"/>
+  <string id="be_german_spatha_2" text="[Germanic] Spatha"/>
+  <string id="be_german_spatha_3" text="[Germanic] Noble Spatha"/>
+  <string id="be_german_spear_1" text="[Germanic] Short Spear"/>
+  <string id="be_german_spear_2" text="[Germanic] Spear"/>
+  <string id="be_german_spear_3" text="[Germanic] Fine Spear"/>
+  <string id="be_german_pike_1" text="[Germanic] Long Spear"/>
+  <string id="be_german_angon_1" text="[Germanic] Angon"/>
+  <string id="be_german_lance_1" text="[Germanic] Cavalry Lance"/>
+  <string id="be_german_axe_1" text="[Germanic] Hatchet"/>
+  <string id="be_german_axe_2" text="[Germanic] Axe"/>
+  <string id="be_german_axe_3" text="[Germanic] Fine Axe"/>
+  <string id="be_german_2h_axe_1" text="[Germanic] Large Axe"/>
+  <string id="be_german_mace_1" text="[Germanic] Wooden Club"/>
+  <string id="be_german_mace_2" text="[Germanic] Fine Club"/>
+  <string id="be_german_mace_3" text="[Germanic] Heavy Club"/>
+  <string id="be_german_2h_mace_1" text="[Germanic] Spiked Two Handed Club"/>
+  <string id="be_german_javelin_1" text="[Germanic] Javelin"/>
+  <string id="be_german_javelin_2" text="[Germanic] Fine Javelin"/>
+  <string id="be_german_throwing_axe_1" text="[Germanic] Throwing Axe"/>
+  <string id="be_german_throwing_axe_2" text="[Germanic] Francesca"/>
+  <string id="be_german_falx" text="[Germanic] Falx"/>
+  <string id="be_german_sica" text="[Germanic] Sica"/>
+  <!--input/spitems/hunnic_body_items.xml-->
+  <string id="be_khuzait_dress" text="[Hunnic] Steppe Dress"/>
+  <string id="be_khuzait_dress_b" text="[Hunnic] Fur Dress"/>
+  <string id="be_steppe_dress" text="[Hunnic] Noble Dress"/>
+  <string id="be_hun_beater_4" text="[Hunnic] Sleeveless Jacket"/>
+  <string id="be_hun_beater_3" text="[Hunnic] Sleeveless Fur Jacket"/>
+  <string id="be_hun_beater_dark_3" text="[Hunnic] Sleeveless Black Fur Jacket"/>
+  <string id="be_hun_sleeved_1" text="[Hunnic] Sleeved Jacket"/>
+  <string id="be_hun_sleeved_dark" text="[Hunnic] Dark Sleeved Jacket"/>
+  <string id="be_hun_sleeved_2" text="[Hunnic] Brown Fur Jacket"/>
+  <string id="be_hun_sleeved_dark_2" text="[Hunnic] Black Fur Jacket"/>
+  <string id="be_mongol_kaftan_a" text="[Hunnic] Brown Kaftan"/>
+  <string id="be_mongol_kaftan_a1" text="[Hunnic] Dyed Kaftan"/>
+  <string id="be_mongol_kaftan_a2" text="[Hunnic] Black Kaftan"/>
+  <string id="be_mongol_kaftan_a3" text="[Hunnic] Dark Brown Kaftan"/>
+  <string id="be_cjiaba_hun_kaftan" text="[Hunnic] Noble Thick Kaftan"/>
+  <string id="be_cjiaba_hun_kaftan2" text="[Hunnic] Noble Thick Kaftan"/>
+  <string id="be_cjiaba_hun_kaftan_fur" text="[Hunnic] Dyed Thick Kaftan with Fur"/>
+  <string id="be_cjiaba_hun_kaftan_fur2" text="[Hunnic] Thick Kaftan with Fur"/>
+  <string id="be_hunic_leather_a9" text="[Hunnic] Leather Scale Armor"/>
+  <string id="be_hunic_lamelar_leather" text="[Hunnic] Leather Lamellar Armor"/>
+  <string id="be_hunic_lamelar_leather_b" text="[Hunnic] Dark Leather Lamellar Armor"/>
+  <string id="be_hunic_chainmail_a" text="[Hunnic] Chainmail"/>
+  <string id="be_cjiaba_hun_armor" text="[Hunnic] Mail Over Noble Kaftan"/>
+  <string id="be_cjiaba_hun_armor_fur" text="[Hunnic] Mail Over Kaftan"/>
+  <string id="be_hunic_lamelar_a" text="[Hunnic] Iron Lamellar Armor"/>
+  <string id="be_hunic_lamelar_b" text="[Hunnic] Patterned Lamellar Armor"/>
+  <string id="be_hunic_lamelar_c" text="[Hunnic] Lamellar Armor with Tamga"/>
+  <string id="be_lamellar_scorilo_c" text="[Hunnic] Lamellar Armor"/>
+  <string id="be_lamellar_scorilo_d" text="[Hunnic] Lamellar Armor with Shoulderpads"/>
+  <string id="be_lamellar_scorilo_a" text="[Hunnic] Decorated Lamellar Armor with Armguard"/>
+  <string id="be_lamellar_scorilo_b" text="[Hunnic] Lamellar Armor with Armguard"/>
+  <string id="be_lamellar_scorilo_heavy" text="[Hunnic] Royal Lamellar Armor"/>
+  <string id="be_lamellar_scorilo_heavy_b" text="[Hunnic] Decorated Heavy Lamellar Armor"/>
+  <!--input/spitems/hunnic_head_items.xml-->
+  <string id="be_hun_cap" text="[Hun] Steppe Cap"/>
+  <string id="be_hun_cap_1" text="[Hun] Steppe Cap"/>
+  <string id="be_hun_cap_2" text="[Hun] Upturned Steppe Cap"/>
+  <string id="be_hun_cap_3" text="[Hun] Upturned Steppe Cap"/>
+  <string id="be_mongolian_fur_hat" text="[Hun] Fur Cap"/>
+  <string id="be_mongolian_fur_hat1" text="[Hun] Fur Cap"/>
+  <string id="be_mongolian_fur_hat2" text="[Hun] Fur Cap"/>
+  <string id="be_mongolian_fur_hat3" text="[Hun] Fur Cap"/>
+  <string id="be_cjiaba_hun_hat" text="[Hun] Long Cap"/>
+  <string id="be_cjiaba_hun_hat_fur" text="[Hun] Long Fur Cap"/>
+  <string id="be_cjiaba_hun_hat_fur_tied" text="[Hun] Tied Fur Cap"/>
+  <string id="be_cjiaba_hun_hat_tied" text="[Hun] Tied Cap"/>
+  <string id="be_rozhdestvensky_helmet" text="[Hun] Rozhdestvensky A Helmet"/>
+  <string id="be_rozhdestvensky_cap" text="[Hun] Rozhdestvensky A Helmet with Cap"/>
+  <string id="be_rozhdestvensky_hair" text="[Hun] Rozhdestvensky A Helmet with Horsehair"/>
+  <string id="be_turaeovo" text="[Hun] Turaeovo Helmet"/>
+  <string id="be_cjiaba_hun_helmet_fur_tied" text="[Hun] Lamellar Helmet with Fur"/>
+  <string id="be_cjiaba_hun_helmet_fur_tied2" text="[Hun] Lamellar Helmet with Fur"/>
+  <string id="be_cjiaba_hun_kalkhni_fur_tied" text="[Hun] Lamellar Helmet with Fur"/>
+  <string id="be_hunic_helmet" text="[Hun] Feathered Turaeovo Helmet"/>
+  <string id="be_kalkhni_b" text="[Hun] Kalkhni B Helmet"/>
+  <string id="be_kalkhni_a" text="[Hun] Kalkhni A Helmet"/>
+  <string id="be_khalkini" text="[Hun] Kalkhni Helmet with Brown Horsetail"/>
+  <string id="be_khalkini_dark" text="[Hun] Kalkhni Helmet with Black Horsetail"/>
+  <string id="be_khalkini_gold" text="[Hun] Decorated Kalkhni Helmet Horsetail"/>
+  <string id="be_cjiaba_hunn_helm1" text="[Hun] Lamellar Helmet"/>
+  <string id="be_cjiaba_hunn_helm2" text="[Hun] Lamellar Helmet with Neck Covering"/>
+  <string id="be_cjiaba_hunn_helm3" text="[Hun] Flat Top Lamellar Helmet"/>
+  <string id="be_cjiaba_hunn_helm4" text="[Hun] Flat Top Lamellar Helmet with Neck Covering"/>
+  <string id="be_cjiaba_hunn_helm5" text="[Hun] Pointed Lamellar Helmet"/>
+  <string id="be_cjiaba_hunn_helm6" text="[Hun] Pointed Lamellar Helmet with Neck Covering"/>
+  <!--input/spitems/hunnic_leg_items.xml-->
+  <string id="be_hunshoe_1" text="[Hunnic] Red Leather Boots"/>
+  <string id="be_hunshoe_2" text="[Hunnic] Brown Leather Boots"/>
+  <string id="be_hunshoe_3" text="[Hunnic] Leather Boots"/>
+  <string id="be_cjiaba_hun_boots1" text="[Hunnic] High Leather Boots"/>
+  <string id="be_cjiaba_hun_boots2" text="[Hunnic] Noble Leather Boots"/>
+  <!--input/spitems/hunnic_shoulder_items.xml-->
+  <string id="be_hun_scarf_short_brown" text="[Hunnic] Brown Short Scarf"/>
+  <string id="be_hun_scarf_short_dyed" text="[Hunnic] Dyed Short Scarf"/>
+  <string id="be_hun_cape_levente_a" text="[Hunnic] Red Cloak with Fur"/>
+  <string id="be_hun_cape_levente_a1" text="[Hunnic] Black Cloak with Fur"/>
+  <string id="be_hun_cape_levente_a2" text="[Hunnic] Red Cloak"/>
+  <string id="be_hun_cape_levente_b" text="[Hunnic] Dyed Cloak with Fur"/>
+  <string id="be_hun_cape_levente_b1" text="[Hunnic] Dyed Dark Cloak with Fur"/>
+  <string id="be_hun_cape_levente_b2" text="[Hunnic] Dyed Cloak"/>
+  <!--input/spitems/hunnic_weapon_items.xml-->
+  <string id="be_hunnic_dagger_1" text="[Hunnic] Dagger"/>
+  <string id="be_hunnic_semispatha_1" text="[Hun] Semi-spatha"/>
+  <string id="be_hunnic_spatha_1" text="[Hun] Simple Spatha"/>
+  <string id="be_hunnic_spatha_2" text="[Hun] Spatha"/>
+  <string id="be_hunnic_spatha_3" text="[Hun] Fine Spatha"/>
+  <string id="be_hunnic_spear_1" text="[Hun] Short Spear"/>
+  <string id="be_hunnic_spear_2" text="[Hun] Spear"/>
+  <string id="be_hunnic_spear_3" text="[Hun] Fine Spear"/>
+  <string id="be_hunnic_lance_1" text="[Hun] Cavalry Lance"/>
+  <string id="be_hunnic_lance_2" text="[Hun] Cataphract Lance"/>
+  <string id="be_hunnic_axe_1" text="[Hun] Hatchet"/>
+  <string id="be_hunnic_axe_2" text="[Hun] Axe"/>
+  <string id="be_hunnic_axe_3" text="[Hun] Fine Axe"/>
+  <!--input/spitems/roman_arm_items.xml-->
+  <string id="be_roman_manica_iron" text="[Roman] Iron Manica"/>
+  <string id="be_roman_manica_gold" text="[Roman] Bronze Manica"/>
+  <!--input/spitems/roman_body_items.xml-->
+  <string id="be_empire_dress" text="[Roman] Ladies Dress"/>
+  <string id="be_empire_dress_b" text="[Roman] Red Dress"/>
+  <string id="be_corset_dress" text="[Roman] Dress"/>
+  <string id="be_woman_dress" text="[Roman] Aproned Dress"/>
+  <string id="be_noble_woman_dress" text="[Roman] Noble Dress"/>
+  <string id="be_romecoptic_dyed_7" text="[Roman] Dyed Simple Coptic Tunic"/>
+  <string id="be_romecoptic_dyed_6" text="[Roman] Dyed Simple Coptic Tunic"/>
+  <string id="be_romecoptic_dyed_5" text="[Roman] Dyed Simple Coptic Tunic"/>
+  <string id="be_romecoptic_dyed_4" text="[Roman] Dyed Simple Coptic Tunic"/>
+  <string id="be_romecoptic_dyed_3" text="[Roman] Dyed Simple Coptic Tunic"/>
+  <string id="be_romecoptic_dyed_2" text="[Roman] Dyed Simple Coptic Tunic"/>
+  <string id="be_romecoptic_dyed_1" text="[Roman] Dyed Simple Coptic Tunic"/>
+  <string id="be_romecoptic_1" text="[Roman] Simple Scarlet Coptic Tunic"/>
+  <string id="be_romecoptic_2" text="[Roman] Simple Red Coptic Tunic"/>
+  <string id="be_romecoptic_3" text="[Roman] Simple White Coptic Tunic"/>
+  <string id="be_romecoptic_4" text="[Roman] Simple Blue Coptic Tunic"/>
+  <string id="be_romecoptic_5" text="[Roman] Simple Green Coptic Tunic"/>
+  <string id="be_romecoptic_6" text="[Roman] Simple Black Coptic Tunic"/>
+  <string id="be_romecoptic_7" text="[Roman] Simple Orange Coptic Tunic"/>
+  <string id="be_roman_tunic_tiro_low" text="[Roman] Red Tunic"/>
+  <string id="be_roman_tunic_tiro_low_blue" text="[Roman] Blue Tunic"/>
+  <string id="be_roman_tunic_tiro_low_darkred" text="[Roman] Dark Red Tunic"/>
+  <string id="be_roman_tunic_tiro_low_green" text="[Roman] Green Tunic"/>
+  <string id="be_roman_tunic_tiro_low_grey" text="[Roman] Grey Tunic"/>
+  <string id="be_roman_tunic_tiro_low_orange" text="[Roman] Orange Tunic"/>
+  <string id="be_roman_tunic_tiro_low_yellow" text="[Roman] Yellow Tunic"/>
+  <string id="be_roman_tunic_tiro_dyed" text="[Roman] Dyed Tunic"/>
+  <string id="be_roman_tunic_tiro_dyed2" text="[Roman] Dyed Tunic"/>
+  <string id="be_roman_tunic_miles_low" text="[Roman] Tunic with White Subarmalis"/>
+  <string id="be_roman_tunic_miles_low_red" text="[Roman] Tunic with Red Subarmalis"/>
+  <string id="be_roman_miles_darkredt_bluep" text="[Roman] Sleeveless White Subarmalis with Red Tunic"/>
+  <string id="be_roman_miles_darkredt_bluep_brown" text="[Roman] Sleeveless Brown Subarmalis with Red Tunic"/>
+  <string id="be_roman_miles_darkredt_bluep_gray" text="[Roman] Sleeveless Grey Subarmalis with Red Tunic"/>
+  <string id="be_roman_subarmalis_sleeveless_dyed" text="[Roman] Sleeveless Subarmalis with Dyed Tunic"/>
+  <string id="be_roman_subarmalis_sleeved_greenpant" text="[Roman] Sleeved White Subarmalis"/>
+  <string id="be_roman_subarmalis_sleeved_bluesub" text="[Roman] Sleeved Blue Subarmalis"/>
+  <string id="be_roman_subarmalis_sleeved_brownsub" text="[Roman] Sleeved Brown Subarmalis"/>
+  <string id="be_roman_subarmalis_sleeved_redsub" text="[Roman] Sleeved Red Subarmalis"/>
+  <string id="be_roman_subarmalis_sleeved_dyed" text="[Roman] Sleeved Dyed Subarmalis"/>
+  <string id="be_roman_armor_mail_shins" text="[Roman] Short Sleeved Chainmail with Green Pants"/>
+  <string id="be_roman_armor_mail_greaves" text="[Roman] Short Sleeved Chainmail with Blue Pants"/>
+  <string id="be_roman_armor_mail_greaves_dark" text="[Roman] Short Sleeved Chainmail with Brown Pants"/>
+  <string id="be_roman_mail_short_dyed" text="[Roman] Short Sleeved Chainmail with Dyed Tunic"/>
+  <string id="be_roman_mail_short_dyed2" text="[Roman] Short Sleeved Chainmail with Dyed Tunic"/>
+  <string id="be_roman_armor_mail_sleeved" text="[Roman] Sleeved Chainmail"/>
+  <string id="be_roman_armor_mail_sleeved_dyed" text="[Roman] Sleeved Chainmail with Dyed unic"/>
+  <string id="be_roman_squamata_noptyerges_goldv2" text="[Roman] Old Squamata with Dyed Tunic"/>
+  <string id="be_roman_squamata_noptyerges_gold" text="[Roman] Bronze Squamata"/>
+  <string id="be_roman_squamata_noptyerges" text="[Roman] Iron Squamata"/>
+  <string id="be_roman_squamata_noptyerges_gold_dyed" text="[Roman] Bronze Squamata with Dyed Tunic"/>
+  <string id="be_roman_squamata_noptyerges_dyed" text="[Roman] Iron Squamata with Dyed Tunic"/>
+  <string id="be_roman_squamata_coptic_whitestraps" text="[Roman] Steel Squamata"/>
+  <string id="be_roman_squamata_undecor" text="[Roman] Iron Squamata with Pteryges"/>
+  <string id="be_roman_squamata_squamata_elite_stillicho" text="[Roman] Noble Golden Squamata"/>
+  <string id="be_roman_squamata_squamata_elite_steel" text="[Roman] Noble Steel Squamata"/>
+  <string id="be_roman_armor_squamata_full_gold" text="[Roman] Heavy Bronze Squamata"/>
+  <string id="be_roman_armor_squamata_full_gray" text="[Roman] Heavy Steel Squamata"/>
+  <string id="be_rome_muscles" text="[Roman] Musculata with White Pteryges"/>
+  <string id="be_rome_muscles_red" text="[Roman] Musculata with Red Pteryges"/>
+  <string id="be_rome_muscles_blue" text="[Roman] Musculata with Blue Pteryges"/>
+  <string id="be_rome_muscles_yellow" text="[Roman] Musculata with Yellow Pteryges"/>
+  <string id="be_rome_muscles_purple" text="[Roman] Royal Musculata with Purple Pteryges"/>
+  <!--input/spitems/roman_head_items.xml-->
+  <string id="be_merchants_hat" text="[Roman] Simple Pannonian Cap"/>
+  <string id="be_empire_battle_crown_west" text="[Roman] Plumed Eastern Helmet"/>
+  <string id="be_empire_battle_crown_north" text="[Roman] Plumed Western Helmet"/>
+  <string id="be_roman_hat_pannonian_1" text="[Roman] Pannonian Cap"/>
+  <string id="be_roman_hat_pannonian_1_black" text="[Roman] Black Pannonian Cap"/>
+  <string id="be_roman_hat_pannonian_2" text="[Roman] High Pannonian Cap"/>
+  <string id="be_roman_hat_pannonian_2_black" text="[Roman] High Pannonian Cap"/>
+  <string id="be_roman_helm_intercisa_a" text="[Roman] Intercisa A Helmet"/>
+  <string id="be_roman_helm_intercisa_a_gold" text="[Roman] Bronze Intercisa Helmet"/>
+  <string id="be_roman_helm_intercisa_b" text="[Roman] Intercisa B Helmet"/>
+  <string id="be_roman_helm_intercisa_ii_gold" text="[Roman] Intercisca II Gold Helmet"/>
+  <string id="be_roman_helm_florence" text="[Roman] Florence Helmet"/>
+  <string id="be_roman_helm_iatrus_iatrus_simple" text="[Roman] Iatrus Helmet"/>
+  <string id="be_roman_helm_iatrus_simple_bronze" text="[Roman] Bronze Iatrus Helmet"/>
+  <string id="be_ghor_el_haditha_helmet" text="[Roman] Haditha Helmet"/>
+  <string id="be_rome_helm_intercisa_cj_brass" text="[Roman] Bronze Intercisa Helmet"/>
+  <string id="be_rome_helm_intercisa_cj_iron" text="[Roman] Intercisa Helmet"/>
+  <string id="be_roman_helm_intercisa_ii" text="[Roman] Intercisa II Helmet"/>
+  <string id="be_roman_helm_intercisa_fin_iron_a" text="[Roman] Iron Crested Intercisa A Helmet"/>
+  <string id="be_roman_helm_intercisa_fin_iron_b" text="[Roman] Iron Crested Intercisa B Helmet"/>
+  <string id="be_roman_helm_iatrus_crest_iron" text="[Roman] Iron Iatrus Helmet with Red Plume"/>
+  <string id="be_roman_helm_iatrus_crest" text="[Roman] Iatrus Helmet with Red Plume"/>
+  <string id="be_roman_helm_intercisa_fin_brass" text="[Roman] Brass Crested Intercisa Helmet"/>
+  <string id="be_roman_helm_intercisa_fin_steel" text="[Roman] Steel Crested Intercisa Helmet"/>
+  <string id="be_rome_helm_intercisa_cj_brass_crest" text="[Roman] Bronze Intercisa Helmet with Crest"/>
+  <string id="be_rome_helm_intercisa_cj_iron_crest" text="[Roman] Intercisa Helmet with Crest"/>
+  <string id="be_rome_helm_intercisa_cj_masked_brass" text="[Roman] Bronze Masked Helmet"/>
+  <string id="be_rome_helm_intercisa_cj_masked_brass_crest" text="[Roman] Bronze Masked Helmet with Crest"/>
+  <string id="be_rome_helm_intercisa_cj_masked_iron" text="[Roman] Masked Helmet"/>
+  <string id="be_rome_helm_intercisa_cj_masked_iron_crest" text="[Roman] Masked Helmet with Crest"/>
+  <string id="be_roman_helm_intercisa_crest_brass_hair" text="[Roman] Brass Crested Intercisa with Plume"/>
+  <string id="be_roman_helm_intercisa_crest_iron_hair" text="[Roman] Iron Crested Intercisa with Plume"/>
+  <string id="be_roman_helm_intercisa_crest_masked" text="[Roman] Masked Intercisa with Plume"/>
+  <string id="be_roman_helm_berkasovo" text="[Roman] Berkasovo Helmet"/>
+  <string id="be_roman_helm_budapest" text="[Roman] Budapest Helmet"/>
+  <string id="be_roman_helm_budapest_lord" text="[Roman] Budapest Helmet with Plume"/>
+  <string id="be_roman_helm_budapest_lord_white" text="[Roman] Budapest Helmet with White Plume"/>
+  <string id="be_roman_helm_budapest_lord_black" text="[Roman] Budapest Helmet with Black Plume"/>
+  <string id="be_roman_pfrondorf_gulag" text="[Roman] Noble Masked Helmet"/>
+  <string id="be_elitecav" text="[Roman] Elite Helmet"/>
+  <string id="be_elitecav_simple" text="[Roman] Elite Helmet"/>
+  <string id="be_rome_helm_niederbieber_iron" text="[Roman] Iron Niederbieber Helmet"/>
+  <string id="be_rome_helm_neiderbeiber_brass" text="[Roman] Brass Niederbieber Helmet"/>
+  <string id="be_rome_helm_niederbieber_mix" text="[Roman] Expensive Niederbieber Helmet"/>
+  <string id="be_roman_helmet_cap" text="[Roman] Skullcap"/>
+  <!--input/spitems/roman_leg_items.xml-->
+  <string id="be_roman_shoes" text="[Roman] Brown Shoes"/>
+  <string id="be_roman_shoes_black" text="[Roman] Black Shoes"/>
+  <!--input/spitems/roman_shield_items.xml-->
+  <string id="be_roman_draco_1" text="[Roman] Draco"/>
+  <string id="be_garrett_parma_leather_1" text="[Roman] Red Parmula"/>
+  <string id="be_garrett_parma_leather_2" text="[Roman] Green Parmula"/>
+  <string id="be_garrett_parma_leather_3" text="[Roman] Painted Parmula"/>
+  <string id="be_roman_shield_jannis" text="[Roman] Elite Round Shield"/>
+  <string id="be_roman_shield_round" text="[Roman] Round Shield"/>
+  <string id="be_roman_shield_small" text="[Roman] Small Shield"/>
+  <string id="be_dura" text="[Roman] Oval Shield with Iron Boss"/>
+  <string id="be_dura_bronze" text="[Roman] Oval Shield with Bronze Boss"/>
+  <string id="be_gar_shield_banner" text="[Roman] Painted Oval Shield"/>
+  <string id="be_gar_shield_2_chirho_red" text="[Roman] Oval Shield with Chi Rho"/>
+  <string id="be_gar_shield_3_chirho_white" text="[Roman] Oval Shield with Chi Rho"/>
+  <string id="be_gar_shield_4_fortenses" text="[Roman] Oval Shield of Fortenses"/>
+  <string id="be_gar_shield_5_herculiani_seniores" text="[Roman] Oval Shield of Herculiani Seniores"/>
+  <string id="be_gar_shield_6_martenses_seniores" text="[Roman] Oval Shield of Martenses Seniores"/>
+  <string id="be_gar_shield_7_moesiaci_seniores" text="[Roman] Oval Shield of Moesiaci Seniores"/>
+  <string id="be_gar_shield_8_grati" text="[Roman] Oval Shield of Grati"/>
+  <string id="be_gar_shield_9_praesichantes" text="[Roman] Oval Shield of Praesichantes"/>
+  <string id="be_gar_shield_10_quinta_macedonica" text="[Roman] Oval Shield of Quinta macedonica"/>
+  <string id="be_gar_shield_11_secunda_britannica" text="[Roman] Oval Shield of Secunda Britannica"/>
+  <string id="be_gar_shield_12_septimani_seniores" text="[Roman] Oval Shield of Septimani Seniores"/>
+  <string id="be_gar_shield_13_victores" text="[Roman] Oval Shield of Victores"/>
+  <string id="be_gar_shield_14_cornuti_seniores" text="[Roman] Oval Shield of Cornuti Seniores"/>
+  <string id="be_gar_shield_15_constantici" text="[Roman] Oval Shield of Constantici"/>
+  <string id="be_gar_shield_16_Ioviani_seniores" text="[Roman] Oval Shield of Ioviani Seniores"/>
+  <string id="be_gar_shield_17_tertiani" text="[Roman] Oval Shield of Tertiani"/>
+  <string id="be_gar_shield_18_lauriacenses" text="[Roman] Oval Shield of Lauriacenses"/>
+  <string id="be_gar_shield_19_honoriani_marcomanni" text="[Roman] Oval Shield of Honoriani Marcomanni"/>
+  <string id="be_beadurof_shield_1" text="[Roman] Red Oval Shield"/>
+  <string id="be_beadurof_shield_3" text="[Roman] Blue Oval Shield"/>
+  <string id="be_beadurof_shield_4" text="[Roman] White Oval Shield"/>
+  <!--input/spitems/roman_shoulder_items.xml-->
+  <string id="be_roman_cloak_blue" text="[Roman] Blue Cloak"/>
+  <string id="be_roman_cloak_brown" text="[Roman] Brown Cloak"/>
+  <string id="be_roman_cloak_black" text="[Roman] Black Cloak"/>
+  <string id="be_roman_cloak_green" text="[Roman] Green Cloak"/>
+  <string id="be_roman_cloak_red" text="[Roman] Red Cloak"/>
+  <string id="be_roman_cloak_yellow" text="[Roman] Yellow Cloak"/>
+  <string id="be_roman_cloak_dyed" text="[Roman] Dyed Cloak"/>
+  <string id="be_roman_cloak_dyed2" text="[Roman] Dyed Cloak"/>
+  <string id="be_roman_cloak_white" text="[Roman] Decorated White Cloak"/>
+  <string id="be_roman_cloak_purple" text="[Roman] Decorated Purple Cloak"/>
+  <string id="be_roman_cloak_scarlet" text="[Roman] Decorated Scarlet Cloak"/>
+  <string id="be_roman_cloak_royal_dyed" text="[Roman] Dyed Royal Cloak"/>
+  <string id="be_roman_cloak_royal_dyed2" text="[Roman] Dyed Royal Cloak"/>
+  <string id="be_cape_a1a" text="[Roman] Red Royal Cloak"/>
+  <string id="be_roman_scarf_long_red" text="[Roman] Red Scarf"/>
+  <string id="be_roman_scarf_short_brown" text="[Roman] Brown Short Scarf"/>
+  <string id="be_roman_scarf_short_dyed" text="[Roman] Dyed Short Scarf"/>
+  <string id="be_roman_scarf_short_dyed2" text="[Roman] Dyed Short Scarf"/>
+  <!--input/spitems/roman_weapon_items.xml-->
+  <string id="be_plumbata" text="[Roman] Plumbata Darts"/>
+  <string id="be_plumbata_heavy" text="[Roman] Heavy Plumbata Darts"/>
+  <string id="be_martiobarbuli" text="[Roman] Long Plumbata Darts"/>
+  <string id="be_roman_spatha_blunt" text="Sparring Spatha"/>
+  <string id="be_roman_dagger_1" text="[Roman] Dagger"/>
+  <string id="be_rome_weapon_ejsbol_sarry_spatha" text="[Roman] Ejsbol-Sarry Spatha"/>
+  <string id="be_rome_weapon_podlodow_spatha" text="[Roman] Podlodow Spatha"/>
+  <string id="be_roman_semispatha_1" text="[Roman] Semi-spatha"/>
+  <string id="be_roman_spatha_1" text="[Roman] Simple Spatha"/>
+  <string id="be_roman_spatha_2" text="[Roman] Spatha"/>
+  <string id="be_roman_spatha_3" text="[Roman] Noble Spatha"/>
+  <string id="be_roman_spear_1" text="[Roman] Short Spear"/>
+  <string id="be_roman_spear_2" text="[Roman] Spear"/>
+  <string id="be_roman_spear_3" text="[Roman] Fine Spear"/>
+  <string id="be_roman_lance_1" text="[Roman] Cavalry Lance"/>
+  <string id="be_roman_lance_2" text="[Roman] Cataphract Lance"/>
+  <string id="be_roman_mace" text="[Roman] Mace"/>
+  <string id="be_roman_javelin_1" text="[Roman] Javelin"/>
+  <string id="be_roman_javelin_2" text="[Roman] Fine Javelin"/>
+  <!--input/spitems/sarmatian_body_items.xml-->
+  <string id="be_steppe_armor" text="[Sarmatian] Dyed Steppe Kaftan"/>
+  <string id="be_aserai_scale_armor_b" text="[Sarmatian] Sleeveless Scale Armor"/>
+  <string id="be_cjiaba_sarmat_kaftan1" text="[Sarmatian] Dyed Simple Kaftan"/>
+  <string id="be_cjiaba_sarmat_kaftan2" text="[Sarmatian] Decorated Kaftan"/>
+  <string id="be_sarmatian_tunic" text="[Sarmatian] Tunic"/>
+  <string id="be_sarmatian_kaftan_a" text="[Sarmatian] Tunic with Kaftan"/>
+  <string id="be_cjiaba_sarmatian_kaftan_thick_dyed" text="[Sarmatian] Thick Dyed Kaftan"/>
+  <string id="be_cjiaba_sarmatian_kaftan_thick" text="[Sarmatian] Thick Kaftan"/>
+  <string id="be_schyth_armor" text="[Sarmatian] Scale Breastplate"/>
+  <string id="be_cjiaba_sarmatian_armor_bronze" text="[Sarmatian] Sleeveless Bronze Scale Armor"/>
+  <string id="be_cjiaba_sarmatian_armor" text="[Sarmatian] Sleeveless Scale Armor"/>
+  <string id="be_cjiaba_sarmatian_armor2" text="[Sarmatian] Long Scale Armor"/>
+  <string id="be_cjiaba_sarmatian_armor2_bronze" text="[Sarmatian] Long Bronze Scale Armor"/>
+  <!--input/spitems/sarmatian_head_items.xml-->
+  <string id="be_cjiaba_sarmatian_hat" text="[Sarmatian] Hat"/>
+  <string id="be_cjiaba_sarmatian_hat2" text="[Sarmatian] Hat"/>
+  <string id="be_scythian_hat_a" text="[Sarmatian] Brown Steppe Hat"/>
+  <string id="be_scythian_hat_a1" text="[Sarmatian] White Steppe Hat"/>
+  <string id="be_scythian_hat_aa" text="[Sarmatian] Grey Steppe Hat"/>
+  <string id="be_scythian_hat_aa1" text="[Sarmatian] Green Steppe Hat"/>
+  <string id="be_scythian_hat_aaa" text="[Sarmatian] Decorated Steppe Hat"/>
+  <string id="be_scythian_hat_aaa1" text="[Sarmatian] Decorated Red Steppe Hat"/>
+  <string id="be_schytian_hat_b" text="[Sarmatian] White Steppe Hat"/>
+  <string id="be_schytian_hat_bb" text="[Sarmatian] Dark Steppe Hat"/>
+  <string id="be_roman_helmet_a_fur_a" text="[Sarmatian] Skullcap with Fur"/>
+  <string id="be_kishpek" text="[Sarmatian] Decorated Kishpek Helmet"/>
+  <string id="be_kishpek_simple" text="[Sarmatian] Simple Kishpek Helmet"/>
+  <string id="be_kishpek_scaled" text="[Sarmatian] Scaled Kishpek Helmet"/>
+  <string id="be_kishpek_helmet" text="[Sarmatian] Lamellar Kishpek Helmet"/>
+  <string id="be_alan_helm" text="[Sarmatian] Stacked Helmet"/>
+  <string id="be_sarmatian_lamellar_helmet" text="[Sarmatian] Lamellar Helmet with Scale"/>
+  <string id="be_sarmatian_lamellar_cap" text="[Sarmatian] Lamellar Helmet Cap with Scale"/>
+  <string id="be_breda" text="[Sarmatian] Breda Helmet"/>
+  <string id="be_breda_aventail" text="[Sarmatian] Breda Helmet with Aventail"/>
+  <string id="be_breda_closed" text="[Sarmatian] Closed Breda Helmet"/>
+  <string id="be_breda_iron" text="[Sarmatian] Breda Helmet"/>
+  <string id="be_breda_iron_aventail" text="[Sarmatian] Breda Helmet with Aventail"/>
+  <string id="be_breda_iron_closed" text="[Sarmatian] Closed Breda Helmet"/>
+  <!--input/spitems/sarmatian_leg_items.xml-->
+  <string id="be_schyth_boot" text="[Sarmatian] Simple Boots"/>
+  <string id="be_cjiaba_sarmatian_boots" text="[Sarmatian] Brown Leather Boots"/>
+  <string id="be_cjiaba_sarmatian_boots2" text="[Sarmatian] Leather Boots"/>
+  <!--input/spitems/sarmatian_shield_items.xml-->
+  <string id="cla_scythian_shield_small_a" text="[Sarmatian] Wicker Shield"/>
+  <string id="be_wicker_shield" text="Large Wicker Shield"/>
+  <!--input/spitems/sarmatian_weapon_items.xml-->
+  <string id="be_sarmatian_dagger_1" text="[Sarmatian] Dagger"/>
+  <string id="be_sarmatian_semispatha_1" text="[Sarmatian] Semi-spatha"/>
+  <string id="be_sarmatian_spatha_1" text="[Sarmatian] Simple Spatha"/>
+  <string id="be_sarmatian_spatha_2" text="[Sarmatian] Spatha"/>
+  <string id="be_sarmatian_spatha_3" text="[Sarmatian] Fine Spatha"/>
+  <string id="be_sarmatian_spear_1" text="[Sarmatian] Short Spear"/>
+  <string id="be_sarmatian_spear_2" text="[Sarmatian] Spear"/>
+  <string id="be_sarmatian_spear_3" text="[Sarmatian] Fine Spear"/>
+  <string id="be_sarmatian_lance_1" text="[Sarmatian] Cavalry Lance"/>
+  <string id="be_sarmatian_lance_2" text="[Sarmatian] Cataphract Lance"/>
+  <string id="be_sarmatian_swordspear_1" text="[Sarmatian] Sword-Spear"/>
+  <string id="be_sarmatian_axe_1" text="[Sarmatian] Hatchet"/>
+  <string id="be_sarmatian_axe_2" text="[Sarmatian] Axe"/>
+  <string id="be_sarmatian_axe_3" text="[Sarmatian] Fine Axe"/>
+  <string id="be_sarmatian_mace_1" text="[Sarmatian] Wooden Club"/>
+  <string id="be_sarmatian_mace_2" text="[Sarmatian] Fine Club"/>
+  <string id="be_sarmatian_mace_3" text="[Sarmatian] Heavy Club"/>
+  <string id="be_sarmatian_javelin_1" text="[sarmatian] Javelin"/>
+  <string id="be_sarmatian_javelin_2" text="[sarmatian] Fine Javelin"/>
+  <!--input/spitems/shared_horse_items.xml-->
+  <string id="be_roman_horse_harness_light_red" text="[Roman] Horse Harness with Red Tarp"/>
+  <string id="be_roman_horse_harness_light_blue" text="[Roman] Horse Harness with Blue Tarp"/>
+  <string id="be_roman_horse_harness_heavy_red" text="[Roman] Noble Harness with Red Tarp"/>
+  <string id="be_roman_horse_harness_heavy_blue" text="[Roman] Noble Harness with Blue Tarp"/>
+  <string id="be_roman_horse_harness_chest" text="[Roman] Horse Chest Armour"/>
+  <string id="be_roman_horse_harness_bronze_chest" text="[Roman] Bronze Horse Chest Armour"/>
+  <string id="be_roman_horse_harness" text="[Roman] Horse Armour"/>
+  <string id="be_roman_horse_harness_bronze" text="[Roman] Bronze Horse Armour"/>
+  <string id="be_half_scale_barding" text="[Roman] Royal Half Barding"/>
+  <string id="be_imperial_scale_barding" text="[Roman] Royal Cataphract Barding"/>
+  <string id="be_german_horse_harness_light" text="[Germanic] Horse Harness"/>
+  <string id="be_german_horse_harness_medium" text="[Germanic] Leather Horse Harness"/>
+  <string id="be_german_horse_harness_heavy" text="[Germanic] Noble Horse Harness"/>
+  <string id="be_hun_horse_harness_light" text="[Sarmatian] Light Saddle"/>
+  <string id="be_hun_horse_harness_leather" text="[Sarmatian] Leather Saddle"/>
+  <string id="be_hun_horse_harness_medium" text="[Sarmatian] Leather Horse Harness"/>
+  <string id="be_horse_armor_a" text="[Sarmatian] Cataphract Half Barding"/>
+  <string id="be_horse_armor_b" text="[Sarmatian] Heavy Cataphract Barding"/>
+  <string id="be_hun_horse_harness_fur" text="[Hunnic] Horse Harness with Pelt"/>
+  <string id="be_hun_horse_harness_noble" text="[Hunnic] Noble Horse Harness"/>
+  <string id="be_steppe_half_barding" text="[Hunnic] Lamellar Half Barding"/>
+  <string id="be_studded_steppe_barding" text="[Hunnic] Lamellar Barding"/>
+  <!--input/spitems/shared_items.xml-->
+  <string id="be_sling_1" text="[BE] Sling"/>
+  <string id="be_sling_2" text="[BE] Improved Sling"/>
+  <string id="be_sling_3" text="[BE] Reinforced Sling"/>
+  <string id="be_sling_stones" text="[BE] Stone Bullet"/>
+  <string id="be_sling_stones_2" text="[BE] Clay Bullet"/>
+  <string id="be_sling_stones_3" text="[BE] Lead Bullet"/>
+  <string id="be_throwing_stone" text="[BE] Heavy Throwing Stone"/>
+  <string id="be_throwing_club" text="[BE] Throwing Club"/>
+  <string id="HP1GzM8l" text="[BE] Fire Pot"/>
+  <string id="wltdyF21" text="[BE] Short Bow"/>
+  <string id="YGQ6UXC1" text="[BE] Short Hunting Bow"/>
+  <string id="steppebow" text="[BE] Steppe Bow"/>
+  <string id="KTegaNP1" text="[BE] Longbow"/>
+  <string id="mTWvG1xz" text="[BE] Ranger Bow"/>
+  <string id="tEimkEsU" text="[BE] Composite Shortbow"/>
+  <string id="SUSbUAE2" text="[BE] Hunnic Practice Bow"/>
+  <string id="h1jKICd1" text="[BE] Simple Composite Bow"/>
+  <string id="w6EU77OH" text="[BE] Steppe Recurve Bow"/>
+  <string id="E7miRMw1" text="[BE] Hunnic Recurve Bow"/>
+  <string id="wfhHGTb2" text="[BE] Steppe War Bow"/>
+  <string id="EO7pCu11" text="[BE] Hunnic Noble Bow"/>
+  <string id="be_steppe_superior_bow" text="[BE] Steppe Superior Bow"/>
+  <string id="A6llHL91" text="[BE] Lowland Longbow"/>
+  <string id="ZQv5Bcl1" text="[BE] Tribesman Bow"/>
+  <string id="RcCtV0aS" text="[BE] Woodland Yew Bow"/>
+  <string id="ZFwKlHIJ" text="[BE] Woodland Longbow"/>
+  <string id="OjHwbgeY" text="[BE] Strong Tribesman Bow"/>
+  <string id="ifzgMcrK" text="[BE] Nomad Bow"/>
+  <string id="9YbFEaZ1" text="[BE] Yew Bow"/>
+  <string id="WRqYWspc" text="[BE] Noble Long Bow"/>
+  <string id="3daDQxw1" text="[BE] Lowland Arrows"/>
+  <string id="K5XLb84w" text="[BE] Imperial Arrows"/>
+  <string id="rdKSIam1" text="[BE] Piercing Arrows"/>
+  <string id="DI9P2HD1" text="[BE] Stacked Bodkin Arrows"/>
+  <string id="SbARa2g1" text="[BE] Bodkin Arrows"/>
+  <string id="BqAUrOp1" text="[BE] Light Bodkin Arrows"/>
+  <string id="XbwDj801" text="[BE] Steppe Arrows"/>
+  <string id="NkV2c6Y1" text="[BE] Stacked Steppe Arrows"/>
+  <string id="s7jkSgb1" text="[BE] Barbed Arrows"/>
+  <string id="Biq7t1x1" text="[BE] Range Arrows"/>
+  <string id="gFtu0j41" text="[BE] Arrows"/>
+  <string id="DC0qJkV1" text="[BE] Blunt Arrows"/>
+  <string id="ELsDFwAD" text="Wine{@Plural}amphorae of wine{\@}"/>
+  <!--input/spitems/shared_shield_items.xml-->
+  <string id="be_shield_small_wood" text="[BE] Small Wooden Shield"/>
+  <string id="be_shield_leather_simple" text="[BE] Simple Leather Shield"/>
+  <string id="be_shield_wood" text="[BE] Wooden Shield"/>
+  <string id="be_shield_colored_small" text="[BE] Small Painted Shield"/>
+  <string id="be_shield_colored" text="[BE] Painted Shield"/>
+  <string id="be_northern_round_shield" text="[BE] Round Shield"/>
+  <string id="be_shield_round" text="[BE] Fine Round Shield"/>
+  <string id="be_oval_shield_iron" text="[BE] Oval Shield"/>
+  <string id="be_oval_bronze" text="[BE] Oval Shield"/>
+  <string id="be_oval_shield_noble" text="[BE] Elite Oval Shield"/>
+  <!--input/spitems/slavic_body_items.xml-->
+  <string id="be_slavic_tunic_a" text="[Slavic] Simple Tunic"/>
+  <string id="be_slavic_tunic_b" text="[Slavic] Simple Tunic"/>
+  <string id="be_slavic_tunic_a1" text="[Slavic] Decorated Tunic"/>
+  <string id="be_slavic_tunic_b1" text="[Slavic] Decorated Tunic"/>
+  <string id="be_slavic_tunic_c" text="[Slavic] Red Decorated Tunic"/>
+  <string id="be_slavic_tunic_d" text="[Slavic] White Decorated Tunic"/>
+  <string id="be_slavic_tunic_fur" text="[Slavic] Black Fur Jacket"/>
+  <string id="be_slavic_tunic_fur2" text="[Slavic] Brown Fur Jacket"/>
+  <string id="be_slavic_chainmail_sleeveless" text="[Slavic] Sleeveless Chainmail"/>
+  <string id="be_slavic_chainmail_long_sleeves" text="[Slavic] Long Sleeved Chainmail"/>
+  <string id="be_slavic_chainmail_long_sleeves_b" text="[Slavic] Long Sleeved Chainmail"/>
+  <!--input/spitems/slavic_head_items .xml-->
+  <string id="tarasovsky_782_helmet" text="[Slavic] Tarasovsky Helmet"/>
+  <string id="tarasovsky_782_helmet_cap" text="[Slavic] Tarasovsky Helmet Cap"/>
+  <string id="be_tsaritsyno_helmet" text="[Slavic] Tsaritsyno Helmet"/>
+  <string id="be_tsaritsyno_helmet_cap" text="[Slavic] Tsaritsyno Helmet Cap"/>
+  <string id="be_suvorov_helmet" text="[Slavic] Suvorov Helmet"/>
+  <string id="be_suvorov_helmet_cap" text="[Slavic] Suvorov Helmet Cap"/>
+  <!--input/spitems/slavic_weapon_items.xml-->
+  <string id="be_slav_semispatha_1" text="[Slavic] Semi-spatha"/>
+  <string id="be_slav_spatha_1" text="[Slavic] Simple Spatha"/>
+  <string id="be_slav_spatha_2" text="[Slavic] Spatha"/>
+  <string id="be_slav_spatha_3" text="[Slavic] Noble Spatha"/>
+  <string id="be_slav_spear_1" text="[Slavic] Short Spear"/>
+  <string id="be_slav_spear_2" text="[Slavic] Spear"/>
+  <string id="be_slav_spear_3" text="[Slavic] Fine Spear"/>
+  <string id="be_slav_lance_1" text="[Slavic] Cavalry Lance"/>
+  <string id="be_slav_axe_1" text="[Slavic] Hatchet"/>
+  <string id="be_slav_axe_2" text="[Slavic] Axe"/>
+  <string id="be_slav_axe_3" text="[Slavic] Fine Axe"/>
+  <string id="be_slav_mace_1" text="[Slavic] Wooden Club"/>
+  <string id="be_slav_mace_2" text="[Slavic] Fine Club"/>
+  <string id="be_slav_mace_3" text="[Slavic] Heavy Club"/>
+  <string id="be_slav_javelin_1" text="[Slavic] Javelin"/>
+  <string id="be_slav_javelin_2" text="[Slavic] Fine Javelin"/>
+ </strings>
+</base>

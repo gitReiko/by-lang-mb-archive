@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+  <!--kingdom factions-->
+  <Kingdom id="empire" owner="Hero.lord_1_1" banner_key="11.142.0.2000.2000.764.764.1.0.0.529.15.15.380.320.810.631.1.0.0.523.15.15.440.440.763.787.1.0.0.527.15.15.80.70.931.788.1.0.270.527.15.15.70.60.932.788.1.0.270.527.15.15.79.84.931.783.1.0.270.510.15.15.30.80.958.816.1.0.0.510.15.15.30.80.906.816.1.0.0.528.15.15.90.80.610.786.1.0.180.528.15.15.77.80.610.786.1.0.180.528.15.15.50.20.610.801.1.0.0.528.15.15.50.20.610.798.1.0.0.528.15.15.99.93.610.779.1.0.180" primary_banner_color="0xff830808" secondary_banner_color="0xfff9d575" label_color="FF850C6D" color="FF830808" color2="FFF9D575" alternative_color="FFffffff" alternative_color2="FF660653" culture="Culture.empire" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=NF627oiX}Western Roman Empire" short_name="{=nsDj8Qxl}Western Roman Empire" title="{=NF627oiX}Western Roman Empire" ruler_title="{=OoHhCa11}Emperor" text="{=aEfsyVH4}It has been ten years since the accession of Rome’s co-emperors, Valentinian and Valens. In the west, Valentinian’s adept leadership has quashed usurpations, improved the Empire’s infrastructure, and benefitted the population of the empire as a whole. Now, the empire stands at a precipice: Valentinian’s blindness to the excesses of his officials has resulted in rampant corruption and disloyalty, while Pannonia has been ravaged by the Quadians, incensed at the Roman assassination of their king.">
+    <relationships>
+      <relationship kingdom="Kingdom.battania" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.scottish_kingdom" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.quadian_kingdom" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.jazyg_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_feudal_inheritance"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="sturgia" owner="Hero.lord_2_1" banner_key="11.27.27.4345.4345.764.764.1.0.0.9053.116.116.400.400.764.764.1.0.0" primary_banner_color="0xff8d5c44" secondary_banner_color="0xff6c1512" label_color="FF1856A1" color="FF8d5c44" color2="FF6c1512" alternative_color="FFFFFFFF" alternative_color2="FF2A4B78" culture="Culture.sturgia" settlement_banner_mesh="encounter_flag_b" flag_mesh="info_screen_flags_c" name="{=sturgia.name}Alemans" short_name="{=sturgia.short_name}Alemans" title="{=sturgia.title}Alemans" ruler_title="{=FmbgPGBL}King" text="{=sturgia.text}The Alemans have proven themselves against the Romans over the past century, testing their authority most recently a decade prior. Led by the powerful Iuthungi, their confederation stretches from the old Roman province of the Agri Decumates along the Danube to border their relatives in the Marcomans and Quadians. Like their neighbors to the north, the Alemans stand on the precipice of unification, ready to carve their own kingdom from the remains of their Roman adversaries.">
+    <relationships>
+      <relationship kingdom="Kingdom.frankish_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+    <policy id="policy_noble_retinues"/>
+    <policy id="policy_castle_charters"/>
+    <policy id="policy_kings_mercenaries"/>
+    <policy id="policy_royal_guard"/>
+  </policies>
+  </Kingdom>
+  <Kingdom id="aserai" owner="Hero.lord_3_1" banner_key="11.142.0.2000.2000.764.764.1.0.0.529.15.15.380.320.810.631.1.0.0.523.15.15.440.440.763.787.1.0.0.527.15.15.80.70.931.788.1.0.270.527.15.15.70.60.932.788.1.0.270.527.15.15.79.84.931.783.1.0.270.510.15.15.30.80.958.816.1.0.0.510.15.15.30.80.906.816.1.0.0.528.15.15.90.80.610.786.1.0.180.528.15.15.77.80.610.786.1.0.180.528.15.15.50.20.610.801.1.0.0.528.15.15.50.20.610.798.1.0.0.528.15.15.99.93.610.779.1.0.180" primary_banner_color="0xff1E2846" secondary_banner_color="0xffeae9e5" label_color="FF850C6D" color="FF1E2846" color2="FFEAE9E5" alternative_color="FFffffff" alternative_color2="FF660653" culture="Culture.aserai" settlement_banner_mesh="encounter_flag_c" flag_mesh="info_screen_flags_a" name="{=aserai.name}Eastern Roman Empire" short_name="{=aserai.short_name}Eastern Roman Empire" title="{=aserai.title}Eastern Roman Empire" ruler_title="{=aserai.ruler_title}Emperor" text="{=aserai.text}It has been ten years since the accession of Rome’s co-emperors, Valentinian and Valens. In the east, the Arian emperor Valens has maintained stability, while his religious tolerance has brought widespread support for his rule. Now, the Romans of Constantinople face their greatest challenge yet: the Sasanians are threatening a war over Roman violations of the treaty, while the Danubian peoples are being pushed into the Empire by an unknown power from the far East.">
+    <relationships>
+      <relationship kingdom="Kingdom.jazyg_kingdom" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.thervingian_kingdom" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.isaurian_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+  </Kingdom>
+  
+  <Kingdom id="isaurian_kingdom" owner="Hero.isaurian_lord_1_1" banner_key="11.100.0.2000.2000.764.764.1.0.0.411.15.15.441.441.764.764.1.0.0" primary_banner_color="0xffbd7e75" secondary_banner_color="0xff211f1f" label_color="FF55831A" color="FFbd7e75" color2="FF211f1f" alternative_color="FFD69516" alternative_color2="FF55831A" culture="Culture.empire" settlement_banner_mesh="encounter_flag_c" flag_mesh="info_screen_flags_a" name="{=isaurian_kingdom.name}Isaurians" short_name="{=isaurian_kingdom.short_name}Isaurians" title="{=isaurian_kingdom.title}Isaurians" ruler_title="{=isaurian_kingdom.ruler_title}King" text="{=isaurian_kingdom.text}The Isaurians are a fiercely independent mountain people who marauded and created havoc in neighboring districts under Roman occupation.">
+    <relationships>
+      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  
+  <Kingdom id="battania" owner="Hero.lord_5_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9021.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff224277" secondary_banner_color="0xff0b0c11" label_color="FF55831A" color="FF224277" color2="FF0b0c11" alternative_color="FFD69516" alternative_color2="FF55831A" culture="Culture.battania" settlement_banner_mesh="encounter_flag_e" flag_mesh="info_screen_flags_b" name="{=0B27RrYJ}Picts" short_name="{=bgjiFSHZ}Picts" title="{=qaDIU0XC}Pictish Tribes" ruler_title="{=afvM7XpQ}High King" text="{=battania.text}North of Hadrian’s wall, the Pictish peoples have been trading and raiding with the Romans for centuries now, most recently overrunning most of Britannia in the “Great Barbarian Conspiracy” before being driven back. Despite the recent setback, the Caledonians have subsumed the Roman buffer peoples north of Hadrian’s wall, forming a “Great Northern Kingdom” of the Picts, unified and ready to exploit Roman weakness on the wall and beyond.">
+    <relationships>
+      <relationship kingdom="Kingdom.empire" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.scottish_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  
+  <Kingdom id="vlandia" owner="Hero.lord_4_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.416.22.35.440.440.764.764.0.0.0" primary_banner_color="0xffeed690" secondary_banner_color="0xff211f1f" label_color="ffB01301" color="FFEED690" color2="FF211F1F" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.vlandia" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=vlandia.name}Venedians" short_name="{=sturgia_empire_short_name}Venedians" title="{=vlandia.title}Venedian Tribes" ruler_title="{=hwnp9abW}King" text="{=vlandia.text}Deep in the forest zone bordering the north of the Pontic steppes, peoples barely known to the Romans eke out an existence in these frigid lands. Broadly known as the Venedians, these peoples are predecessors to the early Slavic peoples that will emerge on Roman borders in the 500s AD. Disparate and disorganized, they have yet to be more than a footnote to history, but with an emerging void to the south, the opportunity to make a name for themselves has begun to emerge.">
+    <relationships>
+      <relationship kingdom="Kingdom.sclavenian_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="antean_kingdom" owner="Hero.antean_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9115.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff726b3d" secondary_banner_color="0xffeee7d4" label_color="FF850C6D" color="FF726b3d" color2="FFeee7d4" alternative_color="FFffffff" alternative_color2="FF660653" culture="Culture.vlandia" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=antean_kingdom.name}Anteans" short_name="{=antean_kingdom.short_name}Anteans" title="{=antean_kingdom.title}Anteans" ruler_title="{=hwnp9abW}King" text="{=antean_kingdom.text}Deep in the forest zone bordering the north of the Pontic steppes, peoples barely known to the Romans eke out an existence in these frigid lands. Broadly known as the Venedians, these peoples are predecessors to the early Slavic peoples that will emerge on Roman borders in the 500s AD. The Anteans have yet to be more than a footnote to history, but with an emerging void to the south, the opportunity to make a name for themselves has begun to emerge.">
+    <relationships>
+      <relationship kingdom="Kingdom.sarmatian_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_feudal_inheritance"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="sclavenian_kingdom" owner="Hero.sclavenian_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9114.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff8d291a" secondary_banner_color="0xff7b5e4e" label_color="FF850C6D" color="FF8D291A" color2="FF7b5e4e" alternative_color="FFffffff" alternative_color2="FF660653" culture="Culture.vlandia" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=sclavenian_kingdom.name}Sclavenians" short_name="{=sclavenian_kingdom.short_name}Sclavenians" title="{=sclavenian_kingdom.title}Sclavenians" ruler_title="{=hwnp9abW}King" text="{=sclavenian_kingdom.text}Deep in the forest zone bordering the north of the Pontic steppes, peoples barely known to the Romans eke out an existence in these frigid lands. Broadly known as the Venedians, these peoples are predecessors to the early Slavic peoples that will emerge on Roman borders in the 500s AD. The Slavenians have yet to be more than a footnote to history, but with an emerging void to the south, the opportunity to make a name for themselves has begun to emerge.">
+    <relationships>
+      <relationship kingdom="Kingdom.vlandia" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_feudal_inheritance"/>
+    </policies>
+  </Kingdom>
+
+  <Kingdom id="bosporan_kingdom" owner="Hero.bosporan_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9072.22.35.440.440.764.764.0.0.0" primary_banner_color="0xffccc4bf" secondary_banner_color="0xff8d291a" label_color="FF850C6D" color="FFccc4bf" color2="FF8d291a" alternative_color="FFffffff" alternative_color2="FF660653" culture="Culture.bosporan" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=bosporan_kingdom.name}Bosporan Kingdom" short_name="{=bosporan_kingdom.short_name}Bosporans" title="{=bosporan_kingdom.title}Bosporan Kingdom" ruler_title="{=hwnp9abW}King" text="{=bosporan_kingdom.text}The last of the ancient Greek colony states, the Kingdom of the Bosporus is what remains of the great Empire of Mithridates of Pontus, retaining their independence as a client state of the Romans. A fusion of Sarmatian, Hellenistic, and Roman culture, they field a unique blend of these traditions on the battlefield against the encroaching Greuthungians and Alans, who seek to unseat them as they seek a new home and refuge from the onslaught of strange new arrivals from the far east.">
+    <relationships>
+      <relationship kingdom="Kingdom.alanian_kingdom" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.greuthungian_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_feudal_inheritance"/>
+    </policies>
+  </Kingdom>
+
+  <Kingdom id="khuzait" owner="Hero.lord_6_1" banner_key="11.2.126.4345.4345.764.764.1.0.0.510.15.15.250.200.764.834.1.1.0.510.15.15.70.230.764.794.1.1.90.527.15.15.140.190.764.704.1.1.270.527.15.15.131.164.764.696.1.1.270.426.15.15.60.70.718.661.1.0.288.426.15.15.100.100.807.696.1.0.-186.426.15.15.100.130.799.611.1.0.1.510.15.15.60.130.789.614.1.0.-90.427.15.15.90.80.830.573.1.0.-177.427.15.15.130.140.777.712.1.0.-326.426.15.15.100.145.858.882.1.0.-8.427.15.15.100.100.884.924.1.1.9.510.15.15.60.130.847.879.1.0.-100.426.15.15.100.145.670.882.1.1.7.427.15.15.100.100.644.924.1.1.9.510.15.15.60.130.680.880.1.1.99" primary_banner_color="0xff0b0c11" secondary_banner_color="0xffb57a1e" label_color="FF7CC8EB" color="FF0B0C11" color2="FFB57A1E" alternative_color="FF787878" alternative_color2="FF6caecc" culture="Culture.khuzait" settlement_banner_mesh="encounter_flag_f" flag_mesh="info_screen_flags_b" name="{=khuzait.name}Huns" short_name="{=khuzait.short_name}Huns" title="{=khuzait.title}Hunnic Tribes" ruler_title="{=hwnp9abW}King" text="{=khuzait.text}A people never before encountered in Europe, the Huns were previously only known through the passing mentions of Bactrian merchants. Now, these heirs of the Xiongnu have been driven west into the Pontic by years of debilitating drought in the Eurasian steppes. Highly organized, skilled with the bow, lance, and sword alike, and spending much of their lives as cavalry, they are poised to be the Scourge of God, carving out a new empire in the heart of central and eastern Europe.">
+    <relationships>
+      <relationship kingdom="Kingdom.greuthungian_kingdom" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.alanian_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+  </Kingdom>
+  <Kingdom id="scottish_kingdom" owner="Hero.scottish_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.414.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff34671e" secondary_banner_color="0xffe68c36" label_color="FF55831A" color="FF34671e" color2="FFE68C36" alternative_color="FFD69516" alternative_color2="FF55831A" culture="Culture.scottish" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=scottish_kingdom.name}Scots" short_name="{=scottish_kingdom.short_name}Scots" title="{=scottish_kingdom.title}Scottish Tribes" ruler_title="{=hwnp9abW}King" text="{=scottish_kingdom.text}A century ago, the Gaelic peoples of Ulster and the Hebrides began to expand beyond their lands, raiding and settling the coasts of Argyll. Known as the Scoti to the Romans, the recent “Great Barbarian Conspiracy” has brought them to new heights, achieving victories beyond their imagination despite the Romans ultimately driving them back from Britannia. As Roman and Pictish power in the island wanes, the opportunity to build their own kingdom awaits.">
+    <relationships>
+      <relationship kingdom="Kingdom.battania" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.empire" value="-1" isAtWar="true"/>
+    </relationships>
+  </Kingdom>
+  <Kingdom id="saxon_kingdom" owner="Hero.saxon_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9049.22.35.440.440.764.764.0.0.0" primary_banner_color="0xffe68c36" secondary_banner_color="0xff453e38" label_color="ffB01301" color="FFE68C36" color2="FF453E38" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.saxon" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=saxon_kingdom.name}Saxons" short_name="{=saxon_kingdom.short_name}Saxons" title="{=saxon_kingdom.title}Saxon Tribes" ruler_title="{=saxon_kingdom.ruler_title}King" text="{=saxon_kingdom.text}In the lands of the ancient Chauci and Chamavi, a new confederation has emerged to contest their Frankish and Frisian neighbors. The Saxons have already made a name for themselves raiding down the channel, allying with the usurper Magnentius, and exploiting the tumult of the “Great Barbarian Conspiracy.” At war with the powerful Franks, many find themselves pressured to seek out new lands across the sea in Roman Britannia.">
+    <relationships>
+      <relationship kingdom="Kingdom.angle_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+		<policy id="policy_noble_retinues"/>
+		<policy id="policy_castle_charters"/>
+		<policy id="policy_kings_mercenaries"/>
+		<policy id="policy_royal_guard"/>
+	</policies>
+  </Kingdom>
+  <Kingdom id="angle_kingdom" owner="Hero.angle_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.90414.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff327864" secondary_banner_color="0xff1E2846" label_color="ffB01301" color="FF327864" color2="FF1E2846" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.angle" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=angle_kingdom.name}Angles" short_name="{=angle_kingdom.short_name}Angles" title="{=angle_kingdom.title}Angle Tribes" ruler_title="{=hwnp9abW}King" text="{=angle_kingdom.text}For centuries the Angles have traded and raided down the North Sea coast. Renowned for their fine metalwork and bog sacrifices, the Angles are content in their position on the Jutland peninsula, nestled between their relatives in the Jutes to the north and the Saxons to the south. As Roman power wanes, however, opportunity on the coasts of Britannia awaits them.">
+    <relationships>
+      <relationship kingdom="Kingdom.saxon_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="danish_kingdom" owner="Hero.danish_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9036.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff6c1512" secondary_banner_color="0xffb6aba7" label_color="ffB01301" color="FF6c1512" color2="FFb6aba7" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.angle" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=danish_kingdom.name}Danes" short_name="{=danish_kingdom.short_name}Danes" title="{=danish_kingdom.title}Danish Tribes" ruler_title="{=hwnp9abW}King" text="{=danish_kingdom.text}">
+    <relationships>
+      <relationship kingdom="Kingdom.geatish_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="geatish_kingdom" owner="Hero.geatish_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.90410.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff1E2846" secondary_banner_color="0xffe68c36" label_color="ffB01301" color="FF1E2846" color2="FFe68c36" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.angle" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=geatish_kingdom.name}Geats" short_name="{=geatish_kingdom.short_name}Geats" title="{=geatish_kingdom.title}Geatish Tribes" ruler_title="{=hwnp9abW}King" text="{=geatish_kingdom.text}">
+    <relationships>
+      <relationship kingdom="Kingdom.danish_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="frankish_kingdom" owner="Hero.frankish_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9052.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff3a6298" secondary_banner_color="0xfff1c232" label_color="ffB01301" color="FF3a6298" color2="FFF1C232" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.frankish" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=frankish_kingdom.name}Franks" short_name="{=frankish_kingdom.short_name}Franks" title="{=frankish_kingdom.title}Frankish Tribes" ruler_title="{=hwnp9abW}King" text="{=frankish_kingdom.text}Over a century prior, the Bructeri, Chauci, Chamavi, and other confederations began to shift and merge into a new people: the Franks. Like their neighbors the Alemans, the Franks are not one united people per se, consisting of multiple warlords and many cantons. Having launched a massive invasion of Gaul a decade prior, some have established themselves across the Rhine as foederati, but these squabbling leaders may yet unite again to forge their own kingdom.">
+    <relationships>
+      <relationship kingdom="Kingdom.sturgia" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="langobard_kingdom" owner="Hero.langobard_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9054.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff644974" secondary_banner_color="0xff0b0c11" label_color="ffB01301" color="FF644974" color2="FF0b0c11" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.langobard" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=langobard_kingdom.name}Langobards" short_name="{=langobard_kingdom.short_name}Langobards" title="{=langobard_kingdom.title}Langobard Tribes" ruler_title="{=hwnp9abW}King" text="{=langobard_kingdom.text}The people of “long beards” or Langobards once inhabited a region deep in Germania below Jutland along the Elbe river, but have since migrated upstream towards the Roman frontier. Situated behind their neighbors in the Burgundians, Quadians, and Marcomans, the Langobards have occasionally joined their neighbors in their quarrels against the Romans, but have yet to make a distinct name for themselves. They may one day prove to be a great power, if they can unite.">
+    <relationships>
+      <relationship kingdom="Kingdom.burgundian_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="burgundian_kingdom" owner="Hero.burgundian_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.90515.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff955066" secondary_banner_color="0xff41281b" label_color="ffB01301" color="FF955066" color2="FF41281b" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.burgundian" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=burgundian_kingdom.name}Burgundians" short_name="{=burgundian_kingdom.short_name}Burgundians" title="{=burgundian_kingdom.title}Burgundian Tribes" ruler_title="{=hwnp9abW}King" text="{=burgundian_kingdom.text}The Burgundians were a people once unknown to the Romans, migrating from deep in Germania on the far side of the Elbe to the region near the source of the Neckar river, partially filling the void left by the Roman retreat out of the Agri Decumates. Disunited and intermingled with their neighbors in the Franks, Alemans, Suebians and Vandals, the Burgundians stretch far to the east to border the Goths, but are gradually moving westward under migratory pressure.">
+    <relationships>
+      <relationship kingdom="Kingdom.langobard_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="marcomannic_kingdom" owner="Hero.marcomannic_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9061.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff422c2e" secondary_banner_color="0xffe0c78e" label_color="ffB01301" color="FF422C2E" color2="FFe0c78e" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.marcomannic" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=marcomannic_kingdom.name}Marcomans" short_name="{=marcomannic_kingdom.short_name}Marcomans" title="{=marcomannic_kingdom.title}Marcomannic Tribes" ruler_title="{=hwnp9abW}King" text="{=marcomannic_kingdom.text}In the age of Augustus the Marcomans were once the greatest of the Germanic confederations, ruling over all their Suebic neighbors in Baiohaemum and organized into a stratified society under their king Maroboduus. Under Marcus Aurelius they challenged the Romans in the decades-long Marcomannic wars. However, time and again Roman intervention has broken their confederation apart, and now they are a shadow of their former might.">
+    <relationships/>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="quadian_kingdom" owner="Hero.quadian_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9056.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff284e19" secondary_banner_color="0xffb3a491" label_color="ffB01301" color="FF284e19" color2="FFb3a491" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.quadian" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=quadian_kingdom.name}Quadians" short_name="{=quadian_kingdom.short_name}Quadians" title="{=quadian_kingdom.title}Quadian Tribes" ruler_title="{=hwnp9abW}King" text="{=quadian_kingdom.text}The Quadians have retained their ancient strength, emerging from the shadow of the Marcomannic neighbors. The Romans have recently begun constructing forts on the opposite side of the Danube in their territory, and now a Roman named Marcellianus has assassinated King Gabinius. Open war has broken out, and the Quadians seek revenge against the Romans across the river, with Pannonia ripe for the taking.">
+    <relationships>
+      <relationship kingdom="Kingdom.empire" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="vandal_kingdom" owner="Hero.vandal_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9057.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff515267" secondary_banner_color="0xff211f1f" label_color="ffB01301" color="FF515267" color2="FF211F1F" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.vandal" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=vandal_kingdom.name}Vandals" short_name="{=vandal_kingdom.short_name}Vandals" title="{=vandal_kingdom.title}Vandal Tribes" ruler_title="{=hwnp9abW}King" text="{=vandal_kingdom.text}Once an ancient people known as the Lugii who lived along the Vistula river north of the Quadians, the Vandals now live in the valleys nestled between the slopes of the Carpathians, divided into the Silingi and Asdingi. Despite their mountainous homeland’s natural protection, the Vandals are being pressured by the arrival of Goths, Heruls, and Gepids from the East. With the waning of the power of their Suebic relatives, the Vandali may yet follow the route west into Rome if the opportunity arises.">
+    <relationships>
+      <relationship kingdom="Kingdom.gepid_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="thervingian_kingdom" owner="Hero.thervingian_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9058.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff4e1a13" secondary_banner_color="0xffe9a74d" label_color="ffB01301" color="FF4E1A13" color2="FFe9a74d" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.gothic" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=thervingian_kingdom.name}Thervingians" short_name="{=thervingian_kingdom.short_name}Thervingians" title="{=thervingian_kingdom.title}Thervingian Tribes" ruler_title="{=hwnp9abW}King" text="{=thervingian_kingdom.text}The Thervingians are a Gothic people of the plains north of the Lower Danube and west of the Dniester River. They have been waging wars with Rome for over a century. Now, as Arianism spreads to Gothic lands, the Thervingians are increasingly divided between the followers of the old gods and the new faith. King Athanaric's persecution has led many to flock to the rebels of Fritigern, who seeks to lead the Thervingians in these dark times.">
+    <relationships>
+      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.vesian_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="vesian_kingdom" owner="Hero.vesian_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.90512.22.35.440.440.764.764.0.0.0" primary_banner_color="0xffa97435" secondary_banner_color="0xff4e1a13" label_color="ffB01301" color="FFa97435" color2="FF4E1A13" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.gothic" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=vesian_kingdom.name}Vesians" short_name="{=vesian_kingdom.short_name}Vesians" title="{=vesian_kingdom.title}Vesian Tribes" ruler_title="{=hwnp9abW}King" text="{=vesian_kingdom.text}The Thervingians are a Gothic people of the plains north of the Lower Danube and west of the Dniester River. They have been waging wars with Rome for over a century. Now, as Arianism spreads to Gothic lands, the Thervingians are increasingly divided between the followers of the old gods and the new faith. King Athanaric's persecution has led many to flock to the rebels of Fritigern, who seeks to lead the Thervingians in these dark times.">
+    <relationships>
+      <relationship kingdom="Kingdom.thervingian_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="scirian_kingdom" owner="Hero.scirian_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.90412.22.35.440.440.764.764.0.0.0" primary_banner_color="0xff373C1E" secondary_banner_color="0xffb6aba7" label_color="ffB01301" color="FF373C1E" color2="FFb6aba7" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.gothic" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=scirian_kingdom.name}Scirians" short_name="{=scirian_kingdom.short_name}Scirians" title="{=scirian_kingdom.title}Scirians Tribes" ruler_title="{=hwnp9abW}King" text="{=scirian_kingdom.text}The Scirians are an east germanic people, living in the neighbourhood of their gothic brethren. They have raided the Black Sea colonies for centuries, but they may yet play a larger role in the tumultuous times ahead.">
+    <relationships>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="gepid_kingdom" owner="Hero.gepid_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.90516.22.35.440.440.764.764.0.0.0" primary_banner_color="0xffac9188" secondary_banner_color="0xff332c4d" label_color="ffB01301" color="FFac9188" color2="FF332c4d" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.gothic" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=gepid_kingdom.name}Gepids" short_name="{=gepid_kingdom.short_name}Gepids" title="{=gepid_kingdom.title}Gepidian Tribes" ruler_title="{=hwnp9abW}King" text="{=gepid_kingdom.text}The Gepids have migrated together with their gothic cousins from Scandinavia and by the 3rd century they have established a kingdom in the Carpathian basin, north of the Thervingians.">
+    <relationships>
+      <relationship kingdom="Kingdom.vandal_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="greuthungian_kingdom" owner="Hero.greuthungian_lord_1_1" banner_key="11.25.10.2000.2000.764.764.1.0.0.9059.22.35.440.440.764.764.0.0.0" primary_banner_color="0xffa34402" secondary_banner_color="0xff211f1f" label_color="ffB01301" color="FFA34402" color2="FF211F1F" alternative_color="FFDBBA27" alternative_color2="ff910101" culture="Culture.gothic" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=greuthungian_kingdom.name}Greuthungians" short_name="{=greuthungian_kingdom.short_name}Greuthungians" title="{=greuthungian_kingdom.title}Greuthungian Tribes" ruler_title="{=hwnp9abW}King" text="{=greuthungian_kingdom.text}Also known as the Eastern Goths, the Greuthungians have carved out a large kingdom in the pontic steppes in the 4th century. Led by King Ermanaric, they have subjugated many slavic and sarmatian tribes, but with the arrival of huns, their kingdom is on the brink of destruction.">
+    <relationships>
+      <relationship kingdom="Kingdom.khuzait" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.bosporan_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+    <policies>
+      <policy id="policy_noble_retinues"/>
+      <policy id="policy_castle_charters"/>
+      <policy id="policy_kings_mercenaries"/>
+      <policy id="policy_royal_guard"/>
+    </policies>
+  </Kingdom>
+  <Kingdom id="sarmatian_kingdom" owner="Hero.sarmatian_lord_1_1" banner_key="11.2.126.4345.4345.764.764.1.0.0.301.15.15.602.508.763.774.1.0.180.510.15.15.157.213.763.765.1.0.0.504.15.15.78.48.659.741.1.0.134.426.15.15.108.157.667.730.1.0.42.510.15.15.118.213.635.650.1.0.90.426.15.15.108.108.615.591.1.0.-131.504.15.15.48.48.625.581.1.0.310.504.15.15.78.48.868.739.1.1.226.426.15.15.108.157.859.730.1.1.318.510.15.15.118.213.890.650.1.1.270.426.15.15.108.108.910.591.1.1.131.504.15.15.48.48.900.581.1.1.50" primary_banner_color="0xffcdcc7c" secondary_banner_color="0xff8d291a" label_color="FF7CC8EB" color="FFcdcc7c" color2="FF8d291a" alternative_color="FF787878" alternative_color2="FF6caecc" culture="Culture.sarmatian" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=sarmatian_kingdom.name}Sarmatians" short_name="{=sarmatian_kingdom.short_name}Sarmatians" title="{=sarmatian_kingdom.title}Sarmatian Tribes" ruler_title="{=hwnp9abW}King" text="{=sarmatian_kingdom.text}A broad group of people speaking an Indo-Iranian language, the Sarmatians have dwelled on the Eurasian steppes for nearly eight centuries now. Although the most poerful sarmatian kingdom is that of the Jazyges of Pannonia, some tribes have remained in the pontic steppes.">
+    <relationships>
+      <relationship kingdom="Kingdom.antean_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+  </Kingdom>
+  <Kingdom id="jazyg_kingdom" owner="Hero.jazyg_lord_1_1" banner_key="11.47.47.2000.2000.768.788.1.0.0.427.98.98.260.200.763.689.0.1.0.426.98.98.108.149.664.630.0.1.178.426.98.98.108.125.673.596.0.1.139.426.98.98.108.110.699.578.0.1.85.426.98.98.82.125.671.596.0.1.149.426.98.98.108.149.863.630.0.0.182.426.98.98.108.125.854.596.0.0.221.426.98.98.108.110.829.579.0.0.275.426.98.98.82.125.856.596.0.0.210.426.98.98.115.192.851.680.0.0.151.426.98.98.115.192.676.679.0.1.208.510.98.98.184.213.742.850.0.1.81.510.98.98.184.213.789.850.0.0.279.426.98.98.110.110.704.939.0.0.119.426.98.98.110.110.683.939.0.0.66.426.98.98.110.110.675.928.0.0.19.427.98.98.66.66.689.931.0.0.-24.426.98.98.110.110.828.936.0.1.240.426.98.98.110.110.848.936.0.1.293.426.98.98.110.110.857.926.0.1.340.427.98.98.66.66.843.928.0.1.23" primary_banner_color="0xfff1c232" secondary_banner_color="0xff211f1f" label_color="FF7CC8EB" color="FFF1C232" color2="FF211f1f" alternative_color="FF787878" alternative_color2="FF6caecc" culture="Culture.sarmatian" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=jazyg_kingdom.name}Jazyges" short_name="{=jazyg_kingdom.short_name}Jazyges" title="{=jazyg_kingdom.title}Jazyges" ruler_title="{=hwnp9abW}King" text="{=jazyg_kingdom.text}A broad group of people speaking an Indo-Iranian language, the Sarmatians have dwelled on the Eurasian steppes for nearly eight centuries now. Famed for their skills as lancers and horse archers, their most prestigious kingdoms are those of the Iazyges on the edges of Roman Pannonia. The Sarmatians have now found themselves caught up in the dispute between the Quadians and Valentinian, and face a difficult war with Rome.">
+    <relationships>
+      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.empire" value="-1" isAtWar="true"/>
+    </relationships>
+  </Kingdom>
+  <Kingdom id="alanian_kingdom" owner="Hero.alanian_lord_1_1" banner_key="11.2.126.4345.4345.764.764.1.0.0.500.15.15.100.100.764.764.1.1.90.500.15.15.89.89.764.764.1.1.90.500.15.15.84.84.764.764.1.1.90.304.15.15.400.250.662.664.1.1.45.304.15.15.400.250.658.869.1.1.135.304.15.15.400.250.865.867.1.0.225.304.15.15.400.250.869.660.1.0.315.510.15.15.120.150.855.763.1.0.0.510.15.15.120.150.764.674.1.0.90.510.15.15.120.150.764.853.1.0.90.510.15.15.120.150.670.764.1.0.0.426.15.15.100.100.620.724.1.0.0.426.15.15.100.100.620.804.1.0.0.426.15.15.100.100.724.908.1.0.90.426.15.15.100.100.804.908.1.0.90.426.15.15.100.100.908.804.1.0.180.426.15.15.100.100.907.724.1.0.180.426.15.15.100.100.724.620.1.0.270.426.15.15.100.100.804.620.1.0.270.510.15.15.50.120.610.724.1.0.270.510.15.15.50.120.612.801.1.0.270.510.15.15.50.120.917.805.1.0.270.510.15.15.50.120.917.728.1.0.270.510.15.15.50.120.724.612.1.0.0.510.15.15.50.120.801.610.1.0.0.510.15.15.50.120.726.915.1.0.0.510.15.15.50.120.803.917.1.0.0" primary_banner_color="0xff34671e" secondary_banner_color="0xffcda87c" label_color="FF7CC8EB" color="FF34671E" color2="FFcda87c" alternative_color="FF787878" alternative_color2="FF6caecc" culture="Culture.alanian" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=alanian_kingdom.name}Alans" short_name="{=alanian_kingdom.short_name}Alans" title="{=alanian_kingdom.title}Alanian Tribes" ruler_title="{=hwnp9abW}King" text="{=alanian_kingdom.text}A loosely organized kingdom situated along the bends of the Don and the Volga, the Alans have dwelled in these pastures for centuries after being driven westward from the Kazakh steppes by the Sogdians. Now the Alans once again face the loss of their home as they are beset by another ancient Empire: a people who once called themselves the Xiongnu. As their kingdom collapses, the Alans prepare to mount a last stand against these invaders with their newfound allies in the Greuthungians.">
+    <relationships>
+      <relationship kingdom="Kingdom.khuzait" value="-1" isAtWar="true"/>
+      <relationship kingdom="Kingdom.bosporan_kingdom" value="-1" isAtWar="true"/>
+    </relationships>
+  </Kingdom>
+  <Kingdom id="maskut_kingdom" owner="Hero.maskut_lord_1_1" banner_key="11.2.126.4345.4345.764.764.1.0.0.510.15.15.179.179.842.859.1.0.-86.426.15.15.97.97.869.950.1.0.49.504.15.15.43.43.860.959.1.0.130.426.15.15.97.97.896.948.1.0.132.504.15.15.43.43.904.958.1.0.213.426.15.15.98.152.802.737.1.0.224.426.15.15.98.152.723.737.1.1.135.510.15.15.179.179.684.858.1.1.85.426.15.15.97.97.657.948.1.1.311.504.15.15.43.43.666.957.1.1.230.426.15.15.97.97.631.947.1.1.227.504.15.15.43.43.623.956.1.1.146.505.15.15.44.26.716.730.1.1.42.505.15.15.44.26.809.730.1.0.317.510.15.15.89.179.763.656.1.1.90.426.15.15.116.134.716.589.1.0.249.426.15.15.116.134.809.589.1.1.110.426.15.15.89.107.842.587.1.1.61.426.15.15.89.107.684.587.1.0.298.505.15.15.44.26.720.580.1.0.334.505.15.15.44.26.806.580.1.1.25" primary_banner_color="0xffb57a1e" secondary_banner_color="0xfff9d575" label_color="FF7CC8EB" color="FFb57a1e" color2="FFf9d575" alternative_color="FF787878" alternative_color2="FF6caecc" culture="Culture.alanian" settlement_banner_mesh="encounter_flag_a" flag_mesh="info_screen_flags_b" name="{=maskut_kingdom.name}Maskuts" short_name="{=maskut_kingdom.short_name}Maskut" title="{=maskut_kingdom.title}Maskut Tribes" ruler_title="{=hwnp9abW}King" text="{=maskut_kingdom.text}Formerly known as the Massagetae, the Maskut are a group of Sarmato-Alanian tribes located in the eastern part of the Caucasus, along the western coast of the Caspian Sea. In the early 4th century, their king Sanesan have led an invasion of Armenia, but have been defeated. Now the Maskut realms is threatened by the hunnic tribes who seek to dominate the region.">
+    <relationships>
+    </relationships>
+  </Kingdom>
+  <Kingdom id="sabir_kingdom" owner="Hero.sabir_lord_1_1" banner_key="11.142.0.2000.2000.764.764.1.0.0.305.15.15.350.350.762.845.1.0.0.500.15.15.170.170.762.632.1.0.90.500.15.15.153.153.762.632.1.0.90.500.15.15.140.140.762.632.1.0.90.427.15.15.200.100.762.764.1.0.180.510.15.15.150.175.682.837.1.0.90.510.15.15.150.175.842.837.1.0.90.426.15.15.100.150.876.940.1.0.47.426.15.15.100.150.648.940.1.1.312.510.15.15.50.130.656.943.1.1.42.510.15.15.50.130.873.953.1.1.-50" primary_banner_color="0xff3a3321" secondary_banner_color="0xffc3c3c3" label_color="FF7CC8EB" color="FF3a3321" color2="FFc3c3c3" alternative_color="FF787878" alternative_color2="FF6caecc" culture="Culture.khuzait" settlement_banner_mesh="encounter_flag_f" flag_mesh="info_screen_flags_b" name="{=sabir_kingdom.name}Sabirs" short_name="{=sabir_kingdom.short_name}Sabirs" title="{=sabir_kingdom.title}Sabir Tribes" ruler_title="{=hwnp9abW}King" text="{=sabir_kingdom.text}">
+    <relationships>
+    </relationships>
+  </Kingdom>
+</Kingdoms>

@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <string id="prebackstory_be_wanderer_wre_vegetius_str" text="Majo imia Publius Fłavius Viehiecyus Renatus, ale mnie bolš padabajecca Viehiecyus."/>
+  <string id="backstory_a_be_wanderer_wre_vegetius_str" text="Ja čałaviek navuki. Maja asnoŭnaja navuka? Vajskovaja. Majo zachapleńnie sałdactvam vychodzić za miežy prostaha plebiejskaha šanavańnia pracesii, pampieznaści, cyrymonii i chvały zavajovaŭ. Vajna sama pa sabie zjaŭlajecca navukaj, što patrabuje mnostva inhredyjentaŭ dla zabieśpiačeńnia maksimalnaj efiektyŭnaści: rychtoŭla, arhanizacyja, dyscyplina, navat vykarystańnie muzyki zaklikana trymać samich sałdataŭ u takt! Heta zdajecca śmiešnym, ale z Boskaj łaski pracuje!"/>
+  <string id="backstory_b_be_wanderer_wre_vegetius_str" text="Ci bačycie, ja pracavaŭ z komitantensami, Pałantynami, Šołami i Limitanami. Ja nia budu stamlać vas ichnimi imionami. Ja bačyŭ uvasableńnie ich voli nad sałdatami pa ŭsioj Impieryi: suprać barbaraŭ i ŭschodnich zachopnikaŭ."/>
+  <string id="backstory_s_be_wanderer_wre_vegetius_str" text="Jakija rychtoŭli, taktyki i mietady jany dazvolili mnie pabačyć? *paplaskvaje pa svaim rukapisie, a potym pastukvaje sabie pa hałavie* Zapeŭnivaju vas, z maimi viedami vašaje vojska nia budzie viedać strachu, budzie mieć pośpiech i viedać, što treba padnačalvacca."/>
+  <string id="response_1_be_wanderer_wre_vegetius_str" text="Uražvaje. Mnie b prydaŭsia čałaviek z vašym dośviedam!"/>
+  <string id="response_2_be_wanderer_wre_vegetius_str" text="Kali b ja žadaŭ, kab mnie pračytali lekcyju, ja pajšoŭ by ŭ komitatus."/>
+  <string id="backstory_d_be_wanderer_wre_vegetius_str" text="Słušna. Zaraz ja pišu ŭsioachopny vajskovy traktat z nazvaj «De re militari», ale ja taksama maju dośvied pracy najmitam."/>
+  <string id="generic_backstory_be_wanderer_wre_vegetius_str" text="Ja Publius Fłavius Viehiecyus Renatus, vieteran impierskaha vojska, ekśpiert pa vajskovaj rychtoŭli, taktycy i łahistycy. Kali vy žadajecie daviedacca bolš, pračytajcie maju knihu, kali jana budzie skončana."/>
+  <string id="prebackstory_be_wanderer_wre_phanes_str" text="Ja - Fanes, kali vy amatar Alimpijskich hulniaŭ, vy, peŭna, pra mianie čuli!"/>
+  <string id="backstory_a_be_wanderer_wre_phanes_str" text="Ja zmahaŭsia na nieźličonych arenach, asabliva na Uschodzie. Šum natoŭpu i tvary vorahaŭ aśleplenych vyžyvańniem. Ja pamiataju, jak zmahaŭsia razam z maim bratam Chorusam i suprać jaho."/>
+  <string id="backstory_b_be_wanderer_wre_phanes_str" text="My trenieravalisia z dziacinstva, kab stać lepšymi atletami, dužavikami i zmaharami. I našaja rychtoŭla dała svaje plony: dziesiać hadoŭ tamu my spaborničali na hulniach u Antyjochii i zdabyli pieršyja pieramohi!"/>
+  <string id="backstory_s_be_wanderer_wre_phanes_str" text="Ja dahetul pamiataju viesiałość i abažańnie publiki. Voś heta byli dziańki! Z toj pary žyćcio nas razłučyła, cikava, što ciapier robić Chorus..."/>
+  <string id="response_1_be_wanderer_wre_phanes_str" text="Ja zaŭziaty amatar Alimpijskich atletaŭ! Dla mianie vialiki honar paznajomicca z takim čempijonam, jak vy!"/>
+  <string id="response_2_be_wanderer_wre_phanes_str" text="Hulni na arenach adroźnivajucca ad bitvaŭ na poli boju. Ja šukaju kampańjonaŭ, na jakich mahu raźličvać."/>
+  <string id="backstory_d_be_wanderer_wre_phanes_str" text="Tak, ja čempijon areny, ale mnie nie cierpicca pasprabavać sabie ŭ realnym bai, kali tolki ja zmahu rychtavacca i praktykavacca da nastupnych hulniaŭ!"/>
+  <string id="generic_backstory_be_wanderer_wre_phanes_str" text="Ja čempijon Alimpijskich hulniaŭ, my z bratam Chorusam zmahalisia na šmatlikich arenach pa ŭsioj impieryi. Z toj pary, jak ja rušyŭ na zachad, my nie sustrakalisia, ale ja ŭpeŭnieny, što my sustreniemsia znoŭ na nastupnych Alimpijskich hulniach!"/>
+  <string id="prebackstory_be_wanderer_wre_abundatius_str" text="Abundacyus da vašych pasłuhaŭ."/>
+  <string id="backstory_a_be_wanderer_wre_abundatius_str" text="Maje baćki imihravali ŭ impieryju, kali ja byŭ maleńkim, i litaściu impieratara nam daravali ziamlu."/>
+  <string id="backstory_b_be_wanderer_wre_abundatius_str" text="Jany vychavali mianie jak addanaha słuhu Impieryi, tamu ja vyrašyŭ dałučycca da vojska."/>
+  <string id="backstory_s_be_wanderer_wre_abundatius_str" text="Niama šlachietniejšaj spravy za zmahańnie za ideały, u jakija vieryš!"/>
+  <string id="response_1_be_wanderer_wre_abundatius_str" text="Heta sapraŭdy varta zachapleńnia!"/>
+  <string id="response_2_be_wanderer_wre_abundatius_str" text="Ale ty navat nia Rymlanin!"/>
+  <string id="backstory_d_be_wanderer_wre_abundatius_str" text="Ja nia Rymlanin pa narodzinach, ale Rymlanin pa duchu! Ja vieru, što zmahu dasiahnuć vieličy, nia tolki dla sabie, ale i dla Impieryi!"/>
+  <string id="generic_backstory_be_wanderer_wre_abundatius_str" text="Ja syn Skifskich imihrantaŭ, vyrašyŭ pajści ŭ vojska, kab lepiej słužyć Impieryi. Maja historyja bolš nia maje detalaŭ, prynamsi pakul."/>
+  <string id="prebackstory_be_wanderer_wre_caelius_str" text="Majo imia Kaelius Aŭrelianus. Ja doktar."/>
+  <string id="backstory_a_be_wanderer_wre_caelius_str" text="Ja sprabavaŭ skłaści kartu vybuchaŭ čumy i inšych chvarobaŭ, što nas katujujuć, navodziŭ daviedki až da Numidyi."/>
+  <string id="backstory_b_be_wanderer_wre_caelius_str" text="Za ŭsiu historyju Impieryi my sutykalisia z nieźličonymi chvarobami, niachaj to budzie vospa, malaryja ci tyf. Niby vajary, my pavinny viedać voraha, jaho zachady i šlachi supracivu, kab zachavać siabie."/>
+  <string id="backstory_s_be_wanderer_wre_caelius_str" text="Ja liču jaje chutčej praktyčnaj, čym šlachietnaj. Pamiž vajskovaj spravaj i miedycynaj majecca zaŭvažnaje padabienstva, asabliva ŭ stratehii. Vy majecie ŭłasnuju stratehiju, {?PLAYER.GENDER}panienka{?}panovie{\?}?"/>
+  <string id="response_1_be_wanderer_wre_caelius_str" text="Ja maju svaje zachady zmahańnia z vorahami, ale jak lidar kampanii ja baču ŭ vašym padychodzie vartaści!"/>
+  <string id="response_2_be_wanderer_wre_caelius_str" text="Maje stratehii vas nia tyčacca. Mnie niecikava abmiarkoŭvać ich z čałaviekam, jaki nia maje adpaviednaha dośviedu ŭ vobłaści lidarstva!"/>
+  <string id="backstory_d_be_wanderer_wre_caelius_str" text="Padumajcie pra hetaje! Kali vašyja ludzi zachvarejuć, jak vy pieraduchilicie raspaŭsiudžvańnie chvaroby na ŭsiu kampaniju? Jak vy budziecie jaje lačyć? Travianyja srodki - heta reakcyja, ale vy možacie vyratavać zapasy. Kamandzir musić być praaktyŭnym, a nie reaktyŭnym."/>
+  <string id="generic_backstory_be_wanderer_wre_caelius_str" text="Ja doktar z bolš čym dziesiacihadovym dośviedam lačeńnia roznych zachvorvańniaŭ. Ja pišu knihu pra chraničnyja i vostryja zachvorvańni."/>
+  <string id="prebackstory_be_wanderer_wre_aurelius_str" text="Ja Aŭrelius Viktar, i ja słuha Ryma. Kali padzieja nie byvaje spryjalnaj? Tolki niaščasnyja i nievuki nie ŭmiejuć karystacca vypadkam."/>
+  <string id="backstory_a_be_wanderer_wre_aurelius_str" text="My žyviom u epochu, kali rab moža stać spadarom, a jaho dziei - mitam. Čałaviek moža iści śledam, zmahacca albo nazirać. Ja staju ŭ šerahach apošnich, a vy?"/>
+  <string id="backstory_b_be_wanderer_wre_aurelius_str" text="Istotna toje, što my z vami tvorym historyju. Uzmachnuŭšy miačom abo čyrkanuŭšy piarom, my pakidajem svoj śled u śviecie."/>
+  <string id="backstory_s_be_wanderer_wre_aurelius_str" text="Sam Pierykł havaryŭ: «Toje, što vy pakidajecie paśla siabie, - heta nie toje, što vysiečana na kamiennych pomnikach, a toje, što ŭpleciena ŭ žyćcio inšych ludziej». Z hetym nielha spračacca, i ja imknusia pakinuć u śviecie taki śled."/>
+  <string id="response_1_be_wanderer_wre_aurelius_str" text="Ja viedaju, čaho mahu damahčysia, ale jak nakont ciabie? Što ty možaš dać zamiž miača?"/>
+  <string id="response_2_be_wanderer_wre_aurelius_str" text="Heta vielmi pryhožyja słovy, ale, zdajecca, na bolšaje vy nia zdatny."/>
+  <string id="backstory_d_be_wanderer_wre_aurelius_str" text="Pieradusim, ja ŭmieju machać miačom, jak i ŭsiaki vajar. Ale ja taksama mahu zapisvać vašyja vyčyny i raskazvać pra ich naščadkam. Ja taksama ŭmieły administratar, tamu zdolny dapamahčy vam z łahiernymi spravami."/>
+  <string id="generic_backstory_be_wanderer_wre_aurelius_str" text="Pa pieršaje ja piśmieńnik, ale ja maju vialiki administracyjny dośvied. Šmat hadoŭ ja słužyŭ Rymu ŭ jakaści Panonskaha hubiernatara."/>
+  <string id="prebackstory_be_wanderer_wre_leoparda_str" text="Skažycie, {?PLAYER.GENDER}spadarynia{?}spadar{\?}, što vy viedajecie pra pakuty?"/> <!-- female -->
+  <string id="backstory_a_be_wanderer_wre_leoparda_str" text="Bol, jakuju prynosiać pakuty, znajomaja ŭsiakaj žyvoj istocie. Mnie, jak i vam, pakuty dobra znajomyja. Mnie kamfortna poruč ź imi, jany dazvalajuć mnie pracavać."/>
+  <string id="backstory_b_be_wanderer_wre_leoparda_str" text="Niaŭžo vy dumajecie, što kroŭ iljecca tolki ŭ sałdataŭ? Ja prymała nieźličonyja rody, dahladała chvorych žonak i akazvała im dapamohu, kab palehčyć ichniuju bol."/>
+  <string id="backstory_s_be_wanderer_wre_leoparda_str" text="Ja - lekarka Leaparda. Ja pracavała razam z asabistym lekaram Impieratara. Naŭprost spytajcie Pryscyanusa, kali jon zmoža adarvacca ad svaich skrutkaŭ."/>
+  <string id="response_1_be_wanderer_wre_leoparda_str" text="Čamu, majučy taki šanoŭny honar, vy cikaviciesia majoj kampanijaj? Što vy možacie prapanavać?"/>
+  <string id="response_2_be_wanderer_wre_leoparda_str" text="Henaja hutarka paradžaje bolš pytańniaŭ, čym razumieńnia. Što moža dać mnie impieratarskaja pavitucha?"/>
+  <string id="backstory_d_be_wanderer_wre_leoparda_str" text="Jak lekarka, ja viedaju, jakija travianyja recepty zdymajuć bol i zdolnyja zraścić kostki. Bolš za toje, maje mocnyja ruki i rozum nie pieraškodziać padčas vymańnia strełaŭ."/>
+  <string id="generic_backstory_be_wanderer_wre_leoparda_str" text="Ja lekarka, jakaja šmat hadoŭ prasłužyła ŭ pałacy Impieratara pad čałom majstra Pryscyanusa."/>
+  <string id="prebackstory_be_wanderer_wre_egeria_str" text="Majo imia Ehieryja. Ja z maleńkaj vioski z dalokich ziamiel."/> <!-- female -->
+  <string id="backstory_a_be_wanderer_wre_egeria_str" text="Za toj čas, što ja praviała tut, šmatlikija padarožniki pryjazdžali z tavarami i kazkami. Ja bačyła ludziej, vyrazanych sa šmatkalarovaj tkaniny, što apaviadajuć historyi pra pačvaraŭ, paŭludziej, nimfaŭ i bitvy. Ale mianie heta nie cikavić."/>
+  <string id="backstory_b_be_wanderer_wre_egeria_str" text="Ja dumaju pra pilihrymaŭ. Ludziej, što rušać na Uschod, kab ubačyć, dzie chadziŭ Chrystos. Jany iduć pa Jaho śladach, słuchajuć Jaho słovy i addajuć pašanu. Ja kłapačusia nie pra zmahańnie, a pra aśvietu."/>
+  <string id="backstory_s_be_wanderer_wre_egeria_str" text="Ja prahnu adpravicca na Uschod, kab ździejśnić svajo pałomnictva, ale ja nia maju hrošaŭ, kab apłacić padarožža i abaronu. Vy voźmiecie mianie?"/>
+  <string id="response_1_be_wanderer_wre_egeria_str" text="Ja by z radaściu dapamoh vam u darozie, ale ja ŭznačalvaju kampaniju i nie mahu harantavać vašuju biaśpieku ŭvieś čas."/>
+  <string id="response_2_be_wanderer_wre_egeria_str" text="Čamu ja mušu puścić vas u svaju kampaniju? Vy ŭmiejecie vajavać hetak ža dobra, jak malicca?"/>
+  <string id="backstory_d_be_wanderer_wre_egeria_str" text="Mnie nie ŭpieršyniu padarožničać z vajarami. Ja išła ŭśled za łahierami pa ciažkaprachodnaj miascovaści, hatavała stolki ježy, što chapiła b na ceły lehijon, i navučyłasia abychodzicca z dzidaj, kali maradziory sprabavali ździejśnić nabieh."/>
+  <string id="generic_backstory_be_wanderer_wre_egeria_str" text="Ja tolki ścipłaja pilihrymka, i ŭsio, čaho ja chaču, - heta iści pa stupniach Chrysta i pisać dziońnik pra svaje padarožžy dla viernikaŭ majoj radzimy!"/>
+  <string id="prebackstory_be_wanderer_ere_ammianus_str" text="Pytańni zadasi paźniej. Spačatku, kali łaska, siadaj i ciešsia vinom razam sa mnoj!"/>
+  <string id="backstory_a_be_wanderer_ere_ammianus_str" text="Ja Ammianus Marcellinus. Słužyŭ pad čałom nieźličonaj kolkaści vybitnych vajskavodaŭ. Impierataraŭ i tych, chto padnačalvaŭsia prama Impierataram."/>
+  <string id="backstory_b_be_wanderer_ere_ammianus_str" text="Ja słužyŭ u šerahach abaroncaŭ domieściki, achoŭvaŭ Impieratara, pałac i Impieryju. Ja mahu adbić udar usiakaha čałavieka i źviera."/>
+  <string id="backstory_s_be_wanderer_ere_ammianus_str" text="Heta majo žyćcio. Heta honar, jaki pryniaty z padziakaj. Dosyć uzhadać majo imia ŭ pałacy, i vy ŭbačycie, jak natapyrvajucca vušy i nakiroŭvajucca vočy ŭ vašy bok. Ja ŭkłaŭ u hetuju ruku z miačom, uvahu da detalaŭ, taktyčnaje majsterstva i efiektyŭnaje kiravańnie."/>
+  <string id="response_1_be_wanderer_ere_ammianus_str" text="Vielmi ŭražvaje. Ja sam uznačalvaju kampaniju vajaroŭ, i čałaviek vašaha kalibru moža być vielmi karysny."/>
+  <string id="response_2_be_wanderer_ere_ammianus_str" text="Taho nia moža być. Usiaki čałaviek moža rabić takija zajavy!"/>
+  <string id="backstory_d_be_wanderer_ere_ammianus_str" text="Ja byŭ by karysny ŭsiakamu kamandziru nia tolki svaimi viedami, ale i vałodańniem miača. Ja dahetul dychaju, tak? Aproč taho, ja viedaju mnostva nadziejnych taktykaŭ, umieju efiektyŭna zahadvać vojskam i kiravaŭ nieźličonaj kolkaściu pałonnych."/>
+  <string id="generic_backstory_be_wanderer_ere_ammianus_str" text="Ja vajskovy vieteran. Słužyŭ u šerahach abaroncaŭ domieściki, achoŭvaŭ Impieratara, pałac i Impieryju. Ja mahu adbić udar usiakaha čałavieka i źviera."/>
+  <string id="prebackstory_be_wanderer_ere_oribasius_str" text="Majo imia Orybasius, ja viadomy lekar."/>
+  <string id="backstory_a_be_wanderer_ere_oribasius_str" text="Ja vučyŭsia ŭ Zena Kiprskaha va Aleksandryjskaj škole, dzie paznavaŭ miedyčnyja navuki, a potym staŭ asabistym lekaram samaha boskaha Juliana."/>
+  <string id="backstory_b_be_wanderer_ere_oribasius_str" text="Ja byŭ vyhnany paśla taho, jak nia zmoh vyratavać Juliana ad śmiarotnaj rany, i z tych časoŭ słužyŭ u zamiežnych pałacach, ale na zahad impieratara Valensa viarnuŭsia ŭ Kanstancinopal."/>
+  <string id="backstory_s_be_wanderer_ere_oribasius_str" text="Zaraz ja składaju zbornik ŭsich vialikich miedyčnych piśmieńnikaŭ minułaha, takich jak Halen i Hierakłas, jaki, spadziajusia, stanie ŭzoram siarod maich kalehaŭ."/>
+  <string id="response_1_be_wanderer_ere_oribasius_str" text="Uražvaje, mnie b prydaŭsia čałaviek z vašaj reputacyjaj i viedami."/>
+  <string id="response_2_be_wanderer_ere_oribasius_str" text="Kali b ja {?PLAYER.GENDER}chacieła{?}chacieŭ{\?}, kab mnie čytali lekcyi, ja b {?PLAYER.GENDER}pajechała{?}pajechaŭ{\?} u Aleksandryju."/>
+  <string id="backstory_d_be_wanderer_ere_oribasius_str" text="Dobra, ciapier ja pišu miedyčnuju pracu, ale dośvied u hetaj vobłaści zaŭždy karysny dla majoj pracy. Ja taksama kansultavaŭsia z Delfijskim Arakułam, kali ŭ budučyni vam spatrebicca takoje boskaje nastaŭleńnie."/>
+  <string id="generic_backstory_be_wanderer_ere_oribasius_str" text="Ja viadomy lekar, niekali ja słužyŭ Impierataru Julianu, ale paśla taho, jak mnie nie ŭdałosia ŭbierahčy jaho ad śmiarotnaj rany, mianie vyhnali."/>
+  <string id="prebackstory_be_wanderer_ere_nemota_str" text="Ja - Rymlanin z vybitnaj reputacyjaj, majo imia - Niemota, ja z Kiprskaha horada, jaki nosić majo imia."/>
+  <string id="backstory_a_be_wanderer_ere_nemota_str" text="Ja słužyŭ trybunam numierusa Aŭksilija Pałacina ŭ Piersickaj Vajnie, a potym byŭ pakinuty dla Ktesifona ŭ jakaści dypłamatyčnaha zakładnika."/>
+  <string id="backstory_b_be_wanderer_ere_nemota_str" text="Ja maju vialiki dośvied jak u kamandavańni piachotaj, hetak i ŭ dypłamatyi, braŭ udzieł u šmatlikich bitvach pad čałom Impieratara Juliana."/>
+  <string id="backstory_s_be_wanderer_ere_nemota_str" text="Čas, praviedzieny ŭ Piersii, vyratavaŭ mianie ad palityčnaj reakcyi na śmierć Juliana, kali mnohich maich siabroŭ i kalehaŭ zabili."/>
+  <string id="response_1_be_wanderer_ere_nemota_str" text="Uražvaje, ja atrymaju karyść ad čałavieka z vašymi vajskavodzkimi talentami."/>
+  <string id="response_2_be_wanderer_ere_nemota_str" text="Kali b ja žadaŭ, kab mnie čytali lekcyi, ja b pajšoŭ da kampidoktara."/>
+  <string id="backstory_d_be_wanderer_ere_nemota_str" text="Zrazumieła, ja maju razmaityja talenty ŭžyvańnia dzidy, miača i ščyta. Ja kamandavaŭ piachotaj, ale rabiŭ toje konna razam ź inšymi aficerami, tamu ja taksama daśviedčany vieršnik."/>
+  <string id="generic_backstory_be_wanderer_ere_nemota_str" text="Ja vieteran Julianskich Vojnaŭ suprać Piersii."/>
+  <string id="prebackstory_be_wanderer_ere_zosimus_str" text="Majo imia Zosimus."/>
+  <string id="backstory_a_be_wanderer_ere_zosimus_str" text="Ja majstar ałchimičnych majsterstvaŭ, pieradadzienych nam aniołami, što ŭpali z niabiosaŭ i navučyli žančynaŭ usim zabaronienym bakam pryrody."/>
+  <string id="backstory_b_be_wanderer_ere_zosimus_str" text="Ałchimija - heta vyvučeńnie składu vodaŭ, uzrostu, ruchu, uvasableńnia i aduvasableńnia, pryciahnieńnia i złučeńnia duchaŭ z ciełam."/>
+  <string id="backstory_s_be_wanderer_ere_zosimus_str" text="Ja taksama vyvučaju transmutacyju mietałaŭ praz ačyščeńnie. Padobna chryščeńniu, boskaja vada čyścić mietał u ałchimičnaj pasudzinie z dapamohaj cinkturnych paroŭ rtuci i siery."/>
+  <string id="response_1_be_wanderer_ere_zosimus_str" text="Nievierahodna, mnie b prydaŭsia čałaviek z takimi ŭnikalnymi viedami."/>
+  <string id="response_2_be_wanderer_ere_zosimus_str" text="Zdajecca, vy zabrudzili ałchimiju hnastyčnaj jeraśsiu."/>
+  <string id="backstory_d_be_wanderer_ere_zosimus_str" text="Ja napisaŭ mnostva pracaŭ na hetyja temy, jakija źmiaščajuć viedy pa ačystcy mietałaŭ, stvareńni eliksiraŭ i duchu. Ja mahu stvaryć dla vas raznastajnyja zielli - ad hajučych ziellaŭ da vadkaha ahniu."/>
+  <string id="generic_backstory_be_wanderer_ere_zosimus_str" text="Ja ałchimik, jaki napisaŭ šmat pracaŭ na hetyja temy, što źmiaščajuć viedy pa ačystcy mietałaŭ, pa stvareńni eliksiraŭ i duchu."/>
+  <string id="prebackstory_be_wanderer_ere_horus_str" text="Ja Chorus, Alimpijec!"/>
+  <string id="backstory_a_be_wanderer_ere_horus_str" text="Ja pieramahaŭ na hulniach u Antyjochii i słužyŭ prefiektu Maksimusu ŭ Jehipcie razam sa svaim bratam Fanesam. Ja taksama vialiki Retor, ci, prynamsi, hetak liču. Staražytnyja kiniki - maje nastaŭniki ŭ dumkach i pisańniach."/>
+  <string id="backstory_b_be_wanderer_ere_horus_str" text="Naturalna, vas bolš cikaviać maje navyki čempijona. Ja baksior, dužavik, majstar škołaŭ Pale, Pihmachii i Pankratyjona. Heta zrabiła mianie viadomym šoŭmenam i kaštoŭnym čalcom śvity Maksimusa."/>
+  <string id="backstory_s_be_wanderer_ere_horus_str" text="Zrazumieła, ja mahu być niezaŭvažnym, chacia z-za majoj słavy heta moža być składana. Ale z niezaŭvažnaha baksiora i dužavika atrymajecca vydatny ciełaachoŭnik, jaki moža źmiašacca z biurakratami."/>
+  <string id="response_1_be_wanderer_ere_horus_str" text="Nadzvyčajna, čałaviek z vašym majsterstvam nia budzie mieć prablemaŭ u bai."/>
+  <string id="response_2_be_wanderer_ere_horus_str" text="Tak, ale ja nikoli nia čuŭ pra vas."/>
+  <string id="backstory_d_be_wanderer_ere_horus_str" text="Vy nia znojdziecie lepšaha vajara za mianie, mahčyma, za vyniatkam, majstraŭ kapja i miača. Apošnim časam ja zachapiŭsia dramatyzmam i cynizmam, ale ja budu rady pryŭnieści svaje talenty ŭ vašuju śvitu."/>
+  <string id="generic_backstory_be_wanderer_ere_horus_str" text="Ja - Alimpijski čempijon, my z bratam Fanesom zavajavali šmat uznaharodaŭ na hulniach."/>
+  <string id="prebackstory_be_wanderer_wre_victoria_str" text="Majo imia Viktoryja."/> <!-- female -->
+  <string id="backstory_a_be_wanderer_wre_victoria_str" text="Ja lekarka, navučanaja šanoŭnym majstram Pryscyanusam!"/>
+  <string id="backstory_b_be_wanderer_wre_victoria_str" text="Razam z dźviuma inšymi žančynami, Salvinaj i Leapardaj, my słužyli ŭ pałacy Zachodniaha Impieratara."/>
+  <string id="backstory_s_be_wanderer_wre_victoria_str" text="Ja pamiataju mietady Leapardy, klanusia bahami, jany byli žudasnyja! Navat Pryscyanus adznačyŭ u svajoj knizie, što jaje mietady lačeńnia nia bolš navukovyja za mietady Dzijoskorydesa. Nie ŭjaŭlaju, jak jana stała pavažanaj pavituchaj..."/>
+  <string id="response_1_be_wanderer_wre_victoria_str" text="Spadziajusia, vy navučylisia ŭ svajho nastaŭnika realnym navykam!"/>
+  <string id="response_2_be_wanderer_wre_victoria_str" text="Kali hetaha dosyć dla vašaj škoły, jak ja mahu być {?PLAYER.GENDER}upeŭnienaja{?}upeŭnieny{\?}, što vašyja navyki lepšyja?"/>
+  <string id="backstory_d_be_wanderer_wre_victoria_str" text="Ja sapraŭdy vyvučała i pravodziła ekśpierymienty sa svaimi lekami, kab palepšyć viedy i admovicca ad nieefiektyŭnych mietadaŭ. Tym časam jak Leaparda spadziajecca na tradycyjnyja mietady, ja sapraŭdy mahu vyratavać žyćcio, zamiž taho kab prosta dać opium ad bolu."/>
+  <string id="generic_backstory_be_wanderer_wre_victoria_str" text="Ja lekarka, navučałasia ŭ šanoŭnaha majstra Pryscyanusa."/>
+  <string id="prebackstory_be_wanderer_celt_cinhil_str" text="Padumać tolki, jak prastaludzin źviartajecca da haspadarskaj asoby. Dy aślepiać mianie bahi i ahłušać maje vušy... Raz užo ty słuchaješ, budź łaskavy, vysłuchaj maju historyju, {?PLAYER.GENDER}nieznajomka{?}nieznajomy{\?}."/>
+  <string id="backstory_a_be_wanderer_celt_cinhil_str" text="Daloka za Rymskaj ścianoj, da poŭnačy ad Siełkovaŭ i da zachadu ad Votadzinaŭ, ja kiravaŭ Damnonami. Moj narod dobra supracoŭničaŭ z Rymlanami z časoŭ Antoninusa. Našyja ludzi vajavali na Rymskaj słužbie. Ale z ciaham času płaty zapavolvalisia. Pikty ździajśniali hrabiežnictvy na našyja šlachi i ŭryvalisia ŭ chaty našych prodkaŭ."/>
+  <string id="backstory_b_be_wanderer_celt_cinhil_str" text="My sabrali, skavali vojska i rušyli na zmahańnie z vyradkami. My sustrelisia i biaźlitasna vajavali, ale maje ludzi byli pieramožany. Pikty ŭziali mianie ŭ pałon i adviali ŭ rodnuju chatu, prymusiŭšy zabiaśpiečvać ich zdabyčaj. Jany žadali zrabić z mianie prykład pierad maimi surodzičami, ale maje pałonnyja rodzičy zmahli adciahnuć uvahu i dać mnie mahčymaść źbiehčy. Bahaćci, futry, ziemli, žančyny. Usio stračana."/>
+  <string id="backstory_s_be_wanderer_celt_cinhil_str" text="Dzień za dniom ja błukaŭ i hojsaŭ, pakul nie pryjšoŭ da ściany i nia staŭ baranić svaju pravaść. Zaraz ja razvažaju dy čakaju finansavuju padtrymku, kab sabrać vojska i viarnuć svaju chatu."/>
+  <string id="response_1_be_wanderer_celt_cinhil_str" text="Jakaja historyja. Tak, vy žadajecie zarabić hrošy?"/>
+  <string id="response_2_be_wanderer_celt_cinhil_str" text="Pjanyja pasiaduški ŭ straŭniach nie dapamohuć vam advajavać svaje ziemli..."/>
+  <string id="backstory_d_be_wanderer_celt_cinhil_str" text="Sapraŭdy! Ja dumaju pra najmictva, ja zdolny miečnik, kapijnik, i vy nie zachočacie apynucca pad strełam majho łuka ci sulicy. A jašče ja mahu pryvić ludziam dyscyplinu i addanaść biez asablivych vysiłkaŭ."/>
+  <string id="generic_backstory_be_wanderer_celt_cinhil_str" text="Kaliści ja byŭ haspadarom Damnonii, pakul jaje nie zachapili Pikty. Zaraz ja padarožničaju pa krainie i sprabuju sabrać hrošy i prychilnikaŭ, kab adnojčy viarnuć sabie svaje ziemli!"/>
+  <string id="prebackstory_be_wanderer_celt_setana_str" text="Viadoma, {?PLAYER.GENDER}nieznajomka{?}nieznajomy{\?}! Ja naradziŭsia ź imiem Sietana, ale ciapier ludzi viedajuć mianie tolki jak Hončuju Kułanna."/>
+  <string id="backstory_a_be_wanderer_celt_setana_str" text="Heta zachaplalnaja historyja: kali ja byŭ dziciom, my z baćkam pryjšli na bal da kavala pa imi Kułann. Paznajomiŭšysia ź im, Kułann zaprasiŭ baćku ŭ chatu, kali ja jašče byŭ znadvorku, i, nie čakajučy nikoha inšaha, vypuściŭ na dvor svajho vartaŭničaha sabaki..."/>
+  <string id="backstory_b_be_wanderer_celt_setana_str" text="Źvier byŭ lutym i, zaŭvažyŭšy mianie ŭ aharodžy, kinuŭsia na mianie sa śmiarotnaj mocaj. Adziny šaniec, jaki ja mieŭ, - padniać pakładzieny pobač kamień i raźbić jamu hałavu. Ubačyŭšy, što ja zrabiŭ, Kułann byŭ paražany majoj siłaj, ale strata sabaki apustošyła jaho."/>
+  <string id="backstory_s_be_wanderer_celt_setana_str" text="Treba było štości zrabić, kab vypravić jaho stratu. Ja pačuvaŭsia hetak vinavatym, zabiŭšy vartaŭničaha sabaku haspadara, što paabiacaŭ znajści jamu novaha ščaniuka i achoŭvać majontak samastojna, pakul sabaka nia stanie dosyć stałym, kab spravicca z hetaj pracaj. Tak ja staŭ Hančakom Kułanna."/>
+  <string id="response_1_be_wanderer_celt_setana_str" text="Jakaja zajmalnaja historyja! Vam było b cikava pracavać najmitam?"/>
+  <string id="response_2_be_wanderer_celt_setana_str" text="Mianie cikavić nia vašaje imia, a vašyja navyki. Žadajecie pracavać najmitam?"/>
+  <string id="backstory_d_be_wanderer_celt_setana_str" text="Heta nia pieršy raz, kali {?PLAYER.GENDER}pravadyrynia{?}pravadyr{\?} prosić mianie słužyć {?PLAYER.GENDER}joj{?}jamu{\?}. Viedaj, što ja nia prosty łakiej! Ja vyčuŭsia ŭ Skaty, kali ty viedaješ pra jaje, niama patreby kazać bolej!"/>
+  <string id="generic_backstory_be_wanderer_celt_setana_str" text="Ja vajar i były vartavy Kułanna, kavala. Ja navučaŭsia vajskovamu majsterstvu ŭ Skaty."/>
+  <string id="prebackstory_be_wanderer_celt_scatha_str" text="Biezumoŭna, {?PLAYER.GENDER}daražeńkaja{?}daražeńki{\?}!"/> <!-- female -->
+  <string id="backstory_a_be_wanderer_celt_scatha_str" text="Ja - Skata. Skata - Pana-Vajarka."/>
+  <string id="backstory_b_be_wanderer_celt_scatha_str" text="Ja vuču vajskovamu majsterstvu ŭžo dziesiać hadoŭ, padrychtavała mnostva pavažanych vajaroŭ, bolšaść ź jakich dahetul žyvyja dziakujučy maim technikam."/>
+  <string id="backstory_s_be_wanderer_celt_scatha_str" text="U heny čas ja nia maju novych vučniaŭ, tamu kali žadajecie vyvastryć svajo majsterstva vałodańnia miačom, kapjom ci sulicaj, vy źviarnulisia da słušnaj piersony!"/>
+  <string id="response_1_be_wanderer_celt_scatha_str" text="Ja nie mahu zastacca na vašyja ŭroki, ale, moža, vy mahli b dałučycca da maich kampańjonaŭ? My ŭsie b mahli atrymać karyść ad vašych urokaŭ!"/>
+  <string id="response_2_be_wanderer_celt_scatha_str" text="Mianie nie cikaviać tvaje ŭroki, tolki tvaje navyki. Zmožaš zładzić z saboj u realnym bai, pa-za rychtavalnaj placoŭkaj?"/>
+  <string id="backstory_d_be_wanderer_celt_scatha_str" text="Ja nia pieršy raz maju znosiny z ludźmi padobnymi na vas. Majo majsterstva vałodańnia miačom i kapjom najdaskanałaje, tolki nie čakajcie, što ja budu vašaj vajskovaj kucharkaj!"/>
+  <string id="generic_backstory_be_wanderer_celt_scatha_str" text="Ja nastaŭnica vajskovaha majsterstva, ale ja taksama maju dośvied bitvaŭ u vojskie."/>
+  <string id="prebackstory_be_wanderer_celt_torna_str" text="Majo imia - Torna, mahčyma, vy čuli pra mianie jak pra Torna Mudraha."/>
+  <string id="backstory_a_be_wanderer_celt_torna_str" text="Nie? Miarkuju, vy nie miascovy. Ja byŭ pryjomnym baćkam Haspadara Niałła."/>
+  <string id="backstory_b_be_wanderer_celt_torna_str" text="Daŭnym-daŭno, kali ja byŭ maładym chłopcam, adnojčy ja išoŭ pa lesie i pačuŭ płač maleńkaha dziciaci, jakomu nie było i dnia z rodu. Ja ŭziaŭ jaho dachaty i vyhadavaŭ jak svajho ŭłasnaha. Tolki paźniej ja daviedaŭsia, kim była jaho maci - Karalevaj Iviernaŭ!"/>
+  <string id="backstory_s_be_wanderer_celt_torna_str" text="Niałł vyras zdolnym čałaviekam, daviedaŭšysia pra svaju karaleŭskuju spadčynu, jon vyrašyŭ viarnuć sabie miesca ŭ haspadarskim pałacy. I paśla doŭhich hadoŭ zmahańnia jon damohsia svajoj mary, staŭ Vyšejšym Karalom!"/>
+  <string id="response_1_be_wanderer_celt_torna_str" text="Heta vielmi šlachietna z vašaha boku! Ale čamu vy nia razam z haspadarom?"/>
+  <string id="response_2_be_wanderer_celt_torna_str" text="Hučyć jak vydumanaja historyja. Kali vy taki hieroj, čamu vy siadzicie ŭ prakuranych straŭniach, a nie ŭ haspadarskim zamku?"/>
+  <string id="backstory_d_be_wanderer_celt_torna_str" text="Usio, što ja rabiŭ, ja rabiŭ dziela dabrabytu chłopčyka. Ja nikoli nie imknuŭsia da bahaćcia ci tytułaŭ. Ja paet pa prafiesii, jaki ličyć za lepšaje śpiavać staryja pieśni i pić dobruju miedavuchu z siabrami. Moža, ja i stary, ale ŭ dušy ja dahetul avanturnik!"/>
+  <string id="generic_backstory_be_wanderer_celt_torna_str" text="Ja paet, ale bolšaść ludziej viedajuć mianie jak pryjomnaha baćku karala Niałła."/>
+  <string id="prebackstory_be_wanderer_celt_cathbad_str" text="Majo imia Katbad."/>
+  <string id="backstory_a_be_wanderer_celt_cathbad_str" text="Ja druid, paśladoŭnik Starych bahoŭ i prazorliviec budučyni!"/>
+  <string id="backstory_b_be_wanderer_celt_cathbad_str" text="Ale heta jašče nie ŭsio: ja vajar i pravadyr atrada fiannaŭ, niekatoryja ź ich mohuć navat znachodzicca ŭ navakolli horada."/>
+  <string id="backstory_s_be_wanderer_celt_cathbad_str" text="Ja moh by pieraličyć usie maje praŭdzivyja praroctvy i hieraičnyja ŭčynki, ale sonca zojdzie raniej, čym ja skonču!"/>
+  <string id="response_1_be_wanderer_celt_cathbad_str" text="Fieńnid i Druid u adnym tvary. Čaroŭna. Šukajecie pracu?"/>
+  <string id="response_2_be_wanderer_celt_cathbad_str" text="Nia dumaju, što ja pavieru choć adnamu słovu pra tvaje praroctvy, ale ty vyhladaješ zdolnym vajarom."/>
+  <string id="backstory_d_be_wanderer_celt_cathbad_str" text="Viadoma! U mianie za plačyma dziesiacihodździ rychtoŭli i dośviedu ŭ viadzieńni vajny, arhanizacyi zasadaŭ, travalačeńni i stralbie z łuka. Ja budu kaštoŭnym čalcom usiakaj kampanii."/>
+  <string id="generic_backstory_be_wanderer_celt_cathbad_str" text="Ja Druid i Fieńnid-najmit. Ja sam uznačalvaŭ kampaniju vajaroŭ, pakul nie sustreŭ ciabie."/>
+  <string id="prebackstory_be_wanderer_german_natuspardo_str" text="Chmm. Fajna. Ja Natusparda, vieteran šmatlikich bitvaŭ."/>
+  <string id="backstory_a_be_wanderer_german_natuspardo_str" text="Ja słužyŭ pad čałom Impieratara Valentynijanusa ciaham dziesiaci hadoŭ, pakul šeść hadoŭ tamu. My nie ŭznačalili karnuju ekśpiedycyju suprać Alemanskaha drobnaha haspadara Randa."/>
+  <string id="backstory_b_be_wanderer_german_natuspardo_str" text="Hetaja sabaka vyniščyŭ uvieś horad Mahoncyakum i adstupiŭ u Alemanskija ziemli. Valentynijanus biaźlitasna pieraśledavaŭ voraha ŭhłyb jaho radzimy. Kali vy pamiatajecie historyju Teŭtaburskaj parazy, to, mahčyma, užo viedajecie, jakoj žudasnaj była heta ideja."/>
+  <string id="backstory_s_be_wanderer_german_natuspardo_str" text="Kali my sustreli voraha, našyja šancy byli nie našmat lepiej, ale z maimi dyscyplinavanymi ludźmi i kampietentnym kiraŭnictvam my ŭtrymlivali šycht ciaham niekalkich hadzinaŭ. Narešcie šerahi Alemanaŭ sasłabli, i Siebaścianus atakavaŭ ich z fłanha dy razhramiŭ. Boža, ja nikoli nia bačyŭ stolkich trupaŭ na poli boju..."/>
+  <string id="response_1_be_wanderer_german_natuspardo_str" text="Miarkuju, bolšaja častka hetych trupaŭ była z vašaha boku..."/>
+  <string id="response_2_be_wanderer_german_natuspardo_str" text="Ale vy zdabyli pieramohu! Na vajnie cierpiać straty..."/>
+  <string id="backstory_d_be_wanderer_german_natuspardo_str" text="Tak. Ale ŭ toj dzień hetaha lha było paźbiehnuć. Praŭdu kažučy, heta było dziva, što my narešcie ich pieramahli. Niahledziačy na toje, što ja atrymaŭ uznaharody za advahu, ja bolš nikoli nie žadaju ŭdzielničać u padobnaj katastrofie!"/>
+  <string id="generic_backstory_be_wanderer_german_natuspardo_str" text="Ja vietieran-metavyznačalnik, raniej słužyŭ u vojsku Valentynijanusa."/>
+  <string id="prebackstory_be_wanderer_german_charietto_str" text="Viadoma, {?PLAYER.GENDER}nieznajomka{?}nieznajomy{\?}!"/>
+  <string id="backstory_a_be_wanderer_german_charietto_str" text="Charyjetta, Palaŭničy za Hałavami. Kali vam treba čyjści śmierć, kličcie mianie. Ja vykonvaju mnostva zamovaŭ dla roznych vajskavodaŭ uzdoŭž raki Renus."/>
+  <string id="backstory_b_be_wanderer_german_charietto_str" text="Adnojčy navat Rymski impieratar naniaŭ mianie suprać hrupy asabliva niespakojnych Kvadaŭ. Ja i maje viasiołyja ludzi źniščyli amal usich varožych nalotnikaŭ, a inšych uziali ŭ pałon."/>
+  <string id="backstory_s_be_wanderer_german_charietto_str" text="Tak zdaryłasia, što na čale hetych nalotnikaŭ stajaŭ syn Kvadzkaha haspadara! Samo saboju, haspadar nieadkładna zapytaŭ mir, aścierahajučysia za žyćcio svajho syna. Inšymi słovami, ja spyniŭ vajnu!"/>
+  <string id="response_1_be_wanderer_german_charietto_str" text="Zdajecca, ty zaŭždy viedaješ, kaho treba zabić!"/>
+  <string id="response_2_be_wanderer_german_charietto_str" text="Tabie prosta paščaściła..."/>
+  <string id="backstory_d_be_wanderer_german_charietto_str" text="Moža, toje pośpiech albo majsterstva, ale fakt zastajecca faktam: na kaho b ja ni naceliŭsia, jon - niabožčyk. Ale, z toj pary jak ja pačaŭ słužyć impierataru, ja mieŭ nia samych vysokaapłatnych pracadaŭcaŭ."/>
+  <string id="generic_backstory_be_wanderer_german_charietto_str" text="Ja palaŭničy za hałovami, umieju vyviedvać, vysočvać i ładzić zasady. Ja dobry vajar, ale lepiej za ŭsio kidaju sulicy."/>
+  <string id="prebackstory_be_wanderer_german_gomoar_str" text="Majo imia Hamoar. Kali žadajecie pačuć maju historyju, ja apaviadu jaje. Ale, bajusia, heta nie hieraičny skaz."/>
+  <string id="backstory_a_be_wanderer_german_gomoar_str" text="Kala vaśmi hadoŭ tamu ja braŭ udzieł u bitvach Rymskaha Impieratara Valensa, vajavaŭ suprać uzurpatara Prakopiusa, udalečyni ad chaty."/>
+  <string id="backstory_b_be_wanderer_german_gomoar_str" text="Paśla bitvy pry Ciacyry ja pryniaŭ vynachad, jaki pieraśleduje mianie dasiońnia. Bačycie, ja byŭ addany Prakopiusu, pierš čym zrazumieŭ, što heta prajhranaja sprava, tamu ja pierajšoŭ na bok Valensa. Ja zdradziŭ Prakopiusu tolki dziela taho, kab vyžyć, ale jon śvidravaŭ mianie pahladam, svajho byłoha siabra, pakul jamu nie adsiekli hałavy na vačach u rahatlivaha Valensa. Ja dahetul baču, jak kroŭ chvastała z šyi sapraŭdnaha impieratara, afarboŭvajučy dzioran i maje ruki ŭ čyrvony koler."/>
+  <string id="backstory_s_be_wanderer_german_gomoar_str" text="Maje ruki zaplamleny kryvioj Prakopiusa, ja nie mahu zmyć takuju hańbu. Uśviadomiŭšy, što ja zrabiŭ, ja admoviŭsia ad svaich vajarskich zvańniaŭ i z toj pary žyvu žyćciom prostaha čałavieka."/>
+  <string id="response_1_be_wanderer_german_gomoar_str" text="Nie dazvalaj hetaj addanaści prapadać darma, Hamoar, ty dahetul možaš adkupić svaju vinu, słužačy vialikaj spravie!"/>
+  <string id="response_2_be_wanderer_german_gomoar_str" text="Ty bajaźliviec, Hamoar. Prostaje paźbiahańnie svaich abaviazkaŭ nia zdymie z ciabie hańby!"/>
+  <string id="backstory_d_be_wanderer_german_gomoar_str" text="Vy, napeŭna, majecie racyju. Mahčyma, ja ŭsio ž taki maju šaniec!"/>
+  <string id="generic_backstory_be_wanderer_german_gomoar_str" text="Ja były vajskavod, što słužyŭ uzurpataru Prakopiusu, ale, da svajho soramu, zdradziŭ jamu dziela Valensa. Zaraz sprabuju vieści žyćcio ŭdalečyni ad impierskaj palityki."/>
+  <string id="prebackstory_be_wanderer_german_aigil_str" text="Ja - Ajhił."/>
+  <string id="backstory_a_be_wanderer_german_aigil_str" text="Nia budzie pierabolšańniem nazvać siabie majstram stralby z łuka, lepšym va ŭsioj Hiermanii!"/>
+  <string id="backstory_b_be_wanderer_german_aigil_str" text="Adnojčy haspadar pačuŭ pra maje talenty i ​​prymusiŭ mianie sprabavać źbić jabłyk z hałavy majho syna. Davieści sabie — heta adno, ale ryzykavać dziela hetaha žyćciom svajho dziciaci?"/>
+  <string id="backstory_s_be_wanderer_german_aigil_str" text="Ja nia mieŭ vybaru, aproč jak padnačalicca. Ale ja pryhatavaŭ dźvie strały: adnu dla jabłyka, a inšuju dla haspadara, na vypadak, kali moj pieršy streł trapić u majho syna..."/>
+  <string id="response_1_be_wanderer_german_aigil_str" text="Ci trapiŭ vašy streł u metu?"/>
+  <string id="response_2_be_wanderer_german_aigil_str" text="Vy strelili ŭ svajho syna?"/>
+  <string id="backstory_d_be_wanderer_german_aigil_str" text="Jak bačycie, ja dahetul žyvy, tamu inšaja strała mnie nie spatrebiłasia."/>
+  <string id="generic_backstory_be_wanderer_german_aigil_str" text="Ja majstar stralby z łuka, lepšy va ŭsioj Hiermanii!"/>
+  <string id="prebackstory_be_wanderer_german_alruna_str" text="Viadoma, siabra!"/> <!-- female -->
+  <string id="backstory_a_be_wanderer_german_alruna_str" text="Ja Alruna, žonka Ajhiła Trapnastreła. Jon u inšym horadzie pa daručeńni."/>
+  <string id="backstory_b_be_wanderer_german_alruna_str" text="Niekalki hadoŭ tamu my razam baranili krepaść ad bandy maradzioraŭ."/>
+  <string id="backstory_s_be_wanderer_german_alruna_str" text="Biassprečna, Ajhił, jak majstar stralby z łuka, raspraviŭsia z bolšaściu napadnikaŭ, ale tyja, chto dabraŭsia dosyć blizka, sustreli kaniec ad majho laza!"/>
+  <string id="response_1_be_wanderer_german_alruna_str" text="Heta vyčyn varty paemy!"/>
+  <string id="response_2_be_wanderer_german_alruna_str" text="Hučyć zusim niepraŭdapadobna..."/>
+  <string id="backstory_d_be_wanderer_german_alruna_str" text="Kali ščyra, ja nia vielmi dobraja vajarka, ale mahu abaranić siabie i niadrenna karystajusia praščaj! Ale ja maju inšyja navyki: ja dobraja ŭ handli, zahadnictvie i viedaju šmat hajučych travaŭ."/>
+  <string id="generic_backstory_be_wanderer_german_alruna_str" text="Ja žonka Ajhiła Trapnastreła. Ja daśviedčanaja ŭ zahadnictvie, handli dy lekavańni."/>
+  <string id="prebackstory_be_wanderer_german_eric_str" text="Eryk — imia, jakoje dała mnie maci, jano šyroka raspaŭsiudžana ŭ maim plemi, Śvionaŭ Skandzy."/>
+  <string id="backstory_a_be_wanderer_german_eric_str" text="Śviony — najvialikaje Skandzijskaje plemia, toje ziemli za Hiermanijaj, jakimi zaŭždy kiravaŭ moj vybitny kłan, Inhlinhi. My słavimsia svaimi karablami, što chutčejšyja za Kalaśnicu Tonara. Jany daskanała prystasavany dla nabiehaŭ na biednych rybakoŭ. Ja byŭ haspadarom Śvionaŭ bolšuju častku svajho junactva, i moj brat Ałaryk kiravaŭ razam sa mnoj. Ale my abodva byli zakachany ŭ adnu i tuju ž žančynu, panu ščyta — spakuśnicu, što hulała na našaj reŭnaści!"/>
+  <string id="backstory_b_be_wanderer_german_eric_str" text="My z bratam pasvarylisia. Ja zanadta šmat vypiŭ. Jon stuknuŭ mianie bochanam aržanoha chleba, a ja ŭdaryŭ jaho svaim miačom... Svajho rodnaha brata! Maja ruka i mieč byli zaplamleny kryvioj maich rodzičaŭ! O, abmyła, ja bajusia, što skaldy buduć śpiavać pra Eryka, zabojcu rodzičaŭ, tysiačahodździami. Syny Ałaryka, što zaraz kirujuć plemiem, nieŭzabavie vyhnali mianie za zabojstva."/>
+  <string id="backstory_s_be_wanderer_german_eric_str" text="Ja rušyŭ na poŭdzień tolki z miačom i rabom, apošni apynuŭsia darečnym, spaŭ u śvirnach, pakul nie dasiahnuŭ vialikaj impieryi, z darohami, pa jakich ja moh ruchacca z dvojnaj chutkaściu da haradoŭ z kamienia i cehły dy miakkich zimaŭ. Zdradžany svaim dalokim plemiem, ja imknusia da Romanitasa, navat sprabavaŭ stać hramadzianinam paru hadoŭ tamu praz słužby ŭ aŭksiliaryi, pierš čym zrazumieŭ, što razbojniki buduć stavicca da mianie lepiej."/>
+  <string id="response_1_be_wanderer_german_eric_str" text="U hetym śviecie majucca bolšyja mahčymaści za Rymskaje hramadzianstva. Kali vy dobra ładzicie sa svaim miačom, vy možacie dasiahnuć vieličy!"/>
+  <string id="response_2_be_wanderer_german_eric_str" text="Kali skarystaješ svoj mieč dla zabojstva vorahaŭ, a nie svajakoŭ, to zmožaš adkupić hety vialiki hrech."/>
+  <string id="backstory_d_be_wanderer_german_eric_str" text="Niekali ja zmahu ŭvajści ŭ zały Vodziena za svoj hieraizm, ale pakul ja nie znajšoŭ hodnaj spravy, za jakuju varta vajavać."/>
+  <string id="generic_backstory_be_wanderer_german_eric_str" text="Ja vyhnany haspadar plemia Śvionaŭ, z paŭnočnych ziamiel Skandzy. Ja adpłyŭ na poŭdzień u pošukach novaha žyćcia."/>
+  <string id="prebackstory_be_wanderer_german_sigurd_str" text="Chmm. Fajna."/>
+  <string id="backstory_a_be_wanderer_german_sigurd_str" text="Mahčyma vy čuli pra Sihurda Zabojcu Cmokaŭ. Lehiendu dosyć mocnuju, kab kidać svaich supiernikaŭ praz ścianu ščytoŭ. Niahledziačy na svaju hrubuju siłu, u adroźnieńni ad bolšaści vajaroŭ, jon vajuje sa šparkaściu i hracyjaj."/>
+  <string id="backstory_b_be_wanderer_german_sigurd_str" text="Nu, hety čałaviek - ja. Prychilniki i paety schilnyja ŭsio pierabolšvać, ujaŭlajučy mianie ŭ vyhladzie niejkaj lehiendy. Nasamreč usio zvodzicca da dobraj fizičnaj padrychtoŭcy i vostraha rozumu. Ja trenierujusia, vučusia i pieramahaju."/>
+  <string id="backstory_s_be_wanderer_german_sigurd_str" text="Ja vandravaŭ pa poŭnačy i kidaŭ vyklik lepšym vajaram kožnaj vioscy. Ale nastaŭ čas vajny, i ja zrazumieŭ, što maje talenty prydaducca ŭ bai, na čale pieramožnych vajaroŭ."/>
+  <string id="response_1_be_wanderer_german_sigurd_str" text="Sapraŭdy! Usiaki vajskavod budzie ŭdziačny hetkamu vajaru na svaim bocy!"/>
+  <string id="response_2_be_wanderer_german_sigurd_str" text="Vy zdajeciesia zdolnym, ale fanaberlivym čałaviekam!"/>
+  <string id="backstory_d_be_wanderer_german_sigurd_str" text="Mažliva. Ale ja nia tolki dobry zmahar, ja davioŭ, što bolš hodny za mnohich uznačalvać vajaroŭ. Ja nia budu bicca za durnoha kamandzira!"/>
+  <string id="generic_backstory_be_wanderer_german_sigurd_str" text="Ja vybitny vajar i lidar, kali budziecie pavažać mianie, my dobra paładzim."/>
+  <string id="prebackstory_be_wanderer_german_arngrim_str" text="Cha, nu i jajki ŭ ciabie! Značyć, ty nie baiśsia mianie, jak inšyja tutejšyja?"/>
+  <string id="backstory_a_be_wanderer_german_arngrim_str" text="Ja biersierk sa Skandzy, jaki šukaje pryhody ŭ henych ziemlach."/>
+  <string id="backstory_b_be_wanderer_german_arngrim_str" text="Peŭny čas ja słužyŭ pravadyrom u haspadara, vajavaŭ u šmatlikich bitvach i zavajoŭvaŭ ziemli, pakul nie zastałosia nivodnaha supiernika, vartaha majoj uvahi."/>
+  <string id="backstory_s_be_wanderer_german_arngrim_str" text="Ale ja mała viedaju pra Kimbryju i paŭdniovyja haspadarstvy. Skažy, ci majucca ŭ henych ziemlach hodnyja vorahi?"/>
+  <string id="response_1_be_wanderer_german_arngrim_str" text="Viadoma, majucca! Ale vam spatrebiacca pravadniki dy kampańjony. Darečy, ja lidar vajskovaj bandy."/>
+  <string id="response_2_be_wanderer_german_arngrim_str" text="Ja varty supiernik. Ja by kinuŭ tabie vyklik, kali b nie šukaŭ hetkaha vajara dla svajoj partyi."/>
+  <string id="backstory_d_be_wanderer_german_arngrim_str" text="Chmm, ty nie vyhladaješ nadta mocnym. Ale zaraz niama lepšaha vybara... Skažam tak, ja padumaju."/>
+  <string id="generic_backstory_be_wanderer_german_arngrim_str" text="Ja biersierk sa Skandzy."/>
+  <string id="prebackstory_be_wanderer_german_masila_str" text="Zrazumieła, siabra!"/>
+  <string id="backstory_a_be_wanderer_german_masila_str" text="Ja - Masiła, z plemia Śviebaŭ."/>
+  <string id="backstory_b_be_wanderer_german_masila_str" text="Ja pastaleŭ na fiermie la Eburadonuma. Maja siamja nie šlachietnaha pachodžańnia, ale nas časta zaprašali ŭ zały Miedosłaniuma, bo moj baćka byŭ piśmiennym čałaviekam i słužyŭ pisaram u pravadyra."/>
+  <string id="backstory_s_be_wanderer_german_masila_str" text="Ja pasiabravaŭ z vajarami, šmat rychtavaŭsia i palavaŭ razam ź imi, dumaju, ja hatovy stać vajarom!"/>
+  <string id="response_1_be_wanderer_german_masila_str" text="Tak zdaryłasia, što ja ŭznačalvaju vajskovuju bandu. Kali b ja pryniaŭ ciabie, jakija navyki možaš prapanavać?"/>
+  <string id="response_2_be_wanderer_german_masila_str" text="Ty ŭsiaho tolki ptušania, chłopčyk. Jakaja ad ciabie karyść kamandziru?"/>
+  <string id="backstory_d_be_wanderer_german_masila_str" text="Dyk, jak vy viedajecie, moj baćka byŭ pisaram, jon navučyŭ mianie čytać i pisać. Ja šmat čytaŭ pra vajnu i lidarstva. Ale kali sprava dojdzie da bojki, ja zmahu trymać sabie ŭ rukach, dy ja całkam prystojny łučnik."/>
+  <string id="generic_backstory_be_wanderer_german_masila_str" text="Ja pačynajučy vajar z plemia Śviebaŭ. Ja dobra razumieju łahistyku i lidarstva, chacia praktyčnaha dośviedu nia maju."/>
+  <string id="prebackstory_be_wanderer_gothic_ulfilas_str" text="Majo imia Ulfiłas, ja Hot i Chryścijanin, pakorlivy słuha boha našaha i syna jaho, Jezusa Chrysta."/>
+  <string id="backstory_a_be_wanderer_gothic_ulfilas_str" text="Mianie chryściŭ vialiki baćka Jaŭsebius Nikamidyjski, vučań škoły Lucyana Antyjachijskaha i siabar Aryusa."/>
+  <string id="backstory_b_be_wanderer_gothic_ulfilas_str" text="Ja padarožničaŭ daloka i šyroka, raspaŭsiudžvaŭ nastaŭleńni Aryusa i Jaŭsebiusa pa Rymskaj Impieryi dy Barbarykumie. Ciapier ja lidar i chorepiskopus Hotaŭ u Nikapolisie, pryniaty jak uciakač ad pieraśledu niabožčyka Konstancyusa. Mianie pavažajuć siarod Chryścijan impieryi."/>
+  <string id="backstory_s_be_wanderer_gothic_ulfilas_str" text="Ja napisaŭ mnostva pracaŭ pa bahasłoŭji i ekzehietycy, dyskutavaŭ na Sirmijskim i Kanstancinopalskim saborach. Maja najvialikaja praca - pierakład Słova Boskaha na movu svajho naroda, z dapamohaj maich addanych kalehaŭ i vučniaŭ našaj carkvy."/>
+  <string id="response_1_be_wanderer_gothic_ulfilas_str" text="Biezumoŭna, vy majecie šmat suviaziaŭ i vialiki ŭpłyŭ u carkvie i impierskim pałacy."/>
+  <string id="response_2_be_wanderer_gothic_ulfilas_str" text="Ty navat nia biskup, jakaja ad ciabie karyść?"/>
+  <string id="backstory_d_be_wanderer_gothic_ulfilas_str" text="Chacia ja nie mahu paturać hrachu zabojstva i zmahacca razam z vami, ja šmat hadoŭ kiravaŭ svajoj supołkaj i narodam. Ja charyzmatyčny čałaviek jak u nastaŭleńniach, hetak i ŭ sprečkach. Ja pasiabravaŭ z mnohimi ŭ kołach Impieratara i Patryjarchaŭ, niahledziačy na našyja adroźnieńni, asabaliva ŭ natury Chrysta."/>
+  <string id="generic_backstory_be_wanderer_gothic_ulfilas_str" text="Majo imia Ulfiłas, ja Hot i Chryścijanin, pakorlivy słuha boha našaha i syna jaho, Jezusa Chrysta."/>
+  <string id="prebackstory_be_wanderer_gothic_gainas_str" text="Majo imia Hajnas, ja vajar svajho naroda."/>
+  <string id="backstory_a_be_wanderer_gothic_gainas_str" text="Ja vyras u Dakii i Hotyi, ale ŭžo ŭ junactvie paśpieŭ ździejśnić šmat vandrovak padčas pracy na Rymlanaŭ. Ja słužyŭ na ziemleŭłaśnikaŭ mnohich optymatesaŭ i vučyŭsia na ichni, Rymski, manier."/>
+  <string id="backstory_b_be_wanderer_gothic_gainas_str" text="Ja daśviedčany ŭ vykarystańni kapja, miača, sulicy i ščyta. Taksama ja maju bazavuju padrychtoŭku konnaj bitvy. Dziakujučy svajmu majsterstvu i padrychtoŭcy, a taksama rastučaj reputacyi i suviaziam z pavažanymi ludźmi, ja spadziajusia chutkim časam atrymać u kamandavańnie ułasny numierosam albo kanton."/>
+  <string id="backstory_s_be_wanderer_gothic_gainas_str" text="Ja paznajomiŭsia z vysšymi ešałonami ŭłady Hockich pałacaŭ i Rymskaj vajskoŭščynaŭ. Ale mianie strymlivaje adsutnaść radavodu. Rymlanie zabiaśpiečyli mnie siamju i adukacyju, ale prasunucca pa słužbie ŭ pałacy intryhanaŭ składana."/>
+  <string id="response_1_be_wanderer_gothic_gainas_str" text="Vy vidavočna damahlisia pośpiechu ŭ jakaści sałdata."/>
+  <string id="response_2_be_wanderer_gothic_gainas_str" text="Ja by pakryŭdziŭsia na atačalnych za toje, što jany trymajuć mianie ŭ takich abstavinach, dyk čamu ja mušu čakać ad vas addanaści?"/>
+  <string id="backstory_d_be_wanderer_gothic_gainas_str" text="Ja ŭžo peŭny čas addana słužu Rymlanam, ale imknusia da lubych mahčymaściaŭ, jakija adkryvajucca pierad mnoj, na poli boju albo palityčnaj arenie."/>
+  <string id="generic_backstory_be_wanderer_gothic_gainas_str" text="Ja vajar svajho naroda, vyras u Dakii i Hotyi, ale ŭžo ŭ junactvie paśpieŭ ździejśnić šmat vandrovak padčas pracy na Rymlanaŭ."/>
+  <string id="prebackstory_be_wanderer_gothic_andela_str" text="Ja - Andeła, šanoŭny šlachcič z rodu Amal, kłanu samoha Vinitaryusa."/>
+  <string id="backstory_a_be_wanderer_gothic_andela_str" text="Amali majuć doŭhuju i horduju historyju, jany źmiašalisia z usimi Hockimi narodami i tymi, kaho apanavali."/>
+  <string id="backstory_b_be_wanderer_gothic_andela_str" text="Chacia majucca tyja, chto skaža, što ja pachodžu z nižejšaj kreŭnaj linii svajho rodu, maja siamja nikoli nie vypraboŭvała niastačy pavahi ŭ svaich vaładarstvach. Moj kanton vialiki, u im majecca šmat vajaroŭ, ja ŭdzielničaŭ u mnohich bitvach suprać śvietłavałosych kanakradaŭ, što zamachvajucca na našyja damy."/>
+  <string id="backstory_s_be_wanderer_gothic_andela_str" text="Ja vandruju pa śviecie ŭ pošukach chaŭruśnikaŭ u baraćbie suprać Ałanaŭ i hetych navikoŭ z dalokaha Uschodu, naroda, jaki Baktryjskija handlary nazyvajuć Unna. Šmatlikija navakolnyja narody abjadnalisia suprać ich, ale hrabiežnictvy davodziać da halečy našyja haspadarki, nabližajecca hoład, i rospač apanoŭvaje nad maim narodam."/>
+  <string id="response_1_be_wanderer_gothic_andela_str" text="Biez sumnievu, vy čałaviek z vialikim aŭtarytetam, vy zmahalisia z hetymi barbarami?"/>
+  <string id="response_2_be_wanderer_gothic_andela_str" text="Čamu mianie musić chvalavać dola niejkaha naroda blednych žančynapadobnych paŭnočnych barbaraŭ?"/>
+  <string id="backstory_d_be_wanderer_gothic_andela_str" text="Jak šlachcic svajho domu, ja ŭmieła abychodžusia z kapjom, łukam i miačom. Chacia ja nie naradziŭsia ŭ siadle z łukam, jak kačeŭniki, što dakučajuć nam, vy nia znojdziecie mnoha ludziej, što zmohuć paraŭnacca sa mnoj u jakaści końnika. I anichto nia maje maich suviaziej siarod siamiej Eŭksinskaha mora."/>
+  <string id="generic_backstory_be_wanderer_gothic_andela_str" text="Ja šanoŭny pan z rodu Amal. Jak šlachietny pradstaŭnik svajho domu, ja ŭmieła ładžu z kaniom, kamanduju, vydatna vałodaju kapjom, łukam i miačom."/>
+  <string id="prebackstory_be_wanderer_gothic_sigesarius_str" text="Ja - Sihiesaryus, paśladoŭnik nastaŭleńniaŭ śviatoha Ulfiłasa."/>
+  <string id="backstory_a_be_wanderer_gothic_sigesarius_str" text="Ja byŭ adnym ź jaho šmatlikich vučniaŭ, što dapamahli pierakłaści Bibliju na Hockuju movu i stvaryli novuju piśmovaść dla majho naroda."/>
+  <string id="backstory_b_be_wanderer_gothic_sigesarius_str" text="Jak i moj nastaŭnik, ja zjaŭlajusia prychilnikam Chamojanskaj viery ŭ substancyju i naturu Chrysta, idu pa stupniach svajho nastaŭnika Jaŭsebiusa. U adroźnieńnie ad Aryusa, my vierym, što Chrystos byŭ stvorany nie z ničoha, a z toj ža substancyi, što i Boh ad Boha."/>
+  <string id="backstory_s_be_wanderer_gothic_sigesarius_str" text="Maje pohlady byli asudžany ŭ Sirmiumie, ale mudraść bratoŭ-impierataraŭ dazvoliła mnie znoŭ padarožničać pa śviecie i pierakonvać inšych u praŭdzivaj pryrodzie Chrysta. Heta niebiaśpiečnaje žyćcio, bo našyja Chryścijanskija hramady vajujuć mižsobku, a nie z niaviernikami."/>
+  <string id="response_1_be_wanderer_gothic_sigesarius_str" text="Ja nie {?PLAYER.GENDER}znajomaja{?}znajomy{\?} z hetymi nastaŭleńniami, ale nia baču nahodaŭ dla vašaha pieraśledu za vieru."/>
+  <string id="response_2_be_wanderer_gothic_sigesarius_str" text="Ja nie žadaju, kab siarod majho atačeńnia byli asudžanyja za jeraś."/>
+  <string id="backstory_d_be_wanderer_gothic_sigesarius_str" text="Jak i Ulfiłas, ja šmat hadoŭ dapamahaŭ Hotam Moesii, kłapaciŭsia pra ichnija patreby i lačyŭ ich ad chvarobaŭ. Taksama ja vielmi charyzmatyčny ŭ sporach z paśladoŭnikami Aryusa i prychilnikami Nikiei."/>
+  <string id="generic_backstory_be_wanderer_gothic_sigesarius_str" text="Ja byŭ adnym sa šmatlikich vučniaŭ Ulfiła, jakija dapamahali pierakładać Bibliju na Hockuju movu."/>
+  <string id="prebackstory_be_wanderer_gothic_belleridus_str" text="Navošta mnie raskazvać pra siabie {?PLAYER.GENDER}nieznajomkie{?}nieznajomcu{\?} biez anijakaj nahody? Vy razumiecie, jakimi prablemami heta moža abiarnucca dla vas?"/>
+  <string id="backstory_a_be_wanderer_gothic_belleridus_str" text="Ludzi zašmat havoruć, asabliva ŭ korčmach. A maja praca - słuchać. Bolšaść ludziej imkniocca paźbiahać mianie. I heta mianie całkam zadavolvaje. Pryciahnicie niepatrebnuju ŭvahu da svajoj pracy - i apynieciesia miortvyja, tamu źlicca z natoŭpam - lepšy varyjant."/>
+  <string id="backstory_b_be_wanderer_gothic_belleridus_str" text="Zvyčajna ja nie adkryvajusia ludziam padobnym čynam, ale vy, zdajeciesia, {?PLAYER.GENDER}toj{?}tym{\?}, chto moh by skarystacca maimi pasłuhami. Razumiejecie, ja handluju infarmacyjaj. Miascovaja šlachta, kryminalnyja aŭtarytety, handlary - usie jany maje klijenty. Ja viedaju, što adbyvajecca ŭ horadzie, lepšyja prapanovy na kirmašy, chto ŭvachodzić i chto vychodzić."/>
+  <string id="backstory_s_be_wanderer_gothic_belleridus_str" text="Heta prybytkovy biznes, ale nie zusim biaśpiečny. Z takimi klijentami, jak u mianie, niaŭchilna davodzicca nažyvać sabie vorahaŭ. Nasamreč, i nie hladzicie ciapier, ja całkam upeŭnieny, što vuń tyja ludzi hatovyja nakinucca na mianie, jak tolki ja vyjdu z karčmy."/>
+  <string id="response_1_be_wanderer_gothic_belleridus_str" text="Chmm, vam patrabujecca dapamoha?"/>
+  <string id="response_2_be_wanderer_gothic_belleridus_str" text="Hučyć niby vy sami vinavatyja ŭ hetym."/>
+  <string id="backstory_d_be_wanderer_gothic_belleridus_str" text="Cha! Ja ŭpeŭnieny, što zmahu dać im rady samastojna. Ale, mahčyma, pryjšoŭ čas źmianić prafiesiju; zdajecca, mnie tut užo nie rady."/>
+  <string id="generic_backstory_be_wanderer_gothic_belleridus_str" text="Ja handluju infarmacyjaj. Miascovaja šlachta, kryminalnyja aŭtarytety, handlary - usie jany maje klijenty. Ja viedaju, što adbyvajecca ŭ horadzie, lepšyja prapanovy na kirmašy, chto ŭvachodzić i chto vychodzić."/>
+  <string id="prebackstory_be_wanderer_slavic_sadko_str" text="Ja - Sadko, vandroŭny paet, muzyka i handlar ekzatyčnymi tavarami."/>
+  <string id="backstory_a_be_wanderer_slavic_sadko_str" text="Voś užo dziesiać hadoŭ ja vandruju pa śviecie, ad źmierzłaha paŭnočnaha ŭźbiarežža da pyšnych muroŭ Kanstancinopala!"/>
+  <string id="backstory_b_be_wanderer_slavic_sadko_str" text="Ja byŭ śviedkam taho, pra što vy i maryć nie mahli. I ja napisaŭ pieśni, kab pieradać hetyja cudoŭnyja historyi budučym pakaleńniam!"/>
+  <string id="backstory_s_be_wanderer_slavic_sadko_str" text="Kali chacicie, ja mahu śpieć vam pieśniu pra maje vandroŭki pa zachodnim mory!"/>
+  <string id="response_1_be_wanderer_slavic_sadko_str" text="Dziakuj, Sadko, moža, paźniej. Zdajecca, ty maješ dośvied, jaki moža prydacca vandroŭnaj kampanii."/>
+  <string id="response_2_be_wanderer_slavic_sadko_str" text="Mianie nie cikaviać tvaje pieśni. Lepiej apaviadzi, jakimi karysnymi navykami ty vałodaješ."/>
+  <string id="backstory_d_be_wanderer_slavic_sadko_str" text="Vy nia ličycie, što muzyka i pieśni dosyć karysnyja dla kampanii vajaroŭ? Kali hetaha niedastatkova, to ja maju i inšyja navyki, jakija mohuć prydacca: ja havaru na šmatlikich movach, umieju składać vyhadnyja handlovyja ŭhody, mahu pravieści vojska praz, zdavałasia by, nieprachodnuju miascovaść. Heta dosyć karysna dla vas?"/>
+  <string id="generic_backstory_be_wanderer_slavic_sadko_str" text="Ja vandroŭny paet, muzyka i handlar. Ja chaču dzialicca pieśniami pra svaje padarožžy."/>
+  <string id="prebackstory_be_wanderer_slavic_volkh_str" text="Admiennaja sustreča!"/>
+  <string id="backstory_a_be_wanderer_slavic_volkh_str" text="Ludzi zavuć mianie Vaŭkom, dakładniej Vaŭkałakam. Jak bačycie, na plačach u mianie vaŭčynaja skura, ale zapeŭnivaju vas, ja nie ludajed!"/>
+  <string id="backstory_b_be_wanderer_slavic_volkh_str" text="Za hady pryhodaŭ ja zrabiŭ sabie imia zdolnaha najmita i palaŭničaha za hałovami."/>
+  <string id="backstory_s_be_wanderer_slavic_volkh_str" text="Apynajecca, heta vyhadna, kali ludzi raspuskajuć čutki pra vašyja vyčyny, heta robić vas chutčej lehiendaj, čym asobaj. A z błahoj chvałoj prychodzić i bolš vysoki zarobak!"/>
+  <string id="response_1_be_wanderer_slavic_volkh_str" text="Ale ci nie padmanvajecie vy spadarstva hetym vystupam?"/>
+  <string id="response_2_be_wanderer_slavic_volkh_str" text="Ty ŭsiaho tolki machlar!"/>
+  <string id="backstory_d_be_wanderer_slavic_volkh_str" text="Nie abražaj mianie! Ja sumlenny avanturnik, jaki surjozna stavicca da svaich abaviazkaŭ. Ja nie ŭkazvaju prostym ludziam, jakija čutki pra mianie šyryć. Spadziajusia, ty nia budzieš ličyć mianie chvalkom, kali ja skažu, što maje vyčyny vartyja taho, kab pra ich składali apoviedy!"/>
+  <string id="generic_backstory_be_wanderer_slavic_volkh_str" text="Ja avanturnik, biarusia za pracu najmitaŭ ci palaŭničych za hałovami. U hetych krajach ja vysłaviŭsia jak čałaviek z tahaśvietnymi zdolnaściami. Chacia heta i pierabolšana, ale mnie padabajucca hetyja lehiendy."/>
+  <string id="prebackstory_be_wanderer_slavic_mikula_str" text="A? Čamu vy žadajecie viedać mianie?"/>
+  <string id="backstory_a_be_wanderer_slavic_mikula_str" text="Majo imia Mikuła, ja prosty čałaviek z vioski, pra jakuju vy ničoha nia čuli."/>
+  <string id="backstory_b_be_wanderer_slavic_mikula_str" text="Chacia ja adčuvaju, što pryznačany dla niečaha bolšaha. U dziacinstvie ja zaŭsiody byŭ najdužejšym siarod chłopčykaŭ svajho vieku, pieršym u palavych spravach, a maje pracy pa drevie dahetul lepšyja pa jakaści."/>
+  <string id="backstory_s_be_wanderer_slavic_mikula_str" text="Ale, usio ž, viaskovaje žyćcio nikoli nie zadavolvała mianie..."/>
+  <string id="response_1_be_wanderer_slavic_mikula_str" text="Toj, chto vałodaje takoj siłaj, moža stać vialikim vajarom z dapamohaj trenierovak, kali trapić u vojska!"/>
+  <string id="response_2_be_wanderer_slavic_mikula_str" text="Viedaj svajo miesca, viaskovy! Čałaviek pavinien pryjmać svajo stanovišča, a tvajo - na słužbie ŭ tvajho spadara!"/>
+  <string id="backstory_d_be_wanderer_slavic_mikula_str" text="Ba! Mnie nikoli nie padabalisia ŭładnyja zahady vyčvarnaj šlachty, inačaj ja moh by i dalej słužyć viaskovamu starostu. Nie, mnie treba samastojnaja praca, dzie ja zmahu realizavać svoj patencyjał!"/>
+  <string id="generic_backstory_be_wanderer_slavic_mikula_str" text="Ja viaskoviec. Ja mocny, zdolny, ale ja nikoli nia mieŭ mahčymaści zrabić štości svajo... Dahetul!"/>
+  <string id="prebackstory_be_wanderer_sarmatian_saul_str" text="Majo imia Saŭłus."/>
+  <string id="backstory_a_be_wanderer_sarmatian_saul_str" text="Ja prosty pastuch z vioski la Harhazy, navučyŭsia karystacca dzidaj i jeździć na kani, ale, aproč adhonu hrabiežnikaŭ ad vioski, ja nikoli nia mieŭ mahčymaści pasprabavać sabie ŭ sapraŭdnym bai."/>
+  <string id="backstory_b_be_wanderer_sarmatian_saul_str" text="Žyćcio ciažkaje, ale ja zaŭždy moh pakłaścisia na svaju addanuju kabyłu, Kałosu. Jana była lepšaj kabyłaj, na jakoj ja kaliści jeździŭ, instynktyŭna viedała kožnuju kamandu jašče da padańnia sihnału. Ja płanavaŭ dałučycca da vojska ŭ jakaści ułana, kab adkinuć nadychodnych Hunaŭ."/>
+  <string id="backstory_s_be_wanderer_sarmatian_saul_str" text="Na žal, Kałosa pamierła ŭ minułym miesiacy, jaje miasa było apošnim darunkam mnie. Zaraz ja najeźnik biaz kania, biaz hrošaj, kab kupić novuju. Adzinaja žyvioła, jakaja ŭ mianie zastałasia, — uparty muł..."/>
+  <string id="response_1_be_wanderer_sarmatian_saul_str" text="Peŭna vy majecie i inšyja navyki, jakimi mahli by skarystać u vojskie!"/>
+  <string id="response_2_be_wanderer_sarmatian_saul_str" text="Sapraŭdnamu vajaru nie patrebien koń, kab być efiektyŭnym u bai!"/>
+  <string id="backstory_d_be_wanderer_sarmatian_saul_str" text="Ale navat kali tak, jaki kamandzir nojmie Ałanskaha vajara, što moža jeździć u bitvu tolki na mule? Mianie b vyśmiejali navat za prapanovu."/>
+  <string id="generic_backstory_be_wanderer_sarmatian_saul_str" text="Ja najeźnik, jaki niadaŭna straciŭ svajho kania. Z toj pary ja šukaju pracu, kab mieć mahčymaść nabyć novaha kania."/>
+  <string id="prebackstory_be_wanderer_sarmatian_dula_str" text="Zrazumieła, {?PLAYER.GENDER}nieznajomka{?}nieznajomy{\?}, davaj vypjem razam pa kubku miedavuchi!"/>
+  <string id="backstory_a_be_wanderer_sarmatian_dula_str" text="Majo imia Duła, časam mianie nazyvajuć Pryncam Duła, ale z haspadarskaj siamjoj mianie złučaje tolki svajactva, a nia kroŭ."/>
+  <string id="backstory_b_be_wanderer_sarmatian_dula_str" text="Ci bačycie, ja słužyŭ u Ałanskim vojskie, i ŭ adnoj bitvie mnie paščaściła vyratavać Haspadara Bielera, paśla taho jak jaho adździaliła i skinuła z kania Basporskaja piachota."/>
+  <string id="backstory_s_be_wanderer_sarmatian_dula_str" text="Paśla bitvy Bieler byŭ tak udziačny za maju dapamohu, što prapanavaŭ mnie miesca ŭ svaim farmavańni ciełaachoŭnikaŭ. Z hadami ja staŭ jaho davieranym daradcam i dobrym siabram. Bo my byli nierazłučnyja, jon žartam staŭ zvać mianie svaim pryjomnym synam, adhetul i mianuška Prync Duła."/>
+  <string id="response_1_be_wanderer_sarmatian_dula_str" text="Padazraju, ty bolš nia słužyš haspadarau. Što zdaryłasia?"/>
+  <string id="response_2_be_wanderer_sarmatian_dula_str" text="Kali vy taki nadziejny ciełaachoŭnik, čamu vy dahetul nie achoŭvajecie haspadara?"/>
+  <string id="backstory_d_be_wanderer_sarmatian_dula_str" text="Nu, časy źmianilisia. Ja mieŭ zvady ź inšymi šlachcicami z-za stratehičnych rašeńniaŭ adnosna vajny z Hunami, i haspadar pryniaŭ ich bok, a nie moj. Mianie zvolnili z pasady, ale ja adčuvaju, što heta było, napeŭna, dobra. Ja nikoli nie bajaŭsia śmierci, ale zaraz mnie treba kłapacicca pra maich dźviuch doniak, i ja nie žadaju pakidać ich sirotami, pamirajučy ŭ biessensoŭnaj vajnie..."/>
+  <string id="generic_backstory_be_wanderer_sarmatian_dula_str" text="Ja vajar, haspadarski ciełaachoŭnik i daradca pa prafiesii. Karol Bieler daravaŭ mnie šlachiectva, ale z-za niazhodaŭ, ja zastaŭsia biaz pracy."/>
+  <string id="backstory_a_be_wanderer_sarmatian_ardabur_str" text="..."/>
+  <string id="backstory_b_be_wanderer_sarmatian_ardabur_str" text="...Ha?"/>
+  <string id="backstory_s_be_wanderer_sarmatian_ardabur_str" text="..."/>
+  <string id="response_1_be_wanderer_sarmatian_ardabur_str" text="Ty ž nia vielmi hamanlivy, tak?"/>
+  <string id="response_2_be_wanderer_sarmatian_ardabur_str" text="Kot adkusiŭ tabie jazyk?"/>
+  <string id="backstory_d_be_wanderer_sarmatian_ardabur_str" text="Nie."/>
+  <string id="generic_backstory_be_wanderer_sarmatian_ardabur_str" text="Ja najmit."/>
+  <string id="prebackstory_be_wanderer_sarmatian_modares_str" text="Ja Modares, syn Rassahosa. Moj radavod uzychodzić da časoŭ Karaleŭskaj Skifii."/>
+  <string id="backstory_a_be_wanderer_sarmatian_modares_str" text="Ale toje ŭžo nia maje značeńnia. Ja zhańbavany siarod svajho naroda, zhańbiŭ svaju siamju nazaŭždy..."/>
+  <string id="backstory_b_be_wanderer_sarmatian_modares_str" text="Što zdaryłasia? Ja skažu tabie: kachańnie. Ja zakachaŭsia nie ŭ tuju žančynu, nie ŭ kaho inšaha, jak u siastru svajoj žonki. Paśla taho, jak muž daviedaŭsia pra našuju suviaź, jon vyklikaŭ mianie na śmiarotnuju duel, kab abaranić svoj honar."/>
+  <string id="backstory_s_be_wanderer_sarmatian_modares_str" text="Jak bačycie, ja dahetul tut. Ale zabić było lohkaj častkaj: zaraz usia maja siamja adviarnułasia ad mianie, u mianie nie zastałosia siabroŭ, i navat maja ŭmiłavanaja adviarnułasia z-za zabojstva jaje muža. Ja bolš nia maju miesca na hetaj ziamli..."/>
+  <string id="response_1_be_wanderer_sarmatian_modares_str" text="Tady, mahčyma, lepšym rašeńniem budzie pakinuć hetyja ziemli nazaŭždy."/>
+  <string id="response_2_be_wanderer_sarmatian_modares_str" text="Vam daviadziecca žyć z hetaj hańbaj usio astatniaje žyćcio."/>
+  <string id="backstory_d_be_wanderer_sarmatian_modares_str" text="Ja viedaju, {?PLAYER.GENDER}nieznajomka{?}nieznajomy{\?}. Paśla taho, jak ja napjusia da niapamiaci, ja źbiaru svaje rečy i adpraŭlusia ŭ Rymskija ziemli. Moža, tam ja zmahu pačać novaje žyćcio. Ja čuŭ, što im usio adno, chto ty, pakul słužyš."/>
+  <string id="generic_backstory_be_wanderer_sarmatian_modares_str" text="Ja šlachcič Karaleŭskaha Skifskaha pachodžańnia. Ale ja ździejśniŭšy fatalnuju pamyłku, zhańbiŭ svajo imia i zaraz chaču pakinuć usio zzadu i zabyć minułaje."/>
+  <string id="prebackstory_be_wanderer_hunnic_eskam_str" text="Cudoŭna."/>
+  <string id="backstory_a_be_wanderer_hunnic_eskam_str" text="Ja Eskam, šaman Biaskoncaha Nieba!"/>
+  <string id="backstory_b_be_wanderer_hunnic_eskam_str" text="Kali vy nie znajomyja sa zvyčajami Hunaŭ, viedajcie, što šamany - najvažnyja čalcy plemia, adrazu paśla pravadyroŭ. My vystupajem u roli pasiarednikaŭ pamiž panstvam duchaŭ, pradkazvajem budučyniu i vylečvajem jak rozum, hetak i cieła."/>
+  <string id="backstory_s_be_wanderer_hunnic_eskam_str" text="Biez našaha nastaŭleńnia ludzi bieznadziejna hublajucca ŭ materyjalnym śviecie, nia viedajučy pra mnostva škodnych duchaŭ, što mohuć zaminać ichniamu žyćciu. Šamany zdolnyja zazirnuć u inšyja śfiery byćcia i atrymać viedy, pra jakija zvyčajnyja ludzi nia mohuć i maryć."/>
+  <string id="response_1_be_wanderer_hunnic_eskam_str" text="Ja viedaju pra rolu šamanaŭ. Prosta cikava, jak takomu maładzionu chapiła mudraści, kab na jaho ŭskłali hetkuju adkaznaść?"/>
+  <string id="response_2_be_wanderer_hunnic_eskam_str" text="Hučyć jak łuchta. Vy nia padajeciesia čałaviekam z tahaśvietnymi viedami..."/>
+  <string id="backstory_d_be_wanderer_hunnic_eskam_str" text="Sapraŭdy, ja małady, ale ja z dziacinstva vyvučaŭ šlachi šamanstva. Razumiejecie, moj baćka - pavažany šaman majho plemia, i jon dobra mianie vučyŭ. Ja viedaju, jakija travy lečać, a jakija škodziać, ci navat vyklikajuć duchoŭnyja sutyknieńni. Ale baćka skazaŭ, što ja mušu atrymać bolej pobytavaha dośviedu, kab ja zmoh zaniać pasadu šamana ŭ plemi. I voś ja tut, šukaju miesca, dzie zmahu ŭžyć svaje navyki."/>
+  <string id="generic_backstory_be_wanderer_hunnic_eskam_str" text="Ja šaman, usio žyćcio vyvučaŭ duchoŭnuju śfieru. Ciapier ja imknusia atrymać bolš ziamnych navykaŭ, kab viarnucca ŭ svajo plemia sa zbałansavanymi viedami pra ŭsie śfiery žyćcia."/>
+  <string id="prebackstory_be_wanderer_hunnic_sandeces_str" text="Ja - Sandeces, da vašych pasłuhaŭ."/>
+  <string id="backstory_a_be_wanderer_hunnic_sandeces_str" text="Ja ŭsio žyćcio pražyŭ u stepy. Paśla śmierci baćkoŭ mnie daviałosia z rańnich hadoŭ vučycca vyžyvać samastojna. Ja staŭ dobrym najeźnikam i łučnikam, a taksama mahu adbaranicca ŭ ručnym bai."/>
+  <string id="backstory_b_be_wanderer_hunnic_sandeces_str" text="Peŭny čas tamu ja dałučyŭsia da hrupy bandytaŭ, ale paśla taho, jak u vyniku svarki z bosam jon pazbyŭsia hałavy, maje byłyja patužniki pačali palavańnie na mianie."/>
+  <string id="backstory_s_be_wanderer_hunnic_sandeces_str" text="Ciapier ja zastaŭsia biaz hrošaj, siabroŭ i pośpiechu. Ja b vielmi chacieŭ zjechać z horada na zialonyja pašy, bandyckaje žyćcio nikoli nie było mnie da spadoby..."/>
+  <string id="response_1_be_wanderer_hunnic_sandeces_str" text="Taki zdolny maładzion, zaŭsiody znojdzie svajo miesca ŭ vojsku!"/>
+  <string id="response_2_be_wanderer_hunnic_sandeces_str" text="Były bandyt musić mieć navyki, jakija dazvolać jamu dałučycca da partyi, pierš čym jaho zasiakuć!"/>
+  <string id="backstory_d_be_wanderer_hunnic_sandeces_str" text="Ja dumaŭ stać čalcom najmickaj bandy z nazvaj Uńnihard, ale jany ŭžo syjšli na zachad. Pakul nie sustrenu ich znoŭ, budu razhladać inšyja varyjanty."/>
+  <string id="generic_backstory_be_wanderer_hunnic_sandeces_str" text="Ja kolišni bandyt, majsterski ŭ konnaj jaździe i stralbie z łuka. Chaču ŭsłavicca jak najmit."/>
+  <string id="prebackstory_be_wanderer_hunnic_honagur_str" text="Siabry nazyvajuć mianie Chonahuram, vorahi - Źvieram."/>
+  <string id="backstory_a_be_wanderer_hunnic_honagur_str" text="Nia nadta pachvalnaja nazva, ale mnie nie da liślivaści. Ja z dziacinstva ŭsialaŭ strach u sercy svaich vorahaŭ, a dla vajara, strach - lepšy chaŭruśnik."/>
+  <string id="backstory_b_be_wanderer_hunnic_honagur_str" text="Ja pražyŭ žyćcio ŭ hrabiežnictvach i zavajovach, zaŭsiody vajavaŭ ŭ pieršych chvalach. Ja zrazumieŭ, što dla pieramohi najlepiej razdušyć vorahaŭ jašče da pačatku bitvy."/>
+  <string id="backstory_s_be_wanderer_hunnic_honagur_str" text="Ja časta kidaju vyklik varožym lidaram u adzinkavym bai, davodziačy, nakolki jany bajaźlivyja, kali admaŭlajucca, albo nakolki jany słabyja, kali ja raździraju im vantroby na vačach ŭsiaho vojska. Niezaležna ad taho, što jany abiaruć, duch voraha budzie złomleny adpačatku!"/>
+  <string id="response_1_be_wanderer_hunnic_honagur_str" text="Heta zdajecca efiektyŭnaj stratehijaj. Ale ci nie pryviadzie jana da zvarotnaha vyniku, kali varožy čempijon adoleje vas?"/>
+  <string id="response_2_be_wanderer_hunnic_honagur_str" text="Toje, što ty vysoki i pačvarny, nia robić ciabie źvieram. Ciabie lha zabić, jak i ŭsiakaha inšaha."/>
+  <string id="backstory_d_be_wanderer_hunnic_honagur_str" text="Tolki kali varožy čempijon budzie mnie raŭnioj, čaho jašče nikoli nie zdarałasia. Maje ruki mocnyja, dzida tryvałaja, a pancyr nieprabiŭny! Kali vy sumniejaciesia ŭ maich słovach, vykličcie mianie na boj, i ja abiacaju, heta budzie apošni vynachad u vašym žyćci!"/>
+  <string id="generic_backstory_be_wanderer_hunnic_honagur_str" text="Ja vajar i nalotnik. Za hady vajny ja avałodaŭ majsterstvam teroru, i zaraz usio, chto viedaje majo imia, dryžać ad strachu. I jany majuć racyju, što bździać."/>
+  <string id="prebackstory_be_wanderer_hunnic_alpabay_str" text="Nie zabyvajcie źviartacca da mianie z pavahaj, {?PLAYER.GENDER}nieznajomka{?}nieznajomy{\?}!"/>
+  <string id="backstory_a_be_wanderer_hunnic_alpabay_str" text="Ja - Ałpabaj, syn vialikaha Haspadara Bałambiera!"/>
+  <string id="backstory_b_be_wanderer_hunnic_alpabay_str" text="Vy možacie spytać, čamu ja siadžu ŭ karčmie, a nie ŭ haspadarskim pałacy Aciła? Bačycie, adnosiny majoj maci z Bałambieram byli nie zusim aficyjnymi, tamu tak zvanyja šlachcičy nazyvajuć mianie niezakonnanarodžanym spadčyńnikam, chacia ja starejšy syn haspadara."/>
+  <string id="backstory_s_be_wanderer_hunnic_alpabay_str" text="Najhoraj toje, što maje zvodnyja braty zaŭždy hladzieli na mianie z pahardaj, a ich maci navat pierakanała Bałambiera vyhnać mianie. Tamu zaraz ja izhoj, biaz statusu, bieź imia i biaz kłana, jaki moh by nazvać svaim."/>
+  <string id="response_1_be_wanderer_hunnic_alpabay_str" text="Nivodny syn nia vinien prajści hety šlach. Ale ty dahetul maješ mahčymaść zrabić sabie imia praz ułasnyja zasłuhi."/>
+  <string id="response_2_be_wanderer_hunnic_alpabay_str" text="Nia treba čakać, što da ciabie buduć stavicca jak da haspadarskaj asoby, kali ty prosty bastard! Ty musiš stać mužčynam i sam vyznačyć svoj los!"/>
+  <string id="backstory_d_be_wanderer_hunnic_alpabay_str" text="Maješ racyju, {?PLAYER.GENDER}nieznajomka{?}nieznajomy{\?}. Ja dumaju zrabić sabie imia vajara, pakazać śvietu, na što ja zdolny! Abiacaju, adnojčy ŭsie ŭviedajuć majo imia!"/>
+  <string id="generic_backstory_be_wanderer_hunnic_alpabay_str" text="Ja - bastard, syn Bałambiera, haspadara Hunaŭ. Paśla taho jak maje zvodnyja braty vyhnali mianie, ja tulaŭsia pa stepach u adzinotku, pakul nie sustreŭ ciabie."/>
+  <string id="prebackstory_be_wanderer_hunnic_belar_str" text="Majo imia Biełar z kłanu Onahur."/>
+  <string id="backstory_a_be_wanderer_hunnic_belar_str" text="U kolišnija časy, kali my žyli daloka na ŭschodzie, mianie šanavali jak vajara i pravadyra."/>
+  <string id="backstory_b_be_wanderer_hunnic_belar_str" text="Kali my pačali zachodniuju zavajovu, vorahi pali pierad nami, a zołata i srebra apynułasia bolej, čym my kaliści mahli sabie ŭjavić. Ale dla mianie ŭznaharodaj byli sama ryzyka palavańnia i chvała tryumfu."/>
+  <string id="backstory_s_be_wanderer_hunnic_belar_str" text="Što da inšych šlachcičaŭ, jany praciahvali šukać jašče bolej skarbaŭ, raboŭ i ziamiel dla siabie. Praz peŭny čas ja stamiŭsia ad hetych prahnych vyradkaŭ i vyrašyŭ dazvolić svaim synam praciahnuć maju spadčynu."/>
+  <string id="response_1_be_wanderer_hunnic_belar_str" text="Ale vašaje plemia dahetul viadzie zavajovu, jak ža vy źbirajeciesia damahčysia tryumfu, kali pakiniecie vajnu zzadu?"/>
+  <string id="response_2_be_wanderer_hunnic_belar_str" text="Vy adkaznyja za los svajoj siamji dy nia možacie kinuć jaje tolki tamu, što vam nie padabajecca palityka!"/>
+  <string id="backstory_d_be_wanderer_hunnic_belar_str" text="Ja tolki skazaŭ, što kinuŭ palityku, a nie siamju ci vajnu! Chutka ja dałučusia da bandy i zrablu svaich dziaciej bahatymi zdabyčaj i hanarlivymi advahaj u bai! A kali ja padu na poli boju, to narešcie adpačnu z uśmieškaj na tvary!"/>
+  <string id="generic_backstory_be_wanderer_hunnic_belar_str" text="Ja - šlachcič z kłanu Onahur, ale žyćcio pravadyra zastałosia zzadu. Zaraz ja sprabuju dasiahnuć vieličy na poli boju biaz stałych padkołaŭ z boku plamionnaj šlachty."/>
+  <string id="str_player_father_name.empire.text" text="Hajanus"/>
+  <string id="str_player_mother_name.empire.text" text="Siepunia"/>
+  <string id="str_player_father_name.aserai.text" text="Seścinus"/>
+  <string id="str_player_mother_name.aserai.text" text="Aponija"/>
+  <string id="str_player_father_name.sturgia.text" text="Sahildo"/>
+  <string id="str_player_mother_name.sturgia.text" text="Oniehilda"/>
+  <string id="str_player_father_name.battania.text" text="Duvin"/>
+  <string id="str_player_mother_name.battania.text" text="Murhien"/>
+  <string id="str_player_father_name.khuzait.text" text="Ełminhir"/>
+  <string id="str_player_mother_name.khuzait.text" text="Arzu zu"/>
+  <string id="str_player_father_name.vlandia.text" text="Mirko"/>
+  <string id="str_player_mother_name.vlandia.text" text="Luba"/>
+  <string id="str_player_father_name.scottish.text" text="Bradach"/>
+  <string id="str_player_mother_name.scottish.text" text="Etnie"/>
+  <string id="str_player_father_name.angle.text" text="Vilbur"/>
+  <string id="str_player_mother_name.angle.text" text="Brehuśvid"/>
+  <string id="str_player_father_name.saxon.text" text="Osryk"/>
+  <string id="str_player_mother_name.saxon.text" text="Hieretrudzis"/>
+  <string id="str_player_father_name.frankish.text" text="Sendulfus"/>
+  <string id="str_player_mother_name.frankish.text" text="Inhund"/>
+  <string id="str_player_father_name.langobard.text" text="Trasaryus"/>
+  <string id="str_player_mother_name.langobard.text" text="Fronildzi"/>
+  <string id="str_player_father_name.marcomannic.text" text="Rodemirus"/>
+  <string id="str_player_mother_name.marcomannic.text" text="Teadoryha"/>
+  <string id="str_player_father_name.quadian.text" text="Odemundus"/>
+  <string id="str_player_mother_name.quadian.text" text="Ranivierha"/>
+  <string id="str_player_father_name.burgundian.text" text="Viskłamundus"/>
+  <string id="str_player_mother_name.burgundian.text" text="Ebryldzi"/>
+  <string id="str_player_father_name.vandal.text" text="Homadus"/>
+  <string id="str_player_mother_name.vandal.text" text="Nertuz"/>
+  <string id="str_player_father_name.gothic.text" text="Adalryk"/>
+  <string id="str_player_mother_name.gothic.text" text="Eldesinda"/>
+  <string id="str_player_father_name.sarmatian.text" text="Maŭrdahos"/>
+  <string id="str_player_mother_name.sarmatian.text" text="Kofarnis"/>
+  <string id="str_player_father_name.alanian.text" text="Cieranes"/>
+  <string id="str_player_mother_name.alanian.text" text="Ancianara"/>
+  <string id="str_player_father_name.bosporan.text" text="Tasius"/>
+  <string id="str_player_mother_name.bosporan.text" text="Siranis"/>
+  <string id="str_culture_description.battania.text" text="Na poŭnač ad ściany Adryjana, Pikty ŭžo niekalki stahodździaŭ handlujuć i ažyciaŭluć nabiehi na Rymlanaŭ. Niadaŭna jany zachapili vialikuju častku Brytanii padčas “Vialikaj Barbarskaj Zmovy”, ale paśla byli adkinuty nazad. Niahledziačy na henaje niaščaście, Kaladoncy pahłynuli Rymskija bufiernyja narody na poŭnačy ad ściany Adryjana, utvaryŭšy “Vialikaje Paŭnočnaje Haspadarstva” Piktaŭ, abjadnanaje i hatovaje skarystać słabaść Rymlanaŭ na ścianie i za joj."/>
+  <string id="str_culture_description.vlandia.text" text="Hłyboka ŭ lasach, što miažujuć z poŭnačču Pantyjskich stepaŭ, u hetych chałodnych ziemlach isnujuć ledź viadomyja Rymlanam narody. Ich znajuć pad imiom Vieniedaŭ, hetyja narody zjaŭlajucca papiarednikami rańnich Słavianskich narodaŭ, jakija zjaviacca na Rymskich miežach u 500-ch hadach našaj ery. Razroźnienyja i niearhanizavanyja, jany jašče nie stali čymści vialikim u histaryčnych letapisach, ale sa zjaŭleńniem pustečy na poŭdni ŭ ich zjavicca mahčymaść zajavić pra siabie."/>
+  <string id="str_culture_description.khuzait.text" text="Pra Hunaŭ - narod, jaki nikoli raniej nie sustrakaŭsia ŭ Jeŭropie, - raniej viedali tolki pa zhadkach Baktryjskich handlaroŭ. Ciapier ža hetyja spadčyńniki Chunnu byli adcisnuty na zachad, u Pryčarnamorje, z-za šmathadovaj źniasilnaj zasuchi ŭ Jeŭrazijskich stepach. Vysokaarhanizavanyja, majstravityja łučniki, kapijniki i miečniki, što pravodziać bolšuju častku žyćcia na kani, jany hatovyja stać Bizunom Boskim, stvaryć novuju impieryju ŭ sercy centralnaj i ŭschodniaj Jeŭropy."/>
+  <string id="str_culture_description.sturgia.text" text="U minułaje stahodźzie Alemany dobra zarekamiendavali siabie ŭ zmahańni z Rymlanami, vyprabavaŭčy na tryvałaść Rymskaje panavańnie ŭ apošniaje dziesiacihodździe. Uznačalenaja mahutnymi Łutunhami, ich kanfiederacyja raspaścirajecca ad staroj Rymskaj pravincyi Ahry Dekumates ŭzdoŭž Dunaja da miažy z rodnymi im Markomanami i Kvadami. Jak i ichnija susiedzi na poŭnačy, Alemany stajać na parozie zjadnańnia, hatovyja stvaryć ułasnaje haspadarstva z reštak Rymskich supiernikaŭ."/>
+  <string id="str_culture_description.aserai.text" text="Minuła dziesiać hadoŭ z momantu prychodu da ŭłady Rymskich impierataraŭ-suŭładcaŭ, Valentynijana i Valensa. Na ŭschodzie Aryjanski impieratar Valens zachavaŭ stabilnaść, a jaho relihijnaja pamiarkoŭnaść pryniesła šyrokuju padtrymku jaho panavańniu. Zaraz Kanstancinopalskija Rymlanie sutykajucca z najsurjoznym vyklikam: Sasanidy pahražajuć vajnoj z-za parušeńnia Rymlanami damovy, a Dunajskija narody padšturchoŭvaje da impieryi nieviadomaja siła z dalokaha Uschodu."/>
+  <string id="str_culture_description.empire.text" text="Minuła dziesiać hadoŭ z momantu prychodu da ŭłady Rymskich impierataraŭ-suŭładcaŭ, Valentynijana i Valensa. Dziakujučy ŭmiełamu kiraŭnictvu Valentynijana na zachadzie byli prydušany ŭzurpacyi, palepšana infrastruktura impieryi i ahulna nasielnictva atrymała karyść. Zaraz impieryja staić la prorvy: ślepaść Valentynijana da złoŭžyvańniaŭ svaich słužboŭcaŭ pryviała da razhułu karupcyi i niełajalnaści, Panoniju spustošyli Kvady, uzłavanyja Rymskim zabojstvam svajho haspadara."/>
+  <string id="str_culture_rich_name.pictish" text="Pikty"/>
+  <string id="str_culture_rich_name.slav" text="Słavianie"/>
+  <string id="str_culture_rich_name.hun" text="Hunny"/>
+  <string id="str_culture_rich_name.alaman" text="Alemany"/>
+  <string id="str_culture_rich_name.eastroman" text="Uschodni Rym"/>
+  <string id="str_culture_rich_name.rome" text="Zachodni Rym"/>
+  <string id="str_faction_official.rome" text="lehatus"/>
+  <string id="str_faction_official.rome_f" text="domina"/>
+  <string id="str_faction_ruler.rome" text="impieratar"/>
+  <string id="str_faction_ruler.rome_f" text="impieratryca"/>
+  <string id="str_faction_ruler_term_in_speech.rome" text="{?RULER.GENDER}Impieratryca{?}Impieratar{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.rome" text="{?RULER.GENDER}Impieratryca{?}Impieratar{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.rome" text="{?RULER.GENDER}Domina{?}Lehatus{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.pictish" text="Pravadyr"/>
+  <string id="str_faction_official.pictish_f" text="Pravadyrka"/>
+  <string id="str_faction_ruler.pictish" text="karol"/>
+  <string id="str_faction_ruler.pictish_f" text="karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.pictish" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.pictish" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.pictish" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.slavic" text="Pravadyr"/>
+  <string id="str_faction_official.slavic_f" text="Pravadyrka"/>
+  <string id="str_faction_ruler.slavic" text="Karol"/>
+  <string id="str_faction_ruler.slavic_f" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.slavic" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.slavic" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.slavic" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.hunnic" text="Pravadyr"/>
+  <string id="str_faction_official.hunnic_f" text="Pravadyrka"/>
+  <string id="str_faction_ruler.hunnic" text="Karol"/>
+  <string id="str_faction_ruler.hunnic_f" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.hunnic" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.hunnic" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.hunnic" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.alemannic" text="Pravadyr"/>
+  <string id="str_faction_official.alemannic_f" text="Pravadyrka"/>
+  <string id="str_faction_ruler.alemannic" text="Karol"/>
+  <string id="str_faction_ruler.alemannic_f" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.alemannic" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.alemannic" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.alemannic" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.eastroman" text="lehatus"/>
+  <string id="str_faction_official.eastroman_f" text="domina"/>
+  <string id="str_faction_ruler.eastroman" text="impieratar"/>
+  <string id="str_faction_ruler.eastroman_f" text="impieratryca"/>
+  <string id="str_faction_ruler_term_in_speech.eastroman" text="{?RULER.GENDER}Impieratryca{?}Impieratar{\?} {RULER.NAME}"/>
+  <string id="str_faction_ruler_name_with_title.eastroman" text="{?RULER.GENDER}Impieratryca{?}Impieratar{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.eastroman" text="{?RULER.GENDER}Domina{?}Lehatus{\?} {RULER.NAME}"/>
+  <string id="str_adjective_for_faction.battania" text="Pikckaja"/>
+  <string id="str_adjective_for_faction.vlandia" text="Słavianskaja"/>
+  <string id="str_adjective_for_faction.khuzait" text="Hunskaja"/>
+  <string id="str_adjective_for_faction.sturgia" text="Alemanskaja"/>
+  <string id="str_adjective_for_faction.aserai" text="Uschodnie-Rymskaja"/>
+  <string id="3EGllWkd" text="Zachodnie-Rymskaja"/>
+  <string id="str_short_term_for_faction.pictish" text="Pikty"/>
+  <string id="str_short_term_for_faction.slavs" text="Słavianie"/>
+  <string id="str_short_term_for_faction.huns" text="Huny"/>
+  <string id="str_short_term_for_faction.alamans" text="Alemany"/>
+  <string id="str_short_term_for_faction.eastromans" text="Uschodni Rym"/>
+  <string id="str_short_term_for_faction.westromans" text="Zachodni Rym"/>
+  <string id="str_faction_formal_name_for_culture.celt" text="Pikckija Plamiony"/>
+  <string id="str_faction_formal_name_for_culture.slav" text="Słavianskija Plamiony"/>
+  <string id="str_faction_formal_name_for_culture.hun" text="Hunskija Plamiony"/>
+  <string id="str_faction_formal_name_for_culture.alaman" text="Alemanskija Plamiony"/>
+  <string id="str_faction_formal_name_for_culture.eastroman" text="Uschodniaja Rymskaja Impieryja"/>
+  <string id="str_faction_formal_name_for_culture.westrome" text="Zachodniaja Rymskaja Impieryja"/>
+  <string id="str_faction_informal_name_for_culture.celt" text="Pikty"/>
+  <string id="str_faction_informal_name_for_culture.slavs" text="Słavianie"/>
+  <string id="str_faction_informal_name_for_culture.huns" text="Huny"/>
+  <string id="str_faction_informal_name_for_culture.alamans" text="Alemany"/>
+  <string id="str_faction_informal_name_for_culture.eastroman" text="Uschodni Rym"/>
+  <string id="str_faction_informal_name_for_culture.westroman" text="Zachodni Rym"/>
+  <string id="str_adjective_for_culture.celt" text="Pikty"/>
+  <string id="str_adjective_for_culture.slav" text="Słavianie"/>
+  <string id="str_adjective_for_culture.hun" text="Huny"/>
+  <string id="str_adjective_for_culture.alaman" text="Alemany"/>
+  <string id="str_adjective_for_culture.eastroman" text="Uschodni Rym"/>
+  <string id="str_adjective_for_culture.westroman" text="Zachodni Rym"/>
+  <string id="str_neutral_term_for_culture.celt" text="Pikckaja"/>
+  <string id="str_neutral_term_for_culture.slav" text="Słavianskaja"/>
+  <string id="str_neutral_term_for_culture.hun" text="Hunskaja"/>
+  <string id="str_neutral_term_for_culture.alaman" text="Alemanskaja"/>
+  <string id="str_neutral_term_for_culture.eastroman" text="Uschodnie-Rymskaja"/>
+  <string id="str_neutral_term_for_culture.westroman" text="Zachodnie-Rymskaja"/>
+  <string id="str_liege_title.vlandia.text" text="Karol Słavianaŭ"/>
+  <string id="str_liege_title_female.vlandia.text" text="Karaleva Słavianaŭ"/>
+  <string id="str_liege_title.khuzait.text" text="Karol Hunaŭ"/>
+  <string id="str_liege_title_female.khuzait.text" text="Karaleva Hunaŭ"/>
+  <string id="str_liege_title.sturgia.text" text="Karol Alemanaŭ"/>
+  <string id="str_liege_title_female.sturgia.text" text="Karaleva Alemanaŭ"/>
+  <string id="str_liege_title.aserai.text" text="Impieratar Uschodniaj Rymskaj Impieryi"/>
+  <string id="str_liege_title_female.aserai.text" text="Impieratryca Uschodniaj Rymskaj Impieryi"/>
+  <string id="str_culture_description.saxon.text" text="Na ziemlach staražytnych Chaŭkaŭ i Chamavaŭ paŭstała novaja kanfiederacyja dziela supraćstajańnia svaim susiedziam: Frankam i Fryzam. Saksy ŭžo paśpieli ŭsłavicca, ździajśniajučy nabiehi ŭniz pa race ŭ chaŭrusie z uzurpataram Mahnencyusam, karystajučysia paŭstańniami, vyklikanymi “Vialikaj Barbarskaj Zmovy”. Z-za vajny z mahutnymi Frankami, mnohija ź ich byli vymušany šukać novyja ziemli za moram, u Rymskaj Brytanii."/>
+  <string id="str_adjective_for_culture.saxon.text" text="Saksy"/>
+  <string id="str_culture_rich_name.saxon.text" text="Saksy"/>
+  <string id="str_faction_ruler_name_with_title.saxon.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.saxon.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.saxon.text" text="Pravadyr"/>
+  <string id="str_faction_official.saxon_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.saxon.text" text="Karol"/>
+  <string id="str_faction_ruler.saxon_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.saxon.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.saxon.text" text="Saksonskaja"/>
+  <string id="str_adjective_for_faction.saxon.text" text="Saksonskaja"/>
+  <string id="str_short_term_for_faction.saxon.text" text="Saksy"/>
+  <string id="str_faction_formal_name_for_culture.saxon.text" text="Saksonskija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.saxon.text" text="Saksy"/>
+  <string id="str_liege_title.saxon.text" text="Karol Saksaŭ"/>
+  <string id="str_liege_title_female.saxon.text" text="Karaleva Saksaŭ"/>
+  <string id="str_culture_description.angle.text" text="Na praciahu stahodździaŭ Nardyčnyja plamiony viali handal i ździajśniali nabiehi na ŭźbiarežža Paŭnočnaha Mora. Anhły i Juty, viadomyja svaimi vyrabami z mietału i bahnavymi achviaravańniami, davolacca svaim stanoviščam na Jutłandzkaj paŭvyspie. Ichnija Danskija svajaki kantralujuć vyspy Kattehat, a na ziemle Skandza panujuć plamiony Hiotaŭ. Kali ŭłada Ryma ŭ Brytanii sasłabieje, Anhły mohuć dałučycca da svaich Saksonskich bratoŭ i adpravicca na pošuki ŭradlivych ziamiel za miažoj, pakinuŭšy Jutłandyju nieabaronienaj pierad nadychodziačymi Danami."/>
+  <string id="str_adjective_for_culture.angle.text" text="Nordy"/>
+  <string id="str_culture_rich_name.angle.text" text="Nordy"/>
+  <string id="str_faction_ruler_name_with_title.angle.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.angle.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.angle.text" text="Pravadyr"/>
+  <string id="str_faction_official.angle_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.angle.text" text="Karol"/>
+  <string id="str_faction_ruler.angle_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.angle.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.angle.text" text="Nardyčnaja"/>
+  <string id="str_adjective_for_faction.angle.text" text="Nardyčnaja"/>
+  <string id="str_short_term_for_faction.angle.text" text="Nordy"/>
+  <string id="str_faction_formal_name_for_culture.angle.text" text="Nardyčnyja Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.angle.text" text="Nordy"/>
+  <string id="str_liege_title.angle.text" text="Karol Anhłaŭ"/>
+  <string id="str_liege_title_female.angle.text" text="Karaleva Anhłaŭ"/>
+  <string id="str_culture_description.frankish.text" text="Stahodździe tamu kanfiederacyi Brukteraŭ, Chaŭkaŭ, Chamavaŭ i inšych pačali ruch i źlićcio ŭ novy narod - Frankaŭ. Jak i ichnija susiedzi Alemany, Franki nie zjaŭlajucca adnastajnym narodam: jany składajucca sa mnostva vajavodstvaŭ i kantonaŭ. Pačaŭšy dziesiać hadoŭ tamu maštabnaje ŭvarvańnie ŭ Haliju, častka Frankaŭ zamacavałasia za Rejnam u jakaści fiederataŭ, ale hetyja varožyja pravadyry mohuć iznoŭ abjadnacca i stvaryć svajo ŭłasnaje haspadarstva."/>
+  <string id="str_adjective_for_culture.frankish.text" text="Franki"/>
+  <string id="str_culture_rich_name.frankish.text" text="Franki"/>
+  <string id="str_faction_ruler_name_with_title.frankish.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.frankish.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.frankish.text" text="Pravadyr"/>
+  <string id="str_faction_official.frankish_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.frankish.text" text="Karol"/>
+  <string id="str_faction_ruler.frankish_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.frankish.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.frankish.text" text="Franckaja"/>
+  <string id="str_adjective_for_faction.frankish.text" text="Franckaja"/>
+  <string id="str_short_term_for_faction.frankish.text" text="Franki"/>
+  <string id="str_faction_formal_name_for_culture.frankish.text" text="Franckija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.frankish.text" text="Franki"/>
+  <string id="str_liege_title.frankish.text" text="Karol Frankaŭ"/>
+  <string id="str_liege_title_female.frankish.text" text="Karaleva Frankaŭ"/>
+  <string id="str_culture_description.langobard.text" text="Narod “doŭhich barodaŭ”, ci Łanhabardy, niekali nasialali kraj uhłybini Hiermanii pad Jutłandyjaj uzdoŭž raki Elby, ale z toj pary mihravali ŭvierch pa płyni da Rymskaj miažy. Raźmiaściŭšysia zzadu svaich susiedziaŭ Burhundaŭ, Kvadaŭ i Markomanaŭ, Łanhabardy čas ad času dałučalisia da svaich susiedziaŭ u ichnich zvadach z Rymlanami, ale pakul nie zrabili sabie hučnaha imia. Mahčyma, adnojčy jany stanuć vialikim panstvam, kali zmohuć zjadnacca."/>
+  <string id="str_adjective_for_culture.langobard.text" text="Łanhabardy"/>
+  <string id="str_culture_rich_name.langobard.text" text="Łanhabardy"/>
+  <string id="str_faction_ruler_name_with_title.langobard.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.langobard.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.langobard.text" text="Pravadyr"/>
+  <string id="str_faction_official.langobard_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.langobard.text" text="Karol"/>
+  <string id="str_faction_ruler.langobard_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.langobard.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.langobard.text" text="Łanhabardzkaja"/>
+  <string id="str_adjective_for_faction.langobard.text" text="Łanhabardzkaja"/>
+  <string id="str_short_term_for_faction.langobard.text" text="Łanhabardy"/>
+  <string id="str_faction_formal_name_for_culture.langobard.text" text="Łanhabardzkija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.langobard.text" text="Łanhabardy"/>
+  <string id="str_liege_title.langobard.text" text="Karol Łanhabardaŭ"/>
+  <string id="str_liege_title_female.langobard.text" text="Karaleva Łanhabardaŭ"/>
+  <string id="str_culture_description.burgundian.text" text="Burhundy - niekali nieviadomy Rymlanam narod, što mihravaŭ z hłybini Hiermanii, z dalokaha bieraha Elby ŭ kraj la vytokaŭ raki Niekar, častkova zapoŭniŭ pusteču, što ŭtvaryłasia paśla adstupleńnia Rymlanaŭ z Ahry Dekumates. Razroźnienyja i pieramiašanyja sa svaimi susiedziami Frankami, Alemanami, Śviebami i Vandałami, Burhundy pašyrajucca daloka na ŭschod, miažujučy z Hotami, ale pastupova prasoŭvajucca na zachad pad mihracyjnym ciskam."/>
+  <string id="str_adjective_for_culture.burgundian.text" text="Burhundy"/>
+  <string id="str_culture_rich_name.burgundian.text" text="Burhundy"/>
+  <string id="str_faction_ruler_name_with_title.burgundian.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.burgundian.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.burgundian.text" text="Pravadyr"/>
+  <string id="str_faction_official.burgundian_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.burgundian.text" text="Karol"/>
+  <string id="str_faction_ruler.burgundian_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.burgundian.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.burgundian.text" text="Burhundzkaja"/>
+  <string id="str_adjective_for_faction.burgundian.text" text="Burhundzkaja"/>
+  <string id="str_short_term_for_faction.burgundian.text" text="Burhundy"/>
+  <string id="str_faction_formal_name_for_culture.burgundian.text" text="Burhundzkija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.burgundian.text" text="Burhundy"/>
+  <string id="str_liege_title.burgundian.text" text="Karol Burhundaŭ"/>
+  <string id="str_liege_title_female.burgundian.text" text="Karaleva Burhundaŭ"/>
+  <string id="str_culture_description.marcomannic.text" text="U časy Aŭhusta Markomany byli najvialikaj z Hiermanskich kanfiederacyjaŭ, panavali nad usimi svaimi susiedziami-Śviebami ŭ Bajochaemumie. Jany byli arhanizavany ŭ stratyfikavanaje hramadstva pad kiraŭnictvam svajho haspadara Marabodusa. U časy Marka Aŭrelija jany kinuli vyklik Rymlanam u šmathadovych Markomanskich vojnach. Ale Rymskaje ŭmiašańnie štoraz rujnavała ichniuju kanfiederacyju, i zaraz jany - tolki cień byłoj mahutnaści."/>
+  <string id="str_adjective_for_culture.marcomannic.text" text="Markomany"/>
+  <string id="str_culture_rich_name.marcomannic.text" text="Markomany"/>
+  <string id="str_faction_ruler_name_with_title.marcomannic.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.marcomannic.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.marcomannic.text" text="Pravadyr"/>
+  <string id="str_faction_official.marcomannic_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.marcomannic.text" text="Karol"/>
+  <string id="str_faction_ruler.marcomannic_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.marcomannic.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.marcomannic.text" text="Markomanskaja"/>
+  <string id="str_adjective_for_faction.marcomannic.text" text="Markomanskaja"/>
+  <string id="str_short_term_for_faction.marcomannic.text" text="Markomany"/>
+  <string id="str_faction_formal_name_for_culture.marcomannic.text" text="Markomanskija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.marcomannic.text" text="Markomany"/>
+  <string id="str_liege_title.marcomannic.text" text="Karol Markomanaŭ"/>
+  <string id="str_liege_title_female.marcomannic.text" text="Karaleva Markomanaŭ"/>
+  <string id="str_culture_description.quadian.text" text="Kvady zachavali svaju staražytnuju siłu i vyjšli z cieniu Markomanskich susiedziaŭ. Niadaŭna Rymlanie pačali budavać fartecy na procilehłym bierazie Dunaja na svajoj terytoryi, a zaraz Rymlanin ź imiom Marcellianus zabiŭ haspadara Habiniusa. Pačałasia adkrytaja vajna, i Kvady prahnuć adpomścić Rymlanam za rakoj, a Panonija ŭžo saśpieła da zachopu."/>
+  <string id="str_adjective_for_culture.quadian.text" text="Kvady"/>
+  <string id="str_culture_rich_name.quadian.text" text="Kvady"/>
+  <string id="str_faction_ruler_name_with_title.quadian.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.quadian.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.quadian.text" text="Pravadyr"/>
+  <string id="str_faction_official.quadian_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.quadian.text" text="Karol"/>
+  <string id="str_faction_ruler.quadian_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.quadian.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.quadian.text" text="Kvadzkaja"/>
+  <string id="str_adjective_for_faction.quadian.text" text="Kvadzkaja"/>
+  <string id="str_short_term_for_faction.quadian.text" text="Kvady"/>
+  <string id="str_faction_formal_name_for_culture.quadian.text" text="Kvadzkija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.quadian.text" text="Kvady"/>
+  <string id="str_liege_title.quadian.text" text="Karol Kvadaŭ"/>
+  <string id="str_liege_title_female.quadian.text" text="Karaleva Kvadaŭ"/>
+  <string id="str_culture_description.vandal.text" text="Niekali staražytny narod, viadomy jak Łuhi, žyŭ uzdoŭž raki Visły na poŭnač ad Kvadaŭ, zaraz Vandały žyvuć u dalinach pamiž schiłami Karpataŭ, padzialiŭšysia na Silinhaŭ i Aśdzinhaŭ. Niahledziačy na pryrodnuju abaronienaść ichniaj hornaj radzimy, na Vandałaŭ akazvajuć cisk pryšłyja z uschodu Hoty, Hieruły i Hiepidy. Z pasłableńniem ułady ichnich Śviebskich svajakoŭ Vandały mohuć pajści na zachad, u Rym, kali padasca takaja mahčymaść."/>
+  <string id="str_adjective_for_culture.vandal.text" text="Vandały"/>
+  <string id="str_culture_rich_name.vandal.text" text="Vandały"/>
+  <string id="str_faction_ruler_name_with_title.vandal.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.vandal.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.vandal.text" text="Pravadyr"/>
+  <string id="str_faction_official.vandal_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.vandal.text" text="Karol"/>
+  <string id="str_faction_ruler.vandal_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.vandal.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.vandal.text" text="Vandalskaja"/>
+  <string id="str_adjective_for_faction.vandal.text" text="Vandalskaja"/>
+  <string id="str_short_term_for_faction.vandal.text" text="Vandały"/>
+  <string id="str_faction_formal_name_for_culture.vandal.text" text="Vandalskija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.vandal.text" text="Vandały"/>
+  <string id="str_liege_title.vandal.text" text="Karol Vandałaŭ"/>
+  <string id="str_liege_title_female.vandal.text" text="Karaleva Vandałaŭ"/>
+  <string id="str_culture_description.gothic.text" text="Hoty - vialikaja hrupa narodaŭ, ad Tervinhaŭ na schiłach Karpataŭ da Viesaŭ u susiedniaj lasnoj zonie i Hreŭtunhaŭ u Pantyjskich stepach. Pad ciskam svaich susiedziaŭ Ałanaŭ, Tervinhi i Hreŭtunhi prasoŭvajucca da Dunaja, usio bolš rospačna imknučysia damovicca z Rymlanami. Pa miery taho jak ichnija kanfiederacyi raspadajucca, a zapasy ježy skaračajucca, hetaja rospač znachodzicca na miažy zryvu."/>
+  <string id="str_adjective_for_culture.gothic.text" text="Hoty"/>
+  <string id="str_culture_rich_name.gothic.text" text="Hoty"/>
+  <string id="str_faction_ruler_name_with_title.gothic.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.gothic.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.gothic.text" text="Pravadyr"/>
+  <string id="str_faction_official.gothic_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.gothic.text" text="Karol"/>
+  <string id="str_faction_ruler.gothic_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.gothic.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.gothic.text" text="Hockaja"/>
+  <string id="str_adjective_for_faction.gothic.text" text="Hockaja"/>
+  <string id="str_short_term_for_faction.gothic.text" text="Hoty"/>
+  <string id="str_faction_formal_name_for_culture.gothic.text" text="Hockija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.gothic.text" text="Hoty"/>
+  <string id="str_liege_title.gothic.text" text="Karol Hotaŭ"/>
+  <string id="str_liege_title_female.gothic.text" text="Karaleva Hotaŭ"/>
+  <string id="str_culture_description.scottish.text" text="Stahodździe tamu Heły Ulsteru i Hiebrydu pačali vychodzić za miežy svaich ziamiel i ździajśniać nabiehi dy zasialać ŭźbiarežža Arhajłu. Viadomyja Rymlanam jak Šatłandcy, u vyniku niadaŭniaj “Vialikaj Barbarskaj Zmovy” jany dasiahnuli novych vyšyń, zdabyŭšy pieramohi, što pierasiahajuć ichniaje ujaŭleńnie. Urešcie Rymlanie vyhnali ich z Brytanii, ale pa miery sasłableńni Rymskaj i Pikckaj ułady na vyśpie, pierad imi adkryjecca mahčymaść pabudavać ułasnaje haspadarstva."/>
+  <string id="str_adjective_for_culture.scottish.text" text="Šatłandcy"/>
+  <string id="str_culture_rich_name.scottish.text" text="Šatłandcy"/>
+  <string id="str_faction_ruler_name_with_title.scottish.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.scottish.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.scottish.text" text="Pravadyr"/>
+  <string id="str_faction_official.scottish_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.scottish.text" text="Karol"/>
+  <string id="str_faction_ruler.scottish_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.scottish.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.scottish.text" text="Šatłandzkaja"/>
+  <string id="str_adjective_for_faction.scottish.text" text="Šatłandzkaja"/>
+  <string id="str_short_term_for_faction.scottish.text" text="Šatłandcy"/>
+  <string id="str_faction_formal_name_for_culture.scottish.text" text="Šatłandzkija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.scottish.text" text="Šatłandcy"/>
+  <string id="str_liege_title.scottish.text" text="Karol Šatłandcaŭ"/>
+  <string id="str_liege_title_female.scottish.text" text="Karaleva Šatłandcaŭ"/>
+  <string id="str_culture_description.sarmatian.text" text="Razmaitaja hrupa ludziej, moŭcaŭ na Indairanskaj movie, Sarmaty žyvuć u Jeŭrazijskich stepach užo amal vosiem stahodździaŭ. Słavutyja svaim majsterstvam vieršnikaŭ i konnych łučnikaŭ, ichnija najprestyžnyja haspadarstvy - heta haspadarstvy Jazyhaŭ na ŭskrajkach Rymskaj Panonii. Zaraz Sarmaty ŭciahnuty ŭ zvady pamiž Kvadami i Valentynijanam, i chutka pačniecca ciažkaja vajna z Rymam."/>
+  <string id="str_adjective_for_culture.sarmatian.text" text="Sarmaty"/>
+  <string id="str_culture_rich_name.sarmatian.text" text="Sarmaty"/>
+  <string id="str_faction_ruler_name_with_title.sarmatian.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.sarmatian.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.sarmatian.text" text="Pravadyr"/>
+  <string id="str_faction_official.sarmatian_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.sarmatian.text" text="Karol"/>
+  <string id="str_faction_ruler.sarmatian_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.sarmatian.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.sarmatian.text" text="Sarmackaja"/>
+  <string id="str_adjective_for_faction.sarmatian.text" text="Sarmaty"/>
+  <string id="str_short_term_for_faction.sarmatian.text" text="Sarmaty"/>
+  <string id="str_faction_formal_name_for_culture.sarmatian.text" text="Sarmackija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.sarmatian.text" text="Sarmaty"/>
+  <string id="str_liege_title.sarmatian.text" text="Karol Sarmataŭ"/>
+  <string id="str_liege_title_female.sarmatian.text" text="Karaleva Sarmataŭ"/>
+  <string id="str_culture_description.alanian.text" text="Słaba arhanizavanaje haspadarstva, źmiescavanaje ŭzdoŭž vyhinaŭ Dona i Vołhi, Ałany stahodździami žyli na hetych pašach paśla taho, jak ich vycieśnili na zachad z Kazaskich stepaŭ Sahdyjanie. Zaraz Ałany znoŭ sutyknulisia sa strataj rodnaha domu, kali na ich nasoŭvajecca inšaja staražytnaja impieryja - narod, što niekali nazyvaŭ siabie Chunnu. Pakul ichniaje haspadarstva rujnujecca, Ałany rychtujucca razam sa svaimi novazdabytymi chaŭruśnikami - Hreŭtunhami - dać apošni boj hetym zachopnikam."/>
+  <string id="str_adjective_for_culture.alanian.text" text="Ałany"/>
+  <string id="str_culture_rich_name.alanian.text" text="Ałany"/>
+  <string id="str_faction_ruler_name_with_title.alanian.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.alanian.text" text="{?RULER.GENDER}Pravadyrka{?}Pravadyr{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.alanian.text" text="Pravadyr"/>
+  <string id="str_faction_official.alanian_f.text" text="Pravadyrka"/>
+  <string id="str_faction_ruler.alanian.text" text="Karol"/>
+  <string id="str_faction_ruler.alanian_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.alanian.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.alanian.text" text="Ałanskaja"/>
+  <string id="str_adjective_for_faction.alanian.text" text="Ałanskaja"/>
+  <string id="str_short_term_for_faction.alanian.text" text="Ałany"/>
+  <string id="str_faction_formal_name_for_culture.alanian.text" text="Ałanskija Plamiony"/>
+  <string id="str_faction_informal_name_for_culture.alanian.text" text="Ałany"/>
+  <string id="str_liege_title.alanian.text" text="Karol Ałanaŭ"/>
+  <string id="str_liege_title_female.alanian.text" text="Karaleva Ałanaŭ"/>
+  <string id="str_culture_description.bosporan.text" text="Apošniaje sa Staražytnahreckich kałanijalnych panstvaŭ, Basporskaje Haspadarstva - heta toje, što zastałosia ad vialikaj Impieryi Mitrydata Pantyjskaha, jano zachavała svaju niezaležnaść u jakaści haspadarstva-klijenta Rymlanaŭ. Zjaŭlajučysia spłavam Sarmackaj, Elinistyčnaj i Rymskaj kulturaŭ, jany karystajucca unikalnuju sumieśsiu tradycyjaŭ na poli boju suprać nastupoŭcaŭ: Hreŭtunhaŭ i Ałanaŭ, jakija imknucca adcisnuć Basporaŭ u pošukach novaha doma i schovišča ad naporu dziŭnych novaprybylcaŭ z dalokaha ŭschodu."/>
+  <string id="str_adjective_for_culture.bosporan.text" text="Baspory"/>
+  <string id="str_culture_rich_name.bosporan.text" text="Baspory"/>
+  <string id="str_faction_ruler_name_with_title.bosporan.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_faction_noble_name_with_title.bosporan.text" text="{?RULER.GENDER}Łedzi{?}Łord{\?} {RULER.NAME}"/>
+  <string id="str_faction_official.bosporan.text" text="Łord"/>
+  <string id="str_faction_official.bosporan_f.text" text="Łedzi"/>
+  <string id="str_faction_ruler.bosporan.text" text="Karol"/>
+  <string id="str_faction_ruler.bosporan_f.text" text="Karaleva"/>
+  <string id="str_faction_ruler_term_in_speech.bosporan.text" text="{?RULER.GENDER}Karaleva{?}Karol{\?} {RULER.NAME}"/>
+  <string id="str_neutral_term_for_culture.bosporan.text" text="Basporskaja"/>
+  <string id="str_adjective_for_faction.bosporan.text" text="Basporskaja"/>
+  <string id="str_short_term_for_faction.bosporan.text" text="Baspory"/>
+  <string id="str_faction_formal_name_for_culture.bosporan.text" text="Basporskaje Panstva"/>
+  <string id="str_faction_informal_name_for_culture.bosporan.text" text="Baspory"/>
+  <string id="str_liege_title.bosporan.text" text="Karol Basporaŭ"/>
+  <string id="str_liege_title_female.bosporan.text" text="Karaleva Basporaŭ"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </strings>
+</base>
