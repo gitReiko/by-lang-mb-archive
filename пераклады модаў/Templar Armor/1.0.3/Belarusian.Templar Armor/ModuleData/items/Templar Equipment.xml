@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+   <!-- <Item id="ktemplar_shield" name="Templar Shield" modifier_group="shield" mesh="ktemplar_shield" using_tableau="true" weight="4.7" appearance="1">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_name="bo_cap_ktemplar_shield" shield_body_name="bo_ktemplar_shield" recalculate_body="false" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.15, 0.0, 0.02" rotation="1.68,14.30,33.00" has_lower_holster_priority="true" item_holsters="shield:shield_2:shield_3:shield_4" weapon_length="130" center_of_mass="0.0,0.2,0.05" holster_position_shift="0.0,-0.2,0" hit_points="480">
+        <WeaponFlags>
+          <WeaponFlag name="CanBlockRanged" />
+          <WeaponFlag name="HasHitPoints" />
+        </WeaponFlags>
+      </Weapon>
+    </ItemComponent>
+    <flags>
+      <flag name="type" value="Shield" />
+      <flag name="WoodenParry" />
+      <flag name="HeldInOffHand" />
+      <flag name="ForceAttachOffHandSecondaryItemBone" />
+    </flags>
+  </Item> -->
+   <Item id="ktemplar_shield" name="{=ktemplar_shield.name}Templar Shield" body_name="bo_cap_ktemplar_shield" shield_body_name="bo_ktemplar_shield" recalculate_body="false" mesh="ktemplar_shield" culture="Culture.vlandia" using_tableau="true" weight="4.7" appearance="0.7" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="90" center_of_mass="-0.0,0.2,0.05" hit_points="450" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+     <Item id="ktemplar_shield_bw" name="{=ktemplar_shield_bw.name}Templar Shield BlackWhite" body_name="bo_cap_ktemplar_shield_bw" shield_body_name="bo_ktemplar_shield_bw" recalculate_body="false" mesh="ktemplar_shield_bw" culture="Culture.vlandia" using_tableau="true" weight="4.7" appearance="0.7" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="90" center_of_mass="-0.0,0.2,0.05" hit_points="450" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+       <Item id="ktemplar_shield_cs" name="{=ktemplar_shield_cs.name}Templar Shield Cross" body_name="bo_cap_ktemplar_shield_cs" shield_body_name="bo_ktemplar_shield_cs" recalculate_body="false" mesh="ktemplar_shield_cs" culture="Culture.vlandia" using_tableau="true" weight="4.7" appearance="0.7" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="90" center_of_mass="-0.0,0.2,0.05" hit_points="450" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+       <Item id="ktemplar_shield_sg" name="{=ktemplar_shield_sg.name}Templar Shield Sergeant" body_name="bo_cap_ktemplar_shield_sg" shield_body_name="bo_ktemplar_shield_sg" recalculate_body="false" mesh="ktemplar_shield_sg" culture="Culture.vlandia" using_tableau="true" weight="4.7" appearance="0.7" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="90" center_of_mass="-0.0,0.2,0.05" hit_points="450" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+       <Item id="ktemplar_shield_el" name="{=ktemplar_shield_el.name}Templar Shield Elite" body_name="bo_cap_ktemplar_shield_el" shield_body_name="bo_ktemplar_shield_el" recalculate_body="false" mesh="ktemplar_shield_el" culture="Culture.vlandia" using_tableau="true" weight="4.7" appearance="0.7" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="90" center_of_mass="-0.0,0.2,0.05" hit_points="450" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+    <Item id="templar_small_shield_bw" name="{=templar_small_shield_bw.name}Templar Small Shield BlackWhite" body_name="bo_cap_templar_small_shield_bw" shield_body_name="bo_templar_small_shield_bw" recalculate_body="false" mesh="templar_small_shield_bw" culture="Culture.vlandia" using_tableau="true" weight="4.7" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.1,0.05" hit_points="250" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+      <Item id="templar_small_shield_cs" name="{=templar_small_shield_cs.name}Templar Small Shield Cross" body_name="bo_cap_templar_small_shield_cs" shield_body_name="bo_templar_small_shield_cs" recalculate_body="false" mesh="templar_small_shield_cs" culture="Culture.vlandia" using_tableau="true" weight="4.7" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.1,0.05" hit_points="250" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+      <Item id="templar_small_shield_sg" name="{=templar_small_shield_sg.name}Templar Small Shield Sergeant" body_name="bo_cap_templar_small_shield_sg" shield_body_name="bo_templar_small_shield_sg" recalculate_body="false" mesh="templar_small_shield_sg" culture="Culture.vlandia" using_tableau="true" weight="4.7" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.1,0.05" hit_points="250" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+      <Item id="templar_small_shield_el" name="{=templar_small_shield_el.name}Templar Small Shield Elite" body_name="bo_cap_templar_small_shield_el" shield_body_name="bo_templar_small_shield_el" recalculate_body="false" mesh="templar_small_shield_el" culture="Culture.vlandia" using_tableau="true" weight="4.7" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.1,0.05" hit_points="250" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+        <Item id="templar_small_shield" name="{=templar_small_shield.name}Templar Small Shield" body_name="bo_cap_templar_small_shield" shield_body_name="bo_templar_small_shield" recalculate_body="false" mesh="templar_small_shield" culture="Culture.vlandia" using_tableau="true" weight="4.7" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.1,0.05" hit_points="250" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+    <Item id="templar_kiteshield" name="{=templar_kiteshield.name}Templar Kite Shield" body_name="bo_cap_templar_kiteshield" shield_body_name="bo_templar_kiteshield" recalculate_body="false" mesh="templar_kiteshield" using_tableau="true" weight="5.5" appearance="1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="94" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="78" center_of_mass="0.0,0.1,0.1" hit_points="225">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+      <Item id="templar_kiteshield_cs" name="{=templar_kiteshield_cs.name}Templar Kite Shield Cross" body_name="bo_cap_templar_kiteshield_cs" shield_body_name="bo_templar_kiteshield_cs" recalculate_body="false" mesh="templar_kiteshield_cs" using_tableau="true" weight="5.5" appearance="1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="94" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="78" center_of_mass="0.0,0.1,0.1" hit_points="225">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+      <Item id="templar_kiteshield_el" name="{=templar_kiteshield_el.name}Templar Kite Shield Elite" body_name="bo_cap_templar_kiteshield_el" shield_body_name="bo_templar_kiteshield_el" recalculate_body="false" mesh="templar_kiteshield_el" using_tableau="true" weight="5.5" appearance="1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="94" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="78" center_of_mass="0.0,0.1,0.1" hit_points="225">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+      <Item id="templar_kiteshield_sg" name="{=templar_kiteshield_sg.name}Templar Kite Shield Sergeant" body_name="bo_cap_templar_kiteshield_sg" shield_body_name="bo_templar_kiteshield_sg" recalculate_body="false" mesh="templar_kiteshield_sg" using_tableau="true" weight="5.5" appearance="1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="94" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="78" center_of_mass="0.0,0.1,0.1" hit_points="225">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+      <Item id="templar_kiteshield_bw" name="{=templar_kiteshield_bw.name}Templar Kite Shield BlackWhite" body_name="bo_cap_templar_kiteshield_bw" shield_body_name="bo_templar_kiteshield_bw" recalculate_body="false" mesh="templar_kiteshield_bw" using_tableau="true" weight="5.5" appearance="1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="8" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="94" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" physics_material="wood_shield" weapon_length="78" center_of_mass="0.0,0.1,0.1" hit_points="225">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+  </Item>
+  
+    <Item multiplayer_item="false" id="templar_horsearmor" name="{=templar_horsearmor.name}Templar Horse Armor" mesh="templar_horsearmor" subtype="body_armor" weight="120" difficulty="0" appearance="0.6" Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="55" hair_cover_type="all" covers_head="true" mane_cover_type="all" maneuver_bonus="0" speed_bonus="0" reins_mesh="horse_harness_e_rein" charge_bonus="0" family_type="1" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  
+  <Item id="templar_chain_a" name="{=templar_chain_a.name}Templar Mail Shoulder Guards" mesh="templar_chain_a" is_merchandise="true" value="400" culture="Culture.vlandia" weight="2.7" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="11" modifier_group="Chainmail" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+ </Item>
+ 
+   <Item id="templar_chain_b" name="{=templar_chain_b.name}Templar Mail Shoulder Guards" mesh="templar_chain_b" is_merchandise="true" value="400" culture="Culture.vlandia" weight="2.7" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="13" modifier_group="Chainmail" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+ </Item>
+ 
+   <Item id="templar_cape" name="{=templar_cape.name}Templar Cape" mesh="templar_cape" is_merchandise="true" value="3000" culture="Culture.vlandia" weight="2.7" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="15" arm_armor="2" modifier_group="Chainmail" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+ </Item>
+
+   <Item id="templar_cape_b" name="{=templar_cape_b.name}Templar Cape Sergeant" mesh="templar_cape_b" is_merchandise="true" value="3000" culture="Culture.vlandia" weight="2.7" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="15" arm_armor="2" modifier_group="Chainmail" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+ </Item>
+
+   <Item id="templar_cape_c" name="{=templar_cape_c.name}Templar Cape Recolored" mesh="templar_cape_c" is_merchandise="true" value="3000" culture="Culture.vlandia" weight="2.7" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="15" arm_armor="2" modifier_group="Chainmail" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+ </Item>
+</Items>
