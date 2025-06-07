@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+
+
+
+
+
+  <!-- #Low Tier Armors -->
+
+  <Item id="cr_b_woven_leather_bracers" name="{=cr_b_woven_leather_bracers.name}Black Woven Leather Bracers" mesh="cr_b_vlandia_leather_stripes_bracers" culture="Culture.empire" weight="0.8" appearance="1" Type="HandArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor arm_armor="8" covers_hands="false" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+
+  <Item id="cr_b_padded_vambrace" name="{=cr_b_padded_vambrace.name}Black Padded Vambrace Mitten" mesh="cr_b_padded_vambrace_a_mitten" culture="Culture.vlandia" weight="0.6" difficulty="0" appearance="1" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="9" covers_hands="true" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+  <Item id="cr_b_padded_vambrace_1" name="{=cr_b_padded_vambrace_1.name}Black Padded Vambrace" mesh="cr_b_padded_vambrace_a1" culture="Culture.vlandia" weight="0.1" difficulty="0" appearance="1" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="7" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+  <Item id="cr_b_guarded_padded_vambrace" name="{=cr_b_guarded_padded_vambrace.name}Black Guarded Padded Vambrace" mesh="cr_b_padded_vambrace_a_handguard" culture="Culture.aserai" weight="0.6" difficulty="0" appearance="1" Type="HandArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor arm_armor="9" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+
+
+
+  <!-- #Medium Tier Armors -->
+
+
+
+
+
+  <!-- #High Tier Armors -->
+
+
+  <Item id="cr_b_lordly_padded_mitten" name="{=cr_b_lordly_padded_mitten.name}Black Lordly Padded Mittens" mesh="cr_b_padded_vambrace_a_lordly" culture="Culture.empire" weight="1.3" difficulty="0" appearance="0.7" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="18" covers_hands="true" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+  <Item id="cr_b_reinforced_padded_mitten" name="{=cr_b_reinforced_padded_mitten.name}Black Reinforced Padded Mittens" mesh="cr_b_padded_vambrace_a_reinforced" culture="Culture.empire" weight="0.9" difficulty="0" appearance="1" Type="HandArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor arm_armor="18" covers_hands="true" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+  <Item id="cr_b_northern_plated_gloves" name="{=cr_b_northern_plated_gloves.name}Black Plate Reinforced Gloves" mesh="cr_b_sturgia_plate_gauntlet" culture="Culture.sturgia" weight="1.5" appearance="1" Type="HandArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor arm_armor="19" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+
+
+  <!-- #Epic Tier Armors -->
+
+
+  <Item id="cr_b_warlord_bracers" name="{=cr_b_warlord_bracers.name}Black Scale Warlord Bracers" mesh="cr_b_warlord_bracers" culture="Culture.battania" weight="1.5" difficulty="0" appearance="1" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="25" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+  <Item id="cr_black_iron_plate_glove" name="{=cr_black_iron_plate_glove.name}Black Plate Gauntlets" mesh="cr_iron_gauntlet" culture="Culture.empire" weight="1.8" appearance="3" Type="HandArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor arm_armor="25" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+
+  <Item id="cr_black_iron_plate_glove2" name="{=cr_black_iron_plate_glove2.name}Black Hallow Gauntlets" mesh="cr_bb_hallow_armor_gauntlets" culture="Culture.empire" weight="1.8" appearance="3" Type="HandArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor arm_armor="25" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+  <Item id="cr_b_imperial_gauntlets" name="{=cr_b_imperial_gauntlets.name}Black Lamellar Plate Gauntlets" mesh="cr_b_imperial_gauntlets" culture="Culture.empire" weight="1.8" appearance="1" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="23" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+
+
+
+  <Item id="cr_c_iron_plate_glove" name="{=cr_c_iron_plate_glove.name}Plate Faction Gauntlets" mesh="cr_c_iron_gauntlet" culture="Culture.empire" weight="1.8" appearance="1" Type="HandArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor arm_armor="25" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_c_imperial_gauntlets" name="{=cr_c_imperial_gauntlets.name}Lamellar Plate Faction Gauntlets" mesh="cr_c_imperial_gauntlets" culture="Culture.empire" weight="1.8" appearance="1" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="23" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+     <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_cc_plated_strip_gauntlets" name="{=cr_cc_plated_strip_gauntlets.name}Plated Faction Striped Gauntlets" mesh="cr_c_empire_plated_gauntlets_01" culture="Culture.empire" weight="1.4" appearance="1" Type="HandArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor arm_armor="22" covers_hands="false" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+
+
+
+
+
+
+
+</Items>

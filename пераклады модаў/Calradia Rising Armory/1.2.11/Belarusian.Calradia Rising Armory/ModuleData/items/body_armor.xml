@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+
+
+
+
+  <!-- #Low Tier Armors -->
+
+
+
+
+  <Item id="cr_c_dyed_leather_armor" name="{=cr_c_dyed_leather_armor.name}Dyed Hide Armor" mesh="cr_c_bandit_5" culture="Culture.khuzait" weight="2.4" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="15" leg_armor="6" arm_armor="6" has_gender_variations="true" covers_body="true" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_b_eastern_studded_leather" name="{=cr_b_eastern_studded_leather.name}Black Cured Studded Leather Armor" mesh="cr_b_khuzait_leather_armor_b" culture="Culture.empire" weight="3.0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="18" leg_armor="8" arm_armor="6" covers_body="true" has_gender_variations="true" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_b_woven_leather_coat" name="{=cr_b_woven_leather_coat.name}Black Woven Boarskin Leather Coat" mesh="cr_b_vlandia_leather_stripes" culture="Culture.empire" weight="5.1" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="15" leg_armor="7" arm_armor="4" covers_body="true" has_gender_variations="true" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+
+  <!-- #Medium Tier Armors -->
+
+  <Item id="cr_empire_tunic_armor" name="{=cr_empire_tunic_armor.name}Failed Prototype Armor 001" subtype="body_armor" mesh="cr_empire_tunic_armor" culture="Culture.empire" weight="8.3" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="23" leg_armor="11" arm_armor="10" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_c_templar_mail_01" name="{=cr_c_templar_mail_01.name}Templar Surcoat Over Mail" subtype="body_armor" mesh="cr_c_templar_a_white" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_c_templar_mail_02" name="{=cr_c_templar_mail_02.name}Templar Tunic Over Mail" subtype="body_armor" mesh="cr_d_templar_a_white" culture="Culture.vlandia" weight="10" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="10" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_c_templar_mail_03" name="{=cr_c_templar_mail_03.name}Templar Tunic Body Scale Mail" subtype="body_armor" mesh="cr_f_templar_a_white" culture="Culture.vlandia" weight="8" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="10" arm_armor="10" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_templar_mail_04" name="{=cr_templar_mail_04.name}Templar of Light Mail" subtype="body_armor" mesh="cr_templar_light" culture="Culture.vlandia" weight="15" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="34" leg_armor="12" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+
+
+  <Item id="cr_b_veteran_mercenary_armor" name="{=cr_b_veteran_mercenary_armor.name}Black Fortified Mercenary Armor" subtype="body_armor" mesh="cr_b_veteran_mercenary_armor" culture="Culture.vlandia" weight="8.2" difficulty="0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="24" leg_armor="13" arm_armor="12" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+  <Item id="cr_c_lamemail_shirt" name="{=cr_c_lamemail_shirt.name}Lamerllar Faction Mail Plate" mesh="cr_c_armor_roman_mail_shirt" culture="Culture.vlandia" subtype="body_armor" weight="9.5" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="35" leg_armor="13" arm_armor="11" covers_body="true" has_gender_variations="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+  <Item id="cr_b_khuzait_lamellar_strapped" name="{=cr_b_khuzait_lamellar_strapped.name}Black Reinforced Leather Armor" mesh="cr_b_khuzait_lamellar_strap" culture="Culture.khuzait" weight="11.1" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="24" leg_armor="8" arm_armor="2" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_black_stitched_leather_coat" name="{=cr_black_stitched_leather_coat.name}Black Stich Leather Plate" mesh="cr_black_leather_plate" culture="Culture.khuzait" weight="8.4" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="21" leg_armor="10" arm_armor="6" has_gender_variations="true" covers_body="true" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_leather_lamellar_armor" name="{=cr_leather_lamellar_armor.name}Black Cured Leather Lamellar Armor" mesh="cr_b_leather_lamellar_armor" culture="Culture.khuzait" weight="14" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="25" leg_armor="12" arm_armor="6" covers_body="true" has_gender_variations="true" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_b_buckled_wildsman_armor" name="{=cr_b_buckled_wildsman_armor.name}Black Buckled Brigandine Armor" mesh="cr_b_bandit_2" subtype="body_armor" culture="Culture.battania" weight="12.3" difficulty="0" appearance="0.8" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="29" leg_armor="4" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_c_imperial_lamellar_over_leather" name="{=cr_c_imperial_lamellar_over_leather.name}Luxury Lamellar Faction Vest Over Leather" mesh="cr_c_empire_plate_armor" culture="Culture.empire" weight="15.0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="33" leg_armor="7" arm_armor="6" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+  <!-- #High Tier Armors -->
+
+
+  <Item id="cr_b_northern_coat_plate" name="{=cr_b_northern_coat_plate.name}Coat Of Black Plates" mesh="cr_b_sturgia_plate_armor" culture="Culture.sturgia" weight="21" appearance="2" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="45" leg_armor="19" arm_armor="6" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_y_desert_scale_armor" name="{=cr_y_desert_scale_armor.name}Luxury Scale Golden Armor" lod_atlas_index="3" mesh="cr_y_aserai_scale_armor_b" culture="Culture.aserai" weight="20.0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="47" leg_armor="23" arm_armor="14" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+
+
+  <Item id="cr_b_desert_scale_armor" name="{=cr_b_desert_scale_armor.name}Luxury Scale Black Armor" lod_atlas_index="3" mesh="cr_b_aserai_scale_armor_b" culture="Culture.aserai" weight="20.0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="47" leg_armor="23" arm_armor="14" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+
+
+  <Item id="cr_c_desert_scale_armor" name="{=cr_c_desert_scale_armor.name}Luxury Scale Dyed Armor" lod_atlas_index="3" mesh="cr_c_aserai_scale_armor_b" culture="Culture.aserai" weight="20.0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="47" leg_armor="23" arm_armor="14" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_b_eastern_lamellar_armor" name="{=cr_b_eastern_lamellar_armor.name}Black Decorated Lancer Lamellar Armor" mesh="cr_b_metal_lamellar_armor" culture="Culture.khuzait" weight="13" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="40" leg_armor="10" arm_armor="8" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_c_imperial_lamellar" name="{=cr_c_imperial_lamellar.name}Cataphracts Lamellar Faction Chain Armor" mesh="cr_c_imperial_lamellar_a" subtype="body_armor" culture="Culture.empire" weight="18.1" difficulty="0" appearance="2" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="44" leg_armor="24" arm_armor="14" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_c_lamellar_with_scale_skirt" name="{=cr_c_lamellar_with_scale_skirt.name}Chain Lamellar Faction With Scale Skirt" mesh="cr_c_imperial_lamellar_c" culture="Culture.empire" weight="20.10" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="48" leg_armor="24" arm_armor="16" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+
+  <Item id="cr_b_warlord_armor" name="{=cr_b_warlord_armor.name}Black Warlords Scale Armor" subtype="body_armor" mesh="cr_b_warlord_armor" culture="Culture.battania" weight="19" difficulty="0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="40" leg_armor="18" arm_armor="16" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+
+
+
+  <!-- #Epic Tier Armors -->
+
+
+
+
+
+
+
+
+  <Item id="cr_c_templar_mail_05" name="{=cr_c_templar_mail_05.name}Prototype Hero Plate" subtype="body_armor" mesh="cr_i_templar_a_white" culture="Culture.vlandia" weight="9" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="50" leg_armor="8" has_gender_variations="true" covers_body="true" modifier_group="chain" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+
+  <Item id="cr_coat_of_plates_over_mail" name="{=cr_coat_of_plates_over_mail.name}Light Brigandine over Mail" mesh="cr_cl_tunic_ironplate_armor" subtype="body_armor" culture="Culture.vlandia" weight="23.2" difficulty="0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="50" leg_armor="16" arm_armor="14" covers_body="true" has_gender_variations="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+
+  <Item id="cr_coat_of_plates_over_mail_2" name="{=cr_coat_of_plates_over_mail_2.name}Brigandine over Mail" mesh="cr_c_tunic_ironplate_armor" subtype="body_armor" culture="Culture.vlandia" weight="23.2" difficulty="0" appearance="1" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="50" leg_armor="16" arm_armor="14" covers_body="true" has_gender_variations="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_black_iron_hero_cuirass" name="{=cr_black_iron_hero_cuirass.name}Black Armor Pauldron Plate" subtype="body_armor" mesh="cr_Iron_plate" culture="Culture.vlandia" weight="23" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="58" covers_body="true" leg_armor="20" arm_armor="16" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+
+
+
+  <Item id="cr_black_iron_hero_2_cuirass" name="{=cr_black_iron_hero_2_cuirass.name}Black Armor Plate" subtype="body_armor" mesh="cr_Iron_plate2" culture="Culture.vlandia" weight="23" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="58" covers_body="true" leg_armor="20" arm_armor="10" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+
+
+
+  <Item id="cr_iron_hero_cuirass" name="{=cr_iron_hero_cuirass.name}Plate Faction Armor Pauldron" subtype="body_armor" mesh="cr_c_Iron_plate" culture="Culture.vlandia" weight="23" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="58" covers_body="true" leg_armor="20" arm_armor="16" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_iron_hero_2_cuirass" name="{=cr_iron_hero_2_cuirass.name}Plate Faction  Armor" subtype="body_armor" mesh="cr_c_Iron_plate2" culture="Culture.vlandia" weight="23" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="58" covers_body="true" leg_armor="20" arm_armor="16" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+  <Item id="cr_hallow_king_armor" name="{=cr_hallow_king_armor.name}Hallow King Plate Armor" subtype="body_armor" mesh="cr_hallow_king_plate" weight="8.0" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="85" leg_armor="20" arm_armor="20" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_black_hallow_armor" name="{=cr_black_hallow_armor.name}Black Hallow Plate Armor" subtype="body_armor" mesh="cr_bb_hallow_armor" weight="10.0" difficulty="0" appearance="1" Type="BodyArmor" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="65" leg_armor="20" arm_armor="20" has_gender_variations="false" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+
+
+
+
+
+  <!-- #Unorganized Armors -->
+
+
+
+ 
+
+
+</Items>

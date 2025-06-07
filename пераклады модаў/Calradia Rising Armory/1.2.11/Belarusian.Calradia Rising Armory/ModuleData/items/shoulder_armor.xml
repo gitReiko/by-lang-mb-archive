@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+
+
+
+
+  <!-- #Low Tier Armors -->
+
+  <Item id="cr_b_woven_leather_shoulders" name="{=cr_b_woven_leather_shoulders.name}Black Woven Leather Shoulders" mesh="cr_b_vlandia_leather_stripes_shoulders" culture="Culture.empire" weight="1.6" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="6" arm_armor="4" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_b_khuzait_leather_pauldron" name="{=cr_b_khuzait_leather_pauldron.name}Black Reinforced Leather Pauldrons" mesh="cr_b_khuzait_leather_pauldron" culture="Culture.khuzait" weight="1.5" appearance="1" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="8" arm_armor="3" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_b_steppe_leather_shoulders" name="{=cr_b_steppe_leather_shoulders.name}Black Cured Leather Pouldrons" mesh="cr_b_khuzait_leather_armor_shoulder" culture="Culture.khuzait" subtype="body_armor" weight="0.7" difficulty="0" appearance="1" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="6" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+  <Item id="cr_c_woven_leather_shoulders" name="{=cr_c_woven_leather_shoulders.name}Woven Faction Leather Shoulders" mesh="cr_c_vlandia_leather_stripes_shoulders" culture="Culture.empire" weight="1.6" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="6" arm_armor="4" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+  <!-- #Medium Tier Armors -->
+
+
+
+  <Item id="cr_b_a_leather_lamellar_armor_shoulder_a" name="{=cr_b_a_leather_lamellar_armor_shoulder_a.name}Black Decorated Lamellar Leather Shoulders" mesh="cr_b_leather_lamellar_armor_shoulder_a" culture="Culture.khuzait" weight="1.3" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor arm_armor="10" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_a_metal_lamellar_armor" name="{=cr_a_metal_lamellar_armor.name}Black Decorated Steel Lamellar Shoulders" mesh="cr_b_metal_lamellar_armor_shoulder_a" culture="Culture.khuzait" weight="2.8" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor arm_armor="11" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+  </Item>
+
+  <Item id="cr_w_wolf_shoulder" name="{=cr_w_wolf_shoulder.name}White Wolf Shoulder" mesh="cr_w_wolf_shoulder" culture="Culture.sturgia" subtype="body_armor" weight="1.8" difficulty="0" appearance="1" Type="Cape">
+    <ItemComponent>
+      <Armor head_armor="5" body_armor="10" arm_armor="2" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+
+  <!-- #High Tier Armors -->
+
+
+  <Item id="CR_b_khuzait_leather_shoulder_b_b" name="{=CR_b_khuzait_leather_shoulder_b_b.name}Black Reinforced Studded Neckguard" mesh="cr_black_khuzait_leather_shoulder_b_b" culture="Culture.khuzait" weight="1.9" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="17" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_b_leather_lamellar_shoulders" name="{=cr_b_leather_lamellar_shoulders.name}Black Leather Lamellar Shoulders" mesh="cr_b_leather_lamellar_armor_shoulder" culture="Culture.khuzait" weight="2.3" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="14" arm_armor="3" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_b_lamellar_shoulders" name="{=cr_b_lamellar_shoulders.name}Black Decorated Steel Lamellar Shoulders" mesh="cr_b_metal_lamellar_armor_shoulder" culture="Culture.khuzait" weight="5.0" appearance="2" is_merchandise="true" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="13" arm_armor="3" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_c_empire_plated_shoulder" name="{=cr_c_empire_plated_shoulder.name}Empire Faction Plate Shoulder" mesh="cr_c_empire_plated_shoulder" culture="Culture.empire" weight="3.8" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="16" arm_armor="8" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+
+  <Item id="cr_c_desert_scale_shoulders" name="{=cr_c_desert_scale_shoulders.name}Reinforced Faction Scale Pouldrons" mesh="cr_c_aserai_scale_b_shoulder" culture="Culture.aserai" weight="4.2" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="18" arm_armor="8" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+   <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_b_desert_scale_shoulders" name="{=cr_b_desert_scale_shoulders.name}Black Reinforced Scale Pouldrons" mesh="cr_b_aserai_scale_b_shoulder" culture="Culture.aserai" weight="4.2" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="18" arm_armor="8" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+   <Flags UseTeamColor="false"/>
+  </Item>
+
+
+  <Item id="cr_black_iron_shoulder" name="{=cr_black_iron_shoulder.name}Black Iron Shoulder" mesh="cr_iron_shoulder" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="17" arm_armor="9" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_b_imperial_lamellar_shoulders" name="{=cr_b_imperial_lamellar_shoulders.name}Black Lamellar Pauldron" mesh="cr_imperial_shoulders_02" culture="Culture.empire" weight="3.5" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="17" arm_armor="9" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+  <Item id="cr_studded_shoulders" name="{=cr_studded_shoulders.name}Black Leather Stud" mesh="cr_black_leather_shoulder_b" culture="Culture.khuzait" weight="2.3" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="18" arm_armor="4" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_c_leather_lamellar_shoulders" name="{=cr_c_leather_lamellar_shoulders.name}Studded Leather Lamellar Shoulders" mesh="cr_c_leather_lamellar_armor_shoulder_a" culture="Culture.khuzait" weight="2.3" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="14" arm_armor="3" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_iron_shoulder" name="{=cr_iron_shoulder.name}Plate Shoulder" mesh="cr_c_iron_shoulder" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="17" arm_armor="9" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_c_imperial_lamellar_shoulders" name="{=cr_c_imperial_lamellar_shoulders.name}Heavy Lamellar Pauldron" mesh="cr_imperial_shoulders_01" culture="Culture.empire" weight="3.5" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="17" arm_armor="9" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+  <Item id="cr_w_rough_bearskin" name="{=cr_w_rough_bearskin.name}White Bear Fur" mesh="cr_w_rough_bear_fur" culture="Culture.sturgia" weight="2.3" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="16" arm_armor="4" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_wc_rough_bearskin" name="{=cr_wc_rough_bearskin.name}White Rough Bearskin" mesh="cr_w_cloak_fur_c" culture="Culture.battania" weight="2.3" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="16" arm_armor="4" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+
+
+  <Item id="cr_w_bear_modular" name="{=cr_w_bear_modular.name}White Prototype Bear Pelt" subtype="body_armor" mesh="cr_w_battania_helmet_j_w" culture="Culture.sturgia" weight="2.3" difficulty="0" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor head_armor="8" body_armor="18" arm_armor="4" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+
+  <Item id="cr_khuzait_leather_shoulder_b_a" name="{=cr_khuzait_leather_shoulder_b_a.name}Cured Studded Fur Leather Armor" mesh="cr_khuzait_fur_armor" culture="Culture.empire" weight="2.5" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="18" arm_armor="6" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+
+  <!-- #Epic Tier Armors -->
+
+
+
+  <Item id="cr_sturgia_02" name="{=cr_sturgia_02.name}Black Cavalry Reinforced Shoulder Armor" mesh="cr_b_sturgia_cavalry_shoulderguards" culture="Culture.sturgia" weight="3.0" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" has_gender_variations="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="calradia_plate_cape_1" name="{=calradia_plate_cape_1.name}Imperial Faction Shoulder Plate   Cape" mesh="empire_plate_cape_1" culture="Culture.empire" weight="3.8" appearance="2" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="6" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+  <Item id="cr_fur_b_eastern_studded_shoulders" name="{=cr_fur_b_eastern_studded_shoulders.name}Black Fur Reinforced Studded Shoulders" mesh="cr_fur_b_khuzait_leather_shoulder_b" culture="Culture.khuzait" weight="3.3" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="21" arm_armor="6" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+
+
+  <Item id="cr_b_warlord_pauldrons" name="{=cr_b_warlord_pauldrons.name}Black Heavy Warlords Pauldrons" mesh="cr_b_warlord_pauldrons" culture="Culture.battania" subtype="body_armor" weight="4.0" difficulty="0" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="10" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_b_f_warlord_pauldrons" name="{=cr_b_f_warlord_pauldrons.name}Black Fur Heavy Warlords Pauldrons" mesh="cr_b_f_battania_warlord_pauldrons" culture="Culture.battania" subtype="body_armor" weight="6.0" difficulty="0" appearance="1" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="10" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+  </Item>
+
+
+  <Item id="cr_k_imperial_shoulders" name="{=cr_k_imperial_shoulders.name}Heavy Bear Lamellar Pauldron" mesh="cr_k_imperial_shoulders" culture="Culture.empire" weight="3.5" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="12" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+  <Item id="cr_l_imperial_shoulders" name="{=cr_l_imperial_shoulders.name}Heavy Bear Black Lamellar Pauldron" mesh="cr_l_imperial_shoulders" culture="Culture.empire" weight="3.5" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="12" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+  <Item id="cr_w_rough_bear_armor" name="{=cr_w_rough_bear_armor.name}White Rough Bear Armor" mesh="cr_w_rough_bear_armor" culture="Culture.sturgia" weight="2.3" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="22" arm_armor="4" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+
+  </Item>
+
+
+
+  <Item id="cr_wcm_rough_bearskin" name="{=cr_wcm_rough_bearskin.name}White Rough Bearskin Armor" mesh="cr_wm_cloak_fur_c" culture="Culture.battania" weight="2.3" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="6" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+  </Item>
+
+
+
+  <Item id="cr_hero_hallow_cape_1" name="{=cr_hero_hallow_cape_1.name}Hero Faction Cape Pauldrons" mesh="cr_c_hero_hallow_cape" weight="4.0" appearance="3" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="25" arm_armor="10" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+
+
+
+
+  <Item id="cr_hero_hallow_cape" name="{=cr_hero_hallow_cape.name}Hallow King Cape Pauldrons" mesh="cr_hero_hallow_cape" weight="4.0" appearance="1" Type="Cape" is_merchandise="true">
+    <ItemComponent>
+      <Armor body_armor="30" arm_armor="10" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+  </Item>
+
+
+  <!-- #Unorganized Armors -->
+
+
+
+</Items>
