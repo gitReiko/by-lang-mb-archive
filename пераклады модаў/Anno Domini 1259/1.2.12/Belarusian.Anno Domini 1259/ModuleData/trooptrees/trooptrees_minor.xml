@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    
+    <NPCCharacter id="templar_brother_knight" default_group="Cavalry" name="{=templar_brother_knight.name}Templar Knight" level="26" occupation="Soldier" culture="Culture.templar">
+        <face>
+            <BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
+            <BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="58"/>
+            <skill id="Riding" value="150"/>
+            <skill id="OneHanded" value="207"/>
+            <skill id="TwoHanded" value="184"/>
+            <skill id="Polearm" value="161"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="40"/>
+            <skill id="Throwing" value="29"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.templar_brother_knight_captain"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="templar_brother_knight_bat"/>
+            <EquipmentSet id="templar_brother_knight_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="templar_brother_squire" default_group="Cavalry" name="{=templar_brother_squire.name}Templar Squire" level="21" occupation="Soldier" culture="Culture.templar" is_basic_troop="true">
+        <face>
+            <BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
+            <BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="69"/>
+            <skill id="Riding" value="127"/>
+            <skill id="OneHanded" value="167"/>
+            <skill id="TwoHanded" value="81"/>
+            <skill id="Polearm" value="138"/>
+            <skill id="Bow" value="29"/>
+            <skill id="Crossbow" value="29"/>
+            <skill id="Throwing" value="29"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.templar_brother_knight"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="templar_brother_squire_bat"/>
+            <EquipmentSet id="templar_brother_squire_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="templar_brother_sergeant" default_group="Infantry" name="{=templar_brother_sergeant.name}Templar Sergeant" level="21" occupation="Soldier" culture="Culture.templar">
+        <face>
+            <BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
+            <BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="12"/>
+            <skill id="Riding" value="23"/>
+            <skill id="OneHanded" value="69"/>
+            <skill id="TwoHanded" value="46"/>
+            <skill id="Polearm" value="92"/>
+            <skill id="Bow" value="23"/>
+            <skill id="Crossbow" value="23"/>
+            <skill id="Throwing" value="29"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="templar_brother_sergeant_bat"/>
+            <EquipmentSet id="templar_brother_sergeant_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="templar_arbalester" default_group="Ranged" name="{=templar_arbalester.name}Templar Crossbow Sergeant" level="21" occupation="Soldier" culture="Culture.templar">
+        <face>
+            <BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
+            <BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="92"/>
+            <skill id="Riding" value="23"/>
+            <skill id="OneHanded" value="104"/>
+            <skill id="TwoHanded" value="46"/>
+            <skill id="Polearm" value="46"/>
+            <skill id="Bow" value="23"/>
+            <skill id="Crossbow" value="173"/>
+            <skill id="Throwing" value="29"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="templar_arbalester_bat"/>
+            <EquipmentSet id="templar_arbalester_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="templar_brother_at_arms" default_group="Infantry" name="{=templar_brother_at_arms.name}Templar Brother-at-Arms" level="16" occupation="Soldier" culture="Culture.templar">
+        <face>
+            <BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
+            <BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="46"/>
+            <skill id="Riding" value="17"/>
+            <skill id="OneHanded" value="46"/>
+            <skill id="TwoHanded" value="46"/>
+            <skill id="Polearm" value="69"/>
+            <skill id="Bow" value="17"/>
+            <skill id="Crossbow" value="17"/>
+            <skill id="Throwing" value="29"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.templar_brother_sergeant"/>
+            <upgrade_target id="NPCCharacter.templar_brother_squire"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="templar_brother_at_arms_bat"/>
+            <EquipmentSet id="templar_brother_at_arms_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="templar_brother_knight_captain" default_group="Cavalry" name="{=templar_brother_knight_captain.name}Templar Grand Knight" level="31" occupation="Soldier" culture="Culture.templar">
+        <face>
+            <BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
+            <BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="46"/>
+            <skill id="Riding" value="184"/>
+            <skill id="OneHanded" value="270"/>
+            <skill id="TwoHanded" value="265"/>
+            <skill id="Polearm" value="242"/>
+            <skill id="Bow" value="58"/>
+            <skill id="Crossbow" value="69"/>
+            <skill id="Throwing" value="69"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="templar_brother_knight_captain_bat"/>
+            <EquipmentSet id="templar_brother_knight_captain_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+</NPCCharacters>

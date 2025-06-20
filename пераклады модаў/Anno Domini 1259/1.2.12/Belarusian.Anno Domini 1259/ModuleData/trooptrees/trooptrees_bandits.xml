@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    <!-- region Bandits -->
+    <NPCCharacter id="looter" default_group="Infantry" name="{=looter.name}Ruffian" level="6" occupation="Bandit" culture="Culture.looters">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="30"/>
+            <skill id="Bow" value="20"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Riding" value="0"/>
+            <skill id="Throwing" value="40"/>
+            <skill id="TwoHanded" value="20"/>
+        </skills>
+        <upgrade_targets>
+             <upgrade_target id="NPCCharacter.sea_raiders_bandit"/>
+             <upgrade_target id="NPCCharacter.mountain_bandits_bandit"/>
+             <upgrade_target id="NPCCharacter.forest_bandits_bandit"/>
+             <upgrade_target id="NPCCharacter.desert_bandits_bandit"/>
+             <upgrade_target id="NPCCharacter.steppe_bandits_bandit"/>
+             <upgrade_target id="NPCCharacter.barbary_pirates_bandit"/>
+             <upgrade_target id="NPCCharacter.castle_bandits_bandit"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="looter_bat"/>
+            <EquipmentSet id="looter_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    
+
+    <!-- region Barbary Pirates-->
+    <NPCCharacter id="barbary_pirates_bandit" default_group="Infantry" name="{=barbary_pirates_bandit.name}Barbary Khalasi" is_basic_troop="true" level="11" occupation="Bandit" culture="Culture.barbary_pirates">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.0301" build="0.6155" key="002B900F1AA024C0F1F5DE7C7C25963EBB29F9B776FC301E6888E09C021CE8CE006C00030647F8A2000000000000000000000000000000000000000026C030C0"/>
+            <BodyPropertiesMax version="4" age="55" weight="0.57" build="0.7875" key="002B900F1DA029C0F1279E867A98A8396A7719B776FC301E6888E09C021C48C7006900030647F8A2000000000000000000000000000000000000000026C030C0"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="60"/>
+            <skill id="Bow" value="20"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Riding" value="0"/>
+            <skill id="Throwing" value="80"/>
+            <skill id="TwoHanded" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.barbary_pirates_raider"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="barbary_pirates_bandit_bat"/>
+            <EquipmentSet id="barbary_pirates_bandit_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="barbary_pirates_raider" default_group="Infantry" name="{=barbary_pirates_raider.name}Barbary Pirate" level="16" occupation="Bandit" culture="Culture.barbary_pirates">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.0301" build="0.6155" key="002B900F1AA024C0F1F5DE7C7C25963EBB29F9B776FC301E6888E09C021CE8CE006C00030647F8A2000000000000000000000000000000000000000026C030C0"/>
+            <BodyPropertiesMax version="4" age="55" weight="0.57" build="0.7875" key="002B900F1DA029C0F1279E867A98A8396A7719B776FC301E6888E09C021C48C7006900030647F8A2000000000000000000000000000000000000000026C030C0"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="80"/>
+            <skill id="Bow" value="40"/>
+            <skill id="OneHanded" value="80"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Riding" value="0"/>
+            <skill id="Throwing" value="100"/>
+            <skill id="TwoHanded" value="40"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.barbary_pirates_chief"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="barbary_pirates_raider_bat"/>
+            <EquipmentSet id="barbary_pirates_raider_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="barbary_pirates_chief" default_group="Infantry" name="{=barbary_pirates_chief.name}Barbary Ghazi" level="21" occupation="Bandit" culture="Culture.barbary_pirates">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.0301" build="0.6155" key="002B900F1AA024C0F1F5DE7C7C25963EBB29F9B776FC301E6888E09C021CE8CE006C00030647F8A2000000000000000000000000000000000000000026C030C0"/>
+            <BodyPropertiesMax version="4" age="55" weight="0.57" build="0.7875" key="002B900F1DA029C0F1279E867A98A8396A7719B776FC301E6888E09C021C48C7006900030647F8A2000000000000000000000000000000000000000026C030C0"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="110"/>
+            <skill id="Bow" value="40"/>
+            <skill id="OneHanded" value="110"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Riding" value="0"/>
+            <skill id="Throwing" value="100"/>
+            <skill id="TwoHanded" value="80"/>
+        </skills>
+        <upgrade_targets>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="barbary_pirates_chief_bat"/>
+            <EquipmentSet id="barbary_pirates_chief_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="barbary_pirates_boss" default_group="Infantry" name="{=barbary_pirates_boss.name}Barbary Amir al-Bahr" level="26" occupation="Bandit" culture="Culture.barbary_pirates">
+        <face>
+            <BodyProperties version="4" age="30" weight="0.0301" build="0.6155" key="002B900F1DA029C0F1279E867A98A8396A7719B776FC301E6888E09C021C48C7006900030647F8A2000000000000000000000000000000000000000026C030C0"/>
+            <BodyPropertiesMax version="4" age="55" weight="0.57" build="0.7875" key="002B900F1AA024C0F1F5DE7C7C25963EBB29F9B776FC301E6888E09C021CE8CE006C00030647F8A2000000000000000000000000000000000000000026C030C0"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="120"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="110"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Throwing" value="100"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="barbary_pirates_boss_bat"/>
+            <EquipmentSet id="barbary_pirates_boss_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

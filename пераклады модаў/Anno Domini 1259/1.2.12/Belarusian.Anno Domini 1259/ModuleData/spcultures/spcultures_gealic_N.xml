@@ -1,0 +1,421 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+	<Culture id="battania"
+	         name="{=gaelicCulture}Gaelic"
+             is_main_culture="true"
+             color="0xff3b6298"
+             color2="0xfff3bb08"
+             elite_basic_troop="NPCCharacter.gaelic_elite_root"
+             basic_troop="NPCCharacter.gaelic_basic_root"
+             melee_militia_troop="NPCCharacter.battanian_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.battanian_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.battanian_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.battanian_militia_veteran_archer"
+	         can_have_settlement="true"
+	         town_edge_number="16"
+	         militia_bonus="1"
+	         villager_party_template="PartyTemplate.villager_battania_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_GAELIC_template"
+	         encounter_background_mesh="encounter_battania"
+	         faction_banner_key="11.2.126.1450.1450.764.764.1.1.180.427.144.143.562.284.658.798.0.0.-64.427.2.143.562.284.723.834.0.0.-64.427.144.143.123.193.918.641.0.0.142.427.116.143.115.153.925.626.0.0.142.427.143.143.124.143.929.620.0.0.142.510.143.143.465.318.833.848.0.0.-123.427.144.143.370.178.709.622.0.0.1.427.144.116.370.178.702.608.0.0.-10.510.128.128.479.55.684.836.0.0.-68.510.128.128.432.55.712.830.0.0.-68.510.128.128.379.55.739.810.0.0.-68.510.128.128.316.55.768.793.0.0.-68.510.128.128.275.55.817.767.0.0.-68.510.128.128.249.55.830.738.0.0.-68.510.128.128.189.55.869.704.0.0.-68.510.128.128.268.55.788.767.0.0.-68.510.128.128.178.55.854.731.0.0.-68.510.128.128.129.55.884.675.0.0.-68.427.116.116.379.182.705.599.0.0.-7.427.143.116.376.182.705.592.0.0.-7.510.143.116.465.280.875.870.0.0.-116.427.2.143.159.178.949.600.0.0.144.510.116.116.527.325.843.865.0.0.-119.510.143.116.527.325.847.865.0.0.-119.512.144.143.290.90.563.617.0.0.-73.512.144.143.290.90.567.583.0.0.-73.512.2.143.290.90.595.509.0.0.-73.512.2.143.253.132.644.562.0.0.297.503.116.116.51.51.854.871.0.0.-119.503.143.116.41.41.854.871.0.0.-119.503.116.116.65.65.797.984.0.0.-119.503.143.116.52.52.797.984.0.0.-119.503.116.116.42.42.914.757.0.0.-119.503.143.116.33.33.914.757.0.0.-119.505.143.116.56.36.874.596.0.0.34.503.2.116.367.220.741.544.0.0.-7.503.2.116.367.220.761.525.0.0.-7.439.42.116.75.75.562.583.0.0.-8.439.42.116.75.75.555.632.0.0.-8.439.42.116.75.75.551.681.0.0.4.439.42.116.65.65.559.728.0.0.13.439.42.116.65.65.567.771.0.0.16.439.42.116.59.59.580.812.0.0.20.439.42.116.53.53.595.846.0.0.26.439.42.116.48.48.610.877.0.0.26.439.42.116.41.41.625.904.0.0.33.439.42.116.38.38.639.927.0.0.33.439.42.116.32.32.652.945.0.0.40.439.42.116.28.28.666.961.0.0.42.439.42.116.23.23.678.973.0.0.40.439.42.116.21.21.687.983.0.0.48.439.42.116.19.19.698.993.0.0.54"
+	         elite_caravan_party_template="PartyTemplate.elite_caravan_template_battania"
+	         caravan_party_template="PartyTemplate.caravan_template_battania"
+	         militia_party_template="PartyTemplate.militia_battania_template"
+	         rebels_party_template="PartyTemplate.rebels_battania_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_battania"
+	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+	         text="{=Ax9OkgL5}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_battania"
+	         villager="NPCCharacter.villager_battania"
+	         caravan_master="NPCCharacter.caravan_master_battania"
+	         armed_trader="NPCCharacter.armed_trader_battania"
+	         caravan_guard="NPCCharacter.caravan_guard_battania"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_battania"
+	         prison_guard="NPCCharacter.prison_guard_battania"
+	         guard="NPCCharacter.guard_battania"
+	         blacksmith="NPCCharacter.blacksmith_battania"
+	         weaponsmith="NPCCharacter.weaponsmith_battania"
+	         townswoman="NPCCharacter.townswoman_battania"
+	         townswoman_infant="NPCCharacter.townswoman_infant_battania"
+	         townswoman_child="NPCCharacter.townswoman_child_battania"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_battania"
+	         townsman="NPCCharacter.townsman_battania"
+	         townsman_infant="NPCCharacter.townsman_infant_battania"
+	         townsman_child="NPCCharacter.townsman_child_battania"
+	         townsman_teenager="NPCCharacter.townsman_teenager_battania"
+	         village_woman="NPCCharacter.village_woman_battania"
+	         villager_male_child="NPCCharacter.villager_child_battania"
+	         villager_male_teenager="NPCCharacter.villager_teenager_battania"
+	         villager_female_child="NPCCharacter.village_woman_child_battania"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_battania"
+	         ransom_broker="NPCCharacter.ransom_broker_battania"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_battania"
+	         merchant_notary="NPCCharacter.merchant_notary_battania"
+	         artisan_notary="NPCCharacter.artisan_notary_battania"
+	         preacher_notary="NPCCharacter.preacher_notary_battania"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_battania"
+	         shop_worker="NPCCharacter.shop_worker_battania"
+	         tavernkeeper="NPCCharacter.tavernkeeper_battania"
+	         taverngamehost="NPCCharacter.taverngamehost_battania"
+	         musician="NPCCharacter.musician_battania"
+	         tavern_wench="NPCCharacter.tavern_wench_battania"
+	         armorer="NPCCharacter.armorer_battania"
+	         horseMerchant="NPCCharacter.horseMerchant_battania"
+	         barber="NPCCharacter.barber_battania"
+	         merchant="NPCCharacter.merchant_battania"
+	         beggar="NPCCharacter.beggar_battania"
+	         female_beggar="NPCCharacter.female_beggar_battania"
+	         female_dancer="NPCCharacter.female_dancer_battania"
+	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_battania"
+	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_battania"
+	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_battania"
+	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_battania"
+	         gear_dummy="NPCCharacter.gear_dummy_battania"
+	         default_battle_equipment_roster="EquipmentRoster.bat_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.bat_civ_template_default"
+	         duel_preset_equipment_roster="EquipmentRoster.bat_duel_preset_template"
+	         board_game_type="BaghChal">
+		<vassal_reward_items>
+			<item id="Item.noble_horse_battania"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+            <item id="Item.sturgia_sword_2_t3"/>
+            <item id="Item.sturgia_sword_4_t4"/>
+            <item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_cantons"/>
+			<policy id="policy_lawspeakers"/>
+		</default_policies>
+		 <male_names>
+            <name name="{=gealic_male_name_1}Áed"/>
+            <name name="{=gealic_male_name_2}Óengus"/>
+            <name name="{=gealic_male_name_3}Áengus"/>
+            <name name="{=gealic_male_name_4}Ailill"/>
+            <name name="{=gealic_male_name_5}Fergus"/>
+            <name name="{=gealic_male_name_6}Eochaid"/>
+            <name name="{=gealic_male_name_7}Lugaid"/>
+            <name name="{=gealic_male_name_8}Domnall"/>
+            <name name="{=gealic_male_name_9}Cairpre"/>
+            <name name="{=gealic_male_name_10}Conall"/>
+            <name name="{=gealic_male_name_11}Cormac"/>
+            <name name="{=gealic_male_name_12}Fland"/>
+            <name name="{=gealic_male_name_13}Flann"/>
+            <name name="{=gealic_male_name_14}Muiredach"/>
+            <name name="{=gealic_male_name_15}Cellach"/>
+            <name name="{=gealic_male_name_16}Éogan"/>
+            <name name="{=gealic_male_name_17}Eochu"/>
+            <name name="{=gealic_male_name_18}Diarmait"/>
+            <name name="{=gealic_male_name_19}Colmán"/>
+            <name name="{=gealic_male_name_21}Conchobor"/>
+            <name name="{=gealic_male_name_22}Fiachra"/>
+            <name name="{=gealic_male_name_23}Énnae"/>
+            <name name="{=gealic_male_name_24}Cináed"/>
+            <name name="{=gealic_male_name_25}Crimthann"/>
+            <name name="{=gealic_male_name_26}Fedelmid"/>
+            <name name="{=gealic_male_name_27}Murchad"/>
+            <name name="{=gealic_male_name_28}Cathal"/>
+            <name name="{=gealic_male_name_29}Donnchad"/>
+            <name name="{=gealic_male_name_30}Máel-dúin"/>
+            <name name="{=gealic_male_name_31}Rónán"/>
+            <name name="{=gealic_male_name_32}Muirchertach"/>
+            <name name="{=gealic_male_name_33}Ercc"/>
+            <name name="{=gealic_male_name_34}Maine"/>
+            <name name="{=gealic_male_name_35}Bran"/>
+            <name name="{=gealic_male_name_36}Cobthach"/>
+            <name name="{=gealic_male_name_37}Niall"/>
+            <name name="{=gealic_male_name_38}Fogartach"/>
+            <name name="{=gealic_male_name_39}Crundmáel"/>
+            <name name="{=gealic_male_name_40}Bressal"/>
+            <name name="{=gealic_male_name_41}Congal"/>
+            <name name="{=gealic_male_name_42}Cenn-fáelad"/>
+            <name name="{=gealic_male_name_43}Dunchad"/>
+            <name name="{=gealic_male_name_44}Suibne"/>
+            <name name="{=gealic_male_name_45}Faílbe"/>
+            <name name="{=gealic_male_name_46}Fiachu"/>
+            <name name="{=gealic_male_name_47}Móenach"/>
+            <name name="{=gealic_male_name_48}Donngal"/>
+            <name name="{=gealic_male_name_49}Sétnae"/>
+            <name name="{=gealic_male_name_50}Scandlán"/>
+            <name name="{=gealic_male_name_51}Dímmae"/>
+            <name name="{=gealic_male_name_52}Senach"/>
+            <name name="{=gealic_male_name_53}Fáelán"/>
+            <name name="{=gealic_male_name_54}Tuathal"/>
+            <name name="{=gealic_male_name_55}Cummascach"/>
+            <name name="{=gealic_male_name_56}Fiachna"/>
+            <name name="{=gealic_male_name_57}Artt"/>
+            <name name="{=gealic_male_name_58}Dúngal"/>
+            <name name="{=gealic_male_name_59}Congalach"/>
+            <name name="{=gealic_male_name_60}Fergal"/>
+            <name name="{=gealic_male_name_61}Blathmac"/>
+            <name name="{=gealic_male_name_62}Dubthach"/>
+            <name name="{=gealic_male_name_63}Dúnlang"/>
+            <name name="{=gealic_male_name_64}Corcc"/>
+            <name name="{=gealic_male_name_65}Find"/>
+            <name name="{=gealic_male_name_66}Lóegaire"/>
+            <name name="{=gealic_male_name_67}Feradach"/>
+            <name name="{=gealic_male_name_68}Findchad"/>
+            <name name="{=gealic_male_name_69}Finán"/>
+            <name name="{=gealic_male_name_70}Cernach"/>
+            <name name="{=gealic_male_name_71}Dáire"/>
+            <name name="{=gealic_male_name_72}Ruaidrí"/>
+            <name name="{=gealic_male_name_73}Fintan"/>
+            <name name="{=gealic_male_name_74}Guaire"/>
+            <name name="{=gealic_male_name_75}Trian"/>
+            <name name="{=gealic_male_name_76}Tigernach"/>
+            <name name="{=gealic_male_name_77}Sechnassach"/>
+            <name name="{=gealic_male_name_78}Nath-í"/>
+            <name name="{=gealic_male_name_79}Tadc"/>
+            <name name="{=gealic_male_name_80}Báetán"/>
+            <name name="{=gealic_male_name_81}Columb"/>
+            <name name="{=gealic_male_name_82}Forannán"/>
+            <name name="{=gealic_male_name_83}Máel-tuili"/>
+            <name name="{=gealic_male_name_84}Cillíne"/>
+            <name name="{=gealic_male_name_85}Máel-ruanaid"/>
+            <name name="{=gealic_male_name_86}Rechtabra"/>
+            <name name="{=gealic_male_name_87}Bróccan"/>
+            <name name="{=gealic_male_name_88}Duinechaid"/>
+            <name name="{=gealic_male_name_89}Colcu"/>
+            <name name="{=gealic_male_name_90}Amalgaid"/>
+            <name name="{=gealic_male_name_91}Indrechtach"/>
+            <name name="{=gealic_male_name_92}Condlae  "/>
+            <name name="{=gealic_male_name_93}Conlae"/>
+            <name name="{=gealic_male_name_94}Fothud"/>
+            <name name="{=gealic_male_name_95}Máelodor"/>
+            <name name="{=gealic_male_name_96}Flaithbertach"/>
+            <name name="{=gealic_male_name_97}Imchad"/>
+            <name name="{=gealic_male_name_98}Bécc"/>
+            <name name="{=gealic_male_name_99}Carthach"/>
+            <name name="{=gealic_male_name_100}Cerball"/>
+            <name name="{=gealic_male_name_101}Cúán"/>
+            <name name="{=gealic_male_name_102}Tipraite"/>
+            <name name="{=gealic_male_name_103}Cáirthenn"/>
+            <name name="{=gealic_male_name_104}Níall"/>
+            <name name="{=gealic_male_name_105}Brian"/>
+            <name name="{=gealic_male_name_106}Domhnall"/>
+            <name name="{=gealic_male_name_107}Cathal"/>
+            <name name="{=gealic_male_name_108}Aedh"/>
+            <name name="{=gealic_male_name_109}Ruaidrí"/>
+            <name name="{=gealic_male_name_110}Eógan"/>
+            <name name="{=gealic_male_name_111}Feidlim"/>
+            <name name="{=gealic_male_name_112}Finghin"/>
+            <name name="{=gealic_male_name_113}Donnchad"/>
+            <name name="{=gealic_male_name_114}Conchobhair"/>
+            <name name="{=gealic_male_name_115}Tadg"/>
+            <name name="{=gealic_male_name_116}Lochlann"/>
+            <name name="{=gealic_male_name_117}Áed"/>
+        </male_names>
+        <female_names>
+            <name name="{=gealic_female_name_1}Eisibél"/>
+            <name name="{=gealic_female_name_2}Aífe"/>
+            <name name="{=gealic_female_name_3}Mór"/>
+            <name name="{=gealic_female_name_4}Fionnuala"/>
+            <name name="{=gealic_female_name_5}Sadhbh"/>
+            <name name="{=gealic_female_name_6}Una"/>
+            <name name="{=gealic_female_name_7}Nuala"/>
+            <name name="{=gealic_female_name_8}Áedammair"/>
+            <name name="{=gealic_female_name_9}Aghna"/>
+            <name name="{=gealic_female_name_10}Aibhilín"/>
+            <name name="{=gealic_female_name_11}Ailionóra"/>
+            <name name="{=gealic_female_name_12}Aillenn"/>
+            <name name="{=gealic_female_name_13}Aimilíona"/>
+            <name name="{=gealic_female_name_14}Albea"/>
+            <name name="{=gealic_female_name_15}Allsún"/>
+            <name name="{=gealic_female_name_16}Alson"/>
+            <name name="{=gealic_female_name_17}Anlaith"/>
+            <name name="{=gealic_female_name_18}Annábla"/>
+            <name name="{=gealic_female_name_19}Anstace"/>
+            <name name="{=gealic_female_name_20}Any"/>
+            <name name="{=gealic_female_name_21}Aodhnait"/>
+            <name name="{=gealic_female_name_22}Aphria"/>
+            <name name="{=gealic_female_name_23}Athracht"/>
+            <name name="{=gealic_female_name_24}Attracta"/>
+            <name name="{=gealic_female_name_25}Benvon"/>
+            <name name="{=gealic_female_name_26}Bláth"/>
+            <name name="{=gealic_female_name_27}Blinne"/>
+            <name name="{=gealic_female_name_28}Bluinse"/>
+            <name name="{=gealic_female_name_29}Caineach"/>
+            <name name="{=gealic_female_name_30}Catirfina"/>
+            <name name="{=gealic_female_name_31}Dachonna"/>
+            <name name="{=gealic_female_name_32}Coblaith"/>
+            <name name="{=gealic_female_name_33}Cobhlaith"/>
+            <name name="{=gealic_female_name_34}Dianaimh"/>
+            <name name="{=gealic_female_name_35}Dirrevorgill"/>
+            <name name="{=gealic_female_name_36}Dorethy"/>
+            <name name="{=gealic_female_name_37}Dorren"/>
+            <name name="{=gealic_female_name_38}Dorinnia"/>
+            <name name="{=gealic_female_name_39}Dubheasa"/>
+            <name name="{=gealic_female_name_40}Downet"/>
+            <name name="{=gealic_female_name_41}Dúnlaith"/>
+            <name name="{=gealic_female_name_42}Elan"/>
+            <name name="{=gealic_female_name_43}Ellenor"/>
+            <name name="{=gealic_female_name_44}Eistir"/>
+            <name name="{=gealic_female_name_45}Ellice"/>
+            <name name="{=gealic_female_name_46}Euginia"/>
+            <name name="{=gealic_female_name_47}Elan"/>
+            <name name="{=gealic_female_name_48}Evelin"/>
+            <name name="{=gealic_female_name_49}Faílenn"/>
+            <name name="{=gealic_female_name_50}Fanche"/>
+            <name name="{=gealic_female_name_51}Faoiltighearna"/>
+            <name name="{=gealic_female_name_52}Fín"/>
+            <name name="{=gealic_female_name_53}Finbil"/>
+            <name name="{=gealic_female_name_54}Fínemain"/>
+            <name name="{=gealic_female_name_55}Finnola"/>
+            <name name="{=gealic_female_name_56}Forflissa"/>
+            <name name="{=gealic_female_name_57}Gelgéis"/>
+            <name name="{=gealic_female_name_58}Gillie"/>
+            <name name="{=gealic_female_name_59}Gormlaith"/>
+            <name name="{=gealic_female_name_60}Gráinne"/>
+            <name name="{=gealic_female_name_61}Isibéal"/>
+            <name name="{=gealic_female_name_62}Máible"/>
+            <name name="{=gealic_female_name_63}Máirghréad"/>
+            <name name="{=gealic_female_name_64}Mairéad"/>
+            <name name="{=gealic_female_name_65}Ciannait"/>
+            <name name="{=gealic_female_name_66}Mairsil"/>
+            <name name="{=gealic_female_name_67}Margreg"/>
+            <name name="{=gealic_female_name_68}Máirín"/>
+            <name name="{=gealic_female_name_69}Mairsil"/>
+            <name name="{=gealic_female_name_70}Mauda"/>
+            <name name="{=gealic_female_name_71}Meadhbh"/>
+            <name name="{=gealic_female_name_72}Míde"/>
+            <name name="{=gealic_female_name_73}Modwenna"/>
+            <name name="{=gealic_female_name_74}Modwen"/>
+            <name name="{=gealic_female_name_75}Moncha"/>
+            <name name="{=gealic_female_name_76}Muadhnait"/>
+            <name name="{=gealic_female_name_77}Muirgheal"/>
+            <name name="{=gealic_female_name_78}Muireann"/>
+            <name name="{=gealic_female_name_79}Nárbhfhlaith"/>
+            <name name="{=gealic_female_name_80}Niewlfe"/>
+            <name name="{=gealic_female_name_81}Proinnséas"/>
+            <name name="{=gealic_female_name_82}Ríoghnach"/>
+            <name name="{=gealic_female_name_83}Regnacia"/>
+            <name name="{=gealic_female_name_84}Raghnailt"/>
+            <name name="{=gealic_female_name_85}Reanet"/>
+            <name name="{=gealic_female_name_86}Owny"/>
+            <name name="{=gealic_female_name_87}Úna"/>
+            <name name="{=gealic_female_name_88}Uallach"/>
+            <name name="{=gealic_female_name_89}Tómnat"/>
+            <name name="{=gealic_female_name_90}Sláine"/>
+            <name name="{=gealic_female_name_91}Slany"/>
+            <name name="{=gealic_female_name_92}Slania"/>
+            <name name="{=gealic_female_name_93}Sisuile"/>
+            <name name="{=gealic_female_name_94}Síle"/>
+            <name name="{=gealic_female_name_95}Shillie"/>
+            <name name="{=gealic_female_name_96}Sárnait"/>
+            <name name="{=gealic_female_name_97}Síban"/>
+            <name name="{=gealic_female_name_98}Siobhan"/>
+            <name name="{=gealic_female_name_99}Sióbhan"/>
+        </female_names>
+        <clan_names>
+            <name name="{=gealic_clan_name_1}uí Rúad"/>
+            <name name="{=gealic_clan_name_2}uí Leochain"/>
+            <name name="{=gealic_clan_name_3}uí Eòghann"/>
+            <name name="{=gealic_clan_name_4}uí Murchadha"/>
+            <name name="{=gealic_clan_name_5}uí Ceallaigh"/>
+            <name name="{=gealic_clan_name_6}uí Súilleabháin"/>
+            <name name="{=gealic_clan_name_7}uí Broin"/>
+            <name name="{=gealic_clan_name_8}uí Riaghain"/>
+            <name name="{=gealic_clan_name_9}uí Dubhghaill"/>
+        </clan_names>
+       <cultural_feats>
+			<feat id="battanian_forest_speed"/>
+			<feat id="battanian_militia_production"/>
+			<feat id="battanian_slower_construction"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="112"/>
+            <icon id="113"/>
+            <icon id="114"/>
+            <icon id="115"/>
+            <icon id="116"/>
+            <icon id="117"/>
+            <icon id="118"/>
+            <icon id="132"/>
+            <icon id="138"/>
+            <icon id="139"/>
+            <icon id="307"/>
+            <icon id="331"/>
+            <icon id="407"/>
+            <icon id="408"/>
+            <icon id="409"/>
+            <icon id="410"/>
+            <icon id="439"/>
+            <icon id="440"/>
+            <icon id="441"/>
+            <icon id="442"/>
+            <icon id="443"/>
+            <icon id="444"/>
+            <icon id="445"/>
+		</possible_clan_banner_icon_ids>
+		<notable_and_wanderer_templates>
+			<template name="NPCCharacter.spc_wanderer_battania_0"/>
+			<template name="NPCCharacter.spc_wanderer_battania_1"/>
+			<template name="NPCCharacter.spc_wanderer_battania_2"/>
+			<template name="NPCCharacter.spc_wanderer_battania_3"/>
+			<template name="NPCCharacter.spc_wanderer_battania_4"/>
+			<template name="NPCCharacter.spc_wanderer_battania_5"/>
+			<template name="NPCCharacter.spc_wanderer_battania_6"/>
+			<template name="NPCCharacter.spc_wanderer_battania_7"/>
+			<template name="NPCCharacter.spc_wanderer_battania_8"/>
+			<template name="NPCCharacter.spc_wanderer_battania_9"/>
+			<template name="NPCCharacter.spc_notable_battania_merchant_1"/>
+			<template name="NPCCharacter.spc_notable_battania_0b"/>
+			<template name="NPCCharacter.spc_notable_battania_0c"/>
+			<template name="NPCCharacter.spc_notable_battania_0d"/>
+			<template name="NPCCharacter.spc_notable_battania_0e"/>
+			<template name="NPCCharacter.spc_notable_battania_1"/>
+			<template name="NPCCharacter.spc_notable_battania_1b"/>
+			<template name="NPCCharacter.spc_notable_battania_2"/>
+			<template name="NPCCharacter.spc_notable_battania_3"/>
+			<template name="NPCCharacter.spc_notable_battania_4"/>
+			<template name="NPCCharacter.spc_notable_battania_5"/>
+			<template name="NPCCharacter.spc_battania_artisan_1"/>
+			<template name="NPCCharacter.spc_battania_artisan_2"/>
+			<template name="NPCCharacter.spc_battania_artisan_3"/>
+			<template name="NPCCharacter.spc_battania_rural_notable_1"/>
+			<template name="NPCCharacter.spc_battania_rural_notable_2"/>
+			<template name="NPCCharacter.spc_battania_headman_1"/>
+			<template name="NPCCharacter.spc_battania_headman_2"/>
+			<template name="NPCCharacter.spc_battania_headman_3"/>
+		</notable_and_wanderer_templates>
+		<lord_templates>
+            <template name="NPCCharacter.gaelic_autogenerated_lord1"/>
+            <template name="NPCCharacter.gaelic_autogenerated_lord2"/>
+            <template name="NPCCharacter.gaelic_autogenerated_lord3"/>
+            <template name="NPCCharacter.gaelic_autogenerated_lord4"/>
+        </lord_templates>
+        <rebellion_hero_templates>
+            <template name="NPCCharacter.gaelic_autogenerated_lord1"/>
+            <template name="NPCCharacter.gaelic_autogenerated_lord2"/>
+            <template name="NPCCharacter.gaelic_autogenerated_lord3"/>
+            <template name="NPCCharacter.gaelic_autogenerated_lord4"/>
+        </rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_battania_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_battania_one_participant_set_v2"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v3"/>
+			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v4"/>
+			<template name="NPCCharacter.tournament_template_battania_two_participant_set_v5"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_battania_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.merc_euro_spearman"/>
+			<template name="NPCCharacter.merc_euro_crossbowman"/>
+			<template name="NPCCharacter.merc_hobelar_root0"/>
+			<template name="NPCCharacter.merc_hobelar_root1"/>
+            <template name="NPCCharacter.merc_scandinavian_horseman"/>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+            <template name="NPCCharacter.merc_welsh_bowman"/>
+            <template name="NPCCharacter.merc_welsh_hunter"/>
+		</basic_mercenary_troops>
+	</Culture>
+</SPCultures> 

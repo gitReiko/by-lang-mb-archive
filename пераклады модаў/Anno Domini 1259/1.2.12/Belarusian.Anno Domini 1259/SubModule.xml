@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Belarusian Anno Domini 1259"/>
+	<Id value = "Belarusian Anno Domini 1259"/>
+	<Version value = "v1.2.10.1"/>
+	<DefaultModule value="true"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<Author value="Denis Makouski (Reiko17)" />
+  	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.2.10"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.2.10"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.2.10"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.2.10"/>
+		<DependedModule Id="Belarusian Core" DependentVersion="v1.2.10"/>
+	</DependedModules>
+	<SubModules/>
+	<Xmls>
+
+		<XmlNode>
+			<XmlName id="Items" path="items_ad_1259"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="items_eba"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="items_swadian"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+			<XmlName id="Items" path="items_templar"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+
+		<XmlNode>
+            <XmlName id="SPCultures" path="spcultures"/>
+            <IncludedGameTypes>
+                <GameType value="Campaign"/>
+                <GameType value="CampaignStoryMode"/>
+            </IncludedGameTypes>
+        </XmlNode>
+
+	<XmlNode>
+		<XmlName id="GameText" path="module_strings" />
+	</XmlNode>
+
+	<XmlNode>                
+		<XmlName id="Kingdoms" path="spkingdoms"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
+	<XmlNode>                
+		<XmlName id="NPCCharacters" path="trooptrees"/>
+		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CustomGame"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
+	<XmlNode>                
+		<XmlName id="NPCCharacters" path="lords_main"/>
+		<IncludedGameTypes>
+			<GameType value="Campaign"/>
+			<GameType value="CustomGame"/>
+		</IncludedGameTypes>
+	</XmlNode>
+
+	</Xmls>
+</Module>

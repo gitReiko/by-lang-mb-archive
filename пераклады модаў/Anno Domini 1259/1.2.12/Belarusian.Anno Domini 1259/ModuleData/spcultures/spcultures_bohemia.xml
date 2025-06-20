@@ -1,0 +1,282 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+    <Culture id="bohemia"
+             name="{=bohemiaCulture}Bohemian"
+             is_main_culture="true"
+             color="0xff2C4D86"
+             color2="0xff830808"
+             elite_basic_troop="NPCCharacter.bohemia_elite_root0"
+             basic_troop="NPCCharacter.bohemia_infantry_root"
+             melee_militia_troop="NPCCharacter.bohemia_militia_spearman"
+             ranged_militia_troop="NPCCharacter.bohemia_militia_archer"
+             melee_elite_militia_troop="NPCCharacter.bohemia_militia_veteran_spearman"
+             ranged_elite_militia_troop="NPCCharacter.bohemia_militia_veteran_archer"
+             can_have_settlement="true"
+             town_edge_number="16"
+             villager_party_template="PartyTemplate.villager_bohemia_template"
+             default_party_template="PartyTemplate.kingdom_hero_party_bohemia_template"
+             encounter_background_mesh="encounter_bohemia"
+             faction_banner_key="11.145.145.1750.1750.764.764.0.0.0.140.40.40.566.564.762.757.0.0.0.506.7.9.16.22.598.579.0.0.-38.506.7.9.13.22.598.585.0.0.-31.506.7.9.17.11.604.574.0.0.-95.506.7.9.17.19.590.558.0.0.-43.506.7.9.17.19.588.561.0.0.-17.506.7.9.23.19.593.556.0.0.-28.506.7.9.23.19.609.530.0.0.-91.506.7.9.11.19.600.530.0.0.-91.506.7.9.11.19.598.531.0.0.-76.506.7.9.11.19.614.597.0.0.-3.506.7.9.21.19.619.590.0.0.-37.506.7.9.21.19.618.589.0.0.-37.506.7.9.12.21.616.592.0.0.-37.506.7.9.15.26.592.734.0.0.-15.506.7.9.15.26.591.734.0.0.-1.506.7.9.15.26.609.753.0.0.19.506.7.9.12.22.606.751.0.0.19.506.7.9.12.22.630.755.0.0.26.506.7.9.12.22.628.754.0.0.26.506.7.9.19.11.626.747.0.0.26.506.7.9.16.29.652.737.0.0.26.506.7.9.16.29.649.738.0.0.36.506.7.9.16.22.684.859.0.0.36.506.7.9.16.22.681.858.0.0.50.506.7.9.16.17.663.864.0.0.61.506.7.9.16.17.663.860.0.0.61.506.7.9.16.17.657.861.0.0.76.506.7.9.16.17.654.873.0.0.76.506.7.9.16.17.645.875.0.0.146.506.7.9.16.17.649.874.0.0.94.506.7.9.27.27.644.888.0.0.94.506.7.9.15.15.631.893.0.0.162.506.7.9.15.15.640.892.0.0.87.506.7.9.20.20.746.955.0.0.87.506.7.9.20.14.752.958.0.0.72.506.7.9.20.14.753.954.0.0.72.506.7.9.20.22.736.958.0.0.143.506.7.9.20.22.760.996.0.0.143.506.7.9.20.22.767.994.0.0.133.506.7.9.20.22.755.1005.0.0.154.506.7.9.20.22.738.990.0.0.125.506.7.9.20.22.751.984.0.0.115.506.7.9.20.22.742.970.0.0.115.506.7.9.20.22.750.971.0.0.94.506.7.9.20.22.750.968.0.0.94.506.7.9.20.22.734.977.0.0.123.506.7.9.13.14.621.591.0.0.135.506.7.9.13.14.615.598.0.0.179.503.145.145.692.125.891.752.0.0.-95.503.40.9.125.41.826.879.0.0.-88.503.145.9.91.41.844.930.0.0.-98.503.40.145.521.170.873.662.0.0.-95.503.145.145.505.125.868.644.0.0.-93.503.145.145.505.125.924.594.0.0.-93.503.40.116.34.63.911.789.0.0.-182.503.40.116.41.69.910.801.1.0.-93.205.40.116.134.176.942.565.0.0.-33.444.40.116.169.173.911.696.0.0.-180.503.142.116.60.92.911.718.0.0.-182.503.142.116.60.92.976.720.0.0.-182.503.142.116.60.92.846.716.0.0.-182.205.40.116.149.195.878.571.0.1.29.510.40.116.28.104.878.615.0.1.112.510.40.116.28.104.875.603.0.1.103.510.40.116.28.104.871.581.0.1.94.510.40.116.28.104.871.561.0.1.89.510.40.116.28.104.870.546.0.1.89.510.40.116.28.104.941.618.0.0.245.510.40.116.28.104.945.606.0.0.254.510.40.116.28.104.949.585.0.0.263.510.40.116.28.104.950.565.0.0.268.510.40.116.28.104.951.549.0.0.268.301.40.116.129.74.876.520.0.0.-21.301.40.116.129.74.864.522.0.1.20.301.40.116.129.74.946.528.0.1.20.301.40.116.129.74.959.527.0.1.-22.503.142.116.46.103.897.580.0.0.-178.503.142.116.46.103.924.581.0.0.-178.503.142.116.46.103.976.585.0.0.-191.503.142.116.28.103.852.574.0.0.-180.503.142.116.29.103.961.631.0.0.-226.503.142.116.29.103.959.631.0.0.-191.503.142.116.28.103.866.633.0.0.-153.503.142.116.46.103.977.553.0.0.-191.503.142.116.29.43.930.547.0.0.-162.503.142.83.75.83.786.911.0.0.156.503.40.83.35.96.827.931.0.0.163.503.40.83.42.110.800.873.0.0.219.503.40.83.58.110.787.740.0.0.186.426.40.40.40.60.808.544.0.0.-311.426.40.40.40.60.807.571.0.0.-306.426.40.40.40.60.807.599.0.0.-306.426.40.40.40.60.809.631.0.0.-306.426.40.40.40.60.811.673.0.0.-306.340.131.9.125.119.798.498.0.0.-19.503.145.9.48.46.804.480.0.0.-19.418.131.9.22.21.800.492.0.0.-64.506.142.116.79.78.725.572.0.0.71.506.40.128.52.59.733.551.0.0.67.506.40.128.55.59.737.540.0.0.106.503.40.116.33.26.770.543.0.0.211.503.23.23.20.22.758.539.0.1.-9.503.35.110.15.17.758.539.0.1.-9.503.116.116.27.9.759.537.0.1.-9.503.40.116.27.9.762.533.0.1.-9.503.116.116.8.10.757.541.0.1.-9.503.35.40.3.3.758.541.0.1.255.427.40.144.78.37.742.581.0.1.5.426.38.83.28.38.701.562.0.0.70.426.38.83.26.48.728.573.0.0.249.506.142.128.55.59.728.522.0.0.97.426.116.128.7.12.740.552.0.0.233.426.116.128.15.16.716.543.0.0.-19.426.40.128.15.16.719.582.0.0.-19.426.40.128.15.16.750.571.0.0.-19.426.116.128.9.19.803.538.0.0.-27.426.116.128.6.21.800.572.0.0.-1.426.116.128.6.16.790.594.0.0.-4.426.116.128.11.16.762.604.0.0.116.426.116.128.11.16.748.596.0.0.-72.426.116.128.11.16.775.617.0.0.-212.426.116.128.11.16.796.639.0.0.-191.426.116.128.9.19.774.569.0.0.-27.426.116.128.9.19.725.694.0.0.-228.426.116.128.9.36.779.834.0.0.-337.426.116.128.9.36.825.880.0.0.-147.426.116.128.9.36.806.950.0.0.-41.426.116.128.9.36.706.890.0.0.93.426.116.128.9.36.654.550.0.0.238.426.116.128.9.36.809.820.0.0.192.426.116.128.9.70.830.861.0.0.40"
+             elite_caravan_party_template="PartyTemplate.elite_caravan_template_bohemia"
+             caravan_party_template="PartyTemplate.caravan_template_bohemia"
+             militia_party_template="PartyTemplate.militia_bohemia_template"
+             rebels_party_template="PartyTemplate.rebels_bohemia_template"
+             vassal_reward_party_template="PartyTemplate.vassal_reward_troops_bohemia"
+             default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+             text="{=bohemia_text}Unused in the game."
+             tournament_master="NPCCharacter.tournament_master_bohemia"
+             villager="NPCCharacter.villager_bohemia"
+             caravan_master="NPCCharacter.caravan_master_bohemia"
+             armed_trader="NPCCharacter.armed_trader_bohemia"
+             caravan_guard="NPCCharacter.caravan_guard_bohemia"
+             veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_bohemia"
+             prison_guard="NPCCharacter.prison_guard_bohemia"
+             guard="NPCCharacter.guard_bohemia"
+             blacksmith="NPCCharacter.blacksmith_bohemia"
+             weaponsmith="NPCCharacter.weaponsmith_bohemia"
+             townswoman="NPCCharacter.townswoman_bohemia"
+             townswoman_infant="NPCCharacter.townswoman_infant_bohemia"
+             townswoman_child="NPCCharacter.townswoman_child_bohemia"
+             townswoman_teenager="NPCCharacter.townswoman_teenager_bohemia"
+             townsman="NPCCharacter.townsman_bohemia"
+             townsman_infant="NPCCharacter.townsman_infant_bohemia"
+             townsman_child="NPCCharacter.townsman_child_bohemia"
+             townsman_teenager="NPCCharacter.townsman_teenager_bohemia"
+             village_woman="NPCCharacter.village_woman_bohemia"
+             villager_male_child="NPCCharacter.villager_child_bohemia"
+             villager_male_teenager="NPCCharacter.villager_teenager_bohemia"
+             villager_female_child="NPCCharacter.village_woman_child_bohemia"
+             villager_female_teenager="NPCCharacter.village_woman_teenager_bohemia"
+             ransom_broker="NPCCharacter.ransom_broker_bohemia"
+             gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_bohemia"
+             merchant_notary="NPCCharacter.merchant_notary_bohemia"
+             artisan_notary="NPCCharacter.artisan_notary_bohemia"
+             preacher_notary="NPCCharacter.preacher_notary_bohemia"
+             rural_notable_notary="NPCCharacter.rural_notable_notary_bohemia"
+             shop_worker="NPCCharacter.shop_worker_bohemia"
+             tavernkeeper="NPCCharacter.tavernkeeper_bohemia"
+             taverngamehost="NPCCharacter.taverngamehost_bohemia"
+             musician="NPCCharacter.musician_bohemia"
+             tavern_wench="NPCCharacter.tavern_wench_bohemia"
+             armorer="NPCCharacter.armorer_bohemia"
+             horseMerchant="NPCCharacter.horseMerchant_bohemia"
+             barber="NPCCharacter.barber_bohemia"
+             merchant="NPCCharacter.merchant_bohemia"
+             beggar="NPCCharacter.beggar_bohemia"
+             female_beggar="NPCCharacter.female_beggar_bohemia"
+             female_dancer="NPCCharacter.female_dancer_bohemia"
+             gear_practice_dummy="NPCCharacter.gear_practice_dummy_bohemia"
+             weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_bohemia"
+             weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_bohemia"
+             weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_bohemia"
+             gear_dummy="NPCCharacter.gear_dummy_vlandia"
+             default_battle_equipment_roster="EquipmentRoster.bohemia_bat_template_medium"
+             default_civilian_equipment_roster="EquipmentRoster.bohemia_civ_template_default"
+             duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
+             board_game_type="Konane">
+        <vassal_reward_items>
+            <item id="Item.avalanche_2haxe"/>
+        </vassal_reward_items>
+        <banner_bearer_replacement_weapons>
+            <item id="Item.sturgia_sword_1_t2"/>
+            <item id="Item.sturgia_sword_2_t3"/>
+            <item id="Item.sturgia_sword_4_t4"/>
+            <item id="Item.sturgia_sword_5_t5"/>
+        </banner_bearer_replacement_weapons>
+        <default_policies>
+            <policy id="policy_lawspeakers"/>
+            <policy id="policy_feudal_inheritance"/>
+            <policy id="policy_noble_retinues"/>
+            <policy id="policy_precarial_land_tenure"/>
+        </default_policies>
+        <male_names>
+            <name name="{=bohemia_male_name_1}Jakub"/>
+            <name name="{=bohemia_male_name_2}Matěj"/>
+            <name name="{=bohemia_male_name_3}Jiří"/>
+            <name name="{=bohemia_male_name_4}Martin"/>
+            <name name="{=bohemia_male_name_5}Matouš"/>
+            <name name="{=bohemia_male_name_6}Mikuláš"/>
+            <name name="{=bohemia_male_name_7}Ondřej"/>
+            <name name="{=bohemia_male_name_8}Pavel"/>
+            <name name="{=bohemia_male_name_9}Petr"/>
+            <name name="{=bohemia_male_name_10}Václav"/>
+            <name name="{=bohemia_male_name_11}Michal"/>
+            <name name="{=bohemia_male_name_12}Tomáš"/>
+            <name name="{=bohemia_male_name_13}Bohuš"/>
+            <name name="{=bohemia_male_name_14}Diviš"/>
+            <name name="{=bohemia_male_name_15}Bojislav"/>
+            <name name="{=bohemia_male_name_16}Jaromír"/>
+            <name name="{=bohemia_male_name_17}Ján"/>
+            <name name="{=bohemia_male_name_18}Pravoslav"/>
+            <name name="{=bohemia_male_name_19}Ctislav"/>
+            <name name="{=bohemia_male_name_20}Vojtěch"/>
+            <name name="{=bohemia_male_name_21}Vyšeslav"/>
+            <name name="{=bohemia_male_name_22}Bohumil"/>
+            <name name="{=bohemia_male_name_23}Kazimír"/>
+            <name name="{=bohemia_male_name_24}Jaropluk"/>
+            <name name="{=bohemia_male_name_25}Ctibor"/>
+            <name name="{=bohemia_male_name_26}Miloslav"/>
+            <name name="{=bohemia_male_name_27}Všeslav"/>
+            <name name="{=bohemia_male_name_28}Blažej"/>
+            <name name="{=bohemia_male_name_29}Svatopluk"/>
+            <name name="{=bohemia_male_name_30}Albert"/>
+            <name name="{=bohemia_male_name_31}Vilém"/>
+            <name name="{=bohemia_male_name_32}Kryštof"/>
+            <name name="{=bohemia_male_name_33}Jáchym"/>
+            <name name="{=bohemia_male_name_34}Jindřich"/>
+            <name name="{=bohemia_male_name_35}Adam"/>
+            <name name="{=bohemia_male_name_36}Zbyněk"/>
+            <name name="{=bohemia_male_name_37}Bohuslav"/>
+            <name name="{=bohemia_male_name_38}Radoslav"/>
+        </male_names>
+        <female_names>
+            <name name="{=bohemia_female_name_1}Anna"/>
+            <name name="{=bohemia_female_name_2}Anežka"/>
+            <name name="{=bohemia_female_name_3}Alice"/>
+            <name name="{=bohemia_female_name_4}Blahota"/>
+            <name name="{=bohemia_female_name_5}Markéta"/>
+            <name name="{=bohemia_female_name_6}Chotimíra"/>
+            <name name="{=bohemia_female_name_7}Dorota"/>
+            <name name="{=bohemia_female_name_8}Alžběta"/>
+            <name name="{=bohemia_female_name_9}Dana"/>
+            <name name="{=bohemia_female_name_10}Kunhuta"/>
+            <name name="{=bohemia_female_name_11}Jana"/>
+            <name name="{=bohemia_female_name_12}Lída"/>
+            <name name="{=bohemia_female_name_13}Otta"/>
+            <name name="{=bohemia_female_name_14}Střezislava"/>
+            <name name="{=bohemia_female_name_15}Kateřina"/>
+            <name name="{=bohemia_female_name_16}Tyeska"/>
+            <name name="{=bohemia_female_name_17}Střezislava"/>
+            <name name="{=bohemia_female_name_18}Zdenka"/>
+            <name name="{=bohemia_female_name_19}Zdeslava"/>
+            <name name="{=bohemia_female_name_20}Mariana"/>
+            <name name="{=bohemia_female_name_21}Vlastimila"/>
+            <name name="{=bohemia_female_name_22}Sáva"/>
+            <name name="{=bohemia_female_name_23}Ctislava"/>
+            <name name="{=bohemia_female_name_24}Jaroslava"/>
+            <name name="{=bohemia_female_name_25}Zbislava"/>
+            <name name="{=bohemia_female_name_26}Slavena"/>
+            <name name="{=bohemia_female_name_27}Lidoslava"/>
+            <name name="{=bohemia_female_name_28}Polemíra"/>
+            <name name="{=bohemia_female_name_29}Bohdana"/>
+            <name name="{=bohemia_female_name_30}Miloslava"/>
+            <name name="{=bohemia_female_name_31}Polemíra"/>
+            <name name="{=bohemia_female_name_32}Myslena"/>
+            <name name="{=bohemia_female_name_33}Bohumila"/>
+            <name name="{=bohemia_female_name_34}Magdalena"/>
+            <name name="{=bohemia_female_name_35}Hněvomíra"/>
+            <name name="{=bohemia_female_name_36}Jadwiga"/>
+            <name name="{=bohemia_female_name_37}Vojslava"/>
+            <name name="{=bohemia_female_name_38}Milada"/>
+        </female_names>
+        <clan_names>
+            <name name="{=Valdštejn}z Valdštejna"/>
+			<name name="{=Hrabišici}Hrabišici"/>
+			<name name="{=Klinštejn}z Klinštejna"/>
+			<name name="{=Vítkovci}Vítkovci"/>
+			<name name="{=Ronovci}Ronovci"/>
+			<name name="{=Poděbrady}z Poděbrad"/>
+        </clan_names>
+        <cultural_feats>
+            <feat id="sturgian_cheaper_recruits_infantry"/>
+            <feat id="aserai_cheaper_caravans"/>
+			<feat id="vlandian_increased_army_influence_cost"/>
+        </cultural_feats>
+        <possible_clan_banner_icon_ids>
+            <icon id="112"/>
+            <icon id="113"/>
+            <icon id="114"/>
+            <icon id="115"/>
+            <icon id="116"/>
+            <icon id="117"/>
+            <icon id="118"/>
+            <icon id="132"/>
+            <icon id="138"/>
+            <icon id="139"/>
+            <icon id="307"/>
+            <icon id="331"/>
+            <icon id="407"/>
+            <icon id="408"/>
+            <icon id="409"/>
+            <icon id="410"/>
+            <icon id="439"/>
+            <icon id="440"/>
+            <icon id="441"/>
+            <icon id="442"/>
+            <icon id="443"/>
+            <icon id="444"/>
+            <icon id="445"/>
+        </possible_clan_banner_icon_ids>
+        <notable_and_wanderer_templates>
+            <template name="NPCCharacter.spc_wanderer_bohemia_0"/>
+            <template name="NPCCharacter.spc_wanderer_bohemia_1"/>
+            <template name="NPCCharacter.spc_wanderer_bohemia_2"/>
+            <template name="NPCCharacter.spc_wanderer_bohemia_3"/>
+            <template name="NPCCharacter.spc_wanderer_bohemia_4"/>
+            <template name="NPCCharacter.spc_wanderer_bohemia_5"/>
+            <template name="NPCCharacter.spc_wanderer_bohemia_6"/>
+            <template name="NPCCharacter.spc_wanderer_bohemia_7"/>
+            <template name="NPCCharacter.spc_wanderer_bohemia_8"/>
+            <template name="NPCCharacter.spc_wanderer_bohemia_9"/>
+            <template name="NPCCharacter.spc_notable_bohemia_0"/>
+            <template name="NPCCharacter.spc_notable_bohemia_0b"/>
+            <template name="NPCCharacter.spc_notable_bohemia_1"/>
+            <template name="NPCCharacter.spc_notable_bohemia_2"/>
+            <template name="NPCCharacter.spc_notable_bohemia_2b"/>
+            <template name="NPCCharacter.spc_notable_bohemia_3"/>
+            <template name="NPCCharacter.spc_notable_bohemia_3b"/>
+            <template name="NPCCharacter.spc_notable_bohemia_3c"/>
+            <template name="NPCCharacter.spc_notable_bohemia_4"/>
+            <template name="NPCCharacter.spc_notable_bohemia_5"/>
+            <template name="NPCCharacter.spc_notable_bohemia_6"/>
+            <template name="NPCCharacter.spc_notable_bohemia_7"/>
+            <template name="NPCCharacter.spc_notable_bohemia_8"/>
+            <template name="NPCCharacter.spc_notable_bohemia_9"/>
+            <template name="NPCCharacter.spc_notable_bohemia_10"/>
+            <template name="NPCCharacter.spc_bohemia_headman_1"/>
+            <template name="NPCCharacter.spc_bohemia_headman_2"/>
+            <template name="NPCCharacter.spc_bohemia_headman_3"/>
+        </notable_and_wanderer_templates>
+        <lord_templates>
+            <template name="NPCCharacter.bohemia_autogenerated_lord1"/>
+            <template name="NPCCharacter.bohemia_autogenerated_lord2"/>
+            <template name="NPCCharacter.bohemia_autogenerated_lord3"/>
+            <template name="NPCCharacter.bohemia_autogenerated_lord4"/>
+        </lord_templates>
+        <rebellion_hero_templates>
+            <template name="NPCCharacter.bohemia_autogenerated_lord1"/>
+            <template name="NPCCharacter.bohemia_autogenerated_lord2"/>
+            <template name="NPCCharacter.bohemia_autogenerated_lord3"/>
+            <template name="NPCCharacter.bohemia_autogenerated_lord4"/>
+        </rebellion_hero_templates>
+        <tournament_team_templates_one_participant>
+            <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v3"/>
+        </tournament_team_templates_one_participant>
+        <tournament_team_templates_two_participant>
+            <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v3"/>
+            <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v4"/>
+        </tournament_team_templates_two_participant>
+        <tournament_team_templates_four_participant>
+            <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v3"/>
+            <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v4"/>
+        </tournament_team_templates_four_participant>
+        <basic_mercenary_troops>
+            <template name="NPCCharacter.crusader_genoese_cbow"/>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+            <template name="NPCCharacter.merc_euro_spearman"/>
+            <template name="NPCCharacter.merc_euro_guisarmer"/>
+            <template name="NPCCharacter.merc_euro_crossbowman"/>
+            <template name="NPCCharacter.merc_euro_horseman"/>
+            <template name="NPCCharacter.merc_alan_1"/>
+            <template name="NPCCharacter.merc_alan_2"/>
+        </basic_mercenary_troops>
+    </Culture>
+
+
+</SPCultures> 

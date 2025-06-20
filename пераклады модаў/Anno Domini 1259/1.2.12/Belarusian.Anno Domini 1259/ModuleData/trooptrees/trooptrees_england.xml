@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    
+    <NPCCharacter id="england_infantry_root1" default_group="Infantry" name="{=england_infantry_root1.name}English Levy Billman" level="11" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="20"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.england_infantry_root10"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="england_infantry_root1_bat"/>
+            <EquipmentSet id="england_infantry_root1_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="england_infantry_root10" default_group="Infantry" name="{=england_infantry_root10.name}English Billman" level="16" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="70"/>
+            <skill id="Polearm" value="70"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="10"/>
+            <skill id="Throwing" value="40"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.england_infantry_root100"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="england_infantry_root10_bat"/>
+            <EquipmentSet id="england_infantry_root10_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="england_infantry_root100" default_group="Infantry" name="{=england_infantry_root100.name}English Senior Billman" level="21" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="45"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.england_infantry_root1000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="england_infantry_root100_bat"/>
+            <EquipmentSet id="england_infantry_root100_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    
+    <NPCCharacter id="england_infantry_root2" default_group="Infantry" name="{=england_infantry_root2.name}English Levy Infantry" level="11" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.england_infantry_root20"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="england_infantry_root2_bat"/>
+            <EquipmentSet id="england_infantry_root2_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="england_infantry_root20" default_group="Infantry" name="{=england_infantry_root20.name}English Lesser Infantry" level="16" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.england_infantry_root200"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="england_infantry_root20_bat"/>
+            <EquipmentSet id="england_infantry_root20_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="england_infantry_root200" default_group="Infantry" name="{=england_infantry_root200.name}English Senior Infantry" level="21" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.england_infantry_root2000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="england_infantry_root200_bat"/>
+            <EquipmentSet id="england_infantry_root200_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="england_infantry_root2000" default_group="Infantry" name="{=england_infantry_root2000.name}English Man-at-arms" level="26" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="80"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="80"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="england_infantry_root2000_bat"/>
+            <EquipmentSet id="england_infantry_root2000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+</NPCCharacters>

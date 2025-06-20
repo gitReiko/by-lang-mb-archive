@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+    <!-- New Mercenaries -->
+    <NPCCharacter id="nubian_mercenary_spearman" default_group="Infantry" name="{=nubian_mercenary_spearman.name}Nubian Spearman" level="11" occupation="Mercenary" culture="Culture.aserai">
+        <face>
+            <BodyProperties version="4" age="20" weight="0.042" build="0.7361" key="003FFC0FC00000000C64A9985554C875388999E8C7D545400FEFF66B85D081F40CAB10C20B758883000000000000000000000000000000000000000001400002"/>
+            <BodyPropertiesMax version="4" age="30" weight="0.06" build="0.875" key="003FFC0FC0000980EF64AFB81F0452E83FFF9FE8CD4595F07FE7F63E85D0E1F20CBD10C20C70FFFB000000000000000000000000000000000000000003785002"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="30"/>
+            <skill id="TwoHanded" value="10"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="10"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="nubian_mercenary_spearman_bat"/>
+            <EquipmentSet id="nubian_mercenary_spearman_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

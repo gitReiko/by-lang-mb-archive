@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+	<!-- Line of Bellvis -->
+	<NPCCharacter id="lord_almohad_vicente_1" name="{=almohad_lord_de_vicente_1}Vicente Bellvis, ex-Emir of Valencia" age="64" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="64" weight="0.234" build="0.2849" key="0023D00B8070139AEC6474AB4A45659A92D3947A4366875167C18B734597875606944668096C8641000000000000000000000000000000000000000037344040"/>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Merciful" value="0"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Oligarchic" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_almohad_vicente_2" name="{=almohad_lord_de_vicente_2}Mahomat Abiceyt" age="39" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39" weight="0.2244" build="0.5162" key="0020C00A4070238E8C6474AB53256598C968977A4363875B4A88B7A56DDBDA4A039836350955A86600000000000000000000000000000000000000003D345000"/>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="3"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Merciful" value="-1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Oligarchic" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_almohad_vicente_3" name="{=almohad_lord_de_vicente_3}Ceyt Aboyahya" age="35" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35" weight="0.1232" build="0.5575" key="0023B40A40702405FC6474AB4A45659AE8A4977A4363875B4748697B896D588A02982624099584B80000000000000000000000000000000000000000573C40C1"/>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Merciful" value="-1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Oligarchic" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_almohad_vicente_4" name="{=almohad_lord_de_vicente_4}Alfonso" age="31" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31" weight="0.4565" build="0.4345" key="0023B40A4070220FEC8396A6394595983C46977A4363875B48666363889977AB0187761408778A7600000000000000000000000000000000000000004D044040"/>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Merciful" value="-1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Oligarchic" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_almohad_vicente_5" name="{=almohad_lord_de_vicente_5}Ceyt Edris" age="29" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29" weight="0.3243" build="0.5676" key="0020A00B8070288F8C6474A946556598799C977A43638758A5989B36A98A8738019956130941CB740000000000000000000000000000000000000000552C1102"/>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Merciful" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Oligarchic" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_almohad_vicente_6" name="{=almohad_lord_de_vicente_6}Alda Ferrandis" age="22" voice="softspoken" is_female="true" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22" weight="0.1356" build="0.3586" key="0023B40D00704002998474A64A4858774599977A4363075B4748997B38ADC72700752603079E84B800000000000000000000000000000000000000005CE440C0"/>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="0"/>
+			<Trait id="Commander" value="0"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="9"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Merciful" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_almohad_vicente_7" name="{=almohad_lord_de_vicente_7}Fernando Perez" age="19" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19" weight="0.2343" build="0.3324" key="0026D00D8070248FFC64747B494B65987998977A436047FC6678BB528B557BDB009546030976B948000000000000000000000000000000000000000063247001"/>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="4"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Merciful" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_almohad_vicente_8" name="{=almohad_lord_de_vicente_8}Sancho Ferrandis" age="17" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="17" weight="0.2343" build="0.3324" key="0023DC0D807024859C64747B4D4F65984198B77A436047886678BB5285577585009546030976B948000000000000000000000000000000000000000063247001"/>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="2"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Merciful" value="2"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
