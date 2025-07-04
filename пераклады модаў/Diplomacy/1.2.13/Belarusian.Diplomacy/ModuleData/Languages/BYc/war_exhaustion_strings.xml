@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+
+
+
+  <strings>
+    <!--<string id="" text="" />-->
+    <string id="XmVTQ0bH" text="Стомленасьць ад Вайны" />
+
+    <string id="BXluvRnJ" text="Горкая Параза"/>
+    <string id="0aZCy0at" text="Вымушаны Мір" />
+
+    <string id="vLfbqXjq" text="Вашыя войскі і народ стаміліся ад вайны з гаспадарствам {ENEMY_KINGDOM} і адмовіліся ад змаганьня. Вы вымушаны прыняць умовы паразы і плаціць вайсковыя рэпарацыі ў памеры {REPARATIONS}{GOLD_ICON}. Гэтыя выдаткі будуць разьмеркаваны сярод усіх кланаў гаспадарства. {?ADD_TRIBUTE}Вы таксама абавязваецеся штодня плаціць даніну ў памеры {TRIBUTE}{GOLD_ICON}.{?}{\?}{?FIEFS_TO_RETURN_LIST.ANY}{NEW_LINE} {NEW_LINE}Апроч таго, трэба вярнуць {FIEFS_TO_RETURN_LIST.START}{?FIEFS_TO_RETURN_LIST.IS_PLURAL} і {?}{\?}{FIEFS_TO_RETURN_LIST.END} назад гаспадарству {ENEMY_KINGDOM}.{NEW_LINE} {NEW_LINE}{?} {\?}Ганьба паразы будзе каштаваць вам {INFLUENCE} уплыву."/>
+    <string id="ghZCj7hb" text="Пасьля таго як апошняя крэпасьць пала пад ударамі вашых ворагаў, вы болей ня можаце працягваць змаганьне з гаспадарствам {ENEMY_KINGDOM}. Вы вымушаны прыняць умовы паразы. {?TO_BE_DESTROYED}Расфармаваць сваё гаспадарства, бо болей ня маеце сродкаў і зямлі для існаваньня.{?}І плаціць вайсковыя рэпарацыі ў памеры {REPARATIONS}{GOLD_ICON}. Гэтыя выдаткі будуць разьмеркаваны сярод усіх кланаў гаспадарства. {?ADD_TRIBUTE}Вы таксама абавязваецеся штодня плаціць даніну ў памеры {TRIBUTE}{GOLD_ICON}. {?}{\?}Ганьба паразы будзе каштаваць вам {INFLUENCE} уплыву.{\?}" />
+    <string id="cKV5Jded" text="Войскі і народ гаспадарства {KINGDOM.NAME} стаміліся ад вайны з гаспадарствам {ENEMY_KINGDOM} і адмовіліся ад змаганьня. {KINGDOM_LEADER.NAME} {?KINGDOM_LEADER.GENDER}вымушана{?}вымушаны{\?} прыняць умовы паразы і плаціць вайсковыя рэпарацыі ў памеры {REPARATIONS}{GOLD_ICON} (гэтыя выдаткі будуць разьмеркаваны між усімі кланамі гаспадарства). {?ADD_TRIBUTE}{?KINGDOM_LEADER.GENDER}Яна{?}Ён{\?} абавязваецца штодня плаціць даніну ў памеры {TRIBUTE}{GOLD_ICON}.{?}{\?}{?FIEFS_TO_RETURN_LIST.ANY}{NEW_LINE} {NEW_LINE}Апроч таго, {KINGDOM_LEADER.NAME} вярнуць {FIEFS_TO_RETURN_LIST.START}{?FIEFS_TO_RETURN_LIST.IS_PLURAL} і {?}{\?}{FIEFS_TO_RETURN_LIST.END} назад гаспадарству {ENEMY_KINGDOM}.{NEW_LINE} {NEW_LINE}{?} {\?}Ганьба паразы будзе каштаваць {?KINGDOM_LEADER.GENDER}ёй{?}яму{\?} {INFLUENCE} уплыву." />
+    <string id="idAcjzXB" text="Пасьля таго як апошняя крэпасьць пала пад ударамі вашых ворагаў, вы болей ня можаце працягваць змаганьне з гаспадарствам {ENEMY_KINGDOM}. {KINGDOM_LEADER.NAME} {?KINGDOM_LEADER.GENDER}вымушана{?}вымушаны{\?} прыняць умовы паразы. {?TO_BE_DESTROYED}Расфармаваць сваё гаспадарства, бо болей ня маеце сродкаў і зямлі для існаваньня.{?} І плаціць вайсковыя рэпарацыі ў памеры {REPARATIONS}{GOLD_ICON} (гэтыя выдаткі будуць разьмеркаваны між усімі кланамі гаспадарства). {?ADD_TRIBUTE}{?KINGDOM_LEADER.GENDER}Яна{?}Ён{\?} абавязваецца штодня плаціць даніну ў памеры {TRIBUTE}{GOLD_ICON}.{?}{\?}Ганьба паразы будзе каштаваць {?KINGDOM_LEADER.GENDER}ёй{?}яму{\?} {INFLUENCE} уплыву.{\?}" />
+    <string id="a3W5zKQr" text="Войскі і народы абодвух гаспадарстваў {KINGDOM.NAME} і {ENEMY_KINGDOM} стаміліся ад вайны і адмовіліся ад змаганьня. Няма іншага выйсьця, апроч мірнай дамовы {?TO_BE_DESTROYED}, але без зямлі і сродкаў да існаваньня, {?IS_REBELLION}вашае паўстаньне скончана{?}вашае гаспадарства расфармавана{\?}{?}{\?}." />
+
+    <string id="6eTtSKO4" text="У сьвятле апошніх падзей стала ясна, што паўстаньне гаспадарства {REBEL_KINGDOM} пасьпяховае і далейшы супраціў марны. Прыйшоў час прызнаць паразу, {?TO_BE_DESTROYED} і нават расфармаваць сваё гаспадарства, бо яно ня мае зямлі ды сродкаў да існаваньня, {?} і даць вашаму падзеленаму спустошанаму гаспадарству жыць у міры{\?}." />
+    <string id="2ptArJem" text="У сьвятле апошніх падзей стала ясна, што вашае паўстаньне няўдалае. Прыйшоў час прызнаць паразу і даць падзеленаму змучанаму вайной гаспадарству {ORIGINAL_KINGDOM} шанец на ўз'яднаньне." />
+
+    <string id="HWiDa4R1" text="Войскі і народ гаспадарства {KINGDOM.NAME} стаміліся ад вайны з гаспадарствам {PLAYER_KINGDOM} і адмовіліся ад змаганьня.{NEW_LINE} {NEW_LINE}{KINGDOM_LEADER.NAME} прапаноўвае мірную дамову і абавязваецца плаціць вайсковыя рэпарацыі ў памеры {REPARATIONS}{GOLD_ICON}.{?ADD_TRIBUTE}{?KINGDOM_LEADER.GENDER}Яна{?}Ён{\?} абавязваецца штодня плаціць даніну ў памеры {TRIBUTE}{GOLD_ICON}.{?}{\?}{?FIEFS_TO_RETURN_LIST.ANY}{NEW_LINE} {NEW_LINE}Апроч таго, {KINGDOM_LEADER.NAME} вяртае {FIEFS_TO_RETURN_LIST.START}{?FIEFS_TO_RETURN_LIST.IS_PLURAL} і {?}{\?}{FIEFS_TO_RETURN_LIST.END} назад гаспадарству {PLAYER_KINGDOM}.{?}{\?}" />
+    <string id="t0ZS9maD" text="Пасьля таго як апошняя крэпасьць пала пад ударамі, Гаспадарства {KINGDOM.LINK} болей ня можа працягваць змаганьне з гаспадарствам {PLAYER_KINGDOM}.{NEW_LINE} {NEW_LINE}{KINGDOM_LEADER.NAME} прапаноўвае мірную дамову. {?TO_BE_DESTROYED}З-за адсутнасьці зямлі і сродкаў на існаваньне, {?KINGDOM_LEADER.GENDER}яе{?}яго{\?} гаспадарства расфармоўваецца.{?} {?KINGDOM_LEADER.GENDER}Яна гатова{?}Ён гатовы{\?} плаціць вайсковыя рэпарацыі ў памеры {REPARATIONS}{GOLD_ICON}{?ADD_TRIBUTE} і штодзённую даніну ў памеры TRIBUTE}{GOLD_ICON}.{?}{\?}{\?}" />
+    <string id="ZrwszZww" text=" Войскі і народы абодвух гаспадарстваў {KINGDOM.NAME} і {PLAYER_KINGDOM} стаміліся ад вайны і адмовіліся ад змаганьня.{NEW_LINE} {NEW_LINE}{KINGDOM_LEADER.NAME} прапаноўвае мірную дамову. {?TO_BE_DESTROYED}Без зямлі і сродкаў да існаваньня, {?IS_REBELLION}іхняе паўстаньне скончана{?}іхняе гаспадарства расфармоўваецца{\?}{?} Без аніякіх іншых умоваў.{\?}." />
+    <string id="q02T8cyI" text="У сьвятле апошніх падзей стала ясна, што паўстаньне гаспадарства {REBEL_KINGDOM} няўдалае. Можа прыйшоў час пачуць іх мальбу міра і прабачэньня, ды даць свайму падзеленаму змучанаму вайной гаспадарству шанец на мірнае ўз'яднаньне?" />
+    <string id="PC5GdgKA" text="У сьвятле апошніх падзей стала ясна, што вашае паўстаньне супраць гаспадарства {ORIGINAL_KINGDOM.NAME} пасьпяховае - нават {ORIGINAL_KINGDOM_LEADER.NAME} вызнае гэтае! Можа прыйшоў час пачуць іх мальбу міра і дасягнуць сваіх мэтаў?" />
+    <string id="13G0c8RE" text="Улічваючы, наколькі моцна вашае гаспадарства пацярпела ад вайны, вы ня маеце іншага выйсьця, апроч як прыняць мір." />
+
+    <!-- Report -->
+    <string id="mCue7aFc" text="Вайсковая Справаздача" />
+    <string id="hfa8LLqD" text="Фракцыя {EXHAUSTED_FACTION} крытычна зьнясілена вайной з фракцыяй {OTHER_FACTION}. Іхнія здольнасьць працягваць гэтую вайну знаходзіцца на мяжы, {?IS_CIVIL_WAR}яны ўсё больш і больш разумеюць непазьбежнасьць мірнай дамовы{?}яны ўсё больш і больш адкрытыя мірнай дамове{\?}, па меры набліжэньня стомленасьці вайны да свайго максімуму." />
+    <string id="k0Dnf6cU" text="Зьвязана з актыўным квэстам!" />
+    <string id="xPHDtsC1" text="Маецца актыўны квэст, які пазьбягае заўчаснае завяршэньне вайны. Для забесьпячэньня стабільнасьці, стомленасьць ад вайны ні пры якіх умовах ня будзе перасягаць {CRITICAL_THRESHOLD}% для кожнага боку." />
+    <string id="xoY6cYDK" text="Была зьвязана з актыўным квэстам!" />
+    <string id="UvjMFpHs" text="Меўся актыўны квэст, які не дазваляў гэтай вайне скончыцца заўчасна. У выніку, усплыўныя лічбы справаздачы могуць не супадаць з агульнымі значэньнямі стомленасьці ад вайны." />
+    <string id="hAoIC2Iq" text="Дата Пачатку: {START_DATE}" />
+    <string id="qHrihV27" text="Працягласьць Вайны: {WAR_DURATION} дзён" />
+    <!-- Report breakdowns -->
+    <string id="IlFEeNkY" text="Справаздача Вайсковай Стомленасьці" />
+    <string id="zYVH0xYa" text="Ахвяры" />
+    <string id="y7XY860U" text="Караванаў Разрабавана" />
+    <string id="elRjo1ab" text="Вёсак Разрабавана" />
+    <string id="DrNBDhx3" text="Воласьцяў Страчана" />
+    <string id="X1MIWYzy" text="Герояў Запалонена" />
+    <string id="6FLtWxSp" text="Герояў Памёрла" />
+    <string id="sCRuliNO" text="Цалкам Акупавана" />
+    <string id="XIPMI3gR" text="Працягласьць Вайны" />
+    <string id="FVyFJShW" text="Боскія Ўмяшаньні" />
+    <string id="1kGleqyk" text="Выніковая вайск. стомлен." />
+    <string id="i5VSEDE3" text="{START_DATE} - {END_DATE}: {?COUNT.PLURAL_FORM}Вынік {COUNT} папярэдніх запісаў{?}{COUNT} папярэдні запіс{\?}" />
+
+    <string id="fnPa5bas" text="ваяры гарнізону" />
+    <string id="rwFeQWky" text="Караван Гаспадарства {KINGDOM_NAME}" />
+
+    <!-- Event records -->
+    <string id="Toa6V7RL" text="{START_DATE} - {END_DATE}: {PER_DAY_VALUE}% за кожны дзень напрацягу {VALUE} {?VALUE.PLURAL_FORM}поўных дзён{?}поўнага дня{\?}" />
+    <string id="wMVdLssJ" text="{START_DATE} - {END_DATE}: {PER_DAY_VALUE}% за кожны дзень напрацягу {VALUE} {?VALUE.PLURAL_FORM}поўных дзён{?}поўнага дня{\?} падчас адсутнасьці воласьцяў" />
+    <string id="0nTpub9S" text="{START_DATE} - {END_DATE}: {VALUE} {?VALUE.PLURAL_FORM}вайсковых ахвяраў{?}вайсковая ахвяра{\?}" />
+    <string id="SeWNvf1N" text="{DATE_STR}: {VALUE} {?VALUE.PLURAL_FORM}ахвяраў у{?}ахвяра ў{\?} бітве паміж {FACTION_PARTY} і {OTHER_FACTION_PARTY}" />
+    <string id="9V6S05X3" text="{DATE_STR}: {VALUE} {?VALUE.PLURAL_FORM}ахвяраў у{?}ахвяра ў{\?} бітве за {SETTLEMENT} паміж {FACTION_PARTY} і {OTHER_FACTION_PARTY}" />
+    <string id="vhBKtne1" text="{DATE_STR}: {RAIDED_CARAVAN} разрабаваны {OTHER_FACTION_PARTY}" />
+    <string id="Hnxf9Ox3" text="{DATE_STR}: Вёска {RAIDED_VILLAGE} разрабавана {OTHER_FACTION_PARTY}" />
+    <string id="SXhzqm2N" text="{DATE_STR}: Вёска {RAIDED_VILLAGE} разрабавана {OTHER_FACTION_PARTY} (уплыў ад скарачальнага вяртаньня)" />
+    <string id="6cSuGG87" text="{DATE_STR}: Селішча {SETTLEMENT.NAME} пад абаронай {FACTION_PARTY} было захоплена {OTHER_FACTION_PARTY} ({?SETTLEMENT.IS_CASTLE}замак{?}{\?})" />
+    <string id="fuaTMWpt" text="{DATE_STR}: Селішча {SETTLEMENT.NAME} пад абаронай {FACTION_PARTY} было захоплена назад {OTHER_FACTION_PARTY} ({?SETTLEMENT.IS_CASTLE}замак, {?}{\?}уплыў ад скарачальнага вяртаньня)" />
+    <string id="yRvZ37cx" text="{DATE_STR}: {HERO} трапляе ў палон {OTHER_FACTION_PARTY}" />
+    <string id="i2Moqprl" text="{DATE_STR}: {HERO} трапляе ў палон {OTHER_FACTION_PARTY} (уплыў ад скарачальнага вяртаньня)" />
+    <string id="QkSVPgDF" text="{DATE_STR}: {HERO} памірае ад натуральных прычын{?YIELDS_DIMINISHING_RETURNS} (уплыў ад скарачальнага вяртаньня){?}{\?}" />
+    <string id="S0lkYB5P" text="{DATE_STR}: {OTHER_FACTION_PARTY} забівае {HERO}{?YIELDS_DIMINISHING_RETURNS} (уплыў ад скарачальнага вяртаньня){?}{\?}" />
+    <string id="f6OIFaSj" text="{DATE_STR}: {HERO} памірае падчас родаў{?YIELDS_DIMINISHING_RETURNS} (уплыў ад скарачальнага вяртаньня){?}{\?}" />
+    <string id="PmOPed8Y" text="{DATE_STR}: {HERO} памірае з-за старасьці{?YIELDS_DIMINISHING_RETURNS} (уплыў ад скарачальнага вяртаньня){?}{\?}" />
+    <string id="Pp6wYS5m" text="{DATE_STR}: {HERO} памірае ў бітве з {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (уплыў ад скарачальнага вяртаньня){?}{\?}" />
+    <string id="QvGjUrmL" text="{DATE_STR}: {HERO} памірае ад ранаў пасьля бою з {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (уплыў ад скарачальнага вяртаньня){?}{\?}" />
+    <string id="5tBkM1O4" text="{DATE_STR}: {OTHER_FACTION_PARTY} карае сьмерцю {HERO}{?YIELDS_DIMINISHING_RETURNS} (уплыў ад скарачальнага вяртаньня){?}{\?}" />
+    <string id="moeUCyaq" text="{DATE_STR}: {HERO} зьнікае бяз зьвестак падчас бою з {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (уплыў ад скарачальнага вяртаньня){?}{\?}" />
+    <string id="VB1xpuMA" text="{DATE_STR}: {OTHER_FACTION} цалкам акупуе {FACTION}" />
+    <string id="X9wHA6q3" text="{DATE_STR}: {OTHER_FACTION} цалкам акупуе {FACTION} (уплыў ад скарачальнага вяртаньня)" />
+    <string id="9vOZJpPu" text="{DATE_STR}: Стомленасьць ад вайны фракцыі {FACTION} была дзівосным чынам зьменшана (гавораць з-за боскага ўмяшаньня)" />
+    <string id="S5tDXkgK" text="{DATE_STR}: Пляткараць, нейкія таямнічыя сілы спрабавалі паўплываць на вайсковыя дзеяньні {FACTION}, але, здаецца, нічога не зьмянілася" />
+    <string id="fJE6Y9mB" text="{DATE_STR}: Супольнасьць фракцыі {FACTION} зьнянацку страціла жаданьне змагацца (гавораць з-за боскага ўмяшаньня)" />
+
+    <!-- Settings -->
+    <string id="V542tneW" text="Стомленасьць ад Вайны" />
+    <string id="lSttctYC" text="Уключыць Стомленасьць ад Вайны" />
+    <string id="Cxyn9ROT" text="Уключае механіку стомленасьці ад вайны. Прадвызначана: уключыць." />
+    <string id="Yc2YUIva" text="Уключыць Скарачальнае Вяртаньне" />
+    <string id="CaxxEEdC" text="Уключае механіку скарачальнага вяртаньня дзеля часткі падзеяў падчас падліку стомленасьці ад вайны. Прадвызначана: уключыць." />
+    <string id="HPFINWrc" text="Асабовыя Каэфіцыенты Стомленасьці ад Вайны" />
+    <string id="LFVkLcIp" text="Уключае асабовыя каэфіцыенты стомленасьці ад вайны для фракцыяў. Калі адключана, то для кожнай вайны будзе разьлічвацца адзіны паказьнік, заснаваны на сумарнай моцы варожых фракцыяў. Прадвызначана: уключыць." />
+    <string id="gW3eVr5E" text="Уключыць Вяртаньне Воласьцяў" />
+    <string id="KEi0UykN" text="Калі ўключана, то пасьля значнай паразы ў вайне гаспадарствы будуць вымушаны вяртаць частку захопленных воласьцяў назад пачатковым ўласьнікам. Прадвызначана: уключыць." />
+    <string id="8TFQWL55" text="Штодзённая Стомленасьць ад Вайны" />
+    <string id="lgza5wDq" text="Падчас вайны штодзень будзе дадавацца стомленасьць ад вайны. Не залежыць ад роўня каэфіцыента стомленасьці ад вайны. Прадвызначана: 0.25%." />
+    <string id="PAmPVWgD" text="Множнік бяз Воласьцяў" />
+    <string id="SdjYeYM5" text="Множнік штодзённай колькасьці стомленасьці ад вайны для фракцыяў бяз воласьцяў у параўнаньні з фракцыямі, што маюць воласьці. Прадвызначана: 10." />
+    <string id="s6dNpM6M" text="Вайсковай Стомленасьці за Кожную Ахвяру" />
+    <string id="NcJtGeM7" text="Колькасьць вайсковай стомленасьці, што дадаецца за кожную баявую ахвяру фракцыі. Прадвызначана: 0.02%." />
+    <string id="kr5zAufg" text="Вайсковай Стомленасьці за Кожны Разрабаваны Караван" />
+    <string id="PinVMCUE" text="Колькасьць вайсковай стомленасьці, што дадаецца за кожны разрабаваны караван фракцыі. Прадвызначана: 2.0%." />
+    <string id="qFJ23KxQ" text="Вайсковай Стомленасьці за Кожнага Запалоненага Героя" />
+    <string id="wctCn9uO" text="Колькасьць вайсковай стомленасьці, што дадаецца за кожнага запалоненага шляхетнага героя фракцыі. Узьдзейнічае значнасьць героя для фракцыі. Патэнцыйная схільнасьць да скарачальнага вяртаньня. Прадвызначана: 1.0%." />
+    <string id="4vTzbsXD" text="Вайсковай Стомленасьці за Кожнага Забітага Героя" />
+    <string id="w80tUaVd" text="Колькасьць вайсковай стомленасьці, што дадаецца за кожнага забітага шляхетнага героя фракцыі. Узьдзейнічае значнасьць героя для фракцыі. Патэнцыйная схільнасьць да скарачальнага вяртаньня падчас забостваў некалькіх герояў аднога клану. Прадвызначана: 5.0%." />
+    <string id="eWVGwf2m" text="Вайсковай Стомленасьці за Кожнае Рабаваньне Вёскі" />
+    <string id="ufHDJt8H" text="Колькасьць вайсковай стомленасьці, што дадаецца за кожную разрабаваную вёску фракцыі. Патэнцыйная схільнасьць да скарачальнага вяртаньня. Прадвызначана: 3.0%." />
+    <string id="gGIaLKHk" text="Вайсковай Стомленасьці за Кожнае Страчанае Селішча" />
+    <string id="mCEa773h" text="Колькасьць вайсковай стомленасьці, што дадаецца за кожны страчаны горад фракцыі. Страта замка дадае палову вайсковай стомленасьці. Патэнцыйная схільнасьць да скарачальнага вяртаньня. Прадвызначана: 10.0%." />
+    <string id="JmUPtZdw" text="Вайсковай Стомленасьці Пасьля Акупацыі" />
+    <string id="541jGrpb" text="Колькасьць вайсковай стомленасьці, што дадаецца пасьля страты ўсіх воласьцяў фракцыі. Не ўзьдзейнічае каэфіцыент вайсковай стомленасьці. Патэнцыйная схільнасьць да скарачальнага вяртаньня. Прадвызначана: 15.0%." />
+    <string id="pPHLRIml" text="Максімум Запісаў Ува Ўсплыўнай Падказкі" />
+    <string id="YMf0mSqy" text="Максімальная колькасьць запісаў ува ўсякай усплыўнай падказцы для справаздачы вайсковай стомленасьці. Усталюйце любое зручнае для прагляду значэньне. Прадвызначана: 35." />
+    <string id="F4iFH6un" text="Віджэт Мапы Кампаніі" />
+    <string id="zTvbZ8Br" text="Уключае віджэт вайсковай стомленасьці для кожнай цяперашней вайны ў верхняй частцы экрана мапы кампаніі. Прадвызначана: уключана." />
+    <string id="jI9NSxtz" text="Уключыць Наладачныя Паведамленьні Вайсковай Стомленасьці для Гульца" />
+    <string id="LYyNbQds" text="Уключае наладачныя паведамленьні вайсковай стомленасьці, што дадаецца гаспадарству гульца. Прадвызначана: выключыць."/>
+
+  </strings>
+</base>
