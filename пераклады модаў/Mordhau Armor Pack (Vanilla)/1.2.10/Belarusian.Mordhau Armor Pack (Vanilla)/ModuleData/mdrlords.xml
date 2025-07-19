@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="mdrNPC1" name="{=mdrNPC1.name}Ashileia" age="22" voice="softspoken" is_hero="true" is_female="true" culture="Culture.empire" occupation="Lord" default_group="Cavalry">
+    <face>
+    <BodyProperties version="4" age="22.07" weight="0.0224" build="0.6073" key="00050400921430043E899541B076935694C78755E892A824CADB7EC18795071800B906030B45510100000000000000000000000000000000000000007D6C10C3"/>
+    </face>
+	<skills>
+		<skill id="Athletics" value="150"/>
+		<skill id="Riding" value="120"/>
+		<skill id="OneHanded" value="150"/>
+		<skill id="TwoHanded" value="300"/>
+		<skill id="Polearm" value="120"/>
+		<skill id="Bow" value="40"/>
+		<skill id="Crossbow" value="30"/>
+		<skill id="Throwing" value="30"/>
+		<skill id="Crafting" value="30"/>
+		<skill id="Tactics" value="110"/>
+		<skill id="Scouting" value="120"/>
+		<skill id="Leadership" value="150"/>
+		<skill id="Charm" value="200"/>
+		<skill id="Trade" value="50"/>
+		<skill id="Roguery" value="10"/>
+		<skill id="Steward" value="100"/>
+		<skill id="Medicine" value="40"/>
+		<skill id="Engineering" value="40"/>
+	</skills>
+	<Traits>
+		<Trait id="Honor" value="2"/>
+		<Trait id="Valor" value="0"/>
+		<Trait id="Mercy" value="2"/>
+		<Trait id="Generosity" value="2"/>
+		<Trait id="Calculating" value="-1"/>
+		<Trait id="Commander" value="10"/>
+		<Trait id="Politician" value="10"/>
+		<Trait id="Manager" value="10"/>
+		<Trait id="BalancedFightingSkills" value="10"/>
+	</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.fasword"/>
+				<equipment slot="Head" id="Item.kihead3"/>
+				<equipment slot="Cape" id="Item.macape"/>
+				<equipment slot="Body" id="Item.mabody3"/>
+				<equipment slot="Gloves" id="Item.mahand"/>
+				<equipment slot="Leg" id="Item.maleg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.fasword"/>
+				<equipment slot="Head" id="Item.kihead3"/>
+				<equipment slot="Cape" id="Item.macape"/>
+				<equipment slot="Body" id="Item.mabody3"/>
+				<equipment slot="Gloves" id="Item.mahand"/>
+				<equipment slot="Leg" id="Item.maleg"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>
