@@ -1,0 +1,1086 @@
+<?xml version="1.0"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+
+  <Item id="mdhead" name="{=mdhead.name}mordhau-Armet Plume" mesh="mdhead" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="mdhead2" name="{=mdhead2.name}mordhau-Regular Armet" mesh="mdhead2" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="mdbody" name="{=mdbody.name}mordhau-Fluted Cuirass Painted" mesh="mdbody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mdbody2" name="{=mdbody2.name}mordhau-Fluted Cuirass" mesh="mdbody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mdbody3" name="{=mdbody3.name}mordhau-Fluted Cuirass Painted" mesh="mdbody3" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mdbody4" name="{=mdbody4.name}mordhau-Fluted Cuirass" mesh="mdbody4" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mdcape" name="{=mdcape.name}mordhau-Fluted Knight Pauldrons" mesh="mdcape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mdcape2" name="{=mdcape2.name}mordhau-Fluted Knight Pauldrons" mesh="mdcape2" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mdcape3" name="{=mdcape3.name}mordhau-Fluted Knight Pauldrons" mesh="mdcape3" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="mdhand" name="{=mdhand.name}mordhau-Fluted Segmented Gauntlets" mesh="mdhand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="mdleg" name="{=mdleg.name}mordhau-Fluted Legs" mesh="mdleg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="dahead" name="{=dahead.name}mordhau-Dragon Helmet Plume" mesh="dahead" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="dahead2" name="{=dahead2.name}mordhau-Dragon Helmet Crest" mesh="dahead2" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="dahead3" name="{=dahead3.name}mordhau-Dragon Helmet Basic" mesh="dahead3" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="dabody" name="{=dabody.name}mordhau-Dragon Cuirass" mesh="dabody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="dabody2" name="{=dabody2.name}mordhau-Dragon Cuirass" mesh="dabody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="dabody3" name="{=dabody3.name}mordhau-Dragon Cuirass" mesh="dabody3" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="dacape" name="{=dacape.name}mordhau-Dragon Pauldrons" mesh="dacape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="dacape2" name="{=dacape2.name}mordhau-Dragon Pauldrons" mesh="dacape2" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="dacape3" name="{=dacape3.name}mordhau-Dragon Pauldrons" mesh="dacape3" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="dahand" name="{=dahand.name}mordhau-Dragon Gauntlets" mesh="dahand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="daleg" name="{=daleg.name}mordhau-Dragon Legs" mesh="daleg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="johead" name="{=johead.name}mordhau-Joust Helm Plume" mesh="johead" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="johead2" name="{=johead2.name}mordhau-Joust Helm" mesh="johead2" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="jobody" name="{=jobody.name}mordhau-Joust Cuirass" mesh="jobody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="jobody2" name="{=jobody2.name}mordhau-Joust Cuirass" mesh="jobody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="jocape" name="{=jocape.name}mordhau-Joust Spaulders Rondels" mesh="jocape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="jocape2" name="{=jocape2.name}mordhau-Joust Spaulders" mesh="jocape2" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="johand" name="{=johand.name}mordhau-Joust Gauntlets" mesh="johand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="joleg" name="{=joleg.name}mordhau-Joust Legs" mesh="joleg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="auhead" name="{=auhead.name}mordhau-Archduke's Heavy Sallet With Antlers" mesh="auhead" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="auhead2" name="{=auhead2.name}mordhau-Archduke's Heavy Sallet" mesh="auhead2" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="aubody" name="{=aubody.name}mordhau-Archduke's Cuirass" mesh="aubody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="aubody2" name="{=aubody2.name}mordhau-Archduke's Cuirass" mesh="aubody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="aucape" name="{=aucape.name}mordhau-Archduke's Pauldrons With Rondels" mesh="aucape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="aucape2" name="{=aucape2.name}mordhau-Archduke's Pauldrons" mesh="aucape2" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="auhand" name="{=auhand.name}mordhau-Archduke's Gauntlets" mesh="auhand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="auleg" name="{=auleg.name}mordhau-Archduke's Legs" mesh="auleg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mahead" name="{=mahead.name}mordhau-Maximilia Armet With Plume" mesh="mahead" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="mahead2" name="{=mahead2.name}mordhau-Maximilia Armet" mesh="mahead2" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="mabody" name="{=mabody.name}mordhau-Decorated Maximilia Cuirass" mesh="mabody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mabody2" name="{=mabody2.name}mordhau-Decorated Maximilia Cuirass Without Faulds" mesh="mabody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mabody3" name="{=mabody3.name}mordhau-Decorated Maximilia Cuirass" mesh="mabody3" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="macape" name="{=macape.name}mordhau-Maximilia Pauldrons" mesh="macape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="mahand" name="{=mahand.name}mordhau-Maximilia Gauntlets" mesh="mahand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="maleg" name="{=maleg.name}mordhau-Maximilia Leggings" mesh="maleg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="kihead" name="{=kihead.name}mordhau-Champion's Barbute" mesh="kihead" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="kihead2" name="{=kihead2.name}mordhau-Royal Helmet" mesh="kihead2" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="kihead3" name="{=kihead3.name}mordhau-Leaf Crown" mesh="kihead3" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="60" body_armor="50" has_gender_variations="false" hair_cover_type="none" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="kihead4" name="{=kihead4.name}mordhau-Jeweled War Crown" mesh="kihead4" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="60" body_armor="50" has_gender_variations="false" hair_cover_type="none" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="kibody" name="{=kibody.name}mordhau-Florentine Cuirass" mesh="kibody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="kibody2" name="{=kibody2.name}mordhau-Florentine Cuirass" mesh="kibody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="kibody3" name="{=kibody3.name}mordhau-Maximilian Cuirass" mesh="kibody3" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="kibody4" name="{=kibody4.name}mordhau-Maximilian Cuirass Painted" mesh="kibody4" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="kibody5" name="{=kibody5.name}mordhau-Maximilian Cuirass" mesh="kibody5" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="kibody6" name="{=kibody6.name}mordhau-Maximilian Cuirass Painted" mesh="kibody6" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="kicape" name="{=kicape.name}mordhau-Florentine Spaulders With Besagews" mesh="kicape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="kicape2" name="{=kicape2.name}mordhau-Shield Pauldrons" mesh="kicape2" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="kihand" name="{=kihand.name}mordhau-Supporter Gauntlets" mesh="kihand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="kihand2" name="{=kihand2.name}mordhau-Duke's Hourglass Gauntlets" mesh="kihand2" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="kileg" name="{=kileg.name}mordhau-Kasten Brust Legs" mesh="kileg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="ithead" name="{=ithead.name}mordhau-Itlian Armet Wrapper" mesh="ithead" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="ithead2" name="{=ithead2.name}mordhau-Itlian Armet" mesh="ithead2" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="itbody" name="{=itbody.name}mordhau-Itlian Cuirass" mesh="itbody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="itbody2" name="{=itbody2.name}mordhau-Itlian Cuirass Painted" mesh="itbody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="itbody3" name="{=itbody3.name}mordhau-Itlian Cuirass" mesh="itbody3" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="itbody4" name="{=itbody4.name}mordhau-Itlian Cuirass Painted" mesh="itbody4" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="itcape" name="{=itcape.name}mordhau-Itlian Pauldrons" mesh="itcape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="ithand" name="{=ithand.name}mordhau-Itlian Gauntlets" mesh="ithand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="itleg" name="{=itleg.name}mordhau-Itlian Leg Harness" mesh="itleg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="sohead" name="{=sohead.name}mordhau-Veteran's Barbute Trim" mesh="sohead" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="sobody" name="{=sobody.name}mordhau-Veteran's Cuirass" mesh="sobody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="sobody2" name="{=sobody2.name}mordhau-Veteran's Cuirass" mesh="sobody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="socape" name="{=socape.name}mordhau-Veteran's Pauldrons Trim" mesh="socape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="socape2" name="{=socape2.name}mordhau-Veteran's Pauldrons Trim" mesh="socape2" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="sohand" name="{=sohand.name}mordhau-Veteran's Folded Gloves" mesh="sohand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="45" covers_hands="true" modifier_group="leather" material_type="Leather"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="soleg" name="{=soleg.name}mordhau-Veteran's Cuisses" mesh="soleg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="lihead" name="{=lihead.name}mordhau-Point Armet" mesh="lihead" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="libody" name="{=libody.name}mordhau-Elizabethan Cuirass" mesh="libody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="libody2" name="{=libody2.name}mordhau-Elizabethan Cuirass Painted" mesh="libody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="libody3" name="{=libody3.name}mordhau-Elizabethan Cuirass" mesh="libody3" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="libody4" name="{=libody4.name}mordhau-Elizabethan Cuirass Painted" mesh="libody4" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="licape" name="{=licape.name}mordhau-Knight Pauldrons" mesh="licape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="licape2" name="{=licape2.name}mordhau-Knight Pauldrons" mesh="licape2" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="licape3" name="{=licape3.name}mordhau-Knight Pauldrons" mesh="licape3" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="lihand" name="{=lihand.name}mordhau-Fanned Segmented Gauntlets" mesh="lihand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="65" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="lileg" name="{=lileg.name}mordhau-Elizabethan Leggings" mesh="lileg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="crhead" name="{=crhead.name}mordhau-Greathelm Cloak" mesh="crhead" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="crhead2" name="{=crhead2.name}mordhau-Painted Barbute Visor" mesh="crhead2" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="crhead3" name="{=crhead3.name}mordhau-Barbute Visor" mesh="crhead3" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="crhead4" name="{=crhead4.name}mordhau-Winged Greathelm" mesh="crhead4" culture="Culture.empire" weight="3.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="crbody" name="{=crbody.name}mordhau-Drape Cuirass" mesh="crbody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="crbody2" name="{=crbody2.name}mordhau-Breastplate Over Jupon" mesh="crbody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="crcape" name="{=crcape.name}mordhau-Florentine Spaulders" mesh="crcape" culture="Culture.empire" weight="3.3" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="crhand" name="{=crhand.name}mordhau-Hourglass Gauntlets" mesh="crhand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mehead" name="{=mehead.name}mordhau-Landsknecht Hat Feather" mesh="mehead" culture="Culture.empire" weight="1.4" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="35" body_armor="20" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="none" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="mebody" name="{=mebody.name}mordhau-Landsknecht Shirt" mesh="mebody" culture="Culture.empire" weight="6.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="25" leg_armor="10" arm_armor="10" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mebody2" name="{=mebody2.name}mordhau-Maximilian Cuirass" mesh="mebody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mebody3" name="{=mebody3.name}mordhau-Maximilian Cuirass Painted" mesh="mebody3" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="meleg" name="{=meleg.name}mordhau-Landsknecht Puffy Pants" mesh="meleg" culture="Culture.empire" weight="1.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="35" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="arhead" name="{=arhead.name}mordhau-Maille Hood Lowered" mesh="arhead" culture="Culture.empire" weight="1.8" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="arhead2" name="{=arhead2.name}mordhau-Eisenhut" mesh="arhead2" culture="Culture.empire" weight="2.8" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="arbody" name="{=arbody.name}mordhau-Hauberk" mesh="arbody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="85" leg_armor="60" arm_armor="60" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="arleg" name="{=arleg.name}mordhau-Chainmail Hosen" mesh="arleg" culture="Culture.empire" weight="1.8" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="60" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="pihead" name="{=pihead.name}mordhau-Spanish Kettle" mesh="pihead" culture="Culture.empire" weight="3.3" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="90" body_armor="60" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="pibody" name="{=pibody.name}mordhau-Cuirassier Chestplate" mesh="pibody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="picape" name="{=picape.name}mordhau-Cuirassier Pauldrons" mesh="picape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="pihand" name="{=pihand.name}mordhau-Cuirassier Gauntlets" mesh="pihand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="pileg" name="{=pileg.name}mordhau-Cuirassier Legs" mesh="pileg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="fahead" name="{=fahead.name}mordhau-Fallen Knight Helmet" mesh="fahead" culture="Culture.empire" weight="4.3" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="120" body_armor="110" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="fabody" name="{=fabody.name}mordhau-Fallen Knight Chestplate" mesh="fabody" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="fabody2" name="{=fabody2.name}mordhau-Fallen Knight Chestplate" mesh="fabody2" culture="Culture.empire" weight="16.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="120" leg_armor="110" arm_armor="110" covers_body="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="facape" name="{=facape.name}mordhau-Fallen Knight Pauldrons" mesh="facape" culture="Culture.empire" weight="3.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="65" arm_armor="20" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="fahand" name="{=fahand.name}mordhau-Fallen Knight Gauntlets" mesh="fahand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="fahand2" name="{=fahand2.name}mordhau-Fallen Knight Gauntlets" mesh="fahand2" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="80" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="faleg" name="{=faleg.name}mordhau-Fallen Knight Greaves" mesh="faleg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="80" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="wihead" name="{=wihead.name}mordhau-Arkanist Mask" mesh="wihead" culture="Culture.empire" weight="1.3" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="35" body_armor="20" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="wihead2" name="{=wihead2.name}mordhau-Arkanist Mask" mesh="wihead2" culture="Culture.empire" weight="1.8" appearance="3" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="35" body_armor="20" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item> 
+
+  <Item id="wibody" name="{=wibody.name}mordhau-Arkanist Robes" mesh="wibody" culture="Culture.empire" weight="6.1" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="25" leg_armor="10" arm_armor="15" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="wibody2" name="{=wibody2.name}mordhau-Arkanist Robes" mesh="wibody2" culture="Culture.empire" weight="6.2" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="25" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="wicape" name="{=wicape.name}mordhau-Arkanist Mantle" mesh="wicape" culture="Culture.empire" weight="1.5" appearance="3" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="15" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="wihand" name="{=wihand.name}mordhau-Arkanist Gloves" mesh="wihand" culture="Culture.empire" weight="2.5" appearance="3" Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="20" covers_hands="true" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+ <Item id="wileg" name="{=wileg.name}mordhau-Arkanist Legs" mesh="wileg" culture="Culture.empire" weight="2.5" appearance="3" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="25" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true" Civilian="true"/>
+  </Item>
+
+  <Item id="mdshield" name="{=mdshield.name}mordhau-Heater Shield" body_name="bo_mdshield" shield_body_name="bo_mdshield" recalculate_body="false" mesh="mdshield" using_tableau="true" weight="4.7" appearance="3" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.05,-0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="10" thrust_speed="100" thrust_damage="80" thrust_damage_type="Blunt" speed_rating="100" physics_material="wood_shield" item_usage="shield" position="0.02, 0.00, -0.02" rotation="0.0,10.0,40.00" weapon_length="110" center_of_mass="0.0,0.05,0.05" hit_points="550" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" CanKnockDown="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" ForceAttachOffHandSecondaryItemBone="true" HeldInOffHand="true" Civilian="false"/>
+  </Item>
+
+  <Item id="joshield" name="{=joshield.name}mordhau-Jousting Shield" body_name="bo_joshield" shield_body_name="bo_joshield" recalculate_body="false" mesh="joshield" using_tableau="true" weight="4.7" appearance="3" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.05,-0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="10" thrust_speed="100" thrust_damage="80" thrust_damage_type="Blunt" speed_rating="100" physics_material="wood_shield" item_usage="shield" position="0.02, 0.00, -0.02" rotation="0.0,10.0,40.00" weapon_length="90" center_of_mass="0.0,0.05,0.05" hit_points="550" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" CanKnockDown="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" ForceAttachOffHandSecondaryItemBone="true" HeldInOffHand="true" Civilian="false"/>
+  </Item>
+
+  <Item id="lishield" name="{=lishield.name}mordhau-Kite Shield" body_name="bo_lishield" shield_body_name="bo_lishield" recalculate_body="false" mesh="lishield" using_tableau="true" weight="4.7" appearance="3" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.05,-0.1,0">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield" body_armor="10" thrust_speed="100" thrust_damage="80" thrust_damage_type="Blunt" speed_rating="100" physics_material="wood_shield" item_usage="shield" position="0.02, 0.00, -0.02" rotation="0.0,10.0,40.00" weapon_length="176" center_of_mass="0.0,0.05,0.05" hit_points="750" modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true" CanKnockDown="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true" ForceAttachOffHandSecondaryItemBone="true" HeldInOffHand="true" Civilian="false"/>
+  </Item>
+
+  <CraftedItem id="mdsword" name="{=mdsword.name}mordhau-Renaissance Longsword" crafting_template="mdsword" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="mdsword1" Type="Blade" scale_factor="100"/>
+      <Piece id="mdsword2" Type="Guard" scale_factor="100"/>
+      <Piece id="mdsword3" Type="Handle"/>
+      <Piece id="mdsword4" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+ <CraftedItem id="dasword" name="{=dasword.name}mordhau-Dragon Greatsword" crafting_template="dasword" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="dasword1" Type="Blade" scale_factor="100"/>
+      <Piece id="dasword2" Type="Guard" scale_factor="100"/>
+      <Piece id="dasword3" Type="Handle"/>
+      <Piece id="dasword4" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+ <CraftedItem id="mdsword2" name="{=mdsword2.name}mordhau-Claymore" crafting_template="dasword" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="mdsword5" Type="Blade" scale_factor="100"/>
+      <Piece id="mdsword6" Type="Guard" scale_factor="100"/>
+      <Piece id="mdsword7" Type="Handle"/>
+      <Piece id="mdsword8" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="josword" name="{=josword.name}mordhau-Feather Damascus" crafting_template="josword" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="josword1" Type="Blade" scale_factor="100"/>
+      <Piece id="josword2" Type="Guard" scale_factor="100"/>
+      <Piece id="josword3" Type="Handle"/>
+      <Piece id="josword4" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="masword" name="{=masword.name}mordhau-Royal Guard Zweihander" crafting_template="masword" culture="Culture.empire" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="masword1" Type="Blade" scale_factor="100"/>
+      <Piece id="masword2" Type="Guard" scale_factor="100"/>
+      <Piece id="masword3" Type="Handle" scale_factor="100"/>
+      <Piece id="masword4" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="kisword" name="{=kisword.name}mordhau-Engraved Longsword" crafting_template="mdsword" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="kisword1" Type="Blade" scale_factor="100"/>
+      <Piece id="kisword2" Type="Guard" scale_factor="100"/>
+      <Piece id="kisword3" Type="Handle"/>
+      <Piece id="kisword4" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="kisword2" name="{=kisword2.name}mordhau-Knight's Engraved Sword" crafting_template="josword" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="kisword5" Type="Blade" scale_factor="100"/>
+      <Piece id="kisword6" Type="Guard" scale_factor="100"/>
+      <Piece id="kisword7" Type="Handle"/>
+      <Piece id="kisword8" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="kingsword" name="{=kingsword.name}mordhau-Deo Volente" crafting_template="mdsword" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="kingsword1" Type="Blade" scale_factor="100"/>
+      <Piece id="kingsword2" Type="Guard" scale_factor="100"/>
+      <Piece id="kingsword3" Type="Handle"/>
+      <Piece id="kingsword4" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="lisword" name="{=lisword.name}mordhau-Katzbalger" crafting_template="lisword" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="lisword1" Type="Blade" scale_factor="100"/>
+      <Piece id="lisword2" Type="Guard" scale_factor="100"/>
+      <Piece id="lisword3" Type="Handle"/>
+      <Piece id="lisword4" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="crsword" name="{=crsword.name}mordhau-Katzbalger" crafting_template="crsword" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="crsword1" Type="Blade" scale_factor="100"/>
+      <Piece id="crsword2" Type="Guard" scale_factor="100"/>
+      <Piece id="crsword3" Type="Handle"/>
+      <Piece id="crsword4" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="fasword" name="{=fasword.name}mordhau-Eden's Zweihander" crafting_template="masword" culture="Culture.empire" is_merchandise="true" modifier_group="sword">
+    <Pieces>
+      <Piece id="fasword1" Type="Blade" scale_factor="100"/>
+      <Piece id="fasword2" Type="Guard" scale_factor="100"/>
+      <Piece id="fasword3" Type="Handle" scale_factor="100"/>
+      <Piece id="fasword4" Type="Pommel" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="mdspear" name="{=mdspear.name}mordhau-Champion's Spear" crafting_template="mdspear" culture="Culture.empire" is_merchandise="true" modifier_group="polearm">
+    <Pieces>
+      <Piece id="mdspear1" Type="Blade" scale_factor="100"/>
+      <Piece id="mdspear2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="jospear" name="{=jospear.name}mordhau-Jousting Pike" crafting_template="jospear" culture="Culture.empire" is_merchandise="true" modifier_group="polearm">
+    <Pieces>
+      <Piece id="jospear1" Type="Blade" scale_factor="100"/>
+      <Piece id="jospear2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="auspear" name="{=auspear.name}mordhau-Archduke's Polehammer" crafting_template="auspear" culture="Culture.empire" is_merchandise="true" modifier_group="polearm">
+    <Pieces>
+      <Piece id="auspear1" Type="Blade" scale_factor="100"/>
+      <Piece id="auspear2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="kispear" name="{=kispear.name}mordhau-Sun Ray Spear" crafting_template="mdspear" culture="Culture.empire" is_merchandise="true" modifier_group="polearm">
+    <Pieces>
+      <Piece id="kispear1" Type="Blade" scale_factor="100"/>
+      <Piece id="kispear2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="itspear" name="{=itspear.name}mordhau-Duke's Poleaxe" crafting_template="itspear" culture="Culture.empire" is_merchandise="true" modifier_group="polearm">
+    <Pieces>
+      <Piece id="itspear1" Type="Blade" scale_factor="100"/>
+      <Piece id="itspear2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="sospear" name="{=sospear.name}mordhau-Brute" crafting_template="sospear" culture="Culture.empire" is_merchandise="true" modifier_group="polearm">
+    <Pieces>
+      <Piece id="sospear1" Type="Blade" scale_factor="100"/>
+      <Piece id="sospear2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="lispear" name="{=lispear.name}mordhau-Crude Bill" crafting_template="lispear" culture="Culture.empire" is_merchandise="true" modifier_group="polearm">
+    <Pieces>
+      <Piece id="lispear1" Type="Blade" scale_factor="100"/>
+      <Piece id="lispear2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="mespear" name="{=mespear.name}mordhau-Royal Guard Halberd" crafting_template="mespear" culture="Culture.empire" is_merchandise="true" modifier_group="polearm">
+    <Pieces>
+      <Piece id="mespear1" Type="Blade" scale_factor="100"/>
+      <Piece id="mespear2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="mdlance" name="{=mdlance.name}mordhau-Lance" crafting_template="mdlance" culture="Culture.empire" is_merchandise="true" modifier_group="polearm">
+    <Pieces>
+      <Piece id="mdlance1" Type="Blade" scale_factor="100"/>
+      <Piece id="mdlance2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="faspear" name="{=faspear.name}mordhau-Seraphim Spear" crafting_template="mdspear" culture="Culture.empire" is_merchandise="true" modifier_group="polearm">
+    <Pieces>
+      <Piece id="faspear1" Type="Blade" scale_factor="100"/>
+      <Piece id="faspear2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="wimace" name="{=wimace.name}mordhau-Arkanist Staff" crafting_template="wimace" culture="Culture.empire" modifier_group="mace">
+    <Pieces>
+      <Piece id="wimace1" Type="Blade" scale_factor="110"/>
+      <Piece id="wimace2" Type="Handle" scale_factor="100"/>
+    </Pieces>
+  </CraftedItem>
+
+  <Item id="mebow" name="{=mebow.name}mordhau-Hunter's Crossbow" body_name="bo_cross_bow_heavy" mesh="mebow" culture="Culture.empire" weight="2.0" appearance="3" difficulty="90" Type="Crossbow" AmmoOffset="0.0, 0.05, 0.25" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
+    <ItemComponent>
+      <Weapon weapon_class="Crossbow" ammo_class="Bolt" ammo_limit="1" thrust_speed="95" speed_rating="85" missile_speed="100" weapon_length="105" accuracy="100" thrust_damage="100" thrust_damage_type="Pierce" item_usage="crossbow" reload_phase_count="1" physics_material="metal_weapon" center_of_mass="0,0,0.4" modifier_group="crossbow">
+        <WeaponFlags RangedWeapon="true" HasString="true" CantReloadOnHorseback="true" CanPenetrateShield="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+ <Item id="mdhorse" name="{=mdhorse.name}mordhau-Plate Harness" mesh="mdhorse" is_merchandise="true" weight="26" appearance="3" Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="80" head_armor="75" arm_armor="75" leg_armor="58" mane_cover_type="all" tail_cover_type="none" maneuver_bonus="0" speed_bonus="0" charge_bonus="0" family_type="1" material_type="Plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  </Items>

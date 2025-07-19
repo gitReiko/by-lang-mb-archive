@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>  
+  
+   <CraftingPiece id="mdsword1" name="{=mdsword1.name}Renaissance Blade" tier="5" piece_type="Blade" mesh="mdsword1" culture="Culture.empire" length="117" weight="0.5">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="1.1"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="mdsword2" name="{=mdsword2.name}Renaissance Guard" tier="5" piece_type="Guard" mesh="mdsword2" culture="Culture.empire" length="12.3" weight="0.2">    
+<BuildData next_piece_offset="10" previous_piece_offset="2"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="mdsword3" name="{=mdsword3.name}Renaissance Handle" tier="5" piece_type="Handle" mesh="mdsword3" culture="Culture.empire" length="27.1" weight="0.1">
+<BuildData next_piece_offset="0" previous_piece_offset="2"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="mdsword4" name="{=mdsword4.name}Renaissance Pommel" tier="5" piece_type="Pommel" mesh="mdsword4" culture="Culture.empire" length="9.3" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="mdsword5" name="{=mdsword5.name}Claymore Blade" tier="5" piece_type="Blade" mesh="mdsword5" culture="Culture.empire" length="129" weight="0.5">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="1.2"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="mdsword6" name="{=mdsword6.name}Claymore Guard" tier="5" piece_type="Guard" mesh="mdsword6" culture="Culture.empire" length="19.8" weight="0.2">    
+<BuildData next_piece_offset="40" previous_piece_offset="-1"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="mdsword7" name="{=mdsword7.name}Claymore Handle" tier="5" piece_type="Handle" mesh="mdsword7" culture="Culture.empire" length="28.6" weight="0.1">
+<BuildData next_piece_offset="0" previous_piece_offset="2"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="mdsword8" name="{=mdsword8.name}Claymore Pommel" tier="5" piece_type="Pommel" mesh="mdsword8" culture="Culture.empire" length="8.4" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="dasword1" name="{=dasword1.name}Dragon Blade" tier="5" piece_type="Blade" mesh="dasword1" culture="Culture.empire" length="153" weight="0.5">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="1.1"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="dasword2" name="{=dasword2.name}Dragon Guard" tier="5" piece_type="Guard" mesh="dasword2" culture="Culture.empire" length="25.6" weight="0.2">    
+<BuildData next_piece_offset="30" previous_piece_offset="12"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="dasword3" name="{=dasword3.name}Dragon Handle" tier="5" piece_type="Handle" mesh="dasword3" culture="Culture.empire" length="34.8" weight="0.1">
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="dasword4" name="{=dasword4.name}Dragon Pommel" tier="5" piece_type="Pommel" mesh="dasword4" culture="Culture.empire" length="10.6" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="josword1" name="{=josword1.name}Feather Damascus Blade" tier="5" piece_type="Blade" mesh="josword1" culture="Culture.empire" length="91" weight="0.5">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="1.1"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="josword2" name="{=josword2.name}Feather Damascus Guard" tier="5" piece_type="Guard" mesh="josword2" culture="Culture.empire" length="12.4" weight="0.2">    
+<BuildData next_piece_offset="25" previous_piece_offset="2"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="josword3" name="{=josword3.name}Feather DamascusHandle" tier="5" piece_type="Handle" mesh="josword3" culture="Culture.empire" length="17.6" weight="0.1">
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="josword4" name="{=josword4.name}Feather Damascus Pommel" tier="5" piece_type="Pommel" mesh="josword4" culture="Culture.empire" length="9.6" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="masword1" name="{=masword1.name}Royal Guard Blade" tier="5" piece_type="Blade" mesh="masword1" culture="Culture.empire" length="197" weight="0.7">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="1.1"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanCrushThrough"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="masword2" name="{=masword2.name}Royal Guard Guard" tier="5" piece_type="Guard" mesh="masword2" culture="Culture.empire" length="15" weight="0.3">
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="masword3" name="{=masword3.name}Royal Guard Handle" tier="5" piece_type="Handle" mesh="masword3" culture="Culture.empire" length="46" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="masword4" name="{=masword4.name}Royal Guard Pommel" tier="5" piece_type="Pommel" mesh="masword4" culture="Culture.empire" length="12" weight="0.3">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="kisword1" name="{=kisword1.name}Engraved Blade" tier="5" piece_type="Blade" mesh="kisword1" culture="Culture.empire" length="129" weight="0.5">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="1.1"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="kisword2" name="{=kisword2.name}Engraved Guard" tier="5" piece_type="Guard" mesh="kisword2" culture="Culture.empire" length="4.2" weight="0.2">    
+<BuildData next_piece_offset="15" previous_piece_offset="2"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="kisword3" name="{=kisword3.name}Engraved Handle" tier="5" piece_type="Handle" mesh="kisword3" culture="Culture.empire" length="29.5" weight="0.1">
+<BuildData next_piece_offset="0" previous_piece_offset="2"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="kisword4" name="{=kisword4.name}Engraved Pommel" tier="5" piece_type="Pommel" mesh="kisword4" culture="Culture.empire" length="11.1" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="kisword5" name="{=kisword5.name}Knight's Engraved Blade" tier="5" piece_type="Blade" mesh="kisword5" culture="Culture.empire" length="93" weight="0.5">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="1.1"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="kisword6" name="{=kisword6.name}Knight's Engraved Guard" tier="5" piece_type="Guard" mesh="kisword6" culture="Culture.empire" length="6.7" weight="0.2">    
+<BuildData next_piece_offset="-8" previous_piece_offset="0"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="kisword7" name="{=kisword7.name}Knight's Engraved Handle" tier="5" piece_type="Handle" mesh="kisword7" culture="Culture.empire" length="18.9" weight="0.1">
+<BuildData next_piece_offset="0" previous_piece_offset="3"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="kisword8" name="{=kisword8.name}Knight's Engraved Pommel" tier="5" piece_type="Pommel" mesh="kisword8" culture="Culture.empire" length="7.7" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="kingsword1" name="{=kingsword1.name}Deo Volente Blade" tier="5" piece_type="Blade" mesh="kingsword1" culture="Culture.empire" length="123" weight="0.5">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="1.1"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="kingsword2" name="{=kingsword2.name}Deo Volente Guard" tier="5" piece_type="Guard" mesh="kingsword2" culture="Culture.empire" length="6.2" weight="0.2">    
+<BuildData next_piece_offset="15" previous_piece_offset="2"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="kingsword3" name="{=kingsword3.name}Deo Volente Handle" tier="5" piece_type="Handle" mesh="kingsword3" culture="Culture.empire" length="29.4" weight="0.1">
+<BuildData next_piece_offset="0" previous_piece_offset="2"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="kingsword4" name="{=kingsword4.name}Deo Volente Pommel" tier="5" piece_type="Pommel" mesh="kingsword4" culture="Culture.empire" length="8.6" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="lisword1" name="{=lisword1.name}Katzbalger Blade" tier="5" piece_type="Blade" mesh="lisword1" culture="Culture.empire" length="79.1" weight="0.5">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="1.1"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="lisword2" name="{=lisword2.name}Katzbalger Guard" tier="5" piece_type="Guard" mesh="lisword2" culture="Culture.empire" length="4.9" weight="0.2">    
+<BuildData next_piece_offset="12" previous_piece_offset="-2"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="lisword3" name="{=lisword3.name}Katzbalger Handle" tier="5" piece_type="Handle" mesh="lisword3" culture="Culture.empire" length="18.8" weight="0.1">
+<BuildData next_piece_offset="0" previous_piece_offset="2"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="lisword4" name="{=lisword4.name}Katzbalger Pommel" tier="5" piece_type="Pommel" mesh="lisword4" culture="Culture.empire" length="0.8" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="crsword1" name="{=crsword1.name}Katzbalger Blade" tier="5" piece_type="Blade" mesh="crsword1" culture="Culture.empire" length="124" weight="0.5">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Blunt" damage_factor="0.5"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="crsword2" name="{=crsword2.name}Katzbalger Guard" tier="5" piece_type="Guard" mesh="crsword2" culture="Culture.empire" length="2.8" weight="0.2">    
+<BuildData next_piece_offset="-15" previous_piece_offset="5"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="crsword3" name="{=crsword3.name}Katzbalger Handle" tier="5" piece_type="Handle" mesh="crsword3" culture="Culture.empire" length="33.9" weight="0.1">
+<BuildData next_piece_offset="0" previous_piece_offset="0"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="crsword4" name="{=crsword4.name}Katzbalger Pommel" tier="5" piece_type="Pommel" mesh="crsword4" culture="Culture.empire" length="8.9" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="fasword1" name="{=fasword1.name}Eden's Blade" tier="5" piece_type="Blade" mesh="fasword1" culture="Culture.empire" length="151" weight="0.7">
+    <StatContributions armor_bonus="3" thrust_damage_bonus="2"/>
+    <BladeData physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="1.2"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanCrushThrough"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="fasword2" name="{=fasword2.name}Eden's Guard" tier="5" piece_type="Guard" mesh="fasword2" culture="Culture.empire" length="17.8" weight="0.3">
+<BuildData next_piece_offset="10" previous_piece_offset="5"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="fasword3" name="{=fasword3.name}Eden's Handle" tier="5" piece_type="Handle" mesh="fasword3" culture="Culture.empire" length="40" weight="0.2">
+<BuildData next_piece_offset="0" previous_piece_offset="5"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="fasword4" name="{=fasword4.name}Eden's Pommel" tier="5" piece_type="Pommel" mesh="fasword4" culture="Culture.empire" length="8.6" weight="0.3">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="mdspear1" name="{=mdspear1.name}Champion's Head" tier="5" piece_type="Blade" mesh="mdspear1" length="118" weight="0.8" culture="Culture.empire">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="1.2"/>
+      <Swing damage_type="Cut" damage_factor="1.1"/>
+    </BladeData>
+   <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanDismount"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="mdspear2" name="{=mdspear2.name}Champion's Handle" tier="5" piece_type="Handle" mesh="mdspear2" length="179" weight="0.7" culture="Culture.empire">
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="jospear1" name="{=jospear1.name}Jousting Head" tier="5" piece_type="Blade" mesh="jospear1" length="118" weight="0.8" culture="Culture.empire">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="1.2"/>
+    </BladeData>
+   <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanDismount"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="jospear2" name="{=jospear2.name}Jousting Handle" tier="5" piece_type="Handle" mesh="jospear2" length="179" weight="0.7" culture="Culture.empire">
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="auspear1" name="{=auspear1.name}Archduke's Head" tier="5" piece_type="Blade" mesh="auspear1" length="75" weight="1" culture="Culture.empire">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="0.9"/>
+      <Swing damage_type="Blunt" damage_factor="1.2"/>
+    </BladeData>
+   <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanCrushThrough"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="auspear2" name="{=auspear2.name}Archduke's Handle" tier="5" piece_type="Handle" mesh="auspear2" length="183" weight="1" culture="Culture.empire">
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="kispear1" name="{=kispear1.name}Sun Ray Head" tier="5" piece_type="Blade" mesh="kispear1" length="95.8" weight="0.8" culture="Culture.empire">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="1.2"/>
+      <Swing damage_type="Cut" damage_factor="1.1"/>
+    </BladeData>
+   <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanDismount"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="kispear2" name="{=kispear2.name}Sun Ray Handle" tier="5" piece_type="Handle" mesh="kispear2" length="203" weight="0.7" culture="Culture.empire">
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="itspear1" name="{=itspear1.name}Duke's Head" tier="5" piece_type="Blade" mesh="itspear1" length="74" weight="0.8" culture="Culture.empire">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="1.1"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+   <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="itspear2" name="{=itspear2.name}Duke's Handle" tier="5" piece_type="Handle" mesh="itspear2" length="156" weight="0.7" culture="Culture.empire">
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="sospear1" name="{=sospear1.name}Brute Head" tier="5" piece_type="Blade" mesh="sospear1" length="90.1" weight="0.8" culture="Culture.empire">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="1.2"/>
+      <Swing damage_type="Cut" damage_factor="1.1"/>
+    </BladeData>
+   <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanDismount"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="sospear2" name="{=sospear2.name}Brute Handle" tier="5" piece_type="Handle" mesh="sospear2" length="258" weight="0.7" culture="Culture.empire">
+<BuildData next_piece_offset="90" previous_piece_offset="0"/>
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="lispear1" name="{=lispear1.name}Crude Bill Head" tier="5" piece_type="Blade" mesh="lispear1" length="65.1" weight="0.8" culture="Culture.empire">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="1.2"/>
+      <Swing damage_type="Cut" damage_factor="1.1"/>
+    </BladeData>
+   <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanHook"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="lispear2" name="{=lispear2.name}Crude Bill Handle" tier="5" piece_type="Handle" mesh="lispear2" length="141" weight="0.7" culture="Culture.empire">
+<BuildData next_piece_offset="20.5" previous_piece_offset="0"/>
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="mespear1" name="{=mespear1.name}Royal Guard Head" tier="5" piece_type="Blade" mesh="mespear1" length="93" weight="0.8" culture="Culture.empire">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="1.2"/>
+      <Swing damage_type="Cut" damage_factor="1.2"/>
+    </BladeData>
+   <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanDismount"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="mespear2" name="{=mespear2.name}Royal Guard Handle" tier="5" piece_type="Handle" mesh="mespear2" length="194" weight="0.7" culture="Culture.empire">
+<BuildData next_piece_offset="20" previous_piece_offset="0"/>
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="mdlance1" name="{=mdlance1.name}Lance Head" tier="5" piece_type="Blade" mesh="mdlance1" length="26.1" weight="0.5" excluded_item_usage_features="swing" culture="Culture.empire">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="1.2"/>
+    </BladeData>
+   <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanDismount"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="mdlance2" name="{=mdlance2.name}Lance Handle" tier="5" piece_type="Handle" mesh="mdlance2" length="322" weight="0.5" culture="Culture.empire">
+<BuildData next_piece_offset="74.5" previous_piece_offset="0"/>
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+   <CraftingPiece id="faspear1" name="{=faspear1.name}Seraphim Head" tier="5" piece_type="Blade" mesh="faspear1" length="98.4" weight="0.8" culture="Culture.empire">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="1.2"/>
+      <Swing damage_type="Cut" damage_factor="1.0"/>
+    </BladeData>
+   <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanDismount"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="faspear2" name="{=faspear2.name}Seraphim Handle" tier="5" piece_type="Handle" mesh="faspear2" length="219" weight="0.7" culture="Culture.empire">
+<BuildData next_piece_offset="7.5" previous_piece_offset="0"/>
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="wimace1" name="{=wimace1.name}Arkanist Head" tier="5" piece_type="Blade" mesh="wimace1" length="50.3" weight="0.8" full_scale="true" excluded_item_usage_features="thrust">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_mace_a">
+      <Swing damage_type="Blunt" damage_factor="1.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+      <Flag name="CanCrushThrough"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron2" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="wimace2" name="{=wimace2.name}Arkanist Handle" tier="5" piece_type="Handle" mesh="wimace2" length="139" weight="0.6">
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+
+  </CraftingPieces>
