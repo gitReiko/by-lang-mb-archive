@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+<Items>
+
+    <CraftedItem id="Gorgeous" name="{=Gorgeous.name}Gorgeous Zweihander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Gorgeous_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Gorgeous_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Gorgeous_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Gorgeous_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="Giant" name="{=Giant.name}Giant Slayer" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Giant_Slayer_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Giant_Slayer_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Giant_Slayer_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Giant_Slayer_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="Lord" name="{=Lord.name}Lord Zweihander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Lord_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Lord_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Lord_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Lord_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="Zweihander" name="{=Zweihander.name}Zweihander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="Champion" name="{=Champion.name}Champion Zweihander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Champion_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Champion_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Champion_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Champion_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+    
+        <CraftedItem id="Engraving" name="{=Engraving.name}Engraving Zweihander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Engraving_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Engraving_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Engraving_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Engraving_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="Silver" name="{=Silver.name}Silver Zweihander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Silver_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Silver_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Silver_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Silver_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+    
+        <CraftedItem id="Standard" name="{=Standard.name}Standard Zweihander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Standard_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Standard_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Standard_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Standard_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="Golden" name="{=Golden.name}Golden Zweihander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Golden_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Golden_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Golden_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Golden_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+        <CraftedItem id="Simple" name="{=Simple.name}Simple Zweihander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Simple_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Simple_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Simple_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Simple_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+        <CraftedItem id="Knight" name="{=Knight1.name}Knight Zweihander" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Knight_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Knight_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Knight_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Knight_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+
+    <CraftedItem id="Knight" name="{=Knight2.name}Dragon Sword" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Dragon_Sword_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Dragon_Sword_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Dragon_Sword_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Dragon_Sword_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="Knight" name="{=Knight3.name}Katzbalger Blade" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Katzbalger_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Katzbalger_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Katzbalger_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Katzbalger_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="Knight" name="{=Knight4.name}Royal Zweihander Blade" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Royal_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Royal_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Royal_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Royal_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+
+    <CraftedItem id="Knight" name="{=Knight5.name}Eden Zweihander Blade" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+      <Pieces>
+        <Piece id="Eden_Zweihander_Blade" Type="Blade" scale_factor="100"/>
+        <Piece id="Eden_Zweihander_Guard" Type="Guard" scale_factor="100"/>
+        <Piece id="Eden_Zweihander_Handle" Type="Handle" scale_factor="100"/>
+        <Piece id="Eden_Zweihander_Pommel" Type="Pommel" scale_factor="100"/>
+      </Pieces>
+    </CraftedItem>
+  </Items>

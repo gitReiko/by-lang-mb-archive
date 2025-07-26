@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ZWEIHANDER SWORDS -->
+<!-- 剑刃 -->
+<CraftingPieces>
+  <CraftingPiece id="Gorgeous_Zweihander_Blade" name="{=Gorgeous_Zweihander_Blade.name}Gorgeous Zweihander Blade" tier="5" is_default="true" piece_type="Blade" mesh="cvaiblade" culture="Culture.vlandia" length="131.6" weight="0.8">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="4.2"/>
+      <Swing damage_type="Cut" damage_factor="4.8"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="5"/>
+      <Material id="Iron6" count="3"/>
+    </Materials>
+  </CraftingPiece>
+
+    <CraftingPiece id="Lord_Zweihander_Blade" name="{=Lord_Zweihander_Blade.name}Lord Zweihander Blade" tier="4" is_default="true" piece_type="Blade" mesh="unwrapped_blade" culture="Culture.vlandia" length="128" weight="1.0">
+      <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+        <Thrust damage_type="Pierce" damage_factor="4.4"/>
+        <Swing damage_type="Cut" damage_factor="4.5"/>
+      </BladeData>
+      <Flags>
+        <Flag name="Civilian" type="ItemFlags"/>
+      </Flags>
+      <Materials>
+        <Material id="Iron4" count="3"/>
+        <Material id="Iron5" count="1"/>
+      </Materials>
+    </CraftingPiece>
+
+    <CraftingPiece id="Giant_Slayer_Blade" name="{=Giant_Slayer_Blade.name}Giant Slayer Blade" tier="5" is_default="true" piece_type="Blade" mesh="blade_giant" culture="Culture.vlandia" length="127" weight="1.7">
+      <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+        <Thrust damage_type="Pierce" damage_factor="5.3"/>
+        <Swing damage_type="Cut" damage_factor="5.5"/>
+      </BladeData>
+      <Flags>
+        <Flag name="Civilian" type="ItemFlags"/>
+        <Flag name="CanKnockDown"/>
+      </Flags>
+      <Materials>
+        <Material id="Iron5" count="10"/>
+        <Material id="Iron6" count="6"/>
+      </Materials>
+    </CraftingPiece>
+
+    <CraftingPiece id="Zweihander_Blade" name="{=Zweihander_Blade.name}Zweihander Blade" tier="3" is_default="true" piece_type="Blade" mesh="zweiblade2" culture="Culture.vlandia" length="123.5" weight="0.6">
+      <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+        <Thrust damage_type="Pierce" damage_factor="4.0"/>
+        <Swing damage_type="Cut" damage_factor="4.4"/>
+      </BladeData>
+      <Flags>
+        <Flag name="Civilian" type="ItemFlags"/>
+      </Flags>
+      <Materials>
+        <Material id="Iron3" count="5"/>
+        <Material id="Iron4" count="1"/>
+      </Materials>
+    </CraftingPiece>
+
+    <CraftingPiece id="Champion_Zweihander_Blade" name="{=Champion_Zweihander_Blade.name}Champion Zweihander Blade" tier="5" is_default="true" piece_type="Blade" mesh="zweiblade3" culture="Culture.vlandia" length="128.2" weight="0.7">
+      <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+        <Thrust damage_type="Pierce" damage_factor="4.5"/>
+        <Swing damage_type="Cut" damage_factor="4.9"/>
+      </BladeData>
+      <Flags>
+        <Flag name="Civilian" type="ItemFlags"/>
+        <Flag name="CanHook"/>
+      </Flags>
+      <Materials>
+        <Material id="Iron5" count="8"/>
+        <Material id="Iron6" count="1"/>
+      </Materials>
+    </CraftingPiece>
+
+  <CraftingPiece id="Engraving_Zweihander_Blade" name="{=Engraving_Zweihander_Blade.name}Engraving Zweihander Blade" tier="4" is_default="true" piece_type="Blade" mesh="zwei3blade" culture="Culture.vlandia" length="130.5" weight="0.8">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="4.3"/>
+      <Swing damage_type="Cut" damage_factor="4.4"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="4"/>
+      <Material id="Iron5" count="3"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Silver_Zweihander_Blade" name="{=Silver_Zweihander_Blade.name}Silver Zweihander Blade" tier="4" is_default="true" piece_type="Blade" mesh="zwei6blade" culture="Culture.vlandia" length="131.8" weight="1">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="4.4"/>
+      <Swing damage_type="Cut" damage_factor="4.8"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="Burning"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="4"/>
+      <Material id="Iron6" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Standard_Zweihander_Blade" name="{=Standard_Zweihander_Blade.name}Standard Zweihander Blade" tier="3" is_default="true" piece_type="Blade" mesh="zwei7blade" culture="Culture.vlandia" length="130.2" weight="0.6">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="4.3"/>
+      <Swing damage_type="Cut" damage_factor="4.3"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron3" count="4"/>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Golden_Zweihander_Blade" name="{=Golden_Zweihander_Blade.name}Golden Zweihander Blade" tier="5" is_default="true" piece_type="Blade" mesh="zwei9blade" culture="Culture.vlandia" length="127.7" weight="1">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="4.4"/>
+      <Swing damage_type="Cut" damage_factor="5"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="Burning"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="4"/>
+      <Material id="Iron6" count="6"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Simple_Zweihander_Blade" name="{=Simple_Zweihander_Blade.name}Simple Zweihander Blade" tier="2" is_default="true" piece_type="Blade" mesh="zwei10blade" culture="Culture.vlandia" length="127.7" weight="1">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="3.5"/>
+      <Swing damage_type="Cut" damage_factor="4"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron2" count="2"/>
+      <Material id="Iron3" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Knight_Zweihander_Blade" name="{=Knight_Zweihander_Blade.name}Knight Zweihander Blade" tier="5" is_default="true" piece_type="Blade" mesh="zwei11blade" culture="Culture.vlandia" length="133.8" weight="1.3">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="4.5"/>
+      <Swing damage_type="Cut" damage_factor="4.5"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="AffectsArea"/>
+      <Flag name="CanHook"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+      <Material id="Iron6" count="4"/>
+    </Materials>
+  </CraftingPiece>
+  
+  <CraftingPiece id="Dragon_Sword_Blade" name="{=Dragon_Sword_Blade.name}Dragon Sword Blade" tier="5" is_default="true" piece_type="Blade" mesh="daswordblade" culture="Culture.vlandia" length="91.6" weight="1.4">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="3.5"/>
+      <Swing damage_type="Cut" damage_factor="5.2"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="6"/>
+      <Material id="Iron6" count="3"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Katzbalger_Blade" name="{=Katzbalger_Blade.name}Katzbalger Blade" tier="5" is_default="true" piece_type="Blade" mesh="crswordblade" culture="Culture.vlandia" length="84.9" weight="2">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="1.5"/>
+      <Swing damage_type="Cut" damage_factor="5.8"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="CanKnockDown"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="1"/>
+      <Material id="Iron6" count="6"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Royal_Zweihander_Blade" name="{=Royal_Zweihander_Blade.name}Royal Zweihander Blade" tier="5" is_default="true" piece_type="Blade" mesh="maswordblade" culture="Culture.vlandia" length="144" weight="2">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="4.4"/>
+      <Swing damage_type="Cut" damage_factor="4.8"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="BonusAgainstShield"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+      <Material id="Iron6" count="4"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Eden_Zweihander_Blade" name="{=Eden_Zweihander_Blade.name}Eden Zweihander Blade" tier="5" is_default="true" piece_type="Blade" mesh="faswordblade" culture="Culture.vlandia" length="131" weight="2">
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="">
+      <Thrust damage_type="Pierce" damage_factor="4.5"/>
+      <Swing damage_type="Cut" damage_factor="4.5"/>
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags"/>
+      <Flag name="CanHook"/>
+      <Flag name="CanKnockDown"/>
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+      <Material id="Iron6" count="4"/>
+    </Materials>
+  </CraftingPiece>
+<!-- 剑格 -->
+
+  <CraftingPiece id="Gorgeous_Zweihander_Guard" name="{=Gorgeous_Zweihander_Guard.name}Gorgeous Zweihander Guard" tier="5" piece_type="Guard" mesh="cvaiguard" culture="Culture.vlandia" length="1.6" weight="0.10">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="5"/>
+    <Materials>
+      <Material id="Iron6" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Lord_Zweihander_Guard" name="{=Lord_Zweihander_Guard.name}Lord Zweihander Guard" tier="4" piece_type="Guard" mesh="unwrapped_guard" culture="Culture.vlandia" length="1.5" weight="0.14">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="6"/>
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Giant_Slayer_Guard" name="{=Giant_Slayer_Guard.name}Giant Slayer Guard" tier="5" piece_type="Guard" mesh="guard_giant" culture="Culture.vlandia" length="1.8" weight="0.21">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="10"/>
+    <Materials>
+      <Material id="Iron6" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Zweihander_Guard" name="{=Zweihander_Guard.name}Zweihander Guard" tier="3" piece_type="Guard" mesh="zweiguard2" culture="Culture.vlandia" length="1.2" weight="0.12">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="5"/>
+    <Materials>
+      <Material id="Iron4" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Champion_Zweihander_Guard" name="{=Champion_Zweihander_Guard.name}Champion Zweihander Guard" tier="5" piece_type="Guard" mesh="zweiguard3" culture="Culture.vlandia" length="1.4" weight="0.15">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="7"/>
+    <Materials>
+      <Material id="Iron6" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Engraving_Zweihander_Guard" name="{=Engraving_Zweihander_Guard.name}Engraving Zweihander Guard" tier="4" piece_type="Guard" mesh="zwei3guard" culture="Culture.vlandia" length="2.3" weight="0.14">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="5"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Silver_Zweihander_Guard" name="{=Silver_Zweihander_Guard.name}Silver Zweihander Guard" tier="4" piece_type="Guard" mesh="zwei6guard" culture="Culture.vlandia" length="1.6" weight="0.16">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="6"/>
+    <Materials>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Standard_Zweihander_Guard" name="{=Standard_Zweihander_Guard.name}Standard Zweihander Guard" tier="3" piece_type="Guard" mesh="zwei7guard" culture="Culture.vlandia" length="1.8" weight="0.11">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="5"/>
+    <Materials>
+      <Material id="Iron4" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Golden_Zweihander_Guard" name="{=Golden_Zweihander_Guard.name}Golden Zweihander Guard" tier="5" piece_type="Guard" mesh="zwei9guard" culture="Culture.vlandia" length="3.5" weight="0.19">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="5"/>
+    <Materials>
+      <Material id="Iron6" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Simple_Zweihander_Guard" name="{=Simple_Zweihander_Guard.name}Simple Zweihander Guard" tier="2" piece_type="Guard" mesh="zwei10guard" culture="Culture.vlandia" length="1.5" weight="0.15">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="3"/>
+    <Materials>
+      <Material id="Iron3" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Knight_Zweihander_Guard" name="{=Knight_Zweihander_Guard.name}Knight Zweihander Guard" tier="5" piece_type="Guard" mesh="zwei11guard" culture="Culture.vlandia" length="1.8" weight="0.18">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="7"/>
+    <Materials>
+      <Material id="Iron6" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Dragon_Sword_Guard" name="{=Dragon_Sword_Guard.name}Dragon Sword Guard" tier="5" piece_type="Guard" mesh="daswordguard" culture="Culture.vlandia" length="1.4" weight="0.24">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="5"/>
+    <Materials>
+      <Material id="Iron6" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Katzbalger_Guard" name="{=Katzbalger_Guard.name}Katzbalger Guard" tier="5" piece_type="Guard" mesh="crswordguard" culture="Culture.vlandia" length="1.5" weight="0.21">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="10"/>
+    <Materials>
+      <Material id="Iron6" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Royal_Zweihander_Guard" name="{=Royal_Zweihander_Guard.name}Royal Zweihander Guard" tier="5" piece_type="Guard" mesh="maswordguard" culture="Culture.vlandia" length="1.4" weight="0.17">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="10"/>
+    <Materials>
+      <Material id="Iron6" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Eden_Zweihander_Guard" name="{=Eden_Zweihander_Guard.name}Eden Zweihander Guard" tier="5" piece_type="Guard" mesh="faswordguard" culture="Culture.vlandia" length="1.6" weight="0.15">
+    <BuildData next_piece_offset="0.1"/>
+    <StatContributions armor_bonus="6"/>
+    <Materials>
+      <Material id="Iron6" count="1"/>
+    </Materials>
+  </CraftingPiece>
+  
+<!-- 握把 -->
+  <CraftingPiece id="Gorgeous_Zweihander_Handle" name="{=Gorgeous_Zweihander_Handle.name}Gorgeous Zweihander Handle" tier="5" piece_type="Handle" mesh="cvaihandle" culture="Culture.vlandia" length="33.7" weight="0.18" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-0.55" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Lord_Zweihander_Handle" name="{=Lord_Zweihander_Handle.name}Lord Zweihander Handle" tier="4" piece_type="Handle" mesh="unwrapped_handle" culture="Culture.vlandia" length="53.0" weight="0.23" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-8.15" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Giant_Slayer_Handle" name="{=Giant_Slayer_Handle.name}Giant Slayer Handle" tier="5" piece_type="Handle" mesh="handle_giant" culture="Culture.vlandia" length="40.7" weight="0.27" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-6.75" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="1"/>
+      <Material id="Iron3" count="6"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Zweihander_Handle" name="{=Zweihander_Handle.name}Zweihander Handle" tier="3" piece_type="Handle" mesh="zweihandle2" culture="Culture.vlandia" length="42.2" weight="0.20" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-6.75" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Champion_Zweihander_Handle" name="{=Champion_Zweihander_Handle.name}Champion Zweihander Handle" tier="5" piece_type="Handle" mesh="zweihandle3" culture="Culture.vlandia" length="42.8" weight="0.21" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-6.75" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+      <Material id="Iron4" count="3"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Engraving_Zweihander_Handle" name="{=Engraving_Zweihander_Handle.name}Engraving Zweihander Handle" tier="4" piece_type="Handle" mesh="zwei3handle" culture="Culture.vlandia" length="38.6" weight="0.20" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-1.15" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Silver_Zweihander_Handle" name="{=Silver_Zweihander_Handle.name}Silver Zweihander Handle" tier="4" piece_type="Handle" mesh="zwei6handle" culture="Culture.vlandia" length="56.8" weight="0.22" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-8.15" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Standard_Zweihander_Handle" name="{=Standard_Zweihander_Handle.name}Standard Zweihander Handle" tier="3" piece_type="Handle" mesh="zwei7handle" culture="Culture.vlandia" length="48.1" weight="0.19" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-6.75" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Golden_Zweihander_Handle" name="{=Golden_Zweihander_Handle.name}Golden Zweihander Handle" tier="5" piece_type="Handle" mesh="zwei9handle" culture="Culture.vlandia" length="47.2" weight="0.24" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-6.75" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+      <Material id="Iron6" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Simple_Zweihander_Handle" name="{=Simple_Zweihander_Handle.name}Simple Zweihander Handle" tier="2" piece_type="Handle" mesh="zwei10handle" culture="Culture.vlandia" length="36.8" weight="0.24" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-0.85" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Knight_Zweihander_Handle" name="{=Knight_Zweihander_Handle.name}Knight Zweihander Handle" tier="5" piece_type="Handle" mesh="zwei11handle" culture="Culture.vlandia" length="41.9" weight="0.18" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-6.75" previous_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Dragon_Sword_Handle" name="{=Dragon_Sword_Handle.name}Dragon Sword Handle" tier="5" piece_type="Handle" mesh="daswordhandle" culture="Culture.vlandia" length="26.9" weight="0.26" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-0.55" previous_piece_offset="0.0" next_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+      <Material id="Iron4" count="5"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Katzbalger_Handle" name="{=Katzbalger_Handle.name}Katzbalger Handle" tier="5" piece_type="Handle" mesh="crswordhandle" culture="Culture.vlandia" length="25.2" weight="0.18" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-6.75" previous_piece_offset="0.0" next_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="3"/>
+      <Material id="Iron4" count="3"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Royal_Zweihander_Handle" name="{=Royal_Zweihander_Handle.name}Royal Zweihander Handle" tier="5" piece_type="Handle" mesh="maswordhandle" culture="Culture.vlandia" length="36.1" weight="0.18" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-6.75" previous_piece_offset="0.0" next_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="6"/>
+      <Material id="Iron5" count="2"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Eden_Zweihander_Handle" name="{=Eden_Zweihander_Handle.name}Eden Zweihander Handle" tier="5" piece_type="Handle" mesh="faswordhandle" culture="Culture.vlandia" length="34.7" weight="0.18" item_holster_pos_shift="0,0,-0.02">
+    <BuildData piece_offset="-6.75" previous_piece_offset="0.0" next_piece_offset="0.0"/>
+    <Materials>
+      <Material id="Wood" count="2"/>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+  
+<!-- 配重 -->
+    <CraftingPiece id="Gorgeous_Zweihander_Pommel" name="{=Gorgeous_Zweihander_Pommel.name}Gorgeous Zweihander Pommel" tier="5" piece_type="Pommel" mesh="cvaipommel" culture="Culture.vlandia" length="9.2" weight="0.3">
+      <Materials>
+        <Material id="Iron4" count="1"/>
+      </Materials>
+    </CraftingPiece>
+
+    <CraftingPiece id="Lord_Zweihander_Pommel" name="{=Lord_Zweihander_Pommel.name}Lord Zweihander Pommel" tier="4" piece_type="Pommel" mesh="pommel_unwrapped" culture="Culture.vlandia" length="8.0" weight="0.2">
+      <Materials>
+        <Material id="Iron3" count="1"/>
+      </Materials>
+    </CraftingPiece>
+
+    <CraftingPiece id="Giant_Slayer_Pommel" name="{=Giant_Slayer_Pommel.name}Giant Slayer Pommel" tier="5" piece_type="Pommel" mesh="pommel_giant" culture="Culture.vlandia" length="6.0" weight="0.5">
+      <Materials>
+        <Material id="Iron4" count="2"/>
+      </Materials>
+    </CraftingPiece>
+
+    <CraftingPiece id="Zweihander_Pommel" name="{=Zweihander_Pommel.name}Zweihander Pommel" tier="4" piece_type="Pommel" mesh="zweipommel2" culture="Culture.vlandia" length="8.0" weight="0.1">
+      <Materials>
+        <Material id="Iron2" count="1"/>
+      </Materials>
+    </CraftingPiece>
+
+    <CraftingPiece id="Champion_Zweihander_Pommel" name="{=Champion_Zweihander_Pommel.name}Champion Zweihander Pommel" tier="5" piece_type="Pommel" mesh="zweipommel3" culture="Culture.vlandia" length="7.0" weight="0.2">
+      <Materials>
+        <Material id="Iron4" count="1"/>
+      </Materials>
+    </CraftingPiece>
+
+  <CraftingPiece id="Engraving_Zweihander_Pommel" name="{=Engraving_Zweihander_Pommel.name}Engraving Zweihander Pommel" tier="4" piece_type="Pommel" mesh="zwei3pommel" culture="Culture.vlandia" length="7.6" weight="0.2">
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Silver_Zweihander_Pommel" name="{=Silver_Zweihander_Pommel.name}Silver Zweihander Pommel" tier="4" piece_type="Pommel" mesh="zwei6pommel" culture="Culture.vlandia" length="6.0" weight="0.4">
+    <Materials>
+      <Material id="Iron4" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Standard_Zweihander_Pommel" name="{=Standard_Zweihander_Pommel.name}Standard Zweihander Pommel" tier="3" piece_type="Pommel" mesh="zwei7pommel" culture="Culture.vlandia" length="9.3" weight="0.3">
+    <Materials>
+      <Material id="Iron3" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Golden_Zweihander_Pommel" name="{=Golden_Zweihander_Pommel.name}Golden Zweihander Pommel" tier="5" piece_type="Pommel" mesh="zwei9pommel" culture="Culture.vlandia" length="3.2" weight="0.4">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Simple_Zweihander_Pommel" name="{=Simple_Zweihander_Pommel.name}Simple Zweihander Pommel" tier="2" piece_type="Pommel" mesh="zwei10pommel" culture="Culture.vlandia" length="11.0" weight="0.1">
+    <Materials>
+      <Material id="Wood" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Knight_Zweihander_Pommel" name="{=Knight_Zweihander_Pommel.name}Knight Zweihander Pommel" tier="5" piece_type="Pommel" mesh="zwei11pommel" culture="Culture.vlandia" length="8.1" weight="0.1">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Dragon_Sword_Pommel" name="{=Dragon_Sword_Pommel.name}Dragon Sword Pommel" tier="5" piece_type="Pommel" mesh="daswordpommel" culture="Culture.vlandia" length="7.9" weight="0.8">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Katzbalger_Pommel" name="{=Katzbalger_Pommel.name}Katzbalger Pommel" tier="5" piece_type="Pommel" mesh="crswordpommel" culture="Culture.vlandia" length="6.4" weight="0.5">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Royal_Zweihander_Pommel" name="{=Royal_Zweihander_Pommel.name}Royal Zweihander Pommel" tier="5" piece_type="Pommel" mesh="maswordpommel" culture="Culture.vlandia" length="10.1" weight="0.3">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="Eden_Zweihander_Pommel" name="{=Eden_Zweihander_Pommel.name}Eden Zweihander Pommel" tier="5" piece_type="Pommel" mesh="faswordpommel" culture="Culture.vlandia" length="7.8" weight="0.2">
+    <Materials>
+      <Material id="Iron5" count="1"/>
+    </Materials>
+  </CraftingPiece>
+  </CraftingPieces>
