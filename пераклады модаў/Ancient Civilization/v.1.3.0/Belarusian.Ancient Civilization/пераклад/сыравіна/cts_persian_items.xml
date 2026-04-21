@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <!-- helmets -->
+  <Item id="cts_persian_cloth_a"
+        name="[cts_Persian]Persian Cap Blue"
+        subtype="head_armor"
+        mesh="cts_persian_cloth_a"
+        culture="Culture.aserai"
+        weight="0.2"
+        difficulty="0"
+        appearance="1"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  <Item id="cts_persian_cloth_b"
+        name="[cts_Persian]Persian Cap Yellowish"
+        subtype="head_armor"
+        mesh="cts_persian_cloth_b"
+        culture="Culture.aserai"
+        weight="0.2"
+        difficulty="0"
+        appearance="1"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  <Item id="cts_persian_cloth_c"
+        name="[cts_Persian]Persian Cap Crem"
+        subtype="head_armor"
+        mesh="cts_persian_cloth_c"
+        culture="Culture.aserai"
+        weight="0.2"
+        difficulty="0"
+        appearance="1"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  <Item id="cts_persian_cloth_d"
+        name="[cts_Persian]Persian Cap Red"
+        subtype="head_armor"
+        mesh="cts_persian_cloth_d"
+        culture="Culture.aserai"
+        weight="0.2"
+        difficulty="0"
+        appearance="1"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  <Item id="cts_persian_cloth_e"
+        name="[cts_Persian]Persian Cap White over the face"
+        subtype="head_armor"
+        mesh="cts_persian_cloth_e"
+        culture="Culture.aserai"
+        weight="0.2"
+        difficulty="0"
+        appearance="1"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  <Item id="cts_persian_cloth_f"
+        name="[cts_Persian]Persian Cap Yellow"
+        subtype="head_armor"
+        mesh="cts_persian_cloth_f"
+        culture="Culture.aserai"
+        weight="0.2"
+        difficulty="0"
+        appearance="1"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="10"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true"
+           UseTeamColor="false" />
+  </Item>
+  <!-- body -->
+  <Item id="cts_persian_tunic_a"
+        name="[cts_Persian]Persian Tunic a"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_a"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_a1"
+        name="[cts_Persian]Persian Tunic a1"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_a1"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_a2"
+        name="[cts_Persian]Persian Tunic a2"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_a2"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_a3"
+        name="[cts_Persian]Persian Tunic a3"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_a3"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_a4"
+        name="[cts_Persian]Persian Tunic a4"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_a4"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_a5"
+        name="[cts_Persian]Persian Tunic a5"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_a5"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_b"
+        name="[cts_Persian]Persian Tunic b"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_b"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_b1"
+        name="[cts_Persian]Persian Tunic b1"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_b1"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_b2"
+        name="[cts_Persian]Persian Tunic b2"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_b2"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_b3"
+        name="[cts_Persian]Persian Tunic b3"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_b3"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_b4"
+        name="[cts_Persian]Persian Tunic b4"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_b4"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_tunic_b5"
+        name="[cts_Persian]Persian Tunic b5"
+        subtype="body_armor"
+        mesh="cts_persian_tunic_b5"
+        culture="Culture.aserai"
+        weight="2.5"
+        difficulty="0"
+        appearance="3"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor body_armor="7"
+                leg_armor="2"
+                arm_armor="2"
+                has_gender_variations="true"
+                covers_body="false"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <!-- legs -->
+  <Item id="cts_persian_pants_a"
+        name="[cts_Persian]Persian Trousers a"
+        mesh="cts_persian_pants_a"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_a1"
+        name="[cts_Persian]Persian Trousers a1"
+        mesh="cts_persian_pants_a1"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_a2"
+        name="[cts_Persian]Persian Trousers a2"
+        mesh="cts_persian_pants_a2"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_a3"
+        name="[cts_Persian]Persian Trousers a3"
+        mesh="cts_persian_pants_a3"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_a4"
+        name="[cts_Persian]Persian Trousers a4"
+        mesh="cts_persian_pants_a4"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_a5"
+        name="[cts_Persian]Persian Trousers a5"
+        mesh="cts_persian_pants_a5"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_a6"
+        name="[cts_Persian]Persian Trousers a6"
+        mesh="cts_persian_pants_a6"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_b"
+        name="[cts_Persian]Persian Trousers b"
+        mesh="cts_persian_pants_b"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_b1"
+        name="[cts_Persian]Persian Trousers b1"
+        mesh="cts_persian_pants_b1"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_b2"
+        name="[cts_Persian]Persian Trousers b2"
+        mesh="cts_persian_pants_b2"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_b3"
+        name="[cts_Persian]Persian Trousers b3"
+        mesh="cts_persian_pants_b3"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_b4"
+        name="[cts_Persian]Persian Trousers b4"
+        mesh="cts_persian_pants_b4"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_b5"
+        name="[cts_Persian]Persian Trousers b5"
+        mesh="cts_persian_pants_b5"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  <Item id="cts_persian_pants_b6"
+        name="[cts_Persian]Persian Trousers b6"
+        mesh="cts_persian_pants_b6"
+        culture="Culture.aserai"
+        weight="1.0"
+        difficulty="0"
+        appearance="1"
+        Type="LegArmor">
+        <ItemComponent>
+          <Armor leg_armor="5"
+                covers_legs="true"
+                modifier_group="cloth_unarmoured"
+                material_type="Cloth" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+  </Item>
+  
+  
+</Items>
