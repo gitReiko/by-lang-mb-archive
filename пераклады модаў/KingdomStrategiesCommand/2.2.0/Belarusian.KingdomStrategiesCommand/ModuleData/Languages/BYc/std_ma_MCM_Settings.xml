@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+
+
+
+  <strings>
+    <!-- Dialogos -->
+    <string id="KSC_Text000" text="{CFP_START_ORDER} (Патрабуецца: {CFP_INFLUENCE_COST}{INFLUENCE_ICON})"/>
+    <string id="KSC_Text001" text="{?PLAYER.GENDER}Пані{?}Панове{\?}, выслухайце мой план…"/>
+    <string id="KSC_Text002" text="Паслухайце, я маю план, у якім патрэбен ваш удзел…"/>
+    <string id="KSC_Text003" text="Я выканаю свой абавязак, {?PLAYER.GENDER}пані{?}панове{\?}."/>
+    <string id="KSC_Text004" text="Слухаю…"/>
+    <string id="KSC_Text005" text="Прабачце {?PLAYER.GENDER}шляхцянка{?}шляхціч{\?}, але ў мяне заканчваецца ежа."/>
+    <string id="KSC_Text006" text="На жаль, не магу дапамагчы, спачатку мушу знайсьці ежу."/>
+    <string id="KSC_Text007" text="Прабачце, {?PLAYER.GENDER}спадарыня{?}спадар{\?}, гэта больш не паўторыцца!"/>
+    <string id="KSC_Text0071" text="О халера!"/>
+    <string id="KSC_Text008" text="Можа, у наступны раз."/>
+    <string id="KSC_Text0081" text="Добра, ня мае значэньня."/>
+    <string id="KSC_Text009" text="Мне трэба, каб вы ўмацавалі гарнізон."/>
+    <string id="KSC_Text010" text="{?PLAYER.GENDER}Пані{?}Панове{\?}, калі ласка, выслухайце мой план і ўзмацніце ўразьлівы гарнізон."/>
+    <string id="KSC_Text011" text="Які гарнізон, {?PLAYER.GENDER}спадарыня{?}спадар{\?}?"/>
+    <string id="KSC_Text012" text="Ха? Пра які гарнізон ідзе гаворка?"/>
+    <string id="KSC_Text013" text="Прабачце, {?PLAYER.GENDER}спадарыня{?}спадар{\?}, мая група пакуль не гатова."/>
+    <string id="KSC_Text014" text="Хмм…"/>
+    <string id="KSC_Text015" text="…"/> 
+    <string id="KSC_Text016" text="Падумаць лепей…"/>
+    <string id="KSC_Text017" text="…"/>
+    <string id="KSC_Text018" text="Вам больш ня трэба ўзмацняць гарнізон."/>
+    <string id="KSC_Text019" text="Так, {?PLAYER.GENDER}спадарыня{?}спадар{\?}…"/>
+    <string id="KSC_Text020" text="Добра, іду…"/>
+    <string id="KSC_Text021" text="Ідзіце да {CIDADE}."/>
+    <string id="KSC_Text022" text="Рушу неадкладна."/>
+    <string id="KSC_Text023" text="{NOME} кажа, што гэта будзе каштаваць {INFLUENCIA} уплыву."/>
+    <!-- Siege -->
+    <string id="KSC_Text024" text="Мне трэба, каб вы сфармавалі войска і ўзялі ў аблогу варожае селішча. (Патрабуе: {CFP_INFLUENCE_COST}{INFLUENCE_ICON})"/>
+    <string id="KSC_Text025" text="{?PLAYER.GENDER}Спадарыня{?}Спадар{\?}, сфармуйце войска, бо я ведаю селішча, якое лёгка захапіць і якое, без сумневу, прынясе вам славу (Патрабуе: {CFP_INFLUENCE_COST}{INFLUENCE_ICON})."/>
+    <string id="KSC_Text026" text="Мне трэба ваша войска для аблогі варожага селішча."/>
+    <string id="KSC_Text027" text="{?PLAYER.GENDER}Пані{?}Панове{\?}, я ведаю селішча, якое ваша войска зможа лёгка захапіць і прынясе вам гонар."/>
+    <string id="KSC_Text028" text="Якое селішча льга узяць у аблогу?"/>
+    <string id="KSC_Text029" text="Прабачце, {?PLAYER.GENDER}шляхцянка{?}шляхціч{\?}, мая група пакуль не гатова."/>
+    <string id="KSC_Text030" text="Якое селішча мы мусім ўзяць у аблогу?"/>
+    <string id="KSC_Text031" text="Ваша войска гатова. (Пераканайцеся, што валодаеце неабходнай колькасьцю, слабыя групы схільныя да расфармаваньня)"/>
+    <string id="KSC_Text032" text="Якое селішча нам варта ўзяць у аблогу?"/>
+    <string id="KSC_Text033" text="Хммм…"/>
+    <string id="KSC_Text034" text="…"/>
+    <string id="KSC_Text035" text="Падумаць лепей…"/>
+    <string id="KSC_Text036" text="Хммм…"/>
+    <string id="KSC_Text037" text="…"/>
+    <string id="KSC_Text038" text="Падумаць лепей…"/>
+    <string id="KSC_Text039" text="…"/>
+    <string id="KSC_Text040" text="Вам болей ня трэба абложваць варожае селішча."/>
+    <string id="KSC_Text041" text="Ідзіце да {CIDADE}"/>
+    <string id="KSC_Text042" text="Якой групе трэба сказаць далучыцца да войска?"/>
+    <string id="KSC_Text043" text="{NOME} кажа, што гэта будзе каштаваць вам {INFLUENCIA} уплыву."/>
+    <string id="KSC_Text044" text="Рушу неадкладна. (Калі нас перахопіць мацнейшае войска, мы адмовімся ад заданьня.)"/>
+    <string id="KSC_Text045" text="{NOME} кажа, што гэта будзе каштаваць вам {INFLUENCIA} уплыву."/>
+    
+    <!-- ESCORT -->
+    
+    <string id="KSC_Text046" text="Ідзіце ўсьлед за мной."/>
+    <string id="KSC_Text047" text="{?PLAYER.GENDER}Пані{?}Панове{\?}, мне трэба, каб вы ішлі ўсьлед за мной. Бо бясьпека гаспадарства пад пагрозай!"/>
+    <string id="KSC_Text048" text="Мне трэба, каб вы суправаджалі групу."/>
+    <string id="KSC_Text049" text="{?PLAYER.GENDER}Пані{?}Панове{\?}, гаспадарству вельмі трэба ваша дапамога. Адной групе патрэбны эскорт."/>
+    <string id="KSC_Text050" text="Якая група, {?PLAYER.GENDER}спадарыня{?}спадар{\?}?"/>
+    <string id="KSC_Text051" text="Га? Пра якую групу ідзе гаворка?"/>
+    <string id="KSC_Text052" text="Прабачце, {?PLAYER.GENDER}шляхцянка{?}шляхціч{\?}, маё войска пакуль не гатова."/>
+    <string id="KSC_Text053" text="Можна паляваць на ворагаў падчас суправаджэньня?"/>
+    <string id="KSC_Text054" text="Калі ласка, палюйце."/>
+    <string id="KSC_Text055" text="Не, ваюйце, толькі калі ваша мэта ў бядзе."/>
+    <string id="KSC_Text056" text="Зразумела. Я рушу неадкладна. "/>
+    <string id="KSC_Text057" text="{NOME} кажа, што гэта будзе каштаваць вам {INFLUENCIA} уплыву. "/>
+    <string id="KSC_Text058" text="Хммм…"/>
+    <string id="KSC_Text059" text="…"/>
+    <string id="KSC_Text060" text="Падумаць лепей…"/>
+    <string id="KSC_Text061" text="Вам больш ня трэба суправаджаць групу."/>
+    <string id="KSC_Text062" text="Бракуе ўплыву, каб камандаваць."/>
+    <string id="KSC_Text063" text="Заклічце {NOME} у сваё войска."/>
+    <string id="KSC_Text0631" text="будзе каштаваць {CUSTO}{INFLUENCE_ICON};на адлегласьці : {DISTANCIA}; З {SOLDADOS} ваярамі."/>
+    <string id="KSC_Text064" text="Хтосьці яшчэ?"/>
+    <string id="KSC_Text065" text="суправаджэньне {NOME}."/>
+    
+    <!-- Configuração -->
+    
+    <string id="KSC_Text066" text="Толькі Гаспадары"/>
+    <string id="KSC_Text067" text="Пераключэньне магчымасьці камандаваньня партыямі толькі для гаспадара. Вы заўсёды можаце камандаваць партыямі свайго клана, нават ня з'яўляючыся гаспадаром."/>
+    <string id="KSC_Text068" text="Дазволіць Наймітам"/>
+    <string id="KSC_Text069" text="Пераключэньне магчымасьці камандаваньня групамі іншых кланаў у якасьці найміта."/>
+    <string id="KSC_Text068a" text="Выкарыстоўваць Модуль (Перапрацоўка Загадаў Партыяў ШІ)"/>
+    <string id="KSC_Text069a" text="Выкарыстаньне Модуля (ШІ Партыяў і Перапрацоўка Загадаў)"/>  
+    
+    <!--  Caixas de Textos -->
+    
+    <string id="KSC_Text070" text="ВОЙСКА {NAME} БЫЛО ПЕРАХОПЛЕНА, ЗАДАНЬНЕ СПЫНЕНА!!!"/>
+    <string id="KSC_Text071" text="{CFP_INFLUENCE_COST} выдаткаванага ўплыву было адноўлена!!!"/>
+    <string id="KSC_Text072" text="ЗЬНЯСІЛЬВАНЬНЕ!!!"/>
+    <string id="KSC_Text073" text="Прыбыў пасланьнік з паведамленьнем, што войску {NAME} бракуе ваяроў і яно будзе расфармавана. Шляхціч {NAME} шкадуе пра сітуацыю, якая склалася, ён узнагародзіў вас і адмовіўся ад заданьня."/>
+    <string id="KSC_Text074" text="Расфармаваць ваяроў."/>
+    <string id="KSC_Text075" text="Працягнуць з ваярамі."/>
+    <string id="KSC_Text076" text="Перахоп!!!"/>
+    <string id="KSC_Text077" text="Прыбыў пасланьнік з паведамленьнем, што войска {NAME} было перахоплена ворагам падчас падарожжа. Войска дэмаралізавана і адмовілася ад заданьня. Спадар {NAME} сказаў, што чакае вас у будучыні!!!"/>
+    <string id="KSC_Text078" text="расфармаваць ваяроў"/>
+    <string id="KSC_Text078a" text="Стой і Біся!"/>
+    <string id="KSC_Text079" text="Перамога!!!"/>
+    <string id="KSC_Text080" text="Прыбыў пасланьнік з паведамленьнем, што войска {NAME} захапіла горад!!! (Мы атрымалі 100 Уплыву і 10 Вядомасьці). Шляхціч хоча ведаць, што рабіць з войскам?"/>
+    <string id="KSC_Text081" text="Расфармаваць войска."/>
+    <string id="KSC_Text082" text="Дазволіць войску вырашыць самастойна."/>
+    <string id="KSC_Text083" text="Параза!!!"/>
+    <string id="KSC_Text084" text="Прыбыў пасланьнік з паведамленьнем, што войска {NAME} было зьнішчана ворагам. Ваша стратэгія апынулася няўдалай. Як вы жадаеце дзеяць? (Бязьдзейнасьць прывядзе да страты 25 Вядомасьці) "/>
+    <string id="KSC_Text085" text="Заплаціць (100,000) Золатам"/>
+    <string id="KSC_Text086" text="Выдаткаваць (150) Уплыву"/>
+    <string id="KSC_Text087" text="Пастка!!!"/>
+    <string id="KSC_Text088" text="Прыбыў пасланьнік з паведамленьнем, што войска {NAME} трапіла ў пастку ворага падчас аблогі. Войска запанікавала і расфармавалася. Шляхціч {NAME} адправіў пасланьніка з паведамленьнем, што ён не забыўся. Яго стратэгія была катастрафічнай!!! Як вы жадаеце дзеяць?"/>
+    <string id="KSC_Text089" text="Заплаціць (50,000) за страты"/>
+    <string id="KSC_Text090" text="Бязьдзеяць, -20 да вядомасьці"/>
+    <string id="KSC_Text091" text="У рассыпную !!!"/>
+    <string id="KSC_Text092" text="{NAME} адзінка была расфармавана!!!"/>
+    <string id="KSC_Text093" text="Добра."/>
+  
+    <string id="KSC_Text094" text="Вораг ля Брамы !!!"/>
+    <string id="KSC_Text095" text="Войска {ARMY}, атрымала паведамленьне: горад {CITY} узяты ў аблогу іншым войскам. Што вы жадаеце рабіць?"/>
+    <string id="KSC_Text096" text="Расфармаваць Войска"/>
+    <string id="KSC_Text097" text="Хай войска дзейнічае самастойна"/>
+    <string id="KSC_Text098" text="Аблога Скончана !!!"/>
+    <string id="KSC_Text099" text="Пасланьнік прынёс навіны пра аблогу {CITY}, якую ўзначаліў {NAME}. На жаль, селішча і трафеі не ўзятыя!!!"/>
+    <string id="KSC_Text100" text="Расфармаваць Войска"/>
+    <string id="KSC_Text101" text="Хай войска дзейнічае самастойна"/>
+
+    <string id="KSC_Text102" text="Зьнясіленьне Суправаджэньня !!!"/>
+    <string id="KSC_Text103" text="Прыбыў пасланьнік з паведамленьнем. Група {NAME} пакутуе ад зьнясільваньня і адмаўляецца ад службы. Узнагародзьце яе за паслугі ці праігнаруйце. Рашэньне ўплывае на вашую вядомасьць."/>
+    <string id="KSC_Text104" text="Заплаціць 1000 дэнараў (атрыманьне 10 вядомасьці)"/>
+    <string id="KSC_Text105" text="Ігнараваць (страта 10 вядомасьці)"/>
+
+    <string id="KSC_Text106" text="Параза Падчас Абароны {CITY}!!!"/>
+    <string id="KSC_Text107" text="Прыбыў паранены ваяр і паведаміў: група {NAME} зазнала паразу падчас абароны {CITY}. Як мы мусім дзейнічаць?"/>
+    <string id="KSC_Text108" text="Заплаціць 1000 дэнараў (атрыманьне 10 вядомасьці)"/>
+    <string id="KSC_Text109" text="Ігнараваць (страта 10 вядомасьці)"/>
+
+    <string id="KSC_Text110" text="Час Абароны Мінуў !!!"/>
+    <string id="KSC_Text111" text="Пасьля працяглага часу група {NAME} болей ня бачыць неабходнасьці бараніць {CITY} і сыходзіць па іншыя справы!!!"/>
+    <string id="KSC_Text112" text="Заплаціць 5000 дэнараў "/>
+    <string id="KSC_Text113" text="Дзякуй за выдаткаваны час…"/>
+
+    <string id="KSC_Text114" text="Абарончая група была перахоплена!!!"/>
+    <string id="KSC_Text115" text="Прыбыў падарожнік з параненым ваяром групы {NAME}, што рушыла на абарону {CITY}. Ваяр паведаміў, што ворагі іх перахапілі. Вашы дзеяньні?"/>
+    <string id="KSC_Text116" text="Заплаціць 5000 дэнараў за параненых."/>
+    <string id="KSC_Text117" text="Аплакаць загінулых…"/>
+    <string id="KSC_Text118" text="Я, {NAME}, хачу паведаміць, што мы не змаглі прыбыць у час для абароны селішча {CITY}, мы шкадуем пра страту горада!"/>
+    <string id="KSC_Text119" text="Добра"/>
+    <string id="KSC_Text120" text="Мы страцілі селішча {CITY} !!!"/>
+
+    <string id="KSC_IncrRelation" text="Вашы адносіны з {NAME} павялічыліся на {RELATION_VALUE}."/>
+    <string id="KSC_DecrRelation" text="Вашы адносіны з {NAME} панізіліся на {RELATION_VALUE}."/>
+    
+    <string id="KSC_Start" text="Загрузка"/>
+    
+		<!-- News Text Box -->
+		<string id="KSC_Text121" text="Пераважаючыя Сілы Ворага!"/>
+		<string id="KSC_Text122" text="Група {NAME} сутыкнулася з мацнейшымі варожымі сіламі ля {CITY}. Якія будуць загады?"/>
+		<string id="KSC_Text123" text="Атакуй ворага — будзь героем! (Страта 20 Адносінаў)!"/>
+		<string id="KSC_Text124" text="Патрулюй мясцовасьць і адмоўся ад заданьня (Атрымаеце 5 рэпутацыі)!"/>
+
+		<string id="KSC_Text125" text="Пераважаючыя Сілы Воражага Войска ў {CITY} !!!"/>
+		<string id="KSC_Text126" text="Пасланец прыбыў з весткай, войска {NAME} сутыкнулася з моцным супрацівам у {CITY} — варожыя сілы пераўзыходзяць іх уласныя — і было вырашана пакінуць ад аблогі. Як распарадзіцца войскам?"/>
+		<string id="KSC_Text127" text="Расфармаваць войска (-5 адносінаў)!"/>
+		<string id="KSC_Text128" text="Захаваць войска і адмовіцца ад заданьня (5 адносінаў)!"/>
+
+		<string id="KSC_Incrinflu" text="Ваш уплыў павялічаны на {RELATION_VALUE}."/>
+		<string id="KSC_Decrinflu" text="Ваш уплыў зьніжаны на {RELATION_VALUE}."/>
+
+		<string id="KSC_Incrirenown" text="Ваша вядомасьць павялічана на {RELATION_VALUE}."/>
+		<string id="KSC_Decrerenown" text="Ваша вядомасьць зьніжана на {RELATION_VALUE}."/>
+
+		<string id="KSC_Text130" text="Дзён да атрыманьня пасланца"/>
+		<string id="KSC_Text131" text="Дзён да атрыманьня пасланца"/>
+
+  </strings>
+</base>
