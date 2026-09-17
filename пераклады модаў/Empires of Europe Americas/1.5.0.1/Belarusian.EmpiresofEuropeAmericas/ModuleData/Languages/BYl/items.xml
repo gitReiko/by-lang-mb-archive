@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <!--input/items/Shields.xml-->
+  <string id="Crusaders Shield" text="{.Muzcynski}Kryžacki Ščyt"/>
+  <string id="Jihadists Round Shield" text="{.Muzcynski}Mudžachidzinski Kruhły Ščyt"/>
+  <string id="06EZT6HxVvxk3" text="{.Mnozny}Čarciažy Staražytnaj Balisty"/>
+  <!--input/items/armours.xml-->
+  <string id="native_scout_cloth.name" text="{.Nijaki}Karennaje Adzieńnie Vyviednika"/>
+  <string id="native_scout_shoes.name" text="{.Mnozny}Karennyja Tufli Vyviednika"/>
+  <string id="officer_longcoat.name" text="{.Nijaki}Aficerskaje Doŭhaje Palito"/>
+  <string id="officer_longcoat_boots.name" text="{.Mnozny}Aficerskija Hamašy"/>
+  <string id="botforts.name" text="{.Mnozny}Batforty"/>
+  <string id="officer_bag.name" text="{.Zanocy}Torba dla Bojeprypasaŭ"/>
+  <string id="officers_band.name" text="{.Zanocy}Aficerskaja Stužka"/>
+  <string id="infantry_coat.name" text="{.Nijaki}Husarskaje Palito"/>
+  <string id="infantry_boots.name" text="{.Mnozny}Husarskija Boty"/>
+  <string id="infantry_band.name" text="{.Zanocy}Piachotnaja Stužka"/>
+  <string id="infantry_longcoat.name" text="{.Nijaki}Piachotnaje Doŭhaje Palito"/>
+  <string id="infantry_greatcoat.name" text="{.Zanocy}Piachotnaja Šyniel"/>
+  <string id="infantry_gaiters.name" text="{.Mnozny}Piachotnyja Hamašy"/>
+  <string id="infantry_waterbottle.name" text="{.Zanocy}Piachotnaja Butelka dla Vady"/>
+  <string id="infantry_backpack.name" text="{.Muzcynski}Piachotny Zaplečnik"/>
+  <string id="english_coat.name" text="{.Nijaki}Piachotnaje Palito (Adkrytaje)"/>
+  <string id="english_boots.name" text="{.Mnozny}Piachotnyja Boty (Adkrytyja)"/>
+  <string id="cuirass.name" text="{.Zanocy}Kirasa"/>
+  <!--input/items/armours_english.xml-->
+  <string id="british_grenadier_coat.name" text="{.Nijaki}Palito Brytanskaha Hrenadziora"/>
+  <string id="british_grenadier_gaiters.name" text="{.Mnozny}Hamašy Brytanskaha Hrenadziora"/>
+  <string id="british_grenadier_mitre_hat.name" text="{.Zanocy}Mitra Brytanskaha Hrenadziora"/>
+  <string id="naval_coat.name" text="{.Nijaki}Palito Marskoha Aficera"/>
+  <string id="marine_equipment.name" text="{.Muzcynski}Ryštunak Marskoha Piachotnika"/>
+  <string id="british_line_infantry_coat.name" text="{.Nijaki}Palito Brytanskaha Liniejnaha Piachotnika"/>
+  <string id="british_line_infantry_shoes.name" text="{.Mnozny}Tufli Brytanskaha Liniejnaha Piachotnika"/>
+  <string id="british_ensign_coat.name" text="{.Nijaki}Palito Brytanskaha Charunžaha"/>
+  <string id="british_ensign_shoes.name" text="{.Mnozny}Tufli Brytanskaha Charunžaha"/>
+  <string id="english_redcoat.name" text="{.Nijaki}Palito Anhlijskaha Aficera"/>
+  <string id="english_officer_coat.name" text="{.Nijaki}Anhlijskaje Čyrvonaje Palito"/>
+  <!--input/items/armours_equipment.xml-->
+  <string id="holster_belt.name" text="{.Muzcynski}Pas z Kaburaju"/>
+  <string id="corporal_string_red.name" text="{.Muzcynski}Naplečny Vuzieł Kaprała"/>
+  <string id="silver_shoulder_knot.name" text="{.Muzcynski}Naplečny Vuzieł Lejtenanta"/>
+  <string id="british_gorget_gold.name" text="{.Muzcynski}Brytanski Haržet"/>
+  <string id="british_gorget_silver.name" text="{.Muzcynski}Brytanski Haržet"/>
+  <string id="officer_sash_red.name" text="{.Muzcynski}Čyrvony Aficerski Pojas"/>
+  <string id="officer_sash_blue.name" text="{.Muzcynski}Sini Aficerski Pojas"/>
+  <string id="cravat_white.name" text="{.Zanocy}Biełaja Šyjnaja Chustka"/>
+  <string id="cravat_red.name" text="{.Zanocy}Čyrvonaja Šyjnaja Chustka"/>
+  <string id="bandolier.name" text="{.Muzcynski}Bandaljer"/>
+  <string id="grenadier_bag.name" text="{.Zanocy}Hrenadziorskaja Torba"/>
+  <!--input/items/armours_female_commoner.xml-->
+  <string id="brocade_silk_gown.name" text="{.Zanocy}Šaŭkovaja Parčovaja Suknia Prastaludzinki"/>
+  <string id="woollen_dress.name" text="{.Zanocy}Vaŭnianaja Sukienka Prastaludzinki"/>
+  <string id="peasant_dress_red.name" text="{.Zanocy}Čyrvonaja Sukienka Sialanki"/>
+  <string id="commoner_dress_brown.name" text="{.Zanocy}Karyčnievaja Sukienka Prastaludzinki"/>
+  <string id="commoner_bonnet.name" text="{.Muzcynski}Čepčyk Prastaludzinki"/>
+  <string id="commoner_female_boots.name" text="{.Mnozny}Tufli Prastaludzinki"/>
+  <!--input/items/armours_female_noble.xml-->
+  <string id="french_ballgown.name" text="{.Zanocy}Balnaja Suknia Šlachcianki"/>
+  <string id="female_dress.name" text="{.Zanocy}Čyrvonaja Sukienka Šlachcianki"/>
+  <string id="female_dress_2.name" text="{.Zanocy}Čornaja Sukienka Šlachcianki"/>
+  <string id="ladies_dress_green.name" text="{.Zanocy}Zialonaja Sukienka Šlachcianki"/>
+  <string id="ladies_hat_f.name" text="{.Muzcynski}Kapialuš Šlachcianki ź Piorami"/>
+  <string id="ladies_hat_green.name" text="{.Muzcynski}Kapialuš-Kazanok Šlachcianki"/>
+  <string id="lady_round_hat.name" text="{.Muzcynski}Kruhły Kapialuš Šlachcianki"/>
+  <string id="noble_lady_shoes.name" text="{.Mnozny}Tufli Šlachcianki"/>
+  <!--input/items/armours_french.xml-->
+  <string id="french_peasant_tunic.name" text="{.Zanocy}Tunika Fracuzkaha Sielanina"/>
+  <string id="french_peasant_tunic_shoes.name" text="{.Mnozny}Tufli da Tuniki Fracuzkaha Sielanina"/>
+  <string id="french_militia_equipment.name" text="{.Muzcynski}Ryštunak Fracuzkaha Rušeńnia"/>
+  <string id="french_militia_coat.name" text="{.Nijaki}Palito Fracuzkaha Rušennaha"/>
+  <string id="french_sergeant_coat.name" text="{.Nijaki}Palito Fracuzkaha Siaržanta"/>
+  <string id="french_fusilier_coat.name" text="{.Nijaki}Palito Fracuzkaha Fuzilera"/>
+  <string id="french_fusilier_coat_blue.name" text="{.Nijaki}Siniaje Palito Fracuzkaha Fuzilera"/>
+  <string id="french_fusilier_shoes.name" text="{.Mnozny}Tufli Fracuzkaha Fuzilera"/>
+  <string id="french_trooper_coat.name" text="{.Nijaki}Palito Fracuzkaha Końnika"/>
+  <string id="french_trooper_botforts.name" text="{.Mnozny}Batforty Fracuzkaha Końnika"/>
+  <string id="french_guard_coat.name" text="{.Nijaki}Palito Fracuzkaha Hvardziejca"/>
+  <string id="french_gunner_coat.name" text="{.Nijaki}Palito Fracuzkaha Piščalnika"/>
+  <string id="french_marine_tricorne.name" text="{.Zanocy}Trykutka Fracuzkaha Marskoha Piachotnika"/>
+  <string id="french_marine_coat.name" text="{.Nijaki}Palito Fracuzkaha Marskoha Piachotnika"/>
+  <string id="french_marine_shoes.name" text="{.Mnozny}Tufli Fracuzkaha Marskoha Piachotnika"/>
+  <!--input/items/armours_german.xml-->
+  <string id="austrian_grenadier_officer.name" text="{.Nijaki}Palito Niamieckaha Aficera"/>
+  <string id="prussian_guard_officer.name" text="{.Nijaki}Palito Pruskaha Aficera"/>
+  <string id="brown_boots.name" text="{.Mnozny}Karyčnievyja Boty"/>
+  <string id="german_dragoon_uniform.name" text="{.Nijaki}Palito Niamieckaha Drahuna"/>
+  <!--input/items/armours_italian.xml-->
+  <string id="italian_artillery_coat.name" text="{.Nijaki}Palito Italjanskaha Artylerysta"/>
+  <string id="italian_officer_coat.name" text="{.Nijaki}Palito Italjanskaha Aficera"/>
+  <string id="italian_guard_gaiters.name" text="{.Mnozny}Tufli Italjanskaha Rušennaha"/>
+  <string id="italian_guard_coat.name" text="{.Nijaki}Palito Italjanskaha Hvardziejca"/>
+  <string id="italian_dragoon_coat.name" text="{.Nijaki}Palito Italjanskaha Drahuna"/>
+  <!--input/items/armours_militia.xml-->
+  <string id="cavalry_militia_cuirass.name" text="{.Zanocy}Kirasa Konnaha Rušennaha"/>
+  <string id="militia_cavalry_botforts.name" text="{.Mnozny}Batforty Konnaha Rušennaha"/>
+  <string id="militia_cavalry_hat.name" text="{.Muzcynski}Kapialuš Konnaha Rušennaha"/>
+  <string id="american_light_infantry_coat.name" text="{.Nijaki}Palito Amierykanskaha Lohkaha Piachotnika"/>
+  <string id="american_light_infantry_shoes.name" text="{.Mnozny}Tufli Amierykanskaha Lohkaha Piachotnika"/>
+  <string id="american_light_infantry_hat.name" text="{.Muzcynski}Kapialuš Amierykanskaha Lohkaha Piachotnika"/>
+  <string id="puritan_coat.name" text="{.Nijaki}Palito Purytanina"/>
+  <string id="puritan_coat_shoes.name" text="{.Mnozny}Tufli da Palito Purytanina"/>
+  <string id="puritan_hat.name" text="{.Muzcynski}Kapialuš Purytanina"/>
+  <string id="cavalier_hat.name" text="{.Muzcynski}Kapialuš Kavalera"/>
+  <string id="irish_private_coat.name" text="{.Nijaki}Palito Šarahovaha Rušeńnia"/>
+  <!--input/items/armours_neutral.xml-->
+  <string id="fighters_pants.name" text="{.Mnozny}Nahavicy Bajca"/>
+  <string id="farmers_shirt.name" text="{.Zanocy}Kašula Ziemlaroba"/>
+  <string id="farmers_shoes" text="{.Mnozny}Boty Ziemlaroba"/>
+  <string id="farmers_hat.name" text="{.Muzcynski}Kapialuš Ziemlaroba"/>
+  <string id="austrian_farmer.name" text="{.Zanocy}Kašula Aŭstryjskaha Ziemlaroba"/>
+  <string id="austrian_farmer_shoes" text="{.Mnozny}Boty Aŭstryjskaha Ziemlaroba"/>
+  <string id="austrian_farmers_hat.name" text="{.Muzcynski}Kapialuš Aŭstryjskaha Ziemlaroba"/>
+  <string id="sailor_coat_blue.name" text="{.Nijaki}Siniaje Palito Maraka"/>
+  <string id="sailor_coat_blue_shoes.name" text="{.Mnozny}Tufli da Siniaha Palito Maraka"/>
+  <string id="noble_coat_brown.name" text="{.Nijaki}Karyčnievaje Palito Šlachciča"/>
+  <string id="noble_coat_brown_shoes.name" text="{.Mnozny}Karyčnievyja Tufli da Palito Šlachciča"/>
+  <string id="ranger_coat.name" text="{.Nijaki}Palito Rejndžara"/>
+  <string id="ranger_coat_black.name" text="{.Nijaki}Čornaje Palito Rejndžara"/>
+  <string id="ranger_coat_maroon.name" text="{.Nijaki}Bardovaje Palito Rejndžara"/>
+  <string id="ranger_shoes.name" text="{.Mnozny}Karyčnievyja Tufli Rejndžara"/>
+  <string id="pirate_jerkin.name" text="{.Muzcynski}Piracki Kamzoł"/>
+  <string id="pirate_mate_tunic.name" text="{.Zanocy}Pirackaja Tunika"/>
+  <string id="pirate_mate_shoes.name" text="{.Mnozny}Pirackija Tufli"/>
+  <string id="pirates_dress.name" text="{.Zanocy}Pirackaja Sukienka"/>
+  <string id="town_coat.name" text="{.Nijaki}Doŭhaje Palito Šlachciča"/>
+  <string id="colonial_noble_coat_name" text="{.Nijaki}Kalanijalnaje Siniaje Palito Šlachciča"/>
+  <string id="colonial_noble_coatr_name" text="{.Nijaki}Kalanijalnaje Čyrvonaje Palito Šlachciča"/>
+  <string id="colonial_noble_boots_name" text="{.Mnozny}Kalanijalnyja Boty Šlachciča"/>
+  <string id="noble_coat.name" text="{.Nijaki}Palito Šlachciča"/>
+  <string id="noble_shoes.name" text="{.Mnozny}Tufli i Pančochi Šlachciča"/>
+  <string id="captain_coat.name" text="{.Nijaki}Kapitanskaje Palito"/>
+  <string id="captain_boots.name" text="{.Mnozny}Kapitanskija Boty"/>
+  <string id="tricorne_pony.name" text="{.Zanocy}Kapitanskaja Trykutka"/>
+  <!--input/items/armours_portuguese.xml-->
+  <string id="spanish_militia_hat_b.name" text="{.Muzcynski}Kapialuš Hišpanskaha Rušennaha"/>
+  <string id="spanish_officer_hat.name" text="{.Muzcynski}Kapialuš Hišpanskaha Aficera"/>
+  <string id="spanish_cuera_hat.name" text="{.Muzcynski}Kapialuš Hišpanskaha Kuery"/>
+  <string id="spanish_trooper_hat.name" text="{.Muzcynski}Kapialuš Hišpanskaha Końnika"/>
+  <string id="spanish_artillery_gunner.name" text="{.Nijaki}Palito Hišpanskaha Piščalnika"/>
+  <string id="spanish_artillery_gunner_shoes.name" text="{.Mnozny}Tufli Hišpanskaha Piščalnika"/>
+  <string id="spanish_infantry_officer.name" text="{.Nijaki}Palito Hišpanskaha Piachotnaha Aficera"/>
+  <string id="spanish_infantry_officer_shoes.name" text="{.Mnozny}Tufli Hišpanskaha Piachotnaha Aficera"/>
+  <string id="spanish_infantry_private.name" text="{.Nijaki}Palito Hišpanskaha Šarahovaha Piachotnika"/>
+  <string id="spanish_infantry_private_shoes.name" text="{.Mnozny}Tufli Hišpanskaha Šarahovaha Piachotnika"/>
+  <string id="spanish_militia_captain.name" text="{.Nijaki}Palito Hišpanskaha Kapitana"/>
+  <string id="spanish_militia_captain_shoes.name" text="{.Mnozny}Hamašy Hišpanskaha Kapitana"/>
+  <string id="spanish_militia_fusilier.name" text="{.Nijaki}Palito Hišpanskaha Fuzilera Rušeńnia"/>
+  <string id="spanish_militia_fusilier_shoes.name" text="{.Mnozny}Hamašy Hišpanskaha Rušennaha"/>
+  <string id="spanish_militia_private.name" text="{.Nijaki}Palito Hišpanskaha Šarahovaha Rušeńnia"/>
+  <string id="spanish_militia_hat.name" text="{.Zanocy}Šapka Hišpanskaha Rušennaha"/>
+  <!--input/items/armours_religious.xml-->
+  <string id="early_pope_hat.name" text="{.Muzcynski}Rańni Papski Hałaŭny Ŭbor"/>
+  <string id="zucchetto.name" text="{.Muzcynski}Pileołus"/>
+  <string id="priest_robe.name" text="{.Zanocy}Ryza Śviatara"/>
+  <string id="pope_robe.name" text="{.Zanocy}Papskaja Ryza"/>
+  <string id="cross_necklace.name" text="{.Mnozny}Karali z Kryžam"/>
+  <!--input/items/armours_spanish.xml-->
+  <!--input/items/armours_wanderers.xml-->
+  <string id="worn_red_coat.name" text="{.Nijaki}Panošanaje Čyrvonaje Palito"/>
+  <!--input/items/armours_western_noble.xml-->
+  <string id="fur_cloak.name" text="{.Muzcynski}Futravy Płašč Šlachciča"/>
+  <string id="red_cape.name" text="{.Zanocy}Čyrvonaja Nakidka Šlachciča"/>
+  <string id="yellow_cape.name" text="{.Zanocy}Žoŭtaja Nakidka Šlachciča"/>
+  <string id="green_cape.name" text="{.Zanocy}Zialonaja Nakidka Šlachciča"/>
+  <string id="black_cape.name" text="{.Zanocy}Čornaja Nakidka Šlachciča"/>
+  <string id="blue_cape.name" text="{.Zanocy}Siniaja Nakidka Šlachciča"/>
+  <!--input/items/banners.xml-->
+  <string id="xbrIp3qS" text="{.Muzcynski}Štandar Šalenstva"/>
+  <string id="bMI735CY" text="{.Muzcynski}Štandar Lutaści"/>
+  <string id="v652kWEt" text="{.Muzcynski}Štandar Hnievu"/>
+  <string id="xzzr0WR7" text="{.Muzcynski}Fłah Pahibieli Aleniaŭ"/>
+  <string id="HAZIchT3" text="{.Muzcynski}Fłah Pahibieli Dzikoŭ"/>
+  <string id="CdBEdJqV" text="{.Muzcynski}Fłah Pahibieli Koniej"/>
+  <string id="w9bVJ78F" text="{.Muzcynski}Ściah Upiortych u Ziamlu Dzidaŭ"/>
+  <string id="AEFT6XBM" text="{.Muzcynski}Ściah Ściany Dzidaŭ"/>
+  <string id="bFxReZW8" text="{.Muzcynski}Ściah Ściany Pikaŭ"/>
+  <string id="8yEr93Aw" text="{.Muzcynski}Fłah Strałka"/>
+  <string id="AfouAjT5" text="{.Muzcynski}Fłah Palaŭničaha"/>
+  <string id="caWWYP0J" text="{.Muzcynski}Fłah Trapnastreła"/>
+  <string id="5Hn58Ra0" text="{.Muzcynski}Ściah Sokała Farysa"/>
+  <string id="EbEmIi5K" text="{.Muzcynski}Ściah Jastraba Emira"/>
+  <string id="iR9jPgOg" text="{.Muzcynski}Ściah Arła Sułtana"/>
+  <string id="dioBqbxi" text="{.Muzcynski}Ściah Praniźlivaha Strełu"/>
+  <string id="ppVcgN5l" text="{.Muzcynski}Ściah Źniščalnaha Strełu"/>
+  <string id="rUXo5AsE" text="{.Muzcynski}Ściah Rujnavalnaha Strełu"/>
+  <string id="ETLxYEwL" text="{.Muzcynski}Ściah Husaraŭ"/>
+  <string id="eIHsXeC4" text="{.Muzcynski}Ściah Drahunaŭ"/>
+  <string id="QR6AaH9A" text="{.Muzcynski}Ściah Kirasiraŭ"/>
+  <string id="xjgt7gpf" text="{.Muzcynski}Štandar Abaviazku"/>
+  <string id="NrXBeKMl" text="{.Muzcynski}Štandar Advahi"/>
+  <string id="rZ4iW5vM" text="{.Muzcynski}Štandar Dyscypliny"/>
+  <string id="Cd6mr3q2" text="{.Muzcynski}Ściah Kamieńnia"/>
+  <string id="7mCYbhbp" text="{.Muzcynski}Ściah Žaleza"/>
+  <string id="6uSQnTob" text="{.Muzcynski}Ściah Stali"/>
+  <string id="ndfetbYO" text="{.Muzcynski}Štandar Fałanhi"/>
+  <string id="UMW7oc9g" text="{.Muzcynski}Štandar Fulkuma"/>
+  <string id="LylVtFCG" text="{.Muzcynski}Štandar Čarapachi"/>
+  <string id="0heYJNpN" text="{.Muzcynski}Ściah Zbližanych Ščytoŭ"/>
+  <string id="fqvQNrqN" text="{.Muzcynski}Ściah Ściany Ščytoŭ"/>
+  <string id="CEK9YjWK" text="{.Muzcynski}Ściah Złučanych Ščytoŭ"/>
+  <string id="VP7YhB8K" text="{.Muzcynski}Ściah Dubovych Ščytoŭ"/>
+  <string id="9SbsZJUZ" text="{.Muzcynski}Ściah Žaleznych Ščytoŭ"/>
+  <string id="atPgGfXo" text="{.Muzcynski}Ściah Stalovych Ščytoŭ"/>
+  <string id="79QBpG6D" text="{.Muzcynski}Ściah Pustelnych Viatroŭ"/>
+  <string id="p6FU9oQa" text="{.Muzcynski}Ściah Ruchomych Piaskoŭ"/>
+  <string id="e59hZ6Er" text="{.Muzcynski}Ściah Pyłavych Vichuraŭ"/>
+  <string id="fUugSmen" text="{.Muzcynski}Fłah Vyviednika"/>
+  <string id="D3RYsPg5" text="{.Muzcynski}Fłah Śledapyta"/>
+  <string id="M3ZTF7rj" text="{.Muzcynski}Fłah Badziahi"/>
+  <string id="SlmJXyQD" text="{.Muzcynski}Fłah Kłunačnaha Kania"/>
+  <string id="LbvihbBz" text="{.Muzcynski}Fłah Vajskovaha Kania"/>
+  <string id="jkEUOujE" text="{.Muzcynski}Fłah Čystakroŭnaha Kania"/>
+  <!--input/items/helmets.xml-->
+  <string id="gap_default_tricorne.name" text="{.Zanocy}Trykutka ź Biełymi Palami"/>
+  <string id="cocked_tricorne.name" text="{.Zanocy}Trykutka z Zahnutymi Palami"/>
+  <string id="noble_tricorne.name" text="{.Zanocy}Šlachietnaja Trykutka"/>
+  <string id="tricorne_gold_blue.name" text="{.Zanocy}Trykutka z Załatoju Ablamoŭkaju i Siniaju Stužkaju"/>
+  <string id="tricorne_gold_red.name" text="{.Zanocy}Trykutka z Załatoju Ablamoŭkaju i Čyrvonaju Stužkaju"/>
+  <string id="tricorne_white_red.name" text="{.Zanocy}Trykutka ź Biełaju Ablamoŭkaju i Čyrvonaju Stužkaju"/>
+  <string id="tricorne_white_white.name" text="{.Zanocy}Trykutka ź Biełaju Ablamoŭkaju i Biełaju Stužkaju"/>
+  <string id="tricorne_wig_white.name" text="{.Zanocy}Trykutka z Parykom i Biełaju Ablamoŭkaju"/>
+  <string id="pony_tail.name" text="{.Muzcynski}Paryk z Chvościkam"/>
+  <string id="powdered_wig.name" text="{.Muzcynski}Napudrany Paryk"/>
+  <string id="powdered_wig_tricorne.name" text="{.Muzcynski}Napudrany Paryk z Trykutkaju"/>
+  <string id="carpus_hat.name" text="{.Muzcynski}Karpuski Kapialuš"/>
+  <string id="jaeger_hat.name" text="{.Muzcynski}Jehierski Kapialuš"/>
+  <string id="bearskin.name" text="{.Zanocy}Miadźviedžaja Šapka"/>
+  <string id="bowler_hat.name" text="{.Muzcynski}Kapialuš-Kazanok"/>
+  <string id="gap_french_carabineer_helmet.name" text="{.Muzcynski}Drahunski Šałom"/>
+  <string id="cuiriassier_helmet.name" text="{.Muzcynski}Kirasirski Šałom"/>
+  <string id="pot_helmet.name" text="{.Muzcynski}Šałom-Harščok"/>
+  <string id="janissary_hat.name" text="{.Muzcynski}Janyčarski Kapialuš"/>
+  <string id="hussar_colpack.name" text="{.Muzcynski}Husarski Kaŭpak"/>
+  <string id="mitre_cap.name" text="{.Zanocy}Mitra"/>
+  <string id="nZ2MJWhM" text="{.Muzcynski}Plamionny Turban"/>
+  <!--input/items/horses_and_others.xml-->
+  <string id="quDh9Vlu" text="{.Muzcynski}Turnirny Koń{@Plural}Turnirnych Koniej{\@}"/>
+  <string id="1DqnZxiC" text="{.Muzcynski}Turnirny Poni{@Plural}Turnirnych Poni{\@}"/>
+  <string id="w6Oz5viK" text="{.Muzcynski}Turnirny Poni{@Plural}Turnirnych Poni{\@}"/>
+  <string id="2WB0qeAi" text="{.Muzcynski}Turnirny{@Plural}Turnirnych Stepavych Koniej{\@}"/>
+  <string id="GSiBXOfg" text="{.Muzcynski}Turnirny Troter{@Plural}Turnirnych Troteraŭ{\@}"/>
+  <string id="pb2ELRZQ" text="{.Muzcynski}Turnirny Koń{@Plural}Turnirnych Koniej{\@}"/>
+  <string id="HAcujhib" text="{.Muzcynski}Turnirny Viarblud{@Plural}Turnirnych Viarbludaŭ{\@}"/>
+  <string id="P1rL28RT" text="{.Muzcynski}Sampter{@Plural}Sampteraŭ{\@}"/>
+  <string id="VqCS28U1" text="{.Muzcynski}Muł{@Plural}Mułaŭ{\@}"/>
+  <string id="1O761hqN" text="{.Muzcynski}Kłunačny Viarblud{@Plural}Kłunačnych Viarbludaŭ{\@}"/>
+  <string id="U3SWNkFt" text="{.Muzcynski}Pracoŭny Koń{@Plural}Pracoŭnych Koniej{\@}"/>
+  <string id="bBGDwuXX" text="{.Muzcynski}Pustelny Koń{@Plural}Pustelnych Koniej{\@}"/>
+  <string id="b5BDaOva" text="{.Muzcynski}Brytanski Konik{@Plural}Brytanskich Konikaŭ{\@}"/>
+  <string id="N5aT5hoA" text="{.Muzcynski}Halisijski Poni{@Plural}Halisijskich Poni{\@}"/>
+  <string id="Cdecpigb" text="{.Muzcynski}Nordzki Karenny{@Plural}Nordzkich Karennych{\@}"/>
+  <string id="Pd77RH8P" text="{.Muzcynski}Raŭnsi{@Plural}Raŭnsi{\@}"/>
+  <string id="Kp9kslko" text="{.Muzcynski}Arabski Troter{@Plural}Arabskich Troteraŭ{\@}"/>
+  <string id="daI3Ybk8" text="{.Muzcynski}Irłandzki Poni{@Plural}Irłandzkich Poni{\@}"/>
+  <string id="OKn90ad7" text="{.Muzcynski}Halisijski Troter{@Plural}Halisijskich Troteraŭ{\@}"/>
+  <string id="nhaiQ9oX" text="{.Muzcynski}Manholski Dziki Koń{@Plural}Manholskich Dzikich Koniej{\@}"/>
+  <string id="uPrWdLxV" text="{.Muzcynski}Fijordzki Troter{@Plural}Fijordzkich Troteraŭ{\@}"/>
+  <string id="meARhlZC" text="{.Muzcynski}Kamarski Troter{@Plural}Kamarskich Troteraŭ{\@}"/>
+  <string id="TXpQetkh" text="{.Muzcynski}Vajskovy Viarblud{@Plural}Vajskovych Viarbludaŭ{\@}"/>
+  <string id="hunterhorse" text="{.Muzcynski}Palaŭničy"/>
+  <string id="he5mGIMh" text="{.Muzcynski}Čardžer{@Plural}Čardžeraŭ{\@}"/>
+  <string id="17tuCyeb" text="{.Muzcynski}Arabski Čardžer{@Plural}Arabskich Čardžeraŭ{\@}"/>
+  <string id="FkqbAeoY" text="{.Muzcynski}Dejłski Poni{@Plural}Dejłskich Poni{\@}"/>
+  <string id="rmjcrnll" text="{.Muzcynski}Halisijski Čardžer{@Plural}Halisijskich Čardžeraŭ{\@}"/>
+  <string id="NNUXGwTc" text="{.Muzcynski}Manholski Čardžer{@Plural}Manholskich Čardžeraŭ{\@}"/>
+  <string id="Og0FswFV" text="{.Muzcynski}Fijordzki Čardžer{@Plural}Fijordzkich Čardžeraŭ{\@}"/>
+  <string id="MedDPUNh" text="{.Muzcynski}Destryjer{@Plural}Destryjeraŭ{\@}"/>
+  <string id="b56X0QOh" text="{.Muzcynski}Karaleŭski Kamarski Koń{@Plural}Karaleŭskich Kamarskich Koniej{\@}"/>
+  <string id="voORddjl" text="{.Muzcynski}Karaleŭski Halisijski Koń{@Plural}Karaleŭskich Halisijskich Koniej{\@}"/>
+  <string id="vXsifw1K" text="{.Muzcynski}Tachi{@Plural}Tachi{\@}"/>
+  <string id="uTt4HX6V" text="{.Muzcynski}Isłandzki Koń{@Plural}Isłandzkich Koniej{\@}"/>
+  <string id="BvLhPmdK" text="{.Muzcynski}Karaleŭski Destryjer{@Plural}Karaleŭskich Destryjeraŭ{\@}"/>
+  <string id="ApiPJ1NJ" text="{.Muzcynski}Chasnfry{@Plural}Viarbludaŭ Chasnfry{\@}"/>
+  <string id="ABWvOCTE" text="{.Muzcynski}Arabski Viarblud{@Plural}Arabskich Viarbludaŭ{\@}"/>
+  <string id="K4uryqOO" text="{.Muzcynski}Brytanski Čystakroŭny Koń{@Plural}Brytanskich Čystakroŭnych Koniej{\@}"/>
+  <string id="kKuVy1jT" text="{.Muzcynski}Chamsin{@Plural}Koniej Chamsin{\@}"/>
+  <string id="r8NS1wz7" text="{.Muzcynski}Čystakroŭny{@Plural}Čystakroŭnych{\@}"/>
+  <string id="2wFal5Nd" text="{.Muzcynski}Štarmavy Čardžer{@Plural}Štarmavych Čardžeraŭ{\@}"/>
+  <string id="IIzhL9gt" text="{.Muzcynski}Vajskovy Koń{@Plural}Vajskovych Koniej{\@}"/>
+  <string id="Wj98Otmo" text="{.Muzcynski}Stepavy Čardžer{@Plural}Stepavych Čardžeraŭ{\@}"/>
+  <string id="CjjzWA1r" text="{.Muzcynski}Pustelny Vajskovy Koń{@Plural}Pustelnych Vajskovych Koniej{\@}"/>
+  <string id="Qqdl6fbM" text="{.Nijaki}Tryvałaje Beduinskaje Siadło"/>
+  <string id="p2jR7Urm" text="{.Nijaki}Tryvałaje Siadło"/>
+  <string id="CHxRDUN1" text="{.Nijaki}Tryvałaje Futravaje Siadło"/>
+  <string id="O37kzdXO" text="{.Zanocy}Lohkaja Vupraž"/>
+  <string id="iquQ9dro" text="{.Zanocy}Paŭkalčužnaja Barda"/>
+  <string id="HJriXlcb" text="{.Zanocy}Uzmocnienaja Kalčužnaja Barda"/>
+  <string id="XkwOTdVQ" text="{.Muzcynski}Kielcki Maroz"/>
+  <string id="k3dvbLDi" text="{.Nijaki}Siadło Eneja"/>
+  <string id="vRIpgxhi" text="{.Muzcynski}Vybar Fartuny"/>
+  <string id="JkxPt29i" text="{.Muzcynski}Kalčužny Konski Pancyr"/>
+  <string id="Yh7Dorsr" text="{.Zanocy}Pałasataja Skuranaja Vupraž"/>
+  <string id="NUmDuEqI" text="{.Zanocy}Imperskaja Vierchavaja Vupraž"/>
+  <string id="i2QlHUVW" text="{.Zanocy}Łuskataja Paŭbarda Katafrakta"/>
+  <string id="ds1nrqNv" text="{.Zanocy}Łuskataja Barda Katafrakta"/>
+  <string id="LzlQUcak" text="{.Zanocy}Uzmocnienaja Kalčužnaja Barda"/>
+  <string id="aqrJqQqx" text="{.Nijaki}Beduinskaje Tkanaje Siadło"/>
+  <string id="zPbDZ9VA" text="{.Nijaki}Beduinskaje Prostaje Siadło"/>
+  <string id="NRB3V6yP" text="{.Zanocy}Uzmocnienaja Płaścinkavaja Paŭbarda"/>
+  <string id="Vj4ZBxm5" text="{.Zanocy}Uzmocnienaja Płaścinkavaja Barda"/>
+  <string id="OaQE1Frx" text="{.Nijaki}Stepavaje Siadło"/>
+  <string id="EfRKaKs0" text="{.Zanocy}Stepavaja Futravaja Vupraž"/>
+  <string id="qNNja5IF" text="{.Zanocy}Łamielarnaja Paŭbarda"/>
+  <string id="uRqm1nJ7" text="{.Nijaki}Lohkaje Siadło"/>
+  <string id="lZZOQsxc" text="{.Nijaki}Hrubaje Siadło Vieršnika"/>
+  <string id="MI65uuKB" text="{.Zanocy}Kalcavaja Kalčužnaja Barda"/>
+  <string id="33aaUcaX" text="{.Zanocy}Brytanskaja Konskaja Vupraž"/>
+  <string id="W8r7A7qH" text="{.Zanocy}Łuskataja Paŭbarda"/>
+  <string id="amqJbdDV" text="{.Zanocy}Łuskataja Barda"/>
+  <string id="merchant_wagon.name" text="{.Muzcynski}Handlarski Voz"/>
+  <string id="7S6BjECG" text="{.Zanocy}Vupraž Muła z Kłunkam"/>
+  <string id="2SUb8jNP" text="{.Zanocy}Vupraž Muła z Košykami"/>
+  <string id="JHef9oad" text="{.Zanocy}Vupraž Muła z Torbami"/>
+  <string id="q1z4FQub" text="{.Nijaki}Siadło Viarbluda"/>
+  <string id="ZJYVpjuR" text="{.Nijaki}Siadło Viarbluda ź Ciažkim Hruzam"/>
+  <string id="OflbQCw6" text="{.Nijaki}Siadło Viarbluda ź Lohkim Hruzam"/>
+  <string id="1jqxlEkT" text="Śpiecyi{@Plural}miachoŭ śpiecyjaŭ{\@}"/>
+  <string id="IK2IPJi1" text="Sol{@Plural}miachoŭ soli{\@}"/>
+  <string id="WVqaRKUm" text="Poŭść{@Plural}adzinak poŭści{\@}"/>
+  <string id="n3cjEB0X" text="Instrumenty{@Plural}skryniaŭ instrumentaŭ{\@}"/>
+  <string id="QGaIYQpg" text="Ryba{@Plural}bočak ryby{\@}"/>
+  <string id="ADJBbfbQ" text="Futra{@Plural}adzinak futra{\@}"/>
+  <string id="NtsdmmW9" text="Finiki{@Plural}miachoŭ finikaŭ{\@}"/>
+  <string id="9X2l53vY" text="Srebnaja Ruda{@Plural}adzinak srebnaj rudy{\@}"/>
+  <string id="yQTBY9ie" text="Srebnyja Vyraby{@Plural}srebnych vyrabaŭ{\@}"/>
+  <string id="xsu6bPTv" text="Lon{@Plural}miachoŭ ilnu{\@}"/>
+  <string id="DvGueBrU" text="Ilnianaja Tkanina{@Plural}rulonaŭ ilnianoj tkaniny{\@}"/>
+  <string id="Zwb65ufG" text="Hlina{@Plural}adzinak hliny{\@}"/>
+  <string id="awQrcrt2" text="Hančarnyja Vyraby{@Plural}skryniaŭ hančarnych vyrabaŭ{\@}"/>
+  <string id="Vqu67a3b" text="Šoŭk{@Plural}skrutkaŭ šoŭku{\@}"/>
+  <string id="O8TpGSDA" text="Šaŭkovaje Adzieńnie{@Plural}šaŭkovaha adzieńnia{\@}"/>
+  <string id="4kvKQuXM" text="Syryja Škury{@Plural}hruzaŭ syrych škuraŭ{\@}"/>
+  <string id="ufnnUxKb" text="Skura{@Plural}skryniaŭ skury{\@}"/>
+  <string id="WSk5Sibs" text="Syr{@Plural}bočak syru{\@}"/>
+  <string id="VbL6GFmy" text="Masła{@Plural}bočak masła{\@}"/>
+  <string id="ZgVVPGTb" text="Vinahrad{@Plural}miachoŭ vinahradu{\@}"/>
+  <string id="ELsDFwAD" text="Vino{@Plural}amfaraŭ vina{\@}"/>
+  <string id="Itv3fgJm" text="Ziernie{@Plural}miachoŭ ziernia{\@}"/>
+  <string id="HiSzYWeh" text="Piva{@Plural}bočak piva{\@}"/>
+  <string id="45kZUyjh" text="Alivy{@Plural}bočak alivaŭ{\@}"/>
+  <string id="lULBZ714" text="Alej{@Plural}amfaraŭ aleju{\@}"/>
+  <string id="b6JvcSiQ" text="{.Zanocy}Kotka"/>
+  <string id="f2O1XjYd" text="{.Muzcynski}Sabaka"/>
+  <string id="GD4aQgl7" text="Aviečka{@Plural}aviečak{\@}"/>
+  <string id="QWqvGa1P" text="Karova{@Plural}hałovaŭ karovaŭ{\@}"/>
+  <string id="ZbsGBv10" text="{.Muzcynski}Kaban"/>
+  <string id="FhTUc64z" text="{.Muzcynski}Husak"/>
+  <string id="8el5a3sF" text="{.Zanocy}Kuryca"/>
+  <string id="CB97qhVM" text="{.Muzcynski}Kłunačny Muł"/>
+  <string id="vPAHwC3X" text="{.Mnozny}Vykradzienyja Tavary"/>
+  <string id="rO0oKtAo" text="{.Muzcynski}Mały Pachodny Ściah"/>
+  <string id="yy7RvQKN" text="{.Muzcynski}Posach Bo"/>
+  <string id="ItUyYjdd" text="{.Zanocy}Siakiera dla Pakarańnia Śmierciu"/>
+  <!--input/items/items.xml-->
+  <string id="6Db7aDbF" text="{.Mnozny}Streły Balisty"/>
+  <string id="tourney_shield.name" text="{.Zanocy}Dapamožnaja Ruka"/>
+  <string id="tourney_whip.name" text="{.Zanocy}Asnoŭnaja Ruka"/>
+  <!--input/items/items_guns.xml-->
+  <string id="makeshift_musket.name" text="{.Muzcynski}Samatužny Muškiet"/>
+  <string id="light_infantry_musket.name" text="{.Muzcynski}Muškiet Lohkaj Piachoty"/>
+  <string id="hunting_rifle.name" text="{.Zanocy}Palaŭničaja Strelba"/>
+  <string id="cla_musket_rifle_1_b.name" text="{.Zanocy}Jehierskaja Strelba"/>
+  <string id="bs_jestle_musket.name" text="{.Muzcynski}Knotavy Muškiet"/>
+  <string id="bs_jestle_arquebus.name" text="{.Muzcynski}Karabin"/>
+  <string id="bs_flintlock_rifle_1.name" text="{.Muzcynski}Kramianiovy Muškiet"/>
+  <string id="bs_flintlock_rifle_2.name" text="{.Muzcynski}Dobra Zrobleny Kramianiovy Muškiet"/>
+  <string id="bs_flintlock_rifle_3.name" text="{.Muzcynski}Vydatna Zrobleny Kramianiovy Muškiet"/>
+  <string id="cla_musket_rifle_1_c.name" text="{.Muzcynski}Džezajł"/>
+  <string id="bs_musket_blunderbuss_brown.name" text="{.Muzcynski}Trambłon"/>
+  <string id="anne_pistol.name" text="{.Zanocy}Pistola Karalevy Hanny"/>
+  <string id="matchlock_pistol.name" text="{.Zanocy}Knotavaja Pistola"/>
+  <string id="bs_musket_pistol_1.name" text="{.Zanocy}Kramianiovaja Pistola"/>
+  <string id="bs_musket_pistol_2.name" text="{.Zanocy}Dobra Zroblenaja Kramianiovaja Pistola"/>
+  <string id="bs_musket_pistol_3_clean.name" text="{.Zanocy}Vydatna Zroblenaja Kramianiovaja Pistola"/>
+  <string id="bs_throwing_bomb.name" text="{.Mnozny}Hranaty"/>
+  <string id="bs_musket_cannon_brass.name" text="{.Zanocy}Harmata Abus"/>
+  <string id="bs_musket_ammo.name" text="{.Mnozny}Porach i Kuli"/>
+  <string id="bs_musket_ammo_large.name" text="{.Muzcynski}Vialiki Zapas Porachu i Kulaŭ"/>
+  <string id="bs_blunderbuss_ammo.name" text="{.Mnozny}Bojeprypasy da Trambłona"/>
+  <string id="bs_cannon_ammo.name" text="{.Mnozny}Bojeprypasy da Harmaty Abus"/>
+  <!--input/items/native_armours.xml-->
+  <string id="african_skirt.name" text="{.Mnozny}Łachmany Afrykanskaha Vajara"/>
+  <string id="african_warrior_rags.name" text="{.Zanocy}Spadnica Afrykanskaha Vajara"/>
+  <string id="native_poncho.name" text="{.Nijaki}Karennaje Žanočaje Ponča"/>
+  <string id="native_top.name" text="{.Muzcynski}Karenny Žanočy Top"/>
+  <string id="native_female_tunic_name" text="{.Zanocy}Karennaja Žanočaja Tunika"/>
+  <string id="native_female_tunic_shoes_name" text="{.Mnozny}Karennyja Nahavicy"/>
+  <string id="native_necklace.name" text="{.Mnozny}Karennyja Karali"/>
+  <string id="native_dress_name" text="{.Zanocy}Karennaja Sukienka"/>
+  <string id="native_pants_f_name" text="{.Mnozny}Karennyja Nahavicy"/>
+  <string id="native_jewelry_name" text="{.Mnozny}Karennyja Azdoby"/>
+  <string id="native_headress_name" text="{.Muzcynski}Karenny Hałaŭny Ŭbor"/>
+  <string id="native_tunic.name" text="{.Zanocy}Karennaja Tunika"/>
+  <string id="native_boots.name" text="{.Mnozny}Karennyja Tufli"/>
+  <string id="native_chaps.name" text="{.Mnozny}Karennyja Nahavicy-Čapsy"/>
+  <string id="native_chaps_boots.name" text="{.Mnozny}Karennyja Boty da Nahavicaŭ-Čapsaŭ"/>
+  <string id="native_hair_name" text="{.Muzcynski}Karenny Irakiez"/>
+  <string id="native_warrior_vest_name" text="{.Zanocy}Karennaja Kamizelka Vajara"/>
+  <string id="native_warrior_pants_name" text="{.Mnozny}Karennyja Nahavicy Vajara"/>
+  <string id="native_warrior_shoes_name" text="{.Mnozny}Karennyja Tufli Vajara"/>
+  <string id="native_warrior_band_name" text="{.Zanocy}Karennaja Stužka Vajara"/>
+  <string id="native_bullhorns.name" text="{.Mnozny}Karennyja Byčynyja Rohi Vajara"/>
+  <string id="native_feathered_headband.name" text="{.Zanocy}Karennaja Paviazka ź Piorami"/>
+  <string id="native_warrior_claw_name" text="{.Muzcynski}Karenny Kipciur Vajara"/>
+  <string id="shaman_tunic_name" text="{.Zanocy}Karennaja Tunika Šamana"/>
+  <string id="shaman_pants_name" text="{.Mnozny}Karennyja Nahavicy Šamana"/>
+  <string id="shaman_shoes_name" text="{.Mnozny}Karennyja Tufli Šamana"/>
+  <string id="shaman_hat_name" text="{.Muzcynski}Karenny Hałaŭny Ŭbor Šamana"/>
+  <string id="shaman_band_name" text="{.Zanocy}Karennaja Paviazka na Hałavu"/>
+  <string id="kilt.name" text="{.Muzcynski}Kilt"/>
+  <string id="beret.name" text="{.Muzcynski}Biaret"/>
+  <!--input/items/weapons.xml-->
+  <string id="cane_knife.name" text="{.Muzcynski}Tryśniakovy Nož"/>
+  <string id="lacrosse_stick_t" text="{.Zanocy}Lakrosnaja Kluška"/>
+  <string id="ball_head_club.name" text="{.Zanocy}Šarapadobnaja Bułava"/>
+  <string id="kerrie_club.name" text="{.Zanocy}Dubina Kiery"/>
+  <string id="gunstock_warclub" text="{.Zanocy}Bajavaja Dubina-Prykład"/>
+  <string id="tomahawk.name" text="{.Muzcynski}Tamahaŭk"/>
+  <string id="stone_axe.name" text="{.Zanocy}Kamiennaja Siakiera"/>
+  <string id="katana.name" text="{.Muzcynski}Dziŭny Ŭschodni Mieč"/>
+  <string id="shovel.name" text="{.Zanocy}Rydloŭka"/>
+  <string id="bayonet.name" text="{.Muzcynski}Bahniet"/>
+  <string id="cavalry_sabre.name" text="{.Zanocy}Kavaleryjskaja Šabla"/>
+  <string id="guard_sabre.name" text="{.Zanocy}Hvardziejskaja Šabla"/>
+  <string id="infantry_sabre.name" text="{.Zanocy}Piachotnaja Šabla"/>
+  <string id="fine_cutlass.name" text="{.Zanocy}Vydatnaja Abardažnaja Šabla"/>
+  <string id="rapier.name" text="{.Zanocy}Rapira"/>
+  <string id="hussar_sabre.name" text="{.Zanocy}Husarskaja Šabla"/>
+  <string id="JzZJpbTB" text="{.Muzcynski}Uzmocnieny Tarč"/>
+ </strings>
+</base>
