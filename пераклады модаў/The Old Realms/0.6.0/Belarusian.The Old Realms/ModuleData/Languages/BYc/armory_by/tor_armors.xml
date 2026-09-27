@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <string id="str_tor_neutral_head_helm_001" text="{.Muzcynski}Баявы Зношаны Шлем"/>
+  <string id="str_tor_neutral_head_helm_002" text="{.Nijaki}Баявое Зношанае Армэ"/>
+  <string id="str_tor_empire_head_helm_flagellant_001" text="{.Muzcynski}Шалом Флягелянта"/>
+  <string id="str_tor_empire_head_helm_flagellant_002" text="{.Muzcynski}Шалом Флягелянта"/>
+  <string id="str_tor_empire_head_helm_flagellant_003" text="{.Zanocy}Павязка на Вочы Флягелянта"/>
+  <string id="str_tor_empire_head_helm_militia_001" text="{.Muzcynski}Салад Рушэньня"/>
+  <string id="str_tor_empire_head_helm_militia_002" text="{.Muzcynski}Зношаны Салад Рушэньня"/>
+  <string id="str_tor_empire_head_helm_militia_003" text="{.Muzcynski}Зношаны Салад Рушэньня"/>
+  <string id="str_tor_empire_head_helm_001" text="{.Muzcynski}Імперскі Салад"/>
+  <string id="str_tor_empire_head_helm_hunter_001" text="{.Muzcynski}Суконны Берэт"/>
+  <string id="str_tor_empire_head_hat_greatsword_001" text="{.Muzcynski}Імперскі Сакрэт"/>
+  <string id="str_tor_empire_head_hat_bowman_001" text="{.Zanocy}Шапка Лучніка"/>
+  <string id="str_tor_empire_head_hat_woodsman_001" text="{.Muzcynski}Скураны Капялюш з Палямі"/>
+  <string id="str_tor_empire_head_hat_sergeant_001" text="{.Muzcynski}Імперскі Сяржанцкі Берэт"/>
+  <string id="str_tor_empire_head_hat_001" text="{.Muzcynski}Імперскі Капялюш Трапнастрэла"/>
+  <string id="str_tor_empire_head_hat_noble_001" text="{.Muzcynski}Імперскі Шляхетны Берэт"/>
+  <string id="str_tor_empire_head_hat_marius_leitdorf" text="{.Muzcynski}Аверляндзкі Генеральскі Капялюш"/>
+  <string id="str_tor_empire_head_hat_light_wizard_001" text="{.Muzcynski}Капялюш Сьветлага Чараўніка"/>
+  <string id="str_tor_empire_head_mask_gold_wizard_001" text="{.Zanocy}Маска Залатога Чараўніка"/>
+  <string id="str_tor_empire_head_helm_balthazar_gelt" text="{.Zanocy}Маска Бальтазара Гельта"/>
+  <string id="str_tor_empire_head_hat_tracker_001" text="{.Muzcynski}Берэт Лясьнічага"/>
+  <string id="str_tor_empire_head_hat_general_001" text="{.Muzcynski}Імперскі Генеральскі Капялюш"/>
+  <string id="str_tor_empire_head_helm_general_001" text="{.Muzcynski}Імперскі Генеральскі Шлем"/>
+  <string id="str_tor_empire_head_helm_general_002" text="{.Muzcynski}Імперскі Генеральскі Шлем"/>
+  <string id="str_tor_empire_head_helm_luthor_huss" text="{.Muzcynski}Аздоблены Галаўны Рамень Ваяра-Сьвятара"/>
+  <string id="str_tor_empire_head_helm_valten" text="{.Muzcynski}Галаўны Рамень Вальтэна"/>
+  <string id="str_tor_empire_head_helm_kobs_001" text="{.Nijaki}Армэ Палаючага Сонца"/>
+  <string id="str_tor_empire_head_helm_kobs_002" text="{.Nijaki}Армэ Палаючага Сонца"/>
+  <string id="str_tor_empire_head_helm_kobs_003" text="{.Nijaki}Адкрытае Армэ Палаючага Сонца"/>
+  <string id="str_tor_empire_head_helm_kobs_004" text="{.Nijaki}Адкрытае Армэ Палаючага Сонца"/>
+  <string id="str_tor_empire_head_helm_kotww_001" text="{.Muzcynski}Шалом Рыцара Белага Воўка"/>
+  <string id="str_tor_empire_head_helm_lion_001" text="{.Zanocy}Імперская Барбута Чорнага Льва"/>
+  <string id="str_tor_empire_head_helm_lion_002" text="{.Zanocy}Імперская Барбута Чырвонага Льва"/>
+  <string id="str_tor_empire_head_helm_lion_003" text="{.Muzcynski}Імперскі Сяржанцкі Шлем"/>
+  <string id="str_tor_empire_head_hat_witch_hunter_001" text="{.Muzcynski}Капялюш Паляўнічага на Вядзьмарак"/>
+  <string id="str_tor_empire_head_hat_witch_hunter_002" text="{.Muzcynski}Капялюш Паляўнічага на Вядзьмарак"/>
+  <string id="str_tor_empire_head_hat_witch_hunter_003" text="{.Muzcynski}Капялюш Паляўнічага на Вядзьмарак"/>
+  <string id="str_tor_empire_head_helm_warrior_priest_001" text="{.Zanocy}Галаўная Павязка Ваяра-Сьвятара"/>
+  <string id="str_tor_empire_head_helm_bright_wizard_001" text="{.Muzcynski}Шалом Зыркага Чараўніка"/>
+  <string id="str_tor_empire_head_hat_cannon_crew_001" text="{.Zanocy}Шапка Артылерыста"/>
+  <string id="str_tor_empire_head_hat_cannon_crew_002" text="{.Zanocy}Шапка Артылерыста"/>
+  <string id="str_tor_empire_head_hat_cannon_crew_003" text="{.Zanocy}Шапка Артылерыста"/>
+  <string id="str_tor_empire_head_hat_master_engineer_001" text="{.Muzcynski}Капялюш Інжынера"/>
+  <string id="str_tor_empire_head_helm_burgonet_001" text="{.Muzcynski}Імперскі Салад"/>
+  <string id="str_tor_empire_head_helm_burgonet_002" text="{.Muzcynski}Імперскі Апераны Салад"/>
+  <string id="str_tor_empire_head_helm_morion_001" text="{.Muzcynski}Імперскі Цяжкі Марыён"/>
+  <string id="str_tor_empire_head_helm_morion_002" text="{.Muzcynski}Імперскі Лёгкі Марыён"/>
+  <string id="str_tor_empire_head_hat_celestial_wizard_001" text="{.Muzcynski}Капялюш Нябеснага Чараўніка"/>
+  <string id="str_tor_empire_head_hat_life_wizard_001" text="{.Muzcynski}Абруч Чараўніка Жыцьця"/>
+  <string id="str_tor_empire_head_hat_beast_wizard_001" text="{.Muzcynski}Мядзьведжы Капялюш Зьвярынага Чараўніка"/>
+  <string id="str_tor_empire_head_helm_pistolier_001" text="{.Muzcynski}Імперскі Шалом з Раменьчыкамі"/>
+  <string id="str_tor_empire_head_helm_pistolier_002" text="{.Muzcynski}Імперскі Шалом з Раменьчыкамі"/>
+  <string id="str_tor_empire_head_helm_karl_franz" text="{.Muzcynski}Шалом Карла Франца"/>
+  <string id="str_tor_empire_head_helm_lord_001" text="{.Muzcynski}Імперскі Панскі Шлем"/>
+  <string id="str_tor_empire_head_helm_lord_002" text="{.Muzcynski}Імперскі Панскі Шлем"/>
+  <string id="str_tor_empire_head_helm_taal_001" text="{.Muzcynski}Рагаты Масянжовы Шалом Тааля"/>
+  <string id="str_tor_empire_head_helm_taal_002" text="{.Muzcynski}Рагаты Шалом-Чэрап Тааля"/>
+  <string id="str_tor_empire_head_helm_pigface_bascinet_001" text="{.Muzcynski}Бацынет"/>
+  <string id="str_tor_empire_head_helm_pigface_bascinet_002" text="{.Muzcynski}Бацынет зь Пёрамі"/>
+  <string id="str_tor_empire_head_helm_pigface_bascinet_003" text="{.Muzcynski}Бацынет з Грывай"/>
+  <string id="str_tor_empire_head_helm_pothelm_001" text="{.Muzcynski}Круглаверхі Поўны Шлем"/>
+  <string id="str_tor_empire_head_helm_pothelm_002" text="{.Muzcynski}Круглаверхі Поўны Шлем"/>
+  <string id="str_tor_empire_head_helm_sallet_001" text="{.Muzcynski}Салад"/>
+  <string id="str_tor_empire_head_helm_sallet_002" text="{.Muzcynski}Салад без Заслоны"/>
+  <string id="str_tor_empire_head_helm_sallet_003" text="{.Muzcynski}Крылаты Салад"/>
+  <string id="str_tor_empire_head_helm_vlandian" text="{.Muzcynski}Пласьцінавы Шалом з Заслонай"/>
+  <string id="str_tor_vc_head_head_spirit_host_001" text="{.Zanocy}Галава Духоўнай З'явы"/>
+  <string id="str_tor_vc_head_hat_necromancer_001" text="{.Muzcynski}Каптур Некраманта"/>
+  <string id="str_tor_vc_head_helm_skeleton_warrior_001" text="{.Muzcynski}Шлем Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_head_helm_skeleton_warrior_002" text="{.Muzcynski}Шпангенхэльм Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_head_helm_vampire_lord_001" text="{.Zanocy}Вампірская Барбута"/>
+  <string id="str_tor_vc_blood_keep_grandmaster_helm" text="{.Muzcynski}Шлем Грандмайстра Крывавага Замка"/>
+  <string id="str_tor_vc_head_helm_blood_knight_001" text="{.Muzcynski}Салад Крывавага Рыцара"/>
+  <string id="str_tor_vc_head_helm_blood_knight_002" text="{.Zanocy}Барбута Крывавага Рыцара"/>
+  <string id="str_tor_vc_head_helm_blood_dragon_knight_001" text="{.Muzcynski}Шалом Крывавага Драконавага Рыцара"/>
+  <string id="str_tor_vc_head_helm_grave_guard_001" text="{.Muzcynski}Шпангенхэльм Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_head_helm_grave_guard_002" text="{.Muzcynski}Шпангенхэльм Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_head_helm_grave_guard_003" text="{.Muzcynski}Шпангенхэльм Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_head_helm_wight_king_001" text="{.Muzcynski}Шлем Валадара-Вайта"/>
+  <string id="str_tor_vc_head_helm_cairn_wraith_001" text="{.Muzcynski}Шалом Курганнага Прывіду"/>
+  <string id="str_tor_vc_head_helm_cairn_wraith_002" text="{.Muzcynski}Шалом Курганнага Прывіду"/>
+  <string id="str_tor_vc_head_helm_cairn_wraith_003" text="{.Muzcynski}Шалом Курганнага Прывіду"/>
+  <string id="str_tor_vc_head_hat_cairn_wraith_004" text="{.Muzcynski}Шалом Курганнага Прывіду"/>
+  <string id="str_tor_vc_head_helm_cairn_wraith_005" text="{.Muzcynski}Шалом Курганнага Прывіду"/>
+  <string id="str_tor_vc_head_helm_cairn_wraith_006" text="{.Zanocy}Павязка Курганнага Прывіду"/>
+  <string id="str_tor_vc_head_helm_hell_knight_001" text="{.Muzcynski}Шлем Пякельнага Рыцара"/>
+  <string id="str_tor_vc_head_helm_hell_knight_002" text="{.Muzcynski}Шлем Пякельнага Рыцара"/>
+  <string id="str_tor_vc_head_helm_hell_knight_003" text="{.Muzcynski}Шлем Пякельнага Рыцара"/>
+  <string id="str_tor_vc_head_helm_dh_templar_001" text="{.Muzcynski}Шлем Дракенхофскага Храмоўніка"/>
+  <string id="str_tor_vc_head_invisible_skull_001" text="{.Muzcynski}Чэрап"/>
+  <string id="str_tor_chaos_head_helm_chosen_001" text="{.Muzcynski}Шлем Ваяра Хаосу"/>
+  <string id="str_tor_chaos_head_helm_chosen_002" text="{.Muzcynski}Шлем Ваяра Хаосу"/>
+  <string id="str_tor_chaos_head_helm_warrior_001" text="{.Muzcynski}Шлем Ваяра Хаосу"/>
+  <string id="str_tor_chaos_head_helm_chosen_003" text="{.Muzcynski}Шлем Абранага"/>
+  <string id="str_tor_chaos_head_helm_chosen_004" text="{.Muzcynski}Шлем Нургліта-Ваяра"/>
+  <string id="str_tor_chaos_head_helm_chosen_005" text="{.Muzcynski}Шлем Нургліта-Ваяра"/>
+  <string id="str_tor_chaos_head_helm_slaneesh_warrior_001" text="{.Muzcynski}Шлем Ваяра Слаанэш"/>
+  <string id="str_tor_chaos_head_helm_slaneesh_warrior_002" text="{.Muzcynski}Шлем Ваяра Слаанэш"/>
+  <string id="str_tor_chaos_head_helm_khorne_warrior_001" text="{.Muzcynski}Гаршковы Шлем Кхорната"/>
+  <string id="str_tor_chaos_head_helm_khorne_warrior_002" text="{.Zanocy}Барбута Кхорната"/>
+  <string id="str_tor_chaos_head_hat_chaos_cultist_001" text="{.Muzcynski}Каптур Культыста Хаосу"/>
+  <string id="str_tor_chaos_head_hat_chaos_cultist_002" text="{.Zanocy}Маска з Каптурам Культыста Хаосу"/>
+  <string id="str_tor_chaos_head_hat_chaos_cultist_003" text="{.Muzcynski}Каптур Культыста Хаосу"/>
+  <string id="str_tor_chaos_head_helm_tzeentch_warrior_001" text="{.Muzcynski}Цьзінчыцкі Шлем"/>
+  <string id="str_tor_chaos_head_helm_marauder_001" text="{.Muzcynski}Аздоблены Рагаты Шлем Марадзёра"/>
+  <string id="str_tor_chaos_head_helm_marauder_002" text="{.Muzcynski}Узмоцнены Рагаты Шлем Марадзёра"/>
+  <string id="str_tor_chaos_head_helm_marauder_003" text="{.Muzcynski}Рагаты Шлем Марадзёра"/>
+  <string id="str_tor_chaos_head_helm_marauder_004" text="{.Muzcynski}Шлем Марадзёра"/>
+  <string id="str_tor_bretonnian_head_helm_greathelm_001" text="{.Muzcynski}Брэтонскі Гаршковы Шлем"/>
+  <string id="str_tor_bretonnian_head_helm_hood_001" text="{.Zanocy}Брэтонская Піцэна з Каптурам"/>
+  <string id="str_tor_bretonnian_head_helm_questing_knight_002" text="{.Nijaki}Брэтонскае Армэ"/>
+  <string id="str_tor_bretonnian_head_helm_kotr_001" text="{.Muzcynski}Гаршковы Шлем Рыцара Гаспадарства"/>
+  <string id="str_tor_bretonnian_head_helm_kotr_002" text="{.Muzcynski}Гаршковы Шлем Рыцара Гаспадарства"/>
+  <string id="str_tor_bretonnian_head_helm_kotr_003" text="{.Muzcynski}Гаршковы Шлем Рыцара Гаспадарства"/>
+  <string id="str_tor_bretonnian_head_helm_pilgrim_001" text="{.Muzcynski}Баявы Каптур Пілігрыма"/>
+  <string id="str_tor_bretonnian_head_helm_pilgrim_002" text="{.Muzcynski}Баявы Каптур Пілігрыма"/>
+  <string id="str_tor_bretonnian_head_helm_001" text="{.Muzcynski}Брэтонскі Шлем з Плоскім Верхам і Ланцуговай Кальчугай"/>
+  <string id="str_tor_bretonnian_head_helm_002" text="{.Muzcynski}Брэтонскі Шлем з Плоскім Верхам і Тканінай"/>
+  <string id="str_tor_bretonnian_head_helm_003" text="{.Muzcynski}Брэтонскі Ланцугова-Кальчужны Коіф"/>
+  <string id="str_tor_bretonnian_head_helm_004" text="{.Muzcynski}Брэтонскі Мяккі Коіф"/>
+  <string id="str_tor_bretonnian_head_helm_005" text="{.Muzcynski}Брэтонскі Ланцуговы Капалін"/>
+  <string id="str_tor_bretonnian_head_helm_006" text="{.Muzcynski}Брэтонскі Мяккі Капалін"/>
+  <string id="str_tor_bretonnian_head_prophetess_001" text="{.Muzcynski}Хенін Прарочыцы"/>
+  <string id="str_tor_bretonnian_head_prophetess_002" text="{.Muzcynski}Хенін Прарочыцы"/>
+  <string id="str_tor_bretonnian_head_louen_leoncoeur" text="{.Zanocy}Карона Брэтоніі"/>
+  <string id="str_tor_mousillon_head_helm_kotr_001" text="{.Muzcynski}Гаршковы Шлем Музільёнскага Рыцара Няшчасьця"/>
+  <string id="str_tor_mousillon_head_helm_bgk_001" text="{.Muzcynski}Шлем Рыцара Чорнага Грааля"/>
+  <string id="str_tor_we_head_mask_fabric_001" text="{.Zanocy}Маска Прагальнай Варты"/>
+  <string id="str_tor_eonir_head_mask_fabric_001" text="{.Zanocy}Эанірская Тканая Маска"/>
+  <string id="str_tor_we_spellsinger_crown_001" text="{.Zanocy}Карона Сьпявака Заклёнаў"/>
+  <string id="str_we_spellsinger_head_f" text="{.Zanocy}Карона Сьпявака Заклёнаў"/>
+  <string id="str_tor_we_head_hood_fabric_001" text="{.Muzcynski}Каптур Прагальнай Варты"/>
+  <string id="str_tor_we_head_mask_leather_001" text="{.Zanocy}Маска Рэйнджара Дзікага Лесу"/>
+  <string id="str_tor_we_head_mask_eternalguard_001" text="{.Zanocy}Маска Вечнай Варты"/>
+  <string id="str_tor_we_head_mask_dancer_001" text="{.Zanocy}Маска Танцора Вайны"/>
+  <string id="str_tor_we_head_helmet_lord_001" text="{.Muzcynski}Лесаэльфійскі Шлем Вялікага Аленя"/>
+  <string id="str_tor_we_head_helmet_lord_002" text="{.Muzcynski}Лесаэльфійскі Шалом"/>
+  <string id="str_tor_we_head_helmet_lord_003" text="{.Zanocy}Маска Прагальнага Лорда"/>
+  <string id="str_tor_we_head_helmet_lord_004" text="{.Zanocy}Лесаэльфійская Маска з Рагамі Аленя"/>
+  <string id="str_tor_we_head_sister_001" text="{.Muzcynski}Лесаэльфійскі Абруч"/>
+  <string id="str_tor_we_head_arahan_mask_001" text="{.Zanocy}Маска Сястры Змярканьня Араханы"/>
+  <string id="str_tor_we_head_naestra_mask_001" text="{.Zanocy}Маска Сястры Змярканьня Наэстры"/>
+  <string id="str_tor_we_head_mask_wildrider_001" text="{.Zanocy}Маска Дзікага Наезьніка"/>
+  <string id="str_tor_we_head_treeman_001" text="{.Zanocy}Галава з Дубовай Кары"/>
+  <string id="str_tor_we_head_ancient_treeman_001" text="{.Zanocy}Старажытная Галава з Дубовай Кары"/>
+  <string id="str_tor_we_head_hood_ranger_001" text="{.Muzcynski}Каптур Эльфа-Рэйнджара"/>
+  <string id="str_tor_we_head_dryad_001" text="{.Zanocy}Галава Дрыяды"/>
+  <string id="str_tor_we_head_crown_exiled_wizard_001" text="{.Zanocy}Карона Чараўніка-Выгнаньніка"/>
+  <string id="str_tor_we_head_daith_blindfold_001" text="{.Zanocy}Павязка на Вочы Дайта"/>
+  <string id="str_tor_beastmen_accessories_001" text="{.Mnozny}Штукі Мінатаўра"/>
+  <string id="str_tor_greenskin_orc_boyz_helmet_001" text="{.Muzcynski}Орчы Паншырны Капялюш"/>
+  <string id="str_tor_greenskin_orc_boyz_helmet_002" text="{.Muzcynski}Орчы Паншырны Капялюш"/>
+  <string id="str_tor_greenskin_orc_boyz_helmet_003" text="{.Muzcynski}Орчы Паншырны Капялюш"/>
+  <string id="str_tor_greenskin_orc_arrer_boyz_hood_001" text="{.Muzcynski}Орчы Каптур"/>
+  <string id="str_tor_greenskin_orc_arrer_boyz_hood_002" text="{.Muzcynski}Орчы Каптур"/>
+  <string id="str_tor_greenskin_orc_arrer_boyz_hood_003" text="{.Zanocy}Орчая Шапка"/>
+  <string id="str_tor_greenskin_orc_black_1_helmet_001" text="{.Muzcynski}Орчы Тваравы Гоб"/>
+  <string id="str_tor_greenskin_orc_black_2_helmet_001" text="{.Zanocy}Орчая Алаўная Плаштына"/>
+  <string id="str_tor_greenskin_orc_black_3_helmet_001" text="{.Zanocy}Орчая Паншырная Алаўная Плаштына"/>
+  <string id="str_tor_greenskin_orc_black_4_helmet_001" text="{.Zanocy}Орчая Шапраўдная Паншырная Алаўная Плаштына"/>
+  <string id="str_tor_greenskin_orc_black_5_helmet_001" text="{.Zanocy}Орчая Жорская Паншырная Алаўная Плаштына"/>
+  <string id="str_tor_greenskin_orc_boar_boyz_helmet_001" text="{.Muzcynski}Орчы Чарэпнік"/>
+  <string id="str_tor_greenskin_orc_choppa_helmet_001" text="{.Muzcynski}Орчы Капялюш"/>
+  <string id="str_tor_greenskin_orc_big_un_helmet_001" text="{.Muzcynski}Орчы Шапраўдны Капялюш"/>
+  <string id="str_tor_greenskin_orc_big_un_helmet_002" text="{.Muzcynski}Орчы Шапраўдны Капялюш"/>
+  <string id="str_tor_greenskin_orc_big_un_helmet_003" text="{.Muzcynski}Орчы Шапраўдны Капялюш"/>
+  <string id="str_tor_greenskin_orc_warboss_helmet_001" text="{.Zanocy}Орчая Алаўная Плаштына Вайнабоса"/>
+  <string id="str_tor_greenskin_orc_warboss_helmet_002" text="{.Zanocy}Орчая Алаўная Плаштына Вайнабоса"/>
+  <string id="str_tor_greenskin_orc_warboss_helmet_003" text="{.Zanocy}Орчая Алаўная Плаштына Вайнабоса"/>
+  <string id="str_tor_greenskin_orc_warboss_helmet_004" text="{.Zanocy}Орчая Алаўная Плаштына Вайнабоса"/>
+  <string id="str_tor_greenskin_goblin_warboss_helmet_001" text="{.Zanocy}Гоблінская Алаўная Плаштына Вайнабоса"/>
+  <string id="str_tor_greenskin_goblin_warboss_helmet_002" text="{.Zanocy}Гоблінская Алаўная Плаштына Вайнабоса"/>
+  <string id="str_tor_greenskin_goblin_warboss_helmet_003" text="{.Zanocy}Гоблінская Алаўная Плаштына Вайнабоса"/>
+  <string id="str_tor_greenskin_goblin_mid_helmet_001" text="{.Muzcynski}Гоблінскі Чарэпнік"/>
+  <string id="str_tor_greenskin_mask_savage_001" text="{.Mnozny}Шматы Хлопца-Дзікуна"/>
+  <string id="str_tor_greenskin_mask_shaman_001" text="{.Zanocy}Орчая Маска Шамана"/>
+  <string id="str_tor_greenskin_hood_shaman_002" text="{.Muzcynski}Орчы Каптур Шамана"/>
+  <string id="str_tor_greenskin_hood_shaman_003" text="{.Zanocy}Орчая Шапка Шамана"/>
+  <string id="str_tor_he_head_helm_phoenix_001" text="{.Muzcynski}Эанірскі Шалом Варты Каралевы"/>
+  <string id="str_tor_he_head_helm_whitelion_001" text="{.Muzcynski}Высокаэльфійскі Шалом Белага Ільва"/>
+  <string id="str_tor_he_head_helm_spearmen_001" text="{.Muzcynski}Высокаэльфійскі Шалом Капійніка"/>
+  <string id="str_tor_he_head_helm_spearmen_002" text="{.Muzcynski}Высокаэльфійскі Шалом Капійніка"/>
+  <string id="str_tor_eo_head_helm_kithband_helmet_001" text="{.Muzcynski}Эанірскі Кланавы Шалом"/>
+  <string id="str_tor_eo_head_dragon_helmet_001" text="{.Muzcynski}Эанірскі Кланавы Драконавага Шалом"/>
+  <string id="str_tor_he_head_helm_queens_guard_002" text="{.Muzcynski}Высокаэльфійскі Шалом Каралеўскай Варты"/>
+  <string id="str_tor_he_head_helm_queens_guard_001" text="{.Muzcynski}Высокаэльфійскі Шалом Каралеўскай Варты"/>
+  <string id="str_tor_dw_head_helm_militia_001" text="{.Muzcynski}Дварфскі Шалом Рушэньня"/>
+  <string id="str_tor_dw_head_helm_miner_001" text="{.Muzcynski}Дварфскі Шалом Рудняра"/>
+  <string id="str_tor_dw_head_helm_miner_002" text="{.Muzcynski}Дварфскі Шалом Рудняра"/>
+  <string id="str_tor_dw_head_helm_miner_003" text="{.Muzcynski}Дварфскі Шалом Рудняра"/>
+  <string id="str_tor_dw_head_helm_warrior_001" text="{.Muzcynski}Дварфскі Шалом Ваяра"/>
+  <string id="str_tor_dw_head_helm_slayer_adept_001" text="{.Muzcynski}Пірсінг Забойцы Троляў"/>
+  <string id="str_tor_dw_head_helm_slayer_deamon_001" text="{.Muzcynski}Шалом Забойцы Дэманаў"/>
+  <string id="str_tor_dw_head_helm_ungrim_001" text="{.Zanocy}Карона Забойцы"/>
+  <string id="str_tor_dw_head_helm_longbeard_001" text="{.Muzcynski}Шалом Доўгабарода"/>
+  <string id="str_tor_dw_head_helm_ranger_001" text="{.Muzcynski}Дварфскі Каптур Рэйнджара"/>
+  <string id="str_tor_dw_head_helm_ranger_002" text="{.Muzcynski}Дварфскі Каптур Рэйнджара"/>
+  <string id="str_tor_dw_head_helm_ranger_003" text="{.Muzcynski}Дварфскі Каптур Рэйнджара"/>
+  <string id="str_tor_dw_head_helm_ranger_004" text="{.Muzcynski}Дварфскі Шалом Рэйнджара"/>
+  <string id="str_tor_dw_head_apprentice_002" text="{.Mnozny}Дварфскія Акуляры"/>
+  <string id="str_tor_dw_head_apprentice_001" text="{.Muzcynski}Дварфскі Шалом Артылерыста"/>
+  <string id="str_tor_dw_head_journeyman_001" text="{.Muzcynski}Дварфскі Шалом Артылерыста"/>
+  <string id="str_tor_dw_head_engineer_001" text="{.Muzcynski}Дварфскі Шалом Інжынера-Майстра"/>
+  <string id="str_tor_dw_head_engineer_002" text="{.Muzcynski}Дварфскі Галаўны Ўбор Артылерыста"/>
+  <string id="str_tor_dw_head_helm_ironbreaker_001" text="{.Muzcynski}Шалом Жалезапраломніка"/>
+  <string id="str_tor_dw_head_helm_irondrake_001" text="{.Muzcynski}Шалом Жалезнага Дракона"/>
+  <string id="str_tor_dw_head_helm_noble_001" text="{.Muzcynski}Дварфскі Шляхетны Шалом"/>
+  <string id="str_tor_dw_head_helm_noble_002" text="{.Muzcynski}Дварфскі Шляхетны Шалом"/>
+  <string id="str_tor_dw_head_helm_noble_003" text="{.Muzcynski}Дварфскі Шляхетны Шалом"/>
+  <string id="str_tor_dw_head_helm_runelord_001" text="{.Muzcynski}Шалом Руннага Лорда"/>
+  <string id="str_tor_dw_head_helm_hammerer_001" text="{.Muzcynski}Дварфскі Шалом Молатабойца"/>
+  <string id="str_tor_de_head_mask_sos_001" text="{.Zanocy}Цёмнаэльфійская Маска Сястры Разьні"/>
+  <string id="str_tor_de_head_mask_sos_002" text="{.Zanocy}Цёмнаэльфійская Маска Сястры Разьні"/>
+  <string id="str_tor_de_head_mask_sos_003" text="{.Zanocy}Цёмнаэльфійская Маска Сястры Разьні"/>
+  <string id="str_tor_de_head_mask_sos_004" text="{.Zanocy}Цёмнаэльфійская Маска Сястры Разьні"/>
+  <string id="str_tor_de_head_mask_doomfire_warlock_001" text="{.Zanocy}Цёмнаэльфійская Маска Чарнакніжніка Пагібельнага Агню"/>
+  <string id="str_tor_de_head_mask_doomfire_warlock_002" text="{.Zanocy}Цёмнаэльфійская Маска Чарнакніжніка Пагібельнага Агню"/>
+  <string id="str_tor_de_head_mask_doomfire_warlock_003" text="{.Zanocy}Цёмнаэльфійская Маска Чарнакніжніка Пагібельнага Агню"/>
+  <string id="str_tor_de_head_crown_witch_elf_001" text="{.Zanocy}Цёмнаэльфійская Карона Ведзьмы-Эльфійкі"/>
+  <string id="str_tor_de_head_crown_witch_elf_002" text="{.Zanocy}Цёмнаэльфійская Карона Ведзьмы-Эльфійкі"/>
+  <string id="str_tor_de_head_crown_supreme_sorceress_001" text="{.Zanocy}Цёмнаэльфійская Карона Вярхоўнай Вядзьмаркі"/>
+  <string id="str_tor_de_head_crown_supreme_sorceress_002" text="{.Zanocy}Цёмнаэльфійская Карона Вярхоўнай Вядзьмаркі"/>
+  <string id="str_tor_de_head_helmet_death_hag_004" text="{.Zanocy}Цёмнаэльфійская Карона Каргі Сьмерці"/>
+  <string id="str_tor_de_head_helmet_death_hag_003" text="{.Zanocy}Цёмнаэльфійская Карона Каргі Сьмерці"/>
+  <string id="str_tor_de_head_helmet_death_hag_002" text="{.Zanocy}Цёмнаэльфійская Карона Каргі Сьмерці"/>
+  <string id="str_tor_de_head_helmet_death_hag_001" text="{.Zanocy}Цёмнаэльфійская Карона Каргі Сьмерці"/>
+  <string id="str_tor_de_head_helmet_infantry_001" text="{.Muzcynski}Цёмнаэльфійскі Пяхотны Шалом"/>
+  <string id="str_tor_tilean_head_helm_knight_001" text="{.Muzcynski}Тылійскі Салад"/>
+  <string id="str_tor_tilean_head_helm_knight_002" text="{.Muzcynski}Тылійскі Капалін"/>
+  <string id="str_tor_tilean_head_helm_knight_003" text="{.Muzcynski}Тылійскі Салад з Адкрытай Заслонай"/>
+  <string id="str_tor_tilean_head_helm_brass_knight_001" text="{.Muzcynski}Тылійскі Салад"/>
+  <string id="str_tor_estalia_head_helm_general_001" text="{.Zanocy}Эсталійская Маска-Чэрап"/>
+  <string id="str_tor_empire_shoulder_pauldron_halberdier_001" text="{.Mnozny}Імперскія Плечы Алебардзіра"/>
+  <string id="str_tor_empire_body_yoke_worn_001" text="{.Nijaki}Ярмо Флягелянта"/>
+  <string id="str_tor_empire_body_yoke_worn_002" text="{.Nijaki}Ярмо Флягелянта"/>
+  <string id="str_tor_empire_body_breastplate_worn_001" text="{.Muzcynski}Зношаны Імперскі Нагруднік"/>
+  <string id="str_tor_empire_body_breastplate_kragsburg_001" text="{.Muzcynski}Нагруднік фон Краксбургаў"/>
+  <string id="str_tor_empire_body_breastplate_stirriver_001" text="{.Muzcynski}Нагруднік Патруля Ракі Шцір"/>
+  <string id="str_tor_empire_body_breastplate_statetrooper_001" text="{.Zanocy}Імперская Кіраса"/>
+  <string id="str_tor_empire_body_breastplate_statetrooper_002" text="{.Zanocy}Імперская Кіраса"/>
+  <string id="str_tor_empire_body_breastplate_statetrooper_003" text="{.Zanocy}Імперская Кіраса"/>
+  <string id="str_tor_empire_body_breastplate_statetrooper_004" text="{.Zanocy}Імперская Кіраса з Палдронам"/>
+  <string id="str_tor_empire_shoulder_pauldron_greatsword_001" text="{.Muzcynski}Імперскі Палдрон"/>
+  <string id="str_tor_empire_shoulder_pauldron_greatsword_002" text="{.Muzcynski}Імперскі Палдрон"/>
+  <string id="str_tor_empire_shoulder_cape_generic_lord" text="{.Zanocy}Вытанчаная Накідка"/>
+  <string id="str_tor_empire_shoulder_pauldron_general_001" text="{.Zanocy}Імперская Генеральская Накідка"/>
+  <string id="str_tor_empire_shoulder_pauldron_general_002" text="{.Zanocy}Імперская Генеральская Накідка"/>
+  <string id="str_tor_empire_shoulder_pauldron_valten" text="{.Mnozny}Наплечнікі Вальтэна з Накідкай"/>
+  <string id="str_tor_empire_shoulder_pauldron_luthor_huss" text="{.Mnozny}Аздобленыя Наплечнікі Ваяра-Сьвятара"/>
+  <string id="str_tor_empire_shoulder_pauldron_volkmar" text="{.Mnozny}Наплечнікі Фолькмара Панурага"/>
+  <string id="str_tor_empire_shoulder_pauldron_light_wizard_001" text="{.Mnozny}Наплечнікі Сьветлага Чараўніка"/>
+  <string id="str_tor_empire_shoulder_pauldron_warrior_priest_001" text="{.Mnozny}Палдроны Ваяра-Сьвятара"/>
+  <string id="str_tor_empire_shoulder_cape_kotww_011" text="{.Zanocy}Накідка Рыцара Белага Воўка"/>
+  <string id="str_tor_empire_shoulder_pauldron_kobs_001" text="{.Mnozny}Палдроны Палаючага Сонца"/>
+  <string id="str_tor_empire_shoulder_pauldron_kobs_002" text="{.Mnozny}Палдроны Палаючага Сонца"/>
+  <string id="str_tor_empire_shoulder_pauldron_marius_leitdorf" text="{.Mnozny}Аверляндзкія Генеральскія Наплечнікі"/>
+  <string id="str_tor_empire_shoulder_cape_balthazar_gelt" text="{.Mnozny}Наплечнікі Бальтазара Гельта"/>
+  <string id="str_tor_empire_shoulder_cape_gold_wizard_001" text="{.Zanocy}Накідка Залатога Чараўніка"/>
+  <string id="str_tor_empire_shoulder_pauldron_witch_hunter_001" text="{.Mnozny}Імперскія Палдроны"/>
+  <string id="str_tor_empire_shoulder_cape_bright_wizard_001" text="{.Zanocy}Накідка Зыркага Чараўніка"/>
+  <string id="str_tor_empire_shoulder_pauldron_celestial_wizard_001" text="{.Mnozny}Наплечнікі Нябеснага Чараўніка"/>
+  <string id="str_tor_empire_shoulder_pauldron_pistolier_001" text="{.Mnozny}Імперскія Ўпрыгожаныя Наплечныя Пласьціны"/>
+  <string id="str_tor_empire_shoulder_pauldron_karl_franz" text="{.Mnozny}Наплечныя Пласьціны Карла Франца"/>
+  <string id="str_tor_empire_shoulder_pauldron_lord_001" text="{.Mnozny}Імперскія Панскія Наплечнікі"/>
+  <string id="str_tor_empire_shoulder_pauldron_lord_002" text="{.Mnozny}Імперскія Панскія Наплечнікі"/>
+  <string id="str_tor_vc_shoulder_pauldron_skeleton_001" text="{.Mnozny}Палдроны Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_shoulder_pauldron_skeleton_002" text="{.Mnozny}Палдроны Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_shoulder_pauldron_skeleton_003" text="{.Mnozny}Палдроны Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_shoulder_pauldron_vampire_lord_001" text="{.Zanocy}Сыльванская Накідка"/>
+  <string id="str_tor_vc_shoulder_pauldron_vlad" text="{.Mnozny}Наплечнікі фон Карштайнаў"/>
+  <string id="str_tor_vc_shoulder_pauldron_red_duke" text="{.Mnozny}Наплечнікі Грандмайстра Крывавага Замка"/>
+  <string id="str_tor_vc_cape_armor_undead_champion" text="{.Zanocy}Накідка Чэмпіёна Нежыці"/>
+  <string id="str_tor_vc_shoulder_pauldron_blood_knight_001" text="{.Mnozny}Палдроны Крывавага Рыцара"/>
+  <string id="str_tor_vc_shoulder_pauldron_blood_knight_002" text="{.Mnozny}Палдроны Крывавага Рыцара"/>
+  <string id="str_tor_vc_shoulder_pauldron_blood_dragon_knight_001" text="{.Mnozny}Палдроны Крывавага Драконавага Рыцара"/>
+  <string id="str_tor_vc_shoulder_pauldron_mannfred" text="{.Mnozny}Наплечнікі Манфрэда фон Карштайна"/>
+  <string id="str_tor_vc_shoulder_cape_necromancer_001" text="{.Mnozny}Наплечнікі Некраманта"/>
+  <string id="str_tor_vc_shoulder_basic_cape_Некрарха_001" text="{.Zanocy}Накідка Некрарха"/>
+  <string id="str_tor_vc_shoulder_pauldron_grave_guard_001" text="{.Mnozny}Палдроны Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_shoulder_pauldron_grave_guard_002" text="{.Mnozny}Палдроны Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_shoulder_pauldron_grave_guard_003" text="{.Mnozny}Палдроны Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_shoulder_pauldron_grave_guard_004" text="{.Mnozny}Палдроны Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_shoulder_pauldron_wight_king_001" text="{.Mnozny}Палдроны Валадара-Вайта"/>
+  <string id="str_tor_vc_body_breastplate_cairn_wraith_001" text="{.Muzcynski}Дасьпех Курганнага Прывіду"/>
+  <string id="str_tor_vc_body_breastplate_cairn_wraith_002" text="{.Muzcynski}Дасьпех Курганнага Прывіду"/>
+  <string id="str_tor_vc_body_breastplate_cairn_wraith_003" text="{.Muzcynski}Дасьпех Курганнага Прывіду"/>
+  <string id="str_tor_vc_body_breastplate_cairn_wraith_004" text="{.Muzcynski}Дасьпех Курганнага Прывіду"/>
+  <string id="str_tor_vc_shoulder_pauldron_hell_knight_001" text="{.Mnozny}Палдроны Пякельнага Рыцара"/>
+  <string id="str_tor_vc_shoulder_pauldron_dh_templar_001" text="{.Mnozny}Палдроны Дракенхофскага Храмоўніка"/>
+  <string id="str_tor_chaos_shoulder_pauldron_nurgle_001" text="{.Muzcynski}Нургліцкія Палдрон"/>
+  <string id="str_tor_chaos_shoulder_pauldron_nurgle_002" text="{.Muzcynski}Нургліцкія Палдроны"/>
+  <string id="str_tor_chaos_shoulder_pauldron_slaneesh_warrior_001" text="{.Mnozny}Слаанэскія Палдроны"/>
+  <string id="str_tor_chaos_shoulder_pauldron_chosen_001" text="{.Mnozny}Палдроны Хаосу"/>
+  <string id="str_tor_chaos_shoulder_pauldron_khorne_warrior_001" text="{.Mnozny}Кхорніцкія Палдроны"/>
+  <string id="str_tor_chaos_shoulder_pauldron_khorne_warrior_002" text="{.Mnozny}Кхорніцкія Палдроны"/>
+  <string id="str_tor_chaos_shoulder_pauldron_tzeentch_warrior_001" text="{.Mnozny}Цьзінчыцкія Палдроны"/>
+  <string id="str_tor_chaos_shoulder_cape_marauder_001" text="{.Mnozny}Пласьцінкавыя Палдроны Марадзёра з Накідкай"/>
+  <string id="str_tor_chaos_shoulder_fur_marauder_001" text="{.Mnozny}Футравыя Наплечнікі Марадзёра"/>
+  <string id="str_tor_chaos_shoulder_cape_chaos_warrior_001" text="{.Mnozny}Наплечныя Накладкі Ваяра Хаосу"/>
+  <string id="str_tor_bretonnian_shoulder_pauldron_knight_001" text="{.Zanocy}Брэтонская Піцэна"/>
+  <string id="str_tor_bretonnian_shoulder_pauldron_knight_002" text="{.Mnozny}Брэтонскія Палдроны з Накідкай"/>
+  <string id="str_tor_bretonnian_shoulder_pauldron_knight_003" text="{.Mnozny}Брэтонскія Палдроны з Накідкай"/>
+  <string id="str_tor_bretonnian_shoulder_questing_knight_001" text="{.Muzcynski}Палдрон Квэставага Рыцара"/>
+  <string id="str_tor_bretonnian_shoulder_questing_knight_002" text="{.Mnozny}Брэтонскія Наручныя Шчыты з Накідкай"/>
+  <string id="str_tor_bretonnian_shoulder_questing_knight_003" text="{.Muzcynski}Палдрон Квэставага Рыцара"/>
+  <string id="str_tor_bretonnian_shoulder_grail_knight_001" text="{.Zanocy}Накідка Рыцара Грааля"/>
+  <string id="str_tor_bretonnian_shoulder_pauldron_pilgrim_001" text="{.Mnozny}Баявыя Наплечнікі Пілігрыма"/>
+  <string id="str_tor_bretonnian_shoulder_pauldron_louen_leoncoeur" text="{.Mnozny}Наплечнікі Бляску"/>
+  <string id="str_tor_mousillon_shoulder_grail_knight_001" text="{.Zanocy}Накідка Рыцара Чорнага Грааля"/>
+  <string id="str_tor_mousillon_shoulder_pauldron_bgk_001" text="{.Mnozny}Наплечнікі Рыцара Чорнага Грааля"/>
+  <string id="str_tor_we_shoulder_cape_eternalguard_001" text="{.Zanocy}Накідка Вечнай Варты"/>
+  <string id="str_tor_we_shoulder_cape_lord_001" text="{.Zanocy}Накідка Прагальнага Лорда"/>
+  <string id="str_tor_we_shoulder_cape_lord_002" text="{.Zanocy}Накідка Прагальнага Лорда"/>
+  <string id="str_tor_we_shoulder_cape_wildrider_001" text="{.Zanocy}Накідка Дзікага Наезьніка"/>
+  <string id="str_tor_we_shoulder_cape_gladeguard_001" text="{.Zanocy}Накідка Прагальнай Варты"/>
+  <string id="str_tor_we_shoulder_cape_ranger_001" text="{.Zanocy}Лесаэльфійская Накідка Рэйнджара"/>
+  <string id="str_tor_we_shoulder_cape_exiled_wizard_001" text="{.Zanocy}Накідка Чараўніка-Выгнаньніка з Каптурам"/>
+  <string id="str_tor_we_shoulder_cape_spellsinger_001" text="{.Zanocy}Накідка Сьпявака Заклёнаў"/>
+  <string id="str_we_spellsinger_neck_f" text="{.Muzcynski}Ашыйнік Сьпявака Заклёнаў"/>
+  <string id="str_tor_he_shoulder_cape_phoenix_001" text="{.Zanocy}Эанірская Накідка Варты Каралевы"/>
+  <string id="str_tor_he_shoulder_cape_whitelion_001" text="{.Zanocy}Высокаэльфійская Накідка Белага Ільва"/>
+  <string id="str_tor_he_shoulder_pauldrons_infantry_001" text="{.Mnozny}Высокаэльфійскія Палдроны Капійніка"/>
+  <string id="str_tor_he_shoulder_shoulderpads_queens_guard_001" text="{.Zanocy}Высокаэльфійская Накідка Каралеўскай Варты"/>
+  <string id="str_tor_eo_shoulder_shoulderpads_scale_001" text="{.Mnozny}Эанірскія Лускатыя Палдроны"/>
+  <string id="str_tor_eo_shoulder_shoulderpads_scale_002" text="{.Mnozny}Эанірскія Лускатыя Палдроны"/>
+  <string id="str_tor_eo_shoulder_shoulderpads_envoy_scale_001" text="{.Mnozny}Эанірскія Палдроны Пасланца"/>
+  <string id="str_tor_dw_shoulderpads_militia_001" text="{.Mnozny}Дварфскія Наплечныя Накладкі Рушэньня"/>
+  <string id="str_tor_dw_shoulderpads_miner_001" text="{.Mnozny}Дварфскія Наплечныя Накладкі Рудняра"/>
+  <string id="str_tor_dw_shoulderpads_warrior_001" text="{.Mnozny}Дварфскія Наплечныя Накладкі Ваяра"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_dwarf_ornate_001" text="{.Mnozny}Дварфскія Аздобленыя Наплечныя Накладкі"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_ungrim_001" text="{.Nijaki}Драконавае Покрыва Фырскара"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_longbeard_001" text="{.Mnozny}Наплечныя Накладкі Доўгабарода"/>
+  <string id="str_tor_dw_shoulder_cape_ranger_001" text="{.Zanocy}Дварфская Накідка Рэйнджара"/>
+  <string id="str_tor_dw_shoulder_cape_ranger_002" text="{.Zanocy}Дварфская Накідка Рэйнджара"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_apprentice_001" text="{.Mnozny}Дварфскія Наплечныя Накладкі Артылерыста"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_journeyman_001" text="{.Mnozny}Дварфскія Наплечныя Накладкі Інжынера"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_engineer_001" text="{.Mnozny}Дварфскія Наплечныя Накладкі Інжынера-Майстра"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_ironbreaker_001" text="{.Mnozny}Наплечныя Накладкі Жалезапраломніка"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_irondrake_001" text="{.Mnozny}Наплечныя Накладкі Жалезнага Дракона"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_noble_001" text="{.Mnozny}Дварфскія Шляхетныя Наплечныя Накладкі"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_runelord_001" text="{.Mnozny}Наплечныя Накладкі Руннага Лорда"/>
+  <string id="str_tor_de_shoulder_pauldrons_infantry_001" text="{.Mnozny}Цёмнаэльфійскія Пяхотныя Палдроны"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_shaman_001" text="{.Mnozny}Орчыя Чарапныя Шматы Шамана"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_shaman_003" text="{.Mnozny}Орчыя Наплешнікі Шамана"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_boyz_001" text="{.Mnozny}Орчыя Шыпатыя Наплешнікі"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_boyz_002" text="{.Mnozny}Орчыя Шыпатыя Наплешнікі"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_boyz_003" text="{.Mnozny}Орчыя Шыпатыя Наплешнікі"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_arrer_boyz_001" text="{.Mnozny}Орчыя Наплешныя Штукі"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_black_1_001" text="{.Mnozny}Орчыя Шкурныя Наплешныя Штукі"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_black_2_001" text="{.Mnozny}Орчыя Наплешныя Плаштыны"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_black_3_001" text="{.Mnozny}Орчыя Паншырныя Наплешныя Плаштыны"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_black_4_001" text="{.Mnozny}Орчыя Цяшкія Наплешныя Плаштыны"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_black_5_001" text="{.Mnozny}Орчыя Жорскія Паншырныя Наплешныя Плаштыны"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_boar_boyz_001" text="{.Mnozny}Орчыя Лепжыя Плешавыя Накладкі"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_choppa_001" text="{.Mnozny}Орчыя Наплешныя Штукі"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_big_un_001" text="{.Mnozny}Орчыя Шапраўдныя Плешавыя Накладкі"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_big_un_002" text="{.Mnozny}Орчыя Шапраўдныя Плешавыя Накладкі"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_big_un_003" text="{.Mnozny}Орчыя Шапраўдныя Плешавыя Накладкі"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_warboss_001" text="{.Mnozny}Орчыя Наплешныя Штукі Вайнабоса"/>
+  <string id="str_tor_greenskin_shoulderpads_goblin_warboss_001" text="{.Mnozny}Гоблінскія Наплешныя Штукі Вайнабоса"/>
+  <string id="str_tor_greenskin_shoulderpads_goblin_001" text="{.Mnozny}Гоблінскія Наплешныя Шыпы"/>
+  <string id="str_tor_greenskin_shoulderpads_goblin_002" text="{.Mnozny}Гоблінскія Наплешныя Штукі"/>
+  <string id="str_tor_beastmen_shoulder_necklace_001" text="{.Mnozny}Горскія Каралі"/>
+  <string id="str_tor_tilean_shoulder_pauldron_knight_001" text="{.Mnozny}Тылійскія Палдроны"/>
+  <string id="str_tor_tilean_shoulder_pauldron_knight_002" text="{.Mnozny}Тылійскія Палдроны"/>
+  <string id="str_tor_tilean_shoulder_pauldron_brass_knight_001" text="{.Mnozny}Тылійскія Палдроны"/>
+  <string id="str_tor_tilean_body_breastplate_engraved_001" text="{.Muzcynski}Тылійскі Нагруднік"/>
+  <string id="str_tor_estalian_shoulder_pauldron_general_001" text="{.Mnozny}Эсталійскія Аздобленыя Палдроны"/>
+  <string id="str_tor_estalian_shoulder_pauldron_general_002" text="{.Mnozny}Эсталійскія Аздобленыя Палдроны"/>
+  <string id="str_tor_estalian_shoulder_pauldron_general_003" text="{.Mnozny}Эсталійскія Аздобленыя Палдроны"/>
+  <string id="str_tor_empire_body_undercloth_statetroop_001" text="{.Zanocy}Імперская Ўніформа Дзяржаўнага Жаўнёра"/>
+  <string id="str_tor_empire_body_undercloth_statetroop_002" text="{.Zanocy}Імперская Ўніформа Дзяржаўнага Жаўнёра"/>
+  <string id="str_tor_empire_body_undercloth_statetroop_003" text="{.Zanocy}Імперская Мяккая Ўніформа Дзяржаўнага Жаўнёра"/>
+  <string id="str_tor_empire_body_undercloth_statetroop_004" text="{.Zanocy}Імперская Ўзмоцненая Ўніформа Дзяржаўнага Жаўнёра"/>
+  <string id="str_tor_empire_body_armor_kragsburg_001" text="{.Muzcynski}Сяржанцкі Нагруднік фон Краксбургаў"/>
+  <string id="str_tor_empire_body_armor_halberdier_001" text="{.Zanocy}Імперская Кіраса Алебардзіра"/>
+  <string id="str_tor_empire_body_armor_greatsword_001" text="{.Muzcynski}Імперскі Дасьпех Вялікамечніка"/>
+  <string id="str_tor_empire_body_armor_free_company_001" text="{.Muzcynski}Нагруднік Вольнай Кампаніі"/>
+  <string id="str_tor_empire_body_robe_bright_wizard_001" text="{.Zanocy}Роба Зыркага Чараўніка"/>
+  <string id="str_tor_empire_body_armor_general_001" text="{.Muzcynski}Імперскі Генеральскі Панцыр"/>
+  <string id="str_tor_empire_body_armor_general_002" text="{.Muzcynski}Імперскі Генеральскі Панцыр"/>
+  <string id="str_tor_empire_body_robe_light_wizard_001" text="{.Zanocy}Роба Сьветлага Чараўніка"/>
+  <string id="str_tor_empire_body_armor_luthor_huss" text="{.Muzcynski}Аздоблены Дасьпех Ваяра-Сьвятара"/>
+  <string id="str_tor_empire_body_armor_volkmar" text="{.Muzcynski}Дасьпех Фолькмара Панурага"/>
+  <string id="str_tor_empire_body_armor_marius_leitdorf" text="{.Muzcynski}Аверляндзкі Генеральскі Панцыр"/>
+  <string id="str_tor_empire_body_robe_balthazar_gelt" text="{.Muzcynski}Дасьпех Бальтазара Гельта"/>
+  <string id="str_tor_empire_body_robe_gold_wizard_001" text="{.Zanocy}Роба Залатога Чараўніка"/>
+  <string id="str_tor_empire_body_robe_beast_wizard_001" text="{.Zanocy}Роба Зьвярынага Чараўніка"/>
+  <string id="str_tor_empire_body_robe_life_wizard_001" text="{.Zanocy}Роба Чараўніка Жыцьця"/>
+  <string id="str_tor_empire_body_armor_kobs_001" text="{.Muzcynski}Дасьпех Палаючага Сонца"/>
+  <string id="str_tor_empire_body_armor_valten" text="{.Muzcynski}Панцыр Вальтэна"/>
+  <string id="str_tor_empire_body_armor_witch_hunter_001" text="{.Zanocy}Браняваная Скура"/>
+  <string id="str_tor_empire_body_armor_tracker_001" text="{.Zanocy}Браняваная Скура"/>
+  <string id="str_tor_empire_body_armor_warrior_priest_001" text="{.Muzcynski}Панцыр Ваяра-Сьвятара"/>
+  <string id="str_tor_empire_body_armour_kotww_001" text="{.Muzcynski}Панцыр Рыцара Белага Воўка"/>
+  <string id="str_tor_empire_body_armor_swadian_plate_001" text="{.Muzcynski}Пласьцінавы Панцыр"/>
+  <string id="str_tor_empire_body_armor_swadian_plate_002" text="{.Muzcynski}Паласаты Пласьцінавы Панцыр"/>
+  <string id="str_tor_empire_body_armor_swadian_cuirass_001" text="{.Zanocy}Пласьцінавая Кіраса"/>
+  <string id="str_tor_empire_body_armor_swadian_cuirass_002" text="{.Zanocy}Паласатая Кіраса"/>
+  <string id="str_tor_empire_body_armor_cannon_crew_001" text="{.Zanocy}Уніформа Інжынера"/>
+  <string id="str_tor_empire_body_armor_cannon_crew_002" text="{.Zanocy}Уніформа Інжынера"/>
+  <string id="str_tor_empire_body_armor_cannon_crew_003" text="{.Zanocy}Уніформа Інжынера"/>
+  <string id="str_tor_empire_body_armor_master_engineer_001" text="{.Zanocy}Уніформа Інжынера-Майстра"/>
+  <string id="str_tor_empire_body_robe_celestial_wizard_001" text="{.Zanocy}Роба Нябеснага Чараўніка"/>
+  <string id="str_tor_empire_body_armor_pistolier_001" text="{.Muzcynski}Імперскі Сярэдні Нагруднік"/>
+  <string id="str_tor_empire_body_armor_pistolier_002" text="{.Muzcynski}Імперскі Сярэдні Нагруднік"/>
+  <string id="str_tor_empire_body_armor_karl_franz" text="{.Muzcynski}Панцыр Карла Франца"/>
+  <string id="str_tor_empire_body_armor_lord_001" text="{.Muzcynski}Імперскі Панскі Дасьпех"/>
+  <string id="str_tor_empire_body_armor_lord_002" text="{.Muzcynski}Імперскі Панскі Дасьпех"/>
+  <string id="str_tor_empire_flagellant_armor_002" text="{.Nijaki}Адзеньне Флягелянта"/>
+  <string id="str_tor_empire_flagellant_armor_003" text="{.Nijaki}Адзеньне Флягелянта"/>
+  <string id="str_tor_empire_flagellant_armor_004" text="{.Nijaki}Адзеньне Флягелянта"/>
+  <string id="str_tor_empire_flagellant_armor_001" text="{.Nijaki}Адзеньне Флягелянта"/>
+  <string id="str_tor_empire_body_cloth_smith_001" text="{.Nijaki}Адзеньне Каваля"/>
+  <string id="str_tor_vc_body_breastplate_skeleton_001" text="{.Muzcynski}Дасьпех Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_body_breastplate_skeleton_002" text="{.Muzcynski}Дасьпех Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_body_breastplate_skeleton_003" text="{.Muzcynski}Дасьпех Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_body_armor_vampire_lord_001" text="{.Muzcynski}Вампірскі Панцыр"/>
+  <string id="str_tor_vc_body_armor_blood_knight_001" text="{.Muzcynski}Панцыр Крывавага Рыцара"/>
+  <string id="str_tor_vc_body_armor_blood_dragon_knight_001" text="{.Muzcynski}Панцыр Крывавага Драконавага Рыцара"/>
+  <string id="str_tor_vc_body_armor_vlad" text="{.Muzcynski}Дасьпех фон Карштайнаў"/>
+  <string id="str_tor_vc_body_armor_red_duke" text="{.Muzcynski}Панцыр Грандмайстра Крывавага Замка"/>
+  <string id="str_tor_vc_body_armor_undead_champion" text="{.Muzcynski}Дасьпех Чэмпіёна Нежыці"/>
+  <string id="str_tor_vc_body_armor_mannfred" text="{.Muzcynski}Дасьпех Манфрэда фон Карштайна"/>
+  <string id="str_tor_vc_body_robe_necromancer_001" text="{.Zanocy}Роба Некраманта"/>
+  <string id="str_tor_vc_body_basic_robe_Некрарха_001" text="{.Zanocy}Роба Некрарха"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_001" text="{.Muzcynski}Незавершаны Панцыр Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_002" text="{.Muzcynski}Незавершаны Панцыр Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_003" text="{.Muzcynski}Панцыр Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_004" text="{.Muzcynski}Панцыр Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_005" text="{.Muzcynski}Панцыр Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_006" text="{.Muzcynski}Панцыр Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_body_breastplate_wight_king_001" text="{.Mnozny}Наплечнікі Валадара-Вайта"/>
+  <string id="str_tor_vc_body_armor_cairn_wraith_001" text="{.Nijaki}Цела Курганнага Прывіду"/>
+  <string id="str_tor_vc_body_armor_cairn_wraith_002" text="{.Nijaki}Цела Курганнага Прывіду"/>
+  <string id="str_tor_vc_body_armor_cairn_wraith_003" text="{.Nijaki}Цела Курганнага Прывіду"/>
+  <string id="str_tor_vc_body_armor_spirit_host_001" text="{.Nijaki}Цела Духоўнай З'явы"/>
+  <string id="str_tor_vc_body_breastplate_hell_knight_001" text="{.Muzcynski}Панцыр Пякельнага Рыцара"/>
+  <string id="str_tor_vc_body_breastplate_dh_templar_001" text="{.Muzcynski}Панцыр Дракенхофскага Храмоўніка"/>
+  <string id="str_tor_chaos_body_armor_slaneesh_warrior_001" text="{.Muzcynski}Слаанэскі Пласьцінавы Панцыр"/>
+  <string id="str_tor_chaos_body_armor_khorne_warrior_001" text="{.Zanocy}Кхорніцкая Пласьціна"/>
+  <string id="str_tor_chaos_body_armor_khorne_warrior_002" text="{.Muzcynski}Кхорніцкі Пласьцінавы Панцыр"/>
+  <string id="str_tor_chaos_body_armor_tzeentch_warrior_001" text="{.Muzcynski}Цьзінчыцкі Пласьцінавы Панцыр"/>
+  <string id="str_tor_chaos_body_armor_nurgle_knight_001" text="{.Muzcynski}Нургліцкі Пласьцінавы Панцыр"/>
+  <string id="str_tor_chaos_body_robe_cultist_001" text="{.Zanocy}Роба Культыста"/>
+  <string id="str_tor_chaos_body_armor_abomination" text="{.Nijaki}Цела Брыдоты"/>
+  <string id="str_tor_chaos_body_armor_marauder_001" text="{.Mnozny}Нагавіцы Марадзёра з Рамянямі"/>
+  <string id="str_tor_chaos_body_armor_marauder_002" text="{.Mnozny}Нагавіцы Марадзёра"/>
+  <string id="str_tor_chaos_body_armor_chaos_warrior_001" text="{.Muzcynski}Панцыр Ваяра Хаосу"/>
+  <string id="str_tor_bretonnia_body_armor_knight_001" text="{.Muzcynski}Брэтонскі Гаўберк з Варанай Скуры"/>
+  <string id="str_tor_bretonnia_body_armor_knight_002" text="{.Muzcynski}Брэтонскі Табард над Гаўберкам"/>
+  <string id="str_tor_bretonnia_body_armor_questing_knight_001" text="{.Muzcynski}Панцыр Квэставага Рыцара"/>
+  <string id="str_tor_bretonnia_body_armor_questing_knight_002" text="{.Muzcynski}Панцыр Квэставага Рыцара"/>
+  <string id="str_tor_bretonnia_body_armor_questing_knight_003" text="{.Muzcynski}Панцыр Квэставага Рыцара"/>
+  <string id="str_tor_bretonnia_body_armor_peasant_001" text="{.Zanocy}Брэтонская Вясковая Вопратка"/>
+  <string id="str_tor_bretonnia_body_armor_manatarms_001" text="{.Nijaki}Брэтонскае Цяжкае Адзеньне над Гамбезонам"/>
+  <string id="str_tor_bretonnia_body_armor_manatarms_002" text="{.Nijaki}Брэтонскае Цяжкае Адзеньне на Кальчугай"/>
+  <string id="str_tor_bretonnia_body_armor_manatarms_003" text="{.Zanocy}Брэтонская Паласатая Скура над Гамбезонам"/>
+  <string id="str_tor_bretonnia_body_armor_manatarms_004" text="{.Zanocy}Брэтонская Паласатая Скура на Кальчугай"/>
+  <string id="str_tor_bretonnia_body_armor_kotr_001" text="{.Muzcynski}Панцыр Рыцара Гаспадарства"/>
+  <string id="str_tor_bretonnia_body_armor_kotr_002" text="{.Muzcynski}Панцыр Рыцара Гаспадарства"/>
+  <string id="str_tor_bretonnia_body_armor_grail_001" text="{.Muzcynski}Бласлаўлённы Рыцарскі Панцыр"/>
+  <string id="str_tor_bretonnia_body_armor_grail_002" text="{.Muzcynski}Бласлаўлённы Рыцарскі Панцыр"/>
+  <string id="str_tor_bretonnia_body_armor_pilgrim_001" text="{.Muzcynski}Баявы Панцыр Пілігрыма"/>
+  <string id="str_tor_bretonnia_body_armor_pilgrim_002" text="{.Muzcynski}Баявы Панцыр Пілігрыма"/>
+  <string id="str_tor_bretonnia_body_armor_prophetess_001" text="{.Zanocy}Сукенка Прарочыцы"/>
+  <string id="str_tor_bretonnia_body_armor_prophetess_002" text="{.Zanocy}Сукенка Прарочыцы"/>
+  <string id="str_tor_bretonnia_body_armor_louen_leoncoeur" text="{.Muzcynski}Панцыр Бляску"/>
+  <string id="str_tor_mousillon_body_armor_kotr_001" text="{.Muzcynski}Музільёнскага Панцыр Рыцара Няшчасьця"/>
+  <string id="str_tor_mousillon_body_armor_bgk_001" text="{.Muzcynski}Панцыр Рыцара Чорнага Грааля"/>
+  <string id="str_tor_we_body_armor_civil_001" text="{.Zanocy}Эльфійская Вопратка"/>
+  <string id="str_tor_we_body_armor_civil_002" text="{.Zanocy}Эльфійская Вопратка"/>
+  <string id="str_tor_we_body_armor_civil_003" text="{.Zanocy}Эльфійская Вопратка"/>
+  <string id="str_tor_we_body_armor_militia_001" text="{.Muzcynski}Эльфійскі Панцыр Рушэньня"/>
+  <string id="str_tor_we_body_armor_militia_002" text="{.Muzcynski}Эльфійскі Панцыр Рушэньня"/>
+  <string id="str_tor_we_body_armor_militia_003" text="{.Muzcynski}Эльфійскі Панцыр Рушэньня"/>
+  <string id="str_tor_we_body_armor_eternalguard_001" text="{.Muzcynski}Панцыр Вечнай Варты"/>
+  <string id="str_tor_we_body_armor_eternalguard_002" text="{.Muzcynski}Панцыр Вечнай Варты"/>
+  <string id="str_tor_we_body_armor_ranger_001" text="{.Muzcynski}Лесаэльфійскі Панцыр Рэйнджара"/>
+  <string id="str_tor_we_body_armor_ranger_002" text="{.Muzcynski}Лесаэльфійскі Панцыр Рэйнджара"/>
+  <string id="str_tor_we_body_armor_lord_001" text="{.Muzcynski}Панцыр Прагальнага Лорда"/>
+  <string id="str_tor_we_body_armor_lord_002" text="{.Muzcynski}Пласьцінавы Панцыр Прагальнага Лорда"/>
+  <string id="str_tor_we_body_armor_sister_001" text="{.Muzcynski}Панцыр Сястры Торна"/>
+  <string id="str_tor_we_body_armor_dancer_001" text="{.Muzcynski}Панцыр Танцора Вайны"/>
+  <string id="str_tor_we_body_armor_wildrider_001" text="{.Muzcynski}Панцыр Дзікага Наезьніка"/>
+  <string id="str_tor_we_body_armor_gladeguard_001" text="{.Muzcynski}Панцыр Прагальнай Варты"/>
+  <string id="str_tor_we_body_armor_treeman_001" text="{.Muzcynski}Торс з Дубовай Кары"/>
+  <string id="str_tor_we_body_armor_ancient_treeman_001" text="{.Muzcynski}Старажытны Торс з Дубовай Кары"/>
+  <string id="str_tor_we_body_armour_dryad_001" text="{.Muzcynski}Торс Дрыяды з Дубовай Кары"/>
+  <string id="str_tor_we_body_armour_exiled_wizard_001" text="{.Zanocy}Роба Чараўніка-Выгнаньніка"/>
+  <string id="str_tor_we_body_armour_spellsinger_001" text="{.Zanocy}Роба Сьпявака Заклёнаў"/>
+  <string id="str_we_spellsinger_armor_f" text="{.Zanocy}Роба Сьпявака Заклёнаў"/>
+  <string id="str_tor_we_body_dress_female_001" text="{.Zanocy}Лесаэльфійская Сукенка"/>
+  <string id="str_tor_eo_body_kithband_leather_scale_001" text="{.Muzcynski}Эанірскі Кланавы Скураны Ламеляр"/>
+  <string id="str_tor_eo_body_kithband_metal_scale_001" text="{.Muzcynski}Эанірскі Кланавы Цяжкі Ламеляр"/>
+  <string id="str_tor_he_body_armour_phoenix_001" text="{.Muzcynski}Эанірскі Панцыр Варты Каралевы"/>
+  <string id="str_tor_he_body_armour_whitelion_001" text="{.Muzcynski}Высокаэльфійскі Панцыр Белага Ільва"/>
+  <string id="str_tor_he_body_armour_spearmen_001" text="{.Muzcynski}Высокаэльфійскі Панцыр Капійніка"/>
+  <string id="str_tor_he_body_armour_whitelion_sleeves_001" text="{.Muzcynski}Высокаэльфійскі Панцыр Белага Ільва з Доўгімі Рукавамі"/>
+  <string id="str_tor_he_body_armour_phoenix_002" text="{.Muzcynski}Эанірскі Панцыр Варты Каралевы з Доўгімі Рукавамі"/>
+  <string id="str_tor_dw_body_armour_basic_dawi_001" text="{.Muzcynski}Дварфскі Панцыр"/>
+  <string id="str_tor_dw_body_armour_basic_dawi_002" text="{.Muzcynski}Дварфскі Панцыр"/>
+  <string id="str_tor_dw_body_armour_militia_001" text="{.Muzcynski}Дварфскі Панцыр Рушэньня"/>
+  <string id="str_tor_dw_body_armour_miner_001" text="{.Muzcynski}Дварфскі Панцыр Рудняра"/>
+  <string id="str_tor_dw_body_armour_warrior_001" text="{.Muzcynski}Дварфскі Панцыр Ваяра"/>
+  <string id="str_tor_dw_body_armour_warrior_002" text="{.Muzcynski}Дварфскі Панцыр Ваяра"/>
+  <string id="str_tor_dw_body_armour_apprentice_001" text="{.Muzcynski}Дварфскі Панцыр Інжынера"/>
+  <string id="str_tor_dw_body_armour_journeyman_001" text="{.Muzcynski}Дварфскі Панцыр Інжынера"/>
+  <string id="str_tor_dw_body_armour_engineer_001" text="{.Muzcynski}Дварфскі Панцыр Інжынера"/>
+  <string id="str_tor_dw_body_armour_slayer_novice_001" text="{.Mnozny}Штаны Забойцы"/>
+  <string id="str_tor_dw_body_armour_slayer_adept_001" text="{.Mnozny}Штаны Забойцы Троляў"/>
+  <string id="str_tor_dw_body_armour_slayer_legend_001" text="{.Zanocy}Набедраная Павязка Забойцы Волатаў"/>
+  <string id="str_tor_dw_body_armour_ungrim_001" text="{.Muzcynski}Панцыр Унгрыма"/>
+  <string id="str_tor_dw_body_armour_longbeard_001" text="{.Muzcynski}Панцыр Доўгабарода"/>
+  <string id="str_tor_dw_body_armour_ranger_001" text="{.Muzcynski}Дварфскі Панцыр Рэйнджара"/>
+  <string id="str_tor_dw_body_armour_ironbreaker_001" text="{.Muzcynski}Панцыр Жалезапраломніка"/>
+  <string id="str_tor_dw_body_armour_irondrake_001" text="{.Muzcynski}Панцыр Жалезнага Дракона"/>
+  <string id="str_tor_dw_body_armour_noble_001" text="{.Muzcynski}Дварфскі Шляхетны Панцыр"/>
+  <string id="str_tor_dw_body_armour_runelord_001" text="{.Muzcynski}Панцыр Руннага Лорда"/>
+  <string id="str_tor_de_body_armor_infantry_001" text="{.Muzcynski}Цёмнаэльфійскі Пяхотны Панцыр"/>
+  <string id="str_tor_tilean_body_armor_knight_001" text="{.Muzcynski}Тылійскі Кляпаны Панцыр"/>
+  <string id="str_tor_tilean_body_armor_knight_002" text="{.Muzcynski}Тылійскі Кляпаны Панцыр"/>
+  <string id="str_tor_tilean_body_armor_knight_003" text="{.Muzcynski}Тылійскі Нагруднік над Гаўберкам"/>
+  <string id="str_tor_estalia_body_armor_noble_001" text="{.Muzcynski}Эсталійскі Шляхетны Панцыр"/>
+  <string id="str_tor_estalia_body_armor_noble_002" text="{.Muzcynski}Эсталійскі Шляхетны Панцыр"/>
+  <string id="str_tor_estalia_body_armor_noble_003" text="{.Muzcynski}Эсталійскі Шляхетны Панцыр"/>
+  <string id="str_tor_greenskin_body_armour_orc_shaman_002" text="{.Zanocy}Орчая Роба Шамана"/>
+  <string id="str_tor_greenskin_body_armour_orc_shaman_003" text="{.Mnozny}Орчыя Дзіўныя Шматы Шамана"/>
+  <string id="str_tor_greenskin_body_armour_orc_boyz_001" text="{.Mnozny}Орчыя Шматы Ламачча"/>
+  <string id="str_tor_greenskin_body_armour_orc_arrer_boyz_001" text="{.Zanocy}Орчая Шкура"/>
+  <string id="str_tor_greenskin_body_armour_orc_boar_boyz_001" text="{.Mnozny}Орчыя Шкурныя Шматы"/>
+  <string id="str_tor_greenskin_body_armour_orc_big_un_001" text="{.Mnozny}Орчыя Шыпатыя Шматы"/>
+  <string id="str_tor_greenskin_body_armour_orc_choppa_001" text="{.Mnozny}Орчыя Паншырныя Шматы"/>
+  <string id="str_tor_greenskin_body_armour_savage_001" text="{.Mnozny}Дзіўныя Шматы Хлопца-Дзікуна"/>
+  <string id="str_tor_greenskin_body_armour_goblin_001" text="{.Mnozny}Гоблінскія Шкурныя Шматы"/>
+  <string id="str_tor_greenskin_body_armour_goblin_002" text="{.Mnozny}Гоблінскі Ланцуговыя Шматы"/>
+  <string id="str_tor_greenskin_body_armour_goblin_mid_001" text="{.Mnozny}Гоблінскія Лепжыя Шматы"/>
+  <string id="str_tor_greenskin_body_armour_orc_black_1_001" text="{.Zanocy}Орчая Шкура"/>
+  <string id="str_tor_greenskin_body_armour_orc_black_2_001" text="{.Muzcynski}Орчы Мошны Нагруднік"/>
+  <string id="str_tor_greenskin_body_armour_orc_black_3_001" text="{.Mnozny}Орчыя Цяшкія Шматы"/>
+  <string id="str_tor_greenskin_body_armour_orc_black_4_001" text="{.Mnozny}Орчыя Шапраўдныя Цяшкія Шматы"/>
+  <string id="str_tor_greenskin_body_armour_orc_black_5_001" text="{.Mnozny}Орчыя Жорскія Паншырныя Шматы"/>
+  <string id="str_tor_greenskin_body_armour_orc_warboss_001" text="{.Mnozny}Орчыя Мошныя Шматы Вайнабоса"/>
+  <string id="str_tor_greenskin_body_armour_goblin_warboss_001" text="{.Mnozny}Гоблінскія Мошныя Шматы Вайнабоса"/>
+  <string id="str_tor_greenskin_body_armour_troll_001" text="{.Mnozny}Трольскія Сьмярдзючыя Шматы"/>
+  <string id="str_tor_beastmen_body_minotaur_001" text="{.Nijaki}Цела Мінатаўра"/>
+  <string id="str_tor_beastmen_body_armour_gor_001" text="{.Muzcynski}Горскі Панцыр"/>
+  <string id="str_tor_beastmen_body_armor_ungor_001" text="{.Muzcynski}Нягорскі Панцыр"/>
+  <string id="str_tor_empire_arm_gauntlet_general_001" text="{.Mnozny}Імперскія Генеральскія Рукавіцы"/>
+  <string id="str_tor_empire_arm_gauntlet_general_002" text="{.Mnozny}Імперскія Генеральскія Рукавіцы"/>
+  <string id="str_tor_empire_arm_bracers_flagellant_001" text="{.Mnozny}Наручы Флягелянта"/>
+  <string id="str_tor_empire_arm_bracers_warrior_priest_001" text="{.Mnozny}Поручы Ваяра-Сьвятара"/>
+  <string id="str_tor_empire_arm_bracers_kotww_001" text="{.Mnozny}Наручы Рыцара Белага Воўка"/>
+  <string id="str_tor_empire_arm_bracers_bright_wizard_001" text="{.Mnozny}Поручы Зыркага Чараўніка"/>
+  <string id="str_tor_empire_arm_bracers_light_wizard_001" text="{.Mnozny}Поручы Сьветлага Чараўніка"/>
+  <string id="str_tor_empire_arm_gauntlet_kobs_001" text="{.Mnozny}Рукавіцы Палаючага Сонца"/>
+  <string id="str_tor_empire_arm_gauntlet_goldhero_001" text="{.Mnozny}Пласьцінкавыя Рукавіцы"/>
+  <string id="str_tor_empire_arm_gauntlet_plate_001" text="{.Mnozny}Пласьцінкавыя Рукавіцы"/>
+  <string id="str_tor_empire_arm_gauntlet_plate_002" text="{.Mnozny}Пласьцінкавыя Рукавіцы"/>
+  <string id="str_tor_empire_arm_gauntlet_greatsword_001" text="{.Zanocy}Імперская Рукавіца Вялікамечніка"/>
+  <string id="str_tor_empire_arm_gauntlet_greatsword_002" text="{.Muzcynski}Пратэз-Гак"/>
+  <string id="str_tor_empire_arm_gauntlet_luthor_huss" text="{.Mnozny}Аздобленыя Рукавіцы Ваяра-Сьвятара"/>
+  <string id="str_tor_empire_arm_gauntlet_valten" text="{.Mnozny}Рукавіцы Вальтэна"/>
+  <string id="str_tor_empire_arm_gauntlet_volkmar" text="{.Mnozny}Рукавіцы Фолькмара Панурага"/>
+  <string id="str_tor_empire_arm_gauntlet_marius_leitdorf" text="{.Mnozny}Аверляндзкія Генеральскія Рукавіцы"/>
+  <string id="str_tor_empire_arm_gauntlet_balthazar_gelt" text="{.Mnozny}Рукавіцы Бальтазара Гельта"/>
+  <string id="str_tor_empire_arm_gauntlet_witch_hunter_001" text="{.Mnozny}Трывалыя Скураныя Пальчаткі"/>
+  <string id="str_tor_empire_arm_gauntlet_cannon_crew_001" text="{.Mnozny}Пальчаткі Інжынера"/>
+  <string id="str_tor_empire_arm_gauntlet_cannon_crew_002" text="{.Mnozny}Пальчаткі Інжынера"/>
+  <string id="str_tor_empire_arm_gauntlet_cannon_crew_003" text="{.Mnozny}Пальчаткі Інжынера"/>
+  <string id="str_tor_empire_arm_gauntlet_master_engineer_001" text="{.Mnozny}Пальчаткі Інжынера-Майстра"/>
+  <string id="str_tor_empire_arm_bracers_celestial_wizard_001" text="{.Mnozny}Пальчаткі Нябеснага Чараўніка"/>
+  <string id="str_tor_empire_arm_bracers_gold_wizard_001" text="{.Mnozny}Пальчаткі Залатога Чараўніка"/>
+  <string id="str_tor_empire_arm_gauntlet_pistolier_001" text="{.Mnozny}Імперскія Скураныя Пальчаткі"/>
+  <string id="str_tor_empire_arm_gauntlet_karl_franz" text="{.Mnozny}Рукавіцы Карла Франца"/>
+  <string id="str_tor_empire_arm_gauntlet_lord_001" text="{.Mnozny}Імперскія Панскія Рукавіцы"/>
+  <string id="str_tor_empire_arm_gauntlet_lord_002" text="{.Mnozny}Імперскія Панскія Рукавіцы"/>
+  <string id="str_tor_empire_arm_gauntlet_smith_001" text="{.Mnozny}Пальчаткі Каваля"/>
+  <string id="str_tor_vc_arm_gauntlet_vampire_lord_001" text="{.Mnozny}Вампірскія Рукавіцы"/>
+  <string id="str_tor_vc_arm_gauntlet_blood_knight_001" text="{.Mnozny}Рукавіцы Крывавага Рыцара"/>
+  <string id="str_tor_vc_arm_gauntlet_blood_dragon_knight_001" text="{.Mnozny}Рукавіцы Крывавага Драконавага Рыцара"/>
+  <string id="str_tor_vc_arm_gauntlet_vlad" text="{.Mnozny}Рукавіцы фон Карштайнаў"/>
+  <string id="str_tor_vc_arm_gauntlet_red_duke" text="{.Mnozny}Рукавіцы Грандмайстра Крывавага Замка"/>
+  <string id="str_tor_vc_arms_armor_undead_champion" text="{.Mnozny}Рукавіцы Чэмпіёна Нежыці"/>
+  <string id="str_tor_vc_arm_bracers_skeleton_warrior_001" text="{.Muzcynski}Наруч Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_arm_bracers_skeleton_warrior_002" text="{.Mnozny}Наручы Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_arm_bracers_skeleton_warrior_003" text="{.Mnozny}Наручы Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_arm_hands_spirit_host_001" text="{.Mnozny}Рукі Духоўнай З'явы"/>
+  <string id="str_tor_vc_arm_bracers_grave_guard_001" text="{.Mnozny}Наручы Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_arm_bracers_grave_guard_002" text="{.Mnozny}Наручы Вартаўніка Магілаў"/>
+  <string id="str_tor_vc_arm_bracers_wight_king_001" text="{.Mnozny}Наручы Валадара-Вайта"/>
+  <string id="str_tor_vc_arm_gauntlet_hell_knight_001" text="{.Mnozny}Рукавіцы Пякельнага Рыцара"/>
+  <string id="str_tor_vc_arm_gauntlet_dh_templar_001" text="{.Mnozny}Рукавіцы Дракенхофскага Храмоўніка"/>
+  <string id="str_tor_chaos_arm_gauntlet_slaneesh_warrior_001" text="{.Mnozny}Слаанэскія Рукавіцы"/>
+  <string id="str_tor_chaos_arm_gauntlet_khorne_warrior_001" text="{.Mnozny}Кхорніцкія Рукавіцы"/>
+  <string id="str_tor_chaos_arm_gauntlet_khorne_warrior_002" text="{.Mnozny}Кхорніцкія Рукавіцы"/>
+  <string id="str_tor_chaos_arm_gauntlet_tzeentch_warrior_001" text="{.Mnozny}Цьзінчыцкія Рукавіцы"/>
+  <string id="str_tor_chaos_arm_gauntlet_hallow" text="{.Mnozny}Асьвячоныя Рукавіцы"/>
+  <string id="str_tor_chaos_arm_bracers_marauder_001" text="{.Mnozny}Наручы Марадзёра"/>
+  <string id="str_tor_chaos_arm_bracer_chaos_warrior_001" text="{.Mnozny}Наручы Ваяра Хаосу"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_questing_knight_001" text="{.Mnozny}Пальчаткі Квэставага Рыцара"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_questing_knight_002" text="{.Mnozny}Пальчаткі Квэставага Рыцара"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_kotr_001" text="{.Mnozny}Рукавіцы Рыцара Гаспадарства"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_grail_001" text="{.Mnozny}Бласлаўлённыя Рыцарскія Рукавіцы"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_pilgrim_001" text="{.Muzcynski}Баявы Наруч Пілігрыма"/>
+  <string id="str_tor_bretonnian_arm_bracers_prophetess_001" text="{.Mnozny}Бранзалеты Прарочыцы"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_louen_leoncoeur" text="{.Mnozny}Рукавіцы Бляску"/>
+  <string id="str_tor_mousillon_arm_gauntlet_kotr_001" text="{.Mnozny}Рукавіцы Музільёнскага Рыцара Няшчасьця"/>
+  <string id="str_tor_mousillon_arm_gauntlet_bgk_001" text="{.Mnozny}Рукавіцы Рыцара Чорнага Грааля"/>
+  <string id="str_tor_we_arm_bracers_eternalguard_001" text="{.Mnozny}Наручы Вечнай Варты"/>
+  <string id="str_tor_we_arm_bracers_ranger_001" text="{.Mnozny}Лесаэльфійскія Наручы Рэйнджара"/>
+  <string id="str_tor_we_arm_bracers_lord_001" text="{.Mnozny}Наручы Прагальнага Лорда"/>
+  <string id="str_tor_we_arm_bracers_lord_002" text="{.Mnozny}Наручы Прагальнага Лорда"/>
+  <string id="str_tor_we_arm_bracers_sister_001" text="{.Mnozny}Наручы Сястры Торна"/>
+  <string id="str_tor_we_arm_bracers_dancer_001" text="{.Mnozny}Наручы Танцора Вайны"/>
+  <string id="str_tor_we_arm_bracers_wildrider_001" text="{.Mnozny}Наручы Дзікага Наезьніка"/>
+  <string id="str_tor_we_arm_bracers_gladeguard_001" text="{.Mnozny}Наручы Прагальнай Варты"/>
+  <string id="str_tor_we_arm_arms_treeman_001" text="{.Mnozny}Рукі з Дубовай Кары"/>
+  <string id="str_tor_we_arm_arms_ancient_treeman_001" text="{.Mnozny}Старажытныя Рукі з Дубовай Кары"/>
+  <string id="str_tor_we_arm_arms_dryad_001" text="{.Mnozny}Рукі Дрыяды з Дубовай Кары"/>
+  <string id="str_tor_we_arm_rings_exiled_wizard_001" text="{.Mnozny}Магічныя Пярсьцёнкі Чараўніка-Выгнаньніка"/>
+  <string id="str_tor_we_arm_bracers_spellsinger_001" text="{.Mnozny}Наручы Сьпявака Заклёнаў"/>
+  <string id="str_we_spellsinger_arms_f" text="{.Mnozny}Наручы Сьпявака Заклёнаў"/>
+  <string id="str_tor_greenskin_bracers_orc_boyz_001" text="{.Mnozny}Орчыя Паншырныя Лапы"/>
+  <string id="str_tor_greenskin_bracers_orc_boyz_002" text="{.Mnozny}Орчыя Паншырныя Лапы"/>
+  <string id="str_tor_greenskin_bracers_orc_boyz_003" text="{.Mnozny}Орчыя Паншырныя Лапы"/>
+  <string id="str_tor_greenskin_bracers_orc_arrer_boyz_001" text="{.Mnozny}Орчыя Шкурныя Лапы"/>
+  <string id="str_tor_greenskin_bracers_orc_black_1_001" text="{.Mnozny}Орчыя Лапы"/>
+  <string id="str_tor_greenskin_bracers_orc_black_2_001" text="{.Mnozny}Орчыя Металішныя Лапы"/>
+  <string id="str_tor_greenskin_bracers_orc_black_3_001" text="{.Mnozny}Орчыя Цяшкія Бівакі"/>
+  <string id="str_tor_greenskin_bracers_orc_black_4_001" text="{.Mnozny}Орчыя Шыпатыя Лапы"/>
+  <string id="str_tor_greenskin_bracers_orc_black_5_001" text="{.Mnozny}Орчыя Плаштынкавыя Бівакі"/>
+  <string id="str_tor_greenskin_bracers_orc_warboss_001" text="{.Mnozny}Орчыя Супербівакі Вайнабоса"/>
+  <string id="str_tor_greenskin_bracers_goblin_warboss_001" text="{.Mnozny}Гоблінскія Бівакі Вайнабоса"/>
+  <string id="str_tor_greenskin_bracers_orc_boar_boyz_003" text="{.Mnozny}Орчыя Лапы з Ламачча"/>
+  <string id="str_tor_greenskin_bracers_orc_choppa_003" text="{.Mnozny}Орчыя Зубатыя Лапы"/>
+  <string id="str_tor_greenskin_bracers_orc_big_un_001" text="{.Mnozny}Орчыя Шапраўдныя Паншырныя Бівакі"/>
+  <string id="str_tor_greenskin_bracers_shaman_003" text="{.Mnozny}Орчыя Шыпатыя Лапы Шамана"/>
+  <string id="str_tor_greenskin_bracers_savage_001" text="{.Mnozny}Кашцяныя Шматы Хлопца-Дзікуна"/>
+  <string id="str_tor_greenskin_bracers_goblin_001" text="{.Mnozny}Гоблінскія Лапныя Рэчы"/>
+  <string id="str_tor_greenskin_bracers_goblin_002" text="{.Mnozny}Гоблінскія Лапныя Рэчы"/>
+  <string id="str_tor_greenskin_bracers_goblin_mid_001" text="{.Mnozny}Гоблінскія Лапныя Наручы"/>
+  <string id="str_tor_greenskin_bracers_troll_001" text="{.Mnozny}Трольскія Сьмярдзючыя Лапы"/>
+  <string id="str_tor_beastmen_arm_hands_minotaur_001" text="{.Mnozny}Рукі Мінатаўра"/>
+  <string id="str_tor_beastmen_arm_bracers_gor_001" text="{.Mnozny}Горскія Наручы"/>
+  <string id="str_tor_he_arm_bracers_phoenix_001" text="{.Mnozny}Эанірскія Наручы Варты Каралевы"/>
+  <string id="str_tor_he_arm_bracers_whitelion_001" text="{.Mnozny}Высокаэльфійскія Наручы Белага Ільва"/>
+  <string id="str_tor_he_arm_bracers_infantry_001" text="{.Mnozny}Высокаэльфійскія Наручы Капійніка"/>
+  <string id="str_tor_dw_arm_bracers_militia_001" text="{.Mnozny}Дварфскія Наручы Рушэньня"/>
+  <string id="str_tor_dw_arm_bracers_miner_001" text="{.Mnozny}Дварфскія Наручы Рудняра"/>
+  <string id="str_tor_dw_arm_bracers_warrior_001" text="{.Mnozny}Дварфскія Наручы Ваяра"/>
+  <string id="str_tor_dw_arm_gloves_apprentice_001" text="{.Mnozny}Дварфскія Пальчаткі Інжынера"/>
+  <string id="str_tor_dw_arm_gloves_journeyman_001" text="{.Mnozny}Дварфскія Пальчаткі Інжынера"/>
+  <string id="str_tor_dw_arm_gloves_engineer_001" text="{.Mnozny}Дварфскія Пальчаткі Інжынера"/>
+  <string id="str_tor_dw_arm_bracers_slayer_novice_001" text="{.Mnozny}Наручы Забойцы"/>
+  <string id="str_tor_dw_arm_bracers_slayer_adept_001" text="{.Mnozny}Наручы Забойцы Троляў"/>
+  <string id="str_tor_dw_arm_bracers_slayer_legend_001" text="{.Mnozny}Наручы Забойцы Волатаў"/>
+  <string id="str_tor_dw_arm_bracers_longbeard_001" text="{.Mnozny}Наручы Доўгабарода"/>
+  <string id="str_tor_dw_arm_bracers_ranger_001" text="{.Mnozny}Дварфскія Наручы Рэйнджара"/>
+  <string id="str_tor_dw_arm_bracers_ironbreaker_001" text="{.Mnozny}Наручы Жалезапраломніка"/>
+  <string id="str_tor_dw_arm_bracers_irondrake_001" text="{.Mnozny}Наручы Жалезнага Дракона"/>
+  <string id="str_tor_dw_arm_bracers_noble_001" text="{.Mnozny}Дварфскія Шляхетныя Наручы"/>
+  <string id="str_tor_dw_arm_bracers_runelord_001" text="{.Mnozny}Наручы Руннага Лорда"/>
+  <string id="str_tor_de_arm_bracers_infantry_001" text="{.Mnozny}Цёмнаэльфійскія Пяхотныя Наручы"/>
+  <string id="str_tor_tiliean_arm_gauntlet_knight_001" text="{.Mnozny}Тылійскія Рукавіцы"/>
+  <string id="str_tor_tiliean_arm_gauntlet_knight_002" text="{.Mnozny}Тылійскія Рукавіцы"/>
+  <string id="str_tor_empire_leg_boots_free_company_001" text="{.Mnozny}Высокія Скураныя Боты"/>
+  <string id="str_tor_empire_leg_boots_general_001" text="{.Mnozny}Імперскія Генеральскія Боты"/>
+  <string id="str_tor_empire_leg_boots_general_002" text="{.Mnozny}Імперскія Генеральскія Боты"/>
+  <string id="str_tor_estalia_leg_boots_plate_001" text="{.Mnozny}Эсталійскія Аздобленыя Боты"/>
+  <string id="str_tor_estalia_leg_boots_plate_002" text="{.Mnozny}Эсталійскія Аздобленыя Боты"/>
+  <string id="str_tor_empire_leg_boots_greatsword_001" text="{.Muzcynski}Імперскі Пласьцінкавы Бот Вялікамечніка"/>
+  <string id="str_tor_empire_leg_boots_greatsword_002" text="{.Muzcynski}Пратэз Ногі"/>
+  <string id="str_tor_empire_leg_boots_luthor_huss" text="{.Mnozny}Аздобленыя Боты Ваяра-Сьвятара"/>
+  <string id="str_tor_empire_leg_boots_valten" text="{.Mnozny}Боты Вальтэна"/>
+  <string id="str_tor_empire_leg_boots_volkmar" text="{.Mnozny}Боты Фолькмара Панурага"/>
+  <string id="str_tor_empire_leg_boots_warrior_priest_001" text="{.Mnozny}Боты Ваяра-Сьвятара"/>
+  <string id="str_tor_empire_leg_boots_kotww_001" text="{.Mnozny}Боты Рыцара Белага Воўка"/>
+  <string id="str_tor_empire_leg_boots_marius_leitdorf" text="{.Mnozny}Аверляндзкія Генеральскія Боты"/>
+  <string id="str_tor_empire_leg_boots_balthazar_gelt" text="{.Mnozny}Боты Бальтазара Гельта"/>
+  <string id="str_tor_empire_leg_boots_tracker_001" text="{.Mnozny}Скураныя Ботыя"/>
+  <string id="str_tor_empire_leg_boots_light_wizard_001" text="{.Mnozny}Боты Сьветлага Чараўніка"/>
+  <string id="str_tor_empire_leg_boots_kobs_001" text="{.Mnozny}Пласьцінкавыя Боты Палаючага Сонца"/>
+  <string id="str_tor_empire_leg_boots_witch_hunter_001" text="{.Mnozny}Пласьцінкавыя Скураныя Боты"/>
+  <string id="str_tor_empire_leg_boots_bright_wizard_001" text="{.Mnozny}Боты Зыркага Чараўніка"/>
+  <string id="str_tor_empire_leg_boots_empire_knight_001" text="{.Mnozny}Пласьцінкавыя Боты"/>
+  <string id="str_tor_empire_leg_boots_empire_knight_002" text="{.Mnozny}Пласьцінкавыя Боты"/>
+  <string id="str_tor_empire_leg_boots_empire_knight_003" text="{.Mnozny}Пласьцінкавыя Боты"/>
+  <string id="str_tor_empire_leg_boots_empire_knight_004" text="{.Mnozny}Пласьцінкавыя Боты"/>
+  <string id="str_tor_empire_leg_boots_empire_goldhero_001" text="{.Mnozny}Пласьцінкавыя Боты"/>
+  <string id="str_tor_empire_leg_boots_plate_001" text="{.Mnozny}Пласьцінкавыя Боты"/>
+  <string id="str_tor_empire_leg_boots_plate_002" text="{.Mnozny}Пласьцінкавыя Боты"/>
+  <string id="str_tor_empire_leg_boots_cannon_crew_001" text="{.Mnozny}Боты Інжынера"/>
+  <string id="str_tor_empire_leg_boots_cannon_crew_002" text="{.Mnozny}Боты Інжынера"/>
+  <string id="str_tor_empire_leg_boots_cannon_crew_003" text="{.Mnozny}Боты Інжынера"/>
+  <string id="str_tor_empire_leg_boots_master_engineer_001" text="{.Mnozny}Боты Інжынера-Майстра"/>
+  <string id="str_tor_empire_leg_boots_celestial_wizard_001" text="{.Mnozny}Боты Нябеснага Чараўніка"/>
+  <string id="str_tor_empire_leg_boots_gold_wizard_001" text="{.Mnozny}Боты Залатога Чараўніка"/>
+  <string id="str_tor_empire_leg_boots_pistolier_003" text="{.Mnozny}Імперскія Скураныя Боты"/>
+  <string id="str_tor_empire_leg_boots_karl_franz" text="{.Mnozny}Боты Карла Франца"/>
+  <string id="str_tor_empire_leg_boots_lord_001" text="{.Mnozny}Імперскія Панскія Боты"/>
+  <string id="str_tor_empire_leg_boots_lord_002" text="{.Mnozny}Імперскія Панскія Боты"/>
+  <string id="str_tor_empire_leg_boots_smith_001" text="{.Mnozny}Боты Каваля"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_001" text="{.Mnozny}Боты Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_002" text="{.Mnozny}Боты Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_003" text="{.Mnozny}Боты Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_004" text="{.Mnozny}Боты Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_005" text="{.Mnozny}Боты Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_006" text="{.Mnozny}Боты Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_007" text="{.Mnozny}Боты Касьцяка-Ваяра"/>
+  <string id="str_tor_vc_leg_boots_vampire_lord_001" text="{.Mnozny}Вампірскія Браняваныя Боты"/>
+  <string id="str_tor_vc_leg_boots_blood_dragon_knight_001" text="{.Mnozny}Боты Крывавага Драконавага Рыцара"/>
+  <string id="str_tor_vc_leg_boots_vc_wight_king_001" text="{.Mnozny}Боты Валадара-Вайта"/>
+  <string id="str_tor_vc_leg_boots_vlad" text="{.Mnozny}Боты фон Карштайнаў"/>
+  <string id="str_tor_vc_leg_boots_red_duke" text="{.Mnozny}Боты Грандмайстра Крывавага Замка"/>
+  <string id="str_tor_vc_leg_armor_undead_champion" text="{.Mnozny}Боты Чэмпіёна Нежыці"/>
+  <string id="str_tor_vc_leg_boots_mannfred" text="{.Mnozny}Боты Манфрэда фон Карштайна"/>
+  <string id="str_tor_vc_leg_boots_necromancer" text="{.Mnozny}Боты Некраманта"/>
+  <string id="str_tor_vc_leg_boots_cairn_wraith_001" text="{.Mnozny}Лахманы Курганнага Прывіду"/>
+  <string id="str_tor_vc_leg_boots_cairn_wraith_002" text="{.Mnozny}Лахманы Курганнага Прывіду"/>
+  <string id="str_tor_vc_leg_boots_cairn_wraith_003" text="{.Mnozny}Лахманы Курганнага Прывіду"/>
+  <string id="str_tor_vc_leg_boots_vc_hell_knight_001" text="{.Mnozny}Боты Пякельнага Рыцара"/>
+  <string id="str_tor_vc_leg_boots_vc_dh_templar_001" text="{.Mnozny}Боты Дракенхофскага Храмоўніка"/>
+  <string id="str_tor_chaos_leg_boots_slaneesh_warrior_001" text="{.Mnozny}Слаанэскія Пласьцінкавыя Боты"/>
+  <string id="str_tor_chaos_leg_boots_nurgle_knight_001" text="{.Mnozny}Нургліцкія Пласьцінкавыя Боты"/>
+  <string id="str_tor_chaos_leg_boots_khorne_warrior_001" text="{.Mnozny}Кхорніцкія Пласьцінкавыя Боты"/>
+  <string id="str_tor_chaos_leg_boots_khorne_warrior_002" text="{.Mnozny}Кхорніцкія Пласьцінкавыя Боты"/>
+  <string id="str_tor_chaos_leg_boots_tzeentch_warrior_001" text="{.Mnozny}Цьзінчыцкія Пласьцінкавыя Боты"/>
+  <string id="str_tor_chaos_leg_boots_hallow" text="Пласьцінкавыя {.Mnozny}Боты Хаосу"/>
+  <string id="str_tor_chaos_leg_boots_marauder_001" text="{.Mnozny}Боты Марадзёра"/>
+  <string id="str_tor_chaos_leg_boots_chaos_warrior_001" text="{.Mnozny}Боты Ваяра Хаосу"/>
+  <string id="str_tor_bretonnian_leg_boots_knight_001" text="{.Mnozny}Браняваныя Боты"/>
+  <string id="str_tor_bretonnian_leg_boots_manatarms_001" text="{.Mnozny}Старыя Скураныя Боты"/>
+  <string id="str_tor_bretonnian_leg_boots_questing_knight_001" text="{.Mnozny}Пласьцінкавыя Боты Квэставага Рыцара"/>
+  <string id="str_tor_bretonnian_leg_boots_kotr_001" text="{.Mnozny}Боты Рыцара Гаспадарства"/>
+  <string id="str_tor_bretonnian_leg_boots_grail_001" text="{.Mnozny}Бласлаўлённыя Рыцарскія Пласьцінкавыя Боты"/>
+  <string id="str_tor_bretonnian_leg_boots_prophetess_001" text="{.Mnozny}Туфлі Прарочыцы"/>
+  <string id="str_tor_bretonnian_leg_boots_prophetess_002" text="{.Mnozny}Туфлі Прарочыцы"/>
+  <string id="str_tor_bretonnian_leg_boots_louen_leoncoeur" text="{.Mnozny}Боты Бляску"/>
+  <string id="str_tor_mousillon_leg_boots_kotr_001" text="{.Mnozny}Боты Музільёнскага Рыцара Няшчасьця"/>
+  <string id="str_tor_mousillon_leg_boots_bgk_001" text="{.Mnozny}Боты Рыцара Чорнага Грааля"/>
+  <string id="str_tor_we_leg_boots_militia_001" text="{.Mnozny}Эльфійскія Боты Рушэньня"/>
+  <string id="str_tor_we_leg_boots_militia_002" text="{.Mnozny}Эльфійскія Боты Рушэньня"/>
+  <string id="str_tor_we_leg_boots_militia_003" text="{.Mnozny}Эльфійскія Боты Рушэньня"/>
+  <string id="str_tor_we_leg_boots_eternalguard_001" text="{.Mnozny}Боты Вечнай Варты"/>
+  <string id="str_tor_we_leg_boots_ranger_001" text="{.Mnozny}Лесаэльфійскія Боты Рэйнджара"/>
+  <string id="str_we_spellsinger_legs_f" text="{.Muzcynski}Абутак Сьпявака Заклёнаў"/>
+  <string id="str_tor_we_leg_boots_lord_001" text="{.Mnozny}Боты Прагальнага Лорда"/>
+  <string id="str_tor_we_leg_boots_lord_002" text="{.Mnozny}Боты Прагальнага Лорда"/>
+  <string id="str_tor_we_leg_boots_sister_001" text="{.Mnozny}Боты Сястры Торна"/>
+  <string id="str_tor_we_leg_boots_dancer_001" text="{.Mnozny}Боты Танцора Вайны"/>
+  <string id="str_tor_we_leg_boots_wildrider_001" text="{.Mnozny}Боты Дзікага Наезьніка"/>
+  <string id="str_tor_we_leg_boots_gladeguard_001" text="{.Mnozny}Боты Прагальнай Варты"/>
+  <string id="str_tor_we_leg_legs_treeman_001" text="{.Mnozny}Ногі з Дубовай Кары"/>
+  <string id="str_tor_we_leg_legs_ancient_treeman_001" text="{.Mnozny}Старажытныя Ногі з Дубовай Кары"/>
+  <string id="str_tor_we_leg_legs_dryad_001" text="{.Mnozny}Ногі Дрыяды з Дубовай Кары"/>
+  <string id="str_tor_we_leg_boots_exiled_wizard_001" text="{.Mnozny}Боты Чараўніка-Выгнаньніка"/>
+  <string id="str_tor_he_leg_boots_phoenix_001" text="{.Mnozny}Эанірскія Боты Варты Каралевы"/>
+  <string id="str_tor_he_leg_boots_whitelion_001" text="{.Mnozny}Высокаэльфійскія Боты Белага Ільва"/>
+  <string id="str_tor_he_leg_boots_spearmen_001" text="{.Mnozny}Высокаэльфійскія Боты Капійніка"/>
+  <string id="str_tor_dw_leg_boots_basic_dawi_001" text="{.Mnozny}Дварфскія Боты"/>
+  <string id="str_tor_dw_leg_boots_militia_001" text="{.Mnozny}Дварфскія Боты Рушэньня"/>
+  <string id="str_tor_dw_leg_boots_miner_001" text="{.Mnozny}Дварфскія Боты Рудняра"/>
+  <string id="str_tor_dw_leg_boots_warrior_001" text="{.Mnozny}Дварфскія Боты Ваяра"/>
+  <string id="str_tor_dw_leg_boots_apprentice_001" text="{.Mnozny}Дварфскія Боты Інжынера"/>
+  <string id="str_tor_dw_leg_boots_journeyman_001" text="{.Mnozny}Дварфскія Боты Інжынера"/>
+  <string id="str_tor_dw_leg_boots_engineer_001" text="{.Mnozny}Дварфскія Боты Інжынера"/>
+  <string id="str_tor_dw_leg_boots_slayer_adept_001" text="{.Mnozny}Боты Забойцы Троляў"/>
+  <string id="str_tor_dw_leg_boots_slayer_legend_001" text="{.Mnozny}Боты Забойцы Волатаў"/>
+  <string id="str_tor_dw_leg_boots_longbeard_001" text="{.Mnozny}Боты Доўгабарода"/>
+  <string id="str_tor_dw_leg_boots_ranger_001" text="{.Mnozny}Дварфскія Боты Рэйнджара"/>
+  <string id="str_tor_dw_leg_boots_ironbreaker_001" text="{.Mnozny}Боты Жалезапраломніка"/>
+  <string id="str_tor_dw_leg_boots_irondrake_001" text="{.Mnozny}Боты Жалезнага Дракона"/>
+  <string id="str_tor_dw_leg_boots_noble_001" text="{.Mnozny}Дварфскія Шляхетныя Боты"/>
+  <string id="str_tor_dw_leg_boots_runelord_001" text="{.Mnozny}Боты Руннага Лорда"/>
+  <string id="str_tor_greenskin_boots_orc_shaman_001" text="{.Mnozny}Орчыя Ступакі Шамана"/>
+  <string id="str_tor_greenskin_boots_orc_boyz_001" text="{.Mnozny}Орчыя Тапталы з Ламачча"/>
+  <string id="str_tor_greenskin_boots_orc_arrer_boyz_001" text="{.Mnozny}Орчыя Шкурныя Боты"/>
+  <string id="str_tor_greenskin_boots_orc_black_1_001" text="{.Mnozny}Орчыя Шкурныя Тапталы"/>
+  <string id="str_tor_greenskin_boots_orc_black_2_001" text="{.Mnozny}Орчыя Цяшкія Ступныя Плаштыны"/>
+  <string id="str_tor_greenskin_boots_orc_black_3_001" text="{.Mnozny}Орчыя Цяшкія Тапталы"/>
+  <string id="str_tor_greenskin_boots_orc_black_4_001" text="{.Mnozny}Орчыя Плаштынавыя Тапталы"/>
+  <string id="str_tor_greenskin_boots_orc_black_5_001" text="{.Mnozny}Орчыя Цяшкія Ступныя Суперплаштыны"/>
+  <string id="str_tor_greenskin_boots_orc_warboss_001" text="{.Mnozny}Орчыя Ступныя Плаштыны Вайнабоса"/>
+  <string id="str_tor_greenskin_boots_goblin_warboss_001" text="{.Mnozny}Гоблінскія Ступныя Плаштыны Вайнабоса"/>
+  <string id="str_tor_greenskin_boots_orc_boar_boyz_001" text="{.Mnozny}Орчыя Шыпатыя Тапталы"/>
+  <string id="str_tor_greenskin_boots_orc_choppa_001" text="{.Mnozny}Орчыя Шкурныя Ступакі"/>
+  <string id="str_tor_greenskin_boots_orc_big_un_001" text="{.Mnozny}Орчыя Шыпатыя Нажныя Рамяні"/>
+  <string id="str_tor_greenskin_boots_savage_001" text="{.Zanocy}Нажная Фарба Хлопца-Дзікуна"/>
+  <string id="str_tor_greenskin_leg_boots_goblin_mid_001" text="{.Mnozny}Гоблінскія Боты"/>
+  <string id="str_tor_greenskin_leg_boots_goblin_001" text="{.Mnozny}Гоблінскія Нажныя Абмоткі"/>
+  <string id="str_tor_greenskin_leg_boots_goblin_002" text="{.Mnozny}Гоблінскія Нажныя Абмоткі"/>
+  <string id="str_tor_greenskin_leg_boots_troll_001" text="{.Mnozny}Трольскія Сьмярдзючыя Вяроўкі"/>
+  <string id="str_tor_greenskin_leg_shroom_001" text="{.Mnozny}Пустэльныя Грыбы"/>
+  <string id="str_tor_greenskin_leg_shroom_002" text="{.Mnozny}Лясныя Грыбы"/>
+  <string id="str_tor_greenskin_leg_shroom_003" text="{.Mnozny}Горныя Грыбы"/>
+  <string id="str_tor_greenskin_leg_shroom_004" text="{.Mnozny}Сьнежныя Грыбы"/>
+  <string id="str_tor_greenskin_leg_shroom_005" text="{.Mnozny}Вулканічныя Грыбы"/>
+  <string id="str_tor_beastmen_accessories_2_001" text="{.Mnozny}Штукі Мінатаўра 2"/>
+  <string id="str_tor_beastmen_legs_gor_001" text="{.Mnozny}Горскія Боты"/>
+  <string id="str_tor_tilean_leg_boots_knight_001" text="{.Mnozny}Пласьцінкавыя Боты"/>
+  <string id="str_tor_tilean_leg_boots_knight_002" text="{.Mnozny}Пласьцінкавыя Боты"/>
+ </strings>
+</base>

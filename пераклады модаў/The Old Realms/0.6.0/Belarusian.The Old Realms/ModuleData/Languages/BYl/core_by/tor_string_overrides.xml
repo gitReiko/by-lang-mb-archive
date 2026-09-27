@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <string id="str_tor_arena_master_tournament_meet_orc" text="Chošaš pa hałovach nadavać? U bojnych jamach chłopcaŭ brakuje!"/>
+  <string id="str_tor_arena_master_tournament_meet_dwarf" text="Vitaju, {?PLAYER.GENDER}dziaŭčo{?}chłopča{\?}. Ty na Hrozkazak?"/>
+  <string id="str_tor_arena_master_tournament_meet_2_orc" text="Machaču šukaješ? Jamy čakajuć, leź tudy!"/>
+  <string id="str_tor_arena_master_tournament_meet_2_dwarf" text="Vitaju, {?PLAYER.GENDER}dziaŭčo{?}chłopča{\?}. Kali ty na Hrozkazak, dyk, bajusia, {?PLAYER.GENDER}spaźniłasia{?}spaźniŭsia{\?}. Vialikich bajoŭ chutka nia budzie."/>
+  <string id="str_tor_arena_master_meet_no_intro_orc" text="Kali jamy šukaješ, idzi tudy, dzie viskočuć."/>
+  <string id="str_tor_arena_master_meet_no_intro_dwarf" text="Vitaju, {?PLAYER.GENDER}dziaŭčo{?}chłopča{\?}. Adrazu vidać: arena pa tabie płača. Mahu dapamahčy?"/>
+  <string id="str_tor_arena_master_meet_start_orc" text="Išče varušyšsia, ha? Dobra, chłopcam patrebny šapraŭdny machač!"/>
+  <string id="str_tor_arena_master_meet_start_dwarf" text="{PLAYER.NAME}, {?CONVERSATION_CHARACTER.GENDER}rada{?}rady{\?} znoŭ ciabie bačyć."/>
+  <string id="str_tor_arena_master_meet_start_2_orc" text="Hladžu, tabie b jašče pabicca!"/>
+  <string id="str_tor_arena_master_meet_start_2_dwarf" text="Chočaš pasprabavać jašče raz, {?PLAYER.GENDER}dziaŭčo{?}chłopča{\?}?"/>
+  <string id="str_tor_arena_intro_1_orc" text="Nu šo čutna pra vialikija machačy pablizu?"/>
+  <string id="str_tor_arena_intro_1_dwarf" text="Ciapier jakraz idzie Hrozkazak?"/>
+  <string id="str_tor_arena_intro_2_orc" text="{?PLAYER.GENDER}Čuła{?}Čuŭ{\?} ja šoje-toje pra vialikija machačy!"/>
+  <string id="str_tor_arena_intro_2_dwarf" text="Hrozkazak... Davodziłasia čuć."/>
+  <string id="str_tor_arena_intro_3_orc" text="Ja ž baču, jak ty čopu trymaješ! Kali kułaki šviarbiać, chłopcy ŭ jamach čakajuć!"/>
+  <string id="str_tor_arena_intro_3_dwarf" text="Słušna, {?PLAYER.GENDER}dziaŭčo{?}chłopča{\?}. Vidać, što ty {?PLAYER.GENDER}vajarka{?}vajar{\?}. Varta pasprabavać. Pad pozirkam Hrymnira možna zdabyć honar navat biaz pralitaj kryvi."/>
+  <string id="str_tor_arena_intro_3a_orc" text="Chošaš tut bosam być — pieramahaj u jamach! Bo šamany havarać: Hork z Morkam tudy zaŭždy hladziać!"/>
+  <string id="str_tor_arena_intro_3a_dwarf" text="Dobraja nahoda prasłavić tut siabie i svoj kłan: sumlenny boj pierad vačyma Prodkaŭ. Skažy, što moža być lepiej?"/>
+  <string id="str_tor_arena_intro_4_orc" text="Jašče b nia {?PLAYER.GENDER}čuła{?}čuŭ{\?}, pisklavy niedarostak! Kali my nia hrabim i nie zabivajem, dyk bjomsia!"/>
+  <string id="str_tor_arena_intro_4_dwarf" text="Kožny varty svajho imia Davi čuŭ pra Hrozkazak. Navučalnyja pajadynki spradvieku byli našym zvyčajem. Z hadami pradprymalnyja Davi ściamili, što na vialikich «navučalnych bajach» možna zarabić ładnaje zołata. Tak i paŭstaŭ ciapierašni Hrozkazak."/>
+  <string id="str_tor_arena_intro_4a_orc" text="Ale bos nia choša, kab my kalekami rabilisia, tamu łupim adzin adnaho pa hałovach pałkami."/>
+  <string id="str_tor_arena_intro_4a_dwarf" text="Viadoma ž, my nia chočam pralivać dobruju Davijskuju kroŭ. Tamu biarem zatuplenuju, biaśpiečnuju zbroju, kab naš narod vypraboŭvaŭ svaju moc biez strachu zahinuć na arenie, tak i nie zabiŭšy našych vorahaŭ."/>
+  <string id="str_tor_arena_intro_5_orc" text="Chłopcy źbivajucca ŭ hrupy i vybivajuć adzin z adnaho snotaŭ. Kryvi mała, zatoje chłopcy potym pryhažejšyja!"/>
+  <string id="str_tor_arena_intro_5_dwarf" text="Bjomsia kamandami: mocnyja ŭdary, hučnyja vokličy i mała pachavańniaŭ. Hladačam, moža, i brakuje kryvi, zatoje chłopcy zastajucca z zubami."/>
+  <string id="str_tor_arena_intro_5a_orc" text="Chočaš, viadomaści, — pieramahaj. Chłopcy skidvajucca žubami j žaleznymi šmatami, kab machač byŭ šapraŭdny."/>
+  <string id="str_tor_arena_intro_5a_dwarf" text="Ty Davi, ha? Daviadzi heta na arenie i zdabudź sabie imia. A zvonkija hali — tolki pryjemny dadatak."/>
+  <string id="str_tor_arena_intro_6_orc" text="Kali vialikaha machaču niama, chłopcy ŭsio adno prychodziać pabicca, kab da nastupnaha padrychtavacca. My im navat žuboŭ padkidajem, kali dobra łupiacca."/>
+  <string id="str_tor_arena_intro_6_dwarf" text="Navat biez Hrozkazaku varta zavitać u zału. Chłopcy tut trenirujucca ŭvieś dzień, a my kidajem niekalki manetaŭ tym, chto davodzić svaju advahu."/>
+  <string id="str_tor_arena_tournament_rules_orc" text="Šo mnie treba viedać pra vialikija machačy?"/>
+  <string id="str_tor_arena_tournament_rules_dwarf" text="Rastłumač, jak ładziać Hrozkazak."/>
+  <string id="str_tor_arena_practice_fight_rules_orc" text="U jamach niejak ašabliva bjucca?"/>
+  <string id="str_tor_arena_practice_fight_rules_dwarf" text="Jak u vas ładziać razahreŭ?"/>
+  <string id="str_tor_arena_prizes_orc" text="To ŭsie žuby, šo ja pavybivaju, možna šabie pakinuć?"/>
+  <string id="str_tor_arena_prizes_dwarf" text="Nivodny Davi nie kidaje hali na viecier. Tabie ź hetaha jakaja karyść?"/>
+  <string id="str_tor_arena_prizes_2_orc" text="Hodzie bałbatać! Jość lepšyja spravy!"/>
+  <string id="str_tor_arena_prizes_2_dwarf" text="Dosyć słovaŭ, piarojdziem da spravy."/>
+  <string id="str_tor_arena_master_reminder_orc" text="Šo tabie?"/>
+  <string id="str_tor_arena_master_reminder_dwarf" text="Nu, {?PLAYER.GENDER}dziaŭčo{?}chłopča{\?}?"/>
+  <string id="str_tor_arena_prizes_answer_orc" text="Jo chłopcy, šo lubiać paru žuboŭ na našyja machačy pastavić. Ale na vialikija bai chłopcy adusiul prucca! Lubiać vialiki machač i adšypajuć kuču žuboŭ, kab pahladzieć, jak šamyja zdarovyja chłopcy adzin adnaho łupiać."/>
+  <string id="str_tor_arena_prizes_answer_dwarf" text="Sioj-toj stavić i na navučalnyja bai, ale sapraŭdnuju ŭvahu pryciahvaje Hrozkazak. Vitanh ščodra jaho padtrymlivaje, a tyja, chto nie razhubić advahi da kanca boju, atrymajuć svaju dolu."/>
+  <string id="str_tor_arena_training_practice_fight_intro_orc" text="Va ŭsich łahierach praviły adny. Ty albo z kamandaj, albo {?PLAYER.GENDER}sama{?}sam{\?} pa šabie. Ciahniem skvihavy žuby — tak i vyrašajem."/>
+  <string id="str_tor_arena_training_practice_fight_intro_dwarf" text="Pa ŭsim Karaz-Ankory praviły amal adnolkavyja. Zapisvajem imiony, ciahniem žerabia. U adnym raŭndzie pobač stajać surodzičy, u nastupnym bjeśsia {?PLAYER.GENDER}sama{?}sam{\?}."/>
+  <string id="str_tor_arena_training_practice_fight_intro_1c_orc" text="Žuby šče j ryštunak tabie dajuć. Pieramožaš — pojdzieš na naštupny machač."/>
+  <string id="str_tor_arena_training_practice_fight_intro_1c_dwarf" text="Zbroja pavodle žerabia, jak i supierniki. Pieramožcy iduć dalej, a apošniaja para vyznačaje najlepšaha."/>
+  <string id="str_tor_arena_training_practice_fight_intro_1a_orc" text="Chošaš machaču — leź i łupi kožnaha, kaho bačyš. Kaniec, kali na nahach adzin chłopiec zaštaŭsia. Viesiałucha, ha?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_1a_dwarf" text="Navučalny boj prosty. Usie razam, biez kamandaŭ i pierapynkaŭ, pakul na nahach nie zastaniecca adzin."/>
+  <string id="str_tor_arena_training_practice_fight_intro_2_orc" text="Za pieramohu ŭ vialikim machačy bliskučki dajuć?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_2_dwarf" text="Jakaja ŭznaharoda za pieramohu ŭ Hrozkazaku?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_3_orc" text="A za machač u jamach šo dajuć?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_3_dwarf" text="Za navučalnyja bai hali płaciać?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_4_orc" text="Aha... Nibyta dajšło!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_4_dwarf" text="Dobra. Ja {?PLAYER.GENDER}zrazumieła{?}zrazumieŭ{\?}."/>
+  <string id="str_tor_arena_training_practice_fight_intro_5_orc" text="Chaču ŭžo kamu ŭrezać!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_5_dwarf" text="Tady zapišy majo imia."/>
+  <string id="str_tor_arena_training_practice_fight_intro_6_orc" text="Aha! Chłopcy ŭžo ŭ jamach łupiacca! Skačy i machaj čopaj!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_6_dwarf" text="Kali {?PLAYER.GENDER}navažyłasia{?}navažyŭsia{\?}, zachodź, {?PLAYER.GENDER}dziaŭčo{?}chłopča{\?}. Navučalny boj užo idzie. Ciapier ci paźniej — vybar tvoj."/>
+  <string id="str_tor_arena_training_practice_fight_intro_7_orc" text="To leź u jamu, nikčema! Na mianie zamachnieśsia — skivicu razłamaju!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_7_dwarf" text="Zała adčynienaja dla dužych barodaŭ. Navučalny boj užo idzie. Zachodź albo viartajsia na Hrozkazak."/>
+  <string id="str_tor_arena_master_pre_talk_explain_orc" text="Chošaš praviły jamy daviedacca?"/>
+  <string id="str_tor_arena_master_pre_talk_explain_dwarf" text="Štości jašče?"/>
+  <string id="str_tor_arena_master_ask_what_to_do_orc" text="Nu, čaho tabie treba?"/>
+  <string id="str_tor_arena_master_ask_what_to_do_dwarf" text="Skažy, što tabie treba."/>
+  <string id="str_tor_arena_master_sign_up_tournament_orc" text="Puści na vialiki machač! Pabicca chaču!"/>
+  <string id="str_tor_arena_master_sign_up_tournament_dwarf" text="Chaču zapisacca na Hrozkazak!"/>
+  <string id="str_tor_arena_master_ask_for_practice_fight_fight_orc" text="Ruki šviarbiać kamu ŭrezać! Puskaj u jamy!"/>
+  <string id="str_tor_arena_master_ask_for_practice_fight_fight_dwarf" text="Ruka pa azie sumuje. Možna dałučycca da navučalnaha pajadynku?"/>
+  <string id="str_tor_arena_master_ask_tournaments_orc" text="Nu šo, čutna pra vialikija machačy pablizu?"/>
+  <string id="str_tor_arena_master_ask_tournaments_dwarf" text="Ci ładziać Hrozkazak u bližejšych ćviardyniach?"/>
+  <string id="str_tor_arena_master_remind_something_orc" text="Pra tuju štuku, šo ty {?CONVERSATION_CHARACTER.GENDER}kazała{?}kazaŭ{\?}..."/>
+  <string id="str_tor_arena_master_remind_something_dwarf" text="Chvilinu nazad, ty {?CONVERSATION_CHARACTER.GENDER}kazała{?}kazaŭ{\?}..."/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_confirm_orc" text="To leź užo i kiń bałbatać!"/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_confirm_dwarf" text="Idzi. Biary zatuplenuju zbroju i pamiataj praviły."/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_decline_orc" text="U jamach zaraz vialiki machač. Prychodź paźniej!"/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_decline_dwarf" text="Padčas Hrozkazaku navučalnych bajoŭ niama."/>
+  <string id="str_tor_arena_master_enter_tournament_orc" text="Dobra, dla vialikaha machaču ty sapraŭdy padychodziš! Leź tudy i traščy pa hałovach!"/>
+  <string id="str_tor_arena_master_enter_tournament_dwarf" text="Dobra. Tvajo imia zapišuć. Honar tabie."/>
+  <string id="str_tor_arena_master_enter_practice_fight_confirm_orc" text="Nu dobra."/>
+  <string id="str_tor_arena_master_enter_practice_fight_confirm_dwarf" text="Tak."/>
+  <string id="str_tor_arena_master_enter_practice_fight_decline_orc" text="E, zabudź!"/>
+  <string id="str_tor_arena_master_enter_practice_fight_decline_dwarf" text="Mabyć, hetym razam nia varta."/>
+  <string id="str_tor_arena_master_enter_tournament_confirm_orc" text="Nia bojsia, ja {?PLAYER.GENDER}hatova{?}hatovy{\?}!"/>
+  <string id="str_tor_arena_master_enter_tournament_confirm_dwarf" text="Ja {?PLAYER.GENDER}hatova{?}hatovy{\?}."/>
+  <string id="str_tor_arena_master_enter_tournament_decline_orc" text="{?PLAYER.GENDER}Pieradumała{?}Pieradumaŭ{\?} ja, nie chaču!"/>
+  <string id="str_tor_arena_master_enter_tournament_decline_dwarf" text="Padumaŭšy, mušu admovicca."/>
+  <string id="str_tor_arena_join_fight_orc" text="Aha, čamu b i nie?"/>
+  <string id="str_tor_arena_join_fight_dwarf" text="Nia baču pryčynaŭ admaŭlacca."/>
+  <string id="str_tor_2593_orc" text="Nie, ja maju lepšyja spravy, čym z hetymi šmarkačami łupicca!"/>
+  <string id="str_tor_2593_dwarf" text="Avochci, {?PLAYER.GENDER}dziaŭčo{?}chłopča{\?}, z achvotaj. Ale pakiniem heta na inšy dzień."/>
+  <string id="str_tor_2594_orc" text="Tchu! Niedarostak."/>
+  <string id="str_tor_2594_dwarf" text="Tvoj prodak, vidać, hladzić na ciabie z rasčaravańniem."/>
+  <string id="str_tor_arena_intro_7_orc" text="A kali chočaš čopu hodna trymać navučycca — da mianie idzi. U nas usialakija chłopcy majucca, možna ŭ ich «ty-chniki» nabracca."/>
+  <string id="str_tor_arena_intro_7_dwarf" text="Tut šmat čamu možna navučycca. Uvažliva pryhledźsia da łanhktromi — mo niešta j piarojmieš. Možaš paprasić kaho ź ich padvučyć ciabie. "/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_orc" text="A tyja «ty-chničnyja» chłopcy tut majucca?"/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_dwarf" text="Chto z šanoŭnych łanhktromi maje volny čas i dzie jaho znajści?"/>
+  <string id="str_tor_arena_master_ask_retrain_orc" text="Nu, tabie {?PLAYER.GENDER}samoj{?}samomu{\?} ci kamu inšamu?"/>
+  <string id="str_tor_arena_master_ask_retrain_dwarf" text="Dobra. Tabie patrebnaja dapamoha ci kamuści z tvaich onhruni?"/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_2_orc" text="Mnie, nikčema!"/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_2_dwarf" text="Tak, mnie."/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_orc" text="Tamu nikčemie vuń, {COMPANION.NAME}."/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_dwarf" text="Tak, majmu onhrunu. Imia — {COMPANION.NAME}."/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_2_orc" text="Dumaješ, zmožaš majho chłopca čamu navučyć?"/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_2_dwarf" text="{?CONVERSATION_CHARACTER.GENDER}Šanoŭnaja, ci dapamahła{?}Šanoŭny, ci dapamoh{\?} by ty majmu onhruni ŭdaskanalić svaje zdolnaści?"/>
+  <string id="str_tor_arena_master_retrain_ask_clan_member_orc" text="Aha, paru šnaraŭ jamu dadam! Kamu?"/>
+  <string id="str_tor_arena_master_retrain_ask_clan_member_dwarf" text="Viadoma. Kamu patrebnaja navuka?"/>
+  <string id="str_tor_arena_master_select_clan_member_continue_orc" text="Eee, pačakaj, nia toj..."/>
+  <string id="str_tor_arena_master_select_clan_member_continue_dwarf" text="A kali niechta inšy?"/>
+  <string id="str_tor_arena_master_select_clan_member_cancel_orc" text="Eee, zabudź..."/>
+  <string id="str_tor_arena_master_select_clan_member_cancel_dwarf" text="Zabudź."/>
+  <string id="str_tor_arena_master_reset_attribute_orc" text="Šo heta za «ty-chnika»?"/>
+  <string id="str_tor_arena_master_reset_attribute_dwarf" text="Rastłumač, kali łaska, hety pryjom. U čym jon palahaje?"/>
+  <string id="str_tor_arena_master_select_attribute_continue_orc" text="Mnie inšaje treba."/>
+  <string id="str_tor_arena_master_select_attribute_continue_dwarf" text="Nie, heta mnie nie patrebna. Treba inšaje."/>
+  <string id="str_tor_arena_master_select_attribute_cancel_orc" text="Nie zaraz!"/>
+  <string id="str_tor_arena_master_select_attribute_cancel_dwarf" text="Nuf nu."/>
+  <string id="str_tor_arena_master_reset_perks_orc" text="Znaju adnaho chłopca. Jakuju «ty-chniku» chošaš?"/>
+  <string id="str_tor_arena_master_reset_perks_dwarf" text="Viadoma. Čamu treba navučyć?"/>
+  <string id="str_tor_arena_master_select_skill_orc" text="Chaču {SKILL_NAME}."/>
+  <string id="str_tor_arena_master_select_skill_dwarf" text="Najlepiej budzie {SKILL_NAME}."/>
+  <string id="str_tor_arena_master_select_skill_continue_orc" text="Chaču inšaje."/>
+  <string id="str_tor_arena_master_select_skill_continue_dwarf" text="Moža, lepiej niešta inšaje."/>
+  <string id="str_tor_arena_master_select_skill_cancel_orc" text="Nie zaraz!"/>
+  <string id="str_tor_arena_master_select_skill_cancel_dwarf" text="Moža, inšym razam."/>
+  <string id="str_tor_arena_master_pay_for_reset_orc" text="Jość {GOLD_AMOUNT} {GOLD_ICON} — pakažu!"/>
+  <string id="str_tor_arena_master_pay_for_reset_dwarf" text="Za {GOLD_AMOUNT} {GOLD_ICON} ja mahu tabie pakazać."/>
+  <string id="str_tor_arena_master_accept_perk_reset1_orc" text="Aha!"/>
+  <string id="str_tor_arena_master_accept_perk_reset1_dwarf" text="Ja {?PLAYER.GENDER}ŭpeŭniena{?}ŭpeŭnieny{\?}."/>
+  <string id="str_tor_arena_master_reject_perk_reset2_orc" text="Nie zaraz."/>
+  <string id="str_tor_arena_master_reject_perk_reset2_dwarf" text="Mušu admovicca."/>
+  <string id="str_tor_arena_master_perk_reset_closure_orc" text="Dobra, šo jašče?"/>
+  <string id="str_tor_arena_master_perk_reset_closure_dwarf" text="Durań! Čym jašče mahu dapamahčy?"/>
+  <string id="str_tor_arena_master_perk_reset_final1_orc" text="Chaču inšuju «ty-chniku» padvučyć."/>
+  <string id="str_tor_arena_master_perk_reset_final1_dwarf" text="Mnie treba ŭdaskanalicca ŭ inšaj spravie."/>
+  <string id="str_tor_arena_master_perk_reset_final2_orc" text="Chaču adnaho svajho chłopca «ty-chnicy» navučyć."/>
+  <string id="str_tor_arena_master_perk_reset_final2_dwarf" text="Adnamu z maich onhruni treba ŭdaskanalicca ŭ peŭnaj spravie."/>
+  <string id="str_tor_arena_master_perk_reset_final3_orc" text="Hetaha chopić!"/>
+  <string id="str_tor_arena_master_perk_reset_final3_dwarf" text="Ty {?CONVERSATION_CHARACTER.GENDER}zrabiła{?}zrabiŭ{\?} bolš, čym ja {?PLAYER.GENDER}mahła{?}moh{\?} prasić. Ščyra dziakuju."/>
+  <string id="str_tor_arena_master_leave_orc" text="Ja adsiul idu."/>
+  <string id="str_tor_arena_master_leave_dwarf" text="Mušu raźvitacca z taboj."/>
+  <string id="str_tor_arena_master_ask_tournaments_2_orc" text="Niama čutak pra vialikija machačy pablizu. I chutka, vidać, nia budzie!"/>
+  <string id="str_tor_arena_master_ask_tournaments_2_dwarf" text="Našyja siakiery ciapier adpačyvajuć. I tabie varta."/>
+  <string id="str_tor_bandit_start_defender_1_orc" text="Daŭno ja čarapoŭ nie {?CONVERSATION_CHARACTER.GENDER}traščyła{?}traščyŭ{\?}... Tvoj padydzie!"/>
+  <string id="str_tor_bandit_start_defender_1_dwarf" text="Siońnia maja siakiera pakaštuje tvajoj kryvi!"/>
+  <string id="str_tor_bandit_start_defender_2_orc" text="Pašancavała tabie, nikčema! Nam łupicca nie achvota... pakul."/>
+  <string id="str_tor_bandit_start_defender_2_dwarf" text="Stoj, pabudziem siońnia hnoł. My možam damovicca."/>
+  <string id="str_tor_common_encounter_fight_orc" text="Na ciabie j najhoršaj čopy škada! Preč adsiul!"/>
+  <string id="str_tor_common_encounter_fight_dwarf" text="Nia budu marnavać na ciabie čas. Možaš iści."/>
+  <string id="str_tor_common_encounter_ultimatum_we_can_join_you_orc" text="Hej! U ciabie, baču, šmat chłopcaŭ! Mo j my z vami na machač-druhi pojdziem?"/>
+  <string id="str_tor_common_encounter_ultimatum_we_can_join_you_dwarf" text="Mudry Davi viedaje, kali jon pieramožany. Prymieš nas u svajo vojska?"/>
+  <string id="str_tor_common_encounter_ultimatum_war_orc" text="Pašancavała tabie, nikčema! Nam łupicca nie achvota... pakul."/>
+  <string id="str_tor_common_encounter_ultimatum_war_dwarf" text="Davi nikoli nie addaść žyćcio biaz boju!"/>
+  <string id="str_tor_common_bandit_join_player_accepted_orc" text="Štanavisia da rešty chłopcaŭ, kali tabie švaja škura darahaja..."/>
+  <string id="str_tor_common_bandit_join_player_accepted_dwarf" text="Razam my, biassprečna, budziem macniejšyja. Ale ja za taboj pasaču."/>
+  <string id="str_tor_common_bandit_join_player_declined_1_orc" text="Takija šłabaki mnie ŭ bandzie nia treby!"/>
+  <string id="str_tor_common_bandit_join_player_declined_1_dwarf" text="Ty śmieješ ličyć mianie {?CONVERSATION_CHARACTER.GENDER}duraj{?}durniem{\?}? Doraha ž ty zapłaciš za hetuju kryŭdu!"/>
+  <string id="str_tor_common_bandit_join_player_declined_2_orc" text="Ty tolki na toje j {?CONVERSATION_CHARACTER.GENDER}vartaja{?}varty{\?}, kab maju čopu vyprabavać!"/>
+  <string id="str_tor_common_bandit_join_player_declined_2_dwarf" text="Nikoli. Moj honar patrabuje źvieści rachunki tut i ciapier."/>
+  <string id="str_tor_common_bandit_join_player_leave_orc" text="Preč adšul!"/>
+  <string id="str_tor_common_bandit_join_player_leave_dwarf" text="Heta nia maje značeńnia."/>
+  <string id="str_tor_common_encounter_declined_looters_to_join_war_surrender_orc" text="M-my ž ciabie zabić nie chacieli, ha-ha... My prosta, e... treniravacca dapamahali! Biaz kryŭdaŭ, ha?"/>
+  <string id="str_tor_common_encounter_declined_looters_to_join_war_surrender_dwarf" text="Spakojna. Kali łaska abychodźsia z nami hodna."/>
+  <string id="str_tor_common_encounter_ultimatum_war_2_orc" text="Nia budzie mnoj takaja nikčema pamykać! Idzi siudy! Hork z Morkam na tvaim trupie stančyć!"/>
+  <string id="str_tor_common_encounter_ultimatum_war_2_dwarf" text="Vanaz! Kali nam siońnia pamirać, dyk pamrom u bai."/>
+  <string id="str_tor_bandit_attacker_try_leave_success_orc" text="Nam u toj bok, tam šče kaho pazabivać jo! Chodźma, chłopcy!"/>
+  <string id="str_tor_bandit_attacker_try_leave_success_dwarf" text="My nie baimsia kryvi, ale dobra, što ŭdałosia paźbiehnuć niepatrebnaj svarki. Byvaj."/>
+  <string id="str_tor_bandit_attacker_try_leave_fail_orc" text="Tak prosta nie ŭciačeš!"/>
+  <string id="str_tor_bandit_attacker_try_leave_fail_dwarf" text="Adna kryŭda za sprobu padkupić nas, inšaja — za toje, što tak mała daješ!"/>
+  <string id="str_tor_blacksmith_begin_orc" text="Šo ty tut robiš? Treba šo?"/>
+  <string id="str_tor_blacksmith_begin_dwarf" text="Vitaju. Čym mahu dapamahčy?"/>
+  <string id="str_tor_blacksmith_craft_items_orc" text="Mnie patrebna novaje žaleza, i kazali, šo ty nieabchodny nikčema!"/>
+  <string id="str_tor_blacksmith_craft_items_dwarf" text="{?PLAYER.GENDER}Chacieła{?}Chacieŭ{\?} by skarystacca tvajoj hrunhronazi."/>
+  <string id="str_tor_blacksmith_leave_orc" text="Maju lepšyja spravy."/>
+  <string id="str_tor_blacksmith_leave_dwarf" text="Nuf nu."/>
+  <string id="str_tor_blacksmith_player_after_craft_accept_orc" text="Hladzi, kab pracavała! Na tabie žuby!"/>
+  <string id="str_tor_blacksmith_player_after_craft_accept_dwarf" text="Niabłaha, okruł. Miarkuju, ty heta {?CONVERSATION_CHARACTER.GENDER}zasłužyła{?}zasłužyŭ{\?}. "/>
+  <string id="str_tor_blacksmith_player_after_craft_anything_else_orc" text="Ty nia bojsia! Heta ž šapraŭdnaja štuka!"/>
+  <string id="str_tor_blacksmith_player_after_craft_anything_else_dwarf" text="Dobraja płata za dobruju pracu — voś heta pa mnie. Čym jašče mahu dapamahčy?"/>
+  <string id="str_tor_blacksmith_craft_items_1_orc" text="Mnie treba, kab ty šče adnu štuku {?CONVERSATION_CHARACTER.GENDER}zmajstravała{?}zmajstravaŭ{\?}!"/>
+  <string id="str_tor_blacksmith_craft_items_1_dwarf" text="Chaču zamović tabie jašče adzin vyrab."/>
+  <string id="str_tor_blacksmith_leave_1_orc" text="Ja adsiul idu!"/>
+  <string id="str_tor_blacksmith_leave_1_dwarf" text="Byvaj."/>
+  <string id="str_tor_lord_player_play_game_orc" text="Hej! Chočaš jaje pasprabavać? Cikavuju štuku {?CONVERSATION_CHARACTER.GENDER}znajšła{?}znajšoŭ{\?}! Čałaviečki, zdajecca, zavuć jaje {GAME_NAME}. Zhulajem?"/>
+  <string id="str_tor_lord_player_play_game_dwarf" text="Jak nakont partyi ŭ {GAME_NAME} pavodle praviłaŭ Barak-Varu? Moža, jašče j krychu daru?"/>
+  <string id="str_tor_lord_player_cancel_boardgame_orc" text="Ty raniej svaje žuby prahłynieš, čym ja tuju čałaviečuju štuku kranu, nikčema!"/>
+  <string id="str_tor_lord_player_cancel_boardgame_dwarf" text="Naj, moža, inšym razam. "/>
+  <string id="str_tor_lord_player_ask_to_play_boardgame_again_orc" text="Hmm, niabłaha... Šče raz u hetuju {GAME_NAME} zhulajem?"/>
+  <string id="str_tor_lord_player_ask_to_play_boardgame_again_dwarf" text="Jašče partyju? {?PLAYER.GENDER}Sama{?}Sam{\?} viedaješ, na adnoj nazie nia ŭstoiš."/>
+  <string id="str_tor_player_caravan_talk_start_orc" text="Treba šo?"/>
+  <string id="str_tor_player_caravan_talk_start_dwarf" text="Čym mahu dapamahčy?"/>
+  <string id="str_tor_player_caravan_trade_rumors_orc" text="{?CONVERSATION_CHARACTER.GENDER}Čuła{?}Čuŭ{\?} pra šo vartaje žuboŭ?"/>
+  <string id="str_tor_player_caravan_trade_rumors_dwarf" text="Jakija naviny z urbazi?"/>
+  <string id="str_tor_player_caravan_talk_player_thank_orc" text="Nu, šo tabie jašče treba?"/>
+  <string id="str_tor_player_caravan_talk_player_thank_dwarf" text="Mahu jašče čymści dapamahčy?"/>
+  <string id="str_tor_player_caravan_talk_not_leave_orc" text="Aha, chaču viedać pra..."/>
+  <string id="str_tor_player_caravan_talk_not_leave_dwarf" text="Raskažy mnie pra..."/>
+  <string id="str_tor_player_caravan_talk_leave_orc" text="Nie! Z vačej maich!"/>
+  <string id="str_tor_player_caravan_talk_leave_dwarf" text="Ščaślivaj darohi. Niachaj Vałaja ciabie ścieraže."/>
+  <string id="str_tor_player_caravan_nevermind_orc" text="E, zabudź!"/>
+  <string id="str_tor_player_caravan_nevermind_dwarf" text="Dy ničoha."/>
+  <string id="str_tor_caravan_pretalk_orc" text="Tolki nie kažy, šo išče chošaš bałbatać..."/>
+  <string id="str_tor_caravan_pretalk_dwarf" text="Što tabie jašče treba ad nas, Davi?"/>
+  <string id="str_tor_caravan_buy_products_orc" text="Zakryj pašču i kažy, jakaja ŭ ciabie zdabyča!"/>
+  <string id="str_tor_caravan_buy_products_dwarf" text="Ja j {?PLAYER.GENDER}sama{?}sam{\?} krychu handluju. Skažy, jakimi tavarami handluješ?"/>
+  <string id="str_tor_caravan_trade_rumors_orc" text="Ty šmat dzie byvaješ! Šo chłopcam ciapier treba?"/>
+  <string id="str_tor_caravan_trade_rumors_dwarf" text="Raskažy pra svoj drynit. Jakija naviny z urbazi?"/>
+  <string id="str_tor_caravan_trade_rumors_player_answer_orc" text="Nu dobra!"/>
+  <string id="str_tor_caravan_trade_rumors_player_answer_dwarf" text="Dziakuj za tvoj hnuł."/>
+  <string id="str_tor_caravan_talk_player_thank_orc" text="Skončyli? Ci mnie šče tvaju bałbatniu šłuchać?"/>
+  <string id="str_tor_caravan_talk_player_thank_dwarf" text="Viadoma. Jość jašče pytańni?"/>
+  <string id="str_tor_caravan_loot_orc" text="Hej! Kidaj zdabyču albo rychtujsia da machaču!"/>
+  <string id="str_tor_caravan_loot_dwarf" text="Raju addać usio, što viazieš. Inačaj sprava skončycca vielmi kiepska."/>
+  <string id="str_tor_caravan_talk_leave_orc" text="E, na ciabie j času škada!"/>
+  <string id="str_tor_caravan_talk_leave_dwarf" text="Zabudź. Mnie hety ŭmhak nie patrebny."/>
+  <string id="str_tor_caravan_player_trade_end_orc" text="Fajna, a ciapier preč z darohi! Bos reštu zdabyčy čakaje!"/>
+  <string id="str_tor_caravan_player_trade_end_dwarf" text="Dobra, dobra. Jašče adna ŭdałaja sprava."/>
+  <string id="str_tor_caravan_player_trade_end_response_orc" text="Aha, aha, jak skažaš!"/>
+  <string id="str_tor_caravan_player_trade_end_response_dwarf" text="Niachaj Vałaja błasłavić tvoj Dryni. "/>
+  <string id="str_tor_caravan_fight_orc" text="Dumaješ, my addamo tabie našu zdabyču prosta tak, ha? Raniej maju čopu hałavoj złoviš! [rf:idle_angry][ib:aggressive]"/>
+  <string id="str_tor_caravan_fight_dwarf" text="My prysiahnuli baranić hety karavan i ŭsio, što jon viazie. "/>
+  <string id="str_tor_player_decided_to_fight_orc" text="Dobra, a to ŭžo ruki pa machačy šviarbiać!"/>
+  <string id="str_tor_player_decided_to_fight_dwarf" text="Dobra. Davi, u nastup!"/>
+  <string id="str_tor_player_decided_to_not_fight_1_orc" text="Nie, naŭrad u ciabie jość dobraja zdabyča. Idzi ŭžo!"/>
+  <string id="str_tor_player_decided_to_not_fight_1_dwarf" text="My nia šukajem boju, budźcie spakojnyja. Niachaj Prodki buduć da vas łaskavyja."/>
+  <string id="str_tor_caravan_accepted_to_give_some_goods_orc" text="Bos hetuju zdabyču čakaje, ale my možam pa darozie troški zhubić. {TAKE_MONEY_AND_PRODUCT_STRING} [rf:idle_angry][ib:nervous]"/>
+  <string id="str_tor_caravan_accepted_to_give_some_goods_dwarf" text="Choć i baluča rasstavacca z zołatam, {?SPEAKER.GENDER}žyvoj ja{?}žyvym ja{\?}, mabyć, zarablu jašče. "/>
+  <string id="str_tor_player_decided_to_take_some_goods_orc" text="Aha, to šaviali nahami. Nia chošaš ža, kab tvoj bos zusim razzłavaŭsia..."/>
+  <string id="str_tor_player_decided_to_take_some_goods_dwarf" text="Heta... prymalna. "/>
+  <string id="str_tor_player_decided_to_take_everything_orc" text="Nie, u vašych vazach nibyta bliskučki jość. Usio zabiaru!"/>
+  <string id="str_tor_player_decided_to_take_everything_dwarf" text="Addaj usio, što tam maješ!"/>
+  <string id="str_tor_player_decided_to_not_fight_2_orc" text="Hladžu na tvaje vazy... Ad bosa vam bolš budzie, čym ad mianie. Preč adšiul!"/>
+  <string id="str_tor_player_decided_to_not_fight_2_dwarf" text="Ty nia tak {?CONVERSATION_CHARACTER.GENDER}zrazumieła{?}zrazumieŭ{\?}. Nastupnym razam słuchaj uvažliviej. A ciapier preč!"/>
+  <string id="str_tor_caravan_fight_no_surrender_orc" text="Vydatna! Chłopcy, machač šam da nas precca! Rychtujcie čopy! [rf:idle_angry][ib:aggressive]"/>
+  <string id="str_tor_caravan_fight_no_surrender_dwarf" text="Praklon na ciabie! My chutčej pamrom, čym addamo svajo!"/>
+  <string id="str_tor_caravan_accepted_to_give_everything_orc" text="D-dobra... Možaš u vazy zazirnuć. Chłopcy, apuścicie čopy!"/>
+  <string id="str_tor_caravan_accepted_to_give_everything_dwarf" text="Hańba mnie, ale hetaha boju nam nia vyjhrać. Biary što chočaš i spadziavajsia, što my nie adpomścim za hetuju kryŭdu pry tvaim žyćci."/>
+  <string id="str_tor_player_do_not_take_prisoners_orc" text="Tvaje vazy sa zdabyčaj ciapier maje, čuješ?"/>
+  <string id="str_tor_player_do_not_take_prisoners_dwarf" text="My heta zabirajem. I dazvołu nia prosim."/>
+  <string id="str_tor_player_decided_to_take_prisoner_orc" text="Što ž, ciapier ty {?CONVERSATION_CHARACTER.GENDER}maja{?}moj{\?}!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_dwarf" text="Ciapier vy našyja hości. Nia bojciesia, my budziem abychodzicca z vami zhodna z vašym... stanoviščam. "/>
+  <string id="str_tor_caravan_warn_player_to_take_prisoner_orc" text="Nu j {?PLAYER.GENDER}narabiła{?}narabiŭ{\?} ty! Chłopcy z {KINGDOM} ź ciabie skuru za svaje vazy ździaruć!"/>
+  <string id="str_tor_caravan_warn_player_to_take_prisoner_dwarf" text="Pra heta daviedajecca ŭsio {KINGDOM}! Za takoje rabavańnie ciabie ŭpišuć u Knihi Kryŭdaŭ!"/>
+  <string id="str_tor_caravan_do_not_warn_player_orc" text="Hork i Mork! Baranicie nas!"/>
+  <string id="str_tor_caravan_do_not_warn_player_dwarf" text="Prodki, nakirujcie našyja siakiery na hetuju pohań!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_orc" text="Davaj užo."/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_dwarf" text="Praciahvaj."/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_orc" text="Zabudź!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_dwarf" text="Zabudź."/>
+  <string id="str_tor_caravan_bribery_leave_orc" text="My ŭžo idziem ci šo?"/>
+  <string id="str_tor_caravan_bribery_leave_dwarf" text="My ŭžo možam rušyć?"/>
+  <string id="str_tor_caravan_surrender_leave_orc" text="My ŭžo idziem ci šo?"/>
+  <string id="str_tor_caravan_surrender_leave_dwarf" text="My ŭžo možam rušyć?"/>
+  <string id="str_tor_clan_member_follow_orc" text="Za mnoj!"/>
+  <string id="str_tor_clan_member_follow_dwarf" text="Chadziem razam."/>
+  <string id="str_tor_clan_member_dont_follow_orc" text="Idzi zajmajsia svaim!"/>
+  <string id="str_tor_clan_member_dont_follow_dwarf" text="Stoj! Padzialiciesia."/>
+  <string id="str_tor_clan_members_follow_orc" text="Sabiary chłopcaŭ i nazad siudy!"/>
+  <string id="str_tor_clan_members_follow_dwarf" text="Sklič našych tanaŭ i znajdzi mianie ŭ sieliščy."/>
+  <string id="str_tor_clan_members_dont_follow_orc" text="Usie nazad da svaich spravaŭ!"/>
+  <string id="str_tor_clan_members_dont_follow_dwarf" text="Dosyć. Viartajsia da svaich spravaŭ."/>
+  <string id="str_tor_clan_member_gather_clan_members_accept_orc" text="Tak, bos!"/>
+  <string id="str_tor_clan_member_gather_clan_members_accept_dwarf" text="Klanusia honaram!"/>
+  <string id="str_tor_clan_member_follow_accept_orc" text="Za taboj, bos!"/>
+  <string id="str_tor_clan_member_follow_accept_dwarf" text="Ja pajdu za taboj."/>
+  <string id="str_tor_clan_member_dont_follow_accept_orc" text="Biez prablem, bos!"/>
+  <string id="str_tor_clan_member_dont_follow_accept_dwarf" text="Tak, tanie."/>
+  <string id="str_tor_clan_members_dont_follow_accept_orc" text="Dobra, bos!"/>
+  <string id="str_tor_clan_members_dont_follow_accept_dwarf" text="Tak, tanie."/>
+  <string id="str_tor_clan_member_manage_troops_orc" text="Pakažy chłopcaŭ!"/>
+  <string id="str_tor_clan_member_manage_troops_dwarf" text="Daj hlanuć na našu kampaniju."/>
+  <string id="str_tor_companion_start_grievance_orc" text="Hej, bos! Treba šota skazać!"/>
+  <string id="str_tor_companion_start_grievance_dwarf" text="{TITLE}, nam treba sioje-toje abmierkavać."/>
+  <string id="str_tor_companion_rejoin_orc" text="Biez prablem, bos!"/>
+  <string id="str_tor_companion_rejoin_dwarf" text="Aj, anu!"/>
+  <string id="str_tor_companion_start_role_orc" text="Jość dla ciabie novaja praca..."/>
+  <string id="str_tor_companion_start_role_dwarf" text="Ty {?CONVERSATION_CHARACTER.GENDER}mahła b{?}moh by{\?} zrabić dla kłanu niešta inšaje..."/>
+  <string id="str_tor_companion_talk_fire_orc" text="Bolš nie chaču, kab {?CONVERSATION_CHARACTER.GENDER}takaja słabačka tut kruciłasia{?}taki słabak tut kruciŭsia{\?}."/>
+  <string id="str_tor_companion_talk_fire_dwarf" text="Ty {?CONVERSATION_CHARACTER.GENDER}vyzvalenaja{?}vyzvaleny{\?} ad svaich abaviazkaŭ."/>
+  <string id="str_tor_companion_talk_fire_2_orc" text="Idzieš na pavyšeńnie!"/>
+  <string id="str_tor_companion_talk_fire_2_dwarf" text="Tvaje zdolnaści lepiej pasujuć da hetaj pasady."/>
+  <string id="str_tor_companion_assign_new_role_orc" text="Kim, bos?"/>
+  <string id="str_tor_companion_assign_new_role_dwarf" text="Jakuju pasadu ty maješ na ŭvazie?"/>
+  <string id="str_tor_companion_talk_fire_3_orc" text="E... {?PLAYER.GENDER}Zabyła{?}Zabyŭ{\?}, dy j plavać!"/>
+  <string id="str_tor_companion_talk_fire_3_dwarf" text="A, nuf."/>
+  <string id="str_tor_companion_becomes_engineer_orc" text="Bolš ty ŭ žalezkach nie kapajeśsia!"/>
+  <string id="str_tor_companion_becomes_engineer_dwarf" text="Mnie bolš nie patrebny tvoj dybnin."/>
+  <string id="str_tor_companion_becomes_surgeon_orc" text="Skončyłasia tvajo lekavalnictva!"/>
+  <string id="str_tor_companion_becomes_surgeon_dwarf" text="Tvajo lekavańnie nie da spadoby Vałai."/>
+  <string id="str_tor_companion_becomes_quartermaster_orc" text="Ty bolš nia bos łahiera!"/>
+  <string id="str_tor_companion_becomes_quartermaster_dwarf" text="Ty bolš nie {?CONVERSATION_CHARACTER.GENDER}patrebnaja{?}patrebny{\?} mnie jak tronhvitanh."/>
+  <string id="str_tor_companion_becomes_scout_orc" text="Bolš mnie vyviednik nie patrebny!"/>
+  <string id="str_tor_companion_becomes_scout_dwarf" text="Ty bolš nie {?CONVERSATION_CHARACTER.GENDER}patrebnaja{?}patrebny{\?} mnie jak undzi."/>
+  <string id="str_tor_companion_role_response_orc" text="Nu j dobra!"/>
+  <string id="str_tor_companion_role_response_dwarf" text="Aj, ja heta zrablu."/>
+  <string id="str_tor_companion_role_response_2_orc" text="Dla ciabie što zaŭhodna, bos!"/>
+  <string id="str_tor_companion_role_response_2_dwarf" text="Tvajo žadańnie — moj zahad."/>
+  <string id="str_tor_companion_talk_return_orc" text="Zabudź!"/>
+  <string id="str_tor_companion_talk_return_dwarf" text="A, nuf."/>
+  <string id="str_tor_companion_start_mission_orc" text="{?PLAYER.GENDER}Čuła{?}Čuŭ{\?} ja sio-toje, tabie budzie cikava!"/>
+  <string id="str_tor_companion_start_mission_dwarf" text="Dla ciabie jość asablivaje daručeńnie."/>
+  <string id="str_tor_companion_pretalk_2_orc" text="Šo treba, bos?"/>
+  <string id="str_tor_companion_pretalk_2_dwarf" text="Što mnie treba zrabić?"/>
+  <string id="str_tor_companion_mission_gather_troops_orc" text="Mnie treba, kab ty bolš chłopcaŭ {?CONVERSATION_CHARACTER.GENDER}sabrała{?}sabraŭ{\?}!"/>
+  <string id="str_tor_companion_mission_gather_troops_dwarf" text="Mnie patrebna bolš kazakaŭ dla tronhu."/>
+  <string id="str_tor_companion_mission_forage_orc" text="Žerci chaču, idzi dastań ježy!"/>
+  <string id="str_tor_companion_mission_forage_dwarf" text="Zapasy kančajucca. Treba, kab ty {?CONVERSATION_CHARACTER.GENDER}zdabyła{?}zdabyŭ{\?} ježu."/>
+  <string id="str_tor_companion_mission_patrol_orc" text="Budzieš tut vorahaŭ vyhladvać, dajšło?"/>
+  <string id="str_tor_companion_mission_patrol_dwarf" text="Raźmiaści tut undzi."/>
+  <string id="str_tor_companion_mission_cancel_orc" text="Zabudź!"/>
+  <string id="str_tor_companion_mission_cancel_dwarf" text="A, nuf."/>
+  <string id="str_tor_companion_forage_1_orc" text="Jak skažaš, bos! Ale e... Mnie kaho z chłopcaŭ uziać?"/>
+  <string id="str_tor_companion_forage_1_dwarf" text="Aj, zrablu. Možaš vyłučyć kazakaŭ dla hetaj spravy?"/>
+  <string id="str_tor_companion_forage_2_orc" text="Tak, vaźmi enych chłopcaŭ."/>
+  <string id="str_tor_companion_forage_2_dwarf" text="Vaźmi z saboj hetych kazakaŭ."/>
+  <string id="str_tor_companion_forage_3_orc" text="Šo? {?CONVERSATION_CHARACTER.GENDER}Sama{?}Sam{\?} nia možaš? Preč adsiul, pakul skivicu nie {?PLAYER.GENDER}razłamała{?}razłamaŭ{\?}!"/>
+  <string id="str_tor_companion_forage_3_dwarf" text="Hetyja kazaki patrebnyja ŭ inšym miescy. Daviadziecca tabie spravicca {?CONVERSATION_CHARACTER.GENDER}samoj{?}samomu{\?}."/>
+  <string id="str_tor_companion_fire_orc" text="Š-šo? Što b ja ni {?CONVERSATION_CHARACTER.GENDER}zrabiła{?}zrabiŭ{\?}, bos, ja ž nie {?CONVERSATION_CHARACTER.GENDER}chacieła{?}chacieŭ{\?} tabie pieraškadžać!"/>
+  <string id="str_tor_companion_fire_dwarf" text="Ty {?PLAYER.GENDER}ŭpeŭniena{?}ŭpeŭnieny{\?}?"/>
+  <string id="str_tor_companion_fire_age_orc" text="Nie pytaju, {?CONVERSATION_CHARACTER.GENDER}chacieła{?}chacieŭ{\?} ci nie! {?CONVERSATION_CHARACTER.GENDER}Zrabiła{?}Zrabiŭ{\?}! Preč z vačej maich, pakul tabie ŭ pysu {?PLAYER.GENDER}nie dała{?}nia daŭ{\?}!"/>
+  <string id="str_tor_companion_fire_age_dwarf" text="Ty ŭžo {?CONVERSATION_CHARACTER.GENDER}starejšaja{?}starejšy{\?} za ŭsich łanhktromi, jakich ja viedaju. Varta dazvolić sabie adpačynak."/>
+  <string id="str_tor_companion_fire_no_fit_orc" text="Nadakučyła, šo ty ŭ łahiery biadu robiš. Idzi adšiul!"/>
+  <string id="str_tor_companion_fire_no_fit_dwarf" text="Ty Ŭfdzi i nie pasuješ da hetaj kampanii. Lepiej tabie syści."/>
+  <string id="str_tor_companion_fire_no_fit_2_orc" text="Ty bolš sa svaimi chłopcami łupišsia, čym z vorahami. Kali sa mnoj nia chočaš — idzi adsiul."/>
+  <string id="str_tor_companion_fire_no_fit_2_dwarf" text="Ty vazok, i ty mnie nie {?CONVERSATION_CHARACTER.GENDER}patrebna{?}patrebny{\?}."/>
+  <string id="str_tor_companion_fire_underperforming_orc" text="Ty prosta słabaja nikčema! Preč adsiul, kali bicca nia chočaš!"/>
+  <string id="str_tor_companion_fire_underperforming_dwarf" text="Ja {?PLAYER.GENDER}dumała{?}dumaŭ{\?}, što ty bolš {?CONVERSATION_CHARACTER.GENDER}umiełaja{?}umieły{\?}. Ciapier razumieju: {?PLAYER.GENDER}pamyliłasia{?}pamyliŭsia{\?}."/>
+  <string id="str_tor_companion_fire_cancel_orc" text="{?CONVERSATION_CHARACTER.GENDER}Bačyła{?}Bačyŭ{\?} by ty svaju pysu! Nazad da chłopcaŭ, nikčema!"/>
+  <string id="str_tor_companion_fire_cancel_dwarf" text="Prabač, ja {?PLAYER.GENDER}pierabłytała{?}pierabłytaŭ{\?}, što {?PLAYER.GENDER}chacieła{?}chacieŭ{\?} skazać, z tym pra, što {?PLAYER.GENDER}padumała{?}padumaŭ{\?}. "/>
+  <string id="str_tor_companion_fire_cancel2_orc" text="Aha, bos! Nu ty j {?PLAYER.GENDER}žartaŭnica{?}žartaŭnik{\?}...! [if:convo_nervous][ib:normal2]"/>
+  <string id="str_tor_companion_fire_cancel2_dwarf" text="Zaki..."/>
+  <string id="str_tor_turn_companion_to_lord_start_orc" text="Hork z Morkam siońnia ciabie lubiać! Jość sio-toje dla ciabie..."/>
+  <string id="str_tor_turn_companion_to_lord_start_dwarf" text="Ty {?CONVERSATION_CHARACTER.GENDER}zasłužyła{?}zasłužyŭ{\?} sabie vultrunh."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_2_orc" text="Nie mahu, bos! Ja ž šče inšym tvaim vozam sa zdabyčaj kamanduju!"/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_2_dwarf" text="Ty akazvaješ mnie honar hetaj prapanovaj, {?PLAYER.GENDER}maja Ryn{?}moj Ryk{\?}. Ale abaviazak zahadvaje mnie davieści hety karavan da biaśpiečnaha miesca. Vyzvali mianie ad hetaj prysiahi, i my praciahniem razmovu."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_player_orc" text="Ja j tak {?PLAYER.GENDER}viedała{?}viedaŭ{\?}, duryła! {?PLAYER.GENDER}Praviarała{?}Praviaraŭ{\?} ciabie. Škončyš vazy ciahać — budzie inšaja praca."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_player_dwarf" text="Viadoma. Davi, jaki kidaje svaje abaviazki, ničoha nia varty. Praciahvaj, pahavorym paźniej."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_orc" text="Chodźma, chodźma! Ja ciapier BUJNABOS! Nie padviadu, bos! Budu ich dušyć, taptać i łupić! I maje fartecy buduć najdužymi, jakija ty {?PLAYER.GENDER}bačyła{?}bačyŭ{\?}! Tolki pačakaj! A jak skažaš — pryjdu tabie dapamahać u VAAAHCH!"/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_dwarf" text="Dziakuju, {?PLAYER.GENDER}Ryn{?}Ryk{\?}. Daŭno ja {?CONVERSATION_CHARACTER.GENDER}čakała{?}čakaŭ{\?} mahčymaści vysiečy ŭłasnuju ćviardyniu. Kali budzie dastatak, kab hareli horny, ja znajdu hodnuju paru i padaruju Karaz-Ankoru dobrych chłopcaŭ. A samaje lepšaje — paviadu tronh surodzičaŭ pomścić za našyja kryŭdy..."/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_orc" text="Ty šapraŭdny bajec! Dumaju, čas tabie švaju fartecu mieć!"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_dwarf" text="Tak. Ty {?CONVERSATION_CHARACTER.GENDER}daviała{?}davioŭ{\?} svaju vartaść Prodkam i mnie. Atrymaješ svoj kazad. Niachaj jon baronić tvaich surodzičaŭ, a tvaja barada raście doŭhaju i sivoju."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_orc" text="E, bos? Niama ŭ nas svabodnaj fartecy, kab addać."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_dwarf" text="{?PLAYER.GENDER}Maja Ryn{?}Moj Ryk{\?}, prapanova robić mnie honar, ale pakul ty nia maješ kazadu, kab daravać mnie. Davi nia moža kiravać pustym pavietram i vialikimi nadziejami."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_player_answer_orc" text="Šcichni, duryła! Ja {?PLAYER.GENDER}kazała{?}kazaŭ{\?} pra potym, kali budzie. Dajšło?"/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_player_answer_dwarf" text="Razumieju. Spačatku vysiečam padmurak našaj ćviardyni, ha? Pahavorym pra heta, kali budziem mieć ułasnuju zału, davonhi."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_companion_answer_orc" text="Mudra! Tamu ty j bos!"/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_companion_answer_dwarf" text="Jak skažaš, {?PLAYER.GENDER}Maja Ryn{?}Moj Ryk{\?}."/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_answer_orc" text="Šapraŭdy, bos? Jakuju fartecu ty {?PLAYER.GENDER}mieła{?}mieŭ{\?} na ŭvazie?"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_answer_dwarf" text="A dzie mienavita taja ćviardynia?"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_continue_orc" text="Pačakaj! Nia tuju!"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_continue_dwarf" text="Hm, ja {?PLAYER.GENDER}dumała{?}dumaŭ{\?} pra inšaje miesca."/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_cancel_orc" text="Ciapier {?PLAYER.GENDER}razdumała{?}razdumaŭ{\?}... Zabudź!"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_cancel_dwarf" text="Ja {?PLAYER.GENDER}razdumała{?}razdumaŭ{\?}. Pakul tvaja siakiera patrebnaja pobač sa mnoj."/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_orc" text="Aha! Dziakuj, bos! Ja tabie tych chłopcaŭ u {SETTLEMENT_NAME} šapraŭdy vyškalu!"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_dwarf" text="{SETTLEMENT_NAME}? Ahmieniem Vałai, ty robiš mnie honar, {?PLAYER.GENDER}Ryn{?}Ryk{\?}. Prysiahaju svajoj baradoj baranić hetyja zali, pakul sam Hazuł nie zabiare mianie.[ib:hip][if:convo_happy]"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_orc" text="Hladzi ž, {CULTURE_SPECIFIC_TITLE} {COMPANION_NAME}! A ciapier idzi j pakažy chłopcam u {SETTLEMENT_NAME}, chto tut bos!"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_dwarf" text="Nadaju tabie zvańnie {CULTURE_SPECIFIC_TITLE} i abaviazak baranić ćviardyniu {SETTLEMENT_NAME}. Niachaj Prodki hanaracca taboju."/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_reject_orc" text="Hej, pačakaj! Daj šče padumać!"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_reject_dwarf" text="Dobra. Mnie treba jašče krychu času na rozdum."/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_box_orc" text="Hej, bos! Ciapier my šapraŭdnaja banda. Jak nazavieš nas, chłopcaŭ?"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_box_dwarf" text="{?PLAYER.GENDER}Ryn{?}Ryk{\?}, zasnavać svoj kłan — ciažki abaviazak. Ci palehčyš jaho, daŭšy kłanu imia? "/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_thanks_orc" text="Dziakuj, bos! U hałavie zasiaku, kali znoŭ spatreblusia. My zaŭždy z taboj!"/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_thanks_dwarf" text="Dziakuju tabie, {?PLAYER.GENDER}Ryn{?}Ryk{\?}. Ja i moj rod zachavajem tvoj učynak u sercy. Nie zabudziem jaho, pakul stajać hory."/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_rejected_orc" text="Tut šapraŭdy treba mazhami pavarušyć. Nia bojsia, bos, zaštanusia z taboj, pakul nie prydumaješ!"/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_rejected_dwarf" text="Ćviardynia — sprava važkaja, {?PLAYER.GENDER}Ryn{?}Ryk{\?}. Lepiej dvojčy admierać kamień, pierš čym rezać, ha? Maja prysiaha tabie zastajecca ŭ sile. Ja pa-raniejšamu budu pobač!"/>
+  <string id="str_tor_rescue_companion_start_orc" text="Dziakuj, bos! Ciapier znoŭ mahu łupić!"/>
+  <string id="str_tor_rescue_companion_start_dwarf" text="Za vyratavańnie ja {?CONVERSATION_CHARACTER.GENDER}vinnaja{?}vinny{\?} tabie žyćcio."/>
+  <string id="str_tor_rescue_companion_option_acknowledgement_orc" text="Viadoma, bos! Prosta rablu svaju pracu — bosa baraniu!"/>
+  <string id="str_tor_rescue_companion_option_acknowledgement_dwarf" text="Ja na ŭsio pajdu, kab vykreślić kryŭdu z knihaŭ."/>
+  <string id="str_tor_rescue_companion_preoptions_orc" text="Šo ciapier?"/>
+  <string id="str_tor_rescue_companion_preoptions_dwarf" text="Što dalej?"/>
+  <string id="str_tor_rescue_companion_option_1_orc" text="Viartajemsia da chłopcaŭ i rušym dalej."/>
+  <string id="str_tor_rescue_companion_option_1_dwarf" text="Treba złučyć našyja siły z astatnimi. Moc Davi — u ścianie ščytoŭ."/>
+  <string id="str_tor_rescue_companion_option_2_orc" text="Mnie treba, kab ty jakimi chłopcami {?CONVERSATION_CHARACTER.GENDER}kiravała{?}kiravaŭ{\?}."/>
+  <string id="str_tor_rescue_companion_option_2_dwarf" text="Mnie treba, kab ty {?CONVERSATION_CHARACTER.GENDER}ŭznačaliła{?}ŭznačaliŭ{\?} svoj tronh."/>
+  <string id="str_tor_rescue_companion_option_3_orc" text="Niama tabie zaraz miesca."/>
+  <string id="str_tor_rescue_companion_option_3_dwarf" text="Majecca maleńkaja pieraškoda, kab uziać ciabie z saboj ciapier. Pakul pabudź {?CONVERSATION_CHARACTER.GENDER}sama{?}sam{\?} pa sabie."/>
+  <string id="str_tor_rescue_companion_lead_party_answer_orc" text="Jakimi chłopcami mnie kamandavać?"/>
+  <string id="str_tor_rescue_companion_lead_party_answer_dwarf" text="Jakomu tronhu {?CONVERSATION_CHARACTER.GENDER}patrebnaja lidarka{?}patrebny lidar{\?}?"/>
+  <string id="str_tor_rescue_companion_join_party_answer_orc" text="Dobra viarnucca!"/>
+  <string id="str_tor_rescue_companion_join_party_answer_dwarf" text="{?CONVERSATION_CHARACTER.GENDER}Rada{?}Rady{\?} znoŭ bicca plačom da plača z taboj!"/>
+  <string id="str_tor_rescue_companion_do_nothing_answer_orc" text="Ja {?CONVERSATION_CHARACTER.GENDER}vaŭčyca{?}voŭk{\?}-adzinočka, ale nie zabudu, šo ty dla mianie {?PLAYER.GENDER}zrabiła{?}zrabiŭ{\?}."/>
+  <string id="str_tor_rescue_companion_do_nothing_answer_dwarf" text="Praciahnu svoj šlach {?CONVERSATION_CHARACTER.GENDER}sama{?}sam{\?}, ale budu pamiatać, što ja tabie {?CONVERSATION_CHARACTER.GENDER}vinnaja{?}vinny{\?}!"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_0_orc" text="Jak skažaš, bos!"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_0_dwarf" text="Viadoma, zrablu."/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_1_orc" text="Šo mnie rabić, bos?"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_1_dwarf" text="Što mnie dla ciabie zrabić?"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_2_orc" text="My rušym!"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_2_dwarf" text="Barody za pajasy, vypraŭlajemsia ŭ pachod."/>
+  <string id="str_tor_grievance_requested_orc" text="Kažy, słuchaju."/>
+  <string id="str_tor_grievance_requested_dwarf" text="Kažy, raskazvaj. Ja pasłuchaju."/>
+  <string id="str_tor_grievance_1_orc" text="Aha, jak škažaš. Moža, j zapomniu."/>
+  <string id="str_tor_grievance_1_dwarf" text="U tvaich słovach praŭda. Budu ich trymacca, kab nie było novych kryŭdaŭ."/>
+  <string id="str_tor_grievance_2_orc" text="Hej, heta ja tut zahady raždaju!"/>
+  <string id="str_tor_grievance_2_dwarf" text="Choć ja j caniu tvaju paradu, mnie treba jašče jaje abdumać."/>
+  <string id="str_tor_grievance_3_orc" text="Ty {?CONVERSATION_CHARACTER.GENDER}słabačka{?}słabak{\?}, nia miesca tabie z maimi chłopcami."/>
+  <string id="str_tor_grievance_3_dwarf" text="Vidać, my pa-roznamu razumiejem honar. Moža, lepiej nam razyścisia."/>
+  <string id="str_tor_companion_hire_capacity_full_orc" text="Kali padumać... U mianie j tak zašmat chłopcaŭ!"/>
+  <string id="str_tor_companion_hire_capacity_full_dwarf" text="Chmm... Ja ŭžo maju bolš chłopcaŭ z žalezam, čym ja mahu trymać u šychcie."/>
+  <string id="str_tor_player_companion_hire_response_1_orc" text="Dobra... Biary svaje bliskučki, a ciapier da astatnich!"/>
+  <string id="str_tor_player_companion_hire_response_1_dwarf" text="Voś tvoj okstał... {GOLD_AMOUNT}. Varušysia!"/>
+  <string id="str_tor_player_companion_hire_response_2_orc" text="Cha! Nibyta ja addam tabie heta ŭsio! Padumaj jašče raz!"/>
+  <string id="str_tor_player_companion_hire_response_2_dwarf" text="Majoj baradoj, stolki zołata ja nia zdoleju dać!"/>
+  <string id="str_tor_caravan_companion_talk_start_orc" text="Hej, majecca tabie praca..."/>
+  <string id="str_tor_caravan_companion_talk_start_dwarf" text="Treba sioje-toje vyrašyć, dyk słuchaj uvažliva."/>
+  <string id="str_tor_caravan_companion_talk_start_reply_orc" text="Šo chočaš, bos?"/>
+  <string id="str_tor_caravan_companion_talk_start_reply_dwarf" text="Aha. Što tabie hałavu točyć?"/>
+  <string id="str_tor_caravan_companion_trade_rumors_orc" text="Šo chłopcam zaraz treba?"/>
+  <string id="str_tor_caravan_companion_trade_rumors_dwarf" text="Jakija naviny z handlovych šlachoŭ? Jość jaki dobry ŭrbar?"/>
+  <string id="str_tor_caravan_companion_talk_player_thank_orc" text="Šo šče chošaš?"/>
+  <string id="str_tor_caravan_companion_talk_player_thank_dwarf" text="Niešta jašče?"/>
+  <string id="str_tor_caravan_companion_talk_not_leave_orc" text="Išče pra adnu štuku pahavaryć..."/>
+  <string id="str_tor_caravan_companion_talk_not_leave_dwarf" text="Tak, my majem jašče što pieracierci."/>
+  <string id="str_tor_caravan_companion_talk_leave_orc" text="Nia stojcie raziaviŭšy paščy, chodźma, nikčemy!"/>
+  <string id="str_tor_caravan_companion_talk_leave_dwarf" text="Tady vypraŭlajsia."/>
+  <string id="str_tor_caravan_companion_nevermind_orc" text="Zoh jaho."/>
+  <string id="str_tor_caravan_companion_nevermind_dwarf" text="Tchu. Zabudź."/>
+  <string id="str_tor_conversation_prisoner_chat_start_orc" text="Šo tabie treba?"/>
+  <string id="str_tor_conversation_prisoner_chat_start_dwarf" text="Vykładvaj."/>
+  <string id="str_tor_conversation_prisoner_chat_player_orc" text="Złaŭlu, šo kradziešsia, — trybuchi vypuścim."/>
+  <string id="str_tor_conversation_prisoner_chat_player_dwarf" text="Hladzi, nie ŭčyni jakoj durnoty, vatok. Na karotkaj dystancyi ja vielmi {?PLAYER.GENDER}niebiaśpiečnaja{?}niebiaśpiečny{\?}."/>
+  <string id="str_tor_conversation_prisoner_chat_response_orc" text="Sa mnoj prablem nia budzie!"/>
+  <string id="str_tor_conversation_prisoner_chat_response_dwarf" text="Prysiahaju kamieniem i stallu."/>
+  <string id="str_tor_disguise_start_conversation_alt_orc" text="Niama dla ciabie ničoha, vali adsiul!"/>
+  <string id="str_tor_disguise_start_conversation_alt_dwarf" text="Idzi dalej, dla ciabie tut ničoha niama. Daj mnie pracavać."/>
+  <string id="str_tor_disguise_start_conversation_orc" text="Preč ad mianie, pakul nia {?CONVERSATION_CHARACTER.GENDER}stuknuła{?}stuknuŭ{\?}."/>
+  <string id="str_tor_disguise_start_conversation_dwarf" text="Preč, vatok!"/>
+  <string id="str_tor_prison_guard_start_criminal_orc" text="Chłopcy pra ciabie kazali. Šče budzieš dureć — prybju."/>
+  <string id="str_tor_prison_guard_start_criminal_dwarf" text="Jašče adzin vypadak — i heta budzie kryŭda!"/>
+  <string id="str_tor_prison_guard_ask_criminal_orc" text="Čaho tabie, zładziuha?"/>
+  <string id="str_tor_prison_guard_ask_criminal_dwarf" text="Čaho tabie, vanaz?"/>
+  <string id="str_tor_prison_guard_start_orc" text="Šo? Nia bačyš, ja pracuju?"/>
+  <string id="str_tor_prison_guard_start_dwarf" text="Aha? Čaho tabie treba?"/>
+  <string id="str_tor_prison_guard_ask_prisoners_orc" text="Kaho tut trymajecie?"/>
+  <string id="str_tor_prison_guard_ask_prisoners_dwarf" text="Kamu spatrebiłasia pasiadzieć pad zamkom?"/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_orc" text="Chaču z adnym tvaim u kletcy pahavaryć."/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_dwarf" text="Ja {?PLAYER.GENDER}chacieła b{?}chacieŭ by{\?} pahavaryć z tutejšym viaźniem."/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_2_orc" text="Chaču z adnym tvaim u kletcy pahavaryć."/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_2_dwarf" text="Ja {?PLAYER.GENDER}chacieła b{?}chacieŭ by{\?} pahavaryć z tutejšym viaźniem."/>
+  <string id="str_tor_prison_guard_talk_end_orc" text="Zoh jaho!"/>
+  <string id="str_tor_prison_guard_talk_end_dwarf" text="A, nuf."/>
+  <string id="str_tor_prison_guard_talk_about_prisoners_orc" text="{PRISONER_NAMES} tut u kletkach {?IS_PLURAL}siadziać{?}siadzić{\?}."/>
+  <string id="str_tor_prison_guard_talk_about_prisoners_dwarf" text="{PRISONER_NAMES} {?IS_PLURAL}musiać{?}musić{\?} krychu pasiadzieć pad zamkom."/>
+  <string id="str_tor_prison_guard_visit_prison_ask_for_permission_orc" text="Nizavošta nie pušču, bos mianie skviham skormić!"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_for_permission_dwarf" text="Ty nia maješ prava tut być. Preč, pakul ja nie {?CONVERSATION_CHARACTER.GENDER}dałažyła{?}dałažyŭ{\?} {?SETTLEMENT_OWNER.GENDER}majoj pani{?}majmu panu{\?} {SETTLEMENT_OWNER.NAME}."/>
+  <string id="str_tor_prison_guard_visit_prison_orc" text="Nu dobra, dobra."/>
+  <string id="str_tor_prison_guard_visit_prison_dwarf" text="Tak, viadoma. Zachodź."/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_orc" text="A chiba nia ty tut bos?"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_dwarf" text="Mnie zdavałasia, tvajo słova tut maje bolšuju vahu?"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_orc" text="Šo ty viarzieš?"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_dwarf" text="Nie marmytaj, havary jasna."/>
+  <string id="str_tor_prison_guard_visit_permission_try_bribe_orc" text="{?PLAYER.GENDER}Znajšła{?}Znajšoŭ{\?} tut torbu z zołatam. Tvaja, ha?"/>
+  <string id="str_tor_prison_guard_visit_permission_try_bribe_dwarf" text="Hladzi-ka, zdajecca, ty {?CONVERSATION_CHARACTER.GENDER}zhubiła{?}zhubiŭ{\?} hamaniec. Jak {?PLAYER.GENDER}tvaja daŭniaja siabroŭka{?}tvoj daŭni siabra{\?}, ja, viadoma ž, viarnu jaho tabie."/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_2_orc" text="Zoh jaho!"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_2_dwarf" text="A, nuf."/>
+  <string id="str_tor_prison_guard_visit_prison_nobody_inside_orc" text="Tut nikoha niama. A ciapier vali."/>
+  <string id="str_tor_prison_guard_visit_prison_nobody_inside_dwarf" text="Kletki pustyja. Idzi ŭžo, kali nia chočaš {?PLAYER.GENDER}sama{?}sam{\?} adnu zaniać, ha?"/>
+  <string id="str_tor_prison_guard_visit_empty_prison_orc" text="Dobra, pahladzim."/>
+  <string id="str_tor_prison_guard_visit_empty_prison_dwarf" text="Viadoma, tady pahladžu na viaźniaŭ."/>
+  <string id="str_tor_prison_guard_visit_empty_prison_2_orc" text="Dobra, pahladzim."/>
+  <string id="str_tor_prison_guard_visit_empty_prison_2_dwarf" text="Viadoma, tady pahladžu na viaźniaŭ."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_orc" text="U mianie jašče spravy jość."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_dwarf" text="Nia maju na ciabie času."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_2_orc" text="U mianie jašče spravy jość."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_2_dwarf" text="Nia maju na ciabie času."/>
+  <string id="str_tor_prison_guard_visit_permission_leave_orc" text="Dobra, tady pasprabuju!"/>
+  <string id="str_tor_prison_guard_visit_permission_leave_dwarf" text="Tak, pasprabuju."/>
+  <string id="str_tor_prison_guard_visit_permission_bribe_orc" text="Vo jak? Ja pakul bliskučki paliču, a jak skonču — kab ciabie tut nie było!"/>
+  <string id="str_tor_prison_guard_visit_permission_bribe_dwarf" text="Jak łaskava z tvajho boku viarnuć mnie hamaniec. Daj pieraliču, ci ŭsio na miescy, na ŭsiaki vypadak. A ty tym časam prahulajsia tut."/>
+  <string id="str_tor_prison_guard_visit_permission_try_break_orc" text="Addavaj klučy, a to pabju!"/>
+  <string id="str_tor_prison_guard_visit_permission_try_break_dwarf" text="Addaj barmakaz zaraz ža, i nichto nie pacierpić!"/>
+  <string id="str_tor_prison_guard_visit_break_orc" text="Nikčemy ŭciakajuć! Chłopcy, siudy!"/>
+  <string id="str_tor_prison_guard_visit_break_dwarf" text="Trubicie ŭ hirn, jany sprabujuć uciačy!"/>
+  <string id="str_tor_castle_guard_start_criminal_orc" text="Chłopcy pra ciabie kazali. Šče budzieš dureć — kiški pavydziraju!"/>
+  <string id="str_tor_castle_guard_start_criminal_dwarf" text="Jašče adzin vypadak — i heta budzie kryŭda!"/>
+  <string id="str_tor_castle_guard_ask_criminal_orc" text="Čaho tabie, złodziuha?"/>
+  <string id="str_tor_castle_guard_ask_criminal_dwarf" text="Čaho tabie, vanaz?"/>
+  <string id="str_tor_castle_guard_start_orc" text="Čaho tabie?"/>
+  <string id="str_tor_castle_guard_start_dwarf" text="Tak, čym mahu dapamahčy?"/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_orc" text="Chaču pabačyć bosa."/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_dwarf" text="Prašu sustrečy z rykam."/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_2_orc" text="Zoh jaho."/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_2_dwarf" text="A, anuf."/>
+  <string id="str_tor_castle_guard_no_permission_nobody_inside_orc" text="Bosa niama, vali adsiul!"/>
+  <string id="str_tor_castle_guard_no_permission_nobody_inside_dwarf" text="Unutry nikoha niama. Nia marnuj tut čas."/>
+  <string id="str_tor_castle_guard_player_can_enter_orc" text="Dobra, možaš iści."/>
+  <string id="str_tor_castle_guard_player_can_enter_dwarf" text="Dobra, zachodź."/>
+  <string id="str_tor_castle_guard_no_permission_orc" text="Nia znaju ciabie, vali adsiul!"/>
+  <string id="str_tor_castle_guard_no_permission_dwarf" text="Davi nikoli nie zabyvaje tvaraŭ. A pakolki ja ciabie nie pamiataju..."/>
+  <string id="str_tor_player_bribe_to_enter_lords_hall_orc" text="A hetyja bliskučki? {AMOUNT}{GOLD_ICON} — ciapier {?CONVERSATION_CHARACTER.GENDER}uspomniła{?}uspomniŭ{\?}?"/>
+  <string id="str_tor_player_bribe_to_enter_lords_hall_dwarf" text="Hladzi-ka, zdajecca, ty {?CONVERSATION_CHARACTER.GENDER}zhubiła{?}zhubiŭ{\?} svoj hamaniec. Jak {?PLAYER.GENDER}tvaja daŭniaja siabroŭka{?}tvoj daŭni siabra{\?}, ja, viadoma ž, viarnu jaho tabie."/>
+  <string id="str_tor_player_not_bribe_to_enter_lords_hall_orc" text="Zoh jaho."/>
+  <string id="str_tor_player_not_bribe_to_enter_lords_hall_dwarf" text="A, nuf."/>
+  <string id="str_tor_castle_guard_let_player_in_orc" text="O, ciapier {?CONVERSATION_CHARACTER.GENDER}uspomniła{?}uspomniŭ{\?}! Zachodź!"/>
+  <string id="str_tor_castle_guard_let_player_in_dwarf" text="Tak, ciapier ty sapraŭdy vyhladaješ {?PLAYER.GENDER}znajomaj{?}znajomym{\?}."/>
+  <string id="str_tor_minor_faction_talk_hostile_response_1_orc" text="Nu zaraz pabjomsia, šmiardziučyja nikčemy!"/>
+  <string id="str_tor_minor_faction_talk_hostile_response_1_dwarf" text="Ničoha, aprača majoj siakiery, ty nie atrymaješ, skruf!"/>
+  <string id="str_tor_minor_faction_talk_hostile_response_2_orc" text="Pałupicca lha i potym. Mo spačatku pahavorym?"/>
+  <string id="str_tor_minor_faction_talk_hostile_response_2_dwarf" text="Pačakaj. Ty viedaješ nas, a my ciabie — nie. Vypravim heta."/>
+  <string id="str_tor_minor_faction_talk_background_next_1_orc" text="My šukajem lepšaha machaču. Moža, prapuściš nas?"/>
+  <string id="str_tor_minor_faction_talk_background_next_1_dwarf" text="Stoj! Nam niama patreby bicca."/>
+  <string id="str_tor_minor_faction_talk_background_next_2_orc" text="Brydkaja ŭ ciabie pysa. Zaraz papraŭlu."/>
+  <string id="str_tor_minor_faction_talk_background_next_2_dwarf" text="Za hetuju kryŭdu ja adpomšču z asablivaj achvotaj. "/>
+  <string id="str_tor_minor_faction_talk_background_repeat_threat_orc" text="Hodzie bałbatać, čas łupicca!"/>
+  <string id="str_tor_minor_faction_talk_background_repeat_threat_dwarf" text="Maje vušy stamilisia. Kiń bałbatniu i kažy pa sutnaści."/>
+  <string id="str_tor_alley_talk_start_player_owned_thug_answer_orc" text="Tak i zrabi."/>
+  <string id="str_tor_alley_talk_start_player_owned_thug_answer_dwarf" text="Dobra."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_not_under_attack_orc" text="{?PLAYER.GENDER}Zdarova{?}Zdaroŭ{\?}, bos, šo treba?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_not_under_attack_dwarf" text="Vitaju, tanie. Čym mahu dapamahčy?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_under_attack_orc" text="Hej, bos, akurat na machač {?PLAYER.GENDER}paśpieła{?}paśpieŭ{\?}! Hork z Morkam za nas!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_under_attack_dwarf" text="Ty jakraz svoječasova, {?PLAYER.GENDER}pani{?}panie{\?}. Damo im pa zasłuhach!"/>
+  <string id="str_tor_alley_talk_start_normal_orc" text="Hej, šo tut robicca?"/>
+  <string id="str_tor_alley_talk_start_normal_dwarf" text="Jakaja ŭ ciabie tut sprava?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_1_orc" text="Pakažy švaich chłopcaŭ!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_1_dwarf" text="Daj zirnuć na tvaich kazakaŭ."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_orc" text="Chto z tvaich chłopcaŭ choča ŭ šapraŭdnuju bandu?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_dwarf" text="Majmu tronhu patrebnaje padmacavańnie. Chto z tvaich chłopcaŭ choča dałučycca?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_3_orc" text="Vali, chaču inšaha nikčemnika tut bosam."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_3_dwarf" text="Nam patrebny {?CONVERSATION_CHARACTER.GENDER}inšaja dziaŭčo{?}inšy chłopiec{\?}, kab tut nahladać."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_orc" text="Bolš mnie hetaje miesca nie patrebnaje."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_dwarf" text="Zhortvajcie lahier, my sychodzim. Karyści z hetaha miesca ŭžo niama."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_1_orc" text="Chočaš, kab my z taboj išli, bos?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_1_dwarf" text="Tolki zahadaj, i my padrychtujemsia. Źbiracca?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_2_orc" text="Tak i zrabi!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_2_dwarf" text="Tak, rušcie."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_3_orc" text="Nie, ja {?PLAYER.GENDER}pieradumała{?}pieradumaŭ{\?} — chłopcy, zastavajciesia tut!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_3_dwarf" text="Heta składanaja sprava, treba jašče padumać."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_5_orc" text="E, zabudź..."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_5_dwarf" text="Zabudź."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_1_orc" text="Šče nia skončyli, bos! Jak možam štarajemsia, klanusia! "/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_1_dwarf" text="Nabor idzie pavolna, dukryk. Ale ja {?CONVERSATION_CHARACTER.GENDER}znajšła{?}znajšoŭ{\?}, čym lepiej zavabić novych chłopcaŭ. Zazirni na nastupnym tydni."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_2_orc" text="Aha, majecca {TROOPS_TO_RECRUIT}, hatovyja da dobraha machaču."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_2_dwarf" text="Tak, majecca {TROOPS_TO_RECRUIT}, jakim užo karcić pajści na runk."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_3_orc" text="Nu dobra! U bandu, nikčemy!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_3_dwarf" text="Małajčyna, mukaz. Dasyłaj ich da mianie, chutka vypraŭlajemsia."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_4_orc" text="Dobra, bos, chłopcy buduć hatovyja!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_4_dwarf" text="Tak. Zaraz ža ich padrychtujem."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_5_orc" text="Pakul mnie hetyja nikčemy nie patrebny. Vali!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_5_dwarf" text="Pakul mnie bolš baradoŭ nie patrebna. Zastavajsia tut."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_di_orc" text="Tak, bos!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_di_dwarf" text="Aj, dukryk."/>
+  <string id="str_tor_alley_talk_start_normal_2_orc" text="Hlańcie na nikčemu! Niejki hrot našaptaŭ, ha? Dumaješ, {?PLAYER.GENDER}razumnaja{?}razumny{\?}? Plavać. Ja CIABIE ŬSIO ROŬNA RASTAPČU!"/>
+  <string id="str_tor_alley_talk_start_normal_2_dwarf" text="Nu j advaha — zjavicca siudy. {?PLAYER.GENDER}Pračuła{?}Pračuŭ{\?} pra maje plany? Niavažna. Usio roŭna raskalu tabie hałavu, jak śpieły harbuz."/>
+  <string id="str_tor_alley_talk_start_normal_3_orc" text="Davaj, praklaty skvih! VAAAAAHCH!"/>
+  <string id="str_tor_alley_talk_start_normal_3_dwarf" text="Pačynaj, pakažy, na što {?CONVERSATION_CHARACTER.GENDER}zdolnaja{?}zdolny{\?}!"/>
+  <string id="str_tor_alley_talk_start_normal_4_orc" text="Ja prosta {?PLAYER.GENDER}hladzieła{?}hladzieŭ{\?}, machaču nia treba. Hetaja dzirka j tak nadakučyła. Zabiraj."/>
+  <string id="str_tor_alley_talk_start_normal_4_dwarf" text="Biary. Ale nia dumaj, što ty {?CONVERSATION_CHARACTER.GENDER}pieramahła{?}pieramoh{\?}. My, Davi, žyviom doŭha i ničoha nie zabyvajem."/>
+  <string id="str_tor_alley_start_1_orc" text="Šo za harmidar?"/>
+  <string id="str_tor_alley_start_1_dwarf" text="Prosta {?PLAYER.GENDER}vyjšła{?}vyjšaŭ{\?} na Stroł. A vy tut čym zajmajeciesia?"/>
+  <string id="str_tor_alley_start_2_orc" text="Ja prosta hladžu, advali!"/>
+  <string id="str_tor_alley_start_2_dwarf" text="Prosta nievialički Dokit. Nie zabaroniena ž, ha?"/>
+  <string id="str_tor_alley_start_3_orc" text="Ničoha."/>
+  <string id="str_tor_alley_start_3_dwarf" text="A, nuf."/>
+  <string id="str_tor_alley_entry_start_1_orc" text="Prosta špacyruju."/>
+  <string id="str_tor_alley_entry_start_1_dwarf" text="Prosta Stroł."/>
+  <string id="str_tor_alley_entry_start_2_orc" text="Ja prosta hladžu, advali!"/>
+  <string id="str_tor_alley_entry_start_2_dwarf" text="Prosta nievialički Dokit. Nie zabaroniena ž, ha?"/>
+  <string id="str_tor_alley_entry_start_3_orc" text="Advali!"/>
+  <string id="str_tor_alley_entry_start_3_dwarf" text="Zasuń sabie ŭ Donhliz!"/>
+  <string id="str_tor_first_entry_to_alley_orc" text="My chłopcy {ALLEY_BOSS.NAME}, a bos jość bos! Vali, a to prybjom."/>
+  <string id="str_tor_first_entry_to_alley_dwarf" text="Słuchaj i słuchaj uvažliva. Heta naš Duk, a {ALLEY_BOSS.NAME} — naš Dukryk. Kali spravaŭ da Dukryka nia maješ, nastojliva raim tabie prybracca."/>
+  <string id="str_tor_first_entry_to_alley_friendly_orc" text="{ALLEY_BOSS.NAME} dazvalaje tabie tut być. Ale ja za taboj saču!"/>
+  <string id="str_tor_first_entry_to_alley_friendly_dwarf" text="Dukryk {?ALLEY_BOSS.GENDER}dazvoliła{?}dazvoliŭ{\?} tabie zastacca. Ale dla peŭnaści ja ź ciabie vačej nia spušču. Biez durnoty."/>
+  <string id="str_tor_ally_entry_start_fight_orc" text="Ty mnie nia bos!"/>
+  <string id="str_tor_ally_entry_start_fight_dwarf" text="Zmoŭkni. Nakolki viedaju, ty nam nia Dukryk."/>
+  <string id="str_tor_alley_entry_question_activity_orc" text="Šo tut robicca?"/>
+  <string id="str_tor_alley_entry_question_activity_dwarf" text="Dyk jakaja ŭ vas tut sprava?"/>
+  <string id="str_tor_alley_entry_end_conversation_orc" text="Aha, aha, nikoha nia budu łupić. Pakul."/>
+  <string id="str_tor_alley_entry_end_conversation_dwarf" text="Razumieju. Tady ja pajdu."/>
+  <string id="str_tor_alley_fight_start_orc" text="Nu j jazyk u ciabie! Zaraz ciabie pabjom![ib:aggressive][if:convo_angry]"/>
+  <string id="str_tor_alley_fight_start_dwarf" text="Ty doch, zanadta šmat havoryš. Prymusim ciabie zmoŭknuć nazaŭždy."/>
+  <string id="str_tor_alley_activity_2_orc" text="Tolki {ALLEY_BOSS.NAME} moža nam zahadvać!"/>
+  <string id="str_tor_alley_activity_2_dwarf" text="Nahadvaju takomu Boki, jak ty: tolki naš Dukryk maje prava nam zahadvać."/>
+  <string id="str_tor_alley_activity_back_orc" text="Uch, ščeści jašče? Lepiej vali, pakul my tabie nie dali ŭ pysu. [if:convo_confused_annoyed][ib:closed]"/>
+  <string id="str_tor_alley_activity_back_dwarf" text="Niešta jašče? Nie? Tady preč![if:convo_confused_annoyed][ib:closed]"/>
+  <string id="str_tor_alley_activity_end_orc" text="Advali!"/>
+  <string id="str_tor_alley_activity_end_dwarf" text="Buhrof."/>
+  <string id="str_tor_alley_meet_boss_orc" text="Čakaj tut, pajdu spytaju bosa, ci choča z taboj bałbatać."/>
+  <string id="str_tor_alley_meet_boss_dwarf" text="Viadoma, viadoma. Spytaju, ci choča Dukryk havaryć z taboj. Čamu b {?ALLEY_BOSS.GENDER}joj{?}jamu{\?} nie zachacieć?"/>
+  <string id="str_tor_gangleader_introduction_4_orc" text="Ja bos {CONVERSATION_HERO.FIRSTNAME}. Chłopcy zavuć mianie {CONVERSATION_HERO.LINK}, bo bajacca.[if:convo_mocking_revenge]"/>
+  <string id="str_tor_gangleader_introduction_4_dwarf" text="Ty havoryš z {CONVERSATION_HERO.FIRSTNAME}. Sioj-toj zavie mianie {CONVERSATION_HERO.LINK}. Z pašanaj, viadoma."/>
+  <string id="str_tor_gangleader_introduction_orc" text="Ja {CONVERSATION_HERO.FIRSTNAME}. Mahu luboha pabić, adłupić, adšturchać ci zabić. Aby ŭ ciabie žuboŭ chapiła. [if:convo_bemused]"/>
+  <string id="str_tor_gangleader_introduction_dwarf" text="Ty havoryš z {CONVERSATION_HERO.FIRSTNAME}. Pasłuchaj, kolki pra mianie raskazvajuć, i daviedajeśsia, {?CONVERSATION_CHARACTER.GENDER}jakoj karysnaj{?}jakim karysnym{\?} ja mahu być. Kali razumieješ, pra što ja."/>
+  <string id="str_tor_gangleader_introduction_2_orc" text="Ja {CONVERSATION_HERO.FIRSTNAME}. Chočaš sapraŭdnaha machaču — ja toj Ork, jaki treba. To hladzi ŭ mianie. [if:convo_stern]"/>
+  <string id="str_tor_gangleader_introduction_2_dwarf" text="Ty havoryš z {CONVERSATION_HERO.FIRSTNAME}. Pasłuchaj, kolki pra mianie raskazvajuć, i zrazumieješ, što lepiej nie pierachodzić mnie darohu."/>
+  <string id="str_tor_gangleader_introduction_3_orc" text="Ja bos {CONVERSATION_HERO.FIRSTNAME}. Heta ja tut chłopcaŭ u kułaku trymaju."/>
+  <string id="str_tor_gangleader_introduction_3_dwarf" text="Ty havoryš z {CONVERSATION_HERO.FIRSTNAME}. Pasłuchaj, kolki pra mianie raskazvajuć, i daviedajeśsia, što ja ŭmieju trymać tut spakoj. "/>
+  <string id="str_tor_governor_talk_start_orc" text="Nu jak tam {GOVERNOR_SETTLEMENT}, šo robicca?"/>
+  <string id="str_tor_governor_talk_start_dwarf" text="Jak majecca {GOVERNOR_SETTLEMENT}?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_reply_orc" text="Tak, bos?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_reply_dwarf" text="Čaho žadaje {?PLAYER.GENDER}pani{?}pan{\?}?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_orc" text="Ty chočaš, kab my kim byli, bos? "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_dwarf" text="Jość šmat tradycyjaŭ i zvyčajaŭ. Jakich budziem trymacca najpilniej?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_other_orc" text="Nie, ja pra inšaje {?PLAYER.GENDER}dumała{?}dumaŭ{\?}."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_other_dwarf" text="Treba pahladzieć u knihach pra inšyja zvyčai."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_cancel_orc" text="Zaraz nam dla hetaha chłopcaŭ nie chapaje."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_cancel_dwarf" text="Treba spytać dumku doŭhabarodaŭ. Adkładziem pastanovu."/>
+  <string id="str_tor_governor_talk_kingdom_creation_exit_reply_orc" text="Jak bos choša, tak i budzie."/>
+  <string id="str_tor_governor_talk_kingdom_creation_exit_reply_dwarf" text="Razumieju. Takoje nia varta vyrašać lehkadumna. "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_orc" text="U nas buduć {CULTURE_ADJECTIVE} zvyčai. I ja kažu, spačatku zrobim voś šo: {INITIAL_POLICY_NAMES}. "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_dwarf" text="Tak, kali hety karak prymie {CULTURE_ADJECTIVE} tradycyi, treba budzie ŭvieści nastupnaje: {INITIAL_POLICY_NAMES}."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_orc" text="To rabi!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_dwarf" text="Tak i budzie. "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_2_orc" text="Nie. Łuchta. Chaču inšaje."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_2_dwarf" text="Doŭhabarody rajać mnie trymacca inšych tradycyjaŭ."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_orc" text="Jak nazaviem naš VAAAHCH, bos?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_dwarf" text="Jakoje imia budzie mieć hetaje novaje haspadarstva?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_player_orc" text="Ja nazavu jaho..."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_player_dwarf" text="Hety karak budzie zvacca..."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_response_orc" text="Ja {?CONVERSATION_CHARACTER.GENDER}ŭsia{?}ŭvieś{\?} šłuchaju."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_response_dwarf" text="Ja słuchaju, praciahvaj."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_cancel_orc" text="Zaraz nam dla hetaha chłopcaŭ nie chapaje."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_cancel_dwarf" text="Treba spytać dumku doŭhabarodaŭ. Adkładziem pastanovu."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_final_response_orc" text="Zialonym Aščeram Horka, voś jano! Kožnaja nikčema budzie viedać: {KINGDOM_NAME} usich rastopča!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_final_response_dwarf" text="Zapišycie ŭ knihach: u hety dzień zasnavany karak {KINGDOM_NAME}. Niachaj staić jašče šmat stahodździaŭ!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_finalization_orc" text="Vyrašyli. A ciapier łupicca j hrabavać!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_finalization_dwarf" text="Tak i budzie. Viadoma, razam z novym karakam treba zamović i novy Damaz Kron. "/>
+  <string id="str_tor_bandit_hideout_start_defender_orc" text="Šmat ty maich chłopcaŭ {?PLAYER.GENDER}pasiekła{?}pasiek{\?}. Dumaješ, {?PLAYER.GENDER}najvialikaja j najlutaja{?}najvialiki j najluty{\?}?! Ja pakažu, chto tut šamy vialiki j šami luty. Tolki ty i ja! "/>
+  <string id="str_tor_bandit_hideout_start_defender_dwarf" text="Addaju naležnaje tvajmu majsterstvu: šmat maich Kazakaŭ ty {?PLAYER.GENDER}pakłała{?}pakłaŭ{\?}. Moža, vyrašym heta sam-nasam?"/>
+  <string id="str_tor_bandit_hideout_start_defender_1_orc" text="Davaj, nikčema! VAAAHCH!"/>
+  <string id="str_tor_bandit_hideout_start_defender_1_dwarf" text="Pryjmaju tvoj vyklik."/>
+  <string id="str_tor_bandit_hideout_start_defender_2_orc" text="Ź niedarostkami nie łuplusia. Siačycie ich usich, chłopcy!"/>
+  <string id="str_tor_bandit_hideout_start_defender_2_dwarf" text="Lepiej užo bicca z Elhi, čym z takim adkidam, jak ty!"/>
+  <string id="str_tor_player_ask_to_claim_land_orc" text="{SETTLEMENT} ciapier majo miesca."/>
+  <string id="str_tor_player_ask_to_claim_land_dwarf" text="Patrabuju hety karak dla svajho kłanu."/>
+  <string id="str_tor_player_wants_to_make_peace_orc" text="Chopić łupicca... pakul. Nam zdabyču paličyć treba, i chłopcam čopy lepšyja patrebny."/>
+  <string id="str_tor_player_wants_to_make_peace_dwarf" text="Užo pralita zašmat kryvi. Nam treba pamirycca."/>
+  <string id="str_tor_player_wants_to_make_peace_result_orc" text="Dobra. Usio adno pobač lepšyja bojki!"/>
+  <string id="str_tor_player_wants_to_make_peace_result_dwarf" text="Kacicie bondu Buhmanavaha, budziem śviatkavać mir!"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_orc" text="Za toje, šo dobra tych nikčemaŭ {?PLAYER.GENDER}adłupiła{?}adłupiŭ{\?}, ja ciabie ŭznaharodžu. Tvaje chłopcy mohuć zabrać hetuju ziamlu. [Kaštuje {VALUE} upłyvu]"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_dwarf" text="Tak. Ja {?CONVERSATION_CHARACTER.GENDER}prahladzieła{?}prahladzieŭ{\?} zapisy tvajoj słužby. Ty {?PLAYER.GENDER}zasłužyła{?}zasłužyŭ{\?} prava atrymać hetuju ziamlu ŭva ŭznaharodu."/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_ok_orc" text="Majo!"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_ok_dwarf" text="Tady ja zajaŭlaju na heta prava."/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_no_orc" text="Ty {?CONVERSATION_CHARACTER.GENDER}musiła{?}musiŭ{\?} adrazu mnie hetuju ziamlu addać! Ty šče pabačyš!"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_no_dwarf" text="Razumieju. Vidać, treba zrabić bolš, kab zasłužyć jaje."/>
+  <string id="str_tor_player_prisoner_talk_let_go_orc" text="{?PLAYER.GENDER}Vyrašyła{?}Vyrašyŭ{\?} ciabie adpuścić. Ale ahladajsia..."/>
+  <string id="str_tor_player_prisoner_talk_let_go_dwarf" text="Ty {?CONVERSATION_CHARACTER.GENDER}biłasia{?}biŭsia{\?} z honaram. Było b niapravilna sadzić ciabie za heta ŭ viaźnicu."/>
+  <string id="str_tor_player_prisoner_talk_let_go_answer_orc" text="Ty {?PLAYER.GENDER}dobraja dziaŭčo{?}dobry chłopiec{\?}. Na naštupny machač ja viarnusia {?CONVERSATION_CHARACTER.GENDER}macniejšaj{?}macniejšym{\?}!"/>
+  <string id="str_tor_player_prisoner_talk_let_go_answer_dwarf" text="Dziakuju. Ja hetaha nie zabudu. Ničoha ź pieražytaha."/>
+  <string id="str_tor_hero_pretalk_2_orc" text="Šo šče maješ?"/>
+  <string id="str_tor_hero_pretalk_2_dwarf" text="Što jašče?"/>
+  <string id="str_tor_main_option_hostile_1_orc" text="Budzie vo jak!"/>
+  <string id="str_tor_main_option_hostile_1_dwarf" text="Słuchaj, {?CONVERSATION_CHARACTER.GENDER}dziaŭčo{?}chłopča{\?}. Voś čaho ja chaču."/>
+  <string id="str_tor_lord_predemand_orc" text="Ha? Šo tabie treba?"/>
+  <string id="str_tor_lord_predemand_dwarf" text="Aha? Što takoje, {?PLAYER.GENDER}dziaŭčo{?}chłopča{\?}?"/>
+  <string id="str_tor_lord_ultimatum_orc" text="Zdavajsia mnie, a to zadušu!"/>
+  <string id="str_tor_lord_ultimatum_dwarf" text="Daju tabie apošniuju mahčymaść skłaści zbroju i zdacca z honaram. Inšy šlach tabie viadomy."/>
+  <string id="str_tor_lord_forgive_me_orc" text="E, zabudź, ja prosta {?PLAYER.GENDER}dureła{?}dureŭ{\?}."/>
+  <string id="str_tor_lord_forgive_me_dwarf" text="A, nuf. Zabudź pra heta."/>
+  <string id="str_tor_lord_attack_orc" text="Chočaš machaču — rychtujsia atrymać!"/>
+  <string id="str_tor_lord_attack_dwarf" text="Što? Ty surjozna? Viadzieš jak veryt, a pachnieš jak kruci, tamu dapušču, što ty {?PLAYER.GENDER}sama nia svaja{?}sam nia svoj{\?}. "/>
+  <string id="str_tor_lord_attack_verify1_orc" text="Pačakaj, heta hrybnoje piva za mianie bałbatała! Ja nie {?PLAYER.GENDER}chacieła{?}chacieŭ{\?}!"/>
+  <string id="str_tor_lord_attack_verify1_dwarf" text="Tak, ja... Buhryt, vidać, zašmat razoŭ hałavoj u šachtach {?PLAYER.GENDER}prykłałasia{?}prykłaŭsia{\?}. "/>
+  <string id="str_tor_lord_attack_verify2_orc" text="To vali, nikčema!"/>
+  <string id="str_tor_lord_attack_verify2_dwarf" text="Preč. Zaraz ža!"/>
+  <string id="str_tor_lord_attack_verify_b1_orc" text="Mnie hałavu pierakruciła, voś łuchtu j viarzu."/>
+  <string id="str_tor_lord_attack_verify_b1_dwarf" text="Prabač, {?CONVERSATION_CHARACTER.GENDER}pani{?}panie{\?}. Ja viarzu biazhłuździcu."/>
+  <string id="str_tor_lord_attack_verify_b2_orc" text="Źbirajciesia, chłopcy! Rychtujciesia taptać!"/>
+  <string id="str_tor_lord_attack_verify_b2_dwarf" text="KCHAZUK KCHAZUK KCHAZUK-HA!"/>
+  <string id="str_tor_main_option_hostile_1_2_orc" text="Albo zdajeśsia, albo dochnieš!"/>
+  <string id="str_tor_main_option_hostile_1_2_dwarf" text="My vyjšli ŭ pachod, kab adpomścić tabie za kryŭdy. Ci abydziecca biaz boju — vyrašać tabie."/>
+  <string id="str_tor_545_orc" text="Padochniem u machačy! VAAAAAHCH!"/>
+  <string id="str_tor_545_dwarf" text="KCHAZUKAN KAZAKIT-HA!"/>
+  <string id="str_tor_546_orc" text="Heta ty zdavacca budzieš!"/>
+  <string id="str_tor_546_dwarf" text="Nie, ja {?PLAYER.GENDER}pryjšła{?}pryjšoŭ{\?} źvieści rachunki za kryŭdy. Skarysia i płaci adškodavańnie!"/>
+  <string id="str_tor_pay_off_minor_faction_option_orc" text="Hej! Davaj damovimsia, ja bliskučki maju!"/>
+  <string id="str_tor_pay_off_minor_faction_option_dwarf" text="Ci załahodzić zołata hetuju kankretnuju kryŭdu?"/>
+  <string id="str_tor_hero_task_given_orc" text="Pra tuju štuku, šo ja mušu zrabić..."/>
+  <string id="str_tor_hero_task_given_dwarf" text="Pra tuju pracu, jakuju mnie daručyli..."/>
+  <string id="str_tor_hero_task_given_alternative_orc" text="Pra tuju štuku, šo ja mušu zrabić..."/>
+  <string id="str_tor_hero_task_given_alternative_dwarf" text="Pra tuju pracu, jakuju mnie daručyli..."/>
+  <string id="str_tor_main_option_faction_hire_orc" text="Chočaš u maju bandu?"/>
+  <string id="str_tor_main_option_faction_hire_dwarf" text="Jość u tabie niešta vartaje. Moža, dałučyśsia da mianie?"/>
+  <string id="str_tor_main_option_discussions_1_orc" text="Puści ŭ VAAAHCH!"/>
+  <string id="str_tor_main_option_discussions_1_dwarf" text="Prašu dazvołu dałučycca da tvajho tronhu."/>
+  <string id="str_tor_main_option_discussions_2_orc" text="Dałučajsia da VAAAHCH! ({INFLUENCE_COST}{INFLUENCE_ICON})"/>
+  <string id="str_tor_main_option_discussions_2_dwarf" text="Dałučajsia da majho tronhu, mukaz. Jość kryŭdy, za jakija treba adpomścić. ({INFLUENCE_COST}{INFLUENCE_ICON})"/>
+  <string id="str_tor_main_option_discussions_3_orc" text="Mnie treba sio-toje abhavaryć."/>
+  <string id="str_tor_main_option_discussions_3_dwarf" text="Nam treba abmierkavać surjoznyja spravy."/>
+  <string id="str_tor_main_option_discussions_4_orc" text="Moža, nia budziem łupicca... Moža, damovimsia, ha?"/>
+  <string id="str_tor_main_option_discussions_4_dwarf" text="Razhledź hetuju damovu, i abydziemsia biez kryvi."/>
+  <string id="str_tor_547_orc" text="Jość spravy lepšyja, čym tut dureć!"/>
+  <string id="str_tor_547_dwarf" text="U mianie jość bolš važnyja spravy, čym bicca tut."/>
+  <string id="str_tor_main_option_questions_1_orc" text="Jość pytańnie."/>
+  <string id="str_tor_main_option_questions_1_dwarf" text="Maju pytańnie."/>
+  <string id="str_tor_main_option_prisoner_interaction_orc" text="Daj pabačyć tvajho pałonnaha, jość šo skazać..."/>
+  <string id="str_tor_main_option_prisoner_interaction_dwarf" text="Mnie treba pahavaryć z tvaim pałonnym."/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_1_orc" text="Ty? Aha, zaraz, smarkač! Vali!"/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_1_dwarf" text="Navat razhladać takoje było b niahodna."/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_2_orc" text="Dobra, ź kim chočaš pahavaryć?"/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_2_dwarf" text="Nazavi imia pałonnaha."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_orc" text="E, zabudź..."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_dwarf" text="Zabudź."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_answer_orc" text="Nu dobra."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_answer_dwarf" text="Viadoma."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_orc" text="Tchu, jak skažaš."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_dwarf" text="Dobra, zachodź."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_2_orc" text="E-e, vali ŭžo."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_2_dwarf" text="Dziakuju."/>
+  <string id="str_tor_player_is_leaving_enemy_polite_orc" text="Mnie treba znajści dobry machač, kali ty nia suprać!"/>
+  <string id="str_tor_player_is_leaving_enemy_polite_dwarf" text="Mnie treba syści."/>
+  <string id="str_tor_player_is_leaving_surrender_orc" text="Nie napadajcie! My zdajomsia!"/>
+  <string id="str_tor_player_is_leaving_surrender_dwarf" text="Apuścicie zbroju! My zdajomsia."/>
+  <string id="str_tor_lord_talk_ask_something_orc" text="Hej, šo chočaš?"/>
+  <string id="str_tor_lord_talk_ask_something_dwarf" text="Aha? Što takoje?"/>
+  <string id="str_tor_lord_talk_ask_something_again_orc" text="Šo šče chočaš?"/>
+  <string id="str_tor_lord_talk_ask_something_again_dwarf" text="Štości jašče?"/>
+  <string id="str_tor_lord_talk_ask_something_2_3_orc" text="Jakaja ŭ ciabie tam sprava była?"/>
+  <string id="str_tor_lord_talk_ask_something_2_3_dwarf" text="Nahadaj mnie pra svaje ŭčynki."/>
+  <string id="str_tor_lord_talk_ask_something_2_4_orc" text="Ee, zabudź..."/>
+  <string id="str_tor_lord_talk_ask_something_2_4_dwarf" text="Zabudź."/>
+  <string id="str_tor_hero_doesnt_have_quest_orc" text="Vali, niama tabie ničoha!"/>
+  <string id="str_tor_hero_doesnt_have_quest_dwarf" text="Ciapier mnie ničoha nie patrebna."/>
+  <string id="str_tor_liberate_hero_1_orc" text="{PLAYER.NAME}! Heta ty? Ty mianie adpuskaješ?"/>
+  <string id="str_tor_liberate_hero_1_dwarf" text="Heta ty, {PLAYER.NAME}? Ja {?CONVERSATION_CHARACTER.GENDER}volnaja{?}volny{\?}?"/>
+  <string id="str_tor_liberate_hero_2_orc" text="Šo? Ja ŭžo nie ŭ kletcy?"/>
+  <string id="str_tor_liberate_hero_2_dwarf" text="Što heta? Mianie vyzvalili?"/>
+  <string id="str_tor_liberate_hero_3_orc" text="Heta ja ciabie vyciahvaju, nikčema!"/>
+  <string id="str_tor_liberate_hero_3_dwarf" text="Tak. Ciabie vyzvalili z pałonu."/>
+  <string id="str_tor_liberate_hero_7_orc" text="Vali."/>
+  <string id="str_tor_liberate_hero_7_dwarf" text="Ty mnie za heta ničoha nia {?CONVERSATION_CHARACTER.GENDER}vinnaja{?}vinny{\?}."/>
+  <string id="str_tor_liberate_hero_8_orc" text="Ty mnie {?CONVERSATION_CHARACTER.GENDER}vinnaja{?}vinny{\?}!"/>
+  <string id="str_tor_liberate_hero_8_dwarf" text="Ja nahadaju tabie pra hety doŭh."/>
+  <string id="str_tor_liberate_hero_9_orc" text="Lepiej nie złavać mianie, a to skviham na korm addam."/>
+  <string id="str_tor_liberate_hero_9_dwarf" text="Pad majoj apiekaj z taboj buduć hodna abychodzicca."/>
+  <string id="str_tor_liberate_hero_10_orc" text="Voś jak: niachaj tvaje chłopcy niasuć kuču bliskučak, pakul ja ciabie nie {?PLAYER.GENDER}pryrezała{?}pryrezaŭ{\?}."/>
+  <string id="str_tor_liberate_hero_10_dwarf" text="Maŭčy. Patrabuju jak maha chutčej prynieści za ciabie vykup."/>
+  <string id="str_tor_liberate_hero_11_orc" text="Nie, zoh jaho, vali adsiul."/>
+  <string id="str_tor_liberate_hero_11_dwarf" text="Ja {?PLAYER.GENDER}pieradumała{?}pieradumaŭ{\?}. Možaš iści na volu."/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_ally_enemy_no_orc" text="Hej! Ty ž z {FACTION}, tak? Tady ŭ kletku!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_ally_enemy_no_dwarf" text="Ty słužyš {FACTION}. Tamu budzieš {?CONVERSATION_CHARACTER.GENDER}majoj pałonnaj{?}maim pałonnym{\?}."/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_orc" text="Ty kłopatu nia {?CONVERSATION_CHARACTER.GENDER}vartaja{?}varty{\?}, vali!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_dwarf" text="Siońnia ja nie vaźmu ciabie ŭ pałon."/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_2_orc" text="Vali, nikčema!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_2_dwarf" text="Preč z maich vačej."/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_yes_answer_orc" text="Ty {?PLAYER.GENDER}dobraja dziaŭčyna{?}dobry chłopiec{\?}. Kali znoŭ sustrenimsia, pastarajusia ciabie chutka zabić."/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_yes_answer_dwarf" text="Kali b my pamianialisia miescami, maje prysiahi vymahali b uziać ciabie ŭ pałon. I ŭsio ž dziakuju."/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_no_answer_orc" text="Ba, zoh jaho!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_no_answer_dwarf" text="Što ž, dobra. Viedaj: ja taksama {?CONVERSATION_CHARACTER.GENDER}ŭziała b{?}ŭziaŭ by{\?} ciabie ŭ pałon, kali b ty {?PLAYER.GENDER}apynułasia{?}apynuŭsia{\?} ŭ majoj uładzie."/>
+  <string id="str_tor_lord_barter_let_go_orc" text="Hej! Davaj damovimsia, ja bliskučki maju..."/>
+  <string id="str_tor_lord_barter_let_go_dwarf" text="Ja {?PLAYER.GENDER}hatovaja{?}hatovy{\?} zapłacić vykup halem za svoj prachod."/>
+  <string id="str_tor_lord_barter_let_go_2_orc" text="Hej! Moža, damovimsia?"/>
+  <string id="str_tor_lord_barter_let_go_2_dwarf" text="Moža, vykup halem dazvolić nam razyścisia mirna."/>
+  <string id="str_tor_lord_considers_letting_player_go_2_orc" text="To pahladzim, šo maješ."/>
+  <string id="str_tor_lord_considers_letting_player_go_2_dwarf" text="Što ty prapanoŭvaješ?"/>
+  <string id="str_tor_barter_with_lord_postbarter_1_orc" text="Nu dobra, vali adsiul!"/>
+  <string id="str_tor_barter_with_lord_postbarter_1_dwarf" text="Dobra. Možaš iści."/>
+  <string id="str_tor_barter_with_lord_postbarter_2_orc" text="Dy heta ž ničoha, duryła!"/>
+  <string id="str_tor_barter_with_lord_postbarter_2_dwarf" text="Hetaha mała."/>
+  <string id="str_tor_hero_barter_orc" text="Hej! Šłuchaj siudy, jość sprava."/>
+  <string id="str_tor_hero_barter_dwarf" text="Prapanuju zaklučyć damovu."/>
+  <string id="str_tor_lord_considers_barter_orc" text="Dobra, šo chočaš?"/>
+  <string id="str_tor_lord_considers_barter_dwarf" text="Tady vykładaj svaje ŭmovy."/>
+  <string id="str_tor_lord_refuses_barter_orc" text="Vali, u mianie šče ź minułaha razu hałava balić!"/>
+  <string id="str_tor_lord_refuses_barter_dwarf" text="Ja jašče abdumvaju vyniki našaj minułaj uhody."/>
+  <string id="str_tor_lord_ask_ruling_philosophy_orc" text="Šo dumaješ pra plemia?"/>
+  <string id="str_tor_lord_ask_ruling_philosophy_dwarf" text="Što ty dumaješ pra palityku?"/>
+  <string id="str_tor_lord_ruling_philosophy_long_start_orc" text="Niama tabie lepšaj spravy? Dobra, słuchaj siudy..."/>
+  <string id="str_tor_lord_ruling_philosophy_long_start_dwarf" text="Tady słuchaj..."/>
+  <string id="str_tor_lord_considers_barter_2_orc" text="Słuchaju ciabie."/>
+  <string id="str_tor_lord_considers_barter_2_dwarf" text="Ja ciabie słuchaju."/>
+  <string id="str_tor_lord_refuses_barter_2_orc" text="Maje hoby šče słovy minułaj damovy zapisvajuć, vali!"/>
+  <string id="str_tor_lord_refuses_barter_2_dwarf" text="My jašče padličvajem vyniki našaj apošniaj damovy."/>
+  <string id="str_tor_lord_considers_army_orc" text="Doŭha ž ty {?PLAYER.GENDER}źbirałasia{?}źbiraŭsia{\?}! Pajšli!"/>
+  <string id="str_tor_lord_considers_army_dwarf" text="Vydatna. Idzicie za nami."/>
+  <string id="str_tor_lord_considers_joining_player_army_orc" text="Spadziajusia, u ciabie dobry machač na prykmiecie!"/>
+  <string id="str_tor_lord_considers_joining_player_army_dwarf" text="Tady — adnavić spraviadlivaść. My pojdziem za taboj."/>
+  <string id="str_tor_lord_responds_to_changing_sides_orc" text="Heta važna, pačakaj!"/>
+  <string id="str_tor_lord_responds_to_changing_sides_dwarf" text="Mnie treba šmat čaho abdumać."/>
+  <string id="str_tor_barter_decision_refuses_2_orc" text="Čas zdochnuć, nikčema!"/>
+  <string id="str_tor_barter_decision_refuses_2_dwarf" text="Čas vykreślivać kryŭdy i siačy vašyja hałovy!"/>
+  <string id="str_tor_ally_thanks_meet_orc" text="Hej! Mianie zavuć {PLAYER.NAME}."/>
+  <string id="str_tor_ally_thanks_meet_dwarf" text="Ja {PLAYER.NAME}."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_capture_orc" text="Varušysia, zaraz u kletku zahaniu!"/>
+  <string id="str_tor_talk_lord_defeat_to_lord_capture_dwarf" text="Ciapier ty budzieš {?CONVERSATION_CHARACTER.GENDER}majoj pałonnaj{?}maim pałonnym{\?}."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_noncom_orc" text="Ty nichto, vali adsiul."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_noncom_dwarf" text="Ja nie biaru ŭ pałon biezabaronnych. Možaš iści."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_orc" text="Ty kłopatu nia {?CONVERSATION_CHARACTER.GENDER}vartaja{?}varty{\?}, vali!"/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_dwarf" text="Ja pavažaju tvaju moc i honar. Možaš iści."/>
+  <string id="str_tor_talk_lord_freed_to_lord_capture_orc" text="Chitra! Ale pojdzieš sa mnoj."/>
+  <string id="str_tor_talk_lord_freed_to_lord_capture_dwarf" text="Tvaja svaboda pačakaje. Ciapier ty budzieš {?CONVERSATION_CHARACTER.GENDER}majoj pałonnaj{?}maim pałonnym{\?}."/>
+  <string id="str_tor_talk_lord_freed_to_lord_release_orc" text="Vali, pakul ja nie {?PLAYER.GENDER}pieradumała{?}pieradumaŭ{\?}, smarkač."/>
+  <string id="str_tor_talk_lord_freed_to_lord_release_dwarf" text="Dobra, možaš iści na svabodu. Raju skarystacca."/>
+  <string id="str_tor_talk_defeated_lord_capture_return_orc" text="Zoh jaho, heta drenna..."/>
+  <string id="str_tor_talk_defeated_lord_capture_return_dwarf" text="Heta budzie kryŭda.[if:convo_beaten]"/>
+  <string id="str_tor_talk_freed_lord_capture_return_orc" text="Malisia, kab zdochnuć raniej, čym ja ciabie znajdu, smarkač!"/>
+  <string id="str_tor_talk_freed_lord_capture_return_dwarf" text="Nia dumaj, što moj narod nie zapatrabuje adkazać za heta! [if:convo_furious][ib:agressive]"/>
+  <string id="str_tor_talk_freed_lord_release_return_orc" text="{?PLAYER.GENDER}Fajnaja dziaŭčo{?}Fajny chłopiec{\?}! Kali naštupnym razam złaŭlu — chutka zabju. Nu, zamiešt taho kab skviham na korm addać..."/>
+  <string id="str_tor_talk_freed_lord_release_return_dwarf" text="Pra tvoj honar składajuć padańni. Ja nie zabudu hetaha ŭčynku."/>
+  <string id="str_tor_lord_request_mission_ask_orc" text="Voś jakaja sprava, {PLAYER.NAME}: ja {?CONVERSATION_CHARACTER.GENDER}paabiacała{?}paabiacaŭ{\?} {FACTION_LEADER} nabrać chłopcaŭ dla machačoŭ. Moža, ty zamiest mianie heta zrobiš?"/>
+  <string id="str_tor_lord_request_mission_ask_dwarf" text="Ja {?CONVERSATION_CHARACTER.GENDER}paabiacała{?}paabiacaŭ{\?} {FACTION_LEADER} zdabyć jašče siakieraŭ i dastatkova davi, kab ich trymać. Zrešty, umhi taksama padyduć. U lubym razie, ty, {PLAYER_NAME}, i tvaja kampanija vyhladajecie prydatnymi dla hetaj spravy."/>
+  <string id="str_tor_lord_mercenary_service_not_interested_orc" text="Zoh jaho! Mała płaciš!"/>
+  <string id="str_tor_lord_mercenary_service_not_interested_dwarf" text="Pry ŭsioj pavazie — nie. "/>
+  <string id="str_tor_lord_mercenary_service_join_orc" text="Dobra! Płaci bliskučki, i budu dla {FACTION_NAME} zabivać kaho skažaš."/>
+  <string id="str_tor_lord_mercenary_service_join_dwarf" text="Daj jašče raz prahledžu damovu... Zdajecca, usio ŭ paradku. Ja i moj tronh dałučymsia da {FACTION_NAME}."/>
+  <string id="str_tor_lord_mercenary_service_tell_me_more_orc" text="Słuchaju, šo tam?"/>
+  <string id="str_tor_lord_mercenary_service_tell_me_more_dwarf" text="Ty maješ maju ŭvahu. Raskažy bolš, i ja vyrašu, ci atrymaješ ty jašče j maju siakieru."/>
+  <string id="str_tor_lord_mercenary_service_accept_verify_orc" text="Dobra, ja tabie šapraŭdnyja bliskučki płaču i dobruju zdabyču dazvalaju brać. To łupisia za {FACTION_NAME} nia mienš za try miesiacy, a to ruki paadryvaju!"/>
+  <string id="str_tor_lord_mercenary_service_accept_verify_dwarf" text="Viadoma. Kab stać {?PLAYER.GENDER}najmitkaj{?}najmitam{\?}, ty musiš padpisać hetuju abaviazkovuju damovu z {FACTION_NAME}. Spačatku dziejničaje trochmiesiačny vyprabavalny termin. Paśla jaho luby z bakoŭ moža skasavać damovu."/>
+  <string id="str_tor_lord_mercenary_service_verify_accept_orc" text="Dajšło, bos. Pakažy — razdušu!"/>
+  <string id="str_tor_lord_mercenary_service_verify_accept_dwarf" text="{?PLAYER.GENDER}Zhodnaja{?}Zhodny{\?}. Tvaje kryŭdy ciapier maje, i ja budu stavicca da ich z usioj surovaściu."/>
+  <string id="str_tor_lord_mercenary_service_verify_reject_orc" text="Nie, heta tupa, u zoh jaho!"/>
+  <string id="str_tor_lord_mercenary_service_verify_reject_dwarf" text="Pakul mušu admovicca."/>
+  <string id="str_tor_lord_mercenary_service_verify_2_orc" text="Razumna {?PLAYER.GENDER}zrabiła{?}zrabiŭ{\?}. Łupisia z nami — pabačyš stolki zdabyčy j bliskučak, kolki nikoli nia {?PLAYER.GENDER}bačyła{?}bačyŭ{\?}!"/>
+  <string id="str_tor_lord_mercenary_service_verify_2_dwarf" text="Cudoŭna. Padpišy tut, tut i tut. Płata paznačanaja ŭ damovie, ale dobraj pracaj možaš zasłužyć krychu bolš."/>
+  <string id="str_tor_lord_mercenary_service_accept_3_orc" text="Ciapier nabiary chłopcaŭ i daj im sapraŭdnaje žaleza! Da nastupnaha machaču musiš być {?PLAYER.GENDER}hatovaja{?}hatovy{\?}."/>
+  <string id="str_tor_lord_mercenary_service_accept_3_dwarf" text="Ciapier rychtuj tronh, tačy stal i navučaj surodzičaŭ. Kali pakliču tvaje ściahi, čakaju, što vystupiš biez zatrymki."/>
+  <string id="str_tor_lord_mercenary_service_reject_orc" text="Tady našto moj čas marnuješ?! Pašancavała, šo ja ŭ dobrym nastroi. Vali!"/>
+  <string id="str_tor_lord_mercenary_service_reject_dwarf" text="Hmm, typova dla vašaha brata. {FACTION_NAME} prapanoŭvaje najsumleńniejšyja ŭmovy ŭ hetych harach. Pašukaj niešta lepšaje, kali zdoleješ. "/>
+  <string id="str_tor_lord_mercenary_elaborate_pay_orc" text="To voś jak: try miesiacy łupiśsia za mianie i plemia. Potym praciahvaješ kožny miesiac. Kali nie zdureješ i pahodziśsia, adrazu atrymaješ {OFFER_VALUE}{GOLD_ICON}. Potym {FACTION_LEADER} raz na kolki dzion daje bliskučki za tvaju bandu chłopcaŭ. A samaje dobraje — paśla dobrych machačoŭ tabie dola zdabyčy j raboŭ! Zvyčajnym chłopcam takoha nie dajuć, kab ty {?PLAYER.GENDER}znała{?}znaŭ{\?}."/>
+  <string id="str_tor_lord_mercenary_elaborate_pay_dwarf" text="Umovy takija: ty addaješ svaich vajaroŭ našaj spravie na try miesiacy, a dalej pry patrebie padaŭžajem štomiesiac. Na zamacavańnie ŭhody adrazu atrymaješ {OFFER_VALUE}{GOLD_ICON}. Potym {FACTION_LEADER} štotydzień płacić pavodle mocy tvajoj kampanii. Zdabyča z pola boju i pałonnyja — tvaje, chacia našyja relikvii treba viarnuć nazad. Napoŭniš svaje kufry, nia bojsia, {?PLAYER.GENDER}dziaŭčo{?}chłopča{\?}."/>
+  <string id="str_tor_lord_mercenary_service_elaborate_duty_orc" text="Niaŭžo nie dajšło? Łupiš našych vorahaŭ i robiš usio, šo zahadvajem! I kali my kažam, šo łupimsia, ty taksama łupišsia z tym, z kim treba. Biez pytańniaŭ!"/>
+  <string id="str_tor_lord_mercenary_service_elaborate_duty_dwarf" text="Abaviazki... usiaho niekalki, i ad nivodnaha dvarf navat nie spacieje! Spačatku prysiahaješ nam. Sapraŭdnaja prysiaha našaj spravie, baradoj i ŭsim astatnim! Jak słovy pramoŭlenyja — biarešsia za pracu. Idzieš z tronham, słuchajeśsia zahadaŭ tanaŭ i, hałoŭnaje, prymušaješ našych vorahaŭ zapłacić za kryŭdy, dzie b jany ni chavalisia."/>
+  <string id="str_tor_lord_mercenary_elaborate_duty_orc" text="To šo mnie rabić, kali ja budu z vami?"/>
+  <string id="str_tor_lord_mercenary_elaborate_duty_dwarf" text="Dyk jaki pieralik abaviazkaŭ u najmanaj siakiery?"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_orc" text="A svaje fartecy atrymaju?"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_dwarf" text="Kali ja zachaplu zamak ci mocnuju čałaviečuju ćvierdź, ci zastaniecca jana mnie?"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_orc" text="Maje kolery dobryja. Možna ich pakinuć?"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_dwarf" text="Ci buduć nad maimi chłopcami łunać ściahi majho kłanu? "/>
+  <string id="str_tor_lord_mercenary_elaborate_wage_orc" text="A šo tam z bliskučkami za heta?"/>
+  <string id="str_tor_lord_mercenary_elaborate_wage_dwarf" text="Pra kolki klatviennaha zołata havorka?"/>
+  <string id="str_tor_lord_mercenary_elaborate_accept_orc" text="Davaj! Budu {?PLAYER.GENDER}vašaj dziaŭčoj{?}vašym chłopcam{\?}!"/>
+  <string id="str_tor_lord_mercenary_elaborate_accept_dwarf" text="Ličy, što damovilisia. Maja siakiera tvaja, pakul ty trymajeśsia ŭhody."/>
+  <string id="str_tor_lord_mercenary_elaborate_reject_orc" text="Nie, zoh jaho."/>
+  <string id="str_tor_lord_mercenary_elaborate_reject_dwarf" text="Tchu, takija ŭmovy mianie nie cikaviać."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_to_women_orc" text="Nie, duryła! Fartecy tolki vajnabosam! Ty prosta {?PLAYER.GENDER}dziaŭčo{?}chłopiec{\?}: tabie bliskučki, zdabyča j bolej ničoha! Zrablu ciabie bosam — tady pra fartecy j pahavorym..."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_to_women_dwarf" text="Ćviardyni dastajucca tym, chto źviazany z našym kałanam. My žyviom pavodle zvyčajaŭ Prodkaŭ: kirujuć chłopcy, a nia dzieŭki. Chaj lepiej Hazuł mianie zabiare, čym ja heta źmianiu! Ale kali daviadzieš svaju vartaść u bai z našymi vorahami, ja prymu tvaju prysiahu viernaści, i ty stanieš {?PLAYER.GENDER}majoj vasałkaj{?}maim vasałam{\?}. Tady, moža, j zdabudzieš sabie ćviardyniu."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_to_women_orc" text="Durnoje pytańnie. Fartecy dastajucca tolki vajnabosam, jak ja! Chošaš fartecu — idzi da {FACTION_LEADER}. Zrobić sabie bosam — atrymaješ fartecy!"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_to_women_dwarf" text="Tolki {FACTION_LEADER} vyrašaje, chto zasłužyŭ ćviardyniu z navakolnymi ziemlami. Zmahajučysia z našymi vorahami, ty možaš zasłužyć prychilnaść, ale... Naš ryk trymajecca starych zvyčajaŭ i nia daść dziaŭčynie taho, što joj nie naležyć. Lepiej pahavary pra heta niepasredna z {FACTION_LEADER}."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_orc" text="Nie, nikčema! Fartecy tolki vajnabosam! Ty prosta {?PLAYER.GENDER}dziaŭčo{?}chłopiec{\?}: tabie bliskučki, zdabyča j bolej ničoha! Zrablu ciabie bosam — tady pra fartecy j pahavorym..."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_dwarf" text="Najmity viernyja svaim hamancam, jany nia hodnyja kiravać. Vajuj za mianie, daviadzi mnie svaju vartaść — i składzieš sapraŭdnuju prysiahu. Tady atrymaješ miastečka."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_orc" text="Durnoje pytańnie. Fartecy dastajucca tolki bujnabosam, jak ja! Chočaš fartecu — idzi da {FACTION_LEADER}. Zrobić ciabie vajnabosam — atrymaješ fartecu!"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_dwarf" text="Tolki tany našaha ryka mohuć mieć svaje vołaści. Najmit mała čym lepšy za bandyta, nastolki daviarać tabie nielha. Daviadzi svaju vartaść, zabivaj našych vorahaŭ — i, moža, składzieš sapraŭdnuju prysiahu {FACTION_LEADER} dy stanieš adnym z tanaŭ. Tady j atrymaješ vołaść, ale nie raniej!"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_faction_owner_orc" text="Nikčema! Za mianie łupišsia — maje kolery nosiš! Jany j tak lepšyja za tvaje. Zrablu ciabie vajnabosam — tady budzieš sa svaimi chadzić. Tolki tak."/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_faction_owner_dwarf" text="Pakul ja tabie płaču, ty nosiš maje ściahi. Tolki maje tany zasłužyli prava ŭzdymać svaje. Pavajuj za nas, źviažy siabie sa mnoj sapraŭdnym barazam — tady j uzdymieš ułasnyja ściahi. "/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_orc" text="Nie, svaje kolery mohuć nasić tolki vajnabosy. Čamu? Bo {FACTION_LEADER} tak kaža! Kali dałučyśsia — spačatku budzieš čužyja kolery nasić!"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_dwarf" text="Tolki tany {FACTION_LEADER} mohuć nieści ŭłasny ściah. Ty — nie. Pasłužy nam, i, mahčyma, atrymaješ prava prysiahnuć na viernaść {FACTION_LEADER}. Kali jon stanie tvaim rykam, tady ŭzdymieš svaje ściahi."/>
+  <string id="str_tor_lord_tell_mission_sworn_vassal_1_orc" text="Kali mnie što ad vajnabosa spatrebicca, skažu!"/>
+  <string id="str_tor_lord_mission_destroy_bandit_lair_start_orc" text="Hej! Tut smarkačy zavialisia, zavuć siabie {s4}. Napadzi na ich łahier i ŭsich zabi, nadakučyli!"/>
+  <string id="str_tor_convince_begin_orc" text="Durnota heta. Čamu b prosta ciabie nie pryrezać?"/>
+  <string id="str_tor_convince_options_bribe_orc" text="Zaraz pakažu, šo da čaho. Voś bliskučki! (-{BRIBE_MONEY}{GOLD_ICON})"/>
+  <string id="str_tor_convince_options_friendship_orc" text="My ž užo adzin adnaho prykryvali! (-{RELATION_DECREASE} da adnosinaŭ)"/>
+  <string id="str_tor_convince_options_persuasion_orc" text="Hej, słuchaj siudy... (Pierakanańnie)"/>
+  <string id="str_tor_convince_options_give_up_orc" text="E, zabudź..."/>
+  <string id="str_tor_convince_options_give_up_dwarf" text="Zabudź."/>
+  <string id="str_tor_convince_bribe_orc" text="Ad novych bliskučak ja zaŭždy ŭśmichajusia. Budu z taboj, kali addasi {BRIBE_MONEY}{GOLD_ICON}."/>
+  <string id="str_tor_convince_bribe_cant_afford_orc" text="Heta tupa! Nia maju stolki!"/>
+  <string id="str_tor_convince_bribe_verify_orc" text="Dobra, trymaj {BRIBE_MONEY}{GOLD_ICON}, prahnaja nikčema."/>
+  <string id="str_tor_convince_bribe_reconsider_orc" text="Daj padumać."/>
+  <string id="str_tor_convince_bribe_cant_afford_response_orc" text="Duryła, našto moj čas marnuješ?!"/>
+  <string id="str_tor_convince_bribe_verify_response_orc" text="Sapraŭdnyja bliskučki, lublu takoje, {PLAYER.NAME}! Dobra, padtrymaju tvoj płan."/>
+  <string id="str_tor_convince_friendship_orc" text="Aha, było takoje. Tamu znoŭ padtrymaju, {PLAYER.NAME}. Ale tak praciahnieš — bolš nia budu!"/>
+  <string id="str_tor_convince_friendship_verify_positive_orc" text="Dy kiń, smarkač! Padtrymaj mianie!"/>
+  <string id="str_tor_convince_friendship_verify_negative_orc" text="Tak nie chaču. Davaj lepiej inšaje prapanuju..."/>
+  <string id="str_tor_convince_friendship_go_on_orc" text="Dobra. Ale ty mnie {?PLAYER.GENDER}vinnaja{?}vinny{\?}, dajšło?!"/>
+  <string id="str_tor_convince_friendship_lord_response_no_orc" text="Šo ty viarzieš, duryła? Idzi sa svajoj łuchtoj!"/>
+  <string id="str_tor_convince_friendship_lord_response_angry_orc" text="Pašancavała tabie, šo ja siońnia {?CONVERSATION_CHARACTER.GENDER}dobraja{?}dobry{\?}, {PLAYER.NAME}. Z takimi słovami lepiej vali, pakul nie {?PLAYER.GENDER}razzłavała{?}razzłavaŭ{\?}!"/>
+  <string id="str_tor_lord_generic_mission_accept_orc" text="Ja z hetym raźbiarusia, pabačyš."/>
+  <string id="str_tor_lord_generic_mission_reject_orc" text="Nie, nia budu."/>
+  <string id="str_tor_lord_generic_mission_accepted_orc" text="Dobra, {PLAYER.NAME}. Zrabi heta!"/>
+  <string id="str_tor_lord_generic_mission_rejected_orc" text="Duryła, tak i {?CONVERSATION_CHARACTER.GENDER}znała{?}znaŭ{\?}, šo ty niedastatkova {?PLAYER.GENDER}mocnaja{?}mocny{\?}. Znajdu kaho macniejšaha!"/>
+  <string id="str_tor_lord_tell_mission_no_quest_orc" text="Advali, niama dla ciabie ničoha."/>
+  <string id="str_tor_player_threats_lord_verify_orc" text="Ty {?CONVERSATION_CHARACTER.GENDER}hłuchaja{?}hłuchi{\?}? Čas łupicca, smarkač!"/>
+  <string id="str_tor_player_verify_attack_on_enemy_lord_orc" text="Ty {?CONVERSATION_CHARACTER.GENDER}durnaja{?}durny{\?}? Kažu ž, čas łupicca!"/>
+  <string id="str_tor_player_cancels_attack_on_enemy_lord_orc" text="Ty turbotaŭ nia {?CONVERSATION_CHARACTER.GENDER}vartaja{?}varty{\?}, preč adsiul!"/>
+  <string id="str_tor_player_cancels_attack_on_enemy_respond_orc" text="Ja idu!"/>
+  <string id="str_tor_lord_tell_gathering_player_answer_orc" text="Puści mianie ŭ hety VAAAHCH!"/>
+  <string id="str_tor_lord_tell_gathering_player_answer_2_orc" text="Dobraja sprava!"/>
+  <string id="str_tor_lord_tell_gathering_player_joined_orc" text="Sabiarom chłopcaŭ u {GATHERING_SETTLEMENT} i rušym!"/>
+  <string id="str_tor_lord_ask_pardon_answer_bad_relation_orc" text="Nie, paśla ŭsiaho, šo ty {?PLAYER.GENDER}narabiła{?}narabiŭ{\?}? Budu tabie ruki pa adnoj adryvać, nikčema."/>
+  <string id="str_tor_lord_ask_pardon_answer_low_right_to_rule_orc" text="Ty tolki treniroŭka dla maich chłopcaŭ, smarkač. Budź dobrym pudziłam — i da machaču!"/>
+  <string id="str_tor_lord_ask_pardon_answer_no_advantage_orc" text="Našto, kali mahu zabić ciabie prosta ciapier, nikčema?!"/>
+  <string id="str_tor_lord_ask_pardon_answer_not_accepted_orc" text="Nie, nia dumaju! Praciahniem łupicca!"/>
+  <string id="str_tor_lord_ask_pardon_answer_accepted_orc" text="Pašancavała tabie: dahetul dobry nastroj ad taho smačnaha skviha, šo ja {?CONVERSATION_CHARACTER.GENDER}zžerła{?}zžor{\?}. Daju šorak dzion. Hladzi, kab potym nie daviałosia škadavać!"/>
+  <string id="str_tor_952_orc" text="To šorak dzion! Kali schłusiš — žuby pavybivaju."/>
+  <string id="str_tor_953_orc" text="Nie, heta tupa! Davaj dalej bicca!"/>
+  <string id="str_tor_1175_orc" text="Navošta, ty moj čas {?PLAYER.GENDER}marnavała{?}marnavaŭ{\?}? Zoh jaho, vykładvaj, šo maješ. Ale ja ŭžo złujusia!"/>
+  <string id="str_tor_lord_meet_player_as_liege_response_orc" text="To šo tabie treba?!"/>
+  <string id="str_tor_lord_in_main_party_meet_player_response_orc" text="Aha, aha. Pahladzim, čaho ty {?CONVERSATION_CHARACTER.GENDER}vartaja{?}varty{\?}!"/>
+  <string id="str_tor_lord_meet_player_response1_orc" text="Majo imia {PLAYER.NAME}. A ty chto?!"/>
+  <string id="str_tor_lord_meet_player_response2_orc" text="Mianie kličuć {PLAYER.NAME}. Svajo imia skažaš ci šo?"/>
+  <string id="str_tor_lord_meet_player_response3_orc" text="Ja {PLAYER.NAME}, i ja bos hetaj bandy!"/>
+  <string id="str_tor_hero_ask_4_orc" text="To šo tabie treba?"/>
+  <string id="str_tor_hero_ask_4_dwarf" text="Aj, što takoje?"/>
+  <string id="str_tor_player_is_requesting_enemy_change_sides_orc" text="Tvoj bos — nikčemny niedarostak! Mo budzieš łupicca za kahości bujniejšaha j macniejšaha?!"/>
+  <string id="str_tor_player_is_requesting_enemy_change_sides_dwarf" text="Ja {?PLAYER.GENDER}pryjšła{?}pryjšoŭ{\?} paviedamić, što tvoj haspadar žorstka ciabie pakryŭdziŭ, {FIRST_NAME}."/>
+  <string id="str_tor_player_is_requesting_neutral_change_sides_orc" text="Čamu ty ŭvohule za svajho bosa łupišsia?"/>
+  <string id="str_tor_player_is_requesting_neutral_change_sides_dwarf" text="Ci viedaješ ty pra kryŭdy, jakija ŭčyniŭ tabie tvoj haspadar, {FIRST_NAME}?"/>
+  <string id="str_tor_player_suggesting_treason_orc" text="Šo ŭvohule dumaješ pra bosa?"/>
+  <string id="str_tor_player_suggesting_treason_dwarf" text="Ci viedaješ ty pra kryŭdy, jakija ŭčyniŭ tabie naš haspadar, {FIRST_NAME}?"/>
+  <string id="str_tor_persuasion_leave_faction_npc_refuse_high_negative_score_orc" text="Advali! Moj bos šami vialiki j šami mocny!"/>
+  <string id="str_tor_persuasion_leave_faction_npc_refuse_high_negative_score_dwarf" text="Tvoj namiok — abraza! Jašče słova, i ja taksama paliču heta kryŭdaj."/>
+  <string id="str_tor_persuasion_leave_faction_npc_redirected_orc" text="Tabie treba da {REDIRECT_HERO_RELATIONSHIP}, bo za mianie dumaje jon."/>
+  <string id="str_tor_persuasion_leave_faction_npc_redirected_dwarf" text="{REDIRECT_HERO_RELATIONSHIP} uznačalvaje naš kłan. Tolki hetaja asoba maje prava vieści takija razmovy."/>
+  <string id="str_tor_persuasion_leave_faction_npc_answer_orc" text="Aha? Heta jak? [if:convo_thinking]"/>
+  <string id="str_tor_persuasion_leave_faction_npc_answer_dwarf" text="Pierastań havaryć jak elhi j kažy pramy. [if:convo_thinking]"/>
+  <string id="str_tor_lord_ask_recruit_next_reservation_success_with_barter_orc" text="Dobra, dobra! Padumaju pra heta."/>
+  <string id="str_tor_lord_ask_recruit_next_reservation_success_with_barter_dwarf" text="Heta surjoznaje abvinavačańnie. Ale kali heta praŭda, abaviazak adpomścić za kryŭdu vyzvalaje mianie ad prysiahaŭ viernaści."/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_orc" text="To chočaš, kab ja bosa {?CONVERSATION_CHARACTER.GENDER}kinuła{?}kinuŭ{\?}? Za takoje treba sapraŭdnaja zdabyča j bliskučki. Moža, navat farteca..."/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_dwarf" text="Ale inšym, biassprečna, budzie ciažka z hetym pahadzicca. Mnie spatrebiacca padtrymka i srodki, kab ažyćciavić adpłatu za kryŭdu. Inačaj majmu kłanu daviadziecca čakać lepšaha času."/>
+  <string id="str_tor_lord_defection_post_barter_s_orc" text="Davaj! Usie hetyja nažy ŭ śpinu maładość nahadvajuć. Až unutry ciopła!"/>
+  <string id="str_tor_lord_defection_post_barter_s_dwarf" text="Hetaha dosyć. Što ž, pryjšoŭ čas adpomścić za hetuju kryŭdu!"/>
+  <string id="str_tor_lord_defection_post_barter_f_orc" text="Mała! Tolki moj čas marnuješ! Vali, pakul ja tvaju hałavu bosu nie {?CONVERSATION_CHARACTER.GENDER}pryniesła{?}prynios{\?}!"/>
+  <string id="str_tor_lord_defection_post_barter_f_dwarf" text="Dla hetaj spravy tvajoj prapanovy niedastatkova. Preč! My adpomścim za kryŭdu pa-svojmu."/>
+  <string id="str_tor_lord_ask_recruit_argument_no_answer_orc" text="Tupa havoryš!"/>
+  <string id="str_tor_lord_ask_recruit_argument_no_answer_dwarf" text="Mnie niama čaho na heta adkazać."/>
+  <string id="str_tor_lord_propose_marriage_conv_general_proposal_3_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_lord_propose_marriage_conv_general_proposal_3_dwarf" text="Zabudź."/>
+  <string id="str_tor_lord_start_courtship_response_player_offer_nevermind_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_lord_start_courtship_response_player_offer_nevermind_dwarf" text="Zabudź."/>
+  <string id="str_tor_hero_courtship_persuasion_start_orc" text="Viadoma, maja sałodkaja kroška, davaj paznajomimsia bližej."/>
+  <string id="str_tor_hero_courtship_persuasion_success_orc" text="Kroška, u nas tak šmat ahulnaha, kroška."/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_1_orc" text="Kroška, pahavorym šče, kali znoŭ sustrenimsia."/>
+  <string id="str_tor_hero_courtship_persuasion_2_start_orc" text="Kroška, nie mahu pieraštać dumać pra ciabie."/>
+  <string id="str_tor_hero_courtship_persuasion_2_success_orc" text="Tak, kroška, davaj paženimsia."/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_3_orc" text="Majo zołata — majo zołata, a tvajo zołata — naša zołata."/>
+  <string id="str_tor_lord_propose_marriage_conv_general_proposal_response_orc" text="Adnu ruku, kali łaska."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_dwarf" text="Zabudź."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_2_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_2_dwarf" text="Zabudź."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_3_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_3_dwarf" text="Zabudź."/>
+  <string id="str_tor_mercenary_recruit_start_orc" text="Hej! Chłopcy patrebny? My najmocnyja chłopcy navakolli! {?PLURAL}{MERCENARY_COUNT} hatovy rezać i łupić za ciabie! Tolki daj bliskučki, usiaho {GOLD_AMOUNT}{GOLD_ICON}."/>
+  <string id="str_tor_mercenary_recruit_start_single_orc" text="Hej! Šukaju bosa, jaki znaje, šo da čaho! Daj {GOLD_AMOUNT}{GOLD_ICON} — i zabju kaho chočaš."/>
+  <string id="str_tor_mercenary_recruit_accept_orc" text="Usie da mianie! Voś {GOLD_AMOUNT}{GOLD_ICON}! Chodźma!"/>
+  <string id="str_tor_mercenary_recruit_accept_some_orc" text="Mnie tolki {MERCENARY_COUNT} najlepšych z vas. Voś {GOLD_AMOUNT}{GOLD_ICON}."/>
+  <string id="str_tor_mercenary_recruit_reject_gold_orc" text="Vali, ty taho nia {?CONVERSATION_CHARACTER.GENDER}vartaja{?}varty{\?}!"/>
+  <string id="str_tor_mercenary_recruit_reject_orc" text="Vali, u bandzie miescaŭ niama!"/>
+  <string id="str_tor_mercenary_recruit_start_2_orc" text="Tolki hroh zabiaru — i my tut!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_or_vassal_orc" text="Šukaješ chłopcaŭ dla {FACTION_SERVICE_TERM}? Voś ja, sapraŭdy {?PLAYER.GENDER}mocnaja dziaŭčyna{?}mocny chłopiec{\?}!"/>
+  <string id="str_tor_player_want_to_end_mercenary_service_orc" text="Nadakučyła za {SERVED_FACTION} łupicca! Ja zvalvaju!"/>
+  <string id="str_tor_player_want_to_end_mercenary_service_response_orc" text="Dobra! Vali, ty j tak {?PLAYER.GENDER}była smarkačkaj{?}byŭ smarkačom{\?}!"/>
+  <string id="str_tor_lord_ask_exit_service_confirm_orc" text="Tady zoh jaho!"/>
+  <string id="str_tor_lord_ask_exit_service_confirm_no_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_lord_ask_exit_service_confirm_no_dwarf" text="Zabudź."/>
+  <string id="str_tor_lord_ask_exit_service_confirm_final_orc" text="Kali kaliści stanieš {?PLAYER.GENDER}macniejšaj{?}macniejšym{\?}, znaješ, dzie mianie znajści. Chacia, dumaju, raniej zdochnieš."/>
+  <string id="str_tor_player_want_to_hire_mercenary_orc" text="Hej! Dałučajsia da {PLAYER_FACTION}! Nam šče machačy vyjhravać!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_orc" text="Bolš ty nie {?CONVERSATION_CHARACTER.GENDER}patrebnaja{?}patrebny{\?}, vali!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_paying_debt_orc" text="Ale pačakaj. Ty nam šče bliskučki {?PLAYER.GENDER}vinnaja{?}vinny{\?}. Płaci {GOLD_AMOUNT}{GOLD_ICON}, dajšło?"/>
+  <string id="str_tor_player_want_to_fire_mercenary_okay_orc" text="Dumaju, ty budzieš škadavać, kali inšyja bosy nam zapłaciać."/>
+  <string id="str_tor_player_want_to_fire_mercenary_not_paying_debt_orc" text="O, voś ciapier ty sapraŭdnuju duraść {?PLAYER.GENDER}učyniła{?}učyniŭ{\?}!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_there_is_debt_accept_payment_orc" text="Dobra, biary bliskučki."/>
+  <string id="str_tor_player_want_to_fire_mercenary_there_is_debt_reject_payment_orc" text="Valicie, vy łupilisia jak kuča smarkačoŭ!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_there_is_debt_think_again_orc" text="Daj padumać..."/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_reject_orc" text="Da ciabie? Dumaješ, ja {?CONVERSATION_CHARACTER.GENDER}durnaja{?}durny{\?}?! Vali!"/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_reject_poor_orc" text="Tabie na nas nie chapaje, žabrackaja nikčema!"/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_orc" text="Tabie treba da {LEADER.LINK}, heta naš bos."/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_2_orc" text="Dobra, my hatovy za ciabie łupicca. Ale płaci bliskučki. Voś šo nam treba."/>
+  <string id="str_tor_player_ask_mercenary_to_join_player_response_accept_orc" text="Fajna. Tady pajšli!"/>
+  <string id="str_tor_player_ask_mercenary_to_join_player_response_reject_orc" text="Vali, zašmat prosiš!"/>
+  <string id="str_tor_caravan_create_conversation_1_orc" text="Hej! Nabiary chłopcaŭ, kab vazy sa zdabyčaj ciahać."/>
+  <string id="str_tor_caravan_create_conversation_2_orc" text="Jość raby j žaleznyja šmaty, kab tabie vazy zavieści! Ale za chłopcaŭ płaci {?PLAYER.GENDER}sama{?}sam{\?} i bosa im vybiraj! Voś tabie {NUMBER_OF_MEN} chłopcaŭ za {AMOUNT}{GOLD_ICON}. Biareš?"/>
+  <string id="str_tor_caravan_create_conversation_3_orc" text="Nia maju chłopca, kab na hetuju spravu bosam pastavić."/>
+  <string id="str_tor_caravan_create_conversation_4_orc" text="Zoh jaho! Heta zašmat!"/>
+  <string id="str_tor_caravan_create_conversation_5_orc" text="Dobra! Biary {AMOUNT}{GOLD_ICON} i kiń dureć!"/>
+  <string id="str_tor_caravan_create_conversation_6_orc" text="Hetyja chłopcy — smarkačy! Mo sapraŭdy mocnych na hetuju spravu nabiarom?"/>
+  <string id="str_tor_caravan_create_conversation_10_orc" text="Šmat ža! Ty ź mianie ździekvajeśsia?"/>
+  <string id="str_tor_caravan_create_conversation_7_orc" text="Aha, možna sapraŭdy mocnych chłopcaŭ nabrać, ale bliskučak treba bolš. {AMOUNT}{GOLD_ICON} — samaje toje!"/>
+  <string id="str_tor_caravan_create_conversation_8_orc" text="Dobra! Dam tabie {AMOUNT}{GOLD_ICON} na sapraŭdy mocnych chłopcaŭ dla vazoŭ sa zdabyčaj."/>
+  <string id="str_tor_caravan_create_conversation_9_orc" text="Vali! Heta zašmat!"/>
+  <string id="str_tor_caravan_create_conversation_10_2_orc" text="Šmat ža! Ty ź mianie ździekvajeśsia?"/>
+  <string id="str_tor_caravan_create_conversation_11_orc" text="To chto budzie bosam?"/>
+  <string id="str_tor_caravan_create_conversation_12_continue_orc" text="Nichto ź ich, ja {?PLAYER.GENDER}dumała{?}dumaŭ{\?} pra..."/>
+  <string id="str_tor_caravan_create_conversation_13_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_caravan_create_conversation_13_dwarf" text="Zabudź."/>
+  <string id="str_tor_caravan_create_conversation_14_orc" text="Dobra! Sabiaru chłopcaŭ — i adrazu pačniem vazy sa zdabyčaj ciahać! Usie bliskučki, šo atrymajem, chutka tabie dastavim, bos."/>
+  <string id="str_tor_weaponsmith_talk_start_normal_orc" text="U mianie najlepšyja čopy j žaleza navokał! Biareš?"/>
+  <string id="str_tor_weaponsmith_talk_start_normal_dwarf" text="Ja pradstaŭlaju Hildyju Zbrojnikaŭ i Pancyrnikaŭ u hetaj ćviardyni. Što tabie treba?"/>
+  <string id="str_tor_weaponsmith_talk_start_to_player_in_disguise_orc" text="Bos mianie mocna adłupić, kali ŭbačyć, šo ja z taboj bałbaču!"/>
+  <string id="str_tor_weaponsmith_talk_start_to_player_in_disguise_dwarf" text="Preč, ty hańbiš maju hildyju!"/>
+  <string id="str_tor_weaponsmith_talk_initial_orc" text="To šo šče chošaš?"/>
+  <string id="str_tor_weaponsmith_talk_initial_dwarf" text="Što tabie jašče treba?"/>
+  <string id="str_tor_weaponsmith_talk_player_1_orc" text="Pakažy, šo maješ!"/>
+  <string id="str_tor_weaponsmith_talk_player_1_dwarf" text="Chaču zirnuć na tavary tvajoj hildyi."/>
+  <string id="str_tor_weaponsmith_talk_player_request_craft_orc" text="Jość tabie asobnaja zamova. Za pracu!"/>
+  <string id="str_tor_weaponsmith_talk_player_request_craft_dwarf" text="Chaču zamović vyrab pavodle ŭłasnaha ŭzoru."/>
+  <string id="str_tor_weaponsmith_talk_player_3_orc" text="Vali, ja ŭ inšaje miesca pajdu!"/>
+  <string id="str_tor_weaponsmith_talk_player_3_dwarf" text="Ciapier mnie ničoha nie patrebna."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_1_orc" text="Adrazu biarusia za pracu!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_1_dwarf" text="Mienavita tak."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_2_orc" text="To kolki chłopcaŭ kuplaješ? Budzie pa 100{GOLD_ICON} za chłopca."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_craft_orc" text="Tady za pracu!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_craft_dwarf" text="My voźmiemsia za pracu."/>
+  <string id="str_tor_weaponsmith_talk_merchant_craft_opened_orc" text="Kali šo kuplajuć, bos radujecca!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_craft_opened_dwarf" text="Niachaj Hrunhni budzie z taboj."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_3_orc" text="Šo spadabałasia — spačatku kupi! Naprakat nie daju!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_3_dwarf" text="Jak žadaješ. Paklič, kali što spatrebicca."/>
+  <string id="str_tor_weaponsmith_talk_end_orc" text="Nie adciahvaj! Bos adłupić, kali ŭbačyć, šo dureju!"/>
+  <string id="str_tor_weaponsmith_talk_end_dwarf" text="Pamiataj svaich prodkaŭ."/>
+  <string id="str_tor_special_notable_introduction_orc" text="Zavuć {CONVERSATION_HERO.FIRSTNAME}. {FACTION_DESCRIPTION}."/>
+  <string id="str_tor_special_notable_introduction_dwarf" text="Ja {CONVERSATION_HERO.FIRSTNAME}, {FACTION_DESCRIPTION}."/>
+  <string id="str_tor_artisan_introduction_orc" text="Ja {CONVERSATION_HERO.FIRSTNAME}. Znaju, jak z raboŭ i žaleznych šmatoŭ pracu rabić. Chočaš dobryja čopy ci žaleza — zrabi, kab ja {?CONVERSATION_CHARACTER.GENDER}ŭśmichnułasia{?}ŭśmichnuŭsia{\?}!"/>
+  <string id="str_tor_artisan_introduction_dwarf" text="Mianie zavuć {CONVERSATION_HERO.FIRSTNAME}. Ja majstar hildyi ŭ {TOWN_NAME}, dy jašče j {?CONVERSATION_CHARACTER.GENDER}pavažanaja{?}pavažany{\?} siarod roŭnych! Tamu jany daviarajuć majmu mierkavańniu."/>
+  <string id="str_tor_headman_introduction_orc" text="Hej! Mianie zavuć {CONVERSATION_HERO.FIRSTNAME}, i heta vioska {VILLAGE_NAME} — moj łahier! Chočaš bałbatać — da mianie!"/>
+  <string id="str_tor_headman_introduction_dwarf" text="Mianie zavuć {CONVERSATION_HERO.FIRSTNAME}. Ja pamiataju dzień, kali kožny inšy Davi, jakoha ty tut bačyš, zjaviŭsia na śviet. Ja starejšyna, tamu da majho słova tut prysłuchoŭvajucca najbolš."/>
+  <string id="str_tor_rural_notable_introduction_orc" text="Ja {CONVERSATION_HERO_FIRSTNAME}, i hetaja častka łahiera maja! Nie da chłopcaŭ idzi, a sa mnoj bałbataj!"/>
+  <string id="str_tor_rural_notable_introduction_dwarf" text="Ja {CONVERSATION_HERO.FIRSTNAME}. Ja {?CONVERSATION_CHARACTER.GENDER}adna z najstarejšych{?}adzin z najstarejšych{\?}, i šmat tutejšych Davi pavažajuć majo mierkavańnie."/>
+  <string id="str_tor_player_ask_to_join_players_party_orc" text="Hej! U bandu!"/>
+  <string id="str_tor_player_ask_to_join_players_party_dwarf" text="Chaču, kab ty {?CONVERSATION_CHARACTER.GENDER}dałučyłasia{?}dałučyŭsia{\?} da majho tronhu."/>
+  <string id="str_tor_player_ask_to_join_players_party_response_orc" text="Nu dobra. Tolki hrybnoje piva dapju!"/>
+  <string id="str_tor_player_ask_to_join_players_party_response_dwarf" text="Heta budzie honaram dla mianie. Daj chvilinu padrychtavacca."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_take_party_orc" text="Chutka pakažy mnie ŭsiakich chłopcaŭ."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_take_party_dwarf" text="Daj ahladzieć tronh."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_orc" text="Kudy heta ty {?CONVERSATION_CHARACTER.GENDER}namyliłasia{?}namyliŭsia{\?}?! Hani bliskučki!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_dwarf" text="Vy musicie zapłacić za biaśpiečny prachod."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_di_orc" text="To vy chočacie machacca?!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_2_orc" text="Aha, tak i jość! Bicie ich, chłopcy!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_3_orc" text="Nie, ja zusim nia toje {?PLAYER.GENDER}skazała{?}skazaŭ{\?}..."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_enemy_orc" text="Moj bos choša zabić tvajho bosa. Značyć, ja taksama chaču ciabie zabić!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_enemy_dwarf" text="Maje prysiahi patrabujuć bicca z taboj tut."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_orc" text="To tvaja skura budzie mnie novaj vopratkaj!"/>
+  <string id="str_tor_player_has_plans_options_orc" text="Dobra, {PLAYER_SALUTATION}. Šo tam {?PLAYER.GENDER}prydumała{?}prydumaŭ{\?}?"/>
+  <string id="str_tor_player_ask_lords_to_follow_him_orc" text="Hej, idzi sa mnoj! Maju płan."/>
+  <string id="str_tor_player_ask_lords_to_create_army_orc" text="Sabiraju tut sapraŭdny VAAAHCH! Klič vajnabosaŭ!"/>
+  <string id="str_tor_player_ask_lords_to_create_army_dwarf" text="Ja źbiraju vialikaje vojska. Sklikaj tronhi pad moj ściah! {AMOUNT}{GOLD_ICON}"/>
+  <string id="str_tor_player_plans_never_mind_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_player_plans_never_mind_dwarf" text="Zabudź."/>
+  <string id="str_tor_player_ask_lords_to_create_army_answer_orc" text="Kožnamu vajnabosu, kaho ŭbaču, skažu, kab chutka da ciabie išoŭ!"/>
+  <string id="str_tor_player_ask_lords_to_follow_him_already_at_army_orc" text="Advałи! Ja ŭžo saču, kab {ESCORTING_PARTY} nie pabili!"/>
+  <string id="str_tor_player_ask_lords_to_follow_him_2_orc" text="Budu z taboj dziesiać dzion. A potym? Potym nadakučyć."/>
+  <string id="str_tor_how_many_days_to_escort_never_mind_orc" text="Dobra. To pajšli! {AMOUNT}{GOLD_ICON}"/>
+  <string id="str_tor_how_many_days_to_escort_never_mind_2_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_how_many_days_to_escort_never_mind_2_dwarf" text="Zabudź."/>
+  <string id="str_tor_lord_answer_to_escorting_orc" text="To viadzi ŭžo!"/>
+  <string id="str_tor_player_want_to_leave_faction_orc" text="Hej, {SALUTATION_BY_PLAYER}, ja kidaju hetaje plemia!"/>
+  <string id="str_tor_player_want_to_leave_faction_dwarf" text="{SALUTATION_BY_PLAYER}, prašu vyzvalić mianie ad prysiahaŭ viernaści."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_di_orc" text="Ty ŭžo ŭ inšym plemi, ci nia tak?! Vali!"/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_di_dwarf" text="Spadziajusia, ty nia chočaš parušyć prysiahi, jakija ŭžo źviazvajuć ciabie ź inšym haspadarstvam."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_or_vassal_answer_orc" text="To jaki ŭ ciabie płan?"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_or_vassal_answer_dwarf" text="Jakuju słužbu ty prapanuješ?"/>
+  <string id="str_tor_player_is_offering_mercenary_orc" text="Skažy, kaho zabić, — chutka zabju. Za bliskučki."/>
+  <string id="str_tor_player_is_offering_mercenary_dwarf" text="Chaču skłaści najmickuju damovu."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_orc" text="Dobra! Tady pajdu šukać {KING.LINK}. Dziakuj, šo {?CONVERSATION_CHARACTER.GENDER}zmarnavała{?}zmarnavaŭ{\?} moj čas, nikčema."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_dwarf" text="Tady ja znajdu {KING.LINK} i pahavaru."/>
+  <string id="str_tor_player_is_offering_vassalage_orc" text="Hej! Ja sapraŭdy {?PLAYER.GENDER}mocnaja dziaŭčo{?}mocny chłopiec{\?}. Zrabi mianie vajnabosam u svaim plemi!"/>
+  <string id="str_tor_player_is_offering_vassalage_dwarf" text="Dazvol mnie skłaści prysiahi viernaści, {SALUTATION_BY_PLAYER}, i zrabi mianie tanam u svaim haspadarstvie."/>
+  <string id="str_tor_player_is_offering_vassalage_while_mercenary_orc" text="Hej! Ja ŭsich, kaho ty {?CONVERSATION_CHARACTER.GENDER}kazała{?}kazaŭ{\?}, zadarma {?PLAYER.GENDER}zabivała{?}zabivaŭ{\?}. Zrabi mianie vajnabosam!"/>
+  <string id="str_tor_player_is_offering_vassalage_while_mercenary_dwarf" text="Ja {?PLAYER.GENDER}zmahałasia{?}zmahaŭsia{\?} i {?PLAYER.GENDER}liła{?}liŭ{\?} kroŭ za hetaje haspadarstva. Chaču skłaści prysiahi viernaści, {SALUTATION}."/>
+  <string id="str_tor_player_is_offering_join_cancel_orc" text="Zoh čho, pabałbočam pra inšaje."/>
+  <string id="str_tor_player_is_offering_join_cancel_dwarf" text="Nasamreč ja {?PLAYER.GENDER}źbirałasia{?}źbiraŭsia{\?} pahavaryć pra inšaje."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_2_orc" text="Chočaš być vajnabosam? Idzi da {KING.LINK}. Nu, kali z kletki ŭ {SETTLEMENT} vybieracca!"/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_3_orc" text="Kali šskažu {KING.LINK}, šo ty {?PLAYER.GENDER}mocnaja j dužaja{?}mocny j dužy{\?}, advališ?!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_orc" text="Dumaješ, maich chłopcaŭ brakuje, {PLAYER.NAME}?! Pakul ja nie skažu, šo plemia łupicca z kim mocnym, — vali!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_dwarf" text="Ciapier my nia majem namieru najmać vajaroŭ, {PLAYER.NAME}. Heta moža źmianicca, kali pryjdzie čas adpomścić za kryŭdy."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_2_orc" text="Hej, ty ŭvohule chto? {?PLAYER.GENDER}Niejkaja smarkačka{?}Niejki smarkač{\?}, vidać, nikoli nia {?CONVERSATION_CHARACTER.GENDER}čuła{?}čuŭ{\?} pra ciabie! Vali, pakul skviham na korm nie {?CONVERSATION_CHARACTER.GENDER}addała{?}addaŭ{\?}!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_2_dwarf" text="Ty jašče nie {?PLAYER.GENDER}zdabyła{?}zdabyŭ{\?} chvały {?PLAYER.GENDER}nadziejnaj i zdolnaj vajarki{?}nadziejnaha i zdolnaha vajara{\?}, {PLAYER.NAME}. Zaklučać z taboj takuju damovu było b hłupstvam."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_orc" text="Ty bliskučak nia {?PLAYER.GENDER}vartaja{?}varty{\?}, nikčema! Kali bos skaža, šo vajujem, tady j spytaj. Padčas machaču ty {?PLAYER.GENDER}daražejšaja{?}daražejšy{\?}..."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_dwarf" text="Haspadarstva žyvie ŭ miry j nia maje patreby ŭ najmitach. Šukaj takoj damovy ŭ inšym miescy."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_2_orc" text="Nam chłopcaŭ chapaje, hety machač lohka vyjhrajem! Vali da kaho słabiejšaha, nikčema!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_2_dwarf" text="Nieŭzabavie kryŭdy buduć adpomščany. Najmickija damovy buduć pustoj trataj halaŭ."/>
+  <string id="str_tor_mercenary_player_accepts_orc" text="Dobra! Davaj!"/>
+  <string id="str_tor_mercenary_player_rejects_orc" text="Advali, hetaha zamała!"/>
+  <string id="str_tor_mercenary_player_accepts_lord_answer_orc" text="Razumna {?PLAYER.GENDER}zrabiła{?}zrabiŭ{\?}. Ciapier budzieš łupicca za {KINGDOM_FORMAL_NAME}! To kiń dureć i biarysia zabivać!"/>
+  <string id="str_tor_player_joined_2_orc" text="Viadoma, bos! Pakažy darohu — i jany ŭžo trupy!"/>
+  <string id="str_tor_player_joined_3_orc" text="To hani bliskučki j dalej!"/>
+  <string id="str_tor_mercenary_player_rejects_lord_answer_orc" text="Lepšaj płaty nia znojdzieš, duryła! I da kaho inšaha navat nia dumaj iści."/>
+  <string id="str_tor_prisoner_hero_leave_answer_orc" text="Ja nie źbiahu, česna!"/>
+  <string id="str_tor_lord_diagnostics_option_1_4_orc" text="E, zabudź..."/>
+  <string id="str_tor_lord_diagnostics_option_1_4_dwarf" text="Zabudź."/>
+  <string id="str_tor_player_is_leaving_neutral_or_friendly_orc" text="Advali! Mnie šče šmat kudy treba!"/>
+  <string id="str_tor_player_is_leaving_enemy_prisoner_orc" text="Čas varušycca!"/>
+  <string id="str_tor_prison_break_start_1_orc" text="Heta ty, {SALUTATION}? Ty mianie z kletki {?PLAYER.GENDER}vyciahnuła{?}vyciahnuŭ{\?}!"/>
+  <string id="str_tor_prison_break_start_2_orc" text="{?CONVERSATION_CHARACTER.GENDER}Dumała{?}Dumaŭ{\?}, ty mianie ŭ kletcy pryrežaš, {SALUTATION}."/>
+  <string id="str_tor_prison_break_start_3_orc" text="Ty mianie z kletki vyciahvaješ... Navošta? Ja b ciabie prosta {?CONVERSATION_CHARACTER.GENDER}zabiła{?}zabiŭ{\?}!"/>
+  <string id="str_tor_prison_break_player_ask_orc" text="Sapraŭdy dobra my ich padčas uciokaŭ pabili, ha?! Šo dalej?"/>
+  <string id="str_tor_prison_break_player_ask_dwarf" text="Baradoj Hrunhni, {?PLAYER.GENDER}rada{?}rady{\?} ja vybracca adsiul, {?CONVERSATION_CHARACTER.GENDER}dziaŭčo{?}chłopča{\?}. Što dalej?"/>
+  <string id="str_tor_prison_break_player_meet_orc" text="Majo imia {PLAYER.NAME}. Ja tabie žyćcio {?PLAYER.GENDER}ŭratavała{?}ŭratavaŭ{\?}. Kali spatrebicca tvaja padtrymka, hladzi, kab {?CONVERSATION_CHARACTER.GENDER}pamiatała{?}pamiataŭ{\?}.{newline} To šo budzieš rabić?"/>
+  <string id="str_tor_prison_break_player_meet_dwarf" text="Ja {PLAYER.NAME]}, i tabie varta pamiatać, što ciapier ty mnie {?CONVERSATION_CHARACTER.GENDER}vinnaja{?}vinny{\?}. {newline}Skažy, jaki ŭ ciabie ciapier plan?"/>
+  <string id="str_tor_prison_break_next_companion_orc" text="To pajšli! Ja z taboj!"/>
+  <string id="str_tor_prison_break_next_companion_dwarf" text="Tak, ja znoŭ tabie {?CONVERSATION_CHARACTER.GENDER}vinnaja{?}vinny{\?}. Dazvol viarnucca ŭ tvoj tronh, kab ja {?CONVERSATION_CHARACTER.GENDER}mahła{?}moh{\?} pačać viartać doŭh."/>
+  <string id="str_tor_prison_break_next_commander_orc" text="Pajdu kuču chłopcaŭ sabiaru! Dobraja zabava była!"/>
+  <string id="str_tor_prison_break_next_commander_dwarf" text="Maje chłopcy čakajuć mianie. Ja budu pamiatać, što ty dla mianie {?PLAYER.GENDER}zrabiła{?}zrabiŭ{\?}."/>
+  <string id="str_tor_prison_break_next_noble_orc" text="Viarnusia da svaich chłopcaŭ. Dobraja zabava!"/>
+  <string id="str_tor_prison_break_next_notable_orc" text="Adrazu nazad za pracu!"/>
+  <string id="str_tor_prison_break_next_other_orc" text="Pašukaju tut dobrych machačoŭ i ŭsiakaha takoha."/>
+  <string id="str_tor_prison_break_end_dialog_3_orc" text="A {?CONVERSATION_CHARACTER.GENDER}mahła b{?}moh by{\?} da mianie dałučycca i zaniacca čym razumnym!"/>
+  <string id="str_tor_prison_break_end_dialog_1_orc" text="To idzi j rabi!"/>
+  <string id="str_tor_prison_break_end_dialog_2_orc" text="Dobra, vali!"/>
+  <string id="str_tor_ransom_broker_intro_orc" text="To šo chočaš?"/>
+  <string id="str_tor_ransom_broker_intro_2_di_orc" text="Vyhladaješ {?PLAYER.GENDER}mocnaj dziaŭčoj{?}mocnym chłopcam{\?}, šo ŭ bojkach pieramahaje. Moža, zamiest zabojstva nikčemaŭ budzieš ich da mianie pryvodzić?"/>
+  <string id="str_tor_ransom_broker_intro_2_orc" text="To ty rabami handluješ?"/>
+  <string id="str_tor_ransom_broker_intro_3_orc" text="Šo ja tolko šo {?CONVERSATION_CHARACTER.GENDER}skazała{?}skazaŭ{\?}? Viadoma, pradaju raboŭ! Ale j kuplaju. Dumaješ, nam hobaŭ na ŭsio chapaje? Časam davodzicca j słabych ružovaskurych dy nikčemnych niedarostkaŭ haniać!"/>
+  <string id="str_tor_ransom_broker_intro_4_orc" text="Kuplaju raboŭ, potym pradaju ŭ majsterni j šachty. Tabie roźnica, usie zadavoleny!"/>
+  <string id="str_tor_ransom_broker_intro_5_orc" text="To viadzi raboŭ, kali chočaš bliskučak stolki, kolki zžerci zmožaš!"/>
+  <string id="str_tor_ransom_broker_info_talk_player_1_orc" text="A kali nichto raba kuplać nie zachoča?"/>
+  <string id="str_tor_ransom_broker_info_talk_player_2_orc" text="To kolki za adnaho takoha raba?"/>
+  <string id="str_tor_ransom_broker_info_talk_player_3_orc" text="A kali mianie ŭ kletku pasadziać? Taksama mohuć u raby pradać?"/>
+  <string id="str_tor_ransom_broker_info_talk_player_4_orc" text="Nu dobra! Vali."/>
+  <string id="str_tor_ransom_broker_families_orc" text="Durnoje pytańnie! Ty znaješ, jak chutka raby dochnuć? A ŭ šachty ich kuplajuć, jak bosy smačnych skvihaŭ!"/>
+  <string id="str_tor_ransom_broker_prices_orc" text="Hledziačy jakija dužyja! Usio zaležyć, kolki na pracy pratrymajucca. Słabyja niedarostki chutka dochnuć, tamu mała kaštujuć. Dužyja, jak čałaviečyja «rycary» ci našy chłopcy, miesiacami ciahnuć, bo mocnyja. Jany daražejšyja. Čym macniejšy rab, tym bolš atrymaješ."/>
+  <string id="str_tor_ransom_broker_ransom_me_orc" text="Jašče jak! Ale voś šo: kali {?PLAYER.GENDER}prychavała{?}prychavaŭ{\?} mnie dastatkova bliskučak, vykuplu ciabie i adrazu vypušču. Čamu mnie vieryć? Bo pakul ciabie znoŭ i znoŭ u kletku sadziać, ja na tabie bliskučki rablu! A kali {?PLAYER.GENDER}rabyniaj{?}rabom{\?} budzieš — nia zmahu."/>
+  <string id="str_tor_ransom_broker_start_has_met_orc" text="Hej! Jość chto ŭ kletkach? Kuplu ŭ ciabie raboŭ!"/>
+  <string id="str_tor_ransom_broker_pretalk_orc" text="Dyk jość chto ŭ kletkach ci ty prosta moj čas marnuješ?!"/>
+  <string id="str_tor_ransom_broker_talk_player_1_orc" text="To rychtujsia kuplać!"/>
+  <string id="str_tor_ransom_broker_talk_player_2_orc" text="Hej, nahadaj, šo ty robiš?"/>
+  <string id="str_tor_ransom_broker_talk_player_3_orc" text="Adnaho majho chłopca ŭ raby pradajuć! Vyciahni jaho!"/>
+  <string id="str_tor_ransom_broker_talk_player_4_orc" text="Zaraz nikoha niama, ja pra heta padumaju!"/>
+  <string id="str_tor_ransom_broker_no_prisoners_orc" text="Nu dobra. Vali, pakul raboŭ nia budzie!"/>
+  <string id="str_tor_ransom_broker_ransom_companion_orc" text="To kaho tabie vykupić na volu?"/>
+  <string id="str_tor_ransom_broker_ransom_companion_choose_continue_orc" text="Nikoha ź ich, ja pra inšaha {?PLAYER.GENDER}dumała{?}dumaŭ{\?}..."/>
+  <string id="str_tor_ransom_broker_ransom_companion_choose_never_mind_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_ransom_broker_ransom_companion_choose_never_mind_dwarf" text="Zabudź."/>
+  <string id="str_tor_ransom_broker_sell_prisoners_orc" text="To pakažy, šo maješ!"/>
+  <string id="str_tor_ransom_broker_sell_prisoners_3_orc" text="Vydatna! Znojdzieš šče takich — adrazu da mianie!"/>
+  <string id="str_tor_ransom_broker_sell_prisoners_2_orc" text="Budu tut šče niejki čas, kali spatreblusia!"/>
+  <string id="str_tor_talk_common_to_taverngamehost_2_orc" text="Skažy, ci spraviadlivaja składanaść — {DIFFICULTY}, i budziem hulać dziela {?IS_BETTING}{BET_AMOUNT}{GOLD_ICON}.{?}taho, kab nudu zabić.{\?}"/>
+  <string id="str_tor_taverngamehost_player_start_game_orc" text="Padychodzić. Davaj!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_orc" text="Chopić mianie duryć! Zrabi hulniu spraviadliviejšaj!"/>
+  <string id="str_tor_taverngamehost_player_change_bet_orc" text="Hej! Stolki nie staŭlu. Inšuju kuču bliskučak pastaŭlu."/>
+  <string id="str_tor_taverngamehost_player_game_history_orc" text="{GAME_NAME}? Heta šo?"/>
+  <string id="str_tor_taverngamehost_player_reject_orc" text="Vali!"/>
+  <string id="str_tor_taverngamehost_start_playing_ask_accept_orc" text="To jaki bok vybiraješ?"/>
+  <string id="str_tor_taverngamehost_start_playing_ask_decline_orc" text="Maju lepšyja spravy! Advali!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_orc" text="Ja {?PLAYER.GENDER}pieršaja{?}pieršy{\?}!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_orc" text="Ty {?CONVERSATION_CHARACTER.GENDER}pieršaja{?}pieršy{\?}!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_2_orc" text="Budu za biełych."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_2_orc" text="Budu za čornych."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_3_orc" text="Budu za biełych."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_3_orc" text="Budu za čornych."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_4_orc" text="Budu za biełych."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_4_orc" text="Budu za čornych."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_5_orc" text="Budu za aviečak."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_5_orc" text="Budu za vaŭkoŭ."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_6_orc" text="Ja napadaju!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_6_orc" text="Ty napadaj na mianie!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_back_orc" text="Hej, pačakaj."/>
+  <string id="str_tor_taverngamehost_player_start_playing_now_orc" text="To pajechali!"/>
+  <string id="str_tor_taverngamehost_ask_difficulty_orc" text="Dobra. Chočaš spraviadliviej? Zrabi spraviadliviej!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_easy_orc" text="Kažu, «lohka» — samaje spraviadlivaje!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_normal_orc" text="Kažu, «zvyčajna» — samaje spraviadlivaje!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_hard_orc" text="Tchu, davaj «ciažka». Ja ciabie j z pałovaj mazhoŭ abyhraju!"/>
+  <string id="str_tor_taverngamehost_ask_betting_orc" text="Dobra! Šo staviš?"/>
+  <string id="str_tor_taverngamehost_player_0_denars_orc" text="Nia dam siabie abduryć. Biez staŭki!"/>
+  <string id="str_tor_taverngamehost_deny_betting_orc" text="Nie, z takimi praviłami bliskučak nia staŭlu! Rabi ciažej!"/>
+  <string id="str_tor_taverngamehost_changing_difficulty_for_bet_yes_orc" text="Dobra! Ja ŭ spravie!"/>
+  <string id="str_tor_taverngamehost_changing_difficulty_for_bet_no_orc" text="Pakiń tyja ž praviły."/>
+  <string id="str_tor_taverngamehost_ask_betting_2_orc" text="To kładzi bliskučki na staŭku!"/>
+  <string id="str_tor_taverngamehost_tell_history_seega_orc" text="{GAME_NAME} — tak jaje zavuć u kultury {CULTURE_NAME}. Pa mnie, nudota: tolki pastki fihurami robiš. Navat pałupicca nielha, adny fihury!"/>
+  <string id="str_tor_taverngamehost_tell_history_puluc_orc" text="{GAME_NAME} — adna ź siami viasiołych hulniaŭ, kali z chłopcami łupicca zabaroniena. Bi svaimi fihurami čužyja, a svaje nie davaj bić! Dobraja zabava."/>
+  <string id="str_tor_taverngamehost_tell_history_mutorere_orc" text="Hej, hetaja {GAME_NAME} — tolki dla vialikich mazhoŭ, jak u šamanaŭ. Treba {?PLAYER.GENDER}razumniejšaj{?}razumniejšym{\?} być, kab vyjhrać. Navat fihurami łupicca nielha!"/>
+  <string id="str_tor_taverngamehost_tell_history_konane_orc" text="{GAME_NAME} pakazvaje, chto z chłopcaŭ smarkač, a chto sapraŭdy mocny! Daviadziecca fihury hublać, ale hladzi, kab inšy chłopiec šče bolš zhubiŭ!"/>
+  <string id="str_tor_taverngamehost_tell_history_baghchal_orc" text="Lublu hetuju! U {GAME_NAME} nijakaj spraviadlivaści, jak i musić być u sapraŭdnym machačy! Dastatkova {?PLAYER.GENDER}mocnaja{?}mocny{\?} — vyjhraje i bieź pieravahaŭ, šo inšamu dajuć!"/>
+  <string id="str_tor_taverngamehost_tell_history_tablut_orc" text="Heta zaviecca {GAME_NAME}. Kali {?PLAYER.GENDER}razumnaja{?}razumny{\?}, biareš bok, dzie ŭsie fihury druhi bok voś-voś razabjuć, a ŭ taho tolki adna fihura! Tyja nikčemy z kultury {CULTURE_NAME} zusim nia ŭmiejuć dobryja hulni rabić..."/>
+  <string id="str_tor_taverngamehost_player_history_back_orc" text="Davaj tak!"/>
+  <string id="str_tor_taverngamehost_player_history_leave_orc" text="Nie, hučyć jak kuča łajna."/>
+  <string id="str_tor_lord_agrees_cancel_play_orc" text="Tady vali!"/>
+  <string id="str_tor_lord_answer_to_play_boardgame_again_accept_orc" text="Dobra! Davaj dalej!"/>
+  <string id="str_tor_lord_answer_to_play_boardgame_again_decline_orc" text="Vali, mnie nadakučyła!"/>
+  <string id="str_tor_lord_after_lord_win_boardgame_orc" text="Hej, ty {?PLAYER.GENDER}žulničała{?}žulničaŭ{\?}! Naštupnym razam hulaj sumlenna!"/>
+  <string id="str_tor_lord_player_start_game_orc" text="Davaj užo zhulajem."/>
+  <string id="str_tor_lord_player_leave_orc" text="Tolki čas marnuju! Ja zvalvaju."/>
+  <string id="str_tor_talk_common_to_tavernkeeper_orc" text="Hej! Šo chočaš?"/>
+  <string id="str_tor_tavernkeeper_talk_to_get_quest_orc" text="Šukaju nikčemaŭ, kab niešta zrabić."/>
+  <string id="str_tor_tavernkeeper_get_clan_info_start_orc" text="To mo raskažaš pra bosa hetaj fartecy?"/>
+  <string id="str_tor_tavernkeeper_get_clan_info_answer_orc" text="Raskažu pra {OWNER_CLAN}, bo heta bosy {SETTLEMENT}. Davaj {PRICE}{GOLD_ICON}."/>
+  <string id="str_tor_tavernkeeper_get_clan_info_player_answer_1_orc" text="Dobra! Zapłaču."/>
+  <string id="str_tor_tavernkeeper_get_clan_info_player_answer_2_orc" text="Vali!"/>
+  <string id="str_tor_tavernkeeper_companion_info_start_orc" text="Šukaju ŭ bandu chłopcaŭ z asablivymi navykami. Šo znaješ?!"/>
+  <string id="str_tor_tavernkeeper_companion_info_answer_orc" text="Ničoha nie mahu skazać, bo pakul nia znaju, jakich chłopcaŭ tabie treba."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_scout_orc" text="Chaču bandzie dobryja vočy dla vyviedki."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_engineer_orc" text="Daj kaho inžyniernaha, chto znaje, jak vialikija mašyny pracujuć."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_surgeon_orc" text="Chaču kahości, chto pabitych nikčemaŭ na nohi stavić!"/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_quartermaster_orc" text="Skažy, chto moža być dobrym bosam łahiera i haspadarku ŭ kułaku trymać."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_caravan_leader_orc" text="To chto najlepšy bos dla vazoŭ sa zdabyčaj?"/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_leader_orc" text="Raskažy pra samaha lepšaha bosa, chto machačy vyjhraje!"/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_roguery_orc" text="Mo chto ŭmieje kraścisia j chitryć, jak Mork."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_nevermind_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_nevermind_dwarf" text="Zabudź."/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_end_orc" text="Vali, ty ničoha nia {?CONVERSATION_CHARACTER.GENDER}vartaja{?}varty{\?}!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_inside_1_orc" text="To słuchaj: {INQUIRY_COMPANION.LINK} tut {?INQUIRY_COMPANION.GENDER}była{?}byŭ{\?}, ale adrazu {?INQUIRY_COMPANION.GENDER}rušyła{?}rušyŭ{\?} u {COMPANION_SETTLEMENT}. Chutka pabiažyš — dahoniš!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_inside_2_orc" text="Aha. {INQUIRY_COMPANION.LINK} tut {?INQUIRY_COMPANION.GENDER}była{?}byŭ{\?}, ale ŭžo {?INQUIRY_COMPANION.GENDER}syšła{?}syšoŭ{\?}! Nibyta {?INQUIRY_COMPANION.GENDER}kazała{?}kazaŭ{\?} pra {COMPANION_SETTLEMENT}, kali chočaš tudy schadzić!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_inside_3_orc" text="Tabie {?INQUIRY_COMPANION.GENDER}takaja{?}taki{\?} treba? Tady ty chočaš {INQUIRY_COMPANION.LINK.}! Tut {?INQUIRY_COMPANION.GENDER}jaje{?}jaho{\?} niama, ale ja znaju, kudy {?INQUIRY_COMPANION.GENDER}jana pajšła{?}jon pajšoŭ{\?}! Znojdzieš {?INQUIRY_COMPANION.GENDER}jaje{?}jaho{\?} ŭ {COMPANION_SETTLEMENT}, dumaju."/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_outside_1_orc" text="Hej, ja znaju! Vuń taja nikčema — {INQUIRY_COMPANION.LINK}. Nibyta jakraz {?INQUIRY_COMPANION.GENDER}taja{?}toj{\?}, chto tabie treba!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_outside_2_orc" text="Kažuć, tut u pakoi jość nikčema {INQUIRY_COMPANION.LINK}, u {?INQUIRY_COMPANION.GENDER}jaje{?}jaho{\?} jakraz tyja navyki, šo ty šukaješ."/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_outside_3_orc" text="Tut u pakoi jość niechta, u kaho, moža być toje, šo tabie treba. Zavuć {INQUIRY_COMPANION.LINK.}."/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_orc" text="To mo kaho ź inšymi navykami?"/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_2_orc" text="A chto šče jość, aproča {INQUIRY_COMPANION.LINK}?"/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_found_orc" text="Hladzi, kab ja pra hetyja {COMPANION_INQUIRY_COST}{GOLD_ICON} nie {?PLAYER.GENDER}paškadavała{?}paškadavaŭ{\?}."/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_not_found_orc" text="Zoh jaho, bieskarysnaja nikčema!"/>
+  <string id="str_tor_tavernkeeper_talk_to_leave_orc" text="Nie patrebna tvaja dapamoha, vali!"/>
+  <string id="str_tor_1972_orc" text="Šo šče chošaš?"/>
+  <string id="str_tor_talk_common_to_tavernmaid_orc" text="Treba štości hrohavaje, bos?"/>
+  <string id="str_tor_talk_common_to_tavernmaid_2_orc" text="Zaraz pryniasu čaho dobraha, bos!"/>
+  <string id="str_tor_talk_common_to_tavernmaid_3_orc" text="Dobraje pojła, bos?"/>
+  <string id="str_tor_tavernmaid_order_food_orc" text="Daj mnie hetaha!"/>
+  <string id="str_tor_tavernmain_order_acknowledge_orc" text="Zaraz ža, bos!"/>
+  <string id="str_tor_tavernmaid_ask_tun_orc" text="Hej, usim maim chłopcam hetaha, zaraz ža!"/>
+  <string id="str_tor_tavernmaid_leave_orc" text="Advali!"/>
+  <string id="str_tor_tavernmaid_give_tun_gold_orc" text="Bos kaža, za heta treba {COST}{GOLD_ICON}."/>
+  <string id="str_tor_tavernmaid_give_tun_gold_2_orc" text="Voś, trymaj, bos!"/>
+  <string id="str_tor_tavernmaid_not_give_tun_gold_orc" text="Vali, jano taho nia varta."/>
+  <string id="str_tor_tavernmaid_best_wishes_orc" text="Dobraja sprava, bos!"/>
+  <string id="str_tor_talk_bard_player_leave_orc" text="Praciahvaj, a to pryrežu."/>
+  <string id="str_tor_tavernkeeper_quest_info_orc" text="Daj padumać... {ISSUE_GIVER_LIST}."/>
+  <string id="str_tor_tavernkeeper_player_thanks_orc" text="Vydatna!"/>
+  <string id="str_tor_tavernkeeper_turndown_orc" text="Ničoha nia {?CONVERSATION_CHARACTER.GENDER}čuła{?}čuŭ{\?}!"/>
+  <string id="str_tor_trainer_spellsinger_start_orc" text="U mianie moc Horka j Morka!"/>
+  <string id="str_tor_barber_start_talk_beggar_orc" text="Hej! Vali, ty vałasianych skvihaŭ złuješ!"/>
+  <string id="str_tor_barber_start_talk_orc" text="Hej! U mianie najlepšyja vałasianyja skvihi ŭ śviecie! Chočaš adnaho? Tannyja!"/>
+  <string id="str_tor_player_accept_haircut_orc" text="Pakažy vałasianych skvihaŭ! ({GOLD_COST}{GOLD_ICON})"/>
+  <string id="str_tor_player_refuse_haircut_orc" text="Vali, nie patrebny mnie durnyja vałasianyja skvihi!"/>
+  <string id="str_tor_barber_ask_if_done_orc" text="Bačyš? Bačyš? Voś heta dobry vałasiany skvih!"/>
+  <string id="str_tor_player_done_with_haircut_orc" text="Hetaha chopić."/>
+  <string id="str_tor_player_not_done_with_haircut_orc" text="Nie, inšych vałasianych skvihaŭ pakažy!"/>
+  <string id="str_tor_barber_no_haircut_talk_orc" text="Dobra! A ciapier vali, pakul maich skvihaŭ nie {?PLAYER.GENDER}razzłavała{?}razzłavaŭ{\?}!"/>
+  <string id="str_tor_barber_haircut_finished_orc" text="{?CONVERSATION_CHARACTER.GENDER}Kazała{?}Kazaŭ{\?} ža, u mianie najlepšyja vałasianyja skvihi! Dobraja reč."/>
+  <string id="str_tor_barber_haircut_no_change_orc" text="Kali chłopcy buduć ź ciabie rahatać, bo nia maješ vałasianych skvihaŭ, — ja tut čakaju!"/>
+  <string id="str_tor_player_no_haircut_finish_talk_orc" text="Advali."/>
+  <string id="str_tor_player_haircut_finish_talk_orc" text="Aha, jak skažaš. Vali."/>
+  <string id="str_tor_town_beggar_to_disguised_character_orc" text="Hej! Kali bosy ŭbačać, šo z taboj bałbaču, znoŭ bić buduć! Advali!"/>
+  <string id="str_tor_town_or_village_talk_to_disguised_character_orc" text="Vali, nikčemny niedarostak-smarkač!"/>
+  <string id="str_tor_town_or_village_talk_beggar_orc" text="Kali łaska, nia bi nahami, bos!"/>
+  <string id="str_tor_town_or_village_talk_orc" text="To šo chočaš?!"/>
+  <string id="str_tor_town_or_village_talk_children_orc" text="Na šo {?PLAYER.GENDER}vyłupiłasia{?}vyłupiŭsia{\?}?!"/>
+  <string id="str_tor_town_or_village_start_2_orc" text="Nudna! Kali nastupny machač?!"/>
+  <string id="str_tor_town_or_village_start_postrumor_liege_orc" text="Šo treba, bos?"/>
+  <string id="str_tor_town_or_village_start_postrumor_children_orc" text="Hej! Advali!"/>
+  <string id="str_tor_town_or_village_start_postrumor_tavern_orc" text="Šo {?PLAYER.GENDER}vyłupiłasia{?}vyłupiŭsia{\?}? Vali j daj hroh dapić!"/>
+  <string id="str_tor_town_or_village_start_postrumor_orc" text="Nudota! Pajdu machač šukać."/>
+  <string id="str_tor_player_run_along_children_1_orc" text="Jak skažaš."/>
+  <string id="str_tor_player_run_along_children_2_orc" text="Advali!"/>
+  <string id="str_tor_player_run_along_children_3_orc" text="Šče tak zrobiš — ruki paadryvaju!"/>
+  <string id="str_tor_player_run_along_children_orc" text="Preč adsiul!"/>
+  <string id="str_tor_player_ask_hero_location_orc" text="Hej! Ja adnaho nikčemu šukaju, i ty mnie skažaš, dzie jon!"/>
+  <string id="str_tor_player_ask_hero_location_di1_orc" text="To kaho šukaješ?"/>
+  <string id="str_tor_player_ask_hero_location_2_continue_orc" text="Ja pra inšaha {?PLAYER.GENDER}dumała{?}dumaŭ{\?}..."/>
+  <string id="str_tor_player_ask_hero_location_2_2_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_player_ask_hero_location_2_2_dwarf" text="Zabudź."/>
+  <string id="str_tor_town_or_village_pretalk_orc" text="Šo šče chošaš?!"/>
+  <string id="str_tor_player_ask_hero_location_3_orc" text="Aha, {HERO.LINK} tut, u fartecy."/>
+  <string id="str_tor_player_ask_hero_location_4_di_orc" text="Advali! Nia znaju, chto heta!"/>
+  <string id="str_tor_player_ask_hero_location_4_orc" text="To pakažy mnie."/>
+  <string id="str_tor_player_ask_hero_location_4_2_orc" text="E, zabudź..."/>
+  <string id="str_tor_player_ask_hero_location_4_2_dwarf" text="Zabudź."/>
+  <string id="str_tor_player_ask_hero_location_5_orc" text="Dobra! Nie adstavaj."/>
+  <string id="str_tor_town_or_village_escort_complete_orc" text="Voś taja nikčema, vuń tam."/>
+  <string id="str_tor_town_or_village_escorting_changed_my_mind_orc" text="Zoh jaho! {?PLAYER.GENDER}Sama{?}Sam{\?} nikčemu znajdu."/>
+  <string id="str_tor_town_or_village_escorting_keep_going_orc" text="Kiń dureć, idzi!"/>
+  <string id="str_tor_town_or_village_escorting_keep_going_dwarf" text="Rušym."/>
+  <string id="str_tor_town_or_village_player_orc" text="Vali!"/>
+  <string id="str_tor_hero_give_issue_orc" text="Hej! {?PLAYER.GENDER}Čuła{?}Čuŭ{\?}, ty maješ turboty. Ja dobra turboty bić umieju."/>
+  <string id="str_tor_issue_offer_player_response_reject_orc" text="Tolki moj čas marnuješ! Vali."/>
+  <string id="str_tor_issue_offer_player_accept_alternative_2_orc" text="To kaho pasyłaješ na hetuju spravu bosam?"/>
+  <string id="str_tor_issue_offer_player_accept_alternative_3_continue_orc" text="Nikoha ź ich! Ja pra inšaha {?PLAYER.GENDER}dumała{?}dumaŭ{\?}..."/>
+  <string id="str_tor_issue_offer_player_accept_go_back_orc" text="Niama chłopcaŭ, kab na takuju duraść marnavać!"/>
+  <string id="str_tor_hero_active_mission_lord_ask_orc" text="Užo {?PLAYER.GENDER}zrabiła{?}zrabiŭ{\?}? Čamu šče tut?!"/>
+  <string id="str_tor_hero_active_mission_response_cont_orc" text="Zatknisia! Ja zrablu heta, pabačyš."/>
+  <string id="str_tor_hero_active_mission_response_failed_orc" text="Łuchta hetaja praca! Šukaj kaho durniejšaha."/>
+  <string id="str_tor_hero_active_mission_failed_orc" text="Lanivaja nikčema! Z vačej maich, pakul žuby nie {?CONVERSATION_CHARACTER.GENDER}pavybivała{?}pavybivaŭ{\?}!"/>
+  <string id="str_tor_lord_special_request_specify_orc" text="Šo?"/>
+  <string id="str_tor_lord_special_request_nevermind_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_lord_special_request_nevermind_dwarf" text="Zabudź."/>
+  <string id="str_tor_hero_no_available_task_orc" text="Advali, mnie ničoha rabić nia treba."/>
+  <string id="str_tor_hero_special_request_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_hero_special_request_dwarf" text="Zabudź."/>
+  <string id="str_tor_valid_vassal_offer_start_orc" text="Doŭha ž ty! Nu, šo skažaš?"/>
+  <string id="str_tor_vassal_offer_player_accepts_response_orc" text="{?PLAYER.GENDER}Hatovaja{?}Hatovy{\?} za taboj iści!"/>
+  <string id="str_tor_vassal_offer_player_declines_response_orc" text="Nie, budu {?PLAYER.GENDER}sama{?}sam{\?} pa sabie."/>
+  <string id="str_tor_vassal_offer_king_response_to_accept_continue_orc" text="Paŭtaraj za mnoj, a to čerap pałamaju!"/>
+  <string id="str_tor_vassal_offer_king_response_to_accept_continue_dwarf" text="Słovy majuć siłu. Pilna słuchaj, što ja kažu i jak ja heta kažu. "/>
+  <string id="str_tor_vassal_offer_player_oath_1_decline_orc" text="Hej! Pačakaj, daj jašče padumać pra heta..."/>
+  <string id="str_tor_vassal_offer_player_oath_2_decline_orc" text="Nia viedaju, daj padumać pra heta..."/>
+  <string id="str_tor_vassal_offer_player_oath_3_decline_orc" text="Nia znaju nakont hetaha, treba padumać."/>
+  <string id="str_tor_vassal_offer_player_oath_4_decline_orc" text="Stoj! Hej! Mnie šče padumać treba!"/>
+  <string id="str_tor_vassal_offer_king_response_to_decline_during_oath_orc" text="Ty duryła, znaješ šo? Chto pačynaje dumać, kali ŭžo Słovy havorać?!"/>
+  <string id="str_tor_vassal_offer_king_response_to_decline_continue_orc" text="Vali, {?PLAYER.GENDER}smarkačka{?}smarkač{\?}."/>
+  <string id="str_tor_vassal_offer_player_accepts_response_2_orc" text="Nu dobra, tady..."/>
+  <string id="str_tor_vassalage_offer_player_is_already_vassal_orc" text="Hej, ty ž užo za {FACTION_NAME} łupišsia!"/>
+  <string id="str_tor_vassalage_offer_player_is_already_vassal_dwarf" text="Słužba Davi — sprava surjoznaja. Pakul ty słužyš inšamu, ty nam nie {?PLAYER.GENDER}patrebnaja{?}patrebny{\?}."/>
+  <string id="str_tor_vassalage_offer_player_is_already_vassal_player_answer_orc" text="A, tak, sapraŭdy, {LORD_SALUTATION}."/>
+  <string id="str_tor_vassalage_offer_player_has_low_relation_orc" text="Chočaš u moj kłan, nikčema?! Har-har! Ty smarkač, {PLAYER.NAME}, vali!"/>
+  <string id="str_tor_vassalage_offer_accepted_orc" text="Ty sapraŭdy {?PLAYER.GENDER}dužaja{?}dužy{\?} ŭ machačy. Ad tvajho žadańnia dałučycca ja až ledź nie {?CONVERSATION_CHARACTER.GENDER}ŭśmichnułasia{?}ŭśmichnuŭsia{\?}! Nu davaj..."/>
+  <string id="str_tor_lord_give_oath_1_player_answer_1_orc" text="{?PLAYER.GENDER}Hatovaja{?}Hatovy{\?}, {LORD.LINK}!"/>
+  <string id="str_tor_lord_give_oath_1_player_answer_2_orc" text="Treba šče padumać, {LORD.LINK}."/>
+  <string id="str_tor_lord_give_oath_2_orc" text="Tady kažy Słovy, kab ja {?CONVERSATION_CHARACTER.GENDER}znała{?}znaŭ{\?}, šo ty nie dureješ z hetym ustupleńniem."/>
+  <string id="str_tor_lord_give_oath_3_answer_2_orc" text="Hej! Pačakaj, daj padumać..."/>
+  <string id="str_tor_1201_orc" text="Nia znaju, daj padumać..."/>
+  <string id="str_tor_1204_orc" text="Nia viedaju, treba padumać."/>
+  <string id="str_tor_1207_orc" text="Stoj! Hej! Mnie šče treba padumać!"/>
+  <string id="str_tor_1210_orc" text="Heta samaje razumnaje, šo ty {?PLAYER.GENDER}zrabiła{?}zrabiŭ{\?}! Trymajsia za mianie — i my ŭvieś śviet rastaŭčom!"/>
+  <string id="str_tor_1211_orc" text="Nie dačakajusia, bos!"/>
+  <string id="str_tor_1220_orc" text="Ciabie ŭ apošnim machačy zanadta mocna stuknuli, {PLAYER.NAME}?! Ty ž {?PLAYER.GENDER}skazała{?}skazaŭ{\?} Słovy! Inšaha chłopca ja za takoje {?CONVERSATION_CHARACTER.GENDER}zabiła b{?}zabiŭ by{\?}, ale kali tabie treba iści..."/>
+  <string id="str_tor_1221_orc" text="Chošaš iści? Pojdzieš — paškaduješ! Nazad nia vaźmu!"/>
+  <string id="str_tor_1222_orc" text="Tak, ja idu adsiul, {LORD_SALUTATION}."/>
+  <string id="str_tor_1223_orc" text="Kali padumać... Lepiej mnie zastacca, {LORD_SALUTATION}."/>
+  <string id="str_tor_1224_orc" text="Aha, lepiej, praŭda? Bolš nie prychodź da mianie z takimi dumkami."/>
+  <string id="str_tor_1225_orc" text="Tak zrobiš — zabiaru tvaje fartecy! Ciapier, peŭna, {?PLAYER.GENDER}pieradumała{?}pieradumaŭ{\?}."/>
+  <string id="str_tor_1226_orc" text="Nie patrebny mnie tyja fartecy!"/>
+  <string id="str_tor_1227_orc" text="Nie, {LORD_SALUTATION}! Ja ž {?PLAYER.GENDER}tvaja dziaŭčo{?}tvoj chłopiec{\?}!"/>
+  <string id="str_tor_player_leave_faction_accepted_orc" text="Dobra. Vali, ale fartecy zabiraju, jak i {?CONVERSATION_CHARACTER.GENDER}skazała{?}skazaŭ{\?}! I ŭ plamionnyja machačy bolš klikać nia budu, {PLAYER.NAME}."/>
+  <string id="str_tor_1229_orc" text="Ty dobry bos. Budu pamiatać našyja dobryja machačy!"/>
+  <string id="str_tor_1230_orc" text="Hetaje plemia j tak było łajno! Ja zvalvaju!"/>
+  <string id="str_tor_player_leaves_faction_orc" text="To vali! Ja ciabie tut i tak nie {?CONVERSATION_CHARACTER.GENDER}chacieła{?}chacieŭ{\?}!"/>
+  <string id="str_tor_village_farmer_pretalk_start_orc" text="Hej! Šo chočaš?"/>
+  <string id="str_tor_village_farmer_pretalk_start_dwarf" text="Čym mahu dapamahčy?"/>
+  <string id="str_tor_village_farmer_buy_products_orc" text="Ja taksama ŭ horad idu. Šo viazieš?"/>
+  <string id="str_tor_village_farmer_specify_products_orc" text="U nas {PRODUCTS}. Chočaš zabrać — płaci {TOTAL_PRICE}{GOLD_ICON}."/>
+  <string id="str_tor_player_decided_to_buy_orc" text="Dobra. Voś {TOTAL_PRICE}{GOLD_ICON}."/>
+  <string id="str_tor_player_decided_not_to_buy_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_player_decided_not_to_buy_dwarf" text="Zabudź."/>
+  <string id="str_tor_village_farmer_loot_orc" text="Addavaj dabro, a to pryrežu!"/>
+  <string id="str_tor_village_farmer_fight_orc" text="Advali! Šče krok — usie žuby z paščy pavybivaju!"/>
+  <string id="str_tor_village_farmer_leave_orc" text="Advali!"/>
+  <string id="str_tor_player_decided_to_fight_villagers_orc" text="Chapajcie ich, chłopcy!"/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_1_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_1_dwarf" text="Zabudź."/>
+  <string id="str_tor_village_farmer_accepted_to_give_some_goods_orc" text="Hej, davaj pahavorym! Voś {TAKE_MONEY_AND_PRODUCT_STRING}."/>
+  <string id="str_tor_player_decided_to_take_some_goods_villagers_orc" text="Chopić."/>
+  <string id="str_tor_player_decided_to_take_everything_villagers_orc" text="Nie, addavaj usio!"/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_2_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_2_dwarf" text="Zabudź."/>
+  <string id="str_tor_village_farmer_fight_no_surrender_orc" text="Narešcie! Uvieś dzień machaču {?CONVERSATION_CHARACTER.GENDER}šukała{?}šukaŭ{\?}!"/>
+  <string id="str_tor_village_farmer_accepted_to_give_everything_orc" text="Stoj, stoj! Mo nie zabivaj nas, ha? Šo chočaš?"/>
+  <string id="str_tor_player_do_not_take_prisoner_villagers_orc" text="Hani ŭsiu zdabyču zaraz ža!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_2_orc" text="Ciapier usie pa kletkach pojdziecie!"/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_orc" text="Hej! My chłopcy {KINGDOM}! Zachopiš nas — paškaduješ!"/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_dwarf" text="Heta aburalna! Za heta budzie kryŭda na ciabie, tvaich prodkaŭ i ŭvieś tvoj rod! Kali nie adpuściš nas, usio {KINGDOM} daviedajecca pra hetkaje złačynstva!"/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_2_orc" text="Kiepskija spravy..."/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_2_dwarf" text="Ty paškaduješ! Hrymnir, barani nas..."/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_2_orc" text="Šče budziecie dureć — na pracu zahaniu! Varušyciesia, čarviaki!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_2_dwarf" text="Maŭčy j varušysia!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_2_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_2_dwarf" text="Zabudź."/>
+  <string id="str_tor_village_farmer_bribery_leave_orc" text="Dobra, my idziem!"/>
+  <string id="str_tor_village_farmer_bribery_leave_dwarf" text="Aj. Tady my rušym."/>
+  <string id="str_tor_village_farmer_surrender_leave_orc" text="Dobra, my idziem!"/>
+  <string id="str_tor_village_farmer_surrender_leave_dwarf" text="Aj. Tady my rušym."/>
+  <string id="str_tor_wanderer_meet_player_response1_orc" text="Hej! Mianie zavuć {PLAYER.NAME}. A ty ŭvohule chto?"/>
+  <string id="str_tor_wanderer_meet_player_response2_orc" text="Kiń dureć i słuchaj šiudy!"/>
+  <string id="str_tor_wanderer_skip_intro_orc" text="Zoh jaho, to šo chočaš?"/>
+  <string id="str_tor_wanderer_job_status_1_orc" text="Šo chočaš, bos?"/>
+  <string id="str_tor_wanderer_job_status_1_2_orc" text="Bos — {EMPLOYER}."/>
+  <string id="str_tor_workshop_1_orc" text="Mahu šče šo dla ciabie zrabić?"/>
+  <string id="str_tor_workshop_1_dwarf" text="Tabie treba štości jašče?"/>
+  <string id="str_tor_workshop_2_orc" text="Jość pytańni."/>
+  <string id="str_tor_workshop_2_dwarf" text="Maju niekalki pytańniaŭ."/>
+  <string id="str_tor_workshop_3_orc" text="Hej! Addaj mnie hetuju majsterniu."/>
+  <string id="str_tor_workshop_3_dwarf" text="Ja {?PLAYER.GENDER}chacieła b{?}chacieŭ by{\?} nabyć hetuju majsterniu."/>
+  <string id="str_tor_workshop_buy_result_orc" text="Nie mahu! {OWNER.LINK} tut bos. Ź {?OWNER.GENDER}joj{?}im{\?} i bałbataj!"/>
+  <string id="str_tor_workshop_buy_result_dwarf" text="Hetaja majsternia naležyć {OWNER.LINK}. Tabie treba pahavaryć ź {?OWNER.GENDER}joj{?}im{\?}."/>
+  <string id="str_tor_workshop_4_orc" text="Šo chočaš?"/>
+  <string id="str_tor_workshop_4_dwarf" text="Vitaju."/>
+  <string id="str_tor_workshop_5_orc" text="To biaromsia za pracu!"/>
+  <string id="str_tor_workshop_5_dwarf" text="Niachaj Prodki ciabie baroniać."/>
+  <string id="str_tor_workshop_7_orc" text="Šo šče chošaš?"/>
+  <string id="str_tor_workshop_7_dwarf" text="Maješ jašče pytańni?"/>
+  <string id="str_tor_workshop_8_orc" text="To chto bos hetaj majsterni?"/>
+  <string id="str_tor_workshop_8_dwarf" text="Kamu naležyć hetaja majsternia?"/>
+  <string id="str_tor_workshop_9_orc" text="Šo vy tut robicie?"/>
+  <string id="str_tor_workshop_9_dwarf" text="Što tut vyrablajuć?"/>
+  <string id="str_tor_workshop_10_orc" text="A šo ŭvohule za štuka hetaja «majsternia»?"/>
+  <string id="str_tor_workshop_10_dwarf" text="Jak pracuje takaja majsternia?"/>
+  <string id="str_tor_workshop_11_orc" text="Nadakučyła! Pra inšaje pahavorym!"/>
+  <string id="str_tor_workshop_11_dwarf" text="Chaču pahavaryć pra inšaje."/>
+  <string id="str_tor_workshop_12_orc" text="{OWNER.LINK} — bos hetaj majsterni."/>
+  <string id="str_tor_workshop_12_dwarf" text="Hetaja majsternia naležyć {OWNER.LINK}."/>
+  <string id="str_tor_workshop_13_orc" text="My — {.%}{WORKSHOP_TYPE}{.%}."/>
+  <string id="str_tor_workshop_13_dwarf" text="Naša miesca pracy — {.%}{WORKSHOP_TYPE}{.%}."/>
+  <string id="str_tor_workshop_14_orc" text="Ciahniem žaleznyja šmaty j usiakuju dreń, zahaniajem raboŭ na pracu, a potym durym usich ichnimi vyrabami. Nahladčyki raboŭ biaruć svaju dolu, a rešta bosu!"/>
+  <string id="str_tor_workshop_14_dwarf" text="Z syraviny my vyrablajem toje, dla čaho pryznačanaja majsternia. Kali kožny majstar atrymaje naležnuju płatu, astatni hal addajom ułaśniku."/>
+  <string id="str_tor_workshop_player_owner_begin_orc" text="Hej, bos! Šo takoje?"/>
+  <string id="str_tor_workshop_player_owner_begin_dwarf" text="Vitaju. {?PLAYER.GENDER}Pryjšła{?}Pryjšoŭ{\?} pahladzieć, jak my pracujem?"/>
+  <string id="str_tor_workshop_26_orc" text="To šo šče chošaš?"/>
+  <string id="str_tor_workshop_26_dwarf" text="Tabie treba niešta jašče?"/>
+  <string id="str_tor_workshop_27_orc" text="Słuchaj! Maju pytańni."/>
+  <string id="str_tor_workshop_27_dwarf" text="Ja {?PLAYER.GENDER}chacieła b{?}chacieŭ by{\?} zadać niekalki pytańniaŭ."/>
+  <string id="str_tor_workshop_28_orc" text="Niachaj raby inšaje robiać!"/>
+  <string id="str_tor_workshop_28_dwarf" text="Chaču, kab hetaja majsternia vyrablała niešta inšaje."/>
+  <string id="str_tor_workshop_29_orc" text="Pradaj hetuju majsterniu."/>
+  <string id="str_tor_workshop_29_dwarf" text="Chaču pradać hetuju majsterniu."/>
+  <string id="str_tor_workshop_30_orc" text="Šo chočaš?"/>
+  <string id="str_tor_workshop_30_dwarf" text="Byvaj {?CONVERSATION_CHARACTER.GENDER}zdarovaja{?}zdarovy{\?}."/>
+  <string id="str_tor_workshop_31_orc" text="Šo takoje?"/>
+  <string id="str_tor_workshop_31_dwarf" text="Da tvaich pasłuhaŭ."/>
+  <string id="str_tor_workshop_32_orc" text="Słuchaju, bos!"/>
+  <string id="str_tor_workshop_32_dwarf" text="Jak žadaješ."/>
+  <string id="str_tor_workshop_33_orc" text="Šče šo {?PLAYER.GENDER}nadumała{?}nadumaŭ{\?}, bos?"/>
+  <string id="str_tor_workshop_33_dwarf" text="Moža, maješ inšyja pytańni?"/>
+  <string id="str_tor_workshop_34_orc" text="Pahavorym pra inšaje."/>
+  <string id="str_tor_workshop_34_dwarf" text="Chaču pahavaryć pra inšaje."/>
+  <string id="str_tor_workshop_35_orc" text="Dajšło, bos! Kali ŭsio pradamo j bliskučki tabie addamo, atrymaješ {PRICE}{GOLD_ICON}. Peŭna chošaš tak, bos?"/>
+  <string id="str_tor_workshop_35_dwarf" text="Kali ty tak {?PLAYER.GENDER}vyrašyła{?}vyrašyŭ{\?}, ja mahu zaraz usio pradać. Vartaść majsterni razam z usim nazapašanym halem — {PRICE}{GOLD_ICON}. Usio atrymaješ ty. Sapraŭdy chočaš heta zrabić?"/>
+  <string id="str_tor_workshop_37_orc" text="Aha, pradaj hetuju kuču łajna!"/>
+  <string id="str_tor_workshop_37_dwarf" text="Tak. Čas pradavać."/>
+  <string id="str_tor_workshop_38_orc" text="Nie, nia varta."/>
+  <string id="str_tor_workshop_38_dwarf" text="Nasamreč ja {?PLAYER.GENDER}pieradumała{?}pieradumaŭ{\?}."/>
+  <string id="str_tor_workshop_41_orc" text="To zaraz tabie dabro addam."/>
+  <string id="str_tor_workshop_41_dwarf" text="Nieadkładna pieradam usie tavary sa składu tvajoj kampanii."/>
+  <string id="str_tor_workshop_42_orc" text="Dobraja sprava!"/>
+  <string id="str_tor_workshop_42_dwarf" text="Dziakuju."/>
+  <string id="str_tor_workshop_39_orc" text="To vali! Ty mnie bolš nia bos. Voś šo tabie naležyć."/>
+  <string id="str_tor_workshop_39_dwarf" text="Zaŭsiody škada bačyć kaniec majsterni. Mahčyma, u budučyni my jašče papracujem razam nad niečym inšym. A pakul ja prasaču, kab astatnija majstry sabralisia."/>
+  <string id="str_tor_workshop_40_orc" text="Razumna, bos. Tolki smarkačy takija majsterni kidajuć."/>
+  <string id="str_tor_workshop_40_dwarf" text="{?CONVERSATION_CHARACTER.GENDER}Rada{?}Rady{\?} heta čuć. Niama nijakaj karyści marnavać takuju dobruju ramiesnuju zału. Kali jana pracuje nia nadta dobra, moža, varta vyrablać niešta inšaje?"/>
+  <string id="str_tor_workshop_41_1_orc" text="Nam treba {COST}{GOLD_ICON} na nieabchodnyja pryłady j raboŭ. {?PLAYER.GENDER}Hatovaja{?}Hatovy{\?}?"/>
+  <string id="str_tor_workshop_41_1_dwarf" text="Jak žadaješ. Ale nam spatrebicca {COST}{GOLD_ICON} na pryłady j majstroŭ. Pačynajem?"/>
+  <string id="str_tor_workshop_42_2_orc" text="Kiń dureć, rabi ŭžo!"/>
+  <string id="str_tor_workshop_42_2_dwarf" text="Tak."/>
+  <string id="str_tor_workshop_43_orc" text="Nie."/>
+  <string id="str_tor_workshop_43_dwarf" text="Nie."/>
+  <string id="str_tor_workshop_44_orc" text="Šo chočaš, kab raby rabili?"/>
+  <string id="str_tor_workshop_44_dwarf" text="Što ty chočaš vyrablać u hetaj majsterni zamiest ciapierašnich tavaraŭ?"/>
+  <string id="str_tor_workshop_45_continue_orc" text="Nivodnaja z hetych majsterniaŭ! Inšaje..."/>
+  <string id="str_tor_workshop_45_continue_dwarf" text="Ja dumaju pra inšy typ majsterni."/>
+  <string id="str_tor_workshop_cancel_orc" text="E-e, zabudź..."/>
+  <string id="str_tor_workshop_cancel_dwarf" text="Zabudź."/>
+  <string id="str_tor_workshop_46_orc" text="Usio hatova, bos! Budzie ŭ nas {.%}{.a}{WORKSHOP_TYPE}{.%}, tolki skažy!"/>
+  <string id="str_tor_workshop_46_dwarf" text="Pierš čym pačniom, treba ŭpeŭnicca: {.%}{.a}{WORKSHOP)TYPE}{.%} — mienavita toje, što ty zamaŭlaješ?"/>
+  <string id="str_tor_workshop_50_orc" text="Kiń dureć i rabi, šo kažu!"/>
+  <string id="str_tor_workshop_50_dwarf" text="Tak."/>
+  <string id="str_tor_workshop_47_orc" text="Sapraŭdy, bos! Z hetymi bliskučkami možna pačynać!"/>
+  <string id="str_tor_workshop_47_dwarf" text="Chaj budzie tak. Hety hal dazvolić nam nieadkładna pačać pracu."/>
+  <string id="str_tor_workshop_48_orc" text="Daj pra heta padumać."/>
+  <string id="str_tor_workshop_48_dwarf" text="Daj mnie padumać."/>
+  <string id="str_tor_workshop_49_orc" text="Stoj. Ja tut šo {?PLAYER.GENDER}ŭspomniła{?}ŭspomniŭ{\?}. My j tak najlepšyja!"/>
+  <string id="str_tor_workshop_49_dwarf" text="Padumaŭšy, ja {?PLAYER.GENDER}vyrašyła{?}vyrašyŭ{\?} nie źmianiać vytvorčaść majsterni."/>
+  <string id="str_tor_workshop_notable_owner_begin_1_orc" text="Hej! Chaču kupić tvaju majsterniu — {.%}{WORKSHOP_NAME}{.%}."/>
+  <string id="str_tor_workshop_notable_owner_begin_1_dwarf" text="Moj kłan pasłaŭ mianie damovicca pra kuplu tvajoj majsterni — {.%}{WORKSHOP_NAME}{.%}."/>
+  <string id="str_tor_workshop_notable_owner_begin_2_orc" text="To kolki za adnaho takoha raba?"/>
+  <string id="str_tor_workshop_notable_owner_begin_2_dwarf" text="Moj kłan pasłaŭ mianie damovicca pra kuplu adnoj tvajoj majsterni."/>
+  <string id="str_tor_workshop_notable_owner_answer_1_single_orc" text="Daj {COST} {GOLD_ICON} — i zabiraj."/>
+  <string id="str_tor_workshop_notable_owner_answer_1_single_dwarf" text="Za hetuju majsterniu prašu {COST} {GOLD_ICON}. Biary abo pakiń."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_orc" text="Aha."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_dwarf" text="Tak."/>
+  <string id="str_tor_workshop_notable_player_buy_negative_orc" text="Nie."/>
+  <string id="str_tor_workshop_notable_player_buy_negative_dwarf" text="Nie."/>
+  <string id="str_tor_workshop_notable_player_buy_negative_end_orc" text="To vali! Niama času na hetyja durnoty!"/>
+  <string id="str_tor_workshop_notable_player_buy_negative_end_dwarf" text="Tady dobra."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_end_orc" text="Usio adno zašmat kłopatu."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_end_dwarf" text="Zamacujem uhodu pierad klatviennym zołatam — i majsternia tvaja."/>
+  <string id="str_tor_workshop_notable_owner_answer_1_multiple_orc" text="Jakuju, nikčema?"/>
+  <string id="str_tor_workshop_notable_owner_answer_1_multiple_dwarf" text="Mahčyma. Pra jakuju majsterniu ty kažaš?"/>
+  <string id="str_tor_workshop_player_select_workshop_continue_orc" text="Nie, taja inšaja!"/>
+  <string id="str_tor_workshop_player_select_workshop_continue_dwarf" text="Nie, ja maju na ŭvazie tvaju..."/>
+  <string id="str_tor_default_conversation_for_wrongly_created_heroes_orc" text="Mnie z taboj bałbatać nielha."/>
+ </strings>
+</base>

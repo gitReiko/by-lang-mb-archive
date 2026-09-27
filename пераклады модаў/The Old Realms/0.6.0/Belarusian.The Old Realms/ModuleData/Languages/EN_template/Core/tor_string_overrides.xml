@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <string id="str_tor_arena_master_tournament_meet_orc" text="Lookin' ta bash some 'eadz? Da fightin' pitz could use more boyz!"/>
+  <string id="str_tor_arena_master_tournament_meet_dwarf" text="Welcome, lad, are you here for the Grozkazak?"/>
+  <string id="str_tor_arena_master_tournament_meet_2_orc" text="You lookin' for a fight? Well da pitz waitin' so get in there!"/>
+  <string id="str_tor_arena_master_tournament_meet_2_dwarf" text="Welcome, lad. If you're here for the Grozkazak, I'm afraid you're too late. Won't be any big fights anytime soon."/>
+  <string id="str_tor_arena_master_meet_no_intro_orc" text="If ya lookin' for da pitz, go towards da screamin'."/>
+  <string id="str_tor_arena_master_meet_no_intro_dwarf" text="Welcome, lad. I can tell you're good arena material, how can I help?"/>
+  <string id="str_tor_arena_master_meet_start_orc" text="Still kickin' eh? Good, da ladz need a good fight!"/>
+  <string id="str_tor_arena_master_meet_start_dwarf" text="{PLAYER.NAME} ,welcome back."/>
+  <string id="str_tor_arena_master_meet_start_2_orc" text="Lookz like you could use anovva' scrap!"/>
+  <string id="str_tor_arena_master_meet_start_2_dwarf" text="Do you want to have another go, lad?"/>
+  <string id="str_tor_arena_intro_1_orc" text="So 'oo heard 'bout any big fightz round 'ere?"/>
+  <string id="str_tor_arena_intro_1_dwarf" text="There's a Grozkazak going on right now?"/>
+  <string id="str_tor_arena_intro_2_orc" text="I's 'eard a fing or two bout da big fightz!"/>
+  <string id="str_tor_arena_intro_2_dwarf" text="The Grozkazak, I've heard of that."/>
+  <string id="str_tor_arena_intro_3_orc" text="I can see da way ya be holdin ya choppa! If you'z itchin for a fight da pit boyz are waitin!"/>
+  <string id="str_tor_arena_intro_3_dwarf" text="Right you are, lad. You have the look of a warrior. You should have a go. There is honour to be gained under Grimnir's gaze, even without bloodshed"/>
+  <string id="str_tor_arena_intro_3a_orc" text="Best way ta git bos round ere' iz winnin da pitz! Not ta mention da shamanz say Gork n' Mork alwayz be watchin in der!"/>
+  <string id="str_tor_arena_intro_3a_dwarf" text="It's a good chance to make your name and clan known around here, honourable battle before the ancestors. I ask, what can be better?"/>
+  <string id="str_tor_arena_intro_4_orc" text="O' course you 'ave, ya squealin' runt, when we ain't lootin' or killin' we's fightin'!"/>
+  <string id="str_tor_arena_intro_4_dwarf" text="Every dawi worth their salt has heard of the Grozkazak. Sparring has ever been a custom amongst our kind. Through the years, entrepreneurial dawi figured out they can get good gold for hosting &quot;sparring sessions&quot; on a greater scale. This eventually evolved into the Grozkazak of today"/>
+  <string id="str_tor_arena_intro_4a_orc" text="But da boss don't wants us to get maimed, so we's bashing each others 'eads in wiv bitz o' wood instead"/>
+  <string id="str_tor_arena_intro_4a_dwarf" text="Of course, we don't want to shed good dawi blood, so we use weapons that have been blunted and made safe for our people to test their prowess without fear of dying in the arena before they can slay our enemies."/>
+  <string id="str_tor_arena_intro_5_orc" text="Da boyz group up an' beat da snot out o' each uvva. There ain't much blood, but da boyz'll come out lookin' betta!"/>
+  <string id="str_tor_arena_intro_5_dwarf" text="It’s team bouts; hard hits, loud cheers, and not many funerals. Crowd may miss the blood, but the lads keep their teeth."/>
+  <string id="str_tor_arena_intro_5a_orc" text="If yoo wants to git known 'round 'ere ya wants to win. Da boyz throw in teef an bits o' scrap to make sure da boyz git a proppa fight"/>
+  <string id="str_tor_arena_intro_5a_dwarf" text="You a dawi, hah? Prove it in the ring and make a name, the gal jingling after is only a bonus."/>
+  <string id="str_tor_arena_intro_6_orc" text="Wen there's no big fight, da boyz still come to have a scrap to git ready for da next big fight. We's even throw in a few teef if dey does well"/>
+  <string id="str_tor_arena_intro_6_dwarf" text="Even without a Grozkazak, the hall’s worth a visit. Lads train here all day, and we toss a few coins to those who prove their guts."/>
+  <string id="str_tor_arena_tournament_rules_orc" text="Anyfin' I need ta know bout da big fightz?"/>
+  <string id="str_tor_arena_tournament_rules_dwarf" text="Walk me through how Grozkarak are done."/>
+  <string id="str_tor_arena_practice_fight_rules_orc" text="Iz der sumfin' special bout scrappin in da pitz?"/>
+  <string id="str_tor_arena_practice_fight_rules_dwarf" text="How do you run warm-ups?"/>
+  <string id="str_tor_arena_prizes_orc" text="So wot ya sayin' iz I get ta keep any teef I knock out?"/>
+  <string id="str_tor_arena_prizes_dwarf" text="No dawi throws gal away, what’s your return?"/>
+  <string id="str_tor_arena_prizes_2_orc" text="Nuff talkin! I got betta fings ta do!"/>
+  <string id="str_tor_arena_prizes_2_dwarf" text="Enough said, let's get into it."/>
+  <string id="str_tor_arena_master_reminder_orc" text="Wot you want?"/>
+  <string id="str_tor_arena_master_reminder_dwarf" text="Well, lad?"/>
+  <string id="str_tor_arena_prizes_answer_orc" text="There's a few boyz who likes ta bet a couple o' teef on da scraps we got goin' on. But da big fights draws boyz from all ova'! Da boyz luv da big fights an' dey cough up lotsa teef to da biggest boyz beat each uvva up"/>
+  <string id="str_tor_arena_prizes_answer_dwarf" text="A few will wager on sparring, but the Grozkazak is what draws the true regard. The vithang backs it generously, and those who can carry their courage through the bout get their share."/>
+  <string id="str_tor_arena_training_practice_fight_intro_orc" text="Da rulez iz da same across all da camps. Either yoo is part o' a team or yoo iz not, we decides by pulling squig teef."/>
+  <string id="str_tor_arena_training_practice_fight_intro_dwarf" text="The rules are much the same across the Karaz Ankor. Names go in, lots come out. One round you’ll have kin at your side, the next you’ll be fighting on your own."/>
+  <string id="str_tor_arena_training_practice_fight_intro_1c_orc" text="Da teef also says what gear yoo's usin'. If ya win, ya move up ta fight in da next scrap"/>
+  <string id="str_tor_arena_training_practice_fight_intro_1c_dwarf" text="Weapons are by lot, same as the matchups. Winners go on; the final pair settle the crown."/>
+  <string id="str_tor_arena_training_practice_fight_intro_1a_orc" text="If yoo wants ta scrap yoo's can git there an' start fightin' anyone yoo sees. It ends when there's only 'un boy left standin'. Fun, huh?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_1a_dwarf" text="The sparring is simple. All in, no teams, no breaks; until there’s only one left on his feet."/>
+  <string id="str_tor_arena_training_practice_fight_intro_2_orc" text="Is there anyfin' shiny fer winning 'unna dem big fightz?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_2_dwarf" text="How large is the purse for the Grozkazak?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_3_orc" text="Wotcha get from pit scrappin'?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_3_dwarf" text="Any gal for the sparring?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_4_orc" text="Right den... I fink I get it!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_4_dwarf" text="Alright then. I understand."/>
+  <string id="str_tor_arena_training_practice_fight_intro_5_orc" text="I wanna get ta bashin'!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_5_dwarf" text="Put my name in, then."/>
+  <string id="str_tor_arena_training_practice_fight_intro_6_orc" text="Right den! Da ladz iz already at it in da pitz! Just 'op right in an' get ta swingin'!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_6_dwarf" text="If you’re set on it, step in lad. There’s a sparring going on; now or later, your choice."/>
+  <string id="str_tor_arena_training_practice_fight_intro_7_orc" text="Den get in da pit ya git! Cause if ye try swingin' on me I'll crack yer jaw!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_7_dwarf" text="The hall’s open to tough beards. There’s sparring underway; step in, or return for the Grozkazak."/>
+  <string id="str_tor_arena_master_pre_talk_explain_orc" text="Ye wanna know da rulez o' da pit?"/>
+  <string id="str_tor_arena_master_pre_talk_explain_dwarf" text="Is there anything else?"/>
+  <string id="str_tor_arena_master_ask_what_to_do_orc" text="Wotcha feel like, den?"/>
+  <string id="str_tor_arena_master_ask_what_to_do_dwarf" text="Tell me what you need."/>
+  <string id="str_tor_arena_master_sign_up_tournament_orc" text="Get me in da big fight! I'm tryin' ta scrap!"/>
+  <string id="str_tor_arena_master_sign_up_tournament_dwarf" text="I would enter my name for the Grozkazak!"/>
+  <string id="str_tor_arena_master_ask_for_practice_fight_fight_orc" text="I's itchin' ta hit somefing, get me in da pitz!"/>
+  <string id="str_tor_arena_master_ask_for_practice_fight_fight_dwarf" text="My az hand itches, is there a sparring bout I could join?"/>
+  <string id="str_tor_arena_master_ask_tournaments_orc" text="So ya 'eard 'bout any o' dem big fightz 'round 'ere?"/>
+  <string id="str_tor_arena_master_ask_tournaments_dwarf" text="Is there another Grozkazak in any nearby holds?"/>
+  <string id="str_tor_arena_master_remind_something_orc" text="Bout dat fing you said..."/>
+  <string id="str_tor_arena_master_remind_something_dwarf" text="Just a moment ago, you said..."/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_confirm_orc" text="Den get in there an' quit ya yammerin'!"/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_confirm_dwarf" text="Be on, then. Grab a blunted weapon and remember the rules."/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_decline_orc" text="Da pitz iz bein' used for da big fight right now. Come back lata!"/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_decline_dwarf" text="There is no sparring during the Grozkazak."/>
+  <string id="str_tor_arena_master_enter_tournament_orc" text="Good, ya lookin' right proppa for da big fight! Now get in there an' bash some 'eadz!"/>
+  <string id="str_tor_arena_master_enter_tournament_dwarf" text="Alright then. Your name will be written. Honour to you."/>
+  <string id="str_tor_arena_master_enter_practice_fight_confirm_orc" text="Right den."/>
+  <string id="str_tor_arena_master_enter_practice_fight_confirm_dwarf" text="Yes."/>
+  <string id="str_tor_arena_master_enter_practice_fight_decline_orc" text="Eh, nevamind!"/>
+  <string id="str_tor_arena_master_enter_practice_fight_decline_dwarf" text="Perhaps I should not, this time."/>
+  <string id="str_tor_arena_master_enter_tournament_confirm_orc" text="Dun worry, I'll be ready!"/>
+  <string id="str_tor_arena_master_enter_tournament_confirm_dwarf" text="I stand ready."/>
+  <string id="str_tor_arena_master_enter_tournament_decline_orc" text="Changed me mind, dun wanna do it!"/>
+  <string id="str_tor_arena_master_enter_tournament_decline_dwarf" text="Given more thought to it, I must decline."/>
+  <string id="str_tor_arena_join_fight_orc" text="Ye, why not?"/>
+  <string id="str_tor_arena_join_fight_dwarf" text="I see no reason to refuse."/>
+  <string id="str_tor_2593_orc" text="Nah, I's got betta fingz ta do den fight dese wimpz!"/>
+  <string id="str_tor_2593_dwarf" text="Aye, lad, I would love to. But let's save this for another day."/>
+  <string id="str_tor_2594_orc" text="Pah! Runt."/>
+  <string id="str_tor_2594_dwarf" text="Your ancestor must look disappointed at you."/>
+  <string id="str_tor_arena_intro_7_orc" text="An' if ya wants to know 'ow ta 'old a choppa da proppa way ya come see me, we's got all kindsa boyz ya can pick up &quot;tek neeks&quot; from"/>
+  <string id="str_tor_arena_intro_7_dwarf" text="There is much to learn in this place. If you watch the Langktrommi closely, you might learn a thing or two. You could ask one of them to help you improve. "/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_orc" text="Dese lads wiv &quot;tek neeks&quot; are dey about?"/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_dwarf" text="Which of the honourable Langktrommi has the time and where would I find him?"/>
+  <string id="str_tor_arena_master_ask_retrain_orc" text="Right, you mean fer you or anovva?"/>
+  <string id="str_tor_arena_master_ask_retrain_dwarf" text="Right then. Is it you that needs assistance or one of your Ongruni?"/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_2_orc" text="Fer me, ya git!"/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_2_dwarf" text="Aye, that's for me."/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_orc" text="Fer dat git ova there, {COMPANION.NAME}"/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_dwarf" text="Aye, for my Ongrun {COMPANION.NAME}."/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_2_orc" text="You fink you can teach 'unna my boyz a fing or two?"/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_2_dwarf" text="Most honoured one, could you help one of my Ongruni improve their abilities?"/>
+  <string id="str_tor_arena_master_retrain_ask_clan_member_orc" text="Ye I can give 'em a few scarz! Whoz it den?"/>
+  <string id="str_tor_arena_master_retrain_ask_clan_member_dwarf" text="Sure thing, who needs improvement?"/>
+  <string id="str_tor_arena_master_select_clan_member_continue_orc" text="Ah, wait, not dat 'un..."/>
+  <string id="str_tor_arena_master_select_clan_member_continue_dwarf" text="How about something different?"/>
+  <string id="str_tor_arena_master_select_clan_member_cancel_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_arena_master_select_clan_member_cancel_dwarf" text="Forget it."/>
+  <string id="str_tor_arena_master_reset_attribute_orc" text="Wot &quot;Tek neek&quot; iz dis?"/>
+  <string id="str_tor_arena_master_reset_attribute_dwarf" text="Please explain this technique, what does it entail?"/>
+  <string id="str_tor_arena_master_select_attribute_continue_orc" text="I want somefing else."/>
+  <string id="str_tor_arena_master_select_attribute_continue_dwarf" text="No, I don't need that, I need something else."/>
+  <string id="str_tor_arena_master_select_attribute_cancel_orc" text="Not now!"/>
+  <string id="str_tor_arena_master_select_attribute_cancel_dwarf" text="Nuf nu."/>
+  <string id="str_tor_arena_master_reset_perks_orc" text="I know's a lad, what &quot;tek neek&quot; you finkin'?"/>
+  <string id="str_tor_arena_master_reset_perks_dwarf" text="Of course. What is it they should learn?"/>
+  <string id="str_tor_arena_master_select_skill_orc" text="I wants {SKILL_NAME}."/>
+  <string id="str_tor_arena_master_select_skill_dwarf" text="{SKILL_NAME} would be best."/>
+  <string id="str_tor_arena_master_select_skill_continue_orc" text="I want somefin' else."/>
+  <string id="str_tor_arena_master_select_skill_continue_dwarf" text="Maybe something else instead."/>
+  <string id="str_tor_arena_master_select_skill_cancel_orc" text="Not now!"/>
+  <string id="str_tor_arena_master_select_skill_cancel_dwarf" text="Maybe another time."/>
+  <string id="str_tor_arena_master_pay_for_reset_orc" text="If yoo's gots {GOLD_AMOUNT} {GOLD_ICON}, I'll show ya!"/>
+  <string id="str_tor_arena_master_pay_for_reset_dwarf" text="For the right amount of {GOLD_AMOUNT} {GOLD_ICON} I can show you."/>
+  <string id="str_tor_arena_master_accept_perk_reset1_orc" text="Yea!"/>
+  <string id="str_tor_arena_master_accept_perk_reset1_dwarf" text="I'm sure."/>
+  <string id="str_tor_arena_master_reject_perk_reset2_orc" text="Not rite now."/>
+  <string id="str_tor_arena_master_reject_perk_reset2_dwarf" text="I must decline."/>
+  <string id="str_tor_arena_master_perk_reset_closure_orc" text="Gud, wot else?"/>
+  <string id="str_tor_arena_master_perk_reset_closure_dwarf" text="Durak! What else can I aid you with?"/>
+  <string id="str_tor_arena_master_perk_reset_final1_orc" text="I wants to work on anuvver &quot;tek neek&quot;."/>
+  <string id="str_tor_arena_master_perk_reset_final1_dwarf" text="I need improvement in a different field."/>
+  <string id="str_tor_arena_master_perk_reset_final2_orc" text="I wants 'unna me boyz to learn a &quot;tek neek&quot;."/>
+  <string id="str_tor_arena_master_perk_reset_final2_dwarf" text="One of my Ongruni needs to improve in a certain field."/>
+  <string id="str_tor_arena_master_perk_reset_final3_orc" text="Dat's enuff!"/>
+  <string id="str_tor_arena_master_perk_reset_final3_dwarf" text="You have done more than I could ask for, you have my gratitude."/>
+  <string id="str_tor_arena_master_leave_orc" text="I's gettin' outta 'ere."/>
+  <string id="str_tor_arena_master_leave_dwarf" text="I have to bid you farewell."/>
+  <string id="str_tor_arena_master_ask_tournaments_2_orc" text="I 'avent 'eard any big fights 'round 'ere. Doubt there will be 'un fer a bit!"/>
+  <string id="str_tor_arena_master_ask_tournaments_2_dwarf" text="Our axes rest now. You should as well."/>
+  <string id="str_tor_bandit_start_defender_1_orc" text="I 'aven't bashed a skull in a bit... Yer'z will 'ave ta do!"/>
+  <string id="str_tor_bandit_start_defender_1_dwarf" text="My axe will taste your blood today!"/>
+  <string id="str_tor_bandit_start_defender_2_orc" text="Yoo's a lucky git! We's not in a bashin' mood... yet."/>
+  <string id="str_tor_bandit_start_defender_2_dwarf" text="Stop, let's be gnol today. We can come to an agreement."/>
+  <string id="str_tor_common_encounter_fight_orc" text="You'z not even worth me worst choppa! Git outta ere'!"/>
+  <string id="str_tor_common_encounter_fight_dwarf" text="I'm not going to waste my time with you. You can go."/>
+  <string id="str_tor_common_encounter_ultimatum_we_can_join_you_orc" text="Oi! Lookz like you'z got a lotta ladz! Mind if we join yaz for a scrap er two?"/>
+  <string id="str_tor_common_encounter_ultimatum_we_can_join_you_dwarf" text="A wise dawi knows when he's defeated. Will you accept us into your army?"/>
+  <string id="str_tor_common_encounter_ultimatum_war_orc" text="Yoo's a lucky git! We's not in a bashin' mood... yet."/>
+  <string id="str_tor_common_encounter_ultimatum_war_dwarf" text="A dawi never gives up his life without a fight!"/>
+  <string id="str_tor_common_bandit_join_player_accepted_orc" text="Get in line wiv' da rest o' da ladz if ya know what'z good for ya..."/>
+  <string id="str_tor_common_bandit_join_player_accepted_dwarf" text="Together we'll be stronger, no doubt. But I'll be watching you."/>
+  <string id="str_tor_common_bandit_join_player_declined_1_orc" text="I's don't need weak fings like you in da mob!"/>
+  <string id="str_tor_common_bandit_join_player_declined_1_dwarf" text=" You dare insult my intelligence? You will pay dearly for this grudge!"/>
+  <string id="str_tor_common_bandit_join_player_declined_2_orc" text="Only fing youz' worth iz' practice for me choppa!"/>
+  <string id="str_tor_common_bandit_join_player_declined_2_dwarf" text="Never. My honor demands that accounts be settled here and now."/>
+  <string id="str_tor_common_bandit_join_player_leave_orc" text="Get outta ere'!"/>
+  <string id="str_tor_common_bandit_join_player_leave_dwarf" text="It doesn't matter."/>
+  <string id="str_tor_common_encounter_declined_looters_to_join_war_surrender_orc" text="W-we wuzn't tryin' ta kill ya, haha... We was just uh, elpin' you practice! No ard' feelinz ey?"/>
+  <string id="str_tor_common_encounter_declined_looters_to_join_war_surrender_dwarf" text="Stay calm. Please treat us with dignity."/>
+  <string id="str_tor_common_encounter_ultimatum_war_2_orc" text="I ain't gonna be pushed around by a git like you! C'mere den! Gork n' Mork gonna dance on ya corpse!"/>
+  <string id="str_tor_common_encounter_ultimatum_war_2_dwarf" text="Wanaz! If we have to die today, we will do so fighting."/>
+  <string id="str_tor_bandit_attacker_try_leave_success_orc" text="We's got more killin ta do diz way! C'mon boyz!"/>
+  <string id="str_tor_bandit_attacker_try_leave_success_dwarf" text="We do not fret bloodshed, but it is good we could avoid this unnecessary conflict. Farewell."/>
+  <string id="str_tor_bandit_attacker_try_leave_fail_orc" text="You'z not gettin away dat eazee!"/>
+  <string id="str_tor_bandit_attacker_try_leave_fail_dwarf" text="That's a Grudge for trying to bribe us, and another Grudge for offering too little!"/>
+  <string id="str_tor_blacksmith_begin_orc" text="What you be doin 'ere? Need somefin?"/>
+  <string id="str_tor_blacksmith_begin_dwarf" text="Greetings, what can I do for you?"/>
+  <string id="str_tor_blacksmith_craft_items_orc" text="I's needin' some new iron, an' I 'eard your da git ta go ta!"/>
+  <string id="str_tor_blacksmith_craft_items_dwarf" text="I would like to use your grungronazi."/>
+  <string id="str_tor_blacksmith_leave_orc" text="I got somefin' betta ta do."/>
+  <string id="str_tor_blacksmith_leave_dwarf" text="Nuf nu."/>
+  <string id="str_tor_blacksmith_player_after_craft_accept_orc" text="Diz betta work! 'eres ya teef den!"/>
+  <string id="str_tor_blacksmith_player_after_craft_accept_dwarf" text="That's not bad Okrul, I suppose you've earned this. "/>
+  <string id="str_tor_blacksmith_player_after_craft_anything_else_orc" text="Don't ya worry! Dat'z a nice proppa piece that!"/>
+  <string id="str_tor_blacksmith_player_after_craft_anything_else_dwarf" text="Good pay for good work, that is how I like it. Anything else I can do for you?"/>
+  <string id="str_tor_blacksmith_craft_items_1_orc" text="I need ye ta make me anovva' fing!"/>
+  <string id="str_tor_blacksmith_craft_items_1_dwarf" text="I want to employ you for another piece."/>
+  <string id="str_tor_blacksmith_leave_1_orc" text="I'm outta 'ere!"/>
+  <string id="str_tor_blacksmith_leave_1_dwarf" text="Farewell."/>
+  <string id="str_tor_lord_player_play_game_orc" text="Oi! Wanna try somefin? Found a fing wot lookz interestin! Tink da 'umiez call it {GAME_NAME}, wanna try it?"/>
+  <string id="str_tor_lord_player_play_game_dwarf" text="How about a round of {GAME_NAME}, Barak Varr ruleset? Maybe with a little Dar?"/>
+  <string id="str_tor_lord_player_cancel_boardgame_orc" text="I'd 'ave you swallow yer own teef 'for I touch dat 'umie fing ya git!"/>
+  <string id="str_tor_lord_player_cancel_boardgame_dwarf" text="Nai, maybe another time. "/>
+  <string id="str_tor_lord_player_ask_to_play_boardgame_again_orc" text="Huh, not bad... wanna try dis {GAME_NAME} again?"/>
+  <string id="str_tor_lord_player_ask_to_play_boardgame_again_dwarf" text="Another round? You know you cannae stand on one leg."/>
+  <string id="str_tor_player_caravan_talk_start_orc" text="Need somefin?"/>
+  <string id="str_tor_player_caravan_talk_start_dwarf" text="What can I do for you?"/>
+  <string id="str_tor_player_caravan_trade_rumors_orc" text="You 'eard bout anyfin' worth sum teef?"/>
+  <string id="str_tor_player_caravan_trade_rumors_dwarf" text="What news of the Urbazi?"/>
+  <string id="str_tor_player_caravan_talk_player_thank_orc" text="Now, wot else ye be needin'?"/>
+  <string id="str_tor_player_caravan_talk_player_thank_dwarf" text="Can I do something else for you?"/>
+  <string id="str_tor_player_caravan_talk_not_leave_orc" text="Ye, I wanna know 'bout..."/>
+  <string id="str_tor_player_caravan_talk_not_leave_dwarf" text="`Tell me about..."/>
+  <string id="str_tor_player_caravan_talk_leave_orc" text="Nah! Get outta me face!"/>
+  <string id="str_tor_player_caravan_talk_leave_dwarf" text="Safe travels, may Valaya watch over you."/>
+  <string id="str_tor_player_caravan_nevermind_orc" text="Ah, nevamind!"/>
+  <string id="str_tor_player_caravan_nevermind_dwarf" text="Ah, nothing."/>
+  <string id="str_tor_caravan_pretalk_orc" text="Don't tell me ye wanna talk more..."/>
+  <string id="str_tor_caravan_pretalk_dwarf" text="What else do you need of us dawi?"/>
+  <string id="str_tor_caravan_buy_products_orc" text="Shut it, n' tell me 'bout what loot ye got!"/>
+  <string id="str_tor_caravan_buy_products_dwarf" text="I'm something of a trader meself. Tell me, what wares do you peddle?"/>
+  <string id="str_tor_caravan_trade_rumors_orc" text="You been 'round! What do da ladz be wantin' dez dayz?"/>
+  <string id="str_tor_caravan_trade_rumors_dwarf" text="Tell me about your Drinit. What news of the Urbazi?"/>
+  <string id="str_tor_caravan_trade_rumors_player_answer_orc" text="Right den!"/>
+  <string id="str_tor_caravan_trade_rumors_player_answer_dwarf" text="Thank you for your Gnul."/>
+  <string id="str_tor_caravan_talk_player_thank_orc" text="We done 'ere? Or do I gotta listen to ya yap more?"/>
+  <string id="str_tor_caravan_talk_player_thank_dwarf" text="Of course. Any more questions?"/>
+  <string id="str_tor_caravan_loot_orc" text="Oi! Drop ye loot or get ready ta scrap!"/>
+  <string id="str_tor_caravan_loot_dwarf" text="I suggest you hand over whatever you carry, or else this will get very ugly."/>
+  <string id="str_tor_caravan_talk_leave_orc" text="Eh, ye not worth da time anyway!"/>
+  <string id="str_tor_caravan_talk_leave_dwarf" text="Never mind, I have no use for that umgak."/>
+  <string id="str_tor_caravan_player_trade_end_orc" text="Great, now get out me way! Da boss be wantin' da rest o' dis loot!"/>
+  <string id="str_tor_caravan_player_trade_end_dwarf" text="Good, good. Another successful business."/>
+  <string id="str_tor_caravan_player_trade_end_response_orc" text="Ye, ye, whateva!"/>
+  <string id="str_tor_caravan_player_trade_end_response_dwarf" text="Valaya bless the Drini you walk. "/>
+  <string id="str_tor_caravan_fight_orc" text="You fink we's just gonna let ya take our loot eh? Ye sooner get me choppa in yer 'ead! [rf:idle_angry][ib:aggressive]"/>
+  <string id="str_tor_caravan_fight_dwarf" text="We are sworn to protect this caravan and its contents. "/>
+  <string id="str_tor_player_decided_to_fight_orc" text="Good, I wuz itchin' fer a fight!"/>
+  <string id="str_tor_player_decided_to_fight_dwarf" text="Alright then. Dawi, attack!"/>
+  <string id="str_tor_player_decided_to_not_fight_1_orc" text="Nah, doubt ye got any good lootz anyway, now get!"/>
+  <string id="str_tor_player_decided_to_not_fight_1_dwarf" text="We're not looking for a fight, rest easy. Ancestors smile upon ya."/>
+  <string id="str_tor_caravan_accepted_to_give_some_goods_orc" text="Da boss be expectin dis loot but, 'spose we coulda lost dis on da way. {TAKE_MONEY_AND_PRODUCT_STRING} [rf:idle_angry][ib:nervous]"/>
+  <string id="str_tor_caravan_accepted_to_give_some_goods_dwarf" text="Though it pains me to part with my gold, I suppose I can make more if I stay alive. "/>
+  <string id="str_tor_player_decided_to_take_some_goods_orc" text="Ye, best start leggin' it den. Don't want your boss ta get too angry..."/>
+  <string id="str_tor_player_decided_to_take_some_goods_dwarf" text="It is... acceptable. "/>
+  <string id="str_tor_player_decided_to_take_everything_orc" text="Nah, ye loot wagons look like dey got some shineyz in there. I's gonna take 'em all!"/>
+  <string id="str_tor_player_decided_to_take_everything_dwarf" text="Give me all ya got in there!"/>
+  <string id="str_tor_player_decided_to_not_fight_2_orc" text="Lookin' at ye wagons... feel like ye boss iz gonna give ye more problems den me. Get outta 'ere!"/>
+  <string id="str_tor_player_decided_to_not_fight_2_dwarf" text="You misunderstood. Listen more closely next time, and now git!"/>
+  <string id="str_tor_caravan_fight_no_surrender_orc" text="Great! Lookz like da scrapz comin ta us boyz, get ya choppaz ready! [rf:idle_angry][ib:aggressive]"/>
+  <string id="str_tor_caravan_fight_no_surrender_dwarf" text="Curse be upon you, we'll die before ye take what's ours!"/>
+  <string id="str_tor_caravan_accepted_to_give_everything_orc" text="R-right 'den... Ye can take a look in da wagons. Stand down boyz!"/>
+  <string id="str_tor_caravan_accepted_to_give_everything_dwarf" text="Shame on me, but this is a fight we cannae win. Take what you want and hope that we won't settle this grudge during your lifetime."/>
+  <string id="str_tor_player_do_not_take_prisoners_orc" text="Ya loot wagons iz mine now, you 'ear?"/>
+  <string id="str_tor_player_do_not_take_prisoners_dwarf" text="Wel'll take that now, and we're not asking."/>
+  <string id="str_tor_player_decided_to_take_prisoner_orc" text="Lookz like you're mine now!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_dwarf" text="You're our guests now. Don't worry, we will treat you according to your... status. "/>
+  <string id="str_tor_caravan_warn_player_to_take_prisoner_orc" text="Youz done it now! Da boyz in {KINGDOM} ain't gonna take lightly to losin' deir loot wagons!"/>
+  <string id="str_tor_caravan_warn_player_to_take_prisoner_dwarf" text="The {KINGDOM} shall hear about this! There'll be grudges written about you for this plundering!"/>
+  <string id="str_tor_caravan_do_not_warn_player_orc" text="Gork n' Mork! Protect uz!"/>
+  <string id="str_tor_caravan_do_not_warn_player_dwarf" text="Ancestors, guide our axes against their filth!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_orc" text="Go on now."/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_dwarf" text="Continue."/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_orc" text="Neva mind!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_dwarf" text="Forget it."/>
+  <string id="str_tor_caravan_bribery_leave_orc" text="We's leavin' now er wot?"/>
+  <string id="str_tor_caravan_bribery_leave_dwarf" text="Can we get moving now?"/>
+  <string id="str_tor_caravan_surrender_leave_orc" text="We's leavin' now er wot?"/>
+  <string id="str_tor_caravan_surrender_leave_dwarf" text="Can we get moving now?"/>
+  <string id="str_tor_clan_member_follow_orc" text="Afta' me!"/>
+  <string id="str_tor_clan_member_follow_dwarf" text="Let's go together."/>
+  <string id="str_tor_clan_member_dont_follow_orc" text="Go off an' do yer fing!"/>
+  <string id="str_tor_clan_member_dont_follow_dwarf" text="Stop! Separate yourselves."/>
+  <string id="str_tor_clan_members_follow_orc" text="Go get da ladz n' get back ere'!"/>
+  <string id="str_tor_clan_members_follow_dwarf" text="Summon our thanes and seek me out in the settlement."/>
+  <string id="str_tor_clan_members_dont_follow_orc" text="All o' youz get back ta what you waz doin!"/>
+  <string id="str_tor_clan_members_dont_follow_dwarf" text="Enough. You can return to your business."/>
+  <string id="str_tor_clan_member_gather_clan_members_accept_orc" text="Right boss!"/>
+  <string id="str_tor_clan_member_gather_clan_members_accept_dwarf" text="By my honour!"/>
+  <string id="str_tor_clan_member_follow_accept_orc" text="Afta' you boss!"/>
+  <string id="str_tor_clan_member_follow_accept_dwarf" text="I shall follow you."/>
+  <string id="str_tor_clan_member_dont_follow_accept_orc" text="No problem boss!"/>
+  <string id="str_tor_clan_member_dont_follow_accept_dwarf" text="Yes, my thane."/>
+  <string id="str_tor_clan_members_dont_follow_accept_orc" text="Alright boss!"/>
+  <string id="str_tor_clan_members_dont_follow_accept_dwarf" text="Yes, my thane."/>
+  <string id="str_tor_clan_member_manage_troops_orc" text="Lemme see da ladz'!"/>
+  <string id="str_tor_clan_member_manage_troops_dwarf" text="Let me take a gander at our company."/>
+  <string id="str_tor_companion_start_grievance_orc" text="Oi, boss! I need ta say somefing!"/>
+  <string id="str_tor_companion_start_grievance_dwarf" text="{TITLE}, there is something we need to talk about."/>
+  <string id="str_tor_companion_rejoin_orc" text="No problem boss!"/>
+  <string id="str_tor_companion_rejoin_dwarf" text="Ai, anu!"/>
+  <string id="str_tor_companion_start_role_orc" text="I's got a new job fer ye..."/>
+  <string id="str_tor_companion_start_role_dwarf" text="There is something else you could do for the clan..."/>
+  <string id="str_tor_companion_talk_fire_orc" text="I dun want a weaklin like you runnin round 'ere no more."/>
+  <string id="str_tor_companion_talk_fire_dwarf" text="You are relieved of your position."/>
+  <string id="str_tor_companion_talk_fire_2_orc" text="You'z gettin a promotion!"/>
+  <string id="str_tor_companion_talk_fire_2_dwarf" text="Your skills are better suited for this position."/>
+  <string id="str_tor_companion_assign_new_role_orc" text="Ta wot, boss?"/>
+  <string id="str_tor_companion_assign_new_role_dwarf" text="What position to you have in mind?"/>
+  <string id="str_tor_companion_talk_fire_3_orc" text="Eh... I forgot, doesn't matta!"/>
+  <string id="str_tor_companion_talk_fire_3_dwarf" text="Ah, nuf. "/>
+  <string id="str_tor_companion_becomes_engineer_orc" text="No more tinkerin' fer you!"/>
+  <string id="str_tor_companion_becomes_engineer_dwarf" text="I have no need for your dibnin."/>
+  <string id="str_tor_companion_becomes_surgeon_orc" text="Your 'ealin' dayz iz ovva!"/>
+  <string id="str_tor_companion_becomes_surgeon_dwarf" text="Your healing displeases Valaya."/>
+  <string id="str_tor_companion_becomes_quartermaster_orc" text="You'z no longa camp boss!"/>
+  <string id="str_tor_companion_becomes_quartermaster_dwarf" text="I no longer need you as Throngvithang."/>
+  <string id="str_tor_companion_becomes_scout_orc" text="I dun need a scout no more!"/>
+  <string id="str_tor_companion_becomes_scout_dwarf" text="I no longer need you as Undi."/>
+  <string id="str_tor_companion_role_response_orc" text="Fine, den!"/>
+  <string id="str_tor_companion_role_response_dwarf" text="Ai, I'll do that."/>
+  <string id="str_tor_companion_role_response_2_orc" text="Anyfin' fer you boss!"/>
+  <string id="str_tor_companion_role_response_2_dwarf" text="Your wish is my order."/>
+  <string id="str_tor_companion_talk_return_orc" text="Neva mind!"/>
+  <string id="str_tor_companion_talk_return_dwarf" text="Ah, nuf."/>
+  <string id="str_tor_companion_start_mission_orc" text="I 'eard somefin ye might wanna 'ear!"/>
+  <string id="str_tor_companion_start_mission_dwarf" text="There's a special assignment for you."/>
+  <string id="str_tor_companion_pretalk_2_orc" text="Whatcha need boss?"/>
+  <string id="str_tor_companion_pretalk_2_dwarf" text="What is it you need me to do?"/>
+  <string id="str_tor_companion_mission_gather_troops_orc" text="I need ya ta gatha more boyz!"/>
+  <string id="str_tor_companion_mission_gather_troops_dwarf" text="I need more Kazaki for the Throng."/>
+  <string id="str_tor_companion_mission_forage_orc" text="I'm feelin 'ungry, go get some food!"/>
+  <string id="str_tor_companion_mission_forage_dwarf" text="Supplies are low, I need you to gather some food."/>
+  <string id="str_tor_companion_mission_patrol_orc" text="Youz gonna scout round 'ere for da enemy, got it?"/>
+  <string id="str_tor_companion_mission_patrol_dwarf" text="Establish some Undi in the area."/>
+  <string id="str_tor_companion_mission_cancel_orc" text="Neva mind!"/>
+  <string id="str_tor_companion_mission_cancel_dwarf" text="Ah, nuf."/>
+  <string id="str_tor_companion_forage_1_orc" text="As you say boss! But eh... should I take any o' da ladz?"/>
+  <string id="str_tor_companion_forage_1_dwarf" text="Ai, I shall do this. Can you spare some Kazaki forthis task?"/>
+  <string id="str_tor_companion_forage_2_orc" text="Ye, take some o' da boyz wiv ye."/>
+  <string id="str_tor_companion_forage_2_dwarf" text="Take these Kazaki with you."/>
+  <string id="str_tor_companion_forage_3_orc" text="Wot? Can't do it alone? Get outta 'ere for I break ye jaw!"/>
+  <string id="str_tor_companion_forage_3_dwarf" text="These Kazaki are needed elsewhere, you have to do this on your own."/>
+  <string id="str_tor_companion_fire_orc" text="W-wot? Whateva I did boss I didn't mean ta trouble ya!"/>
+  <string id="str_tor_companion_fire_dwarf" text="Are you sure?"/>
+  <string id="str_tor_companion_fire_age_orc" text="I didn't ask if ya meant ta, ya did! Now get outta my face for I cave your'z in!"/>
+  <string id="str_tor_companion_fire_age_dwarf" text="Your age is now more than that of any Langktrommi I know. You should let yourself enjoy some rest."/>
+  <string id="str_tor_companion_fire_no_fit_orc" text="I've 'ad enuff 'o you makin problemz 'round da camp, now get goin!"/>
+  <string id="str_tor_companion_fire_no_fit_dwarf" text="You're an Ufdi and not suited for this company. It would be better if you left."/>
+  <string id="str_tor_companion_fire_no_fit_2_orc" text="Ya spend more time fightin' da ladz den anyone else. So less ya wanna fight me, den get ta walkin'."/>
+  <string id="str_tor_companion_fire_no_fit_2_dwarf" text="You're a wazzock and I have no need for you."/>
+  <string id="str_tor_companion_fire_underperforming_orc" text="You'z noffin but a weak git! Now scram less ye wanna fight!"/>
+  <string id="str_tor_companion_fire_underperforming_dwarf" text="I thought you'd be more skilled. Now I know I was mistaken."/>
+  <string id="str_tor_companion_fire_cancel_orc" text="You'z shoulda seen da look on ya face! Now get back in line ya git!"/>
+  <string id="str_tor_companion_fire_cancel_dwarf" text="Forgive me, I confused what I wanted to say with what I thought. "/>
+  <string id="str_tor_companion_fire_cancel2_orc" text="Right boss! You'z a funny 'un...! [if:convo_nervous][ib:normal2]"/>
+  <string id="str_tor_companion_fire_cancel2_dwarf" text="Zaki..."/>
+  <string id="str_tor_turn_companion_to_lord_start_orc" text="Seems Gork an' Mork favor you today! I've got somefin' for ya..."/>
+  <string id="str_tor_turn_companion_to_lord_start_dwarf" text="You've earned yourself a Wulthrung."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_2_orc" text="Can't do it, boss! I's still da boss o' da ovva loot wagon ya got!"/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_2_dwarf" text="You honor me with this request, my {?PLAYER.GENDER}Rinn{?}Rik{\?}. Yet, I'm duty-bound to lead this caravan to safety. Release me of this oath and we'll discuss it furter."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_player_orc" text="I already knew dat, stoopid! I wuz testin' yoo. When yer done movin' dat stuff, yoo'll get more work."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_player_dwarf" text="Of course, a dawi who leaves his tasks is no good. Carry on then, we shall talk later."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_orc" text="Ere we go 'Ere we go! I'm a BIG boss now! I won't let you down boss! I's gonna crunch em an' stomp em an' smash em, an' I's gonna make my forts da 'ardest forts you'z ever seen! Just wait fer it! An' when you say da word, I's gonna come an' help you WAAAGH!"/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_dwarf" text="My thanks, {?PLAYER.GENDER}Rinn{?}Rik{\?}. I long awaited the chance to carve out a hold of my own. With the wealth to keep the forges burning, I shall find a worthy mate and bring some good lads back to the Karaz Ankor. Best of all, I would lead a throng of kin to settle our grudges..."/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_orc" text="You'z a proppa good scrappa! I fink it's time fer ya own fort!"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_dwarf" text="Aye. You have proven yourself to the Ancestors and to me. You'll get your kazad, may it guard your kin and let your beard grow long and grey."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_orc" text="Um, boss? We don' got no free fort ta give."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_dwarf" text="My {?PLAYER.GENDER}rinn{?}rik{\?}, I'm honoured by the offer but you hold no kazad to grant me yet. A dawi cannot rule empty air and high hopes."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_player_answer_orc" text="Shut up, stoopid! I wuz talkin' 'bout when we gotz one. Duh."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_player_answer_dwarf" text="I take your point. Let's carve the foundation of our hold first, eh? We'll talk about this when we have a hall to call ours, dawongi."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_companion_answer_orc" text="Smart! Dat's why yer da boss!"/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_companion_answer_dwarf" text="As you say, my Rik."/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_answer_orc" text="Ya mean it, boss? Which fort wuz you meanin'?"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_answer_dwarf" text="And where is that hold exactly?"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_continue_orc" text="Wait! not dat 'un!"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_continue_dwarf" text="Hmm, I was thinking of some other place."/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_cancel_orc" text="Now dat I fink on it... nevamind!"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_cancel_dwarf" text="I've thought better of it, your axe is needed by my side for now."/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_orc" text="Right! Thankz boss! Iz gonna whip those boyz at {SETTLEMENT_NAME} inta proppa shape for ye!"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_dwarf" text="{SETTLEMENT_NAME}? Valaya's hearth, you honour me, {?PLAYER.GENDER}Rinn{?}Rik{\?}.I hereby swear upon my beard to guard this halls until Gazul himself claims me.[ib:hip][if:convo_happy]"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_orc" text="See dat ya do {CULTURE_SPECIFIC_TITLE} {COMPANION_NAME} now, go teach da boyz at {SETTLEMENT_NAME} whoz in charge!"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_dwarf" text="I bestow upon ye the rank of {CULTURE_SPECIFIC_TITLE} and the duty to safeguard the hold of {SETTLEMENT_NAME}. May you make the Ancestors proud."/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_reject_orc" text="Oi, 'old on! Lemme fink 'bout it sum!"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_reject_dwarf" text="Right. I need some more time to ponder the issue."/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_box_orc" text="Oi, boss! Now we's a proper mob, but wot ya want to call us boyz?"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_box_dwarf" text="My {?PLAYER.GENDER}Rinn{?}Rik{\?}, establishing my clan will be a heavy burder. Would you lighten it by naming it? "/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_thanks_orc" text="Fanks boss, I'll keep it right in me noggin for da next time ya need me. We's always wiv ya!"/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_thanks_dwarf" text="You have my thanks, {?PLAYER.GENDER}Rinn{?}Rik{\?}. My kin and I will keep your deed close to our heart. We shall never forget it while the mountains still stand."/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_rejected_orc" text="Dat iz some big finkin' alright. No worries, boss, I'll stick wiv ya until you'z figure it out!"/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_rejected_dwarf" text="A hold is a weighty matter, my {PLAYER.GENDER}Rinn{?}Rik{\?}, better to measure your stone twice before cutting, aye? My oath to you is still standing, you'll still find me at your side!"/>
+  <string id="str_tor_rescue_companion_start_orc" text="Fanks boss! Now I can get back ta smashin!"/>
+  <string id="str_tor_rescue_companion_start_dwarf" text="I owe you a life debt for saving me."/>
+  <string id="str_tor_rescue_companion_option_acknowledgement_orc" text="Course boss, jus' doin me job, guardin da boss!"/>
+  <string id="str_tor_rescue_companion_option_acknowledgement_dwarf" text="I do anything to strike a grudge from the books."/>
+  <string id="str_tor_rescue_companion_preoptions_orc" text="Wot now?"/>
+  <string id="str_tor_rescue_companion_preoptions_dwarf" text="What is next?"/>
+  <string id="str_tor_rescue_companion_option_1_orc" text="Let's get back wiv da ladz an' keep goin."/>
+  <string id="str_tor_rescue_companion_option_1_dwarf" text="We should concentrate our forces with the others, a dawi's strength lies in the shieldwall."/>
+  <string id="str_tor_rescue_companion_option_2_orc" text="I need you'z ta lead some'a da boyz."/>
+  <string id="str_tor_rescue_companion_option_2_dwarf" text="I need you to lead a throng of your own."/>
+  <string id="str_tor_rescue_companion_option_3_orc" text="There ain't no place for ya now."/>
+  <string id="str_tor_rescue_companion_option_3_dwarf" text="Aye, there's a little complication with you coming along right now. I'd like you to remain on your own for now."/>
+  <string id="str_tor_rescue_companion_lead_party_answer_orc" text="Which boyz am I da boss uv?"/>
+  <string id="str_tor_rescue_companion_lead_party_answer_dwarf" text="Which throng needs leadership?"/>
+  <string id="str_tor_rescue_companion_join_party_answer_orc" text="It's good ta be back!"/>
+  <string id="str_tor_rescue_companion_join_party_answer_dwarf" text="I am glad to fight alongside you once more!"/>
+  <string id="str_tor_rescue_companion_do_nothing_answer_orc" text="I's a lone wolf, but I's remembah wot ya did fer me."/>
+  <string id="str_tor_rescue_companion_do_nothing_answer_dwarf" text="I'll continue on my own, but I will remember the debt I owe you!"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_0_orc" text="Woteva you say boss!"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_0_dwarf" text="Sure, I will."/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_1_orc" text="Wotcha want me ta do boss?"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_1_dwarf" text="What shall I do for you?"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_2_orc" text="We'll get goin!"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_2_dwarf" text="Beards in belts, we're gonna march out now."/>
+  <string id="str_tor_grievance_requested_orc" text="Go on, I's listenin'."/>
+  <string id="str_tor_grievance_requested_dwarf" text="Go on, tell me. I'll listen."/>
+  <string id="str_tor_grievance_1_orc" text="Yeah, woteva. Maybe I'll rememba dat."/>
+  <string id="str_tor_grievance_1_dwarf" text="Your words ring true. I shall keep to them to avoid further grievances."/>
+  <string id="str_tor_grievance_2_orc" text="Oi, I's da 'un calling da shotz 'ere!"/>
+  <string id="str_tor_grievance_2_dwarf" text="As much as I value your advice, I shall have to mull over it more."/>
+  <string id="str_tor_grievance_3_orc" text="You'z weak, you don' belong wiv me boyz."/>
+  <string id="str_tor_grievance_3_dwarf" text="We obviously have different views on honourable conduct. Maybe it'll be best to part ways."/>
+  <string id="str_tor_companion_hire_capacity_full_orc" text="Come ta fink o' it... I got too many boyz as iz!"/>
+  <string id="str_tor_companion_hire_capacity_full_dwarf" text="Hmm...I've got more lads swingin' steel than I can keep in line already."/>
+  <string id="str_tor_player_companion_hire_response_1_orc" text="Fine... 'ere'z ya shinies, now go join da rest o' dem!"/>
+  <string id="str_tor_player_companion_hire_response_1_dwarf" text="Here's your okstal...{GOLD_AMOUNT}, move it!"/>
+  <string id="str_tor_player_companion_hire_response_2_orc" text="Hah! Like I'd give ya all dat! Fink again!"/>
+  <string id="str_tor_player_companion_hire_response_2_dwarf" text="By my beard, that's more gold than I can spare!"/>
+  <string id="str_tor_caravan_companion_talk_start_orc" text="Oi, got a job fer ye..."/>
+  <string id="str_tor_caravan_companion_talk_start_dwarf" text="We've business to hammer out so listen up."/>
+  <string id="str_tor_caravan_companion_talk_start_reply_orc" text="Wotcha want, boss?"/>
+  <string id="str_tor_caravan_companion_talk_start_reply_dwarf" text="Aye. What's gnawin' at your skull then?"/>
+  <string id="str_tor_caravan_companion_trade_rumors_orc" text="What do da ladz want dese dayz?"/>
+  <string id="str_tor_caravan_companion_trade_rumors_dwarf" text="What word from the trade-roads? Some good urbar to do?"/>
+  <string id="str_tor_caravan_companion_talk_player_thank_orc" text="Wot else ya want?"/>
+  <string id="str_tor_caravan_companion_talk_player_thank_dwarf" text="Anything else?"/>
+  <string id="str_tor_caravan_companion_talk_not_leave_orc" text="Anuvver fing ta speak about..."/>
+  <string id="str_tor_caravan_companion_talk_not_leave_dwarf" text="Aye, there's more we need to chew over."/>
+  <string id="str_tor_caravan_companion_talk_leave_orc" text="Don't stand about gawpin', move it, ya gitz!"/>
+  <string id="str_tor_caravan_companion_talk_leave_dwarf" text="Off with you then."/>
+  <string id="str_tor_caravan_companion_nevermind_orc" text="Zog it."/>
+  <string id="str_tor_caravan_companion_nevermind_dwarf" text="Bah. Forget it."/>
+  <string id="str_tor_conversation_prisoner_chat_start_orc" text="Wot yoo want?"/>
+  <string id="str_tor_conversation_prisoner_chat_start_dwarf" text="Spit it out."/>
+  <string id="str_tor_conversation_prisoner_chat_player_orc" text="If I catch you sneakin' about, we's gunna gut ya."/>
+  <string id="str_tor_conversation_prisoner_chat_player_dwarf" text="Now don't you try and do something stupid, you wattock. I'm very dangerous over short distance"/>
+  <string id="str_tor_conversation_prisoner_chat_response_orc" text="Yer not gonna 'ave any problemz wiv me!"/>
+  <string id="str_tor_conversation_prisoner_chat_response_dwarf" text="I swear it, by stone and steel."/>
+  <string id="str_tor_disguise_start_conversation_alt_orc" text="I's gots nuffin' for ya, zog off!"/>
+  <string id="str_tor_disguise_start_conversation_alt_dwarf" text="Move along, there's nothing for you here. Leave me to my work."/>
+  <string id="str_tor_disguise_start_conversation_orc" text="Git away from me, before I krump ya."/>
+  <string id="str_tor_disguise_start_conversation_dwarf" text="Leave, wattock!"/>
+  <string id="str_tor_prison_guard_start_criminal_orc" text="Da boyz been talkin 'bout yoo, if yoo keep actin up we's gunna put yoo down."/>
+  <string id="str_tor_prison_guard_start_criminal_dwarf" text="One more incident and you'll have yourself a grudge!"/>
+  <string id="str_tor_prison_guard_ask_criminal_orc" text="Wot yoo want, ya filcha?"/>
+  <string id="str_tor_prison_guard_ask_criminal_dwarf" text="What do you want, wanaz?"/>
+  <string id="str_tor_prison_guard_start_orc" text="Wot? Can't yoo sees I's workin?"/>
+  <string id="str_tor_prison_guard_start_dwarf" text="Aye? What is it you want?"/>
+  <string id="str_tor_prison_guard_ask_prisoners_orc" text="Who ya got lokked up?"/>
+  <string id="str_tor_prison_guard_ask_prisoners_dwarf" text="Who needed a time-out?"/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_orc" text="I wanna to speak to som'un ya got caged up."/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_dwarf" text="I would like to speak with a prisoner here."/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_2_orc" text="I wanna to speak to som'un ya got caged up."/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_2_dwarf" text="I would like to speak with a prisoner here."/>
+  <string id="str_tor_prison_guard_talk_end_orc" text="Zog it!"/>
+  <string id="str_tor_prison_guard_talk_end_dwarf" text="Ah, nuf."/>
+  <string id="str_tor_prison_guard_talk_about_prisoners_orc" text="{PRISONER_NAMES} {?IS_PLURAL}are{?}is{\?} all caged up like 'ere."/>
+  <string id="str_tor_prison_guard_talk_about_prisoners_dwarf" text="{PRISONER_NAMES} {?IS_PLURAL}are{?}is{\?} needed a little time-out."/>
+  <string id="str_tor_prison_guard_visit_prison_ask_for_permission_orc" text="Ain't no zoggin way I's lettin yoo in, da boss would 'ave me fed ta da squigs!"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_for_permission_dwarf" text="You have no right to be here. Get out before I tell my {?SETTLEMENT_OWNER.GENDER}Lady{?}Lord{\?} {SETTLEMENT_OWNER.NAME}."/>
+  <string id="str_tor_prison_guard_visit_prison_orc" text="Alrite, fine."/>
+  <string id="str_tor_prison_guard_visit_prison_dwarf" text="Aye, sure. Go in."/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_orc" text="Ain't you da boss 'round 'ere?"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_dwarf" text="I thought your word held more sway here?"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_orc" text="Wot are yoo on about?"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_dwarf" text="Stop mumbling and speak clear."/>
+  <string id="str_tor_prison_guard_visit_permission_try_bribe_orc" text="I found dis 'ere bag wiv gold inside, it's yours yeah?"/>
+  <string id="str_tor_prison_guard_visit_permission_try_bribe_dwarf" text="Would you look at that, it seems you have lost your purse. As your long-time friend, I'll of course hand it over to you."/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_2_orc" text="Zog it!"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_2_dwarf" text="Ah, nuf."/>
+  <string id="str_tor_prison_guard_visit_prison_nobody_inside_orc" text="Ain't no 'un in 'ere, now zog off."/>
+  <string id="str_tor_prison_guard_visit_prison_nobody_inside_dwarf" text="The cells are empty. You should go, unless you want to occupy one yourself, he?"/>
+  <string id="str_tor_prison_guard_visit_empty_prison_orc" text="Aight, let's have a look."/>
+  <string id="str_tor_prison_guard_visit_empty_prison_dwarf" text="Sure, I'll have a look at the inmates then."/>
+  <string id="str_tor_prison_guard_visit_empty_prison_2_orc" text="Aight, let's have a look."/>
+  <string id="str_tor_prison_guard_visit_empty_prison_2_dwarf" text="Sure, I'll have a look at the inmates then."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_orc" text="I's gots ovva fings ta do."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_dwarf" text="I don't have time for you."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_2_orc" text="I's gots ovva fings ta do."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_2_dwarf" text="I don't have time for you."/>
+  <string id="str_tor_prison_guard_visit_permission_leave_orc" text="Right, I'll 'ave a go at dat den!"/>
+  <string id="str_tor_prison_guard_visit_permission_leave_dwarf" text="Aye, I'll try that."/>
+  <string id="str_tor_prison_guard_visit_permission_bribe_orc" text="Izzat so? I'll jus be countin' dese shineyz, an' when I's done yoo betta be gone!"/>
+  <string id="str_tor_prison_guard_visit_permission_bribe_dwarf" text="How kind of you to return my purse to me. Let me count whether everything's in there, just to be safe. In the meantime, go on and take a stroll here."/>
+  <string id="str_tor_prison_guard_visit_permission_try_break_orc" text="An' over da keys before I krump ya!"/>
+  <string id="str_tor_prison_guard_visit_permission_try_break_dwarf" text="Hand over the barmakaz now and no one will get hurt!"/>
+  <string id="str_tor_prison_guard_visit_break_orc" text="Da gits are escapin'! Git over 'ere ladz!"/>
+  <string id="str_tor_prison_guard_visit_break_dwarf" text="Sound the hirn, they're trying to get out!"/>
+  <string id="str_tor_castle_guard_start_criminal_orc" text="Da boyz been talkin 'bout yoo, if yoo keep actin' up we's gonna pull out yer entrails!"/>
+  <string id="str_tor_castle_guard_start_criminal_dwarf" text="One more incident and you'll have yourself a grudge!"/>
+  <string id="str_tor_castle_guard_ask_criminal_orc" text="Wot yoo want, ya filcha?"/>
+  <string id="str_tor_castle_guard_ask_criminal_dwarf" text="What do you want, wanaz?"/>
+  <string id="str_tor_castle_guard_start_orc" text="Wot yoo want?"/>
+  <string id="str_tor_castle_guard_start_dwarf" text="Aye, what can I do for you?"/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_orc" text="I wanna see da boss."/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_dwarf" text="I request to see the rik."/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_2_orc" text="Zog it."/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_2_dwarf" text="Ah, nuf."/>
+  <string id="str_tor_castle_guard_no_permission_nobody_inside_orc" text="Da boss ain't 'ere, zog off!"/>
+  <string id="str_tor_castle_guard_no_permission_nobody_inside_dwarf" text="There's no one inside, don't waste your time here."/>
+  <string id="str_tor_castle_guard_player_can_enter_orc" text="Fine, yoo can go in."/>
+  <string id="str_tor_castle_guard_player_can_enter_dwarf" text="Alright, go on in."/>
+  <string id="str_tor_castle_guard_no_permission_orc" text="I don't know yoo's, zog off!"/>
+  <string id="str_tor_castle_guard_no_permission_dwarf" text="A dawi never forgets a face, and since I don't remember you..."/>
+  <string id="str_tor_player_bribe_to_enter_lords_hall_orc" text="Wot 'bout dese shineyz? {AMOUNT}{GOLD_ICON} mean ya 'member me now?"/>
+  <string id="str_tor_player_bribe_to_enter_lords_hall_dwarf" text="Would you look at that, it seems you have lost your purse. As your long-time friend, I'll of course hand it over to you."/>
+  <string id="str_tor_player_not_bribe_to_enter_lords_hall_orc" text="Zog it."/>
+  <string id="str_tor_player_not_bribe_to_enter_lords_hall_dwarf" text="Ah, nuf."/>
+  <string id="str_tor_castle_guard_let_player_in_orc" text="Oi, now I does! Get in there!"/>
+  <string id="str_tor_castle_guard_let_player_in_dwarf" text="Aye, you do look familiar now."/>
+  <string id="str_tor_minor_faction_talk_hostile_response_1_orc" text="You're in for a scrap now, ya stinkin' gitz!"/>
+  <string id="str_tor_minor_faction_talk_hostile_response_1_dwarf" text="You'll get naught but my axe, you skruff!"/>
+  <string id="str_tor_minor_faction_talk_hostile_response_2_orc" text="We's can still krump later, but maybe you wanna talk before?"/>
+  <string id="str_tor_minor_faction_talk_hostile_response_2_dwarf" text="Hold on, you know us, but we don't know you. Let's bridge this difference."/>
+  <string id="str_tor_minor_faction_talk_background_next_1_orc" text="We's lookin' fer a betta krumpin', any chance ya gonna let us get there?"/>
+  <string id="str_tor_minor_faction_talk_background_next_1_dwarf" text="Hold it! There is no need to fight."/>
+  <string id="str_tor_minor_faction_talk_background_next_2_orc" text="Yoo'z got an ugly face, I'll krump it for ya"/>
+  <string id="str_tor_minor_faction_talk_background_next_2_dwarf" text="That is a grudge I look forward to settling. "/>
+  <string id="str_tor_minor_faction_talk_background_repeat_threat_orc" text="Stop ya yappin', it'z krumpin' time!"/>
+  <string id="str_tor_minor_faction_talk_background_repeat_threat_dwarf" text="My ears grow weary. Cease your blabbering and speak true."/>
+  <string id="str_tor_alley_talk_start_player_owned_thug_answer_orc" text="You do dat."/>
+  <string id="str_tor_alley_talk_start_player_owned_thug_answer_dwarf" text="Alright."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_not_under_attack_orc" text="Ello boss, wotcha need?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_not_under_attack_dwarf" text="Greetings Thane, what can I do for you?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_under_attack_orc" text="Oi, you right on time for da krumpin' Boss, Gork an' Mork iz wiv us!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_under_attack_dwarf" text="You've arrived just in time, my {?PLAYER.GENDER}lady{?}lord{\?}. Let's give them what they deserve!"/>
+  <string id="str_tor_alley_talk_start_normal_orc" text="Oi, whatz goin' on here?"/>
+  <string id="str_tor_alley_talk_start_normal_dwarf" text="What business do you have here?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_1_orc" text="Let's me see your ladz!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_1_dwarf" text="Let me take a look at your kazaki."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_orc" text="Some boyz o' yours want a proppa mob ta join?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_dwarf" text="My throng need reinforcements. Do any of your lads want to join?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_3_orc" text="Zog off, I want sum ovva git in charge o' dis place."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_3_dwarf" text="We'll need some other lad to oversee here."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_orc" text="I ain't want dis place no more."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_dwarf" text="Break up camp, we're leaving this place. It has outstayed its use."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_1_orc" text="Ya want us to come wiv ya boss?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_1_dwarf" text="Just give the word and we'll make ready. Shall we?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_2_orc" text="You do dat!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_2_dwarf" text="Yes, get moving."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_3_orc" text="No, I's been finkin', yoo boyz stayz here!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_3_dwarf" text="Ah, this is no light undertaking; I need to give it more thought."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_5_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_5_dwarf" text="Forget it."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_1_orc" text="We ain't done yet Boss! We do as fast as we can, me swear! "/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_1_dwarf" text="Recruitment's slow, Dukrik. But I've found some better incentives for the new lads, check back next week."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_2_orc" text="Ye, I's sum {TROOPS_TO_RECRUIT} ready for a good scrap."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_2_dwarf" text="Aye, there are some {TROOPS_TO_RECRUIT} who are itching for a Runk."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_3_orc" text="Right den! Get in da mob, ya gitz!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_3_dwarf" text="Well done, Muckaz. Send them to me, we'll leave soon."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_4_orc" text="Okay boss, da boyz'll be ready!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_4_dwarf" text="Aye. We'll have them ready in a jiffy."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_5_orc" text="I's no need for dis gitz yet. Beat it!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_5_dwarf" text="I have no need for more beards at this this time. Stay here."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_di_orc" text="Yes, Boss!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_di_dwarf" text="Ai, Dukrik."/>
+  <string id="str_tor_alley_talk_start_normal_2_orc" text="Lookit dis git! Some grot has been snitchin' , eh? Finkin' you'z might clever ain't ya? Don't matter none. I'S STILL GONNA STOMP YA!"/>
+  <string id="str_tor_alley_talk_start_normal_2_dwarf" text="You've got some guts to show yourself here. Got wind of my plans, did you? Not that it matters, I'll still split your noggin like a ripe pumpkin."/>
+  <string id="str_tor_alley_talk_start_normal_3_orc" text="Come on den, ya zoggin' squig! WAAAAAGH!"/>
+  <string id="str_tor_alley_talk_start_normal_3_dwarf" text="Get on with it, show what you got!"/>
+  <string id="str_tor_alley_talk_start_normal_4_orc" text="I's just lookin', not worth da scrap. I's bored o' dis dump anyway. It's yours."/>
+  <string id="str_tor_alley_talk_start_normal_4_dwarf" text="Take it. But don't mistake this for a win of yours. Us Dawi live long, and we never forget."/>
+  <string id="str_tor_alley_start_1_orc" text="What'z da racket den?"/>
+  <string id="str_tor_alley_start_1_dwarf" text="Just having a Strol, what's your deal here?"/>
+  <string id="str_tor_alley_start_2_orc" text="I's just lookin', zogg off!"/>
+  <string id="str_tor_alley_start_2_dwarf" text="I'm just having a wee Dokit, not forbidden, aye?"/>
+  <string id="str_tor_alley_start_3_orc" text="Nuffin'."/>
+  <string id="str_tor_alley_start_3_dwarf" text="Ah, nuf."/>
+  <string id="str_tor_alley_entry_start_1_orc" text="Just walkin'."/>
+  <string id="str_tor_alley_entry_start_1_dwarf" text="Just a Strol."/>
+  <string id="str_tor_alley_entry_start_2_orc" text="I's just lookin', zog off!"/>
+  <string id="str_tor_alley_entry_start_2_dwarf" text="I'm just having a wee Dokit, not forbidden, aye?"/>
+  <string id="str_tor_alley_entry_start_3_orc" text="Sod off!"/>
+  <string id="str_tor_alley_entry_start_3_dwarf" text="Stick it to you Dongliz!"/>
+  <string id="str_tor_first_entry_to_alley_orc" text="We's da {ALLEY_BOSS.NAME} boyz an' da boss iz da boss, so beat it or we scrag you."/>
+  <string id="str_tor_first_entry_to_alley_dwarf" text="Listen, and listen closely. This is our Duk, and {ALLEY_BOSS.NAME} is our Dukrik. Unless you have any business with them, we strongly recommend you scram."/>
+  <string id="str_tor_first_entry_to_alley_friendly_orc" text="{ALLEY_BOSS.NAME} sayz ya can be here. But I's got me eyes on ya!"/>
+  <string id="str_tor_first_entry_to_alley_friendly_dwarf" text="The Dukrik said you may stay. But for safe measures, my eyes will stay on you as well. No funny business."/>
+  <string id="str_tor_ally_entry_start_fight_orc" text="Yoo's not da boss o' me!"/>
+  <string id="str_tor_ally_entry_start_fight_dwarf" text="Shut it, last I checked you weren't our Dukrik."/>
+  <string id="str_tor_alley_entry_question_activity_orc" text="Wot's goin' on here?"/>
+  <string id="str_tor_alley_entry_question_activity_dwarf" text="What's your business here then?"/>
+  <string id="str_tor_alley_entry_end_conversation_orc" text="Yeah, yeah, I won't krump no 'un. Fo' now."/>
+  <string id="str_tor_alley_entry_end_conversation_dwarf" text="I see. I'll take my leave then."/>
+  <string id="str_tor_alley_fight_start_orc" text="You'z a right mouthy 'un. We'll krump ya![ib:aggressive][if:convo_angry]"/>
+  <string id="str_tor_alley_fight_start_dwarf" text="You're doh, you talk too much. Let's shut you up forever."/>
+  <string id="str_tor_alley_activity_2_orc" text="Only {ALLEY_BOSS.NAME} can tell'z us wot to do!"/>
+  <string id="str_tor_alley_activity_2_dwarf" text="As a reminder for a Boki like you: Only our Dukrik may give us orders.."/>
+  <string id="str_tor_alley_activity_back_orc" text="Uh, ya want sumfin' else? I say you beat it now before we krump you. [if:convo_confused_annoyed][ib:closed]"/>
+  <string id="str_tor_alley_activity_back_dwarf" text="Anyting else? No? Then scram![if:convo_confused_annoyed][ib:closed]"/>
+  <string id="str_tor_alley_activity_end_orc" text="Sod off!"/>
+  <string id="str_tor_alley_activity_end_dwarf" text="Bugrof."/>
+  <string id="str_tor_alley_meet_boss_orc" text="Wait 'ere, I'll go ask da boss if dey want to talk to ya."/>
+  <string id="str_tor_alley_meet_boss_dwarf" text="Sure, sure. I'll ask if the Dukrik would like to talk to you, why wouldn't he want to?"/>
+  <string id="str_tor_gangleader_introduction_4_orc" text="I's da Boss {CONVERSATION_HERO.FIRSTNAME}. Sum kall me {CONVERSATION_HERO.LINK} 'cause dey fear me.[if:convo_mocking_revenge]"/>
+  <string id="str_tor_gangleader_introduction_4_dwarf" text="You're talking to {CONVERSATION_HERO.FIRSTNAME}. There are some who call me {CONVERSATION_HERO.LINK}. In a reverential way, of course."/>
+  <string id="str_tor_gangleader_introduction_orc" text="I's {CONVERSATION_HERO.FIRSTNAME}. I can krump, bash, kick or kill 'nyone. As long as you av' da teef for it. [if:convo_bemused]"/>
+  <string id="str_tor_gangleader_introduction_dwarf" text="You're talking to {CONVERSATION_HERO.FIRSTNAME}. Go ahead, listen to the many tales about me, and you'll know how useful I can be, if you catch my drift."/>
+  <string id="str_tor_gangleader_introduction_2_orc" text="I's {CONVERSATION_HERO.FIRSTNAME}. If you want a propa' scrap, I's your Orc, so watch it. [if:convo_stern]"/>
+  <string id="str_tor_gangleader_introduction_2_dwarf" text="You're talking to {CONVERSATION_HERO.FIRSTNAME}. Go ahead, listen to the many tales about me, and you'll know that you shouldn't cross me."/>
+  <string id="str_tor_gangleader_introduction_3_orc" text="I's da Boss {CONVERSATION_HERO.FIRSTNAME}. I keep da boyz in line over 'ere."/>
+  <string id="str_tor_gangleader_introduction_3_dwarf" text="You're talking to {CONVERSATION_HERO.FIRSTNAME}. Go ahead, listen to the many tales about me, and you'll know that I know how to keep the peace here. "/>
+  <string id="str_tor_governor_talk_start_orc" text="How'z da place goin' {GOVERNOR_SETTLEMENT}?"/>
+  <string id="str_tor_governor_talk_start_dwarf" text="How does {GOVERNOR_SETTLEMENT} fare?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_reply_orc" text="Yea, boss?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_reply_dwarf" text="What does my {?PLAYER.GENDER}lady{?}lord{\?} need?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_orc" text="You want us to be what, boss? "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_dwarf" text="There are many traditions and customs to observe, which shall we heed most?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_other_orc" text="Nah, I's been finkin' somefing else."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_other_dwarf" text="I need to consult the books for other customs."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_cancel_orc" text="We ain't got enuff boyz to do dat right now."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_cancel_dwarf" text="I shall need the longbeards' opinions on this, the decision is postponed."/>
+  <string id="str_tor_governor_talk_kingdom_creation_exit_reply_orc" text="If dat's wot da Boss wants, dat's wot happens."/>
+  <string id="str_tor_governor_talk_kingdom_creation_exit_reply_dwarf" text="It is not a decision to be taken lightly, I understand. "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_orc" text="We's be {CULTURE_ADJECTIVE} an' I say we do dat first: {INITIAL_POLICY_NAMES}. "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_dwarf" text="Aye, if this Karak were to follow the {CULTURE_ADJECTIVE} traditions, it would institute the following: {INITIAL_POLICY_NAMES}"/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_orc" text="Do it, den!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_dwarf" text="So shall it be. "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_2_orc" text="Nah. Dat's rubbish. I want somefin' else."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_2_dwarf" text="The longbeards advise me to follow a different set of traditions."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_orc" text="What we callin' our WAAAGH, Boss?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_dwarf" text="What name shall this new realm bear?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_player_orc" text="I's callin' it..."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_player_dwarf" text="This Karak shall be known as..."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_response_orc" text="I's all ears."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_response_dwarf" text="You have my attention, go on."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_cancel_orc" text="We ain't got enuff boyz to do dat right now."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_cancel_dwarf" text="I shall need the longbeards' opinions on this, the decision is postponed."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_final_response_orc" text="By Gork's Green Grin, dat's da 'un! Every git'll tell dat {KINGDOM_NAME} gonna stomp 'em all flat!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_final_response_dwarf" text="Make records in the books that on this day, the Karak {KINGDOM_NAME} was founded. May it hold for the centuries to come!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_finalization_orc" text="Sorted. Let's get to da fightin' an' lootin' den!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_finalization_dwarf" text="So shall it be. Of course, with the founding of a new Karak, a new Dammaz Kron needs to be commissioned as well. "/>
+  <string id="str_tor_bandit_hideout_start_defender_orc" text="Dat's a lotta boyz ya chopped up. Fink yer big an' bad, den!? Lemme show ya why I's da biggest an' da baddest around, just yoo an' me! "/>
+  <string id="str_tor_bandit_hideout_start_defender_dwarf" text="My respect to your fighting skill, you took out a lot of my kazaki. How about we settle this, one-on-one?"/>
+  <string id="str_tor_bandit_hideout_start_defender_1_orc" text="You're on, git! WAAAGH!"/>
+  <string id="str_tor_bandit_hideout_start_defender_1_dwarf" text="I accept your challenge."/>
+  <string id="str_tor_bandit_hideout_start_defender_2_orc" text="I don't scrap wiv runtz. Chop 'em all up, boyz!"/>
+  <string id="str_tor_bandit_hideout_start_defender_2_dwarf" text="I'd rather duel an elgi than scum like you!"/>
+  <string id="str_tor_player_ask_to_claim_land_orc" text="{SETTLEMENT} iz mine now."/>
+  <string id="str_tor_player_ask_to_claim_land_dwarf" text="I claim this Karak for my clan."/>
+  <string id="str_tor_player_wants_to_make_peace_orc" text="Stop da krumpin'... for now. We's sum loot ta count an' me boyz need betta choppas."/>
+  <string id="str_tor_player_wants_to_make_peace_dwarf" text="Too much blood has been spilt already. We should make peace."/>
+  <string id="str_tor_player_wants_to_make_peace_result_orc" text="Fine. Got betta fights ta win, anyway!"/>
+  <string id="str_tor_player_wants_to_make_peace_result_dwarf" text="Break out a keg of Bugman's, there's a peace to celebrate!"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_orc" text="I's gonna give you a reward fer krumpin' dem gitz good, yer boyz can have dat land. [Will cost {VALUE} influence]"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_dwarf" text="Aye. After going over the records of your service, you are eligible to claim this land in recompense."/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_ok_orc" text="It's mine!"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_ok_dwarf" text="Then I shall claim it."/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_no_orc" text="Yoo shoulda given me dat land in da first place, yoo's gonna see!"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_no_dwarf" text="I see. I guess it takes more to earn it."/>
+  <string id="str_tor_player_prisoner_talk_let_go_orc" text="I's decided yoo's free ta go, but wotch yer back..."/>
+  <string id="str_tor_player_prisoner_talk_let_go_dwarf" text="You fought with honour, it would be wrong to imprison you for that."/>
+  <string id="str_tor_player_prisoner_talk_let_go_answer_orc" text="You'z a good'un. I's gonna come back stronga for da next fight!"/>
+  <string id="str_tor_player_prisoner_talk_let_go_answer_dwarf" text="Thank you, I won't forget this. None of this."/>
+  <string id="str_tor_hero_pretalk_2_orc" text="Wot else you got?"/>
+  <string id="str_tor_hero_pretalk_2_dwarf" text="What else?"/>
+  <string id="str_tor_main_option_hostile_1_orc" text="Ere's how it's gonna be!"/>
+  <string id="str_tor_main_option_hostile_1_dwarf" text="Listen lad, here's what I want."/>
+  <string id="str_tor_lord_predemand_orc" text="Eh? Wot yoo want?"/>
+  <string id="str_tor_lord_predemand_dwarf" text="Aye? What is it lad?"/>
+  <string id="str_tor_lord_ultimatum_orc" text="Surrenda ta me, or I's gonna krump ya!"/>
+  <string id="str_tor_lord_ultimatum_dwarf" text="I'll give you this last chance to lay down your arms and surrender with honour. You know the alternative."/>
+  <string id="str_tor_lord_forgive_me_orc" text="Eh nevah mind, I wuz jus' playin'."/>
+  <string id="str_tor_lord_forgive_me_dwarf" text="Ah, nuf. Forget about it."/>
+  <string id="str_tor_lord_attack_orc" text="If it's a fight yoo want, den get ready ta get krumped!"/>
+  <string id="str_tor_lord_attack_dwarf" text="What? Are you serious? You behave like a Werit and smell like a Kruti, so I'll give you the benefit of doubt. "/>
+  <string id="str_tor_lord_attack_verify1_orc" text="Wait, dat wuz just da fungus beer talkin', I didn't mean it!"/>
+  <string id="str_tor_lord_attack_verify1_dwarf" text="Aye, I... Bugrit, I must have banged my head too many times in the mines. "/>
+  <string id="str_tor_lord_attack_verify2_orc" text="Den get goin', ya git!"/>
+  <string id="str_tor_lord_attack_verify2_dwarf" text="Scram. Now!"/>
+  <string id="str_tor_lord_attack_verify_b1_orc" text="My 'ead got all zapped, I'z talkin crazy."/>
+  <string id="str_tor_lord_attack_verify_b1_dwarf" text="My apologies {?CONVERSATION_NPC.GENDER}madame{?}sir{\?}. I'm was spouting nonsense."/>
+  <string id="str_tor_lord_attack_verify_b2_orc" text="Group up, boyz! Get ready for stompin'!"/>
+  <string id="str_tor_lord_attack_verify_b2_dwarf" text="KHAZUK KHAZUK KHAZUK-HA!"/>
+  <string id="str_tor_main_option_hostile_1_2_orc" text="Yoo gonna surrenda, or yoo'z gonna die!"/>
+  <string id="str_tor_main_option_hostile_1_2_dwarf" text="We're on the warpath to settle grudges with you. Your choice whether we do this peaceful."/>
+  <string id="str_tor_545_orc" text="We's gonna go down fightin'! WAAAAAGH!"/>
+  <string id="str_tor_545_dwarf" text="KHAZUKAN KAZAKIT-HA!"/>
+  <string id="str_tor_546_orc" text="Yoo's da 'un who's gonna surrenda!"/>
+  <string id="str_tor_546_dwarf" text="No, I'm here to settle some grudges. Submit and pay recompense!"/>
+  <string id="str_tor_pay_off_minor_faction_option_orc" text="Oi! Let's work sumfin' out, I's got shineyz!"/>
+  <string id="str_tor_pay_off_minor_faction_option_dwarf" text="Would some gold settle this particular grudge?"/>
+  <string id="str_tor_hero_task_given_orc" text="About dat fing I wuz supposed ta do..."/>
+  <string id="str_tor_hero_task_given_dwarf" text="About that job I've been tasked with..."/>
+  <string id="str_tor_hero_task_given_alternative_orc" text="About dat fing I wuz supposed ta do..."/>
+  <string id="str_tor_hero_task_given_alternative_dwarf" text="About that job I've been tasked with..."/>
+  <string id="str_tor_main_option_faction_hire_orc" text="Wanna join my mob?"/>
+  <string id="str_tor_main_option_faction_hire_dwarf" text="There's some merit to you. How about you join me?"/>
+  <string id="str_tor_main_option_discussions_1_orc" text="Lemme join da WAAAGH!"/>
+  <string id="str_tor_main_option_discussions_1_dwarf" text="I ask you to let me join your throng."/>
+  <string id="str_tor_main_option_discussions_2_orc" text="Get in da WAAAGH! ({INFLUENCE_COST}{INFLUENCE_ICON})"/>
+  <string id="str_tor_main_option_discussions_2_dwarf" text="Join my throng, Muckaz, there are grudges that need settling ({INFLUENCE_COST}{INFLUENCE_ICON})"/>
+  <string id="str_tor_main_option_discussions_3_orc" text="Dere's sumfin I'z got tah talk about."/>
+  <string id="str_tor_main_option_discussions_3_dwarf" text="We need to discuss serious matters."/>
+  <string id="str_tor_main_option_discussions_4_orc" text="Maybe we don't have ta fight... maybe we make a deal, eh?"/>
+  <string id="str_tor_main_option_discussions_4_dwarf" text="Consider this contract and let's avoid the bloodletting."/>
+  <string id="str_tor_547_orc" text="Got betta fings to do den muck about here!"/>
+  <string id="str_tor_547_dwarf" text="I have more important business than battle here."/>
+  <string id="str_tor_main_option_questions_1_orc" text="I's gotta kestion."/>
+  <string id="str_tor_main_option_questions_1_dwarf" text="I have a question."/>
+  <string id="str_tor_main_option_prisoner_interaction_orc" text="Lemme see 'unna yer prisonerz, I got somefin' ta say.."/>
+  <string id="str_tor_main_option_prisoner_interaction_dwarf" text="I must speak with one of your prisoners."/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_1_orc" text="Yoo? Yea right, ya panzee git! Zog off!"/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_1_dwarf" text="It would be dishonourable to even consider that."/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_2_orc" text="Sure, who ya wanna talk to?"/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_2_dwarf" text="Give me the name of the prisoner."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_dwarf" text="Forget it."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_answer_orc" text="Fine den."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_answer_dwarf" text="Sure."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_orc" text="Bah, wotever."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_dwarf" text="Very well, go in."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_2_orc" text="Eh, zog off."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_2_dwarf" text="My gratitudes."/>
+  <string id="str_tor_player_is_leaving_enemy_polite_orc" text="I's gotta find a good scrap, if ya don't mind!"/>
+  <string id="str_tor_player_is_leaving_enemy_polite_dwarf" text="I must away."/>
+  <string id="str_tor_player_is_leaving_surrender_orc" text="Don' attack us! We'z surrenderin'!"/>
+  <string id="str_tor_player_is_leaving_surrender_dwarf" text="Hold your weapons! We surrender."/>
+  <string id="str_tor_lord_talk_ask_something_orc" text="Oi, wotcha want?"/>
+  <string id="str_tor_lord_talk_ask_something_dwarf" text="Aye? What is it?"/>
+  <string id="str_tor_lord_talk_ask_something_again_orc" text="Wot else ya want?"/>
+  <string id="str_tor_lord_talk_ask_something_again_dwarf" text="Is there anything else?"/>
+  <string id="str_tor_lord_talk_ask_something_2_3_orc" text="Wot wuz yer deal again?"/>
+  <string id="str_tor_lord_talk_ask_something_2_3_dwarf" text="Remind me of your deeds again."/>
+  <string id="str_tor_lord_talk_ask_something_2_4_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_lord_talk_ask_something_2_4_dwarf" text="Forget it."/>
+  <string id="str_tor_hero_doesnt_have_quest_orc" text="Zog off, I ain't got nuffin for ya!"/>
+  <string id="str_tor_hero_doesnt_have_quest_dwarf" text="There's nothing I need right now."/>
+  <string id="str_tor_liberate_hero_1_orc" text="{PLAYER.NAME}! Iz dat yoo? Yer lettin' me go?"/>
+  <string id="str_tor_liberate_hero_1_dwarf" text="Is that you, {PLAYER.NAME}? Am I free?"/>
+  <string id="str_tor_liberate_hero_2_orc" text="Wot? I's outta da cage?"/>
+  <string id="str_tor_liberate_hero_2_dwarf" text="What is this? Am I freed?"/>
+  <string id="str_tor_liberate_hero_3_orc" text="I'm breakin' yoo out for ya, git!"/>
+  <string id="str_tor_liberate_hero_3_dwarf" text="Yes. You have been freed from captivity."/>
+  <string id="str_tor_liberate_hero_7_orc" text="Zog off."/>
+  <string id="str_tor_liberate_hero_7_dwarf" text="There will be no debt for this."/>
+  <string id="str_tor_liberate_hero_8_orc" text="Yoo owe me!"/>
+  <string id="str_tor_liberate_hero_8_dwarf" text="I will hold you to this debt."/>
+  <string id="str_tor_liberate_hero_9_orc" text="Yoo betta not annoy me or I'll feed ya to da squigz."/>
+  <string id="str_tor_liberate_hero_9_dwarf" text="You will be treated decently in my care."/>
+  <string id="str_tor_liberate_hero_10_orc" text="Ere's da deal: yer boyz betta get me loadz o' shineyz before I snikt ya."/>
+  <string id="str_tor_liberate_hero_10_dwarf" text="Be silent. I demand a ransom soon for your release."/>
+  <string id="str_tor_liberate_hero_11_orc" text="Nah, zog it, get outta here."/>
+  <string id="str_tor_liberate_hero_11_dwarf" text="I changed my mind. You may go free."/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_ally_enemy_no_orc" text="Oi! Yer 'unna da {FACTION} right? Get in da cage, den!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_ally_enemy_no_dwarf" text="You are of the {FACTION}. Thus, you will be my prisoner."/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_orc" text="Ya ain't worf da trouble, get!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_dwarf" text="I will not take you prisoner this day."/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_2_orc" text="Zog off, git!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_2_dwarf" text="Begone from my sight."/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_yes_answer_orc" text="Yer a good 'un, I'll make sure ta kill ya speedy if we meet again."/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_yes_answer_dwarf" text="My oaths would demand I imprison you, if our roles were reversed. Still, you have my thanks."/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_no_answer_orc" text="Bah, zog it!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_no_answer_dwarf" text="Very well, then. Know that I would imprison you likewise, if you were at my mercy."/>
+  <string id="str_tor_lord_barter_let_go_orc" text="Oi! Let's work sumfing out, I's got shineyz..."/>
+  <string id="str_tor_lord_barter_let_go_dwarf" text="I am willing to pay a ransom in gal for my passage."/>
+  <string id="str_tor_lord_barter_let_go_2_orc" text="Oi! How 'bout we work sumfing out?"/>
+  <string id="str_tor_lord_barter_let_go_2_dwarf" text="Perhaps a ransom of gal will allow us to depart peaceably."/>
+  <string id="str_tor_lord_considers_letting_player_go_2_orc" text="So let's see wot ya got."/>
+  <string id="str_tor_lord_considers_letting_player_go_2_dwarf" text="What are you offering?"/>
+  <string id="str_tor_barter_with_lord_postbarter_1_orc" text="Fine den, get outta here!"/>
+  <string id="str_tor_barter_with_lord_postbarter_1_dwarf" text="Very well. You may go."/>
+  <string id="str_tor_barter_with_lord_postbarter_2_orc" text="Dat ain't nuffin', ya idiot!"/>
+  <string id="str_tor_barter_with_lord_postbarter_2_dwarf" text="This is not enough."/>
+  <string id="str_tor_hero_barter_orc" text="Oi! Lissen 'ere, I's got a deal."/>
+  <string id="str_tor_hero_barter_dwarf" text="I propose a contract between us."/>
+  <string id="str_tor_lord_considers_barter_orc" text="Fine, wotcha want?"/>
+  <string id="str_tor_lord_considers_barter_dwarf" text="Let us hear your terms, then."/>
+  <string id="str_tor_lord_refuses_barter_orc" text="Zog off, my 'ead still hurtz from last time!"/>
+  <string id="str_tor_lord_refuses_barter_dwarf" text="I am still considering what has come of our last deal."/>
+  <string id="str_tor_lord_ask_ruling_philosophy_orc" text="Wotcha finkin' about da tribe?"/>
+  <string id="str_tor_lord_ask_ruling_philosophy_dwarf" text="What are your thoughts on politics?"/>
+  <string id="str_tor_lord_ruling_philosophy_long_start_orc" text="Ain't ya got sumfin' betta ta do? Fine den, lissen 'ere..."/>
+  <string id="str_tor_lord_ruling_philosophy_long_start_dwarf" text="Hear this, then..."/>
+  <string id="str_tor_lord_considers_barter_2_orc" text="Ya got my attention."/>
+  <string id="str_tor_lord_considers_barter_2_dwarf" text="You have my attention."/>
+  <string id="str_tor_lord_refuses_barter_2_orc" text="My gobbos're still puttin' da wordz down from da last deal, zog off!"/>
+  <string id="str_tor_lord_refuses_barter_2_dwarf" text="We are still tallying the results of our last contract."/>
+  <string id="str_tor_lord_considers_army_orc" text="Took ya long enuff! Let's go!"/>
+  <string id="str_tor_lord_considers_army_dwarf" text="Excellent. Follow us."/>
+  <string id="str_tor_lord_considers_joining_player_army_orc" text="Hope ya got a good scrap in mind!"/>
+  <string id="str_tor_lord_considers_joining_player_army_dwarf" text="To right the wrongs, then. We will follow you."/>
+  <string id="str_tor_lord_responds_to_changing_sides_orc" text="Dis iz big, wait a second!"/>
+  <string id="str_tor_lord_responds_to_changing_sides_dwarf" text="I have much to think about in this matter."/>
+  <string id="str_tor_barter_decision_refuses_2_orc" text="Time ta die, git!"/>
+  <string id="str_tor_barter_decision_refuses_2_dwarf" text="Time to strike some grudges, as well as your heads!"/>
+  <string id="str_tor_ally_thanks_meet_orc" text="Oi! Name's {PLAYER.NAME}"/>
+  <string id="str_tor_ally_thanks_meet_dwarf" text="I am {PLAYER.NAME}."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_capture_orc" text="Get movin', I's cagin' ya up now!"/>
+  <string id="str_tor_talk_lord_defeat_to_lord_capture_dwarf" text="Now, you shall be my prisoner."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_noncom_orc" text="You ain't nuffin', get outta 'ere."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_noncom_dwarf" text="I will not imprison the meek. You may go."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_orc" text="You're not worf da trouble, zog off!"/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_dwarf" text="I respect your honour and might. You may go."/>
+  <string id="str_tor_talk_lord_freed_to_lord_capture_orc" text="Nice try! You're comin' wiv me."/>
+  <string id="str_tor_talk_lord_freed_to_lord_capture_dwarf" text="Your freedom will have to wait. Now, you will be my prisoner."/>
+  <string id="str_tor_talk_lord_freed_to_lord_release_orc" text="Get outta 'ere before I change my mind, panzee."/>
+  <string id="str_tor_talk_lord_freed_to_lord_release_dwarf" text="Alright, you're free to leave. I suggest you do that."/>
+  <string id="str_tor_talk_defeated_lord_capture_return_orc" text="Zog it, dis ain't good..."/>
+  <string id="str_tor_talk_defeated_lord_capture_return_dwarf" text="This will be a grudge.[if:convo_beaten]"/>
+  <string id="str_tor_talk_freed_lord_capture_return_orc" text="Ya betta hope ya die before I's find ya, panzee git!"/>
+  <string id="str_tor_talk_freed_lord_capture_return_dwarf" text="Do not think that my people won't call for a reckoning for this! [if:convo_furious][ib:agressive]"/>
+  <string id="str_tor_talk_freed_lord_release_return_orc" text="Good lad! I'll be sure ta kill ya quick if I catch ya next time. Yoo know, instead of feedin' ya to da squigs..."/>
+  <string id="str_tor_talk_freed_lord_release_return_dwarf" text="Your honour is legendary. I shall not forget this deed."/>
+  <string id="str_tor_lord_request_mission_ask_orc" text="So 'ere's da deal, {PLAYER.NAME}: I told {FACTION_LEADER} dat I'd get more boyz for da scraps. 'Ow's about yoo do dat instead?"/>
+  <string id="str_tor_lord_request_mission_ask_dwarf" text="I have promised {FACTION_LEADER} to acquire additional axes and enough dawi to wield them. Or umgi, for that matter. In any way, you, {PLAYER_NAME}, and your lot seem to be well suited for that."/>
+  <string id="str_tor_lord_mercenary_service_not_interested_orc" text="Zog dat! Yoo ain't payin' enuff!"/>
+  <string id="str_tor_lord_mercenary_service_not_interested_dwarf" text="With all due respect, no. "/>
+  <string id="str_tor_lord_mercenary_service_join_orc" text="Good stuff! Pay me shineyz, I'll kill who ya want fer da {FACTION_NAME}."/>
+  <string id="str_tor_lord_mercenary_service_join_dwarf" text="Let me go over the contract once more... Everything appears to be in order. Me and my throng shall join the {FACTION_NAME}."/>
+  <string id="str_tor_lord_mercenary_service_tell_me_more_orc" text="Ya got my attention, wot's up?"/>
+  <string id="str_tor_lord_mercenary_service_tell_me_more_dwarf" text="You have my ear. Tell me more, and I'll decide whether you'll have my axe as well."/>
+  <string id="str_tor_lord_mercenary_service_accept_verify_orc" text="Alright, I'm payin' ya proppa shineyz an' lettin' ya get da good loot here, so yoo betta scrap fer {FACTION_NAME} fer at least free monfs, or I'll rip yer arms off!"/>
+  <string id="str_tor_lord_mercenary_service_accept_verify_dwarf" text="Of course. Entering a mercenary agreement with us requires your signature on this binding contract to {FACTION_NAME}. For now, this contract has a three-month probationary period. After that, either party may terminate."/>
+  <string id="str_tor_lord_mercenary_service_verify_accept_orc" text="Gotcha, boss. Name 'em, I'll smash 'em!"/>
+  <string id="str_tor_lord_mercenary_service_verify_accept_dwarf" text="Agreed. Your grudges are now my grudges, and I will treat them with the utmost severity."/>
+  <string id="str_tor_lord_mercenary_service_verify_reject_orc" text="Nah, dat's stoopid, zog it!"/>
+  <string id="str_tor_lord_mercenary_service_verify_reject_dwarf" text="I must decline for now."/>
+  <string id="str_tor_lord_mercenary_service_verify_2_orc" text="Ya did a smart fing. Scrap wiv us, an' yoo'll see da loot an' shineyz like ya never seen!"/>
+  <string id="str_tor_lord_mercenary_service_verify_2_dwarf" text="Very well then. Please sign here, here, and here. Payment is specified in the contract, but good work might earn you a bit more."/>
+  <string id="str_tor_lord_mercenary_service_accept_3_orc" text="Next fing ta do: get sum boyz, an' get 'em proppa iron! When da next scrap happens, yoo gotta be ready."/>
+  <string id="str_tor_lord_mercenary_service_accept_3_dwarf" text="Now, prepare the throng, hone your steel and train your kin. When I call for your banners, I expect you to march without delay."/>
+  <string id="str_tor_lord_mercenary_service_reject_orc" text="Why're ya wastin' my time den!? You're lucky ya caught me in a good mood, so zog off!"/>
+  <string id="str_tor_lord_mercenary_service_reject_dwarf" text="Hmpf, typical of your kind. {FACTION_NAME} offers the fairest terms in these mountains, so good luck finding something better. "/>
+  <string id="str_tor_lord_mercenary_elaborate_pay_orc" text="So 'ere's wot's wot: fer three monfs, yoo scrap fer me an' da tribe. After da three monfs, yoo keep fightin' every monf. I'll get ya {OFFER_VALUE}{GOLD_ICON} now if ya do da smart fing an' say yes. After dat, yoo get shineyz from {FACTION_LEADER} ever few dayz for yer mob o' boyz. Best part - ya get yer share o' da loot an' da slaves after good fightz! Normal boyz don't get dat, ya know."/>
+  <string id="str_tor_lord_mercenary_elaborate_pay_dwarf" text="The terms are thus: You pledge your men to our cause for three months , to be extended monthly afterward if need be. You shall receive {OFFER_VALUE}{GOLD_ICON} immediately to seal the deal. Thereafter, {FACTION_LEADER} provides weekly payment based on the strength of your company. Battlefield salvage and prisonners are yours, though we expect our relics to be returned. You'll fill your coffers, fret not lad."/>
+  <string id="str_tor_lord_mercenary_service_elaborate_duty_orc" text="Ain't it clear? Ya smash enemies for us, an' ya do wotever we tellz ya to! Also, if we sez we scrappin', you're scrappin with 'ooever da enemy iz, no questionz!"/>
+  <string id="str_tor_lord_mercenary_service_elaborate_duty_dwarf" text="Duties... just a handful, and none to make a dwarf break a sweat! First, you swear the oath to us. A proper pledge to our cause, beard and all! Once the words are spoken, you’ve got work to do. You’ll march with the throng, follow the Thanes' orders, and most importantly, you'll make our foes pay for their wrongs against us, wherever they are."/>
+  <string id="str_tor_lord_mercenary_elaborate_duty_orc" text="Wot do I do as 'unna ya boyz, really?"/>
+  <string id="str_tor_lord_mercenary_elaborate_duty_dwarf" text="And what's the tally of chores for a hired axe, then?"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_orc" text="So do I get my own fortz?"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_dwarf" text="If I clear out a keep or a sturdy manling-fort, is it mine to keep?"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_orc" text="I gotz good colourz, can I use 'em?"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_dwarf" text="Will my own clan-colours fly over my lads? "/>
+  <string id="str_tor_lord_mercenary_elaborate_wage_orc" text="Wotz da shineyz lookin' like fer dis?"/>
+  <string id="str_tor_lord_mercenary_elaborate_wage_dwarf" text="How much oathgold are we talking about?"/>
+  <string id="str_tor_lord_mercenary_elaborate_accept_orc" text="Let's do it! I'll be 'unna da boyz!"/>
+  <string id="str_tor_lord_mercenary_elaborate_accept_dwarf" text="Consider it done, my axe is yours for as long as you keep our bargain."/>
+  <string id="str_tor_lord_mercenary_elaborate_reject_orc" text="Nah, zog off."/>
+  <string id="str_tor_lord_mercenary_elaborate_reject_dwarf" text="Bah, I'm not interested by such terms."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_to_women_orc" text="No, stoopid! Only da warbosses get fortz! You're just 'unna da boyz, yer gettin' shineyz an' loot an' nuffin' else! If I make ya a boss, den we can talk fortz..."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_to_women_dwarf" text="Holds are for those bound to our Kalan. We follow our Ancestors way, lads are for ruling, not lasses. I'll let Gazul take me before changing that! But if you prove your mettle against our enemies, then I'll accept your oath of homage to me and you'll become my vassal. Then, you may find a way to get your own hold."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_to_women_orc" text="Wot a stoopid question. Only warbosses like me can get fortz! Yoo want a fort, talk to {FACTION_LEADER}. If he makes ya a boss, den yoo can get fortz!"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_to_women_dwarf" text="{FACTION_LEADER} is the one who decides who has earned the right to a hold and its surroundings. You might earn yourself favor by fighting our enemies, but... Well, our Rik follows the old ways, he won't grant a lass anything that is not proper. You'd best take that up with {FACTION_LEADER}, himself."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_orc" text="No, ya git! Only da warbosses get fortz! You're just 'unna da boyz, yer gettin' shineyz an' loot an' nuffin' else! If I make ya a boss, den we can talk fortz..."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_dwarf" text="I know a mercenary's loyalty is to their purse, they're not fit to rule. Fight for us long enough, prove yerself to me, and will get you to swear a proper oath. Then, you'll get your fief."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_orc" text="Wot a stoopid question. Only big bosses like me can get fortz! Yoo want a fort, talk to {FACTION_LEADER}. If he makes ya a warboss, den yoo can get fortz!"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_dwarf" text="Only the thanes of our Rik can get their own fiefs. A mercenary is barely better than a bandit, you cannot be trusted that far. Prove yerself to us, kill our enemies, and you might get to pledge a real oath to {FACTION_LEADER} and become one of his thanes. Then you moght get yourself a fief, not before!"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_faction_owner_orc" text="Ya git! Ya scrap for me, ya use my colourz! Dey're betta colourz den yers anyway. If I make ya a warboss, ya can use yer own colourz, only way."/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_faction_owner_dwarf" text="For as long as I pay you, you will carry my banners, only my thanes have earned the right to fly their own. Fight for us long enough, pledge yourself to me with a proper Baraz, and then, you'll fly your own colours. "/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_orc" text="Nah, only da warbosses can use deir own colourz. Why? 'Cuz {FACTION_LEADER} sed so! Yoo gotta use anuva's colourz fer now if ya join up!"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_dwarf" text="Only thanes of {FACTION_LEADER} may carry their own banner. You do not. Stand with us long enough and perhaps you'll be able to swear homage to {FACTION_LEADER}. Once he is your Rik, you will fly your own colours."/>
+  <string id="str_tor_lord_tell_mission_sworn_vassal_1_orc" text="If I need sumfin' fer 'unna da warbosses ta do, I'll tell ya!"/>
+  <string id="str_tor_lord_mission_destroy_bandit_lair_start_orc" text="Oi! There's sum panzee gitz in da area, callin' demselves {s4}. Smash 'em at dere camp an' kill 'em all, dey're bein' annoying!"/>
+  <string id="str_tor_convince_begin_orc" text="Dis iz stoopid. Why don't I just snikt ya?"/>
+  <string id="str_tor_convince_options_bribe_orc" text="I'll show ya wots wot, 'ere'z shineyz! (-{BRIBE_MONEY}{GOLD_ICON})"/>
+  <string id="str_tor_convince_options_friendship_orc" text="We's backed each ova before! (-{RELATION_DECREASE} to relation)"/>
+  <string id="str_tor_convince_options_persuasion_orc" text="Oi, lissen 'ear den... (Persuasion)"/>
+  <string id="str_tor_convince_options_give_up_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_convince_options_give_up_dwarf" text="Forget it."/>
+  <string id="str_tor_convince_bribe_orc" text="It'z alwayz gonna make me smile ta get more shineyz. I'll go wiv it if ya hand ova {BRIBE_MONEY}{GOLD_ICON}."/>
+  <string id="str_tor_convince_bribe_cant_afford_orc" text="Dat'z stoopid! I ain't got dat much!"/>
+  <string id="str_tor_convince_bribe_verify_orc" text="Fine, 'ere's {BRIBE_MONEY}{GOLD_ICON} ya greedy git."/>
+  <string id="str_tor_convince_bribe_reconsider_orc" text="Lemme fink about dis."/>
+  <string id="str_tor_convince_bribe_cant_afford_response_orc" text="Stoopid, why are yoo wastin' my time!?"/>
+  <string id="str_tor_convince_bribe_verify_response_orc" text="Proppa shineyz, I luv it, {PLAYER.NAME}! Alright, I'll back ya in ya plan."/>
+  <string id="str_tor_convince_friendship_orc" text="Yea, we 'ave, so I'll back ya again, {PLAYER.NAME}. But keep dis up, an' I won't back ya no more!"/>
+  <string id="str_tor_convince_friendship_verify_positive_orc" text="Get ova it, ya panzee! Back me up 'ear!"/>
+  <string id="str_tor_convince_friendship_verify_negative_orc" text="I don' want dat, so lemme offer sumfin' else instead..."/>
+  <string id="str_tor_convince_friendship_go_on_orc" text="Fine. But yoo owe me 'un, got it!?"/>
+  <string id="str_tor_convince_friendship_lord_response_no_orc" text="Wot are yoo talking about, stoopid? Zog off wiv dat!"/>
+  <string id="str_tor_convince_friendship_lord_response_angry_orc" text="You're lucky ya caught me on a good day wiv talk like dat, {PLAYER.NAME}. Zog off before ya make it a bad wun!"/>
+  <string id="str_tor_lord_generic_mission_accept_orc" text="I's got dat handled, yoo'll see."/>
+  <string id="str_tor_lord_generic_mission_reject_orc" text="Nah, I ain't doin' dat."/>
+  <string id="str_tor_lord_generic_mission_accepted_orc" text="Good stuff, {PLAYER.NAME}. Get dis done!"/>
+  <string id="str_tor_lord_generic_mission_rejected_orc" text="Stoopid, I knew ya weren't 'ard enuff. I'll find som'un who iz!"/>
+  <string id="str_tor_lord_tell_mission_no_quest_orc" text="Zog off, I ain't got nuffin' for ya."/>
+  <string id="str_tor_player_threats_lord_verify_orc" text="Ya deaf? Time ta fight, ya panzee!"/>
+  <string id="str_tor_player_verify_attack_on_enemy_lord_orc" text="Are yoo stoopid? I said it'z time ta fight!"/>
+  <string id="str_tor_player_cancels_attack_on_enemy_lord_orc" text="Yoo ain't worf da trouble, zog off!"/>
+  <string id="str_tor_player_cancels_attack_on_enemy_respond_orc" text="I's goin'!"/>
+  <string id="str_tor_lord_tell_gathering_player_answer_orc" text="Lemme get in dat WAAAGH!"/>
+  <string id="str_tor_lord_tell_gathering_player_answer_2_orc" text="Good stuff!"/>
+  <string id="str_tor_lord_tell_gathering_player_joined_orc" text="We's gettin' sum boyz at {GATHERING_SETTLEMENT}, den we's goin'!"/>
+  <string id="str_tor_lord_ask_pardon_answer_bad_relation_orc" text="Nah, after all yoo did? I'm gonna tear ya arms off 'un at a time, ya git."/>
+  <string id="str_tor_lord_ask_pardon_answer_low_right_to_rule_orc" text="Yoo ain't nuffin' but trainin' for my boyz, panzee. Now be a good dummy an' get ta fightin'!"/>
+  <string id="str_tor_lord_ask_pardon_answer_no_advantage_orc" text="Why do dat, when I can just kill ya now, ya git!?"/>
+  <string id="str_tor_lord_ask_pardon_answer_not_accepted_orc" text="Nah, I don't fink so! Let's keep scrappin'!"/>
+  <string id="str_tor_lord_ask_pardon_answer_accepted_orc" text="You're lucky I'm still feelin' good from dat juicy squig I ate earlier. I'll give ya fourty dayz, don't make me regret it!"/>
+  <string id="str_tor_952_orc" text="Fourty dayz, den! If yer lyin', I'll tear yer teef out."/>
+  <string id="str_tor_953_orc" text="Nah, dat's stoopid! Let's keep fightin'!"/>
+  <string id="str_tor_1175_orc" text="Wot, were yoo just wastin' my time? Zog it, let's 'ear wot ya 'ave to say. But I'm gettin' angry!"/>
+  <string id="str_tor_lord_meet_player_as_liege_response_orc" text="So wotcha want!?"/>
+  <string id="str_tor_lord_in_main_party_meet_player_response_orc" text="Yea, yea. Let's see wot you're made of!"/>
+  <string id="str_tor_lord_meet_player_response1_orc" text="Name's {PLAYER.NAME}. 'Oo're yoo!?"/>
+  <string id="str_tor_lord_meet_player_response2_orc" text="Dey call me {PLAYER.NAME}. Yoo gonna tell me yer name or wot?"/>
+  <string id="str_tor_lord_meet_player_response3_orc" text="I's {PLAYER.NAME} an' I's da boss o' dis mob!"/>
+  <string id="str_tor_hero_ask_4_orc" text="So wotcha want?"/>
+  <string id="str_tor_hero_ask_4_dwarf" text="Ai, what is it?"/>
+  <string id="str_tor_player_is_requesting_enemy_change_sides_orc" text="Yer boss is a runty git, 'ow's about you fight fer some'un bigger and 'arder instead!?"/>
+  <string id="str_tor_player_is_requesting_enemy_change_sides_dwarf" text="I have come to inform you that your liege has wronged you severely, {FIRST_NAME}."/>
+  <string id="str_tor_player_is_requesting_neutral_change_sides_orc" text="Why're ya fightin' fer ya boss, anyway?"/>
+  <string id="str_tor_player_is_requesting_neutral_change_sides_dwarf" text="Are you aware of the wrongs your liege has dealt you, {FIRST_NAME}?"/>
+  <string id="str_tor_player_suggesting_treason_orc" text="Wot's yer fots on da boss, anyway?"/>
+  <string id="str_tor_player_suggesting_treason_dwarf" text="Are you aware of the wrongs that our liege has dealt you, {FIRST_NAME}?"/>
+  <string id="str_tor_persuasion_leave_faction_npc_refuse_high_negative_score_orc" text="Zog off! My boss iz da biggest an' da strongest!"/>
+  <string id="str_tor_persuasion_leave_faction_npc_refuse_high_negative_score_dwarf" text="Your implication is an insult! Another word, and I'll consider it a grudge as well."/>
+  <string id="str_tor_persuasion_leave_faction_npc_redirected_orc" text="Yoo should talk to {REDIRECT_HERO_RELATIONSHIP}, cuz he does da finking for me."/>
+  <string id="str_tor_persuasion_leave_faction_npc_redirected_dwarf" text="{REDIRECT_HERO_RELATIONSHIP} leads our clan and is the only one who may engage in such talk as this."/>
+  <string id="str_tor_persuasion_leave_faction_npc_answer_orc" text="Yea? 'Ow's dat, den? [if:convo_thinking]"/>
+  <string id="str_tor_persuasion_leave_faction_npc_answer_dwarf" text="Quit speaking like an elgi and be forthcoming. [if:convo_thinking]"/>
+  <string id="str_tor_lord_ask_recruit_next_reservation_success_with_barter_orc" text="Fine, fine! I's gonna fink about it."/>
+  <string id="str_tor_lord_ask_recruit_next_reservation_success_with_barter_dwarf" text="This is a serious accusation. But, if so, the grudge mandated dissolves my oaths of fealty."/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_orc" text="So yoo want me ta ditch da boss? Gonna need some real lootz an' shineyz for me to do that. Maybe even a fort..."/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_dwarf" text="No doubt it would be difficult for the others to see it this way, however. I will need support and resources for me to follow through with the coming grudge-reckoning. Otherwise, my clan will have to wait for a better time."/>
+  <string id="str_tor_lord_defection_post_barter_s_orc" text="Let's do it! All dis backstabbing reminds me o' my yoof, feelin' all fuzzy inside!"/>
+  <string id="str_tor_lord_defection_post_barter_s_dwarf" text="This is enough. Very well then, the time has come to settle this grudge!"/>
+  <string id="str_tor_lord_defection_post_barter_f_orc" text="Dat ain't enuff, yoo's just wasting my time! Zog off before I take yer 'ead to da boss!"/>
+  <string id="str_tor_lord_defection_post_barter_f_dwarf" text="What you offer is not enough for the task. Begone! We will settle this grudge in our own way."/>
+  <string id="str_tor_lord_ask_recruit_argument_no_answer_orc" text="Stoopid fing ta say!"/>
+  <string id="str_tor_lord_ask_recruit_argument_no_answer_dwarf" text="I have no answer to that."/>
+  <string id="str_tor_lord_propose_marriage_conv_general_proposal_3_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_lord_propose_marriage_conv_general_proposal_3_dwarf" text="Forget it."/>
+  <string id="str_tor_lord_start_courtship_response_player_offer_nevermind_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_lord_start_courtship_response_player_offer_nevermind_dwarf" text="Forget it."/>
+  <string id="str_tor_hero_courtship_persuasion_start_orc" text="ofcourse my sweet baby darling, lets get to know each other"/>
+  <string id="str_tor_hero_courtship_persuasion_success_orc" text="babe we have so much in common babe"/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_1_orc" text="babe, lets talk more when we meet again"/>
+  <string id="str_tor_hero_courtship_persuasion_2_start_orc" text="babe, i cant stop thinking about you"/>
+  <string id="str_tor_hero_courtship_persuasion_2_success_orc" text="yes babe, lets get married"/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_3_orc" text="my gold is my gold , your gold is our gold"/>
+  <string id="str_tor_lord_propose_marriage_conv_general_proposal_response_orc" text="one hand, please"/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_dwarf" text="Forget it."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_2_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_2_dwarf" text="Forget it."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_3_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_3_dwarf" text="Forget it."/>
+  <string id="str_tor_mercenary_recruit_start_orc" text="Oi! Ya need boyz? We's da 'ardest boyz around! {?PLURAL}{MERCENARY_COUNT} reddy ta snikt an' smash fer ya! Just give us da shineys, only {GOLD_AMOUNT}{GOLD_ICON}"/>
+  <string id="str_tor_mercenary_recruit_start_single_orc" text="Oi! I'z lookin' fer a boss 'oo knows wots wot! Gimme {GOLD_AMOUNT}{GOLD_ICON} an' I's killin' anyfing ya want."/>
+  <string id="str_tor_mercenary_recruit_accept_orc" text="All o' ya join me! 'Ere's {GOLD_AMOUNT}{GOLD_ICON}! Let's go!"/>
+  <string id="str_tor_mercenary_recruit_accept_some_orc" text="I only want da best {MERCENARY_COUNT} o' ya. 'Ere's {GOLD_AMOUNT}{GOLD_ICON}."/>
+  <string id="str_tor_mercenary_recruit_reject_gold_orc" text="Zog off, yoo ain't worf it!"/>
+  <string id="str_tor_mercenary_recruit_reject_orc" text="Zog off, dis mob's full!"/>
+  <string id="str_tor_mercenary_recruit_start_2_orc" text="Lemme get da grog, we'll be there!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_or_vassal_orc" text="Yoo lookin' fer boyz fer {FACTION_SERVICE_TERM}, I's a proppa 'ard lad right 'ere!"/>
+  <string id="str_tor_player_want_to_end_mercenary_service_orc" text="Fightin' fer {SERVED_FACTION} iz boring! I's outta here!"/>
+  <string id="str_tor_player_want_to_end_mercenary_service_response_orc" text="Fine! Get outta here, yoo wuz a panzee git anyway!"/>
+  <string id="str_tor_lord_ask_exit_service_confirm_orc" text="Zog off, den!"/>
+  <string id="str_tor_lord_ask_exit_service_confirm_no_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_lord_ask_exit_service_confirm_no_dwarf" text="Forget it."/>
+  <string id="str_tor_lord_ask_exit_service_confirm_final_orc" text="If ya ever get 'ard enuff, ya know where ta find me. Bet you're gonna die before dat."/>
+  <string id="str_tor_player_want_to_hire_mercenary_orc" text="Oi! Come wiv {PLAYER_FACTION}! We's got scraps ta win!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_orc" text="You're not needed no more, get outta here!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_paying_debt_orc" text="But 'old on. Yoo still owe us shineyz. Gotta pay us {GOLD_AMOUNT}{GOLD_ICON}, ya get it?"/>
+  <string id="str_tor_player_want_to_fire_mercenary_okay_orc" text="You're gonna regret dis if da uvva bosses pay us up, I's finkin'."/>
+  <string id="str_tor_player_want_to_fire_mercenary_not_paying_debt_orc" text="Oh, now ya really did sumfing stoopid!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_there_is_debt_accept_payment_orc" text="Fine, take da shineyz."/>
+  <string id="str_tor_player_want_to_fire_mercenary_there_is_debt_reject_payment_orc" text="Zog off, ya scrapped like a bunch o' panzee gitz!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_there_is_debt_think_again_orc" text="Lemme fink about it..."/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_reject_orc" text="Join yoo? Ya fink I'm stoopid!? Zog off!"/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_reject_poor_orc" text="Yoo ain't got enuff fer us, ya broke git!"/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_orc" text="Yoo's gotta talk to {LEADER.LINK}, 'e'z da boss."/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_2_orc" text="Alright, we's ready ta scrap for ya, but yoo's gotta pay us shineyz. Here's wot we want."/>
+  <string id="str_tor_player_ask_mercenary_to_join_player_response_accept_orc" text="Fine. Come on, den!"/>
+  <string id="str_tor_player_ask_mercenary_to_join_player_response_reject_orc" text="Zog off, dis iz too much!"/>
+  <string id="str_tor_caravan_create_conversation_1_orc" text="Oi! Get sum ladz to start movin' sum loot wagons around."/>
+  <string id="str_tor_caravan_create_conversation_2_orc" text="We gotz slaves an' scrap ta start movin' sum wagons for ya! But yoo gotta pay for da boyz an' pick a boss ta lead 'em! We got {NUMBER_OF_MEN} boyz right 'ere fer {AMOUNT}{GOLD_ICON}. Yoo in?"/>
+  <string id="str_tor_caravan_create_conversation_3_orc" text="I ain't got any boyz to make boss for dis."/>
+  <string id="str_tor_caravan_create_conversation_4_orc" text="Zog off! Dat's too much!"/>
+  <string id="str_tor_caravan_create_conversation_5_orc" text="Fine! Take dese {AMOUNT}{GOLD_ICON} an' quit muckin' about!"/>
+  <string id="str_tor_caravan_create_conversation_6_orc" text="Dose boyz are panzee gitz! How'z about we get some proppa 'ard boyz in on dis?"/>
+  <string id="str_tor_caravan_create_conversation_10_orc" text="Dat's a lot! Yoo messin' wiv me?"/>
+  <string id="str_tor_caravan_create_conversation_7_orc" text="Yea, we can get sum proppa 'ard boyz, but it'll cost even more shineyz.{AMOUNT}{GOLD_ICON} soundz right!"/>
+  <string id="str_tor_caravan_create_conversation_8_orc" text="Good stuff! I's gonna getcha {AMOUNT}{GOLD_ICON} for proppa 'ard boyz for movin' da loot wagons around."/>
+  <string id="str_tor_caravan_create_conversation_9_orc" text="Zog off! Dat's too much!"/>
+  <string id="str_tor_caravan_create_conversation_10_2_orc" text="Dat's a lot! Yoo messin' wiv me?"/>
+  <string id="str_tor_caravan_create_conversation_11_orc" text="So who's gonna be da boss?"/>
+  <string id="str_tor_caravan_create_conversation_12_continue_orc" text="Nunna 'em, wuz finkin' of..."/>
+  <string id="str_tor_caravan_create_conversation_13_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_caravan_create_conversation_13_dwarf" text="Forget it."/>
+  <string id="str_tor_caravan_create_conversation_14_orc" text="Good stuff! Lemme get da boyz an' we'll be movin' da loot wagons about right away! All da shineyz we get from ripoffs we'll get to ya quick, boss."/>
+  <string id="str_tor_weaponsmith_talk_start_normal_orc" text="Got da bestest choppas an' iron around, yoo want it?"/>
+  <string id="str_tor_weaponsmith_talk_start_normal_dwarf" text="I represent the Armourers and Weaponsmiths Guild in this hold. What do you need?"/>
+  <string id="str_tor_weaponsmith_talk_start_to_player_in_disguise_orc" text="Da boss'll hit me 'ard if 'e seez me talkin' to ya!"/>
+  <string id="str_tor_weaponsmith_talk_start_to_player_in_disguise_dwarf" text="Scram, you're dishonouring my guild!"/>
+  <string id="str_tor_weaponsmith_talk_initial_orc" text="So wot else ya want?"/>
+  <string id="str_tor_weaponsmith_talk_initial_dwarf" text="What else do you need?"/>
+  <string id="str_tor_weaponsmith_talk_player_1_orc" text="Lemme see wotcha got!"/>
+  <string id="str_tor_weaponsmith_talk_player_1_dwarf" text="I desire to see your guild's wares."/>
+  <string id="str_tor_weaponsmith_talk_player_request_craft_orc" text="I got a kustom order for ya, get ta work!"/>
+  <string id="str_tor_weaponsmith_talk_player_request_craft_dwarf" text="I have a custom design to commission."/>
+  <string id="str_tor_weaponsmith_talk_player_3_orc" text="Zog off, I'm goin' sumwere else!"/>
+  <string id="str_tor_weaponsmith_talk_player_3_dwarf" text="I need nothing at this moment."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_1_orc" text="I's gettin' ta work right away!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_1_dwarf" text="Just so."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_2_orc" text="So 'ow many boyz yoo buyin' fer? Gonna be 100{GOLD_ICON} per lad."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_craft_orc" text="Gettin' ta work now, den!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_craft_dwarf" text="We will get to work."/>
+  <string id="str_tor_weaponsmith_talk_merchant_craft_opened_orc" text="Buyin' summin' makes da boss happy!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_craft_opened_dwarf" text="Grungni be with you."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_3_orc" text="If ya see sumfing ya like, ya buy it first! No rentin'!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_3_dwarf" text="As you wish. Alert me if you need anything."/>
+  <string id="str_tor_weaponsmith_talk_end_orc" text="Quit distractin' me! Da boss'll beat me if I's seen muckin' about!"/>
+  <string id="str_tor_weaponsmith_talk_end_dwarf" text="Remember your ancestors."/>
+  <string id="str_tor_special_notable_introduction_orc" text="Da name'z {CONVERSATION_HERO.FIRSTNAME}. {FACTION_DESCRIPTION}."/>
+  <string id="str_tor_special_notable_introduction_dwarf" text="I am {CONVERSATION_HERO.FIRSTNAME}, {FACTION_DESCRIPTION}."/>
+  <string id="str_tor_artisan_introduction_orc" text="I's {CONVERSATION_HERO.FIRSTNAME} an' I know'z a fing or two about workin' da slavez an' da scrap. Ya want good choppaz or iron, ya gotta make me smile!"/>
+  <string id="str_tor_artisan_introduction_dwarf" text="I am called {CONVERSATION_HERO.FIRSTNAME}. I am a guildmaster here in {TOWN_NAME}, and respected by my peers to boot! For that reason, they trust my judgement."/>
+  <string id="str_tor_headman_introduction_orc" text="Oi! Da name's {CONVERSATION_HERO.FIRSTNAME} an' dis {VILLAGE_NAME} 'ere's my camp! Yoo wanna talk, ya do it ta me!"/>
+  <string id="str_tor_headman_introduction_dwarf" text="I am called {CONVERSATION_HERO.FIRSTNAME}, and I remember the day every other dawi you see here was brought into this world. As the elder, it is my judgement which the people heed most."/>
+  <string id="str_tor_rural_notable_introduction_orc" text="I's {CONVERSATION_HERO_FIRSTNAME} an' dis part o' da camp's mine! Don' talk to any o' da boyz, yoo talk wiv me!"/>
+  <string id="str_tor_rural_notable_introduction_dwarf" text="I am {CONVERSATION_HERO.FIRSTNAME}. As one of the oldest, many dawi here respect my judgement."/>
+  <string id="str_tor_player_ask_to_join_players_party_orc" text="Oi! Get in da mob!"/>
+  <string id="str_tor_player_ask_to_join_players_party_dwarf" text="I want you to join my throng."/>
+  <string id="str_tor_player_ask_to_join_players_party_response_orc" text="Fine, den. Lemme just finish dis fungus beer!"/>
+  <string id="str_tor_player_ask_to_join_players_party_response_dwarf" text="I would be honoured. Allow me a moment to get ready."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_take_party_orc" text="Lemme take a look at summa da boyz, quick."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_take_party_dwarf" text="Let me inspect the throng."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_orc" text="Were do ya fink you're goin'!? Cough up da shineyz!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_dwarf" text="You must pay for your safe passage."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_di_orc" text="Ya wanna scrap den, do ya!?"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_2_orc" text="Yea, dat's right! Get ta killin', boyz!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_3_orc" text="Nah, dat ain't wot I sed at all..."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_enemy_orc" text="My boss wants ta kill yer boss, so dat means I want ta kill ya too!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_enemy_dwarf" text="My oaths demand I fight you here."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_orc" text="Yer skin'z gonna be my next coat, den!"/>
+  <string id="str_tor_player_has_plans_options_orc" text="Fine, {PLAYER_SALUTATION}. Wotcha been finkin'?"/>
+  <string id="str_tor_player_ask_lords_to_follow_him_orc" text="Oi, come wiv me! I's got a plan."/>
+  <string id="str_tor_player_ask_lords_to_create_army_orc" text="Gettin' together a proppa WAAAGH 'ere! Get da warbosses ova!"/>
+  <string id="str_tor_player_ask_lords_to_create_army_dwarf" text="I am amassing a great host. Muster the throngs to my standard! {AMOUNT}{GOLD_ICON}"/>
+  <string id="str_tor_player_plans_never_mind_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_player_plans_never_mind_dwarf" text="Forget it."/>
+  <string id="str_tor_player_ask_lords_to_create_army_answer_orc" text="I's gonna tell every warboss I see ta get over ta ya quick!"/>
+  <string id="str_tor_player_ask_lords_to_follow_him_already_at_army_orc" text="Zog off! I's already makin' sure {ESCORTING_PARTY} don't get smashed up!"/>
+  <string id="str_tor_player_ask_lords_to_follow_him_2_orc" text="Ya got my attention fer ten days. After dat? I's gettin' bored."/>
+  <string id="str_tor_how_many_days_to_escort_never_mind_orc" text="Fine. 'ere we go! {AMOUNT}{GOLD_ICON}"/>
+  <string id="str_tor_how_many_days_to_escort_never_mind_2_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_how_many_days_to_escort_never_mind_2_dwarf" text="Forget it."/>
+  <string id="str_tor_lord_answer_to_escorting_orc" text="So go on, den!"/>
+  <string id="str_tor_player_want_to_leave_faction_orc" text="Oi, {SALUTATION_BY_PLAYER}, I'm leavin' 'dis tribe!"/>
+  <string id="str_tor_player_want_to_leave_faction_dwarf" text="{SALUTATION_BY_PLAYER}, I ask that you release me from my oaths of fealty."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_di_orc" text="You're already part o' anuver tribe, ain't ya!? Zog off!"/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_di_dwarf" text="Surely, you do not mean to break the oaths you already possess with another realm."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_or_vassal_answer_orc" text="So wot's yer plan, den?"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_or_vassal_answer_dwarf" text="What service would you propose?"/>
+  <string id="str_tor_player_is_offering_mercenary_orc" text="Say 'oo ta kill an' I's gonna kill 'em quick, fer da shineyz."/>
+  <string id="str_tor_player_is_offering_mercenary_dwarf" text="I wish to sign a mercenary's contract."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_orc" text="Fine! Den I'll go find dis {KING.LINK}. Fanks for wastin' my time ya git."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_dwarf" text="Then I will find and talk to {KING.LINK}"/>
+  <string id="str_tor_player_is_offering_vassalage_orc" text="Oi! I'm a proppa 'ard boy, make me a warboss in yer tribe!"/>
+  <string id="str_tor_player_is_offering_vassalage_dwarf" text="Allow me to swear the oaths of fealty, {SALUTATION_BY_PLAYER}, and make me thane in your realm."/>
+  <string id="str_tor_player_is_offering_vassalage_while_mercenary_orc" text="Oi! I's been killin' everywun ya asked me too fer nuffin'. Make me a warboss!"/>
+  <string id="str_tor_player_is_offering_vassalage_while_mercenary_dwarf" text="I have fought and bled for this realm. I wish to swear the oaths of fealty, {SALUTATION}."/>
+  <string id="str_tor_player_is_offering_join_cancel_orc" text="Zog it, let's talk 'bout summin' else."/>
+  <string id="str_tor_player_is_offering_join_cancel_dwarf" text="Actually, I was going to talk about something else."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_2_orc" text="Ya wanna be a warboss? Talk to {KING.LINK}. Ya know, once dey get outta dat cage dey're in by {SETTLEMENT}!"/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_3_orc" text="If I tellz {KING.LINK} wot yer 'ard an' tuff, will ya zog off!?"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_orc" text="Yoo fink my own boyz ain't enuff, {PLAYER.NAME}!? Until I sez da tribe'z fightin' som'un good an' tuff, zog off!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_dwarf" text="We have no desire to offer mercenary contracts at this time. {PLAYER.NAME}. This may change when grudges need settling."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_2_orc" text="Oi, 'oo even are ya? Sum panzee git I bet, never 'eard o' ya! Zog off before I feed ya to da squigz!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_2_dwarf" text="You lack fame of both trust and competence, {PLAYER.NAME}. Signing such a contract with you would be foolish."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_orc" text="Yoo ain't worf da shineyz, git! If da boss sez we's fightin', try askin' den. Ya know you're worf more durin' a fight..."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_dwarf" text="The realm is at peace, and has no need for mercenaries. You should seek another for such a contract."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_2_orc" text="We gotz enuff boyz ta win dis scrap nice an' eazee, so zog off an' join som'un runtier ya git!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_2_dwarf" text="These grudges shall be settled imminently; issuing mercenary contracts would be a waste of gal."/>
+  <string id="str_tor_mercenary_player_accepts_orc" text="Good stuff! Let's do it!"/>
+  <string id="str_tor_mercenary_player_rejects_orc" text="Zog off, dat's way too low!"/>
+  <string id="str_tor_mercenary_player_accepts_lord_answer_orc" text="Smart fing ya did, 'ere. You're gonna be smashin' fer da {KINGDOM_FORMAL_NAME} now! So quit muckin' about an' get ta killin'!"/>
+  <string id="str_tor_player_joined_2_orc" text="Sure fing, boss! Point da way an' dey're good as ded!"/>
+  <string id="str_tor_player_joined_3_orc" text="Keep da shineyz comin', den!"/>
+  <string id="str_tor_mercenary_player_rejects_lord_answer_orc" text="Ya ain't gonna get betta den dat, stoopid! Don' even fink about joinin' som'un else, too."/>
+  <string id="str_tor_prisoner_hero_leave_answer_orc" text="I ain't gonna sneak off, realz!"/>
+  <string id="str_tor_lord_diagnostics_option_1_4_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_lord_diagnostics_option_1_4_dwarf" text="Forget it."/>
+  <string id="str_tor_player_is_leaving_neutral_or_friendly_orc" text="Zog off! I got placez ta be!"/>
+  <string id="str_tor_player_is_leaving_enemy_prisoner_orc" text="Time ta get movin'!"/>
+  <string id="str_tor_prison_break_start_1_orc" text="Dat yoo, {SALUTATION}? Ya got me outta da cage!"/>
+  <string id="str_tor_prison_break_start_2_orc" text="Was finkin' yoo'd snikt me while I wuz in da cage, {SALUTATION}."/>
+  <string id="str_tor_prison_break_start_3_orc" text="Yer gettin' me outta da cage... but why? I woulda just snikt ya!"/>
+  <string id="str_tor_prison_break_player_ask_orc" text="We smashed 'em up good an' proppa on our way out, didn't we!? Wot's da next step?"/>
+  <string id="str_tor_prison_break_player_ask_dwarf" text="By Grugni's beard, I'm happy to have gotten out of here, lad. What's the next step?"/>
+  <string id="str_tor_prison_break_player_meet_orc" text="Name's {PLAYER.NAME}. I saved yer life, I expect yoo to keep dat in mind when I need ya to back me.{newline} Wot're yoo gonna do, den?"/>
+  <string id="str_tor_prison_break_player_meet_dwarf" text="I'm {PLAYER.NAME]} and you ought to remember the debt you owe me now. {newline}Tell me, what's yer plan, now?"/>
+  <string id="str_tor_prison_break_next_companion_orc" text="Let's go, den! I'm wiv yoo!"/>
+  <string id="str_tor_prison_break_next_companion_dwarf" text="Aye, I have yet another debt to you. Let me rejoin your throng so I can start repaying it."/>
+  <string id="str_tor_prison_break_next_commander_orc" text="I's gonna go rally a bunch o' boyz! Dis wuz good stuff 'ere!"/>
+  <string id="str_tor_prison_break_next_commander_dwarf" text="My lads are waiting for me. I will keep in mind what you did for me."/>
+  <string id="str_tor_prison_break_next_noble_orc" text="I's gonna go back to sum ladz o' mine. Good stuff, dis!"/>
+  <string id="str_tor_prison_break_next_notable_orc" text="Gonna go right back to workin'!"/>
+  <string id="str_tor_prison_break_next_other_orc" text="Gonna look for sum good scrapz an' da like about."/>
+  <string id="str_tor_prison_break_end_dialog_3_orc" text="Ya know, yoo could join me an' do sumfin' smart instead!"/>
+  <string id="str_tor_prison_break_end_dialog_1_orc" text="Go do dat, den!"/>
+  <string id="str_tor_prison_break_end_dialog_2_orc" text="Fine, zog off!"/>
+  <string id="str_tor_ransom_broker_intro_orc" text="Wotcha want, den?"/>
+  <string id="str_tor_ransom_broker_intro_2_di_orc" text="Yoo look like an 'ard lad wot winz fightz. Wot if instead o' killin' da gitz, ya bring 'em to me?"/>
+  <string id="str_tor_ransom_broker_intro_2_orc" text="So yoo sellz slavez, den?"/>
+  <string id="str_tor_ransom_broker_intro_3_orc" text="Wot did I just say? 'Course I sell slavez! But I also buy 'em, ya know. Wot, did yoo fink we had enough gobbos fer everyfin'? Gotta use da punee pinkskins an' runty gits sometimes!"/>
+  <string id="str_tor_ransom_broker_intro_4_orc" text="I buy da slavez, an' den I sellz da slavez to da shops an' da minez. Yoo getz da difference, everywun winz!"/>
+  <string id="str_tor_ransom_broker_intro_5_orc" text="So bring me sum slavez if ya want all da shineyz yoo can eat!"/>
+  <string id="str_tor_ransom_broker_info_talk_player_1_orc" text="Wot if nobody wantz to buy da slave?"/>
+  <string id="str_tor_ransom_broker_info_talk_player_2_orc" text="So 'ow much for 'unna dese slavez?"/>
+  <string id="str_tor_ransom_broker_info_talk_player_3_orc" text="Wot if som'un got me in da cage? Could dey sell me as a slave?"/>
+  <string id="str_tor_ransom_broker_info_talk_player_4_orc" text="Fine enuff! Zog off."/>
+  <string id="str_tor_ransom_broker_families_orc" text="Dat's a stoopid question! Yoo know 'ow fast slaves die? Especially for da minez, dey're buyin' slavez like da bosses buy juicy squigz!"/>
+  <string id="str_tor_ransom_broker_prices_orc" text="Dat depends on 'ow tuff dey are! All dependz on 'ow long dey'll last in da works. Weak an' runty wunz die eazee, so dey're not worf much. Tuff wuns, like 'umie &quot;knights&quot; or our own boyz, last for monfs cuz dey're tuff. Dey're worf more. Da tuffa da slave, da more ya get."/>
+  <string id="str_tor_ransom_broker_ransom_me_orc" text="Sure fing! But I'll tell ya wot: if yoo got enuff shineyz hidden away for me, I'll buy ya an' free ya right away. Why trust me? Cuz if ya keep gettin' put in a cage, I can keep makin' shineyz off ya! Can't do dat if you'z a slave."/>
+  <string id="str_tor_ransom_broker_start_has_met_orc" text="Oi! Yoo got anywun in da cages? I'll buy 'em as slavez off ya!"/>
+  <string id="str_tor_ransom_broker_pretalk_orc" text="So do ya got anywun in da cages, or are ya just wastin' my time!?"/>
+  <string id="str_tor_ransom_broker_talk_player_1_orc" text="Get ready ta buy, den!"/>
+  <string id="str_tor_ransom_broker_talk_player_2_orc" text="Oi, so wot'z yer job again?"/>
+  <string id="str_tor_ransom_broker_talk_player_3_orc" text="Dey're gonna sell wun o' my ladz as slavez! Get 'im outta there!"/>
+  <string id="str_tor_ransom_broker_talk_player_4_orc" text="I dun got anywun right now, I'll fink about dat!"/>
+  <string id="str_tor_ransom_broker_no_prisoners_orc" text="Fine, den. Zog off 'till ya got da slavez!"/>
+  <string id="str_tor_ransom_broker_ransom_companion_orc" text="So 'oo do yoo want me ta buy free, den?"/>
+  <string id="str_tor_ransom_broker_ransom_companion_choose_continue_orc" text="Nunna 'em, wuz finkin' o' som'un else..."/>
+  <string id="str_tor_ransom_broker_ransom_companion_choose_never_mind_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_ransom_broker_ransom_companion_choose_never_mind_dwarf" text="Forget it."/>
+  <string id="str_tor_ransom_broker_sell_prisoners_orc" text="Lemme see wotcha got, den!"/>
+  <string id="str_tor_ransom_broker_sell_prisoners_3_orc" text="Great stuff! Yoo find anymore like dese, come straight ta me!"/>
+  <string id="str_tor_ransom_broker_sell_prisoners_2_orc" text="Gonna be 'round 'ere fer a while when ya need me!"/>
+  <string id="str_tor_talk_common_to_taverngamehost_2_orc" text="Yoo tell me wot ya fink o' {DIFFICULTY} bein' fair, den we play fer {?IS_BETTING}{BET_AMOUNT}{GOLD_ICON}.{?}killin' da boredom.{\?}"/>
+  <string id="str_tor_taverngamehost_player_start_game_orc" text="Dat's good enuff. Let's do dis!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_orc" text="Quit tryin' ta rip me off! Make da game fairer!"/>
+  <string id="str_tor_taverngamehost_player_change_bet_orc" text="Oi! We ain' bettin' dat. I'll bet sum uvva amount o' shineyz."/>
+  <string id="str_tor_taverngamehost_player_game_history_orc" text="{GAME_NAME}? Wot's dat?"/>
+  <string id="str_tor_taverngamehost_player_reject_orc" text="Zog off!"/>
+  <string id="str_tor_taverngamehost_start_playing_ask_accept_orc" text="So wot side ya pickin'?"/>
+  <string id="str_tor_taverngamehost_start_playing_ask_decline_orc" text="Got betta fings ta do dan dis! Zog off!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_orc" text="Lemme go first!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_orc" text="Yoo go first!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_2_orc" text="Gonna be white."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_2_orc" text="Gonna be black."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_3_orc" text="Gonna be white."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_3_orc" text="Gonna be black."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_4_orc" text="Gonna be white."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_4_orc" text="Gonna be black."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_5_orc" text="Gonna be da sheepz."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_5_orc" text="Gonna be da wolfz."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_6_orc" text="I'll be attackin'!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_6_orc" text="Yoo attack me!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_back_orc" text="Oi, wait."/>
+  <string id="str_tor_taverngamehost_player_start_playing_now_orc" text="So 'ere we go!"/>
+  <string id="str_tor_taverngamehost_ask_difficulty_orc" text="Fine. Ya wanna make it fairer? Make it fairer, den!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_easy_orc" text="I sez 'easy' iz fairest!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_normal_orc" text="I sez 'normal' iz fairest!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_hard_orc" text="Bah, let's play 'hard', I can beat ya wiv half my brain missin'!"/>
+  <string id="str_tor_taverngamehost_ask_betting_orc" text="Fine den! Wotcha puttin' in da pot?"/>
+  <string id="str_tor_taverngamehost_player_0_denars_orc" text="I ain' lettin' ya rip me off. No bet!"/>
+  <string id="str_tor_taverngamehost_deny_betting_orc" text="Nah, I ain' puttin' shineyz in da pot wiv dose rulez! Make 'em 'arder!"/>
+  <string id="str_tor_taverngamehost_changing_difficulty_for_bet_yes_orc" text="Good stuff! I'm goin' in!"/>
+  <string id="str_tor_taverngamehost_changing_difficulty_for_bet_no_orc" text="Keep da rulez da same."/>
+  <string id="str_tor_taverngamehost_ask_betting_2_orc" text="So put da shineyz in da pot, den!"/>
+  <string id="str_tor_taverngamehost_tell_history_seega_orc" text="{GAME_NAME} iz wot da {CULTURE_NAME} call it. It'z pretteh boring if ya ask me, all yoo do iz makin' trapz wiv ya pieces. No smashin' except wiv da piecez!"/>
+  <string id="str_tor_taverngamehost_tell_history_puluc_orc" text="{GAME_NAME} iz wun o' da funnest gamez when ya can't scrap wiv da ladz. Use yer pieces ta smash da uvva pieces an' don' let yer pieces get smashed! Good stuff."/>
+  <string id="str_tor_taverngamehost_tell_history_mutorere_orc" text="Oi, dis {GAME_NAME} iz only fer da big-brainz like da shamans. Yoo only win be being smarter den 'em, no smashin' wiv da pieces!"/>
+  <string id="str_tor_taverngamehost_tell_history_konane_orc" text="{GAME_NAME} tellz ya which boyz are panzee gits an' which 'un's are proppa 'ard! Yoo gotta lose piecez but make sure da uvva lad loses even more!"/>
+  <string id="str_tor_taverngamehost_tell_history_baghchal_orc" text="I luv dis wun, {GAME_NAME} iz about no fair fightz, just like a proppa scrap should be! If you're tuff enuff, ya can win even wifout da bonuses da uvva wun gets!"/>
+  <string id="str_tor_taverngamehost_tell_history_tablut_orc" text="Dis wun's called {GAME_NAME}. If ya smart, ya pick da side wiv all da pieces about to smash da uvva side, 'oo only getz da wun piece! Dose gitz at da {CULTURE_NAME} really don' know how ta make a good game..."/>
+  <string id="str_tor_taverngamehost_player_history_back_orc" text="Let's do dat!"/>
+  <string id="str_tor_taverngamehost_player_history_leave_orc" text="Nah, dis soundz like a load o' crap."/>
+  <string id="str_tor_lord_agrees_cancel_play_orc" text="Zog off, den!"/>
+  <string id="str_tor_lord_answer_to_play_boardgame_again_accept_orc" text="Good stuff! Let's keep goin', den!"/>
+  <string id="str_tor_lord_answer_to_play_boardgame_again_decline_orc" text="Zog off, I's bored o' dis!"/>
+  <string id="str_tor_lord_after_lord_win_boardgame_orc" text="Oi, yoo cheated! Play fair next time!"/>
+  <string id="str_tor_lord_player_start_game_orc" text="Let's get dis done, den."/>
+  <string id="str_tor_lord_player_leave_orc" text="Dis iz a waste o' my time! I'm outta 'ere."/>
+  <string id="str_tor_talk_common_to_tavernkeeper_orc" text="Oi! Wotcha want?"/>
+  <string id="str_tor_tavernkeeper_talk_to_get_quest_orc" text="I's lookin' fer gitz wif sumfin' ta do."/>
+  <string id="str_tor_tavernkeeper_get_clan_info_start_orc" text="So 'owz about ya tell me 'bout da boss 'o dis fort?"/>
+  <string id="str_tor_tavernkeeper_get_clan_info_answer_orc" text="I'll tell'z ya 'bout {OWNER_CLAN}, 'cuz dey're da bosses o' {SETTLEMENT} if ya gimme {PRICE}{GOLD_ICON}"/>
+  <string id="str_tor_tavernkeeper_get_clan_info_player_answer_1_orc" text="Fine! I'll pay dat."/>
+  <string id="str_tor_tavernkeeper_get_clan_info_player_answer_2_orc" text="Zog off!"/>
+  <string id="str_tor_tavernkeeper_companion_info_start_orc" text="Lookin' fer ladz wiv speshul skillz for da mob, wotcha know!?"/>
+  <string id="str_tor_tavernkeeper_companion_info_answer_orc" text="Can't tell ya wifout knowin' wot sorta ladz you're wantin'."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_scout_orc" text="I's wanna get sum good scoutin' eyez for da mob."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_engineer_orc" text="Gimme da engineer-type, som'un wot knowz 'ow ta work da big masheenz."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_surgeon_orc" text="I's wantin' som'un ta get da 'urt gitz back up!"/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_quartermaster_orc" text="Tell me som'un 'oo could be a good boss 'o da camp, masterin' da quarterz."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_caravan_leader_orc" text="So who's da bestest boss fer movin' loot wagons about?"/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_leader_orc" text="Tell me 'bout da bestest boss ya know fer winnin' da fightz!"/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_roguery_orc" text="Maybe som'un who knowz a fing or two 'bout bein' sneaky an' cunnin' like Mork."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_nevermind_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_nevermind_dwarf" text="Forget it."/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_end_orc" text="Zog off, yoo ain't worf nuffin'!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_inside_1_orc" text="So 'ear dis: {INQUIRY_COMPANION.LINK} wuz 'ere, but dey went straight to {COMPANION_SETTLEMENT}. If ya quick-like, ya can catch 'em!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_inside_2_orc" text="Yea, actually. {INQUIRY_COMPANION.LINK} was 'ere, but dey left a bit ago! Fink dey sed dey wuz goin' ta {COMPANION_SETTLEMENT}, if ya wanna go there!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_inside_3_orc" text="Yoo want som'un like dat? Yoo want {INQUIRY_COMPANION.LINK.}! Dey ain't 'ere, but I's know where dey went! Yoo can find 'em at {COMPANION_SETTLEMENT}, I fink."/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_outside_1_orc" text="Oi, I know dat! Dat git ova there iz INQUIRY_COMPANION.LINK}, dey soundz like 'oo ya want!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_outside_2_orc" text="Dey'z sayin' there'z a git called {INQUIRY_COMPANION.LINK} ova dere in dis room who's got da skillz wot yer lookin' fer."/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_outside_3_orc" text="There'z som'un 'round dis room 'oo might got da fings yer lookin' fer. Dey call 'em {INQUIRY_COMPANION.LINK.}."/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_orc" text="So 'ow about som'un wiv sum ovva skillz."/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_2_orc" text="So 'oo else ya got besidez {INQUIRY_COMPANION.LINK}?"/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_found_orc" text="Yoo best 'ope I don't regret dat {COMPANION_INQUIRY_COST}{GOLD_ICON}."/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_not_found_orc" text="Zog off, yer worfless!"/>
+  <string id="str_tor_tavernkeeper_talk_to_leave_orc" text="Don' need yer help, zog off!"/>
+  <string id="str_tor_1972_orc" text="Wot else ya wont?"/>
+  <string id="str_tor_talk_common_to_tavernmaid_orc" text="Need sumfin' groggy, boss?"/>
+  <string id="str_tor_talk_common_to_tavernmaid_2_orc" text="Lemme getcha sumfin' good, boss!"/>
+  <string id="str_tor_talk_common_to_tavernmaid_3_orc" text="Iz dat drink good enuff, boss?"/>
+  <string id="str_tor_tavernmaid_order_food_orc" text="Lemme get summa dat!"/>
+  <string id="str_tor_tavernmain_order_acknowledge_orc" text="Right away, boss!"/>
+  <string id="str_tor_tavernmaid_ask_tun_orc" text="Oi, get dis to all o' my boyz, now!"/>
+  <string id="str_tor_tavernmaid_leave_orc" text="Zog off!"/>
+  <string id="str_tor_tavernmaid_give_tun_gold_orc" text="Da boss sez yoo gotta pay {COST}{GOLD_ICON} fer dat."/>
+  <string id="str_tor_tavernmaid_give_tun_gold_2_orc" text="So 'ere ya go, boss!"/>
+  <string id="str_tor_tavernmaid_not_give_tun_gold_orc" text="Zog off, it ain't worf dat."/>
+  <string id="str_tor_tavernmaid_best_wishes_orc" text="Good stuff, boss!"/>
+  <string id="str_tor_talk_bard_player_leave_orc" text="Keep dat up, or I'll snikt ya."/>
+  <string id="str_tor_tavernkeeper_quest_info_orc" text="Lemme fink... {ISSUE_GIVER_LIST}."/>
+  <string id="str_tor_tavernkeeper_player_thanks_orc" text="Fine!"/>
+  <string id="str_tor_tavernkeeper_turndown_orc" text="Din't 'ear nuffin'!"/>
+  <string id="str_tor_trainer_spellsinger_start_orc" text="I've da power of Gork, and Mork!"/>
+  <string id="str_tor_barber_start_talk_beggar_orc" text="Oi! Zog off, yer rilin' up da hair squigz!"/>
+  <string id="str_tor_barber_start_talk_orc" text="Oi! I's got da best hair squigz anywhere! Ya want wun? Dey're cheap!"/>
+  <string id="str_tor_player_accept_haircut_orc" text="Lemme look at 'em hair squigz! ({GOLD_COST}{GOLD_ICON})"/>
+  <string id="str_tor_player_refuse_haircut_orc" text="Zog off, I don' need no stoopid hair squigz!"/>
+  <string id="str_tor_barber_ask_if_done_orc" text="See? See? Dat's a good hair squig!"/>
+  <string id="str_tor_player_done_with_haircut_orc" text="Dis iz good enuff."/>
+  <string id="str_tor_player_not_done_with_haircut_orc" text="No, show me som uvva hair squigz!"/>
+  <string id="str_tor_barber_no_haircut_talk_orc" text="Good stuff! Now get, befer ya rile up my squigz!"/>
+  <string id="str_tor_barber_haircut_finished_orc" text="Told ya I's got da best hair squigz! Good stuff."/>
+  <string id="str_tor_barber_haircut_no_change_orc" text="Wen da ladz laff at ya fer not 'avin' hair squigz like dese, I'll be waitin'!"/>
+  <string id="str_tor_player_no_haircut_finish_talk_orc" text="Zog off."/>
+  <string id="str_tor_player_haircut_finish_talk_orc" text="Yea, woteva. Zog off."/>
+  <string id="str_tor_town_beggar_to_disguised_character_orc" text="Oi! If da bosses seez me talkin' to ya dey're gonna start kickin' again! Zog off!"/>
+  <string id="str_tor_town_or_village_talk_to_disguised_character_orc" text="Zog off, ya panzee runt git!"/>
+  <string id="str_tor_town_or_village_talk_beggar_orc" text="Pleez don' kick me, boss!"/>
+  <string id="str_tor_town_or_village_talk_orc" text="Wotcha want, den!?"/>
+  <string id="str_tor_town_or_village_talk_children_orc" text="Wot're yoo lookin' at!?"/>
+  <string id="str_tor_town_or_village_start_2_orc" text="Dis stinkz! Wen'z da next fight!?"/>
+  <string id="str_tor_town_or_village_start_postrumor_liege_orc" text="Woddya need, boss?"/>
+  <string id="str_tor_town_or_village_start_postrumor_children_orc" text="Oi! Zog off!"/>
+  <string id="str_tor_town_or_village_start_postrumor_tavern_orc" text="Wot're yoo lookin' at? Zog off an' lemme finish my grog!"/>
+  <string id="str_tor_town_or_village_start_postrumor_orc" text="Dis iz boring! I's gonna look fer a fight."/>
+  <string id="str_tor_player_run_along_children_1_orc" text="Woteva."/>
+  <string id="str_tor_player_run_along_children_2_orc" text="Zog off!"/>
+  <string id="str_tor_player_run_along_children_3_orc" text="Ya keep dat up an' I's gonna tear ya armz off!"/>
+  <string id="str_tor_player_run_along_children_orc" text="Get outta 'ere!"/>
+  <string id="str_tor_player_ask_hero_location_orc" text="Oi! I's lookin' fer som'un, you're gonna tell me where dey are!"/>
+  <string id="str_tor_player_ask_hero_location_di1_orc" text="So 'oo're ya lookin' fer, den?"/>
+  <string id="str_tor_player_ask_hero_location_2_continue_orc" text="I wuz finkin' o' som'un else..."/>
+  <string id="str_tor_player_ask_hero_location_2_2_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_player_ask_hero_location_2_2_dwarf" text="Forget it."/>
+  <string id="str_tor_town_or_village_pretalk_orc" text="Wot else ya want!?"/>
+  <string id="str_tor_player_ask_hero_location_3_orc" text="Yea, {HERO.LINK}'z 'ere in da fort."/>
+  <string id="str_tor_player_ask_hero_location_4_di_orc" text="Zog off! I don' know 'oo dat is!"/>
+  <string id="str_tor_player_ask_hero_location_4_orc" text="You're gonna show me, den."/>
+  <string id="str_tor_player_ask_hero_location_4_2_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_player_ask_hero_location_4_2_dwarf" text="Forget it."/>
+  <string id="str_tor_player_ask_hero_location_5_orc" text="Fine! Keep up, den."/>
+  <string id="str_tor_town_or_village_escort_complete_orc" text="Dat's da git, right there."/>
+  <string id="str_tor_town_or_village_escorting_changed_my_mind_orc" text="Zog dis! I'll find da git myself."/>
+  <string id="str_tor_town_or_village_escorting_keep_going_orc" text="Quit muckin' about, go!"/>
+  <string id="str_tor_town_or_village_escorting_keep_going_dwarf" text="Let us be off."/>
+  <string id="str_tor_town_or_village_player_orc" text="Zog off!"/>
+  <string id="str_tor_hero_give_issue_orc" text="Oi! 'eard yer in trouble. I's good at killin' trouble."/>
+  <string id="str_tor_issue_offer_player_response_reject_orc" text="Dat's a waste o' my time! Zog off."/>
+  <string id="str_tor_issue_offer_player_accept_alternative_2_orc" text="So 'oo're ya sendin' ta be da boss fer dis?"/>
+  <string id="str_tor_issue_offer_player_accept_alternative_3_continue_orc" text="Nunna 'em! Wuz finkin o' som'un else..."/>
+  <string id="str_tor_issue_offer_player_accept_go_back_orc" text="Don' got any boyz to waste on sumfin' dis stoopid!"/>
+  <string id="str_tor_hero_active_mission_lord_ask_orc" text="Ya did da job yet? Why're yoo still 'ere!?"/>
+  <string id="str_tor_hero_active_mission_response_cont_orc" text="Shut it! I's gonna do it, yoo'll see."/>
+  <string id="str_tor_hero_active_mission_response_failed_orc" text="Dis job stinkz! Find som'un stoopider to do it."/>
+  <string id="str_tor_hero_active_mission_failed_orc" text="Ya lazy git! Get outta my face befer I get yer teef smashed in!"/>
+  <string id="str_tor_lord_special_request_specify_orc" text="Wot?"/>
+  <string id="str_tor_lord_special_request_nevermind_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_lord_special_request_nevermind_dwarf" text="Forget it."/>
+  <string id="str_tor_hero_no_available_task_orc" text="Zog off, I don' need anyfin' dun."/>
+  <string id="str_tor_hero_special_request_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_hero_special_request_dwarf" text="Forget it."/>
+  <string id="str_tor_valid_vassal_offer_start_orc" text="Took ya long enuff! So, wotcha say?"/>
+  <string id="str_tor_vassal_offer_player_accepts_response_orc" text="I'm reddy ta follow ya!"/>
+  <string id="str_tor_vassal_offer_player_declines_response_orc" text="Nah, I'ma keep on my own."/>
+  <string id="str_tor_vassal_offer_king_response_to_accept_continue_orc" text="Say what I sayz or else I bash ya skull in!"/>
+  <string id="str_tor_vassal_offer_king_response_to_accept_continue_dwarf" text="Words are powerful, so pay close attention to what I say and how I say it. "/>
+  <string id="str_tor_vassal_offer_player_oath_1_decline_orc" text="Oi! Wait a second, lemme fink about dis..."/>
+  <string id="str_tor_vassal_offer_player_oath_2_decline_orc" text="I dunno, lemme fink about dis..."/>
+  <string id="str_tor_vassal_offer_player_oath_3_decline_orc" text="Dunno about dis one, I gotta fink about it."/>
+  <string id="str_tor_vassal_offer_player_oath_4_decline_orc" text="Wait! Oi! I gotta fink about dis still!"/>
+  <string id="str_tor_vassal_offer_king_response_to_decline_during_oath_orc" text="Yer an idiot, ya know that? 'Oo waits fer da wordz ta start finking!?"/>
+  <string id="str_tor_vassal_offer_king_response_to_decline_continue_orc" text="Zog off, ya panzee."/>
+  <string id="str_tor_vassal_offer_player_accepts_response_2_orc" text="Roight, then..."/>
+  <string id="str_tor_vassalage_offer_player_is_already_vassal_orc" text="Oi, you'z already krumpin' for da {FACTION_NAME}!"/>
+  <string id="str_tor_vassalage_offer_player_is_already_vassal_dwarf" text="To serve the Dawi is not to be taken lightly. As long as you serve another, we have no use for you."/>
+  <string id="str_tor_vassalage_offer_player_is_already_vassal_player_answer_orc" text="Oh yea, dat's right, {LORD_SALUTATION}."/>
+  <string id="str_tor_vassalage_offer_player_has_low_relation_orc" text="Ya wanna join my clan, ya git!? Har-har! Yer a panzee, {PLAYER.NAME}, get outta here!"/>
+  <string id="str_tor_vassalage_offer_accepted_orc" text="Yer proppa tuff ta have in a scrap, ya wantin' ta join almost got me smilin'! Come on, den..."/>
+  <string id="str_tor_lord_give_oath_1_player_answer_1_orc" text="Reddy ta go, {LORD.LINK}!"/>
+  <string id="str_tor_lord_give_oath_1_player_answer_2_orc" text="Gotta fink about dis more, {LORD.LINK}"/>
+  <string id="str_tor_lord_give_oath_2_orc" text="Den say Da Wordz so I know yer not muckin' about wif joining."/>
+  <string id="str_tor_lord_give_oath_3_answer_2_orc" text="Oi! Wait a second, lemme fink about dis..."/>
+  <string id="str_tor_1201_orc" text="I dunno, lemme fink about dis..."/>
+  <string id="str_tor_1204_orc" text="Dunno about dis one, I gotta fink about it."/>
+  <string id="str_tor_1207_orc" text="Wait! Oi! I gotta fink about dis still!"/>
+  <string id="str_tor_1210_orc" text="Dis da smartest fing ya ever did. Stick wif me, and we'll smash da world!"/>
+  <string id="str_tor_1211_orc" text="Can't wait, boss!"/>
+  <string id="str_tor_1220_orc" text="Did ya get hit too hard in da last scrap, {PLAYER.NAME}!? Ya sed Da Wordz! If ya were any uvva boy, I'd kill ya fer leavin', but if ya gotta go..."/>
+  <string id="str_tor_1221_orc" text="Ya wanna go? If ya go, yer gonna regret it! No takebacks!"/>
+  <string id="str_tor_1222_orc" text="Yea, I'm gettin' outta here, {LORD_SALUTATION}."/>
+  <string id="str_tor_1223_orc" text="On second fot... it's better dat I stay, {LORD_SALUTATION}."/>
+  <string id="str_tor_1224_orc" text="Yea, it iz better, ain't it? Don't come ta me wif dat finkin' again."/>
+  <string id="str_tor_1225_orc" text="If ya do dat, I'm takin' ya fortz! Bet dat made ya change yer mind."/>
+  <string id="str_tor_1226_orc" text="Didn't need dose fortz anyway!"/>
+  <string id="str_tor_1227_orc" text="Naw, {LORD_SALUTATION}! I'z one of ya boyz!"/>
+  <string id="str_tor_player_leave_faction_accepted_orc" text="Fine. Get outta here, but I'm takin' ya fortz like I just sed! Won't be calling for ya in da tribe's scraps neither, {PLAYER.NAME}."/>
+  <string id="str_tor_1229_orc" text="Yer alright, boss. Gonna remember da good scrapz we shared!"/>
+  <string id="str_tor_1230_orc" text="Dis tribe stinked anyway! I'm outta here!"/>
+  <string id="str_tor_player_leaves_faction_orc" text="Zog off, den! I didn't want ya around anyway!"/>
+  <string id="str_tor_village_farmer_pretalk_start_orc" text="Oi! Wotcha want?"/>
+  <string id="str_tor_village_farmer_pretalk_start_dwarf" text="What can I do for you?"/>
+  <string id="str_tor_village_farmer_buy_products_orc" text="I's goin' to da city, too. Wotcha movin'?"/>
+  <string id="str_tor_village_farmer_specify_products_orc" text="We got {PRODUCTS}. You're gonna need ta pay {TOTAL_PRICE}{GOLD_ICON} if ya want 'em instead."/>
+  <string id="str_tor_player_decided_to_buy_orc" text="Fine. 'Ere's {TOTAL_PRICE}{GOLD_ICON}"/>
+  <string id="str_tor_player_decided_not_to_buy_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_player_decided_not_to_buy_dwarf" text="Forget it."/>
+  <string id="str_tor_village_farmer_loot_orc" text="Gimme yer stuff or you're gettin' snikt!"/>
+  <string id="str_tor_village_farmer_fight_orc" text="Zog off! Anuva step an' yer teef're gettin' bashed outta yer skull!"/>
+  <string id="str_tor_village_farmer_leave_orc" text="Zog off!"/>
+  <string id="str_tor_player_decided_to_fight_villagers_orc" text="Git 'em, boyz!"/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_1_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_1_dwarf" text="Forget it."/>
+  <string id="str_tor_village_farmer_accepted_to_give_some_goods_orc" text="Oi, let's talk 'bout dis! 'Ere's {TAKE_MONEY_AND_PRODUCT_STRING}."/>
+  <string id="str_tor_player_decided_to_take_some_goods_villagers_orc" text="Good enuff."/>
+  <string id="str_tor_player_decided_to_take_everything_villagers_orc" text="Nah, you're giving da lot!"/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_2_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_2_dwarf" text="Forget it."/>
+  <string id="str_tor_village_farmer_fight_no_surrender_orc" text="Finally! Been lookin' fer a scrap all day!"/>
+  <string id="str_tor_village_farmer_accepted_to_give_everything_orc" text="Wait, wait! 'ows about ya just don't kill us, okay? Wotcha want?"/>
+  <string id="str_tor_player_do_not_take_prisoner_villagers_orc" text="Gimme all ya loot now!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_2_orc" text="You'z gonna be all caged up now!"/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_orc" text="Oi! We's da {KINGDOM}'s ladz! Yoo take us, you're gonna regret it!"/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_dwarf" text="This is outrageous! This will earn you, your ancestors, your entire line a grudge! The whole of the {KINGDOM} will know of this misdeed if you don't let us go!"/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_2_orc" text="Dis ain't good..."/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_2_dwarf" text="You're going to regret this! Grimir protect us..."/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_2_orc" text="Keep muckin' about an' I's gonna put ya ta work! Move it, maggotz!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_2_dwarf" text="Shut it and get going!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_2_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_2_dwarf" text="Forget it."/>
+  <string id="str_tor_village_farmer_bribery_leave_orc" text="Fine, we's goin'!"/>
+  <string id="str_tor_village_farmer_bribery_leave_dwarf" text="Ai. We'll get going then."/>
+  <string id="str_tor_village_farmer_surrender_leave_orc" text="Fine, we's goin'!"/>
+  <string id="str_tor_village_farmer_surrender_leave_dwarf" text="Ai. We'll get going then."/>
+  <string id="str_tor_wanderer_meet_player_response1_orc" text="Oi! Name's {PLAYER.NAME}. 'Oo are yoo anyway?"/>
+  <string id="str_tor_wanderer_meet_player_response2_orc" text="Quit muckin' about and lissen here!"/>
+  <string id="str_tor_wanderer_skip_intro_orc" text="Zog it, wotcha want den?"/>
+  <string id="str_tor_wanderer_job_status_1_orc" text="Wotcha want, boss?"/>
+  <string id="str_tor_wanderer_job_status_1_2_orc" text="Da boss is {EMPLOYER}."/>
+  <string id="str_tor_workshop_1_orc" text="Anyfin' else I can do for ya?"/>
+  <string id="str_tor_workshop_1_dwarf" text="Is there anything else you need?"/>
+  <string id="str_tor_workshop_2_orc" text="I's got sum kestions."/>
+  <string id="str_tor_workshop_2_dwarf" text="I have some questions."/>
+  <string id="str_tor_workshop_3_orc" text="Oi! Gimme dis shop."/>
+  <string id="str_tor_workshop_3_dwarf" text="I would like to purchase this workshop."/>
+  <string id="str_tor_workshop_buy_result_orc" text="Can't! {OWNER.LINK} iz da boss. Ya gotta talk to 'im!"/>
+  <string id="str_tor_workshop_buy_result_dwarf" text="This workshop is owned by {OWNER.LINK}. You need to talk to {?OWNER.GENDER}her{?}him{\?}."/>
+  <string id="str_tor_workshop_4_orc" text="Wotcha want?"/>
+  <string id="str_tor_workshop_4_dwarf" text="Greetings."/>
+  <string id="str_tor_workshop_5_orc" text="We's gettin' ta work now, den!"/>
+  <string id="str_tor_workshop_5_dwarf" text="Ancestors protect you."/>
+  <string id="str_tor_workshop_7_orc" text="Wot else ya want?"/>
+  <string id="str_tor_workshop_7_dwarf" text="Any other questions?"/>
+  <string id="str_tor_workshop_8_orc" text="So 'oo owns dis shop?"/>
+  <string id="str_tor_workshop_8_dwarf" text="Who owns this workshop?"/>
+  <string id="str_tor_workshop_9_orc" text="Wotcha makin' 'ere?"/>
+  <string id="str_tor_workshop_9_dwarf" text="What is fashioned here?"/>
+  <string id="str_tor_workshop_10_orc" text="Wot's all dis 'shop' stuff, anyway?"/>
+  <string id="str_tor_workshop_10_dwarf" text="How does a workshop like this operate?"/>
+  <string id="str_tor_workshop_11_orc" text="Bored o' dis! Let's talk about sumfin' else!"/>
+  <string id="str_tor_workshop_11_dwarf" text="I wish to speak of other things."/>
+  <string id="str_tor_workshop_12_orc" text="{OWNER.LINK} iz da boss o' dis shop."/>
+  <string id="str_tor_workshop_12_dwarf" text="The owner of his workshop is {OWNER.LINK}."/>
+  <string id="str_tor_workshop_13_orc" text="We's a {.%}{WORKSHOP_TYPE}{.%}."/>
+  <string id="str_tor_workshop_13_dwarf" text="We are workers of a {.%}{WORKSHOP_TYPE}{.%}."/>
+  <string id="str_tor_workshop_14_orc" text="We pullz up scrap an' crap an' put da slaves to work, den ripoff everywun wiv wot dey make. Once da slaveherderz get their cut, da boss gets da rest!"/>
+  <string id="str_tor_workshop_14_dwarf" text="With raw materials, we craft in accordance with what the workshop is designed for. After every craftsman is properly compensated, the gal left over is given to the owner."/>
+  <string id="str_tor_workshop_player_owner_begin_orc" text="Oi, boss! Wot'z up?"/>
+  <string id="str_tor_workshop_player_owner_begin_dwarf" text="Greetings. Come to watch us work?"/>
+  <string id="str_tor_workshop_26_orc" text="Wot else ya want, den?"/>
+  <string id="str_tor_workshop_26_dwarf" text="Is there anything else you need?"/>
+  <string id="str_tor_workshop_27_orc" text="Lissen up! I got questions."/>
+  <string id="str_tor_workshop_27_dwarf" text="I would like to ask some questions."/>
+  <string id="str_tor_workshop_28_orc" text="Get da slaves makin' sumfin' else!"/>
+  <string id="str_tor_workshop_28_dwarf" text="I wish for this workshop to produce something else."/>
+  <string id="str_tor_workshop_29_orc" text="Sell off dis shop."/>
+  <string id="str_tor_workshop_29_dwarf" text="I desire to sell this workshop."/>
+  <string id="str_tor_workshop_30_orc" text="Wotcha want?"/>
+  <string id="str_tor_workshop_30_dwarf" text="Be well."/>
+  <string id="str_tor_workshop_31_orc" text="Wot'z up?"/>
+  <string id="str_tor_workshop_31_dwarf" text="At your service."/>
+  <string id="str_tor_workshop_32_orc" text="I's lissenin', boss!"/>
+  <string id="str_tor_workshop_32_dwarf" text="As you wish."/>
+  <string id="str_tor_workshop_33_orc" text="Anyfin' else on ya mind, boss?"/>
+  <string id="str_tor_workshop_33_dwarf" text="Do you have any other questions?"/>
+  <string id="str_tor_workshop_34_orc" text="Let's talk about sumfin' else."/>
+  <string id="str_tor_workshop_34_dwarf" text="I wish to speak of other things."/>
+  <string id="str_tor_workshop_35_orc" text="Gotcha, boss! If we sell everyfin' an' get da shineyz to ya, you get {PRICE}{GOLD_ICON}. Ya sure ya wanna do dis, boss?"/>
+  <string id="str_tor_workshop_35_dwarf" text="If this is your design. I can sell everything now. Its value, including any gal we have stored, would be given to you worth {PRICE}{GOLD_ICON}. Are you sure you wish to do this?"/>
+  <string id="str_tor_workshop_37_orc" text="Yea, sell dis pile o' muck!"/>
+  <string id="str_tor_workshop_37_dwarf" text="Yes. It is time to sell."/>
+  <string id="str_tor_workshop_38_orc" text="Nah, ain't worfit."/>
+  <string id="str_tor_workshop_38_dwarf" text="Actually, I've decided against it."/>
+  <string id="str_tor_workshop_41_orc" text="I'll give ya da stuff now, den."/>
+  <string id="str_tor_workshop_41_dwarf" text="I will transfer whatever goods are stored to your company immediately."/>
+  <string id="str_tor_workshop_42_orc" text="Good stuff!"/>
+  <string id="str_tor_workshop_42_dwarf" text="My thanks."/>
+  <string id="str_tor_workshop_39_orc" text="Zog off, den! Ya ain't my boss no more, here's wot you're owed."/>
+  <string id="str_tor_workshop_39_dwarf" text="It is always a shame to see the end of a workshop. Perhaps we will work on other things together, in the future. For now, I will ensure the other crafters are packed up."/>
+  <string id="str_tor_workshop_40_orc" text="Good finkin' boss. Only panzees give shops like dis up."/>
+  <string id="str_tor_workshop_40_dwarf" text="I am glad to hear this. There is no business in wasting a good crafting hall as this. If it isn't performing well, perhaps we should make something else?"/>
+  <string id="str_tor_workshop_41_1_orc" text="We's gonna need {COST}{GOLD_ICON} to get da right toolz an' slaves. Ya reddy?"/>
+  <string id="str_tor_workshop_41_1_dwarf" text="As you wish. However, we will need {COST}{GOLD_ICON} for tools and craftsmen. Shall we proceed?"/>
+  <string id="str_tor_workshop_42_2_orc" text="Quit muckin' about an' do it, alredy!"/>
+  <string id="str_tor_workshop_42_2_dwarf" text="Yes."/>
+  <string id="str_tor_workshop_43_orc" text="Nah."/>
+  <string id="str_tor_workshop_43_dwarf" text="No."/>
+  <string id="str_tor_workshop_44_orc" text="Wotcha want da slaves ta make?"/>
+  <string id="str_tor_workshop_44_dwarf" text="What do you want this shop to produce instead?"/>
+  <string id="str_tor_workshop_45_continue_orc" text="Nunna dese shops! Somefing else..."/>
+  <string id="str_tor_workshop_45_continue_dwarf" text="I am thinking of a different kind of workshop."/>
+  <string id="str_tor_workshop_cancel_orc" text="Eh, nevamind..."/>
+  <string id="str_tor_workshop_cancel_dwarf" text="Forget it."/>
+  <string id="str_tor_workshop_46_orc" text="All good ta go, boss! We's gonna be a {.%}{.a}{WORKSHOP_TYPE}{.%}, just giv us da word!"/>
+  <string id="str_tor_workshop_46_dwarf" text="Before we begin, you must be certain - {.%}{.a}{WORKSHOP)TYPE}{.%} is what you request?"/>
+  <string id="str_tor_workshop_50_orc" text="Quit muckin' about an' do wot I tell ya, already!"/>
+  <string id="str_tor_workshop_50_dwarf" text="Yes."/>
+  <string id="str_tor_workshop_47_orc" text="Righto, boss! Wiv dose shineyz we can get ta work!"/>
+  <string id="str_tor_workshop_47_dwarf" text="So be it. That gal will allow us to get started immediately.."/>
+  <string id="str_tor_workshop_48_orc" text="Lemme fink 'bout it."/>
+  <string id="str_tor_workshop_48_dwarf" text="Let me think on it."/>
+  <string id="str_tor_workshop_49_orc" text="Wait. I's just 'membered somfin. We's already da best!"/>
+  <string id="str_tor_workshop_49_dwarf" text="On second thought, I do not want to change what is crafted."/>
+  <string id="str_tor_workshop_notable_owner_begin_1_orc" text="Oi! I wanna buy yer {.%}{WORKSHOP_NAME}{.%}."/>
+  <string id="str_tor_workshop_notable_owner_begin_1_dwarf" text="My clan sends me to negotiate the purchase of your {.%}{WORKSHOP_NAME}{.%}."/>
+  <string id="str_tor_workshop_notable_owner_begin_2_orc" text="So 'ow much for 'unna dese slavez?"/>
+  <string id="str_tor_workshop_notable_owner_begin_2_dwarf" text="My clan sends me to negotiate the purchase of one of your workshops"/>
+  <string id="str_tor_workshop_notable_owner_answer_1_single_orc" text="Gimme {COST} {GOLD_ICON} an' you can 'ave it"/>
+  <string id="str_tor_workshop_notable_owner_answer_1_single_dwarf" text="For that shop, the price will be {COST} {GOLD_ICON}. Take it or leave it."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_orc" text="Yeah."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_dwarf" text="Yes."/>
+  <string id="str_tor_workshop_notable_player_buy_negative_orc" text="Nah."/>
+  <string id="str_tor_workshop_notable_player_buy_negative_dwarf" text="No."/>
+  <string id="str_tor_workshop_notable_player_buy_negative_end_orc" text="Den zog off! I ain't got time fer dis mucking about!"/>
+  <string id="str_tor_workshop_notable_player_buy_negative_end_dwarf" text="Alright then."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_end_orc" text="S'too much trouble anyway."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_end_dwarf" text="We'll have it before oathgold, and the workshop is yours."/>
+  <string id="str_tor_workshop_notable_owner_answer_1_multiple_orc" text="Which wun, ya git?"/>
+  <string id="str_tor_workshop_notable_owner_answer_1_multiple_dwarf" text="Perhaps. Which workshop are you referring to?"/>
+  <string id="str_tor_workshop_player_select_workshop_continue_orc" text="No, da uvver wunz!"/>
+  <string id="str_tor_workshop_player_select_workshop_continue_dwarf" text="No, I mean your..."/>
+  <string id="str_tor_default_conversation_for_wrongly_created_heroes_orc" text="I's not allow ta talk wit' ya"/>
+ </strings>
+</base>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <string id="str_tor_neutral_head_helm_001" text="{.Muzcynski}Bajavy Znošany Šlem"/>
+  <string id="str_tor_neutral_head_helm_002" text="{.Nijaki}Bajavoje Znošanaje Arme"/>
+  <string id="str_tor_empire_head_helm_flagellant_001" text="{.Muzcynski}Šałom Flahielanta"/>
+  <string id="str_tor_empire_head_helm_flagellant_002" text="{.Muzcynski}Šałom Flahielanta"/>
+  <string id="str_tor_empire_head_helm_flagellant_003" text="{.Zanocy}Paviazka na Vočy Flahielanta"/>
+  <string id="str_tor_empire_head_helm_militia_001" text="{.Muzcynski}Saład Rušeńnia"/>
+  <string id="str_tor_empire_head_helm_militia_002" text="{.Muzcynski}Znošany Saład Rušeńnia"/>
+  <string id="str_tor_empire_head_helm_militia_003" text="{.Muzcynski}Znošany Saład Rušeńnia"/>
+  <string id="str_tor_empire_head_helm_001" text="{.Muzcynski}Impierski Saład"/>
+  <string id="str_tor_empire_head_helm_hunter_001" text="{.Muzcynski}Sukonny Bieret"/>
+  <string id="str_tor_empire_head_hat_greatsword_001" text="{.Muzcynski}Impierski Sakret"/>
+  <string id="str_tor_empire_head_hat_bowman_001" text="{.Zanocy}Šapka Łučnika"/>
+  <string id="str_tor_empire_head_hat_woodsman_001" text="{.Muzcynski}Skurany Kapialuš z Palami"/>
+  <string id="str_tor_empire_head_hat_sergeant_001" text="{.Muzcynski}Impierski Siaržancki Bieret"/>
+  <string id="str_tor_empire_head_hat_001" text="{.Muzcynski}Impierski Kapialuš Trapnastreła"/>
+  <string id="str_tor_empire_head_hat_noble_001" text="{.Muzcynski}Impierski Šlachietny Bieret"/>
+  <string id="str_tor_empire_head_hat_marius_leitdorf" text="{.Muzcynski}Avierlandzki Hienieralski Kapialuš"/>
+  <string id="str_tor_empire_head_hat_light_wizard_001" text="{.Muzcynski}Kapialuš Śvietłaha Čaraŭnika"/>
+  <string id="str_tor_empire_head_mask_gold_wizard_001" text="{.Zanocy}Maska Załatoha Čaraŭnika"/>
+  <string id="str_tor_empire_head_helm_balthazar_gelt" text="{.Zanocy}Maska Baltazara Hielta"/>
+  <string id="str_tor_empire_head_hat_tracker_001" text="{.Muzcynski}Bieret Laśničaha"/>
+  <string id="str_tor_empire_head_hat_general_001" text="{.Muzcynski}Impierski Hienieralski Kapialuš"/>
+  <string id="str_tor_empire_head_helm_general_001" text="{.Muzcynski}Impierski Hienieralski Šlem"/>
+  <string id="str_tor_empire_head_helm_general_002" text="{.Muzcynski}Impierski Hienieralski Šlem"/>
+  <string id="str_tor_empire_head_helm_luthor_huss" text="{.Muzcynski}Azdobleny Hałaŭny Ramień Vajara-Śviatara"/>
+  <string id="str_tor_empire_head_helm_valten" text="{.Muzcynski}Hałaŭny Ramień Valtena"/>
+  <string id="str_tor_empire_head_helm_kobs_001" text="{.Nijaki}Arme Pałajučaha Sonca"/>
+  <string id="str_tor_empire_head_helm_kobs_002" text="{.Nijaki}Arme Pałajučaha Sonca"/>
+  <string id="str_tor_empire_head_helm_kobs_003" text="{.Nijaki}Adkrytaje Arme Pałajučaha Sonca"/>
+  <string id="str_tor_empire_head_helm_kobs_004" text="{.Nijaki}Adkrytaje Arme Pałajučaha Sonca"/>
+  <string id="str_tor_empire_head_helm_kotww_001" text="{.Muzcynski}Šałom Rycara Biełaha Voŭka"/>
+  <string id="str_tor_empire_head_helm_lion_001" text="{.Zanocy}Impierskaja Barbuta Čornaha Lva"/>
+  <string id="str_tor_empire_head_helm_lion_002" text="{.Zanocy}Impierskaja Barbuta Čyrvonaha Lva"/>
+  <string id="str_tor_empire_head_helm_lion_003" text="{.Muzcynski}Impierski Siaržancki Šlem"/>
+  <string id="str_tor_empire_head_hat_witch_hunter_001" text="{.Muzcynski}Kapialuš Palaŭničaha na Viadźmarak"/>
+  <string id="str_tor_empire_head_hat_witch_hunter_002" text="{.Muzcynski}Kapialuš Palaŭničaha na Viadźmarak"/>
+  <string id="str_tor_empire_head_hat_witch_hunter_003" text="{.Muzcynski}Kapialuš Palaŭničaha na Viadźmarak"/>
+  <string id="str_tor_empire_head_helm_warrior_priest_001" text="{.Zanocy}Hałaŭnaja Paviazka Vajara-Śviatara"/>
+  <string id="str_tor_empire_head_helm_bright_wizard_001" text="{.Muzcynski}Šałom Zyrkaha Čaraŭnika"/>
+  <string id="str_tor_empire_head_hat_cannon_crew_001" text="{.Zanocy}Šapka Artylerysta"/>
+  <string id="str_tor_empire_head_hat_cannon_crew_002" text="{.Zanocy}Šapka Artylerysta"/>
+  <string id="str_tor_empire_head_hat_cannon_crew_003" text="{.Zanocy}Šapka Artylerysta"/>
+  <string id="str_tor_empire_head_hat_master_engineer_001" text="{.Muzcynski}Kapialuš Inžyniera"/>
+  <string id="str_tor_empire_head_helm_burgonet_001" text="{.Muzcynski}Impierski Saład"/>
+  <string id="str_tor_empire_head_helm_burgonet_002" text="{.Muzcynski}Impierski Apierany Saład"/>
+  <string id="str_tor_empire_head_helm_morion_001" text="{.Muzcynski}Impierski Ciažki Maryjon"/>
+  <string id="str_tor_empire_head_helm_morion_002" text="{.Muzcynski}Impierski Lohki Maryjon"/>
+  <string id="str_tor_empire_head_hat_celestial_wizard_001" text="{.Muzcynski}Kapialuš Niabiesnaha Čaraŭnika"/>
+  <string id="str_tor_empire_head_hat_life_wizard_001" text="{.Muzcynski}Abruč Čaraŭnika Žyćcia"/>
+  <string id="str_tor_empire_head_hat_beast_wizard_001" text="{.Muzcynski}Miadźviedžy Kapialuš Źviarynaha Čaraŭnika"/>
+  <string id="str_tor_empire_head_helm_pistolier_001" text="{.Muzcynski}Impierski Šałom z Ramieńčykami"/>
+  <string id="str_tor_empire_head_helm_pistolier_002" text="{.Muzcynski}Impierski Šałom z Ramieńčykami"/>
+  <string id="str_tor_empire_head_helm_karl_franz" text="{.Muzcynski}Šałom Karła Franca"/>
+  <string id="str_tor_empire_head_helm_lord_001" text="{.Muzcynski}Impierski Panski Šlem"/>
+  <string id="str_tor_empire_head_helm_lord_002" text="{.Muzcynski}Impierski Panski Šlem"/>
+  <string id="str_tor_empire_head_helm_taal_001" text="{.Muzcynski}Rahaty Masianžovy Šałom Taala"/>
+  <string id="str_tor_empire_head_helm_taal_002" text="{.Muzcynski}Rahaty Šałom-Čerap Taala"/>
+  <string id="str_tor_empire_head_helm_pigface_bascinet_001" text="{.Muzcynski}Bacyniet"/>
+  <string id="str_tor_empire_head_helm_pigface_bascinet_002" text="{.Muzcynski}Bacyniet ź Piorami"/>
+  <string id="str_tor_empire_head_helm_pigface_bascinet_003" text="{.Muzcynski}Bacyniet z Hryvaj"/>
+  <string id="str_tor_empire_head_helm_pothelm_001" text="{.Muzcynski}Kruhłavierchi Poŭny Šlem"/>
+  <string id="str_tor_empire_head_helm_pothelm_002" text="{.Muzcynski}Kruhłavierchi Poŭny Šlem"/>
+  <string id="str_tor_empire_head_helm_sallet_001" text="{.Muzcynski}Saład"/>
+  <string id="str_tor_empire_head_helm_sallet_002" text="{.Muzcynski}Saład biez Zasłony"/>
+  <string id="str_tor_empire_head_helm_sallet_003" text="{.Muzcynski}Kryłaty Saład"/>
+  <string id="str_tor_empire_head_helm_vlandian" text="{.Muzcynski}Płaścinavy Šałom z Zasłonaj"/>
+  <string id="str_tor_vc_head_head_spirit_host_001" text="{.Zanocy}Hałava Duchoŭnaj Zjavy"/>
+  <string id="str_tor_vc_head_hat_necromancer_001" text="{.Muzcynski}Kaptur Niekramanta"/>
+  <string id="str_tor_vc_head_helm_skeleton_warrior_001" text="{.Muzcynski}Šlem Kaściaka-Vajara"/>
+  <string id="str_tor_vc_head_helm_skeleton_warrior_002" text="{.Muzcynski}Španhienchelm Kaściaka-Vajara"/>
+  <string id="str_tor_vc_head_helm_vampire_lord_001" text="{.Zanocy}Vampirskaja Barbuta"/>
+  <string id="str_tor_vc_blood_keep_grandmaster_helm" text="{.Muzcynski}Šlem Hrandmajstra Kryvavaha Zamka"/>
+  <string id="str_tor_vc_head_helm_blood_knight_001" text="{.Muzcynski}Saład Kryvavaha Rycara"/>
+  <string id="str_tor_vc_head_helm_blood_knight_002" text="{.Zanocy}Barbuta Kryvavaha Rycara"/>
+  <string id="str_tor_vc_head_helm_blood_dragon_knight_001" text="{.Muzcynski}Šałom Kryvavaha Drakonavaha Rycara"/>
+  <string id="str_tor_vc_head_helm_grave_guard_001" text="{.Muzcynski}Španhienchelm Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_head_helm_grave_guard_002" text="{.Muzcynski}Španhienchelm Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_head_helm_grave_guard_003" text="{.Muzcynski}Španhienchelm Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_head_helm_wight_king_001" text="{.Muzcynski}Šlem Vaładara-Vajta"/>
+  <string id="str_tor_vc_head_helm_cairn_wraith_001" text="{.Muzcynski}Šałom Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_head_helm_cairn_wraith_002" text="{.Muzcynski}Šałom Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_head_helm_cairn_wraith_003" text="{.Muzcynski}Šałom Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_head_hat_cairn_wraith_004" text="{.Muzcynski}Šałom Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_head_helm_cairn_wraith_005" text="{.Muzcynski}Šałom Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_head_helm_cairn_wraith_006" text="{.Zanocy}Paviazka Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_head_helm_hell_knight_001" text="{.Muzcynski}Šlem Piakielnaha Rycara"/>
+  <string id="str_tor_vc_head_helm_hell_knight_002" text="{.Muzcynski}Šlem Piakielnaha Rycara"/>
+  <string id="str_tor_vc_head_helm_hell_knight_003" text="{.Muzcynski}Šlem Piakielnaha Rycara"/>
+  <string id="str_tor_vc_head_helm_dh_templar_001" text="{.Muzcynski}Šlem Drakienchofskaha Chramoŭnika"/>
+  <string id="str_tor_vc_head_invisible_skull_001" text="{.Muzcynski}Čerap"/>
+  <string id="str_tor_chaos_head_helm_chosen_001" text="{.Muzcynski}Šlem Vajara Chaosu"/>
+  <string id="str_tor_chaos_head_helm_chosen_002" text="{.Muzcynski}Šlem Vajara Chaosu"/>
+  <string id="str_tor_chaos_head_helm_warrior_001" text="{.Muzcynski}Šlem Vajara Chaosu"/>
+  <string id="str_tor_chaos_head_helm_chosen_003" text="{.Muzcynski}Šlem Abranaha"/>
+  <string id="str_tor_chaos_head_helm_chosen_004" text="{.Muzcynski}Šlem Nurhlita-Vajara"/>
+  <string id="str_tor_chaos_head_helm_chosen_005" text="{.Muzcynski}Šlem Nurhlita-Vajara"/>
+  <string id="str_tor_chaos_head_helm_slaneesh_warrior_001" text="{.Muzcynski}Šlem Vajara Słaaneš"/>
+  <string id="str_tor_chaos_head_helm_slaneesh_warrior_002" text="{.Muzcynski}Šlem Vajara Słaaneš"/>
+  <string id="str_tor_chaos_head_helm_khorne_warrior_001" text="{.Muzcynski}Harškovy Šlem Kchornata"/>
+  <string id="str_tor_chaos_head_helm_khorne_warrior_002" text="{.Zanocy}Barbuta Kchornata"/>
+  <string id="str_tor_chaos_head_hat_chaos_cultist_001" text="{.Muzcynski}Kaptur Kultysta Chaosu"/>
+  <string id="str_tor_chaos_head_hat_chaos_cultist_002" text="{.Zanocy}Maska z Kapturam Kultysta Chaosu"/>
+  <string id="str_tor_chaos_head_hat_chaos_cultist_003" text="{.Muzcynski}Kaptur Kultysta Chaosu"/>
+  <string id="str_tor_chaos_head_helm_tzeentch_warrior_001" text="{.Muzcynski}Ćzinčycki Šlem"/>
+  <string id="str_tor_chaos_head_helm_marauder_001" text="{.Muzcynski}Azdobleny Rahaty Šlem Maradziora"/>
+  <string id="str_tor_chaos_head_helm_marauder_002" text="{.Muzcynski}Uzmocnieny Rahaty Šlem Maradziora"/>
+  <string id="str_tor_chaos_head_helm_marauder_003" text="{.Muzcynski}Rahaty Šlem Maradziora"/>
+  <string id="str_tor_chaos_head_helm_marauder_004" text="{.Muzcynski}Šlem Maradziora"/>
+  <string id="str_tor_bretonnian_head_helm_greathelm_001" text="{.Muzcynski}Bretonski Harškovy Šlem"/>
+  <string id="str_tor_bretonnian_head_helm_hood_001" text="{.Zanocy}Bretonskaja Picena z Kapturam"/>
+  <string id="str_tor_bretonnian_head_helm_questing_knight_002" text="{.Nijaki}Bretonskaje Arme"/>
+  <string id="str_tor_bretonnian_head_helm_kotr_001" text="{.Muzcynski}Harškovy Šlem Rycara Haspadarstva"/>
+  <string id="str_tor_bretonnian_head_helm_kotr_002" text="{.Muzcynski}Harškovy Šlem Rycara Haspadarstva"/>
+  <string id="str_tor_bretonnian_head_helm_kotr_003" text="{.Muzcynski}Harškovy Šlem Rycara Haspadarstva"/>
+  <string id="str_tor_bretonnian_head_helm_pilgrim_001" text="{.Muzcynski}Bajavy Kaptur Pilihryma"/>
+  <string id="str_tor_bretonnian_head_helm_pilgrim_002" text="{.Muzcynski}Bajavy Kaptur Pilihryma"/>
+  <string id="str_tor_bretonnian_head_helm_001" text="{.Muzcynski}Bretonski Šlem z Płoskim Viercham i Łancuhovaj Kalčuhaj"/>
+  <string id="str_tor_bretonnian_head_helm_002" text="{.Muzcynski}Bretonski Šlem z Płoskim Viercham i Tkaninaj"/>
+  <string id="str_tor_bretonnian_head_helm_003" text="{.Muzcynski}Bretonski Łancuhova-Kalčužny Koif"/>
+  <string id="str_tor_bretonnian_head_helm_004" text="{.Muzcynski}Bretonski Miakki Koif"/>
+  <string id="str_tor_bretonnian_head_helm_005" text="{.Muzcynski}Bretonski Łancuhovy Kapalin"/>
+  <string id="str_tor_bretonnian_head_helm_006" text="{.Muzcynski}Bretonski Miakki Kapalin"/>
+  <string id="str_tor_bretonnian_head_prophetess_001" text="{.Muzcynski}Chienin Praročycy"/>
+  <string id="str_tor_bretonnian_head_prophetess_002" text="{.Muzcynski}Chienin Praročycy"/>
+  <string id="str_tor_bretonnian_head_louen_leoncoeur" text="{.Zanocy}Karona Bretonii"/>
+  <string id="str_tor_mousillon_head_helm_kotr_001" text="{.Muzcynski}Harškovy Šlem Muziljonskaha Rycara Niaščaścia"/>
+  <string id="str_tor_mousillon_head_helm_bgk_001" text="{.Muzcynski}Šlem Rycara Čornaha Hraala"/>
+  <string id="str_tor_we_head_mask_fabric_001" text="{.Zanocy}Maska Prahalnaj Varty"/>
+  <string id="str_tor_eonir_head_mask_fabric_001" text="{.Zanocy}Eanirskaja Tkanaja Maska"/>
+  <string id="str_tor_we_spellsinger_crown_001" text="{.Zanocy}Karona Śpiavaka Zaklonaŭ"/>
+  <string id="str_we_spellsinger_head_f" text="{.Zanocy}Karona Śpiavaka Zaklonaŭ"/>
+  <string id="str_tor_we_head_hood_fabric_001" text="{.Muzcynski}Kaptur Prahalnaj Varty"/>
+  <string id="str_tor_we_head_mask_leather_001" text="{.Zanocy}Maska Rejndžara Dzikaha Lesu"/>
+  <string id="str_tor_we_head_mask_eternalguard_001" text="{.Zanocy}Maska Viečnaj Varty"/>
+  <string id="str_tor_we_head_mask_dancer_001" text="{.Zanocy}Maska Tancora Vajny"/>
+  <string id="str_tor_we_head_helmet_lord_001" text="{.Muzcynski}Lesaelfijski Šlem Vialikaha Alenia"/>
+  <string id="str_tor_we_head_helmet_lord_002" text="{.Muzcynski}Lesaelfijski Šałom"/>
+  <string id="str_tor_we_head_helmet_lord_003" text="{.Zanocy}Maska Prahalnaha Łorda"/>
+  <string id="str_tor_we_head_helmet_lord_004" text="{.Zanocy}Lesaelfijskaja Maska z Rahami Alenia"/>
+  <string id="str_tor_we_head_sister_001" text="{.Muzcynski}Lesaelfijski Abruč"/>
+  <string id="str_tor_we_head_arahan_mask_001" text="{.Zanocy}Maska Siastry Zmiarkańnia Arachany"/>
+  <string id="str_tor_we_head_naestra_mask_001" text="{.Zanocy}Maska Siastry Zmiarkańnia Naestry"/>
+  <string id="str_tor_we_head_mask_wildrider_001" text="{.Zanocy}Maska Dzikaha Najeźnika"/>
+  <string id="str_tor_we_head_treeman_001" text="{.Zanocy}Hałava z Dubovaj Kary"/>
+  <string id="str_tor_we_head_ancient_treeman_001" text="{.Zanocy}Staražytnaja Hałava z Dubovaj Kary"/>
+  <string id="str_tor_we_head_hood_ranger_001" text="{.Muzcynski}Kaptur Elfa-Rejndžara"/>
+  <string id="str_tor_we_head_dryad_001" text="{.Zanocy}Hałava Dryjady"/>
+  <string id="str_tor_we_head_crown_exiled_wizard_001" text="{.Zanocy}Karona Čaraŭnika-Vyhnańnika"/>
+  <string id="str_tor_we_head_daith_blindfold_001" text="{.Zanocy}Paviazka na Vočy Dajta"/>
+  <string id="str_tor_beastmen_accessories_001" text="{.Mnozny}Štuki Minataŭra"/>
+  <string id="str_tor_greenskin_orc_boyz_helmet_001" text="{.Muzcynski}Orčy Panšyrny Kapialuš"/>
+  <string id="str_tor_greenskin_orc_boyz_helmet_002" text="{.Muzcynski}Orčy Panšyrny Kapialuš"/>
+  <string id="str_tor_greenskin_orc_boyz_helmet_003" text="{.Muzcynski}Orčy Panšyrny Kapialuš"/>
+  <string id="str_tor_greenskin_orc_arrer_boyz_hood_001" text="{.Muzcynski}Orčy Kaptur"/>
+  <string id="str_tor_greenskin_orc_arrer_boyz_hood_002" text="{.Muzcynski}Orčy Kaptur"/>
+  <string id="str_tor_greenskin_orc_arrer_boyz_hood_003" text="{.Zanocy}Orčaja Šapka"/>
+  <string id="str_tor_greenskin_orc_black_1_helmet_001" text="{.Muzcynski}Orčy Tvaravy Hob"/>
+  <string id="str_tor_greenskin_orc_black_2_helmet_001" text="{.Zanocy}Orčaja Ałaŭnaja Płaštyna"/>
+  <string id="str_tor_greenskin_orc_black_3_helmet_001" text="{.Zanocy}Orčaja Panšyrnaja Ałaŭnaja Płaštyna"/>
+  <string id="str_tor_greenskin_orc_black_4_helmet_001" text="{.Zanocy}Orčaja Šapraŭdnaja Panšyrnaja Ałaŭnaja Płaštyna"/>
+  <string id="str_tor_greenskin_orc_black_5_helmet_001" text="{.Zanocy}Orčaja Žorskaja Panšyrnaja Ałaŭnaja Płaštyna"/>
+  <string id="str_tor_greenskin_orc_boar_boyz_helmet_001" text="{.Muzcynski}Orčy Čarepnik"/>
+  <string id="str_tor_greenskin_orc_choppa_helmet_001" text="{.Muzcynski}Orčy Kapialuš"/>
+  <string id="str_tor_greenskin_orc_big_un_helmet_001" text="{.Muzcynski}Orčy Šapraŭdny Kapialuš"/>
+  <string id="str_tor_greenskin_orc_big_un_helmet_002" text="{.Muzcynski}Orčy Šapraŭdny Kapialuš"/>
+  <string id="str_tor_greenskin_orc_big_un_helmet_003" text="{.Muzcynski}Orčy Šapraŭdny Kapialuš"/>
+  <string id="str_tor_greenskin_orc_warboss_helmet_001" text="{.Zanocy}Orčaja Ałaŭnaja Płaštyna Vajnabosa"/>
+  <string id="str_tor_greenskin_orc_warboss_helmet_002" text="{.Zanocy}Orčaja Ałaŭnaja Płaštyna Vajnabosa"/>
+  <string id="str_tor_greenskin_orc_warboss_helmet_003" text="{.Zanocy}Orčaja Ałaŭnaja Płaštyna Vajnabosa"/>
+  <string id="str_tor_greenskin_orc_warboss_helmet_004" text="{.Zanocy}Orčaja Ałaŭnaja Płaštyna Vajnabosa"/>
+  <string id="str_tor_greenskin_goblin_warboss_helmet_001" text="{.Zanocy}Hoblinskaja Ałaŭnaja Płaštyna Vajnabosa"/>
+  <string id="str_tor_greenskin_goblin_warboss_helmet_002" text="{.Zanocy}Hoblinskaja Ałaŭnaja Płaštyna Vajnabosa"/>
+  <string id="str_tor_greenskin_goblin_warboss_helmet_003" text="{.Zanocy}Hoblinskaja Ałaŭnaja Płaštyna Vajnabosa"/>
+  <string id="str_tor_greenskin_goblin_mid_helmet_001" text="{.Muzcynski}Hoblinski Čarepnik"/>
+  <string id="str_tor_greenskin_mask_savage_001" text="{.Mnozny}Šmaty Chłopca-Dzikuna"/>
+  <string id="str_tor_greenskin_mask_shaman_001" text="{.Zanocy}Orčaja Maska Šamana"/>
+  <string id="str_tor_greenskin_hood_shaman_002" text="{.Muzcynski}Orčy Kaptur Šamana"/>
+  <string id="str_tor_greenskin_hood_shaman_003" text="{.Zanocy}Orčaja Šapka Šamana"/>
+  <string id="str_tor_he_head_helm_phoenix_001" text="{.Muzcynski}Eanirski Šałom Varty Karalevy"/>
+  <string id="str_tor_he_head_helm_whitelion_001" text="{.Muzcynski}Vysokaelfijski Šałom Biełaha Ilva"/>
+  <string id="str_tor_he_head_helm_spearmen_001" text="{.Muzcynski}Vysokaelfijski Šałom Kapijnika"/>
+  <string id="str_tor_he_head_helm_spearmen_002" text="{.Muzcynski}Vysokaelfijski Šałom Kapijnika"/>
+  <string id="str_tor_eo_head_helm_kithband_helmet_001" text="{.Muzcynski}Eanirski Kłanavy Šałom"/>
+  <string id="str_tor_eo_head_dragon_helmet_001" text="{.Muzcynski}Eanirski Kłanavy Drakonavaha Šałom"/>
+  <string id="str_tor_he_head_helm_queens_guard_002" text="{.Muzcynski}Vysokaelfijski Šałom Karaleŭskaj Varty"/>
+  <string id="str_tor_he_head_helm_queens_guard_001" text="{.Muzcynski}Vysokaelfijski Šałom Karaleŭskaj Varty"/>
+  <string id="str_tor_dw_head_helm_militia_001" text="{.Muzcynski}Dvarfski Šałom Rušeńnia"/>
+  <string id="str_tor_dw_head_helm_miner_001" text="{.Muzcynski}Dvarfski Šałom Rudniara"/>
+  <string id="str_tor_dw_head_helm_miner_002" text="{.Muzcynski}Dvarfski Šałom Rudniara"/>
+  <string id="str_tor_dw_head_helm_miner_003" text="{.Muzcynski}Dvarfski Šałom Rudniara"/>
+  <string id="str_tor_dw_head_helm_warrior_001" text="{.Muzcynski}Dvarfski Šałom Vajara"/>
+  <string id="str_tor_dw_head_helm_slayer_adept_001" text="{.Muzcynski}Pirsinh Zabojcy Trolaŭ"/>
+  <string id="str_tor_dw_head_helm_slayer_deamon_001" text="{.Muzcynski}Šałom Zabojcy Demanaŭ"/>
+  <string id="str_tor_dw_head_helm_ungrim_001" text="{.Zanocy}Karona Zabojcy"/>
+  <string id="str_tor_dw_head_helm_longbeard_001" text="{.Muzcynski}Šałom Doŭhabaroda"/>
+  <string id="str_tor_dw_head_helm_ranger_001" text="{.Muzcynski}Dvarfski Kaptur Rejndžara"/>
+  <string id="str_tor_dw_head_helm_ranger_002" text="{.Muzcynski}Dvarfski Kaptur Rejndžara"/>
+  <string id="str_tor_dw_head_helm_ranger_003" text="{.Muzcynski}Dvarfski Kaptur Rejndžara"/>
+  <string id="str_tor_dw_head_helm_ranger_004" text="{.Muzcynski}Dvarfski Šałom Rejndžara"/>
+  <string id="str_tor_dw_head_apprentice_002" text="{.Mnozny}Dvarfskija Akulary"/>
+  <string id="str_tor_dw_head_apprentice_001" text="{.Muzcynski}Dvarfski Šałom Artylerysta"/>
+  <string id="str_tor_dw_head_journeyman_001" text="{.Muzcynski}Dvarfski Šałom Artylerysta"/>
+  <string id="str_tor_dw_head_engineer_001" text="{.Muzcynski}Dvarfski Šałom Inžyniera-Majstra"/>
+  <string id="str_tor_dw_head_engineer_002" text="{.Muzcynski}Dvarfski Hałaŭny Ŭbor Artylerysta"/>
+  <string id="str_tor_dw_head_helm_ironbreaker_001" text="{.Muzcynski}Šałom Žalezaprałomnika"/>
+  <string id="str_tor_dw_head_helm_irondrake_001" text="{.Muzcynski}Šałom Žaleznaha Drakona"/>
+  <string id="str_tor_dw_head_helm_noble_001" text="{.Muzcynski}Dvarfski Šlachietny Šałom"/>
+  <string id="str_tor_dw_head_helm_noble_002" text="{.Muzcynski}Dvarfski Šlachietny Šałom"/>
+  <string id="str_tor_dw_head_helm_noble_003" text="{.Muzcynski}Dvarfski Šlachietny Šałom"/>
+  <string id="str_tor_dw_head_helm_runelord_001" text="{.Muzcynski}Šałom Runnaha Łorda"/>
+  <string id="str_tor_dw_head_helm_hammerer_001" text="{.Muzcynski}Dvarfski Šałom Mołatabojca"/>
+  <string id="str_tor_de_head_mask_sos_001" text="{.Zanocy}Ciomnaelfijskaja Maska Siastry Raźni"/>
+  <string id="str_tor_de_head_mask_sos_002" text="{.Zanocy}Ciomnaelfijskaja Maska Siastry Raźni"/>
+  <string id="str_tor_de_head_mask_sos_003" text="{.Zanocy}Ciomnaelfijskaja Maska Siastry Raźni"/>
+  <string id="str_tor_de_head_mask_sos_004" text="{.Zanocy}Ciomnaelfijskaja Maska Siastry Raźni"/>
+  <string id="str_tor_de_head_mask_doomfire_warlock_001" text="{.Zanocy}Ciomnaelfijskaja Maska Čarnaknižnika Pahibielnaha Ahniu"/>
+  <string id="str_tor_de_head_mask_doomfire_warlock_002" text="{.Zanocy}Ciomnaelfijskaja Maska Čarnaknižnika Pahibielnaha Ahniu"/>
+  <string id="str_tor_de_head_mask_doomfire_warlock_003" text="{.Zanocy}Ciomnaelfijskaja Maska Čarnaknižnika Pahibielnaha Ahniu"/>
+  <string id="str_tor_de_head_crown_witch_elf_001" text="{.Zanocy}Ciomnaelfijskaja Karona Viedźmy-Elfijki"/>
+  <string id="str_tor_de_head_crown_witch_elf_002" text="{.Zanocy}Ciomnaelfijskaja Karona Viedźmy-Elfijki"/>
+  <string id="str_tor_de_head_crown_supreme_sorceress_001" text="{.Zanocy}Ciomnaelfijskaja Karona Viarchoŭnaj Viadźmarki"/>
+  <string id="str_tor_de_head_crown_supreme_sorceress_002" text="{.Zanocy}Ciomnaelfijskaja Karona Viarchoŭnaj Viadźmarki"/>
+  <string id="str_tor_de_head_helmet_death_hag_004" text="{.Zanocy}Ciomnaelfijskaja Karona Karhi Śmierci"/>
+  <string id="str_tor_de_head_helmet_death_hag_003" text="{.Zanocy}Ciomnaelfijskaja Karona Karhi Śmierci"/>
+  <string id="str_tor_de_head_helmet_death_hag_002" text="{.Zanocy}Ciomnaelfijskaja Karona Karhi Śmierci"/>
+  <string id="str_tor_de_head_helmet_death_hag_001" text="{.Zanocy}Ciomnaelfijskaja Karona Karhi Śmierci"/>
+  <string id="str_tor_de_head_helmet_infantry_001" text="{.Muzcynski}Ciomnaelfijski Piachotny Šałom"/>
+  <string id="str_tor_tilean_head_helm_knight_001" text="{.Muzcynski}Tylijski Saład"/>
+  <string id="str_tor_tilean_head_helm_knight_002" text="{.Muzcynski}Tylijski Kapalin"/>
+  <string id="str_tor_tilean_head_helm_knight_003" text="{.Muzcynski}Tylijski Saład z Adkrytaj Zasłonaj"/>
+  <string id="str_tor_tilean_head_helm_brass_knight_001" text="{.Muzcynski}Tylijski Saład"/>
+  <string id="str_tor_estalia_head_helm_general_001" text="{.Zanocy}Estalijskaja Maska-Čerap"/>
+  <string id="str_tor_empire_shoulder_pauldron_halberdier_001" text="{.Mnozny}Impierskija Plečy Alebardzira"/>
+  <string id="str_tor_empire_body_yoke_worn_001" text="{.Nijaki}Jarmo Flahielanta"/>
+  <string id="str_tor_empire_body_yoke_worn_002" text="{.Nijaki}Jarmo Flahielanta"/>
+  <string id="str_tor_empire_body_breastplate_worn_001" text="{.Muzcynski}Znošany Impierski Nahrudnik"/>
+  <string id="str_tor_empire_body_breastplate_kragsburg_001" text="{.Muzcynski}Nahrudnik fon Kraksburhaŭ"/>
+  <string id="str_tor_empire_body_breastplate_stirriver_001" text="{.Muzcynski}Nahrudnik Patrula Raki Šcir"/>
+  <string id="str_tor_empire_body_breastplate_statetrooper_001" text="{.Zanocy}Impierskaja Kirasa"/>
+  <string id="str_tor_empire_body_breastplate_statetrooper_002" text="{.Zanocy}Impierskaja Kirasa"/>
+  <string id="str_tor_empire_body_breastplate_statetrooper_003" text="{.Zanocy}Impierskaja Kirasa"/>
+  <string id="str_tor_empire_body_breastplate_statetrooper_004" text="{.Zanocy}Impierskaja Kirasa z Pałdronam"/>
+  <string id="str_tor_empire_shoulder_pauldron_greatsword_001" text="{.Muzcynski}Impierski Pałdron"/>
+  <string id="str_tor_empire_shoulder_pauldron_greatsword_002" text="{.Muzcynski}Impierski Pałdron"/>
+  <string id="str_tor_empire_shoulder_cape_generic_lord" text="{.Zanocy}Vytančanaja Nakidka"/>
+  <string id="str_tor_empire_shoulder_pauldron_general_001" text="{.Zanocy}Impierskaja Hienieralskaja Nakidka"/>
+  <string id="str_tor_empire_shoulder_pauldron_general_002" text="{.Zanocy}Impierskaja Hienieralskaja Nakidka"/>
+  <string id="str_tor_empire_shoulder_pauldron_valten" text="{.Mnozny}Naplečniki Valtena z Nakidkaj"/>
+  <string id="str_tor_empire_shoulder_pauldron_luthor_huss" text="{.Mnozny}Azdoblenyja Naplečniki Vajara-Śviatara"/>
+  <string id="str_tor_empire_shoulder_pauldron_volkmar" text="{.Mnozny}Naplečniki Folkmara Panuraha"/>
+  <string id="str_tor_empire_shoulder_pauldron_light_wizard_001" text="{.Mnozny}Naplečniki Śvietłaha Čaraŭnika"/>
+  <string id="str_tor_empire_shoulder_pauldron_warrior_priest_001" text="{.Mnozny}Pałdrony Vajara-Śviatara"/>
+  <string id="str_tor_empire_shoulder_cape_kotww_011" text="{.Zanocy}Nakidka Rycara Biełaha Voŭka"/>
+  <string id="str_tor_empire_shoulder_pauldron_kobs_001" text="{.Mnozny}Pałdrony Pałajučaha Sonca"/>
+  <string id="str_tor_empire_shoulder_pauldron_kobs_002" text="{.Mnozny}Pałdrony Pałajučaha Sonca"/>
+  <string id="str_tor_empire_shoulder_pauldron_marius_leitdorf" text="{.Mnozny}Avierlandzkija Hienieralskija Naplečniki"/>
+  <string id="str_tor_empire_shoulder_cape_balthazar_gelt" text="{.Mnozny}Naplečniki Baltazara Hielta"/>
+  <string id="str_tor_empire_shoulder_cape_gold_wizard_001" text="{.Zanocy}Nakidka Załatoha Čaraŭnika"/>
+  <string id="str_tor_empire_shoulder_pauldron_witch_hunter_001" text="{.Mnozny}Impierskija Pałdrony"/>
+  <string id="str_tor_empire_shoulder_cape_bright_wizard_001" text="{.Zanocy}Nakidka Zyrkaha Čaraŭnika"/>
+  <string id="str_tor_empire_shoulder_pauldron_celestial_wizard_001" text="{.Mnozny}Naplečniki Niabiesnaha Čaraŭnika"/>
+  <string id="str_tor_empire_shoulder_pauldron_pistolier_001" text="{.Mnozny}Impierskija Ŭpryhožanyja Naplečnyja Płaściny"/>
+  <string id="str_tor_empire_shoulder_pauldron_karl_franz" text="{.Mnozny}Naplečnyja Płaściny Karła Franca"/>
+  <string id="str_tor_empire_shoulder_pauldron_lord_001" text="{.Mnozny}Impierskija Panskija Naplečniki"/>
+  <string id="str_tor_empire_shoulder_pauldron_lord_002" text="{.Mnozny}Impierskija Panskija Naplečniki"/>
+  <string id="str_tor_vc_shoulder_pauldron_skeleton_001" text="{.Mnozny}Pałdrony Kaściaka-Vajara"/>
+  <string id="str_tor_vc_shoulder_pauldron_skeleton_002" text="{.Mnozny}Pałdrony Kaściaka-Vajara"/>
+  <string id="str_tor_vc_shoulder_pauldron_skeleton_003" text="{.Mnozny}Pałdrony Kaściaka-Vajara"/>
+  <string id="str_tor_vc_shoulder_pauldron_vampire_lord_001" text="{.Zanocy}Sylvanskaja Nakidka"/>
+  <string id="str_tor_vc_shoulder_pauldron_vlad" text="{.Mnozny}Naplečniki fon Karštajnaŭ"/>
+  <string id="str_tor_vc_shoulder_pauldron_red_duke" text="{.Mnozny}Naplečniki Hrandmajstra Kryvavaha Zamka"/>
+  <string id="str_tor_vc_cape_armor_undead_champion" text="{.Zanocy}Nakidka Čempijona Niežyci"/>
+  <string id="str_tor_vc_shoulder_pauldron_blood_knight_001" text="{.Mnozny}Pałdrony Kryvavaha Rycara"/>
+  <string id="str_tor_vc_shoulder_pauldron_blood_knight_002" text="{.Mnozny}Pałdrony Kryvavaha Rycara"/>
+  <string id="str_tor_vc_shoulder_pauldron_blood_dragon_knight_001" text="{.Mnozny}Pałdrony Kryvavaha Drakonavaha Rycara"/>
+  <string id="str_tor_vc_shoulder_pauldron_mannfred" text="{.Mnozny}Naplečniki Manfreda fon Karštajna"/>
+  <string id="str_tor_vc_shoulder_cape_necromancer_001" text="{.Mnozny}Naplečniki Niekramanta"/>
+  <string id="str_tor_vc_shoulder_basic_cape_Niekrarcha_001" text="{.Zanocy}Nakidka Niekrarcha"/>
+  <string id="str_tor_vc_shoulder_pauldron_grave_guard_001" text="{.Mnozny}Pałdrony Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_shoulder_pauldron_grave_guard_002" text="{.Mnozny}Pałdrony Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_shoulder_pauldron_grave_guard_003" text="{.Mnozny}Pałdrony Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_shoulder_pauldron_grave_guard_004" text="{.Mnozny}Pałdrony Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_shoulder_pauldron_wight_king_001" text="{.Mnozny}Pałdrony Vaładara-Vajta"/>
+  <string id="str_tor_vc_body_breastplate_cairn_wraith_001" text="{.Muzcynski}Daśpiech Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_body_breastplate_cairn_wraith_002" text="{.Muzcynski}Daśpiech Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_body_breastplate_cairn_wraith_003" text="{.Muzcynski}Daśpiech Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_body_breastplate_cairn_wraith_004" text="{.Muzcynski}Daśpiech Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_shoulder_pauldron_hell_knight_001" text="{.Mnozny}Pałdrony Piakielnaha Rycara"/>
+  <string id="str_tor_vc_shoulder_pauldron_dh_templar_001" text="{.Mnozny}Pałdrony Drakienchofskaha Chramoŭnika"/>
+  <string id="str_tor_chaos_shoulder_pauldron_nurgle_001" text="{.Muzcynski}Nurhlickija Pałdron"/>
+  <string id="str_tor_chaos_shoulder_pauldron_nurgle_002" text="{.Muzcynski}Nurhlickija Pałdrony"/>
+  <string id="str_tor_chaos_shoulder_pauldron_slaneesh_warrior_001" text="{.Mnozny}Słaaneskija Pałdrony"/>
+  <string id="str_tor_chaos_shoulder_pauldron_chosen_001" text="{.Mnozny}Pałdrony Chaosu"/>
+  <string id="str_tor_chaos_shoulder_pauldron_khorne_warrior_001" text="{.Mnozny}Kchornickija Pałdrony"/>
+  <string id="str_tor_chaos_shoulder_pauldron_khorne_warrior_002" text="{.Mnozny}Kchornickija Pałdrony"/>
+  <string id="str_tor_chaos_shoulder_pauldron_tzeentch_warrior_001" text="{.Mnozny}Ćzinčyckija Pałdrony"/>
+  <string id="str_tor_chaos_shoulder_cape_marauder_001" text="{.Mnozny}Płaścinkavyja Pałdrony Maradziora z Nakidkaj"/>
+  <string id="str_tor_chaos_shoulder_fur_marauder_001" text="{.Mnozny}Futravyja Naplečniki Maradziora"/>
+  <string id="str_tor_chaos_shoulder_cape_chaos_warrior_001" text="{.Mnozny}Naplečnyja Nakładki Vajara Chaosu"/>
+  <string id="str_tor_bretonnian_shoulder_pauldron_knight_001" text="{.Zanocy}Bretonskaja Picena"/>
+  <string id="str_tor_bretonnian_shoulder_pauldron_knight_002" text="{.Mnozny}Bretonskija Pałdrony z Nakidkaj"/>
+  <string id="str_tor_bretonnian_shoulder_pauldron_knight_003" text="{.Mnozny}Bretonskija Pałdrony z Nakidkaj"/>
+  <string id="str_tor_bretonnian_shoulder_questing_knight_001" text="{.Muzcynski}Pałdron Kvestavaha Rycara"/>
+  <string id="str_tor_bretonnian_shoulder_questing_knight_002" text="{.Mnozny}Bretonskija Naručnyja Ščyty z Nakidkaj"/>
+  <string id="str_tor_bretonnian_shoulder_questing_knight_003" text="{.Muzcynski}Pałdron Kvestavaha Rycara"/>
+  <string id="str_tor_bretonnian_shoulder_grail_knight_001" text="{.Zanocy}Nakidka Rycara Hraala"/>
+  <string id="str_tor_bretonnian_shoulder_pauldron_pilgrim_001" text="{.Mnozny}Bajavyja Naplečniki Pilihryma"/>
+  <string id="str_tor_bretonnian_shoulder_pauldron_louen_leoncoeur" text="{.Mnozny}Naplečniki Blasku"/>
+  <string id="str_tor_mousillon_shoulder_grail_knight_001" text="{.Zanocy}Nakidka Rycara Čornaha Hraala"/>
+  <string id="str_tor_mousillon_shoulder_pauldron_bgk_001" text="{.Mnozny}Naplečniki Rycara Čornaha Hraala"/>
+  <string id="str_tor_we_shoulder_cape_eternalguard_001" text="{.Zanocy}Nakidka Viečnaj Varty"/>
+  <string id="str_tor_we_shoulder_cape_lord_001" text="{.Zanocy}Nakidka Prahalnaha Łorda"/>
+  <string id="str_tor_we_shoulder_cape_lord_002" text="{.Zanocy}Nakidka Prahalnaha Łorda"/>
+  <string id="str_tor_we_shoulder_cape_wildrider_001" text="{.Zanocy}Nakidka Dzikaha Najeźnika"/>
+  <string id="str_tor_we_shoulder_cape_gladeguard_001" text="{.Zanocy}Nakidka Prahalnaj Varty"/>
+  <string id="str_tor_we_shoulder_cape_ranger_001" text="{.Zanocy}Lesaelfijskaja Nakidka Rejndžara"/>
+  <string id="str_tor_we_shoulder_cape_exiled_wizard_001" text="{.Zanocy}Nakidka Čaraŭnika-Vyhnańnika z Kapturam"/>
+  <string id="str_tor_we_shoulder_cape_spellsinger_001" text="{.Zanocy}Nakidka Śpiavaka Zaklonaŭ"/>
+  <string id="str_we_spellsinger_neck_f" text="{.Muzcynski}Ašyjnik Śpiavaka Zaklonaŭ"/>
+  <string id="str_tor_he_shoulder_cape_phoenix_001" text="{.Zanocy}Eanirskaja Nakidka Varty Karalevy"/>
+  <string id="str_tor_he_shoulder_cape_whitelion_001" text="{.Zanocy}Vysokaelfijskaja Nakidka Biełaha Ilva"/>
+  <string id="str_tor_he_shoulder_pauldrons_infantry_001" text="{.Mnozny}Vysokaelfijskija Pałdrony Kapijnika"/>
+  <string id="str_tor_he_shoulder_shoulderpads_queens_guard_001" text="{.Zanocy}Vysokaelfijskaja Nakidka Karaleŭskaj Varty"/>
+  <string id="str_tor_eo_shoulder_shoulderpads_scale_001" text="{.Mnozny}Eanirskija Łuskatyja Pałdrony"/>
+  <string id="str_tor_eo_shoulder_shoulderpads_scale_002" text="{.Mnozny}Eanirskija Łuskatyja Pałdrony"/>
+  <string id="str_tor_eo_shoulder_shoulderpads_envoy_scale_001" text="{.Mnozny}Eanirskija Pałdrony Pasłanca"/>
+  <string id="str_tor_dw_shoulderpads_militia_001" text="{.Mnozny}Dvarfskija Naplečnyja Nakładki Rušeńnia"/>
+  <string id="str_tor_dw_shoulderpads_miner_001" text="{.Mnozny}Dvarfskija Naplečnyja Nakładki Rudniara"/>
+  <string id="str_tor_dw_shoulderpads_warrior_001" text="{.Mnozny}Dvarfskija Naplečnyja Nakładki Vajara"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_dwarf_ornate_001" text="{.Mnozny}Dvarfskija Azdoblenyja Naplečnyja Nakładki"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_ungrim_001" text="{.Nijaki}Drakonavaje Pokryva Fyrskara"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_longbeard_001" text="{.Mnozny}Naplečnyja Nakładki Doŭhabaroda"/>
+  <string id="str_tor_dw_shoulder_cape_ranger_001" text="{.Zanocy}Dvarfskaja Nakidka Rejndžara"/>
+  <string id="str_tor_dw_shoulder_cape_ranger_002" text="{.Zanocy}Dvarfskaja Nakidka Rejndžara"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_apprentice_001" text="{.Mnozny}Dvarfskija Naplečnyja Nakładki Artylerysta"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_journeyman_001" text="{.Mnozny}Dvarfskija Naplečnyja Nakładki Inžyniera"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_engineer_001" text="{.Mnozny}Dvarfskija Naplečnyja Nakładki Inžyniera-Majstra"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_ironbreaker_001" text="{.Mnozny}Naplečnyja Nakładki Žalezaprałomnika"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_irondrake_001" text="{.Mnozny}Naplečnyja Nakładki Žaleznaha Drakona"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_noble_001" text="{.Mnozny}Dvarfskija Šlachietnyja Naplečnyja Nakładki"/>
+  <string id="str_tor_dw_shoulder_shoulderpads_runelord_001" text="{.Mnozny}Naplečnyja Nakładki Runnaha Łorda"/>
+  <string id="str_tor_de_shoulder_pauldrons_infantry_001" text="{.Mnozny}Ciomnaelfijskija Piachotnyja Pałdrony"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_shaman_001" text="{.Mnozny}Orčyja Čarapnyja Šmaty Šamana"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_shaman_003" text="{.Mnozny}Orčyja Naplešniki Šamana"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_boyz_001" text="{.Mnozny}Orčyja Šypatyja Naplešniki"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_boyz_002" text="{.Mnozny}Orčyja Šypatyja Naplešniki"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_boyz_003" text="{.Mnozny}Orčyja Šypatyja Naplešniki"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_arrer_boyz_001" text="{.Mnozny}Orčyja Naplešnyja Štuki"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_black_1_001" text="{.Mnozny}Orčyja Škurnyja Naplešnyja Štuki"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_black_2_001" text="{.Mnozny}Orčyja Naplešnyja Płaštyny"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_black_3_001" text="{.Mnozny}Orčyja Panšyrnyja Naplešnyja Płaštyny"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_black_4_001" text="{.Mnozny}Orčyja Ciaškija Naplešnyja Płaštyny"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_black_5_001" text="{.Mnozny}Orčyja Žorskija Panšyrnyja Naplešnyja Płaštyny"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_boar_boyz_001" text="{.Mnozny}Orčyja Lepžyja Plešavyja Nakładki"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_choppa_001" text="{.Mnozny}Orčyja Naplešnyja Štuki"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_big_un_001" text="{.Mnozny}Orčyja Šapraŭdnyja Plešavyja Nakładki"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_big_un_002" text="{.Mnozny}Orčyja Šapraŭdnyja Plešavyja Nakładki"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_big_un_003" text="{.Mnozny}Orčyja Šapraŭdnyja Plešavyja Nakładki"/>
+  <string id="str_tor_greenskin_shoulderpads_orc_warboss_001" text="{.Mnozny}Orčyja Naplešnyja Štuki Vajnabosa"/>
+  <string id="str_tor_greenskin_shoulderpads_goblin_warboss_001" text="{.Mnozny}Hoblinskija Naplešnyja Štuki Vajnabosa"/>
+  <string id="str_tor_greenskin_shoulderpads_goblin_001" text="{.Mnozny}Hoblinskija Naplešnyja Šypy"/>
+  <string id="str_tor_greenskin_shoulderpads_goblin_002" text="{.Mnozny}Hoblinskija Naplešnyja Štuki"/>
+  <string id="str_tor_beastmen_shoulder_necklace_001" text="{.Mnozny}Horskija Karali"/>
+  <string id="str_tor_tilean_shoulder_pauldron_knight_001" text="{.Mnozny}Tylijskija Pałdrony"/>
+  <string id="str_tor_tilean_shoulder_pauldron_knight_002" text="{.Mnozny}Tylijskija Pałdrony"/>
+  <string id="str_tor_tilean_shoulder_pauldron_brass_knight_001" text="{.Mnozny}Tylijskija Pałdrony"/>
+  <string id="str_tor_tilean_body_breastplate_engraved_001" text="{.Muzcynski}Tylijski Nahrudnik"/>
+  <string id="str_tor_estalian_shoulder_pauldron_general_001" text="{.Mnozny}Estalijskija Azdoblenyja Pałdrony"/>
+  <string id="str_tor_estalian_shoulder_pauldron_general_002" text="{.Mnozny}Estalijskija Azdoblenyja Pałdrony"/>
+  <string id="str_tor_estalian_shoulder_pauldron_general_003" text="{.Mnozny}Estalijskija Azdoblenyja Pałdrony"/>
+  <string id="str_tor_empire_body_undercloth_statetroop_001" text="{.Zanocy}Impierskaja Ŭniforma Dziaržaŭnaha Žaŭniora"/>
+  <string id="str_tor_empire_body_undercloth_statetroop_002" text="{.Zanocy}Impierskaja Ŭniforma Dziaržaŭnaha Žaŭniora"/>
+  <string id="str_tor_empire_body_undercloth_statetroop_003" text="{.Zanocy}Impierskaja Miakkaja Ŭniforma Dziaržaŭnaha Žaŭniora"/>
+  <string id="str_tor_empire_body_undercloth_statetroop_004" text="{.Zanocy}Impierskaja Ŭzmocnienaja Ŭniforma Dziaržaŭnaha Žaŭniora"/>
+  <string id="str_tor_empire_body_armor_kragsburg_001" text="{.Muzcynski}Siaržancki Nahrudnik fon Kraksburhaŭ"/>
+  <string id="str_tor_empire_body_armor_halberdier_001" text="{.Zanocy}Impierskaja Kirasa Alebardzira"/>
+  <string id="str_tor_empire_body_armor_greatsword_001" text="{.Muzcynski}Impierski Daśpiech Vialikamiečnika"/>
+  <string id="str_tor_empire_body_armor_free_company_001" text="{.Muzcynski}Nahrudnik Volnaj Kampanii"/>
+  <string id="str_tor_empire_body_robe_bright_wizard_001" text="{.Zanocy}Roba Zyrkaha Čaraŭnika"/>
+  <string id="str_tor_empire_body_armor_general_001" text="{.Muzcynski}Impierski Hienieralski Pancyr"/>
+  <string id="str_tor_empire_body_armor_general_002" text="{.Muzcynski}Impierski Hienieralski Pancyr"/>
+  <string id="str_tor_empire_body_robe_light_wizard_001" text="{.Zanocy}Roba Śvietłaha Čaraŭnika"/>
+  <string id="str_tor_empire_body_armor_luthor_huss" text="{.Muzcynski}Azdobleny Daśpiech Vajara-Śviatara"/>
+  <string id="str_tor_empire_body_armor_volkmar" text="{.Muzcynski}Daśpiech Folkmara Panuraha"/>
+  <string id="str_tor_empire_body_armor_marius_leitdorf" text="{.Muzcynski}Avierlandzki Hienieralski Pancyr"/>
+  <string id="str_tor_empire_body_robe_balthazar_gelt" text="{.Muzcynski}Daśpiech Baltazara Hielta"/>
+  <string id="str_tor_empire_body_robe_gold_wizard_001" text="{.Zanocy}Roba Załatoha Čaraŭnika"/>
+  <string id="str_tor_empire_body_robe_beast_wizard_001" text="{.Zanocy}Roba Źviarynaha Čaraŭnika"/>
+  <string id="str_tor_empire_body_robe_life_wizard_001" text="{.Zanocy}Roba Čaraŭnika Žyćcia"/>
+  <string id="str_tor_empire_body_armor_kobs_001" text="{.Muzcynski}Daśpiech Pałajučaha Sonca"/>
+  <string id="str_tor_empire_body_armor_valten" text="{.Muzcynski}Pancyr Valtena"/>
+  <string id="str_tor_empire_body_armor_witch_hunter_001" text="{.Zanocy}Braniavanaja Skura"/>
+  <string id="str_tor_empire_body_armor_tracker_001" text="{.Zanocy}Braniavanaja Skura"/>
+  <string id="str_tor_empire_body_armor_warrior_priest_001" text="{.Muzcynski}Pancyr Vajara-Śviatara"/>
+  <string id="str_tor_empire_body_armour_kotww_001" text="{.Muzcynski}Pancyr Rycara Biełaha Voŭka"/>
+  <string id="str_tor_empire_body_armor_swadian_plate_001" text="{.Muzcynski}Płaścinavy Pancyr"/>
+  <string id="str_tor_empire_body_armor_swadian_plate_002" text="{.Muzcynski}Pałasaty Płaścinavy Pancyr"/>
+  <string id="str_tor_empire_body_armor_swadian_cuirass_001" text="{.Zanocy}Płaścinavaja Kirasa"/>
+  <string id="str_tor_empire_body_armor_swadian_cuirass_002" text="{.Zanocy}Pałasataja Kirasa"/>
+  <string id="str_tor_empire_body_armor_cannon_crew_001" text="{.Zanocy}Uniforma Inžyniera"/>
+  <string id="str_tor_empire_body_armor_cannon_crew_002" text="{.Zanocy}Uniforma Inžyniera"/>
+  <string id="str_tor_empire_body_armor_cannon_crew_003" text="{.Zanocy}Uniforma Inžyniera"/>
+  <string id="str_tor_empire_body_armor_master_engineer_001" text="{.Zanocy}Uniforma Inžyniera-Majstra"/>
+  <string id="str_tor_empire_body_robe_celestial_wizard_001" text="{.Zanocy}Roba Niabiesnaha Čaraŭnika"/>
+  <string id="str_tor_empire_body_armor_pistolier_001" text="{.Muzcynski}Impierski Siaredni Nahrudnik"/>
+  <string id="str_tor_empire_body_armor_pistolier_002" text="{.Muzcynski}Impierski Siaredni Nahrudnik"/>
+  <string id="str_tor_empire_body_armor_karl_franz" text="{.Muzcynski}Pancyr Karła Franca"/>
+  <string id="str_tor_empire_body_armor_lord_001" text="{.Muzcynski}Impierski Panski Daśpiech"/>
+  <string id="str_tor_empire_body_armor_lord_002" text="{.Muzcynski}Impierski Panski Daśpiech"/>
+  <string id="str_tor_empire_flagellant_armor_002" text="{.Nijaki}Adzieńnie Flahielanta"/>
+  <string id="str_tor_empire_flagellant_armor_003" text="{.Nijaki}Adzieńnie Flahielanta"/>
+  <string id="str_tor_empire_flagellant_armor_004" text="{.Nijaki}Adzieńnie Flahielanta"/>
+  <string id="str_tor_empire_flagellant_armor_001" text="{.Nijaki}Adzieńnie Flahielanta"/>
+  <string id="str_tor_empire_body_cloth_smith_001" text="{.Nijaki}Adzieńnie Kavala"/>
+  <string id="str_tor_vc_body_breastplate_skeleton_001" text="{.Muzcynski}Daśpiech Kaściaka-Vajara"/>
+  <string id="str_tor_vc_body_breastplate_skeleton_002" text="{.Muzcynski}Daśpiech Kaściaka-Vajara"/>
+  <string id="str_tor_vc_body_breastplate_skeleton_003" text="{.Muzcynski}Daśpiech Kaściaka-Vajara"/>
+  <string id="str_tor_vc_body_armor_vampire_lord_001" text="{.Muzcynski}Vampirski Pancyr"/>
+  <string id="str_tor_vc_body_armor_blood_knight_001" text="{.Muzcynski}Pancyr Kryvavaha Rycara"/>
+  <string id="str_tor_vc_body_armor_blood_dragon_knight_001" text="{.Muzcynski}Pancyr Kryvavaha Drakonavaha Rycara"/>
+  <string id="str_tor_vc_body_armor_vlad" text="{.Muzcynski}Daśpiech fon Karštajnaŭ"/>
+  <string id="str_tor_vc_body_armor_red_duke" text="{.Muzcynski}Pancyr Hrandmajstra Kryvavaha Zamka"/>
+  <string id="str_tor_vc_body_armor_undead_champion" text="{.Muzcynski}Daśpiech Čempijona Niežyci"/>
+  <string id="str_tor_vc_body_armor_mannfred" text="{.Muzcynski}Daśpiech Manfreda fon Karštajna"/>
+  <string id="str_tor_vc_body_robe_necromancer_001" text="{.Zanocy}Roba Niekramanta"/>
+  <string id="str_tor_vc_body_basic_robe_Niekrarcha_001" text="{.Zanocy}Roba Niekrarcha"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_001" text="{.Muzcynski}Niezavieršany Pancyr Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_002" text="{.Muzcynski}Niezavieršany Pancyr Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_003" text="{.Muzcynski}Pancyr Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_004" text="{.Muzcynski}Pancyr Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_005" text="{.Muzcynski}Pancyr Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_body_breastplate_grave_guard_006" text="{.Muzcynski}Pancyr Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_body_breastplate_wight_king_001" text="{.Mnozny}Naplečniki Vaładara-Vajta"/>
+  <string id="str_tor_vc_body_armor_cairn_wraith_001" text="{.Nijaki}Cieła Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_body_armor_cairn_wraith_002" text="{.Nijaki}Cieła Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_body_armor_cairn_wraith_003" text="{.Nijaki}Cieła Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_body_armor_spirit_host_001" text="{.Nijaki}Cieła Duchoŭnaj Zjavy"/>
+  <string id="str_tor_vc_body_breastplate_hell_knight_001" text="{.Muzcynski}Pancyr Piakielnaha Rycara"/>
+  <string id="str_tor_vc_body_breastplate_dh_templar_001" text="{.Muzcynski}Pancyr Drakienchofskaha Chramoŭnika"/>
+  <string id="str_tor_chaos_body_armor_slaneesh_warrior_001" text="{.Muzcynski}Słaaneski Płaścinavy Pancyr"/>
+  <string id="str_tor_chaos_body_armor_khorne_warrior_001" text="{.Zanocy}Kchornickaja Płaścina"/>
+  <string id="str_tor_chaos_body_armor_khorne_warrior_002" text="{.Muzcynski}Kchornicki Płaścinavy Pancyr"/>
+  <string id="str_tor_chaos_body_armor_tzeentch_warrior_001" text="{.Muzcynski}Ćzinčycki Płaścinavy Pancyr"/>
+  <string id="str_tor_chaos_body_armor_nurgle_knight_001" text="{.Muzcynski}Nurhlicki Płaścinavy Pancyr"/>
+  <string id="str_tor_chaos_body_robe_cultist_001" text="{.Zanocy}Roba Kultysta"/>
+  <string id="str_tor_chaos_body_armor_abomination" text="{.Nijaki}Cieła Brydoty"/>
+  <string id="str_tor_chaos_body_armor_marauder_001" text="{.Mnozny}Nahavicy Maradziora z Ramianiami"/>
+  <string id="str_tor_chaos_body_armor_marauder_002" text="{.Mnozny}Nahavicy Maradziora"/>
+  <string id="str_tor_chaos_body_armor_chaos_warrior_001" text="{.Muzcynski}Pancyr Vajara Chaosu"/>
+  <string id="str_tor_bretonnia_body_armor_knight_001" text="{.Muzcynski}Bretonski Haŭbierk z Varanaj Skury"/>
+  <string id="str_tor_bretonnia_body_armor_knight_002" text="{.Muzcynski}Bretonski Tabard nad Haŭbierkam"/>
+  <string id="str_tor_bretonnia_body_armor_questing_knight_001" text="{.Muzcynski}Pancyr Kvestavaha Rycara"/>
+  <string id="str_tor_bretonnia_body_armor_questing_knight_002" text="{.Muzcynski}Pancyr Kvestavaha Rycara"/>
+  <string id="str_tor_bretonnia_body_armor_questing_knight_003" text="{.Muzcynski}Pancyr Kvestavaha Rycara"/>
+  <string id="str_tor_bretonnia_body_armor_peasant_001" text="{.Zanocy}Bretonskaja Viaskovaja Vopratka"/>
+  <string id="str_tor_bretonnia_body_armor_manatarms_001" text="{.Nijaki}Bretonskaje Ciažkaje Adzieńnie nad Hambiezonam"/>
+  <string id="str_tor_bretonnia_body_armor_manatarms_002" text="{.Nijaki}Bretonskaje Ciažkaje Adzieńnie na Kalčuhaj"/>
+  <string id="str_tor_bretonnia_body_armor_manatarms_003" text="{.Zanocy}Bretonskaja Pałasataja Skura nad Hambiezonam"/>
+  <string id="str_tor_bretonnia_body_armor_manatarms_004" text="{.Zanocy}Bretonskaja Pałasataja Skura na Kalčuhaj"/>
+  <string id="str_tor_bretonnia_body_armor_kotr_001" text="{.Muzcynski}Pancyr Rycara Haspadarstva"/>
+  <string id="str_tor_bretonnia_body_armor_kotr_002" text="{.Muzcynski}Pancyr Rycara Haspadarstva"/>
+  <string id="str_tor_bretonnia_body_armor_grail_001" text="{.Muzcynski}Błasłaŭlonny Rycarski Pancyr"/>
+  <string id="str_tor_bretonnia_body_armor_grail_002" text="{.Muzcynski}Błasłaŭlonny Rycarski Pancyr"/>
+  <string id="str_tor_bretonnia_body_armor_pilgrim_001" text="{.Muzcynski}Bajavy Pancyr Pilihryma"/>
+  <string id="str_tor_bretonnia_body_armor_pilgrim_002" text="{.Muzcynski}Bajavy Pancyr Pilihryma"/>
+  <string id="str_tor_bretonnia_body_armor_prophetess_001" text="{.Zanocy}Sukienka Praročycy"/>
+  <string id="str_tor_bretonnia_body_armor_prophetess_002" text="{.Zanocy}Sukienka Praročycy"/>
+  <string id="str_tor_bretonnia_body_armor_louen_leoncoeur" text="{.Muzcynski}Pancyr Blasku"/>
+  <string id="str_tor_mousillon_body_armor_kotr_001" text="{.Muzcynski}Muziljonskaha Pancyr Rycara Niaščaścia"/>
+  <string id="str_tor_mousillon_body_armor_bgk_001" text="{.Muzcynski}Pancyr Rycara Čornaha Hraala"/>
+  <string id="str_tor_we_body_armor_civil_001" text="{.Zanocy}Elfijskaja Vopratka"/>
+  <string id="str_tor_we_body_armor_civil_002" text="{.Zanocy}Elfijskaja Vopratka"/>
+  <string id="str_tor_we_body_armor_civil_003" text="{.Zanocy}Elfijskaja Vopratka"/>
+  <string id="str_tor_we_body_armor_militia_001" text="{.Muzcynski}Elfijski Pancyr Rušeńnia"/>
+  <string id="str_tor_we_body_armor_militia_002" text="{.Muzcynski}Elfijski Pancyr Rušeńnia"/>
+  <string id="str_tor_we_body_armor_militia_003" text="{.Muzcynski}Elfijski Pancyr Rušeńnia"/>
+  <string id="str_tor_we_body_armor_eternalguard_001" text="{.Muzcynski}Pancyr Viečnaj Varty"/>
+  <string id="str_tor_we_body_armor_eternalguard_002" text="{.Muzcynski}Pancyr Viečnaj Varty"/>
+  <string id="str_tor_we_body_armor_ranger_001" text="{.Muzcynski}Lesaelfijski Pancyr Rejndžara"/>
+  <string id="str_tor_we_body_armor_ranger_002" text="{.Muzcynski}Lesaelfijski Pancyr Rejndžara"/>
+  <string id="str_tor_we_body_armor_lord_001" text="{.Muzcynski}Pancyr Prahalnaha Łorda"/>
+  <string id="str_tor_we_body_armor_lord_002" text="{.Muzcynski}Płaścinavy Pancyr Prahalnaha Łorda"/>
+  <string id="str_tor_we_body_armor_sister_001" text="{.Muzcynski}Pancyr Siastry Torna"/>
+  <string id="str_tor_we_body_armor_dancer_001" text="{.Muzcynski}Pancyr Tancora Vajny"/>
+  <string id="str_tor_we_body_armor_wildrider_001" text="{.Muzcynski}Pancyr Dzikaha Najeźnika"/>
+  <string id="str_tor_we_body_armor_gladeguard_001" text="{.Muzcynski}Pancyr Prahalnaj Varty"/>
+  <string id="str_tor_we_body_armor_treeman_001" text="{.Muzcynski}Tors z Dubovaj Kary"/>
+  <string id="str_tor_we_body_armor_ancient_treeman_001" text="{.Muzcynski}Staražytny Tors z Dubovaj Kary"/>
+  <string id="str_tor_we_body_armour_dryad_001" text="{.Muzcynski}Tors Dryjady z Dubovaj Kary"/>
+  <string id="str_tor_we_body_armour_exiled_wizard_001" text="{.Zanocy}Roba Čaraŭnika-Vyhnańnika"/>
+  <string id="str_tor_we_body_armour_spellsinger_001" text="{.Zanocy}Roba Śpiavaka Zaklonaŭ"/>
+  <string id="str_we_spellsinger_armor_f" text="{.Zanocy}Roba Śpiavaka Zaklonaŭ"/>
+  <string id="str_tor_we_body_dress_female_001" text="{.Zanocy}Lesaelfijskaja Sukienka"/>
+  <string id="str_tor_eo_body_kithband_leather_scale_001" text="{.Muzcynski}Eanirski Kłanavy Skurany Łamielar"/>
+  <string id="str_tor_eo_body_kithband_metal_scale_001" text="{.Muzcynski}Eanirski Kłanavy Ciažki Łamielar"/>
+  <string id="str_tor_he_body_armour_phoenix_001" text="{.Muzcynski}Eanirski Pancyr Varty Karalevy"/>
+  <string id="str_tor_he_body_armour_whitelion_001" text="{.Muzcynski}Vysokaelfijski Pancyr Biełaha Ilva"/>
+  <string id="str_tor_he_body_armour_spearmen_001" text="{.Muzcynski}Vysokaelfijski Pancyr Kapijnika"/>
+  <string id="str_tor_he_body_armour_whitelion_sleeves_001" text="{.Muzcynski}Vysokaelfijski Pancyr Biełaha Ilva z Doŭhimi Rukavami"/>
+  <string id="str_tor_he_body_armour_phoenix_002" text="{.Muzcynski}Eanirski Pancyr Varty Karalevy z Doŭhimi Rukavami"/>
+  <string id="str_tor_dw_body_armour_basic_dawi_001" text="{.Muzcynski}Dvarfski Pancyr"/>
+  <string id="str_tor_dw_body_armour_basic_dawi_002" text="{.Muzcynski}Dvarfski Pancyr"/>
+  <string id="str_tor_dw_body_armour_militia_001" text="{.Muzcynski}Dvarfski Pancyr Rušeńnia"/>
+  <string id="str_tor_dw_body_armour_miner_001" text="{.Muzcynski}Dvarfski Pancyr Rudniara"/>
+  <string id="str_tor_dw_body_armour_warrior_001" text="{.Muzcynski}Dvarfski Pancyr Vajara"/>
+  <string id="str_tor_dw_body_armour_warrior_002" text="{.Muzcynski}Dvarfski Pancyr Vajara"/>
+  <string id="str_tor_dw_body_armour_apprentice_001" text="{.Muzcynski}Dvarfski Pancyr Inžyniera"/>
+  <string id="str_tor_dw_body_armour_journeyman_001" text="{.Muzcynski}Dvarfski Pancyr Inžyniera"/>
+  <string id="str_tor_dw_body_armour_engineer_001" text="{.Muzcynski}Dvarfski Pancyr Inžyniera"/>
+  <string id="str_tor_dw_body_armour_slayer_novice_001" text="{.Mnozny}Štany Zabojcy"/>
+  <string id="str_tor_dw_body_armour_slayer_adept_001" text="{.Mnozny}Štany Zabojcy Trolaŭ"/>
+  <string id="str_tor_dw_body_armour_slayer_legend_001" text="{.Zanocy}Nabiedranaja Paviazka Zabojcy Vołataŭ"/>
+  <string id="str_tor_dw_body_armour_ungrim_001" text="{.Muzcynski}Pancyr Unhryma"/>
+  <string id="str_tor_dw_body_armour_longbeard_001" text="{.Muzcynski}Pancyr Doŭhabaroda"/>
+  <string id="str_tor_dw_body_armour_ranger_001" text="{.Muzcynski}Dvarfski Pancyr Rejndžara"/>
+  <string id="str_tor_dw_body_armour_ironbreaker_001" text="{.Muzcynski}Pancyr Žalezaprałomnika"/>
+  <string id="str_tor_dw_body_armour_irondrake_001" text="{.Muzcynski}Pancyr Žaleznaha Drakona"/>
+  <string id="str_tor_dw_body_armour_noble_001" text="{.Muzcynski}Dvarfski Šlachietny Pancyr"/>
+  <string id="str_tor_dw_body_armour_runelord_001" text="{.Muzcynski}Pancyr Runnaha Łorda"/>
+  <string id="str_tor_de_body_armor_infantry_001" text="{.Muzcynski}Ciomnaelfijski Piachotny Pancyr"/>
+  <string id="str_tor_tilean_body_armor_knight_001" text="{.Muzcynski}Tylijski Klapany Pancyr"/>
+  <string id="str_tor_tilean_body_armor_knight_002" text="{.Muzcynski}Tylijski Klapany Pancyr"/>
+  <string id="str_tor_tilean_body_armor_knight_003" text="{.Muzcynski}Tylijski Nahrudnik nad Haŭbierkam"/>
+  <string id="str_tor_estalia_body_armor_noble_001" text="{.Muzcynski}Estalijski Šlachietny Pancyr"/>
+  <string id="str_tor_estalia_body_armor_noble_002" text="{.Muzcynski}Estalijski Šlachietny Pancyr"/>
+  <string id="str_tor_estalia_body_armor_noble_003" text="{.Muzcynski}Estalijski Šlachietny Pancyr"/>
+  <string id="str_tor_greenskin_body_armour_orc_shaman_002" text="{.Zanocy}Orčaja Roba Šamana"/>
+  <string id="str_tor_greenskin_body_armour_orc_shaman_003" text="{.Mnozny}Orčyja Dziŭnyja Šmaty Šamana"/>
+  <string id="str_tor_greenskin_body_armour_orc_boyz_001" text="{.Mnozny}Orčyja Šmaty Łamačča"/>
+  <string id="str_tor_greenskin_body_armour_orc_arrer_boyz_001" text="{.Zanocy}Orčaja Škura"/>
+  <string id="str_tor_greenskin_body_armour_orc_boar_boyz_001" text="{.Mnozny}Orčyja Škurnyja Šmaty"/>
+  <string id="str_tor_greenskin_body_armour_orc_big_un_001" text="{.Mnozny}Orčyja Šypatyja Šmaty"/>
+  <string id="str_tor_greenskin_body_armour_orc_choppa_001" text="{.Mnozny}Orčyja Panšyrnyja Šmaty"/>
+  <string id="str_tor_greenskin_body_armour_savage_001" text="{.Mnozny}Dziŭnyja Šmaty Chłopca-Dzikuna"/>
+  <string id="str_tor_greenskin_body_armour_goblin_001" text="{.Mnozny}Hoblinskija Škurnyja Šmaty"/>
+  <string id="str_tor_greenskin_body_armour_goblin_002" text="{.Mnozny}Hoblinski Łancuhovyja Šmaty"/>
+  <string id="str_tor_greenskin_body_armour_goblin_mid_001" text="{.Mnozny}Hoblinskija Lepžyja Šmaty"/>
+  <string id="str_tor_greenskin_body_armour_orc_black_1_001" text="{.Zanocy}Orčaja Škura"/>
+  <string id="str_tor_greenskin_body_armour_orc_black_2_001" text="{.Muzcynski}Orčy Mošny Nahrudnik"/>
+  <string id="str_tor_greenskin_body_armour_orc_black_3_001" text="{.Mnozny}Orčyja Ciaškija Šmaty"/>
+  <string id="str_tor_greenskin_body_armour_orc_black_4_001" text="{.Mnozny}Orčyja Šapraŭdnyja Ciaškija Šmaty"/>
+  <string id="str_tor_greenskin_body_armour_orc_black_5_001" text="{.Mnozny}Orčyja Žorskija Panšyrnyja Šmaty"/>
+  <string id="str_tor_greenskin_body_armour_orc_warboss_001" text="{.Mnozny}Orčyja Mošnyja Šmaty Vajnabosa"/>
+  <string id="str_tor_greenskin_body_armour_goblin_warboss_001" text="{.Mnozny}Hoblinskija Mošnyja Šmaty Vajnabosa"/>
+  <string id="str_tor_greenskin_body_armour_troll_001" text="{.Mnozny}Trolskija Śmiardziučyja Šmaty"/>
+  <string id="str_tor_beastmen_body_minotaur_001" text="{.Nijaki}Cieła Minataŭra"/>
+  <string id="str_tor_beastmen_body_armour_gor_001" text="{.Muzcynski}Horski Pancyr"/>
+  <string id="str_tor_beastmen_body_armor_ungor_001" text="{.Muzcynski}Niahorski Pancyr"/>
+  <string id="str_tor_empire_arm_gauntlet_general_001" text="{.Mnozny}Impierskija Hienieralskija Rukavicy"/>
+  <string id="str_tor_empire_arm_gauntlet_general_002" text="{.Mnozny}Impierskija Hienieralskija Rukavicy"/>
+  <string id="str_tor_empire_arm_bracers_flagellant_001" text="{.Mnozny}Naručy Flahielanta"/>
+  <string id="str_tor_empire_arm_bracers_warrior_priest_001" text="{.Mnozny}Poručy Vajara-Śviatara"/>
+  <string id="str_tor_empire_arm_bracers_kotww_001" text="{.Mnozny}Naručy Rycara Biełaha Voŭka"/>
+  <string id="str_tor_empire_arm_bracers_bright_wizard_001" text="{.Mnozny}Poručy Zyrkaha Čaraŭnika"/>
+  <string id="str_tor_empire_arm_bracers_light_wizard_001" text="{.Mnozny}Poručy Śvietłaha Čaraŭnika"/>
+  <string id="str_tor_empire_arm_gauntlet_kobs_001" text="{.Mnozny}Rukavicy Pałajučaha Sonca"/>
+  <string id="str_tor_empire_arm_gauntlet_goldhero_001" text="{.Mnozny}Płaścinkavyja Rukavicy"/>
+  <string id="str_tor_empire_arm_gauntlet_plate_001" text="{.Mnozny}Płaścinkavyja Rukavicy"/>
+  <string id="str_tor_empire_arm_gauntlet_plate_002" text="{.Mnozny}Płaścinkavyja Rukavicy"/>
+  <string id="str_tor_empire_arm_gauntlet_greatsword_001" text="{.Zanocy}Impierskaja Rukavica Vialikamiečnika"/>
+  <string id="str_tor_empire_arm_gauntlet_greatsword_002" text="{.Muzcynski}Pratez-Hak"/>
+  <string id="str_tor_empire_arm_gauntlet_luthor_huss" text="{.Mnozny}Azdoblenyja Rukavicy Vajara-Śviatara"/>
+  <string id="str_tor_empire_arm_gauntlet_valten" text="{.Mnozny}Rukavicy Valtena"/>
+  <string id="str_tor_empire_arm_gauntlet_volkmar" text="{.Mnozny}Rukavicy Folkmara Panuraha"/>
+  <string id="str_tor_empire_arm_gauntlet_marius_leitdorf" text="{.Mnozny}Avierlandzkija Hienieralskija Rukavicy"/>
+  <string id="str_tor_empire_arm_gauntlet_balthazar_gelt" text="{.Mnozny}Rukavicy Baltazara Hielta"/>
+  <string id="str_tor_empire_arm_gauntlet_witch_hunter_001" text="{.Mnozny}Tryvałyja Skuranyja Palčatki"/>
+  <string id="str_tor_empire_arm_gauntlet_cannon_crew_001" text="{.Mnozny}Palčatki Inžyniera"/>
+  <string id="str_tor_empire_arm_gauntlet_cannon_crew_002" text="{.Mnozny}Palčatki Inžyniera"/>
+  <string id="str_tor_empire_arm_gauntlet_cannon_crew_003" text="{.Mnozny}Palčatki Inžyniera"/>
+  <string id="str_tor_empire_arm_gauntlet_master_engineer_001" text="{.Mnozny}Palčatki Inžyniera-Majstra"/>
+  <string id="str_tor_empire_arm_bracers_celestial_wizard_001" text="{.Mnozny}Palčatki Niabiesnaha Čaraŭnika"/>
+  <string id="str_tor_empire_arm_bracers_gold_wizard_001" text="{.Mnozny}Palčatki Załatoha Čaraŭnika"/>
+  <string id="str_tor_empire_arm_gauntlet_pistolier_001" text="{.Mnozny}Impierskija Skuranyja Palčatki"/>
+  <string id="str_tor_empire_arm_gauntlet_karl_franz" text="{.Mnozny}Rukavicy Karła Franca"/>
+  <string id="str_tor_empire_arm_gauntlet_lord_001" text="{.Mnozny}Impierskija Panskija Rukavicy"/>
+  <string id="str_tor_empire_arm_gauntlet_lord_002" text="{.Mnozny}Impierskija Panskija Rukavicy"/>
+  <string id="str_tor_empire_arm_gauntlet_smith_001" text="{.Mnozny}Palčatki Kavala"/>
+  <string id="str_tor_vc_arm_gauntlet_vampire_lord_001" text="{.Mnozny}Vampirskija Rukavicy"/>
+  <string id="str_tor_vc_arm_gauntlet_blood_knight_001" text="{.Mnozny}Rukavicy Kryvavaha Rycara"/>
+  <string id="str_tor_vc_arm_gauntlet_blood_dragon_knight_001" text="{.Mnozny}Rukavicy Kryvavaha Drakonavaha Rycara"/>
+  <string id="str_tor_vc_arm_gauntlet_vlad" text="{.Mnozny}Rukavicy fon Karštajnaŭ"/>
+  <string id="str_tor_vc_arm_gauntlet_red_duke" text="{.Mnozny}Rukavicy Hrandmajstra Kryvavaha Zamka"/>
+  <string id="str_tor_vc_arms_armor_undead_champion" text="{.Mnozny}Rukavicy Čempijona Niežyci"/>
+  <string id="str_tor_vc_arm_bracers_skeleton_warrior_001" text="{.Muzcynski}Naruč Kaściaka-Vajara"/>
+  <string id="str_tor_vc_arm_bracers_skeleton_warrior_002" text="{.Mnozny}Naručy Kaściaka-Vajara"/>
+  <string id="str_tor_vc_arm_bracers_skeleton_warrior_003" text="{.Mnozny}Naručy Kaściaka-Vajara"/>
+  <string id="str_tor_vc_arm_hands_spirit_host_001" text="{.Mnozny}Ruki Duchoŭnaj Zjavy"/>
+  <string id="str_tor_vc_arm_bracers_grave_guard_001" text="{.Mnozny}Naručy Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_arm_bracers_grave_guard_002" text="{.Mnozny}Naručy Vartaŭnika Mahiłaŭ"/>
+  <string id="str_tor_vc_arm_bracers_wight_king_001" text="{.Mnozny}Naručy Vaładara-Vajta"/>
+  <string id="str_tor_vc_arm_gauntlet_hell_knight_001" text="{.Mnozny}Rukavicy Piakielnaha Rycara"/>
+  <string id="str_tor_vc_arm_gauntlet_dh_templar_001" text="{.Mnozny}Rukavicy Drakienchofskaha Chramoŭnika"/>
+  <string id="str_tor_chaos_arm_gauntlet_slaneesh_warrior_001" text="{.Mnozny}Słaaneskija Rukavicy"/>
+  <string id="str_tor_chaos_arm_gauntlet_khorne_warrior_001" text="{.Mnozny}Kchornickija Rukavicy"/>
+  <string id="str_tor_chaos_arm_gauntlet_khorne_warrior_002" text="{.Mnozny}Kchornickija Rukavicy"/>
+  <string id="str_tor_chaos_arm_gauntlet_tzeentch_warrior_001" text="{.Mnozny}Ćzinčyckija Rukavicy"/>
+  <string id="str_tor_chaos_arm_gauntlet_hallow" text="{.Mnozny}Aśviačonyja Rukavicy"/>
+  <string id="str_tor_chaos_arm_bracers_marauder_001" text="{.Mnozny}Naručy Maradziora"/>
+  <string id="str_tor_chaos_arm_bracer_chaos_warrior_001" text="{.Mnozny}Naručy Vajara Chaosu"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_questing_knight_001" text="{.Mnozny}Palčatki Kvestavaha Rycara"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_questing_knight_002" text="{.Mnozny}Palčatki Kvestavaha Rycara"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_kotr_001" text="{.Mnozny}Rukavicy Rycara Haspadarstva"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_grail_001" text="{.Mnozny}Błasłaŭlonnyja Rycarskija Rukavicy"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_pilgrim_001" text="{.Muzcynski}Bajavy Naruč Pilihryma"/>
+  <string id="str_tor_bretonnian_arm_bracers_prophetess_001" text="{.Mnozny}Branzalety Praročycy"/>
+  <string id="str_tor_bretonnian_arm_gauntlet_louen_leoncoeur" text="{.Mnozny}Rukavicy Blasku"/>
+  <string id="str_tor_mousillon_arm_gauntlet_kotr_001" text="{.Mnozny}Rukavicy Muziljonskaha Rycara Niaščaścia"/>
+  <string id="str_tor_mousillon_arm_gauntlet_bgk_001" text="{.Mnozny}Rukavicy Rycara Čornaha Hraala"/>
+  <string id="str_tor_we_arm_bracers_eternalguard_001" text="{.Mnozny}Naručy Viečnaj Varty"/>
+  <string id="str_tor_we_arm_bracers_ranger_001" text="{.Mnozny}Lesaelfijskija Naručy Rejndžara"/>
+  <string id="str_tor_we_arm_bracers_lord_001" text="{.Mnozny}Naručy Prahalnaha Łorda"/>
+  <string id="str_tor_we_arm_bracers_lord_002" text="{.Mnozny}Naručy Prahalnaha Łorda"/>
+  <string id="str_tor_we_arm_bracers_sister_001" text="{.Mnozny}Naručy Siastry Torna"/>
+  <string id="str_tor_we_arm_bracers_dancer_001" text="{.Mnozny}Naručy Tancora Vajny"/>
+  <string id="str_tor_we_arm_bracers_wildrider_001" text="{.Mnozny}Naručy Dzikaha Najeźnika"/>
+  <string id="str_tor_we_arm_bracers_gladeguard_001" text="{.Mnozny}Naručy Prahalnaj Varty"/>
+  <string id="str_tor_we_arm_arms_treeman_001" text="{.Mnozny}Ruki z Dubovaj Kary"/>
+  <string id="str_tor_we_arm_arms_ancient_treeman_001" text="{.Mnozny}Staražytnyja Ruki z Dubovaj Kary"/>
+  <string id="str_tor_we_arm_arms_dryad_001" text="{.Mnozny}Ruki Dryjady z Dubovaj Kary"/>
+  <string id="str_tor_we_arm_rings_exiled_wizard_001" text="{.Mnozny}Mahičnyja Piarścionki Čaraŭnika-Vyhnańnika"/>
+  <string id="str_tor_we_arm_bracers_spellsinger_001" text="{.Mnozny}Naručy Śpiavaka Zaklonaŭ"/>
+  <string id="str_we_spellsinger_arms_f" text="{.Mnozny}Naručy Śpiavaka Zaklonaŭ"/>
+  <string id="str_tor_greenskin_bracers_orc_boyz_001" text="{.Mnozny}Orčyja Panšyrnyja Łapy"/>
+  <string id="str_tor_greenskin_bracers_orc_boyz_002" text="{.Mnozny}Orčyja Panšyrnyja Łapy"/>
+  <string id="str_tor_greenskin_bracers_orc_boyz_003" text="{.Mnozny}Orčyja Panšyrnyja Łapy"/>
+  <string id="str_tor_greenskin_bracers_orc_arrer_boyz_001" text="{.Mnozny}Orčyja Škurnyja Łapy"/>
+  <string id="str_tor_greenskin_bracers_orc_black_1_001" text="{.Mnozny}Orčyja Łapy"/>
+  <string id="str_tor_greenskin_bracers_orc_black_2_001" text="{.Mnozny}Orčyja Mietališnyja Łapy"/>
+  <string id="str_tor_greenskin_bracers_orc_black_3_001" text="{.Mnozny}Orčyja Ciaškija Bivaki"/>
+  <string id="str_tor_greenskin_bracers_orc_black_4_001" text="{.Mnozny}Orčyja Šypatyja Łapy"/>
+  <string id="str_tor_greenskin_bracers_orc_black_5_001" text="{.Mnozny}Orčyja Płaštynkavyja Bivaki"/>
+  <string id="str_tor_greenskin_bracers_orc_warboss_001" text="{.Mnozny}Orčyja Supierbivaki Vajnabosa"/>
+  <string id="str_tor_greenskin_bracers_goblin_warboss_001" text="{.Mnozny}Hoblinskija Bivaki Vajnabosa"/>
+  <string id="str_tor_greenskin_bracers_orc_boar_boyz_003" text="{.Mnozny}Orčyja Łapy z Łamačča"/>
+  <string id="str_tor_greenskin_bracers_orc_choppa_003" text="{.Mnozny}Orčyja Zubatyja Łapy"/>
+  <string id="str_tor_greenskin_bracers_orc_big_un_001" text="{.Mnozny}Orčyja Šapraŭdnyja Panšyrnyja Bivaki"/>
+  <string id="str_tor_greenskin_bracers_shaman_003" text="{.Mnozny}Orčyja Šypatyja Łapy Šamana"/>
+  <string id="str_tor_greenskin_bracers_savage_001" text="{.Mnozny}Kašcianyja Šmaty Chłopca-Dzikuna"/>
+  <string id="str_tor_greenskin_bracers_goblin_001" text="{.Mnozny}Hoblinskija Łapnyja Rečy"/>
+  <string id="str_tor_greenskin_bracers_goblin_002" text="{.Mnozny}Hoblinskija Łapnyja Rečy"/>
+  <string id="str_tor_greenskin_bracers_goblin_mid_001" text="{.Mnozny}Hoblinskija Łapnyja Naručy"/>
+  <string id="str_tor_greenskin_bracers_troll_001" text="{.Mnozny}Trolskija Śmiardziučyja Łapy"/>
+  <string id="str_tor_beastmen_arm_hands_minotaur_001" text="{.Mnozny}Ruki Minataŭra"/>
+  <string id="str_tor_beastmen_arm_bracers_gor_001" text="{.Mnozny}Horskija Naručy"/>
+  <string id="str_tor_he_arm_bracers_phoenix_001" text="{.Mnozny}Eanirskija Naručy Varty Karalevy"/>
+  <string id="str_tor_he_arm_bracers_whitelion_001" text="{.Mnozny}Vysokaelfijskija Naručy Biełaha Ilva"/>
+  <string id="str_tor_he_arm_bracers_infantry_001" text="{.Mnozny}Vysokaelfijskija Naručy Kapijnika"/>
+  <string id="str_tor_dw_arm_bracers_militia_001" text="{.Mnozny}Dvarfskija Naručy Rušeńnia"/>
+  <string id="str_tor_dw_arm_bracers_miner_001" text="{.Mnozny}Dvarfskija Naručy Rudniara"/>
+  <string id="str_tor_dw_arm_bracers_warrior_001" text="{.Mnozny}Dvarfskija Naručy Vajara"/>
+  <string id="str_tor_dw_arm_gloves_apprentice_001" text="{.Mnozny}Dvarfskija Palčatki Inžyniera"/>
+  <string id="str_tor_dw_arm_gloves_journeyman_001" text="{.Mnozny}Dvarfskija Palčatki Inžyniera"/>
+  <string id="str_tor_dw_arm_gloves_engineer_001" text="{.Mnozny}Dvarfskija Palčatki Inžyniera"/>
+  <string id="str_tor_dw_arm_bracers_slayer_novice_001" text="{.Mnozny}Naručy Zabojcy"/>
+  <string id="str_tor_dw_arm_bracers_slayer_adept_001" text="{.Mnozny}Naručy Zabojcy Trolaŭ"/>
+  <string id="str_tor_dw_arm_bracers_slayer_legend_001" text="{.Mnozny}Naručy Zabojcy Vołataŭ"/>
+  <string id="str_tor_dw_arm_bracers_longbeard_001" text="{.Mnozny}Naručy Doŭhabaroda"/>
+  <string id="str_tor_dw_arm_bracers_ranger_001" text="{.Mnozny}Dvarfskija Naručy Rejndžara"/>
+  <string id="str_tor_dw_arm_bracers_ironbreaker_001" text="{.Mnozny}Naručy Žalezaprałomnika"/>
+  <string id="str_tor_dw_arm_bracers_irondrake_001" text="{.Mnozny}Naručy Žaleznaha Drakona"/>
+  <string id="str_tor_dw_arm_bracers_noble_001" text="{.Mnozny}Dvarfskija Šlachietnyja Naručy"/>
+  <string id="str_tor_dw_arm_bracers_runelord_001" text="{.Mnozny}Naručy Runnaha Łorda"/>
+  <string id="str_tor_de_arm_bracers_infantry_001" text="{.Mnozny}Ciomnaelfijskija Piachotnyja Naručy"/>
+  <string id="str_tor_tiliean_arm_gauntlet_knight_001" text="{.Mnozny}Tylijskija Rukavicy"/>
+  <string id="str_tor_tiliean_arm_gauntlet_knight_002" text="{.Mnozny}Tylijskija Rukavicy"/>
+  <string id="str_tor_empire_leg_boots_free_company_001" text="{.Mnozny}Vysokija Skuranyja Boty"/>
+  <string id="str_tor_empire_leg_boots_general_001" text="{.Mnozny}Impierskija Hienieralskija Boty"/>
+  <string id="str_tor_empire_leg_boots_general_002" text="{.Mnozny}Impierskija Hienieralskija Boty"/>
+  <string id="str_tor_estalia_leg_boots_plate_001" text="{.Mnozny}Estalijskija Azdoblenyja Boty"/>
+  <string id="str_tor_estalia_leg_boots_plate_002" text="{.Mnozny}Estalijskija Azdoblenyja Boty"/>
+  <string id="str_tor_empire_leg_boots_greatsword_001" text="{.Muzcynski}Impierski Płaścinkavy Bot Vialikamiečnika"/>
+  <string id="str_tor_empire_leg_boots_greatsword_002" text="{.Muzcynski}Pratez Nohi"/>
+  <string id="str_tor_empire_leg_boots_luthor_huss" text="{.Mnozny}Azdoblenyja Boty Vajara-Śviatara"/>
+  <string id="str_tor_empire_leg_boots_valten" text="{.Mnozny}Boty Valtena"/>
+  <string id="str_tor_empire_leg_boots_volkmar" text="{.Mnozny}Boty Folkmara Panuraha"/>
+  <string id="str_tor_empire_leg_boots_warrior_priest_001" text="{.Mnozny}Boty Vajara-Śviatara"/>
+  <string id="str_tor_empire_leg_boots_kotww_001" text="{.Mnozny}Boty Rycara Biełaha Voŭka"/>
+  <string id="str_tor_empire_leg_boots_marius_leitdorf" text="{.Mnozny}Avierlandzkija Hienieralskija Boty"/>
+  <string id="str_tor_empire_leg_boots_balthazar_gelt" text="{.Mnozny}Boty Baltazara Hielta"/>
+  <string id="str_tor_empire_leg_boots_tracker_001" text="{.Mnozny}Skuranyja Botyja"/>
+  <string id="str_tor_empire_leg_boots_light_wizard_001" text="{.Mnozny}Boty Śvietłaha Čaraŭnika"/>
+  <string id="str_tor_empire_leg_boots_kobs_001" text="{.Mnozny}Płaścinkavyja Boty Pałajučaha Sonca"/>
+  <string id="str_tor_empire_leg_boots_witch_hunter_001" text="{.Mnozny}Płaścinkavyja Skuranyja Boty"/>
+  <string id="str_tor_empire_leg_boots_bright_wizard_001" text="{.Mnozny}Boty Zyrkaha Čaraŭnika"/>
+  <string id="str_tor_empire_leg_boots_empire_knight_001" text="{.Mnozny}Płaścinkavyja Boty"/>
+  <string id="str_tor_empire_leg_boots_empire_knight_002" text="{.Mnozny}Płaścinkavyja Boty"/>
+  <string id="str_tor_empire_leg_boots_empire_knight_003" text="{.Mnozny}Płaścinkavyja Boty"/>
+  <string id="str_tor_empire_leg_boots_empire_knight_004" text="{.Mnozny}Płaścinkavyja Boty"/>
+  <string id="str_tor_empire_leg_boots_empire_goldhero_001" text="{.Mnozny}Płaścinkavyja Boty"/>
+  <string id="str_tor_empire_leg_boots_plate_001" text="{.Mnozny}Płaścinkavyja Boty"/>
+  <string id="str_tor_empire_leg_boots_plate_002" text="{.Mnozny}Płaścinkavyja Boty"/>
+  <string id="str_tor_empire_leg_boots_cannon_crew_001" text="{.Mnozny}Boty Inžyniera"/>
+  <string id="str_tor_empire_leg_boots_cannon_crew_002" text="{.Mnozny}Boty Inžyniera"/>
+  <string id="str_tor_empire_leg_boots_cannon_crew_003" text="{.Mnozny}Boty Inžyniera"/>
+  <string id="str_tor_empire_leg_boots_master_engineer_001" text="{.Mnozny}Boty Inžyniera-Majstra"/>
+  <string id="str_tor_empire_leg_boots_celestial_wizard_001" text="{.Mnozny}Boty Niabiesnaha Čaraŭnika"/>
+  <string id="str_tor_empire_leg_boots_gold_wizard_001" text="{.Mnozny}Boty Załatoha Čaraŭnika"/>
+  <string id="str_tor_empire_leg_boots_pistolier_003" text="{.Mnozny}Impierskija Skuranyja Boty"/>
+  <string id="str_tor_empire_leg_boots_karl_franz" text="{.Mnozny}Boty Karła Franca"/>
+  <string id="str_tor_empire_leg_boots_lord_001" text="{.Mnozny}Impierskija Panskija Boty"/>
+  <string id="str_tor_empire_leg_boots_lord_002" text="{.Mnozny}Impierskija Panskija Boty"/>
+  <string id="str_tor_empire_leg_boots_smith_001" text="{.Mnozny}Boty Kavala"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_001" text="{.Mnozny}Boty Kaściaka-Vajara"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_002" text="{.Mnozny}Boty Kaściaka-Vajara"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_003" text="{.Mnozny}Boty Kaściaka-Vajara"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_004" text="{.Mnozny}Boty Kaściaka-Vajara"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_005" text="{.Mnozny}Boty Kaściaka-Vajara"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_006" text="{.Mnozny}Boty Kaściaka-Vajara"/>
+  <string id="str_tor_vc_leg_boots_skeleton_warrior_007" text="{.Mnozny}Boty Kaściaka-Vajara"/>
+  <string id="str_tor_vc_leg_boots_vampire_lord_001" text="{.Mnozny}Vampirskija Braniavanyja Boty"/>
+  <string id="str_tor_vc_leg_boots_blood_dragon_knight_001" text="{.Mnozny}Boty Kryvavaha Drakonavaha Rycara"/>
+  <string id="str_tor_vc_leg_boots_vc_wight_king_001" text="{.Mnozny}Boty Vaładara-Vajta"/>
+  <string id="str_tor_vc_leg_boots_vlad" text="{.Mnozny}Boty fon Karštajnaŭ"/>
+  <string id="str_tor_vc_leg_boots_red_duke" text="{.Mnozny}Boty Hrandmajstra Kryvavaha Zamka"/>
+  <string id="str_tor_vc_leg_armor_undead_champion" text="{.Mnozny}Boty Čempijona Niežyci"/>
+  <string id="str_tor_vc_leg_boots_mannfred" text="{.Mnozny}Boty Manfreda fon Karštajna"/>
+  <string id="str_tor_vc_leg_boots_necromancer" text="{.Mnozny}Boty Niekramanta"/>
+  <string id="str_tor_vc_leg_boots_cairn_wraith_001" text="{.Mnozny}Łachmany Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_leg_boots_cairn_wraith_002" text="{.Mnozny}Łachmany Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_leg_boots_cairn_wraith_003" text="{.Mnozny}Łachmany Kurhannaha Pryvidu"/>
+  <string id="str_tor_vc_leg_boots_vc_hell_knight_001" text="{.Mnozny}Boty Piakielnaha Rycara"/>
+  <string id="str_tor_vc_leg_boots_vc_dh_templar_001" text="{.Mnozny}Boty Drakienchofskaha Chramoŭnika"/>
+  <string id="str_tor_chaos_leg_boots_slaneesh_warrior_001" text="{.Mnozny}Słaaneskija Płaścinkavyja Boty"/>
+  <string id="str_tor_chaos_leg_boots_nurgle_knight_001" text="{.Mnozny}Nurhlickija Płaścinkavyja Boty"/>
+  <string id="str_tor_chaos_leg_boots_khorne_warrior_001" text="{.Mnozny}Kchornickija Płaścinkavyja Boty"/>
+  <string id="str_tor_chaos_leg_boots_khorne_warrior_002" text="{.Mnozny}Kchornickija Płaścinkavyja Boty"/>
+  <string id="str_tor_chaos_leg_boots_tzeentch_warrior_001" text="{.Mnozny}Ćzinčyckija Płaścinkavyja Boty"/>
+  <string id="str_tor_chaos_leg_boots_hallow" text="Płaścinkavyja {.Mnozny}Boty Chaosu"/>
+  <string id="str_tor_chaos_leg_boots_marauder_001" text="{.Mnozny}Boty Maradziora"/>
+  <string id="str_tor_chaos_leg_boots_chaos_warrior_001" text="{.Mnozny}Boty Vajara Chaosu"/>
+  <string id="str_tor_bretonnian_leg_boots_knight_001" text="{.Mnozny}Braniavanyja Boty"/>
+  <string id="str_tor_bretonnian_leg_boots_manatarms_001" text="{.Mnozny}Staryja Skuranyja Boty"/>
+  <string id="str_tor_bretonnian_leg_boots_questing_knight_001" text="{.Mnozny}Płaścinkavyja Boty Kvestavaha Rycara"/>
+  <string id="str_tor_bretonnian_leg_boots_kotr_001" text="{.Mnozny}Boty Rycara Haspadarstva"/>
+  <string id="str_tor_bretonnian_leg_boots_grail_001" text="{.Mnozny}Błasłaŭlonnyja Rycarskija Płaścinkavyja Boty"/>
+  <string id="str_tor_bretonnian_leg_boots_prophetess_001" text="{.Mnozny}Tufli Praročycy"/>
+  <string id="str_tor_bretonnian_leg_boots_prophetess_002" text="{.Mnozny}Tufli Praročycy"/>
+  <string id="str_tor_bretonnian_leg_boots_louen_leoncoeur" text="{.Mnozny}Boty Blasku"/>
+  <string id="str_tor_mousillon_leg_boots_kotr_001" text="{.Mnozny}Boty Muziljonskaha Rycara Niaščaścia"/>
+  <string id="str_tor_mousillon_leg_boots_bgk_001" text="{.Mnozny}Boty Rycara Čornaha Hraala"/>
+  <string id="str_tor_we_leg_boots_militia_001" text="{.Mnozny}Elfijskija Boty Rušeńnia"/>
+  <string id="str_tor_we_leg_boots_militia_002" text="{.Mnozny}Elfijskija Boty Rušeńnia"/>
+  <string id="str_tor_we_leg_boots_militia_003" text="{.Mnozny}Elfijskija Boty Rušeńnia"/>
+  <string id="str_tor_we_leg_boots_eternalguard_001" text="{.Mnozny}Boty Viečnaj Varty"/>
+  <string id="str_tor_we_leg_boots_ranger_001" text="{.Mnozny}Lesaelfijskija Boty Rejndžara"/>
+  <string id="str_we_spellsinger_legs_f" text="{.Muzcynski}Abutak Śpiavaka Zaklonaŭ"/>
+  <string id="str_tor_we_leg_boots_lord_001" text="{.Mnozny}Boty Prahalnaha Łorda"/>
+  <string id="str_tor_we_leg_boots_lord_002" text="{.Mnozny}Boty Prahalnaha Łorda"/>
+  <string id="str_tor_we_leg_boots_sister_001" text="{.Mnozny}Boty Siastry Torna"/>
+  <string id="str_tor_we_leg_boots_dancer_001" text="{.Mnozny}Boty Tancora Vajny"/>
+  <string id="str_tor_we_leg_boots_wildrider_001" text="{.Mnozny}Boty Dzikaha Najeźnika"/>
+  <string id="str_tor_we_leg_boots_gladeguard_001" text="{.Mnozny}Boty Prahalnaj Varty"/>
+  <string id="str_tor_we_leg_legs_treeman_001" text="{.Mnozny}Nohi z Dubovaj Kary"/>
+  <string id="str_tor_we_leg_legs_ancient_treeman_001" text="{.Mnozny}Staražytnyja Nohi z Dubovaj Kary"/>
+  <string id="str_tor_we_leg_legs_dryad_001" text="{.Mnozny}Nohi Dryjady z Dubovaj Kary"/>
+  <string id="str_tor_we_leg_boots_exiled_wizard_001" text="{.Mnozny}Boty Čaraŭnika-Vyhnańnika"/>
+  <string id="str_tor_he_leg_boots_phoenix_001" text="{.Mnozny}Eanirskija Boty Varty Karalevy"/>
+  <string id="str_tor_he_leg_boots_whitelion_001" text="{.Mnozny}Vysokaelfijskija Boty Biełaha Ilva"/>
+  <string id="str_tor_he_leg_boots_spearmen_001" text="{.Mnozny}Vysokaelfijskija Boty Kapijnika"/>
+  <string id="str_tor_dw_leg_boots_basic_dawi_001" text="{.Mnozny}Dvarfskija Boty"/>
+  <string id="str_tor_dw_leg_boots_militia_001" text="{.Mnozny}Dvarfskija Boty Rušeńnia"/>
+  <string id="str_tor_dw_leg_boots_miner_001" text="{.Mnozny}Dvarfskija Boty Rudniara"/>
+  <string id="str_tor_dw_leg_boots_warrior_001" text="{.Mnozny}Dvarfskija Boty Vajara"/>
+  <string id="str_tor_dw_leg_boots_apprentice_001" text="{.Mnozny}Dvarfskija Boty Inžyniera"/>
+  <string id="str_tor_dw_leg_boots_journeyman_001" text="{.Mnozny}Dvarfskija Boty Inžyniera"/>
+  <string id="str_tor_dw_leg_boots_engineer_001" text="{.Mnozny}Dvarfskija Boty Inžyniera"/>
+  <string id="str_tor_dw_leg_boots_slayer_adept_001" text="{.Mnozny}Boty Zabojcy Trolaŭ"/>
+  <string id="str_tor_dw_leg_boots_slayer_legend_001" text="{.Mnozny}Boty Zabojcy Vołataŭ"/>
+  <string id="str_tor_dw_leg_boots_longbeard_001" text="{.Mnozny}Boty Doŭhabaroda"/>
+  <string id="str_tor_dw_leg_boots_ranger_001" text="{.Mnozny}Dvarfskija Boty Rejndžara"/>
+  <string id="str_tor_dw_leg_boots_ironbreaker_001" text="{.Mnozny}Boty Žalezaprałomnika"/>
+  <string id="str_tor_dw_leg_boots_irondrake_001" text="{.Mnozny}Boty Žaleznaha Drakona"/>
+  <string id="str_tor_dw_leg_boots_noble_001" text="{.Mnozny}Dvarfskija Šlachietnyja Boty"/>
+  <string id="str_tor_dw_leg_boots_runelord_001" text="{.Mnozny}Boty Runnaha Łorda"/>
+  <string id="str_tor_greenskin_boots_orc_shaman_001" text="{.Mnozny}Orčyja Stupaki Šamana"/>
+  <string id="str_tor_greenskin_boots_orc_boyz_001" text="{.Mnozny}Orčyja Taptały z Łamačča"/>
+  <string id="str_tor_greenskin_boots_orc_arrer_boyz_001" text="{.Mnozny}Orčyja Škurnyja Boty"/>
+  <string id="str_tor_greenskin_boots_orc_black_1_001" text="{.Mnozny}Orčyja Škurnyja Taptały"/>
+  <string id="str_tor_greenskin_boots_orc_black_2_001" text="{.Mnozny}Orčyja Ciaškija Stupnyja Płaštyny"/>
+  <string id="str_tor_greenskin_boots_orc_black_3_001" text="{.Mnozny}Orčyja Ciaškija Taptały"/>
+  <string id="str_tor_greenskin_boots_orc_black_4_001" text="{.Mnozny}Orčyja Płaštynavyja Taptały"/>
+  <string id="str_tor_greenskin_boots_orc_black_5_001" text="{.Mnozny}Orčyja Ciaškija Stupnyja Supierpłaštyny"/>
+  <string id="str_tor_greenskin_boots_orc_warboss_001" text="{.Mnozny}Orčyja Stupnyja Płaštyny Vajnabosa"/>
+  <string id="str_tor_greenskin_boots_goblin_warboss_001" text="{.Mnozny}Hoblinskija Stupnyja Płaštyny Vajnabosa"/>
+  <string id="str_tor_greenskin_boots_orc_boar_boyz_001" text="{.Mnozny}Orčyja Šypatyja Taptały"/>
+  <string id="str_tor_greenskin_boots_orc_choppa_001" text="{.Mnozny}Orčyja Škurnyja Stupaki"/>
+  <string id="str_tor_greenskin_boots_orc_big_un_001" text="{.Mnozny}Orčyja Šypatyja Nažnyja Ramiani"/>
+  <string id="str_tor_greenskin_boots_savage_001" text="{.Zanocy}Nažnaja Farba Chłopca-Dzikuna"/>
+  <string id="str_tor_greenskin_leg_boots_goblin_mid_001" text="{.Mnozny}Hoblinskija Boty"/>
+  <string id="str_tor_greenskin_leg_boots_goblin_001" text="{.Mnozny}Hoblinskija Nažnyja Abmotki"/>
+  <string id="str_tor_greenskin_leg_boots_goblin_002" text="{.Mnozny}Hoblinskija Nažnyja Abmotki"/>
+  <string id="str_tor_greenskin_leg_boots_troll_001" text="{.Mnozny}Trolskija Śmiardziučyja Viaroŭki"/>
+  <string id="str_tor_greenskin_leg_shroom_001" text="{.Mnozny}Pustelnyja Hryby"/>
+  <string id="str_tor_greenskin_leg_shroom_002" text="{.Mnozny}Lasnyja Hryby"/>
+  <string id="str_tor_greenskin_leg_shroom_003" text="{.Mnozny}Hornyja Hryby"/>
+  <string id="str_tor_greenskin_leg_shroom_004" text="{.Mnozny}Śniežnyja Hryby"/>
+  <string id="str_tor_greenskin_leg_shroom_005" text="{.Mnozny}Vułkaničnyja Hryby"/>
+  <string id="str_tor_beastmen_accessories_2_001" text="{.Mnozny}Štuki Minataŭra 2"/>
+  <string id="str_tor_beastmen_legs_gor_001" text="{.Mnozny}Horskija Boty"/>
+  <string id="str_tor_tilean_leg_boots_knight_001" text="{.Mnozny}Płaścinkavyja Boty"/>
+  <string id="str_tor_tilean_leg_boots_knight_002" text="{.Mnozny}Płaścinkavyja Boty"/>
+ </strings>
+</base>

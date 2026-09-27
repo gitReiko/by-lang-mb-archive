@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <strings>
+  <string id="str_tor_arena_master_tournament_meet_orc" text="Хошаш па галовах надаваць? У бойных ямах хлопцаў бракуе!"/>
+  <string id="str_tor_arena_master_tournament_meet_dwarf" text="Вітаю, {?PLAYER.GENDER}дзяўчо{?}хлопча{\?}. Ты на Грозказак?"/>
+  <string id="str_tor_arena_master_tournament_meet_2_orc" text="Махачу шукаеш? Ямы чакаюць, лезь туды!"/>
+  <string id="str_tor_arena_master_tournament_meet_2_dwarf" text="Вітаю, {?PLAYER.GENDER}дзяўчо{?}хлопча{\?}. Калі ты на Грозказак, дык, баюся, {?PLAYER.GENDER}спазьнілася{?}спазьніўся{\?}. Вялікіх баёў хутка ня будзе."/>
+  <string id="str_tor_arena_master_meet_no_intro_orc" text="Калі ямы шукаеш, ідзі туды, дзе віскочуць."/>
+  <string id="str_tor_arena_master_meet_no_intro_dwarf" text="Вітаю, {?PLAYER.GENDER}дзяўчо{?}хлопча{\?}. Адразу відаць: арэна па табе плача. Магу дапамагчы?"/>
+  <string id="str_tor_arena_master_meet_start_orc" text="Ішчэ варушышся, га? Добра, хлопцам патрэбны шапраўдны махач!"/>
+  <string id="str_tor_arena_master_meet_start_dwarf" text="{PLAYER.NAME}, {?CONVERSATION_CHARACTER.GENDER}рада{?}рады{\?} зноў цябе бачыць."/>
+  <string id="str_tor_arena_master_meet_start_2_orc" text="Гляджу, табе б яшчэ пабіцца!"/>
+  <string id="str_tor_arena_master_meet_start_2_dwarf" text="Хочаш паспрабаваць яшчэ раз, {?PLAYER.GENDER}дзяўчо{?}хлопча{\?}?"/>
+  <string id="str_tor_arena_intro_1_orc" text="Ну шо чутна пра вялікія махачы паблізу?"/>
+  <string id="str_tor_arena_intro_1_dwarf" text="Цяпер якраз ідзе Грозказак?"/>
+  <string id="str_tor_arena_intro_2_orc" text="{?PLAYER.GENDER}Чула{?}Чуў{\?} я шое-тое пра вялікія махачы!"/>
+  <string id="str_tor_arena_intro_2_dwarf" text="Грозказак... Даводзілася чуць."/>
+  <string id="str_tor_arena_intro_3_orc" text="Я ж бачу, як ты чопу трымаеш! Калі кулакі швярбяць, хлопцы ў ямах чакаюць!"/>
+  <string id="str_tor_arena_intro_3_dwarf" text="Слушна, {?PLAYER.GENDER}дзяўчо{?}хлопча{\?}. Відаць, што ты {?PLAYER.GENDER}ваярка{?}ваяр{\?}. Варта паспрабаваць. Пад позіркам Грымніра можна здабыць гонар нават бяз пралітай крыві."/>
+  <string id="str_tor_arena_intro_3a_orc" text="Хошаш тут босам быць — перамагай у ямах! Бо шаманы гавараць: Горк з Моркам туды заўжды глядзяць!"/>
+  <string id="str_tor_arena_intro_3a_dwarf" text="Добрая нагода праславіць тут сябе і свой клан: сумленны бой перад вачыма Продкаў. Скажы, што можа быць лепей?"/>
+  <string id="str_tor_arena_intro_4_orc" text="Яшчэ б ня {?PLAYER.GENDER}чула{?}чуў{\?}, пісклявы недаростак! Калі мы ня грабім і не забіваем, дык б'ёмся!"/>
+  <string id="str_tor_arena_intro_4_dwarf" text="Кожны варты свайго імя Даві чуў пра Грозказак. Навучальныя паядынкі спрадвеку былі нашым звычаем. З гадамі прадпрымальныя Даві сьцямілі, што на вялікіх «навучальных баях» можна зарабіць ладнае золата. Так і паўстаў цяперашні Грозказак."/>
+  <string id="str_tor_arena_intro_4a_orc" text="Але бос ня хоша, каб мы калекамі рабіліся, таму лупім адзін аднаго па галовах палкамі."/>
+  <string id="str_tor_arena_intro_4a_dwarf" text="Вядома ж, мы ня хочам праліваць добрую Давійскую кроў. Таму бярэм затупленую, бясьпечную зброю, каб наш народ выпрабоўваў сваю моц без страху загінуць на арэне, так і не забіўшы нашых ворагаў."/>
+  <string id="str_tor_arena_intro_5_orc" text="Хлопцы зьбіваюцца ў групы і выбіваюць адзін з аднаго снотаў. Крыві мала, затое хлопцы потым прыгажэйшыя!"/>
+  <string id="str_tor_arena_intro_5_dwarf" text="Б'ёмся камандамі: моцныя ўдары, гучныя воклічы і мала пахаваньняў. Глядачам, можа, і бракуе крыві, затое хлопцы застаюцца з зубамі."/>
+  <string id="str_tor_arena_intro_5a_orc" text="Хочаш, вядомасьці, — перамагай. Хлопцы скідваюцца жубамі й жалезнымі шматамі, каб махач быў шапраўдны."/>
+  <string id="str_tor_arena_intro_5a_dwarf" text="Ты Даві, га? Давядзі гэта на арэне і здабудзь сабе імя. А звонкія галі — толькі прыемны дадатак."/>
+  <string id="str_tor_arena_intro_6_orc" text="Калі вялікага махачу няма, хлопцы ўсё адно прыходзяць пабіцца, каб да наступнага падрыхтавацца. Мы ім нават жубоў падкідаем, калі добра лупяцца."/>
+  <string id="str_tor_arena_intro_6_dwarf" text="Нават без Грозказаку варта завітаць у залу. Хлопцы тут трэніруюцца ўвесь дзень, а мы кідаем некалькі манэтаў тым, хто даводзіць сваю адвагу."/>
+  <string id="str_tor_arena_tournament_rules_orc" text="Шо мне трэба ведаць пра вялікія махачы?"/>
+  <string id="str_tor_arena_tournament_rules_dwarf" text="Растлумач, як ладзяць Грозказак."/>
+  <string id="str_tor_arena_practice_fight_rules_orc" text="У ямах неяк ашабліва б'юцца?"/>
+  <string id="str_tor_arena_practice_fight_rules_dwarf" text="Як у вас ладзяць разагрэў?"/>
+  <string id="str_tor_arena_prizes_orc" text="То ўсе жубы, шо я павыбіваю, можна шабе пакінуць?"/>
+  <string id="str_tor_arena_prizes_dwarf" text="Ніводны Даві не кідае галі на вецер. Табе зь гэтага якая карысьць?"/>
+  <string id="str_tor_arena_prizes_2_orc" text="Годзе балбатаць! Ёсьць лепшыя справы!"/>
+  <string id="str_tor_arena_prizes_2_dwarf" text="Досыць словаў, пяройдзем да справы."/>
+  <string id="str_tor_arena_master_reminder_orc" text="Шо табе?"/>
+  <string id="str_tor_arena_master_reminder_dwarf" text="Ну, {?PLAYER.GENDER}дзяўчо{?}хлопча{\?}?"/>
+  <string id="str_tor_arena_prizes_answer_orc" text="Ё хлопцы, шо любяць пару жубоў на нашыя махачы паставіць. Але на вялікія баі хлопцы адусюль пруцца! Любяць вялікі махач і адшыпаюць кучу жубоў, каб паглядзець, як шамыя здаровыя хлопцы адзін аднаго лупяць."/>
+  <string id="str_tor_arena_prizes_answer_dwarf" text="Сёй-той ставіць і на навучальныя баі, але сапраўдную ўвагу прыцягвае Грозказак. Вітанг шчодра яго падтрымлівае, а тыя, хто не разгубіць адвагі да канца бою, атрымаюць сваю долю."/>
+  <string id="str_tor_arena_training_practice_fight_intro_orc" text="Ва ўсіх лагерах правілы адны. Ты альбо з камандай, альбо {?PLAYER.GENDER}сама{?}сам{\?} па шабе. Цягнем сквігавы жубы — так і вырашаем."/>
+  <string id="str_tor_arena_training_practice_fight_intro_dwarf" text="Па ўсім Караз-Анкоры правілы амаль аднолькавыя. Запісваем імёны, цягнем жэрабя. У адным раўндзе побач стаяць суродзічы, у наступным б'есься {?PLAYER.GENDER}сама{?}сам{\?}."/>
+  <string id="str_tor_arena_training_practice_fight_intro_1c_orc" text="Жубы шчэ й рыштунак табе даюць. Пераможаш — пойдзеш на наштупны махач."/>
+  <string id="str_tor_arena_training_practice_fight_intro_1c_dwarf" text="Зброя паводле жэрабя, як і супернікі. Пераможцы ідуць далей, а апошняя пара вызначае найлепшага."/>
+  <string id="str_tor_arena_training_practice_fight_intro_1a_orc" text="Хошаш махачу — лезь і лупі кожнага, каго бачыш. Канец, калі на нагах адзін хлопец заштаўся. Весялуха, га?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_1a_dwarf" text="Навучальны бой просты. Усе разам, без камандаў і перапынкаў, пакуль на нагах не застанецца адзін."/>
+  <string id="str_tor_arena_training_practice_fight_intro_2_orc" text="За перамогу ў вялікім махачы бліскучкі даюць?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_2_dwarf" text="Якая ўзнагарода за перамогу ў Грозказаку?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_3_orc" text="А за махач у ямах шо даюць?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_3_dwarf" text="За навучальныя баі галі плацяць?"/>
+  <string id="str_tor_arena_training_practice_fight_intro_4_orc" text="Ага... Нібыта дайшло!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_4_dwarf" text="Добра. Я {?PLAYER.GENDER}зразумела{?}зразумеў{\?}."/>
+  <string id="str_tor_arena_training_practice_fight_intro_5_orc" text="Хачу ўжо каму ўрэзаць!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_5_dwarf" text="Тады запішы маё імя."/>
+  <string id="str_tor_arena_training_practice_fight_intro_6_orc" text="Ага! Хлопцы ўжо ў ямах лупяцца! Скачы і махай чопай!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_6_dwarf" text="Калі {?PLAYER.GENDER}наважылася{?}наважыўся{\?}, заходзь, {?PLAYER.GENDER}дзяўчо{?}хлопча{\?}. Навучальны бой ужо ідзе. Цяпер ці пазьней — выбар твой."/>
+  <string id="str_tor_arena_training_practice_fight_intro_7_orc" text="То лезь у яму, нікчэма! На мяне замахнесься — сківіцу разламаю!"/>
+  <string id="str_tor_arena_training_practice_fight_intro_7_dwarf" text="Зала адчыненая для дужых бародаў. Навучальны бой ужо ідзе. Заходзь альбо вяртайся на Грозказак."/>
+  <string id="str_tor_arena_master_pre_talk_explain_orc" text="Хошаш правілы ямы даведацца?"/>
+  <string id="str_tor_arena_master_pre_talk_explain_dwarf" text="Штосьці яшчэ?"/>
+  <string id="str_tor_arena_master_ask_what_to_do_orc" text="Ну, чаго табе трэба?"/>
+  <string id="str_tor_arena_master_ask_what_to_do_dwarf" text="Скажы, што табе трэба."/>
+  <string id="str_tor_arena_master_sign_up_tournament_orc" text="Пусьці на вялікі махач! Пабіцца хачу!"/>
+  <string id="str_tor_arena_master_sign_up_tournament_dwarf" text="Хачу запісацца на Грозказак!"/>
+  <string id="str_tor_arena_master_ask_for_practice_fight_fight_orc" text="Рукі швярбяць каму ўрэзаць! Пускай у ямы!"/>
+  <string id="str_tor_arena_master_ask_for_practice_fight_fight_dwarf" text="Рука па азе сумуе. Можна далучыцца да навучальнага паядынку?"/>
+  <string id="str_tor_arena_master_ask_tournaments_orc" text="Ну шо, чутна пра вялікія махачы паблізу?"/>
+  <string id="str_tor_arena_master_ask_tournaments_dwarf" text="Ці ладзяць Грозказак у бліжэйшых цьвярдынях?"/>
+  <string id="str_tor_arena_master_remind_something_orc" text="Пра тую штуку, шо ты {?CONVERSATION_CHARACTER.GENDER}казала{?}казаў{\?}..."/>
+  <string id="str_tor_arena_master_remind_something_dwarf" text="Хвіліну назад, ты {?CONVERSATION_CHARACTER.GENDER}казала{?}казаў{\?}..."/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_confirm_orc" text="То лезь ужо і кінь балбатаць!"/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_confirm_dwarf" text="Ідзі. Бяры затупленую зброю і памятай правілы."/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_decline_orc" text="У ямах зараз вялікі махач. Прыходзь пазьней!"/>
+  <string id="str_tor_arena_master_enter_practice_fight_master_decline_dwarf" text="Падчас Грозказаку навучальных баёў няма."/>
+  <string id="str_tor_arena_master_enter_tournament_orc" text="Добра, для вялікага махачу ты сапраўды падыходзіш! Лезь туды і трашчы па галовах!"/>
+  <string id="str_tor_arena_master_enter_tournament_dwarf" text="Добра. Тваё імя запішуць. Гонар табе."/>
+  <string id="str_tor_arena_master_enter_practice_fight_confirm_orc" text="Ну добра."/>
+  <string id="str_tor_arena_master_enter_practice_fight_confirm_dwarf" text="Так."/>
+  <string id="str_tor_arena_master_enter_practice_fight_decline_orc" text="Э, забудзь!"/>
+  <string id="str_tor_arena_master_enter_practice_fight_decline_dwarf" text="Мабыць, гэтым разам ня варта."/>
+  <string id="str_tor_arena_master_enter_tournament_confirm_orc" text="Ня бойся, я {?PLAYER.GENDER}гатова{?}гатовы{\?}!"/>
+  <string id="str_tor_arena_master_enter_tournament_confirm_dwarf" text="Я {?PLAYER.GENDER}гатова{?}гатовы{\?}."/>
+  <string id="str_tor_arena_master_enter_tournament_decline_orc" text="{?PLAYER.GENDER}Перадумала{?}Перадумаў{\?} я, не хачу!"/>
+  <string id="str_tor_arena_master_enter_tournament_decline_dwarf" text="Падумаўшы, мушу адмовіцца."/>
+  <string id="str_tor_arena_join_fight_orc" text="Ага, чаму б і не?"/>
+  <string id="str_tor_arena_join_fight_dwarf" text="Ня бачу прычынаў адмаўляцца."/>
+  <string id="str_tor_2593_orc" text="Не, я маю лепшыя справы, чым з гэтымі шмаркачамі лупіцца!"/>
+  <string id="str_tor_2593_dwarf" text="Авохці, {?PLAYER.GENDER}дзяўчо{?}хлопча{\?}, з ахвотай. Але пакінем гэта на іншы дзень."/>
+  <string id="str_tor_2594_orc" text="Тху! Недаростак."/>
+  <string id="str_tor_2594_dwarf" text="Твой продак, відаць, глядзіць на цябе з расчараваньнем."/>
+  <string id="str_tor_arena_intro_7_orc" text="А калі хочаш чопу годна трымаць навучыцца — да мяне ідзі. У нас усялякія хлопцы маюцца, можна ў іх «ты-хнікі» набрацца."/>
+  <string id="str_tor_arena_intro_7_dwarf" text="Тут шмат чаму можна навучыцца. Уважліва прыгледзься да лангктромі — мо нешта й пяроймеш. Можаш папрасіць каго зь іх падвучыць цябе. "/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_orc" text="А тыя «ты-хнічныя» хлопцы тут маюцца?"/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_dwarf" text="Хто з шаноўных лангктромі мае вольны час і дзе яго знайсьці?"/>
+  <string id="str_tor_arena_master_ask_retrain_orc" text="Ну, табе {?PLAYER.GENDER}самой{?}самому{\?} ці каму іншаму?"/>
+  <string id="str_tor_arena_master_ask_retrain_dwarf" text="Добра. Табе патрэбная дапамога ці камусьці з тваіх онгруні?"/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_2_orc" text="Мне, нікчэма!"/>
+  <string id="str_tor_arena_master_ask_player_perk_reset_2_dwarf" text="Так, мне."/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_orc" text="Таму нікчэме вунь, {COMPANION.NAME}."/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_dwarf" text="Так, майму онгруну. Імя — {COMPANION.NAME}."/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_2_orc" text="Думаеш, зможаш майго хлопца чаму навучыць?"/>
+  <string id="str_tor_arena_master_ask_clan_member_perk_reset_2_dwarf" text="{?CONVERSATION_CHARACTER.GENDER}Шаноўная, ці дапамагла{?}Шаноўны, ці дапамог{\?} бы ты майму онгруні ўдасканаліць свае здольнасьці?"/>
+  <string id="str_tor_arena_master_retrain_ask_clan_member_orc" text="Ага, пару шнараў яму дадам! Каму?"/>
+  <string id="str_tor_arena_master_retrain_ask_clan_member_dwarf" text="Вядома. Каму патрэбная навука?"/>
+  <string id="str_tor_arena_master_select_clan_member_continue_orc" text="Эээ, пачакай, ня той..."/>
+  <string id="str_tor_arena_master_select_clan_member_continue_dwarf" text="А калі нехта іншы?"/>
+  <string id="str_tor_arena_master_select_clan_member_cancel_orc" text="Эээ, забудзь..."/>
+  <string id="str_tor_arena_master_select_clan_member_cancel_dwarf" text="Забудзь."/>
+  <string id="str_tor_arena_master_reset_attribute_orc" text="Шо гэта за «ты-хніка»?"/>
+  <string id="str_tor_arena_master_reset_attribute_dwarf" text="Растлумач, калі ласка, гэты прыём. У чым ён палягае?"/>
+  <string id="str_tor_arena_master_select_attribute_continue_orc" text="Мне іншае трэба."/>
+  <string id="str_tor_arena_master_select_attribute_continue_dwarf" text="Не, гэта мне не патрэбна. Трэба іншае."/>
+  <string id="str_tor_arena_master_select_attribute_cancel_orc" text="Не зараз!"/>
+  <string id="str_tor_arena_master_select_attribute_cancel_dwarf" text="Нуф ну."/>
+  <string id="str_tor_arena_master_reset_perks_orc" text="Знаю аднаго хлопца. Якую «ты-хніку» хошаш?"/>
+  <string id="str_tor_arena_master_reset_perks_dwarf" text="Вядома. Чаму трэба навучыць?"/>
+  <string id="str_tor_arena_master_select_skill_orc" text="Хачу {SKILL_NAME}."/>
+  <string id="str_tor_arena_master_select_skill_dwarf" text="Найлепей будзе {SKILL_NAME}."/>
+  <string id="str_tor_arena_master_select_skill_continue_orc" text="Хачу іншае."/>
+  <string id="str_tor_arena_master_select_skill_continue_dwarf" text="Можа, лепей нешта іншае."/>
+  <string id="str_tor_arena_master_select_skill_cancel_orc" text="Не зараз!"/>
+  <string id="str_tor_arena_master_select_skill_cancel_dwarf" text="Можа, іншым разам."/>
+  <string id="str_tor_arena_master_pay_for_reset_orc" text="Ёсьць {GOLD_AMOUNT} {GOLD_ICON} — пакажу!"/>
+  <string id="str_tor_arena_master_pay_for_reset_dwarf" text="За {GOLD_AMOUNT} {GOLD_ICON} я магу табе паказаць."/>
+  <string id="str_tor_arena_master_accept_perk_reset1_orc" text="Ага!"/>
+  <string id="str_tor_arena_master_accept_perk_reset1_dwarf" text="Я {?PLAYER.GENDER}ўпэўнена{?}ўпэўнены{\?}."/>
+  <string id="str_tor_arena_master_reject_perk_reset2_orc" text="Не зараз."/>
+  <string id="str_tor_arena_master_reject_perk_reset2_dwarf" text="Мушу адмовіцца."/>
+  <string id="str_tor_arena_master_perk_reset_closure_orc" text="Добра, шо яшчэ?"/>
+  <string id="str_tor_arena_master_perk_reset_closure_dwarf" text="Дурань! Чым яшчэ магу дапамагчы?"/>
+  <string id="str_tor_arena_master_perk_reset_final1_orc" text="Хачу іншую «ты-хніку» падвучыць."/>
+  <string id="str_tor_arena_master_perk_reset_final1_dwarf" text="Мне трэба ўдасканаліцца ў іншай справе."/>
+  <string id="str_tor_arena_master_perk_reset_final2_orc" text="Хачу аднаго свайго хлопца «ты-хніцы» навучыць."/>
+  <string id="str_tor_arena_master_perk_reset_final2_dwarf" text="Аднаму з маіх онгруні трэба ўдасканаліцца ў пэўнай справе."/>
+  <string id="str_tor_arena_master_perk_reset_final3_orc" text="Гэтага хопіць!"/>
+  <string id="str_tor_arena_master_perk_reset_final3_dwarf" text="Ты {?CONVERSATION_CHARACTER.GENDER}зрабіла{?}зрабіў{\?} больш, чым я {?PLAYER.GENDER}магла{?}мог{\?} прасіць. Шчыра дзякую."/>
+  <string id="str_tor_arena_master_leave_orc" text="Я адсюль іду."/>
+  <string id="str_tor_arena_master_leave_dwarf" text="Мушу разьвітацца з табой."/>
+  <string id="str_tor_arena_master_ask_tournaments_2_orc" text="Няма чутак пра вялікія махачы паблізу. І хутка, відаць, ня будзе!"/>
+  <string id="str_tor_arena_master_ask_tournaments_2_dwarf" text="Нашыя сякеры цяпер адпачываюць. І табе варта."/>
+  <string id="str_tor_bandit_start_defender_1_orc" text="Даўно я чарапоў не {?CONVERSATION_CHARACTER.GENDER}трашчыла{?}трашчыў{\?}... Твой падыдзе!"/>
+  <string id="str_tor_bandit_start_defender_1_dwarf" text="Сёньня мая сякера пакаштуе тваёй крыві!"/>
+  <string id="str_tor_bandit_start_defender_2_orc" text="Пашанцавала табе, нікчэма! Нам лупіцца не ахвота... пакуль."/>
+  <string id="str_tor_bandit_start_defender_2_dwarf" text="Стой, пабудзем сёньня гнол. Мы можам дамовіцца."/>
+  <string id="str_tor_common_encounter_fight_orc" text="На цябе й найгоршай чопы шкада! Прэч адсюль!"/>
+  <string id="str_tor_common_encounter_fight_dwarf" text="Ня буду марнаваць на цябе час. Можаш ісьці."/>
+  <string id="str_tor_common_encounter_ultimatum_we_can_join_you_orc" text="Гэй! У цябе, бачу, шмат хлопцаў! Мо й мы з вамі на махач-другі пойдзем?"/>
+  <string id="str_tor_common_encounter_ultimatum_we_can_join_you_dwarf" text="Мудры Даві ведае, калі ён пераможаны. Прымеш нас у сваё войска?"/>
+  <string id="str_tor_common_encounter_ultimatum_war_orc" text="Пашанцавала табе, нікчэма! Нам лупіцца не ахвота... пакуль."/>
+  <string id="str_tor_common_encounter_ultimatum_war_dwarf" text="Даві ніколі не аддасьць жыцьцё бяз бою!"/>
+  <string id="str_tor_common_bandit_join_player_accepted_orc" text="Штанавіся да рэшты хлопцаў, калі табе швая шкура дарагая..."/>
+  <string id="str_tor_common_bandit_join_player_accepted_dwarf" text="Разам мы, бясспрэчна, будзем мацнейшыя. Але я за табой пасачу."/>
+  <string id="str_tor_common_bandit_join_player_declined_1_orc" text="Такія шлабакі мне ў бандзе ня трэбы!"/>
+  <string id="str_tor_common_bandit_join_player_declined_1_dwarf" text="Ты сьмееш лічыць мяне {?CONVERSATION_CHARACTER.GENDER}дурай{?}дурнем{\?}? Дорага ж ты заплаціш за гэтую крыўду!"/>
+  <string id="str_tor_common_bandit_join_player_declined_2_orc" text="Ты толькі на тое й {?CONVERSATION_CHARACTER.GENDER}вартая{?}варты{\?}, каб маю чопу выпрабаваць!"/>
+  <string id="str_tor_common_bandit_join_player_declined_2_dwarf" text="Ніколі. Мой гонар патрабуе зьвесьці рахункі тут і цяпер."/>
+  <string id="str_tor_common_bandit_join_player_leave_orc" text="Прэч адшуль!"/>
+  <string id="str_tor_common_bandit_join_player_leave_dwarf" text="Гэта ня мае значэньня."/>
+  <string id="str_tor_common_encounter_declined_looters_to_join_war_surrender_orc" text="М-мы ж цябе забіць не хацелі, га-га... Мы проста, э... трэніравацца дапамагалі! Бяз крыўдаў, га?"/>
+  <string id="str_tor_common_encounter_declined_looters_to_join_war_surrender_dwarf" text="Спакойна. Калі ласка абыходзься з намі годна."/>
+  <string id="str_tor_common_encounter_ultimatum_war_2_orc" text="Ня будзе мной такая нікчэма памыкаць! Ідзі сюды! Горк з Моркам на тваім трупе станчыць!"/>
+  <string id="str_tor_common_encounter_ultimatum_war_2_dwarf" text="Ваназ! Калі нам сёньня паміраць, дык памром у баі."/>
+  <string id="str_tor_bandit_attacker_try_leave_success_orc" text="Нам у той бок, там шчэ каго пазабіваць ё! Ходзьма, хлопцы!"/>
+  <string id="str_tor_bandit_attacker_try_leave_success_dwarf" text="Мы не баімся крыві, але добра, што ўдалося пазьбегнуць непатрэбнай сваркі. Бывай."/>
+  <string id="str_tor_bandit_attacker_try_leave_fail_orc" text="Так проста не ўцячэш!"/>
+  <string id="str_tor_bandit_attacker_try_leave_fail_dwarf" text="Адна крыўда за спробу падкупіць нас, іншая — за тое, што так мала даеш!"/>
+  <string id="str_tor_blacksmith_begin_orc" text="Шо ты тут робіш? Трэба шо?"/>
+  <string id="str_tor_blacksmith_begin_dwarf" text="Вітаю. Чым магу дапамагчы?"/>
+  <string id="str_tor_blacksmith_craft_items_orc" text="Мне патрэбна новае жалеза, і казалі, шо ты неабходны нікчэма!"/>
+  <string id="str_tor_blacksmith_craft_items_dwarf" text="{?PLAYER.GENDER}Хацела{?}Хацеў{\?} бы скарыстацца тваёй грунгроназі."/>
+  <string id="str_tor_blacksmith_leave_orc" text="Маю лепшыя справы."/>
+  <string id="str_tor_blacksmith_leave_dwarf" text="Нуф ну."/>
+  <string id="str_tor_blacksmith_player_after_craft_accept_orc" text="Глядзі, каб працавала! На табе жубы!"/>
+  <string id="str_tor_blacksmith_player_after_craft_accept_dwarf" text="Няблага, окрул. Мяркую, ты гэта {?CONVERSATION_CHARACTER.GENDER}заслужыла{?}заслужыў{\?}. "/>
+  <string id="str_tor_blacksmith_player_after_craft_anything_else_orc" text="Ты ня бойся! Гэта ж шапраўдная штука!"/>
+  <string id="str_tor_blacksmith_player_after_craft_anything_else_dwarf" text="Добрая плата за добрую працу — вось гэта па мне. Чым яшчэ магу дапамагчы?"/>
+  <string id="str_tor_blacksmith_craft_items_1_orc" text="Мне трэба, каб ты шчэ адну штуку {?CONVERSATION_CHARACTER.GENDER}змайстравала{?}змайстраваў{\?}!"/>
+  <string id="str_tor_blacksmith_craft_items_1_dwarf" text="Хачу замовіць табе яшчэ адзін выраб."/>
+  <string id="str_tor_blacksmith_leave_1_orc" text="Я адсюль іду!"/>
+  <string id="str_tor_blacksmith_leave_1_dwarf" text="Бывай."/>
+  <string id="str_tor_lord_player_play_game_orc" text="Гэй! Хочаш яе паспрабаваць? Цікавую штуку {?CONVERSATION_CHARACTER.GENDER}знайшла{?}знайшоў{\?}! Чалавечкі, здаецца, завуць яе {GAME_NAME}. Згуляем?"/>
+  <string id="str_tor_lord_player_play_game_dwarf" text="Як наконт партыі ў {GAME_NAME} паводле правілаў Барак-Вару? Можа, яшчэ й крыху дару?"/>
+  <string id="str_tor_lord_player_cancel_boardgame_orc" text="Ты раней свае жубы праглынеш, чым я тую чалавечую штуку крану, нікчэма!"/>
+  <string id="str_tor_lord_player_cancel_boardgame_dwarf" text="Най, можа, іншым разам. "/>
+  <string id="str_tor_lord_player_ask_to_play_boardgame_again_orc" text="Гмм, няблага... Шчэ раз у гэтую {GAME_NAME} згуляем?"/>
+  <string id="str_tor_lord_player_ask_to_play_boardgame_again_dwarf" text="Яшчэ партыю? {?PLAYER.GENDER}Сама{?}Сам{\?} ведаеш, на адной назе ня ўстоіш."/>
+  <string id="str_tor_player_caravan_talk_start_orc" text="Трэба шо?"/>
+  <string id="str_tor_player_caravan_talk_start_dwarf" text="Чым магу дапамагчы?"/>
+  <string id="str_tor_player_caravan_trade_rumors_orc" text="{?CONVERSATION_CHARACTER.GENDER}Чула{?}Чуў{\?} пра шо вартае жубоў?"/>
+  <string id="str_tor_player_caravan_trade_rumors_dwarf" text="Якія навіны з урбазі?"/>
+  <string id="str_tor_player_caravan_talk_player_thank_orc" text="Ну, шо табе яшчэ трэба?"/>
+  <string id="str_tor_player_caravan_talk_player_thank_dwarf" text="Магу яшчэ чымсьці дапамагчы?"/>
+  <string id="str_tor_player_caravan_talk_not_leave_orc" text="Ага, хачу ведаць пра..."/>
+  <string id="str_tor_player_caravan_talk_not_leave_dwarf" text="Раскажы мне пра..."/>
+  <string id="str_tor_player_caravan_talk_leave_orc" text="Не! З вачэй маіх!"/>
+  <string id="str_tor_player_caravan_talk_leave_dwarf" text="Шчасьлівай дарогі. Няхай Валая цябе сьцеражэ."/>
+  <string id="str_tor_player_caravan_nevermind_orc" text="Э, забудзь!"/>
+  <string id="str_tor_player_caravan_nevermind_dwarf" text="Ды нічога."/>
+  <string id="str_tor_caravan_pretalk_orc" text="Толькі не кажы, шо ішчэ хошаш балбатаць..."/>
+  <string id="str_tor_caravan_pretalk_dwarf" text="Што табе яшчэ трэба ад нас, Даві?"/>
+  <string id="str_tor_caravan_buy_products_orc" text="Закрый пашчу і кажы, якая ў цябе здабыча!"/>
+  <string id="str_tor_caravan_buy_products_dwarf" text="Я й {?PLAYER.GENDER}сама{?}сам{\?} крыху гандлюю. Скажы, якімі таварамі гандлюеш?"/>
+  <string id="str_tor_caravan_trade_rumors_orc" text="Ты шмат дзе бываеш! Шо хлопцам цяпер трэба?"/>
+  <string id="str_tor_caravan_trade_rumors_dwarf" text="Раскажы пра свой дрыніт. Якія навіны з урбазі?"/>
+  <string id="str_tor_caravan_trade_rumors_player_answer_orc" text="Ну добра!"/>
+  <string id="str_tor_caravan_trade_rumors_player_answer_dwarf" text="Дзякуй за твой гнул."/>
+  <string id="str_tor_caravan_talk_player_thank_orc" text="Скончылі? Ці мне шчэ тваю балбатню шлухаць?"/>
+  <string id="str_tor_caravan_talk_player_thank_dwarf" text="Вядома. Ёсьць яшчэ пытаньні?"/>
+  <string id="str_tor_caravan_loot_orc" text="Гэй! Кідай здабычу альбо рыхтуйся да махачу!"/>
+  <string id="str_tor_caravan_loot_dwarf" text="Раю аддаць усё, што вязеш. Іначай справа скончыцца вельмі кепска."/>
+  <string id="str_tor_caravan_talk_leave_orc" text="Э, на цябе й часу шкада!"/>
+  <string id="str_tor_caravan_talk_leave_dwarf" text="Забудзь. Мне гэты ўмгак не патрэбны."/>
+  <string id="str_tor_caravan_player_trade_end_orc" text="Файна, а цяпер прэч з дарогі! Бос рэшту здабычы чакае!"/>
+  <string id="str_tor_caravan_player_trade_end_dwarf" text="Добра, добра. Яшчэ адна ўдалая справа."/>
+  <string id="str_tor_caravan_player_trade_end_response_orc" text="Ага, ага, як скажаш!"/>
+  <string id="str_tor_caravan_player_trade_end_response_dwarf" text="Няхай Валая блаславіць твой Дрыні. "/>
+  <string id="str_tor_caravan_fight_orc" text="Думаеш, мы аддамо табе нашу здабычу проста так, га? Раней маю чопу галавой зловіш! [rf:idle_angry][ib:aggressive]"/>
+  <string id="str_tor_caravan_fight_dwarf" text="Мы прысягнулі бараніць гэты караван і ўсё, што ён вязе. "/>
+  <string id="str_tor_player_decided_to_fight_orc" text="Добра, а то ўжо рукі па махачы швярбяць!"/>
+  <string id="str_tor_player_decided_to_fight_dwarf" text="Добра. Даві, у наступ!"/>
+  <string id="str_tor_player_decided_to_not_fight_1_orc" text="Не, наўрад у цябе ёсьць добрая здабыча. Ідзі ўжо!"/>
+  <string id="str_tor_player_decided_to_not_fight_1_dwarf" text="Мы ня шукаем бою, будзьце спакойныя. Няхай Продкі будуць да вас ласкавыя."/>
+  <string id="str_tor_caravan_accepted_to_give_some_goods_orc" text="Бос гэтую здабычу чакае, але мы можам па дарозе трошкі згубіць. {TAKE_MONEY_AND_PRODUCT_STRING} [rf:idle_angry][ib:nervous]"/>
+  <string id="str_tor_caravan_accepted_to_give_some_goods_dwarf" text="Хоць і балюча расставацца з золатам, {?SPEAKER.GENDER}жывой я{?}жывым я{\?}, мабыць, зараблю яшчэ. "/>
+  <string id="str_tor_player_decided_to_take_some_goods_orc" text="Ага, то шавялі нагамі. Ня хошаш жа, каб твой бос зусім раззлаваўся..."/>
+  <string id="str_tor_player_decided_to_take_some_goods_dwarf" text="Гэта... прымальна. "/>
+  <string id="str_tor_player_decided_to_take_everything_orc" text="Не, у вашых вазах нібыта бліскучкі ёсьць. Усё забяру!"/>
+  <string id="str_tor_player_decided_to_take_everything_dwarf" text="Аддай усё, што там маеш!"/>
+  <string id="str_tor_player_decided_to_not_fight_2_orc" text="Гляджу на твае вазы... Ад боса вам больш будзе, чым ад мяне. Прэч адшюль!"/>
+  <string id="str_tor_player_decided_to_not_fight_2_dwarf" text="Ты ня так {?CONVERSATION_CHARACTER.GENDER}зразумела{?}зразумеў{\?}. Наступным разам слухай уважлівей. А цяпер прэч!"/>
+  <string id="str_tor_caravan_fight_no_surrender_orc" text="Выдатна! Хлопцы, махач шам да нас прэцца! Рыхтуйце чопы! [rf:idle_angry][ib:aggressive]"/>
+  <string id="str_tor_caravan_fight_no_surrender_dwarf" text="Праклён на цябе! Мы хутчэй памром, чым аддамо сваё!"/>
+  <string id="str_tor_caravan_accepted_to_give_everything_orc" text="Д-добра... Можаш у вазы зазірнуць. Хлопцы, апусьціце чопы!"/>
+  <string id="str_tor_caravan_accepted_to_give_everything_dwarf" text="Ганьба мне, але гэтага бою нам ня выйграць. Бяры што хочаш і спадзявайся, што мы не адпомсьцім за гэтую крыўду пры тваім жыцьці."/>
+  <string id="str_tor_player_do_not_take_prisoners_orc" text="Твае вазы са здабычай цяпер мае, чуеш?"/>
+  <string id="str_tor_player_do_not_take_prisoners_dwarf" text="Мы гэта забіраем. І дазволу ня просім."/>
+  <string id="str_tor_player_decided_to_take_prisoner_orc" text="Што ж, цяпер ты {?CONVERSATION_CHARACTER.GENDER}мая{?}мой{\?}!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_dwarf" text="Цяпер вы нашыя госьці. Ня бойцеся, мы будзем абыходзіцца з вамі згодна з вашым... становішчам. "/>
+  <string id="str_tor_caravan_warn_player_to_take_prisoner_orc" text="Ну й {?PLAYER.GENDER}нарабіла{?}нарабіў{\?} ты! Хлопцы з {KINGDOM} зь цябе скуру за свае вазы зьдзяруць!"/>
+  <string id="str_tor_caravan_warn_player_to_take_prisoner_dwarf" text="Пра гэта даведаецца ўсё {KINGDOM}! За такое рабаваньне цябе ўпішуць у Кнігі Крыўдаў!"/>
+  <string id="str_tor_caravan_do_not_warn_player_orc" text="Горк і Морк! Бараніце нас!"/>
+  <string id="str_tor_caravan_do_not_warn_player_dwarf" text="Продкі, накіруйце нашыя сякеры на гэтую погань!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_orc" text="Давай ужо."/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_dwarf" text="Працягвай."/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_orc" text="Забудзь!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_dwarf" text="Забудзь."/>
+  <string id="str_tor_caravan_bribery_leave_orc" text="Мы ўжо ідзем ці шо?"/>
+  <string id="str_tor_caravan_bribery_leave_dwarf" text="Мы ўжо можам рушыць?"/>
+  <string id="str_tor_caravan_surrender_leave_orc" text="Мы ўжо ідзем ці шо?"/>
+  <string id="str_tor_caravan_surrender_leave_dwarf" text="Мы ўжо можам рушыць?"/>
+  <string id="str_tor_clan_member_follow_orc" text="За мной!"/>
+  <string id="str_tor_clan_member_follow_dwarf" text="Хадзем разам."/>
+  <string id="str_tor_clan_member_dont_follow_orc" text="Ідзі займайся сваім!"/>
+  <string id="str_tor_clan_member_dont_follow_dwarf" text="Стой! Падзяліцеся."/>
+  <string id="str_tor_clan_members_follow_orc" text="Сабяры хлопцаў і назад сюды!"/>
+  <string id="str_tor_clan_members_follow_dwarf" text="Скліч нашых танаў і знайдзі мяне ў селішчы."/>
+  <string id="str_tor_clan_members_dont_follow_orc" text="Усе назад да сваіх справаў!"/>
+  <string id="str_tor_clan_members_dont_follow_dwarf" text="Досыць. Вяртайся да сваіх справаў."/>
+  <string id="str_tor_clan_member_gather_clan_members_accept_orc" text="Так, бос!"/>
+  <string id="str_tor_clan_member_gather_clan_members_accept_dwarf" text="Клянуся гонарам!"/>
+  <string id="str_tor_clan_member_follow_accept_orc" text="За табой, бос!"/>
+  <string id="str_tor_clan_member_follow_accept_dwarf" text="Я пайду за табой."/>
+  <string id="str_tor_clan_member_dont_follow_accept_orc" text="Без праблем, бос!"/>
+  <string id="str_tor_clan_member_dont_follow_accept_dwarf" text="Так, тане."/>
+  <string id="str_tor_clan_members_dont_follow_accept_orc" text="Добра, бос!"/>
+  <string id="str_tor_clan_members_dont_follow_accept_dwarf" text="Так, тане."/>
+  <string id="str_tor_clan_member_manage_troops_orc" text="Пакажы хлопцаў!"/>
+  <string id="str_tor_clan_member_manage_troops_dwarf" text="Дай глянуць на нашу кампанію."/>
+  <string id="str_tor_companion_start_grievance_orc" text="Гэй, бос! Трэба шота сказаць!"/>
+  <string id="str_tor_companion_start_grievance_dwarf" text="{TITLE}, нам трэба сёе-тое абмеркаваць."/>
+  <string id="str_tor_companion_rejoin_orc" text="Без праблем, бос!"/>
+  <string id="str_tor_companion_rejoin_dwarf" text="Ай, ану!"/>
+  <string id="str_tor_companion_start_role_orc" text="Ёсьць для цябе новая праца..."/>
+  <string id="str_tor_companion_start_role_dwarf" text="Ты {?CONVERSATION_CHARACTER.GENDER}магла б{?}мог бы{\?} зрабіць для клану нешта іншае..."/>
+  <string id="str_tor_companion_talk_fire_orc" text="Больш не хачу, каб {?CONVERSATION_CHARACTER.GENDER}такая слабачка тут круцілася{?}такі слабак тут круціўся{\?}."/>
+  <string id="str_tor_companion_talk_fire_dwarf" text="Ты {?CONVERSATION_CHARACTER.GENDER}вызваленая{?}вызвалены{\?} ад сваіх абавязкаў."/>
+  <string id="str_tor_companion_talk_fire_2_orc" text="Ідзеш на павышэньне!"/>
+  <string id="str_tor_companion_talk_fire_2_dwarf" text="Твае здольнасьці лепей пасуюць да гэтай пасады."/>
+  <string id="str_tor_companion_assign_new_role_orc" text="Кім, бос?"/>
+  <string id="str_tor_companion_assign_new_role_dwarf" text="Якую пасаду ты маеш на ўвазе?"/>
+  <string id="str_tor_companion_talk_fire_3_orc" text="Э... {?PLAYER.GENDER}Забыла{?}Забыў{\?}, ды й пляваць!"/>
+  <string id="str_tor_companion_talk_fire_3_dwarf" text="А, нуф."/>
+  <string id="str_tor_companion_becomes_engineer_orc" text="Больш ты ў жалезках не капаесься!"/>
+  <string id="str_tor_companion_becomes_engineer_dwarf" text="Мне больш не патрэбны твой дыбнін."/>
+  <string id="str_tor_companion_becomes_surgeon_orc" text="Скончылася тваё лекавальніцтва!"/>
+  <string id="str_tor_companion_becomes_surgeon_dwarf" text="Тваё лекаваньне не да спадобы Валаі."/>
+  <string id="str_tor_companion_becomes_quartermaster_orc" text="Ты больш ня бос лагера!"/>
+  <string id="str_tor_companion_becomes_quartermaster_dwarf" text="Ты больш не {?CONVERSATION_CHARACTER.GENDER}патрэбная{?}патрэбны{\?} мне як тронгвітанг."/>
+  <string id="str_tor_companion_becomes_scout_orc" text="Больш мне выведнік не патрэбны!"/>
+  <string id="str_tor_companion_becomes_scout_dwarf" text="Ты больш не {?CONVERSATION_CHARACTER.GENDER}патрэбная{?}патрэбны{\?} мне як ундзі."/>
+  <string id="str_tor_companion_role_response_orc" text="Ну й добра!"/>
+  <string id="str_tor_companion_role_response_dwarf" text="Ай, я гэта зраблю."/>
+  <string id="str_tor_companion_role_response_2_orc" text="Для цябе што заўгодна, бос!"/>
+  <string id="str_tor_companion_role_response_2_dwarf" text="Тваё жаданьне — мой загад."/>
+  <string id="str_tor_companion_talk_return_orc" text="Забудзь!"/>
+  <string id="str_tor_companion_talk_return_dwarf" text="А, нуф."/>
+  <string id="str_tor_companion_start_mission_orc" text="{?PLAYER.GENDER}Чула{?}Чуў{\?} я сё-тое, табе будзе цікава!"/>
+  <string id="str_tor_companion_start_mission_dwarf" text="Для цябе ёсьць асаблівае даручэньне."/>
+  <string id="str_tor_companion_pretalk_2_orc" text="Шо трэба, бос?"/>
+  <string id="str_tor_companion_pretalk_2_dwarf" text="Што мне трэба зрабіць?"/>
+  <string id="str_tor_companion_mission_gather_troops_orc" text="Мне трэба, каб ты больш хлопцаў {?CONVERSATION_CHARACTER.GENDER}сабрала{?}сабраў{\?}!"/>
+  <string id="str_tor_companion_mission_gather_troops_dwarf" text="Мне патрэбна больш казакаў для тронгу."/>
+  <string id="str_tor_companion_mission_forage_orc" text="Жэрці хачу, ідзі дастань ежы!"/>
+  <string id="str_tor_companion_mission_forage_dwarf" text="Запасы канчаюцца. Трэба, каб ты {?CONVERSATION_CHARACTER.GENDER}здабыла{?}здабыў{\?} ежу."/>
+  <string id="str_tor_companion_mission_patrol_orc" text="Будзеш тут ворагаў выглядваць, дайшло?"/>
+  <string id="str_tor_companion_mission_patrol_dwarf" text="Разьмясьці тут ундзі."/>
+  <string id="str_tor_companion_mission_cancel_orc" text="Забудзь!"/>
+  <string id="str_tor_companion_mission_cancel_dwarf" text="А, нуф."/>
+  <string id="str_tor_companion_forage_1_orc" text="Як скажаш, бос! Але э... Мне каго з хлопцаў узяць?"/>
+  <string id="str_tor_companion_forage_1_dwarf" text="Ай, зраблю. Можаш вылучыць казакаў для гэтай справы?"/>
+  <string id="str_tor_companion_forage_2_orc" text="Так, вазьмі эных хлопцаў."/>
+  <string id="str_tor_companion_forage_2_dwarf" text="Вазьмі з сабой гэтых казакаў."/>
+  <string id="str_tor_companion_forage_3_orc" text="Шо? {?CONVERSATION_CHARACTER.GENDER}Сама{?}Сам{\?} ня можаш? Прэч адсюль, пакуль сківіцу не {?PLAYER.GENDER}разламала{?}разламаў{\?}!"/>
+  <string id="str_tor_companion_forage_3_dwarf" text="Гэтыя казакі патрэбныя ў іншым месцы. Давядзецца табе справіцца {?CONVERSATION_CHARACTER.GENDER}самой{?}самому{\?}."/>
+  <string id="str_tor_companion_fire_orc" text="Ш-шо? Што б я ні {?CONVERSATION_CHARACTER.GENDER}зрабіла{?}зрабіў{\?}, бос, я ж не {?CONVERSATION_CHARACTER.GENDER}хацела{?}хацеў{\?} табе перашкаджаць!"/>
+  <string id="str_tor_companion_fire_dwarf" text="Ты {?PLAYER.GENDER}ўпэўнена{?}ўпэўнены{\?}?"/>
+  <string id="str_tor_companion_fire_age_orc" text="Не пытаю, {?CONVERSATION_CHARACTER.GENDER}хацела{?}хацеў{\?} ці не! {?CONVERSATION_CHARACTER.GENDER}Зрабіла{?}Зрабіў{\?}! Прэч з вачэй маіх, пакуль табе ў пысу {?PLAYER.GENDER}не дала{?}ня даў{\?}!"/>
+  <string id="str_tor_companion_fire_age_dwarf" text="Ты ўжо {?CONVERSATION_CHARACTER.GENDER}старэйшая{?}старэйшы{\?} за ўсіх лангктромі, якіх я ведаю. Варта дазволіць сабе адпачынак."/>
+  <string id="str_tor_companion_fire_no_fit_orc" text="Надакучыла, шо ты ў лагеры бяду робіш. Ідзі адшюль!"/>
+  <string id="str_tor_companion_fire_no_fit_dwarf" text="Ты Ўфдзі і не пасуеш да гэтай кампаніі. Лепей табе сысьці."/>
+  <string id="str_tor_companion_fire_no_fit_2_orc" text="Ты больш са сваімі хлопцамі лупішся, чым з ворагамі. Калі са мной ня хочаш — ідзі адсюль."/>
+  <string id="str_tor_companion_fire_no_fit_2_dwarf" text="Ты вазок, і ты мне не {?CONVERSATION_CHARACTER.GENDER}патрэбна{?}патрэбны{\?}."/>
+  <string id="str_tor_companion_fire_underperforming_orc" text="Ты проста слабая нікчэма! Прэч адсюль, калі біцца ня хочаш!"/>
+  <string id="str_tor_companion_fire_underperforming_dwarf" text="Я {?PLAYER.GENDER}думала{?}думаў{\?}, што ты больш {?CONVERSATION_CHARACTER.GENDER}умелая{?}умелы{\?}. Цяпер разумею: {?PLAYER.GENDER}памылілася{?}памыліўся{\?}."/>
+  <string id="str_tor_companion_fire_cancel_orc" text="{?CONVERSATION_CHARACTER.GENDER}Бачыла{?}Бачыў{\?} бы ты сваю пысу! Назад да хлопцаў, нікчэма!"/>
+  <string id="str_tor_companion_fire_cancel_dwarf" text="Прабач, я {?PLAYER.GENDER}пераблытала{?}пераблытаў{\?}, што {?PLAYER.GENDER}хацела{?}хацеў{\?} сказаць, з тым пра, што {?PLAYER.GENDER}падумала{?}падумаў{\?}. "/>
+  <string id="str_tor_companion_fire_cancel2_orc" text="Ага, бос! Ну ты й {?PLAYER.GENDER}жартаўніца{?}жартаўнік{\?}...! [if:convo_nervous][ib:normal2]"/>
+  <string id="str_tor_companion_fire_cancel2_dwarf" text="Закі..."/>
+  <string id="str_tor_turn_companion_to_lord_start_orc" text="Горк з Моркам сёньня цябе любяць! Ёсьць сё-тое для цябе..."/>
+  <string id="str_tor_turn_companion_to_lord_start_dwarf" text="Ты {?CONVERSATION_CHARACTER.GENDER}заслужыла{?}заслужыў{\?} сабе вультрунг."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_2_orc" text="Не магу, бос! Я ж шчэ іншым тваім возам са здабычай камандую!"/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_2_dwarf" text="Ты аказваеш мне гонар гэтай прапановай, {?PLAYER.GENDER}мая Рын{?}мой Рык{\?}. Але абавязак загадвае мне давесьці гэты караван да бясьпечнага месца. Вызвалі мяне ад гэтай прысягі, і мы працягнем размову."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_player_orc" text="Я й так {?PLAYER.GENDER}ведала{?}ведаў{\?}, дурыла! {?PLAYER.GENDER}Правярала{?}Правяраў{\?} цябе. Шкончыш вазы цягаць — будзе іншая праца."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_player_dwarf" text="Вядома. Даві, які кідае свае абавязкі, нічога ня варты. Працягвай, пагаворым пазьней."/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_orc" text="Ходзьма, ходзьма! Я цяпер БУЙНАБОС! Не падвяду, бос! Буду іх душыць, таптаць і лупіць! І мае фартэцы будуць найдужымі, якія ты {?PLAYER.GENDER}бачыла{?}бачыў{\?}! Толькі пачакай! А як скажаш — прыйду табе дапамагаць у ВАААГХ!"/>
+  <string id="str_tor_turn_companion_to_lord_start_answer_dwarf" text="Дзякую, {?PLAYER.GENDER}Рын{?}Рык{\?}. Даўно я {?CONVERSATION_CHARACTER.GENDER}чакала{?}чакаў{\?} магчымасьці высечы ўласную цьвярдыню. Калі будзе дастатак, каб гарэлі горны, я знайду годную пару і падарую Караз-Анкору добрых хлопцаў. А самае лепшае — павяду тронг суродзічаў помсьціць за нашыя крыўды..."/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_orc" text="Ты шапраўдны баец! Думаю, час табе шваю фартэцу мець!"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_dwarf" text="Так. Ты {?CONVERSATION_CHARACTER.GENDER}давяла{?}давёў{\?} сваю вартасьць Продкам і мне. Атрымаеш свой казад. Няхай ён бароніць тваіх суродзічаў, а твая барада расьце доўгаю і сівою."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_orc" text="Э, бос? Няма ў нас свабоднай фартэцы, каб аддаць."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_dwarf" text="{?PLAYER.GENDER}Мая Рын{?}Мой Рык{\?}, прапанова робіць мне гонар, але пакуль ты ня маеш казаду, каб дараваць мне. Даві ня можа кіраваць пустым паветрам і вялікімі надзеямі."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_player_answer_orc" text="Шціхні, дурыла! Я {?PLAYER.GENDER}казала{?}казаў{\?} пра потым, калі будзе. Дайшло?"/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_player_answer_dwarf" text="Разумею. Спачатку высечам падмурак нашай цьвярдыні, га? Пагаворым пра гэта, калі будзем мець уласную залу, давонгі."/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_companion_answer_orc" text="Мудра! Таму ты й бос!"/>
+  <string id="str_tor_turn_companion_to_lord_has_no_fief_companion_answer_dwarf" text="Як скажаш, {?PLAYER.GENDER}Мая Рын{?}Мой Рык{\?}."/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_answer_orc" text="Шапраўды, бос? Якую фартэцу ты {?PLAYER.GENDER}мела{?}меў{\?} на ўвазе?"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_answer_dwarf" text="А дзе менавіта тая цьвярдыня?"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_continue_orc" text="Пачакай! Ня тую!"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_continue_dwarf" text="Гм, я {?PLAYER.GENDER}думала{?}думаў{\?} пра іншае месца."/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_cancel_orc" text="Цяпер {?PLAYER.GENDER}раздумала{?}раздумаў{\?}... Забудзь!"/>
+  <string id="str_tor_turn_companion_to_lord_has_fief_list_cancel_dwarf" text="Я {?PLAYER.GENDER}раздумала{?}раздумаў{\?}. Пакуль твая сякера патрэбная побач са мной."/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_orc" text="Ага! Дзякуй, бос! Я табе тых хлопцаў у {SETTLEMENT_NAME} шапраўды вышкалю!"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_dwarf" text="{SETTLEMENT_NAME}? Агменем Валаі, ты робіш мне гонар, {?PLAYER.GENDER}Рын{?}Рык{\?}. Прысягаю сваёй барадой бараніць гэтыя залі, пакуль сам Газул не забярэ мяне.[ib:hip][if:convo_happy]"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_orc" text="Глядзі ж, {CULTURE_SPECIFIC_TITLE} {COMPANION_NAME}! А цяпер ідзі й пакажы хлопцам у {SETTLEMENT_NAME}, хто тут бос!"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_dwarf" text="Надаю табе званьне {CULTURE_SPECIFIC_TITLE} і абавязак бараніць цьвярдыню {SETTLEMENT_NAME}. Няхай Продкі ганарацца табою."/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_reject_orc" text="Гэй, пачакай! Дай шчэ падумаць!"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_reject_dwarf" text="Добра. Мне трэба яшчэ крыху часу на роздум."/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_box_orc" text="Гэй, бос! Цяпер мы шапраўдная банда. Як назавеш нас, хлопцаў?"/>
+  <string id="str_tor_turn_companion_to_lord_fief_selected_confirm_box_dwarf" text="{?PLAYER.GENDER}Рын{?}Рык{\?}, заснаваць свой клан — цяжкі абавязак. Ці палегчыш яго, даўшы клану імя? "/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_thanks_orc" text="Дзякуй, бос! У галаве засяку, калі зноў спатрэблюся. Мы заўжды з табой!"/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_thanks_dwarf" text="Дзякую табе, {?PLAYER.GENDER}Рын{?}Рык{\?}. Я і мой род захаваем твой учынак у сэрцы. Не забудзем яго, пакуль стаяць горы."/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_rejected_orc" text="Тут шапраўды трэба мазгамі паварушыць. Ня бойся, бос, заштануся з табой, пакуль не прыдумаеш!"/>
+  <string id="str_tor_turn_companion_to_lord_done_answer_rejected_dwarf" text="Цьвярдыня — справа важкая, {?PLAYER.GENDER}Рын{?}Рык{\?}. Лепей двойчы адмераць камень, перш чым рэзаць, га? Мая прысяга табе застаецца ў сіле. Я па-ранейшаму буду побач!"/>
+  <string id="str_tor_rescue_companion_start_orc" text="Дзякуй, бос! Цяпер зноў магу лупіць!"/>
+  <string id="str_tor_rescue_companion_start_dwarf" text="За выратаваньне я {?CONVERSATION_CHARACTER.GENDER}вінная{?}вінны{\?} табе жыцьцё."/>
+  <string id="str_tor_rescue_companion_option_acknowledgement_orc" text="Вядома, бос! Проста раблю сваю працу — боса бараню!"/>
+  <string id="str_tor_rescue_companion_option_acknowledgement_dwarf" text="Я на ўсё пайду, каб выкрэсьліць крыўду з кнігаў."/>
+  <string id="str_tor_rescue_companion_preoptions_orc" text="Шо цяпер?"/>
+  <string id="str_tor_rescue_companion_preoptions_dwarf" text="Што далей?"/>
+  <string id="str_tor_rescue_companion_option_1_orc" text="Вяртаемся да хлопцаў і рушым далей."/>
+  <string id="str_tor_rescue_companion_option_1_dwarf" text="Трэба злучыць нашыя сілы з астатнімі. Моц Даві — у сьцяне шчытоў."/>
+  <string id="str_tor_rescue_companion_option_2_orc" text="Мне трэба, каб ты якімі хлопцамі {?CONVERSATION_CHARACTER.GENDER}кіравала{?}кіраваў{\?}."/>
+  <string id="str_tor_rescue_companion_option_2_dwarf" text="Мне трэба, каб ты {?CONVERSATION_CHARACTER.GENDER}ўзначаліла{?}ўзначаліў{\?} свой тронг."/>
+  <string id="str_tor_rescue_companion_option_3_orc" text="Няма табе зараз месца."/>
+  <string id="str_tor_rescue_companion_option_3_dwarf" text="Маецца маленькая перашкода, каб узяць цябе з сабой цяпер. Пакуль пабудзь {?CONVERSATION_CHARACTER.GENDER}сама{?}сам{\?} па сабе."/>
+  <string id="str_tor_rescue_companion_lead_party_answer_orc" text="Якімі хлопцамі мне камандаваць?"/>
+  <string id="str_tor_rescue_companion_lead_party_answer_dwarf" text="Якому тронгу {?CONVERSATION_CHARACTER.GENDER}патрэбная лідарка{?}патрэбны лідар{\?}?"/>
+  <string id="str_tor_rescue_companion_join_party_answer_orc" text="Добра вярнуцца!"/>
+  <string id="str_tor_rescue_companion_join_party_answer_dwarf" text="{?CONVERSATION_CHARACTER.GENDER}Рада{?}Рады{\?} зноў біцца плячом да пляча з табой!"/>
+  <string id="str_tor_rescue_companion_do_nothing_answer_orc" text="Я {?CONVERSATION_CHARACTER.GENDER}ваўчыца{?}воўк{\?}-адзіночка, але не забуду, шо ты для мяне {?PLAYER.GENDER}зрабіла{?}зрабіў{\?}."/>
+  <string id="str_tor_rescue_companion_do_nothing_answer_dwarf" text="Працягну свой шлях {?CONVERSATION_CHARACTER.GENDER}сама{?}сам{\?}, але буду памятаць, што я табе {?CONVERSATION_CHARACTER.GENDER}вінная{?}вінны{\?}!"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_0_orc" text="Як скажаш, бос!"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_0_dwarf" text="Вядома, зраблю."/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_1_orc" text="Шо мне рабіць, бос?"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_1_dwarf" text="Што мне для цябе зрабіць?"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_2_orc" text="Мы рушым!"/>
+  <string id="str_tor_rescue_companion_lead_party_create_party_continue_2_dwarf" text="Бароды за паясы, выпраўляемся ў паход."/>
+  <string id="str_tor_grievance_requested_orc" text="Кажы, слухаю."/>
+  <string id="str_tor_grievance_requested_dwarf" text="Кажы, расказвай. Я паслухаю."/>
+  <string id="str_tor_grievance_1_orc" text="Ага, як шкажаш. Можа, й запомню."/>
+  <string id="str_tor_grievance_1_dwarf" text="У тваіх словах праўда. Буду іх трымацца, каб не было новых крыўдаў."/>
+  <string id="str_tor_grievance_2_orc" text="Гэй, гэта я тут загады раждаю!"/>
+  <string id="str_tor_grievance_2_dwarf" text="Хоць я й цаню тваю параду, мне трэба яшчэ яе абдумаць."/>
+  <string id="str_tor_grievance_3_orc" text="Ты {?CONVERSATION_CHARACTER.GENDER}слабачка{?}слабак{\?}, ня месца табе з маімі хлопцамі."/>
+  <string id="str_tor_grievance_3_dwarf" text="Відаць, мы па-рознаму разумеем гонар. Можа, лепей нам разысьціся."/>
+  <string id="str_tor_companion_hire_capacity_full_orc" text="Калі падумаць... У мяне й так зашмат хлопцаў!"/>
+  <string id="str_tor_companion_hire_capacity_full_dwarf" text="Хмм... Я ўжо маю больш хлопцаў з жалезам, чым я магу трымаць у шыхце."/>
+  <string id="str_tor_player_companion_hire_response_1_orc" text="Добра... Бяры свае бліскучкі, а цяпер да астатніх!"/>
+  <string id="str_tor_player_companion_hire_response_1_dwarf" text="Вось твой окстал... {GOLD_AMOUNT}. Варушыся!"/>
+  <string id="str_tor_player_companion_hire_response_2_orc" text="Ха! Нібыта я аддам табе гэта ўсё! Падумай яшчэ раз!"/>
+  <string id="str_tor_player_companion_hire_response_2_dwarf" text="Маёй барадой, столькі золата я ня здолею даць!"/>
+  <string id="str_tor_caravan_companion_talk_start_orc" text="Гэй, маецца табе праца..."/>
+  <string id="str_tor_caravan_companion_talk_start_dwarf" text="Трэба сёе-тое вырашыць, дык слухай уважліва."/>
+  <string id="str_tor_caravan_companion_talk_start_reply_orc" text="Шо хочаш, бос?"/>
+  <string id="str_tor_caravan_companion_talk_start_reply_dwarf" text="Ага. Што табе галаву точыць?"/>
+  <string id="str_tor_caravan_companion_trade_rumors_orc" text="Шо хлопцам зараз трэба?"/>
+  <string id="str_tor_caravan_companion_trade_rumors_dwarf" text="Якія навіны з гандлёвых шляхоў? Ёсьць які добры ўрбар?"/>
+  <string id="str_tor_caravan_companion_talk_player_thank_orc" text="Шо шчэ хошаш?"/>
+  <string id="str_tor_caravan_companion_talk_player_thank_dwarf" text="Нешта яшчэ?"/>
+  <string id="str_tor_caravan_companion_talk_not_leave_orc" text="Ішчэ пра адну штуку пагаварыць..."/>
+  <string id="str_tor_caravan_companion_talk_not_leave_dwarf" text="Так, мы маем яшчэ што перацерці."/>
+  <string id="str_tor_caravan_companion_talk_leave_orc" text="Ня стойце разявіўшы пашчы, ходзьма, нікчэмы!"/>
+  <string id="str_tor_caravan_companion_talk_leave_dwarf" text="Тады выпраўляйся."/>
+  <string id="str_tor_caravan_companion_nevermind_orc" text="Зог яго."/>
+  <string id="str_tor_caravan_companion_nevermind_dwarf" text="Тху. Забудзь."/>
+  <string id="str_tor_conversation_prisoner_chat_start_orc" text="Шо табе трэба?"/>
+  <string id="str_tor_conversation_prisoner_chat_start_dwarf" text="Выкладвай."/>
+  <string id="str_tor_conversation_prisoner_chat_player_orc" text="Злаўлю, шо крадзешся, — трыбухі выпусьцім."/>
+  <string id="str_tor_conversation_prisoner_chat_player_dwarf" text="Глядзі, не ўчыні якой дурноты, ваток. На кароткай дыстанцыі я вельмі {?PLAYER.GENDER}небясьпечная{?}небясьпечны{\?}."/>
+  <string id="str_tor_conversation_prisoner_chat_response_orc" text="Са мной праблем ня будзе!"/>
+  <string id="str_tor_conversation_prisoner_chat_response_dwarf" text="Прысягаю каменем і стальлю."/>
+  <string id="str_tor_disguise_start_conversation_alt_orc" text="Няма для цябе нічога, валі адсюль!"/>
+  <string id="str_tor_disguise_start_conversation_alt_dwarf" text="Ідзі далей, для цябе тут нічога няма. Дай мне працаваць."/>
+  <string id="str_tor_disguise_start_conversation_orc" text="Прэч ад мяне, пакуль ня {?CONVERSATION_CHARACTER.GENDER}стукнула{?}стукнуў{\?}."/>
+  <string id="str_tor_disguise_start_conversation_dwarf" text="Прэч, ваток!"/>
+  <string id="str_tor_prison_guard_start_criminal_orc" text="Хлопцы пра цябе казалі. Шчэ будзеш дурэць — прыб'ю."/>
+  <string id="str_tor_prison_guard_start_criminal_dwarf" text="Яшчэ адзін выпадак — і гэта будзе крыўда!"/>
+  <string id="str_tor_prison_guard_ask_criminal_orc" text="Чаго табе, зладзюга?"/>
+  <string id="str_tor_prison_guard_ask_criminal_dwarf" text="Чаго табе, ваназ?"/>
+  <string id="str_tor_prison_guard_start_orc" text="Шо? Ня бачыш, я працую?"/>
+  <string id="str_tor_prison_guard_start_dwarf" text="Ага? Чаго табе трэба?"/>
+  <string id="str_tor_prison_guard_ask_prisoners_orc" text="Каго тут трымаеце?"/>
+  <string id="str_tor_prison_guard_ask_prisoners_dwarf" text="Каму спатрэбілася пасядзець пад замком?"/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_orc" text="Хачу з адным тваім у клетцы пагаварыць."/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_dwarf" text="Я {?PLAYER.GENDER}хацела б{?}хацеў бы{\?} пагаварыць з тутэйшым вязьнем."/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_2_orc" text="Хачу з адным тваім у клетцы пагаварыць."/>
+  <string id="str_tor_prison_guard_ask_prisoner_talk_2_dwarf" text="Я {?PLAYER.GENDER}хацела б{?}хацеў бы{\?} пагаварыць з тутэйшым вязьнем."/>
+  <string id="str_tor_prison_guard_talk_end_orc" text="Зог яго!"/>
+  <string id="str_tor_prison_guard_talk_end_dwarf" text="А, нуф."/>
+  <string id="str_tor_prison_guard_talk_about_prisoners_orc" text="{PRISONER_NAMES} тут у клетках {?IS_PLURAL}сядзяць{?}сядзіць{\?}."/>
+  <string id="str_tor_prison_guard_talk_about_prisoners_dwarf" text="{PRISONER_NAMES} {?IS_PLURAL}мусяць{?}мусіць{\?} крыху пасядзець пад замком."/>
+  <string id="str_tor_prison_guard_visit_prison_ask_for_permission_orc" text="Нізавошта не пушчу, бос мяне сквігам скорміць!"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_for_permission_dwarf" text="Ты ня маеш права тут быць. Прэч, пакуль я не {?CONVERSATION_CHARACTER.GENDER}далажыла{?}далажыў{\?} {?SETTLEMENT_OWNER.GENDER}маёй пані{?}майму пану{\?} {SETTLEMENT_OWNER.NAME}."/>
+  <string id="str_tor_prison_guard_visit_prison_orc" text="Ну добра, добра."/>
+  <string id="str_tor_prison_guard_visit_prison_dwarf" text="Так, вядома. Заходзь."/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_orc" text="А хіба ня ты тут бос?"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_dwarf" text="Мне здавалася, тваё слова тут мае большую вагу?"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_orc" text="Шо ты вярзеш?"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_dwarf" text="Не мармытай, гавары ясна."/>
+  <string id="str_tor_prison_guard_visit_permission_try_bribe_orc" text="{?PLAYER.GENDER}Знайшла{?}Знайшоў{\?} тут торбу з золатам. Твая, га?"/>
+  <string id="str_tor_prison_guard_visit_permission_try_bribe_dwarf" text="Глядзі-ка, здаецца, ты {?CONVERSATION_CHARACTER.GENDER}згубіла{?}згубіў{\?} гаманец. Як {?PLAYER.GENDER}твая даўняя сяброўка{?}твой даўні сябра{\?}, я, вядома ж, вярну яго табе."/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_2_orc" text="Зог яго!"/>
+  <string id="str_tor_prison_guard_visit_prison_ask_answer_3_2_dwarf" text="А, нуф."/>
+  <string id="str_tor_prison_guard_visit_prison_nobody_inside_orc" text="Тут нікога няма. А цяпер валі."/>
+  <string id="str_tor_prison_guard_visit_prison_nobody_inside_dwarf" text="Клеткі пустыя. Ідзі ўжо, калі ня хочаш {?PLAYER.GENDER}сама{?}сам{\?} адну заняць, га?"/>
+  <string id="str_tor_prison_guard_visit_empty_prison_orc" text="Добра, паглядзім."/>
+  <string id="str_tor_prison_guard_visit_empty_prison_dwarf" text="Вядома, тады пагляджу на вязьняў."/>
+  <string id="str_tor_prison_guard_visit_empty_prison_2_orc" text="Добра, паглядзім."/>
+  <string id="str_tor_prison_guard_visit_empty_prison_2_dwarf" text="Вядома, тады пагляджу на вязьняў."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_orc" text="У мяне яшчэ справы ёсьць."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_dwarf" text="Ня маю на цябе часу."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_2_orc" text="У мяне яшчэ справы ёсьць."/>
+  <string id="str_tor_prison_guard_not_visit_empty_prison_2_dwarf" text="Ня маю на цябе часу."/>
+  <string id="str_tor_prison_guard_visit_permission_leave_orc" text="Добра, тады паспрабую!"/>
+  <string id="str_tor_prison_guard_visit_permission_leave_dwarf" text="Так, паспрабую."/>
+  <string id="str_tor_prison_guard_visit_permission_bribe_orc" text="Во як? Я пакуль бліскучкі палічу, а як скончу — каб цябе тут не было!"/>
+  <string id="str_tor_prison_guard_visit_permission_bribe_dwarf" text="Як ласкава з твайго боку вярнуць мне гаманец. Дай пералічу, ці ўсё на месцы, на ўсякі выпадак. А ты тым часам прагуляйся тут."/>
+  <string id="str_tor_prison_guard_visit_permission_try_break_orc" text="Аддавай ключы, а то паб'ю!"/>
+  <string id="str_tor_prison_guard_visit_permission_try_break_dwarf" text="Аддай бармаказ зараз жа, і ніхто не пацерпіць!"/>
+  <string id="str_tor_prison_guard_visit_break_orc" text="Нікчэмы ўцякаюць! Хлопцы, сюды!"/>
+  <string id="str_tor_prison_guard_visit_break_dwarf" text="Трубіце ў гірн, яны спрабуюць уцячы!"/>
+  <string id="str_tor_castle_guard_start_criminal_orc" text="Хлопцы пра цябе казалі. Шчэ будзеш дурэць — кішкі павыдзіраю!"/>
+  <string id="str_tor_castle_guard_start_criminal_dwarf" text="Яшчэ адзін выпадак — і гэта будзе крыўда!"/>
+  <string id="str_tor_castle_guard_ask_criminal_orc" text="Чаго табе, злодзюга?"/>
+  <string id="str_tor_castle_guard_ask_criminal_dwarf" text="Чаго табе, ваназ?"/>
+  <string id="str_tor_castle_guard_start_orc" text="Чаго табе?"/>
+  <string id="str_tor_castle_guard_start_dwarf" text="Так, чым магу дапамагчы?"/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_orc" text="Хачу пабачыць боса."/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_dwarf" text="Прашу сустрэчы з рыкам."/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_2_orc" text="Зог яго."/>
+  <string id="str_tor_player_ask_for_permission_to_enter_lords_hall_2_dwarf" text="А, ануф."/>
+  <string id="str_tor_castle_guard_no_permission_nobody_inside_orc" text="Боса няма, валі адсюль!"/>
+  <string id="str_tor_castle_guard_no_permission_nobody_inside_dwarf" text="Унутры нікога няма. Ня марнуй тут час."/>
+  <string id="str_tor_castle_guard_player_can_enter_orc" text="Добра, можаш ісьці."/>
+  <string id="str_tor_castle_guard_player_can_enter_dwarf" text="Добра, заходзь."/>
+  <string id="str_tor_castle_guard_no_permission_orc" text="Ня знаю цябе, валі адсюль!"/>
+  <string id="str_tor_castle_guard_no_permission_dwarf" text="Даві ніколі не забывае твараў. А паколькі я цябе не памятаю..."/>
+  <string id="str_tor_player_bribe_to_enter_lords_hall_orc" text="А гэтыя бліскучкі? {AMOUNT}{GOLD_ICON} — цяпер {?CONVERSATION_CHARACTER.GENDER}успомніла{?}успомніў{\?}?"/>
+  <string id="str_tor_player_bribe_to_enter_lords_hall_dwarf" text="Глядзі-ка, здаецца, ты {?CONVERSATION_CHARACTER.GENDER}згубіла{?}згубіў{\?} свой гаманец. Як {?PLAYER.GENDER}твая даўняя сяброўка{?}твой даўні сябра{\?}, я, вядома ж, вярну яго табе."/>
+  <string id="str_tor_player_not_bribe_to_enter_lords_hall_orc" text="Зог яго."/>
+  <string id="str_tor_player_not_bribe_to_enter_lords_hall_dwarf" text="А, нуф."/>
+  <string id="str_tor_castle_guard_let_player_in_orc" text="О, цяпер {?CONVERSATION_CHARACTER.GENDER}успомніла{?}успомніў{\?}! Заходзь!"/>
+  <string id="str_tor_castle_guard_let_player_in_dwarf" text="Так, цяпер ты сапраўды выглядаеш {?PLAYER.GENDER}знаёмай{?}знаёмым{\?}."/>
+  <string id="str_tor_minor_faction_talk_hostile_response_1_orc" text="Ну зараз паб'ёмся, шмярдзючыя нікчэмы!"/>
+  <string id="str_tor_minor_faction_talk_hostile_response_1_dwarf" text="Нічога, апрача маёй сякеры, ты не атрымаеш, скруф!"/>
+  <string id="str_tor_minor_faction_talk_hostile_response_2_orc" text="Палупіцца льга і потым. Мо спачатку пагаворым?"/>
+  <string id="str_tor_minor_faction_talk_hostile_response_2_dwarf" text="Пачакай. Ты ведаеш нас, а мы цябе — не. Выправім гэта."/>
+  <string id="str_tor_minor_faction_talk_background_next_1_orc" text="Мы шукаем лепшага махачу. Можа, прапусьціш нас?"/>
+  <string id="str_tor_minor_faction_talk_background_next_1_dwarf" text="Стой! Нам няма патрэбы біцца."/>
+  <string id="str_tor_minor_faction_talk_background_next_2_orc" text="Брыдкая ў цябе пыса. Зараз папраўлю."/>
+  <string id="str_tor_minor_faction_talk_background_next_2_dwarf" text="За гэтую крыўду я адпомшчу з асаблівай ахвотай. "/>
+  <string id="str_tor_minor_faction_talk_background_repeat_threat_orc" text="Годзе балбатаць, час лупіцца!"/>
+  <string id="str_tor_minor_faction_talk_background_repeat_threat_dwarf" text="Мае вушы стаміліся. Кінь балбатню і кажы па сутнасьці."/>
+  <string id="str_tor_alley_talk_start_player_owned_thug_answer_orc" text="Так і зрабі."/>
+  <string id="str_tor_alley_talk_start_player_owned_thug_answer_dwarf" text="Добра."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_not_under_attack_orc" text="{?PLAYER.GENDER}Здарова{?}Здароў{\?}, бос, шо трэба?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_not_under_attack_dwarf" text="Вітаю, тане. Чым магу дапамагчы?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_under_attack_orc" text="Гэй, бос, акурат на махач {?PLAYER.GENDER}пасьпела{?}пасьпеў{\?}! Горк з Моркам за нас!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_under_attack_dwarf" text="Ты якраз своечасова, {?PLAYER.GENDER}пані{?}пане{\?}. Дамо ім па заслугах!"/>
+  <string id="str_tor_alley_talk_start_normal_orc" text="Гэй, шо тут робіцца?"/>
+  <string id="str_tor_alley_talk_start_normal_dwarf" text="Якая ў цябе тут справа?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_1_orc" text="Пакажы шваіх хлопцаў!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_1_dwarf" text="Дай зірнуць на тваіх казакаў."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_orc" text="Хто з тваіх хлопцаў хоча ў шапраўдную банду?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_dwarf" text="Майму тронгу патрэбнае падмацаваньне. Хто з тваіх хлопцаў хоча далучыцца?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_3_orc" text="Валі, хачу іншага нікчэмніка тут босам."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_3_dwarf" text="Нам патрэбны {?CONVERSATION_CHARACTER.GENDER}іншая дзяўчо{?}іншы хлопец{\?}, каб тут наглядаць."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_orc" text="Больш мне гэтае месца не патрэбнае."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_dwarf" text="Згортвайце лягер, мы сыходзім. Карысьці з гэтага месца ўжо няма."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_1_orc" text="Хочаш, каб мы з табой ішлі, бос?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_1_dwarf" text="Толькі загадай, і мы падрыхтуемся. Зьбірацца?"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_2_orc" text="Так і зрабі!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_2_dwarf" text="Так, рушце."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_3_orc" text="Не, я {?PLAYER.GENDER}перадумала{?}перадумаў{\?} — хлопцы, заставайцеся тут!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_4_3_dwarf" text="Гэта складаная справа, трэба яшчэ падумаць."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_5_orc" text="Э, забудзь..."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_5_dwarf" text="Забудзь."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_1_orc" text="Шчэ ня скончылі, бос! Як можам штараемся, клянуся! "/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_1_dwarf" text="Набор ідзе павольна, дукрык. Але я {?CONVERSATION_CHARACTER.GENDER}знайшла{?}знайшоў{\?}, чым лепей завабіць новых хлопцаў. Зазірні на наступным тыдні."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_2_orc" text="Ага, маецца {TROOPS_TO_RECRUIT}, гатовыя да добрага махачу."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_2_dwarf" text="Так, маецца {TROOPS_TO_RECRUIT}, якім ужо карціць пайсьці на рунк."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_3_orc" text="Ну добра! У банду, нікчэмы!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_3_dwarf" text="Малайчына, муказ. Дасылай іх да мяне, хутка выпраўляемся."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_4_orc" text="Добра, бос, хлопцы будуць гатовыя!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_4_dwarf" text="Так. Зараз жа іх падрыхтуем."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_5_orc" text="Пакуль мне гэтыя нікчэмы не патрэбны. Валі!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_volunteers_5_dwarf" text="Пакуль мне больш барадоў не патрэбна. Заставайся тут."/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_di_orc" text="Так, бос!"/>
+  <string id="str_tor_alley_talk_start_player_owned_alley_manager_answer_2_di_dwarf" text="Ай, дукрык."/>
+  <string id="str_tor_alley_talk_start_normal_2_orc" text="Гляньце на нікчэму! Нейкі грот нашаптаў, га? Думаеш, {?PLAYER.GENDER}разумная{?}разумны{\?}? Пляваць. Я ЦЯБЕ ЎСЁ РОЎНА РАСТАПЧУ!"/>
+  <string id="str_tor_alley_talk_start_normal_2_dwarf" text="Ну й адвага — з'явіцца сюды. {?PLAYER.GENDER}Прачула{?}Прачуў{\?} пра мае пляны? Няважна. Усё роўна раскалю табе галаву, як сьпелы гарбуз."/>
+  <string id="str_tor_alley_talk_start_normal_3_orc" text="Давай, пракляты сквіг! ВАААААГХ!"/>
+  <string id="str_tor_alley_talk_start_normal_3_dwarf" text="Пачынай, пакажы, на што {?CONVERSATION_CHARACTER.GENDER}здольная{?}здольны{\?}!"/>
+  <string id="str_tor_alley_talk_start_normal_4_orc" text="Я проста {?PLAYER.GENDER}глядзела{?}глядзеў{\?}, махачу ня трэба. Гэтая дзірка й так надакучыла. Забірай."/>
+  <string id="str_tor_alley_talk_start_normal_4_dwarf" text="Бяры. Але ня думай, што ты {?CONVERSATION_CHARACTER.GENDER}перамагла{?}перамог{\?}. Мы, Даві, жывём доўга і нічога не забываем."/>
+  <string id="str_tor_alley_start_1_orc" text="Шо за гармідар?"/>
+  <string id="str_tor_alley_start_1_dwarf" text="Проста {?PLAYER.GENDER}выйшла{?}выйшаў{\?} на Строл. А вы тут чым займаецеся?"/>
+  <string id="str_tor_alley_start_2_orc" text="Я проста гляджу, адвалі!"/>
+  <string id="str_tor_alley_start_2_dwarf" text="Проста невялічкі Докіт. Не забаронена ж, га?"/>
+  <string id="str_tor_alley_start_3_orc" text="Нічога."/>
+  <string id="str_tor_alley_start_3_dwarf" text="А, нуф."/>
+  <string id="str_tor_alley_entry_start_1_orc" text="Проста шпацырую."/>
+  <string id="str_tor_alley_entry_start_1_dwarf" text="Проста Строл."/>
+  <string id="str_tor_alley_entry_start_2_orc" text="Я проста гляджу, адвалі!"/>
+  <string id="str_tor_alley_entry_start_2_dwarf" text="Проста невялічкі Докіт. Не забаронена ж, га?"/>
+  <string id="str_tor_alley_entry_start_3_orc" text="Адвалі!"/>
+  <string id="str_tor_alley_entry_start_3_dwarf" text="Засунь сабе ў Донгліз!"/>
+  <string id="str_tor_first_entry_to_alley_orc" text="Мы хлопцы {ALLEY_BOSS.NAME}, а бос ёсьць бос! Валі, а то прыб'ём."/>
+  <string id="str_tor_first_entry_to_alley_dwarf" text="Слухай і слухай уважліва. Гэта наш Дук, а {ALLEY_BOSS.NAME} — наш Дукрык. Калі справаў да Дукрыка ня маеш, настойліва раім табе прыбрацца."/>
+  <string id="str_tor_first_entry_to_alley_friendly_orc" text="{ALLEY_BOSS.NAME} дазваляе табе тут быць. Але я за табой сачу!"/>
+  <string id="str_tor_first_entry_to_alley_friendly_dwarf" text="Дукрык {?ALLEY_BOSS.GENDER}дазволіла{?}дазволіў{\?} табе застацца. Але для пэўнасьці я зь цябе вачэй ня спушчу. Без дурноты."/>
+  <string id="str_tor_ally_entry_start_fight_orc" text="Ты мне ня бос!"/>
+  <string id="str_tor_ally_entry_start_fight_dwarf" text="Змоўкні. Наколькі ведаю, ты нам ня Дукрык."/>
+  <string id="str_tor_alley_entry_question_activity_orc" text="Шо тут робіцца?"/>
+  <string id="str_tor_alley_entry_question_activity_dwarf" text="Дык якая ў вас тут справа?"/>
+  <string id="str_tor_alley_entry_end_conversation_orc" text="Ага, ага, нікога ня буду лупіць. Пакуль."/>
+  <string id="str_tor_alley_entry_end_conversation_dwarf" text="Разумею. Тады я пайду."/>
+  <string id="str_tor_alley_fight_start_orc" text="Ну й язык у цябе! Зараз цябе паб'ём![ib:aggressive][if:convo_angry]"/>
+  <string id="str_tor_alley_fight_start_dwarf" text="Ты дох, занадта шмат гаворыш. Прымусім цябе змоўкнуць назаўжды."/>
+  <string id="str_tor_alley_activity_2_orc" text="Толькі {ALLEY_BOSS.NAME} можа нам загадваць!"/>
+  <string id="str_tor_alley_activity_2_dwarf" text="Нагадваю такому Бокі, як ты: толькі наш Дукрык мае права нам загадваць."/>
+  <string id="str_tor_alley_activity_back_orc" text="Ух, шчэсьці яшчэ? Лепей валі, пакуль мы табе не далі ў пысу. [if:convo_confused_annoyed][ib:closed]"/>
+  <string id="str_tor_alley_activity_back_dwarf" text="Нешта яшчэ? Не? Тады прэч![if:convo_confused_annoyed][ib:closed]"/>
+  <string id="str_tor_alley_activity_end_orc" text="Адвалі!"/>
+  <string id="str_tor_alley_activity_end_dwarf" text="Бугроф."/>
+  <string id="str_tor_alley_meet_boss_orc" text="Чакай тут, пайду спытаю боса, ці хоча з табой балбатаць."/>
+  <string id="str_tor_alley_meet_boss_dwarf" text="Вядома, вядома. Спытаю, ці хоча Дукрык гаварыць з табой. Чаму б {?ALLEY_BOSS.GENDER}ёй{?}яму{\?} не захацець?"/>
+  <string id="str_tor_gangleader_introduction_4_orc" text="Я бос {CONVERSATION_HERO.FIRSTNAME}. Хлопцы завуць мяне {CONVERSATION_HERO.LINK}, бо баяцца.[if:convo_mocking_revenge]"/>
+  <string id="str_tor_gangleader_introduction_4_dwarf" text="Ты гаворыш з {CONVERSATION_HERO.FIRSTNAME}. Сёй-той заве мяне {CONVERSATION_HERO.LINK}. З пашанай, вядома."/>
+  <string id="str_tor_gangleader_introduction_orc" text="Я {CONVERSATION_HERO.FIRSTNAME}. Магу любога пабіць, адлупіць, адштурхаць ці забіць. Абы ў цябе жубоў хапіла. [if:convo_bemused]"/>
+  <string id="str_tor_gangleader_introduction_dwarf" text="Ты гаворыш з {CONVERSATION_HERO.FIRSTNAME}. Паслухай, колькі пра мяне расказваюць, і даведаесься, {?CONVERSATION_CHARACTER.GENDER}якой карыснай{?}якім карысным{\?} я магу быць. Калі разумееш, пра што я."/>
+  <string id="str_tor_gangleader_introduction_2_orc" text="Я {CONVERSATION_HERO.FIRSTNAME}. Хочаш сапраўднага махачу — я той Орк, які трэба. То глядзі ў мяне. [if:convo_stern]"/>
+  <string id="str_tor_gangleader_introduction_2_dwarf" text="Ты гаворыш з {CONVERSATION_HERO.FIRSTNAME}. Паслухай, колькі пра мяне расказваюць, і зразумееш, што лепей не пераходзіць мне дарогу."/>
+  <string id="str_tor_gangleader_introduction_3_orc" text="Я бос {CONVERSATION_HERO.FIRSTNAME}. Гэта я тут хлопцаў у кулаку трымаю."/>
+  <string id="str_tor_gangleader_introduction_3_dwarf" text="Ты гаворыш з {CONVERSATION_HERO.FIRSTNAME}. Паслухай, колькі пра мяне расказваюць, і даведаесься, што я ўмею трымаць тут спакой. "/>
+  <string id="str_tor_governor_talk_start_orc" text="Ну як там {GOVERNOR_SETTLEMENT}, шо робіцца?"/>
+  <string id="str_tor_governor_talk_start_dwarf" text="Як маецца {GOVERNOR_SETTLEMENT}?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_reply_orc" text="Так, бос?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_reply_dwarf" text="Чаго жадае {?PLAYER.GENDER}пані{?}пан{\?}?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_orc" text="Ты хочаш, каб мы кім былі, бос? "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_dwarf" text="Ёсьць шмат традыцыяў і звычаяў. Якіх будзем трымацца найпільней?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_other_orc" text="Не, я пра іншае {?PLAYER.GENDER}думала{?}думаў{\?}."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_other_dwarf" text="Трэба паглядзець у кнігах пра іншыя звычаі."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_cancel_orc" text="Зараз нам для гэтага хлопцаў не хапае."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selection_cancel_dwarf" text="Трэба спытаць думку доўгабародаў. Адкладзем пастанову."/>
+  <string id="str_tor_governor_talk_kingdom_creation_exit_reply_orc" text="Як бос хоша, так і будзе."/>
+  <string id="str_tor_governor_talk_kingdom_creation_exit_reply_dwarf" text="Разумею. Такое ня варта вырашаць легкадумна. "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_orc" text="У нас будуць {CULTURE_ADJECTIVE} звычаі. І я кажу, спачатку зробім вось шо: {INITIAL_POLICY_NAMES}. "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_dwarf" text="Так, калі гэты карак прыме {CULTURE_ADJECTIVE} традыцыі, трэба будзе ўвесьці наступнае: {INITIAL_POLICY_NAMES}."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_orc" text="То рабі!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_dwarf" text="Так і будзе. "/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_2_orc" text="Не. Лухта. Хачу іншае."/>
+  <string id="str_tor_governor_talk_kingdom_creation_culture_selected_player_reply_2_dwarf" text="Доўгабароды раяць мне трымацца іншых традыцыяў."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_orc" text="Як назавем наш ВАААГХ, бос?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_dwarf" text="Якое імя будзе мець гэтае новае гаспадарства?"/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_player_orc" text="Я назаву яго..."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_player_dwarf" text="Гэты карак будзе звацца..."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_response_orc" text="Я {?CONVERSATION_CHARACTER.GENDER}ўся{?}ўвесь{\?} шлухаю."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_response_dwarf" text="Я слухаю, працягвай."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_cancel_orc" text="Зараз нам для гэтага хлопцаў не хапае."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_cancel_dwarf" text="Трэба спытаць думку доўгабародаў. Адкладзем пастанову."/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_final_response_orc" text="Зялёным Ашчэрам Горка, вось яно! Кожная нікчэма будзе ведаць: {KINGDOM_NAME} усіх растопча!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_name_selection_final_response_dwarf" text="Запішыце ў кнігах: у гэты дзень заснаваны карак {KINGDOM_NAME}. Няхай стаіць яшчэ шмат стагодзьдзяў!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_finalization_orc" text="Вырашылі. А цяпер лупіцца й грабаваць!"/>
+  <string id="str_tor_governor_talk_kingdom_creation_finalization_dwarf" text="Так і будзе. Вядома, разам з новым каракам трэба замовіць і новы Дамаз Крон. "/>
+  <string id="str_tor_bandit_hideout_start_defender_orc" text="Шмат ты маіх хлопцаў {?PLAYER.GENDER}пасекла{?}пасек{\?}. Думаеш, {?PLAYER.GENDER}найвялікая й найлютая{?}найвялікі й найлюты{\?}?! Я пакажу, хто тут шамы вялікі й шамі люты. Толькі ты і я! "/>
+  <string id="str_tor_bandit_hideout_start_defender_dwarf" text="Аддаю належнае твайму майстэрству: шмат маіх Казакаў ты {?PLAYER.GENDER}паклала{?}паклаў{\?}. Можа, вырашым гэта сам-насам?"/>
+  <string id="str_tor_bandit_hideout_start_defender_1_orc" text="Давай, нікчэма! ВАААГХ!"/>
+  <string id="str_tor_bandit_hideout_start_defender_1_dwarf" text="Прыймаю твой выклік."/>
+  <string id="str_tor_bandit_hideout_start_defender_2_orc" text="Зь недаросткамі не луплюся. Сячыце іх усіх, хлопцы!"/>
+  <string id="str_tor_bandit_hideout_start_defender_2_dwarf" text="Лепей ужо біцца з Эльгі, чым з такім адкідам, як ты!"/>
+  <string id="str_tor_player_ask_to_claim_land_orc" text="{SETTLEMENT} цяпер маё месца."/>
+  <string id="str_tor_player_ask_to_claim_land_dwarf" text="Патрабую гэты карак для свайго клану."/>
+  <string id="str_tor_player_wants_to_make_peace_orc" text="Хопіць лупіцца... пакуль. Нам здабычу палічыць трэба, і хлопцам чопы лепшыя патрэбны."/>
+  <string id="str_tor_player_wants_to_make_peace_dwarf" text="Ужо праліта зашмат крыві. Нам трэба памірыцца."/>
+  <string id="str_tor_player_wants_to_make_peace_result_orc" text="Добра. Усё адно побач лепшыя бойкі!"/>
+  <string id="str_tor_player_wants_to_make_peace_result_dwarf" text="Каціце бонду Бугманавага, будзем сьвяткаваць мір!"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_orc" text="За тое, шо добра тых нікчэмаў {?PLAYER.GENDER}адлупіла{?}адлупіў{\?}, я цябе ўзнагароджу. Твае хлопцы могуць забраць гэтую зямлю. [Каштуе {VALUE} уплыву]"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_dwarf" text="Так. Я {?CONVERSATION_CHARACTER.GENDER}праглядзела{?}праглядзеў{\?} запісы тваёй службы. Ты {?PLAYER.GENDER}заслужыла{?}заслужыў{\?} права атрымаць гэтую зямлю ўва ўзнагароду."/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_ok_orc" text="Маё!"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_ok_dwarf" text="Тады я заяўляю на гэта права."/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_no_orc" text="Ты {?CONVERSATION_CHARACTER.GENDER}мусіла{?}мусіў{\?} адразу мне гэтую зямлю аддаць! Ты шчэ пабачыш!"/>
+  <string id="str_tor_player_ask_to_claim_land_answer_player_decision_no_dwarf" text="Разумею. Відаць, трэба зрабіць больш, каб заслужыць яе."/>
+  <string id="str_tor_player_prisoner_talk_let_go_orc" text="{?PLAYER.GENDER}Вырашыла{?}Вырашыў{\?} цябе адпусьціць. Але аглядайся..."/>
+  <string id="str_tor_player_prisoner_talk_let_go_dwarf" text="Ты {?CONVERSATION_CHARACTER.GENDER}білася{?}біўся{\?} з гонарам. Было б няправільна садзіць цябе за гэта ў вязьніцу."/>
+  <string id="str_tor_player_prisoner_talk_let_go_answer_orc" text="Ты {?PLAYER.GENDER}добрая дзяўчо{?}добры хлопец{\?}. На наштупны махач я вярнуся {?CONVERSATION_CHARACTER.GENDER}мацнейшай{?}мацнейшым{\?}!"/>
+  <string id="str_tor_player_prisoner_talk_let_go_answer_dwarf" text="Дзякую. Я гэтага не забуду. Нічога зь перажытага."/>
+  <string id="str_tor_hero_pretalk_2_orc" text="Шо шчэ маеш?"/>
+  <string id="str_tor_hero_pretalk_2_dwarf" text="Што яшчэ?"/>
+  <string id="str_tor_main_option_hostile_1_orc" text="Будзе во як!"/>
+  <string id="str_tor_main_option_hostile_1_dwarf" text="Слухай, {?CONVERSATION_CHARACTER.GENDER}дзяўчо{?}хлопча{\?}. Вось чаго я хачу."/>
+  <string id="str_tor_lord_predemand_orc" text="Га? Шо табе трэба?"/>
+  <string id="str_tor_lord_predemand_dwarf" text="Ага? Што такое, {?PLAYER.GENDER}дзяўчо{?}хлопча{\?}?"/>
+  <string id="str_tor_lord_ultimatum_orc" text="Здавайся мне, а то задушу!"/>
+  <string id="str_tor_lord_ultimatum_dwarf" text="Даю табе апошнюю магчымасьць скласьці зброю і здацца з гонарам. Іншы шлях табе вядомы."/>
+  <string id="str_tor_lord_forgive_me_orc" text="Э, забудзь, я проста {?PLAYER.GENDER}дурэла{?}дурэў{\?}."/>
+  <string id="str_tor_lord_forgive_me_dwarf" text="А, нуф. Забудзь пра гэта."/>
+  <string id="str_tor_lord_attack_orc" text="Хочаш махачу — рыхтуйся атрымаць!"/>
+  <string id="str_tor_lord_attack_dwarf" text="Што? Ты сур'ёзна? Вядзеш як вэрыт, а пахнеш як круці, таму дапушчу, што ты {?PLAYER.GENDER}сама ня свая{?}сам ня свой{\?}. "/>
+  <string id="str_tor_lord_attack_verify1_orc" text="Пачакай, гэта грыбное піва за мяне балбатала! Я не {?PLAYER.GENDER}хацела{?}хацеў{\?}!"/>
+  <string id="str_tor_lord_attack_verify1_dwarf" text="Так, я... Бугрыт, відаць, зашмат разоў галавой у шахтах {?PLAYER.GENDER}прыклалася{?}прыклаўся{\?}. "/>
+  <string id="str_tor_lord_attack_verify2_orc" text="То валі, нікчэма!"/>
+  <string id="str_tor_lord_attack_verify2_dwarf" text="Прэч. Зараз жа!"/>
+  <string id="str_tor_lord_attack_verify_b1_orc" text="Мне галаву перакруціла, вось лухту й вярзу."/>
+  <string id="str_tor_lord_attack_verify_b1_dwarf" text="Прабач, {?CONVERSATION_CHARACTER.GENDER}пані{?}пане{\?}. Я вярзу бязглузьдзіцу."/>
+  <string id="str_tor_lord_attack_verify_b2_orc" text="Зьбірайцеся, хлопцы! Рыхтуйцеся таптаць!"/>
+  <string id="str_tor_lord_attack_verify_b2_dwarf" text="КХАЗУК КХАЗУК КХАЗУК-ГА!"/>
+  <string id="str_tor_main_option_hostile_1_2_orc" text="Альбо здаесься, альбо дохнеш!"/>
+  <string id="str_tor_main_option_hostile_1_2_dwarf" text="Мы выйшлі ў паход, каб адпомсьціць табе за крыўды. Ці абыдзецца бяз бою — вырашаць табе."/>
+  <string id="str_tor_545_orc" text="Падохнем у махачы! ВАААААГХ!"/>
+  <string id="str_tor_545_dwarf" text="КХАЗУКАН КАЗАКІТ-ГА!"/>
+  <string id="str_tor_546_orc" text="Гэта ты здавацца будзеш!"/>
+  <string id="str_tor_546_dwarf" text="Не, я {?PLAYER.GENDER}прыйшла{?}прыйшоў{\?} зьвесьці рахункі за крыўды. Скарыся і плаці адшкодаваньне!"/>
+  <string id="str_tor_pay_off_minor_faction_option_orc" text="Гэй! Давай дамовімся, я бліскучкі маю!"/>
+  <string id="str_tor_pay_off_minor_faction_option_dwarf" text="Ці залагодзіць золата гэтую канкрэтную крыўду?"/>
+  <string id="str_tor_hero_task_given_orc" text="Пра тую штуку, шо я мушу зрабіць..."/>
+  <string id="str_tor_hero_task_given_dwarf" text="Пра тую працу, якую мне даручылі..."/>
+  <string id="str_tor_hero_task_given_alternative_orc" text="Пра тую штуку, шо я мушу зрабіць..."/>
+  <string id="str_tor_hero_task_given_alternative_dwarf" text="Пра тую працу, якую мне даручылі..."/>
+  <string id="str_tor_main_option_faction_hire_orc" text="Хочаш у маю банду?"/>
+  <string id="str_tor_main_option_faction_hire_dwarf" text="Ёсьць у табе нешта вартае. Можа, далучысься да мяне?"/>
+  <string id="str_tor_main_option_discussions_1_orc" text="Пусьці ў ВАААГХ!"/>
+  <string id="str_tor_main_option_discussions_1_dwarf" text="Прашу дазволу далучыцца да твайго тронгу."/>
+  <string id="str_tor_main_option_discussions_2_orc" text="Далучайся да ВАААГХ! ({INFLUENCE_COST}{INFLUENCE_ICON})"/>
+  <string id="str_tor_main_option_discussions_2_dwarf" text="Далучайся да майго тронгу, муказ. Ёсьць крыўды, за якія трэба адпомсьціць. ({INFLUENCE_COST}{INFLUENCE_ICON})"/>
+  <string id="str_tor_main_option_discussions_3_orc" text="Мне трэба сё-тое абгаварыць."/>
+  <string id="str_tor_main_option_discussions_3_dwarf" text="Нам трэба абмеркаваць сур'ёзныя справы."/>
+  <string id="str_tor_main_option_discussions_4_orc" text="Можа, ня будзем лупіцца... Можа, дамовімся, га?"/>
+  <string id="str_tor_main_option_discussions_4_dwarf" text="Разгледзь гэтую дамову, і абыдземся без крыві."/>
+  <string id="str_tor_547_orc" text="Ёсьць справы лепшыя, чым тут дурэць!"/>
+  <string id="str_tor_547_dwarf" text="У мяне ёсьць больш важныя справы, чым біцца тут."/>
+  <string id="str_tor_main_option_questions_1_orc" text="Ёсьць пытаньне."/>
+  <string id="str_tor_main_option_questions_1_dwarf" text="Маю пытаньне."/>
+  <string id="str_tor_main_option_prisoner_interaction_orc" text="Дай пабачыць твайго палоннага, ёсьць шо сказаць..."/>
+  <string id="str_tor_main_option_prisoner_interaction_dwarf" text="Мне трэба пагаварыць з тваім палонным."/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_1_orc" text="Ты? Ага, зараз, смаркач! Валі!"/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_1_dwarf" text="Нават разглядаць такое было б нягодна."/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_2_orc" text="Добра, зь кім хочаш пагаварыць?"/>
+  <string id="str_tor_main_option_prisoner_interaction_lord_answer_2_dwarf" text="Назаві імя палоннага."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_orc" text="Э, забудзь..."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_dwarf" text="Забудзь."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_answer_orc" text="Ну добра."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_cancel_answer_dwarf" text="Вядома."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_orc" text="Тху, як скажаш."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_dwarf" text="Добра, заходзь."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_2_orc" text="Э-э, валі ўжо."/>
+  <string id="str_tor_main_option_prisoner_interaction_list_prisoners_selected_2_dwarf" text="Дзякую."/>
+  <string id="str_tor_player_is_leaving_enemy_polite_orc" text="Мне трэба знайсьці добры махач, калі ты ня супраць!"/>
+  <string id="str_tor_player_is_leaving_enemy_polite_dwarf" text="Мне трэба сысьці."/>
+  <string id="str_tor_player_is_leaving_surrender_orc" text="Не нападайце! Мы здаёмся!"/>
+  <string id="str_tor_player_is_leaving_surrender_dwarf" text="Апусьціце зброю! Мы здаёмся."/>
+  <string id="str_tor_lord_talk_ask_something_orc" text="Гэй, шо хочаш?"/>
+  <string id="str_tor_lord_talk_ask_something_dwarf" text="Ага? Што такое?"/>
+  <string id="str_tor_lord_talk_ask_something_again_orc" text="Шо шчэ хочаш?"/>
+  <string id="str_tor_lord_talk_ask_something_again_dwarf" text="Штосьці яшчэ?"/>
+  <string id="str_tor_lord_talk_ask_something_2_3_orc" text="Якая ў цябе там справа была?"/>
+  <string id="str_tor_lord_talk_ask_something_2_3_dwarf" text="Нагадай мне пра свае ўчынкі."/>
+  <string id="str_tor_lord_talk_ask_something_2_4_orc" text="Ээ, забудзь..."/>
+  <string id="str_tor_lord_talk_ask_something_2_4_dwarf" text="Забудзь."/>
+  <string id="str_tor_hero_doesnt_have_quest_orc" text="Валі, няма табе нічога!"/>
+  <string id="str_tor_hero_doesnt_have_quest_dwarf" text="Цяпер мне нічога не патрэбна."/>
+  <string id="str_tor_liberate_hero_1_orc" text="{PLAYER.NAME}! Гэта ты? Ты мяне адпускаеш?"/>
+  <string id="str_tor_liberate_hero_1_dwarf" text="Гэта ты, {PLAYER.NAME}? Я {?CONVERSATION_CHARACTER.GENDER}вольная{?}вольны{\?}?"/>
+  <string id="str_tor_liberate_hero_2_orc" text="Шо? Я ўжо не ў клетцы?"/>
+  <string id="str_tor_liberate_hero_2_dwarf" text="Што гэта? Мяне вызвалілі?"/>
+  <string id="str_tor_liberate_hero_3_orc" text="Гэта я цябе выцягваю, нікчэма!"/>
+  <string id="str_tor_liberate_hero_3_dwarf" text="Так. Цябе вызвалілі з палону."/>
+  <string id="str_tor_liberate_hero_7_orc" text="Валі."/>
+  <string id="str_tor_liberate_hero_7_dwarf" text="Ты мне за гэта нічога ня {?CONVERSATION_CHARACTER.GENDER}вінная{?}вінны{\?}."/>
+  <string id="str_tor_liberate_hero_8_orc" text="Ты мне {?CONVERSATION_CHARACTER.GENDER}вінная{?}вінны{\?}!"/>
+  <string id="str_tor_liberate_hero_8_dwarf" text="Я нагадаю табе пра гэты доўг."/>
+  <string id="str_tor_liberate_hero_9_orc" text="Лепей не злаваць мяне, а то сквігам на корм аддам."/>
+  <string id="str_tor_liberate_hero_9_dwarf" text="Пад маёй апекай з табой будуць годна абыходзіцца."/>
+  <string id="str_tor_liberate_hero_10_orc" text="Вось як: няхай твае хлопцы нясуць кучу бліскучак, пакуль я цябе не {?PLAYER.GENDER}прырэзала{?}прырэзаў{\?}."/>
+  <string id="str_tor_liberate_hero_10_dwarf" text="Маўчы. Патрабую як мага хутчэй прынесьці за цябе выкуп."/>
+  <string id="str_tor_liberate_hero_11_orc" text="Не, зог яго, валі адсюль."/>
+  <string id="str_tor_liberate_hero_11_dwarf" text="Я {?PLAYER.GENDER}перадумала{?}перадумаў{\?}. Можаш ісьці на волю."/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_ally_enemy_no_orc" text="Гэй! Ты ж з {FACTION}, так? Тады ў клетку!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_ally_enemy_no_dwarf" text="Ты служыш {FACTION}. Таму будзеш {?CONVERSATION_CHARACTER.GENDER}маёй палоннай{?}маім палонным{\?}."/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_orc" text="Ты клопату ня {?CONVERSATION_CHARACTER.GENDER}вартая{?}варты{\?}, валі!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_dwarf" text="Сёньня я не вазьму цябе ў палон."/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_2_orc" text="Валі, нікчэма!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_player_yes_1_2_dwarf" text="Прэч з маіх вачэй."/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_yes_answer_orc" text="Ты {?PLAYER.GENDER}добрая дзяўчына{?}добры хлопец{\?}. Калі зноў сустрэнімся, пастараюся цябе хутка забіць."/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_yes_answer_dwarf" text="Калі б мы памяняліся месцамі, мае прысягі вымагалі б узяць цябе ў палон. І ўсё ж дзякую."/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_no_answer_orc" text="Ба, зог яго!"/>
+  <string id="str_tor_talk_common_to_lord_liberate_political_enemy_friend_no_answer_dwarf" text="Што ж, добра. Ведай: я таксама {?CONVERSATION_CHARACTER.GENDER}ўзяла б{?}ўзяў бы{\?} цябе ў палон, калі б ты {?PLAYER.GENDER}апынулася{?}апынуўся{\?} ў маёй уладзе."/>
+  <string id="str_tor_lord_barter_let_go_orc" text="Гэй! Давай дамовімся, я бліскучкі маю..."/>
+  <string id="str_tor_lord_barter_let_go_dwarf" text="Я {?PLAYER.GENDER}гатовая{?}гатовы{\?} заплаціць выкуп галем за свой праход."/>
+  <string id="str_tor_lord_barter_let_go_2_orc" text="Гэй! Можа, дамовімся?"/>
+  <string id="str_tor_lord_barter_let_go_2_dwarf" text="Можа, выкуп галем дазволіць нам разысьціся мірна."/>
+  <string id="str_tor_lord_considers_letting_player_go_2_orc" text="То паглядзім, шо маеш."/>
+  <string id="str_tor_lord_considers_letting_player_go_2_dwarf" text="Што ты прапаноўваеш?"/>
+  <string id="str_tor_barter_with_lord_postbarter_1_orc" text="Ну добра, валі адсюль!"/>
+  <string id="str_tor_barter_with_lord_postbarter_1_dwarf" text="Добра. Можаш ісьці."/>
+  <string id="str_tor_barter_with_lord_postbarter_2_orc" text="Ды гэта ж нічога, дурыла!"/>
+  <string id="str_tor_barter_with_lord_postbarter_2_dwarf" text="Гэтага мала."/>
+  <string id="str_tor_hero_barter_orc" text="Гэй! Шлухай сюды, ёсьць справа."/>
+  <string id="str_tor_hero_barter_dwarf" text="Прапаную заключыць дамову."/>
+  <string id="str_tor_lord_considers_barter_orc" text="Добра, шо хочаш?"/>
+  <string id="str_tor_lord_considers_barter_dwarf" text="Тады выкладай свае ўмовы."/>
+  <string id="str_tor_lord_refuses_barter_orc" text="Валі, у мяне шчэ зь мінулага разу галава баліць!"/>
+  <string id="str_tor_lord_refuses_barter_dwarf" text="Я яшчэ абдумваю вынікі нашай мінулай угоды."/>
+  <string id="str_tor_lord_ask_ruling_philosophy_orc" text="Шо думаеш пра племя?"/>
+  <string id="str_tor_lord_ask_ruling_philosophy_dwarf" text="Што ты думаеш пра палітыку?"/>
+  <string id="str_tor_lord_ruling_philosophy_long_start_orc" text="Няма табе лепшай справы? Добра, слухай сюды..."/>
+  <string id="str_tor_lord_ruling_philosophy_long_start_dwarf" text="Тады слухай..."/>
+  <string id="str_tor_lord_considers_barter_2_orc" text="Слухаю цябе."/>
+  <string id="str_tor_lord_considers_barter_2_dwarf" text="Я цябе слухаю."/>
+  <string id="str_tor_lord_refuses_barter_2_orc" text="Мае гобы шчэ словы мінулай дамовы запісваюць, валі!"/>
+  <string id="str_tor_lord_refuses_barter_2_dwarf" text="Мы яшчэ падлічваем вынікі нашай апошняй дамовы."/>
+  <string id="str_tor_lord_considers_army_orc" text="Доўга ж ты {?PLAYER.GENDER}зьбіралася{?}зьбіраўся{\?}! Пайшлі!"/>
+  <string id="str_tor_lord_considers_army_dwarf" text="Выдатна. Ідзіце за намі."/>
+  <string id="str_tor_lord_considers_joining_player_army_orc" text="Спадзяюся, у цябе добры махач на прыкмеце!"/>
+  <string id="str_tor_lord_considers_joining_player_army_dwarf" text="Тады — аднавіць справядлівасьць. Мы пойдзем за табой."/>
+  <string id="str_tor_lord_responds_to_changing_sides_orc" text="Гэта важна, пачакай!"/>
+  <string id="str_tor_lord_responds_to_changing_sides_dwarf" text="Мне трэба шмат чаго абдумаць."/>
+  <string id="str_tor_barter_decision_refuses_2_orc" text="Час здохнуць, нікчэма!"/>
+  <string id="str_tor_barter_decision_refuses_2_dwarf" text="Час выкрэсьліваць крыўды і сячы вашыя галовы!"/>
+  <string id="str_tor_ally_thanks_meet_orc" text="Гэй! Мяне завуць {PLAYER.NAME}."/>
+  <string id="str_tor_ally_thanks_meet_dwarf" text="Я {PLAYER.NAME}."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_capture_orc" text="Варушыся, зараз у клетку заганю!"/>
+  <string id="str_tor_talk_lord_defeat_to_lord_capture_dwarf" text="Цяпер ты будзеш {?CONVERSATION_CHARACTER.GENDER}маёй палоннай{?}маім палонным{\?}."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_noncom_orc" text="Ты ніхто, валі адсюль."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_noncom_dwarf" text="Я не бяру ў палон безабаронных. Можаш ісьці."/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_orc" text="Ты клопату ня {?CONVERSATION_CHARACTER.GENDER}вартая{?}варты{\?}, валі!"/>
+  <string id="str_tor_talk_lord_defeat_to_lord_release_dwarf" text="Я паважаю тваю моц і гонар. Можаш ісьці."/>
+  <string id="str_tor_talk_lord_freed_to_lord_capture_orc" text="Хітра! Але пойдзеш са мной."/>
+  <string id="str_tor_talk_lord_freed_to_lord_capture_dwarf" text="Твая свабода пачакае. Цяпер ты будзеш {?CONVERSATION_CHARACTER.GENDER}маёй палоннай{?}маім палонным{\?}."/>
+  <string id="str_tor_talk_lord_freed_to_lord_release_orc" text="Валі, пакуль я не {?PLAYER.GENDER}перадумала{?}перадумаў{\?}, смаркач."/>
+  <string id="str_tor_talk_lord_freed_to_lord_release_dwarf" text="Добра, можаш ісьці на свабоду. Раю скарыстацца."/>
+  <string id="str_tor_talk_defeated_lord_capture_return_orc" text="Зог яго, гэта дрэнна..."/>
+  <string id="str_tor_talk_defeated_lord_capture_return_dwarf" text="Гэта будзе крыўда.[if:convo_beaten]"/>
+  <string id="str_tor_talk_freed_lord_capture_return_orc" text="Маліся, каб здохнуць раней, чым я цябе знайду, смаркач!"/>
+  <string id="str_tor_talk_freed_lord_capture_return_dwarf" text="Ня думай, што мой народ не запатрабуе адказаць за гэта! [if:convo_furious][ib:agressive]"/>
+  <string id="str_tor_talk_freed_lord_release_return_orc" text="{?PLAYER.GENDER}Файная дзяўчо{?}Файны хлопец{\?}! Калі наштупным разам злаўлю — хутка заб'ю. Ну, замешт таго каб сквігам на корм аддаць..."/>
+  <string id="str_tor_talk_freed_lord_release_return_dwarf" text="Пра твой гонар складаюць паданьні. Я не забуду гэтага ўчынку."/>
+  <string id="str_tor_lord_request_mission_ask_orc" text="Вось якая справа, {PLAYER.NAME}: я {?CONVERSATION_CHARACTER.GENDER}паабяцала{?}паабяцаў{\?} {FACTION_LEADER} набраць хлопцаў для махачоў. Можа, ты замест мяне гэта зробіш?"/>
+  <string id="str_tor_lord_request_mission_ask_dwarf" text="Я {?CONVERSATION_CHARACTER.GENDER}паабяцала{?}паабяцаў{\?} {FACTION_LEADER} здабыць яшчэ сякераў і дастаткова даві, каб іх трымаць. Зрэшты, умгі таксама падыдуць. У любым разе, ты, {PLAYER_NAME}, і твая кампанія выглядаеце прыдатнымі для гэтай справы."/>
+  <string id="str_tor_lord_mercenary_service_not_interested_orc" text="Зог яго! Мала плаціш!"/>
+  <string id="str_tor_lord_mercenary_service_not_interested_dwarf" text="Пры ўсёй павазе — не. "/>
+  <string id="str_tor_lord_mercenary_service_join_orc" text="Добра! Плаці бліскучкі, і буду для {FACTION_NAME} забіваць каго скажаш."/>
+  <string id="str_tor_lord_mercenary_service_join_dwarf" text="Дай яшчэ раз прагледжу дамову... Здаецца, усё ў парадку. Я і мой тронг далучымся да {FACTION_NAME}."/>
+  <string id="str_tor_lord_mercenary_service_tell_me_more_orc" text="Слухаю, шо там?"/>
+  <string id="str_tor_lord_mercenary_service_tell_me_more_dwarf" text="Ты маеш маю ўвагу. Раскажы больш, і я вырашу, ці атрымаеш ты яшчэ й маю сякеру."/>
+  <string id="str_tor_lord_mercenary_service_accept_verify_orc" text="Добра, я табе шапраўдныя бліскучкі плачу і добрую здабычу дазваляю браць. То лупіся за {FACTION_NAME} ня менш за тры месяцы, а то рукі паадрываю!"/>
+  <string id="str_tor_lord_mercenary_service_accept_verify_dwarf" text="Вядома. Каб стаць {?PLAYER.GENDER}найміткай{?}наймітам{\?}, ты мусіш падпісаць гэтую абавязковую дамову з {FACTION_NAME}. Спачатку дзейнічае трохмесячны выпрабавальны тэрмін. Пасьля яго любы з бакоў можа скасаваць дамову."/>
+  <string id="str_tor_lord_mercenary_service_verify_accept_orc" text="Дайшло, бос. Пакажы — раздушу!"/>
+  <string id="str_tor_lord_mercenary_service_verify_accept_dwarf" text="{?PLAYER.GENDER}Згодная{?}Згодны{\?}. Твае крыўды цяпер мае, і я буду ставіцца да іх з усёй суровасьцю."/>
+  <string id="str_tor_lord_mercenary_service_verify_reject_orc" text="Не, гэта тупа, у зог яго!"/>
+  <string id="str_tor_lord_mercenary_service_verify_reject_dwarf" text="Пакуль мушу адмовіцца."/>
+  <string id="str_tor_lord_mercenary_service_verify_2_orc" text="Разумна {?PLAYER.GENDER}зрабіла{?}зрабіў{\?}. Лупіся з намі — пабачыш столькі здабычы й бліскучак, колькі ніколі ня {?PLAYER.GENDER}бачыла{?}бачыў{\?}!"/>
+  <string id="str_tor_lord_mercenary_service_verify_2_dwarf" text="Цудоўна. Падпішы тут, тут і тут. Плата пазначаная ў дамове, але добрай працай можаш заслужыць крыху больш."/>
+  <string id="str_tor_lord_mercenary_service_accept_3_orc" text="Цяпер набяры хлопцаў і дай ім сапраўднае жалеза! Да наступнага махачу мусіш быць {?PLAYER.GENDER}гатовая{?}гатовы{\?}."/>
+  <string id="str_tor_lord_mercenary_service_accept_3_dwarf" text="Цяпер рыхтуй тронг, тачы сталь і навучай суродзічаў. Калі паклічу твае сьцягі, чакаю, што выступіш без затрымкі."/>
+  <string id="str_tor_lord_mercenary_service_reject_orc" text="Тады нашто мой час марнуеш?! Пашанцавала, шо я ў добрым настроі. Валі!"/>
+  <string id="str_tor_lord_mercenary_service_reject_dwarf" text="Гмм, тыпова для вашага брата. {FACTION_NAME} прапаноўвае найсумленьнейшыя ўмовы ў гэтых гарах. Пашукай нешта лепшае, калі здолееш. "/>
+  <string id="str_tor_lord_mercenary_elaborate_pay_orc" text="То вось як: тры месяцы лупісься за мяне і племя. Потым працягваеш кожны месяц. Калі не здурэеш і пагодзісься, адразу атрымаеш {OFFER_VALUE}{GOLD_ICON}. Потым {FACTION_LEADER} раз на колькі дзён дае бліскучкі за тваю банду хлопцаў. А самае добрае — пасьля добрых махачоў табе доля здабычы й рабоў! Звычайным хлопцам такога не даюць, каб ты {?PLAYER.GENDER}знала{?}знаў{\?}."/>
+  <string id="str_tor_lord_mercenary_elaborate_pay_dwarf" text="Умовы такія: ты аддаеш сваіх ваяроў нашай справе на тры месяцы, а далей пры патрэбе падаўжаем штомесяц. На замацаваньне ўгоды адразу атрымаеш {OFFER_VALUE}{GOLD_ICON}. Потым {FACTION_LEADER} штотыдзень плаціць паводле моцы тваёй кампаніі. Здабыча з поля бою і палонныя — твае, хаця нашыя рэліквіі трэба вярнуць назад. Напоўніш свае куфры, ня бойся, {?PLAYER.GENDER}дзяўчо{?}хлопча{\?}."/>
+  <string id="str_tor_lord_mercenary_service_elaborate_duty_orc" text="Няўжо не дайшло? Лупіш нашых ворагаў і робіш усё, шо загадваем! І калі мы кажам, шо лупімся, ты таксама лупішся з тым, з кім трэба. Без пытаньняў!"/>
+  <string id="str_tor_lord_mercenary_service_elaborate_duty_dwarf" text="Абавязкі... усяго некалькі, і ад ніводнага дварф нават не спацее! Спачатку прысягаеш нам. Сапраўдная прысяга нашай справе, барадой і ўсім астатнім! Як словы прамоўленыя — бярэшся за працу. Ідзеш з тронгам, слухаесься загадаў танаў і, галоўнае, прымушаеш нашых ворагаў заплаціць за крыўды, дзе б яны ні хаваліся."/>
+  <string id="str_tor_lord_mercenary_elaborate_duty_orc" text="То шо мне рабіць, калі я буду з вамі?"/>
+  <string id="str_tor_lord_mercenary_elaborate_duty_dwarf" text="Дык які пералік абавязкаў у найманай сякеры?"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_orc" text="А свае фартэцы атрымаю?"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_dwarf" text="Калі я захаплю замак ці моцную чалавечую цьвердзь, ці застанецца яна мне?"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_orc" text="Мае колеры добрыя. Можна іх пакінуць?"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_dwarf" text="Ці будуць над маімі хлопцамі лунаць сьцягі майго клану? "/>
+  <string id="str_tor_lord_mercenary_elaborate_wage_orc" text="А шо там з бліскучкамі за гэта?"/>
+  <string id="str_tor_lord_mercenary_elaborate_wage_dwarf" text="Пра колькі клятвеннага золата гаворка?"/>
+  <string id="str_tor_lord_mercenary_elaborate_accept_orc" text="Давай! Буду {?PLAYER.GENDER}вашай дзяўчой{?}вашым хлопцам{\?}!"/>
+  <string id="str_tor_lord_mercenary_elaborate_accept_dwarf" text="Лічы, што дамовіліся. Мая сякера твая, пакуль ты трымаесься ўгоды."/>
+  <string id="str_tor_lord_mercenary_elaborate_reject_orc" text="Не, зог яго."/>
+  <string id="str_tor_lord_mercenary_elaborate_reject_dwarf" text="Тху, такія ўмовы мяне не цікавяць."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_to_women_orc" text="Не, дурыла! Фартэцы толькі вайнабосам! Ты проста {?PLAYER.GENDER}дзяўчо{?}хлопец{\?}: табе бліскучкі, здабыча й болей нічога! Зраблю цябе босам — тады пра фартэцы й пагаворым..."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_to_women_dwarf" text="Цьвярдыні дастаюцца тым, хто зьвязаны з нашым каланам. Мы жывём паводле звычаяў Продкаў: кіруюць хлопцы, а ня дзеўкі. Хай лепей Газул мяне забярэ, чым я гэта зьмяню! Але калі давядзеш сваю вартасьць у баі з нашымі ворагамі, я прыму тваю прысягу вернасьці, і ты станеш {?PLAYER.GENDER}маёй васалкай{?}маім васалам{\?}. Тады, можа, й здабудзеш сабе цьвярдыню."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_to_women_orc" text="Дурное пытаньне. Фартэцы дастаюцца толькі вайнабосам, як я! Хошаш фартэцу — ідзі да {FACTION_LEADER}. Зробіць сабе босам — атрымаеш фартэцы!"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_to_women_dwarf" text="Толькі {FACTION_LEADER} вырашае, хто заслужыў цьвярдыню з навакольнымі землямі. Змагаючыся з нашымі ворагамі, ты можаш заслужыць прыхільнасьць, але... Наш рык трымаецца старых звычаяў і ня дасьць дзяўчыне таго, што ёй не належыць. Лепей пагавары пра гэта непасрэдна з {FACTION_LEADER}."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_orc" text="Не, нікчэма! Фартэцы толькі вайнабосам! Ты проста {?PLAYER.GENDER}дзяўчо{?}хлопец{\?}: табе бліскучкі, здабыча й болей нічога! Зраблю цябе босам — тады пра фартэцы й пагаворым..."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_faction_owner_dwarf" text="Найміты верныя сваім гаманцам, яны ня годныя кіраваць. Ваюй за мяне, давядзі мне сваю вартасьць — і складзеш сапраўдную прысягу. Тады атрымаеш мястэчка."/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_orc" text="Дурное пытаньне. Фартэцы дастаюцца толькі буйнабосам, як я! Хочаш фартэцу — ідзі да {FACTION_LEADER}. Зробіць цябе вайнабосам — атрымаеш фартэцу!"/>
+  <string id="str_tor_lord_mercenary_elaborate_castle_answer_dwarf" text="Толькі таны нашага рыка могуць мець свае воласьці. Найміт мала чым лепшы за бандыта, настолькі давяраць табе нельга. Давядзі сваю вартасьць, забівай нашых ворагаў — і, можа, складзеш сапраўдную прысягу {FACTION_LEADER} ды станеш адным з танаў. Тады й атрымаеш воласьць, але не раней!"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_faction_owner_orc" text="Нікчэма! За мяне лупішся — мае колеры носіш! Яны й так лепшыя за твае. Зраблю цябе вайнабосам — тады будзеш са сваімі хадзіць. Толькі так."/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_faction_owner_dwarf" text="Пакуль я табе плачу, ты носіш мае сьцягі. Толькі мае таны заслужылі права ўздымаць свае. Паваюй за нас, зьвяжы сябе са мной сапраўдным баразам — тады й уздымеш уласныя сьцягі. "/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_orc" text="Не, свае колеры могуць насіць толькі вайнабосы. Чаму? Бо {FACTION_LEADER} так кажа! Калі далучысься — спачатку будзеш чужыя колеры насіць!"/>
+  <string id="str_tor_lord_mercenary_elaborate_banner_answer_dwarf" text="Толькі таны {FACTION_LEADER} могуць несьці ўласны сьцяг. Ты — не. Паслужы нам, і, магчыма, атрымаеш права прысягнуць на вернасьць {FACTION_LEADER}. Калі ён стане тваім рыкам, тады ўздымеш свае сьцягі."/>
+  <string id="str_tor_lord_tell_mission_sworn_vassal_1_orc" text="Калі мне што ад вайнабоса спатрэбіцца, скажу!"/>
+  <string id="str_tor_lord_mission_destroy_bandit_lair_start_orc" text="Гэй! Тут смаркачы завяліся, завуць сябе {s4}. Нападзі на іх лагер і ўсіх забі, надакучылі!"/>
+  <string id="str_tor_convince_begin_orc" text="Дурнота гэта. Чаму б проста цябе не прырэзаць?"/>
+  <string id="str_tor_convince_options_bribe_orc" text="Зараз пакажу, шо да чаго. Вось бліскучкі! (-{BRIBE_MONEY}{GOLD_ICON})"/>
+  <string id="str_tor_convince_options_friendship_orc" text="Мы ж ужо адзін аднаго прыкрывалі! (-{RELATION_DECREASE} да адносінаў)"/>
+  <string id="str_tor_convince_options_persuasion_orc" text="Гэй, слухай сюды... (Перакананьне)"/>
+  <string id="str_tor_convince_options_give_up_orc" text="Э, забудзь..."/>
+  <string id="str_tor_convince_options_give_up_dwarf" text="Забудзь."/>
+  <string id="str_tor_convince_bribe_orc" text="Ад новых бліскучак я заўжды ўсьміхаюся. Буду з табой, калі аддасі {BRIBE_MONEY}{GOLD_ICON}."/>
+  <string id="str_tor_convince_bribe_cant_afford_orc" text="Гэта тупа! Ня маю столькі!"/>
+  <string id="str_tor_convince_bribe_verify_orc" text="Добра, трымай {BRIBE_MONEY}{GOLD_ICON}, прагная нікчэма."/>
+  <string id="str_tor_convince_bribe_reconsider_orc" text="Дай падумаць."/>
+  <string id="str_tor_convince_bribe_cant_afford_response_orc" text="Дурыла, нашто мой час марнуеш?!"/>
+  <string id="str_tor_convince_bribe_verify_response_orc" text="Сапраўдныя бліскучкі, люблю такое, {PLAYER.NAME}! Добра, падтрымаю твой план."/>
+  <string id="str_tor_convince_friendship_orc" text="Ага, было такое. Таму зноў падтрымаю, {PLAYER.NAME}. Але так працягнеш — больш ня буду!"/>
+  <string id="str_tor_convince_friendship_verify_positive_orc" text="Ды кінь, смаркач! Падтрымай мяне!"/>
+  <string id="str_tor_convince_friendship_verify_negative_orc" text="Так не хачу. Давай лепей іншае прапаную..."/>
+  <string id="str_tor_convince_friendship_go_on_orc" text="Добра. Але ты мне {?PLAYER.GENDER}вінная{?}вінны{\?}, дайшло?!"/>
+  <string id="str_tor_convince_friendship_lord_response_no_orc" text="Шо ты вярзеш, дурыла? Ідзі са сваёй лухтой!"/>
+  <string id="str_tor_convince_friendship_lord_response_angry_orc" text="Пашанцавала табе, шо я сёньня {?CONVERSATION_CHARACTER.GENDER}добрая{?}добры{\?}, {PLAYER.NAME}. З такімі словамі лепей валі, пакуль не {?PLAYER.GENDER}раззлавала{?}раззлаваў{\?}!"/>
+  <string id="str_tor_lord_generic_mission_accept_orc" text="Я з гэтым разьбяруся, пабачыш."/>
+  <string id="str_tor_lord_generic_mission_reject_orc" text="Не, ня буду."/>
+  <string id="str_tor_lord_generic_mission_accepted_orc" text="Добра, {PLAYER.NAME}. Зрабі гэта!"/>
+  <string id="str_tor_lord_generic_mission_rejected_orc" text="Дурыла, так і {?CONVERSATION_CHARACTER.GENDER}знала{?}знаў{\?}, шо ты недастаткова {?PLAYER.GENDER}моцная{?}моцны{\?}. Знайду каго мацнейшага!"/>
+  <string id="str_tor_lord_tell_mission_no_quest_orc" text="Адвалі, няма для цябе нічога."/>
+  <string id="str_tor_player_threats_lord_verify_orc" text="Ты {?CONVERSATION_CHARACTER.GENDER}глухая{?}глухі{\?}? Час лупіцца, смаркач!"/>
+  <string id="str_tor_player_verify_attack_on_enemy_lord_orc" text="Ты {?CONVERSATION_CHARACTER.GENDER}дурная{?}дурны{\?}? Кажу ж, час лупіцца!"/>
+  <string id="str_tor_player_cancels_attack_on_enemy_lord_orc" text="Ты турботаў ня {?CONVERSATION_CHARACTER.GENDER}вартая{?}варты{\?}, прэч адсюль!"/>
+  <string id="str_tor_player_cancels_attack_on_enemy_respond_orc" text="Я іду!"/>
+  <string id="str_tor_lord_tell_gathering_player_answer_orc" text="Пусьці мяне ў гэты ВАААГХ!"/>
+  <string id="str_tor_lord_tell_gathering_player_answer_2_orc" text="Добрая справа!"/>
+  <string id="str_tor_lord_tell_gathering_player_joined_orc" text="Сабяром хлопцаў у {GATHERING_SETTLEMENT} і рушым!"/>
+  <string id="str_tor_lord_ask_pardon_answer_bad_relation_orc" text="Не, пасьля ўсяго, шо ты {?PLAYER.GENDER}нарабіла{?}нарабіў{\?}? Буду табе рукі па адной адрываць, нікчэма."/>
+  <string id="str_tor_lord_ask_pardon_answer_low_right_to_rule_orc" text="Ты толькі трэніроўка для маіх хлопцаў, смаркач. Будзь добрым пудзілам — і да махачу!"/>
+  <string id="str_tor_lord_ask_pardon_answer_no_advantage_orc" text="Нашто, калі магу забіць цябе проста цяпер, нікчэма?!"/>
+  <string id="str_tor_lord_ask_pardon_answer_not_accepted_orc" text="Не, ня думаю! Працягнем лупіцца!"/>
+  <string id="str_tor_lord_ask_pardon_answer_accepted_orc" text="Пашанцавала табе: дагэтуль добры настрой ад таго смачнага сквіга, шо я {?CONVERSATION_CHARACTER.GENDER}зжэрла{?}зжор{\?}. Даю шорак дзён. Глядзі, каб потым не давялося шкадаваць!"/>
+  <string id="str_tor_952_orc" text="То шорак дзён! Калі схлусіш — жубы павыбіваю."/>
+  <string id="str_tor_953_orc" text="Не, гэта тупа! Давай далей біцца!"/>
+  <string id="str_tor_1175_orc" text="Навошта, ты мой час {?PLAYER.GENDER}марнавала{?}марнаваў{\?}? Зог яго, выкладвай, шо маеш. Але я ўжо злуюся!"/>
+  <string id="str_tor_lord_meet_player_as_liege_response_orc" text="То шо табе трэба?!"/>
+  <string id="str_tor_lord_in_main_party_meet_player_response_orc" text="Ага, ага. Паглядзім, чаго ты {?CONVERSATION_CHARACTER.GENDER}вартая{?}варты{\?}!"/>
+  <string id="str_tor_lord_meet_player_response1_orc" text="Маё імя {PLAYER.NAME}. А ты хто?!"/>
+  <string id="str_tor_lord_meet_player_response2_orc" text="Мяне клічуць {PLAYER.NAME}. Сваё імя скажаш ці шо?"/>
+  <string id="str_tor_lord_meet_player_response3_orc" text="Я {PLAYER.NAME}, і я бос гэтай банды!"/>
+  <string id="str_tor_hero_ask_4_orc" text="То шо табе трэба?"/>
+  <string id="str_tor_hero_ask_4_dwarf" text="Ай, што такое?"/>
+  <string id="str_tor_player_is_requesting_enemy_change_sides_orc" text="Твой бос — нікчэмны недаростак! Мо будзеш лупіцца за кагосьці буйнейшага й мацнейшага?!"/>
+  <string id="str_tor_player_is_requesting_enemy_change_sides_dwarf" text="Я {?PLAYER.GENDER}прыйшла{?}прыйшоў{\?} паведаміць, што твой гаспадар жорстка цябе пакрыўдзіў, {FIRST_NAME}."/>
+  <string id="str_tor_player_is_requesting_neutral_change_sides_orc" text="Чаму ты ўвогуле за свайго боса лупішся?"/>
+  <string id="str_tor_player_is_requesting_neutral_change_sides_dwarf" text="Ці ведаеш ты пра крыўды, якія ўчыніў табе твой гаспадар, {FIRST_NAME}?"/>
+  <string id="str_tor_player_suggesting_treason_orc" text="Шо ўвогуле думаеш пра боса?"/>
+  <string id="str_tor_player_suggesting_treason_dwarf" text="Ці ведаеш ты пра крыўды, якія ўчыніў табе наш гаспадар, {FIRST_NAME}?"/>
+  <string id="str_tor_persuasion_leave_faction_npc_refuse_high_negative_score_orc" text="Адвалі! Мой бос шамі вялікі й шамі моцны!"/>
+  <string id="str_tor_persuasion_leave_faction_npc_refuse_high_negative_score_dwarf" text="Твой намёк — абраза! Яшчэ слова, і я таксама палічу гэта крыўдай."/>
+  <string id="str_tor_persuasion_leave_faction_npc_redirected_orc" text="Табе трэба да {REDIRECT_HERO_RELATIONSHIP}, бо за мяне думае ён."/>
+  <string id="str_tor_persuasion_leave_faction_npc_redirected_dwarf" text="{REDIRECT_HERO_RELATIONSHIP} узначальвае наш клан. Толькі гэтая асоба мае права весьці такія размовы."/>
+  <string id="str_tor_persuasion_leave_faction_npc_answer_orc" text="Ага? Гэта як? [if:convo_thinking]"/>
+  <string id="str_tor_persuasion_leave_faction_npc_answer_dwarf" text="Перастань гаварыць як эльгі й кажы прамы. [if:convo_thinking]"/>
+  <string id="str_tor_lord_ask_recruit_next_reservation_success_with_barter_orc" text="Добра, добра! Падумаю пра гэта."/>
+  <string id="str_tor_lord_ask_recruit_next_reservation_success_with_barter_dwarf" text="Гэта сур'ёзнае абвінавачаньне. Але калі гэта праўда, абавязак адпомсьціць за крыўду вызваляе мяне ад прысягаў вернасьці."/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_orc" text="То хочаш, каб я боса {?CONVERSATION_CHARACTER.GENDER}кінула{?}кінуў{\?}? За такое трэба сапраўдная здабыча й бліскучкі. Можа, нават фартэца..."/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_dwarf" text="Але іншым, бясспрэчна, будзе цяжка з гэтым пагадзіцца. Мне спатрэбяцца падтрымка і сродкі, каб ажыцьцявіць адплату за крыўду. Іначай майму клану давядзецца чакаць лепшага часу."/>
+  <string id="str_tor_lord_defection_post_barter_s_orc" text="Давай! Усе гэтыя нажы ў сьпіну маладосьць нагадваюць. Аж унутры цёпла!"/>
+  <string id="str_tor_lord_defection_post_barter_s_dwarf" text="Гэтага досыць. Што ж, прыйшоў час адпомсьціць за гэтую крыўду!"/>
+  <string id="str_tor_lord_defection_post_barter_f_orc" text="Мала! Толькі мой час марнуеш! Валі, пакуль я тваю галаву босу не {?CONVERSATION_CHARACTER.GENDER}прынесла{?}прынёс{\?}!"/>
+  <string id="str_tor_lord_defection_post_barter_f_dwarf" text="Для гэтай справы тваёй прапановы недастаткова. Прэч! Мы адпомсьцім за крыўду па-свойму."/>
+  <string id="str_tor_lord_ask_recruit_argument_no_answer_orc" text="Тупа гаворыш!"/>
+  <string id="str_tor_lord_ask_recruit_argument_no_answer_dwarf" text="Мне няма чаго на гэта адказаць."/>
+  <string id="str_tor_lord_propose_marriage_conv_general_proposal_3_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_lord_propose_marriage_conv_general_proposal_3_dwarf" text="Забудзь."/>
+  <string id="str_tor_lord_start_courtship_response_player_offer_nevermind_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_lord_start_courtship_response_player_offer_nevermind_dwarf" text="Забудзь."/>
+  <string id="str_tor_hero_courtship_persuasion_start_orc" text="Вядома, мая салодкая крошка, давай пазнаёмімся бліжэй."/>
+  <string id="str_tor_hero_courtship_persuasion_success_orc" text="Крошка, у нас так шмат агульнага, крошка."/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_1_orc" text="Крошка, пагаворым шчэ, калі зноў сустрэнімся."/>
+  <string id="str_tor_hero_courtship_persuasion_2_start_orc" text="Крошка, не магу пераштаць думаць пра цябе."/>
+  <string id="str_tor_hero_courtship_persuasion_2_success_orc" text="Так, крошка, давай пажэнімся."/>
+  <string id="str_tor_persuasion_leave_faction_npc_result_success_2_3_orc" text="Маё золата — маё золата, а тваё золата — наша золата."/>
+  <string id="str_tor_lord_propose_marriage_conv_general_proposal_response_orc" text="Адну руку, калі ласка."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_dwarf" text="Забудзь."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_2_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_2_dwarf" text="Забудзь."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_3_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_lord_propose_marriage_conv_nevermind_3_dwarf" text="Забудзь."/>
+  <string id="str_tor_mercenary_recruit_start_orc" text="Гэй! Хлопцы патрэбны? Мы наймоцныя хлопцы навакольлі! {?PLURAL}{MERCENARY_COUNT} гатовы рэзаць і лупіць за цябе! Толькі дай бліскучкі, усяго {GOLD_AMOUNT}{GOLD_ICON}."/>
+  <string id="str_tor_mercenary_recruit_start_single_orc" text="Гэй! Шукаю боса, які знае, шо да чаго! Дай {GOLD_AMOUNT}{GOLD_ICON} — і заб'ю каго хочаш."/>
+  <string id="str_tor_mercenary_recruit_accept_orc" text="Усе да мяне! Вось {GOLD_AMOUNT}{GOLD_ICON}! Ходзьма!"/>
+  <string id="str_tor_mercenary_recruit_accept_some_orc" text="Мне толькі {MERCENARY_COUNT} найлепшых з вас. Вось {GOLD_AMOUNT}{GOLD_ICON}."/>
+  <string id="str_tor_mercenary_recruit_reject_gold_orc" text="Валі, ты таго ня {?CONVERSATION_CHARACTER.GENDER}вартая{?}варты{\?}!"/>
+  <string id="str_tor_mercenary_recruit_reject_orc" text="Валі, у бандзе месцаў няма!"/>
+  <string id="str_tor_mercenary_recruit_start_2_orc" text="Толькі грог забяру — і мы тут!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_or_vassal_orc" text="Шукаеш хлопцаў для {FACTION_SERVICE_TERM}? Вось я, сапраўды {?PLAYER.GENDER}моцная дзяўчына{?}моцны хлопец{\?}!"/>
+  <string id="str_tor_player_want_to_end_mercenary_service_orc" text="Надакучыла за {SERVED_FACTION} лупіцца! Я звальваю!"/>
+  <string id="str_tor_player_want_to_end_mercenary_service_response_orc" text="Добра! Валі, ты й так {?PLAYER.GENDER}была смаркачкай{?}быў смаркачом{\?}!"/>
+  <string id="str_tor_lord_ask_exit_service_confirm_orc" text="Тады зог яго!"/>
+  <string id="str_tor_lord_ask_exit_service_confirm_no_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_lord_ask_exit_service_confirm_no_dwarf" text="Забудзь."/>
+  <string id="str_tor_lord_ask_exit_service_confirm_final_orc" text="Калі калісьці станеш {?PLAYER.GENDER}мацнейшай{?}мацнейшым{\?}, знаеш, дзе мяне знайсьці. Хаця, думаю, раней здохнеш."/>
+  <string id="str_tor_player_want_to_hire_mercenary_orc" text="Гэй! Далучайся да {PLAYER_FACTION}! Нам шчэ махачы выйграваць!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_orc" text="Больш ты не {?CONVERSATION_CHARACTER.GENDER}патрэбная{?}патрэбны{\?}, валі!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_paying_debt_orc" text="Але пачакай. Ты нам шчэ бліскучкі {?PLAYER.GENDER}вінная{?}вінны{\?}. Плаці {GOLD_AMOUNT}{GOLD_ICON}, дайшло?"/>
+  <string id="str_tor_player_want_to_fire_mercenary_okay_orc" text="Думаю, ты будзеш шкадаваць, калі іншыя босы нам заплацяць."/>
+  <string id="str_tor_player_want_to_fire_mercenary_not_paying_debt_orc" text="О, вось цяпер ты сапраўдную дурасьць {?PLAYER.GENDER}учыніла{?}учыніў{\?}!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_there_is_debt_accept_payment_orc" text="Добра, бяры бліскучкі."/>
+  <string id="str_tor_player_want_to_fire_mercenary_there_is_debt_reject_payment_orc" text="Валіце, вы лупіліся як куча смаркачоў!"/>
+  <string id="str_tor_player_want_to_fire_mercenary_there_is_debt_think_again_orc" text="Дай падумаць..."/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_reject_orc" text="Да цябе? Думаеш, я {?CONVERSATION_CHARACTER.GENDER}дурная{?}дурны{\?}?! Валі!"/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_reject_poor_orc" text="Табе на нас не хапае, жабрацкая нікчэма!"/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_orc" text="Табе трэба да {LEADER.LINK}, гэта наш бос."/>
+  <string id="str_tor_player_ask_mercenary_to_join_response_2_orc" text="Добра, мы гатовы за цябе лупіцца. Але плаці бліскучкі. Вось шо нам трэба."/>
+  <string id="str_tor_player_ask_mercenary_to_join_player_response_accept_orc" text="Файна. Тады пайшлі!"/>
+  <string id="str_tor_player_ask_mercenary_to_join_player_response_reject_orc" text="Валі, зашмат просіш!"/>
+  <string id="str_tor_caravan_create_conversation_1_orc" text="Гэй! Набяры хлопцаў, каб вазы са здабычай цягаць."/>
+  <string id="str_tor_caravan_create_conversation_2_orc" text="Ёсьць рабы й жалезныя шматы, каб табе вазы завесьці! Але за хлопцаў плаці {?PLAYER.GENDER}сама{?}сам{\?} і боса ім выбірай! Вось табе {NUMBER_OF_MEN} хлопцаў за {AMOUNT}{GOLD_ICON}. Бярэш?"/>
+  <string id="str_tor_caravan_create_conversation_3_orc" text="Ня маю хлопца, каб на гэтую справу босам паставіць."/>
+  <string id="str_tor_caravan_create_conversation_4_orc" text="Зог яго! Гэта зашмат!"/>
+  <string id="str_tor_caravan_create_conversation_5_orc" text="Добра! Бяры {AMOUNT}{GOLD_ICON} і кінь дурэць!"/>
+  <string id="str_tor_caravan_create_conversation_6_orc" text="Гэтыя хлопцы — смаркачы! Мо сапраўды моцных на гэтую справу набяром?"/>
+  <string id="str_tor_caravan_create_conversation_10_orc" text="Шмат жа! Ты зь мяне зьдзекваесься?"/>
+  <string id="str_tor_caravan_create_conversation_7_orc" text="Ага, можна сапраўды моцных хлопцаў набраць, але бліскучак трэба больш. {AMOUNT}{GOLD_ICON} — самае тое!"/>
+  <string id="str_tor_caravan_create_conversation_8_orc" text="Добра! Дам табе {AMOUNT}{GOLD_ICON} на сапраўды моцных хлопцаў для вазоў са здабычай."/>
+  <string id="str_tor_caravan_create_conversation_9_orc" text="Валі! Гэта зашмат!"/>
+  <string id="str_tor_caravan_create_conversation_10_2_orc" text="Шмат жа! Ты зь мяне зьдзекваесься?"/>
+  <string id="str_tor_caravan_create_conversation_11_orc" text="То хто будзе босам?"/>
+  <string id="str_tor_caravan_create_conversation_12_continue_orc" text="Ніхто зь іх, я {?PLAYER.GENDER}думала{?}думаў{\?} пра..."/>
+  <string id="str_tor_caravan_create_conversation_13_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_caravan_create_conversation_13_dwarf" text="Забудзь."/>
+  <string id="str_tor_caravan_create_conversation_14_orc" text="Добра! Сабяру хлопцаў — і адразу пачнем вазы са здабычай цягаць! Усе бліскучкі, шо атрымаем, хутка табе даставім, бос."/>
+  <string id="str_tor_weaponsmith_talk_start_normal_orc" text="У мяне найлепшыя чопы й жалеза навокал! Бярэш?"/>
+  <string id="str_tor_weaponsmith_talk_start_normal_dwarf" text="Я прадстаўляю Гільдыю Збройнікаў і Панцырнікаў у гэтай цьвярдыні. Што табе трэба?"/>
+  <string id="str_tor_weaponsmith_talk_start_to_player_in_disguise_orc" text="Бос мяне моцна адлупіць, калі ўбачыць, шо я з табой балбачу!"/>
+  <string id="str_tor_weaponsmith_talk_start_to_player_in_disguise_dwarf" text="Прэч, ты ганьбіш маю гільдыю!"/>
+  <string id="str_tor_weaponsmith_talk_initial_orc" text="То шо шчэ хошаш?"/>
+  <string id="str_tor_weaponsmith_talk_initial_dwarf" text="Што табе яшчэ трэба?"/>
+  <string id="str_tor_weaponsmith_talk_player_1_orc" text="Пакажы, шо маеш!"/>
+  <string id="str_tor_weaponsmith_talk_player_1_dwarf" text="Хачу зірнуць на тавары тваёй гільдыі."/>
+  <string id="str_tor_weaponsmith_talk_player_request_craft_orc" text="Ёсьць табе асобная замова. За працу!"/>
+  <string id="str_tor_weaponsmith_talk_player_request_craft_dwarf" text="Хачу замовіць выраб паводле ўласнага ўзору."/>
+  <string id="str_tor_weaponsmith_talk_player_3_orc" text="Валі, я ў іншае месца пайду!"/>
+  <string id="str_tor_weaponsmith_talk_player_3_dwarf" text="Цяпер мне нічога не патрэбна."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_1_orc" text="Адразу бяруся за працу!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_1_dwarf" text="Менавіта так."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_2_orc" text="То колькі хлопцаў купляеш? Будзе па 100{GOLD_ICON} за хлопца."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_craft_orc" text="Тады за працу!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_craft_dwarf" text="Мы возьмемся за працу."/>
+  <string id="str_tor_weaponsmith_talk_merchant_craft_opened_orc" text="Калі шо купляюць, бос радуецца!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_craft_opened_dwarf" text="Няхай Грунгні будзе з табой."/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_3_orc" text="Шо спадабалася — спачатку купі! Напракат не даю!"/>
+  <string id="str_tor_weaponsmith_talk_merchant_response_3_dwarf" text="Як жадаеш. Пакліч, калі што спатрэбіцца."/>
+  <string id="str_tor_weaponsmith_talk_end_orc" text="Не адцягвай! Бос адлупіць, калі ўбачыць, шо дурэю!"/>
+  <string id="str_tor_weaponsmith_talk_end_dwarf" text="Памятай сваіх продкаў."/>
+  <string id="str_tor_special_notable_introduction_orc" text="Завуць {CONVERSATION_HERO.FIRSTNAME}. {FACTION_DESCRIPTION}."/>
+  <string id="str_tor_special_notable_introduction_dwarf" text="Я {CONVERSATION_HERO.FIRSTNAME}, {FACTION_DESCRIPTION}."/>
+  <string id="str_tor_artisan_introduction_orc" text="Я {CONVERSATION_HERO.FIRSTNAME}. Знаю, як з рабоў і жалезных шматоў працу рабіць. Хочаш добрыя чопы ці жалеза — зрабі, каб я {?CONVERSATION_CHARACTER.GENDER}ўсьміхнулася{?}ўсьміхнуўся{\?}!"/>
+  <string id="str_tor_artisan_introduction_dwarf" text="Мяне завуць {CONVERSATION_HERO.FIRSTNAME}. Я майстар гільдыі ў {TOWN_NAME}, ды яшчэ й {?CONVERSATION_CHARACTER.GENDER}паважаная{?}паважаны{\?} сярод роўных! Таму яны давяраюць майму меркаваньню."/>
+  <string id="str_tor_headman_introduction_orc" text="Гэй! Мяне завуць {CONVERSATION_HERO.FIRSTNAME}, і гэта вёска {VILLAGE_NAME} — мой лагер! Хочаш балбатаць — да мяне!"/>
+  <string id="str_tor_headman_introduction_dwarf" text="Мяне завуць {CONVERSATION_HERO.FIRSTNAME}. Я памятаю дзень, калі кожны іншы Даві, якога ты тут бачыш, з'явіўся на сьвет. Я старэйшына, таму да майго слова тут прыслухоўваюцца найбольш."/>
+  <string id="str_tor_rural_notable_introduction_orc" text="Я {CONVERSATION_HERO_FIRSTNAME}, і гэтая частка лагера мая! Не да хлопцаў ідзі, а са мной балбатай!"/>
+  <string id="str_tor_rural_notable_introduction_dwarf" text="Я {CONVERSATION_HERO.FIRSTNAME}. Я {?CONVERSATION_CHARACTER.GENDER}адна з найстарэйшых{?}адзін з найстарэйшых{\?}, і шмат тутэйшых Даві паважаюць маё меркаваньне."/>
+  <string id="str_tor_player_ask_to_join_players_party_orc" text="Гэй! У банду!"/>
+  <string id="str_tor_player_ask_to_join_players_party_dwarf" text="Хачу, каб ты {?CONVERSATION_CHARACTER.GENDER}далучылася{?}далучыўся{\?} да майго тронгу."/>
+  <string id="str_tor_player_ask_to_join_players_party_response_orc" text="Ну добра. Толькі грыбное піва дап'ю!"/>
+  <string id="str_tor_player_ask_to_join_players_party_response_dwarf" text="Гэта будзе гонарам для мяне. Дай хвіліну падрыхтавацца."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_take_party_orc" text="Хутка пакажы мне ўсякіх хлопцаў."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_take_party_dwarf" text="Дай аглядзець тронг."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_orc" text="Куды гэта ты {?CONVERSATION_CHARACTER.GENDER}намылілася{?}намыліўся{\?}?! Гані бліскучкі!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_dwarf" text="Вы мусіце заплаціць за бясьпечны праход."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_di_orc" text="То вы хочаце махацца?!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_2_orc" text="Ага, так і ёсьць! Біце іх, хлопцы!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_neutral_3_orc" text="Не, я зусім ня тое {?PLAYER.GENDER}сказала{?}сказаў{\?}..."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_enemy_orc" text="Мой бос хоша забіць твайго боса. Значыць, я таксама хачу цябе забіць!"/>
+  <string id="str_tor_disbanding_leaderless_party_answer_attack_enemy_dwarf" text="Мае прысягі патрабуюць біцца з табой тут."/>
+  <string id="str_tor_disbanding_leaderless_party_answer_orc" text="То твая скура будзе мне новай вопраткай!"/>
+  <string id="str_tor_player_has_plans_options_orc" text="Добра, {PLAYER_SALUTATION}. Шо там {?PLAYER.GENDER}прыдумала{?}прыдумаў{\?}?"/>
+  <string id="str_tor_player_ask_lords_to_follow_him_orc" text="Гэй, ідзі са мной! Маю план."/>
+  <string id="str_tor_player_ask_lords_to_create_army_orc" text="Сабіраю тут сапраўдны ВАААГХ! Кліч вайнабосаў!"/>
+  <string id="str_tor_player_ask_lords_to_create_army_dwarf" text="Я зьбіраю вялікае войска. Склікай тронгі пад мой сьцяг! {AMOUNT}{GOLD_ICON}"/>
+  <string id="str_tor_player_plans_never_mind_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_player_plans_never_mind_dwarf" text="Забудзь."/>
+  <string id="str_tor_player_ask_lords_to_create_army_answer_orc" text="Кожнаму вайнабосу, каго ўбачу, скажу, каб хутка да цябе ішоў!"/>
+  <string id="str_tor_player_ask_lords_to_follow_him_already_at_army_orc" text="Адвали! Я ўжо сачу, каб {ESCORTING_PARTY} не пабілі!"/>
+  <string id="str_tor_player_ask_lords_to_follow_him_2_orc" text="Буду з табой дзесяць дзён. А потым? Потым надакучыць."/>
+  <string id="str_tor_how_many_days_to_escort_never_mind_orc" text="Добра. То пайшлі! {AMOUNT}{GOLD_ICON}"/>
+  <string id="str_tor_how_many_days_to_escort_never_mind_2_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_how_many_days_to_escort_never_mind_2_dwarf" text="Забудзь."/>
+  <string id="str_tor_lord_answer_to_escorting_orc" text="То вядзі ўжо!"/>
+  <string id="str_tor_player_want_to_leave_faction_orc" text="Гэй, {SALUTATION_BY_PLAYER}, я кідаю гэтае племя!"/>
+  <string id="str_tor_player_want_to_leave_faction_dwarf" text="{SALUTATION_BY_PLAYER}, прашу вызваліць мяне ад прысягаў вернасьці."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_di_orc" text="Ты ўжо ў іншым племі, ці ня так?! Валі!"/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_di_dwarf" text="Спадзяюся, ты ня хочаш парушыць прысягі, якія ўжо зьвязваюць цябе зь іншым гаспадарствам."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_or_vassal_answer_orc" text="То які ў цябе план?"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_or_vassal_answer_dwarf" text="Якую службу ты прапануеш?"/>
+  <string id="str_tor_player_is_offering_mercenary_orc" text="Скажы, каго забіць, — хутка заб'ю. За бліскучкі."/>
+  <string id="str_tor_player_is_offering_mercenary_dwarf" text="Хачу скласьці найміцкую дамову."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_orc" text="Добра! Тады пайду шукаць {KING.LINK}. Дзякуй, шо {?CONVERSATION_CHARACTER.GENDER}змарнавала{?}змарнаваў{\?} мой час, нікчэма."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_dwarf" text="Тады я знайду {KING.LINK} і пагавару."/>
+  <string id="str_tor_player_is_offering_vassalage_orc" text="Гэй! Я сапраўды {?PLAYER.GENDER}моцная дзяўчо{?}моцны хлопец{\?}. Зрабі мяне вайнабосам у сваім племі!"/>
+  <string id="str_tor_player_is_offering_vassalage_dwarf" text="Дазволь мне скласьці прысягі вернасьці, {SALUTATION_BY_PLAYER}, і зрабі мяне танам у сваім гаспадарстве."/>
+  <string id="str_tor_player_is_offering_vassalage_while_mercenary_orc" text="Гэй! Я ўсіх, каго ты {?CONVERSATION_CHARACTER.GENDER}казала{?}казаў{\?}, задарма {?PLAYER.GENDER}забівала{?}забіваў{\?}. Зрабі мяне вайнабосам!"/>
+  <string id="str_tor_player_is_offering_vassalage_while_mercenary_dwarf" text="Я {?PLAYER.GENDER}змагалася{?}змагаўся{\?} і {?PLAYER.GENDER}ліла{?}ліў{\?} кроў за гэтае гаспадарства. Хачу скласьці прысягі вернасьці, {SALUTATION}."/>
+  <string id="str_tor_player_is_offering_join_cancel_orc" text="Зог чго, пабалбочам пра іншае."/>
+  <string id="str_tor_player_is_offering_join_cancel_dwarf" text="Насамрэч я {?PLAYER.GENDER}зьбіралася{?}зьбіраўся{\?} пагаварыць пра іншае."/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_2_orc" text="Хочаш быць вайнабосам? Ідзі да {KING.LINK}. Ну, калі з клеткі ў {SETTLEMENT} выберацца!"/>
+  <string id="str_tor_player_want_to_join_faction_as_vassal_lord_answer_3_orc" text="Калі шскажу {KING.LINK}, шо ты {?PLAYER.GENDER}моцная й дужая{?}моцны й дужы{\?}, адваліш?!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_orc" text="Думаеш, маіх хлопцаў бракуе, {PLAYER.NAME}?! Пакуль я не скажу, шо племя лупіцца з кім моцным, — валі!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_dwarf" text="Цяпер мы ня маем намеру наймаць ваяроў, {PLAYER.NAME}. Гэта можа зьмяніцца, калі прыйдзе час адпомсьціць за крыўды."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_2_orc" text="Гэй, ты ўвогуле хто? {?PLAYER.GENDER}Нейкая смаркачка{?}Нейкі смаркач{\?}, відаць, ніколі ня {?CONVERSATION_CHARACTER.GENDER}чула{?}чуў{\?} пра цябе! Валі, пакуль сквігам на корм не {?CONVERSATION_CHARACTER.GENDER}аддала{?}аддаў{\?}!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_king_answer_2_dwarf" text="Ты яшчэ не {?PLAYER.GENDER}здабыла{?}здабыў{\?} хвалы {?PLAYER.GENDER}надзейнай і здольнай ваяркі{?}надзейнага і здольнага ваяра{\?}, {PLAYER.NAME}. Заключаць з табой такую дамову было б глупствам."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_orc" text="Ты бліскучак ня {?PLAYER.GENDER}вартая{?}варты{\?}, нікчэма! Калі бос скажа, шо ваюем, тады й спытай. Падчас махачу ты {?PLAYER.GENDER}даражэйшая{?}даражэйшы{\?}..."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_dwarf" text="Гаспадарства жыве ў міры й ня мае патрэбы ў наймітах. Шукай такой дамовы ў іншым месцы."/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_2_orc" text="Нам хлопцаў хапае, гэты махач лёгка выйграем! Валі да каго слабейшага, нікчэма!"/>
+  <string id="str_tor_player_want_to_join_faction_as_mercenary_lord_answer_2_dwarf" text="Неўзабаве крыўды будуць адпомшчаны. Найміцкія дамовы будуць пустой тратай галяў."/>
+  <string id="str_tor_mercenary_player_accepts_orc" text="Добра! Давай!"/>
+  <string id="str_tor_mercenary_player_rejects_orc" text="Адвалі, гэтага замала!"/>
+  <string id="str_tor_mercenary_player_accepts_lord_answer_orc" text="Разумна {?PLAYER.GENDER}зрабіла{?}зрабіў{\?}. Цяпер будзеш лупіцца за {KINGDOM_FORMAL_NAME}! То кінь дурэць і бярыся забіваць!"/>
+  <string id="str_tor_player_joined_2_orc" text="Вядома, бос! Пакажы дарогу — і яны ўжо трупы!"/>
+  <string id="str_tor_player_joined_3_orc" text="То гані бліскучкі й далей!"/>
+  <string id="str_tor_mercenary_player_rejects_lord_answer_orc" text="Лепшай платы ня знойдзеш, дурыла! І да каго іншага нават ня думай ісьці."/>
+  <string id="str_tor_prisoner_hero_leave_answer_orc" text="Я не зьбягу, чэсна!"/>
+  <string id="str_tor_lord_diagnostics_option_1_4_orc" text="Э, забудзь..."/>
+  <string id="str_tor_lord_diagnostics_option_1_4_dwarf" text="Забудзь."/>
+  <string id="str_tor_player_is_leaving_neutral_or_friendly_orc" text="Адвалі! Мне шчэ шмат куды трэба!"/>
+  <string id="str_tor_player_is_leaving_enemy_prisoner_orc" text="Час варушыцца!"/>
+  <string id="str_tor_prison_break_start_1_orc" text="Гэта ты, {SALUTATION}? Ты мяне з клеткі {?PLAYER.GENDER}выцягнула{?}выцягнуў{\?}!"/>
+  <string id="str_tor_prison_break_start_2_orc" text="{?CONVERSATION_CHARACTER.GENDER}Думала{?}Думаў{\?}, ты мяне ў клетцы прырэжаш, {SALUTATION}."/>
+  <string id="str_tor_prison_break_start_3_orc" text="Ты мяне з клеткі выцягваеш... Навошта? Я б цябе проста {?CONVERSATION_CHARACTER.GENDER}забіла{?}забіў{\?}!"/>
+  <string id="str_tor_prison_break_player_ask_orc" text="Сапраўды добра мы іх падчас уцёкаў пабілі, га?! Шо далей?"/>
+  <string id="str_tor_prison_break_player_ask_dwarf" text="Барадой Грунгні, {?PLAYER.GENDER}рада{?}рады{\?} я выбрацца адсюль, {?CONVERSATION_CHARACTER.GENDER}дзяўчо{?}хлопча{\?}. Што далей?"/>
+  <string id="str_tor_prison_break_player_meet_orc" text="Маё імя {PLAYER.NAME}. Я табе жыцьцё {?PLAYER.GENDER}ўратавала{?}ўратаваў{\?}. Калі спатрэбіцца твая падтрымка, глядзі, каб {?CONVERSATION_CHARACTER.GENDER}памятала{?}памятаў{\?}.{newline} То шо будзеш рабіць?"/>
+  <string id="str_tor_prison_break_player_meet_dwarf" text="Я {PLAYER.NAME]}, і табе варта памятаць, што цяпер ты мне {?CONVERSATION_CHARACTER.GENDER}вінная{?}вінны{\?}. {newline}Скажы, які ў цябе цяпер плян?"/>
+  <string id="str_tor_prison_break_next_companion_orc" text="То пайшлі! Я з табой!"/>
+  <string id="str_tor_prison_break_next_companion_dwarf" text="Так, я зноў табе {?CONVERSATION_CHARACTER.GENDER}вінная{?}вінны{\?}. Дазволь вярнуцца ў твой тронг, каб я {?CONVERSATION_CHARACTER.GENDER}магла{?}мог{\?} пачаць вяртаць доўг."/>
+  <string id="str_tor_prison_break_next_commander_orc" text="Пайду кучу хлопцаў сабяру! Добрая забава была!"/>
+  <string id="str_tor_prison_break_next_commander_dwarf" text="Мае хлопцы чакаюць мяне. Я буду памятаць, што ты для мяне {?PLAYER.GENDER}зрабіла{?}зрабіў{\?}."/>
+  <string id="str_tor_prison_break_next_noble_orc" text="Вярнуся да сваіх хлопцаў. Добрая забава!"/>
+  <string id="str_tor_prison_break_next_notable_orc" text="Адразу назад за працу!"/>
+  <string id="str_tor_prison_break_next_other_orc" text="Пашукаю тут добрых махачоў і ўсякага такога."/>
+  <string id="str_tor_prison_break_end_dialog_3_orc" text="А {?CONVERSATION_CHARACTER.GENDER}магла б{?}мог бы{\?} да мяне далучыцца і заняцца чым разумным!"/>
+  <string id="str_tor_prison_break_end_dialog_1_orc" text="То ідзі й рабі!"/>
+  <string id="str_tor_prison_break_end_dialog_2_orc" text="Добра, валі!"/>
+  <string id="str_tor_ransom_broker_intro_orc" text="То шо хочаш?"/>
+  <string id="str_tor_ransom_broker_intro_2_di_orc" text="Выглядаеш {?PLAYER.GENDER}моцнай дзяўчой{?}моцным хлопцам{\?}, шо ў бойках перамагае. Можа, замест забойства нікчэмаў будзеш іх да мяне прыводзіць?"/>
+  <string id="str_tor_ransom_broker_intro_2_orc" text="То ты рабамі гандлюеш?"/>
+  <string id="str_tor_ransom_broker_intro_3_orc" text="Шо я только шо {?CONVERSATION_CHARACTER.GENDER}сказала{?}сказаў{\?}? Вядома, прадаю рабоў! Але й купляю. Думаеш, нам гобаў на ўсё хапае? Часам даводзіцца й слабых ружоваскурых ды нікчэмных недаросткаў ганяць!"/>
+  <string id="str_tor_ransom_broker_intro_4_orc" text="Купляю рабоў, потым прадаю ў майстэрні й шахты. Табе розьніца, усе задаволены!"/>
+  <string id="str_tor_ransom_broker_intro_5_orc" text="То вядзі рабоў, калі хочаш бліскучак столькі, колькі зжэрці зможаш!"/>
+  <string id="str_tor_ransom_broker_info_talk_player_1_orc" text="А калі ніхто раба купляць не захоча?"/>
+  <string id="str_tor_ransom_broker_info_talk_player_2_orc" text="То колькі за аднаго такога раба?"/>
+  <string id="str_tor_ransom_broker_info_talk_player_3_orc" text="А калі мяне ў клетку пасадзяць? Таксама могуць у рабы прадаць?"/>
+  <string id="str_tor_ransom_broker_info_talk_player_4_orc" text="Ну добра! Валі."/>
+  <string id="str_tor_ransom_broker_families_orc" text="Дурное пытаньне! Ты знаеш, як хутка рабы дохнуць? А ў шахты іх купляюць, як босы смачных сквігаў!"/>
+  <string id="str_tor_ransom_broker_prices_orc" text="Гледзячы якія дужыя! Усё залежыць, колькі на працы пратрымаюцца. Слабыя недаросткі хутка дохнуць, таму мала каштуюць. Дужыя, як чалавечыя «рыцары» ці нашы хлопцы, месяцамі цягнуць, бо моцныя. Яны даражэйшыя. Чым мацнейшы раб, тым больш атрымаеш."/>
+  <string id="str_tor_ransom_broker_ransom_me_orc" text="Яшчэ як! Але вось шо: калі {?PLAYER.GENDER}прыхавала{?}прыхаваў{\?} мне дастаткова бліскучак, выкуплю цябе і адразу выпушчу. Чаму мне верыць? Бо пакуль цябе зноў і зноў у клетку садзяць, я на табе бліскучкі раблю! А калі {?PLAYER.GENDER}рабыняй{?}рабом{\?} будзеш — ня змагу."/>
+  <string id="str_tor_ransom_broker_start_has_met_orc" text="Гэй! Ёсьць хто ў клетках? Куплю ў цябе рабоў!"/>
+  <string id="str_tor_ransom_broker_pretalk_orc" text="Дык ёсьць хто ў клетках ці ты проста мой час марнуеш?!"/>
+  <string id="str_tor_ransom_broker_talk_player_1_orc" text="То рыхтуйся купляць!"/>
+  <string id="str_tor_ransom_broker_talk_player_2_orc" text="Гэй, нагадай, шо ты робіш?"/>
+  <string id="str_tor_ransom_broker_talk_player_3_orc" text="Аднаго майго хлопца ў рабы прадаюць! Выцягні яго!"/>
+  <string id="str_tor_ransom_broker_talk_player_4_orc" text="Зараз нікога няма, я пра гэта падумаю!"/>
+  <string id="str_tor_ransom_broker_no_prisoners_orc" text="Ну добра. Валі, пакуль рабоў ня будзе!"/>
+  <string id="str_tor_ransom_broker_ransom_companion_orc" text="То каго табе выкупіць на волю?"/>
+  <string id="str_tor_ransom_broker_ransom_companion_choose_continue_orc" text="Нікога зь іх, я пра іншага {?PLAYER.GENDER}думала{?}думаў{\?}..."/>
+  <string id="str_tor_ransom_broker_ransom_companion_choose_never_mind_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_ransom_broker_ransom_companion_choose_never_mind_dwarf" text="Забудзь."/>
+  <string id="str_tor_ransom_broker_sell_prisoners_orc" text="То пакажы, шо маеш!"/>
+  <string id="str_tor_ransom_broker_sell_prisoners_3_orc" text="Выдатна! Знойдзеш шчэ такіх — адразу да мяне!"/>
+  <string id="str_tor_ransom_broker_sell_prisoners_2_orc" text="Буду тут шчэ нейкі час, калі спатрэблюся!"/>
+  <string id="str_tor_talk_common_to_taverngamehost_2_orc" text="Скажы, ці справядлівая складанасьць — {DIFFICULTY}, і будзем гуляць дзеля {?IS_BETTING}{BET_AMOUNT}{GOLD_ICON}.{?}таго, каб нуду забіць.{\?}"/>
+  <string id="str_tor_taverngamehost_player_start_game_orc" text="Падыходзіць. Давай!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_orc" text="Хопіць мяне дурыць! Зрабі гульню справядлівейшай!"/>
+  <string id="str_tor_taverngamehost_player_change_bet_orc" text="Гэй! Столькі не стаўлю. Іншую кучу бліскучак пастаўлю."/>
+  <string id="str_tor_taverngamehost_player_game_history_orc" text="{GAME_NAME}? Гэта шо?"/>
+  <string id="str_tor_taverngamehost_player_reject_orc" text="Валі!"/>
+  <string id="str_tor_taverngamehost_start_playing_ask_accept_orc" text="То які бок выбіраеш?"/>
+  <string id="str_tor_taverngamehost_start_playing_ask_decline_orc" text="Маю лепшыя справы! Адвалі!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_orc" text="Я {?PLAYER.GENDER}першая{?}першы{\?}!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_orc" text="Ты {?CONVERSATION_CHARACTER.GENDER}першая{?}першы{\?}!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_2_orc" text="Буду за белых."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_2_orc" text="Буду за чорных."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_3_orc" text="Буду за белых."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_3_orc" text="Буду за чорных."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_4_orc" text="Буду за белых."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_4_orc" text="Буду за чорных."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_5_orc" text="Буду за авечак."/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_5_orc" text="Буду за ваўкоў."/>
+  <string id="str_tor_taverngamehost_player_start_playing_first_6_orc" text="Я нападаю!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_last_6_orc" text="Ты нападай на мяне!"/>
+  <string id="str_tor_taverngamehost_player_start_playing_back_orc" text="Гэй, пачакай."/>
+  <string id="str_tor_taverngamehost_player_start_playing_now_orc" text="То паехалі!"/>
+  <string id="str_tor_taverngamehost_ask_difficulty_orc" text="Добра. Хочаш справядлівей? Зрабі справядлівей!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_easy_orc" text="Кажу, «лёгка» — самае справядлівае!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_normal_orc" text="Кажу, «звычайна» — самае справядлівае!"/>
+  <string id="str_tor_taverngamehost_player_change_difficulty_hard_orc" text="Тху, давай «цяжка». Я цябе й з паловай мазгоў абыграю!"/>
+  <string id="str_tor_taverngamehost_ask_betting_orc" text="Добра! Шо ставіш?"/>
+  <string id="str_tor_taverngamehost_player_0_denars_orc" text="Ня дам сябе абдурыць. Без стаўкі!"/>
+  <string id="str_tor_taverngamehost_deny_betting_orc" text="Не, з такімі правіламі бліскучак ня стаўлю! Рабі цяжэй!"/>
+  <string id="str_tor_taverngamehost_changing_difficulty_for_bet_yes_orc" text="Добра! Я ў справе!"/>
+  <string id="str_tor_taverngamehost_changing_difficulty_for_bet_no_orc" text="Пакінь тыя ж правілы."/>
+  <string id="str_tor_taverngamehost_ask_betting_2_orc" text="То кладзі бліскучкі на стаўку!"/>
+  <string id="str_tor_taverngamehost_tell_history_seega_orc" text="{GAME_NAME} — так яе завуць у культуры {CULTURE_NAME}. Па мне, нудота: толькі пасткі фігурамі робіш. Нават палупіцца нельга, адны фігуры!"/>
+  <string id="str_tor_taverngamehost_tell_history_puluc_orc" text="{GAME_NAME} — адна зь сямі вясёлых гульняў, калі з хлопцамі лупіцца забаронена. Бі сваімі фігурамі чужыя, а свае не давай біць! Добрая забава."/>
+  <string id="str_tor_taverngamehost_tell_history_mutorere_orc" text="Гэй, гэтая {GAME_NAME} — толькі для вялікіх мазгоў, як у шаманаў. Трэба {?PLAYER.GENDER}разумнейшай{?}разумнейшым{\?} быць, каб выйграць. Нават фігурамі лупіцца нельга!"/>
+  <string id="str_tor_taverngamehost_tell_history_konane_orc" text="{GAME_NAME} паказвае, хто з хлопцаў смаркач, а хто сапраўды моцны! Давядзецца фігуры губляць, але глядзі, каб іншы хлопец шчэ больш згубіў!"/>
+  <string id="str_tor_taverngamehost_tell_history_baghchal_orc" text="Люблю гэтую! У {GAME_NAME} ніякай справядлівасьці, як і мусіць быць у сапраўдным махачы! Дастаткова {?PLAYER.GENDER}моцная{?}моцны{\?} — выйграе і безь перавагаў, шо іншаму даюць!"/>
+  <string id="str_tor_taverngamehost_tell_history_tablut_orc" text="Гэта завецца {GAME_NAME}. Калі {?PLAYER.GENDER}разумная{?}разумны{\?}, бярэш бок, дзе ўсе фігуры другі бок вось-вось разаб'юць, а ў таго толькі адна фігура! Тыя нікчэмы з культуры {CULTURE_NAME} зусім ня ўмеюць добрыя гульні рабіць..."/>
+  <string id="str_tor_taverngamehost_player_history_back_orc" text="Давай так!"/>
+  <string id="str_tor_taverngamehost_player_history_leave_orc" text="Не, гучыць як куча лайна."/>
+  <string id="str_tor_lord_agrees_cancel_play_orc" text="Тады валі!"/>
+  <string id="str_tor_lord_answer_to_play_boardgame_again_accept_orc" text="Добра! Давай далей!"/>
+  <string id="str_tor_lord_answer_to_play_boardgame_again_decline_orc" text="Валі, мне надакучыла!"/>
+  <string id="str_tor_lord_after_lord_win_boardgame_orc" text="Гэй, ты {?PLAYER.GENDER}жульнічала{?}жульнічаў{\?}! Наштупным разам гуляй сумленна!"/>
+  <string id="str_tor_lord_player_start_game_orc" text="Давай ужо згуляем."/>
+  <string id="str_tor_lord_player_leave_orc" text="Толькі час марную! Я звальваю."/>
+  <string id="str_tor_talk_common_to_tavernkeeper_orc" text="Гэй! Шо хочаш?"/>
+  <string id="str_tor_tavernkeeper_talk_to_get_quest_orc" text="Шукаю нікчэмаў, каб нешта зрабіць."/>
+  <string id="str_tor_tavernkeeper_get_clan_info_start_orc" text="То мо раскажаш пра боса гэтай фартэцы?"/>
+  <string id="str_tor_tavernkeeper_get_clan_info_answer_orc" text="Раскажу пра {OWNER_CLAN}, бо гэта босы {SETTLEMENT}. Давай {PRICE}{GOLD_ICON}."/>
+  <string id="str_tor_tavernkeeper_get_clan_info_player_answer_1_orc" text="Добра! Заплачу."/>
+  <string id="str_tor_tavernkeeper_get_clan_info_player_answer_2_orc" text="Валі!"/>
+  <string id="str_tor_tavernkeeper_companion_info_start_orc" text="Шукаю ў банду хлопцаў з асаблівымі навыкамі. Шо знаеш?!"/>
+  <string id="str_tor_tavernkeeper_companion_info_answer_orc" text="Нічога не магу сказаць, бо пакуль ня знаю, якіх хлопцаў табе трэба."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_scout_orc" text="Хачу бандзе добрыя вочы для выведкі."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_engineer_orc" text="Дай каго інжынернага, хто знае, як вялікія машыны працуюць."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_surgeon_orc" text="Хачу кагосьці, хто пабітых нікчэмаў на ногі ставіць!"/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_quartermaster_orc" text="Скажы, хто можа быць добрым босам лагера і гаспадарку ў кулаку трымаць."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_caravan_leader_orc" text="То хто найлепшы бос для вазоў са здабычай?"/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_leader_orc" text="Раскажы пра самага лепшага боса, хто махачы выйграе!"/>
+  <string id="str_tor_tavernkeeper_companion_info_player_select_roguery_orc" text="Мо хто ўмее красьціся й хітрыць, як Морк."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_nevermind_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_tavernkeeper_companion_info_player_nevermind_dwarf" text="Забудзь."/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_end_orc" text="Валі, ты нічога ня {?CONVERSATION_CHARACTER.GENDER}вартая{?}варты{\?}!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_inside_1_orc" text="То слухай: {INQUIRY_COMPANION.LINK} тут {?INQUIRY_COMPANION.GENDER}была{?}быў{\?}, але адразу {?INQUIRY_COMPANION.GENDER}рушыла{?}рушыў{\?} у {COMPANION_SETTLEMENT}. Хутка пабяжыш — дагоніш!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_inside_2_orc" text="Ага. {INQUIRY_COMPANION.LINK} тут {?INQUIRY_COMPANION.GENDER}была{?}быў{\?}, але ўжо {?INQUIRY_COMPANION.GENDER}сышла{?}сышоў{\?}! Нібыта {?INQUIRY_COMPANION.GENDER}казала{?}казаў{\?} пра {COMPANION_SETTLEMENT}, калі хочаш туды схадзіць!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_inside_3_orc" text="Табе {?INQUIRY_COMPANION.GENDER}такая{?}такі{\?} трэба? Тады ты хочаш {INQUIRY_COMPANION.LINK.}! Тут {?INQUIRY_COMPANION.GENDER}яе{?}яго{\?} няма, але я знаю, куды {?INQUIRY_COMPANION.GENDER}яна пайшла{?}ён пайшоў{\?}! Знойдзеш {?INQUIRY_COMPANION.GENDER}яе{?}яго{\?} ў {COMPANION_SETTLEMENT}, думаю."/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_outside_1_orc" text="Гэй, я знаю! Вунь тая нікчэма — {INQUIRY_COMPANION.LINK}. Нібыта якраз {?INQUIRY_COMPANION.GENDER}тая{?}той{\?}, хто табе трэба!"/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_outside_2_orc" text="Кажуць, тут у пакоі ёсьць нікчэма {INQUIRY_COMPANION.LINK}, у {?INQUIRY_COMPANION.GENDER}яе{?}яго{\?} якраз тыя навыкі, шо ты шукаеш."/>
+  <string id="str_tor_tavernkeeper_companion_info_tavernkeeper_found_answer_companion_is_outside_3_orc" text="Тут у пакоі ёсьць нехта, у каго, можа быць тое, шо табе трэба. Завуць {INQUIRY_COMPANION.LINK.}."/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_orc" text="То мо каго зь іншымі навыкамі?"/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_2_orc" text="А хто шчэ ёсьць, апроча {INQUIRY_COMPANION.LINK}?"/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_found_orc" text="Глядзі, каб я пра гэтыя {COMPANION_INQUIRY_COST}{GOLD_ICON} не {?PLAYER.GENDER}пашкадавала{?}пашкадаваў{\?}."/>
+  <string id="str_tor_player_companion_response_to_tavernkeeper_not_found_orc" text="Зог яго, бескарысная нікчэма!"/>
+  <string id="str_tor_tavernkeeper_talk_to_leave_orc" text="Не патрэбна твая дапамога, валі!"/>
+  <string id="str_tor_1972_orc" text="Шо шчэ хошаш?"/>
+  <string id="str_tor_talk_common_to_tavernmaid_orc" text="Трэба штосьці грогавае, бос?"/>
+  <string id="str_tor_talk_common_to_tavernmaid_2_orc" text="Зараз прынясу чаго добрага, бос!"/>
+  <string id="str_tor_talk_common_to_tavernmaid_3_orc" text="Добрае пойла, бос?"/>
+  <string id="str_tor_tavernmaid_order_food_orc" text="Дай мне гэтага!"/>
+  <string id="str_tor_tavernmain_order_acknowledge_orc" text="Зараз жа, бос!"/>
+  <string id="str_tor_tavernmaid_ask_tun_orc" text="Гэй, усім маім хлопцам гэтага, зараз жа!"/>
+  <string id="str_tor_tavernmaid_leave_orc" text="Адвалі!"/>
+  <string id="str_tor_tavernmaid_give_tun_gold_orc" text="Бос кажа, за гэта трэба {COST}{GOLD_ICON}."/>
+  <string id="str_tor_tavernmaid_give_tun_gold_2_orc" text="Вось, трымай, бос!"/>
+  <string id="str_tor_tavernmaid_not_give_tun_gold_orc" text="Валі, яно таго ня варта."/>
+  <string id="str_tor_tavernmaid_best_wishes_orc" text="Добрая справа, бос!"/>
+  <string id="str_tor_talk_bard_player_leave_orc" text="Працягвай, а то прырэжу."/>
+  <string id="str_tor_tavernkeeper_quest_info_orc" text="Дай падумаць... {ISSUE_GIVER_LIST}."/>
+  <string id="str_tor_tavernkeeper_player_thanks_orc" text="Выдатна!"/>
+  <string id="str_tor_tavernkeeper_turndown_orc" text="Нічога ня {?CONVERSATION_CHARACTER.GENDER}чула{?}чуў{\?}!"/>
+  <string id="str_tor_trainer_spellsinger_start_orc" text="У мяне моц Горка й Морка!"/>
+  <string id="str_tor_barber_start_talk_beggar_orc" text="Гэй! Валі, ты валасяных сквігаў злуеш!"/>
+  <string id="str_tor_barber_start_talk_orc" text="Гэй! У мяне найлепшыя валасяныя сквігі ў сьвеце! Хочаш аднаго? Танныя!"/>
+  <string id="str_tor_player_accept_haircut_orc" text="Пакажы валасяных сквігаў! ({GOLD_COST}{GOLD_ICON})"/>
+  <string id="str_tor_player_refuse_haircut_orc" text="Валі, не патрэбны мне дурныя валасяныя сквігі!"/>
+  <string id="str_tor_barber_ask_if_done_orc" text="Бачыш? Бачыш? Вось гэта добры валасяны сквіг!"/>
+  <string id="str_tor_player_done_with_haircut_orc" text="Гэтага хопіць."/>
+  <string id="str_tor_player_not_done_with_haircut_orc" text="Не, іншых валасяных сквігаў пакажы!"/>
+  <string id="str_tor_barber_no_haircut_talk_orc" text="Добра! А цяпер валі, пакуль маіх сквігаў не {?PLAYER.GENDER}раззлавала{?}раззлаваў{\?}!"/>
+  <string id="str_tor_barber_haircut_finished_orc" text="{?CONVERSATION_CHARACTER.GENDER}Казала{?}Казаў{\?} жа, у мяне найлепшыя валасяныя сквігі! Добрая рэч."/>
+  <string id="str_tor_barber_haircut_no_change_orc" text="Калі хлопцы будуць зь цябе рагатаць, бо ня маеш валасяных сквігаў, — я тут чакаю!"/>
+  <string id="str_tor_player_no_haircut_finish_talk_orc" text="Адвалі."/>
+  <string id="str_tor_player_haircut_finish_talk_orc" text="Ага, як скажаш. Валі."/>
+  <string id="str_tor_town_beggar_to_disguised_character_orc" text="Гэй! Калі босы ўбачаць, шо з табой балбачу, зноў біць будуць! Адвалі!"/>
+  <string id="str_tor_town_or_village_talk_to_disguised_character_orc" text="Валі, нікчэмны недаростак-смаркач!"/>
+  <string id="str_tor_town_or_village_talk_beggar_orc" text="Калі ласка, ня бі нагамі, бос!"/>
+  <string id="str_tor_town_or_village_talk_orc" text="То шо хочаш?!"/>
+  <string id="str_tor_town_or_village_talk_children_orc" text="На шо {?PLAYER.GENDER}вылупілася{?}вылупіўся{\?}?!"/>
+  <string id="str_tor_town_or_village_start_2_orc" text="Нудна! Калі наступны махач?!"/>
+  <string id="str_tor_town_or_village_start_postrumor_liege_orc" text="Шо трэба, бос?"/>
+  <string id="str_tor_town_or_village_start_postrumor_children_orc" text="Гэй! Адвалі!"/>
+  <string id="str_tor_town_or_village_start_postrumor_tavern_orc" text="Шо {?PLAYER.GENDER}вылупілася{?}вылупіўся{\?}? Валі й дай грог дапіць!"/>
+  <string id="str_tor_town_or_village_start_postrumor_orc" text="Нудота! Пайду махач шукаць."/>
+  <string id="str_tor_player_run_along_children_1_orc" text="Як скажаш."/>
+  <string id="str_tor_player_run_along_children_2_orc" text="Адвалі!"/>
+  <string id="str_tor_player_run_along_children_3_orc" text="Шчэ так зробіш — рукі паадрываю!"/>
+  <string id="str_tor_player_run_along_children_orc" text="Прэч адсюль!"/>
+  <string id="str_tor_player_ask_hero_location_orc" text="Гэй! Я аднаго нікчэму шукаю, і ты мне скажаш, дзе ён!"/>
+  <string id="str_tor_player_ask_hero_location_di1_orc" text="То каго шукаеш?"/>
+  <string id="str_tor_player_ask_hero_location_2_continue_orc" text="Я пра іншага {?PLAYER.GENDER}думала{?}думаў{\?}..."/>
+  <string id="str_tor_player_ask_hero_location_2_2_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_player_ask_hero_location_2_2_dwarf" text="Забудзь."/>
+  <string id="str_tor_town_or_village_pretalk_orc" text="Шо шчэ хошаш?!"/>
+  <string id="str_tor_player_ask_hero_location_3_orc" text="Ага, {HERO.LINK} тут, у фартэцы."/>
+  <string id="str_tor_player_ask_hero_location_4_di_orc" text="Адвалі! Ня знаю, хто гэта!"/>
+  <string id="str_tor_player_ask_hero_location_4_orc" text="То пакажы мне."/>
+  <string id="str_tor_player_ask_hero_location_4_2_orc" text="Э, забудзь..."/>
+  <string id="str_tor_player_ask_hero_location_4_2_dwarf" text="Забудзь."/>
+  <string id="str_tor_player_ask_hero_location_5_orc" text="Добра! Не адставай."/>
+  <string id="str_tor_town_or_village_escort_complete_orc" text="Вось тая нікчэма, вунь там."/>
+  <string id="str_tor_town_or_village_escorting_changed_my_mind_orc" text="Зог яго! {?PLAYER.GENDER}Сама{?}Сам{\?} нікчэму знайду."/>
+  <string id="str_tor_town_or_village_escorting_keep_going_orc" text="Кінь дурэць, ідзі!"/>
+  <string id="str_tor_town_or_village_escorting_keep_going_dwarf" text="Рушым."/>
+  <string id="str_tor_town_or_village_player_orc" text="Валі!"/>
+  <string id="str_tor_hero_give_issue_orc" text="Гэй! {?PLAYER.GENDER}Чула{?}Чуў{\?}, ты маеш турботы. Я добра турботы біць умею."/>
+  <string id="str_tor_issue_offer_player_response_reject_orc" text="Толькі мой час марнуеш! Валі."/>
+  <string id="str_tor_issue_offer_player_accept_alternative_2_orc" text="То каго пасылаеш на гэтую справу босам?"/>
+  <string id="str_tor_issue_offer_player_accept_alternative_3_continue_orc" text="Нікога зь іх! Я пра іншага {?PLAYER.GENDER}думала{?}думаў{\?}..."/>
+  <string id="str_tor_issue_offer_player_accept_go_back_orc" text="Няма хлопцаў, каб на такую дурасьць марнаваць!"/>
+  <string id="str_tor_hero_active_mission_lord_ask_orc" text="Ужо {?PLAYER.GENDER}зрабіла{?}зрабіў{\?}? Чаму шчэ тут?!"/>
+  <string id="str_tor_hero_active_mission_response_cont_orc" text="Заткніся! Я зраблю гэта, пабачыш."/>
+  <string id="str_tor_hero_active_mission_response_failed_orc" text="Лухта гэтая праца! Шукай каго дурнейшага."/>
+  <string id="str_tor_hero_active_mission_failed_orc" text="Лянівая нікчэма! З вачэй маіх, пакуль жубы не {?CONVERSATION_CHARACTER.GENDER}павыбівала{?}павыбіваў{\?}!"/>
+  <string id="str_tor_lord_special_request_specify_orc" text="Шо?"/>
+  <string id="str_tor_lord_special_request_nevermind_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_lord_special_request_nevermind_dwarf" text="Забудзь."/>
+  <string id="str_tor_hero_no_available_task_orc" text="Адвалі, мне нічога рабіць ня трэба."/>
+  <string id="str_tor_hero_special_request_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_hero_special_request_dwarf" text="Забудзь."/>
+  <string id="str_tor_valid_vassal_offer_start_orc" text="Доўга ж ты! Ну, шо скажаш?"/>
+  <string id="str_tor_vassal_offer_player_accepts_response_orc" text="{?PLAYER.GENDER}Гатовая{?}Гатовы{\?} за табой ісьці!"/>
+  <string id="str_tor_vassal_offer_player_declines_response_orc" text="Не, буду {?PLAYER.GENDER}сама{?}сам{\?} па сабе."/>
+  <string id="str_tor_vassal_offer_king_response_to_accept_continue_orc" text="Паўтарай за мной, а то чэрап паламаю!"/>
+  <string id="str_tor_vassal_offer_king_response_to_accept_continue_dwarf" text="Словы маюць сілу. Пільна слухай, што я кажу і як я гэта кажу. "/>
+  <string id="str_tor_vassal_offer_player_oath_1_decline_orc" text="Гэй! Пачакай, дай яшчэ падумаць пра гэта..."/>
+  <string id="str_tor_vassal_offer_player_oath_2_decline_orc" text="Ня ведаю, дай падумаць пра гэта..."/>
+  <string id="str_tor_vassal_offer_player_oath_3_decline_orc" text="Ня знаю наконт гэтага, трэба падумаць."/>
+  <string id="str_tor_vassal_offer_player_oath_4_decline_orc" text="Стой! Гэй! Мне шчэ падумаць трэба!"/>
+  <string id="str_tor_vassal_offer_king_response_to_decline_during_oath_orc" text="Ты дурыла, знаеш шо? Хто пачынае думаць, калі ўжо Словы гавораць?!"/>
+  <string id="str_tor_vassal_offer_king_response_to_decline_continue_orc" text="Валі, {?PLAYER.GENDER}смаркачка{?}смаркач{\?}."/>
+  <string id="str_tor_vassal_offer_player_accepts_response_2_orc" text="Ну добра, тады..."/>
+  <string id="str_tor_vassalage_offer_player_is_already_vassal_orc" text="Гэй, ты ж ужо за {FACTION_NAME} лупішся!"/>
+  <string id="str_tor_vassalage_offer_player_is_already_vassal_dwarf" text="Служба Даві — справа сур'ёзная. Пакуль ты служыш іншаму, ты нам не {?PLAYER.GENDER}патрэбная{?}патрэбны{\?}."/>
+  <string id="str_tor_vassalage_offer_player_is_already_vassal_player_answer_orc" text="А, так, сапраўды, {LORD_SALUTATION}."/>
+  <string id="str_tor_vassalage_offer_player_has_low_relation_orc" text="Хочаш у мой клан, нікчэма?! Гар-гар! Ты смаркач, {PLAYER.NAME}, валі!"/>
+  <string id="str_tor_vassalage_offer_accepted_orc" text="Ты сапраўды {?PLAYER.GENDER}дужая{?}дужы{\?} ў махачы. Ад твайго жаданьня далучыцца я аж ледзь не {?CONVERSATION_CHARACTER.GENDER}ўсьміхнулася{?}ўсьміхнуўся{\?}! Ну давай..."/>
+  <string id="str_tor_lord_give_oath_1_player_answer_1_orc" text="{?PLAYER.GENDER}Гатовая{?}Гатовы{\?}, {LORD.LINK}!"/>
+  <string id="str_tor_lord_give_oath_1_player_answer_2_orc" text="Трэба шчэ падумаць, {LORD.LINK}."/>
+  <string id="str_tor_lord_give_oath_2_orc" text="Тады кажы Словы, каб я {?CONVERSATION_CHARACTER.GENDER}знала{?}знаў{\?}, шо ты не дурэеш з гэтым уступленьнем."/>
+  <string id="str_tor_lord_give_oath_3_answer_2_orc" text="Гэй! Пачакай, дай падумаць..."/>
+  <string id="str_tor_1201_orc" text="Ня знаю, дай падумаць..."/>
+  <string id="str_tor_1204_orc" text="Ня ведаю, трэба падумаць."/>
+  <string id="str_tor_1207_orc" text="Стой! Гэй! Мне шчэ трэба падумаць!"/>
+  <string id="str_tor_1210_orc" text="Гэта самае разумнае, шо ты {?PLAYER.GENDER}зрабіла{?}зрабіў{\?}! Трымайся за мяне — і мы ўвесь сьвет растаўчом!"/>
+  <string id="str_tor_1211_orc" text="Не дачакаюся, бос!"/>
+  <string id="str_tor_1220_orc" text="Цябе ў апошнім махачы занадта моцна стукнулі, {PLAYER.NAME}?! Ты ж {?PLAYER.GENDER}сказала{?}сказаў{\?} Словы! Іншага хлопца я за такое {?CONVERSATION_CHARACTER.GENDER}забіла б{?}забіў бы{\?}, але калі табе трэба ісьці..."/>
+  <string id="str_tor_1221_orc" text="Хошаш ісьці? Пойдзеш — пашкадуеш! Назад ня вазьму!"/>
+  <string id="str_tor_1222_orc" text="Так, я іду адсюль, {LORD_SALUTATION}."/>
+  <string id="str_tor_1223_orc" text="Калі падумаць... Лепей мне застацца, {LORD_SALUTATION}."/>
+  <string id="str_tor_1224_orc" text="Ага, лепей, праўда? Больш не прыходзь да мяне з такімі думкамі."/>
+  <string id="str_tor_1225_orc" text="Так зробіш — забяру твае фартэцы! Цяпер, пэўна, {?PLAYER.GENDER}перадумала{?}перадумаў{\?}."/>
+  <string id="str_tor_1226_orc" text="Не патрэбны мне тыя фартэцы!"/>
+  <string id="str_tor_1227_orc" text="Не, {LORD_SALUTATION}! Я ж {?PLAYER.GENDER}твая дзяўчо{?}твой хлопец{\?}!"/>
+  <string id="str_tor_player_leave_faction_accepted_orc" text="Добра. Валі, але фартэцы забіраю, як і {?CONVERSATION_CHARACTER.GENDER}сказала{?}сказаў{\?}! І ў плямённыя махачы больш клікаць ня буду, {PLAYER.NAME}."/>
+  <string id="str_tor_1229_orc" text="Ты добры бос. Буду памятаць нашыя добрыя махачы!"/>
+  <string id="str_tor_1230_orc" text="Гэтае племя й так было лайно! Я звальваю!"/>
+  <string id="str_tor_player_leaves_faction_orc" text="То валі! Я цябе тут і так не {?CONVERSATION_CHARACTER.GENDER}хацела{?}хацеў{\?}!"/>
+  <string id="str_tor_village_farmer_pretalk_start_orc" text="Гэй! Шо хочаш?"/>
+  <string id="str_tor_village_farmer_pretalk_start_dwarf" text="Чым магу дапамагчы?"/>
+  <string id="str_tor_village_farmer_buy_products_orc" text="Я таксама ў горад іду. Шо вязеш?"/>
+  <string id="str_tor_village_farmer_specify_products_orc" text="У нас {PRODUCTS}. Хочаш забраць — плаці {TOTAL_PRICE}{GOLD_ICON}."/>
+  <string id="str_tor_player_decided_to_buy_orc" text="Добра. Вось {TOTAL_PRICE}{GOLD_ICON}."/>
+  <string id="str_tor_player_decided_not_to_buy_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_player_decided_not_to_buy_dwarf" text="Забудзь."/>
+  <string id="str_tor_village_farmer_loot_orc" text="Аддавай дабро, а то прырэжу!"/>
+  <string id="str_tor_village_farmer_fight_orc" text="Адвалі! Шчэ крок — усе жубы з пашчы павыбіваю!"/>
+  <string id="str_tor_village_farmer_leave_orc" text="Адвалі!"/>
+  <string id="str_tor_player_decided_to_fight_villagers_orc" text="Хапайце іх, хлопцы!"/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_1_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_1_dwarf" text="Забудзь."/>
+  <string id="str_tor_village_farmer_accepted_to_give_some_goods_orc" text="Гэй, давай пагаворым! Вось {TAKE_MONEY_AND_PRODUCT_STRING}."/>
+  <string id="str_tor_player_decided_to_take_some_goods_villagers_orc" text="Хопіць."/>
+  <string id="str_tor_player_decided_to_take_everything_villagers_orc" text="Не, аддавай усё!"/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_2_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_player_decided_to_not_fight_villagers_2_dwarf" text="Забудзь."/>
+  <string id="str_tor_village_farmer_fight_no_surrender_orc" text="Нарэшце! Увесь дзень махачу {?CONVERSATION_CHARACTER.GENDER}шукала{?}шукаў{\?}!"/>
+  <string id="str_tor_village_farmer_accepted_to_give_everything_orc" text="Стой, стой! Мо не забівай нас, га? Шо хочаш?"/>
+  <string id="str_tor_player_do_not_take_prisoner_villagers_orc" text="Гані ўсю здабычу зараз жа!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_2_orc" text="Цяпер усе па клетках пойдзеце!"/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_orc" text="Гэй! Мы хлопцы {KINGDOM}! Захопіш нас — пашкадуеш!"/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_dwarf" text="Гэта абуральна! За гэта будзе крыўда на цябе, тваіх продкаў і ўвесь твой род! Калі не адпусьціш нас, усё {KINGDOM} даведаецца пра гэткае злачынства!"/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_2_orc" text="Кепскія справы..."/>
+  <string id="str_tor_villager_warn_player_to_take_prisoner_2_dwarf" text="Ты пашкадуеш! Грымнір, барані нас..."/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_2_orc" text="Шчэ будзеце дурэць — на працу заганю! Варушыцеся, чарвякі!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_continue_2_dwarf" text="Маўчы й варушыся!"/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_2_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_player_decided_to_take_prisoner_leave_2_dwarf" text="Забудзь."/>
+  <string id="str_tor_village_farmer_bribery_leave_orc" text="Добра, мы ідзем!"/>
+  <string id="str_tor_village_farmer_bribery_leave_dwarf" text="Ай. Тады мы рушым."/>
+  <string id="str_tor_village_farmer_surrender_leave_orc" text="Добра, мы ідзем!"/>
+  <string id="str_tor_village_farmer_surrender_leave_dwarf" text="Ай. Тады мы рушым."/>
+  <string id="str_tor_wanderer_meet_player_response1_orc" text="Гэй! Мяне завуць {PLAYER.NAME}. А ты ўвогуле хто?"/>
+  <string id="str_tor_wanderer_meet_player_response2_orc" text="Кінь дурэць і слухай шюды!"/>
+  <string id="str_tor_wanderer_skip_intro_orc" text="Зог яго, то шо хочаш?"/>
+  <string id="str_tor_wanderer_job_status_1_orc" text="Шо хочаш, бос?"/>
+  <string id="str_tor_wanderer_job_status_1_2_orc" text="Бос — {EMPLOYER}."/>
+  <string id="str_tor_workshop_1_orc" text="Магу шчэ шо для цябе зрабіць?"/>
+  <string id="str_tor_workshop_1_dwarf" text="Табе трэба штосьці яшчэ?"/>
+  <string id="str_tor_workshop_2_orc" text="Ёсьць пытаньні."/>
+  <string id="str_tor_workshop_2_dwarf" text="Маю некалькі пытаньняў."/>
+  <string id="str_tor_workshop_3_orc" text="Гэй! Аддай мне гэтую майстэрню."/>
+  <string id="str_tor_workshop_3_dwarf" text="Я {?PLAYER.GENDER}хацела б{?}хацеў бы{\?} набыць гэтую майстэрню."/>
+  <string id="str_tor_workshop_buy_result_orc" text="Не магу! {OWNER.LINK} тут бос. Зь {?OWNER.GENDER}ёй{?}ім{\?} і балбатай!"/>
+  <string id="str_tor_workshop_buy_result_dwarf" text="Гэтая майстэрня належыць {OWNER.LINK}. Табе трэба пагаварыць зь {?OWNER.GENDER}ёй{?}ім{\?}."/>
+  <string id="str_tor_workshop_4_orc" text="Шо хочаш?"/>
+  <string id="str_tor_workshop_4_dwarf" text="Вітаю."/>
+  <string id="str_tor_workshop_5_orc" text="То бяромся за працу!"/>
+  <string id="str_tor_workshop_5_dwarf" text="Няхай Продкі цябе бароняць."/>
+  <string id="str_tor_workshop_7_orc" text="Шо шчэ хошаш?"/>
+  <string id="str_tor_workshop_7_dwarf" text="Маеш яшчэ пытаньні?"/>
+  <string id="str_tor_workshop_8_orc" text="То хто бос гэтай майстэрні?"/>
+  <string id="str_tor_workshop_8_dwarf" text="Каму належыць гэтая майстэрня?"/>
+  <string id="str_tor_workshop_9_orc" text="Шо вы тут робіце?"/>
+  <string id="str_tor_workshop_9_dwarf" text="Што тут вырабляюць?"/>
+  <string id="str_tor_workshop_10_orc" text="А шо ўвогуле за штука гэтая «майстэрня»?"/>
+  <string id="str_tor_workshop_10_dwarf" text="Як працуе такая майстэрня?"/>
+  <string id="str_tor_workshop_11_orc" text="Надакучыла! Пра іншае пагаворым!"/>
+  <string id="str_tor_workshop_11_dwarf" text="Хачу пагаварыць пра іншае."/>
+  <string id="str_tor_workshop_12_orc" text="{OWNER.LINK} — бос гэтай майстэрні."/>
+  <string id="str_tor_workshop_12_dwarf" text="Гэтая майстэрня належыць {OWNER.LINK}."/>
+  <string id="str_tor_workshop_13_orc" text="Мы — {.%}{WORKSHOP_TYPE}{.%}."/>
+  <string id="str_tor_workshop_13_dwarf" text="Наша месца працы — {.%}{WORKSHOP_TYPE}{.%}."/>
+  <string id="str_tor_workshop_14_orc" text="Цягнем жалезныя шматы й усякую дрэнь, заганяем рабоў на працу, а потым дурым усіх іхнімі вырабамі. Наглядчыкі рабоў бяруць сваю долю, а рэшта босу!"/>
+  <string id="str_tor_workshop_14_dwarf" text="З сыравіны мы вырабляем тое, для чаго прызначаная майстэрня. Калі кожны майстар атрымае належную плату, астатні галь аддаём уласьніку."/>
+  <string id="str_tor_workshop_player_owner_begin_orc" text="Гэй, бос! Шо такое?"/>
+  <string id="str_tor_workshop_player_owner_begin_dwarf" text="Вітаю. {?PLAYER.GENDER}Прыйшла{?}Прыйшоў{\?} паглядзець, як мы працуем?"/>
+  <string id="str_tor_workshop_26_orc" text="То шо шчэ хошаш?"/>
+  <string id="str_tor_workshop_26_dwarf" text="Табе трэба нешта яшчэ?"/>
+  <string id="str_tor_workshop_27_orc" text="Слухай! Маю пытаньні."/>
+  <string id="str_tor_workshop_27_dwarf" text="Я {?PLAYER.GENDER}хацела б{?}хацеў бы{\?} задаць некалькі пытаньняў."/>
+  <string id="str_tor_workshop_28_orc" text="Няхай рабы іншае робяць!"/>
+  <string id="str_tor_workshop_28_dwarf" text="Хачу, каб гэтая майстэрня вырабляла нешта іншае."/>
+  <string id="str_tor_workshop_29_orc" text="Прадай гэтую майстэрню."/>
+  <string id="str_tor_workshop_29_dwarf" text="Хачу прадаць гэтую майстэрню."/>
+  <string id="str_tor_workshop_30_orc" text="Шо хочаш?"/>
+  <string id="str_tor_workshop_30_dwarf" text="Бывай {?CONVERSATION_CHARACTER.GENDER}здаровая{?}здаровы{\?}."/>
+  <string id="str_tor_workshop_31_orc" text="Шо такое?"/>
+  <string id="str_tor_workshop_31_dwarf" text="Да тваіх паслугаў."/>
+  <string id="str_tor_workshop_32_orc" text="Слухаю, бос!"/>
+  <string id="str_tor_workshop_32_dwarf" text="Як жадаеш."/>
+  <string id="str_tor_workshop_33_orc" text="Шчэ шо {?PLAYER.GENDER}надумала{?}надумаў{\?}, бос?"/>
+  <string id="str_tor_workshop_33_dwarf" text="Можа, маеш іншыя пытаньні?"/>
+  <string id="str_tor_workshop_34_orc" text="Пагаворым пра іншае."/>
+  <string id="str_tor_workshop_34_dwarf" text="Хачу пагаварыць пра іншае."/>
+  <string id="str_tor_workshop_35_orc" text="Дайшло, бос! Калі ўсё прадамо й бліскучкі табе аддамо, атрымаеш {PRICE}{GOLD_ICON}. Пэўна хошаш так, бос?"/>
+  <string id="str_tor_workshop_35_dwarf" text="Калі ты так {?PLAYER.GENDER}вырашыла{?}вырашыў{\?}, я магу зараз усё прадаць. Вартасьць майстэрні разам з усім назапашаным галем — {PRICE}{GOLD_ICON}. Усё атрымаеш ты. Сапраўды хочаш гэта зрабіць?"/>
+  <string id="str_tor_workshop_37_orc" text="Ага, прадай гэтую кучу лайна!"/>
+  <string id="str_tor_workshop_37_dwarf" text="Так. Час прадаваць."/>
+  <string id="str_tor_workshop_38_orc" text="Не, ня варта."/>
+  <string id="str_tor_workshop_38_dwarf" text="Насамрэч я {?PLAYER.GENDER}перадумала{?}перадумаў{\?}."/>
+  <string id="str_tor_workshop_41_orc" text="То зараз табе дабро аддам."/>
+  <string id="str_tor_workshop_41_dwarf" text="Неадкладна перадам усе тавары са складу тваёй кампаніі."/>
+  <string id="str_tor_workshop_42_orc" text="Добрая справа!"/>
+  <string id="str_tor_workshop_42_dwarf" text="Дзякую."/>
+  <string id="str_tor_workshop_39_orc" text="То валі! Ты мне больш ня бос. Вось шо табе належыць."/>
+  <string id="str_tor_workshop_39_dwarf" text="Заўсёды шкада бачыць канец майстэрні. Магчыма, у будучыні мы яшчэ папрацуем разам над нечым іншым. А пакуль я прасачу, каб астатнія майстры сабраліся."/>
+  <string id="str_tor_workshop_40_orc" text="Разумна, бос. Толькі смаркачы такія майстэрні кідаюць."/>
+  <string id="str_tor_workshop_40_dwarf" text="{?CONVERSATION_CHARACTER.GENDER}Рада{?}Рады{\?} гэта чуць. Няма ніякай карысьці марнаваць такую добрую рамесную залу. Калі яна працуе ня надта добра, можа, варта вырабляць нешта іншае?"/>
+  <string id="str_tor_workshop_41_1_orc" text="Нам трэба {COST}{GOLD_ICON} на неабходныя прылады й рабоў. {?PLAYER.GENDER}Гатовая{?}Гатовы{\?}?"/>
+  <string id="str_tor_workshop_41_1_dwarf" text="Як жадаеш. Але нам спатрэбіцца {COST}{GOLD_ICON} на прылады й майстроў. Пачынаем?"/>
+  <string id="str_tor_workshop_42_2_orc" text="Кінь дурэць, рабі ўжо!"/>
+  <string id="str_tor_workshop_42_2_dwarf" text="Так."/>
+  <string id="str_tor_workshop_43_orc" text="Не."/>
+  <string id="str_tor_workshop_43_dwarf" text="Не."/>
+  <string id="str_tor_workshop_44_orc" text="Шо хочаш, каб рабы рабілі?"/>
+  <string id="str_tor_workshop_44_dwarf" text="Што ты хочаш вырабляць у гэтай майстэрні замест цяперашніх тавараў?"/>
+  <string id="str_tor_workshop_45_continue_orc" text="Ніводная з гэтых майстэрняў! Іншае..."/>
+  <string id="str_tor_workshop_45_continue_dwarf" text="Я думаю пра іншы тып майстэрні."/>
+  <string id="str_tor_workshop_cancel_orc" text="Э-э, забудзь..."/>
+  <string id="str_tor_workshop_cancel_dwarf" text="Забудзь."/>
+  <string id="str_tor_workshop_46_orc" text="Усё гатова, бос! Будзе ў нас {.%}{.a}{WORKSHOP_TYPE}{.%}, толькі скажы!"/>
+  <string id="str_tor_workshop_46_dwarf" text="Перш чым пачнём, трэба ўпэўніцца: {.%}{.a}{WORKSHOP)TYPE}{.%} — менавіта тое, што ты замаўляеш?"/>
+  <string id="str_tor_workshop_50_orc" text="Кінь дурэць і рабі, шо кажу!"/>
+  <string id="str_tor_workshop_50_dwarf" text="Так."/>
+  <string id="str_tor_workshop_47_orc" text="Сапраўды, бос! З гэтымі бліскучкамі можна пачынаць!"/>
+  <string id="str_tor_workshop_47_dwarf" text="Хай будзе так. Гэты галь дазволіць нам неадкладна пачаць працу."/>
+  <string id="str_tor_workshop_48_orc" text="Дай пра гэта падумаць."/>
+  <string id="str_tor_workshop_48_dwarf" text="Дай мне падумаць."/>
+  <string id="str_tor_workshop_49_orc" text="Стой. Я тут шо {?PLAYER.GENDER}ўспомніла{?}ўспомніў{\?}. Мы й так найлепшыя!"/>
+  <string id="str_tor_workshop_49_dwarf" text="Падумаўшы, я {?PLAYER.GENDER}вырашыла{?}вырашыў{\?} не зьмяняць вытворчасьць майстэрні."/>
+  <string id="str_tor_workshop_notable_owner_begin_1_orc" text="Гэй! Хачу купіць тваю майстэрню — {.%}{WORKSHOP_NAME}{.%}."/>
+  <string id="str_tor_workshop_notable_owner_begin_1_dwarf" text="Мой клан паслаў мяне дамовіцца пра куплю тваёй майстэрні — {.%}{WORKSHOP_NAME}{.%}."/>
+  <string id="str_tor_workshop_notable_owner_begin_2_orc" text="То колькі за аднаго такога раба?"/>
+  <string id="str_tor_workshop_notable_owner_begin_2_dwarf" text="Мой клан паслаў мяне дамовіцца пра куплю адной тваёй майстэрні."/>
+  <string id="str_tor_workshop_notable_owner_answer_1_single_orc" text="Дай {COST} {GOLD_ICON} — і забірай."/>
+  <string id="str_tor_workshop_notable_owner_answer_1_single_dwarf" text="За гэтую майстэрню прашу {COST} {GOLD_ICON}. Бяры або пакінь."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_orc" text="Ага."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_dwarf" text="Так."/>
+  <string id="str_tor_workshop_notable_player_buy_negative_orc" text="Не."/>
+  <string id="str_tor_workshop_notable_player_buy_negative_dwarf" text="Не."/>
+  <string id="str_tor_workshop_notable_player_buy_negative_end_orc" text="То валі! Няма часу на гэтыя дурноты!"/>
+  <string id="str_tor_workshop_notable_player_buy_negative_end_dwarf" text="Тады добра."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_end_orc" text="Усё адно зашмат клопату."/>
+  <string id="str_tor_workshop_notable_player_buy_positive_end_dwarf" text="Замацуем угоду перад клятвенным золатам — і майстэрня твая."/>
+  <string id="str_tor_workshop_notable_owner_answer_1_multiple_orc" text="Якую, нікчэма?"/>
+  <string id="str_tor_workshop_notable_owner_answer_1_multiple_dwarf" text="Магчыма. Пра якую майстэрню ты кажаш?"/>
+  <string id="str_tor_workshop_player_select_workshop_continue_orc" text="Не, тая іншая!"/>
+  <string id="str_tor_workshop_player_select_workshop_continue_dwarf" text="Не, я маю на ўвазе тваю..."/>
+  <string id="str_tor_default_conversation_for_wrongly_created_heroes_orc" text="Мне з табой балбатаць нельга."/>
+ </strings>
+</base>
