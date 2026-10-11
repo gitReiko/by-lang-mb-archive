@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+
+
+
+  <strings>
+    <string id="RTSCameraCommandSystem_option_class" text="Сыстэма Загадаў" />
+
+    <string id="RTSCameraCommandSystem_command_system_options" text="Налады Сыстэмы Загадаў" />
+
+    <string id="RTSCameraCommandSystem_click_to_select_formation" text="Выбіраць Фармаваньне Сярэдняй Кнопкай Мышы" />
+    <string id="RTSCameraCommandSystem_click_to_select_formation_hint" text="Вы можаце непасрэдна абраць фармаваньне, націснуўшы {KeyName} на ім. Абранае фармаваньне будзе вылучанае контурам." />
+    <string id="RTSCameraCommandSystem_attack_specific_formation" text="Уключыць Атаку Асобнага Фармаваньня" />
+    <string id="RTSCameraCommandSystem_attack_specific_formation_hint" text="Вы можаце загадаць атакаваць пэўнае варожае фармаваньне, націснуўшы {KeyName} на ім." />
+    <string id="RTSCameraCommandSystem_attack_specific_formation_alt_hint" text="(Новая Магчымасьць) Адначасова націсьніце alt, каб захаваць папярэдні загад рухацца." />
+
+    <string id="RTSCameraCommandSystem_disable_native_attack" text="Выключыць Стандартную Атаку" />
+    <string id="RTSCameraCommandSystem_disable_native_attack_hint" text="Выключыць стандартную атаку націскам на значок фармаваньня, каб пазьбегнуць выпадковых атакаў." />
+
+    <string id="RTSCameraCommandSystem_after_enemy_eliminated" text="Пасьля Зьнішчэньня Варожага Фармаваньня" />
+    <string id="RTSCameraCommandSystem_after_enemy_formation_eliminated_hint" text="Паводзіны пасьля зьнішчэньня атакаванага варожага фармаваньня." />
+    <string id="RTSCameraCommandSystem_after_charge_behavior_charge" text="У Атаку" />
+    <string id="RTSCameraCommandSystem_after_charge_behavior_hold" text="Утрымліваць Пазыцыю" />
+
+    <string id="RTSCameraCommandSystem_troop_highlight_character_mode" text="Вылучэньне Ваяроў (Рэжым Персанажа)" />
+    <string id="RTSCameraCommandSystem_troop_highlight_character_mode_hint" text="Спосаб вылучэньня ваяроў у рэжыме персанажа." />
+    <string id="RTSCameraCommandSystem_troop_highlight_option_no" text="Не" />
+    <string id="RTSCameraCommandSystem_troop_highlight_option_outline" text="Контур" />
+    <string id="RTSCameraCommandSystem_troop_highlight_option_ground_marker" text="Пазнака на Зямлі" />
+
+    <string id="RTSCameraCommandSystem_troop_highlight_rts_mode" text="Вылучэньне Ваяроў (Рэжым RTS)" />
+    <string id="RTSCameraCommandSystem_troop_highlight_rts_mode_hint" text="Спосаб вылучэньня ваяроў у рэжыме RTS." />
+
+    <string id="RTSCameraCommandSystem_highlight_troops_when_showing_indicators" text="Вылучаць Ваяроў пры Паказе Індыкатараў" />
+    <string id="RTSCameraCommandSystem_highlight_troops_when_showing_indicators_hint" text="Калі ўключана, ваяры будуць вылучацца пры паказе індыкатараў фармаваньняў." />
+
+    <string id="RTSCameraCommandSystem_highlight_troops_without_formation" text="Вылучаць Ваяроў без Фармаваньня" />
+    <string id="RTSCameraCommandSystem_highlight_troops_without_formation_hint" text="Калі ўключана, ваяры без фармаваньня таксама могуць вылучацца." />
+
+    <string id="RTSCameraCommandSystem_movement_target_highlight_character_mode" text="Выгляд Мэты Руху (Рэжым Персанажа)" />
+    <string id="RTSCameraCommandSystem_movement_target_highlight_character_mode_hint" text="Выгляд мэты руху ў рэжыме персанажа." />
+    <string id="RTSCameraCommandSystem_highlight_style_original" text="Зыходны" />
+    <string id="RTSCameraCommandSystem_highlight_style_new_model_only" text="Толькі Новая Мадэль" />
+    <string id="RTSCameraCommandSystem_highlight_style_always_visible" text="Заўжды Бачная" />
+
+    <string id="RTSCameraCommandSystem_movement_target_highlight_rts_mode" text="Выгляд Мэты Руху (Рэжым RTS)" />
+    <string id="RTSCameraCommandSystem_movement_target_highlight_rts_mode_hint" text="Выгляд мэты руху ў рэжыме RTS." />
+
+    <string id="RTSCameraCommandSystem_movement_target_fade_out_duration" text="Працягласьць Зьніканьня Мэты Руху" />
+    <string id="RTSCameraCommandSystem_movement_target_fade_out_duration_hint" text="Працягласьць паступовага зьніканьня мэты руху." />
+
+    <string id="RTSCameraCommandSystem_command_queue_flag_show_mode" text="Калі Паказваць Сьцяг Загаду" />
+    <string id="RTSCameraCommandSystem_command_queue_flag_show_mode_hint" text="Мэты загадаў у чарзе будуць пазначацца сьцягамі." />
+    <string id="RTSCameraCommandSystem_highlight_mode_never" text="Ніколі" />
+    <string id="RTSCameraCommandSystem_highlight_mode_free_camera_only" text="Толькі ў Вольнай Камеры" />
+    <string id="RTSCameraCommandSystem_highlight_mode_always" text="Заўжды" />
+
+    <string id="RTSCameraCommandSystem_command_queue_arrow_show_mode" text="Калі Паказваць Стрэлку Загаду" />
+    <string id="RTSCameraCommandSystem_command_queue_arrow_show_mode_hint" text="Мэты загадаў у чарзе будуць злучацца стрэлкамі." />
+
+    <string id="RTSCameraCommandSystem_command_queue_formation_shape_show_mode" text="Калі Паказваць Рамку Фармаваньня" />
+    <string id="RTSCameraCommandSystem_command_queue_formation_shape_show_mode_hint" text="Рамка фармаваньня будзе паказвацца ў месцы прызначэньня руху." />
+
+    <string id="RTSCameraCommandSystem_formation_lock_condition" text="Калі Фіксаваць Некалькі Фармаваньняў" />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_hint" text="Узаемнае разьмяшчэньне і кірункі фармаваньняў застануцца нязьменнымі." />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_option_never" text="Ніколі" />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_option_when_pressed" text="Калі Клявіша Націснутая" />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_option_when_not_pressed" text="Калі Клявіша Не Націснутая" />
+
+    <string id="RTSCameraCommandSystem_sync_locked_formation_speed_message" text="Рэгуляваньне хуткасьці руху." />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode" text="Рэжым Сынхранізацыі Хуткасьці Фармаваньняў" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_hint" text="Рэжым сынхранізацыі хуткасьці пры руху некалькіх фармаваньняў. «Выключана»: не сынхранізаваць хуткасьць. «Лінейная»: сынхранізаваць хуткасьць лінейна. «Дагнаць»: дазволіць найпавольнейшаму фармаваньню дагнаць астатнія. «Чакаць Апошняе Фармаваньне»: чакаць прыбыцьця апошняга фармаваньня." />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_disabled" text="Выключана" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_linear" text="Лінейная" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_catch_up" text="Дагнаць" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_wait_for_last_formation" text="Чакаць Апошняе Фармаваньне (Па Змаўчаньні)" />
+
+    <string id="RTSCamera_order_ui_clickable" text="Дазволіць Націскі ў Інтэрфэйсе Загадаў" />
+    <string id="RTSCamera_order_ui_clickable_hint" text="Дазволіць націскаць на карткі ваяроў. Каб ужыць наладу, перазапусьціце гульню." />
+
+    <string id="RTSCameraCommandSystem_order_ui_clickable_extension" text="Пашыраныя Націскі ў Інтэрфэйсе Загадаў" />
+    <string id="RTSCameraCommandSystem_order_ui_clickable_extension_hint" text="Дазваляе абраць мэту загаду павярнуцца ці зладжана атакаваць: утрымлівайце {KeyName} пры аддаваньні загаду, а затым націсьніце на мэту." />
+    <string id="RTSCameraCommandSystem_click_enemy_to_select_target_for_command" text="Націсьніце на Ворага, каб Абраць Мэту Загаду" />
+    <string id="RTSCameraCommandSystem_click_ground_to_select_target_for_command" text="Націсьніце на Зямлю, каб Абраць Мэту Загаду" />
+
+    <string id="RTSCameraCommandSystem_face_enemy_by_default" text="Паварочвацца да Ворага па Змаўчаньні" />
+    <string id="RTSCameraCommandSystem_face_enemy_by_default_hint" text="Ці павінны ваяры паварочвацца да ворага на пачатку бітвы." />
+
+    <string id="RTSCameraCommandSystem_formation_options" text="Налады Строяў" />
+    <string id="RTSCameraCommandSystem_hollow_square_formation" text="Уключыць Пустое Карэ" />
+    <string id="RTSCameraCommandSystem_hollow_square_formation_hint" text="Ці дазваляць гульцу выкарыстоўваць строй пустога карэ." />
+
+    <string id="RTSCameraCommandSystem_square_formation_corner_Fix" text="Выпраўленьне Кутоў Карэ" />
+    <string id="RTSCameraCommandSystem_square_formation_corner_Fix_hint" text="Калі ўключана, ваяры ў кутах карэ будуць паварочвацца па дыяганалі строю, каб лепш абараняць яго і выглядаць больш натуральна." />
+
+    <string id="RTSCameraCommandSystem_circle_formation_preference" text="Пераважны Кальцавы Строй" />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_hint" text="Перавага найменшаму, шчыльнаму ці разрэджанаму кальцавому строю." />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_option_minimum" text="Найменшае Кольца" />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_option_tight" text="Шчыльнае Кольца" />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_option_loose" text="Разрэджанае Кольца" />
+
+    <string id="RTSCameraCommandSystem_override_mounted_units_interval_threshold" text="Зьмяніць Парог Інтэрвалу Конных Ваяроў" />
+    <string id="RTSCameraCommandSystem_override_mounted_units_interval_threshold_hint" text="Калі ўключана, парог інтэрвалу конных ваяроў вызначаецца значэньнем ніжэй. Можа выклікаць праблемы з прадукцыйнасьцю пры выкарыстаньні іншых зьвязаных модаў (напрыклад, TAOM). Каб ужыць наладу, перазапусьціце гульню." />
+    <string id="RTSCameraCommandSystem_mounted_units_interval_threshold" text="Парог Інтэрвалу Конных Ваяроў" />
+    <string id="RTSCameraCommandSystem_mounted_units_interval_threshold_hint" text="Парог долі конных ваяроў у фармаваньні, пры якім яны трымаюць адлегласьць адзін ад аднаго. У базавай гульні прадвызначанае значэньне — 0.1" />
+
+    <string id="RTSCameraCommandSystem_defensive_hold_options" text="Налады Ўтрыманьня Абароны" />
+    <string id="RTSCameraCommandSystem_add_defensive_hold_order" text="Дадаць Загад Утрымліваць Абарону" />
+    <string id="RTSCameraCommandSystem_add_defensive_hold_order_hint" text="Калі ўключана, дадаецца загад ваярам у абарончым строі заставацца на сваіх месцах і трымаць шчыты, замест таго каб пакідаць пазыцыі дзеля атакі ворага." />
+    <string id="RTSCameraCommandSystem_defensive_hold_on" text="Утрыманьне Абароны Ўключанае" />
+    <string id="RTSCameraCommandSystem_defensive_hold_off" text="Утрыманьне Абароны Выключанае" />
+    <string id="RTSCameraCommandSystem_attack_if_hit" text="Атакаваць у Адказ на Ўдар" />
+    <string id="RTSCameraCommandSystem_attack_if_hit_hint" text="Калі ўключана, ваяры ў абарончым строі будуць атакаваць ворага, калі ён іх ударыць." />
+
+    <string id="RTSCameraCommandSystem_advance_order_options" text="Налады Загаду «Зладжаная Атака»" />
+
+    <string id="RTSCameraCommandSystem_fix_advance_order_for_throwing_weapons" text="Выпраўленьне Зладжанай Атакі для Кідальнай Зброі" />
+    <string id="RTSCameraCommandSystem_fix_advance_order_for_throwing_weapons_hint" text="Калі ўключана, ваяры з кідальнай зброяй будуць трымаць адлегласьць да мэты і кідаць сваю зброю." />
+
+    <string id="RTSCameraCommandSystem_apply_advance_order_fix_for_ai" text="Выпраўленьне Зладжанай Атакі для Фармаваньняў ШІ" />
+    <string id="RTSCameraCommandSystem_apply_advance_order_fix_for_ai_hint" text="Калі ўключана, выпраўленьне зладжанай атакі для кідальнай зброі будзе дзейнічаць і на фармаваньні ШІ." />
+
+    <string id="RTSCameraCommandSystem_thrower_ratio_threshold" text="Парог Долі Кідальнікаў" />
+    <string id="RTSCameraCommandSystem_thrower_ratio_threshold_hint" text="Мінімальная доля ваяроў з кідальнай зброяй у фармаваньні для ўключэньня выпраўленьня зладжанай атакі." />
+
+    <string id="RTSCameraCommandSystem_remaining_ammo_ratio_threshold" text="Парог Долі Астатніх Снарадаў" />
+    <string id="RTSCameraCommandSystem_remaining_ammo_ratio_threshold_hint" text="Мінімальная доля астатніх снарадаў, пры якой фармаваньне трымае адлегласьць." />
+
+    <string id="RTSCameraCommandSystem_shorten_range_based_on_remaining_ammo" text="Скарачаць Адлегласьць у Залежнасьці ад Астатніх Снарадаў" />
+    <string id="RTSCameraCommandSystem_shorten_range_based_on_remaining_ammo_hint" text="Чым менш снарадаў застаецца, тым меншую адлегласьць трымае фармаваньне." />
+
+    <string id="RTSCameraCommandSystem_defensive_attack" text="засяроджваецца на ворагу {TARGET_NAME}" />
+
+    <string id="RTSCameraCommandSystem_hotkeycategory" text="Гарачыя Клявішы Сыстэмы Загадаў" />
+    <string id="RTSCameraCommandSystem_select_formation" text="Абраць Фармаваньне" />
+    <string id="RTSCameraCommandSystem_select_formation_hint" text="Абярыце сваё фармаваньне ці загадайце абраным фармаваньням атакаваць варожае фармаваньне." />
+    <string id="RTSCameraCommandSystem_keep_movement_order" text="Захаваць Загад Рухацца " />
+    <string id="RTSCameraCommandSystem_keep_movement_order_hint" text="Націсьніце, каб атакаваць варожае фармаваньне, захоўваючы папярэдні загад рухацца." />
+    <string id="RTSCameraCommandSystem_formation_lock_movement" text="Пераключыць Фіксацыю Руху Фармаваньняў" />
+    <string id="RTSCameraCommandSystem_formation_lock_movement_hint" text="Утрымлівайце, каб пераключыць Фіксацыю Руху Фармаваньняў." />
+    <string id="RTSCameraCommandSystem_select_target_for_command" text="Абраць Мэту Загаду" />
+    <string id="RTSCameraCommandSystem_select_target_for_command_hint" text="Утрымлівайце пры аддаваньні загаду наступаць ці павярнуцца, каб абраць мэту." />
+    <string id="RTSCameraCommandSystem_command_queue" text="Чарга Загадаў" />
+    <string id="RTSCameraCommandSystem_command_queue_hint" text="Дадаць загад у чаргу. Ваяры будуць выконваць загады па чарзе." />
+    <string id="RTSCameraCommandSystem_command_keep_formation_width" text="Захаваць Шырыню Фармаваньня" />
+    <string id="RTSCameraCommandSystem_keep_formation_width_hint" text="Утрымлівайце, каб захаваць шырыню фармаваньня пры перацягваньні ці абраць дадатковыя фармаваньні." />
+
+    <string id="RTSCameraCommandSystem_tactic_level_required" text="Ваш узровень тактыкі мусіць быць ня меншы за {level}" />
+
+    <string id="RTSCameraCommandSystem_order_queue_usage" text="Утрымлівайце {KeyName} і аддавайце загады, каб дадаць іх у чаргу. Вашыя ваяры будуць выконваць іх па чарзе." />
+    <string id="RTSCameraCommandSystem_lock_formation_usage" text="Калі вы рухаеце ці паварочваеце некалькі фармаваньняў адначасова, іх узаемнае разьмяшчэньне і кірункі будуць зафіксаваныя." />
+    <string id="RTSCameraCommandSystem_lock_formation_width_usage" text="Утрымлівайце {KeyName} пры перацягваньні па зямлі, каб зафіксаваць узаемнае разьмяшчэньне і шырыню фармаваньняў." />
+    <string id="RTSCameraCommandSystem_toggle_locking_usage" text="Утрымлівайце {KeyName}, каб пераключыць фіксацыю." />
+    <string id="RTSCameraCommandSystem_target_only_usage" text="Напрыклад, загадайце лучнікам засяродзіць агонь на мэце, застаючыся на пазыцыі." />
+    <string id="RTSCameraCommandSystem_click_troop_card_usage" text="Вы можаце выбіраць свае фармаваньні націскам на карткі ваяроў." />
+
+    <string id="RTSCameraCommandSystem_add_order_to_queue" text="Загад дададзены ў чаргу." />
+    <string id="RTSCameraCommandSystem_execute_order_in_queue" text="Выконваецца загад з чаргі." />
+
+    <string id="RTSCameraCommandSystem_follow_entity" text="Ісьці Ўсьлед" />
+    <string id="RTSCameraCommandSystem_use_entity" text="Пачаць Выкарыстаньне" />
+    <string id="RTSCameraCommandSystem_stop_use_entity" text="Спыніць Выкарыстаньне" />
+    <string id="RTSCameraCommandSystem_attack_entity" text="Атакаваць" />
+    <string id="RTSCameraCommandSystem_point_defense" text="Абарона" />
+
+    <string id="RTSCameraCommandSystem_volley_order" text="Залп" />
+    <string id="RTSCameraCommandSystem_auto_volley" text="Аўтаматычныя Залпы" />
+    <string id="RTSCameraCommandSystem_auto_volley_hint" text="Уключыць ці выключыць рэжым Аўтаматычных Залпаў для абраных стралковых фармаваньняў." />
+    <string id="RTSCameraCommandSystem_auto_volley_off" text="Аўтаматычныя Залпы Выключаныя" />
+    <string id="RTSCameraCommandSystem_manual_volley" text="Залпы па Загадзе" />
+    <string id="RTSCameraCommandSystem_manual_volley_hint" text="Уключыць ці выключыць рэжым Залпаў па Загадзе для абраных стралковых фармаваньняў." />
+    <string id="RTSCameraCommandSystem_manual_volley_off" text="Залпы па Загадзе Выключаныя" />
+    <string id="RTSCameraCommandSystem_volley_disabled" text="Залпы Выключаныя" />
+    <string id="RTSCameraCommandSystem_volley_fire" text="Даць Залп" />
+    <string id="RTSCameraCommandSystem_volley_fire_hint" text="Даць Залп абранымі стралковымі фармаваньнямі." />
+
+    <string id="RTSCameraCommandSystem_volley_order_options" text="Налады Залпавага Агню" />
+    <string id="RTSCameraCommandSystem_enable_volley_related_features" text="Уключыць Магчымасьці Залпавага Агню" />
+    <string id="RTSCameraCommandSystem_enable_volley_related_features_hint" text="Калі выключана, Аўтаматычныя Залпы, Залпы па Загадзе, загад Даць Залп, адпаведныя гарачыя клявішы і загады ў чарзе будуць адключаныя." />
+
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode" text="Рэжым Папярэдняга Прыцэльваньня" />
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode_hint" text="Калі папярэдняе прыцэльваньне ўключана, ваяры будуць цэліцца ў мэту бяз стрэлаў." />
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode_option_in_auto_volley" text="Пры Аўтаматычных Залпах" />
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode_option_both_auto_and_manual_volley" text="Пры Аўтаматычных Залпах і Залпах па Загадзе" />
+    <string id="RTSCameraCommandSystem_ready_ratio_in_auto_volley" text="Доля Гатовых Ваяроў пры Аўтаматычных Залпах" />
+    <string id="RTSCameraCommandSystem_ready_ratio_in_auto_volley_hint" text="Мінімальная доля ваяроў, гатовых да стрэлу, перад залпам у рэжыме Аўтаматычных Залпаў." />
+    <string id="RTSCameraCommandSystem_max_aiming_time" text="Максымальны Час Прыцэльваньня" />
+    <string id="RTSCameraCommandSystem_max_aiming_time_hint" text="Максымальны час, адведзены ваярам на прыцэльваньне ў рэжыме Аўтаматычных Залпаў. Па змаўчаньні — 1.5 сэкунды." />
+    <string id="RTSCameraCommandSystem_auto_volley_by_nonthrown_weapon_type" text="Аўтаматычныя Залпы паводле Тыпу Некідальнай Зброі" />
+    <string id="RTSCameraCommandSystem_auto_volley_by_nonthrown_weapon_type_hint" text="Калі ўключана, ваяры зь некідальнай зброяй будуць даваць аўтаматычныя залпы паводле тыпу зброі." />
+    <string id="RTSCameraCommandSystem_auto_volley_by_thrown_weapon_type" text="Аўтаматычныя Залпы паводле Тыпу Кідальнай Зброі" />
+    <string id="RTSCameraCommandSystem_auto_volley_by_thrown_weapon_type_hint" text="Калі ўключана, ваяры з кідальнай зброяй будуць даваць аўтаматычныя залпы паводле тыпу зброі." />
+  </strings>
+</base>

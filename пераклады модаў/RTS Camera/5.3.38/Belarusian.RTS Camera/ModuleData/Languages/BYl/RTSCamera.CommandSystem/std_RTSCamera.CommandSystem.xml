@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+
+
+
+  <strings>
+    <string id="RTSCameraCommandSystem_option_class" text="Systema Zahadaŭ" />
+
+    <string id="RTSCameraCommandSystem_command_system_options" text="Nałady Systemy Zahadaŭ" />
+
+    <string id="RTSCameraCommandSystem_click_to_select_formation" text="Vybirać Farmavańnie Siaredniaj Knopkaj Myšy" />
+    <string id="RTSCameraCommandSystem_click_to_select_formation_hint" text="Vy možacie niepasredna abrać farmavańnie, nacisnuŭšy {KeyName} na im. Abranaje farmavańnie budzie vyłučanaje konturam." />
+    <string id="RTSCameraCommandSystem_attack_specific_formation" text="Uklučyć Ataku Asobnaha Farmavańnia" />
+    <string id="RTSCameraCommandSystem_attack_specific_formation_hint" text="Vy možacie zahadać atakavać peŭnaje varožaje farmavańnie, nacisnuŭšy {KeyName} na im." />
+    <string id="RTSCameraCommandSystem_attack_specific_formation_alt_hint" text="(Novaja Mahčymaść) Adnačasova naciśnicie alt, kab zachavać papiaredni zahad ruchacca." />
+
+    <string id="RTSCameraCommandSystem_disable_native_attack" text="Vyklučyć Standartnuju Ataku" />
+    <string id="RTSCameraCommandSystem_disable_native_attack_hint" text="Vyklučyć standartnuju ataku naciskam na značok farmavańnia, kab paźbiehnuć vypadkovych atakaŭ." />
+
+    <string id="RTSCameraCommandSystem_after_enemy_eliminated" text="Paśla Źniščeńnia Varožaha Farmavańnia" />
+    <string id="RTSCameraCommandSystem_after_enemy_formation_eliminated_hint" text="Pavodziny paśla źniščeńnia atakavanaha varožaha farmavańnia." />
+    <string id="RTSCameraCommandSystem_after_charge_behavior_charge" text="U Ataku" />
+    <string id="RTSCameraCommandSystem_after_charge_behavior_hold" text="Utrymlivać Pazycyju" />
+
+    <string id="RTSCameraCommandSystem_troop_highlight_character_mode" text="Vyłučeńnie Vajaroŭ (Režym Piersanaža)" />
+    <string id="RTSCameraCommandSystem_troop_highlight_character_mode_hint" text="Sposab vyłučeńnia vajaroŭ u režymie piersanaža." />
+    <string id="RTSCameraCommandSystem_troop_highlight_option_no" text="Nie" />
+    <string id="RTSCameraCommandSystem_troop_highlight_option_outline" text="Kontur" />
+    <string id="RTSCameraCommandSystem_troop_highlight_option_ground_marker" text="Paznaka na Ziamli" />
+
+    <string id="RTSCameraCommandSystem_troop_highlight_rts_mode" text="Vyłučeńnie Vajaroŭ (Režym RTS)" />
+    <string id="RTSCameraCommandSystem_troop_highlight_rts_mode_hint" text="Sposab vyłučeńnia vajaroŭ u režymie RTS." />
+
+    <string id="RTSCameraCommandSystem_highlight_troops_when_showing_indicators" text="Vyłučać Vajaroŭ pry Pakazie Indykataraŭ" />
+    <string id="RTSCameraCommandSystem_highlight_troops_when_showing_indicators_hint" text="Kali ŭklučana, vajary buduć vyłučacca pry pakazie indykataraŭ farmavańniaŭ." />
+
+    <string id="RTSCameraCommandSystem_highlight_troops_without_formation" text="Vyłučać Vajaroŭ biez Farmavańnia" />
+    <string id="RTSCameraCommandSystem_highlight_troops_without_formation_hint" text="Kali ŭklučana, vajary biez farmavańnia taksama mohuć vyłučacca." />
+
+    <string id="RTSCameraCommandSystem_movement_target_highlight_character_mode" text="Vyhlad Mety Ruchu (Režym Piersanaža)" />
+    <string id="RTSCameraCommandSystem_movement_target_highlight_character_mode_hint" text="Vyhlad mety ruchu ŭ režymie piersanaža." />
+    <string id="RTSCameraCommandSystem_highlight_style_original" text="Zychodny" />
+    <string id="RTSCameraCommandSystem_highlight_style_new_model_only" text="Tolki Novaja Madel" />
+    <string id="RTSCameraCommandSystem_highlight_style_always_visible" text="Zaŭždy Bačnaja" />
+
+    <string id="RTSCameraCommandSystem_movement_target_highlight_rts_mode" text="Vyhlad Mety Ruchu (Režym RTS)" />
+    <string id="RTSCameraCommandSystem_movement_target_highlight_rts_mode_hint" text="Vyhlad mety ruchu ŭ režymie RTS." />
+
+    <string id="RTSCameraCommandSystem_movement_target_fade_out_duration" text="Praciahłaść Źnikańnia Mety Ruchu" />
+    <string id="RTSCameraCommandSystem_movement_target_fade_out_duration_hint" text="Praciahłaść pastupovaha źnikańnia mety ruchu." />
+
+    <string id="RTSCameraCommandSystem_command_queue_flag_show_mode" text="Kali Pakazvać Ściah Zahadu" />
+    <string id="RTSCameraCommandSystem_command_queue_flag_show_mode_hint" text="Mety zahadaŭ u čarzie buduć paznačacca ściahami." />
+    <string id="RTSCameraCommandSystem_highlight_mode_never" text="Nikoli" />
+    <string id="RTSCameraCommandSystem_highlight_mode_free_camera_only" text="Tolki ŭ Volnaj Kamiery" />
+    <string id="RTSCameraCommandSystem_highlight_mode_always" text="Zaŭždy" />
+
+    <string id="RTSCameraCommandSystem_command_queue_arrow_show_mode" text="Kali Pakazvać Strełku Zahadu" />
+    <string id="RTSCameraCommandSystem_command_queue_arrow_show_mode_hint" text="Mety zahadaŭ u čarzie buduć złučacca strełkami." />
+
+    <string id="RTSCameraCommandSystem_command_queue_formation_shape_show_mode" text="Kali Pakazvać Ramku Farmavańnia" />
+    <string id="RTSCameraCommandSystem_command_queue_formation_shape_show_mode_hint" text="Ramka farmavańnia budzie pakazvacca ŭ miescy pryznačeńnia ruchu." />
+
+    <string id="RTSCameraCommandSystem_formation_lock_condition" text="Kali Fiksavać Niekalki Farmavańniaŭ" />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_hint" text="Uzajemnaje raźmiaščeńnie i kirunki farmavańniaŭ zastanucca niaźmiennymi." />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_option_never" text="Nikoli" />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_option_when_pressed" text="Kali Klaviša Nacisnutaja" />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_option_when_not_pressed" text="Kali Klaviša Nie Nacisnutaja" />
+
+    <string id="RTSCameraCommandSystem_sync_locked_formation_speed_message" text="Rehulavańnie chutkaści ruchu." />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode" text="Režym Synchranizacyi Chutkaści Farmavańniaŭ" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_hint" text="Režym synchranizacyi chutkaści pry ruchu niekalkich farmavańniaŭ. «Vyklučana»: nie synchranizavać chutkaść. «Liniejnaja»: synchranizavać chutkaść liniejna. «Dahnać»: dazvolić najpavolniejšamu farmavańniu dahnać astatnija. «Čakać Apošniaje Farmavańnie»: čakać prybyćcia apošniaha farmavańnia." />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_disabled" text="Vyklučana" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_linear" text="Liniejnaja" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_catch_up" text="Dahnać" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_wait_for_last_formation" text="Čakać Apošniaje Farmavańnie (Pa Zmaŭčańni)" />
+
+    <string id="RTSCamera_order_ui_clickable" text="Dazvolić Naciski ŭ Interfejsie Zahadaŭ" />
+    <string id="RTSCamera_order_ui_clickable_hint" text="Dazvolić naciskać na kartki vajaroŭ. Kab užyć naładu, pierazapuścicie hulniu." />
+
+    <string id="RTSCameraCommandSystem_order_ui_clickable_extension" text="Pašyranyja Naciski ŭ Interfejsie Zahadaŭ" />
+    <string id="RTSCameraCommandSystem_order_ui_clickable_extension_hint" text="Dazvalaje abrać metu zahadu paviarnucca ci zładžana atakavać: utrymlivajcie {KeyName} pry addavańni zahadu, a zatym naciśnicie na metu." />
+    <string id="RTSCameraCommandSystem_click_enemy_to_select_target_for_command" text="Naciśnicie na Voraha, kab Abrać Metu Zahadu" />
+    <string id="RTSCameraCommandSystem_click_ground_to_select_target_for_command" text="Naciśnicie na Ziamlu, kab Abrać Metu Zahadu" />
+
+    <string id="RTSCameraCommandSystem_face_enemy_by_default" text="Pavaročvacca da Voraha pa Zmaŭčańni" />
+    <string id="RTSCameraCommandSystem_face_enemy_by_default_hint" text="Ci pavinny vajary pavaročvacca da voraha na pačatku bitvy." />
+
+    <string id="RTSCameraCommandSystem_formation_options" text="Nałady Strojaŭ" />
+    <string id="RTSCameraCommandSystem_hollow_square_formation" text="Uklučyć Pustoje Kare" />
+    <string id="RTSCameraCommandSystem_hollow_square_formation_hint" text="Ci dazvalać hulcu vykarystoŭvać stroj pustoha kare." />
+
+    <string id="RTSCameraCommandSystem_square_formation_corner_Fix" text="Vypraŭleńnie Kutoŭ Kare" />
+    <string id="RTSCameraCommandSystem_square_formation_corner_Fix_hint" text="Kali ŭklučana, vajary ŭ kutach kare buduć pavaročvacca pa dyjahanali stroju, kab lepš abaraniać jaho i vyhladać bolš naturalna." />
+
+    <string id="RTSCameraCommandSystem_circle_formation_preference" text="Pieravažny Kalcavy Stroj" />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_hint" text="Pieravaha najmienšamu, ščylnamu ci razredžanamu kalcavomu stroju." />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_option_minimum" text="Najmienšaje Kolca" />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_option_tight" text="Ščylnaje Kolca" />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_option_loose" text="Razredžanaje Kolca" />
+
+    <string id="RTSCameraCommandSystem_override_mounted_units_interval_threshold" text="Źmianić Paroh Intervału Konnych Vajaroŭ" />
+    <string id="RTSCameraCommandSystem_override_mounted_units_interval_threshold_hint" text="Kali ŭklučana, paroh intervału konnych vajaroŭ vyznačajecca značeńniem nižej. Moža vyklikać prablemy z pradukcyjnaściu pry vykarystańni inšych źviazanych modaŭ (naprykład, TAOM). Kab užyć naładu, pierazapuścicie hulniu." />
+    <string id="RTSCameraCommandSystem_mounted_units_interval_threshold" text="Paroh Intervału Konnych Vajaroŭ" />
+    <string id="RTSCameraCommandSystem_mounted_units_interval_threshold_hint" text="Paroh doli konnych vajaroŭ u farmavańni, pry jakim jany trymajuć adlehłaść adzin ad adnaho. U bazavaj hulni pradvyznačanaje značeńnie — 0.1" />
+
+    <string id="RTSCameraCommandSystem_defensive_hold_options" text="Nałady Ŭtrymańnia Abarony" />
+    <string id="RTSCameraCommandSystem_add_defensive_hold_order" text="Dadać Zahad Utrymlivać Abaronu" />
+    <string id="RTSCameraCommandSystem_add_defensive_hold_order_hint" text="Kali ŭklučana, dadajecca zahad vajaram u abarončym stroi zastavacca na svaich miescach i trymać ščyty, zamiest taho kab pakidać pazycyi dziela ataki voraha." />
+    <string id="RTSCameraCommandSystem_defensive_hold_on" text="Utrymańnie Abarony Ŭklučanaje" />
+    <string id="RTSCameraCommandSystem_defensive_hold_off" text="Utrymańnie Abarony Vyklučanaje" />
+    <string id="RTSCameraCommandSystem_attack_if_hit" text="Atakavać u Adkaz na Ŭdar" />
+    <string id="RTSCameraCommandSystem_attack_if_hit_hint" text="Kali ŭklučana, vajary ŭ abarončym stroi buduć atakavać voraha, kali jon ich udaryć." />
+
+    <string id="RTSCameraCommandSystem_advance_order_options" text="Nałady Zahadu «Zładžanaja Ataka»" />
+
+    <string id="RTSCameraCommandSystem_fix_advance_order_for_throwing_weapons" text="Vypraŭleńnie Zładžanaj Ataki dla Kidalnaj Zbroi" />
+    <string id="RTSCameraCommandSystem_fix_advance_order_for_throwing_weapons_hint" text="Kali ŭklučana, vajary z kidalnaj zbrojaj buduć trymać adlehłaść da mety i kidać svaju zbroju." />
+
+    <string id="RTSCameraCommandSystem_apply_advance_order_fix_for_ai" text="Vypraŭleńnie Zładžanaj Ataki dla Farmavańniaŭ ŠI" />
+    <string id="RTSCameraCommandSystem_apply_advance_order_fix_for_ai_hint" text="Kali ŭklučana, vypraŭleńnie zładžanaj ataki dla kidalnaj zbroi budzie dziejničać i na farmavańni ŠI." />
+
+    <string id="RTSCameraCommandSystem_thrower_ratio_threshold" text="Paroh Doli Kidalnikaŭ" />
+    <string id="RTSCameraCommandSystem_thrower_ratio_threshold_hint" text="Minimalnaja dola vajaroŭ z kidalnaj zbrojaj u farmavańni dla ŭklučeńnia vypraŭleńnia zładžanaj ataki." />
+
+    <string id="RTSCameraCommandSystem_remaining_ammo_ratio_threshold" text="Paroh Doli Astatnich Snaradaŭ" />
+    <string id="RTSCameraCommandSystem_remaining_ammo_ratio_threshold_hint" text="Minimalnaja dola astatnich snaradaŭ, pry jakoj farmavańnie trymaje adlehłaść." />
+
+    <string id="RTSCameraCommandSystem_shorten_range_based_on_remaining_ammo" text="Skaračać Adlehłaść u Zaležnaści ad Astatnich Snaradaŭ" />
+    <string id="RTSCameraCommandSystem_shorten_range_based_on_remaining_ammo_hint" text="Čym mienš snaradaŭ zastajecca, tym mienšuju adlehłaść trymaje farmavańnie." />
+
+    <string id="RTSCameraCommandSystem_defensive_attack" text="zasiarodžvajecca na vorahu {TARGET_NAME}" />
+
+    <string id="RTSCameraCommandSystem_hotkeycategory" text="Haračyja Klavišy Systemy Zahadaŭ" />
+    <string id="RTSCameraCommandSystem_select_formation" text="Abrać Farmavańnie" />
+    <string id="RTSCameraCommandSystem_select_formation_hint" text="Abiarycie svajo farmavańnie ci zahadajcie abranym farmavańniam atakavać varožaje farmavańnie." />
+    <string id="RTSCameraCommandSystem_keep_movement_order" text="Zachavać Zahad Ruchacca " />
+    <string id="RTSCameraCommandSystem_keep_movement_order_hint" text="Naciśnicie, kab atakavać varožaje farmavańnie, zachoŭvajučy papiaredni zahad ruchacca." />
+    <string id="RTSCameraCommandSystem_formation_lock_movement" text="Pieraklučyć Fiksacyju Ruchu Farmavańniaŭ" />
+    <string id="RTSCameraCommandSystem_formation_lock_movement_hint" text="Utrymlivajcie, kab pieraklučyć Fiksacyju Ruchu Farmavańniaŭ." />
+    <string id="RTSCameraCommandSystem_select_target_for_command" text="Abrać Metu Zahadu" />
+    <string id="RTSCameraCommandSystem_select_target_for_command_hint" text="Utrymlivajcie pry addavańni zahadu nastupać ci paviarnucca, kab abrać metu." />
+    <string id="RTSCameraCommandSystem_command_queue" text="Čarha Zahadaŭ" />
+    <string id="RTSCameraCommandSystem_command_queue_hint" text="Dadać zahad u čarhu. Vajary buduć vykonvać zahady pa čarzie." />
+    <string id="RTSCameraCommandSystem_command_keep_formation_width" text="Zachavać Šyryniu Farmavańnia" />
+    <string id="RTSCameraCommandSystem_keep_formation_width_hint" text="Utrymlivajcie, kab zachavać šyryniu farmavańnia pry pieraciahvańni ci abrać dadatkovyja farmavańni." />
+
+    <string id="RTSCameraCommandSystem_tactic_level_required" text="Vaš uzrovień taktyki musić być nia mienšy za {level}" />
+
+    <string id="RTSCameraCommandSystem_order_queue_usage" text="Utrymlivajcie {KeyName} i addavajcie zahady, kab dadać ich u čarhu. Vašyja vajary buduć vykonvać ich pa čarzie." />
+    <string id="RTSCameraCommandSystem_lock_formation_usage" text="Kali vy ruchajecie ci pavaročvajecie niekalki farmavańniaŭ adnačasova, ich uzajemnaje raźmiaščeńnie i kirunki buduć zafiksavanyja." />
+    <string id="RTSCameraCommandSystem_lock_formation_width_usage" text="Utrymlivajcie {KeyName} pry pieraciahvańni pa ziamli, kab zafiksavać uzajemnaje raźmiaščeńnie i šyryniu farmavańniaŭ." />
+    <string id="RTSCameraCommandSystem_toggle_locking_usage" text="Utrymlivajcie {KeyName}, kab pieraklučyć fiksacyju." />
+    <string id="RTSCameraCommandSystem_target_only_usage" text="Naprykład, zahadajcie łučnikam zasiarodzić ahoń na mecie, zastajučysia na pazycyi." />
+    <string id="RTSCameraCommandSystem_click_troop_card_usage" text="Vy možacie vybirać svaje farmavańni naciskam na kartki vajaroŭ." />
+
+    <string id="RTSCameraCommandSystem_add_order_to_queue" text="Zahad dadadzieny ŭ čarhu." />
+    <string id="RTSCameraCommandSystem_execute_order_in_queue" text="Vykonvajecca zahad z čarhi." />
+
+    <string id="RTSCameraCommandSystem_follow_entity" text="Iści Ŭśled" />
+    <string id="RTSCameraCommandSystem_use_entity" text="Pačać Vykarystańnie" />
+    <string id="RTSCameraCommandSystem_stop_use_entity" text="Spynić Vykarystańnie" />
+    <string id="RTSCameraCommandSystem_attack_entity" text="Atakavać" />
+    <string id="RTSCameraCommandSystem_point_defense" text="Abarona" />
+
+    <string id="RTSCameraCommandSystem_volley_order" text="Załp" />
+    <string id="RTSCameraCommandSystem_auto_volley" text="Aŭtamatyčnyja Załpy" />
+    <string id="RTSCameraCommandSystem_auto_volley_hint" text="Uklučyć ci vyklučyć režym Aŭtamatyčnych Załpaŭ dla abranych strałkovych farmavańniaŭ." />
+    <string id="RTSCameraCommandSystem_auto_volley_off" text="Aŭtamatyčnyja Załpy Vyklučanyja" />
+    <string id="RTSCameraCommandSystem_manual_volley" text="Załpy pa Zahadzie" />
+    <string id="RTSCameraCommandSystem_manual_volley_hint" text="Uklučyć ci vyklučyć režym Załpaŭ pa Zahadzie dla abranych strałkovych farmavańniaŭ." />
+    <string id="RTSCameraCommandSystem_manual_volley_off" text="Załpy pa Zahadzie Vyklučanyja" />
+    <string id="RTSCameraCommandSystem_volley_disabled" text="Załpy Vyklučanyja" />
+    <string id="RTSCameraCommandSystem_volley_fire" text="Dać Załp" />
+    <string id="RTSCameraCommandSystem_volley_fire_hint" text="Dać Załp abranymi strałkovymi farmavańniami." />
+
+    <string id="RTSCameraCommandSystem_volley_order_options" text="Nałady Załpavaha Ahniu" />
+    <string id="RTSCameraCommandSystem_enable_volley_related_features" text="Uklučyć Mahčymaści Załpavaha Ahniu" />
+    <string id="RTSCameraCommandSystem_enable_volley_related_features_hint" text="Kali vyklučana, Aŭtamatyčnyja Załpy, Załpy pa Zahadzie, zahad Dać Załp, adpaviednyja haračyja klavišy i zahady ŭ čarzie buduć adklučanyja." />
+
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode" text="Režym Papiaredniaha Prycelvańnia" />
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode_hint" text="Kali papiaredniaje prycelvańnie ŭklučana, vajary buduć celicca ŭ metu biaz strełaŭ." />
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode_option_in_auto_volley" text="Pry Aŭtamatyčnych Załpach" />
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode_option_both_auto_and_manual_volley" text="Pry Aŭtamatyčnych Załpach i Załpach pa Zahadzie" />
+    <string id="RTSCameraCommandSystem_ready_ratio_in_auto_volley" text="Dola Hatovych Vajaroŭ pry Aŭtamatyčnych Załpach" />
+    <string id="RTSCameraCommandSystem_ready_ratio_in_auto_volley_hint" text="Minimalnaja dola vajaroŭ, hatovych da strełu, pierad załpam u režymie Aŭtamatyčnych Załpaŭ." />
+    <string id="RTSCameraCommandSystem_max_aiming_time" text="Maksymalny Čas Prycelvańnia" />
+    <string id="RTSCameraCommandSystem_max_aiming_time_hint" text="Maksymalny čas, adviedzieny vajaram na prycelvańnie ŭ režymie Aŭtamatyčnych Załpaŭ. Pa zmaŭčańni — 1.5 sekundy." />
+    <string id="RTSCameraCommandSystem_auto_volley_by_nonthrown_weapon_type" text="Aŭtamatyčnyja Załpy pavodle Typu Niekidalnaj Zbroi" />
+    <string id="RTSCameraCommandSystem_auto_volley_by_nonthrown_weapon_type_hint" text="Kali ŭklučana, vajary ź niekidalnaj zbrojaj buduć davać aŭtamatyčnyja załpy pavodle typu zbroi." />
+    <string id="RTSCameraCommandSystem_auto_volley_by_thrown_weapon_type" text="Aŭtamatyčnyja Załpy pavodle Typu Kidalnaj Zbroi" />
+    <string id="RTSCameraCommandSystem_auto_volley_by_thrown_weapon_type_hint" text="Kali ŭklučana, vajary z kidalnaj zbrojaj buduć davać aŭtamatyčnyja załpy pavodle typu zbroi." />
+  </strings>
+</base>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base type="string">
+
+
+
+  <strings>
+    <string id="RTSCamera_option_class" text="RTS Kamiera" />
+    <string id="RTSCamera_command_battle" text="(RTS Kamiera)Kiravać bitvaj." />
+    <string id="RTSCamera_cannot_control_agent_in_command_mode" text="Nielha kiravać vajarami ŭ režymie tolki kamandavańnia." />
+    <string id="RTSCamera_command_mode_tool_tip" text="Vy paranienyja. Vy možacie kamandavać svaimi vajarami, ale nia možacie niepasredna ŭdzielničać u bitvie." />
+    <string id="RTSCamera_switch_camera_hint" text="Naciśnicie {KeyName} u bitvie, kab uklučyć ci vyklučyć volnuju kamieru" />
+    <string id="RTSCamera_disable_death_hint" text="Usie vajary stanoviacca nieśmiarotnymi, dziela stvareńnia videa." />
+    <string id="RTSCamera_switch_team_hint" text="Źmianiaje kamandu hulca, dziela stvareńnia videa." />
+    <string id="RTSCamera_controltroop" text="Kiravańnie: {ControlledTroopName}." />
+    <string id="RTSCamera_notrooptocontrol" text="Niama chaŭrusnaha vajara dla kiravańnia." />
+    <string id="RTSCamera_deathdisabled" text="Usieahulnaja Nieśmiarotnaść uklučana." />
+    <string id="RTSCamera_deathenabled" text="Usieahulnaja Nieśmiarotnaść vyklučana." />
+    <string id="RTSCamera_camera_options" text="Nałady Kamiery" />
+    <string id="RTSCamera_switchfreecamera" text="Uklučyć/Vyklučyć Volnuju Kamieru" />
+    <string id="RTSCamera_switch_free_camera_hint" text="Pieraklučaje pamiž volnaj kamieraj i kamieraj hulca." />
+    <string id="RTSCamera_default_to_free_camera" text="Volnaja Kamiera pa Zmaŭčańni" />
+    <string id="RTSCamera_default_to_free_camera_hint" text="Kali vykarystoŭvać volnuju kamieru pa zmaŭčańni." />
+    <string id="RTSCamera_default_to_free_camera_option_never" text="Nikoli" />
+    <string id="RTSCamera_default_to_free_camera_option_deployment_stage" text="Etap Razhortvańnia" />
+    <string id="RTSCamera_controller_default_to_free_camera_option_always" text="Zaŭždy" />
+    <string id="RTSCamera_raisedheightafterswitchingtofreecamera" text="Vyšynia Ŭzdymu Kamiery" />
+    <string id="RTSCamera_raised_height_hint" text="Vyšynia ŭzdymańnia kamiery paśla pieraklučeńnia na volnuju kamieru." />
+    <string id="RTSCamera_limit_camera_distance" text="Abmiežavańnie Adlehłaści Kamiery" />
+    <string id="RTSCamera_limit_camera_distance_hint" text="Abmiažoŭvać adlehłaść kamiery pavodle navykaŭ taktyki i vyviedki." />
+    <string id="RTSCamera_camera_distance_limit" text="Limit Adlehłaści Kamiery" />
+    <string id="RTSCamera_constantspeed" text="Stałaja Chutkaść Kamiery" />
+    <string id="RTSCamera_constant_speed_hint" text="Chutkaść ruchu kamiery nie zaležyć ad vyšyni." />
+    <string id="RTSCamera_camera_height_follows_terrain" text="Vyšynia Kamiery Adpaviadaje Miascovaści" />
+    <string id="RTSCamera_camera_height_follows_terrain_hint" text="Vyšynia kamiery budzie adpaviadać vyšyni miascovaści, za vyniatkam vypadkaŭ, kali kamiera znachodzicca ŭnutry ci nad ab&apos;jektam sceny (ściana, chata, kamień...)." />
+    <string id="RTSCamera_ignore_terrain" text="Ihnaravać Miascovaść" />
+    <string id="RTSCamera_ignore_terrain_hint" text="Kali ŭklučana, kamiera nia budzie błakavacca miascovaściu i budynkami." />
+    <string id="RTSCamera_ignore_boundaries" text="Ihnaravać Miežy" />
+    <string id="RTSCamera_ignore_boundaries_hint" text="Paśla ŭklučeńnia nałady kamiera nia budzie abmiežavana miežami." />
+    <string id="RTSCamera_elevated_camera_rise_delay" text="Zatrymka Ŭzdymu Kamiery" />
+    <string id="RTSCamera_elevated_camera_rise_delay_hint" text="Zatrymka ŭ sekundach pierad tym, jak padniataja kamiera pačnie prykmietna ŭzdymacca." />
+    <string id="RTSCamera_elevated_camera_rise_duration" text="Praciahłaść Uzdymu Kamiery" />
+    <string id="RTSCamera_elevated_camera_rise_duration_hint" text="Čas u sekundach, za jaki padniataja kamiera dasiahnie amal poŭnaj vyšyni." />
+    <string id="RTSCamera_elevated_camera_off_duration" text="Praciahłaść Apuskańnia Kamiery" />
+    <string id="RTSCamera_elevated_camera_off_duration_hint" text="Čas u sekundach, za jaki padniataja kamiera vierniecca amal da zvyčajnaj vyšyni." />
+    <string id="RTSCamera_follow_facing_direction" text="Pavaročvać Kamieru Ŭśled za Piersanažam" />
+    <string id="RTSCamera_follow_facing_direction_hint" text="Ci pavaročvać kamieru ŭ kirunku pohladu piersanaža pry zvarotnym pieraklučeńni." />
+    <string id="RTSCamera_follow_facing_direction_option_never" text="Nikoli" />
+    <string id="RTSCamera_follow_facing_direction_option_control_new_unit_only" text="Tolki pry Kiravańni Novym Vajarom (Rekamendavana)" />
+    <string id="RTSCamera_follow_facing_direction_option_always" text="Zaŭždy" />
+    <string id="RTSCamera_control_options" text="Nałady Kiravańnia" />
+    <string id="RTSCamera_player_controller_in_free_camera" text="Kiravańnie Hulcom u Volnaj Kamiery" />
+    <string id="RTSCamera_player_controller_in_free_camera_hint" text="Režym kiravańnia hulcom u Volnaj Kamiery. «Nijak»: piersanažam hulca nichto nie kiruje. «ŠI»: piersanažam kiruje štučny intelekt. «Hulec»: vy možacie niepasredna kiravać svaim piersanažam." />
+    <string id="RTSCamera_controller_type_none" text="Nijak" />
+    <string id="RTSCamera_controller_type_AI" text="ŠI (Rekamendavana)" />
+    <string id="RTSCamera_controller_type_player" text="Hulec" />
+    <string id="RTSCamera_playerformation" text="Farmavańnie Hulca" />
+    <string id="RTSCamera_player_formation_unset" text="Nie Pryznačana" />
+    <string id="RTSCamera_player_formation_hint" text="Pryznačyć hulca da abranaha farmavańnia." />
+    <string id="RTSCamera_assign_player_formation" text="Pryznačeńnie Farmavańnia Hulca" />
+    <string id="RTSCamera_assign_player_formation_hint" text="Da jakoha farmavańnia dałučyć hulca na etapie razhortvańnia." />
+    <string id="RTSCamera_assign_player_formation_default_or_general_formation" text="Pradvyznačanaje Farmavańnie ci Farmavańnie Pałkavodca" />
+    <string id="RTSCamera_assign_player_formation_default" text="Zaŭždy Pradvyznačanaje Farmavańnie" />
+    <string id="RTSCamera_assign_player_formation_overwrite" text="Farmavańnie z Nałady Vyšej" />
+    <string id="RTSCamera_watchanotherhero" text="Nazirać za Inšym Hierojem" />
+    <string id="RTSCamera_watch_another_hero_hint" text="Nazirać za abranym hierojem." />
+    <string id="RTSCamera_select_character" text="Abrać Piersanaža" />
+    <string id="RTSCamera_select_character_hint" text="Abiarycie piersanaža myššu, kab zasiarodzić na im kamieru ci kiravać im." />
+    <string id="RTSCamera_control_ally_after_death_timing" text="Kali Kiravać Chaŭruśnikam Paśla Śmierci" />
+    <string id="RTSCamera_control_ally_after_death_timing_hint" text="Kali aŭtamatyčna pierachodzić da kiravańnia adnym z chaŭruśnikaŭ paśla vašaj śmierci." />
+    <string id="RTSCamera_control_ally_after_death_timing_option_never" text="Nikoli" />
+    <string id="RTSCamera_control_ally_after_death_timing_option_free_camera" text="U Volnaj Kamiery" />
+    <string id="RTSCamera_control_ally_after_death_timing_option_always" text="Zaŭždy (Rekamendavana)" />
+    <string id="RTSCamera_control_ally_after_death_timing_prompt" text="Ci ŭklučyć «Kiravać Vajarom Paśla Śmierci»?" />
+    <string id="RTSCamera_prefer_unit_in_same_formation" text="Addavać Pieravahu Vajaram z Taho Ž Farmavańnia" />
+    <string id="RTSCamera_prefer_unit_in_same_formation_hint" text="Pry pošuku vajara dla kiravańnia addavać pieravahu vajaram z taho ž farmavańnia, što i hulec." />
+    <string id="RTSCamera_controltroopsinplayerpartyonly" text="Kiravać Vajarami Tolki z Partyi Hulca" />
+    <string id="RTSCamera_control_troops_in_player_party_only_hint" text="Pry pošuku vajara dla kiravańnia razhladać tolki vajaroŭ z partyi hulca." />
+    <string id="RTSCamera_limited_to_player_party_only" text="Uklučana kiravańnie vajarami tolki z partyi hulca. Dla kiravańnia buduć razhladacca tolki vajary z vašaj partyi." />
+    <string id="RTSCamera_controlheroonly" text="Kiravać Tolki Hierojami" />
+    <string id="RTSCamera_controlheroonlyhint" text="Pry pošuku vajara dla kiravańnia razhladać tolki hierojaŭ." />
+    <string id="RTSCamera_limitedtoheroonly" text="Uklučana kiravańnie tolki hierojami. Dla kiravańnia buduć razhladacca tolki hieroi." />
+    <string id="RTSCamera_ignoreretreatingtroops" text="Ihnaravać Vajaroŭ, Jakija Adstupajuć" />
+    <string id="RTSCamera_ignore_retreating_troops_hint" text="Pry pošuku vajara dla kiravańnia nie razhladać vajaroŭ, jakija adstupajuć." />
+    <string id="RTSCamera_time_speed_options" text="Nałady Chutkaści Času" />
+    <string id="RTSCamera_togglepause" text="Uklučyć/Vyklučyć Paŭzu" />
+    <string id="RTSCamera_toggle_pause_hint" text="Pastavić ci źniać hulniu z paŭzy." />
+    <string id="RTSCamera_slowmotionmode" text="Režym Pavolnaha Ruchu" />
+    <string id="RTSCamera_slow_motion_hint" text="Ci ŭklučać režym pavolnaha ruchu dla rehulavańnia chutkaści času." />
+    <string id="RTSCamera_slowmotionfactor" text="Kaeficyjent Pavolnaha Ruchu" />
+    <string id="RTSCamera_slow_motion_factor_hint" text="Kaeficyjent chutkaści času. Značeńnie bolš za 1 moža vyklikać prablemy z ŠI ci symulacyjaj. Dla paskareńnia času vykarystoŭvajcie režym paskoranaha času nižej." />
+    <string id="RTSCamera_slowmotiononrtsview" text="Pavolny Ruch u Volnaj Kamiery" />
+    <string id="RTSCamera_slowmotiononrtsviewhint" text="Aŭtamatyčna ŭklučać režym Pavolnaha Ruchu ŭ volnaj kamiery." />
+    <string id="RTSCamera_slow_motion_hotkey_mode" text="Režym Haračaj Klavišy Pavolnaha Ruchu" />
+    <string id="RTSCamera_slow_motion_hotkey_mode_hint" text="Sposab uklučeńnia pavolnaha ruchu haračaj klavišaj." />
+    <string id="RTSCamera_hotkey_mode_toggle" text="Pieraklučeńnie" />
+    <string id="RTSCamera_hotkey_mode_hold" text="Utrymańnie" />
+    <string id="RTSCamera_fast_forward_mode" text="Režym Paskoranaha Času" />
+    <string id="RTSCamera_fast_forward_hint" text="Ci ŭklučać režym paskoranaha času." />
+    <string id="RTSCamera_override_fast_forward_speed" text="Źmianić Chutkaść Paskoranaha Času (Patrebny Pierazapusk)" />
+    <string id="RTSCamera_override_fast_forward_speed_hint" text="(Patrebny pierazapusk) Ci źmianiać pradvyznačanuju chutkaść paskoranaha času. Pa zmaŭčańni čas paskarajecca ŭ 10 razoŭ. Kali ŭklučana, chutkaść vyznačajecca značeńniem nižej." />
+    <string id="RTSCamera_fast_forward_speed" text="Chutkaść Paskoranaha Času" />
+    <string id="RTSCamera_fast_forward_speed_hint" text="Chutkaść času ŭ režymie paskoranaha času. Patrabuje ŭklučeńnia nałady vyšej." />
+    <string id="RTSCamera_fast_forward_hotkey_mode" text="Režym Haračaj Klavišy Paskoranaha Času" />
+    <string id="RTSCamera_fast_forward_hotkey_mode_hint" text="Sposab uklučeńnia paskoranaha času haračaj klavišaj." />
+    <string id="RTSCamera_miscellaneous_options" text="Roznyja Nałady" />
+    <string id="RTSCamera_displaymodmessage" text="Pakazvać Paviedamleńni Moda" />
+    <string id="RTSCamera_display_message_hint" text="Ci pakazvać paviedamleńni hetaha moda." />
+    <string id="RTSCamera_toggleui" text="Pakazać/Prybrać Karystalnicki Interfejs" />
+    <string id="RTSCamera_toggle_ui_hint" text="Adklučaje/uklučaje hrafičny interfejs hulni, dziela stvareńnia videa." />
+    <string id="RTSCamera_naval_options" text="Nałady Vajskovych Vietraziaŭ" />
+    <string id="RTSCamera_player_ship_controller_in_free_camera" text="Kiravańnie Karablom Hulca ŭ Volnaj Kamiery" />
+    <string id="RTSCamera_player_ship_controller_in_free_camera_hint" text="Režym kiravańnia karablom hulca ŭ Volnaj Kamiery. «Nijak»: karablom nichto nie kiruje. «ŠI»: karablom kiruje štučny intelekt. «Hulec»: vy možacie niepasredna kiravać svaim karablom." />
+    <string id="RTSCamera_steering_mode_when_player_stops_piloting" text="Kiravańnie Karablom Paśla Sychodu Hulca ad Styrna" />
+    <string id="RTSCamera_steering_mode_when_player_stops_piloting_hint" text="Jak kiravać karablom, kali hulec pakidaje styrno. «Nijak»: karabiel zastajecca biez kiravańnia. «Vajar»: karablom kiruje vajar i vykonvaje vašyja zahady. «Pieradać Kamandavańnie»: karablom kiruje vajar i vykonvaje karabielnyja zahady ŠI." />
+    <string id="RTSCamera_steering_mode_none" text="Nijak (Pa Zmaŭčańni)" />
+    <string id="RTSCamera_steering_mode_soldier" text="Vajar" />
+    <string id="RTSCamera_steering_mode_delegate_command" text="Pieradać Kamandavańnie" />
+    <string id="RTSCamera_switch_retreat_and_delegate_command" text="Pamianiać Miescami Adstupleńnie i Pieradaču Kamandavańnia" />
+    <string id="RTSCamera_switch_retreat_and_delegate_command_hint" text="Pamianiać miescami haračyja klavišy i punkty interfejsu dla Adstupleńnia i Pieradačy Kamandavańnia, kab Pieradača Kamandavańnia była pryznačanaja na F6." />
+    <string id="RTSCamera_ship_need_to_be_connected" text="Kab zachapić karabiel, jon musić być złučany z vašymi karablami." />
+    <string id="RTSCamera_unbalancedoptionsdescription" text="Nałady Čytoŭ" />
+    <string id="RTSCamera_disabledeath" text="Usieahulnaja Nieśmiarotnaść" />
+    <string id="RTSCamera_enable_all_invulnerable_hotkey" text="Uklučyć Haračuju Klavišu Ŭsieahulnaj Nieśmiarotnaści" />
+    <string id="RTSCamera_switchteam" text="Źmianić Kamandu" />
+    <string id="RTSCamera_enable_switch_team_hotkey" text="Uklučyć Haračuju Klavišu Źmieny Kamandy" />
+    <string id="RTSCamera_missionpaused" text="Misija na paŭzie." />
+    <string id="RTSCamera_missioncontinue" text="Misija praciahnuta." />
+    <string id="RTSCamera_slowmotionenabled" text="Režym Pavolnaha Ruchu Ŭklučany." />
+    <string id="RTSCamera_normalmodeenabled" text="Narmalny Režym Uklučany." />
+    <string id="RTSCamera_fastforwardenabled" text="Režym Paskoranaha Času Ŭklučany." />
+    <string id="RTSCamera_fastforwarddisabled" text="Režym Paskoranaha Času Vyklučany." />
+    <string id="RTSCamera_playeragentdead" text="Piersanaž hulca paranieny." />
+    <string id="RTSCamera_switchtoplayer" text="Pieraklučycca na piersanaža hulca." />
+    <string id="RTSCamera_switchtofreecamera" text="Pieraklučycca na volnuju kamieru." />
+    <string id="RTSCamera_elevated_camera_hint" text="Padymać kamieru pry addavańni zahadaŭ." />
+    <string id="RTSCamera_elevated_camera_trigger_mode" text="Kali Padymać Kamieru" />
+    <string id="RTSCamera_elevated_camera_trigger_mode_hint" text="Abiarycie, kali padymać kamieru pry addavańni zahadaŭ." />
+    <string id="RTSCamera_elevated_camera_trigger_mode_option_never" text="Nikoli" />
+    <string id="RTSCamera_elevated_camera_trigger_mode_option_when_opening_order_ui" text="Pry Adkryćci Interfejsu Zahadaŭ" />
+    <string id="RTSCamera_elevated_camera_trigger_mode_option_when_giving_movement_order" text="Pry Addavańni Zahadu Ruchacca" />
+    <string id="RTSCamera_switch_camera_on_ordering" text="Pieraklučać Kamieru pry Addavańni Zahadaŭ" />
+    <string id="RTSCamera_switch_camera_on_ordering_hint" text="Pieraklučacca na volnuju kamieru pry adkryćci interfejsu zahadaŭ i viartacca nazad pry jaho zakryćci." />
+    <string id="RTSCamera_orderonswitchingcamera" text="Interfejs Zahadaŭ pry Pieraklučeńni Kamiery" />
+    <string id="RTSCamera_orderonswitchingcamerahint" text="Aŭtamatyčna adkryvać interfejs zahadaŭ pry pieraklučeńni na volnuju kamieru i zakryvać jaho pry zvarotnym pieraklučeńni." />
+    <string id="RTSCamera_keep_order_ui_open_in_free_camera" text="Trymać Interfejs Zahadaŭ Adkrytym u Volnaj Kamiery" />
+    <string id="RTSCamera_keep_order_ui_open_in_free_camera_hint" text="Trymać Interfejs Zahadaŭ Adkrytym u Volnaj Kamiery." />
+    <string id="RTSCamera_keep_order_ui_open_in_elevated_camera" text="Trymać Interfejs Zahadaŭ Adkrytym pry Padniataj Kamiery" />
+    <string id="RTSCamera_keep_order_ui_open_in_elevated_camera_hint" text="Trymać Interfejs Zahadaŭ Adkrytym pry Padniataj Kamiery." />
+    <string id="RTSCamera_show_hotkey_hint" text="Pakazvać Padkazki Haračych Klavišaŭ" />
+    <string id="RTSCamera_show_hotkey_hint_hint" text="Pakazvać padkazki haračych klavišaŭ u režymie volnaj kamiery." />
+    <string id="RTSCamera_fast_forward_hideout" text="Paskorany Čas u Schoviščy" />
+    <string id="RTSCamera_fast_forward_hideout_hint" text="Aŭtamatyčna paskarać čas u schoviščy i pieradavać kiravańnie hulcom ŠI." />
+    <string id="RTSCamera_fast_forward_hideout_option_never" text="Nikoli" />
+    <string id="RTSCamera_fast_forward_hideout_option_until_boss_fight" text="Da Boju ź Vierchavodam" />
+    <string id="RTSCamera_fast_forward_hideout_option_always" text="Zaŭždy" />
+    <string id="RTSCamera_fast_forward_hideout_prompt" text="Ci ŭklučyć paskorany čas u schoviščy?" />
+    <string id="RTSCamera_ai_control_ship_on" text="Vajar za Styrnom: Uklučana" />
+    <string id="RTSCamera_player_control_ship_off" text="Vajar za Styrnom: Vyklučana" />
+    <string id="RTSCamera_soldiers_start_controlling_ship" text="Vajar pačynaje kiravać vašym karablom." />
+    <string id="RTSCamera_soldiers_stop_controlling_ship" text="Vajar spyniaje kiravańnie vašym karablom." />
+    <string id="RTSCamera_hotkeycategory" text="Haračyja Klavišy RTS Kamiery" />
+    <string id="RTSCamera_pausekey" text="Paŭza" />
+    <string id="RTSCamera_slowmotionkey" text="Pavolny Ruch" />
+    <string id="RTSCamera_fastforwardkey" text="Paskorany Čas" />
+    <string id="RTSCamera_freecamerakey" text="Volnaja Kamiera" />
+    <string id="RTSCamera_disabledeathkey" text="Usieahulnaja Nieśmiarotnaść" />
+    <string id="RTSCamera_controltroopkey" text="Zasiarodzić Kamieru / Kiravać Vajarom" />
+    <string id="RTSCamera_camera_move_forward" text="Ruch Kamiery Napierad" />
+    <string id="RTSCamera_camera_move_backward" text="Ruch Kamiery Nazad" />
+    <string id="RTSCamera_camera_move_left" text="Ruch Kamiery Naleva" />
+    <string id="RTSCamera_camera_move_right" text="Ruch Kamiery Naprava" />
+    <string id="RTSCamera_camera_move_up" text="Ruch Kamiery Ŭvierch" />
+    <string id="RTSCamera_camera_move_down" text="Ruch Kamiery Ŭniz" />
+    <string id="RTSCamera_camera_increase_camera_limit" text="Pavialičyć Abmiežavańnie Adlehłaści Kamiery" />
+    <string id="RTSCamera_camera_decrease_camera_limit" text="Źmienšyć Abmiežavańnie Adlehłaści Kamiery" />
+    <string id="RTSCamera_camera_increase_camera_speed" text="Pavialičyć Chutkaść Kamiery" />
+    <string id="RTSCamera_camera_decrease_camera_speed" text="Źmienšyć Chutkaść Kamiery" />
+    <string id="RTSCamera_camera_reset_camera_speed" text="Skinuć Chutkaść Kamiery" />
+    <string id="RTSCamera_camera_move_by_mouse" text="Ruchać Kamieru Myššu" />
+    <string id="RTSCamera_slowmotionkey_description" text="Uklučaje režym pavolnaha ruchu. Naciśnicie znoŭ, kab adklučyć." />
+    <string id="RTSCamera_fastforwardkey_description" text="Uklučyć ci vyklučyć Paskorany Čas." />
+    <string id="RTSCamera_disable_death_description" text="Usie vajary stanoviacca nieśmiarotnymi dziela stvareńnia videa. Treba ŭklučyć režym čytoŭ i haračuju klavišu ŭ mieniu." />
+    <string id="RTSCamera_controltroopkey_description" text="Zasiarodzić kamieru na piersanažy ci abranym farmavańni. Kiravać piersanažam, na jakim zasiarodžanaja kamiera." />
+    <string id="RTSCamera_switchteam_description" text="Źmianiaje kamandu hulca dziela stvareńnia videa. Treba ŭklučyć režym čytoŭ i haračuju klavišu ŭ mieniu." />
+    <string id="RTSCamera_camera_move_forward_description" text="Ruchaje kamieru napierad" />
+    <string id="RTSCamera_camera_move_backward_description" text="Ruchaje kamieru nazad" />
+    <string id="RTSCamera_camera_move_left_description" text="Ruchaje kamieru naleva" />
+    <string id="RTSCamera_camera_move_right_description" text="Ruchaje kamieru naprava" />
+    <string id="RTSCamera_camera_move_up_description" text="Ruchaje kamieru ŭvierch" />
+    <string id="RTSCamera_camera_move_down_description" text="Ruchaje kamieru ŭniz" />
+    <string id="RTSCamera_camera_increase_camera_limit_description" text="Pavialičvaje Abmiežavańnie Adlehłaści Kamiery" />
+    <string id="RTSCamera_camera_decrease_camera_limit_description" text="Źmienšaje Abmiežavańnie Adlehłaści Kamiery" />
+    <string id="RTSCamera_camera_increase_camera_speed_description" text="Pavialičyć Chutkaść Kamiery." />
+    <string id="RTSCamera_camera_decrease_camera_speed_description" text="Źmienšyć Chutkaść Kamiery." />
+    <string id="RTSCamera_camera_reset_camera_speed_description" text="Skinuć Chutkaść Kamiery." />
+    <string id="RTSCamera_camera_move_by_mouse_description" text="Utrymlivajcie, kab ruchać kamieru myššu." />
+    <string id="RTSCamera_enemywipedout" text="Vorah byŭ źniščany." />
+    <string id="RTSCamera_switchtoenemyteam" text="Źmieniena kamanda na varožuju." />
+    <string id="RTSCamera_select_character_view_hint" text="Abiarycie piersanaža levaj knopkaj myšy. Zatym naciśnicie {KeyName}, kab pryviazać da jaho kamieru, i naciśnicie jašče raz, kab kiravać im." />
+    <string id="RTSCamera_control_troop_hint" text="Naciśnicie {KeyName}, kab kiravać adnym z vašych paplečnikaŭ." />
+    <string id="RTSCamera_control_current_agent_hint" text="Naciśnicie {KeyName}, kab kiravać piersanažam" />
+    <string id="RTSCamera_focus_on_formation_hint" text="Naciśnicie {KeyName}, kab zasiarodzić kamieru na abranym farmavańni." />
+    <string id="RTSCamera_tactics_skill_effect_description" text="Abmiežavańnie RTS Kamiery Taktykaj: +{a0}m" />
+    <string id="RTSCamera_scouting_skill_effect_description" text=" Abmiežavańnie RTS Kamiery Vyviedkaj: +{a0}%" />
+    <string id="RTSCamera_base_distance" text="Bazavaja Adlehłaść" />
+    <string id="RTSCamera_out_of_campaign" text="Pa-za Kampanijaj" />
+    <string id="RTSCamera_no_main_hero" text="Hałoŭny hieroj nie isnuje" />
+    <string id="RTSCamera_cheat_mode_required" text="Uklučycie režym čytoŭ, kab zakryć hetuju naładu." />
+    <string id="RTSCamera_focus_on_formation_usage" text="(Novaja Mahčymaść) Kali interfejs zahadaŭ adkryty ŭ režymie volnaj kamiery, naciśnicie {KeyName}, kab pryviazać kamieru da abranaha farmavańnia." />
+    <string id="RTSCamera_control_troop_usage" text="Paśla hibieli vašaha piersanaža ŭ bitvie naciśnicie {KeyName}, kab nazirać za adnym z vašych vajaroŭ, i naciśnicie {KeyName} jašče raz, kab kiravać im i praciahnuć boj." />
+    <string id="RTSCamera_open_menu_hotkey_hint" text="adkryć mieniu" />
+    <string id="RTSCamera_switch_camera_hotkey_hint" text="uklučyć ci vyklučyć volnuju kamieru" />
+    <string id="RTSCamera_control_troop_hotkey_hint" text="pryviazać da piersanaža/farmavańnia; kiravać piersanažam" />
+    <string id="RTSCamera_select_character_hotkey_hint" text="režym vybaru piersanaža" />
+    <string id="RTSCamera_move_camera_hotkey_hint" text="Ruchać Kamieru" />
+  </strings>
+</base>

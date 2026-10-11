@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base type="string">
+
+
+
+  <strings>
+    <string id="RTSCamera_option_class" text="RTS Камера" />
+    <string id="RTSCamera_command_battle" text="(RTS Камера)Кіраваць бітвай." />
+    <string id="RTSCamera_cannot_control_agent_in_command_mode" text="Нельга кіраваць ваярамі ў рэжыме толькі камандаваньня." />
+    <string id="RTSCamera_command_mode_tool_tip" text="Вы параненыя. Вы можаце камандаваць сваімі ваярамі, але ня можаце непасрэдна ўдзельнічаць у бітве." />
+    <string id="RTSCamera_switch_camera_hint" text="Націсьніце {KeyName} у бітве, каб уключыць ці выключыць вольную камеру" />
+    <string id="RTSCamera_disable_death_hint" text="Усе ваяры становяцца несьмяротнымі, дзеля стварэньня відэа." />
+    <string id="RTSCamera_switch_team_hint" text="Зьмяняе каманду гульца, дзеля стварэньня відэа." />
+    <string id="RTSCamera_controltroop" text="Кіраваньне: {ControlledTroopName}." />
+    <string id="RTSCamera_notrooptocontrol" text="Няма хаўруснага ваяра для кіраваньня." />
+    <string id="RTSCamera_deathdisabled" text="Усеагульная Несьмяротнасьць уключана." />
+    <string id="RTSCamera_deathenabled" text="Усеагульная Несьмяротнасьць выключана." />
+    <string id="RTSCamera_camera_options" text="Налады Камеры" />
+    <string id="RTSCamera_switchfreecamera" text="Уключыць/Выключыць Вольную Камеру" />
+    <string id="RTSCamera_switch_free_camera_hint" text="Пераключае паміж вольнай камерай і камерай гульца." />
+    <string id="RTSCamera_default_to_free_camera" text="Вольная Камера па Змаўчаньні" />
+    <string id="RTSCamera_default_to_free_camera_hint" text="Калі выкарыстоўваць вольную камеру па змаўчаньні." />
+    <string id="RTSCamera_default_to_free_camera_option_never" text="Ніколі" />
+    <string id="RTSCamera_default_to_free_camera_option_deployment_stage" text="Этап Разгортваньня" />
+    <string id="RTSCamera_controller_default_to_free_camera_option_always" text="Заўжды" />
+    <string id="RTSCamera_raisedheightafterswitchingtofreecamera" text="Вышыня Ўздыму Камеры" />
+    <string id="RTSCamera_raised_height_hint" text="Вышыня ўздыманьня камеры пасьля пераключэньня на вольную камеру." />
+    <string id="RTSCamera_limit_camera_distance" text="Абмежаваньне Адлегласьці Камеры" />
+    <string id="RTSCamera_limit_camera_distance_hint" text="Абмяжоўваць адлегласьць камеры паводле навыкаў тактыкі і выведкі." />
+    <string id="RTSCamera_camera_distance_limit" text="Ліміт Адлегласьці Камеры" />
+    <string id="RTSCamera_constantspeed" text="Сталая Хуткасьць Камеры" />
+    <string id="RTSCamera_constant_speed_hint" text="Хуткасьць руху камеры не залежыць ад вышыні." />
+    <string id="RTSCamera_camera_height_follows_terrain" text="Вышыня Камеры Адпавядае Мясцовасьці" />
+    <string id="RTSCamera_camera_height_follows_terrain_hint" text="Вышыня камеры будзе адпавядаць вышыні мясцовасьці, за выняткам выпадкаў, калі камера знаходзіцца ўнутры ці над аб&apos;ектам сцэны (сьцяна, хата, камень...)." />
+    <string id="RTSCamera_ignore_terrain" text="Ігнараваць Мясцовасьць" />
+    <string id="RTSCamera_ignore_terrain_hint" text="Калі ўключана, камера ня будзе блакавацца мясцовасьцю і будынкамі." />
+    <string id="RTSCamera_ignore_boundaries" text="Ігнараваць Межы" />
+    <string id="RTSCamera_ignore_boundaries_hint" text="Пасьля ўключэньня налады камера ня будзе абмежавана межамі." />
+    <string id="RTSCamera_elevated_camera_rise_delay" text="Затрымка Ўздыму Камеры" />
+    <string id="RTSCamera_elevated_camera_rise_delay_hint" text="Затрымка ў сэкундах перад тым, як паднятая камера пачне прыкметна ўздымацца." />
+    <string id="RTSCamera_elevated_camera_rise_duration" text="Працягласьць Уздыму Камеры" />
+    <string id="RTSCamera_elevated_camera_rise_duration_hint" text="Час у сэкундах, за які паднятая камера дасягне амаль поўнай вышыні." />
+    <string id="RTSCamera_elevated_camera_off_duration" text="Працягласьць Апусканьня Камеры" />
+    <string id="RTSCamera_elevated_camera_off_duration_hint" text="Час у сэкундах, за які паднятая камера вернецца амаль да звычайнай вышыні." />
+    <string id="RTSCamera_follow_facing_direction" text="Паварочваць Камеру Ўсьлед за Персанажам" />
+    <string id="RTSCamera_follow_facing_direction_hint" text="Ці паварочваць камеру ў кірунку погляду персанажа пры зваротным пераключэньні." />
+    <string id="RTSCamera_follow_facing_direction_option_never" text="Ніколі" />
+    <string id="RTSCamera_follow_facing_direction_option_control_new_unit_only" text="Толькі пры Кіраваньні Новым Ваяром (Рэкамэндавана)" />
+    <string id="RTSCamera_follow_facing_direction_option_always" text="Заўжды" />
+    <string id="RTSCamera_control_options" text="Налады Кіраваньня" />
+    <string id="RTSCamera_player_controller_in_free_camera" text="Кіраваньне Гульцом у Вольнай Камеры" />
+    <string id="RTSCamera_player_controller_in_free_camera_hint" text="Рэжым кіраваньня гульцом у Вольнай Камеры. «Ніяк»: персанажам гульца ніхто не кіруе. «ШІ»: персанажам кіруе штучны інтэлект. «Гулец»: вы можаце непасрэдна кіраваць сваім персанажам." />
+    <string id="RTSCamera_controller_type_none" text="Ніяк" />
+    <string id="RTSCamera_controller_type_AI" text="ШІ (Рэкамэндавана)" />
+    <string id="RTSCamera_controller_type_player" text="Гулец" />
+    <string id="RTSCamera_playerformation" text="Фармаваньне Гульца" />
+    <string id="RTSCamera_player_formation_unset" text="Не Прызначана" />
+    <string id="RTSCamera_player_formation_hint" text="Прызначыць гульца да абранага фармаваньня." />
+    <string id="RTSCamera_assign_player_formation" text="Прызначэньне Фармаваньня Гульца" />
+    <string id="RTSCamera_assign_player_formation_hint" text="Да якога фармаваньня далучыць гульца на этапе разгортваньня." />
+    <string id="RTSCamera_assign_player_formation_default_or_general_formation" text="Прадвызначанае Фармаваньне ці Фармаваньне Палкаводца" />
+    <string id="RTSCamera_assign_player_formation_default" text="Заўжды Прадвызначанае Фармаваньне" />
+    <string id="RTSCamera_assign_player_formation_overwrite" text="Фармаваньне з Налады Вышэй" />
+    <string id="RTSCamera_watchanotherhero" text="Назіраць за Іншым Героем" />
+    <string id="RTSCamera_watch_another_hero_hint" text="Назіраць за абраным героем." />
+    <string id="RTSCamera_select_character" text="Абраць Персанажа" />
+    <string id="RTSCamera_select_character_hint" text="Абярыце персанажа мышшу, каб засяродзіць на ім камеру ці кіраваць ім." />
+    <string id="RTSCamera_control_ally_after_death_timing" text="Калі Кіраваць Хаўрусьнікам Пасьля Сьмерці" />
+    <string id="RTSCamera_control_ally_after_death_timing_hint" text="Калі аўтаматычна пераходзіць да кіраваньня адным з хаўрусьнікаў пасьля вашай сьмерці." />
+    <string id="RTSCamera_control_ally_after_death_timing_option_never" text="Ніколі" />
+    <string id="RTSCamera_control_ally_after_death_timing_option_free_camera" text="У Вольнай Камеры" />
+    <string id="RTSCamera_control_ally_after_death_timing_option_always" text="Заўжды (Рэкамэндавана)" />
+    <string id="RTSCamera_control_ally_after_death_timing_prompt" text="Ці ўключыць «Кіраваць Ваяром Пасьля Сьмерці»?" />
+    <string id="RTSCamera_prefer_unit_in_same_formation" text="Аддаваць Перавагу Ваярам з Таго Ж Фармаваньня" />
+    <string id="RTSCamera_prefer_unit_in_same_formation_hint" text="Пры пошуку ваяра для кіраваньня аддаваць перавагу ваярам з таго ж фармаваньня, што і гулец." />
+    <string id="RTSCamera_controltroopsinplayerpartyonly" text="Кіраваць Ваярамі Толькі з Партыі Гульца" />
+    <string id="RTSCamera_control_troops_in_player_party_only_hint" text="Пры пошуку ваяра для кіраваньня разглядаць толькі ваяроў з партыі гульца." />
+    <string id="RTSCamera_limited_to_player_party_only" text="Уключана кіраваньне ваярамі толькі з партыі гульца. Для кіраваньня будуць разглядацца толькі ваяры з вашай партыі." />
+    <string id="RTSCamera_controlheroonly" text="Кіраваць Толькі Героямі" />
+    <string id="RTSCamera_controlheroonlyhint" text="Пры пошуку ваяра для кіраваньня разглядаць толькі герояў." />
+    <string id="RTSCamera_limitedtoheroonly" text="Уключана кіраваньне толькі героямі. Для кіраваньня будуць разглядацца толькі героі." />
+    <string id="RTSCamera_ignoreretreatingtroops" text="Ігнараваць Ваяроў, Якія Адступаюць" />
+    <string id="RTSCamera_ignore_retreating_troops_hint" text="Пры пошуку ваяра для кіраваньня не разглядаць ваяроў, якія адступаюць." />
+    <string id="RTSCamera_time_speed_options" text="Налады Хуткасьці Часу" />
+    <string id="RTSCamera_togglepause" text="Уключыць/Выключыць Паўзу" />
+    <string id="RTSCamera_toggle_pause_hint" text="Паставіць ці зьняць гульню з паўзы." />
+    <string id="RTSCamera_slowmotionmode" text="Рэжым Павольнага Руху" />
+    <string id="RTSCamera_slow_motion_hint" text="Ці ўключаць рэжым павольнага руху для рэгуляваньня хуткасьці часу." />
+    <string id="RTSCamera_slowmotionfactor" text="Каэфіцыент Павольнага Руху" />
+    <string id="RTSCamera_slow_motion_factor_hint" text="Каэфіцыент хуткасьці часу. Значэньне больш за 1 можа выклікаць праблемы з ШІ ці сымуляцыяй. Для паскарэньня часу выкарыстоўвайце рэжым паскоранага часу ніжэй." />
+    <string id="RTSCamera_slowmotiononrtsview" text="Павольны Рух у Вольнай Камеры" />
+    <string id="RTSCamera_slowmotiononrtsviewhint" text="Аўтаматычна ўключаць рэжым Павольнага Руху ў вольнай камеры." />
+    <string id="RTSCamera_slow_motion_hotkey_mode" text="Рэжым Гарачай Клявішы Павольнага Руху" />
+    <string id="RTSCamera_slow_motion_hotkey_mode_hint" text="Спосаб уключэньня павольнага руху гарачай клявішай." />
+    <string id="RTSCamera_hotkey_mode_toggle" text="Пераключэньне" />
+    <string id="RTSCamera_hotkey_mode_hold" text="Утрыманьне" />
+    <string id="RTSCamera_fast_forward_mode" text="Рэжым Паскоранага Часу" />
+    <string id="RTSCamera_fast_forward_hint" text="Ці ўключаць рэжым паскоранага часу." />
+    <string id="RTSCamera_override_fast_forward_speed" text="Зьмяніць Хуткасьць Паскоранага Часу (Патрэбны Перазапуск)" />
+    <string id="RTSCamera_override_fast_forward_speed_hint" text="(Патрэбны перазапуск) Ці зьмяняць прадвызначаную хуткасьць паскоранага часу. Па змаўчаньні час паскараецца ў 10 разоў. Калі ўключана, хуткасьць вызначаецца значэньнем ніжэй." />
+    <string id="RTSCamera_fast_forward_speed" text="Хуткасьць Паскоранага Часу" />
+    <string id="RTSCamera_fast_forward_speed_hint" text="Хуткасьць часу ў рэжыме паскоранага часу. Патрабуе ўключэньня налады вышэй." />
+    <string id="RTSCamera_fast_forward_hotkey_mode" text="Рэжым Гарачай Клявішы Паскоранага Часу" />
+    <string id="RTSCamera_fast_forward_hotkey_mode_hint" text="Спосаб уключэньня паскоранага часу гарачай клявішай." />
+    <string id="RTSCamera_miscellaneous_options" text="Розныя Налады" />
+    <string id="RTSCamera_displaymodmessage" text="Паказваць Паведамленьні Мода" />
+    <string id="RTSCamera_display_message_hint" text="Ці паказваць паведамленьні гэтага мода." />
+    <string id="RTSCamera_toggleui" text="Паказаць/Прыбраць Карыстальніцкі Інтэрфэйс" />
+    <string id="RTSCamera_toggle_ui_hint" text="Адключае/уключае графічны інтэрфэйс гульні, дзеля стварэньня відэа." />
+    <string id="RTSCamera_naval_options" text="Налады Вайсковых Ветразяў" />
+    <string id="RTSCamera_player_ship_controller_in_free_camera" text="Кіраваньне Караблём Гульца ў Вольнай Камеры" />
+    <string id="RTSCamera_player_ship_controller_in_free_camera_hint" text="Рэжым кіраваньня караблём гульца ў Вольнай Камеры. «Ніяк»: караблём ніхто не кіруе. «ШІ»: караблём кіруе штучны інтэлект. «Гулец»: вы можаце непасрэдна кіраваць сваім караблём." />
+    <string id="RTSCamera_steering_mode_when_player_stops_piloting" text="Кіраваньне Караблём Пасьля Сыходу Гульца ад Стырна" />
+    <string id="RTSCamera_steering_mode_when_player_stops_piloting_hint" text="Як кіраваць караблём, калі гулец пакідае стырно. «Ніяк»: карабель застаецца без кіраваньня. «Ваяр»: караблём кіруе ваяр і выконвае вашыя загады. «Перадаць Камандаваньне»: караблём кіруе ваяр і выконвае карабельныя загады ШІ." />
+    <string id="RTSCamera_steering_mode_none" text="Ніяк (Па Змаўчаньні)" />
+    <string id="RTSCamera_steering_mode_soldier" text="Ваяр" />
+    <string id="RTSCamera_steering_mode_delegate_command" text="Перадаць Камандаваньне" />
+    <string id="RTSCamera_switch_retreat_and_delegate_command" text="Памяняць Месцамі Адступленьне і Перадачу Камандаваньня" />
+    <string id="RTSCamera_switch_retreat_and_delegate_command_hint" text="Памяняць месцамі гарачыя клявішы і пункты інтэрфэйсу для Адступленьня і Перадачы Камандаваньня, каб Перадача Камандаваньня была прызначаная на F6." />
+    <string id="RTSCamera_ship_need_to_be_connected" text="Каб захапіць карабель, ён мусіць быць злучаны з вашымі караблямі." />
+    <string id="RTSCamera_unbalancedoptionsdescription" text="Налады Чытоў" />
+    <string id="RTSCamera_disabledeath" text="Усеагульная Несьмяротнасьць" />
+    <string id="RTSCamera_enable_all_invulnerable_hotkey" text="Уключыць Гарачую Клявішу Ўсеагульнай Несьмяротнасьці" />
+    <string id="RTSCamera_switchteam" text="Зьмяніць Каманду" />
+    <string id="RTSCamera_enable_switch_team_hotkey" text="Уключыць Гарачую Клявішу Зьмены Каманды" />
+    <string id="RTSCamera_missionpaused" text="Місія на паўзе." />
+    <string id="RTSCamera_missioncontinue" text="Місія працягнута." />
+    <string id="RTSCamera_slowmotionenabled" text="Рэжым Павольнага Руху Ўключаны." />
+    <string id="RTSCamera_normalmodeenabled" text="Нармальны Рэжым Уключаны." />
+    <string id="RTSCamera_fastforwardenabled" text="Рэжым Паскоранага Часу Ўключаны." />
+    <string id="RTSCamera_fastforwarddisabled" text="Рэжым Паскоранага Часу Выключаны." />
+    <string id="RTSCamera_playeragentdead" text="Персанаж гульца паранены." />
+    <string id="RTSCamera_switchtoplayer" text="Пераключыцца на персанажа гульца." />
+    <string id="RTSCamera_switchtofreecamera" text="Пераключыцца на вольную камеру." />
+    <string id="RTSCamera_elevated_camera_hint" text="Падымаць камеру пры аддаваньні загадаў." />
+    <string id="RTSCamera_elevated_camera_trigger_mode" text="Калі Падымаць Камеру" />
+    <string id="RTSCamera_elevated_camera_trigger_mode_hint" text="Абярыце, калі падымаць камеру пры аддаваньні загадаў." />
+    <string id="RTSCamera_elevated_camera_trigger_mode_option_never" text="Ніколі" />
+    <string id="RTSCamera_elevated_camera_trigger_mode_option_when_opening_order_ui" text="Пры Адкрыцьці Інтэрфэйсу Загадаў" />
+    <string id="RTSCamera_elevated_camera_trigger_mode_option_when_giving_movement_order" text="Пры Аддаваньні Загаду Рухацца" />
+    <string id="RTSCamera_switch_camera_on_ordering" text="Пераключаць Камеру пры Аддаваньні Загадаў" />
+    <string id="RTSCamera_switch_camera_on_ordering_hint" text="Пераключацца на вольную камеру пры адкрыцьці інтэрфэйсу загадаў і вяртацца назад пры яго закрыцьці." />
+    <string id="RTSCamera_orderonswitchingcamera" text="Інтэрфэйс Загадаў пры Пераключэньні Камеры" />
+    <string id="RTSCamera_orderonswitchingcamerahint" text="Аўтаматычна адкрываць інтэрфэйс загадаў пры пераключэньні на вольную камеру і закрываць яго пры зваротным пераключэньні." />
+    <string id="RTSCamera_keep_order_ui_open_in_free_camera" text="Трымаць Інтэрфэйс Загадаў Адкрытым у Вольнай Камеры" />
+    <string id="RTSCamera_keep_order_ui_open_in_free_camera_hint" text="Трымаць Інтэрфэйс Загадаў Адкрытым у Вольнай Камеры." />
+    <string id="RTSCamera_keep_order_ui_open_in_elevated_camera" text="Трымаць Інтэрфэйс Загадаў Адкрытым пры Паднятай Камеры" />
+    <string id="RTSCamera_keep_order_ui_open_in_elevated_camera_hint" text="Трымаць Інтэрфэйс Загадаў Адкрытым пры Паднятай Камеры." />
+    <string id="RTSCamera_show_hotkey_hint" text="Паказваць Падказкі Гарачых Клявішаў" />
+    <string id="RTSCamera_show_hotkey_hint_hint" text="Паказваць падказкі гарачых клявішаў у рэжыме вольнай камеры." />
+    <string id="RTSCamera_fast_forward_hideout" text="Паскораны Час у Сховішчы" />
+    <string id="RTSCamera_fast_forward_hideout_hint" text="Аўтаматычна паскараць час у сховішчы і перадаваць кіраваньне гульцом ШІ." />
+    <string id="RTSCamera_fast_forward_hideout_option_never" text="Ніколі" />
+    <string id="RTSCamera_fast_forward_hideout_option_until_boss_fight" text="Да Бою зь Верхаводам" />
+    <string id="RTSCamera_fast_forward_hideout_option_always" text="Заўжды" />
+    <string id="RTSCamera_fast_forward_hideout_prompt" text="Ці ўключыць паскораны час у сховішчы?" />
+    <string id="RTSCamera_ai_control_ship_on" text="Ваяр за Стырном: Уключана" />
+    <string id="RTSCamera_player_control_ship_off" text="Ваяр за Стырном: Выключана" />
+    <string id="RTSCamera_soldiers_start_controlling_ship" text="Ваяр пачынае кіраваць вашым караблём." />
+    <string id="RTSCamera_soldiers_stop_controlling_ship" text="Ваяр спыняе кіраваньне вашым караблём." />
+    <string id="RTSCamera_hotkeycategory" text="Гарачыя Клявішы RTS Камеры" />
+    <string id="RTSCamera_pausekey" text="Паўза" />
+    <string id="RTSCamera_slowmotionkey" text="Павольны Рух" />
+    <string id="RTSCamera_fastforwardkey" text="Паскораны Час" />
+    <string id="RTSCamera_freecamerakey" text="Вольная Камера" />
+    <string id="RTSCamera_disabledeathkey" text="Усеагульная Несьмяротнасьць" />
+    <string id="RTSCamera_controltroopkey" text="Засяродзіць Камеру / Кіраваць Ваяром" />
+    <string id="RTSCamera_camera_move_forward" text="Рух Камеры Наперад" />
+    <string id="RTSCamera_camera_move_backward" text="Рух Камеры Назад" />
+    <string id="RTSCamera_camera_move_left" text="Рух Камеры Налева" />
+    <string id="RTSCamera_camera_move_right" text="Рух Камеры Направа" />
+    <string id="RTSCamera_camera_move_up" text="Рух Камеры Ўверх" />
+    <string id="RTSCamera_camera_move_down" text="Рух Камеры Ўніз" />
+    <string id="RTSCamera_camera_increase_camera_limit" text="Павялічыць Абмежаваньне Адлегласьці Камеры" />
+    <string id="RTSCamera_camera_decrease_camera_limit" text="Зьменшыць Абмежаваньне Адлегласьці Камеры" />
+    <string id="RTSCamera_camera_increase_camera_speed" text="Павялічыць Хуткасьць Камеры" />
+    <string id="RTSCamera_camera_decrease_camera_speed" text="Зьменшыць Хуткасьць Камеры" />
+    <string id="RTSCamera_camera_reset_camera_speed" text="Скінуць Хуткасьць Камеры" />
+    <string id="RTSCamera_camera_move_by_mouse" text="Рухаць Камеру Мышшу" />
+    <string id="RTSCamera_slowmotionkey_description" text="Уключае рэжым павольнага руху. Націсьніце зноў, каб адключыць." />
+    <string id="RTSCamera_fastforwardkey_description" text="Уключыць ці выключыць Паскораны Час." />
+    <string id="RTSCamera_disable_death_description" text="Усе ваяры становяцца несьмяротнымі дзеля стварэньня відэа. Трэба ўключыць рэжым чытоў і гарачую клявішу ў меню." />
+    <string id="RTSCamera_controltroopkey_description" text="Засяродзіць камеру на персанажы ці абраным фармаваньні. Кіраваць персанажам, на якім засяроджаная камера." />
+    <string id="RTSCamera_switchteam_description" text="Зьмяняе каманду гульца дзеля стварэньня відэа. Трэба ўключыць рэжым чытоў і гарачую клявішу ў меню." />
+    <string id="RTSCamera_camera_move_forward_description" text="Рухае камеру наперад" />
+    <string id="RTSCamera_camera_move_backward_description" text="Рухае камеру назад" />
+    <string id="RTSCamera_camera_move_left_description" text="Рухае камеру налева" />
+    <string id="RTSCamera_camera_move_right_description" text="Рухае камеру направа" />
+    <string id="RTSCamera_camera_move_up_description" text="Рухае камеру ўверх" />
+    <string id="RTSCamera_camera_move_down_description" text="Рухае камеру ўніз" />
+    <string id="RTSCamera_camera_increase_camera_limit_description" text="Павялічвае Абмежаваньне Адлегласьці Камеры" />
+    <string id="RTSCamera_camera_decrease_camera_limit_description" text="Зьменшае Абмежаваньне Адлегласьці Камеры" />
+    <string id="RTSCamera_camera_increase_camera_speed_description" text="Павялічыць Хуткасьць Камеры." />
+    <string id="RTSCamera_camera_decrease_camera_speed_description" text="Зьменшыць Хуткасьць Камеры." />
+    <string id="RTSCamera_camera_reset_camera_speed_description" text="Скінуць Хуткасьць Камеры." />
+    <string id="RTSCamera_camera_move_by_mouse_description" text="Утрымлівайце, каб рухаць камеру мышшу." />
+    <string id="RTSCamera_enemywipedout" text="Вораг быў зьнішчаны." />
+    <string id="RTSCamera_switchtoenemyteam" text="Зьменена каманда на варожую." />
+    <string id="RTSCamera_select_character_view_hint" text="Абярыце персанажа левай кнопкай мышы. Затым націсьніце {KeyName}, каб прывязаць да яго камеру, і націсьніце яшчэ раз, каб кіраваць ім." />
+    <string id="RTSCamera_control_troop_hint" text="Націсьніце {KeyName}, каб кіраваць адным з вашых паплечнікаў." />
+    <string id="RTSCamera_control_current_agent_hint" text="Націсьніце {KeyName}, каб кіраваць персанажам" />
+    <string id="RTSCamera_focus_on_formation_hint" text="Націсьніце {KeyName}, каб засяродзіць камеру на абраным фармаваньні." />
+    <string id="RTSCamera_tactics_skill_effect_description" text="Абмежаваньне RTS Камеры Тактыкай: +{a0}м" />
+    <string id="RTSCamera_scouting_skill_effect_description" text=" Абмежаваньне RTS Камеры Выведкай: +{a0}%" />
+    <string id="RTSCamera_base_distance" text="Базавая Адлегласьць" />
+    <string id="RTSCamera_out_of_campaign" text="Па-за Кампаніяй" />
+    <string id="RTSCamera_no_main_hero" text="Галоўны герой не існуе" />
+    <string id="RTSCamera_cheat_mode_required" text="Уключыце рэжым чытоў, каб закрыць гэтую наладу." />
+    <string id="RTSCamera_focus_on_formation_usage" text="(Новая Магчымасьць) Калі інтэрфэйс загадаў адкрыты ў рэжыме вольнай камеры, націсьніце {KeyName}, каб прывязаць камеру да абранага фармаваньня." />
+    <string id="RTSCamera_control_troop_usage" text="Пасьля гібелі вашага персанажа ў бітве націсьніце {KeyName}, каб назіраць за адным з вашых ваяроў, і націсьніце {KeyName} яшчэ раз, каб кіраваць ім і працягнуць бой." />
+    <string id="RTSCamera_open_menu_hotkey_hint" text="адкрыць меню" />
+    <string id="RTSCamera_switch_camera_hotkey_hint" text="уключыць ці выключыць вольную камеру" />
+    <string id="RTSCamera_control_troop_hotkey_hint" text="прывязаць да персанажа/фармаваньня; кіраваць персанажам" />
+    <string id="RTSCamera_select_character_hotkey_hint" text="рэжым выбару персанажа" />
+    <string id="RTSCamera_move_camera_hotkey_hint" text="Рухаць Камеру" />
+  </strings>
+</base>
