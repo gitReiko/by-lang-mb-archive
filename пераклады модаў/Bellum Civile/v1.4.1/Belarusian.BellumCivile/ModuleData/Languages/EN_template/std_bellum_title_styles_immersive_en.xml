@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <string id="immersive.Aserai.Barony.femaleRank" text="Shaykha" />
+    <string id="immersive.Aserai.Barony.maleRank" text="Shaykh" />
+    <string id="immersive.Aserai.Barony.titleName" text="Mashyakhat" />
+    <string id="immersive.Aserai.County.femaleRank" text="Amira" />
+    <string id="immersive.Aserai.County.maleRank" text="Amir" />
+    <string id="immersive.Aserai.County.titleName" text="Imarat" />
+    <string id="immersive.Aserai.Duchy.femaleRank" text="Malika" />
+    <string id="immersive.Aserai.Duchy.maleRank" text="Malik" />
+    <string id="immersive.Aserai.Duchy.titleName" text="Mamlakat" />
+    <string id="immersive.Aserai.Empire.childRank" text="Amirzadeh" />
+    <string id="immersive.Aserai.Empire.femaleChildRank" text="Amirzadi" />
+    <string id="immersive.Aserai.Empire.femaleHeirRank" text="Waliyat al-Ahd" />
+    <string id="immersive.Aserai.Empire.femaleNobleRank" text="Sharifa" />
+    <string id="immersive.Aserai.Empire.femaleRank" text="Sultana al-Salatin" />
+    <string id="immersive.Aserai.Empire.heirRank" text="Wali al-Ahd" />
+    <string id="immersive.Aserai.Empire.maleRank" text="Sultan al-Salatin" />
+    <string id="immersive.Aserai.Empire.nobleRank" text="Sharif" />
+    <string id="immersive.Aserai.Empire.titleName" text="Saltanat Uzma" />
+    <string id="immersive.Aserai.Kingdom.childRank" text="Amirzadeh" />
+    <string id="immersive.Aserai.Kingdom.femaleChildRank" text="Amirzadi" />
+    <string id="immersive.Aserai.Kingdom.femaleHeirRank" text="Waliyat al-Ahd" />
+    <string id="immersive.Aserai.Kingdom.femaleNobleRank" text="Sharifa" />
+    <string id="immersive.Aserai.Kingdom.femaleRank" text="Sultana" />
+    <string id="immersive.Aserai.Kingdom.heirRank" text="Wali al-Ahd" />
+    <string id="immersive.Aserai.Kingdom.maleRank" text="Sultan" />
+    <string id="immersive.Aserai.Kingdom.nobleRank" text="Sharif" />
+    <string id="immersive.Aserai.Kingdom.titleName" text="Saltanat" />
+    <string id="immersive.Battania.Barony.femaleRank" text="Bantaoiseach" />
+    <string id="immersive.Battania.Barony.maleRank" text="Taoiseach" />
+    <string id="immersive.Battania.Barony.titleName" text="Tuath" />
+    <string id="immersive.Battania.County.femaleRank" text="Banmormaer" />
+    <string id="immersive.Battania.County.maleRank" text="Mormaer" />
+    <string id="immersive.Battania.County.titleName" text="Mormaeracht" />
+    <string id="immersive.Battania.Duchy.femaleRank" text="Bainríon" />
+    <string id="immersive.Battania.Duchy.maleRank" text="Rí" />
+    <string id="immersive.Battania.Duchy.titleName" text="Ríocht" />
+    <string id="immersive.Battania.Empire.childRank" text="Mac Flaith" />
+    <string id="immersive.Battania.Empire.femaleChildRank" text="Inghean Flaith" />
+    <string id="immersive.Battania.Empire.femaleHeirRank" text="Ban-tánaiste" />
+    <string id="immersive.Battania.Empire.femaleNobleRank" text="Bantighearna" />
+    <string id="immersive.Battania.Empire.femaleRank" text="Banrí Ruirech" />
+    <string id="immersive.Battania.Empire.heirRank" text="Tánaiste" />
+    <string id="immersive.Battania.Empire.maleRank" text="Rí Ruirech" />
+    <string id="immersive.Battania.Empire.nobleRank" text="Tighearna" />
+    <string id="immersive.Battania.Empire.titleName" text="Ríocht Ruirech" />
+    <string id="immersive.Battania.Kingdom.childRank" text="Mac Flaith" />
+    <string id="immersive.Battania.Kingdom.femaleChildRank" text="Inghean Flaith" />
+    <string id="immersive.Battania.Kingdom.femaleHeirRank" text="Ban-tánaiste" />
+    <string id="immersive.Battania.Kingdom.femaleNobleRank" text="Bantighearna" />
+    <string id="immersive.Battania.Kingdom.femaleRank" text="Ardbhainríon" />
+    <string id="immersive.Battania.Kingdom.heirRank" text="Tánaiste" />
+    <string id="immersive.Battania.Kingdom.maleRank" text="Ard Rí" />
+    <string id="immersive.Battania.Kingdom.nobleRank" text="Tighearna" />
+    <string id="immersive.Battania.Kingdom.titleName" text="Ard Ríocht" />
+    <string id="immersive.Empire.Barony.femaleRank" text="Archontissa" />
+    <string id="immersive.Empire.Barony.maleRank" text="Archon" />
+    <string id="immersive.Empire.Barony.titleName" text="Toparchia" />
+    <string id="immersive.Empire.County.femaleRank" text="Strategina" />
+    <string id="immersive.Empire.County.maleRank" text="Strategos" />
+    <string id="immersive.Empire.County.titleName" text="Thema" />
+    <string id="immersive.Empire.Duchy.femaleRank" text="Doukissa" />
+    <string id="immersive.Empire.Duchy.maleRank" text="Doux" />
+    <string id="immersive.Empire.Duchy.titleName" text="Doukaton" />
+    <string id="immersive.Empire.Empire.childRank" text="Porphyrogennetos" />
+    <string id="immersive.Empire.Empire.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.Empire.Empire.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.Empire.Empire.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.Empire.Empire.femaleRank" text="Imperatrix" />
+    <string id="immersive.Empire.Empire.heirRank" text="Kaisar" />
+    <string id="immersive.Empire.Empire.maleRank" text="Imperator" />
+    <string id="immersive.Empire.Empire.nobleRank" text="Patrikios" />
+    <string id="immersive.Empire.Empire.titleName" text="Imperium" />
+    <string id="immersive.Empire.Kingdom.childRank" text="Porphyrogennetos" />
+    <string id="immersive.Empire.Kingdom.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.Empire.Kingdom.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.Empire.Kingdom.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.Empire.Kingdom.femaleRank" text="Exarchissa" />
+    <string id="immersive.Empire.Kingdom.heirRank" text="Kaisar" />
+    <string id="immersive.Empire.Kingdom.maleRank" text="Exarchos" />
+    <string id="immersive.Empire.Kingdom.nobleRank" text="Patrikios" />
+    <string id="immersive.Empire.Kingdom.titleName" text="Exarchatus" />
+    <string id="immersive.Empire_n.Barony.femaleRank" text="Archontissa" />
+    <string id="immersive.Empire_n.Barony.maleRank" text="Archon" />
+    <string id="immersive.Empire_n.Barony.titleName" text="Toparchia" />
+    <string id="immersive.Empire_n.County.femaleRank" text="Strategina" />
+    <string id="immersive.Empire_n.County.maleRank" text="Strategos" />
+    <string id="immersive.Empire_n.County.titleName" text="Thema" />
+    <string id="immersive.Empire_n.Duchy.femaleRank" text="Doukissa" />
+    <string id="immersive.Empire_n.Duchy.maleRank" text="Doux" />
+    <string id="immersive.Empire_n.Duchy.titleName" text="Doukaton" />
+    <string id="immersive.Empire_n.Empire.childRank" text="Porphyrogennetos" />
+    <string id="immersive.Empire_n.Empire.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.Empire_n.Empire.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.Empire_n.Empire.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.Empire_n.Empire.femaleRank" text="Imperatrix" />
+    <string id="immersive.Empire_n.Empire.heirRank" text="Kaisar" />
+    <string id="immersive.Empire_n.Empire.maleRank" text="Imperator" />
+    <string id="immersive.Empire_n.Empire.nobleRank" text="Patrikios" />
+    <string id="immersive.Empire_n.Empire.titleName" text="Imperium" />
+    <string id="immersive.Empire_n.Kingdom.childRank" text="Porphyrogennetos" />
+    <string id="immersive.Empire_n.Kingdom.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.Empire_n.Kingdom.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.Empire_n.Kingdom.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.Empire_n.Kingdom.femaleRank" text="Exarchissa" />
+    <string id="immersive.Empire_n.Kingdom.heirRank" text="Kaisar" />
+    <string id="immersive.Empire_n.Kingdom.maleRank" text="Exarchos" />
+    <string id="immersive.Empire_n.Kingdom.nobleRank" text="Patrikios" />
+    <string id="immersive.Empire_n.Kingdom.titleName" text="Exarchatus" />
+    <string id="immersive.Empire_s.Barony.femaleRank" text="Archontissa" />
+    <string id="immersive.Empire_s.Barony.maleRank" text="Archon" />
+    <string id="immersive.Empire_s.Barony.titleName" text="Toparchia" />
+    <string id="immersive.Empire_s.County.femaleRank" text="Strategina" />
+    <string id="immersive.Empire_s.County.maleRank" text="Strategos" />
+    <string id="immersive.Empire_s.County.titleName" text="Thema" />
+    <string id="immersive.Empire_s.Duchy.femaleRank" text="Doukissa" />
+    <string id="immersive.Empire_s.Duchy.maleRank" text="Doux" />
+    <string id="immersive.Empire_s.Duchy.titleName" text="Doukaton" />
+    <string id="immersive.Empire_s.Empire.childRank" text="Porphyrogennetos" />
+    <string id="immersive.Empire_s.Empire.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.Empire_s.Empire.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.Empire_s.Empire.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.Empire_s.Empire.femaleRank" text="Imperatrix" />
+    <string id="immersive.Empire_s.Empire.heirRank" text="Kaisar" />
+    <string id="immersive.Empire_s.Empire.maleRank" text="Imperator" />
+    <string id="immersive.Empire_s.Empire.nobleRank" text="Patrikios" />
+    <string id="immersive.Empire_s.Empire.titleName" text="Imperium" />
+    <string id="immersive.Empire_s.Kingdom.childRank" text="Porphyrogennetos" />
+    <string id="immersive.Empire_s.Kingdom.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.Empire_s.Kingdom.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.Empire_s.Kingdom.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.Empire_s.Kingdom.femaleRank" text="Exarchissa" />
+    <string id="immersive.Empire_s.Kingdom.heirRank" text="Kaisar" />
+    <string id="immersive.Empire_s.Kingdom.maleRank" text="Exarchos" />
+    <string id="immersive.Empire_s.Kingdom.nobleRank" text="Patrikios" />
+    <string id="immersive.Empire_s.Kingdom.titleName" text="Exarchatus" />
+    <string id="immersive.Empire_w.Barony.femaleRank" text="Archontissa" />
+    <string id="immersive.Empire_w.Barony.maleRank" text="Archon" />
+    <string id="immersive.Empire_w.Barony.titleName" text="Toparchia" />
+    <string id="immersive.Empire_w.County.femaleRank" text="Strategina" />
+    <string id="immersive.Empire_w.County.maleRank" text="Strategos" />
+    <string id="immersive.Empire_w.County.titleName" text="Thema" />
+    <string id="immersive.Empire_w.Duchy.femaleRank" text="Doukissa" />
+    <string id="immersive.Empire_w.Duchy.maleRank" text="Doux" />
+    <string id="immersive.Empire_w.Duchy.titleName" text="Doukaton" />
+    <string id="immersive.Empire_w.Empire.childRank" text="Porphyrogennetos" />
+    <string id="immersive.Empire_w.Empire.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.Empire_w.Empire.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.Empire_w.Empire.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.Empire_w.Empire.femaleRank" text="Imperatrix" />
+    <string id="immersive.Empire_w.Empire.heirRank" text="Kaisar" />
+    <string id="immersive.Empire_w.Empire.maleRank" text="Imperator" />
+    <string id="immersive.Empire_w.Empire.nobleRank" text="Patrikios" />
+    <string id="immersive.Empire_w.Empire.titleName" text="Imperium" />
+    <string id="immersive.Empire_w.Kingdom.childRank" text="Porphyrogennetos" />
+    <string id="immersive.Empire_w.Kingdom.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.Empire_w.Kingdom.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.Empire_w.Kingdom.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.Empire_w.Kingdom.femaleRank" text="Exarchissa" />
+    <string id="immersive.Empire_w.Kingdom.heirRank" text="Kaisar" />
+    <string id="immersive.Empire_w.Kingdom.maleRank" text="Exarchos" />
+    <string id="immersive.Empire_w.Kingdom.nobleRank" text="Patrikios" />
+    <string id="immersive.Empire_w.Kingdom.titleName" text="Exarchatus" />
+    <string id="immersive.Khuzait.Barony.femaleRank" text="Noyan" />
+    <string id="immersive.Khuzait.Barony.maleRank" text="Noyan" />
+    <string id="immersive.Khuzait.Barony.titleName" text="Noyanliqi" />
+    <string id="immersive.Khuzait.County.femaleRank" text="Bike" />
+    <string id="immersive.Khuzait.County.maleRank" text="Bey" />
+    <string id="immersive.Khuzait.County.titleName" text="Beyliyi" />
+    <string id="immersive.Khuzait.Duchy.femaleRank" text="Begum" />
+    <string id="immersive.Khuzait.Duchy.maleRank" text="Beylerbey" />
+    <string id="immersive.Khuzait.Duchy.titleName" text="Beylerbeyliyi" />
+    <string id="immersive.Khuzait.Empire.childRank" text="Tegin" />
+    <string id="immersive.Khuzait.Empire.femaleChildRank" text="Khanika" />
+    <string id="immersive.Khuzait.Empire.femaleHeirRank" text="Veliaht Hatun" />
+    <string id="immersive.Khuzait.Empire.femaleNobleRank" text="Tarkhanah" />
+    <string id="immersive.Khuzait.Empire.femaleRank" text="Khatun" />
+    <string id="immersive.Khuzait.Empire.heirRank" text="Veliaht" />
+    <string id="immersive.Khuzait.Empire.maleRank" text="Khagan" />
+    <string id="immersive.Khuzait.Empire.nobleRank" text="Tarkhan" />
+    <string id="immersive.Khuzait.Empire.titleName" text="Khaganliqi" />
+    <string id="immersive.Khuzait.Kingdom.childRank" text="Tegin" />
+    <string id="immersive.Khuzait.Kingdom.femaleChildRank" text="Khanika" />
+    <string id="immersive.Khuzait.Kingdom.femaleHeirRank" text="Veliaht Hatun" />
+    <string id="immersive.Khuzait.Kingdom.femaleNobleRank" text="Tarkhanah" />
+    <string id="immersive.Khuzait.Kingdom.femaleRank" text="Khanum" />
+    <string id="immersive.Khuzait.Kingdom.heirRank" text="Veliaht" />
+    <string id="immersive.Khuzait.Kingdom.maleRank" text="Khan" />
+    <string id="immersive.Khuzait.Kingdom.nobleRank" text="Tarkhan" />
+    <string id="immersive.Khuzait.Kingdom.titleName" text="Khanliqi" />
+    <string id="immersive.Nord.Barony.femaleRank" text="Hersirkona" />
+    <string id="immersive.Nord.Barony.maleRank" text="Hersir" />
+    <string id="immersive.Nord.Barony.titleName" text="Hersirsdæmi" />
+    <string id="immersive.Nord.County.femaleRank" text="Jarlkona" />
+    <string id="immersive.Nord.County.maleRank" text="Jarl" />
+    <string id="immersive.Nord.County.titleName" text="Jarlsdæmi" />
+    <string id="immersive.Nord.Duchy.femaleRank" text="Hertogynja" />
+    <string id="immersive.Nord.Duchy.maleRank" text="Hertogi" />
+    <string id="immersive.Nord.Duchy.titleName" text="Hertugadæmi" />
+    <string id="immersive.Nord.Empire.childRank" text="Konungsson" />
+    <string id="immersive.Nord.Empire.femaleChildRank" text="Konungsdóttir" />
+    <string id="immersive.Nord.Empire.femaleHeirRank" text="Konungserfingja" />
+    <string id="immersive.Nord.Empire.femaleNobleRank" text="Frú" />
+    <string id="immersive.Nord.Empire.femaleRank" text="Fylkja" />
+    <string id="immersive.Nord.Empire.heirRank" text="Konungserfingi" />
+    <string id="immersive.Nord.Empire.maleRank" text="Fylkir" />
+    <string id="immersive.Nord.Empire.nobleRank" text="Herra" />
+    <string id="immersive.Nord.Empire.titleName" text="Fylkirate" />
+    <string id="immersive.Nord.Kingdom.childRank" text="Konungsson" />
+    <string id="immersive.Nord.Kingdom.femaleChildRank" text="Konungsdóttir" />
+    <string id="immersive.Nord.Kingdom.femaleHeirRank" text="Konungserfingja" />
+    <string id="immersive.Nord.Kingdom.femaleNobleRank" text="Frú" />
+    <string id="immersive.Nord.Kingdom.femaleRank" text="Dróttning" />
+    <string id="immersive.Nord.Kingdom.heirRank" text="Konungserfingi" />
+    <string id="immersive.Nord.Kingdom.maleRank" text="Konungr" />
+    <string id="immersive.Nord.Kingdom.nobleRank" text="Herra" />
+    <string id="immersive.Nord.Kingdom.titleName" text="Konungsríki" />
+    <string id="immersive.Sturgia.Barony.femaleRank" text="Dvoryanka" />
+    <string id="immersive.Sturgia.Barony.maleRank" text="Dvoryanin" />
+    <string id="immersive.Sturgia.Barony.titleName" text="Votchina" />
+    <string id="immersive.Sturgia.County.femaleRank" text="Boyarynya" />
+    <string id="immersive.Sturgia.County.maleRank" text="Boyar" />
+    <string id="immersive.Sturgia.County.titleName" text="Boyarstvo" />
+    <string id="immersive.Sturgia.Duchy.femaleRank" text="Knyaginya" />
+    <string id="immersive.Sturgia.Duchy.maleRank" text="Knyaz" />
+    <string id="immersive.Sturgia.Duchy.titleName" text="Knyazhestvo" />
+    <string id="immersive.Sturgia.Empire.childRank" text="Knyazhich" />
+    <string id="immersive.Sturgia.Empire.femaleChildRank" text="Knyazhna" />
+    <string id="immersive.Sturgia.Empire.femaleHeirRank" text="Naslednitsa" />
+    <string id="immersive.Sturgia.Empire.femaleNobleRank" text="Boyaryshnya" />
+    <string id="immersive.Sturgia.Empire.femaleRank" text="Samoderzhitsa" />
+    <string id="immersive.Sturgia.Empire.heirRank" text="Naslednik" />
+    <string id="immersive.Sturgia.Empire.maleRank" text="Samoderzhets" />
+    <string id="immersive.Sturgia.Empire.nobleRank" text="Boyarich" />
+    <string id="immersive.Sturgia.Empire.titleName" text="Samoderzhaviye" />
+    <string id="immersive.Sturgia.Kingdom.childRank" text="Knyazhich" />
+    <string id="immersive.Sturgia.Kingdom.femaleChildRank" text="Knyazhna" />
+    <string id="immersive.Sturgia.Kingdom.femaleHeirRank" text="Naslednitsa" />
+    <string id="immersive.Sturgia.Kingdom.femaleNobleRank" text="Boyaryshnya" />
+    <string id="immersive.Sturgia.Kingdom.femaleRank" text="Velikaya Knyaginya" />
+    <string id="immersive.Sturgia.Kingdom.heirRank" text="Naslednik" />
+    <string id="immersive.Sturgia.Kingdom.maleRank" text="Velikiy Knyaz" />
+    <string id="immersive.Sturgia.Kingdom.nobleRank" text="Boyarich" />
+    <string id="immersive.Sturgia.Kingdom.titleName" text="Velikoye Knyazhestvo" />
+    <string id="immersive.Vlandia.Barony.femaleRank" text="Baronissa" />
+    <string id="immersive.Vlandia.Barony.maleRank" text="Baro" />
+    <string id="immersive.Vlandia.Barony.titleName" text="Baronatus" />
+    <string id="immersive.Vlandia.County.femaleRank" text="Comitissa" />
+    <string id="immersive.Vlandia.County.maleRank" text="Comes" />
+    <string id="immersive.Vlandia.County.titleName" text="Comitatus" />
+    <string id="immersive.Vlandia.Duchy.femaleRank" text="Ducissa" />
+    <string id="immersive.Vlandia.Duchy.maleRank" text="Dux" />
+    <string id="immersive.Vlandia.Duchy.titleName" text="Ducatus" />
+    <string id="immersive.Vlandia.Empire.childRank" text="Princeps" />
+    <string id="immersive.Vlandia.Empire.femaleChildRank" text="Principissa" />
+    <string id="immersive.Vlandia.Empire.femaleHeirRank" text="Principissa Hereditaria" />
+    <string id="immersive.Vlandia.Empire.femaleNobleRank" text="Domina" />
+    <string id="immersive.Vlandia.Empire.femaleRank" text="Imperatrix" />
+    <string id="immersive.Vlandia.Empire.heirRank" text="Princeps Hereditarius" />
+    <string id="immersive.Vlandia.Empire.maleRank" text="Imperator" />
+    <string id="immersive.Vlandia.Empire.nobleRank" text="Dominus" />
+    <string id="immersive.Vlandia.Empire.titleName" text="Imperium" />
+    <string id="immersive.Vlandia.Kingdom.childRank" text="Princeps" />
+    <string id="immersive.Vlandia.Kingdom.femaleChildRank" text="Principissa" />
+    <string id="immersive.Vlandia.Kingdom.femaleHeirRank" text="Principissa Hereditaria" />
+    <string id="immersive.Vlandia.Kingdom.femaleNobleRank" text="Domina" />
+    <string id="immersive.Vlandia.Kingdom.femaleRank" text="Regina" />
+    <string id="immersive.Vlandia.Kingdom.heirRank" text="Princeps Hereditarius" />
+    <string id="immersive.Vlandia.Kingdom.maleRank" text="Rex" />
+    <string id="immersive.Vlandia.Kingdom.nobleRank" text="Dominus" />
+    <string id="immersive.Vlandia.Kingdom.titleName" text="Regnum" />
+    <string id="immersive.bc_title_kingdom_aserai.name" text="al-Asarin" />
+    <string id="immersive.bc_title_kingdom_battania.name" text="Bhattanach" />
+    <string id="immersive.bc_title_kingdom_empire_n.name" text="Voreiōn Kalradōn" />
+    <string id="immersive.bc_title_kingdom_empire_s.name" text="Notiōn Kalradōn" />
+    <string id="immersive.bc_title_kingdom_empire_w.name" text="Dytikōn Kalradōn" />
+    <string id="immersive.bc_title_kingdom_khuzait.name" text="Quzayt" />
+    <string id="immersive.bc_title_kingdom_nord.name" text="Nordmanna" />
+    <string id="immersive.bc_title_kingdom_sturgia.name" text="Sturgova" />
+    <string id="immersive.bc_title_kingdom_vlandia.name" text="Valandorum" />
+    <string id="immersive.county_ailtadruin.name" text="Ailta Druin" />
+    <string id="immersive.county_akkan.name" text="Akkan" />
+    <string id="immersive.county_aleshoriyya.name" text="Al-Eshoriyya" />
+    <string id="immersive.county_alyachiyya.name" text="Al-Yachiyya" />
+    <string id="immersive.county_aris.name" text="Aridon" />
+    <string id="immersive.county_bahralyeshm.name" text="Bahr al Yeshm" />
+    <string id="immersive.county_barsdag.name" text="Bars Dag" />
+    <string id="immersive.county_beinland.name" text="Beinlands" />
+    <string id="immersive.county_biscan.name" text="Biscaniae" />
+    <string id="immersive.county_byal.name" text="Byals" />
+    <string id="immersive.county_cafalcombe.name" text="Cafalcombe" />
+    <string id="immersive.county_calsa.name" text="Kalson" />
+    <string id="immersive.county_chertyg.name" text="Chertyga" />
+    <string id="immersive.county_damar.name" text="Damar" />
+    <string id="immersive.county_diatagmatia.name" text="Diatagmatikon" />
+    <string id="immersive.county_epiris.name" text="Epiridis" />
+    <string id="immersive.county_fiur.name" text="Fiur" />
+    <string id="immersive.county_galchas.name" text="Galchadon" />
+    <string id="immersive.county_gavys.name" text="Gavyon" />
+    <string id="immersive.county_glanys.name" text="Glanys" />
+    <string id="immersive.county_gorea.name" text="Goreon" />
+    <string id="immersive.county_icara.name" text="Icary" />
+    <string id="immersive.county_iltan.name" text="Iltana" />
+    <string id="immersive.county_iltanhindrun.name" text="Iltanhindranar" />
+    <string id="immersive.county_jabalashab.name" text="Jabal Ashab" />
+    <string id="immersive.county_jabaltamar.name" text="Jabal Tamar" />
+    <string id="immersive.county_kachyar.name" text="Kachyara" />
+    <string id="immersive.county_karakaz.name" text="Karakas" />
+    <string id="immersive.county_kjolfjallen.name" text="Kjólfjalla" />
+    <string id="immersive.county_kohirohini.name" text="Kohi Rohini" />
+    <string id="immersive.county_mazopor.name" text="Mazopora" />
+    <string id="immersive.county_mesogea.name" text="Mesogeion" />
+    <string id="immersive.county_minador.name" text="Minadora" />
+    <string id="immersive.county_morcomb.name" text="Morcombae" />
+    <string id="immersive.county_myzead.name" text="Myzeadon" />
+    <string id="immersive.county_n_rhennod.name" text="Rhennodi Septentrionalis" />
+    <string id="immersive.county_nahralkals.name" text="Nahr Al-Kals" />
+    <string id="immersive.county_neurval.name" text="Neurvalliae" />
+    <string id="immersive.county_nevis.name" text="Nevidon" />
+    <string id="immersive.county_ocspool.name" text="Ocspoolii" />
+    <string id="immersive.county_ophthys.name" text="Ophthyon" />
+    <string id="immersive.county_ornia.name" text="Ornion" />
+    <string id="immersive.county_portatia.name" text="Portatikon" />
+    <string id="immersive.county_rhennod.name" text="Rhennod" />
+    <string id="immersive.county_sarapia.name" text="Sarapion" />
+    <string id="immersive.county_sarpene.name" text="Sarpenon" />
+    <string id="immersive.county_sericea.name" text="Serikon" />
+    <string id="immersive.county_sethys.name" text="Sethyon" />
+    <string id="immersive.county_sulundag.name" text="Sulun Dag" />
+    <string id="immersive.county_temea.name" text="Temeon" />
+    <string id="immersive.county_trand.name" text="Trandiae" />
+    <string id="immersive.county_vestroenn.name" text="Vestræna" />
+    <string id="immersive.county_zakhan.name" text="Zakhan" />
+    <string id="immersive.county_zeos.name" text="Zeon" />
+    <string id="immersive.duchy_alkinaniyya.name" text="Al-Kinaniyya" />
+    <string id="immersive.duchy_aminys.name" text="Aminyon" />
+    <string id="immersive.duchy_devseg.name" text="Devseg" />
+    <string id="immersive.duchy_dryatica.name" text="Dryatikon" />
+    <string id="immersive.duchy_ebor.name" text="Eboraci" />
+    <string id="immersive.duchy_erithrys.name" text="Erithron" />
+    <string id="immersive.duchy_ilatarea.name" text="Ilatareon" />
+    <string id="immersive.duchy_jarjara.name" text="Jarjara" />
+    <string id="immersive.duchy_jumne.name" text="Jumnis" />
+    <string id="immersive.duchy_laconia.name" text="Lakonon" />
+    <string id="immersive.duchy_llyntywal.name" text="Llyn Tywal" />
+    <string id="immersive.duchy_lycarea.name" text="Lykareon" />
+    <string id="immersive.duchy_nahasa.name" text="al-Nahasa" />
+    <string id="immersive.duchy_nordvyg.name" text="Norðvegs" />
+    <string id="immersive.duchy_svadia.name" text="Svadiae" />
+    <string id="immersive.duchy_tanaesia.name" text="Tanaesion" />
+    <string id="immersive.duchy_tarantanya.name" text="Tarantanya" />
+    <string id="immersive.duchy_tripotamia.name" text="Tripotamion" />
+    <string id="immersive.duchy_uchalion.name" text="Uchalion" />
+    <string id="immersive.duchy_vostoku.name" text="Vostoka" />
+    <string id="immersive.duchy_walhdok.name" text="Walhdochi" />
+    <string id="immersive.duchy_zapadu.name" text="Zapada" />
+    <string id="immersive.empire.Kingdom.childRank" text="Porphyrogennetos" />
+    <string id="immersive.empire.Kingdom.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.empire.Kingdom.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.empire.Kingdom.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.empire.Kingdom.femaleRank" text="Hypatissa" />
+    <string id="immersive.empire.Kingdom.heirRank" text="Kaisar" />
+    <string id="immersive.empire.Kingdom.maleRank" text="Hypatos" />
+    <string id="immersive.empire.Kingdom.nobleRank" text="Patrikios" />
+    <string id="immersive.empire.Kingdom.titleName" text="Politeia" />
+    <string id="immersive.empire_calradia.name" text="Kalradōn" />
+    <string id="immersive.empire_s.Kingdom.childRank" text="Porphyrogennetos" />
+    <string id="immersive.empire_s.Kingdom.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.empire_s.Kingdom.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.empire_s.Kingdom.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.empire_s.Kingdom.femaleRank" text="Basilissa" />
+    <string id="immersive.empire_s.Kingdom.heirRank" text="Kaisar" />
+    <string id="immersive.empire_s.Kingdom.maleRank" text="Basileus" />
+    <string id="immersive.empire_s.Kingdom.nobleRank" text="Patrikios" />
+    <string id="immersive.empire_s.Kingdom.titleName" text="Basileia" />
+    <string id="immersive.empire_w.Kingdom.childRank" text="Porphyrogennetos" />
+    <string id="immersive.empire_w.Kingdom.femaleChildRank" text="Porphyrogenneta" />
+    <string id="immersive.empire_w.Kingdom.femaleHeirRank" text="Kaisarissa" />
+    <string id="immersive.empire_w.Kingdom.femaleNobleRank" text="Patrikia" />
+    <string id="immersive.empire_w.Kingdom.femaleRank" text="Autokratorissa" />
+    <string id="immersive.empire_w.Kingdom.heirRank" text="Kaisar" />
+    <string id="immersive.empire_w.Kingdom.maleRank" text="Autokrator" />
+    <string id="immersive.empire_w.Kingdom.nobleRank" text="Patrikios" />
+    <string id="immersive.empire_w.Kingdom.titleName" text="Autokrateia" />
+    <string id="immersive.immersive.presetName" text="Immersive" />
+  </strings>
+</base>

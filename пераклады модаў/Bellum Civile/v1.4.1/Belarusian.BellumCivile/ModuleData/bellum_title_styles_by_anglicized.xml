@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BellumFeudalTitles presetId="by_anglicized" presetName="Anglicized (BY)" presetOrder="10">
+  <!-- Presentation-only title roots. These never alter holders, ownership, or hierarchy. -->
+  <!-- Optional Rank heroNameFormat tokens are {DISPLAY_TITLE}, {HERO_NAME}, and {HELD_TITLE}.
+       The default is "{DISPLAY_TITLE} {HERO_NAME}"; order and separators may be changed.
+       Example: heroNameFormat="{HERO_NAME}, {HELD_TITLE}". -->
+  <TitleName id="bc_title_kingdom_vlandia" name="{=anglicized.bc_title_kingdom_vlandia.name}Vlandia" />
+  <TitleName id="bc_title_kingdom_battania" name="{=anglicized.bc_title_kingdom_battania.name}Battania" />
+  <TitleName id="bc_title_kingdom_sturgia" name="{=anglicized.bc_title_kingdom_sturgia.name}Sturgia" />
+  <TitleName id="duchy_ebor" name="{=anglicized.duchy_ebor.name}Ebor" />
+  <TitleName id="duchy_svadia" name="{=anglicized.duchy_svadia.name}Svadia" />
+  <TitleName id="duchy_walhdok" name="{=anglicized.duchy_walhdok.name}Walhdok" />
+  <TitleName id="county_neurval" name="{=anglicized.county_neurval.name}Neurval" />
+  <TitleName id="county_epiris" name="{=anglicized.county_epiris.name}Epiris" />
+  <TitleName id="county_biscan" name="{=anglicized.county_biscan.name}Biscany" />
+  <TitleName id="county_trand" name="{=anglicized.county_trand.name}Trand" />
+  <TitleName id="county_ocspool" name="{=anglicized.county_ocspool.name}Ocspool" />
+  <TitleName id="county_n_rhennod" name="{=anglicized.county_n_rhennod.name}Northern Rhennod" />
+  <TitleName id="county_morcomb" name="{=anglicized.county_morcomb.name}Morcomb" />
+  <TitleName id="duchy_uchalion" name="{=anglicized.duchy_uchalion.name}Uchalion" />
+  <TitleName id="duchy_llyntywal" name="{=anglicized.duchy_llyntywal.name}Llyn Tywal" />
+  <TitleName id="county_glanys" name="{=anglicized.county_glanys.name}Glanys" />
+  <TitleName id="county_rhennod" name="{=anglicized.county_rhennod.name}Rhennod" />
+  <TitleName id="county_ailtadruin" name="{=anglicized.county_ailtadruin.name}Ailta Druin" />
+  <TitleName id="county_cafalcombe" name="{=anglicized.county_cafalcombe.name}Cafalcombe" />
+  <TitleName id="county_fiur" name="{=anglicized.county_fiur.name}Fiur" />
+  <TitleName id="duchy_zapadu" name="{=anglicized.duchy_zapadu.name}Zapada" />
+  <TitleName id="duchy_vostoku" name="{=anglicized.duchy_vostoku.name}Vostoka" />
+  <TitleName id="county_mazopor" name="{=anglicized.county_mazopor.name}Mazopor" />
+  <TitleName id="county_kachyar" name="{=anglicized.county_kachyar.name}Kachyar" />
+  <TitleName id="county_icara" name="{=anglicized.county_icara.name}Icara" />
+  <TitleName id="county_minador" name="{=anglicized.county_minador.name}Minador" />
+  <TitleName id="county_chertyg" name="{=anglicized.county_chertyg.name}Chertyg" />
+  <TitleName id="county_iltan" name="{=anglicized.county_iltan.name}Iltan" />
+  <TitleName id="bc_title_kingdom_nord" name="{=anglicized.bc_title_kingdom_nord.name}the Nords" />
+  <TitleName id="duchy_nordvyg" name="{=anglicized.duchy_nordvyg.name}Nordvyg" />
+  <TitleName id="duchy_jumne" name="{=anglicized.duchy_jumne.name}Jumne" />
+  <TitleName id="county_beinland" name="{=anglicized.county_beinland.name}Beinland" />
+  <TitleName id="county_vestroenn" name="{=anglicized.county_vestroenn.name}Vestroenn" />
+  <TitleName id="county_kjolfjallen" name="{=anglicized.county_kjolfjallen.name}Kjolfjallen" />
+  <TitleName id="county_byal" name="{=anglicized.county_byal.name}Byal" />
+  <TitleName id="county_iltanhindrun" name="{=anglicized.county_iltanhindrun.name}Iltanhindrun" />
+  <TitleName id="bc_title_kingdom_aserai" name="{=anglicized.bc_title_kingdom_aserai.name}the Aserai" />
+  <TitleName id="duchy_jarjara" name="{=anglicized.duchy_jarjara.name}Jarjara" />
+  <TitleName id="duchy_nahasa" name="{=anglicized.duchy_nahasa.name}Nahasa" />
+  <TitleName id="duchy_alkinaniyya" name="{=anglicized.duchy_alkinaniyya.name}Al-Kinaniyya" />
+  <TitleName id="county_jabaltamar" name="{=anglicized.county_jabaltamar.name}Jabal Tamar" />
+  <TitleName id="county_bahralyeshm" name="{=anglicized.county_bahralyeshm.name}Bahr al Yeshm" />
+  <TitleName id="county_damar" name="{=anglicized.county_damar.name}Damar" />
+  <TitleName id="county_alyachiyya" name="{=anglicized.county_alyachiyya.name}Al-Yachiyya" />
+  <TitleName id="county_aleshoriyya" name="{=anglicized.county_aleshoriyya.name}Al-Eshoriyya" />
+  <TitleName id="county_jabalashab" name="{=anglicized.county_jabalashab.name}Jabal Ashab" />
+  <TitleName id="county_nahralkals" name="{=anglicized.county_nahralkals.name}Nahr Al-Kals" />
+  <TitleName id="bc_title_kingdom_khuzait" name="{=anglicized.bc_title_kingdom_khuzait.name}Khuzait" />
+  <TitleName id="duchy_tarantanya" name="{=anglicized.duchy_tarantanya.name}Tarantanya" />
+  <TitleName id="duchy_devseg" name="{=anglicized.duchy_devseg.name}Devseg" />
+  <TitleName id="county_akkan" name="{=anglicized.county_akkan.name}Akkan" />
+  <TitleName id="county_zakhan" name="{=anglicized.county_zakhan.name}Zakhan" />
+  <TitleName id="county_karakaz" name="{=anglicized.county_karakaz.name}Karakas" />
+  <TitleName id="county_barsdag" name="{=anglicized.county_barsdag.name}Barsdag" />
+  <TitleName id="county_sulundag" name="{=anglicized.county_sulundag.name}Sulun Dag" />
+  <TitleName id="county_kohirohini" name="{=anglicized.county_kohirohini.name}Kohi Rohini" />
+  <TitleName id="empire_calradia" name="{=anglicized.empire_calradia.name}the Calradians" />
+  <TitleName id="bc_title_kingdom_empire_n" name="{=anglicized.bc_title_kingdom_empire_n.name}the Northern Calradians" />
+  <TitleName id="duchy_dryatica" name="{=anglicized.duchy_dryatica.name}Dryatica" />
+  <TitleName id="duchy_laconia" name="{=anglicized.duchy_laconia.name}Laconia" />
+  <TitleName id="county_galchas" name="{=anglicized.county_galchas.name}Galchas" />
+  <TitleName id="county_diatagmatia" name="{=anglicized.county_diatagmatia.name}Diatagmatia" />
+  <TitleName id="county_ophthys" name="{=anglicized.county_ophthys.name}Ophthys" />
+  <TitleName id="county_nevis" name="{=anglicized.county_nevis.name}Nevis" />
+  <TitleName id="county_myzead" name="{=anglicized.county_myzead.name}the Myzead" />
+  <TitleName id="county_portatia" name="{=anglicized.county_portatia.name}Portatia" />
+  <TitleName id="bc_title_kingdom_empire_s" name="{=anglicized.bc_title_kingdom_empire_s.name}the Southern Calradians" />
+  <TitleName id="duchy_lycarea" name="{=anglicized.duchy_lycarea.name}Lycarea" />
+  <TitleName id="duchy_tanaesia" name="{=anglicized.duchy_tanaesia.name}Tanaesia" />
+  <TitleName id="duchy_tripotamia" name="{=anglicized.duchy_tripotamia.name}Tripotamia" />
+  <TitleName id="county_ornia" name="{=anglicized.county_ornia.name}Ornia" />
+  <TitleName id="county_sethys" name="{=anglicized.county_sethys.name}Sethys" />
+  <TitleName id="county_sarpene" name="{=anglicized.county_sarpene.name}Sarpene" />
+  <TitleName id="county_sericea" name="{=anglicized.county_sericea.name}Sericea" />
+  <TitleName id="county_gorea" name="{=anglicized.county_gorea.name}Gorea" />
+  <TitleName id="county_calsa" name="{=anglicized.county_calsa.name}Calsa" />
+  <TitleName id="bc_title_kingdom_empire_w" name="{=anglicized.bc_title_kingdom_empire_w.name}the Western Calradians" />
+  <TitleName id="duchy_ilatarea" name="{=anglicized.duchy_ilatarea.name}Ilatarea" />
+  <TitleName id="duchy_aminys" name="{=anglicized.duchy_aminys.name}Aminys" />
+  <TitleName id="duchy_erithrys" name="{=anglicized.duchy_erithrys.name}Erithrys" />
+  <TitleName id="county_temea" name="{=anglicized.county_temea.name}Temea" />
+  <TitleName id="county_aris" name="{=anglicized.county_aris.name}Aris" />
+  <TitleName id="county_mesogea" name="{=anglicized.county_mesogea.name}Mesogea" />
+  <TitleName id="county_gavys" name="{=anglicized.county_gavys.name}Gavys" />
+  <TitleName id="county_sarapia" name="{=anglicized.county_sarapia.name}Sarapia" />
+  <TitleName id="county_zeos" name="{=anglicized.county_zeos.name}Zeos" />
+  <!-- Cultural and kingdom-specific rank terminology. change culture to rulerCulture if you want the ruler to determine the full terminology of the realm-->
+  <TitleStyle culture="Empire_n">
+    <Rank tier="Empire" titleName="{=anglicized.Empire_n.Empire.titleName}Empire" maleRank="{=anglicized.Empire_n.Empire.maleRank}Emperor" femaleRank="{=anglicized.Empire_n.Empire.femaleRank}Empress" heirRank="{=anglicized.Empire_n.Empire.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Empire_n.Empire.femaleHeirRank}Crown Princess" childRank="{=anglicized.Empire_n.Empire.childRank}Prince" femaleChildRank="{=anglicized.Empire_n.Empire.femaleChildRank}Princess" nobleRank="{=anglicized.Empire_n.Empire.nobleRank}Lord" femaleNobleRank="{=anglicized.Empire_n.Empire.femaleNobleRank}Lady" />
+    <Rank tier="Kingdom" titleName="{=anglicized.Empire_n.Kingdom.titleName}Exarchate" maleRank="{=anglicized.Empire_n.Kingdom.maleRank}Exarch" femaleRank="{=anglicized.Empire_n.Kingdom.femaleRank}Exarchissa" heirRank="{=anglicized.Empire_n.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Empire_n.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.Empire_n.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.Empire_n.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.Empire_n.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.Empire_n.Kingdom.femaleNobleRank}Lady" />
+    <Rank tier="Duchy" titleName="{=anglicized.Empire_n.Duchy.titleName}Duchy" maleRank="{=anglicized.Empire_n.Duchy.maleRank}Doux" femaleRank="{=anglicized.Empire_n.Duchy.femaleRank}Doukissa" />
+    <Rank tier="County" titleName="{=anglicized.Empire_n.County.titleName}Thema" maleRank="{=anglicized.Empire_n.County.maleRank}Strategos" femaleRank="{=anglicized.Empire_n.County.femaleRank}Strategina" />
+    <Rank tier="Barony" titleName="{=anglicized.Empire_n.Barony.titleName}Toparchy" maleRank="{=anglicized.Empire_n.Barony.maleRank}Archon" femaleRank="{=anglicized.Empire_n.Barony.femaleRank}Archontissa" />
+  </TitleStyle>
+  <TitleStyle culture="Empire_s">
+    <Rank tier="Empire" titleName="{=anglicized.Empire_s.Empire.titleName}Empire" maleRank="{=anglicized.Empire_s.Empire.maleRank}Emperor" femaleRank="{=anglicized.Empire_s.Empire.femaleRank}Empress" heirRank="{=anglicized.Empire_s.Empire.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Empire_s.Empire.femaleHeirRank}Crown Princess" childRank="{=anglicized.Empire_s.Empire.childRank}Prince" femaleChildRank="{=anglicized.Empire_s.Empire.femaleChildRank}Princess" nobleRank="{=anglicized.Empire_s.Empire.nobleRank}Lord" femaleNobleRank="{=anglicized.Empire_s.Empire.femaleNobleRank}Lady" />
+    <Rank tier="Kingdom" titleName="{=anglicized.Empire_s.Kingdom.titleName}Exarchate" maleRank="{=anglicized.Empire_s.Kingdom.maleRank}Exarch" femaleRank="{=anglicized.Empire_s.Kingdom.femaleRank}Exarchissa" heirRank="{=anglicized.Empire_s.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Empire_s.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.Empire_s.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.Empire_s.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.Empire_s.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.Empire_s.Kingdom.femaleNobleRank}Lady" />
+    <Rank tier="Duchy" titleName="{=anglicized.Empire_s.Duchy.titleName}Duchy" maleRank="{=anglicized.Empire_s.Duchy.maleRank}Doux" femaleRank="{=anglicized.Empire_s.Duchy.femaleRank}Doukissa" />
+    <Rank tier="County" titleName="{=anglicized.Empire_s.County.titleName}Thema" maleRank="{=anglicized.Empire_s.County.maleRank}Strategos" femaleRank="{=anglicized.Empire_s.County.femaleRank}Strategina" />
+    <Rank tier="Barony" titleName="{=anglicized.Empire_s.Barony.titleName}Toparchy" maleRank="{=anglicized.Empire_s.Barony.maleRank}Archon" femaleRank="{=anglicized.Empire_s.Barony.femaleRank}Archontissa" />
+  </TitleStyle>
+  <TitleStyle culture="Empire_w">
+    <Rank tier="Empire" titleName="{=anglicized.Empire_w.Empire.titleName}Empire" maleRank="{=anglicized.Empire_w.Empire.maleRank}Emperor" femaleRank="{=anglicized.Empire_w.Empire.femaleRank}Empress" heirRank="{=anglicized.Empire_w.Empire.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Empire_w.Empire.femaleHeirRank}Crown Princess" childRank="{=anglicized.Empire_w.Empire.childRank}Prince" femaleChildRank="{=anglicized.Empire_w.Empire.femaleChildRank}Princess" nobleRank="{=anglicized.Empire_w.Empire.nobleRank}Lord" femaleNobleRank="{=anglicized.Empire_w.Empire.femaleNobleRank}Lady" />
+    <Rank tier="Kingdom" titleName="{=anglicized.Empire_w.Kingdom.titleName}Exarchate" maleRank="{=anglicized.Empire_w.Kingdom.maleRank}Exarch" femaleRank="{=anglicized.Empire_w.Kingdom.femaleRank}Exarchissa" heirRank="{=anglicized.Empire_w.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Empire_w.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.Empire_w.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.Empire_w.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.Empire_w.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.Empire_w.Kingdom.femaleNobleRank}Lady" />
+    <Rank tier="Duchy" titleName="{=anglicized.Empire_w.Duchy.titleName}Duchy" maleRank="{=anglicized.Empire_w.Duchy.maleRank}Doux" femaleRank="{=anglicized.Empire_w.Duchy.femaleRank}Doukissa" />
+    <Rank tier="County" titleName="{=anglicized.Empire_w.County.titleName}Thema" maleRank="{=anglicized.Empire_w.County.maleRank}Strategos" femaleRank="{=anglicized.Empire_w.County.femaleRank}Strategina" />
+    <Rank tier="Barony" titleName="{=anglicized.Empire_w.Barony.titleName}Toparchy" maleRank="{=anglicized.Empire_w.Barony.maleRank}Archon" femaleRank="{=anglicized.Empire_w.Barony.femaleRank}Archontissa" />
+  </TitleStyle>
+  <TitleStyle culture="Empire">
+    <Rank tier="Empire" titleName="{=anglicized.Empire.Empire.titleName}Empire" maleRank="{=anglicized.Empire.Empire.maleRank}Emperor" femaleRank="{=anglicized.Empire.Empire.femaleRank}Empress" heirRank="{=anglicized.Empire.Empire.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Empire.Empire.femaleHeirRank}Crown Princess" childRank="{=anglicized.Empire.Empire.childRank}Prince" femaleChildRank="{=anglicized.Empire.Empire.femaleChildRank}Princess" nobleRank="{=anglicized.Empire.Empire.nobleRank}Lord" femaleNobleRank="{=anglicized.Empire.Empire.femaleNobleRank}Lady" />
+    <Rank tier="Kingdom" titleName="{=anglicized.Empire.Kingdom.titleName}Exarchate" maleRank="{=anglicized.Empire.Kingdom.maleRank}Exarch" femaleRank="{=anglicized.Empire.Kingdom.femaleRank}Exarchissa" heirRank="{=anglicized.Empire.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Empire.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.Empire.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.Empire.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.Empire.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.Empire.Kingdom.femaleNobleRank}Lady" />
+    <Rank tier="Duchy" titleName="{=anglicized.Empire.Duchy.titleName}Duchy" maleRank="{=anglicized.Empire.Duchy.maleRank}Doux" femaleRank="{=anglicized.Empire.Duchy.femaleRank}Doukissa" />
+    <Rank tier="County" titleName="{=anglicized.Empire.County.titleName}Thema" maleRank="{=anglicized.Empire.County.maleRank}Strategos" femaleRank="{=anglicized.Empire.County.femaleRank}Strategina" />
+    <Rank tier="Barony" titleName="{=anglicized.Empire.Barony.titleName}Toparchy" maleRank="{=anglicized.Empire.Barony.maleRank}Archon" femaleRank="{=anglicized.Empire.Barony.femaleRank}Archontissa" />
+  </TitleStyle>
+  <TitleStyle kingdom="empire_s">
+    <Rank tier="Kingdom" titleName="{=anglicized.empire_s.Kingdom.titleName}Kingdom" maleRank="{=anglicized.empire_s.Kingdom.maleRank}King" femaleRank="{=anglicized.empire_s.Kingdom.femaleRank}Queen" heirRank="{=anglicized.empire_s.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.empire_s.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.empire_s.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.empire_s.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.empire_s.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.empire_s.Kingdom.femaleNobleRank}Lady" />
+  </TitleStyle>
+  <TitleStyle kingdom="empire_w">
+    <Rank tier="Kingdom" titleName="{=anglicized.empire_w.Kingdom.titleName}Autocracy" maleRank="{=anglicized.empire_w.Kingdom.maleRank}Autocrat" femaleRank="{=anglicized.empire_w.Kingdom.femaleRank}Autocratrix" heirRank="{=anglicized.empire_w.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.empire_w.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.empire_w.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.empire_w.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.empire_w.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.empire_w.Kingdom.femaleNobleRank}Lady" />
+  </TitleStyle>
+  <TitleStyle kingdom="empire">
+    <Rank tier="Kingdom" titleName="{=anglicized.empire.Kingdom.titleName}Republic" maleRank="{=anglicized.empire.Kingdom.maleRank}Consul" femaleRank="{=anglicized.empire.Kingdom.femaleRank}Consuless" heirRank="{=anglicized.empire.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.empire.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.empire.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.empire.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.empire.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.empire.Kingdom.femaleNobleRank}Lady" />
+  </TitleStyle>
+  <TitleStyle culture="Vlandia">
+    <Rank tier="Empire" titleName="{=anglicized.Vlandia.Empire.titleName}Empire" maleRank="{=anglicized.Vlandia.Empire.maleRank}Emperor" femaleRank="{=anglicized.Vlandia.Empire.femaleRank}Empress" heirRank="{=anglicized.Vlandia.Empire.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Vlandia.Empire.femaleHeirRank}Crown Princess" childRank="{=anglicized.Vlandia.Empire.childRank}Prince" femaleChildRank="{=anglicized.Vlandia.Empire.femaleChildRank}Princess" nobleRank="{=anglicized.Vlandia.Empire.nobleRank}Lord" femaleNobleRank="{=anglicized.Vlandia.Empire.femaleNobleRank}Lady" />
+    <Rank tier="Kingdom" titleName="{=anglicized.Vlandia.Kingdom.titleName}Kingdom" maleRank="{=anglicized.Vlandia.Kingdom.maleRank}King" femaleRank="{=anglicized.Vlandia.Kingdom.femaleRank}Queen" heirRank="{=anglicized.Vlandia.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Vlandia.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.Vlandia.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.Vlandia.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.Vlandia.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.Vlandia.Kingdom.femaleNobleRank}Lady" />
+    <Rank tier="Duchy" titleName="{=anglicized.Vlandia.Duchy.titleName}Duchy" maleRank="{=anglicized.Vlandia.Duchy.maleRank}Duke" femaleRank="{=anglicized.Vlandia.Duchy.femaleRank}Duchess" />
+    <Rank tier="County" titleName="{=anglicized.Vlandia.County.titleName}County" maleRank="{=anglicized.Vlandia.County.maleRank}Count" femaleRank="{=anglicized.Vlandia.County.femaleRank}Countess" />
+    <Rank tier="Barony" titleName="{=anglicized.Vlandia.Barony.titleName}Barony" maleRank="{=anglicized.Vlandia.Barony.maleRank}Baron" femaleRank="{=anglicized.Vlandia.Barony.femaleRank}Baroness" />
+  </TitleStyle>
+  <TitleStyle culture="Battania">
+    <Rank tier="Empire" titleName="{=anglicized.Battania.Empire.titleName}Empire" maleRank="{=anglicized.Battania.Empire.maleRank}Emperor" femaleRank="{=anglicized.Battania.Empire.femaleRank}Empress" heirRank="{=anglicized.Battania.Empire.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Battania.Empire.femaleHeirRank}Crown Princess" childRank="{=anglicized.Battania.Empire.childRank}Prince" femaleChildRank="{=anglicized.Battania.Empire.femaleChildRank}Princess" nobleRank="{=anglicized.Battania.Empire.nobleRank}Lord" femaleNobleRank="{=anglicized.Battania.Empire.femaleNobleRank}Lady" />
+    <Rank tier="Kingdom" titleName="{=anglicized.Battania.Kingdom.titleName}High Kingdom" maleRank="{=anglicized.Battania.Kingdom.maleRank}High King" femaleRank="{=anglicized.Battania.Kingdom.femaleRank}High Queen" heirRank="{=anglicized.Battania.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Battania.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.Battania.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.Battania.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.Battania.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.Battania.Kingdom.femaleNobleRank}Lady" />
+    <Rank tier="Duchy" titleName="{=anglicized.Battania.Duchy.titleName}Petty Kingdom" maleRank="{=anglicized.Battania.Duchy.maleRank}Petty King" femaleRank="{=anglicized.Battania.Duchy.femaleRank}Petty Queen" />
+    <Rank tier="County" titleName="{=anglicized.Battania.County.titleName}Mormaerdom" maleRank="{=anglicized.Battania.County.maleRank}Mormaer" femaleRank="{=anglicized.Battania.County.femaleRank}Banmormaer" />
+    <Rank tier="Barony" titleName="{=anglicized.Battania.Barony.titleName}Tribe" maleRank="{=anglicized.Battania.Barony.maleRank}Chief" femaleRank="{=anglicized.Battania.Barony.femaleRank}Chieftess" />
+  </TitleStyle>
+  <TitleStyle culture="Khuzait">
+    <Rank tier="Empire" titleName="{=anglicized.Khuzait.Empire.titleName}Khaganate" maleRank="{=anglicized.Khuzait.Empire.maleRank}Khagan" femaleRank="{=anglicized.Khuzait.Empire.femaleRank}Khatun" heirRank="{=anglicized.Khuzait.Empire.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Khuzait.Empire.femaleHeirRank}Crown Princess" childRank="{=anglicized.Khuzait.Empire.childRank}Prince" femaleChildRank="{=anglicized.Khuzait.Empire.femaleChildRank}Princess" nobleRank="{=anglicized.Khuzait.Empire.nobleRank}Lord" femaleNobleRank="{=anglicized.Khuzait.Empire.femaleNobleRank}Lady" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" />
+    <Rank tier="Kingdom" titleName="{=anglicized.Khuzait.Kingdom.titleName}Khanate" maleRank="{=anglicized.Khuzait.Kingdom.maleRank}Khan" femaleRank="{=anglicized.Khuzait.Kingdom.femaleRank}Khanum" heirRank="{=anglicized.Khuzait.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Khuzait.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.Khuzait.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.Khuzait.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.Khuzait.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.Khuzait.Kingdom.femaleNobleRank}Lady" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" />
+    <Rank tier="Duchy" titleName="{=anglicized.Khuzait.Duchy.titleName}Beylik" maleRank="{=anglicized.Khuzait.Duchy.maleRank}Bey" femaleRank="{=anglicized.Khuzait.Duchy.femaleRank}Begum" />
+    <Rank tier="County" titleName="{=anglicized.Khuzait.County.titleName}Noyanlik" maleRank="{=anglicized.Khuzait.County.maleRank}Noyan" femaleRank="{=anglicized.Khuzait.County.femaleRank}Noyan" />
+    <Rank tier="Barony" titleName="{=anglicized.Khuzait.Barony.titleName}Tribe" maleRank="{=anglicized.Khuzait.Barony.maleRank}Chief" femaleRank="{=anglicized.Khuzait.Barony.femaleRank}Chieftess" />
+  </TitleStyle>
+  <TitleStyle culture="Aserai">
+    <Rank tier="Empire" titleName="{=anglicized.Aserai.Empire.titleName}Empire" maleRank="{=anglicized.Aserai.Empire.maleRank}Emperor" femaleRank="{=anglicized.Aserai.Empire.femaleRank}Empress" heirRank="{=anglicized.Aserai.Empire.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Aserai.Empire.femaleHeirRank}Crown Princess" childRank="{=anglicized.Aserai.Empire.childRank}Prince" femaleChildRank="{=anglicized.Aserai.Empire.femaleChildRank}Princess" nobleRank="{=anglicized.Aserai.Empire.nobleRank}Lord" femaleNobleRank="{=anglicized.Aserai.Empire.femaleNobleRank}Lady" />
+    <Rank tier="Kingdom" titleName="{=anglicized.Aserai.Kingdom.titleName}Sultanate" maleRank="{=anglicized.Aserai.Kingdom.maleRank}Sultan" femaleRank="{=anglicized.Aserai.Kingdom.femaleRank}Sultana" heirRank="{=anglicized.Aserai.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Aserai.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.Aserai.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.Aserai.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.Aserai.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.Aserai.Kingdom.femaleNobleRank}Lady" />
+    <Rank tier="Duchy" titleName="{=anglicized.Aserai.Duchy.titleName}Mamlakah" maleRank="{=anglicized.Aserai.Duchy.maleRank}Malik" femaleRank="{=anglicized.Aserai.Duchy.femaleRank}Malika" />
+    <Rank tier="County" titleName="{=anglicized.Aserai.County.titleName}Emirate" maleRank="{=anglicized.Aserai.County.maleRank}Emir" femaleRank="{=anglicized.Aserai.County.femaleRank}Emira" />
+    <Rank tier="Barony" titleName="{=anglicized.Aserai.Barony.titleName}Sheikhdom" maleRank="{=anglicized.Aserai.Barony.maleRank}Sheikh" femaleRank="{=anglicized.Aserai.Barony.femaleRank}Sheikha" />
+  </TitleStyle>
+  <TitleStyle culture="Sturgia">
+    <Rank tier="Empire" titleName="{=anglicized.Sturgia.Empire.titleName}Empire" maleRank="{=anglicized.Sturgia.Empire.maleRank}Emperor" femaleRank="{=anglicized.Sturgia.Empire.femaleRank}Empress" heirRank="{=anglicized.Sturgia.Empire.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Sturgia.Empire.femaleHeirRank}Crown Princess" childRank="{=anglicized.Sturgia.Empire.childRank}Prince" femaleChildRank="{=anglicized.Sturgia.Empire.femaleChildRank}Princess" nobleRank="{=anglicized.Sturgia.Empire.nobleRank}Lord" femaleNobleRank="{=anglicized.Sturgia.Empire.femaleNobleRank}Lady" />
+    <Rank tier="Kingdom" titleName="{=anglicized.Sturgia.Kingdom.titleName}Grand Principality" maleRank="{=anglicized.Sturgia.Kingdom.maleRank}Grand Prince" femaleRank="{=anglicized.Sturgia.Kingdom.femaleRank}Grand Princess" heirRank="{=anglicized.Sturgia.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Sturgia.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.Sturgia.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.Sturgia.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.Sturgia.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.Sturgia.Kingdom.femaleNobleRank}Lady" />
+    <Rank tier="Duchy" titleName="{=anglicized.Sturgia.Duchy.titleName}Principality" maleRank="{=anglicized.Sturgia.Duchy.maleRank}Prince" femaleRank="{=anglicized.Sturgia.Duchy.femaleRank}Princess" />
+    <Rank tier="County" titleName="{=anglicized.Sturgia.County.titleName}Chiefdom" maleRank="{=anglicized.Sturgia.County.maleRank}Boyar" femaleRank="{=anglicized.Sturgia.County.femaleRank}Boyarina" />
+    <Rank tier="Barony" titleName="{=anglicized.Sturgia.Barony.titleName}Tribe" maleRank="{=anglicized.Sturgia.Barony.maleRank}Chief" femaleRank="{=anglicized.Sturgia.Barony.femaleRank}Chieftess" />
+  </TitleStyle>
+  <TitleStyle culture="Nord">
+    <Rank tier="Empire" titleName="{=anglicized.Nord.Empire.titleName}Fylkirate" maleRank="{=anglicized.Nord.Empire.maleRank}Fylkir" femaleRank="{=anglicized.Nord.Empire.femaleRank}Fylkja" heirRank="{=anglicized.Nord.Empire.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Nord.Empire.femaleHeirRank}Crown Princess" childRank="{=anglicized.Nord.Empire.childRank}Prince" femaleChildRank="{=anglicized.Nord.Empire.femaleChildRank}Princess" nobleRank="{=anglicized.Nord.Empire.nobleRank}Lord" femaleNobleRank="{=anglicized.Nord.Empire.femaleNobleRank}Lady" />
+    <Rank tier="Kingdom" titleName="{=anglicized.Nord.Kingdom.titleName}Kingdom" maleRank="{=anglicized.Nord.Kingdom.maleRank}Konungr" femaleRank="{=anglicized.Nord.Kingdom.femaleRank}Dróttning" heirRank="{=anglicized.Nord.Kingdom.heirRank}Crown Prince" femaleHeirRank="{=anglicized.Nord.Kingdom.femaleHeirRank}Crown Princess" childRank="{=anglicized.Nord.Kingdom.childRank}Prince" femaleChildRank="{=anglicized.Nord.Kingdom.femaleChildRank}Princess" nobleRank="{=anglicized.Nord.Kingdom.nobleRank}Lord" femaleNobleRank="{=anglicized.Nord.Kingdom.femaleNobleRank}Lady" />
+    <Rank tier="Duchy" titleName="{=anglicized.Nord.Duchy.titleName}Jarldom" maleRank="{=anglicized.Nord.Duchy.maleRank}Jarl" femaleRank="{=anglicized.Nord.Duchy.femaleRank}Jarlkona" />
+    <Rank tier="County" titleName="{=anglicized.Nord.County.titleName}Chiefdom" maleRank="{=anglicized.Nord.County.maleRank}High Chief" femaleRank="{=anglicized.Nord.County.femaleRank}High Chieftess" />
+    <Rank tier="Barony" titleName="{=anglicized.Nord.Barony.titleName}Tribe" maleRank="{=anglicized.Nord.Barony.maleRank}Chief" femaleRank="{=anglicized.Nord.Barony.femaleRank}Chieftess" />
+  </TitleStyle>
+  <!-- Court terminology uses the same culture/kingdom/rulerCulture selectors as ranks. -->
+  <!--<TitleStyle culture="Empire">
+    <CourtFactions
+      nobility="Nobility"
+      glory="Glory"
+      liberty="Liberty" />
+    <CouncilOffices
+      name="Privy Council"
+      marshal="Marshal"
+      chancellor="Chancellor"
+      seneschal="Seneschal"
+      spymaster="Spymaster"
+      firstAdvisor="First Advisor"
+      secondAdvisor="Second Advisor" />
+  </TitleStyle>-->
+</BellumFeudalTitles>

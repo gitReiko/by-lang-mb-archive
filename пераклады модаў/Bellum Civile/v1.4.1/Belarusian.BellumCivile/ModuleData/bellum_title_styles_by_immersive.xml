@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BellumFeudalTitles presetId="by_immersive" presetName="Immersive (BY)" presetOrder="20">
+  <!-- Presentation-only title roots. These never alter holders, ownership, or hierarchy. -->
+  <!-- Optional Rank heroNameFormat tokens are {DISPLAY_TITLE}, {HERO_NAME}, and {HELD_TITLE}.
+       Examples: heroNameFormat="{DISPLAY_TITLE} &#xB7; {HERO_NAME}"
+       or heroNameFormat="{HERO_NAME}, {HELD_TITLE}". -->
+  <TitleName id="bc_title_kingdom_vlandia" name="{=immersive.bc_title_kingdom_vlandia.name}Valandorum" />
+  <TitleName id="duchy_ebor" name="{=immersive.duchy_ebor.name}Eboraci" />
+  <TitleName id="duchy_svadia" name="{=immersive.duchy_svadia.name}Svadiae" />
+  <TitleName id="duchy_walhdok" name="{=immersive.duchy_walhdok.name}Walhdochi" />
+  <TitleName id="county_neurval" name="{=immersive.county_neurval.name}Neurvalliae" />
+  <TitleName id="county_epiris" name="{=immersive.county_epiris.name}Epiridis" />
+  <TitleName id="county_biscan" name="{=immersive.county_biscan.name}Biscaniae" />
+  <TitleName id="county_trand" name="{=immersive.county_trand.name}Trandiae" />
+  <TitleName id="county_ocspool" name="{=immersive.county_ocspool.name}Ocspoolii" />
+  <TitleName id="county_n_rhennod" name="{=immersive.county_n_rhennod.name}Rhennodi Septentrionalis" />
+  <TitleName id="county_morcomb" name="{=immersive.county_morcomb.name}Morcombae" />
+  <TitleName id="bc_title_kingdom_battania" name="{=immersive.bc_title_kingdom_battania.name}Bhattanach" />
+  <TitleName id="duchy_uchalion" name="{=immersive.duchy_uchalion.name}Uchalion" />
+  <TitleName id="duchy_llyntywal" name="{=immersive.duchy_llyntywal.name}Llyn Tywal" />
+  <TitleName id="county_glanys" name="{=immersive.county_glanys.name}Glanys" />
+  <TitleName id="county_rhennod" name="{=immersive.county_rhennod.name}Rhennod" />
+  <TitleName id="county_ailtadruin" name="{=immersive.county_ailtadruin.name}Ailta Druin" />
+  <TitleName id="county_cafalcombe" name="{=immersive.county_cafalcombe.name}Cafalcombe" />
+  <TitleName id="county_fiur" name="{=immersive.county_fiur.name}Fiur" />
+  <TitleName id="bc_title_kingdom_sturgia" name="{=immersive.bc_title_kingdom_sturgia.name}Sturgova" />
+  <TitleName id="duchy_zapadu" name="{=immersive.duchy_zapadu.name}Zapada" />
+  <TitleName id="duchy_vostoku" name="{=immersive.duchy_vostoku.name}Vostoka" />
+  <TitleName id="county_mazopor" name="{=immersive.county_mazopor.name}Mazopora" />
+  <TitleName id="county_kachyar" name="{=immersive.county_kachyar.name}Kachyara" />
+  <TitleName id="county_icara" name="{=immersive.county_icara.name}Icary" />
+  <TitleName id="county_minador" name="{=immersive.county_minador.name}Minadora" />
+  <TitleName id="county_chertyg" name="{=immersive.county_chertyg.name}Chertyga" />
+  <TitleName id="county_iltan" name="{=immersive.county_iltan.name}Iltana" />
+  <TitleName id="bc_title_kingdom_nord" name="{=immersive.bc_title_kingdom_nord.name}Nordmanna" />
+  <TitleName id="duchy_nordvyg" name="{=immersive.duchy_nordvyg.name}Norðvegs" />
+  <TitleName id="duchy_jumne" name="{=immersive.duchy_jumne.name}Jumnis" />
+  <TitleName id="county_beinland" name="{=immersive.county_beinland.name}Beinlands" />
+  <TitleName id="county_vestroenn" name="{=immersive.county_vestroenn.name}Vestræna" />
+  <TitleName id="county_kjolfjallen" name="{=immersive.county_kjolfjallen.name}Kjólfjalla" />
+  <TitleName id="county_kjolfjallen" name="{=immersive.county_kjolfjallen.name}Kjólfjalla" />
+  <TitleName id="county_byal" name="{=immersive.county_byal.name}Byals" />
+  <TitleName id="county_iltanhindrun" name="{=immersive.county_iltanhindrun.name}Iltanhindranar" />
+  <TitleName id="bc_title_kingdom_aserai" name="{=immersive.bc_title_kingdom_aserai.name}al-Asarin" />
+  <TitleName id="duchy_jarjara" name="{=immersive.duchy_jarjara.name}Jarjara" />
+  <TitleName id="duchy_nahasa" name="{=immersive.duchy_nahasa.name}al-Nahasa" />
+  <TitleName id="duchy_alkinaniyya" name="{=immersive.duchy_alkinaniyya.name}Al-Kinaniyya" />
+  <TitleName id="county_jabaltamar" name="{=immersive.county_jabaltamar.name}Jabal Tamar" />
+  <TitleName id="county_bahralyeshm" name="{=immersive.county_bahralyeshm.name}Bahr al Yeshm" />
+  <TitleName id="county_damar" name="{=immersive.county_damar.name}Damar" />
+  <TitleName id="county_alyachiyya" name="{=immersive.county_alyachiyya.name}Al-Yachiyya" />
+  <TitleName id="county_aleshoriyya" name="{=immersive.county_aleshoriyya.name}Al-Eshoriyya" />
+  <TitleName id="county_jabalashab" name="{=immersive.county_jabalashab.name}Jabal Ashab" />
+  <TitleName id="county_nahralkals" name="{=immersive.county_nahralkals.name}Nahr Al-Kals" />
+  <TitleName id="bc_title_kingdom_khuzait" name="{=immersive.bc_title_kingdom_khuzait.name}Quzayt" />
+  <TitleName id="duchy_tarantanya" name="{=immersive.duchy_tarantanya.name}Tarantanya" />
+  <TitleName id="duchy_devseg" name="{=immersive.duchy_devseg.name}Devseg" />
+  <TitleName id="county_akkan" name="{=immersive.county_akkan.name}Akkan" />
+  <TitleName id="county_zakhan" name="{=immersive.county_zakhan.name}Zakhan" />
+  <TitleName id="county_karakaz" name="{=immersive.county_karakaz.name}Karakas" />
+  <TitleName id="county_barsdag" name="{=immersive.county_barsdag.name}Bars Dag" />
+  <TitleName id="county_sulundag" name="{=immersive.county_sulundag.name}Sulun Dag" />
+  <TitleName id="county_kohirohini" name="{=immersive.county_kohirohini.name}Kohi Rohini" />
+  <TitleName id="empire_calradia" name="{=immersive.empire_calradia.name}Kalradōn" />
+  <TitleName id="bc_title_kingdom_empire_n" name="{=immersive.bc_title_kingdom_empire_n.name}Voreiōn Kalradōn" />
+  <TitleName id="duchy_dryatica" name="{=immersive.duchy_dryatica.name}Dryatikon" />
+  <TitleName id="duchy_laconia" name="{=immersive.duchy_laconia.name}Lakonon" />
+  <TitleName id="county_galchas" name="{=immersive.county_galchas.name}Galchadon" />
+  <TitleName id="county_diatagmatia" name="{=immersive.county_diatagmatia.name}Diatagmatikon" />
+  <TitleName id="county_ophthys" name="{=immersive.county_ophthys.name}Ophthyon" />
+  <TitleName id="county_nevis" name="{=immersive.county_nevis.name}Nevidon" />
+  <TitleName id="county_myzead" name="{=immersive.county_myzead.name}Myzeadon" />
+  <TitleName id="county_portatia" name="{=immersive.county_portatia.name}Portatikon" />
+  <TitleName id="bc_title_kingdom_empire_s" name="{=immersive.bc_title_kingdom_empire_s.name}Notiōn Kalradōn" />
+  <TitleName id="duchy_lycarea" name="{=immersive.duchy_lycarea.name}Lykareon" />
+  <TitleName id="duchy_tanaesia" name="{=immersive.duchy_tanaesia.name}Tanaesion" />
+  <TitleName id="duchy_tripotamia" name="{=immersive.duchy_tripotamia.name}Tripotamion" />
+  <TitleName id="county_ornia" name="{=immersive.county_ornia.name}Ornion" />
+  <TitleName id="county_sethys" name="{=immersive.county_sethys.name}Sethyon" />
+  <TitleName id="county_sarpene" name="{=immersive.county_sarpene.name}Sarpenon" />
+  <TitleName id="county_sericea" name="{=immersive.county_sericea.name}Serikon" />
+  <TitleName id="county_gorea" name="{=immersive.county_gorea.name}Goreon" />
+  <TitleName id="county_calsa" name="{=immersive.county_calsa.name}Kalson" />
+  <TitleName id="bc_title_kingdom_empire_w" name="{=immersive.bc_title_kingdom_empire_w.name}Dytikōn Kalradōn" />
+  <TitleName id="duchy_ilatarea" name="{=immersive.duchy_ilatarea.name}Ilatareon" />
+  <TitleName id="duchy_aminys" name="{=immersive.duchy_aminys.name}Aminyon" />
+  <TitleName id="duchy_erithrys" name="{=immersive.duchy_erithrys.name}Erithron" />
+  <TitleName id="county_temea" name="{=immersive.county_temea.name}Temeon" />
+  <TitleName id="county_aris" name="{=immersive.county_aris.name}Aridon" />
+  <TitleName id="county_mesogea" name="{=immersive.county_mesogea.name}Mesogeion" />
+  <TitleName id="county_gavys" name="{=immersive.county_gavys.name}Gavyon" />
+  <TitleName id="county_sarapia" name="{=immersive.county_sarapia.name}Sarapion" />
+  <TitleName id="county_zeos" name="{=immersive.county_zeos.name}Zeon" />
+  <!-- Cultural and kingdom-specific rank terminology. change culture to rulerCulture if you want the ruler to determine the full terminology of the realm-->
+  <TitleStyle culture="Empire_n">
+    <Rank tier="Empire" titleName="{=immersive.Empire_n.Empire.titleName}Imperium" maleRank="{=immersive.Empire_n.Empire.maleRank}Imperator" femaleRank="{=immersive.Empire_n.Empire.femaleRank}Imperatrix" heirRank="{=immersive.Empire_n.Empire.heirRank}Kaisar" femaleHeirRank="{=immersive.Empire_n.Empire.femaleHeirRank}Kaisarissa" childRank="{=immersive.Empire_n.Empire.childRank}Porphyrogennetos" femaleChildRank="{=immersive.Empire_n.Empire.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.Empire_n.Empire.nobleRank}Patrikios" femaleNobleRank="{=immersive.Empire_n.Empire.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Kingdom" titleName="{=immersive.Empire_n.Kingdom.titleName}Exarchatus" maleRank="{=immersive.Empire_n.Kingdom.maleRank}Exarchos" femaleRank="{=immersive.Empire_n.Kingdom.femaleRank}Exarchissa" heirRank="{=immersive.Empire_n.Kingdom.heirRank}Kaisar" femaleHeirRank="{=immersive.Empire_n.Kingdom.femaleHeirRank}Kaisarissa" childRank="{=immersive.Empire_n.Kingdom.childRank}Porphyrogennetos" femaleChildRank="{=immersive.Empire_n.Kingdom.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.Empire_n.Kingdom.nobleRank}Patrikios" femaleNobleRank="{=immersive.Empire_n.Kingdom.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Duchy" titleName="{=immersive.Empire_n.Duchy.titleName}Doukaton" maleRank="{=immersive.Empire_n.Duchy.maleRank}Doux" femaleRank="{=immersive.Empire_n.Duchy.femaleRank}Doukissa" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="County" titleName="{=immersive.Empire_n.County.titleName}Thema" maleRank="{=immersive.Empire_n.County.maleRank}Strategos" femaleRank="{=immersive.Empire_n.County.femaleRank}Strategina" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Barony" titleName="{=immersive.Empire_n.Barony.titleName}Toparchia" maleRank="{=immersive.Empire_n.Barony.maleRank}Archon" femaleRank="{=immersive.Empire_n.Barony.femaleRank}Archontissa" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle culture="Empire_s">
+    <Rank tier="Empire" titleName="{=immersive.Empire_s.Empire.titleName}Imperium" maleRank="{=immersive.Empire_s.Empire.maleRank}Imperator" femaleRank="{=immersive.Empire_s.Empire.femaleRank}Imperatrix" heirRank="{=immersive.Empire_s.Empire.heirRank}Kaisar" femaleHeirRank="{=immersive.Empire_s.Empire.femaleHeirRank}Kaisarissa" childRank="{=immersive.Empire_s.Empire.childRank}Porphyrogennetos" femaleChildRank="{=immersive.Empire_s.Empire.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.Empire_s.Empire.nobleRank}Patrikios" femaleNobleRank="{=immersive.Empire_s.Empire.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Kingdom" titleName="{=immersive.Empire_s.Kingdom.titleName}Exarchatus" maleRank="{=immersive.Empire_s.Kingdom.maleRank}Exarchos" femaleRank="{=immersive.Empire_s.Kingdom.femaleRank}Exarchissa" heirRank="{=immersive.Empire_s.Kingdom.heirRank}Kaisar" femaleHeirRank="{=immersive.Empire_s.Kingdom.femaleHeirRank}Kaisarissa" childRank="{=immersive.Empire_s.Kingdom.childRank}Porphyrogennetos" femaleChildRank="{=immersive.Empire_s.Kingdom.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.Empire_s.Kingdom.nobleRank}Patrikios" femaleNobleRank="{=immersive.Empire_s.Kingdom.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Duchy" titleName="{=immersive.Empire_s.Duchy.titleName}Doukaton" maleRank="{=immersive.Empire_s.Duchy.maleRank}Doux" femaleRank="{=immersive.Empire_s.Duchy.femaleRank}Doukissa" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="County" titleName="{=immersive.Empire_s.County.titleName}Thema" maleRank="{=immersive.Empire_s.County.maleRank}Strategos" femaleRank="{=immersive.Empire_s.County.femaleRank}Strategina" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Barony" titleName="{=immersive.Empire_s.Barony.titleName}Toparchia" maleRank="{=immersive.Empire_s.Barony.maleRank}Archon" femaleRank="{=immersive.Empire_s.Barony.femaleRank}Archontissa" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle culture="Empire_w">
+    <Rank tier="Empire" titleName="{=immersive.Empire_w.Empire.titleName}Imperium" maleRank="{=immersive.Empire_w.Empire.maleRank}Imperator" femaleRank="{=immersive.Empire_w.Empire.femaleRank}Imperatrix" heirRank="{=immersive.Empire_w.Empire.heirRank}Kaisar" femaleHeirRank="{=immersive.Empire_w.Empire.femaleHeirRank}Kaisarissa" childRank="{=immersive.Empire_w.Empire.childRank}Porphyrogennetos" femaleChildRank="{=immersive.Empire_w.Empire.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.Empire_w.Empire.nobleRank}Patrikios" femaleNobleRank="{=immersive.Empire_w.Empire.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Kingdom" titleName="{=immersive.Empire_w.Kingdom.titleName}Exarchatus" maleRank="{=immersive.Empire_w.Kingdom.maleRank}Exarchos" femaleRank="{=immersive.Empire_w.Kingdom.femaleRank}Exarchissa" heirRank="{=immersive.Empire_w.Kingdom.heirRank}Kaisar" femaleHeirRank="{=immersive.Empire_w.Kingdom.femaleHeirRank}Kaisarissa" childRank="{=immersive.Empire_w.Kingdom.childRank}Porphyrogennetos" femaleChildRank="{=immersive.Empire_w.Kingdom.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.Empire_w.Kingdom.nobleRank}Patrikios" femaleNobleRank="{=immersive.Empire_w.Kingdom.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Duchy" titleName="{=immersive.Empire_w.Duchy.titleName}Doukaton" maleRank="{=immersive.Empire_w.Duchy.maleRank}Doux" femaleRank="{=immersive.Empire_w.Duchy.femaleRank}Doukissa" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="County" titleName="{=immersive.Empire_w.County.titleName}Thema" maleRank="{=immersive.Empire_w.County.maleRank}Strategos" femaleRank="{=immersive.Empire_w.County.femaleRank}Strategina" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Barony" titleName="{=immersive.Empire_w.Barony.titleName}Toparchia" maleRank="{=immersive.Empire_w.Barony.maleRank}Archon" femaleRank="{=immersive.Empire_w.Barony.femaleRank}Archontissa" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle culture="Empire">
+    <Rank tier="Empire" titleName="{=immersive.Empire.Empire.titleName}Imperium" maleRank="{=immersive.Empire.Empire.maleRank}Imperator" femaleRank="{=immersive.Empire.Empire.femaleRank}Imperatrix" heirRank="{=immersive.Empire.Empire.heirRank}Kaisar" femaleHeirRank="{=immersive.Empire.Empire.femaleHeirRank}Kaisarissa" childRank="{=immersive.Empire.Empire.childRank}Porphyrogennetos" femaleChildRank="{=immersive.Empire.Empire.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.Empire.Empire.nobleRank}Patrikios" femaleNobleRank="{=immersive.Empire.Empire.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Kingdom" titleName="{=immersive.Empire.Kingdom.titleName}Exarchatus" maleRank="{=immersive.Empire.Kingdom.maleRank}Exarchos" femaleRank="{=immersive.Empire.Kingdom.femaleRank}Exarchissa" heirRank="{=immersive.Empire.Kingdom.heirRank}Kaisar" femaleHeirRank="{=immersive.Empire.Kingdom.femaleHeirRank}Kaisarissa" childRank="{=immersive.Empire.Kingdom.childRank}Porphyrogennetos" femaleChildRank="{=immersive.Empire.Kingdom.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.Empire.Kingdom.nobleRank}Patrikios" femaleNobleRank="{=immersive.Empire.Kingdom.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Duchy" titleName="{=immersive.Empire.Duchy.titleName}Doukaton" maleRank="{=immersive.Empire.Duchy.maleRank}Doux" femaleRank="{=immersive.Empire.Duchy.femaleRank}Doukissa" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="County" titleName="{=immersive.Empire.County.titleName}Thema" maleRank="{=immersive.Empire.County.maleRank}Strategos" femaleRank="{=immersive.Empire.County.femaleRank}Strategina" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+    <Rank tier="Barony" titleName="{=immersive.Empire.Barony.titleName}Toparchia" maleRank="{=immersive.Empire.Barony.maleRank}Archon" femaleRank="{=immersive.Empire.Barony.femaleRank}Archontissa" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle kingdom="empire_s">
+    <Rank tier="Kingdom" titleName="{=immersive.empire_s.Kingdom.titleName}Basileia" maleRank="{=immersive.empire_s.Kingdom.maleRank}Basileus" femaleRank="{=immersive.empire_s.Kingdom.femaleRank}Basilissa" heirRank="{=immersive.empire_s.Kingdom.heirRank}Kaisar" femaleHeirRank="{=immersive.empire_s.Kingdom.femaleHeirRank}Kaisarissa" childRank="{=immersive.empire_s.Kingdom.childRank}Porphyrogennetos" femaleChildRank="{=immersive.empire_s.Kingdom.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.empire_s.Kingdom.nobleRank}Patrikios" femaleNobleRank="{=immersive.empire_s.Kingdom.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle kingdom="empire_w">
+    <Rank tier="Kingdom" titleName="{=immersive.empire_w.Kingdom.titleName}Autokrateia" maleRank="{=immersive.empire_w.Kingdom.maleRank}Autokrator" femaleRank="{=immersive.empire_w.Kingdom.femaleRank}Autokratorissa" heirRank="{=immersive.empire_w.Kingdom.heirRank}Kaisar" femaleHeirRank="{=immersive.empire_w.Kingdom.femaleHeirRank}Kaisarissa" childRank="{=immersive.empire_w.Kingdom.childRank}Porphyrogennetos" femaleChildRank="{=immersive.empire_w.Kingdom.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.empire_w.Kingdom.nobleRank}Patrikios" femaleNobleRank="{=immersive.empire_w.Kingdom.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle kingdom="empire">
+    <Rank tier="Kingdom" titleName="{=immersive.empire.Kingdom.titleName}Politeia" maleRank="{=immersive.empire.Kingdom.maleRank}Hypatos" femaleRank="{=immersive.empire.Kingdom.femaleRank}Hypatissa" heirRank="{=immersive.empire.Kingdom.heirRank}Kaisar" femaleHeirRank="{=immersive.empire.Kingdom.femaleHeirRank}Kaisarissa" childRank="{=immersive.empire.Kingdom.childRank}Porphyrogennetos" femaleChildRank="{=immersive.empire.Kingdom.femaleChildRank}Porphyrogenneta" nobleRank="{=immersive.empire.Kingdom.nobleRank}Patrikios" femaleNobleRank="{=immersive.empire.Kingdom.femaleNobleRank}Patrikia" titleFormat="{TITLE_NOUN} tōn {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} tōn {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle culture="Vlandia">
+    <Rank tier="Empire" titleName="{=immersive.Vlandia.Empire.titleName}Imperium" maleRank="{=immersive.Vlandia.Empire.maleRank}Imperator" femaleRank="{=immersive.Vlandia.Empire.femaleRank}Imperatrix" heirRank="{=immersive.Vlandia.Empire.heirRank}Princeps Hereditarius" femaleHeirRank="{=immersive.Vlandia.Empire.femaleHeirRank}Principissa Hereditaria" childRank="{=immersive.Vlandia.Empire.childRank}Princeps" femaleChildRank="{=immersive.Vlandia.Empire.femaleChildRank}Principissa" nobleRank="{=immersive.Vlandia.Empire.nobleRank}Dominus" femaleNobleRank="{=immersive.Vlandia.Empire.femaleNobleRank}Domina" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Kingdom" titleName="{=immersive.Vlandia.Kingdom.titleName}Regnum" maleRank="{=immersive.Vlandia.Kingdom.maleRank}Rex" femaleRank="{=immersive.Vlandia.Kingdom.femaleRank}Regina" heirRank="{=immersive.Vlandia.Kingdom.heirRank}Princeps Hereditarius" femaleHeirRank="{=immersive.Vlandia.Kingdom.femaleHeirRank}Principissa Hereditaria" childRank="{=immersive.Vlandia.Kingdom.childRank}Princeps" femaleChildRank="{=immersive.Vlandia.Kingdom.femaleChildRank}Principissa" nobleRank="{=immersive.Vlandia.Kingdom.nobleRank}Dominus" femaleNobleRank="{=immersive.Vlandia.Kingdom.femaleNobleRank}Domina" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Duchy" titleName="{=immersive.Vlandia.Duchy.titleName}Ducatus" maleRank="{=immersive.Vlandia.Duchy.maleRank}Dux" femaleRank="{=immersive.Vlandia.Duchy.femaleRank}Ducissa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="County" titleName="{=immersive.Vlandia.County.titleName}Comitatus" maleRank="{=immersive.Vlandia.County.maleRank}Comes" femaleRank="{=immersive.Vlandia.County.femaleRank}Comitissa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Barony" titleName="{=immersive.Vlandia.Barony.titleName}Baronatus" maleRank="{=immersive.Vlandia.Barony.maleRank}Baro" femaleRank="{=immersive.Vlandia.Barony.femaleRank}Baronissa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle culture="Battania">
+    <Rank tier="Empire" titleName="{=immersive.Battania.Empire.titleName}Ríocht Ruirech" maleRank="{=immersive.Battania.Empire.maleRank}Rí Ruirech" femaleRank="{=immersive.Battania.Empire.femaleRank}Banrí Ruirech" heirRank="{=immersive.Battania.Empire.heirRank}Tánaiste" femaleHeirRank="{=immersive.Battania.Empire.femaleHeirRank}Ban-tánaiste" childRank="{=immersive.Battania.Empire.childRank}Mac Flaith" femaleChildRank="{=immersive.Battania.Empire.femaleChildRank}Inghean Flaith" nobleRank="{=immersive.Battania.Empire.nobleRank}Tighearna" femaleNobleRank="{=immersive.Battania.Empire.femaleNobleRank}Bantighearna" titleFormat="{TITLE_NOUN} na {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} na {TITLE_NAME}" />
+    <Rank tier="Kingdom" titleName="{=immersive.Battania.Kingdom.titleName}Ard Ríocht" maleRank="{=immersive.Battania.Kingdom.maleRank}Ard Rí" femaleRank="{=immersive.Battania.Kingdom.femaleRank}Ardbhainríon" heirRank="{=immersive.Battania.Kingdom.heirRank}Tánaiste" femaleHeirRank="{=immersive.Battania.Kingdom.femaleHeirRank}Ban-tánaiste" childRank="{=immersive.Battania.Kingdom.childRank}Mac Flaith" femaleChildRank="{=immersive.Battania.Kingdom.femaleChildRank}Inghean Flaith" nobleRank="{=immersive.Battania.Kingdom.nobleRank}Tighearna" femaleNobleRank="{=immersive.Battania.Kingdom.femaleNobleRank}Bantighearna" titleFormat="{TITLE_NOUN} na {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} na {TITLE_NAME}" />
+    <Rank tier="Duchy" titleName="{=immersive.Battania.Duchy.titleName}Ríocht" maleRank="{=immersive.Battania.Duchy.maleRank}Rí" femaleRank="{=immersive.Battania.Duchy.femaleRank}Bainríon" titleFormat="{TITLE_NOUN} na {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} na {TITLE_NAME}" />
+    <Rank tier="County" titleName="{=immersive.Battania.County.titleName}Mormaeracht" maleRank="{=immersive.Battania.County.maleRank}Mormaer" femaleRank="{=immersive.Battania.County.femaleRank}Banmormaer" titleFormat="{TITLE_NOUN} na {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} na {TITLE_NAME}" />
+    <Rank tier="Barony" titleName="{=immersive.Battania.Barony.titleName}Tuath" maleRank="{=immersive.Battania.Barony.maleRank}Taoiseach" femaleRank="{=immersive.Battania.Barony.femaleRank}Bantaoiseach" titleFormat="{TITLE_NOUN} na {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} na {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle culture="Khuzait">
+    <Rank tier="Empire" titleName="{=immersive.Khuzait.Empire.titleName}Khaganliqi" maleRank="{=immersive.Khuzait.Empire.maleRank}Khagan" femaleRank="{=immersive.Khuzait.Empire.femaleRank}Khatun" heirRank="{=immersive.Khuzait.Empire.heirRank}Veliaht" femaleHeirRank="{=immersive.Khuzait.Empire.femaleHeirRank}Veliaht Hatun" childRank="{=immersive.Khuzait.Empire.childRank}Tegin" femaleChildRank="{=immersive.Khuzait.Empire.femaleChildRank}Khanika" nobleRank="{=immersive.Khuzait.Empire.nobleRank}Tarkhan" femaleNobleRank="{=immersive.Khuzait.Empire.femaleNobleRank}Tarkhanah" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" />
+    <Rank tier="Kingdom" titleName="{=immersive.Khuzait.Kingdom.titleName}Khanliqi" maleRank="{=immersive.Khuzait.Kingdom.maleRank}Khan" femaleRank="{=immersive.Khuzait.Kingdom.femaleRank}Khanum" heirRank="{=immersive.Khuzait.Kingdom.heirRank}Veliaht" femaleHeirRank="{=immersive.Khuzait.Kingdom.femaleHeirRank}Veliaht Hatun" childRank="{=immersive.Khuzait.Kingdom.childRank}Tegin" femaleChildRank="{=immersive.Khuzait.Kingdom.femaleChildRank}Khanika" nobleRank="{=immersive.Khuzait.Kingdom.nobleRank}Tarkhan" femaleNobleRank="{=immersive.Khuzait.Kingdom.femaleNobleRank}Tarkhanah" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" />
+    <Rank tier="Duchy" titleName="{=immersive.Khuzait.Duchy.titleName}Beylerbeyliyi" maleRank="{=immersive.Khuzait.Duchy.maleRank}Beylerbey" femaleRank="{=immersive.Khuzait.Duchy.femaleRank}Begum" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" />
+    <Rank tier="County" titleName="{=immersive.Khuzait.County.titleName}Beyliyi" maleRank="{=immersive.Khuzait.County.maleRank}Bey" femaleRank="{=immersive.Khuzait.County.femaleRank}Bike" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" />
+    <Rank tier="Barony" titleName="{=immersive.Khuzait.Barony.titleName}Noyanliqi" maleRank="{=immersive.Khuzait.Barony.maleRank}Noyan" femaleRank="{=immersive.Khuzait.Barony.femaleRank}Noyan" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" />
+  </TitleStyle>
+  <TitleStyle culture="Aserai">
+    <Rank tier="Empire" titleName="{=immersive.Aserai.Empire.titleName}Saltanat Uzma" maleRank="{=immersive.Aserai.Empire.maleRank}Sultan al-Salatin" femaleRank="{=immersive.Aserai.Empire.femaleRank}Sultana al-Salatin" heirRank="{=immersive.Aserai.Empire.heirRank}Wali al-Ahd" femaleHeirRank="{=immersive.Aserai.Empire.femaleHeirRank}Waliyat al-Ahd" childRank="{=immersive.Aserai.Empire.childRank}Amirzadeh" femaleChildRank="{=immersive.Aserai.Empire.femaleChildRank}Amirzadi" nobleRank="{=immersive.Aserai.Empire.nobleRank}Sharif" femaleNobleRank="{=immersive.Aserai.Empire.femaleNobleRank}Sharifa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Kingdom" titleName="{=immersive.Aserai.Kingdom.titleName}Saltanat" maleRank="{=immersive.Aserai.Kingdom.maleRank}Sultan" femaleRank="{=immersive.Aserai.Kingdom.femaleRank}Sultana" heirRank="{=immersive.Aserai.Kingdom.heirRank}Wali al-Ahd" femaleHeirRank="{=immersive.Aserai.Kingdom.femaleHeirRank}Waliyat al-Ahd" childRank="{=immersive.Aserai.Kingdom.childRank}Amirzadeh" femaleChildRank="{=immersive.Aserai.Kingdom.femaleChildRank}Amirzadi" nobleRank="{=immersive.Aserai.Kingdom.nobleRank}Sharif" femaleNobleRank="{=immersive.Aserai.Kingdom.femaleNobleRank}Sharifa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Duchy" titleName="{=immersive.Aserai.Duchy.titleName}Mamlakat" maleRank="{=immersive.Aserai.Duchy.maleRank}Malik" femaleRank="{=immersive.Aserai.Duchy.femaleRank}Malika" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="County" titleName="{=immersive.Aserai.County.titleName}Imarat" maleRank="{=immersive.Aserai.County.maleRank}Amir" femaleRank="{=immersive.Aserai.County.femaleRank}Amira" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Barony" titleName="{=immersive.Aserai.Barony.titleName}Mashyakhat" maleRank="{=immersive.Aserai.Barony.maleRank}Shaykh" femaleRank="{=immersive.Aserai.Barony.femaleRank}Shaykha" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle culture="Sturgia">
+    <Rank tier="Empire" titleName="{=immersive.Sturgia.Empire.titleName}Samoderzhaviye" maleRank="{=immersive.Sturgia.Empire.maleRank}Samoderzhets" femaleRank="{=immersive.Sturgia.Empire.femaleRank}Samoderzhitsa" heirRank="{=immersive.Sturgia.Empire.heirRank}Naslednik" femaleHeirRank="{=immersive.Sturgia.Empire.femaleHeirRank}Naslednitsa" childRank="{=immersive.Sturgia.Empire.childRank}Knyazhich" femaleChildRank="{=immersive.Sturgia.Empire.femaleChildRank}Knyazhna" nobleRank="{=immersive.Sturgia.Empire.nobleRank}Boyarich" femaleNobleRank="{=immersive.Sturgia.Empire.femaleNobleRank}Boyaryshnya" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Kingdom" titleName="{=immersive.Sturgia.Kingdom.titleName}Velikoye Knyazhestvo" maleRank="{=immersive.Sturgia.Kingdom.maleRank}Velikiy Knyaz" femaleRank="{=immersive.Sturgia.Kingdom.femaleRank}Velikaya Knyaginya" heirRank="{=immersive.Sturgia.Kingdom.heirRank}Naslednik" femaleHeirRank="{=immersive.Sturgia.Kingdom.femaleHeirRank}Naslednitsa" childRank="{=immersive.Sturgia.Kingdom.childRank}Knyazhich" femaleChildRank="{=immersive.Sturgia.Kingdom.femaleChildRank}Knyazhna" nobleRank="{=immersive.Sturgia.Kingdom.nobleRank}Boyarich" femaleNobleRank="{=immersive.Sturgia.Kingdom.femaleNobleRank}Boyaryshnya" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Duchy" titleName="{=immersive.Sturgia.Duchy.titleName}Knyazhestvo" maleRank="{=immersive.Sturgia.Duchy.maleRank}Knyaz" femaleRank="{=immersive.Sturgia.Duchy.femaleRank}Knyaginya" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="County" titleName="{=immersive.Sturgia.County.titleName}Boyarstvo" maleRank="{=immersive.Sturgia.County.maleRank}Boyar" femaleRank="{=immersive.Sturgia.County.femaleRank}Boyarynya" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Barony" titleName="{=immersive.Sturgia.Barony.titleName}Votchina" maleRank="{=immersive.Sturgia.Barony.maleRank}Dvoryanin" femaleRank="{=immersive.Sturgia.Barony.femaleRank}Dvoryanka" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+  </TitleStyle>
+  <TitleStyle culture="Nord">
+    <Rank tier="Empire" titleName="{=immersive.Nord.Empire.titleName}Fylkirate" maleRank="{=immersive.Nord.Empire.maleRank}Fylkir" femaleRank="{=immersive.Nord.Empire.femaleRank}Fylkja" heirRank="{=immersive.Nord.Empire.heirRank}Konungserfingi" femaleHeirRank="{=immersive.Nord.Empire.femaleHeirRank}Konungserfingja" childRank="{=immersive.Nord.Empire.childRank}Konungsson" femaleChildRank="{=immersive.Nord.Empire.femaleChildRank}Konungsdóttir" nobleRank="{=immersive.Nord.Empire.nobleRank}Herra" femaleNobleRank="{=immersive.Nord.Empire.femaleNobleRank}Frú" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Kingdom" titleName="{=immersive.Nord.Kingdom.titleName}Konungsríki" maleRank="{=immersive.Nord.Kingdom.maleRank}Konungr" femaleRank="{=immersive.Nord.Kingdom.femaleRank}Dróttning" heirRank="{=immersive.Nord.Kingdom.heirRank}Konungserfingi" femaleHeirRank="{=immersive.Nord.Kingdom.femaleHeirRank}Konungserfingja" childRank="{=immersive.Nord.Kingdom.childRank}Konungsson" femaleChildRank="{=immersive.Nord.Kingdom.femaleChildRank}Konungsdóttir" nobleRank="{=immersive.Nord.Kingdom.nobleRank}Herra" femaleNobleRank="{=immersive.Nord.Kingdom.femaleNobleRank}Frú" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Duchy" titleName="{=immersive.Nord.Duchy.titleName}Hertugadæmi" maleRank="{=immersive.Nord.Duchy.maleRank}Hertogi" femaleRank="{=immersive.Nord.Duchy.femaleRank}Hertogynja" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="County" titleName="{=immersive.Nord.County.titleName}Jarlsdæmi" maleRank="{=immersive.Nord.County.maleRank}Jarl" femaleRank="{=immersive.Nord.County.femaleRank}Jarlkona" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+    <Rank tier="Barony" titleName="{=immersive.Nord.Barony.titleName}Hersirsdæmi" maleRank="{=immersive.Nord.Barony.maleRank}Hersir" femaleRank="{=immersive.Nord.Barony.femaleRank}Hersirkona" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" />
+  </TitleStyle>
+  <!-- Court terminology uses the same culture/kingdom/rulerCulture selectors as ranks.-->
+  <!--<TitleStyle culture="Empire">
+    <CourtFactions
+      nobility="Nobility"
+      glory="Glory"
+      liberty="Liberty" />
+    <CouncilOffices
+      name="Privy Council"
+      marshal="Marshal"
+      chancellor="Chancellor"
+      seneschal="Seneschal"
+      spymaster="Spymaster"
+      firstAdvisor="First Advisor"
+      secondAdvisor="Second Advisor" />
+  </TitleStyle>-->
+</BellumFeudalTitles>

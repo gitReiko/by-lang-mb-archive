@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BellumFeudalTitles presetId="by_bannerkings" presetName="BannerKings (BY)" presetOrder="30">
+  <!-- Presentation-only title roots. These never alter holders, ownership, or hierarchy. -->
+  <!-- Optional Rank heroNameFormat tokens are {DISPLAY_TITLE}, {HERO_NAME}, and {HELD_TITLE}.
+       Examples: heroNameFormat="{DISPLAY_TITLE} &#xB7; {HERO_NAME}"
+       or heroNameFormat="{HERO_NAME}, {HELD_TITLE}". -->
+  <TitleName id="bc_title_kingdom_vlandia" name="{=bannerkings.bc_title_kingdom_vlandia.name}Wilundinga" />
+  <TitleName id="duchy_ebor" name="{=bannerkings.duchy_ebor.name}Eboraci" />
+  <TitleName id="duchy_svadia" name="{=bannerkings.duchy_svadia.name}Svadiae" />
+  <TitleName id="duchy_walhdok" name="{=bannerkings.duchy_walhdok.name}Walhdochi" />
+  <TitleName id="county_neurval" name="{=bannerkings.county_neurval.name}Neurvalliae" />
+  <TitleName id="county_epiris" name="{=bannerkings.county_epiris.name}Epiridis" />
+  <TitleName id="county_biscan" name="{=bannerkings.county_biscan.name}Biscaniae" />
+  <TitleName id="county_trand" name="{=bannerkings.county_trand.name}Trandiae" />
+  <TitleName id="county_ocspool" name="{=bannerkings.county_ocspool.name}Ocspoolii" />
+  <TitleName id="county_n_rhennod" name="{=bannerkings.county_n_rhennod.name}Rhennodi Septentrionalis" />
+  <TitleName id="county_morcomb" name="{=bannerkings.county_morcomb.name}Morcombae" />
+  <TitleName id="bc_title_kingdom_battania" name="{=bannerkings.bc_title_kingdom_battania.name}Battaniaid" />
+  <TitleName id="duchy_uchalion" name="{=bannerkings.duchy_uchalion.name}Uchalion" />
+  <TitleName id="duchy_llyntywal" name="{=bannerkings.duchy_llyntywal.name}Llyn Tywal" />
+  <TitleName id="county_glanys" name="{=bannerkings.county_glanys.name}Glanys" />
+  <TitleName id="county_rhennod" name="{=bannerkings.county_rhennod.name}Rhennod" />
+  <TitleName id="county_ailtadruin" name="{=bannerkings.county_ailtadruin.name}Ailta Druin" />
+  <TitleName id="county_cafalcombe" name="{=bannerkings.county_cafalcombe.name}Cafalcombe" />
+  <TitleName id="county_fiur" name="{=bannerkings.county_fiur.name}Fiur" />
+  <TitleName id="bc_title_kingdom_sturgia" name="{=bannerkings.bc_title_kingdom_sturgia.name}Sturgiskyy" />
+  <TitleName id="duchy_zapadu" name="{=bannerkings.duchy_zapadu.name}Zapada" />
+  <TitleName id="duchy_vostoku" name="{=bannerkings.duchy_vostoku.name}Vostoka" />
+  <TitleName id="county_mazopor" name="{=bannerkings.county_mazopor.name}Mazopora" />
+  <TitleName id="county_kachyar" name="{=bannerkings.county_kachyar.name}Kachyara" />
+  <TitleName id="county_icara" name="{=bannerkings.county_icara.name}Icary" />
+  <TitleName id="county_minador" name="{=bannerkings.county_minador.name}Minadora" />
+  <TitleName id="county_chertyg" name="{=bannerkings.county_chertyg.name}Chertyga" />
+  <TitleName id="county_iltan" name="{=bannerkings.county_iltan.name}Iltana" />
+  <TitleName id="bc_title_kingdom_nord" name="{=bannerkings.bc_title_kingdom_nord.name}Nordmanna" />
+  <TitleName id="duchy_nordvyg" name="{=bannerkings.duchy_nordvyg.name}Norðvegs" />
+  <TitleName id="duchy_jumne" name="{=bannerkings.duchy_jumne.name}Jumnis" />
+  <TitleName id="county_beinland" name="{=bannerkings.county_beinland.name}Beinlands" />
+  <TitleName id="county_vestroenn" name="{=bannerkings.county_vestroenn.name}Vestræna" />
+  <TitleName id="county_kjolfjallen" name="{=bannerkings.county_kjolfjallen.name}Kjólfjalla" />
+  <TitleName id="county_kjolfjallen" name="{=bannerkings.county_kjolfjallen.name}Kjólfjalla" />
+  <TitleName id="county_byal" name="{=bannerkings.county_byal.name}Byals" />
+  <TitleName id="county_iltanhindrun" name="{=bannerkings.county_iltanhindrun.name}Iltanhindranar" />
+  <TitleName id="bc_title_kingdom_aserai" name="{=bannerkings.bc_title_kingdom_aserai.name}al-Aserai" />
+  <TitleName id="duchy_jarjara" name="{=bannerkings.duchy_jarjara.name}Jarjara" />
+  <TitleName id="duchy_nahasa" name="{=bannerkings.duchy_nahasa.name}al-Nahasa" />
+  <TitleName id="duchy_alkinaniyya" name="{=bannerkings.duchy_alkinaniyya.name}Al-Kinaniyya" />
+  <TitleName id="county_jabaltamar" name="{=bannerkings.county_jabaltamar.name}Jabal Tamar" />
+  <TitleName id="county_bahralyeshm" name="{=bannerkings.county_bahralyeshm.name}Bahr al Yeshm" />
+  <TitleName id="county_damar" name="{=bannerkings.county_damar.name}Damar" />
+  <TitleName id="county_alyachiyya" name="{=bannerkings.county_alyachiyya.name}Al-Yachiyya" />
+  <TitleName id="county_aleshoriyya" name="{=bannerkings.county_aleshoriyya.name}Al-Eshoriyya" />
+  <TitleName id="county_jabalashab" name="{=bannerkings.county_jabalashab.name}Jabal Ashab" />
+  <TitleName id="county_nahralkals" name="{=bannerkings.county_nahralkals.name}Nahr Al-Kals" />
+  <TitleName id="bc_title_kingdom_khuzait" name="{=bannerkings.bc_title_kingdom_khuzait.name}Quzayt" />
+  <TitleName id="duchy_tarantanya" name="{=bannerkings.duchy_tarantanya.name}Tarantanya" />
+  <TitleName id="duchy_devseg" name="{=bannerkings.duchy_devseg.name}Devseg" />
+  <TitleName id="county_akkan" name="{=bannerkings.county_akkan.name}Akkan" />
+  <TitleName id="county_zakhan" name="{=bannerkings.county_zakhan.name}Zakhan" />
+  <TitleName id="county_karakaz" name="{=bannerkings.county_karakaz.name}Karakas" />
+  <TitleName id="county_barsdag" name="{=bannerkings.county_barsdag.name}Bars Dag" />
+  <TitleName id="county_sulundag" name="{=bannerkings.county_sulundag.name}Sulun Dag" />
+  <TitleName id="county_kohirohini" name="{=bannerkings.county_kohirohini.name}Kohi Rohini" />
+  <TitleName id="empire_calradia" name="{=bannerkings.empire_calradia.name}Calradium" />
+  <TitleName id="bc_title_kingdom_empire_n" name="{=bannerkings.bc_title_kingdom_empire_n.name}Voreioi Calradoi" />
+  <TitleName id="duchy_dryatica" name="{=bannerkings.duchy_dryatica.name}Dryatikon" />
+  <TitleName id="duchy_laconia" name="{=bannerkings.duchy_laconia.name}Lakonon" />
+  <TitleName id="county_galchas" name="{=bannerkings.county_galchas.name}Galchadon" />
+  <TitleName id="county_diatagmatia" name="{=bannerkings.county_diatagmatia.name}Diatagmatikon" />
+  <TitleName id="county_ophthys" name="{=bannerkings.county_ophthys.name}Ophthyon" />
+  <TitleName id="county_nevis" name="{=bannerkings.county_nevis.name}Nevidon" />
+  <TitleName id="county_myzead" name="{=bannerkings.county_myzead.name}Myzeadon" />
+  <TitleName id="county_portatia" name="{=bannerkings.county_portatia.name}Portatikon" />
+  <TitleName id="bc_title_kingdom_empire_s" name="{=bannerkings.bc_title_kingdom_empire_s.name}Notioi Calradoi" />
+  <TitleName id="duchy_lycarea" name="{=bannerkings.duchy_lycarea.name}Lykareon" />
+  <TitleName id="duchy_tanaesia" name="{=bannerkings.duchy_tanaesia.name}Tanaesion" />
+  <TitleName id="duchy_tripotamia" name="{=bannerkings.duchy_tripotamia.name}Tripotamion" />
+  <TitleName id="county_ornia" name="{=bannerkings.county_ornia.name}Ornion" />
+  <TitleName id="county_sethys" name="{=bannerkings.county_sethys.name}Sethyon" />
+  <TitleName id="county_sarpene" name="{=bannerkings.county_sarpene.name}Sarpenon" />
+  <TitleName id="county_sericea" name="{=bannerkings.county_sericea.name}Serikon" />
+  <TitleName id="county_gorea" name="{=bannerkings.county_gorea.name}Goreon" />
+  <TitleName id="county_calsa" name="{=bannerkings.county_calsa.name}Kalson" />
+  <TitleName id="bc_title_kingdom_empire_w" name="{=bannerkings.bc_title_kingdom_empire_w.name}Dytikoi Calradoi" />
+  <TitleName id="duchy_ilatarea" name="{=bannerkings.duchy_ilatarea.name}Ilatareon" />
+  <TitleName id="duchy_aminys" name="{=bannerkings.duchy_aminys.name}Aminyon" />
+  <TitleName id="duchy_erithrys" name="{=bannerkings.duchy_erithrys.name}Erithron" />
+  <TitleName id="county_temea" name="{=bannerkings.county_temea.name}Temeon" />
+  <TitleName id="county_aris" name="{=bannerkings.county_aris.name}Aridon" />
+  <TitleName id="county_mesogea" name="{=bannerkings.county_mesogea.name}Mesogeion" />
+  <TitleName id="county_gavys" name="{=bannerkings.county_gavys.name}Gavyon" />
+  <TitleName id="county_sarapia" name="{=bannerkings.county_sarapia.name}Sarapion" />
+  <TitleName id="county_zeos" name="{=bannerkings.county_zeos.name}Zeon" />
+  <!-- Cultural and kingdom-specific rank terminology. change culture to rulerCulture if you want the ruler to determine the full terminology of the realm-->
+  <TitleStyle culture="Empire">
+    <Rank tier="Empire" titleName="{=bannerkings.Empire.Empire.titleName}Imperium" maleRank="{=bannerkings.Empire.Empire.maleRank}Imperator" femaleRank="{=bannerkings.Empire.Empire.femaleRank}Imperatrix" heirRank="{=bannerkings.Empire.Empire.heirRank}Princeps" femaleHeirRank="{=bannerkings.Empire.Empire.femaleHeirRank}Principissa" childRank="{=bannerkings.Empire.Empire.childRank}Princeps" femaleChildRank="{=bannerkings.Empire.Empire.femaleChildRank}Principissa" nobleRank="{=bannerkings.Empire.Empire.nobleRank}Dominus" femaleNobleRank="{=bannerkings.Empire.Empire.femaleNobleRank}Domina" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Empire.Kingdom.titleName}Regnum" maleRank="{=bannerkings.Empire.Kingdom.maleRank}Rex" femaleRank="{=bannerkings.Empire.Kingdom.femaleRank}Regina" heirRank="{=bannerkings.Empire.Kingdom.heirRank}Princeps" femaleHeirRank="{=bannerkings.Empire.Kingdom.femaleHeirRank}Principissa" childRank="{=bannerkings.Empire.Kingdom.childRank}Princeps" femaleChildRank="{=bannerkings.Empire.Kingdom.femaleChildRank}Principissa" nobleRank="{=bannerkings.Empire.Kingdom.nobleRank}Dominus" femaleNobleRank="{=bannerkings.Empire.Kingdom.femaleNobleRank}Domina" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Empire.Duchy.titleName}Ducatum" maleRank="{=bannerkings.Empire.Duchy.maleRank}Dux" femaleRank="{=bannerkings.Empire.Duchy.femaleRank}Ducissa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Empire.County.titleName}Comitatus" maleRank="{=bannerkings.Empire.County.maleRank}Comes" femaleRank="{=bannerkings.Empire.County.femaleRank}Cometessa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Empire.Barony.titleName}Baronatum" maleRank="{=bannerkings.Empire.Barony.maleRank}Baro" femaleRank="{=bannerkings.Empire.Barony.femaleRank}Baronessa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle kingdom="empire_s">
+    <Rank tier="Kingdom" titleName="{=bannerkings.empire_s.Kingdom.titleName}Basileía" maleRank="{=bannerkings.empire_s.Kingdom.maleRank}Basileús" femaleRank="{=bannerkings.empire_s.Kingdom.femaleRank}Basíleia" heirRank="{=bannerkings.empire_s.Kingdom.heirRank}Prinkips" femaleHeirRank="{=bannerkings.empire_s.Kingdom.femaleHeirRank}Prinkipissa" childRank="{=bannerkings.empire_s.Kingdom.childRank}Prinkips" femaleChildRank="{=bannerkings.empire_s.Kingdom.femaleChildRank}Prinkipissa" nobleRank="{=bannerkings.empire_s.Kingdom.nobleRank}Coryárkhos" femaleNobleRank="{=bannerkings.empire_s.Kingdom.femaleNobleRank}Coryárkhousa" titleFormat="{TITLE_NOUN} ton {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} ton {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle kingdom="empire_w">
+    <Rank tier="Kingdom" titleName="{=bannerkings.empire_w.Kingdom.titleName}Diktatoría" maleRank="{=bannerkings.empire_w.Kingdom.maleRank}Autokrátor" femaleRank="{=bannerkings.empire_w.Kingdom.femaleRank}Autokratórissa" heirRank="{=bannerkings.empire_w.Kingdom.heirRank}Prinkips" femaleHeirRank="{=bannerkings.empire_w.Kingdom.femaleHeirRank}Prinkipissa" childRank="{=bannerkings.empire_w.Kingdom.childRank}Prinkips" femaleChildRank="{=bannerkings.empire_w.Kingdom.femaleChildRank}Prinkipissa" nobleRank="{=bannerkings.empire_w.Kingdom.nobleRank}Coryárkhos" femaleNobleRank="{=bannerkings.empire_w.Kingdom.femaleNobleRank}Coryárkhousa" titleFormat="{TITLE_NOUN} ton {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} ton {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle kingdom="empire">
+    <Rank tier="Kingdom" titleName="{=bannerkings.empire.Kingdom.titleName}Politeia" maleRank="{=bannerkings.empire.Kingdom.maleRank}Hypatos" femaleRank="{=bannerkings.empire.Kingdom.femaleRank}Hypatissa" heirRank="{=bannerkings.empire.Kingdom.heirRank}Prinkips" femaleHeirRank="{=bannerkings.empire.Kingdom.femaleHeirRank}Prinkipissa" childRank="{=bannerkings.empire.Kingdom.childRank}Prinkips" femaleChildRank="{=bannerkings.empire.Kingdom.femaleChildRank}Prinkipissa" nobleRank="{=bannerkings.empire.Kingdom.nobleRank}Coryárkhos" femaleNobleRank="{=bannerkings.empire.Kingdom.femaleNobleRank}Coryárkhousa" titleFormat="{TITLE_NOUN} ton {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} ton {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle culture="Vlandia">
+    <Rank tier="Empire" titleName="{=bannerkings.Vlandia.Empire.titleName}Empires" maleRank="{=bannerkings.Vlandia.Empire.maleRank}Emperere" femaleRank="{=bannerkings.Vlandia.Empire.femaleRank}Emperesse" heirRank="{=bannerkings.Vlandia.Empire.heirRank}Edelings" femaleHeirRank="{=bannerkings.Vlandia.Empire.femaleHeirRank}Edelesse" childRank="{=bannerkings.Vlandia.Empire.childRank}Edelings" femaleChildRank="{=bannerkings.Vlandia.Empire.femaleChildRank}Edelesse" nobleRank="{=bannerkings.Vlandia.Empire.nobleRank}Sire" femaleNobleRank="{=bannerkings.Vlandia.Empire.femaleNobleRank}Siresse" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Vlandia.Kingdom.titleName}Ríce" maleRank="{=bannerkings.Vlandia.Kingdom.maleRank}Reis" femaleRank="{=bannerkings.Vlandia.Kingdom.femaleRank}Reigne" heirRank="{=bannerkings.Vlandia.Kingdom.heirRank}Edelings" femaleHeirRank="{=bannerkings.Vlandia.Kingdom.femaleHeirRank}Edelesse" childRank="{=bannerkings.Vlandia.Kingdom.childRank}Edelings" femaleChildRank="{=bannerkings.Vlandia.Kingdom.femaleChildRank}Edelesse" nobleRank="{=bannerkings.Vlandia.Kingdom.nobleRank}Sire" femaleNobleRank="{=bannerkings.Vlandia.Kingdom.femaleNobleRank}Siresse" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Vlandia.Duchy.titleName}Principaliz" maleRank="{=bannerkings.Vlandia.Duchy.maleRank}Princes" femaleRank="{=bannerkings.Vlandia.Duchy.femaleRank}Princesse" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Vlandia.County.titleName}Cuntez" maleRank="{=bannerkings.Vlandia.County.maleRank}Cuens" femaleRank="{=bannerkings.Vlandia.County.femaleRank}Contesse" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Vlandia.Barony.titleName}Baronie" maleRank="{=bannerkings.Vlandia.Barony.maleRank}Bers" femaleRank="{=bannerkings.Vlandia.Barony.femaleRank}Beresse" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle culture="Battania">
+    <Rank tier="Empire" titleName="{=bannerkings.Battania.Empire.titleName}Pendreiciaeth" maleRank="{=bannerkings.Battania.Empire.maleRank}Pendreic" femaleRank="{=bannerkings.Battania.Empire.femaleRank}Pendreices" heirRank="{=bannerkings.Battania.Empire.heirRank}Pendewic" femaleHeirRank="{=bannerkings.Battania.Empire.femaleHeirRank}Pendewices" childRank="{=bannerkings.Battania.Empire.childRank}Pendewic" femaleChildRank="{=bannerkings.Battania.Empire.femaleChildRank}Pendewices" nobleRank="{=bannerkings.Battania.Empire.nobleRank}Arglwyt" femaleNobleRank="{=bannerkings.Battania.Empire.femaleNobleRank}Arglwytes" titleFormat="{TITLE_NOUN} y {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Battania.Kingdom.titleName}Uchelbrenhinaeth" maleRank="{=bannerkings.Battania.Kingdom.maleRank}Uchelbrenhin" femaleRank="{=bannerkings.Battania.Kingdom.femaleRank}Uchelbrenhines" heirRank="{=bannerkings.Battania.Kingdom.heirRank}Pendewic" femaleHeirRank="{=bannerkings.Battania.Kingdom.femaleHeirRank}Pendewices" childRank="{=bannerkings.Battania.Kingdom.childRank}Pendewic" femaleChildRank="{=bannerkings.Battania.Kingdom.femaleChildRank}Pendewices" nobleRank="{=bannerkings.Battania.Kingdom.nobleRank}Arglwyt" femaleNobleRank="{=bannerkings.Battania.Kingdom.femaleNobleRank}Arglwytes" titleFormat="{TITLE_NOUN} y {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Battania.Duchy.titleName}Brenhinaeth" maleRank="{=bannerkings.Battania.Duchy.maleRank}Brenhin" femaleRank="{=bannerkings.Battania.Duchy.femaleRank}Brenhines" titleFormat="{TITLE_NOUN} y {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Battania.County.titleName}Tywysauciaeth" maleRank="{=bannerkings.Battania.County.maleRank}Tywysauc" femaleRank="{=bannerkings.Battania.County.femaleRank}Tywysoces" titleFormat="{TITLE_NOUN} y {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Battania.Barony.titleName}Teyrnas" maleRank="{=bannerkings.Battania.Barony.maleRank}Teyrn" femaleRank="{=bannerkings.Battania.Barony.femaleRank}Teyrnes" titleFormat="{TITLE_NOUN} y {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle culture="Khuzait">
+    <Rank tier="Empire" titleName="{=bannerkings.Khuzait.Empire.titleName}Ulus" maleRank="{=bannerkings.Khuzait.Empire.maleRank}Erxem Khagan" femaleRank="{=bannerkings.Khuzait.Empire.femaleRank}Erxem Khatun" heirRank="{=bannerkings.Khuzait.Empire.heirRank}Khan Khuu" femaleHeirRank="{=bannerkings.Khuzait.Empire.femaleHeirRank}Gonji" childRank="{=bannerkings.Khuzait.Empire.childRank}Khan Khuu" femaleChildRank="{=bannerkings.Khuzait.Empire.femaleChildRank}Gonji" nobleRank="{=bannerkings.Khuzait.Empire.nobleRank}Erxem" femaleNobleRank="{=bannerkings.Khuzait.Empire.femaleNobleRank}Khatagtai" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Khuzait.Kingdom.titleName}Khaganlik" maleRank="{=bannerkings.Khuzait.Kingdom.maleRank}Khagan" femaleRank="{=bannerkings.Khuzait.Kingdom.femaleRank}Khatun" heirRank="{=bannerkings.Khuzait.Kingdom.heirRank}Khan Khuu" femaleHeirRank="{=bannerkings.Khuzait.Kingdom.femaleHeirRank}Gonji" childRank="{=bannerkings.Khuzait.Kingdom.childRank}Khan Khuu" femaleChildRank="{=bannerkings.Khuzait.Kingdom.femaleChildRank}Gonji" nobleRank="{=bannerkings.Khuzait.Kingdom.nobleRank}Erxem" femaleNobleRank="{=bannerkings.Khuzait.Kingdom.femaleNobleRank}Khatagtai" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Khuzait.Duchy.titleName}Khanlik" maleRank="{=bannerkings.Khuzait.Duchy.maleRank}Khan" femaleRank="{=bannerkings.Khuzait.Duchy.femaleRank}Khanum" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Khuzait.County.titleName}Atabeglik" maleRank="{=bannerkings.Khuzait.County.maleRank}Atabeg" femaleRank="{=bannerkings.Khuzait.County.femaleRank}Atabegum" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Khuzait.Barony.titleName}Beglik" maleRank="{=bannerkings.Khuzait.Barony.maleRank}Beg" femaleRank="{=bannerkings.Khuzait.Barony.femaleRank}Begum" titleFormat="{TITLE_NAME} {TITLE_NOUN}" heldTitleFormat="{TITLE_NAME} {TITLE_RANK}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle culture="Aserai">
+    <Rank tier="Empire" titleName="{=bannerkings.Aserai.Empire.titleName}Khilaafa" maleRank="{=bannerkings.Aserai.Empire.maleRank}Khalifa" femaleRank="{=bannerkings.Aserai.Empire.femaleRank}Khalifa" heirRank="{=bannerkings.Aserai.Empire.heirRank}Amiir" femaleHeirRank="{=bannerkings.Aserai.Empire.femaleHeirRank}Amiira" childRank="{=bannerkings.Aserai.Empire.childRank}Amiir" femaleChildRank="{=bannerkings.Aserai.Empire.femaleChildRank}Amiira" nobleRank="{=bannerkings.Aserai.Empire.nobleRank}Mawlaa" femaleNobleRank="{=bannerkings.Aserai.Empire.femaleNobleRank}Beghum" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Aserai.Kingdom.titleName}Saltana" maleRank="{=bannerkings.Aserai.Kingdom.maleRank}Sultan" femaleRank="{=bannerkings.Aserai.Kingdom.femaleRank}Sultana" heirRank="{=bannerkings.Aserai.Kingdom.heirRank}Amiir" femaleHeirRank="{=bannerkings.Aserai.Kingdom.femaleHeirRank}Amiira" childRank="{=bannerkings.Aserai.Kingdom.childRank}Amiir" femaleChildRank="{=bannerkings.Aserai.Kingdom.femaleChildRank}Amiira" nobleRank="{=bannerkings.Aserai.Kingdom.nobleRank}Mawlaa" femaleNobleRank="{=bannerkings.Aserai.Kingdom.femaleNobleRank}Beghum" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Aserai.Duchy.titleName}Imaara" maleRank="{=bannerkings.Aserai.Duchy.maleRank}Amiir" femaleRank="{=bannerkings.Aserai.Duchy.femaleRank}Amiira" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Aserai.County.titleName}Mashyaka" maleRank="{=bannerkings.Aserai.County.maleRank}Shayk" femaleRank="{=bannerkings.Aserai.County.femaleRank}Shaykah" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Aserai.Barony.titleName}Walya" maleRank="{=bannerkings.Aserai.Barony.maleRank}Wali" femaleRank="{=bannerkings.Aserai.Barony.femaleRank}Walia" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle culture="Sturgia">
+    <Rank tier="Empire" titleName="{=bannerkings.Sturgia.Empire.titleName}Korolévstvo" maleRank="{=bannerkings.Sturgia.Empire.maleRank}Koról" femaleRank="{=bannerkings.Sturgia.Empire.femaleRank}Koroléva" heirRank="{=bannerkings.Sturgia.Empire.heirRank}Knjaz" femaleHeirRank="{=bannerkings.Sturgia.Empire.femaleHeirRank}Knjahýnja" childRank="{=bannerkings.Sturgia.Empire.childRank}Knjaz" femaleChildRank="{=bannerkings.Sturgia.Empire.femaleChildRank}Knjahýnja" nobleRank="{=bannerkings.Sturgia.Empire.nobleRank}Gospodin" femaleNobleRank="{=bannerkings.Sturgia.Empire.femaleNobleRank}Gospodja" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Sturgia.Kingdom.titleName}Velykyy Knjazývstvo" maleRank="{=bannerkings.Sturgia.Kingdom.maleRank}Velykyy Knjaz" femaleRank="{=bannerkings.Sturgia.Kingdom.femaleRank}Velykyy Knjahýnja" heirRank="{=bannerkings.Sturgia.Kingdom.heirRank}Knjaz" femaleHeirRank="{=bannerkings.Sturgia.Kingdom.femaleHeirRank}Knjahýnja" childRank="{=bannerkings.Sturgia.Kingdom.childRank}Knjaz" femaleChildRank="{=bannerkings.Sturgia.Kingdom.femaleChildRank}Knjahýnja" nobleRank="{=bannerkings.Sturgia.Kingdom.nobleRank}Gospodin" femaleNobleRank="{=bannerkings.Sturgia.Kingdom.femaleNobleRank}Gospodja" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Sturgia.Duchy.titleName}Knjazývstvo" maleRank="{=bannerkings.Sturgia.Duchy.maleRank}Knjaz" femaleRank="{=bannerkings.Sturgia.Duchy.femaleRank}Knjahýnja" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Sturgia.County.titleName}Bojárstvo" maleRank="{=bannerkings.Sturgia.County.maleRank}Bojárin" femaleRank="{=bannerkings.Sturgia.County.femaleRank}Bojarýnja" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Sturgia.Barony.titleName}Vojevódastvo" maleRank="{=bannerkings.Sturgia.Barony.maleRank}Vojevóda" femaleRank="{=bannerkings.Sturgia.Barony.femaleRank}Vojevodýnja" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle culture="Nord">
+    <Rank tier="Empire" titleName="{=bannerkings.Nord.Empire.titleName}Storkungendómr" maleRank="{=bannerkings.Nord.Empire.maleRank}Storkungen" femaleRank="{=bannerkings.Nord.Empire.femaleRank}Riksdrottning" heirRank="{=bannerkings.Nord.Empire.heirRank}Fursteson" femaleHeirRank="{=bannerkings.Nord.Empire.femaleHeirRank}Furstedatter" childRank="{=bannerkings.Nord.Empire.childRank}Fursteson" femaleChildRank="{=bannerkings.Nord.Empire.femaleChildRank}Furstedatter" nobleRank="{=bannerkings.Nord.Empire.nobleRank}Hoevding" femaleNobleRank="{=bannerkings.Nord.Empire.femaleNobleRank}Hoevdinga" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Nord.Kingdom.titleName}Konungdómr" maleRank="{=bannerkings.Nord.Kingdom.maleRank}Konungr" femaleRank="{=bannerkings.Nord.Kingdom.femaleRank}Drottning" heirRank="{=bannerkings.Nord.Kingdom.heirRank}Fursteson" femaleHeirRank="{=bannerkings.Nord.Kingdom.femaleHeirRank}Furstedatter" childRank="{=bannerkings.Nord.Kingdom.childRank}Fursteson" femaleChildRank="{=bannerkings.Nord.Kingdom.femaleChildRank}Furstedatter" nobleRank="{=bannerkings.Nord.Kingdom.nobleRank}Hoevding" femaleNobleRank="{=bannerkings.Nord.Kingdom.femaleNobleRank}Hoevdinga" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Nord.Duchy.titleName}Jarldómr" maleRank="{=bannerkings.Nord.Duchy.maleRank}Jarl" femaleRank="{=bannerkings.Nord.Duchy.femaleRank}Haerskarinna" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Nord.County.titleName}Thegndómr" maleRank="{=bannerkings.Nord.County.maleRank}Thegn" femaleRank="{=bannerkings.Nord.County.femaleRank}Thegna" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Nord.Barony.titleName}Othlingdómr" maleRank="{=bannerkings.Nord.Barony.maleRank}Othlingr" femaleRank="{=bannerkings.Nord.Barony.femaleRank}Drott" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+   <!-- Mod supported cultures. -->
+  <TitleStyle culture="Rhodok">
+    <Rank tier="Empire" titleName="{=bannerkings.Rhodok.Empire.titleName}Vronenentriich" maleRank="{=bannerkings.Rhodok.Empire.maleRank}Vronenent" femaleRank="{=bannerkings.Rhodok.Empire.femaleRank}Vronenentin" heirRank="{=bannerkings.Rhodok.Empire.heirRank}Edelinc" femaleHeirRank="{=bannerkings.Rhodok.Empire.femaleHeirRank}Edelfrou" childRank="{=bannerkings.Rhodok.Empire.childRank}Edelinc" femaleChildRank="{=bannerkings.Rhodok.Empire.femaleChildRank}Edelfrou" nobleRank="{=bannerkings.Rhodok.Empire.nobleRank}Lhandsherre" femaleNobleRank="{=bannerkings.Rhodok.Empire.femaleNobleRank}Lhandsfrou" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Rhodok.Kingdom.titleName}Hougekunicriich" maleRank="{=bannerkings.Rhodok.Kingdom.maleRank}Hougekunic" femaleRank="{=bannerkings.Rhodok.Kingdom.femaleRank}Hougekunigin" heirRank="{=bannerkings.Rhodok.Kingdom.heirRank}Edelinc" femaleHeirRank="{=bannerkings.Rhodok.Kingdom.femaleHeirRank}Edelfrou" childRank="{=bannerkings.Rhodok.Kingdom.childRank}Edelinc" femaleChildRank="{=bannerkings.Rhodok.Kingdom.femaleChildRank}Edelfrou" nobleRank="{=bannerkings.Rhodok.Kingdom.nobleRank}Lhandsherre" femaleNobleRank="{=bannerkings.Rhodok.Kingdom.femaleNobleRank}Lhandsfrou" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Rhodok.Duchy.titleName}Kunicriich" maleRank="{=bannerkings.Rhodok.Duchy.maleRank}Kunic" femaleRank="{=bannerkings.Rhodok.Duchy.femaleRank}Kunigin" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Rhodok.County.titleName}Graveschaft" maleRank="{=bannerkings.Rhodok.County.maleRank}Grave" femaleRank="{=bannerkings.Rhodok.County.femaleRank}Gravin" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Rhodok.Barony.titleName}Vriherreschaft" maleRank="{=bannerkings.Rhodok.Barony.maleRank}Vriherre" femaleRank="{=bannerkings.Rhodok.Barony.femaleRank}Vrifrou" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle culture="Empire_n">
+    <Rank tier="Empire" titleName="{=bannerkings.Empire_n.Empire.titleName}Imperium" maleRank="{=bannerkings.Empire_n.Empire.maleRank}Imperator" femaleRank="{=bannerkings.Empire_n.Empire.femaleRank}Imperatrix" heirRank="{=bannerkings.Empire_n.Empire.heirRank}Princeps" femaleHeirRank="{=bannerkings.Empire_n.Empire.femaleHeirRank}Principissa" childRank="{=bannerkings.Empire_n.Empire.childRank}Princeps" femaleChildRank="{=bannerkings.Empire_n.Empire.femaleChildRank}Principissa" nobleRank="{=bannerkings.Empire_n.Empire.nobleRank}Dominus" femaleNobleRank="{=bannerkings.Empire_n.Empire.femaleNobleRank}Domina" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Empire_n.Kingdom.titleName}Regnum" maleRank="{=bannerkings.Empire_n.Kingdom.maleRank}Rex" femaleRank="{=bannerkings.Empire_n.Kingdom.femaleRank}Regina" heirRank="{=bannerkings.Empire_n.Kingdom.heirRank}Princeps" femaleHeirRank="{=bannerkings.Empire_n.Kingdom.femaleHeirRank}Principissa" childRank="{=bannerkings.Empire_n.Kingdom.childRank}Princeps" femaleChildRank="{=bannerkings.Empire_n.Kingdom.femaleChildRank}Principissa" nobleRank="{=bannerkings.Empire_n.Kingdom.nobleRank}Dominus" femaleNobleRank="{=bannerkings.Empire_n.Kingdom.femaleNobleRank}Domina" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Empire_n.Duchy.titleName}Ducatum" maleRank="{=bannerkings.Empire_n.Duchy.maleRank}Dux" femaleRank="{=bannerkings.Empire_n.Duchy.femaleRank}Ducissa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Empire_n.County.titleName}Comitatus" maleRank="{=bannerkings.Empire_n.County.maleRank}Comes" femaleRank="{=bannerkings.Empire_n.County.femaleRank}Cometessa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Empire_n.Barony.titleName}Baronatum" maleRank="{=bannerkings.Empire_n.Barony.maleRank}Baro" femaleRank="{=bannerkings.Empire_n.Barony.femaleRank}Baronessa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle culture="Empire_s">
+    <Rank tier="Empire" titleName="{=bannerkings.Empire_s.Empire.titleName}Imperium" maleRank="{=bannerkings.Empire_s.Empire.maleRank}Imperator" femaleRank="{=bannerkings.Empire_s.Empire.femaleRank}Imperatrix" heirRank="{=bannerkings.Empire_s.Empire.heirRank}Princeps" femaleHeirRank="{=bannerkings.Empire_s.Empire.femaleHeirRank}Principissa" childRank="{=bannerkings.Empire_s.Empire.childRank}Princeps" femaleChildRank="{=bannerkings.Empire_s.Empire.femaleChildRank}Principissa" nobleRank="{=bannerkings.Empire_s.Empire.nobleRank}Dominus" femaleNobleRank="{=bannerkings.Empire_s.Empire.femaleNobleRank}Domina" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Empire_s.Kingdom.titleName}Regnum" maleRank="{=bannerkings.Empire_s.Kingdom.maleRank}Rex" femaleRank="{=bannerkings.Empire_s.Kingdom.femaleRank}Regina" heirRank="{=bannerkings.Empire_s.Kingdom.heirRank}Princeps" femaleHeirRank="{=bannerkings.Empire_s.Kingdom.femaleHeirRank}Principissa" childRank="{=bannerkings.Empire_s.Kingdom.childRank}Princeps" femaleChildRank="{=bannerkings.Empire_s.Kingdom.femaleChildRank}Principissa" nobleRank="{=bannerkings.Empire_s.Kingdom.nobleRank}Dominus" femaleNobleRank="{=bannerkings.Empire_s.Kingdom.femaleNobleRank}Domina" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Empire_s.Duchy.titleName}Ducatum" maleRank="{=bannerkings.Empire_s.Duchy.maleRank}Dux" femaleRank="{=bannerkings.Empire_s.Duchy.femaleRank}Ducissa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Empire_s.County.titleName}Comitatus" maleRank="{=bannerkings.Empire_s.County.maleRank}Comes" femaleRank="{=bannerkings.Empire_s.County.femaleRank}Cometessa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Empire_s.Barony.titleName}Baronatum" maleRank="{=bannerkings.Empire_s.Barony.maleRank}Baro" femaleRank="{=bannerkings.Empire_s.Barony.femaleRank}Baronessa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>
+  <TitleStyle culture="Empire_w">
+    <Rank tier="Empire" titleName="{=bannerkings.Empire_w.Empire.titleName}Imperium" maleRank="{=bannerkings.Empire_w.Empire.maleRank}Imperator" femaleRank="{=bannerkings.Empire_w.Empire.femaleRank}Imperatrix" heirRank="{=bannerkings.Empire_w.Empire.heirRank}Princeps" femaleHeirRank="{=bannerkings.Empire_w.Empire.femaleHeirRank}Principissa" childRank="{=bannerkings.Empire_w.Empire.childRank}Princeps" femaleChildRank="{=bannerkings.Empire_w.Empire.femaleChildRank}Principissa" nobleRank="{=bannerkings.Empire_w.Empire.nobleRank}Dominus" femaleNobleRank="{=bannerkings.Empire_w.Empire.femaleNobleRank}Domina" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Kingdom" titleName="{=bannerkings.Empire_w.Kingdom.titleName}Regnum" maleRank="{=bannerkings.Empire_w.Kingdom.maleRank}Rex" femaleRank="{=bannerkings.Empire_w.Kingdom.femaleRank}Regina" heirRank="{=bannerkings.Empire_w.Kingdom.heirRank}Princeps" femaleHeirRank="{=bannerkings.Empire_w.Kingdom.femaleHeirRank}Principissa" childRank="{=bannerkings.Empire_w.Kingdom.childRank}Princeps" femaleChildRank="{=bannerkings.Empire_w.Kingdom.femaleChildRank}Principissa" nobleRank="{=bannerkings.Empire_w.Kingdom.nobleRank}Dominus" femaleNobleRank="{=bannerkings.Empire_w.Kingdom.femaleNobleRank}Domina" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Duchy" titleName="{=bannerkings.Empire_w.Duchy.titleName}Ducatum" maleRank="{=bannerkings.Empire_w.Duchy.maleRank}Dux" femaleRank="{=bannerkings.Empire_w.Duchy.femaleRank}Ducissa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="County" titleName="{=bannerkings.Empire_w.County.titleName}Comitatus" maleRank="{=bannerkings.Empire_w.County.maleRank}Comes" femaleRank="{=bannerkings.Empire_w.County.femaleRank}Cometessa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+    <Rank tier="Barony" titleName="{=bannerkings.Empire_w.Barony.titleName}Baronatum" maleRank="{=bannerkings.Empire_w.Barony.maleRank}Baro" femaleRank="{=bannerkings.Empire_w.Barony.femaleRank}Baronessa" titleFormat="{TITLE_NOUN} {TITLE_NAME}" heldTitleFormat="{DISPLAY_TITLE} {TITLE_NAME}" heroNameFormat="{HERO_NAME}, {HELD_TITLE}" />
+  </TitleStyle>  
+  <!-- Court terminology uses the same culture/kingdom/rulerCulture selectors as ranks. -->
+  <!--<TitleStyle culture="Empire">
+    <CourtFactions
+      nobility="Nobility"
+      glory="Glory"
+      liberty="Liberty" />
+    <CouncilOffices
+      name="Privy Council"
+      marshal="Marshal"
+      chancellor="Chancellor"
+      seneschal="Seneschal"
+      spymaster="Spymaster"
+      firstAdvisor="First Advisor"
+      secondAdvisor="Second Advisor" />
+  </TitleStyle>-->
+</BellumFeudalTitles>
