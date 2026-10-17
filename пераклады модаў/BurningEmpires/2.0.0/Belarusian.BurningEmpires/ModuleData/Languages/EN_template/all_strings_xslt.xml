@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <!--be_clans.xslt-->
+    <string id="clan_ere_1.name" text="Valentinian Dynasty" />
+    <string id="clan_ere_10.name" text="Thebei" />
+    <string id="clan_ere_11.name" text="Sexta Parthica" />
+    <string id="clan_ere_12.name" text="Transtigritani" />
+    <string id="clan_ere_13.name" text="Thraces" />
+    <string id="clan_ere_14.name" text="Lanciarii" />
+    <string id="clan_ere_15.name" text="Invicti" />
+    <string id="clan_ere_2.name" text="Herculiani" />
+    <string id="clan_ere_3.name" text="Ioviani" />
+    <string id="clan_ere_4.name" text="Victores" />
+    <string id="clan_ere_5.name" text="Fortenses" />
+    <string id="clan_ere_6.name" text="Defensores" />
+    <string id="clan_ere_7.name" text="Armeniaca" />
+    <string id="clan_ere_8.name" text="Daci" />
+    <string id="clan_ere_9.name" text="Falchovari" />
+    <string id="clan_wre_1.name" text="Valentinian Dynasty" />
+    <string id="clan_wre_10.name" text="Mattiaci" />
+    <string id="clan_wre_11.name" text="Pannoniciani" />
+    <string id="clan_wre_12.name" text="Antianenses" />
+    <string id="clan_wre_13.name" text="Romanenses" />
+    <string id="clan_wre_2.name" text="Ampsivarii" />
+    <string id="clan_wre_3.name" text="Salii" />
+    <string id="clan_wre_4.name" text="Primani" />
+    <string id="clan_wre_5.name" text="Secundani" />
+    <string id="clan_wre_6.name" text="Lauriacenses" />
+    <string id="clan_wre_7.name" text="Herculiani" />
+    <string id="clan_wre_8.name" text="Augustani" />
+    <string id="clan_wre_9.name" text="Tertiani" />
+    <!--be_elephant_items.xslt-->
+    <string id="be_elephant_armor_kushan_tier_1.name" text=" Elephant Harness" />
+    <string id="be_elephant_armor_kushan_tier_2.name" text=" Elephant Iron Armor" />
+    <string id="be_elephant_armor_sassanid_tier_1.name" text=" Elephant Harness" />
+    <string id="be_elephant_armor_sassanid_tier_2.name" text=" Elephant Bronze Armor" />
+    <string id="be_elephant_armor_tier_3.name" text=" Elephant Royal Armor" />
+    <string id="elephant.name" text="Elephant" />
+    <!--be_game_text.xslt-->
+    <string id="1MaECke2.text" text="Many people tell themselves that they only want power to do good, but still seek it for its own sake. The only way to know for sure that you do not lust after power is to give it up." />
+    <string id="6nIC6i2V.text" text="I have a friends in Pannonia who seek me out from time to time. I can have one of them take a message to your kinfolk. Perhaps you would like to name an heir?" />
+    <string id="BEArmorCraftingAbandon.text" text="Abandon" />
+    <string id="BEArmorCraftingAbandonBody.text" text="This destroys the unfinished item. Only floor(prepaid materials × remaining work / total work) is returned." />
+    <string id="BEArmorCraftingAbandonConfirm.text" text="Abandoning {ITEM} destroys its work in progress and refunds only materials proportional to the remaining work. Continue?" />
+    <string id="BEArmorCraftingAbandonTitle.text" text="Abandon {ITEM}?" />
+    <string id="BEArmorCraftingArmorTab.text" text="Armor" />
+    <string id="BEArmorCraftingAssignedHint.text" text="{HERO} is currently working on {ITEM}." />
+    <string id="BEArmorCraftingAssignedProjectHint.text" text="Assigned to armor project: {ITEM}" />
+    <string id="BEArmorCraftingBack.text" text="Back" />
+    <string id="BEArmorCraftingBody.text" text="Body Armor" />
+    <string id="BEArmorCraftingBodyArmor.text" text="Body Armor" />
+    <string id="BEArmorCraftingCamel.text" text="Camel Armor" />
+    <string id="BEArmorCraftingCamelArmor.text" text="Camel Armor" />
+    <string id="BEArmorCraftingCancel.text" text="Cancel" />
+    <string id="BEArmorCraftingChooseCategory.text" text="Choose Category" />
+    <string id="BEArmorCraftingChooseCraftspeopleBody.text" text="{PRIMARY} will craft {ITEM}. Select optional assistants, or leave all unchecked to forge with {PRIMARY} alone. Materials are consumed on confirmation. Work progresses only in Towns, from 09:00 to 20:00, while time advances." />
+    <string id="BEArmorCraftingChooseProject.text" text="Choose one project to continue, reassign or abandon." />
+    <string id="BEArmorCraftingConfirmTeam.text" text="Confirm team" />
+    <string id="BEArmorCraftingContinue.text" text="Continue" />
+    <string id="BEArmorCraftingElephant.text" text="Elephant Armor" />
+    <string id="BEArmorCraftingElephantArmor.text" text="Elephant Armor" />
+    <string id="BEArmorCraftingHand.text" text="Gloves &amp; Bracers" />
+    <string id="BEArmorCraftingHandArmor.text" text="Gloves &amp; Bracers" />
+    <string id="BEArmorCraftingHelmet.text" text="Helmets" />
+    <string id="BEArmorCraftingHeroLeft.text" text="{HERO} can no longer work on {ITEM} and has left that armor project." />
+    <string id="BEArmorCraftingHorse.text" text="Horse Armor" />
+    <string id="BEArmorCraftingHorseArmor.text" text="Horse Armor" />
+    <string id="BEArmorCraftingInterruptedBody.text" text="No replacement was selected. Work on {ITEM} has been interrupted; its materials, progress and work-in-progress item remain saved." />
+    <string id="BEArmorCraftingInterruptedTitle.text" text="Armor crafting interrupted" />
+    <string id="BEArmorCraftingInvestment.text" text="Material investment" />
+    <string id="BEArmorCraftingInvestmentDescription.text" text="Choose 100%-200%. More materials increase the chance of a better modifier; results are not guaranteed." />
+    <string id="BEArmorCraftingLeg.text" text="Boots &amp; Leg Armor" />
+    <string id="BEArmorCraftingLegArmor.text" text="Boots &amp; Leg Armor" />
+    <string id="BEArmorCraftingManage.text" text="Manage projects" />
+    <string id="BEArmorCraftingManageProjects.text" text="Manage projects" />
+    <string id="BEArmorCraftingMissingIcon.text" text="An optional Burning Empires crafting icon is missing; text fallback remains available." />
+    <string id="BEArmorCraftingNoArtisans.text" text="No assigned craftspeople" />
+    <string id="BEArmorCraftingNoProjectsBody.text" text="There are no armor projects to manage." />
+    <string id="BEArmorCraftingNoProjectsTitle.text" text="No armor projects" />
+    <string id="BEArmorCraftingProjectActions.text" text="Project: {ITEM}" />
+    <string id="BEArmorCraftingProjectActionsBody.text" text="Choose Continue/Reassign to replace the complete team atomically, or Abandon to destroy the work in progress and refund materials by remaining work." />
+    <string id="BEArmorCraftingReassign.text" text="Continue / Reassign" />
+    <string id="BEArmorCraftingReassignBody.text" text="Choose the complete team. The old assignment remains unchanged unless confirmation succeeds." />
+    <string id="BEArmorCraftingRecipe.text" text="Required Crafting: {SKILL} | Base productive hours: {HOURS}&#10;Materials: {MATERIALS}" />
+    <string id="BEArmorCraftingReplacementBody.text" text="Everyone assigned to {ITEM} is unavailable. Choose one or more available heroes to continue, or cancel to interrupt the project." />
+    <string id="BEArmorCraftingReplacementTitle.text" text="Choose replacement craftspeople" />
+    <string id="BEArmorCraftingSelect.text" text="Select" />
+    <string id="BEArmorCraftingSelectedSmithUnavailable.text" text="The selected smith is no longer available for this armor project." />
+    <string id="BEArmorCraftingShoulder.text" text="Cloaks &amp; Capes" />
+    <string id="BEArmorCraftingShoulderArmor.text" text="Cloaks &amp; Capes" />
+    <string id="BEArmorCraftingSkill.text" text="Crafting {SKILL}" />
+    <string id="BEArmorCraftingSkip.text" text="Skip for now" />
+    <string id="BEArmorCraftingSkipForNow.text" text="Skip for now" />
+    <string id="BEArmorCraftingStart.text" text="Start crafting" />
+    <string id="BEArmorCraftingStarted.text" text="Work started on {ITEM}." />
+    <string id="BEArmorCraftingTeam.text" text="Project team (each hero can serve one armor project)" />
+    <string id="BEArmorCraftingTier.text" text="Tier {TIER}" />
+    <string id="BEArmorCraftingTooltipArtisans.text" text="Craftspeople" />
+    <string id="BEArmorCraftingTooltipProgress.text" text="Progress" />
+    <string id="BEArmorCraftingTooltipRemaining.text" text="Remaining productive hours" />
+    <string id="BEArmorCraftingTooltipState.text" text="Project state" />
+    <string id="BEArmorCraftingTooltipTown.text" text="Started in" />
+    <string id="BEArmorCraftingUnfinishedBody.text" text="You have unfinished armor projects. Would you like to manage them now?" />
+    <string id="BEArmorCraftingUnfinishedTitle.text" text="Unfinished armor projects" />
+    <string id="BEArmorCraftingUnknownHero.text" text="A craftsperson" />
+    <string id="BEArmorCraftingWipDetails.text" text="{ITEM}&#10;Progress: {PROGRESS}%&#10;Remaining productive hours: {HOURS}&#10;Started in: {TOWN}&#10;Craftspeople: {ARTISANS}" />
+    <string id="BEArmorCraftingWipProtected.text" text="This work in progress cannot be sold, discarded, transferred, equipped, donated, slaughtered or smelted." />
+    <string id="BEArmorCraftingWipProxy.text" text="Armor work in progress" />
+    <string id="BEArmorCraftingWorkStartedNotification.text" text="Armor crafting: {ITEM} - {PROGRESS}% complete." />
+    <string id="BEHeroReligionConversionCooldown.text" text="After your last discussion, this character will not be willing to discuss changing faith again for {DAYS} days." />
+    <string id="BEHeroReligionConversionPlayerNone.text" text="You have not yet decided what faith you truly follow." />
+    <string id="BEHistoricalAlaricBackstory.text" text="Alaric was born on the northern bank of the Danube among the Tervingi, in the last years of a world running out of time. His people are nothing like the savages of Roman speeches. They are farmers and horsemen with kings and laws - and a bitter quarrel of their own, for the Gothic lands are split between the old gods and a new faith preached in the Gothic tongue, and the persecutions of the chieftain Athanaric have set kinsman against kinsman within living memory. &#10;  &#10;  Alaric is young, wellborn, and so far unremarkable. What shapes him now is the ordinary education of a Tervingian noble: horse, spear, oath, and the long habit of watching the empire across the river with appetite and awe in equal measure. Out of that watching the whole shape of his life will grow. He will spend it asking Rome not for its destruction but for a place inside it - a general's title, land for his people, a seat at the table where the empire he grew up admiring decides its wars - and Rome will refuse him so many times that history will remember only what the refusals cost. Far to the east, the steppe has begun to move, and within a handful of years it will drive his whole nation to the riverbank as refugees. The boy who crosses will remember everything Rome does next." />
+    <string id="BEHistoricalAlaricCompany.text" text="∙Athaulf, (Relative)&#10;  ∙Wallia (Relative)" />
+    <string id="BEHistoricalAlaricGoal01.text" text="Choose a side in the civil war between Athanaric and Fritigern" />
+    <string id="BEHistoricalAlaricGoal02.text" text="In 376 AD, help Fritigern take over northern Thracia" />
+    <string id="BEHistoricalAlaricGoal03.text" text="Defeat and kill Emperor Valens in 378 AD" />
+    <string id="BEHistoricalAlaricGoal04.text" text="Become the leader of your people" />
+    <string id="BEHistoricalAlaricGoal05.text" text="Marry a lady and raise a son: Theodoric" />
+    <string id="BEHistoricalAlaricGoal06.text" text="Sack Rome, the eternal city in 410 AD" />
+    <string id="BEHistoricalAlaricGoals.text" text="∙Choose a side in the civil war between Athanaric and Fritigern&#10;  ∙In 376 AD, help Fritigern take over northern Thracia&#10;  ∙Defeat and kill Emperor Valens in 378 AD&#10;  ∙Become the leader of your people&#10;  ∙Marry a lady and raise a son: Theodoric&#10;  ∙Sack Rome, the eternal city in 410 AD" />
+    <string id="BEHistoricalAlatheusBackstory.text" text="Alatheus leads among the Greuthungi, the eastern Goths of the Pontic grasslands, and holds the kind of position history assigns without asking. The realm of old King Ermanaric sprawls loose and vast across the steppe north of the Black Sea - a confederation of Goths, Alans and subject peoples held together by prestige, tribute, and the simple fact that nothing strong enough to test it has yet appeared. Now the reports coming out of the east refuse to stay rumors. Whole peoples in flight. Horse-archers who fight like nothing in Gothic memory. Allies who have stopped answering. &#10;  &#10;  Alatheus stands in the second rank of a kingdom whose first rank is old, and he can read where this goes. He is not a man who dreams of crowns. If the host is to come through alive - if the royal child soon to be his charge is to reach manhood wearing the name of a nation instead of ending as a trophy in some Hun's tent - it will be because men like him carried the weight without ever wearing the title. When the blow lands, and it lands within two years, it will fall to him to hold a broken people together in retreat and lead them west toward a river crossing and a battlefield near a city called Adrianople that no Goth has yet heard of. In 374 all of that is still tomorrow. Today there is the steppe, the reports, and the growing suspicion that the age he was raised for is already over." />
+    <string id="BEHistoricalAlatheusCompany.text" text="∙Saphrax (Co-Regent)&#10;  ∙Vitheric (Adopted Son)" />
+    <string id="BEHistoricalAlatheusGoal01.text" text="Help the Greuthingian Kingdom resist the Hunnic invasion" />
+    <string id="BEHistoricalAlatheusGoal02.text" text="Serve as guardian of the young heir, Vithericus" />
+    <string id="BEHistoricalAlatheusGoal03.text" text="In 376 AD, help Fritigern take over northern Thracia" />
+    <string id="BEHistoricalAlatheusGoal04.text" text="Defeat and kill Emperor Valens in 378 AD" />
+    <string id="BEHistoricalAlatheusGoal05.text" text="Establish a Kingdom in Pannonia" />
+    <string id="BEHistoricalAlatheusGoals.text" text="∙Help the Greuthingian Kingdom resist the Hunnic invasion&#10;  ∙Serve as guardian of the young heir, Vithericus&#10;  ∙In 376 AD, help Fritigern take over northern Thracia&#10;  ∙Defeat and kill Emperor Valens in 378 AD&#10;  ∙Establish a Kingdom in Pannonia" />
+    <string id="BEHistoricalAnthemiusBackstory.text" text="Anthemius was born into the class that does not fight the empire's wars but decides where they are fought. His family is senatorial and established, part of the fabric of Constantinople - a city not yet fifty years old and already convinced of its own eternity. &#10;  &#10;  His grandfather's generation served the sons of Constantine; his own comes of age under Valens, a soldier-emperor of limited imagination whose court rewards caution and punishes brilliance unevenly. For a young man of his station the path runs through the civil offices: the law, the chancery, the long apprenticeship of drafting other men's edicts until the day he drafts his own. The work is unglamorous, and it is how the empire actually survives - grain fleets counted, walls funded, treaties worded so carefully that a war dies in a subordinate clause. Everything he will build has this same shape: no triumph attached, no statue at the end. An East that cannot be broken - fed, walled, and governed so soundly that it survives a bad emperor, a lost army, a burning frontier, all of them at once if it must. &#10;  &#10;  The East in 374 is rich, crowded and nervous, and beyond the Danube something is stirring that nobody in the city can name. The men with swords will meet it first. Whether anything survives the meeting will be decided by the men with pens." />
+    <string id="BEHistoricalAnthemiusCompany.text" text="∙Philippus (Brother)" />
+    <string id="BEHistoricalAnthemiusGoal01.text" text="Serve the Eastern Roman Empire" />
+    <string id="BEHistoricalAnthemiusGoal02.text" text="Become the owner of Constantinopolis" />
+    <string id="BEHistoricalAnthemiusGoal03.text" text="Construct the most impenetrable fortification around the city, the Theodosian walls" />
+    <string id="BEHistoricalAnthemiusGoal04.text" text="Marry a lady and raise two children: Isidorus and Lucina" />
+    <string id="BEHistoricalAnthemiusGoal05.text" text="Become the most powerful statesman of the Roman Empire" />
+    <string id="BEHistoricalAnthemiusGoals.text" text="∙Serve the Eastern Roman Empire&#10;  ∙Become the owner of Constantinopolis&#10;  ∙Construct the most impenetrable fortification around the city, the Theodosian walls&#10;  ∙Marry a lady and raise two children: Isidorus and Lucina&#10;  ∙Become the most powerful statesman of the Roman Empire" />
+    <string id="BEHistoricalBackgroundUnavailable.text" text="The configured historical background image is unavailable." />
+    <string id="BEHistoricalBackstoryTitle.text" text="Backstory" />
+    <string id="BEHistoricalCampaignGoalQuestTitle.text" text="{HERO}'s Campaign Goals" />
+    <string id="BEHistoricalCampaignMenuEntry.text" text="Burning Empires: Historical Campaign" />
+    <string id="BEHistoricalCampaignMenuHint.text" text="Enter the campaign as an existing historical character." />
+    <string id="BEHistoricalCampaignTitle.text" text="Historical Campaign" />
+    <string id="BEHistoricalConfirm.text" text="Begin Campaign" />
+    <string id="BEHistoricalErrorClanMismatch.text" text="The configured historical Clan does not match the Hero." />
+    <string id="BEHistoricalErrorDataMissing.text" text="Historical character data is missing." />
+    <string id="BEHistoricalErrorFactionBridge.text" text="Bannerlord 1.4.7 player-faction support could not be verified." />
+    <string id="BEHistoricalErrorHeroMissing.text" text="The configured historical Hero does not exist." />
+    <string id="BEHistoricalErrorHeroUnavailable.text" text="The historical Hero is not available for play." />
+    <string id="BEHistoricalErrorMercenaryStart.text" text="The selected historical Clan cannot begin as a mercenary of its original faction." />
+    <string id="BEHistoricalErrorNoCandidates.text" text="No Historical Campaign candidates are configured." />
+    <string id="BEHistoricalErrorNoSpawn.text" text="No friendly, reachable land spawn could be resolved for this character." />
+    <string id="BEHistoricalErrorOriginalKingdom.text" text="The selected historical Clan must belong to a valid original kingdom." />
+    <string id="BEHistoricalErrorTextMissing.text" text="This character is missing required localized text." />
+    <string id="BEHistoricalErrorTransfer.text" text="Historical character transfer failed:" />
+    <string id="BEHistoricalErrorValidation.text" text="Historical character validation failed." />
+    <string id="BEHistoricalFeatsTitle.text" text="Cultural Feats" />
+    <string id="BEHistoricalGoalsTitle.text" text="Goals" />
+    <string id="BEHistoricalHamazaspBackstory.text" text="Hamazasp Mamikonian is a noble of Armenia, born into the ancient aristocracy of a kingdom cursed by its own map: the only land bridge between Rome and Persia, wanted by both, trusted by neither. He is tied to the great naxarar houses - the hereditary lords whose private armies, mountain strongholds and jealously counted privileges are the kingdom's real skeleton - and above them the Mamikonian line, which holds the office of sparapet, supreme commander, by right of blood. &#10;  &#10;  He has come of age inside a catastrophe. Shapur's Persians have spent a decade grinding Armenia down: King Arsaces lured to a parley and shut in the Castle of Oblivion, the queen besieged at Artogerassa, cities emptied, and the nobility split between those who held for the Arsacid house and those who decided Persia made the safer master. The Roman-backed restoration of young King Pap has stitched the kingdom back together, but the seams show, and Rome's protection has started to feel like another kind of ownership. Victory is impossible between these two empires, and every lord of the loyal houses knows it, though none will say it plainly. So Hamazasp fights for what can actually be won: the house upheld, the faith unextinguished, the name still spoken in the mountains when both Rome and Persia have worn each other into something unrecognizable. Kingdoms, he has learned, can be occupied. What he serves is older than the kingdom." />
+    <string id="BEHistoricalHamazaspCompany.text" text="∙Vardandukht (Sister)&#10;  ∙Hemaiak (Brother)&#10;  ∙Artashes (Brother)" />
+    <string id="BEHistoricalHamazaspGoal01.text" text="Serve Armenia" />
+    <string id="BEHistoricalHamazaspGoal02.text" text="Protect the borders against foreign invaders" />
+    <string id="BEHistoricalHamazaspGoal03.text" text="Preserve a balance of power between Romans and Persians" />
+    <string id="BEHistoricalHamazaspGoal04.text" text="Build a lasting dynasty" />
+    <string id="BEHistoricalHamazaspGoal05.text" text="Marry Sahakanoysh, daughter of Isaac the Great" />
+    <string id="BEHistoricalHamazaspGoal06.text" text="Raise three sons: Vardan, Hamayeak and Hamazasp" />
+    <string id="BEHistoricalHamazaspGoals.text" text="∙Serve Armenia&#10;  ∙Protect the borders against foreign invaders&#10;  ∙Preserve a balance of power between Romans and Persians&#10;  ∙Build a lasting dynasty&#10;  ∙Marry Sahakanoysh, daughter of Isaac the Great&#10;  ∙Raise three sons: Vardan, Hamayeak and Hamazasp" />
+    <string id="BEHistoricalHermericBackstory.text" text="Hermeric is a young noble of the Suevic peoples of the middle Danube, heir to confederacies that Rome has fought, paid off, and lived beside for three hundred years. His grandfathers battled Marcus Aurelius to a standstill in wars that nearly broke the empire; his father's generation learned quieter arts - the subsidy taken and resented, the sons sent as hostages who came home half-Roman, the river that is a border in treaties and a marketplace in fact. Hermeric grew up inside both truths. He knows forest paths no legionary has ever mapped, and he knows what a Roman quartermaster pays for hides and amber. He also knows what every river people knows by now: the old balance is dying, peoples are shoving peoples westward, and the Danube confederations stand directly in the road. &#10;  &#10;  Three centuries on the river have given his people everything except the one thing he means to take from the coming chaos - land of their own, held by right and not by Rome's sufferance, a kingdom he can put into a son's hands instead of a treaty that dies with every emperor. The chiefs of his father's age still plan for the next raid. Hermeric is planning for the next century." />
+    <string id="BEHistoricalHermericCompany.text" text="∙Hermigar (Brother)" />
+    <string id="BEHistoricalHermericGoal01.text" text="Serve the Quadian Kingdom for a year" />
+    <string id="BEHistoricalHermericGoal02.text" text="Take revenge on the romans for the assassination of King Gabinius" />
+    <string id="BEHistoricalHermericGoal03.text" text="Raid and plunder all of Pannonia" />
+    <string id="BEHistoricalHermericGoal04.text" text="Establish your own kingdom for the Suebi in the place of the declining Marcomannic kingdom" />
+    <string id="BEHistoricalHermericGoal05.text" text="Raise two sons: Rechila and Hunimund" />
+    <string id="BEHistoricalHermericGoal06.text" text="In 406 AD, lead your people into roman lands, and conquer Hispania" />
+    <string id="BEHistoricalHermericGoals.text" text="∙Serve the Quadian Kingdom for a year&#10;  ∙Take revenge on the romans for the assassination of King Gabinius&#10;  ∙Raid and plunder all of Pannonia&#10;  ∙Establish your own kingdom for the Suebi in the place of the declining Marcomannic kingdom&#10;  ∙Raise two sons: Rechila and Hunimund&#10;  ∙In 406 AD, lead your people into roman lands, and conquer Hispania" />
+    <string id="BEHistoricalHermitName.text" text="Anemius" />
+    <string id="BEHistoricalKhasidatBackstory.text" text="Khasidat belongs to the elite of the Tanukhids, the great Arab confederation of the Syrian desert fringe, whose tents stand where three worlds touch: Rome's paved and taxed frontier, Persia's client kingdoms across the sand, and the deep desert that answers to no one. Her people are Rome's foederati - allies by treaty, cavalry by trade, Christians by fierce and recent conviction - and their women are no ornaments to the arrangement. Arab tribal memory runs deep with warrior queens, and Rome itself still tells stories of Zenobia of Palmyra, who came within reach of taking the whole East from an emperor. Khasidat was raised in that tradition: to ride, to judge, to speak in council, and to understand the first law of the desert frontier - a small people survives among empires by being expensive to wrong and too useful to discard. Every quarrel now piling up between the tents and Constantinople turns on the same two things: a treaty honoured as a bond between allies rather than a bill of sale, and the faith given its own head - a bishop of their choosing, of their orthodoxy, not a Greek appointee sent to mind them. Rome hears all of it as insolence from auxiliaries. &#10;  &#10;  Within a few years the Tanukhids will rise behind a queen - Mavia, whose riders will reach the edge of Egypt - and Rome will hear them differently. That is the world Khasidat is being made for: one where a woman of the tents can be the match of Rome." />
+    <string id="BEHistoricalKhasidatCompany.text" text="∙Moses the Saracen (Mentor)" />
+    <string id="BEHistoricalKhasidatGoal01.text" text="Serve the Tanukhid confederation" />
+    <string id="BEHistoricalKhasidatGoal02.text" text="Ensure the dominance of Nicene Christianity" />
+    <string id="BEHistoricalKhasidatGoal03.text" text="Aid your mother, Queen Mavia in revolt against Rome" />
+    <string id="BEHistoricalKhasidatGoal04.text" text="Expand Tanukhid territory in Syria" />
+    <string id="BEHistoricalKhasidatGoal05.text" text="Enforce a peace treaty with Rome" />
+    <string id="BEHistoricalKhasidatGoal06.text" text="Marry the roman general Victor" />
+    <string id="BEHistoricalKhasidatGoal07.text" text="Raise a daughter: Mavia" />
+    <string id="BEHistoricalKhasidatGoals.text" text="∙Serve the Tanukhid confederation&#10;  ∙Ensure the dominance of Nicene Christianity&#10;  ∙Aid your mother, Queen Mavia in revolt against Rome&#10;  ∙Expand Tanukhid territory in Syria&#10;  ∙Enforce a peace treaty with Rome&#10;  ∙Marry the roman general Victor&#10;  ∙Raise a daughter: Mavia" />
+    <string id="BEHistoricalMundzukBackstory.text" text="Mundzuk is a chieftain of the Huns in the years before Rome has learned to spell the word. Where his people began is a question the settled world will argue for centuries: they came out of the deep steppe east of the Aral Sea, driven west, most likely, by the rising power of the Rouran Khanate on the far side of Asia - one empire's expansion emptying half a continent into another's lap. Whether Mundzuk himself was born in the shadow of the Altai mountains or on grass much further west, nearer the Caspian, no record says and none ever will. &#10;  &#10;  What is certain is where the current has carried them: into the lands north of the Black Sea, clan by clan, war-band by war-band, taking country the Goths and Alans have held for generations with a way of war the west cannot answer - the compound bow, the remount herd, the false retreat that turns a pursuing army into a scattered one. To the settled peoples the Huns look like a disaster without politics. Mundzuk knows better, because from the inside the Huns are nothing except politics: a shifting weave of clans where a chieftain's standing is remade every season by the raids he leads, the tribute he takes, and the wars he is wise enough to avoid. And season by season, marriage by marriage, feud by settled feud, he is working at something patient, cold, and longer than his own life: the clans answering to one tent, and that tent his family's - his brothers' hands on the reins if it must be so, his sons' after. He will not live to see how completely it comes to pass." />
+    <string id="BEHistoricalMundzukCompany.text" text="∙Oktar (Brother)&#10;  ∙Ruga (Brother)&#10;  ∙Aybars (Brother)" />
+    <string id="BEHistoricalMundzukGoal01.text" text="Serve the Hunnic Empire" />
+    <string id="BEHistoricalMundzukGoal02.text" text="Conquer the Alans, Greuthungians and Bosporans" />
+    <string id="BEHistoricalMundzukGoal03.text" text="Defeat and kill Emperor Valens in 378 AD" />
+    <string id="BEHistoricalMundzukGoal04.text" text="Establish a powerful dynasty" />
+    <string id="BEHistoricalMundzukGoal05.text" text="Extend your borders into Pannonia" />
+    <string id="BEHistoricalMundzukGoal06.text" text="Raise two sons: Bleda and Attila, the Scourge of God" />
+    <string id="BEHistoricalMundzukGoals.text" text="∙Serve the Hunnic Empire&#10;  ∙Conquer the Alans, Greuthungians and Bosporans&#10;  ∙Defeat and kill Emperor Valens in 378 AD&#10;  ∙Establish a powerful dynasty&#10;  ∙Extend your borders into Pannonia&#10;  ∙Raise two sons: Bleda and Attila, the Scourge of God" />
+    <string id="BEHistoricalPreviewCameraErrorBody.text" text="Historical Campaign could not enable mouse-wheel camera zoom for the character preview.&#10;&#10;What this is:&#10;The character model itself is still available, but the compatibility bridge that changes the real three-dimensional Tableau camera distance could not connect to Bannerlord's CharacterTableau fields.&#10;&#10;Why it happened:&#10;This build expects the Bannerlord 1.4.7 CharacterTableau structure. A different game version or an incompatible UI assembly can rename or replace the required private fields. Technical detail: {TECHNICAL_REASON}&#10;&#10;What the program did:&#10;Mouse-wheel zoom has been disabled for this session to prevent an unsafe reflection write. Character selection, left-button rotation, middle-button vertical movement, and Begin Campaign remain available.&#10;&#10;What to do:&#10;Confirm that Bannerlord 1.4.7 and the required official prerequisite modules are installed. If the versions are correct, send this complete message and the Historical Campaign log to mumahutuo so the compatibility bridge can be updated. Do not edit be_historical_campaign.json for this error." />
+    <string id="BEHistoricalPreviewCameraErrorTitle.text" text="Historical Campaign preview camera compatibility error" />
+    <string id="BEHistoricalPreviewConfigErrorBody.text" text="This is a Historical Campaign character-selection preview equipment configuration error.&#10;&#10;What this means:&#10;The game could not find one or more preview items or equipment rosters configured for {CHARACTER_NAME} ({HERO_ID}) in BE ModuleData Source Files/BEData/be_historical_campaign.json.&#10;&#10;Why it happened:&#10;An itemId or equipmentRosterId does not exist, is misspelled, or was not loaded into the current ModuleData. This affects only the temporary character model shown on the Historical Campaign selection screen. It does not modify the real Hero's age, equipment, family, or campaign data.&#10;&#10;What the program did:&#10;The invalid value was replaced safely. An invalid item slot uses the same slot from the configured culture equipment template. An invalid equipment roster uses the real Hero's current battle equipment. You may still select this character and begin the campaign.&#10;&#10;Configuration details:&#10;{ISSUES}&#10;&#10;How to fix it:&#10;Open BE ModuleData Source Files/BEData/be_historical_campaign.json, correct the listed field, slot, or object ID, then run BE ModuleData Builder/BEModuleDataBuilder.exe validate, dry-run, and pack in that order. Reopen Historical Campaign and verify the preview." />
+    <string id="BEHistoricalPreviewConfigErrorOk.text" text="OK" />
+    <string id="BEHistoricalPreviewConfigErrorTitle.text" text="Historical Campaign preview equipment configuration needs attention" />
+    <string id="BEHistoricalPreviewConfigIssueLine.text" text="Field or slot: {FIELD}&#10;Configured object ID: {OBJECT_ID}&#10;Fallback used: {FALLBACK}" />
+    <string id="BEHistoricalPreviewLoading.text" text="Loading character preview..." />
+    <string id="BEHistoricalPreviewUnavailable.text" text="Character preview unavailable:" />
+    <string id="BEHistoricalRespendialBackstory.text" text="Respendial is a young noble among the Alans, the old horse-lords of the steppe between the Don and the Caucasus - a people the Romans have fought, hired, and written about for three centuries, famed for the lance-charge, the mailed rider, and a stubborn refusal to stay anyone's subjects for long. That independence is now dying. The Huns broke into the Alan lands first, before any Goth or Roman felt them, and the nation is coming apart along the seams of defeat. Some clans have submitted and ride under Hunnic banners. Some cling to the old pastures at any price. Others look west and weigh what no steppe people weighs lightly: whether survival means leaving the steppe for good. Respendial leads from the middle of the fracture, working the cruelest sums a king has ever been set - give up the ground and keep the people; lose the steppe, the graves, the whole geography of what an Alan is, and still bring a nation out the far side that knows its own name. Every season sets the same choices in different clothes. Fight or move. Spend the horse-herds or hoard them. Keep faith with kin who chose the other side, or cut them loose. Decades on, at a frozen river on the far edge of the world, he will answer all of it in a single afternoon - and a Roman frontier will stop existing." />
+    <string id="BEHistoricalRespendialCompany.text" text="∙Attaces (Brother)" />
+    <string id="BEHistoricalRespendialGoal01.text" text="Wage war against the invading Huns" />
+    <string id="BEHistoricalRespendialGoal02.text" text="Travel to the west with your clan" />
+    <string id="BEHistoricalRespendialGoal03.text" text="Defeat and kill Emperor Valens in 378 AD" />
+    <string id="BEHistoricalRespendialGoal04.text" text="Establish a Kingdom north of the Roman Empire" />
+    <string id="BEHistoricalRespendialGoal05.text" text="In 406 AD, lead your people into roman lands, and conquer Hispania" />
+    <string id="BEHistoricalRespendialGoals.text" text="∙Wage war against the invading Huns&#10;  ∙Travel to the west with your clan&#10;  ∙Defeat and kill Emperor Valens in 378 AD&#10;  ∙Establish a Kingdom north of the Roman Empire&#10;  ∙In 406 AD, lead your people into roman lands, and conquer Hispania" />
+    <string id="BEHistoricalRetirementSettlementName.text" text="Provincial Villa" />
+    <string id="BEHistoricalStilichoBackstory.text" text="Flavius Stilicho was born of two worlds, and neither ever let him forget it. &#10;  His father was a Vandal cavalryman who rode for Rome; his mother was Roman, and the son they raised belonged wholly to the empire and only half to its idea of itself. In the barracks he is Roman to the bone - Latin-speaking, orthodox, drilled in the habits of an army that has held the world for four centuries. Among better-born men he is a barbarian in a borrowed uniform, and no commission will ever quite silence them. Rank alone will never cure that, and he knows it. Only blood will: his children married into the imperial house itself, the family stitched so deep into the dynasty that no man can ever again ask what a Stilicho is doing at the emperor's side. &#10;  &#10;  In 374 AD, all of that is far away. He is a young man of the soldier class, the Rhine frontier smoulders, the court at Mediolanum is a pit of rivalries, and the army that once made emperors now watches them made by intrigue. Beneath it all sits the fact every garrison clerk has quietly absorbed: the empire's defence now rests on the sons of the very peoples it once conquered. One day, those sons will ask what they are owed." />
+    <string id="BEHistoricalStilichoCompany.text" text="∙Bathanarius (Brother-in-law)" />
+    <string id="BEHistoricalStilichoGoal01.text" text="Serve the Western Roman Empire" />
+    <string id="BEHistoricalStilichoGoal02.text" text="Wage war against the invading Quadians and Jazyges" />
+    <string id="BEHistoricalStilichoGoal03.text" text="Build a good relationship with Theodosius" />
+    <string id="BEHistoricalStilichoGoal04.text" text="Marry Serena, daughter of Honorius" />
+    <string id="BEHistoricalStilichoGoal05.text" text="Raise three children: Eucherius, Maria and Thermantia" />
+    <string id="BEHistoricalStilichoGoal06.text" text="Become the most powerful general of the Empire" />
+    <string id="BEHistoricalStilichoGoals.text" text="∙Serve the Western Roman Empire&#10;  ∙Wage war against the invading Quadians and Jazyges&#10;  ∙Build a good relationship with Theodosius&#10;  ∙Marry Serena, daughter of Honorius&#10;  ∙Raise three children: Eucherius, Maria and Thermantia&#10;  ∙Become the most powerful general of the Empire" />
+    <string id="BEHistoricalYazdegerdBackstory.text" text="Yazdegerd is a young prince of the House of Sasan in the last years of the greatest reign the dynasty will ever know. Shapur II, King of Kings, has ruled since before Yazdegerd drew breath - crowned, the story runs, while still in his mother's womb - and across seventy years he has humbled Rome, taken back the lost provinces, and stretched Eranshahr from the Euphrates to the edge of India. A court in the shadow of a colossus is a dangerous place to grow up. The king is old; the succession is discussed only in whispers; and the great noble houses and the fire-priests, having served the crown this long, have grown into powers of their own, measuring each young prince against the question of what he will owe them. &#10;  &#10;  Yazdegerd is young enough to watch, wellborn enough to matter, and clever enough to keep his cleverness off his face. And the watching is teaching him something he will be a king before he dares act on: that a crown should owe nothing - not to the seven great houses, not to the fire-priests, not to any power in Eranshahr that believes it lends kings their thrones and can call in the debt. The cracks in the empire are already visible to anyone who looks: wars on two frontiers, Christian subjects whose loyalty the persecutions have turned into a permanent question, and a nobility that has broken kings before and remembers the way. What a prince learns in such a school, his own magnates will one day sum up in the title they hang on him: the Sinner. History has not yet decided whether they were right." />
+    <string id="BEHistoricalYazdegerdCompany.text" text="∙Bahram (Brother)" />
+    <string id="BEHistoricalYazdegerdGoal01.text" text="Serve the Sassanid Empire" />
+    <string id="BEHistoricalYazdegerdGoal02.text" text="Resist the Xionite and Hunnic invasions" />
+    <string id="BEHistoricalYazdegerdGoal03.text" text="Take over the eastern part of Armenia" />
+    <string id="BEHistoricalYazdegerdGoal04.text" text="Maintain peaceful relations with Rome" />
+    <string id="BEHistoricalYazdegerdGoal05.text" text="Marry Shushandukht" />
+    <string id="BEHistoricalYazdegerdGoal06.text" text="Raise three sons: Shapur IV, Bahram Gor and Narseh" />
+    <string id="BEHistoricalYazdegerdGoal07.text" text="Become Shahanshah" />
+    <string id="BEHistoricalYazdegerdGoals.text" text="∙Serve the Sassanid Empire&#10;  ∙Resist the Xionite and Hunnic invasions&#10;  ∙Take over the eastern part of Armenia&#10;  ∙Maintain peaceful relations with Rome&#10;  ∙Marry Shushandukht&#10;  ∙Raise three sons: Shapur IV, Bahram Gor and Narseh&#10;  ∙Become Shahanshah" />
+    <string id="BESandboxCampaignMenuEntry.text" text="Burning Empires: Sandbox Mode" />
+    <string id="BETempleSceneConfigurationErrorBody.text" text="The temple entrance has been disabled because Burning Empires could not load a valid culture-specific temple scene and religion visibility level.&#10;&#10;What happened:&#10;{REASON}&#10;&#10;Configuration involved:&#10;Settlement: {SETTLEMENT}&#10;Culture: {CULTURE}&#10;Religion: {RELIGION}&#10;Scene: {SCENE}&#10;Requested level: {LEVEL}&#10;Fallback level: {FALLBACK}&#10;&#10;What the program did:&#10;The temple menu entry was hidden so the player cannot enter an incorrect or empty scene. No settlement, religion, population, save, or scene data was changed.&#10;&#10;How to fix it:&#10;Open BE ModuleData Source Files/BEData/be_temple_scenes.json and correct the listed culture, religion, scene, or level mapping. Confirm that SceneObj/{SCENE}/scene.xscene contains the requested level, then run BE ModuleData Builder/BEModuleDataBuilder.exe validate, dry-run, and pack. Start a new test session and check the temple entrance again." />
+    <string id="BETempleSceneConfigurationErrorTitle.text" text="Temple scene configuration error" />
+    <string id="BEWonderAltarsDescription.text" text="Weathered stone altars crown this windswept rise. Ancient geographers said they marked the farthest reach of Alexander's conquests, where the known world gave way to the lands beyond." />
+    <string id="BEWonderAltarsLandmarkBrokenPillar.text" text="Broken Pillar" />
+    <string id="BEWonderAltarsLandmarkShepherdStash.text" text="Shepherd's Stash" />
+    <string id="BEWonderAltarsLandmarkSmallGrave.text" text="Small Grave" />
+    <string id="BEWonderAltarsName.text" text="Altars of Alexander" />
+    <string id="BEWonderCimbrianDolmenDescription.text" text="An ancient Dolmen and nearby burial mound at the coast of Cimbria." />
+    <string id="BEWonderCimbrianDolmenLandmarkBurialMound.text" text="Burial Mound" />
+    <string id="BEWonderCimbrianDolmenLandmarkDolmen.text" text="Dolmen" />
+    <string id="BEWonderCimbrianDolmenLandmarkSeaside.text" text="Seaside" />
+    <string id="BEWonderCimbrianDolmenName.text" text="Cimbrian Dolmen" />
+    <string id="BEWonderColossusDescription.text" text="The broken statue of the god Helios at the harbour of Rhodus, once a mighty wonder of the world..." />
+    <string id="BEWonderColossusLandmarkBeach.text" text="Beach" />
+    <string id="BEWonderColossusLandmarkFeetoftheColossus.text" text="Feet of the Colossus" />
+    <string id="BEWonderColossusLandmarkRemainsoftheColossus.text" text="Remains of the Colossus" />
+    <string id="BEWonderColossusName.text" text="Colossus of Rhodus" />
+    <string id="BEWonderDevilsDykesDescription.text" text="A massive ramparts-and-ditches fortification system, protecting the territory of the Jazyges." />
+    <string id="BEWonderDevilsDykesLandmarkDevilsDykes.text" text="Devil's Dykes" />
+    <string id="BEWonderDevilsDykesLandmarkGuardTower.text" text="Guard Tower" />
+    <string id="BEWonderDevilsDykesLandmarkSheperdsHut.text" text="Sheperd's Hut" />
+    <string id="BEWonderDevilsDykesName.text" text="Devil's Dykes" />
+    <string id="BEWonderDonarsOakDescription.text" text="A sacred grove with a large oak tree, dedicated to the god Donar. A place of worship and social gathering for many tribes beyond the Rhenus river." />
+    <string id="BEWonderDonarsOakLandmarkCamp.text" text="Camp" />
+    <string id="BEWonderDonarsOakLandmarkDonarsOak.text" text="Donar's Oak" />
+    <string id="BEWonderDonarsOakLandmarkEntrancePillars.text" text="Entrance pillars" />
+    <string id="BEWonderDonarsOakName.text" text="Donar's Oak" />
+    <string id="BEWonderElnapaKurganDescription.text" text="A large mound on the steppes, near the foothills of the Caucasus Mountains." />
+    <string id="BEWonderElnapaKurganLandmarkBurialChamber.text" text="Burial Chamber" />
+    <string id="BEWonderElnapaKurganLandmarkGrove.text" text="Grove" />
+    <string id="BEWonderElnapaKurganLandmarkMound.text" text="Mound" />
+    <string id="BEWonderElnapaKurganName.text" text="Kurgan near Elnapa" />
+    <string id="BEWonderEtnaDescription.text" text="According to the Roman tradition, Vulcan the god of blacksmithing, had his forge under Mount Aetna. It is said that whenever his wife, the godess Venus is unfaithful, Vulcan grows angry and beats the red-hot metal with such a force that sparks and smoke rose up from the top of the mountain..." />
+    <string id="BEWonderEtnaLandmarkMountAetna.text" text="Mount Aetna" />
+    <string id="BEWonderEtnaLandmarkRuins.text" text="Ruins" />
+    <string id="BEWonderEtnaLandmarkVulcansShrine.text" text="Vulcan's Shrine" />
+    <string id="BEWonderEtnaName.text" text="Mount Aetna" />
+    <string id="BEWonderExplore.text" text="Explore" />
+    <string id="BEWonderGroveOfAlcisDescription.text" text="A sacred grove dedicated to the twin elk-gods, called Alcis." />
+    <string id="BEWonderGroveOfAlcisLandmarkBridge.text" text="Small Bridge" />
+    <string id="BEWonderGroveOfAlcisLandmarkHuntersCamp.text" text="Hunter's Camp" />
+    <string id="BEWonderGroveOfAlcisLandmarkStatuesofAlcis.text" text="Statues of Alcis" />
+    <string id="BEWonderGroveOfAlcisName.text" text="Grove of Alcis" />
+    <string id="BEWonderGroveofBaduhenaDescription.text" text="A sacred grove dedicated to the germanic goddess Baduhenna, near to an ancient battlefield, where the Frisians defeated a Roman legion in 28 AD." />
+    <string id="BEWonderGroveofBaduhenaLandmarkAncientBattlefield.text" text="Ancient Battlefield" />
+    <string id="BEWonderGroveofBaduhenaLandmarkGroveofBaduhenna.text" text="Grove of Baduhenna" />
+    <string id="BEWonderGroveofBaduhenaLandmarkSeaside.text" text="Seaside" />
+    <string id="BEWonderGroveofBaduhenaName.text" text="Grove of Baduhenna" />
+    <string id="BEWonderGroveofSemnonDescription.text" text="A sacred grove of the germanic Semnones, near the Viadrus river." />
+    <string id="BEWonderGroveofSemnonLandmarkBridge.text" text="Bridge" />
+    <string id="BEWonderGroveofSemnonLandmarkGroveofSemnon.text" text="Grove of Semnon" />
+    <string id="BEWonderGroveofSemnonLandmarkStatue.text" text="Statue" />
+    <string id="BEWonderGroveofSemnonName.text" text="Grove of Semnon" />
+    <string id="BEWonderHadriansWallDescription.text" text="You stand before the great wall of Emperor Hadrianus, that once protected the province of Britannia. The fortifications still stand strong, but the civilian settlements are ruined and abandoned..." />
+    <string id="BEWonderHadriansWallLandmarkHadriansWall.text" text="Wall of Hadrianus" />
+    <string id="BEWonderHadriansWallLandmarkRuinsofCoventinasWell.text" text="Ruins of Coventina's Well" />
+    <string id="BEWonderHadriansWallLandmarkRuinsofMithraeum.text" text="Ruins of the Mithraeum" />
+    <string id="BEWonderHadriansWallName.text" text="Wall of Hadrianus" />
+    <string id="BEWonderHangingGardensDescription.text" text="The legendary Hanging Gardens of Babylon, one of the seven wonders of the ancient world. As you approach the famous Ishtar Gate, you see the fabulously ornamented terraces of the gardens in the distance." />
+    <string id="BEWonderHangingGardensLandmarkEternalFlame.text" text="Eternal Flame" />
+    <string id="BEWonderHangingGardensLandmarkHangingGardens.text" text="Hanging Gardens" />
+    <string id="BEWonderHangingGardensLandmarkIshtarGate.text" text="Ishtar Gate" />
+    <string id="BEWonderHangingGardensName.text" text="Hanging Gardens" />
+    <string id="BEWonderIrminsulDescription.text" text="A great carved wooden Pillar, erected and worshipped beneath the open sky by the local germanic tribes." />
+    <string id="BEWonderIrminsulLandmarkBridge.text" text="Bridge" />
+    <string id="BEWonderIrminsulLandmarkFarm.text" text="Farm" />
+    <string id="BEWonderIrminsulLandmarkGreatPillar.text" text="Great Pillar" />
+    <string id="BEWonderIrminsulName.text" text="Irminsul" />
+    <string id="BEWonderLeave.text" text="Leave" />
+    <string id="BEWonderLighthouseAlexandriaDescription.text" text="The famous lighthouse of Alexandria, a true wonder of the world. It is believed to be the tallest tower in existence." />
+    <string id="BEWonderLighthouseAlexandriaLandmarkHeptastadium.text" text="Heptastadium" />
+    <string id="BEWonderLighthouseAlexandriaLandmarkPharosLighthouse.text" text="Pharos Lighthouse" />
+    <string id="BEWonderLighthouseAlexandriaLandmarkSignalFire.text" text="Signal Fire" />
+    <string id="BEWonderLighthouseAlexandriaName.text" text="Pharos Lighthouse" />
+    <string id="BEWonderLocationName.text" text="Wonder" />
+    <string id="BEWonderMausoleumHalicarnassusDescription.text" text="The renowned monumental tomb, raised in the town of Halicarnassus, to be the resting place of Mausolus a satrap in the Achaemenid Persian Empire, and his sister-wife Artemisia II. You see the Mausoleum towering over the surrounding buildings, decorated with reliefs and sculptures." />
+    <string id="BEWonderMausoleumHalicarnassusLandmarkGardens.text" text="Gardens" />
+    <string id="BEWonderMausoleumHalicarnassusLandmarkMausoleum.text" text="Mausoleum" />
+    <string id="BEWonderMausoleumHalicarnassusLandmarkTemple.text" text="Temple" />
+    <string id="BEWonderMausoleumHalicarnassusName.text" text="Mausoleum of Halicarnassus" />
+    <string id="BEWonderMissionPrerequisitesMissing.text" text="This Wonder scene could not establish all required exploration systems. The mission has been closed safely." />
+    <string id="BEWonderMountNemrutDescription.text" text="On the summit of the Taurus Mountains stands a tomb-sanctuary, flanked by terraces with huge statues." />
+    <string id="BEWonderMountNemrutLandmarkEastTerrace.text" text="East Terrace" />
+    <string id="BEWonderMountNemrutLandmarkSteppedAltar.text" text="Stepped Altar" />
+    <string id="BEWonderMountNemrutLandmarkWestTerrace.text" text="West Terrace" />
+    <string id="BEWonderMountNemrutName.text" text="Mount Nemrut" />
+    <string id="BEWonderNewgrangeDescription.text" text="An exceptionally grand circular mound, with a facade made of white cobblestones and ringed by engraved kerbstones. It is believed to have been used for burials in ages past." />
+    <string id="BEWonderNewgrangeLandmarkAncientMound.text" text="Ancient Mound" />
+    <string id="BEWonderNewgrangeLandmarkPassageTomb.text" text="Passage Tomb" />
+    <string id="BEWonderNewgrangeLandmarkRitualCircle.text" text="Ritual Circle" />
+    <string id="BEWonderNewgrangeName.text" text="Ancient Burial Mound" />
+    <string id="BEWonderOpenStashAction.text" text="Open" />
+    <string id="BEWonderOpenStashDescription.text" text="Hidden Stash" />
+    <string id="BEWonderPasyrisKurganDescription.text" text="An impressive burial mound, next to the river Borysthenes. According to the locals, it's the resting place of Scythian kings." />
+    <string id="BEWonderPasyrisKurganLandmarkBankoftheBorysthenes.text" text="Bank of the Borysthenes" />
+    <string id="BEWonderPasyrisKurganLandmarkHerdersCamp.text" text="Herder's Camp" />
+    <string id="BEWonderPasyrisKurganLandmarkRoyalTomb.text" text="Royal Tomb" />
+    <string id="BEWonderPasyrisKurganName.text" text="Kurgan near Pasyris" />
+    <string id="BEWonderPlayerSpawnMissing.text" text="This Wonder scene has no valid player spawn point. The exploration mission has been closed safely." />
+    <string id="BEWonderPyramidsDescription.text" text="The most ancient of the seven wonders of the world, the monumental Pyramids stand tall as a reminder of the greatness of Egyptian civilization." />
+    <string id="BEWonderPyramidsLandmarkGreatPyramid.text" text="Great Pyramid" />
+    <string id="BEWonderPyramidsLandmarkPyramidsofQueens.text" text="Pyramids of Queens" />
+    <string id="BEWonderPyramidsLandmarkSphynx.text" text="Sphynx" />
+    <string id="BEWonderPyramidsName.text" text="The Great Pyramids" />
+    <string id="BEWonderRostamDescription.text" text="Necropolis of the Persian Kings, carved into the arid cliffside, featuring several Achaemenid royal tombs, as well as rock reliefs of Sassanid kings." />
+    <string id="BEWonderRostamLandmarkCubeofZarathustra.text" text="Cube of Zarathustra" />
+    <string id="BEWonderRostamLandmarkTombofDariustheGreat.text" text="Tomb of Darius the Great" />
+    <string id="BEWonderRostamLandmarkTombofXerxes.text" text="Tomb of Xerxes" />
+    <string id="BEWonderRostamName.text" text="The Necropolis of Rostam" />
+    <string id="BEWonderSarbacumKurganDescription.text" text="A large mound, standing tall in the surrounding flat plains." />
+    <string id="BEWonderSarbacumKurganLandmarkBurialChamber.text" text="Burial Chamber" />
+    <string id="BEWonderSarbacumKurganLandmarkCamp.text" text="Camp" />
+    <string id="BEWonderSarbacumKurganLandmarkExcavation.text" text="Excavation" />
+    <string id="BEWonderSarbacumKurganName.text" text="Kurgan near Sarbacum" />
+    <string id="BEWonderSceneErrorTitle.text" text="Wonder scene unavailable" />
+    <string id="BEWonderStandingStonesDescription.text" text="Standing on top of a mountain, a few standing stones mark the location of an ancient ritual site." />
+    <string id="BEWonderStandingStonesLandmarkHut.text" text="Hut" />
+    <string id="BEWonderStandingStonesLandmarkStandingStones.text" text="Standing Stones" />
+    <string id="BEWonderStandingStonesLandmarkWatchTower.text" text="Watch Tower" />
+    <string id="BEWonderStandingStonesName.text" text="Standing Stones" />
+    <string id="BEWonderStatueZeusDescription.text" text="The sanctuary of Olympia is a sacred site of the hellenic world, where every four years athletic competitions are held in honor of Zeus, the king of the gods. The immense chryselephantine sculpture of Zeus is in the center of the sactuary." />
+    <string id="BEWonderStatueZeusLandmarkNymphaeum.text" text="Nymphaeum" />
+    <string id="BEWonderStatueZeusLandmarkStatueofZeus.text" text="Statue of Zeus" />
+    <string id="BEWonderStatueZeusLandmarkTempleofHera.text" text="Temple of Hera" />
+    <string id="BEWonderStatueZeusName.text" text="Statue of Zeus at Olympia" />
+    <string id="BEWonderStoneFieldsDescription.text" text="A massive alignment of thousands of standing stones. According to local legend, each of the stones were once pagan soldiers who had been turned into stone by the Christian Pope Cornelius over a hundred years ago." />
+    <string id="BEWonderStoneFieldsLandmarkDolmen.text" text="Dolmen" />
+    <string id="BEWonderStoneFieldsLandmarkEasternAlignment.text" text="Eastern Alignment" />
+    <string id="BEWonderStoneFieldsLandmarkWesternAlignment.text" text="Western Alignment" />
+    <string id="BEWonderStoneFieldsName.text" text="Stone Fields" />
+    <string id="BEWonderStonehengeDescription.text" text="A mysterious, circular row of standing stones, forming an impressive monument since time immemorial." />
+    <string id="BEWonderStonehengeLandmarkBarrows.text" text="Barrows" />
+    <string id="BEWonderStonehengeLandmarkStonehenge.text" text="Stonehenge" />
+    <string id="BEWonderStonehengeLandmarkTheCursus.text" text="The Cursus" />
+    <string id="BEWonderStonehengeName.text" text="Stonehenge" />
+    <string id="BEWonderTempleArtemisDescription.text" text="A monumental ancient temple, dedicated to the Godess Artemis, or Diana, as known by the romans, near the city of Ephesus." />
+    <string id="BEWonderTempleArtemisLandmarkAltar.text" text="Altar" />
+    <string id="BEWonderTempleArtemisLandmarkArtemision.text" text="Artemision" />
+    <string id="BEWonderTempleArtemisLandmarkBalcony.text" text="Balcony" />
+    <string id="BEWonderTempleArtemisName.text" text="Temple of Artemis" />
+    <string id="BEWonderTowerHerculesDescription.text" text="An old lighthouse, known as the Farum Brigantium. According to myth, the hero Hercules slew the giant tyrant Geryon after three days and three nights of battle. The lighthouse, standing atop a skull and crossbones representing the buried head of Hercules' slain enemy. " />
+    <string id="BEWonderTowerHerculesLandmarkBay.text" text="Bay" />
+    <string id="BEWonderTowerHerculesLandmarkCamp.text" text="Camp" />
+    <string id="BEWonderTowerHerculesLandmarkTowerofHercules.text" text="Tower of Hercules" />
+    <string id="BEWonderTowerHerculesName.text" text="Tower of Hercules" />
+    <string id="BEWonderTrajansBridgeDescription.text" text="An old Bridge, built by Emperor Traianus centuries ago, it's believed to be the longest bridge in the world. The wooden structure is ruined, but the stone foundation stands strong." />
+    <string id="BEWonderTrajansBridgeLandmarkBankoftheDanubius.text" text="Bank of the Danubius" />
+    <string id="BEWonderTrajansBridgeLandmarkBridgeofTraianus.text" text="Bridge of Traianus" />
+    <string id="BEWonderTrajansBridgeLandmarkPontesFort.text" text="Pontes Fort" />
+    <string id="BEWonderTrajansBridgeName.text" text="Bridge of Traianus" />
+    <string id="BEWonderTropaeaDrusiDescription.text" text="An old, overgrown victory monument of a certain roman general called Nero Claudius Drusus, commemorating his victories over the local tribes." />
+    <string id="BEWonderTropaeaDrusiLandmarkBankoftheVisurgis.text" text="Bank of the Visurgis" />
+    <string id="BEWonderTropaeaDrusiLandmarkCamp.text" text="Camp" />
+    <string id="BEWonderTropaeaDrusiLandmarkMonumentofDrusus.text" text="Monument of Drusus" />
+    <string id="BEWonderTropaeaDrusiName.text" text="Monument of Drusus" />
+    <string id="BE_MCM_HistoricalCampaignLog.text" text="Historical Campaign log" />
+    <string id="BE_MCM_HistoricalCampaignLogHint.text" text="Output runtime diagnostics for candidate data, previews, validation, safe spawning and player identity transfer." />
+    <string id="BE_MCM_WonderSystemLog.text" text="Wonder system log" />
+    <string id="BE_MCM_WonderSystemLogHint.text" text="Output runtime diagnostics for Wonder discovery, scenes, residents, animals, landmarks and stashes." />
+    <string id="Q2RKkISe.text" text="There are a number of us in this estate. We dine well on grapes and bread we provide for ourselves. Some of us once knew wealth and power, but what we relish now is freedom. Freedom from the worry that what we hoard will be lost. Freedom from the fear that our actions offend Heaven. The only true freedom. We welcome newcomers, like your good self." />
+    <string id="be_champion_bound_ask_duels.text" text="Tell me about Champion duels." />
+    <string id="be_champion_bound_ask_role.text" text="What does it mean to be a Champion?" />
+    <string id="be_champion_bound_ask_service.text" text="Whom do you serve?" />
+    <string id="be_champion_bound_duels_reply.text" text="When you meet my lord as an enemy in the field, you may challenge me to single combat before the armies engage. Such a challenge is made during the encounter, not here in a tavern." />
+    <string id="be_champion_bound_farewell.text" text="Farewell." />
+    <string id="be_champion_bound_intro.text" text="I am {BE_CHAMPION_NAME}, Champion in the service of {BE_CHAMPION_OWNER}. My oath is already sworn." />
+    <string id="be_champion_bound_role_reply.text" text="I bear my lord's honour in challenge and battle, and I stand beside {BE_CHAMPION_OWNER} wherever duty calls." />
+    <string id="be_champion_bound_service_reply.text" text="I serve {BE_CHAMPION_OWNER} of {BE_CHAMPION_OWNER_CLAN}. Until that oath ends, my sword is not for hire." />
+    <string id="be_champion_duel_accept.text" text="Very well. My Champion will meet you on the field." />
+    <string id="be_champion_duel_challenge.text" text="Before we fight, I challenge your Champion to single combat!" />
+    <string id="be_champion_duel_champion_fallen.text" text="The duel has ended. Let the battle commence!" />
+    <string id="be_champion_duel_no_show.text" text="My Champion cannot answer your challenge. Battle is joined!" />
+    <string id="be_champion_duel_objective.text" text="I must defeat the enemy Champion to break their spirits!" />
+    <string id="be_champion_duel_player_fallen.text" text="The challenger has fallen! Forward!" />
+    <string id="be_champion_duel_timeout.text" text="The duel has gone on long enough. Let the battle commence!" />
+    <string id="be_champion_duel_treachery.text" text="Treachery! The challenger has violated the duel!" />
+    <string id="be_champion_fallen_house.text" text="a fallen house" />
+    <string id="be_champion_tavern_repeat_greeting.text" text="We meet again. My old oath is ended, and I remain ready to speak of what comes next." />
+    <string id="be_champion_tavern_story_1.text" text="I once stood as Champion to {BE_CHAMPION_FORMER_OWNER}, sworn sword of {BE_CHAMPION_FORMER_CLAN}." />
+    <string id="be_champion_tavern_story_2.text" text="That house has fallen and belongs to no kingdom now. With its last lord gone, the oath that bound me has ended." />
+    <string id="be_champion_tavern_story_3.text" text="I still have my sword and my honour. I seek a new leader, and a cause worthy of both." />
+    <string id="be_champion_unknown_house.text" text="my lord's house" />
+    <string id="be_champion_unknown_lord.text" text="my former lord" />
+    <string id="be_life_ask_spouse_for_child.text" text="My love, I want us to have a child." />
+    <string id="be_life_spouse_agrees_to_child.text" text="So do I, my love." />
+    <string id="be_temple_arian_answer_1.text" text="Undoubtedly! For it is written in the letter to Corinth; “Indeed, even though there may be so-called gods in heaven or on earth—as in fact there are many gods and many lords and masters—yet for us there is one God, the Father, from whom are all things and for whom we exist, and one Lord and Master, Jesus Christ, through whom are all things and through whom we exist.” It is evident even there that The Father and The Son are separate beings, for the Son is subject to the Father." />
+    <string id="be_temple_arian_answer_2.text" text="Certainly! Those Nicene bishops are too stuck in the Empire and its comforts to come out and preach to the masses! We have gained great success with the Gothic Kingdoms and also further west with some Germanic groups. In fact, the Goths have developed an alphabet because of Ulfiflas, a man who believes in the true nature of God." />
+    <string id="be_temple_arian_answer_3.text" text="I do indeed! In fact, I think we got close - before he died, Emperor Constantine was baptised by Eusebius of Nicomedia - a bishop who was sympathetic to the teachings of Arius and the plight of we who see the truth. So clearly he was brought around to the truth before he died, so I believe we are close. We just have to persevere." />
+    <string id="be_temple_arian_description_1.text" text="We are Christians, same as the others; except we are looked down upon by other Christians for believing the truth. As pointed out by Arius, The Son is not God, but is God’s first and perfect creation." />
+    <string id="be_temple_arian_description_2.text" text="Arius was by no means the first to believe as such, but he is the one who pointed out this simple truth to a wider audience. God is God - to suggest God is in three parts is to break gold off of a whole bar; there is no point." />
+    <string id="be_temple_arian_description_3.text" text="To believe that God is of an absolute nature is a traditional idea, especially out in the eastern provinces. There is scriptural proof, and it just makes sense. Indeed, the Goths have adopted Christianity and our view over the Nicene view; we are actually reaching beyond the bounds of the Empire and to those that would normally be labelled ‘Barbarians’!" />
+    <string id="be_temple_arian_question_1.text" text="So you believe that the Nicene Creed is wrong?" />
+    <string id="be_temple_arian_question_2.text" text="You say these teachings have found success outside the Empire?" />
+    <string id="be_temple_arian_question_3.text" text="Do you think you will ever gain acceptance in the Empire?" />
+    <string id="be_temple_berber_answer_1.text" text="Ancestors, local deities, nature spirits, and revered kings who have joined the divine. I would thus cite the names of Bonchor, Vihinam and Macurgum." />
+    <string id="be_temple_berber_answer_2.text" text="The ram is the most common sacrificial animal. Cattle, pigeons, prepared dishes, cakes, flower garlands, and palm fronds were among the offerings made to the gods." />
+    <string id="be_temple_berber_answer_3.text" text="We engage in various rituals. We perform, for example, bathing and sprinkling rituals during the summer solstice and times of drought, with the aim of bringing about rain, soil fertility, and the fecundity of the herds." />
+    <string id="be_temple_berber_description_1.text" text="The sacred dwells throughout nature. Mountains, caves, springs, trees, and stones are inhabited by gods, spirits, and unseen guardians whose favor must be earned through offerings and respect." />
+    <string id="be_temple_berber_description_2.text" text="Our faithful are filled with great fervor, eager as we are to win the favor of our many gods. We have thus made a habit of praying to them collectively as the &quot;Moorish gods,&quot; seeking thereby to avert the danger of overlooking some unknown deity." />
+    <string id="be_temple_berber_description_3.text" text="Every tribe preserves its own sacred traditions. Though some gods are identified with Roman deities, many ancient spirits endure, worshipped in natural sanctuaries, shrines, and temples across North Africa." />
+    <string id="be_temple_berber_question_1.text" text="Which gods do you worship?" />
+    <string id="be_temple_berber_question_2.text" text="What offerings do you make to honor the gods?" />
+    <string id="be_temple_berber_question_3.text" text="What types of rituals do you engage in?" />
+    <string id="be_temple_buddhism_answer_1.text" text="A teacher who discovered the path to enlightenment and freedom from the cycle of rebirth. His name is Siddhartha Gautama, and he was an ascetic who renounced his status as a prince in order to persevere in the quest for spirituality and renunciation." />
+    <string id="be_temple_buddhism_answer_2.text" text="It is achieved through meditation, moral discipline, and wisdom. To be more precise, enlightenment is the direct realization of the true nature of reality, freedom from ignorance, and the complete cessation of suffering is our ultimate spiritual goal." />
+    <string id="be_temple_buddhism_answer_3.text" text="They preserve the Buddha's teachings, practice meditation, and guide others toward enlightenment" />
+    <string id="be_temple_buddhism_description_1.text" text="We believe that all beings are trapped in the endless cycle of rebirth. The Buddha taught that suffering is caused by ignorance and attachment, and that following his teachings leads to liberation and Nirvana." />
+    <string id="be_temple_buddhism_description_2.text" text="Meditation, moral discipline, and wisdom allow the faithful to understand the true nature of existence and attain enlightenment." />
+    <string id="be_temple_buddhism_description_3.text" text="Monks preserve the Buddha's teachings and guide the faithful along the path to enlightenment." />
+    <string id="be_temple_buddhism_question_1.text" text="Who was the Buddha?" />
+    <string id="be_temple_buddhism_question_2.text" text="How is enlightenment achieved and what does it exactly mean?" />
+    <string id="be_temple_buddhism_question_3.text" text="What is the role of monks?" />
+    <string id="be_temple_celtic_answer_1.text" text="The most famous of course is Aquae Sulis in Britannia, but there are many others around the world. You’ll find Nodens’ great healing temple nearby outside of Caerloyw, Sequana’s springs outside of Divio, and Luxovius’ springs are easy to identify by their namesake." />
+    <string id="be_temple_celtic_answer_2.text" text="We sacrifice animals to our gods and goddesses, or leave votive figures at their shrines and temples, or keep them above our hearths for protection. Some people carve great three-headed idols of stone, or stone busts. The sacrifice of horses and bulls are the most important as they inaugurate our great leaders or help seers divine the will of the gods." />
+    <string id="be_temple_celtic_answer_3.text" text="If those claims are true, I don’t think it’s been done in centuries." />
+    <string id="be_temple_celtic_description_1.text" text="Our traditions are ancient, going back before the Roman conquest of Gaul and Britannia and even influencing the conquerors! We believe in a great variety of spirits who stem from all parts of our world. Many of them are regional, you won’t find Sulis being worshipped in Gaul. But we do have our shared gods and goddesses as well." />
+    <string id="be_temple_celtic_description_2.text" text="Our chief gods are Tanaris, god of the heavens and nature’s cycles, Tutate is the protector of the gens, and the Matron goddesses like Andate and Nehalennia are also important to our people. And obviously the horse goddess Epona is very popular among the Romans." />
+    <string id="be_temple_celtic_description_3.text" text="We build temples called a fanum in some parts, but many of our sacred spaces are the groves and healing springs the local spirits inhabit. These are also the places where our ways and our language have survived and remain strong." />
+    <string id="be_temple_celtic_question_1.text" text="Where can I find these healing springs?" />
+    <string id="be_temple_celtic_question_2.text" text="How do you worship your gods?" />
+    <string id="be_temple_celtic_question_3.text" text="Are the stories of human sacrifice that Tacitus and other authors say true?" />
+    <string id="be_temple_convert_no_reply.text" text="Take whatever time you need." />
+    <string id="be_temple_germanic_answer_1.text" text="Well for example the people in the North who worship Nerthuz have a ceremonial wagon of hers that they cover in a white sheet and draw with heifers every year in a grand procession. When the time comes, the wagon, the heifers, and the slaves who attend the cart are taken to a sacred lake or bog where they are then sacrificed in the cleansing ceremony." />
+    <string id="be_temple_germanic_answer_2.text" text="We have gods and goddesses of war, like Tiwaz and Badwahenae, but usually our religion is not the cause for conflict. War is forbidden during Nerthuz’ ceremonial procession, and fighting on sacred grounds is a grave offense. Drusus and Germanicus fought battles at many of our holy sites, desecrating them and causing their abandonment." />
+    <string id="be_temple_germanic_answer_3.text" text="There is a new pantheon becoming popular among the peoples migrating down from the ocean which separates Germania from Scania. Their chief gods are Wodanaz and Tiwaz. The Goths call the latter Teiws but don’t worship Wodanaz like the Jutes, who think he is greater than Tiwaz. They all seem to be part of Nerthuz’ clan, but I don’t really know too much about them beyond that." />
+    <string id="be_temple_germanic_description_1.text" text="There is no united pantheon of Germanic gods, but many peoples share beliefs. The Chatti worship the sacred world tree, known as the Tree of Jupiter, which is truly ancient and clearly from the dawn of Middle Earth. The people on the border with Gaul worship the matron goddesses such as Nerthuz, Badwahenae, Tanfo, and Hrethe. The Suebi worship the ides including the Celtic Nehalenja, and the Lugii worship the divine twins called the Alhiz. There are also some new arrivals as well." />
+    <string id="be_temple_germanic_description_2.text" text="Our sacred places are typically created out of forest groves, glades, lakes, bogs, and springs, where we perform our sacred rites. These differ from deity to deity, who we carve into wood figures and totems to make our requests with. We do build temples as well, usually on places where our ancestors built them." />
+    <string id="be_temple_germanic_description_3.text" text="Our priests, seeresses, rune masters, and other holy people come in many forms. They can be identified by their wearing of animal furs, oath rings, staves, and other sacred objects. Priests of Alhiz even dress in women’s clothing!" />
+    <string id="be_temple_germanic_question_1.text" text="Tell me more about these rituals." />
+    <string id="be_temple_germanic_question_2.text" text="Do you often fight over your religious differences?" />
+    <string id="be_temple_germanic_question_3.text" text="Tell me more about these “new arrivals.”" />
+    <string id="be_temple_graeco_roman_answer_1.text" text="Our rites maintain harmony between humanity, nature, and the divine. Through sacrifices, prayers, and festivals, we honor the gods and preserve the order of the cosmos." />
+    <string id="be_temple_graeco_roman_answer_2.text" text="The philosophers teach that myths contain hidden truths and that the many gods reflect a higher divine reality. By seeking knowledge and virtue, the soul may rise toward the divine." />
+    <string id="be_temple_graeco_roman_answer_3.text" text="The Empire is changing, and many ancient customs are fading. Yet we believe the wisdom of the gods cannot be erased, and that our tradition will endure beyond the rule of emperors.." />
+    <string id="be_temple_graeco_roman_description_1.text" text="I serve the ancient gods who have guided our cities since the first ages: Zeus, Apollo, Athena, Hermes, Aphrodite, and countless divine powers governing the cosmos, nature, and human destiny." />
+    <string id="be_temple_graeco_roman_description_2.text" text="The wisdom of Plato, Pythagoras, and the sacred philosophers reveals that the gods are manifestations of a higher divine order. Through philosophy, astrology, knowledge, virtue, and theurgy, we purify the soul and seek union with the divine source beyond the visible world." />
+    <string id="be_temple_graeco_roman_description_3.text" text="Our ancient traditions face a changing age. The Christian faith has gained the support of emperors, while temples lose their influence and ancestral customs fade. Like Emperor Julian, we seek to restore Hellenic piety, not as mere tradition, but as a spiritual and philosophical path preserving the wisdom of the ancients." />
+    <string id="be_temple_graeco_roman_question_1.text" text="What is the purpose of your sacred traditions?" />
+    <string id="be_temple_graeco_roman_question_2.text" text="Tell me more about how your wisdom guides your understanding of the gods?" />
+    <string id="be_temple_graeco_roman_question_3.text" text="How do you face the rise of Christianity?" />
+    <string id="be_temple_nicene_answer_1.text" text="We call it the Holy Trinity - in essence, you have God the Father, who is also the God of Israel. Then you have Jesus Christ, who is God the Son. He came down to dwell with us as flesh, both man wholly man and wholly God. Then he was killed and fulfilled the words of the Prophets, coming back from the dead. In doing all this, He paid the price of our sins so that we might dwell in heaven with Him. When He returned to The Father’s side, He sent the Holy Spirit to dwell with us - who is also God. So you see, it is God the Father, God the Son and God the Holy Spirit. And we worship God, for God died for us so we might have eternal life." />
+    <string id="be_temple_nicene_answer_2.text" text="These days, it's a lot better than it used to be. The most recent troubles came from Emperor Julian, but more recently we have been largely accepted - and our numbers are growing! More and more people dedicate their lives to Christ every day. Now if only we didn’t have the madness of Arius to contend with…" />
+    <string id="be_temple_nicene_answer_3.text" text="The teachings of Christ have spread as far east as India and as far south as Aksum. Armenia and Kartli have embraced Christ and have Christian rulers and laws. That is not to say it is easy still - I have heard that Christians have been having trouble with the men north of the Empire, and the Persians seem inconsistent on if they tolerate us or not." />
+    <string id="be_temple_nicene_description_1.text" text="We are all part of the Church, the Body of Christ, who believe in Him. We study what He did and said, as written down by His disciples. Through His death and resurrection our sins are forgiven. Our beliefs were codified into the Nicene Creed at the Council of Nicaea under Emperor Constantine." />
+    <string id="be_temple_nicene_description_2.text" text="We believe that Jesus was the Son of God, and that He was also God. As it was written by John, “in the beginning was the Word, and the Word was with God, and the Word was God.” To believe otherwise, that Jesus is separate from God, is to invalidate His sacrifice for us." />
+    <string id="be_temple_nicene_description_3.text" text="For the longest time we were persecuted throughout the Empire, though only under Diocletian was it a targeted imperial decree. Now, we have been accepted by the Empire and in time, we hope to be fully embraced, like we are already in Armenia." />
+    <string id="be_temple_nicene_question_1.text" text="Tell me more about the nature of Christ" />
+    <string id="be_temple_nicene_question_2.text" text="How is being a Christian in the Empire?" />
+    <string id="be_temple_nicene_question_3.text" text="What about Christians outside the Empire?" />
+    <string id="be_temple_no_other_questions.text" text="Thank you. That is all I wanted to know." />
+    <string id="be_temple_questions_done_reply.text" text="You are welcome. Is there anything else you wish to ask?" />
+    <string id="be_temple_sarmatian_answer_1.text" text="Well there is our highest and most important one, the primordial creator goddess Tapati, who you know so well as our fire goddess. She birthed the god of the heavens Papaeus and the goddess of the earth and waters Api, whose union created our world. Then there is Tarka and her champion Targitavah, who is kind of like your Heracles, our war god Bartraz, Gaitasura the sun-god, and Artimpasa the goddess of fertility and sovereigns." />
+    <string id="be_temple_sarmatian_answer_2.text" text="Ah yes, like our handful of other sacred places like the shrines at Hylaea and Tyras, they too tend to be created in forest groves or clearings, where a brushwood structure is built with stairs on one side, and a platform is placed atop upon which a sword is embedded vertically into the platform as a representation of Batraz himself. You may have seen these in your travels." />
+    <string id="be_temple_sarmatian_answer_3.text" text="Well the one you probably have encountered is the Thiasoi of Tanais, where all free men are members who worship Papaeus, the God of the Heavens. They have a class system based on trade, status, and age, and assist the city in administering justice." />
+    <string id="be_temple_sarmatian_description_1.text" text="Our pantheon consists of seven gods representing the elements and the celestial realm. We are often called fire worshippers like the Zoroastrians, but our pantheon is a little more complete than theirs. You may already know it well, Herodotos himself describes our traditions albeit in Greek terms." />
+    <string id="be_temple_sarmatian_description_2.text" text="We have many traditions and customs associated with their worship, although we rarely build shrines and temples to the gods other than our war god Batraz, who you know as Ares, and the snake-legged goddess who birthed all the people." />
+    <string id="be_temple_sarmatian_description_3.text" text="Of course we sacrifice animals to the gods as others do, and our priests, the Anarya, are powerful seers and esteemed aristocrats in our society. In some cities our worshippers among the townsmen also form societies and hold festivals as well." />
+    <string id="be_temple_sarmatian_question_1.text" text="What are the names of your gods?" />
+    <string id="be_temple_sarmatian_question_2.text" text="Tell me more about the shrines of Batraz." />
+    <string id="be_temple_sarmatian_question_3.text" text="Tell me more about these city societies." />
+    <string id="be_temple_slavic_answer_1.text" text="In our country yes, there are few here who worship the religions to the South like Christ or Zoroaster. We may not be as numerous as the Romans, but we are strong in our shared belief." />
+    <string id="be_temple_slavic_answer_2.text" text="There are a few different versions of the story. The first tells of the cooperation of Perun and Veles, who combined the sand and the water of the great ocean to create the world. But then Veles stole Perun’s cattle and they have been at odds ever since! The second tells of two pigeons on the world tree who combined blue stones, fine sand, and the water of the primordial ocean to create the world." />
+    <string id="be_temple_slavic_answer_3.text" text="Nobody truly knows except those who have seen them and carve the images inside the inner temple, which you cannot be allowed to see. Some of the great faceless stone idols can be visited however, where you may offer gifts or sit on one to receive healing. They are easy to find, they look like giant… mushrooms." />
+    <string id="be_temple_slavic_description_1.text" text="We have many deities, chief among them are Perun, god of the heavens and the world tree, and Veles, god of the underworld and magic. The other two chief deities are Mokosh, goddess of water and fertility, and Lada, goddess of war. Our other gods are Dazhbog, god of the Sun, Svarog, god of fire and metalwork, and numerous others." />
+    <string id="be_temple_slavic_description_2.text" text="We build our temples properly, raised on platforms with stilts on top of hills or at the confluence of rivers. They are called continae as they are the houses of the gods. Our other sacred sites are found at springs and sacred groves." />
+    <string id="be_temple_slavic_description_3.text" text="Only our priests are allowed to see our gods, but all join for the ritual banquets and sacrifices held at the continae." />
+    <string id="be_temple_slavic_question_1.text" text="Are there many worshippers of your faith?" />
+    <string id="be_temple_slavic_question_2.text" text="How do you think the world came to be?" />
+    <string id="be_temple_slavic_question_3.text" text="What do your gods look like?" />
+    <string id="be_temple_tell_me_about_faith.text" text="Tell me about {BE_RELIGION_NAME}." />
+    <string id="be_temple_tengrism_answer_1.text" text="When you die and pass to the underworld with Erlik, Tangri takes your soul and brings you back to life. While your soul may reincarnate, your soul of personality passes forever into nature, which is why each incarnation of you is different." />
+    <string id="be_temple_tengrism_answer_2.text" text="All of our sacred places are devoted to the great open sky and Tangri who watches over us. That is why our small temples are located in open fields like this. But our most sacred places are on the tallest mountains, including Tangri’s peak itself far to the East." />
+    <string id="be_temple_tengrism_answer_3.text" text="Our shamans lead us in animal sacrifices and practice magic and divination to receive portents of the future and guidance from Tengri." />
+    <string id="be_temple_tengrism_description_1.text" text="Tangri is our great sky-god, who ordains the actions of the Aniliki. He created the world and gave us life through the world tree, while Erlik presides over the dead and the underworld. We have other gods and goddesses too, but they have become less important over the years, and many don’t worship any of them anymore except Tangri and Erlik." />
+    <string id="be_temple_tengrism_description_2.text" text="We believe there are three worlds: the heavens and the sky, the Earth, and the underworld. Our shamans, called a kam, can commune between them with divination and sacrifices. The world tree connects them all, where the double-headed eagle Samurik watches over the world, while Erlik slithers up the tree to try and steal his power." />
+    <string id="be_temple_tengrism_description_3.text" text="We believe that each person has three souls: the soul that invigorates, the soul that reincarnates, and the soul of personality." />
+    <string id="be_temple_tengrism_question_1.text" text="How does reincarnation work?" />
+    <string id="be_temple_tengrism_question_2.text" text="What are your sacred places like?" />
+    <string id="be_temple_tengrism_question_3.text" text="How do you practice your religion." />
+    <string id="be_temple_zoroastrian_answer_1.text" text="We follow the path of good thoughts, good words, and good deeds. We protect truth, purity, and all of Ahura Mazda’s creation. We revere Zoroaster as the prophet sent by Ahura Mazda to guide us." />
+    <string id="be_temple_zoroastrian_answer_2.text" text="The Avestas contain the sacred prayers, hymns, and teachings that guide the faithful in the struggle between good and evil." />
+    <string id="be_temple_zoroastrian_answer_3.text" text="We preserve the divine order of the kingdom and advise rulers who defend the sacred law. Our clergy protect traditions, holy texts, and the customs of our people." />
+    <string id="be_temple_zoroastrian_description_1.text" text="I serve Ahura Mazda, the creator of wisdom and order. Our faith teaches that every person must choose between truth and falsehood through their actions." />
+    <string id="be_temple_zoroastrian_description_2.text" text="We honor the sacred fire, a symbol of purity and divine presence, and recite the ancient words of the Avesta, our sacre texts. Through our prayers and rituals, we maintain harmony within creation." />
+    <string id="be_temple_zoroastrian_description_3.text" text="Our faith teaches that every person must choose between good and evil through their thoughts, words, and deeds. We believe Ahura Mazda will one day restore the perfect order of the world." />
+    <string id="be_temple_zoroastrian_question_1.text" text="What are the main beliefs and values of this religion?" />
+    <string id="be_temple_zoroastrian_question_2.text" text="What are the teachings of your sacred texts?" />
+    <string id="be_temple_zoroastrian_question_3.text" text="What role does this religion play in society and politics?" />
+    <string id="ruHt0Ub5.text" text="You arrive at a small villa in the countryside. Locals seem unbothered by the wars and utrmoil of the world, tending to their daily chores..." />
+    <string id="str_adjective_for_culture.alanian.text" text="Alanian" />
+    <string id="str_adjective_for_culture.armenian.text" text="Armenian" />
+    <string id="str_adjective_for_culture.bosporan.text" text="Bosporan" />
+    <string id="str_adjective_for_culture.burgundian.text" text="Burgundian" />
+    <string id="str_adjective_for_culture.caucasian.text" text="Caucasian" />
+    <string id="str_adjective_for_culture.eastroman.text" text="Eastern Roman" />
+    <string id="str_adjective_for_culture.frankish.text" text="Frankish" />
+    <string id="str_adjective_for_culture.gothic.text" text="Gothic" />
+    <string id="str_adjective_for_culture.hibernian.text" text="Hibernian" />
+    <string id="str_adjective_for_culture.kushan.text" text="Kushan" />
+    <string id="str_adjective_for_culture.lakhmid.text" text="Lakhmid" />
+    <string id="str_adjective_for_culture.langobard.text" text="Langobard" />
+    <string id="str_adjective_for_culture.marcomannic.text" text="Marcomannic" />
+    <string id="str_adjective_for_culture.nordic.text" text="Nordic" />
+    <string id="str_adjective_for_culture.quadian.text" text="Quadian" />
+    <string id="str_adjective_for_culture.salihid.text" text="Salihid" />
+    <string id="str_adjective_for_culture.sarmatian.text" text="Sarmatian" />
+    <string id="str_adjective_for_culture.sassanid.text" text="Sassanid" />
+    <string id="str_adjective_for_culture.saxon.text" text="Saxon" />
+    <string id="str_adjective_for_culture.tanukhid.text" text="Tanukhid" />
+    <string id="str_adjective_for_culture.vandal.text" text="Vandal" />
+    <string id="str_adjective_for_culture.westroman.text" text="Western Roman" />
+    <string id="str_adjective_for_culture.xionite.text" text="Xionite" />
+    <string id="str_adjective_for_faction.alanian.text" text="Alanian" />
+    <string id="str_adjective_for_faction.armenian.text" text="Armenian" />
+    <string id="str_adjective_for_faction.bosporan.text" text="Bosporan" />
+    <string id="str_adjective_for_faction.burgundian.text" text="Burgundian" />
+    <string id="str_adjective_for_faction.caucasian.text" text="Caucasian" />
+    <string id="str_adjective_for_faction.eastroman.text" text="Eastern Roman" />
+    <string id="str_adjective_for_faction.frankish.text" text="Frankish" />
+    <string id="str_adjective_for_faction.gothic.text" text="Gothic" />
+    <string id="str_adjective_for_faction.kushan.text" text="Kushan" />
+    <string id="str_adjective_for_faction.lakhmid.text" text="Lakhmid" />
+    <string id="str_adjective_for_faction.langobard.text" text="Langobard" />
+    <string id="str_adjective_for_faction.marcomannic.text" text="Marcomannic" />
+    <string id="str_adjective_for_faction.nordic.text" text="Nordics" />
+    <string id="str_adjective_for_faction.quadian.text" text="Quadian" />
+    <string id="str_adjective_for_faction.salihid.text" text="Salihid" />
+    <string id="str_adjective_for_faction.sarmatian.text" text="Sarmatian" />
+    <string id="str_adjective_for_faction.sassanid.text" text="Sassanid" />
+    <string id="str_adjective_for_faction.saxon.text" text="Saxon" />
+    <string id="str_adjective_for_faction.tanukhid.text" text="Tanukhid" />
+    <string id="str_adjective_for_faction.vandal.text" text="Vandal" />
+    <string id="str_adjective_for_faction.westroman.text" text="Western Roman" />
+    <string id="str_adjective_for_faction.xionite.text" text="Xionite" />
+    <string id="str_crafting_template.TWB_Javelin.text" text="Javelin" />
+    <string id="str_culture_description.alanian.text" text="A loosely organized kingdom situated along the bends of the Don and the Volga, the Alans have dwelled in these pastures for centuries after being driven westward from the Kazakh steppes by the Sogdians. Now the Alans once again face the loss of their home as they are beset by another ancient Empire: a people who once called themselves the Xiongnu. As their kingdom collapses, the Alans prepare to mount a last stand against these invaders with their newfound allies in the Greuthungians." />
+    <string id="str_culture_description.alemannic.text" text="The Alemans have proven themselves against the Romans over the past century, testing their authority most recently a decade prior. Led by the powerful Iuthungi, their confederation stretches from the old Roman province of the Agri Decumates along the Danube to border their relatives in the Marcomans and Quadians. Like their neighbors to the north, the Alemans stand on the precipice of unification, ready to carve their own kingdom from the remains of their Roman adversaries." />
+    <string id="str_culture_description.armenian.text" text="The Armenians are a people who seem destined for greatness, yet their destiny is constantly thwarted by foreign interference and weak rulers. Having been at times subject to the Achaemenid, Seleucid, Roman and Parthian Empires, it is now juggled between Eastern Rome and the Sassanids. Currently in the hands of the Romans after the assassination of King Pap, there are fears that the country is being prepared to be made into a Roman Province. Yet, the first Christian Nation in the world continues to believe that its great destiny still awaits." />
+    <string id="str_culture_description.bosporan.text" text="The last of the ancient Greek colony states, the Kingdom of the Bosporus is what remains of the great Empire of Mithridates of Pontus, retaining their independence as a client state of the Romans. A fusion of Sarmatian, Hellenistic, and Roman culture, they field a unique blend of these traditions on the battlefield against the encroaching Greuthungians and Alans, who seek to unseat them as they seek a new home and refuge from the onslaught of strange new arrivals from the far east." />
+    <string id="str_culture_description.burgundian.text" text="The Burgundians were a people once unknown to the Romans, migrating from deep in Germania on the far side of the Elbe to the region near the source of the Neckar river, partially filling the void left by the Roman retreat out of the Agri Decumates. Disunited and intermingled with their neighbors in the Franks, Alemans, Suebians and Vandals, the Burgundians stretch far to the east to border the Goths, but are gradually moving westward under migratory pressure." />
+    <string id="str_culture_description.caledonian.text" text="North of Hadrian’s wall, the Pictish peoples have been trading and raiding with the Romans for centuries now, most recently overrunning most of Britannia in the “Great Barbarian Conspiracy” before being driven back. Despite the recent setback, the Caledonians have subsumed the Roman buffer peoples north of Hadrian’s wall, forming a “Great Northern Kingdom” of the Picts, unified and ready to exploit Roman weakness on the wall and beyond." />
+    <string id="str_culture_description.caucasian.text" text="Ancient Colchis was known throughout the Greek and Roman world as a location of the Golden Fleece, though the people who lived there called it Egrisi. Colchis has long since collapsed and in its place, the Kingdom of Lazica has risen. Sitting next to it is Kartli, known to the Romans as Iberia which has outlived its neighbour of Colchis. Finally there is Arran, which is a subject to the Sassanids but has aspirations to expand its territory across the Kura river." />
+    <string id="str_culture_description.eastroman.text" text="It has been ten years since the accession of Rome's co-emperors, Valentinian and Valens. In the east, the Arian emperor Valens has maintained stability, while his religious tolerance has brought widespread support for his rule. Now, the Romans of Constantinople face their greatest challenge yet: the Sasanians are threatening a war over Roman violations of the treaty, while the Danubian peoples are being pushed into the Empire by an unknown power from the far East." />
+    <string id="str_culture_description.frankish.text" text="Over a century prior, the Bructeri, Chauci, Chamavi, and other confederations began to shift and merge into a new people: the Franks. Like their neighbors the Alemans, the Franks are not one united people per se, consisting of multiple warlords and many cantons. Having launched a massive invasion of Gaul a decade prior, some have established themselves across the Rhine as foederati, but these squabbling leaders may yet unite again to forge their own kingdom." />
+    <string id="str_culture_description.gothic.text" text="The Goths are a broad group of peoples ranging from the Thervingians on the slopes of the Carpathians, to the Vesias in the nearby forest zone and the Greuthungians on the Pontic steppes. Under pressure from their neighbors the Alans, the Thervingians and Greuthungians have been moving to the Danube, becoming increasingly desperate for a settlement with the Romans. As their confederations collapse and food supplies dwindle, that desperation is on the verge of boiling over." />
+    <string id="str_culture_description.hibernian.text" text="A century ago, the Gaelic peoples of Ulster and the Hebrides began to expand beyond their lands, raiding and settling the coasts of Argyll. Known as the Scoti to the Romans, the recent “Great Barbarian Conspiracy” has brought them to new heights, achieving victories beyond their imagination despite the Romans ultimately driving them back from Britannia. As Roman and Pictish power in the island wanes, the opportunity to build their own kingdom awaits." />
+    <string id="str_culture_description.hunnic.text" text="A people never before encountered in Europe, the Huns were previously only known through the passing mentions of Bactrian merchants. Now, these heirs of the Xiongnu have been driven west into the Pontic by years of debilitating drought in the Eurasian steppes. Highly organized, skilled with the bow, lance, and sword alike, and spending much of their lives as cavalry, they are poised to be the Scourge of God, carving out a new empire in the heart of central and eastern Europe." />
+    <string id="str_culture_description.kushan.text" text="Once, the ancestors of the Kushans overthrew the Hellenic Kingdom of Bactria and founded the great Kushan Empire. However in the last hundred years, the Kushans have lost territory to the Sassanids and other rivals further east. Reduced to a small area that they ruled as vassals, even that was taken away from them by the Xionites. The last Kushan king, Kipunada, and the remaining Kushan people must content themselves with being vassals of greater powers." />
+    <string id="str_culture_description.lakhmid.text" text="Rivals of the Arab tribes loyal to Rome, the majority of Lakhmids hold onto their pagan beliefs. The current king, Imru al-Qays II, has already built a ruthless reputation dealing with rebellions - some of which were Lakhmid Christian rebellions. Even as a client state of the Sassanids, the Lakhmids enjoy much autonomy and geopolitical influence. Some might whisper that the time is ripe for al-Manadhirah to break away from their Persian overlords." />
+    <string id="str_culture_description.langobard.text" text="The people of “long beards” or Langobards once inhabited a region deep in Germania below Jutland along the Elbe river, but have since migrated upstream towards the Roman frontier. Situated behind their neighbors in the Burgundians, Quadians, and Marcomans, the Langobards have occasionally joined their neighbors in their quarrels against the Romans, but have yet to make a distinct name for themselves. They may one day prove to be a great power, if they can unite." />
+    <string id="str_culture_description.marcomannic.text" text="In the age of Augustus the Marcomans were once the greatest of the Germanic confederations, ruling over all their Suebic neighbors in Baiohaemum and organized into a stratified society under their king Maroboduus. Under Marcus Aurelius they challenged the Romans in the decades-long Marcomannic wars. However, time and again Roman intervention has broken their confederation apart, and now they are a shadow of their former might." />
+    <string id="str_culture_description.nordic.text" text="For centuries the nordic tribes have traded and raided down the North Sea coast. Renowned for their fine metalwork and bog sacrifices, the Angles and Jutes are content in their position on the Jutland peninsula. Their Danish relatives control the islands of Kattegat, while he lands of Scandza are ruled by the Geatish tribes. As Roman power wanes in Britannia, the Angles might join their Saxon brethren to seek fertile lands overseas, leaving Jutland defenseless against the encroaching Danes." />
+    <string id="str_culture_description.quadian.text" text="The Quadians have retained their ancient strength, emerging from the shadow of the Marcomannic neighbors. The Romans have recently begun constructing forts on the opposite side of the Danube in their territory, and now a Roman named Marcellianus has assassinated King Gabinius. Open war has broken out, and the Quadians seek revenge against the Romans across the river, with Pannonia ripe for the taking." />
+    <string id="str_culture_description.salihid.text" text="This tribe of Arabs were first introduced to the Roman World by the Palmyrene Empire, who settled them along the East Roman-Arabian border. When Palmyra was pacified, the Salihids remained and, eventually, followed the Tanukhids in becoming Arab foederati of Rome. Having also converted to Christianity, the Salihids right now are simply one amongst other foederati. If the opportunity presents itself however, the Salihids are ready to propel themselves and further their prospects." />
+    <string id="str_culture_description.sarmatian.text" text="A broad group of people speaking an Indo-Iranian language, the Sarmatians have dwelled on the Eurasian steppes for nearly eight centuries now. Famed for their skills as lancers and horse archers, their most prestigious kingdoms are those of the Iazyges and Roxalani on the edges of Roman Pannonia. The Sarmatians have now found themselves caught up in the dispute between the Quadians and Valentinian, and face a difficult war with Rome." />
+    <string id="str_culture_description.sassanid.text" text="The current incarnation of what the Greeks called “Persia”, the Eranshahr is currently in a Golden Age. The administrative systems set in place by Shapur II, quickly earning the title “The Great”, ensure a bright future for all ruled by the heirs of Sasan. Even as the longest-reigning Shah approaches his final years and the Sassanids face both migratory invaders and unruly vassals, nothing seems capable of putting a stop to progress and prosperity." />
+    <string id="str_culture_description.saxon.text" text="In the lands of the ancient Chauci and Chamavi, a new confederation has emerged to contest their Frankish and Frisian neighbors. The Saxons have already made a name for themselves raiding down the channel, allying with the usurper Magnentius, and exploiting the tumult of the “Great Barbarian Conspiracy.” At war with the powerful Franks, many find themselves pressured to seek out new lands across the sea in Roman Britannia." />
+    <string id="str_culture_description.slavic.text" text="Deep in the forest zone bordering the north of the Pontic steppes, peoples barely known to the Romans eke out an existence in these frigid lands. Broadly known as the Venedians, these peoples are predecessors to the early Slavic peoples that will emerge on Roman borders in the 500s AD. Disparate and disorganized, they have yet to be more than a footnote to history, but with an emerging void to the south, the opportunity to make a name for themselves has begun to emerge." />
+    <string id="str_culture_description.tanukhid.text" text="The Tanukhids followed their great king Jadhima out of the Arabian desert about a hundred years ago. More recently, they have relocated within the borders of the Eastern Roman Empire and sworn themselves as the first Arab foederati of Rome. Now foremost of Rome’s Arab foederati, the al-Tanukhiyyun take their position and duty seriously. They have even converted to Christianity and will fight for their faith, even rising up against the Romans they are loyal to if the Empire’s leaders fall to heresy." />
+    <string id="str_culture_description.vandal.text" text="Once an ancient people known as the Lugii who lived along the Vistula river north of the Quadians, the Vandals now live in the valleys nestled between the slopes of the Carpathians, divided into the Silingi and Asdingi. Despite their mountainous homeland’s natural protection, the Vandals are being pressured by the arrival of Goths, Heruls, and Gepids from the East. With the waning of the power of their Suebic relatives, the Vandali may yet follow the route west into Rome if the opportunity arises." />
+    <string id="str_culture_description.westroman.text" text="It has been ten years since the accession of Rome's co-emperors, Valentinian and Valens. In the west, Valentinian's adept leadership has quashed usurpations, improved the Empire's infrastructure, and benefitted the population of the empire as a whole. Now, the empire stands at a precipice: Valentinian's blindness to the excesses of his officials has resulted in rampant corruption and disloyalty, while Pannonia has been ravaged by the Quadians, incensed at the Roman assassination of their king." />
+    <string id="str_culture_description.xionite.text" text="First made known to the Roman World by Ammianus Marcellinus, the Xionites have already made their mark on history.They have brought about the end of the Kushan Empire and claimed Sogdia from the Sassanids. They even had an alliance with the Sassanids against the Romans, though that treaty has recently fallen apart. Some are happy to settle. Others still feel that nomadic call to adventure." />
+    <string id="str_culture_rich_name.alanian.text" text="Alanian" />
+    <string id="str_culture_rich_name.armenian.text" text="Armenian" />
+    <string id="str_culture_rich_name.bosporan.text" text="Bosporan" />
+    <string id="str_culture_rich_name.burgundian.text" text="Burgundian" />
+    <string id="str_culture_rich_name.caucasian.text" text="Caucasian" />
+    <string id="str_culture_rich_name.frankish.text" text="Frankish" />
+    <string id="str_culture_rich_name.gothic.text" text="Gothic" />
+    <string id="str_culture_rich_name.hibernian.text" text="Hibernian" />
+    <string id="str_culture_rich_name.kushan.text" text="Kushan" />
+    <string id="str_culture_rich_name.lakhmid.text" text="Lakhmid" />
+    <string id="str_culture_rich_name.langobard.text" text="Langobard" />
+    <string id="str_culture_rich_name.marcomannic.text" text="Marcomannic" />
+    <string id="str_culture_rich_name.nordic.text" text="Nordic" />
+    <string id="str_culture_rich_name.quadian.text" text="Quadian" />
+    <string id="str_culture_rich_name.salihid.text" text="Salihid" />
+    <string id="str_culture_rich_name.sarmatian.text" text="Sarmatian" />
+    <string id="str_culture_rich_name.sassanid.text" text="Sassanid" />
+    <string id="str_culture_rich_name.saxon.text" text="Saxon" />
+    <string id="str_culture_rich_name.tanukhid.text" text="Tanukhid" />
+    <string id="str_culture_rich_name.vandal.text" text="Vandal" />
+    <string id="str_culture_rich_name.xionite.text" text="Xionite" />
+    <string id="str_faction_formal_name_for_culture.alanian.text" text="Alanian Tribes" />
+    <string id="str_faction_formal_name_for_culture.armenian.text" text="Armenian Kingdom" />
+    <string id="str_faction_formal_name_for_culture.bosporan.text" text="Bosporan Kingdom" />
+    <string id="str_faction_formal_name_for_culture.burgundian.text" text="Burgundian Tribes" />
+    <string id="str_faction_formal_name_for_culture.caucasian.text" text="Caucasian Kingdom" />
+    <string id="str_faction_formal_name_for_culture.eastroman.text" text="Eastern Roman Empire" />
+    <string id="str_faction_formal_name_for_culture.frankish.text" text="Frankish Tribes" />
+    <string id="str_faction_formal_name_for_culture.gothic.text" text="Gothic Tribes" />
+    <string id="str_faction_formal_name_for_culture.kushan.text" text="Kushan Kingdom" />
+    <string id="str_faction_formal_name_for_culture.lakhmid.text" text="Lakhmid Kingdom" />
+    <string id="str_faction_formal_name_for_culture.langobard.text" text="Langobard Tribes" />
+    <string id="str_faction_formal_name_for_culture.marcomannic.text" text="Marcomannic Tribes" />
+    <string id="str_faction_formal_name_for_culture.nordic.text" text="Nordic Tribes" />
+    <string id="str_faction_formal_name_for_culture.quadian.text" text="Quadian Tribes" />
+    <string id="str_faction_formal_name_for_culture.salihid.text" text="Salihid Kingdom" />
+    <string id="str_faction_formal_name_for_culture.sarmatian.text" text="Sarmatian Tribes" />
+    <string id="str_faction_formal_name_for_culture.sassanid.text" text="Sassanid Empire" />
+    <string id="str_faction_formal_name_for_culture.saxon.text" text="Saxon Tribes" />
+    <string id="str_faction_formal_name_for_culture.tanukhid.text" text="Tanukhid Kingdom" />
+    <string id="str_faction_formal_name_for_culture.vandal.text" text="Vandal Tribes" />
+    <string id="str_faction_formal_name_for_culture.westroman.text" text="Western Roman Empire" />
+    <string id="str_faction_formal_name_for_culture.xionite.text" text="Xionite Kingdom" />
+    <string id="str_faction_informal_name_for_culture.alanian.text" text="the Alans" />
+    <string id="str_faction_informal_name_for_culture.armenian.text" text="the Armenians" />
+    <string id="str_faction_informal_name_for_culture.bosporan.text" text="the Bosporans" />
+    <string id="str_faction_informal_name_for_culture.burgundian.text" text="the Burgundians" />
+    <string id="str_faction_informal_name_for_culture.caucasian.text" text="the Caucasians" />
+    <string id="str_faction_informal_name_for_culture.eastroman.text" text="the Eastern Romans" />
+    <string id="str_faction_informal_name_for_culture.frankish.text" text="the Franks" />
+    <string id="str_faction_informal_name_for_culture.gothic.text" text="the Goths" />
+    <string id="str_faction_informal_name_for_culture.kushan.text" text="the Kushans" />
+    <string id="str_faction_informal_name_for_culture.lakhmid.text" text="the Lakhmids" />
+    <string id="str_faction_informal_name_for_culture.langobard.text" text="the Langobards" />
+    <string id="str_faction_informal_name_for_culture.marcomannic.text" text="the Marcomans" />
+    <string id="str_faction_informal_name_for_culture.nordic.text" text="the Norse" />
+    <string id="str_faction_informal_name_for_culture.quadian.text" text="the Quadians" />
+    <string id="str_faction_informal_name_for_culture.salihid.text" text="the Salihids" />
+    <string id="str_faction_informal_name_for_culture.sarmatian.text" text="the Sarmatians" />
+    <string id="str_faction_informal_name_for_culture.sassanid.text" text="the Sassanids" />
+    <string id="str_faction_informal_name_for_culture.saxon.text" text="the Saxons" />
+    <string id="str_faction_informal_name_for_culture.tanukhid.text" text="the Tanukhids" />
+    <string id="str_faction_informal_name_for_culture.vandal.text" text="the Vandals" />
+    <string id="str_faction_informal_name_for_culture.westroman.text" text="the Western Romans" />
+    <string id="str_faction_informal_name_for_culture.xionite.text" text="the Xionites" />
+    <string id="str_faction_noble_name_with_title.alanian.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.armenian.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.bosporan.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.burgundian.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.caucasian.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.eastroman.text" text="{?RULER.GENDER}Domina{?}Legatus{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.frankish.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.gothic.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.kushan.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.lakhmid.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.langobard.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.marcomannic.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.nordic.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.quadian.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.salihid.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.sarmatian.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.sassanid.text" text="{?RULER.GENDER}Banug{?}Sardar{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.saxon.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.tanukhid.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.vandal.text" text="{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.westroman.text" text="{?RULER.GENDER}Domina{?}Legatus{\?} {RULER.NAME}" />
+    <string id="str_faction_noble_name_with_title.xionite.text" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+    <string id="str_faction_official.alanian.text" text="Chieftain" />
+    <string id="str_faction_official.alanian_f.text" text="Chieftess" />
+    <string id="str_faction_official.armenian.text" text="Lord" />
+    <string id="str_faction_official.armenian_f.text" text="Lady" />
+    <string id="str_faction_official.bosporan.text" text="Lord" />
+    <string id="str_faction_official.bosporan_f.text" text="Lady" />
+    <string id="str_faction_official.burgundian.text" text="Chieftain" />
+    <string id="str_faction_official.burgundian_f.text" text="Chieftess" />
+    <string id="str_faction_official.caucasian.text" text="Lord" />
+    <string id="str_faction_official.caucasian_f.text" text="Lady" />
+    <string id="str_faction_official.eastroman.text" text="Legatus" />
+    <string id="str_faction_official.eastroman_f.text" text="Domina" />
+    <string id="str_faction_official.frankish.text" text="Chieftain" />
+    <string id="str_faction_official.frankish_f.text" text="Chieftess" />
+    <string id="str_faction_official.gothic.text" text="Chieftain" />
+    <string id="str_faction_official.gothic_f.text" text="Chieftess" />
+    <string id="str_faction_official.kushan.text" text="Lord" />
+    <string id="str_faction_official.kushan_f.text" text="Lady" />
+    <string id="str_faction_official.lakhmid.text" text="Lord" />
+    <string id="str_faction_official.lakhmid_f.text" text="Lady" />
+    <string id="str_faction_official.langobard.text" text="Chieftain" />
+    <string id="str_faction_official.langobard_f.text" text="Chieftess" />
+    <string id="str_faction_official.marcomannic.text" text="Chieftain" />
+    <string id="str_faction_official.marcomannic_f.text" text="Chieftess" />
+    <string id="str_faction_official.nordic.text" text="Chieftain" />
+    <string id="str_faction_official.nordic_f.text" text="Chieftess" />
+    <string id="str_faction_official.quadian.text" text="Chieftain" />
+    <string id="str_faction_official.quadian_f.text" text="Chieftess" />
+    <string id="str_faction_official.salihid.text" text="Lord" />
+    <string id="str_faction_official.salihid_f.text" text="Lady" />
+    <string id="str_faction_official.sarmatian.text" text="Chieftain" />
+    <string id="str_faction_official.sarmatian_f.text" text="Chieftess" />
+    <string id="str_faction_official.sassanid.text" text="Sardar" />
+    <string id="str_faction_official.sassanid_f.text" text="Banug" />
+    <string id="str_faction_official.saxon.text" text="Chieftain" />
+    <string id="str_faction_official.saxon_f.text" text="Chieftess" />
+    <string id="str_faction_official.tanukhid.text" text="Lord" />
+    <string id="str_faction_official.tanukhid_f.text" text="Lady" />
+    <string id="str_faction_official.vandal.text" text="Chieftain" />
+    <string id="str_faction_official.vandal_f.text" text="Chieftess" />
+    <string id="str_faction_official.westroman.text" text="Legatus" />
+    <string id="str_faction_official.westroman_f.text" text="Domina" />
+    <string id="str_faction_official.xionite.text" text="Lord" />
+    <string id="str_faction_official.xionite_f.text" text="Lady" />
+    <string id="str_faction_ruler.alanian.text" text="King" />
+    <string id="str_faction_ruler.alanian_f.text" text="Queen" />
+    <string id="str_faction_ruler.armenian.text" text="King" />
+    <string id="str_faction_ruler.armenian_f.text" text="Queen" />
+    <string id="str_faction_ruler.bosporan.text" text="King" />
+    <string id="str_faction_ruler.bosporan_f.text" text="Queen" />
+    <string id="str_faction_ruler.burgundian.text" text="King" />
+    <string id="str_faction_ruler.burgundian_f.text" text="Queen" />
+    <string id="str_faction_ruler.caucasian.text" text="King" />
+    <string id="str_faction_ruler.caucasian_f.text" text="Queen" />
+    <string id="str_faction_ruler.eastroman.text" text="Imperator" />
+    <string id="str_faction_ruler.eastroman_f.text" text="Imperatrix" />
+    <string id="str_faction_ruler.frankish.text" text="King" />
+    <string id="str_faction_ruler.frankish_f.text" text="Queen" />
+    <string id="str_faction_ruler.gothic.text" text="King" />
+    <string id="str_faction_ruler.gothic_f.text" text="Queen" />
+    <string id="str_faction_ruler.kushan.text" text="King" />
+    <string id="str_faction_ruler.kushan_f.text" text="Queen" />
+    <string id="str_faction_ruler.lakhmid.text" text="King" />
+    <string id="str_faction_ruler.lakhmid_f.text" text="Queen" />
+    <string id="str_faction_ruler.langobard.text" text="King" />
+    <string id="str_faction_ruler.langobard_f.text" text="Queen" />
+    <string id="str_faction_ruler.marcomannic.text" text="King" />
+    <string id="str_faction_ruler.marcomannic_f.text" text="Queen" />
+    <string id="str_faction_ruler.nordic.text" text="King" />
+    <string id="str_faction_ruler.nordic_f.text" text="Queen" />
+    <string id="str_faction_ruler.quadian.text" text="King" />
+    <string id="str_faction_ruler.quadian_f.text" text="Queen" />
+    <string id="str_faction_ruler.salihid.text" text="King" />
+    <string id="str_faction_ruler.salihid_f.text" text="Queen" />
+    <string id="str_faction_ruler.sarmatian.text" text="King" />
+    <string id="str_faction_ruler.sarmatian_f.text" text="Queen" />
+    <string id="str_faction_ruler.sassanid.text" text="Shahanshah" />
+    <string id="str_faction_ruler.sassanid_f.text" text="Banbishn" />
+    <string id="str_faction_ruler.saxon.text" text="King" />
+    <string id="str_faction_ruler.saxon_f.text" text="Queen" />
+    <string id="str_faction_ruler.tanukhid.text" text="King" />
+    <string id="str_faction_ruler.tanukhid_f.text" text="Queen" />
+    <string id="str_faction_ruler.vandal.text" text="King" />
+    <string id="str_faction_ruler.vandal_f.text" text="Queen" />
+    <string id="str_faction_ruler.westroman.text" text="Imperator" />
+    <string id="str_faction_ruler.westroman_f.text" text="Imperatrix" />
+    <string id="str_faction_ruler.xionite.text" text="King" />
+    <string id="str_faction_ruler.xionite_f.text" text="Queen" />
+    <string id="str_faction_ruler_name_with_title.alanian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.armenian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.bosporan.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.burgundian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.caucasian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.eastroman.text" text="{?RULER.GENDER}Imperatrix{?}Imperator{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.frankish.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.gothic.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.kushan.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.lakhmid.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.langobard.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.marcomannic.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.nordic.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.quadian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.salihid.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.sarmatian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.sassanid.text" text="{?RULER.GENDER}Banbishn{?}Shahanshah{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.saxon.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.tanukhid.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.vandal.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.westroman.text" text="{?RULER.GENDER}Imperatrix{?}Imperator{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_name_with_title.xionite.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.alanian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.armenian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.bosporan.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.burgundian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.caucasian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.eastroman.text" text="{?RULER.GENDER}the Imperatrix{?}the Imperator{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.frankish.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.gothic.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.kushan.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.lakhmid.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.langobard.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.marcomannic.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.nordic.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.quadian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.salihid.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.sarmatian.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.sassanid.text" text="{?RULER.GENDER}Banbishn{?}Shahanshah{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.saxon.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.tanukhid.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.vandal.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.westroman.text" text="{?RULER.GENDER}the Imperatrix{?}the Imperator{\?} {RULER.NAME}" />
+    <string id="str_faction_ruler_term_in_speech.xionite.text" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+    <string id="str_liege_title.caucasian.text" text="King of the Caucasians" />
+    <string id="str_liege_title_female.caucasian.text" text="Queen of the Caucasians" />
+    <string id="str_neutral_term_for_culture.alanian.text" text="Alans" />
+    <string id="str_neutral_term_for_culture.armenian.text" text="Armenians" />
+    <string id="str_neutral_term_for_culture.bosporan.text" text="Bosporans" />
+    <string id="str_neutral_term_for_culture.burgundian.text" text="Burgundians" />
+    <string id="str_neutral_term_for_culture.caucasian.text" text="Caucasians" />
+    <string id="str_neutral_term_for_culture.eastroman.text" text="Eastern Romans" />
+    <string id="str_neutral_term_for_culture.frankish.text" text="Franks" />
+    <string id="str_neutral_term_for_culture.gothic.text" text="Goths" />
+    <string id="str_neutral_term_for_culture.kushan.text" text="Kushans" />
+    <string id="str_neutral_term_for_culture.lakhmid.text" text="Lakhmids" />
+    <string id="str_neutral_term_for_culture.langobard.text" text="Langobards" />
+    <string id="str_neutral_term_for_culture.marcomannic.text" text="Marcomans" />
+    <string id="str_neutral_term_for_culture.nordic.text" text="Nordic" />
+    <string id="str_neutral_term_for_culture.quadian.text" text="Quadians" />
+    <string id="str_neutral_term_for_culture.salihid.text" text="Salihids" />
+    <string id="str_neutral_term_for_culture.sarmatian.text" text="Sarmatians" />
+    <string id="str_neutral_term_for_culture.sassanid.text" text="Sassanids" />
+    <string id="str_neutral_term_for_culture.saxon.text" text="Saxons" />
+    <string id="str_neutral_term_for_culture.tanukhid.text" text="Tanukhids" />
+    <string id="str_neutral_term_for_culture.vandal.text" text="Vandals" />
+    <string id="str_neutral_term_for_culture.westroman.text" text="Western Romans" />
+    <string id="str_neutral_term_for_culture.xionite.text" text="Xionites" />
+    <string id="str_player_father_name.alemannic.text" text="Sagildo" />
+    <string id="str_player_father_name.bosporan.text" text="Tasius" />
+    <string id="str_player_father_name.burgundian.text" text="Visclamundus" />
+    <string id="str_player_father_name.caledonian.text" text="Duibhin" />
+    <string id="str_player_father_name.caucasian.text" text="Oshagan" />
+    <string id="str_player_father_name.frankish.text" text="Sendulfus" />
+    <string id="str_player_father_name.gothic.text" text="Adalrik" />
+    <string id="str_player_father_name.hibernian.text" text="Bradach" />
+    <string id="str_player_father_name.hunnic.text" text="Elmingir" />
+    <string id="str_player_father_name.kushan.text" text="Sadashkana" />
+    <string id="str_player_father_name.lakhmid.text" text="Qabus" />
+    <string id="str_player_father_name.langobard.text" text="Trasarius" />
+    <string id="str_player_father_name.marcomannic.text" text="Rodemirus" />
+    <string id="str_player_father_name.nordic.text" text="Wilbur" />
+    <string id="str_player_father_name.quadian.text" text="Odemundus" />
+    <string id="str_player_father_name.salihid.text" text="Usama" />
+    <string id="str_player_father_name.sarmatian.text" text="Mourdagos" />
+    <string id="str_player_father_name.sassanid.text" text="Sorush" />
+    <string id="str_player_father_name.saxon.text" text="Osric" />
+    <string id="str_player_father_name.slavic.text" text="Mirko" />
+    <string id="str_player_father_name.tanukhid.text" text="Layth" />
+    <string id="str_player_father_name.vandal.text" text="Gomadus" />
+    <string id="str_player_father_name.xionite.text" text="Kandik" />
+    <string id="str_player_mother_name.alemannic.text" text="Onegilda" />
+    <string id="str_player_mother_name.bosporan.text" text="Siranis" />
+    <string id="str_player_mother_name.burgundian.text" text="Ebrildi" />
+    <string id="str_player_mother_name.caledonian.text" text="Muirgen" />
+    <string id="str_player_mother_name.caucasian.text" text="Vazkanush" />
+    <string id="str_player_mother_name.frankish.text" text="Ingunde" />
+    <string id="str_player_mother_name.gothic.text" text="Eldesinda" />
+    <string id="str_player_mother_name.hibernian.text" text="Ethne" />
+    <string id="str_player_mother_name.hunnic.text" text="Arzu" />
+    <string id="str_player_mother_name.kushan.text" text="Mahin" />
+    <string id="str_player_mother_name.lakhmid.text" text="Umayma" />
+    <string id="str_player_mother_name.langobard.text" text="Fronildi" />
+    <string id="str_player_mother_name.marcomannic.text" text="Teodoriga" />
+    <string id="str_player_mother_name.nordic.text" text="Bregusuid" />
+    <string id="str_player_mother_name.quadian.text" text="Raniverga" />
+    <string id="str_player_mother_name.salihid.text" text="Hawwa" />
+    <string id="str_player_mother_name.sarmatian.text" text="Kopharnis" />
+    <string id="str_player_mother_name.sassanid.text" text="Purundoxt" />
+    <string id="str_player_mother_name.saxon.text" text="Geretrudis" />
+    <string id="str_player_mother_name.slavic.text" text="Ljuba" />
+    <string id="str_player_mother_name.tanukhid.text" text="Raziya" />
+    <string id="str_player_mother_name.vandal.text" text="Nerthuz" />
+    <string id="str_player_mother_name.xionite.text" text="Aidana" />
+    <string id="str_short_term_for_faction.alanian.text" text="Alanian" />
+    <string id="str_short_term_for_faction.armenian.text" text="Armenian" />
+    <string id="str_short_term_for_faction.bosporan.text" text="Bosporan" />
+    <string id="str_short_term_for_faction.burgundian.text" text="Burgundian" />
+    <string id="str_short_term_for_faction.caucasian.text" text="Caucasian" />
+    <string id="str_short_term_for_faction.eastroman.text" text="Eastern Roman" />
+    <string id="str_short_term_for_faction.frankish.text" text="Frankish" />
+    <string id="str_short_term_for_faction.gothic.text" text="Gothic" />
+    <string id="str_short_term_for_faction.kushan.text" text="Kushan" />
+    <string id="str_short_term_for_faction.lakhmid.text" text="Lakhmid" />
+    <string id="str_short_term_for_faction.langobard.text" text="Langobard" />
+    <string id="str_short_term_for_faction.marcomannic.text" text="Marcomannic" />
+    <string id="str_short_term_for_faction.nordic.text" text="Nordic" />
+    <string id="str_short_term_for_faction.quadian.text" text="Quadian" />
+    <string id="str_short_term_for_faction.salihid.text" text="Salihid" />
+    <string id="str_short_term_for_faction.sarmatian.text" text="Sarmatian" />
+    <string id="str_short_term_for_faction.sassanid.text" text="Sassanid" />
+    <string id="str_short_term_for_faction.saxon.text" text="Saxon" />
+    <string id="str_short_term_for_faction.tanukhid.text" text="Tanukhid" />
+    <string id="str_short_term_for_faction.vandal.text" text="Vandal" />
+    <string id="str_short_term_for_faction.westroman.text" text="Western Roman" />
+    <string id="str_short_term_for_faction.xionite.text" text="Xionite" />
+    <string id="uXXH5GIU.text" text="Please, then, return to your wars and worry. I cannot help someone attain what they do not want. But I am not going anywhere, so if you desire my help at any time, do come again." />
+    <string id="v7pJerga.text" text="Ah, but the thing about wealth and power is that someone is always trying to take it from you. Perhaps even one's own children. There is no rest for the powerful." />
+    <!--be_items.xslt-->
+    <string id="be_caucasian_shield_iron.name" text=" Eastern Rectagular Iron Shield" />
+    <string id="be_caucasian_shield_iron_small.name" text=" Eastern Small Rectagular Iron Shield" />
+    <string id="be_caucasian_shield_leather.name" text=" Eastern Rectagular Shield" />
+    <string id="be_caucasian_shield_leather_small.name" text=" Eastern Small Rectagular Shield" />
+    <string id="be_celtic_pictish_shield.name" text=" Celtic Pictish Shield" />
+    <string id="be_celtic_pictish_shield_a.name" text=" Celtic Pictish Shield" />
+    <string id="be_celtic_pictish_shield_b.name" text=" Celtic Pictish Shield" />
+    <string id="be_celtic_pictish_shield_b_painted.name" text=" Celtic Painted Pictish Shield" />
+    <string id="be_celtic_pictish_shield_c.name" text=" Celtic Pictish Shield" />
+    <string id="be_celtic_pictish_shield_c_painted.name" text=" Celtic Painted Pictish Shield" />
+    <string id="be_celtic_shield_a.name" text=" Celtic Square Shield" />
+    <string id="be_celtic_shield_b.name" text=" Celtic Wooden Square Shield" />
+    <string id="be_gothic_shield_trapez_a.name" text=" Germanic Hexagonal Shield" />
+    <string id="be_gothic_shield_trapez_a1.name" text=" Germanic Hexagonal Shield" />
+    <string id="be_gothic_shield_trapez_b.name" text=" Germanic Hexagonal Shield" />
+    <string id="be_gothic_shield_trapez_b1.name" text=" Germanic Hexagonal Shield" />
+    <string id="be_hunic_cap_frigian.name" text=" Hunnic Brown Leather Cap" />
+    <string id="be_hunic_cap_frigian1.name" text=" Hunnic Red Leather Cap" />
+    <string id="be_hunic_leather_tunic.name" text=" Hunnic Leather Tunic" />
+    <string id="be_hunic_leather_tunic1.name" text=" Hunnic Leather Tunic" />
+    <string id="be_hunic_leather_tunic_a.name" text=" Hunnic Leather Tunic" />
+    <string id="be_hunic_leather_tunic_a1.name" text=" Hunnic Leather Tunic" />
+    <string id="be_hunic_shield_large_a.name" text=" Hunnic Shield" />
+    <string id="be_hunic_shield_large_a1.name" text=" Hunnic Shield" />
+    <string id="be_hunic_shield_large_b.name" text=" Hunnic Shield" />
+    <string id="be_hunic_shield_large_b1.name" text=" Hunnic Shield" />
+    <string id="be_hunic_shield_simple_a.name" text=" Hunnic Leather Shield" />
+    <string id="be_hunic_shield_simple_b.name" text=" Hunnic Leather Shield" />
+    <string id="be_hunic_tower_shield_a.name" text=" Hunnic Large Shield" />
+    <string id="be_hunic_tower_shield_b.name" text=" Hunnic Large Shield" />
+    <string id="be_roman_blackshoe_greaves.name" text=" Roman Black Shoe Greaves" />
+    <string id="be_roman_blackshoe_greaves_gold.name" text=" Roman Black Shoe Bronze Greaves" />
+    <string id="be_roman_blackshoe_manica_gold.name" text=" Roman Golden Leg Manica" />
+    <string id="be_roman_blackshoe_manica_silver.name" text=" Roman Leg Manica" />
+    <string id="be_roman_blackshoe_redstitch.name" text=" Roman Black Shoe Shinwraps" />
+    <string id="be_roman_blackshoe_royalgreaves.name" text=" Roman Black Shoe Gold Greaves" />
+    <string id="be_roman_brownshoe_greaves.name" text=" Roman Brown Shoe Greaves" />
+    <string id="be_roman_brownshoeshin_gulag.name" text=" Roman Brown Shoe Shinwraps" />
+    <string id="be_sas_leg_armour_plate_bronze.name" text=" Eastern Lamellar Bronze Leg Armor" />
+    <string id="be_sas_leg_armour_plate_bronze_shin.name" text=" Eastern Lamellar Bronze Greaves" />
+    <string id="be_sas_leg_armour_plate_iron.name" text=" Eastern Lamellar Iron Leg Armor" />
+    <string id="be_sas_leg_armour_plate_iron_shin.name" text=" Eastern Lamellar Iron Greaves" />
+    <string id="be_sas_leg_armour_plate_steel.name" text=" Eastern Lamellar Steel Leg Armor" />
+    <string id="be_sas_leg_armour_plate_steel_shin.name" text=" Eastern Lamellar Steel Greaves" />
+    <string id="be_sas_persian_boots.name" text=" Eastern Dark Persian Boots" />
+    <string id="be_sas_persian_boots2.name" text=" Eastern Brown Persian Boots" />
+    <string id="be_slavic_shield_square.name" text=" Slavic Large Shield" />
+    <string id="be_slavic_shield_square1.name" text=" Slavic Large Shield" />
+    <string id="be_slavic_shield_square2.name" text=" Slavic Large Wooden Shield" />
+    <string id="be_slavic_shield_square_a.name" text=" Slavic Large Shield" />
+    <string id="be_slavic_shield_square_a1.name" text=" Slavic Large Shield" />
+    <string id="be_slavic_shield_square_a2.name" text=" Slavic Large Wooden Shield" />
+    <string id="be_slavic_shield_trapez.name" text=" Slavic Shield" />
+    <string id="be_slavic_shield_trapez1.name" text=" Slavic Shield" />
+    <string id="be_slavic_shield_trapez_a.name" text=" Slavic Shield" />
+    <string id="be_slavic_shield_trapez_a1.name" text=" Slavic Shield" />
+    <!--be_kingdoms.xslt-->
+    <string id="alemannic_kingdom.name" text="Alemans" />
+    <string id="alemannic_kingdom.short_name" text="Alemans" />
+    <string id="alemannic_kingdom.text" text="The Alemans have proven themselves against the Romans over the past century, testing their authority most recently a decade prior. Led by the powerful Iuthungi, their confederation stretches from the old Roman province of the Agri Decumates along the Danube to border their relatives in the Marcomans and Quadians. Like their neighbors to the north, the Alemans stand on the precipice of unification, ready to carve their own kingdom from the remains of their Roman adversaries." />
+    <string id="alemannic_kingdom.title" text="Alemans" />
+    <string id="angle_kingdom.name" text="Angles" />
+    <string id="angle_kingdom.short_name" text="Angles" />
+    <string id="angle_kingdom.text" text="For centuries the Angles have traded and raided down the North Sea coast. Renowned for their fine metalwork and bog sacrifices, the Angles are content in their position on the Jutland peninsula, nestled between their relatives in the Jutes to the north and the Saxons to the south. As Roman power wanes, however, opportunity on the coasts of Britannia awaits them." />
+    <string id="angle_kingdom.title" text="Angle Tribes" />
+    <string id="antean_kingdom.name" text="Anteans" />
+    <string id="antean_kingdom.short_name" text="Anteans" />
+    <string id="antean_kingdom.text" text="Deep in the forest zone bordering the north of the Pontic steppes, peoples barely known to the Romans eke out an existence in these frigid lands. Broadly known as the Venedians, these peoples are predecessors to the early Slavic peoples that will emerge on Roman borders in the 500s AD. The Anteans have yet to be more than a footnote to history, but with an emerging void to the south, the opportunity to make a name for themselves has begun to emerge." />
+    <string id="antean_kingdom.title" text="Anteans" />
+    <string id="bosporan_kingdom.name" text="Bosporan Kingdom" />
+    <string id="bosporan_kingdom.short_name" text="Bosporans" />
+    <string id="bosporan_kingdom.text" text="The last of the ancient Greek colony states, the Kingdom of the Bosporus is what remains of the great Empire of Mithridates of Pontus, retaining their independence as a client state of the Romans. A fusion of Sarmatian, Hellenistic, and Roman culture, they field a unique blend of these traditions on the battlefield against the encroaching Greuthungians and Alans, who seek to unseat them as they seek a new home and refuge from the onslaught of strange new arrivals from the far east." />
+    <string id="bosporan_kingdom.title" text="Bosporan Kingdom" />
+    <string id="burgundian_kingdom.name" text="Burgundians" />
+    <string id="burgundian_kingdom.short_name" text="Burgundians" />
+    <string id="burgundian_kingdom.text" text="The Burgundians were a people once unknown to the Romans, migrating from deep in Germania on the far side of the Elbe to the region near the source of the Neckar river, partially filling the void left by the Roman retreat out of the Agri Decumates. Disunited and intermingled with their neighbors in the Franks, Alemans, Suebians and Vandals, the Burgundians stretch far to the east to border the Goths, but are gradually moving westward under migratory pressure." />
+    <string id="burgundian_kingdom.title" text="Burgundian Tribes" />
+    <string id="caledonian_kingdom.text" text="North of Hadrian’s wall, the Pictish peoples have been trading and raiding with the Romans for centuries now, most recently overrunning most of Britannia in the “Great Barbarian Conspiracy” before being driven back. Despite the recent setback, the Caledonians have subsumed the Roman buffer peoples north of Hadrian’s wall, forming a “Great Northern Kingdom” of the Picts, unified and ready to exploit Roman weakness on the wall and beyond." />
+    <string id="danish_kingdom.name" text="Danes" />
+    <string id="danish_kingdom.short_name" text="Danes" />
+    <string id="danish_kingdom.text" text="" />
+    <string id="danish_kingdom.title" text="Danish Tribes" />
+    <string id="frankish_kingdom.name" text="Franks" />
+    <string id="frankish_kingdom.short_name" text="Franks" />
+    <string id="frankish_kingdom.text" text="Over a century prior, the Bructeri, Chauci, Chamavi, and other confederations began to shift and merge into a new people: the Franks. Like their neighbors the Alemans, the Franks are not one united people per se, consisting of multiple warlords and many cantons. Having launched a massive invasion of Gaul a decade prior, some have established themselves across the Rhine as foederati, but these squabbling leaders may yet unite again to forge their own kingdom." />
+    <string id="frankish_kingdom.title" text="Frankish Tribes" />
+    <string id="geatish_kingdom.name" text="Geats" />
+    <string id="geatish_kingdom.short_name" text="Geats" />
+    <string id="geatish_kingdom.text" text="" />
+    <string id="geatish_kingdom.title" text="Geatish Tribes" />
+    <string id="gepid_kingdom.name" text="Gepids" />
+    <string id="gepid_kingdom.short_name" text="Gepids" />
+    <string id="gepid_kingdom.text" text="The Gepids have migrated together with their gothic cousins from Scandinavia and by the 3rd century they have established a kingdom in the Carpathian basin, north of the Thervingians." />
+    <string id="gepid_kingdom.title" text="Gepidian Tribes" />
+    <string id="greuthungian_kingdom.name" text="Greuthungians" />
+    <string id="greuthungian_kingdom.short_name" text="Greuthungians" />
+    <string id="greuthungian_kingdom.text" text="Also known as the Eastern Goths, the Greuthungians have carved out a large kingdom in the pontic steppes in the 4th century. Led by King Ermanaric, they have subjugated many slavic and sarmatian tribes, but with the arrival of huns, their kingdom is on the brink of destruction." />
+    <string id="greuthungian_kingdom.title" text="Greuthungian Tribes" />
+    <string id="hibernian_kingdom.name" text="Hibernians" />
+    <string id="hibernian_kingdom.short_name" text="Hibernians" />
+    <string id="hibernian_kingdom.text" text="A century ago, the Gaelic peoples of Ulster and the Hebrides began to expand beyond their lands, raiding and settling the coasts of Argyll. Known as the Scoti to the Romans, the recent “Great Barbarian Conspiracy” has brought them to new heights, achieving victories beyond their imagination despite the Romans ultimately driving them back from Britannia. As Roman and Pictish power in the island wanes, the opportunity to build their own kingdom awaits." />
+    <string id="hibernian_kingdom.title" text="Hibernian Tribes" />
+    <string id="hunnic_kingdom.name" text="Huns" />
+    <string id="hunnic_kingdom.short_name" text="Huns" />
+    <string id="hunnic_kingdom.text" text="A people never before encountered in Europe, the Huns were previously only known through the passing mentions of Bactrian merchants. Now, these heirs of the Xiongnu have been driven west into the Pontic by years of debilitating drought in the Eurasian steppes. Highly organized, skilled with the bow, lance, and sword alike, and spending much of their lives as cavalry, they are poised to be the Scourge of God, carving out a new empire in the heart of central and eastern Europe." />
+    <string id="hunnic_kingdom.title" text="Hunnic Tribes" />
+    <string id="kushan_kingdom.name" text="Kushans" />
+    <string id="kushan_kingdom.short_name" text="Kushans" />
+    <string id="kushan_kingdom.text" text="The Kushan Empire was a syncretic empire formed by the Yuezhi in the Bactrian territories in the early 1st century. By the 4th century, the empire is a shadow of it's former self, threatened by repeated invasions by the Xionite huns." />
+    <string id="kushan_kingdom.title" text="Kushan Kingdom" />
+    <string id="lakhmid_kingdom.name" text="Lakhmids" />
+    <string id="lakhmid_kingdom.short_name" text="Lakhmids" />
+    <string id="lakhmid_kingdom.text" text="The Lakhmid kingdom was an Arab kingdom that was founded and ruled by the Lakhmid dynasty from 268 to 602" />
+    <string id="lakhmid_kingdom.title" text="Lakhmids" />
+    <string id="langobard_kingdom.name" text="Langobards" />
+    <string id="langobard_kingdom.short_name" text="Langobards" />
+    <string id="langobard_kingdom.text" text="The people of “long beards” or Langobards once inhabited a region deep in Germania below Jutland along the Elbe river, but have since migrated upstream towards the Roman frontier. Situated behind their neighbors in the Burgundians, Quadians, and Marcomans, the Langobards have occasionally joined their neighbors in their quarrels against the Romans, but have yet to make a distinct name for themselves. They may one day prove to be a great power, if they can unite." />
+    <string id="langobard_kingdom.title" text="Langobard Tribes" />
+    <string id="marcomannic_kingdom.name" text="Marcomans" />
+    <string id="marcomannic_kingdom.short_name" text="Marcomans" />
+    <string id="marcomannic_kingdom.text" text="In the age of Augustus the Marcomans were once the greatest of the Germanic confederations, ruling over all their Suebic neighbors in Baiohaemum and organized into a stratified society under their king Maroboduus. Under Marcus Aurelius they challenged the Romans in the decades-long Marcomannic wars. However, time and again Roman intervention has broken their confederation apart, and now they are a shadow of their former might." />
+    <string id="marcomannic_kingdom.title" text="Marcomannic Tribes" />
+    <string id="maskut_kingdom.name" text="Maskuts" />
+    <string id="maskut_kingdom.short_name" text="Maskut" />
+    <string id="maskut_kingdom.text" text="Formerly known as the Massagetae, the Maskut are a group of Sarmato-Alanian tribes located in the eastern part of the Caucasus, along the western coast of the Caspian Sea. In the early 4th century, their king Sanesan have led an invasion of Armenia, but have been defeated. Now the Maskut realms is threatened by the hunnic tribes who seek to dominate the region." />
+    <string id="maskut_kingdom.title" text="Maskut Tribes" />
+    <string id="quadian_kingdom.name" text="Quadians" />
+    <string id="quadian_kingdom.short_name" text="Quadians" />
+    <string id="quadian_kingdom.text" text="The Quadians have retained their ancient strength, emerging from the shadow of the Marcomannic neighbors. The Romans have recently begun constructing forts on the opposite side of the Danube in their territory, and now a Roman named Marcellianus has assassinated King Gabinius. Open war has broken out, and the Quadians seek revenge against the Romans across the river, with Pannonia ripe for the taking." />
+    <string id="quadian_kingdom.title" text="Quadian Tribes" />
+    <string id="sabir_kingdom.name" text="Sabirs" />
+    <string id="sabir_kingdom.short_name" text="Sabirs" />
+    <string id="sabir_kingdom.text" text="" />
+    <string id="sabir_kingdom.title" text="Sabir Tribes" />
+    <string id="salihid_kingdom.name" text="Salihids" />
+    <string id="salihid_kingdom.short_name" text="Salihids" />
+    <string id="salihid_kingdom.text" text="The Salihids were an Arab tribal group in the Arabian Peninsula and the Fertile Crescent." />
+    <string id="salihid_kingdom.title" text="Salihids" />
+    <string id="sassanid_kingdom.name" text="Sassanid Empire" />
+    <string id="sassanid_kingdom.short_name" text="Sassanids" />
+    <string id="sassanid_kingdom.text" text="Sasanian Empire officially Eranshahr 'Empire of the Iranians', was an Iranian empire that was founded and ruled by the House of Sasan from 224 to 651." />
+    <string id="sassanid_kingdom.title" text="Sassanid Empire" />
+    <string id="saxon_kingdom.name" text="Saxons" />
+    <string id="saxon_kingdom.ruler_title" text="King" />
+    <string id="saxon_kingdom.short_name" text="Saxons" />
+    <string id="saxon_kingdom.text" text="In the lands of the ancient Chauci and Chamavi, a new confederation has emerged to contest their Frankish and Frisian neighbors. The Saxons have already made a name for themselves raiding down the channel, allying with the usurper Magnentius, and exploiting the tumult of the “Great Barbarian Conspiracy.” At war with the powerful Franks, many find themselves pressured to seek out new lands across the sea in Roman Britannia." />
+    <string id="saxon_kingdom.title" text="Saxon Tribes" />
+    <string id="scirian_kingdom.name" text="Scirians" />
+    <string id="scirian_kingdom.short_name" text="Scirians" />
+    <string id="scirian_kingdom.text" text="The Scirians are an east germanic people, living in the neighbourhood of their gothic brethren. They have raided the Black Sea colonies for centuries, but they may yet play a larger role in the tumultuous times ahead." />
+    <string id="scirian_kingdom.title" text="Scirians Tribes" />
+    <string id="sclavenian_kingdom.name" text="Sclavenians" />
+    <string id="sclavenian_kingdom.short_name" text="Sclavenians" />
+    <string id="sclavenian_kingdom.text" text="Deep in the forest zone bordering the north of the Pontic steppes, peoples barely known to the Romans eke out an existence in these frigid lands. Broadly known as the Venedians, these peoples are predecessors to the early Slavic peoples that will emerge on Roman borders in the 500s AD. The Slavenians have yet to be more than a footnote to history, but with an emerging void to the south, the opportunity to make a name for themselves has begun to emerge." />
+    <string id="sclavenian_kingdom.title" text="Sclavenians" />
+    <string id="slavic_kingdom.name" text="Venedians" />
+    <string id="slavic_kingdom.text" text="Deep in the forest zone bordering the north of the Pontic steppes, peoples barely known to the Romans eke out an existence in these frigid lands. Broadly known as the Venedians, these peoples are predecessors to the early Slavic peoples that will emerge on Roman borders in the 500s AD. Disparate and disorganized, they have yet to be more than a footnote to history, but with an emerging void to the south, the opportunity to make a name for themselves has begun to emerge." />
+    <string id="slavic_kingdom.title" text="Venedian Tribes" />
+    <string id="tanukhid_kingdom.name" text="Tanukhids" />
+    <string id="tanukhid_kingdom.short_name" text="Tanukhids" />
+    <string id="tanukhid_kingdom.text" text="The Tanukhids were an Arab tribal group in the Arabian Peninsula and the Fertile Crescent." />
+    <string id="tanukhid_kingdom.title" text="Tanukhids" />
+    <string id="thervingian_kingdom.name" text="Thervingians" />
+    <string id="thervingian_kingdom.short_name" text="Thervingians" />
+    <string id="thervingian_kingdom.text" text="The Thervingians are a Gothic people of the plains north of the Lower Danube and west of the Dniester River. They have been waging wars with Rome for over a century. Now, as Arianism spreads to Gothic lands, the Thervingians are increasingly divided between the followers of the old gods and the new faith. King Athanaric's persecution has led many to flock to the rebels of Fritigern, who seeks to lead the Thervingians in these dark times. " />
+    <string id="thervingian_kingdom.title" text="Thervingian Tribes" />
+    <string id="vandal_kingdom.name" text="Vandals" />
+    <string id="vandal_kingdom.short_name" text="Vandals" />
+    <string id="vandal_kingdom.text" text="Once an ancient people known as the Lugii who lived along the Vistula river north of the Quadians, the Vandals now live in the valleys nestled between the slopes of the Carpathians, divided into the Silingi and Asdingi. Despite their mountainous homeland’s natural protection, the Vandals are being pressured by the arrival of Goths, Heruls, and Gepids from the East. With the waning of the power of their Suebic relatives, the Vandali may yet follow the route west into Rome if the opportunity arises." />
+    <string id="vandal_kingdom.title" text="Vandal Tribes" />
+    <string id="vesian_kingdom.name" text="Goths" />
+    <string id="vesian_kingdom.short_name" text="Goths" />
+    <string id="vesian_kingdom.text" text="The Thervingians are a Gothic people of the plains north of the Lower Danube and west of the Dniester River. They have been waging wars with Rome for over a century. Now, as Arianism spreads to Gothic lands, the Thervingians are increasingly divided between the followers of the old gods and the new faith. King Athanaric's persecution has led many to flock to the rebels of Fritigern, who seeks to lead the Thervingians in these dark times. " />
+    <string id="vesian_kingdom.title" text="Gothic Tribes" />
+    <string id="votadinian_kingdom.name" text="Votadinians" />
+    <string id="votadinian_kingdom.ruler_title" text="High King" />
+    <string id="votadinian_kingdom.short_name" text="Votadinians" />
+    <string id="votadinian_kingdom.text" text="After the Romans abandoned the Antonine walls, the Votadini have regained a semi-independents status as a buffer state between the empire and the pictish tribes to the north. The Votadini seemingly haven't participated in the Great Barbarian Conspiracy and chose to stay neutral in the conflict." />
+    <string id="votadinian_kingdom.title" text="Votadinian Tribes" />
+    <string id="xionite_kingdom.name" text="Xionites" />
+    <string id="xionite_kingdom.short_name" text="Xionites" />
+    <string id="xionite_kingdom.text" text="The Xionites were first described by the Roman historian, Ammianus Marcellinus, who was in Bactria during 356–357 AD; he described the Chionitæ as living with the Kushans." />
+    <string id="xionite_kingdom.title" text="Xionites" />
+    <!--be_npc_characters.xslt-->
+    <string id="be_germanic_chieftain" text="Germanic Chieftain" />
+    <string id="be_germanic_degn" text="Germanic Degn" />
+    <string id="be_germanic_longspear_footman" text="Germanic Longspear Footman" />
+    <string id="be_germanic_veteran_degn" text="Germanic Veteran Degn" />
+    <string id="be_nordic_bowman" text="Nordic Bowman" />
+    <string id="be_nordic_cavalryman" text="Nordic Cavalryman" />
+    <string id="be_nordic_footman" text="Nordic Footman" />
+    <string id="be_nordic_hearthguard" text="Nordic Hearthguard" />
+    <string id="be_nordic_heavy_javelinman" text="Nordic Heavy Javelinman" />
+    <string id="be_nordic_javelinman" text="Nordic Javelinman" />
+    <string id="be_nordic_seasoned_footman" text="Nordic Seasoned Footman" />
+    <string id="be_nordic_slinger" text="Nordic Slinger" />
+    <string id="be_nordic_thrall" text="Nordic Thrall" />
+    <string id="be_nordic_thrall_footman" text="Nordic Thrall Footman" />
+    <string id="be_nordic_thrall_huntsman" text="Nordic Thrall Huntsman" />
+    <string id="be_nordic_veteran_slinger" text="Nordic Veteran Slinger" />
+    <string id="eastroman_duel_preset.name" text="East Roman Tribesman" />
+    <string id="germanic_archer" text="Germanic Archer" />
+    <string id="germanic_axeman" text="Germanic Axeman" />
+    <string id="germanic_horseman" text="Germanic Horseman" />
+    <string id="germanic_hunter" text="Germanic Hunter" />
+    <string id="germanic_hurler" text="Germanic Hurler" />
+    <string id="germanic_recruit" text="Germanic Recruit" />
+    <string id="germanic_scout" text="Germanic Scout" />
+    <string id="germanic_slinger" text="Germanic Slinger" />
+    <string id="germanic_spearman" text="Germanic Spearman" />
+    <string id="germanic_trained_spearman" text="Germanic Trained Spearman" />
+    <string id="germanic_veteran_horseman" text="Germanic Veteran Horseman" />
+    <string id="spc_alanian_leader_0.name" text="of the Alans" />
+    <string id="spc_alanian_leader_1.name" text="of the Alans" />
+    <string id="spc_armenian_leader_0.name" text="of the Armenians" />
+    <string id="spc_armenian_leader_1.name" text="of the Armenians" />
+    <string id="spc_bosporan_rebel_lord_0.name" text="of the Bosporans" />
+    <string id="spc_bosporan_rebel_lord_1.name" text="of the Bosporans" />
+    <string id="spc_bosporan_rebel_lord_2.name" text="of the Bosporans" />
+    <string id="spc_bosporan_rebel_lord_3.name" text="of the Bosporans" />
+    <string id="spc_bucellarii_leader_0.name" text="of the Bucellarii" />
+    <string id="spc_bucellarii_leader_1.name" text="of the Bucellarii" />
+    <string id="spc_bucellarii_leader_2.name" text="of the Bucellarii" />
+    <string id="spc_bucellarii_leader_3.name" text="of the Bucellarii" />
+    <string id="spc_caucasian_leader_0.name" text="of the Caucasians" />
+    <string id="spc_caucasian_leader_1.name" text="of the Caucasians" />
+    <string id="spc_ghilman_leader_0.name" text="of the East Romans" />
+    <string id="spc_ghilman_leader_1.name" text="of the East Romans" />
+    <string id="spc_ghilman_leader_2.name" text="of the East Romans" />
+    <string id="spc_ghilman_leader_3.name" text="of the East Romans" />
+    <string id="spc_karahunnics_leader_0.name" text="of the Huns" />
+    <string id="spc_karahunnics_leader_1.name" text="of the Huns" />
+    <string id="spc_karahunnics_leader_2.name" text="of the Huns" />
+    <string id="spc_karahunnics_leader_3.name" text="of the Huns" />
+    <string id="spc_kushan_leader_0.name" text="of the Kushans" />
+    <string id="spc_kushan_leader_1.name" text="of the Kushans" />
+    <string id="spc_lakhmid_leader_0.name" text="of the Lakhmids" />
+    <string id="spc_lakhmid_leader_1.name" text="of the Lakhmids" />
+    <string id="spc_salihid_leader_0.name" text="of the Salihids" />
+    <string id="spc_salihid_leader_1.name" text="of the Salihids" />
+    <string id="spc_sarmatian_leader_0.name" text="of the Sarmatians" />
+    <string id="spc_sarmatian_leader_1.name" text="of the Sarmatians" />
+    <string id="spc_sassanid_leader_0.name" text="of the Sassanids" />
+    <string id="spc_sassanid_leader_1.name" text="of the Sassanids" />
+    <string id="spc_symmakhoi_leader_0.name" text="of the Symmakhoi" />
+    <string id="spc_symmakhoi_leader_1.name" text="of the Symmakhoi" />
+    <string id="spc_symmakhoi_leader_2.name" text="of the Symmakhoi" />
+    <string id="spc_symmakhoi_leader_3.name" text="of the Symmakhoi" />
+    <string id="spc_tanukhid_leader_0.name" text="of the Tanukhids" />
+    <string id="spc_tanukhid_leader_1.name" text="of the Tanukhids" />
+    <string id="spc_unnigarde_leader_0.name" text="of the Unnigarde" />
+    <string id="spc_unnigarde_leader_1.name" text="of the Unnigarde" />
+    <string id="spc_unnigarde_leader_2.name" text="of the Unnigarde" />
+    <string id="spc_unnigarde_leader_3.name" text="of the Unnigarde" />
+    <string id="westroman_duel_preset.name" text="Roman Tribesman" />
+    <string id="wre_lord_2_1.name" text="Mallobaudes" />
+    <string id="wre_lord_2_2.name" text="Merobaudes" />
+    <string id="wre_lord_3_1.name" text="Bauto" />
+    <string id="wre_lord_3_2.name" text="Arbogastes" />
+    <string id="wre_lord_3_3.name" text="Richomeres" />
+  </strings>
+</base>

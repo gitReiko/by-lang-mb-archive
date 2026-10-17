@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+    <!--BurningEmpires.dll: localization IDs in metadata order; IDs already present in other EN_template files are omitted.-->
+    <string id="W6pKpEoT" text="You prepare to set off for a grand adventure in Calradia! Here is your character. Continue if you are ready, or go back to make changes." />
+    <string id="XgFU1pCx" text="You were born into a family of..." />
+    <string id="CCR_Family_Choice_ARais" text="rais" />
+    <string id="CCR_Family_Choice_AMamluks" text="mamluks" />
+    <string id="CCR_Family_Choice_AMerchant" text="merchants" />
+    <string id="CCR_Family_Choice_AFarmers" text="farmers" />
+    <string id="CCR_Family_Choice_AArtisans" text="artisans" />
+    <string id="CCR_Family_Choice_AThugs" text="thugs" />
+    <string id="CCR_Family_Choice_Bchieftains" text="chieftains" />
+    <string id="CCR_Family_Choice_Bhealers" text="healers" />
+    <string id="CCR_Family_Choice_Bfarmers" text="farmers" />
+    <string id="CCR_Family_Choice_Bartisans" text="artisans" />
+    <string id="CCR_Family_Choice_Bforesters" text="foresters" />
+    <string id="CCR_Family_Choice_Bbards" text="bards" />
+    <string id="CCR_Family_Choice_Earistocrates" text="aristocrates" />
+    <string id="CCR_Family_Choice_Emerchants" text="merchants" />
+    <string id="CCR_Family_Choice_Efreeholders" text="freeholders" />
+    <string id="CCR_Family_Choice_Eartisans" text="artisans" />
+    <string id="CCR_Family_Choice_Esoldiers" text="warriors" />
+    <string id="CCR_Family_Choice_Evagabonds" text="vagabonds" />
+    <string id="CCR_Family_Choice_Knoyans" text="noyans" />
+    <string id="CCR_Family_Choice_Knomads" text="nomads" />
+    <string id="CCR_Family_Choice_Kmerchants" text="merchants" />
+    <string id="CCR_Family_Choice_Kartisans" text="artisans" />
+    <string id="CCR_Family_Choice_Kwarriors" text="warriors" />
+    <string id="CCR_Family_Choice_Kthugs" text="thugs" />
+    <string id="CCR_Family_Choice_Sboyars" text="boyars" />
+    <string id="CCR_Family_Choice_Smerchants" text="merchants" />
+    <string id="CCR_Family_Choice_Sfarmers" text="farmers" />
+    <string id="CCR_Family_Choice_Sartisans" text="artisans" />
+    <string id="CCR_Family_Choice_Swarriors" text="warriors" />
+    <string id="CCR_Family_Choice_Sraiders" text="raiders" />
+    <string id="CCR_Family_Choice_Vbarons" text="nobles" />
+    <string id="CCR_Family_Choice_Vmerchants" text="merchants" />
+    <string id="CCR_Family_Choice_Vyeomens" text="settlers" />
+    <string id="CCR_Family_Choice_Vartisans" text="artisans" />
+    <string id="CCR_Family_Choice_Vsoldiers" text="warriors" />
+    <string id="CCR_Family_Choice_Vmercenaries" text="mercenaries" />
+    <string id="CCR_Family_Choice_Obarons" text="nobles" />
+    <string id="CCR_Family_Choice_Omerchants" text="merchants" />
+    <string id="CCR_Family_Choice_Oyeomens" text="settlers" />
+    <string id="CCR_Family_Choice_Oartisans" text="artisans" />
+    <string id="CCR_Family_Choice_Osoldiers" text="warriors" />
+    <string id="CCR_Family_Choice_Omercenaries" text="mercenaries" />
+    <string id="BE_CC_ParentsWantedTitle" text="Your parent wanted you to..." />
+    <string id="CCR_Education_Choice_Faris" text="become a faris." />
+    <string id="CCR_Education_Choice_Hearthguard" text="enter the hearthguard." />
+    <string id="CCR_Education_Choice_Cataphract" text="become a cataphract." />
+    <string id="CCR_Education_Choice_KhanGuard" text="enter a khan's guard." />
+    <string id="CCR_Education_Choice_Druzhina" text="join a druzhina." />
+    <string id="CCR_Education_Choice_Knight" text="become a knight." />
+    <string id="CCR_Education_Choice_Commander" text="lead armies." />
+    <string id="CCR_Education_Choice_Court" text="be part of the court." />
+    <string id="CCR_Education_Choice_trade" text="become a merchant." />
+    <string id="CCR_Education_Choice_crafting" text="learn a trade." />
+    <string id="CCR_Education_Choice_scholar" text="become a scholar." />
+    <string id="CCR_Education_Choice_religious" text="be a {?PLAYER.GENDER}lady{?}man{\?} of faith." />
+    <string id="CCR_Education_Choice_farmer" text="tend to the fields." />
+    <string id="CCR_Education_Choice_lady" text="become a person of influence" />
+    <string id="CCR_Education_Choice_defense" text="learn how to defend yourself." />
+    <string id="CCR_Education_Choice_trickery" text="know how to trick others." />
+    <string id="CCR_Idiom_choice_fighter" text="Better to be a warrior in a garden than a gardener in a war." />
+    <string id="CCR_Idiom_choice_healthy" text="A healthy mind in a healthy body." />
+    <string id="CCR_Idiom_choice_prevention" text="Prevention is better than cure." />
+    <string id="CCR_Idiom_choice_wellbegun" text="Well begun is half done." />
+    <string id="CCR_Idiom_choice_bold" text="Fortune favors the bold." />
+    <string id="CCR_Idiom_choice_forwarned" text="Forewarned is forearmed." />
+    <string id="CCR_Idiom_choice_invention" text="Necessity is the mother of invention." />
+    <string id="CCR_Idiom_choice_armed" text="Men with weapons never starve." />
+    <string id="CCR_Idiom_choice_conquer" text="To conquer without risk is to triumph without glory." />
+    <string id="CCR_Idiom_choice_means" text="The end justifies the means." />
+    <string id="CCR_Start_Choice_Afaris" text="a faris" />
+    <string id="CCR_Start_Choice_Acaravaner" text="a caravaner" />
+    <string id="CCR_Start_Choice_Amerchant" text="a merchant's servant" />
+    <string id="CCR_Start_Choice_Acraftman" text="a craftman" />
+    <string id="CCR_Start_Choice_Afarmer" text="a farmer" />
+    <string id="CCR_Start_Choice_Amamluke" text="mamluke" />
+    <string id="CCR_Start_Choice_Ahorsearcher" text="mounted archer" />
+    <string id="CCR_Start_Choice_Aarcher" text="archer" />
+    <string id="CCR_Start_Choice_Adesertbandit" text="a desert bandit" />
+    <string id="CCR_Start_Choice_Bfian" text="a member of a fianna" />
+    <string id="CCR_Start_Choice_Bdruid" text="a druid" />
+    <string id="CCR_Start_Choice_Bmerchant" text="a merchant's servant" />
+    <string id="CCR_Start_Choice_Bcraftman" text="a craftman" />
+    <string id="CCR_Start_Choice_Bforester" text="a forester" />
+    <string id="CCR_Start_Choice_Bwildling" text="wildling" />
+    <string id="CCR_Start_Choice_Bscout" text="scout" />
+    <string id="CCR_Start_Choice_Bkern" text="part of the kern" />
+    <string id="CCR_Start_Choice_Bforestbandit" text="a forest bandit" />
+    <string id="CCR_Start_Choice_Ecommander" text="a centurion" />
+    <string id="CCR_Start_Choice_Eengineer" text="an engineer's apprentice" />
+    <string id="CCR_Start_Choice_Emerchant" text="a merchant's servant" />
+    <string id="CCR_Start_Choice_Ecraftman" text="a craftman" />
+    <string id="CCR_Start_Choice_Epeasant" text="a peasant" />
+    <string id="CCR_Start_Choice_Elegionary" text="legionary" />
+    <string id="CCR_Start_Choice_Earcher" text="archer" />
+    <string id="CCR_Start_Choice_Ecavalry" text="a scout" />
+    <string id="CCR_Start_Choice_Ehorsearcher" text="mounted archer" />
+    <string id="CCR_Start_Choice_Elooter" text="a looter" />
+    <string id="CCR_Start_Choice_Kkhanguard" text="part of a khan's guard" />
+    <string id="CCR_Start_Choice_Knomad" text="a nomad" />
+    <string id="CCR_Start_Choice_Kmerchant" text="a merchant's servant" />
+    <string id="CCR_Start_Choice_Kcraftman" text="a craftman" />
+    <string id="CCR_Start_Choice_Kfarmer" text="a farmer" />
+    <string id="CCR_Start_Choice_Kcavalry" text="part of the cavalry" />
+    <string id="CCR_Start_Choice_Khorsearcher" text="mounted archer" />
+    <string id="CCR_Start_Choice_Kinfantry" text="infantry" />
+    <string id="CCR_Start_Choice_Ksteppebandit" text="a steppe bandit" />
+    <string id="CCR_Start_Choice_Sdruzhina" text="a member of a druzhina" />
+    <string id="CCR_Start_Choice_Sfur_hunter" text="fur hunter" />
+    <string id="CCR_Start_Choice_Smerchant" text="a merchant's servant" />
+    <string id="CCR_Start_Choice_Scraftman" text="a craftman" />
+    <string id="CCR_Start_Choice_Speasant" text="a peasant" />
+    <string id="CCR_Start_Choice_Sinfantry" text="part of the infantry" />
+    <string id="CCR_Start_Choice_Sshocktroop" text="shock troop" />
+    <string id="CCR_Start_Choice_Sarcher" text="bowman" />
+    <string id="CCR_Start_Choice_Ssearaider" text="a raider" />
+    <string id="CCR_Start_Choice_Vknight" text="a knight" />
+    <string id="CCR_Start_Choice_Vchamberlain" text="a noble's attendant" />
+    <string id="CCR_Start_Choice_Vmerchant" text="a merchant's servant" />
+    <string id="CCR_Start_Choice_Vguild" text="an artisan's apprentice" />
+    <string id="CCR_Start_Choice_Vserf" text="a freed slave" />
+    <string id="CCR_Start_Choice_Vinfantry" text="a recruit" />
+    <string id="CCR_Start_Choice_Vcavalry" text="a scout" />
+    <string id="CCR_Start_Choice_Vcrossbowman" text="a hunter" />
+    <string id="CCR_Start_Choice_Vbandit" text="a brigand" />
+    <string id="CCR_Reason_travel" text="to discover the world." />
+    <string id="CCR_Reason_desc_travel" text="The temptation of travel was to much for you, as you always dreamt of seeing the world." />
+    <string id="CCR_Reason_revenge" text="to take revenge." />
+    <string id="CCR_Reason_desc_revenge" text="After being wronged, you felt the need for revenge. With that goal in mind, you wandered throughout Calradia to get reparations." />
+    <string id="CCR_Reason_forced_out" text="after being forced out." />
+    <string id="CCR_Reason_desc_forced_out" text="After one last disagreement with you, your parents forced you out. With nowhere to go, adventuring was all you could do." />
+    <string id="CCR_Reason_money" text="in search of money" />
+    <string id="CCR_Reason_desc_money" text="You always wanted to make riches, and it was obvious for you that staying at home would never allow you to do it." />
+    <string id="CCR_Reason_power" text="to become one of the powerful" />
+    <string id="CCR_Reason_desc_power" text="Seeing how those in power had many advantages, you joined on an adventure to join them, or even replace them." />
+    <string id="CCR_Reason_history" text="to mark history" />
+    <string id="CCR_Reason_desc_history" text="With all the wars in Calradia, there are many way one could carve {?PLAYER.GENDER}her{?}his{\?} name in history." />
+    <string id="CCR_Reason_loss" text="after the loss of a loved one" />
+    <string id="CCR_Reason_desc_loss" text="After losing some close to you, you left to see if you could fill that hole" />
+    <string id="CCR_Reason_crafting" text="to practice your trade" />
+    <string id="CCR_Reason_desc_crafting" text="Your craftmanship has been an important part of your life, but your skill wasn't enough. You thus decided to embark on a journey to improve at it." />
+    <string id="CCR_Reason_helping" text="to help those in need" />
+    <string id="CCR_Reason_desc_helping" text="Having been taught in medicine, you decide to set out and help those in need, as with the wars many have suffered." />
+    <string id="CCR_Reason_prove_worth" text="to prove your fighting skills" />
+    <string id="CCR_Reason_desc_prove_worth" text="Attaching much importance to your fighting skill, you figured there was no better place than calradia to prove your might." />
+    <string id="HDFEAYDk" text="Starting Age" />
+    <string id="VlOGrGSn" text="Your character started off on the adventuring path at the age of..." />
+    <string id="2k7adlh7" text="While lacking experience a bit, you are full with youthful energy, you are fully eager, for the long years of adventuring ahead." />
+    <string id="NUlVFRtK" text="You are at your prime, You still have some youthful energy but also have a substantial amount of experience under your belt. " />
+    <string id="5MxTYApM" text="This is the right age for starting off, you have years of experience, and you are old enough for people to respect you and gather under your banner." />
+    <string id="ePD5Afvy" text="While you are past your prime, there is still enough time to go on that last big adventure for you. And you have all the experience you need to overcome anything!" />
+    <string id="BESandboxCampaignMenuEntry" text="Burning Empires: Sandbox" />
+    <string id="BEHistoricalCampaignMenuEntry" text="Burning Empires: Historical Campaign" />
+    <string id="BEHistoricalCampaignMenuHint" text="Play as an existing historical character without custom character creation." />
+    <string id="BE_MCM_DisplayName" text="Burning Empires" />
+    <string id="BE_HIDEOUT_TEXT" text="You pass by a small settlement belonging to the {BANDIT_FACTION}. The area is guarded by armed men, but for now, they are unaware of your presence..." />
+    <string id="BE_SlaveLaborConstruction" text="Slave labor" />
+    <string id="BE_LoyaltyCultureRelations" text="Population cultural relations" />
+    <string id="BE_LoyaltyReligionRelations" text="Population religious relations" />
+    <string id="BE_LoyaltyPersonalCultureReputation" text="Ruler cultural reputation" />
+    <string id="BE_LoyaltyPersonalReligionReputation" text="Ruler religious reputation" />
+    <string id="BE_SecurityCultureRelations" text="Population cultural relations" />
+    <string id="BE_SecurityReligionRelations" text="Population religious relations" />
+    <string id="BE_SecurityPersonalCultureReputation" text="Ruler cultural reputation" />
+    <string id="BE_SecurityPersonalReligionReputation" text="Ruler religious reputation" />
+    <string id="BEWonderExplore" text="Explore" />
+    <string id="BEWonderLeave" text="Leave" />
+    <string id="BEWonderMissionPrerequisitesMissing" text="This Wonder scene could not establish all required exploration systems. The mission has been closed safely." />
+    <string id="BEWonderPlayerSpawnMissing" text="This Wonder scene has no valid player spawn point. The exploration mission has been closed safely." />
+    <string id="BE_CULTURE_VISUAL_MAPPING_MISSING_BODY" text="Burning Empires could not resolve the visual family for culture '{CULTURE_ID}'. Visual replacement for this culture has been disabled; its original culture ID will be passed to Bannerlord instead of silently using an unrelated Empire background." />
+    <string id="BE_CULTURE_VISUAL_MAPPING_MISSING_TITLE" text="Culture visual mapping is missing" />
+    <string id="BE_TIME_DAYLIGHT_PATCH_INCOMPATIBLE_MESSAGE" text="The Burning Empires Main_map daylight-lock patch did not match the supported Bannerlord 1.4.7 method. Burning Empires disabled only the 09:00 daylight lock for this session; normal time progression remains active. Technical detail: {DETAIL} Disable other Mods that patch MapScreen.TickVisuals or restore the supported game files, then restart the game." />
+    <string id="BE_TIME_DAYLIGHT_PATCH_INCOMPATIBLE_TITLE" text="Burning Empires daylight lock is unavailable" />
+    <string id="BE_TIME_CTRL_SPACE_PATCH_INCOMPATIBLE_MESSAGE" text="The Burning Empires Ctrl+Space time-acceleration patch did not match the supported Bannerlord 1.4.7 map-input method. Burning Empires disabled only the Ctrl+Space shortcut; ordinary Space and the configured Time flow speed remain available. Technical detail: {DETAIL} Disable other Mods that patch MapScreen input or restore the supported game files, then restart the game." />
+    <string id="BE_TIME_CTRL_SPACE_PATCH_INCOMPATIBLE_TITLE" text="Burning Empires Ctrl+Space acceleration is unavailable" />
+    <string id="ruHt0Ub5" text="" />
+    <string id="BERenameSettlementOption" text="Rename this settlement" />
+    <string id="BERenameSettlementUnauthorized" text="Only the settlement's ruling clan or the ruler of its kingdom may rename it." />
+    <string id="BERenameSettlementTitle" text="Rename settlement" />
+    <string id="BERenameSettlementDescription" text="Enter the new name for this settlement." />
+    <string id="BERenameSettlementConfirm" text="Confirm" />
+    <string id="BERenameSettlementCancel" text="Cancel" />
+    <string id="BESlaveLaborConstructionSpeed" text="Slave labor: +{PERCENT}% construction speed" />
+    <string id="BEPlayerSlaveDispositionDescription" text="You captured {COUNT} enslaved people during the attack.{NEWLINE}{SUMMARY}{NEWLINE}Choose what should happen to them." />
+    <string id="BEPlayerSlaveDispositionSell" text="Sell them" />
+    <string id="BEPlayerSlaveDispositionRelease" text="Release them" />
+    <string id="BEPlayerSlaveDispositionResettle" text="Resettle them in one of my fiefs" />
+    <string id="BEPlayerSlaveDispositionNoFief" text="Your clan does not own a city or castle." />
+    <string id="BEPlayerSlaveDispositionTitle" text="Captured population" />
+    <string id="BEPlayerSlaveDispositionConfirm" text="Confirm" />
+    <string id="BEPlayerSlaveFiefTitle" text="Choose a destination" />
+    <string id="BEPlayerSlaveFiefDescription" text="Select a city or castle owned by your clan." />
+    <string id="BEPlayerSlaveFiefConfirm" text="Confirm" />
+    <string id="BEPlayerSlaveFiefBack" text="Back" />
+    <string id="BEPlayerSlaveSoldResult" text="The captives were sold for {GOLD} denars and dispersed through nearby slave markets." />
+    <string id="BEPlayerSlaveSoldTitle" text="Captives sold" />
+    <string id="BEHeroReligionConversionOpen" text="I would like to speak with you about faith." />
+    <string id="BEHeroReligionConversionIntro" text="What is it that you wish to discuss?" />
+    <string id="BEHeroReligionConversionBegin" text="I ask you to consider embracing my faith." />
+    <string id="BEHeroReligionConversionCancel" text="Never mind." />
+    <string id="BEHeroReligionConversionFailed" text="I cannot accept what you ask of me." />
+    <string id="BEHeroReligionConversionSucceeded" text="You have given me much to consider. I will accept your faith." />
+    <string id="BEHeroReligionConversionArgumentCancel" text="I will not press this matter further." />
+    <string id="BEHeroReligionConversionChance" text="{ARGUMENT} {SUCCESS_CHANCE}" />
+    <string id="BEHeroReligionConversionArgumentBlocked" text="This argument is no longer available." />
+    <string id="BEHeroReligionConversionComplete" text="{HERO_NAME} now follows {RELIGION_NAME}." />
+    <string id="BEHeroReligionConversionUnavailable" text="This character cannot be asked to change faith." />
+    <string id="BEHeroReligionConversionConfigurationUnavailable" text="Religion conversion is unavailable until the Kingdom Government configuration is repaired." />
+    <string id="BEHeroReligionConversionDataUnavailable" text="Religion conversion data is not available yet." />
+    <string id="BEHeroReligionConversionTargetNone" text="This character's formal faith could not be resolved safely." />
+    <string id="BEHeroReligionConversionAlreadySame" text="This character already follows your faith." />
+    <string id="BEHeroReligionConversionTaskOne" text="Why should I turn away from the faith I have always known?" />
+    <string id="BEHeroReligionConversionImmediateFail" text="Your words do not persuade me." />
+    <string id="BEHeroReligionConversionFinalFail" text="I will not be persuaded." />
+    <string id="BEHeroReligionConversionTryLater" text="I need time to think." />
+    <string id="BEHeroReligionConversionArgumentOneA" text="Faith is shown by the justice and loyalty with which we live." />
+    <string id="BEHeroReligionConversionArgumentOneB" text="Let us seek a path that brings comfort and mercy to our people." />
+    <string id="BEHeroReligionConversionArgumentOneC" text="A wise person should follow the faith that offers the greatest advantage." />
+    <string id="BEHeroReligionConversionTaskTwo" text="What proof can you offer that this change is worth the cost?" />
+    <!--Source conflict for BEHeroReligionConversionImmediateFail: another DLL literal uses text: That is not enough to convince me.-->
+    <!--Source conflict for BEHeroReligionConversionFinalFail: another DLL literal uses text: I will not abandon my convictions.-->
+    <string id="BEHeroReligionConversionArgumentTwoA" text="Changing one's path takes courage, but courage can bring a better future." />
+    <string id="BEHeroReligionConversionArgumentTwoB" text="This faith asks us to care for those who depend on us." />
+    <string id="BEHeroReligionConversionArgumentTwoC" text="Old promises should not bind us when a stronger path is before us." />
+    <string id="BEHeroReligionConversionTaskThree" text="Even if I understand you, why should I make this decision now?" />
+    <string id="BEHeroReligionConversionArgumentThreeA" text="A shared faith can help us face hardship without abandoning one another." />
+    <string id="BEHeroReligionConversionArgumentThreeB" text="The future is uncertain, and we must have the courage to choose our course." />
+    <string id="BEHeroReligionConversionArgumentThreeC" text="The realm is changing, and those who do not adapt will be left behind." />
+    <string id="BEHeroReligionConversionSuccessReaction" text="Perhaps there is wisdom in what you say." />
+    <string id="BEHeroReligionConversionCriticalSuccessReaction" text="Your words have struck deeply. I must reconsider everything." />
+    <string id="BEHeroReligionConversionFailureReaction" text="I am not convinced." />
+    <string id="BEHeroReligionConversionCriticalFailureReaction" text="Do not insult my faith again." />
+    <string id="BEHeroReligionConversionMissReaction" text="I do not know what to make of that." />
+    <string id="BEGoToTemple" text="Go to the temple" />
+    <string id="BETempleUnavailable" text="The temple is not ready to receive visitors." />
+    <string id="BETemplePriestGreeting" text="Welcome. What would you ask of this temple?" />
+    <string id="be_temple_tell_me_about_faith" text="Tell me about {BE_RELIGION_NAME}." />
+    <string id="BETempleReligionExplanation" text="{BE_RELIGION_EXPLANATION}" />
+    <string id="BETempleAskToConvert" text="I wish to embrace this faith." />
+    <string id="BETempleConvertConfirmation" text="This is a solemn commitment. Do you truly wish to follow {BE_RELIGION_NAME}?" />
+    <string id="BETempleConvertYes" text="Yes. I accept this faith." />
+    <string id="BETempleConvertNo" text="Not yet." />
+    <string id="BETempleConversationLeave" text="I have no other questions." />
+    <string id="BETempleInvalidFaith" text="This priest cannot offer a formal conversion." />
+    <string id="BETempleAlreadyFollower" text="You already follow this faith." />
+    <string id="BETempleConversionComplete" text="You now follow {BE_RELIGION_NAME}." />
+    <string id="BEArianTempleExplanation" text="We worship the one God and honour Christ as the Son brought forth by the Father's will." />
+    <string id="BEDonatistTempleExplanation" text="We hold that the Church must remain pure and that its ministers must not betray the faith under persecution." />
+    <string id="BEGenericTempleExplanation" text="This faith binds its worshippers through shared rites, teachings and obligations to their community." />
+    <string id="BETempleSceneConfigurationErrorTitle" text="Temple scene configuration error" />
+    <string id="BETempleSceneConfigurationErrorBody" text="The temple entrance has been disabled because Burning Empires could not load a valid culture-specific temple scene and religion visibility level.&#xA;&#xA;What happened:&#xA;{REASON}&#xA;&#xA;Configuration involved:&#xA;Settlement: {SETTLEMENT}&#xA;Culture: {CULTURE}&#xA;Religion: {RELIGION}&#xA;Scene: {SCENE}&#xA;Requested level: {LEVEL}&#xA;Fallback level: {FALLBACK}&#xA;&#xA;What the program did:&#xA;The temple menu entry was hidden so the player cannot enter an incorrect or empty scene. No settlement, religion, population, save, or scene data was changed.&#xA;&#xA;How to fix it:&#xA;Open BE ModuleData Source Files/BEData/be_temple_scenes.json and correct the listed culture, religion, scene, or level mapping. Confirm that SceneObj/{SCENE}/scene.xscene contains the requested level, then run BE ModuleData Builder/BEModuleDataBuilder.exe validate, dry-run, and pack. Start a new test session and check the temple entrance again." />
+    <string id="BERecruitmentPopulationMoreGroups" text="+{COUNT} more groups" />
+    <string id="BERecruitmentPopulationSummary" text="Population: {DETAILS}" />
+    <string id="BERecruitmentPopulationGroup" text="{CULTURE} {CLASS} -{COUNT}" />
+    <string id="BERecruitmentPopulationHintHeader" text="Population deducted when recruitment is confirmed:" />
+    <string id="BERecruitmentPopulationHintReligion" text="Religion groups are deducted proportionally from each population pool." />
+    <string id="BEQuestTemplateMissingGiver" text="Quest giver '{GIVER_ID}' for quest '{QUEST_ID}' could not be loaded. Check its NPCCharacters XML entry." />
+    <string id="BEQuestTemplateGiverSpawnError" text="Quest-giver spawn error: {ERROR}" />
+    <string id="BEQuestTemplateDefaultOfferGreeting" text="Greetings. Do you seek a task?" />
+    <string id="BEQuestTemplateDefaultOfferAsk" text="Yes. What do you need?" />
+    <string id="BEQuestTemplateDefaultOfferDescription" text="I have a task: {QUEST_TITLE}. Will you accept?" />
+    <string id="BEQuestTemplateDefaultOfferAccept" text="I accept." />
+    <string id="BEQuestTemplateDefaultOfferDecline" text="Not now." />
+    <string id="BEQuestTemplateAlreadyCompleted" text="You have already completed my task." />
+    <string id="BEQuestTemplateStarted" text="Quest started: {QUEST_ID}" />
+    <string id="BEQuestTemplateStartFailed" text="Failed to start quest: {ERROR}" />
+    <string id="BEQuestTemplateArenaNotFound" text="Arena location not found in this settlement." />
+    <string id="BEQuestTemplateDuelTargetNotFound" text="Duel target not found: {TARGET_ID}" />
+    <string id="BEQuestTemplateDuelStartError" text="Duel start error: {ERROR}" />
+    <string id="BEQuestTemplatePoachersPartyNotFound" text="Poachers party not found." />
+    <string id="BEQuestTemplatePoachersLeaderNotFound" text="Poachers leader not found." />
+    <string id="BEQuestTemplateConversationStartFailed" text="Failed to start conversation: {ERROR}" />
+    <string id="BEQuestTemplateStartDuel" text="Start ceremonial duel" />
+    <string id="BEQuestTemplateTalkToPartyLeader" text="Approach and talk to the {PARTY_NAME} leader" />
+    <string id="BEQuestTemplateAttackParty" text="Attack the {PARTY_NAME}." />
+    <string id="BEQuestTemplatePoachersVillageSelected" text="Poachers village = {VILLAGE}" />
+    <string id="BEQuestTemplateNoPoachersVillage" text="No suitable village found for poachers quest." />
+    <string id="BEQuestTemplateDefaultTitle" text="XML Quest" />
+    <string id="BEQuestTemplateObjectiveComplete" text="Objective complete: {OBJECTIVE}." />
+    <string id="BEQuestTemplateUnknownObjective" text="Unknown objective ID: {OBJECTIVE_ID}" />
+    <string id="BEQuestTemplatePoachersDefeatedByOthers" text="The poachers have already been dealt with by someone else - the quest can no longer be completed." />
+    <string id="BEQuestTemplateSettlementScouted" text="Scouted {SETTLEMENT}!" />
+    <string id="BEQuestTemplateMissingSettlementParameter" text="DefeatQuestParty is missing settlementId for objective {OBJECTIVE_ID}." />
+    <string id="BEQuestTemplateUnknownSettlement" text="Unknown settlement ID '{SETTLEMENT_ID}' for objective {OBJECTIVE_ID}." />
+    <string id="BEQuestTemplateNoBanditClan" text="No bandit clan was found for DefeatQuestParty." />
+    <string id="BEQuestTemplateDefaultPoachersPartyName" text="Poachers Party" />
+    <string id="BEQuestTemplateInvalidTroopFallback" text="Troop ID '{TROOP_ID}' is invalid; Looters were spawned instead." />
+    <string id="BEQuestTemplateQuestFailed" text="Quest failed." />
+    <string id="BEQuestTemplateNotEnoughGold" text="Not enough gold." />
+    <string id="BEQuestTemplateUnknownAction" text="Unknown quest action: {ACTION_TYPE}" />
+    <string id="BEQuestTemplateMissingHeroParameter" text="CaptureHero objective is missing its heroId parameter." />
+    <string id="BEQuestTemplatePrisonerHandedOver" text="Handed over {HERO} to the quest giver." />
+    <string id="BEQuestTemplateTargetPrisonerNotFound" text="Target prisoner not found in your prison roster." />
+    <string id="BEQuestTemplateInvalidPrisonerActionObjective" text="RemovePrisoners requires a CaptureHero or CapturePrisoners objective." />
+    <string id="BEQuestTemplateItemNotFound" text="Item not found: {ITEM_ID}" />
+    <string id="BEQuestTemplateRequiredItemMissing" text="You have none of the required item." />
+    <string id="BEQuestTemplateArenaSpawnPointsMissing" text="Arena scene is missing 'sp_arena_respawn' points. Duel aborted." />
+    <string id="BEQuestTemplateDuelDefeat" text="The crowd cheers as you are defeated." />
+    <string id="BEQuestTemplateDuelVictory" text="The crowd roars as your opponent falls!" />
+    <string id="BEMinimalRecoveryMissingTitle" text="Burning Empires recovery data is missing" />
+    <string id="BEUnsupportedDevelopmentSaveTitle" text="Unsupported development save data" />
+    <string id="BEMigrationFailedTitle" text="The old Burning Empires save cannot be migrated" />
+    <string id="BEModuleVersionInvalidTitle" text="The Burning Empires save-module versions are inconsistent" />
+    <string id="BEExternalSavePreparationFailedTitle" text="Custom data preparation failed" />
+    <string id="BEExternalSavePreparationFailedText" text="Population and religion data could not be prepared before saving. The game save will continue, but custom data may fall back to the previous valid external snapshot." />
+    <string id="BEExternalSaveWriteFailedTitle" text="External save failed" />
+    <string id="BEExternalSaveWriteFailedText" text="The external population and religion snapshot could not be written. The game save will continue, but custom data may fall back to the previous valid external snapshot." />
+    <string id="BEExternalSaveDataSyncFailedTitle" text="External save synchronization failed" />
+    <string id="BEExternalSaveDataSyncFailedText" text="The latest external population and religion snapshot could not be linked to the game save. The game save will continue, but custom data may fall back to the previous valid external snapshot." />
+    <string id="BEExternalSaveIndexFailedTitle" text="External save index update failed" />
+    <string id="BEExternalSaveIndexFailedText" text="The game save and its external data were written, but the external backup index could not be updated. No existing backup was deleted." />
+    <string id="BEExternalSaveWarningOk" text="OK" />
+    <string id="BEPopulationReligionAuditLogFailed" text="The audit log could not be written." />
+    <string id="BEPopulationReligionAuditTitle" text="Population and religion data needs review" />
+    <string id="BEExternalSaveMultipleWarningsTitle" text="Warnings" />
+    <string id="BEPopulationReligionAuditText" text="Some population or religion data is using default values. Settlements: {SETTLEMENTS}, heroes: {HEROES}. Details were written to: {PATH}" />
+    <string id="BEMigrationFailureBody" text="Burning Empires stopped loading this campaign because its custom data could not be migrated safely.&#xA;&#xA;What happened:&#xA;The save declares data version {SOURCE_VERSION}, while this build requires version {TARGET_VERSION}. The continuous module migration chain or its validation failed.&#xA;&#xA;Technical reason:&#xA;{REASON}&#xA;&#xA;What the program did:&#xA;No population, religion, relation, reputation, Wonder, Historical Campaign, or custom-value data was committed to the running campaign. The original .sav and its external snapshots were not modified.&#xA;&#xA;What to do:&#xA;Keep the original save and the matching BESavedata campaign directory together. Restore a Burning Empires build that supports this source version, or add the missing continuous module migration and validation step before trying again." />
+    <string id="BEExternalSavePreflightOk" text="OK" />
+    <string id="BEExternalSavePreflightLoad" text="Load" />
+    <string id="BEExternalSavePreflightMigrate" text="Load and migrate" />
+    <string id="BEExternalSavePreflightCancel" text="Cancel" />
+    <string id="BEExternalSavePreflightFailureTitle" text="Burning Empires save validation failed" />
+    <string id="BEExternalSavePreflightFailureBody" text="This save contains Burning Empires external-data metadata, but the pre-load validation could not be completed. The game has cancelled loading so that the campaign save and its external population, religion, Wonder, Historical Campaign, and custom data cannot be combined incorrectly.&#xA;&#xA;Save: {SAVE_NAME}&#xA;Error type: {ERROR_TYPE}&#xA;Details: {ERROR_MESSAGE}&#xA;&#xA;Do not overwrite this save. Keep both the original .sav file and the matching BurningEmpires\BESavedata folder, then review the Burning Empires runtime log or report these details to the development team." />
+    <string id="BEExternalSaveDeletedTitle" text="External save data was deleted" />
+    <string id="BEExternalSaveDeletedText" text="This save slot was previously deleted through Bannerlord's saved-games screen. Burning Empires has ignored the old embedded recovery reference so that deleted external data cannot recreate itself." />
+    <string id="BEExternalSaveFallbackTitle" text="External save data recovered" />
+    <string id="BEExternalSaveFallbackText" text="The external data for this save was damaged. The game has automatically loaded the latest available external backup for this save slot." />
+    <string id="BEExternalSaveDeletedPreflightText" text="Burning Empires recorded that this save slot was deleted through Bannerlord's saved-games screen. Old snapshots and embedded recovery data will not be restored. Loading this manually restored .sav will initialize custom data again." />
+    <string id="BEOlderSaveTitle" text="Older Burning Empires save" />
+    <!--The following localization prefix is escaped as {{=ID}} in the DLL format string.-->
+    <string id="BEOlderSaveText" text="This save uses Burning Empires data version {0}. It can be loaded by migrating its module data to version {1}.&#xA;&#xA;Modules to migrate:&#xA;{2}&#xA;&#xA;Migration runs on a deep copy and is committed only after every module validates. The original save will not be overwritten. After the world opens, provide a new Save As name before using any ordinary save command." />
+    <string id="BEOlderBackupTitle" text="Older Burning Empires backup available" />
+    <string id="BEExternalSavePreflightFallbackTitle" text="External save data is damaged" />
+    <!--The following localization prefix is escaped as {{=ID}} in the DLL format string.-->
+    <string id="BEOlderBackupText" text="This v{0} save has a damaged active external snapshot, but Burning Empires found a valid backup from the same physical save slot. It will restore that backup and migrate a deep copy to v{1}; the original files will not be overwritten." />
+    <string id="BEExternalSavePreflightFallbackText" text="The active external data for this physical save slot is damaged, but a valid same-slot backup is available. Select Load to recover it, or Cancel to return to the saved games screen." />
+    <string id="BECampaignCleanupDeferredBody" text="Bannerlord deleted the selected save, but Burning Empires could not safely prove that the complete campaign directory was obsolete.&#xA;&#xA;Campaign ID: {CAMPAIGN_ID}&#xA;Deleted save slot: {SAVE_NAME}&#xA;Reason: {REASON}&#xA;&#xA;The exact deleted slot remains protected by its deletion tombstone. Other campaign data was preserved instead of being guessed or recursively deleted." />
+    <string id="BECampaignCleanupDeferredTitle" text="Campaign folder cleanup was deferred" />
+    <string id="BEExternalSavePreflightMrsTitle" text="External snapshots need embedded recovery" />
+    <string id="BEExternalSavePreflightMrsText" text="No valid external snapshot is available for this physical save slot. If you continue, Burning Empires will validate the minimal recovery data stored inside this same .sav after Bannerlord restores it. A final failure warning is shown only if that embedded recovery data also fails validation." />
+    <string id="BEExternalSaveMrsTitle" text="External snapshot recovery was used" />
+    <string id="BEExternalSaveMrsText" text="No usable external data snapshot could be loaded for this save. The game has loaded the minimal recovery data stored inside the .sav file." />
+    <string id="BEExternalSaveUnavailableTitle" text="External save data is unavailable" />
+    <string id="BEExternalSaveUnavailableText" text="All same-slot external snapshots are unavailable and the minimum-recovery payload embedded in this .sav cannot be trusted.&#xA;&#xA;Technical reason:&#xA;" />
+    <string id="BEExternalSaveDeleteFailureBody" text="Burning Empires could not remove external data after Bannerlord confirmed that a save was deleted.&#xA;&#xA;What happened:&#xA;The original .sav was deleted, but Windows refused to remove part of the matching Burning Empires external data. The deletion tombstone remains active, so delayed save tasks and recovery data are blocked from restoring the deleted slot.&#xA;&#xA;Affected campaign: {CAMPAIGN_ID}&#xA;Affected save slot: {SAVE_NAME}&#xA;Remaining path: {PATH}&#xA;Technical reason: {REASON}&#xA;&#xA;What the program did:&#xA;Other saves remain available. Burning Empires will not load or rewrite the deleted slot from an old snapshot.&#xA;&#xA;What to do:&#xA;Close Bannerlord, confirm that no editor or backup program is using the listed path, then delete that path manually. Do not delete other campaign directories." />
+    <string id="BEExternalSaveDeleteFailureTitle" text="External save data could not be fully deleted" />
+    <string id="BEMigrationOrdinarySaveBlockedBody" text="Burning Empires blocked {OPERATION} because this session contains data migrated from an older save.&#xA;&#xA;Why this happened:&#xA;The original old-version save is being preserved as a rollback point. Ordinary saving is disabled until the required migration Save As has succeeded.&#xA;&#xA;What to do:&#xA;Close this message and use the migration prompt to enter a new, unique save name. After that Save As succeeds, all normal save commands and branch-specific automatic saves become available again." />
+    <string id="BEMigrationOrdinarySaveBlockedTitle" text="Save is temporarily blocked" />
+    <string id="BEExternalSaveDeleteIdentityBody" text="Bannerlord deleted the selected .sav file, but Burning Empires could not read its UniqueGameId from the save metadata.&#xA;&#xA;What happened:&#xA;The external data folder is keyed by both Campaign ID and save-slot name. A slot name alone is not sufficient because two different campaigns can use the same name.&#xA;&#xA;Affected save slot: {SAVE_NAME}&#xA;&#xA;What the program did:&#xA;Burning Empires preserved all external data instead of guessing which campaign directory should be removed. No other save was changed.&#xA;&#xA;What to do:&#xA;Close the game and inspect BESavedata/campaigns only if you need to remove the unmatched external slot manually. Do not delete another campaign directory merely because it contains a slot with the same name." />
+    <string id="BEExternalSaveDeleteIdentityTitle" text="External save data was preserved" />
+    <string id="BEExternalSaveDeleteSyncBody" text="Bannerlord deleted the selected .sav file, but Burning Empires could not finish synchronizing the matching external-data deletion.&#xA;&#xA;What happened:&#xA;An unexpected file or index error interrupted external cleanup after the original save was deleted.&#xA;&#xA;Campaign ID: {CAMPAIGN_ID}&#xA;Save slot: {SAVE_NAME}&#xA;Technical reason: {REASON}&#xA;&#xA;What the program did:&#xA;The error was contained so that it cannot terminate the game or alter another save. Existing external files were left in place when their ownership could not be confirmed.&#xA;&#xA;What to do:&#xA;Close Bannerlord, inspect BESavedata/campaigns/{CAMPAIGN_ID}, and remove only the folder for the deleted slot if it remains. Keep every other campaign and slot." />
+    <string id="BEExternalSaveDeleteSyncTitle" text="External save deletion was incomplete" />
+    <string id="BESaveBranchCompatibilityBody" text="Burning Empires disabled branch-specific automatic saves for this game session.&#xA;&#xA;What happened:&#xA;The version-locked autosave hook or save-list UI contract is missing, failed, or conflicts with another Mod. Running both implementations could overwrite another save branch, invoke Bannerlord's save callback twice, or build an invalid save list.&#xA;&#xA;Technical detail:&#xA;{REASON}&#xA;&#xA;What the program did:&#xA;No fallback to the global saveauto1-3 slots was attempted. If the conflict affects SavedGameGroup, the BE branch hierarchy is also disabled and the original flat save list is retained. Manual Save, Quick Save, Save As, Save and Exit, and loading remain available.&#xA;&#xA;What to do:&#xA;Keep this report, compare the listed Harmony or UIExtenderEx owner with the enabled module list, and disable or update the Mod that changes the same save method or SavedGameGroup prefab. Restart Bannerlord after changing the module list." />
+    <string id="BESaveBranchCompatibilityTitle" text="Branch automatic saves were disabled" />
+    <string id="BEMigrationSaveAsBody" text="This campaign was loaded from Burning Empires data version {SOURCE_VERSION} and has been migrated to version {TARGET_VERSION}.&#xA;&#xA;What this means:&#xA;The migrated data is currently held only in memory. Burning Empires will not overwrite the old save. You must create a new save slot before Quick Save, Auto Save, Save, or Save and Exit can be used.&#xA;&#xA;Migrated modules: {MODULES}&#xA;&#xA;What to do:&#xA;Enter a new, unique save name below and select Save migrated campaign. The new slot remains part of the same Bannerlord campaign, but receives its own Burning Empires save-branch identity and its own three automatic-save slots." />
+    <string id="BEMigrationSaveAsTitle" text="Save the migrated campaign" />
+    <string id="BEMigrationSaveAsConfirm" text="Save migrated campaign" />
+    <string id="BEMigrationSaveAsLater" text="Not yet" />
+    <string id="BEMigrationSavedNotice" text="The migrated Burning Empires campaign has been saved to its new slot." />
+    <string id="BEMigrationSaveFailedTitle" text="The migrated campaign was not saved" />
+    <string id="BEMigrationSaveFailedBody" text="Bannerlord could not finish the required Save As operation.&#xA;&#xA;What happened:&#xA;The migrated Burning Empires data remains only in memory, so ordinary saves are still blocked to protect the original old-version save.&#xA;&#xA;What to do:&#xA;Check that the save folder is writable and that sufficient disk space is available. Close this message, then enter a different new save name when the migration prompt appears again." />
+    <string id="BEMigrationSaveNameEmpty" text="Enter a name for the migrated save." />
+    <string id="BEMigrationSaveNameLong" text="The save name must contain fewer than 30 characters." />
+    <string id="BEMigrationSaveNameCharacters" text="Use only letters, numbers, and spaces." />
+    <string id="BEMigrationSaveNameReserved" text="That name is reserved for automatic saves." />
+    <string id="BEMigrationSaveNameExists" text="Choose a new name. An existing save must not be overwritten during migration." />
+    <string id="BELifePatchErrorTitle" text="Life-cycle compatibility error" />
+    <string id="BELifePatchErrorBody" text="Burning Empires did not apply the {PATCH} compatibility patch because this game build no longer matches the supported 1.4.8 contract. The original game method was left unchanged. Technical detail: {DETAIL}" />
+    <string id="BEHistoricalCampaignGoalQuestTitle" text="{HERO}'s Campaign Goals" />
+    <string id="BEHistoricalCampaignTitle" text="Historical Campaign" />
+    <string id="BEHistoricalBackstoryTitle" text="Backstory" />
+    <string id="BEHistoricalGoalsTitle" text="Goals" />
+    <string id="BEHistoricalCompanyTitle" text="Company" />
+    <string id="BEHistoricalFeatsTitle" text="Cultural Feats" />
+    <string id="BEHistoricalConfirm" text="Begin Campaign" />
+    <string id="WXAaWZVf" text="Back" />
+    <string id="BEHistoricalErrorNoCandidates" text="No Historical Campaign candidates are configured." />
+    <string id="BEHistoricalErrorTextMissing" text="This character is missing required localized text." />
+    <string id="BEHistoricalBackgroundUnavailable" text="The configured historical background image is unavailable." />
+    <string id="BEHistoricalErrorPreviewHeroMissing" text="The selected historical character cannot be previewed because the Hero data is missing." />
+    <string id="BEHistoricalPreviewUnavailable" text="Character preview is unavailable." />
+    <string id="BEHistoricalPreviewConfigErrorBody" text="This is a Historical Campaign character-selection playerEquipment configuration error.&#xA;&#xA;What this means:&#xA;The game could not find one or more preview items or equipment rosters configured for {CHARACTER_NAME} ({HERO_ID}) in BE ModuleData Source Files/BEData/be_historical_campaign.json.&#xA;&#xA;Why it happened:&#xA;An itemId or equipmentRosterId does not exist, is misspelled, or was not loaded into the current ModuleData. The selection tableau uses a safe visual fallback, but starting the campaign is blocked until playerEquipment is valid because the chosen Hero must receive the exact JSON battle equipment.&#xA;&#xA;What the program did:&#xA;Only the temporary preview used a fallback. No real Hero equipment was modified.&#xA;&#xA;Configuration details:&#xA;{ISSUES}&#xA;&#xA;How to fix it:&#xA;Open BE ModuleData Source Files/BEData/be_historical_campaign.json, correct the listed playerEquipment field, slot, or object ID, then run BE ModuleData Builder/BEModuleDataBuilder.exe validate, dry-run, and pack in that order. Reopen Historical Campaign and verify the preview." />
+    <string id="BEHistoricalPreviewConfigErrorTitle" text="Historical Campaign preview equipment configuration needs attention" />
+    <string id="BEHistoricalPreviewCameraErrorBody" text="Historical Campaign could not enable the mouse-wheel zoom and middle-button vertical camera controls for the character preview.&#xA;&#xA;What this is:&#xA;The character model itself is still available, but the small compatibility bridge that changes the real three-dimensional Tableau camera position could not connect to Bannerlord's CharacterTableau fields.&#xA;&#xA;Why it happened:&#xA;This build expects the Bannerlord 1.4.7 CharacterTableau structure. A different game version or an incompatible UI assembly can rename or replace the required private fields. Technical detail: {TECHNICAL_REASON}&#xA;&#xA;What the program did:&#xA;Mouse-wheel zoom and middle-button vertical camera movement have been disabled for this session to prevent an unsafe reflection write. Character selection, left-button rotation, and Begin Campaign remain available.&#xA;&#xA;What to do:&#xA;Confirm that Bannerlord 1.4.7 and the required official prerequisite modules are installed. If the versions are correct, send this complete message and the Historical Campaign log to mumahutuo so the compatibility bridge can be updated. Do not edit be_historical_campaign.json for this error." />
+    <string id="BEHistoricalPreviewCameraErrorTitle" text="Historical Campaign preview camera compatibility error" />
+    <string id="BEHistoricalLoadPlaceholderCleanupFailedBody" text="Burning Empires could not safely finish loading this Historical Campaign save.&#xA;&#xA;What happened:&#xA;{REASON}&#xA;&#xA;Why this check exists:&#xA;Bannerlord reloads the Sandbox-only main_hero, player_faction and main_hero_party_template XML definitions while reading a save. A valid Historical Campaign save uses the selected historical Hero and Clan instead. The unused Sandbox definitions may be removed only when they own no assets and have no active references.&#xA;&#xA;What the program did:&#xA;Loading of Wonder stash inventories, discovery state and the remaining Burning Empires external data was stopped before those values could be applied to an unsafe world state. No placeholder Hero was killed and no Clan-destruction or asset-transfer action was used.&#xA;&#xA;What to do:&#xA;Do not overwrite this save. Keep the save file and the complete BurningEmpires Logs directory, then report candidate ID {CANDIDATE_ID} and the message above to the Burning Empires programmer. Test again with a save created by the current DLL after the reported reference has been corrected." />
+    <string id="BEHistoricalLoadPlaceholderCleanupFailedTitle" text="Historical Campaign save could not be restored" />
+    <string id="BEGovernmentUnknownCulture" text="Unknown culture" />
+    <string id="BEGovernmentSelectedCulturePopulation" text="Population: {POPULATION}" />
+    <string id="BEGovernmentSelectedCultureShare" text="Share of domestic population: {SHARE}" />
+    <string id="BEGovernmentMainstreamCultureAffinity" text="Affinity toward the mainstream culture: {VALUE}" />
+    <string id="BEGovernmentReligionBreakdown" text="Religion Breakdown" />
+    <string id="BEGovernmentSelectedReligionPopulation" text="Believers: {POPULATION}" />
+    <string id="BEGovernmentSelectedReligionShare" text="Share of domestic population: {SHARE}" />
+    <string id="BEGovernmentStateReligionAffinity" text="Affinity toward the state religion: {VALUE}" />
+    <string id="BEGovernmentCultureBreakdown" text="Culture Breakdown" />
+    <string id="BEGovernmentTab" text="Government" />
+    <string id="BEGovernmentReligionTab" text="Religion" />
+    <string id="BEGovernmentCultureTab" text="Culture" />
+    <string id="BEGovernmentStateReligionTitle" text="State Religion" />
+    <string id="BEGovernmentMainstreamCultureTitle" text="Mainstream Culture" />
+    <string id="BEGovernmentChangeStateReligion" text="Change State Religion" />
+    <string id="BEGovernmentChangeMainstreamCulture" text="Change Mainstream Culture" />
+    <string id="BEGovernmentPropose" text="Propose" />
+    <string id="BEGovernmentReligionComposition" text="Domestic Religious Population" />
+    <string id="BEGovernmentCultureComposition" text="Domestic Cultural Population" />
+    <string id="BEGovernmentNoKingdom" text="You are not currently a member of a kingdom." />
+    <string id="BEGovernmentNoStateReligion" text="No state religion has been set." />
+    <string id="BEGovernmentPlayerReligion" text="Your religion: {RELIGION}" />
+    <string id="BEGovernmentNoMainstreamCulture" text="No mainstream culture has been set." />
+    <string id="BEGovernmentUnknownPlayerCulture" text="Unknown culture" />
+    <string id="BEGovernmentPlayerCulture" text="Your culture: {CULTURE}" />
+    <string id="BEGovernmentNoReligionPopulation" text="No eligible domestic religion population data is available." />
+    <string id="BEGovernmentNoCulturePopulation" text="No eligible domestic culture population data is available." />
+    <string id="BEGovernmentCultureLoadFailure" text="Culture population data could not be loaded: {ERROR}" />
+    <string id="BEGovernmentChooseStateReligionTitle" text="Choose State Religion" />
+    <string id="BEGovernmentChooseStateReligionDescription" text="Select a religion to propose. The proposal costs {INFLUENCE} influence and will be decided by the kingdom's noble clans." />
+    <string id="BEGovernmentCancel" text="Cancel" />
+    <string id="BEGovernmentChooseMainstreamCultureTitle" text="Choose Mainstream Culture" />
+    <string id="BEGovernmentChooseMainstreamCultureDescription" text="Select a culture to propose. The proposal costs {INFLUENCE} influence and will be decided by the kingdom's noble clans." />
+    <string id="BEGovernmentRulerOnly" text="Only the ruler may change the state religion." />
+    <string id="BEGovernmentPendingStateReligionVote" text="A state-religion proposal is already awaiting resolution." />
+    <string id="BEGovernmentInsufficientInfluence" text="Not enough influence to make this proposal." />
+    <string id="BEGovernmentNoEligibleReligion" text="No other religion is currently eligible for a state-religion proposal." />
+    <string id="BEGovernmentProposalCostHint" text="Propose a new state religion for {INFLUENCE} influence." />
+    <string id="BEGovernmentProposalCreated" text="State-religion proposal created. Open Kingdom Decisions to resolve the noble vote." />
+    <string id="BEGovernmentCultureRulerOnly" text="Only the ruler may change the mainstream culture." />
+    <string id="BEGovernmentPendingCultureVote" text="A mainstream-culture proposal is already awaiting resolution." />
+    <string id="BEGovernmentCultureInsufficientInfluence" text="Not enough influence to make this proposal." />
+    <string id="BEGovernmentNoEligibleCulture" text="No other culture is currently eligible for a mainstream-culture proposal." />
+    <string id="BEGovernmentCultureProposalCostHint" text="Propose a new mainstream culture for {INFLUENCE} influence." />
+    <string id="BEGovernmentCultureProposalCreated" text="Mainstream-culture proposal created. Open Kingdom Decisions to resolve the noble vote." />
+    <string id="BEFoundingReligionGovernorPrompt" text="Before we name the kingdom, which faith shall be its state religion?" />
+    <string id="BEFoundingReligionGovernorGlobalFallback" text="No formal religion has domestic believers. This is abnormal campaign data; after you acknowledge the warning, every configured formal religion will be available." />
+    <string id="BEFoundingReligionGovernorUnavailable" text="We cannot found a kingdom until its state-religion data is available." />
+    <string id="BEFoundingReligionGovernorCancel" text="I need more time to consider this." />
+    <string id="dzXaXKaC" text="Very well." />
+    <string id="BEFoundingReligionGovernorErrorTitle" text="State-religion selection is unavailable" />
+    <string id="BEFoundingReligionGovernorErrorBody" text="{REASON}" />
+    <string id="BEFoundingReligionChoicePending" text="Choose a state religion for the pending kingdom before creating another kingdom." />
+    <string id="BEFoundingReligionUnavailable" text="No valid formal religion is available for the new kingdom." />
+    <string id="BEFoundingReligionDescription" text="Choose the state religion for your new kingdom. Religions with more than 25% of domestic believers are listed first; otherwise every formal religion with domestic believers is listed." />
+    <string id="BEFoundingReligionTitle" text="Choose State Religion" />
+    <string id="BEFoundingReligionConfirm" text="Found Kingdom" />
+    <string id="BEFoundingReligionCancel" text="Cancel" />
+    <string id="BEFoundingReligionInvalid" text="The selected founding religion is not valid." />
+    <string id="BEFoundingReligionReplayFailed" text="The kingdom could not be created after choosing its state religion: {REASON}" />
+    <string id="BEFoundingReligionNoDomesticFormalFaithTitle" text="No domestic formal religion population" />
+    <string id="BEFoundingReligionNoDomesticFormalFaith" text="No formal religion with domestic believers was found for the new kingdom. This is unexpected campaign data. After this warning, every configured formal religion will be available as a fallback." />
+    <string id="yS7PvrTD" text="OK" />
+    <string id="BEKingdomGovernmentConfigurationErrorTitle" text="Kingdom Government configuration error" />
+    <string id="BEKingdomGovernmentConfigurationErrorBody" text="Burning Empires disabled new Government, state-religion proposal, player-founding religion, and religion-conversion features for this session because BEData/{FILE} could not be used. Existing kingdom and hero religion save data was not changed.&#xA;&#xA;What happened:&#xA;{REASON}&#xA;&#xA;How to fix it:&#xA;Correct BE ModuleData Source Files/BEData/{FILE}, then run BE ModuleData Builder validate, dry-run, and pack before restarting the game." />
+    <string id="BERebelKingdomErrorTitle" text="Rebel kingdom could not be founded" />
+    <string id="BERebelKingdomErrorBody" text="{REASON}" />
+    <string id="aKaGaOQx" text="{CLAN_LEADER.NAME}{.o} Clan" />
+    <string id="BEStateCultureDecisionTitle" text="Change Mainstream Culture" />
+    <string id="BEStateCultureDecisionSupportTitle" text="Vote on Mainstream Culture" />
+    <string id="BEStateCultureDecisionChooseTitle" text="Resolve Mainstream Culture Vote" />
+    <string id="BEStateCultureDecisionSupportDescription" text="{PROPOSER} proposes that {KINGDOM} adopt {CULTURE} as its mainstream culture. The kingdom's noble clans will vote on the proposal." />
+    <string id="BEStateCultureDecisionChooseDescription" text="The nobles have considered adopting {CULTURE} as the mainstream culture. As ruler, you may respect their result or pay the normal royal influence cost to choose another outcome." />
+    <string id="BEStateCultureDecisionSecondaryEffects" text="The approved culture immediately becomes the kingdom's authoritative mainstream culture." />
+    <string id="BEStateCultureDecisionRejected" text="{KINGDOM} has kept its current mainstream culture." />
+    <string id="BEStateCultureDecisionApproved" text="{KINGDOM} has adopted {CULTURE} as its mainstream culture." />
+    <string id="BEStateCultureDecisionReject" text="Reject" />
+    <string id="BEStateCultureDecisionApprove" text="Approve" />
+    <string id="BEStateCultureDecisionRejectDescription" text="Keep the current mainstream culture." />
+    <string id="BEStateCultureDecisionApproveDescription" text="Adopt {CULTURE} as the mainstream culture." />
+    <string id="BEStateReligionDecisionTitle" text="Change State Religion" />
+    <string id="BEStateReligionDecisionSupportTitle" text="Vote on State Religion" />
+    <string id="BEStateReligionDecisionChooseTitle" text="Resolve State Religion Vote" />
+    <string id="BEStateReligionDecisionSupportDescription" text="{PROPOSER} proposes that {KINGDOM} adopt {RELIGION} as its state religion. The kingdom's noble clans will vote on the proposal." />
+    <string id="BEStateReligionDecisionChooseDescription" text="The nobles have considered adopting {RELIGION} as the state religion. As ruler, you may respect their result or pay the normal royal influence cost to choose another outcome." />
+    <string id="BEStateReligionDecisionSecondaryEffects" text="Settlement loyalty and security immediately use the newly approved state religion through the existing population-stability model." />
+    <string id="BEStateReligionDecisionRejected" text="{KINGDOM} has kept its current state religion." />
+    <string id="BEStateReligionDecisionApproved" text="{KINGDOM} has adopted {RELIGION} as its state religion." />
+    <string id="BEStateReligionDecisionReject" text="Reject" />
+    <string id="BEStateReligionDecisionApprove" text="Approve" />
+    <string id="BEStateReligionDecisionRejectDescription" text="Keep the current state religion." />
+    <string id="BEStateReligionDecisionApproveDescription" text="Adopt {RELIGION} as the state religion." />
+    <string id="BEReligionGraecoRomanPaganism" text="Graeco-Roman Paganism" />
+    <string id="BEReligionNiceneChristianity" text="Nicene Christianity" />
+    <string id="BEReligionArianChristianity" text="Arian Christianity" />
+    <string id="BEReligionDonatistChristianity" text="Donatist Christianity" />
+    <string id="BEReligionGermanicPaganism" text="Germanic Paganism" />
+    <string id="BEReligionSlavicPaganism" text="Slavic Paganism" />
+    <string id="BEReligionCelticPaganism" text="Celtic Paganism" />
+    <string id="BEReligionTengrism" text="Tengrism" />
+    <string id="BEReligionSarmatianShamanism" text="Sarmatian Shamanism" />
+    <string id="BEReligionZoroastrianism" text="Zoroastrianism" />
+    <string id="BEReligionBuddhism" text="Buddhism" />
+    <string id="BEReligionBerberPaganism" text="Berber Paganism" />
+    <string id="BEReligionUgricPaganism" text="Ugric Paganism" />
+    <string id="BEReligionBalticPaganism" text="Baltic Paganism" />
+    <string id="BEPopulationClassNobility" text="Nobility" />
+    <string id="BEPopulationClassCitizens" text="Citizens" />
+    <string id="BEPopulationClassFreemen" text="Freemen" />
+    <string id="BEPopulationClassSlaves" text="Slaves" />
+    <string id="BEPopulationAgeChildren" text="Children" />
+    <string id="BEPopulationAgeAdults" text="Adults" />
+    <string id="BEPopulationAgeElders" text="Elders" />
+    <string id="BEPopulationCompositionOther" text="Other" />
+    <string id="BEEncyclopediaValueNone" text="None" />
+    <string id="BEHeroGroupReputationTitle" text="Group Reputation" />
+    <string id="BEHeroCulturalReputationTitle" text="Cultural Reputation" />
+    <string id="BEHeroReligiousReputationTitle" text="Religious Reputation" />
+    <string id="BEHeroGroupReputationLine" text="{NAME}: {VALUE}" />
+    <string id="BEKingdomPopulationReligionTitle" text="Population and Religion" />
+    <string id="BEKingdomPopulationInformationTitle" text="Population Information" />
+    <string id="BEKingdomPopulationNotInitialized" text="Population and religion data is not initialized." />
+    <string id="BEKingdomStateReligionLine" text="State religion: {VALUE}" />
+    <string id="BEKingdomTotalPopulationLine" text="Total population: {VALUE}" />
+    <string id="BEKingdomCompositionLine" text="{NAME}: {COUNT} ({PERCENT}%)" />
+    <string id="BEEncyclopediaSettlementReligionSummary" text="Religion: {RELIGION}" />
+    <string id="BEHeroReligionLabel" text="Religion:" />
+    <string id="BESettlementInformationTitle" text="Settlement Information" />
+    <string id="BEPopulationInformationTitle" text="Population Information" />
+    <string id="BEPopulationCapacityTitle" text="Population Capacity" />
+    <string id="BECivilizationSourcesLabel" text="Civilization sources" />
+    <string id="BEInfrastructureSourcesLabel" text="Capacity sources" />
+    <string id="BECulturalCompositionTitle" text="Cultural Composition" />
+    <string id="BEReligiousCompositionTitle" text="Religious Composition" />
+    <string id="BESocialClassesTitle" text="Social Classes" />
+    <string id="BEExpectedClassMobilityTitle" text="Expected Class Mobility" />
+    <string id="BEClassMobilityLastUpdateTitle" text="Last Update" />
+    <string id="BEClassMobilityNextThirtyDaysTitle" text="Next 30 Days" />
+    <string id="BEClassMobilityTargetSharesTitle" text="Target Class Shares" />
+    <string id="BEClassMobilityInfluencingFactorsTitle" text="Influencing Factors" />
+    <string id="BEClassMobilityAnnualLimitsTitle" text="Annual Transition Limits" />
+    <string id="BEClassMobilityCarryOverTitle" text="Fractional Carry-over" />
+    <string id="BEAgeGroupsTitle" text="Age Groups" />
+    <string id="BESettlementInformationNotInitialized" text="Population and religion data is not initialized." />
+    <string id="BESettlementTotalPopulationLine" text="Total population: {POPULATION}" />
+    <string id="BESettlementCurrentCultureLine" text="Current culture: {CULTURE}" />
+    <string id="BESettlementCurrentReligionLine" text="Current religion: {RELIGION}" />
+    <string id="BESettlementDominantCultureLine" text="Dominant culture: {CULTURE}" />
+    <string id="BESettlementDominantReligionLine" text="Dominant religion: {RELIGION}" />
+    <string id="BESettlementCultureConversionNone" text="Culture conversion: None" />
+    <string id="BESettlementCultureConversionLine" text="Culture conversion: {TARGET} ({PROGRESS}%)" />
+    <string id="BESettlementReligionConversionNone" text="Religion conversion: None" />
+    <string id="BESettlementReligionConversionLine" text="Religion conversion: {TARGET} ({PROGRESS}%)" />
+    <string id="BESettlementPopulationCapLine" text="Population cap: {CAPACITY}" />
+    <string id="BESettlementBaseCapacityLine" text="Base capacity: {CAPACITY}" />
+    <string id="BESettlementCivilizationLevelLine" text="Civilization level: {LEVEL} / 10" />
+    <string id="BESettlementCivilizationBonusLine" text="Civilization bonus: +{CAPACITY}" />
+    <string id="BESettlementInfrastructureBonusLine" text="Infrastructure bonuses: +{CAPACITY}" />
+    <string id="BEPopulationClassCompositionLine" text="{NAME}: {COUNT} ({PERCENT}%)" />
+    <string id="BEClassMobilityTargetShareLine" text="{NAME}: {PERCENT}%" />
+    <string id="BEClassMobilitySupportFormula" text="Institutional support = civilization x 60% + security x 40%" />
+    <string id="BEClassMobilityCivilizationFactor" text="Civilization component: {PERCENT}%" />
+    <string id="BEClassMobilitySecurityFactor" text="Security component: {PERCENT}%" />
+    <string id="BEClassMobilitySupportFactor" text="Institutional support: {PERCENT}%" />
+    <string id="BEClassMobilityMultiplierLine" text="Class mobility setting: {MULTIPLIER}x" />
+    <string id="BESlavesToFreemenRateLine" text="Slaves to Freemen: {PERCENT}%" />
+    <string id="BEFreemenToCitizensRateLine" text="Freemen to Citizens: {PERCENT}%" />
+    <string id="BECitizensToNobilityRateLine" text="Citizens to Nobility: {PERCENT}%" />
+    <string id="BEClassMobilityDownwardRule" text="Excess upper classes move down at the matching adjacent rate, scaled by weak institutional support." />
+    <string id="BEClassMobilityRemainderLine" text="{NAME}: {BEFORE} -&gt; {AFTER}" />
+    <string id="BESettlementCultureConversionHidden" text="Culture conversion: {VALUE}" />
+    <string id="BESettlementReligionConversionHidden" text="Religion conversion: {VALUE}" />
+    <string id="BESettlementCivilizationLevelHidden" text="Civilization level: {VALUE}" />
+    <string id="BESettlementCivilizationBonusHidden" text="Civilization bonus: {VALUE}" />
+    <string id="BESettlementInfrastructureBonusHidden" text="Infrastructure bonuses: {VALUE}" />
+    <string id="BEPopulationCompositionLine" text="{NAME}: {COUNT} ({PERCENT}%)" />
+    <string id="BECivilizationContributionLine" text="{NAME}: +{VALUE}" />
+    <string id="BECivilizationContributionLevelLine" text="{NAME} (Level {LEVEL}): +{VALUE}" />
+    <string id="BEInfrastructureContributionLine" text="{NAME}: +{VALUE}" />
+    <string id="BEInfrastructureContributionLevelLine" text="{NAME} (Level {LEVEL}): +{VALUE}" />
+    <string id="BELastClassMobilityLine" text="{NAME}: {VALUE}" />
+    <string id="BEClassMobilityDirectionSlavesFreemen" text="Slaves to Freemen" />
+    <string id="BEClassMobilityDirectionFreemenCitizens" text="Freemen to Citizens" />
+    <string id="BEClassMobilityDirectionCitizensNobility" text="Citizens to Nobility" />
+    <string id="BEClassMobilityDirectionNobilityCitizens" text="Nobility to Citizens" />
+    <string id="BEClassMobilityDirectionCitizensFreemen" text="Citizens to Freemen" />
+    <string id="BECustomBattleConfigurationErrorTitle" text="Custom Battle configuration error" />
+    <string id="BECustomBattleConfigurationErrorBody" text="Custom Battle cannot start because its manually maintained roster is invalid: {REASON}&#xA;&#xA;Correct BE ModuleData Source Files/CustomBattle/be_custom_battle_roster.xml, run the Builder validate, dry-run and pack workflow, then restart the game." />
+    <string id="BECustomBattleRuntimeErrorTitle" text="Custom Battle runtime error" />
+    <string id="BECustomBattleRuntimeErrorBody" text="Custom Battle could not complete the requested operation: {REASON}&#xA;&#xA;Return to the Custom Battle menu and try again. If the problem repeats, restart the game." />
+    <string id="BEArmorCraftingNoArtisans" text="No assigned craftspeople" />
+    <string id="BEArmorCraftingWipDetails" text="{ITEM}&#xA;Progress: {PROGRESS}%&#xA;Remaining productive hours: {HOURS}&#xA;Started in: {TOWN}&#xA;Craftspeople: {ARTISANS}" />
+    <string id="BEArmorCraftingWorkStartedNotification" text="Armor crafting: {ITEM} - {PROGRESS}% complete." />
+    <string id="BEArmorCraftingHeroLeft" text="{HERO} can no longer work on {ITEM} and has left that armor project." />
+    <string id="BEArmorCraftingUnknownHero" text="A craftsperson" />
+    <string id="BEArmorCraftingReplacementTitle" text="Choose replacement craftspeople" />
+    <string id="BEArmorCraftingReplacementBody" text="Everyone assigned to {ITEM} is unavailable. Choose one or more available heroes to continue, or cancel to interrupt the project." />
+    <string id="BEArmorCraftingContinue" text="Continue" />
+    <string id="BEArmorCraftingCancel" text="Cancel" />
+    <string id="BEArmorCraftingInterruptedTitle" text="Armor crafting interrupted" />
+    <string id="BEArmorCraftingInterruptedBody" text="No replacement was selected. Work on {ITEM} has been interrupted; its materials, progress and work-in-progress item remain saved." />
+    <string id="BEArmorCraftingUnfinishedTitle" text="Unfinished armor projects" />
+    <string id="BEArmorCraftingUnfinishedBody" text="You have unfinished armor projects. Would you like to manage them now?" />
+    <string id="BEArmorCraftingManage" text="Manage projects" />
+    <string id="BEArmorCraftingSkip" text="Skip for now" />
+    <string id="BEArmorCraftingNoProjectsTitle" text="No armor projects" />
+    <string id="BEArmorCraftingNoProjectsBody" text="There are no armor projects to manage." />
+    <string id="BEArmorCraftingChooseProject" text="Choose one project to continue, reassign or abandon." />
+    <string id="BEArmorCraftingSelect" text="Select" />
+    <string id="BEArmorCraftingReassign" text="Continue / Reassign" />
+    <string id="BEArmorCraftingAbandon" text="Abandon" />
+    <string id="BEArmorCraftingProjectActions" text="Project: {ITEM}" />
+    <string id="BEArmorCraftingProjectActionsBody" text="Choose Continue/Reassign to replace the complete team atomically, or Abandon to destroy the work in progress and refund materials by remaining work." />
+    <string id="BEArmorCraftingReassignBody" text="Choose the complete team. The old assignment remains unchanged unless confirmation succeeds." />
+    <string id="BEArmorCraftingConfirmTeam" text="Confirm team" />
+    <string id="BEArmorCraftingAbandonTitle" text="Abandon {ITEM}?" />
+    <string id="BEArmorCraftingAbandonBody" text="This destroys the unfinished item. Only floor(prepaid materials × remaining work / total work) is returned." />
+    <string id="BEArmorCraftingAbandonConfirm" text="Abandon project" />
+    <string id="BEArmorCraftingTooltipState" text="Project state" />
+    <string id="BEArmorCraftingTooltipProgress" text="Progress" />
+    <string id="BEArmorCraftingTooltipRemaining" text="Remaining productive hours" />
+    <string id="BEArmorCraftingTooltipTown" text="Started in" />
+    <string id="BEArmorCraftingTooltipArtisans" text="Craftspeople" />
+    <string id="BEArmorCraftingWipProtected" text="This work in progress cannot be sold, discarded, transferred, equipped, donated, slaughtered or smelted." />
+    <string id="BEArmorCraftingAvailableItems" text="Available items:" />
+    <string id="BEArmorCraftingTier" text="Tier {TIER}" />
+    <string id="BEArmorCraftingSkill" text="Crafting {SKILL}" />
+    <string id="BEArmorCraftingProjectDifficulty" text="Difficulty: {DIFFICULTY}" />
+    <string id="BEArmorCraftingArmorTab" text="Armor" />
+    <string id="BEArmorCraftingForge" text="Forge" />
+    <string id="BEArmorCraftingInvestment" text="Material investment" />
+    <string id="BEArmorCraftingInvestmentDescription" text="Choose 100%-200%. More materials increase the chance of a better modifier; results are not guaranteed." />
+    <string id="BEArmorCraftingDifficulty" text="Difficulty" />
+    <string id="BEArmorCraftingMaterials" text="Materials" />
+    <string id="BEArmorCraftingChooseCraftspeople" text="Choose craftspeople" />
+    <string id="BEArmorCraftingSelectedSmithUnavailable" text="The selected smith is no longer available for this armor project." />
+    <string id="BEArmorCraftingChooseCraftspeopleBody" text="{PRIMARY} will craft {ITEM}. Select optional assistants, or leave all unchecked to forge with {PRIMARY} alone. Materials are consumed on confirmation. Work progresses only in Towns, from 09:00 to 20:00, while time advances." />
+    <string id="BEArmorCraftingConfirmForge" text="Forge" />
+    <string id="BEArmorCraftingStarted" text="Work started on {ITEM}." />
+    <string id="BEArmorCraftingHelmet" text="Helmets" />
+    <string id="BEArmorCraftingBody" text="Body Armor" />
+    <string id="BEArmorCraftingHand" text="Gloves &amp; Bracers" />
+    <string id="BEArmorCraftingLeg" text="Boots &amp; Leg Armor" />
+    <string id="BEArmorCraftingShoulder" text="Cloaks &amp; Capes" />
+    <string id="BEArmorCraftingHorse" text="Horse Armor" />
+    <string id="BEArmorCraftingCamel" text="Camel Armor" />
+    <string id="BEArmorCraftingElephant" text="Elephant Armor" />
+    <string id="BEArmorCraftingRequiredSkill" text="Required Crafting: {SKILL}" />
+    <string id="BEArmorCraftingCurrentSkill" text="Current smith: {SKILL}" />
+    <string id="BEArmorCraftingWorkHours" text="Base productive hours: {HOURS}" />
+    <string id="BEArmorCraftingRecipe" text="Required Crafting: {SKILL} | Base productive hours: {HOURS}&#xA;Materials: {MATERIALS}" />
+    <string id="BEArmorCraftingStartDisabledHint" text="Select an item, provide all required materials, and ensure an eligible craftsperson is available." />
+    <string id="BEArmorCraftingStartHint" text="Start this armor crafting project." />
+    <string id="BE_MountStaminaUiEnableFailedTitle" text="Mount stamina is unavailable" />
+    <string id="BE_MountStaminaUiEnableFailedBody" text="Mount stamina was disabled for this battle because its HUD could not be registered. No mount-stamina simulation or speed limits were started. Fully restart the game, verify UIExtenderEx and GUI/PrefabExtensions/Mission/MountStaminaBar.xml, then try again. Technical error: {ERROR}" />
+    <string id="BE_MountStaminaUiDisableFailedTitle" text="Mount stamina needs a restart" />
+    <string id="BE_MountStaminaUiDisableFailedBody" text="Mount stamina was turned off, but UIExtenderEx reported an error while removing its HUD hooks. No new mount-stamina Mission behavior was started. Fully restart the game before testing the disabled state. Technical error: {ERROR}" />
+    <string id="BEElephantExtensionErrorTitle" text="Elephant extension could not start" />
+    <string id="BEElephantExtensionErrorBody" text="{REASON}" />
+    <string id="BESettlementSecurityContribution" text="Security" />
+    <string id="BEVillageHearthContribution" text="Hearth" />
+    <string id="BEVillageHearthLevelContribution" text="Hearth level" />
+    <string id="BEVillageIrrigationContribution" text="Irrigation" />
+    <string id="maEmutDP" text="Roads and Paths" />
+    <string id="O4cknzhW" text="Irrigation" />
+    <string id="BEChampionDataErrorTitle" text="Champion data could not be loaded" />
+    <string id="BEChampionDataErrorBody" text="Champion creation was disabled because its data is invalid: {REASON}" />
+    <string id="HLI5zAMV" text="Towns owned by Battanian rulers will have +20% chance of militias to spawn as veteran militias." />
+    <string id="Xaw2CoCG" text="25% production bonus to horse, mule, cow and sheep in villages owned by Khuzait rulers." />
+    <string id="BERenameSettlementEmpty" text="Enter a settlement name." />
+    <string id="BEPlayerSlaveFiefOption" text="{SETTLEMENT} ({CAPACITY} capacity remaining)" />
+    <string id="BEQuestTemplateDuelLostRetry" text="You lost the duel. You can try again from the arena menu." />
+    <string id="BEHistoricalPreviewConfigIssueLine" text="Field or slot: {FIELD}&#xA;Configured object ID: {OBJECT_ID}&#xA;Fallback used: {FALLBACK}" />
+    <string id="BEArmorCraftingAssignedProjectHint" text="Assigned to armor project: {ITEM}" />
+  </strings>
+</base>

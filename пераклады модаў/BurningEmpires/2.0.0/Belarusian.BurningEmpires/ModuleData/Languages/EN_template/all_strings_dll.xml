@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <!--BurningEmpires.dll: localization IDs in metadata order; IDs already present in other EN_template files are omitted.-->
+    <string id="W6pKpEoT" text="Vy rychtujeciesia vypravicca ŭ vialikuju pryhodu pa Kalradyi! Voś vaš persanaž. Praciahvajcie, kali hatovyja, abo viarniciesia, kab unieści źmieny." />
+    <string id="XgFU1pCx" text="Vy naradzilisia ŭ siamji..." />
+    <string id="CCR_Family_Choice_ARais" text="raisaŭ" />
+    <string id="CCR_Family_Choice_AMamluks" text="mamlukaŭ" />
+    <string id="CCR_Family_Choice_AMerchant" text="handlaroŭ" />
+    <string id="CCR_Family_Choice_AFarmers" text="ziemlarobaŭ" />
+    <string id="CCR_Family_Choice_AArtisans" text="ramieśnikaŭ" />
+    <string id="CCR_Family_Choice_AThugs" text="bandytaŭ" />
+    <string id="CCR_Family_Choice_Bchieftains" text="pravadyroŭ" />
+    <string id="CCR_Family_Choice_Bhealers" text="lekaraŭ" />
+    <string id="CCR_Family_Choice_Bfarmers" text="ziemlarobaŭ" />
+    <string id="CCR_Family_Choice_Bartisans" text="ramieśnikaŭ" />
+    <string id="CCR_Family_Choice_Bforesters" text="lesavikoŭ" />
+    <string id="CCR_Family_Choice_Bbards" text="bardaŭ" />
+    <string id="CCR_Family_Choice_Earistocrates" text="arystakrataŭ" />
+    <string id="CCR_Family_Choice_Emerchants" text="handlaroŭ" />
+    <string id="CCR_Family_Choice_Efreeholders" text="volnych ziemleŭłaśnikaŭ" />
+    <string id="CCR_Family_Choice_Eartisans" text="ramieśnikaŭ" />
+    <string id="CCR_Family_Choice_Esoldiers" text="vajaroŭ" />
+    <string id="CCR_Family_Choice_Evagabonds" text="vałacuhaŭ" />
+    <string id="CCR_Family_Choice_Knoyans" text="nojanaŭ" />
+    <string id="CCR_Family_Choice_Knomads" text="kačeŭnikaŭ" />
+    <string id="CCR_Family_Choice_Kmerchants" text="handlaroŭ" />
+    <string id="CCR_Family_Choice_Kartisans" text="ramieśnikaŭ" />
+    <string id="CCR_Family_Choice_Kwarriors" text="vajaroŭ" />
+    <string id="CCR_Family_Choice_Kthugs" text="bandytaŭ" />
+    <string id="CCR_Family_Choice_Sboyars" text="bajaraŭ" />
+    <string id="CCR_Family_Choice_Smerchants" text="handlaroŭ" />
+    <string id="CCR_Family_Choice_Sfarmers" text="ziemlarobaŭ" />
+    <string id="CCR_Family_Choice_Sartisans" text="ramieśnikaŭ" />
+    <string id="CCR_Family_Choice_Swarriors" text="vajaroŭ" />
+    <string id="CCR_Family_Choice_Sraiders" text="nalotnikaŭ" />
+    <string id="CCR_Family_Choice_Vbarons" text="šlachcičaŭ" />
+    <string id="CCR_Family_Choice_Vmerchants" text="handlaroŭ" />
+    <string id="CCR_Family_Choice_Vyeomens" text="pasialencaŭ" />
+    <string id="CCR_Family_Choice_Vartisans" text="ramieśnikaŭ" />
+    <string id="CCR_Family_Choice_Vsoldiers" text="vajaroŭ" />
+    <string id="CCR_Family_Choice_Vmercenaries" text="najmitaŭ" />
+    <string id="CCR_Family_Choice_Obarons" text="šlachcičaŭ" />
+    <string id="CCR_Family_Choice_Omerchants" text="handlaroŭ" />
+    <string id="CCR_Family_Choice_Oyeomens" text="pasialencaŭ" />
+    <string id="CCR_Family_Choice_Oartisans" text="ramieśnikaŭ" />
+    <string id="CCR_Family_Choice_Osoldiers" text="vajaroŭ" />
+    <string id="CCR_Family_Choice_Omercenaries" text="najmitaŭ" />
+    <string id="BE_CC_ParentsWantedTitle" text="Vašy baćki chacieli, kab vy..." />
+    <string id="CCR_Education_Choice_Faris" text="stali farysam." />
+    <string id="CCR_Education_Choice_Hearthguard" text="uvajšli ŭ družynu." />
+    <string id="CCR_Education_Choice_Cataphract" text="stali katafraktam." />
+    <string id="CCR_Education_Choice_KhanGuard" text="uvajšli ŭ chanskuju hvardyju." />
+    <string id="CCR_Education_Choice_Druzhina" text="dałučylisia da družyny." />
+    <string id="CCR_Education_Choice_Knight" text="stali rycaram." />
+    <string id="CCR_Education_Choice_Commander" text="kamandavali vojskami." />
+    <string id="CCR_Education_Choice_Court" text="słužyli pry dvary." />
+    <string id="CCR_Education_Choice_trade" text="stali kupcom." />
+    <string id="CCR_Education_Choice_crafting" text="apanavali ramiastvo." />
+    <string id="CCR_Education_Choice_scholar" text="stali navukoŭcam." />
+    <string id="CCR_Education_Choice_religious" text="byli {?PLAYER.GENDER}viernicaj{?}viernikam{\?}." />
+    <string id="CCR_Education_Choice_farmer" text="pracavali na palach." />
+    <string id="CCR_Education_Choice_lady" text="stali ŭpłyvovaj asobaj" />
+    <string id="CCR_Education_Choice_defense" text="navučylisia abaraniacca." />
+    <string id="CCR_Education_Choice_trickery" text="navučylisia ašukvać inšych." />
+    <string id="CCR_Idiom_choice_fighter" text="Lepiej być vajarom u sadzie, čym sadoŭnikam na vajnie." />
+    <string id="CCR_Idiom_choice_healthy" text="U zdarovym ciele — zdarovy duch." />
+    <string id="CCR_Idiom_choice_prevention" text="Lepiej papiaredzić chvarobu, čym lačyć." />
+    <string id="CCR_Idiom_choice_wellbegun" text="Dobry pačatak — pałova spravy." />
+    <string id="CCR_Idiom_choice_bold" text="Dola spryjaje advažnym." />
+    <string id="CCR_Idiom_choice_forwarned" text="Papiaredžany — značyć uzbrojeny." />
+    <string id="CCR_Idiom_choice_invention" text="Patreba vučyć vynachodlivaści." />
+    <string id="CCR_Idiom_choice_armed" text="Sa zbrojaj u rukach nie haładujuć." />
+    <string id="CCR_Idiom_choice_conquer" text="Pieramoha biez ryzyki — tryjumf biaz słavy." />
+    <string id="CCR_Idiom_choice_means" text="Meta apraŭdvaje srodki." />
+    <string id="CCR_Start_Choice_Afaris" text="farysam" />
+    <string id="CCR_Start_Choice_Acaravaner" text="karavańnikam" />
+    <string id="CCR_Start_Choice_Amerchant" text="słuhoj kupca" />
+    <string id="CCR_Start_Choice_Acraftman" text="ramieśnikam" />
+    <string id="CCR_Start_Choice_Afarmer" text="ziemlarobam" />
+    <string id="CCR_Start_Choice_Amamluke" text="mamlukam" />
+    <string id="CCR_Start_Choice_Ahorsearcher" text="konnym łučnikam" />
+    <string id="CCR_Start_Choice_Aarcher" text="łučnikam" />
+    <string id="CCR_Start_Choice_Adesertbandit" text="pustelnym bandytam" />
+    <string id="CCR_Start_Choice_Bfian" text="vajarom fijany" />
+    <string id="CCR_Start_Choice_Bdruid" text="druidam" />
+    <string id="CCR_Start_Choice_Bmerchant" text="słuhoj kupca" />
+    <string id="CCR_Start_Choice_Bcraftman" text="ramieśnikam" />
+    <string id="CCR_Start_Choice_Bforester" text="lesavikom" />
+    <string id="CCR_Start_Choice_Bwildling" text="dzikunom" />
+    <string id="CCR_Start_Choice_Bscout" text="vyviednikam" />
+    <string id="CCR_Start_Choice_Bkern" text="vajarom kiernu" />
+    <string id="CCR_Start_Choice_Bforestbandit" text="lasnym bandytam" />
+    <string id="CCR_Start_Choice_Ecommander" text="centuryjonam" />
+    <string id="CCR_Start_Choice_Eengineer" text="vučniem inžynera" />
+    <string id="CCR_Start_Choice_Emerchant" text="słuhoj kupca" />
+    <string id="CCR_Start_Choice_Ecraftman" text="ramieśnikam" />
+    <string id="CCR_Start_Choice_Epeasant" text="sielaninam" />
+    <string id="CCR_Start_Choice_Elegionary" text="lehijaneram" />
+    <string id="CCR_Start_Choice_Earcher" text="łučnikam" />
+    <string id="CCR_Start_Choice_Ecavalry" text="vyviednikam" />
+    <string id="CCR_Start_Choice_Ehorsearcher" text="konnym łučnikam" />
+    <string id="CCR_Start_Choice_Elooter" text="rabaŭnikom" />
+    <string id="CCR_Start_Choice_Kkhanguard" text="vajarom chanskaj hvardyi" />
+    <string id="CCR_Start_Choice_Knomad" text="kačeŭnikam" />
+    <string id="CCR_Start_Choice_Kmerchant" text="słuhoj kupca" />
+    <string id="CCR_Start_Choice_Kcraftman" text="ramieśnikam" />
+    <string id="CCR_Start_Choice_Kfarmer" text="ziemlarobam" />
+    <string id="CCR_Start_Choice_Kcavalry" text="końnikam" />
+    <string id="CCR_Start_Choice_Khorsearcher" text="konnym łučnikam" />
+    <string id="CCR_Start_Choice_Kinfantry" text="piechacincam" />
+    <string id="CCR_Start_Choice_Ksteppebandit" text="stepavym bandytam" />
+    <string id="CCR_Start_Choice_Sdruzhina" text="družyńnikam" />
+    <string id="CCR_Start_Choice_Sfur_hunter" text="palaŭničym na pušninu" />
+    <string id="CCR_Start_Choice_Smerchant" text="słuhoj kupca" />
+    <string id="CCR_Start_Choice_Scraftman" text="ramieśnikam" />
+    <string id="CCR_Start_Choice_Speasant" text="sielaninam" />
+    <string id="CCR_Start_Choice_Sinfantry" text="piechacincam" />
+    <string id="CCR_Start_Choice_Sshocktroop" text="šturmavym vajarom" />
+    <string id="CCR_Start_Choice_Sarcher" text="łučnikam" />
+    <string id="CCR_Start_Choice_Ssearaider" text="nalotnikam" />
+    <string id="CCR_Start_Choice_Vknight" text="rycaram" />
+    <string id="CCR_Start_Choice_Vchamberlain" text="słuhoj šlachciča" />
+    <string id="CCR_Start_Choice_Vmerchant" text="słuhoj kupca" />
+    <string id="CCR_Start_Choice_Vguild" text="vučniem ramieśnika" />
+    <string id="CCR_Start_Choice_Vserf" text="vyzvalenym rabom" />
+    <string id="CCR_Start_Choice_Vinfantry" text="navabrancam" />
+    <string id="CCR_Start_Choice_Vcavalry" text="vyviednikam" />
+    <string id="CCR_Start_Choice_Vcrossbowman" text="palaŭničym" />
+    <string id="CCR_Start_Choice_Vbandit" text="razbojnikam" />
+    <string id="CCR_Reason_travel" text="kab pabačyć śviet." />
+    <string id="CCR_Reason_desc_travel" text="Praha padarožžaŭ była nadta mocnaja: vy zaŭsiody maryli pabačyć śviet." />
+    <string id="CCR_Reason_revenge" text="kab adpomścić." />
+    <string id="CCR_Reason_desc_revenge" text="Paśla ŭčynienaj vam kryŭdy vy prahnuli pomsty. Z hetaj metaj vy błukali pa Kalradyi, šukajučy adpłaty." />
+    <string id="CCR_Reason_forced_out" text="paśla vyhnańnia z domu." />
+    <string id="CCR_Reason_desc_forced_out" text="Paśla apošniaj svarki baćki vyhnali vas z domu. Iści nie było kudy, i vam zastavałasia tolki šukać pryhodaŭ." />
+    <string id="CCR_Reason_money" text="u pošukach hrošaj" />
+    <string id="CCR_Reason_desc_money" text="Vy zaŭsiody chacieli razbahacieć i dobra razumieli, što, zastaŭšysia doma, nikoli hetaha nie dasiahniecie." />
+    <string id="CCR_Reason_power" text="kab zdabyć uładu" />
+    <string id="CCR_Reason_desc_power" text="Bačačy, kolki pieravahaŭ daje ŭłada, vy vypravilisia ŭ pryhody, kab dałučycca da ŭładaroŭ ci navat zaniać ichnaje miesca." />
+    <string id="CCR_Reason_history" text="kab pakinuć śled u historyi" />
+    <string id="CCR_Reason_desc_history" text="Vojny ŭ Kalradyi dajuć bahata mahčymaściaŭ, kab {?PLAYER.GENDER}vajaŭnica pakinuła{?}vajaŭnik pakinuŭ{\?} svajo imia ŭ historyi." />
+    <string id="CCR_Reason_loss" text="paśla straty blizkaha čałavieka" />
+    <string id="CCR_Reason_desc_loss" text="Straciŭšy blizkaha čałavieka, vy vypravilisia ŭ darohu ŭ nadziei zapoŭnić pusteču ŭ dušy" />
+    <string id="CCR_Reason_crafting" text="kab zajmacca svaim ramiastvom" />
+    <string id="CCR_Reason_desc_crafting" text="Ramiastvo było važnaj častkaj vašaha žyćcia, ale vam brakavała ŭmieńnia. Tamu vy vyrašyli vypravicca ŭ padarožža, kab udaskanalić svajo majsterstva." />
+    <string id="CCR_Reason_helping" text="kab dapamahać tym, chto maje patrebu" />
+    <string id="CCR_Reason_desc_helping" text="Navučyŭšysia lekarstvu, vy vyrašyli vypravicca ŭ darohu j dapamahać tym, chto maje patrebu, bo ad vojnaŭ paciarpieła bahata ludziej." />
+    <string id="CCR_Reason_prove_worth" text="kab davieści svajo bajavoje majsterstva" />
+    <string id="CCR_Reason_desc_prove_worth" text="Vy vielmi šanavali svajo bajavoje majsterstva j vyrašyli, što niama lepšaha miesca za Kalradyju, kab davieści svaju moc." />
+    <string id="HDFEAYDk" text="Pačatkovy ŭzrost" />
+    <string id="VlOGrGSn" text="Vaš persanaž vypraviŭsia šukać pryhodaŭ va ŭzroście..." />
+    <string id="2k7adlh7" text="Vam krychu brakuje dośviedu, zatoje vy poŭnyja junackaj enerhii j z zapałam čakajecie doŭhich hadoŭ pryhodaŭ napieradzie." />
+    <string id="NUlVFRtK" text="Vy ŭ roskvicie siłaŭ: jašče majecie junackuju enerhiju, ale ŭžo nazapasili niemały dośvied. " />
+    <string id="5MxTYApM" text="Heta dobry ŭzrost dla pačatku: vy majecie za plačyma hady dośviedu j dastatkova stałyja, kab ludzi pavažali vas i źbiralisia pad vašym ściaham." />
+    <string id="ePD5Afvy" text="Choć vaš roskvit siłaŭ užo minuŭ, času na apošniuju vialikuju pryhodu jašče dastatkova. I vy majecie ŭvieś patrebny dośvied, kab pieraadoleć što zaŭhodna!" />
+    <string id="BESandboxCampaignMenuEntry" text="Burning Empires: Piasočnica" />
+    <string id="BEHistoricalCampaignMenuEntry" text="Burning Empires: Histaryčnaja Kampanija" />
+    <string id="BEHistoricalCampaignMenuHint" text="Hulać za najaŭnaha histaryčnaha persanaža biez stvareńnia ŭłasnaha." />
+    <string id="BE_MCM_DisplayName" text="Burning Empires" />
+    <string id="BE_HIDEOUT_TEXT" text="Vy prachodzicie mima nievialikaha sielišča, jakoje naležyć {BANDIT_FACTION}. Miascovaść achoŭvajuć uzbrojenyja ludzi, ale pakul jany nia viedajuć pra vašu prysutnaść..." />
+    <string id="BE_SlaveLaborConstruction" text="Praca raboŭ" />
+    <string id="BE_LoyaltyCultureRelations" text="Kulturnyja adnosiny nasielnictva" />
+    <string id="BE_LoyaltyReligionRelations" text="Relihijnyja adnosiny nasielnictva" />
+    <string id="BE_LoyaltyPersonalCultureReputation" text="Kulturnaja reputacyja haspadara" />
+    <string id="BE_LoyaltyPersonalReligionReputation" text="Relihijnaja reputacyja haspadara" />
+    <string id="BE_SecurityCultureRelations" text="Kulturnyja adnosiny nasielnictva" />
+    <string id="BE_SecurityReligionRelations" text="Relihijnyja adnosiny nasielnictva" />
+    <string id="BE_SecurityPersonalCultureReputation" text="Kulturnaja reputacyja haspadara" />
+    <string id="BE_SecurityPersonalReligionReputation" text="Relihijnaja reputacyja haspadara" />
+    <string id="BEWonderExplore" text="Daśledavać" />
+    <string id="BEWonderLeave" text="Syści" />
+    <string id="BEWonderMissionPrerequisitesMissing" text="Na scenie hetaha cudu nie ŭdałosia zapuścić usie patrebnyja systemy daśledavańnia. Misija biaśpiečna zakrytaja." />
+    <string id="BEWonderPlayerSpawnMissing" text="Na scenie hetaha cudu niama prydatnaha miesca źjaŭleńnia hulca. Misija daśledavańnia biaśpiečna zakrytaja." />
+    <string id="BE_CULTURE_VISUAL_MAPPING_MISSING_BODY" text="Burning Empires nia zmoh vyznačyć hrupu vonkavaha vyhladu dla kultury {CULTURE_ID}. Zamiena vyhladu dla hetaj kultury adklučanaja; u Bannerlord budzie pieradadzieny jaje zychodny ID kultury, kab nie padmianiać jaje nieprydatnym imperskim afarmleńniem." />
+    <string id="BE_CULTURE_VISUAL_MAPPING_MISSING_TITLE" text="Nie zadadzienaja adpaviednaść vonkavaha vyhladu kultury" />
+    <string id="BE_TIME_DAYLIGHT_PATCH_INCOMPATIBLE_MESSAGE" text="Vypraŭleńnie Burning Empires dla fiksacyi dzionnaha aśviatleńnia Main_map nie supała z padtrymanym metadam Bannerlord 1.4.7. Burning Empires adklučyŭ fiksacyju aśviatleńnia na 09:00 u hetym seansie; zvyčajnaja płyń času zachavanaja. Techničnyja źviestki: {DETAIL} Adklučycie inšyja mody, jakija źmianiajuć MapScreen.TickVisuals, abo adnavicie fajły padtrymanaj versii hulni, a zatym pierazapuścicie hulniu." />
+    <string id="BE_TIME_DAYLIGHT_PATCH_INCOMPATIBLE_TITLE" text="Fiksacyja dzionnaha aśviatleńnia Burning Empires niedastupnaja" />
+    <string id="BE_TIME_CTRL_SPACE_PATCH_INCOMPATIBLE_MESSAGE" text="Vypraŭleńnie Burning Empires dla paskareńnia času praz Ctrl+Space nie supała z padtrymanym metadam apracoŭki ŭvodu na mapie Bannerlord 1.4.7. Burning Empires adklučyŭ spałučeńnie Ctrl+Space; zvyčajny Space i zadadzienaja chutkaść płyni času zastajucca dastupnymi. Techničnyja źviestki: {DETAIL} Adklučycie inšyja mody, jakija źmianiajuć apracoŭku ŭvodu MapScreen, abo adnavicie fajły padtrymanaj versii hulni, a zatym pierazapuścicie hulniu." />
+    <string id="BE_TIME_CTRL_SPACE_PATCH_INCOMPATIBLE_TITLE" text="Paskareńnie Burning Empires praz Ctrl+Space niedastupnaje" />
+    <string id="ruHt0Ub5" text="" />
+    <string id="BERenameSettlementOption" text="Pierajmienavać hetaje sielišča" />
+    <string id="BERenameSettlementUnauthorized" text="Pierajmienavać sielišča moža tolki kłan, jaki im kiruje, abo haspadar jahonaha haspadarstva." />
+    <string id="BERenameSettlementTitle" text="Pierajmienavać sielišča" />
+    <string id="BERenameSettlementDescription" text="Uviadzicie novuju nazvu hetaha sielišča." />
+    <string id="BERenameSettlementConfirm" text="Paćvierdzić" />
+    <string id="BERenameSettlementCancel" text="Skasavać" />
+    <string id="BESlaveLaborConstructionSpeed" text="Praca raboŭ: +{PERCENT}% da chutkaści budaŭnictva" />
+    <string id="BEPlayerSlaveDispositionDescription" text="Padčas napadu vy zachapili {COUNT} źniavolenych ludziej.{NEWLINE}{SUMMARY}{NEWLINE}Vyrašycie ichny dalejšy los." />
+    <string id="BEPlayerSlaveDispositionSell" text="Pradać ich" />
+    <string id="BEPlayerSlaveDispositionRelease" text="Vyzvalić ich" />
+    <string id="BEPlayerSlaveDispositionResettle" text="Pierasialić ich u adnu z maich vałaściaŭ" />
+    <string id="BEPlayerSlaveDispositionNoFief" text="Vaš kłan nia maje ni horadu, ni zamku." />
+    <string id="BEPlayerSlaveDispositionTitle" text="Zachoplenaje nasielnictva" />
+    <string id="BEPlayerSlaveDispositionConfirm" text="Paćvierdzić" />
+    <string id="BEPlayerSlaveFiefTitle" text="Vybierycie miesca pryznačeńnia" />
+    <string id="BEPlayerSlaveFiefDescription" text="Vybierycie horad abo zamak vašaha kłanu." />
+    <string id="BEPlayerSlaveFiefConfirm" text="Paćvierdzić" />
+    <string id="BEPlayerSlaveFiefBack" text="Nazad" />
+    <string id="BEPlayerSlaveSoldResult" text="Pałonnyja pradadzienyja za {GOLD} denaraŭ i raźmierkavanyja pamiž bližejšymi rabskimi kirmašami." />
+    <string id="BEPlayerSlaveSoldTitle" text="Pałonnyja pradadzienyja" />
+    <string id="BEHeroReligionConversionOpen" text="Chaču pahavaryć z vami pra vieru." />
+    <string id="BEHeroReligionConversionIntro" text="Što vy chočacie abmierkavać?" />
+    <string id="BEHeroReligionConversionBegin" text="Prašu vas padumać pra pryniaćcie majoj viery." />
+    <string id="BEHeroReligionConversionCancel" text="Nia varta." />
+    <string id="BEHeroReligionConversionFailed" text="Ja nie mahu pahadzicca na toje, čaho vy ad mianie prosicie." />
+    <string id="BEHeroReligionConversionSucceeded" text="Vy dali mnie bahata padstavaŭ zadumacca. Ja prymu vašu vieru." />
+    <string id="BEHeroReligionConversionArgumentCancel" text="Nia budu bolej nastojvać na hetym." />
+    <string id="BEHeroReligionConversionChance" text="{ARGUMENT} {SUCCESS_CHANCE}" />
+    <string id="BEHeroReligionConversionArgumentBlocked" text="Hety dovad bolej niedastupny." />
+    <string id="BEHeroReligionConversionComplete" text="{HERO_NAME} ciapier vyznaje {RELIGION_NAME}." />
+    <string id="BEHeroReligionConversionUnavailable" text="Hetamu persanažu nielha prapanavać źmianić vieru." />
+    <string id="BEHeroReligionConversionConfigurationUnavailable" text="Źmiena viery niedastupnaja, pakul nia budzie vypraŭlenaja kanfihuracyja ŭradu haspadarstva." />
+    <string id="BEHeroReligionConversionDataUnavailable" text="Źviestki pra źmienu viery pakul niedastupnyja." />
+    <string id="BEHeroReligionConversionTargetNone" text="Nie ŭdałosia biaśpiečna vyznačyć vyznańnie hetaha persanaža." />
+    <string id="BEHeroReligionConversionAlreadySame" text="Hety persanaž užo trymajecca vašaj viery." />
+    <string id="BEHeroReligionConversionTaskOne" text="Čamu mnie adračysia ad viery, jakuju ja viedaju ŭsio žyćcio?" />
+    <string id="BEHeroReligionConversionImmediateFail" text="Vašy słovy mianie nie pierakonvajuć." />
+    <string id="BEHeroReligionConversionFinalFail" text="Mianie nie pierakanać." />
+    <string id="BEHeroReligionConversionTryLater" text="Mnie patrebny čas, kab padumać." />
+    <string id="BEHeroReligionConversionArgumentOneA" text="Viera vyjaŭlajecca ŭ spraviadlivaści j viernaści, ź jakimi my žyviom." />
+    <string id="BEHeroReligionConversionArgumentOneB" text="Šukajma šlach, jaki pryniasie suciašeńnie j miłasernaść našamu narodu." />
+    <string id="BEHeroReligionConversionArgumentOneC" text="Mudry čałaviek musić trymacca viery, jakaja daje najbolš karyści." />
+    <string id="BEHeroReligionConversionTaskTwo" text="Čym vy daviedziacie, što hetaja źmiena vartaja svajoj cany?" />
+    <!--Source conflict for BEHeroReligionConversionImmediateFail: another DLL literal uses text: That is not enough to convince me.-->
+    <!--Source conflict for BEHeroReligionConversionFinalFail: another DLL literal uses text: I will not abandon my convictions.-->
+    <string id="BEHeroReligionConversionArgumentTwoA" text="Kab źmianić svoj šlach, patrebnaja advaha, ale jana moža prynieści lepšuju budučyniu." />
+    <string id="BEHeroReligionConversionArgumentTwoB" text="Hetaja viera zaklikaje nas kłapacicca pra tych, chto ad nas zaležyć." />
+    <string id="BEHeroReligionConversionArgumentTwoC" text="Staryja abiacańni nie pavinny strymlivać nas, kali napieradzie lepšy šlach." />
+    <string id="BEHeroReligionConversionTaskThree" text="Navat kali ja vas razumieju, čamu ja mušu vyrašyć heta ciapier?" />
+    <string id="BEHeroReligionConversionArgumentThreeA" text="Ahulnaja viera dapamoža nam vytrymać niahody j nie pakinuć adno adnaho." />
+    <string id="BEHeroReligionConversionArgumentThreeB" text="Budučynia niapeŭnaja, i my musim mieć advahu abrać svoj šlach." />
+    <string id="BEHeroReligionConversionArgumentThreeC" text="Haspadarstva źmianiajecca, i tyja, chto nie prystasujecca, zastanucca zzadu." />
+    <string id="BEHeroReligionConversionSuccessReaction" text="Mahčyma, u vašych słovach jość mudraść." />
+    <string id="BEHeroReligionConversionCriticalSuccessReaction" text="Vašy słovy kranuli mianie da hłybini dušy. Mnie treba ŭsio pieraasensavać." />
+    <string id="BEHeroReligionConversionFailureReaction" text="Mianie heta nie pierakanała." />
+    <string id="BEHeroReligionConversionCriticalFailureReaction" text="Bolš nie abražajcie maju vieru." />
+    <string id="BEHeroReligionConversionMissReaction" text="Nia viedaju, što pra heta dumać." />
+    <string id="BEGoToTemple" text="Iści ŭ chram" />
+    <string id="BETempleUnavailable" text="Chram jašče nie hatovy prymać naviednikaŭ." />
+    <string id="BETemplePriestGreeting" text="Vitaju. Ź jakoj prośbaj vy pryjšli ŭ hety chram?" />
+    <string id="be_temple_tell_me_about_faith" text="Raskažycie pra vieru {BE_RELIGION_NAME}." />
+    <string id="BETempleReligionExplanation" text="{BE_RELIGION_EXPLANATION}" />
+    <string id="BETempleAskToConvert" text="Ja chaču pryniać hetuju vieru." />
+    <string id="BETempleConvertConfirmation" text="Heta ŭračystaje abaviazańnie. Vy sapraŭdy chočacie vyznavać {BE_RELIGION_NAME}?" />
+    <string id="BETempleConvertYes" text="Tak. Ja prymaju hetuju vieru." />
+    <string id="BETempleConvertNo" text="Jašče nie." />
+    <string id="BETempleConversationLeave" text="Bolš pytańniaŭ nia maju." />
+    <string id="BETempleInvalidFaith" text="Hety śviatar nia moža pravieści aficyjny abrad pryniaćcia viery." />
+    <string id="BETempleAlreadyFollower" text="Vy ŭžo trymajeciesia hetaj viery." />
+    <string id="BETempleConversionComplete" text="Ciapier vy vyznajacie {BE_RELIGION_NAME}." />
+    <string id="BEArianTempleExplanation" text="My pakłaniajemsia adzinamu Bohu j šanujem Chrysta jak Syna, narodžanaha volaj Ajca." />
+    <string id="BEDonatistTempleExplanation" text="My ličym, što Carkva musić zastavacca čystaj, a jaje słužki nie pavinny zdradžvać viery padčas pieraśledu." />
+    <string id="BEGenericTempleExplanation" text="Hetaja viera jadnaje svaich vyznaŭcaŭ ahulnymi abradami, vučeńniem i abaviazkami pierad supolnaściu." />
+    <string id="BETempleSceneConfigurationErrorTitle" text="Pamyłka naładaŭ sceny chramu" />
+    <string id="BETempleSceneConfigurationErrorBody" text="Uvachod u chram adklučany: Burning Empires nia zmoh zahruzić prydatnuju kulturnuju scenu chramu j uzrovień bačnaści relihii.&#xA;&#xA;Što zdaryłasia:&#xA;{REASON}&#xA;&#xA;Zakranutyja nałady:&#xA;Sielišča: {SETTLEMENT}&#xA;Kultura: {CULTURE}&#xA;Relihija: {RELIGION}&#xA;Scena: {SCENE}&#xA;Zapytany ŭzrovień: {LEVEL}&#xA;Zapasny ŭzrovień: {FALLBACK}&#xA;&#xA;Dziejańni prahramy:&#xA;Punkt meniu chramu schavany, kab hulec nia trapiŭ u niapravilnuju ci pustuju scenu. Źviestki pra sielišča, relihiju, nasielnictva, zachavańnie j scenu nie źmianialisia.&#xA;&#xA;Jak vypravić:&#xA;Adkryjcie BE ModuleData Source Files/BEData/be_temple_scenes.json i vypraŭcie adpaviednaści paznačanych kultury, relihii, sceny ci ŭzroŭniu. Praviercie, što SceneObj/{SCENE}/scene.xscene maje zapytany ŭzrovień, zatym zapuścicie BE ModuleData Builder/BEModuleDataBuilder.exe z kamandami validate, dry-run i pack. Pačnicie novuju testavuju sesiju j znoŭ praviercie ŭvachod u chram." />
+    <string id="BERecruitmentPopulationMoreGroups" text="Jašče +{COUNT} hrupaŭ" />
+    <string id="BERecruitmentPopulationSummary" text="Nasielnictva: {DETAILS}" />
+    <string id="BERecruitmentPopulationGroup" text="{CULTURE} {CLASS} -{COUNT}" />
+    <string id="BERecruitmentPopulationHintHeader" text="Nasielnictva, jakoje budzie vyličanaje paśla paćvierdžańnia naboru:" />
+    <string id="BERecruitmentPopulationHintReligion" text="Relihijnyja hrupy vyličajucca praparcyjna z kožnaj hrupy nasielnictva." />
+    <string id="BEQuestTemplateMissingGiver" text="Nie ŭdałosia zahruzić persanaža {GIVER_ID}, jaki daje zadańnie {QUEST_ID}. Praviercie jahony zapis u XML NPCCharacters." />
+    <string id="BEQuestTemplateGiverSpawnError" text="Pamyłka stvareńnia persanaža, jaki daje zadańnie: {ERROR}" />
+    <string id="BEQuestTemplateDefaultOfferGreeting" text="Vitaju. Šukajecie daručeńnie?" />
+    <string id="BEQuestTemplateDefaultOfferAsk" text="Tak. Što vam patrebna?" />
+    <string id="BEQuestTemplateDefaultOfferDescription" text="Maju daručeńnie: {QUEST_TITLE}. Voźmieciesia?" />
+    <string id="BEQuestTemplateDefaultOfferAccept" text="Biarusia." />
+    <string id="BEQuestTemplateDefaultOfferDecline" text="Zaraz nie." />
+    <string id="BEQuestTemplateAlreadyCompleted" text="Vy ŭžo vykanali majo daručeńnie." />
+    <string id="BEQuestTemplateStarted" text="Zadańnie pačataje: {QUEST_ID}" />
+    <string id="BEQuestTemplateStartFailed" text="Nie ŭdałosia pačać zadańnie: {ERROR}" />
+    <string id="BEQuestTemplateArenaNotFound" text="U hetym sieliščy nia znojdzienaja arena." />
+    <string id="BEQuestTemplateDuelTargetNotFound" text="Udzielnik dvuboju nia znojdzieny: {TARGET_ID}" />
+    <string id="BEQuestTemplateDuelStartError" text="Pamyłka pačatku dvuboju: {ERROR}" />
+    <string id="BEQuestTemplatePoachersPartyNotFound" text="Partyja brakańjeraŭ nia znojdzienaja." />
+    <string id="BEQuestTemplatePoachersLeaderNotFound" text="Vierchavod brakańjeraŭ nia znojdzieny." />
+    <string id="BEQuestTemplateConversationStartFailed" text="Nie ŭdałosia pačać razmovu: {ERROR}" />
+    <string id="BEQuestTemplateStartDuel" text="Pačać uračysty dvuboj" />
+    <string id="BEQuestTemplateTalkToPartyLeader" text="Padyści j pahavaryć z pravadyrom partyi {PARTY_NAME}" />
+    <string id="BEQuestTemplateAttackParty" text="Napaści na {PARTY_NAME}." />
+    <string id="BEQuestTemplatePoachersVillageSelected" text="Vioska brakańjeraŭ = {VILLAGE}" />
+    <string id="BEQuestTemplateNoPoachersVillage" text="Nia znojdziena prydatnaj vioski dla zadańnia z brakańjerami." />
+    <string id="BEQuestTemplateDefaultTitle" text="Zadańnie XML" />
+    <string id="BEQuestTemplateObjectiveComplete" text="Meta dasiahnutaja: {OBJECTIVE}." />
+    <string id="BEQuestTemplateUnknownObjective" text="Nieviadomy ID mety: {OBJECTIVE_ID}" />
+    <string id="BEQuestTemplatePoachersDefeatedByOthers" text="Chtości inšy ŭžo razabraŭsia z brakańjerami — vykanać zadańnie bolš niemahčyma." />
+    <string id="BEQuestTemplateSettlementScouted" text="Vyviedka ŭ {SETTLEMENT} zavieršanaja!" />
+    <string id="BEQuestTemplateMissingSettlementParameter" text="U DefeatQuestParty nie zadadzieny settlementId dla mety {OBJECTIVE_ID}." />
+    <string id="BEQuestTemplateUnknownSettlement" text="Nieviadomy ID sielišča {SETTLEMENT_ID} dla mety {OBJECTIVE_ID}." />
+    <string id="BEQuestTemplateNoBanditClan" text="Dla DefeatQuestParty nia znojdzieny bandycki kłan." />
+    <string id="BEQuestTemplateDefaultPoachersPartyName" text="Partyja Brakańjeraŭ" />
+    <string id="BEQuestTemplateInvalidTroopFallback" text="ID vajara {TROOP_ID} niesapraŭdny; zamiest jaho stvoranyja Rabaŭniki." />
+    <string id="BEQuestTemplateQuestFailed" text="Zadańnie pravalenaje." />
+    <string id="BEQuestTemplateNotEnoughGold" text="Nie staje zołata." />
+    <string id="BEQuestTemplateUnknownAction" text="Nieviadomaje dziejańnie zadańnia: {ACTION_TYPE}" />
+    <string id="BEQuestTemplateMissingHeroParameter" text="Dla mety CaptureHero nie zadadzieny parametar heroId." />
+    <string id="BEQuestTemplatePrisonerHandedOver" text="Pałonny {HERO} pieradadzieny tamu, chto daŭ zadańnie." />
+    <string id="BEQuestTemplateTargetPrisonerNotFound" text="Patrebny pałonny nia znojdzieny ŭ vašym śpisie pałonnych." />
+    <string id="BEQuestTemplateInvalidPrisonerActionObjective" text="RemovePrisoners patrabuje mety CaptureHero abo CapturePrisoners." />
+    <string id="BEQuestTemplateItemNotFound" text="Pradmiet nia znojdzieny: {ITEM_ID}" />
+    <string id="BEQuestTemplateRequiredItemMissing" text="U vas niama patrebnaha pradmieta." />
+    <string id="BEQuestTemplateArenaSpawnPointsMissing" text="Na scenie areny niama punktaŭ sp_arena_respawn. Dvuboj skasavany." />
+    <string id="BEQuestTemplateDuelDefeat" text="Natoŭp vitaje vašu parazu." />
+    <string id="BEQuestTemplateDuelVictory" text="Natoŭp ravie, kali vaš supiernik padaje!" />
+    <string id="BEMinimalRecoveryMissingTitle" text="Niama źviestak dla adnaŭleńnia Burning Empires" />
+    <string id="BEUnsupportedDevelopmentSaveTitle" text="Niepadtrymanyja źviestki zachavańnia z versii dla raspracoŭnikaŭ" />
+    <string id="BEMigrationFailedTitle" text="Niemahčyma pieranieści staroje zachavańnie Burning Empires" />
+    <string id="BEModuleVersionInvalidTitle" text="Versii modulaŭ zachavańnia Burning Empires nie ŭzhadniajucca" />
+    <string id="BEExternalSavePreparationFailedTitle" text="Nie ŭdałosia padrychtavać dadatkovyja źviestki" />
+    <string id="BEExternalSavePreparationFailedText" text="Nie ŭdałosia padrychtavać źviestki pra nasielnictva j relihiju pierad zachavańniem. Zachavańnie hulni praciahniecca, ale dadatkovyja źviestki mohuć być uziatyja z papiaredniaha prydatnaha vonkavaha zdymka." />
+    <string id="BEExternalSaveWriteFailedTitle" text="Nie ŭdałosia zachavać vonkavyja źviestki" />
+    <string id="BEExternalSaveWriteFailedText" text="Nie ŭdałosia zapisać vonkavy zdymak nasielnictva j relihii. Zachavańnie hulni praciahniecca, ale dadatkovyja źviestki mohuć być uziatyja z papiaredniaha prydatnaha vonkavaha zdymka." />
+    <string id="BEExternalSaveDataSyncFailedTitle" text="Nie ŭdałosia ŭzhadnić vonkavaje zachavańnie" />
+    <string id="BEExternalSaveDataSyncFailedText" text="Nie ŭdałosia źviazać apošni vonkavy zdymak nasielnictva j relihii z zachavańniem hulni. Zachavańnie hulni praciahniecca, ale dadatkovyja źviestki mohuć być uziatyja z papiaredniaha prydatnaha vonkavaha zdymka." />
+    <string id="BEExternalSaveIndexFailedTitle" text="Nie ŭdałosia abnavić indeks vonkavaha zachavańnia" />
+    <string id="BEExternalSaveIndexFailedText" text="Zachavańnie hulni j jahonyja vonkavyja źviestki zapisanyja, ale nie ŭdałosia abnavić indeks vonkavych rezervovych kopijaŭ. Nivodnaja najaŭnaja rezervovaja kopija nia vydalenaja." />
+    <string id="BEExternalSaveWarningOk" text="Dobra" />
+    <string id="BEPopulationReligionAuditLogFailed" text="Nie ŭdałosia zapisać žurnał pravierki." />
+    <string id="BEPopulationReligionAuditTitle" text="Źviestki pra nasielnictva j relihiju patrabujuć pravierki" />
+    <string id="BEExternalSaveMultipleWarningsTitle" text="Papiaredžańni" />
+    <string id="BEPopulationReligionAuditText" text="Častka źviestak pra nasielnictva abo relihiju vykarystoŭvaje pradvyznačanyja značeńni. Sieliščaŭ: {SETTLEMENTS}, hierojaŭ: {HEROES}. Padrabiaznaści zapisanyja ŭ: {PATH}" />
+    <string id="BEMigrationFailureBody" text="Burning Empires spyniŭ zahruzku hetaj kampanii, bo nia zmoh biaśpiečna pieranieści jaje dadatkovyja źviestki.&#xA;&#xA;Što zdaryłasia:&#xA;Zachavańnie maje versiju źviestak {SOURCE_VERSION}, a hetaja zborka patrabuje versiju {TARGET_VERSION}. Nieparyŭny łancužok pieranosu modulaŭ abo jahonaja pravierka skončylisia pamyłkaj.&#xA;&#xA;Techničnaja pryčyna:&#xA;{REASON}&#xA;&#xA;Što zrabiła prahrama:&#xA;U zapuščanuju kampaniju nie byli zapisanyja źviestki pra nasielnictva, relihiju, adnosiny, reputacyju, Cudy, Histaryčnuju Kampaniju abo dadatkovyja značeńni. Zychodny .sav i jahonyja vonkavyja zdymki nia źmienienyja.&#xA;&#xA;Što rabić:&#xA;Zachoŭvajcie zychodnaje zachavańnie razam z adpaviednym kataloham kampanii BESavedata. Viarnicie zborku Burning Empires, jakaja padtrymlivaje hetuju zychodnuju versiju, abo dadajcie adsutny etap nieparyŭnaha pieranosu j pravierki modulaŭ, pierš čym sprabavać znoŭ." />
+    <string id="BEExternalSavePreflightOk" text="Dobra" />
+    <string id="BEExternalSavePreflightLoad" text="Zahruzić" />
+    <string id="BEExternalSavePreflightMigrate" text="Zahruzić i pieranieści" />
+    <string id="BEExternalSavePreflightCancel" text="Skasavać" />
+    <string id="BEExternalSavePreflightFailureTitle" text="Zachavańnie Burning Empires nie prajšło pravierku" />
+    <string id="BEExternalSavePreflightFailureBody" text="Hetaje zachavańnie źmiaščaje metaźviestki pra vonkavyja źviestki Burning Empires, ale pravierku pierad zahruzkaj nie ŭdałosia zaviaršyć. Hulnia skasavała zahruzku, kab źviestki zachavańnia kampanii nie spałučylisia niapravilna z vonkavymi źviestkami pra nasielnictva, relihiju, Cudy, Histaryčnuju Kampaniju j dadatkovymi źviestkami.&#xA;&#xA;Zachavańnie: {SAVE_NAME}&#xA;Typ pamyłki: {ERROR_TYPE}&#xA;Padrabiaznaści: {ERROR_MESSAGE}&#xA;&#xA;Nie pierazapisvajcie hetaje zachavańnie. Zachavajcie zychodny fajł .sav i adpaviednuju tečku BurningEmpires\BESavedata, a zatym prahladzicie žurnał pracy Burning Empires abo pieradajcie hetyja źviestki raspracoŭnikam." />
+    <string id="BEExternalSaveDeletedTitle" text="Vonkavyja źviestki zachavańnia vydalenyja" />
+    <string id="BEExternalSaveDeletedText" text="Hetaje vočka zachavańnia raniej było vydalenaje praz ekran zachavanych hulniaŭ Bannerlord. Burning Empires praihnaravaŭ staruju ŭbudavanuju spasyłku adnaŭleńnia, kab vydalenyja vonkavyja źviestki nie adnavilisia sami." />
+    <string id="BEExternalSaveFallbackTitle" text="Vonkavyja źviestki zachavańnia adnoŭlenyja" />
+    <string id="BEExternalSaveFallbackText" text="Vonkavyja źviestki hetaha zachavańnia byli paškodžanyja. Hulnia aŭtamatyčna zahruziła apošniuju dastupnuju vonkavuju rezervovuju kopiju dla hetaha vočka zachavańnia." />
+    <string id="BEExternalSaveDeletedPreflightText" text="Burning Empires paznačyŭ, što hetaje vočka zachavańnia było vydalenaje praz ekran zachavanych hulniaŭ Bannerlord. Staryja zdymki j ubudavanyja źviestki adnaŭleńnia nia buduć adnoŭlenyja. Zahruzka hetaha ŭručnuju adnoŭlenaha .sav stvoryć dadatkovyja źviestki nanova." />
+    <string id="BEOlderSaveTitle" text="Staroje zachavańnie Burning Empires" />
+    <!--The following localization prefix is escaped as {{=ID}} in the DLL format string.-->
+    <string id="BEOlderSaveText" text="Hetaje zachavańnie vykarystoŭvaje versiju źviestak Burning Empires {0}. Jaho možna zahruzić, pieraniosšy źviestki modulaŭ u versiju {1}.&#xA;&#xA;Moduli dla pieranosu:&#xA;{2}&#xA;&#xA;Pieranos vykonvajecca na poŭnaj kopii j užyvajecca tolki paśla pravierki ŭsich modulaŭ. Zychodnaje zachavańnie nia budzie pierazapisanaje. Paśla zahruzki śvietu zadajcie novuju nazvu praz «Zachavać jak», pierš čym karystacca zvyčajnymi kamandami zachavańnia." />
+    <string id="BEOlderBackupTitle" text="Dastupnaja staraja rezervovaja kopija Burning Empires" />
+    <string id="BEExternalSavePreflightFallbackTitle" text="Vonkavyja źviestki zachavańnia paškodžanyja" />
+    <!--The following localization prefix is escaped as {{=ID}} in the DLL format string.-->
+    <string id="BEOlderBackupText" text="Hetaje zachavańnie versii {0} maje paškodžany aktyŭny vonkavy zdymak, ale Burning Empires znajšoŭ prydatnuju rezervovuju kopiju taho samaha fizyčnaha vočka zachavańnia. Jon adnović hetuju kopiju j pieraniasie jaje poŭnuju kopiju ŭ versiju {1}; zychodnyja fajły nia buduć pierazapisanyja." />
+    <string id="BEExternalSavePreflightFallbackText" text="Aktyŭnyja vonkavyja źviestki hetaha fizyčnaha vočka zachavańnia paškodžanyja, ale dastupnaja prydatnaja rezervovaja kopija taho samaha vočka. Vybierycie «Zahruzić», kab adnavić jaje, abo «Skasavać», kab viarnucca na ekran zachavanych hulniaŭ." />
+    <string id="BECampaignCleanupDeferredBody" text="Bannerlord vydaliŭ abranaje zachavańnie, ale Burning Empires nia zmoh biaśpiečna vyznačyć, što ŭvieś kataloh kampanii bolš nie patrebny.&#xA;&#xA;ID kampanii: {CAMPAIGN_ID}&#xA;Vydalenaje vočka zachavańnia: {SAVE_NAME}&#xA;Pryčyna: {REASON}&#xA;&#xA;Dla vydalenaha vočka zastajecca dziejnaj paznaka vydaleńnia. Astatnija źviestki kampanii zachavanyja, bo nielha zdahadvacca pra ichnuju patrebnaść abo vydalać ich rekursiŭna." />
+    <string id="BECampaignCleanupDeferredTitle" text="Ačystka tečki kampanii adkładzienaja" />
+    <string id="BEExternalSavePreflightMrsTitle" text="Vonkavyja zdymki patrabujuć ubudavanaha adnaŭleńnia" />
+    <string id="BEExternalSavePreflightMrsText" text="Dla hetaha fizyčnaha vočka zachavańnia niama prydatnaha vonkavaha zdymka. Kali vy praciahniecie, Burning Empires pravieryć minimalnyja źviestki adnaŭleńnia ŭ hetym samym .sav paśla taho, jak Bannerlord adnović jaho. Kančatkovaje papiaredžańnie pra niaŭdaču źjavicca tolki tady, kali hetyja ŭbudavanyja źviestki taksama nia projduć pravierku." />
+    <string id="BEExternalSaveMrsTitle" text="Užytaje adnaŭleńnie vonkavaha zdymka" />
+    <string id="BEExternalSaveMrsText" text="Dla hetaha zachavańnia nie ŭdałosia zahruzić prydatny zdymak vonkavych źviestak. Hulnia zahruziła minimalnyja źviestki adnaŭleńnia, ubudavanyja ŭ fajł .sav." />
+    <string id="BEExternalSaveUnavailableTitle" text="Vonkavyja źviestki zachavańnia niedastupnyja" />
+    <string id="BEExternalSaveUnavailableText" text="Usie vonkavyja zdymki hetaha vočka niedastupnyja, a minimalnamu naboru źviestak adnaŭleńnia, ubudavanamu ŭ hety .sav, nielha daviarać.&#xA;&#xA;Techničnaja pryčyna:&#xA;" />
+    <string id="BEExternalSaveDeleteFailureBody" text="Burning Empires nia zmoh vydalić vonkavyja źviestki paśla taho, jak Bannerlord paćvierdziŭ vydaleńnie zachavańnia.&#xA;&#xA;Što zdaryłasia:&#xA;Zychodny .sav vydaleny, ale Windows admoviłasia vydalić častku adpaviednych vonkavych źviestak Burning Empires. Paznaka vydaleńnia zastajecca dziejnaj, tamu adkładzienyja zadačy zachavańnia j źviestki adnaŭleńnia nia mohuć adnavić vydalenaje vočka.&#xA;&#xA;Adpaviednaja kampanija: {CAMPAIGN_ID}&#xA;Adpaviednaje vočka zachavańnia: {SAVE_NAME}&#xA;Šlach da rešty źviestak: {PATH}&#xA;Techničnaja pryčyna: {REASON}&#xA;&#xA;Što zrabiła prahrama:&#xA;Inšyja zachavańni zastajucca dastupnymi. Burning Empires nia budzie zahružać ci pierazapisvać vydalenaje vočka sa staroha zdymka.&#xA;&#xA;Što rabić:&#xA;Zakryjcie Bannerlord, upeŭniciesia, što ni redaktar, ni prahrama rezervovaha kapijavańnia nie vykarystoŭvaje paznačany šlach, a zatym vydalicie jaho ŭručnuju. Nie vydalajcie katalohi inšych kampanijaŭ." />
+    <string id="BEExternalSaveDeleteFailureTitle" text="Vonkavyja źviestki zachavańnia nie ŭdałosia vydalić całkam" />
+    <string id="BEMigrationOrdinarySaveBlockedBody" text="Burning Empires zablakavaŭ {OPERATION}, bo hety seans źmiaščaje źviestki, pieraniesienyja sa staroha zachavańnia.&#xA;&#xA;Čamu heta zdaryłasia:&#xA;Zychodnaje zachavańnie staroj versii zachoŭvajecca jak punkt viartańnia. Zvyčajnaje zachavańnie adklučanaje, pakul abaviazkovaja aperacyja «Zachavać jak» paśla pieranosu nie zavieršycca paśpiachova.&#xA;&#xA;Što rabić:&#xA;Zakryjcie hetaje paviedamleńnie j uviadzicie novuju ŭnikalnuju nazvu ŭ zapycie pieranosu. Paśla paśpiachovaha zachavańnia pad novaj nazvaj usie zvyčajnyja kamandy zachavańnia j aŭtazachavańni asobnych halinaŭ znoŭ stanuć dastupnymi." />
+    <string id="BEMigrationOrdinarySaveBlockedTitle" text="Zachavańnie časova zablakavanaje" />
+    <string id="BEExternalSaveDeleteIdentityBody" text="Bannerlord vydaliŭ abrany fajł .sav, ale Burning Empires nia zmoh pračytać jahony UniqueGameId z metaźviestak zachavańnia.&#xA;&#xA;Što zdaryłasia:&#xA;Tečka vonkavych źviestak vyznačajecca pavodle ID kampanii j nazvy vočka zachavańnia. Adnoj nazvy vočka niedastatkova, bo roznyja kampanii mohuć mieć adnolkavyja nazvy.&#xA;&#xA;Adpaviednaje vočka zachavańnia: {SAVE_NAME}&#xA;&#xA;Što zrabiła prahrama:&#xA;Burning Empires zachavaŭ usie vonkavyja źviestki, bo nia moh vyznačyć, jaki kataloh kampanii naležyć vydalić. Inšyja zachavańni nia źmienienyja.&#xA;&#xA;Što rabić:&#xA;Zakryjcie hulniu j praviercie BESavedata/campaigns, tolki kali treba ŭručnuju vydalić vonkavaje vočka biez adpaviednaści. Nie vydalajcie kataloh inšaj kampanii tolki tamu, što jon źmiaščaje vočka z takoj samaj nazvaj." />
+    <string id="BEExternalSaveDeleteIdentityTitle" text="Vonkavyja źviestki zachavańnia zachavanyja" />
+    <string id="BEExternalSaveDeleteSyncBody" text="Bannerlord vydaliŭ abrany fajł .sav, ale Burning Empires nia zmoh zaviaršyć uzhadnieńnie vydaleńnia adpaviednych vonkavych źviestak.&#xA;&#xA;Što zdaryłasia:&#xA;Niečakanaja pamyłka fajła abo indeksu pierapyniła ačystku vonkavych źviestak paśla vydaleńnia zychodnaha zachavańnia.&#xA;&#xA;ID kampanii: {CAMPAIGN_ID}&#xA;Vočka zachavańnia: {SAVE_NAME}&#xA;Techničnaja pryčyna: {REASON}&#xA;&#xA;Što zrabiła prahrama:&#xA;Pamyłka izalavanaja, kab jana nie spyniła hulniu j nie źmianiła inšaje zachavańnie. Najaŭnyja vonkavyja fajły pakinutyja na miescy, kali ichnuju prynaležnaść nie ŭdałosia paćvierdzić.&#xA;&#xA;Što rabić:&#xA;Zakryjcie Bannerlord, praviercie BESavedata/campaigns/{CAMPAIGN_ID} i vydalicie tolki tečku vydalenaha vočka, kali jana zastałasia. Zachavajcie ŭsie inšyja kampanii j vočki." />
+    <string id="BEExternalSaveDeleteSyncTitle" text="Vydaleńnie vonkavaha zachavańnia nie zavieršanaje" />
+    <string id="BESaveBranchCompatibilityBody" text="Burning Empires adklučyŭ aŭtazachavańni asobnych halinaŭ dla hetaha hulniavoha seansu.&#xA;&#xA;Što zdaryłasia:&#xA;Adsutničaje, nie spracavaŭ abo kanfliktuje ź inšym modam pierachopnik aŭtazachavańnia ci interfejs śpisu zachavańniaŭ, raźličany na peŭnuju versiju. Adnačasovaja praca abiedźviuch realizacyjaŭ moža pierazapisać inšuju halinu zachavańniaŭ, dvojčy vyklikać zvarotnuju funkcyju zachavańnia Bannerlord abo stvaryć chibny śpis zachavańniaŭ.&#xA;&#xA;Techničnyja źviestki:&#xA;{REASON}&#xA;&#xA;Što zrabiła prahrama:&#xA;Pierachod da ahulnych vočak saveauto1-3 nie vykonvaŭsia. Kali kanflikt zakranaje SavedGameGroup, hijerarchija halinaŭ BE taksama adklučajecca, a zychodny płoski śpis zachavańniaŭ zachoŭvajecca. Ručnoje zachavańnie, chutkaje zachavańnie, «Zachavać jak», «Zachavać i vyjści» j zahruzka zastajucca dastupnymi.&#xA;&#xA;Što rabić:&#xA;Zachavajcie hetaje paviedamleńnie, paraŭnajcie paznačanaha ŭłaśnika Harmony abo UIExtenderEx sa śpisam uklučanych modulaŭ i adklučycie ci abnavicie mod, jaki źmianiaje toj samy metad zachavańnia abo šablon SavedGameGroup. Paśla źmieny śpisu modulaŭ pierazapuścicie Bannerlord." />
+    <string id="BESaveBranchCompatibilityTitle" text="Aŭtazachavańni asobnych halinaŭ adklučanyja" />
+    <string id="BEMigrationSaveAsBody" text="Hetaja kampanija zahružanaja z versii źviestak Burning Empires {SOURCE_VERSION} i pieraniesienaja ŭ versiju {TARGET_VERSION}.&#xA;&#xA;Što heta aznačaje:&#xA;Pieraniesienyja źviestki ciapier zachoŭvajucca tolki ŭ pamiaci. Burning Empires nie pierazapiša staroje zachavańnie. Treba stvaryć novaje vočka zachavańnia, pierš čym karystacca chutkim zachavańniem, aŭtazachavańniem, zvyčajnym zachavańniem abo «Zachavać i vyjści».&#xA;&#xA;Pieraniesienyja moduli: {MODULES}&#xA;&#xA;Što rabić:&#xA;Uviadzicie nižej novuju ŭnikalnuju nazvu zachavańnia j vybierycie «Zachavać pieraniesienuju kampaniju». Novaje vočka zastaniecca častkaj toj samaj kampanii Bannerlord, ale atrymaje ŭłasny identyfikatar haliny zachavańniaŭ Burning Empires i ŭłasnyja try vočki aŭtazachavańnia." />
+    <string id="BEMigrationSaveAsTitle" text="Zachavać pieraniesienuju kampaniju" />
+    <string id="BEMigrationSaveAsConfirm" text="Zachavać pieraniesienuju kampaniju" />
+    <string id="BEMigrationSaveAsLater" text="Pakul nie" />
+    <string id="BEMigrationSavedNotice" text="Pieraniesienaja kampanija Burning Empires zachavanaja ŭ novym vočku." />
+    <string id="BEMigrationSaveFailedTitle" text="Pieraniesienaja kampanija nie zachavanaja" />
+    <string id="BEMigrationSaveFailedBody" text="Bannerlord nia zmoh zaviaršyć abaviazkovuju aperacyju «Zachavać jak».&#xA;&#xA;Što zdaryłasia:&#xA;Pieraniesienyja źviestki Burning Empires zastajucca tolki ŭ pamiaci, tamu zvyčajnyja zachavańni ŭsio jašče zablakavanyja dziela abarony zychodnaha zachavańnia staroj versii.&#xA;&#xA;Što rabić:&#xA;Praviercie, ci dazvoleny zapis u tečku zachavańniaŭ i ci staje miesca na dysku. Zakryjcie hetaje paviedamleńnie, a zatym uviadzicie inšuju novuju nazvu, kali znoŭ źjavicca zapyt pieranosu." />
+    <string id="BEMigrationSaveNameEmpty" text="Uviadzicie nazvu dla pieraniesienaha zachavańnia." />
+    <string id="BEMigrationSaveNameLong" text="Nazva zachavańnia musić źmiaščać mienš za 30 znakaŭ." />
+    <string id="BEMigrationSaveNameCharacters" text="Vykarystoŭvajcie tolki litary, ličby j prahały." />
+    <string id="BEMigrationSaveNameReserved" text="Hetaja nazva zarezervavanaja dla aŭtazachavańniaŭ." />
+    <string id="BEMigrationSaveNameExists" text="Vybierycie novuju nazvu. Padčas pieranosu nielha pierazapisvać najaŭnaje zachavańnie." />
+    <string id="BELifePatchErrorTitle" text="Pamyłka sumiaščalnaści žyćciovaha cyklu" />
+    <string id="BELifePatchErrorBody" text="Burning Empires nia ŭžyŭ vypraŭleńnie sumiaščalnaści {PATCH}, bo hetaja zborka hulni bolš nie adpaviadaje padtrymanamu interfejsu 1.4.8. Zychodny metad hulni pakinuty biaź źmienaŭ. Techničnyja źviestki: {DETAIL}" />
+    <string id="BEHistoricalCampaignGoalQuestTitle" text="Mety Kampanii: {HERO}" />
+    <string id="BEHistoricalCampaignTitle" text="Histaryčnaja Kampanija" />
+    <string id="BEHistoricalBackstoryTitle" text="Pieradhistoryja" />
+    <string id="BEHistoricalGoalsTitle" text="Mety" />
+    <string id="BEHistoricalCompanyTitle" text="Spadarožniki" />
+    <string id="BEHistoricalFeatsTitle" text="Kulturnyja Ździajśnieńni" />
+    <string id="BEHistoricalConfirm" text="Pačać Kampaniju" />
+    <string id="WXAaWZVf" text="Nazad" />
+    <string id="BEHistoricalErrorNoCandidates" text="Nie zadadzienyja persanažy dla Histaryčnaj Kampanii." />
+    <string id="BEHistoricalErrorTextMissing" text="Dla hetaha persanaža adsutničaje abaviazkovy pierakładzieny tekst." />
+    <string id="BEHistoricalBackgroundUnavailable" text="Zadadzienaja vyjava pieradhistoryi niedastupnaja." />
+    <string id="BEHistoricalErrorPreviewHeroMissing" text="Niemahčyma pakazać abranaha histaryčnaha persanaža, bo niama źviestak Hero." />
+    <string id="BEHistoricalPreviewUnavailable" text="Pieradprahlad persanaža niedastupny." />
+    <string id="BEHistoricalPreviewConfigErrorBody" text="Heta pamyłka kanfihuracyi playerEquipment pry vybary persanaža Histaryčnaj Kampanii.&#xA;&#xA;Što heta aznačaje:&#xA;Hulnia nie znajšła adzin ci niekalki pradmietaŭ pieradprahladu abo naboraŭ ryštunku, zadadzienych dla {CHARACTER_NAME} ({HERO_ID}) u BE ModuleData Source Files/BEData/be_historical_campaign.json.&#xA;&#xA;Čamu heta zdaryłasia:&#xA;itemId abo equipmentRosterId nie isnuje, zapisany z pamyłkaj ci nie zahružany ŭ biahučy ModuleData. Scena vybaru vykarystoŭvaje biaśpiečny zapasny vyhlad, ale pačatak kampanii zablakavany, pakul playerEquipment nia budzie prydatny, bo abrany hieroj musić atrymać dakładna zadadzieny ŭ JSON bajavy ryštunak.&#xA;&#xA;Što zrabiła prahrama:&#xA;Zapasny varyjant užyty tolki ŭ časovym pieradprahladzie. Sapraŭdny ryštunak hierojaŭ nia źmienieny.&#xA;&#xA;Padrabiaznaści kanfihuracyi:&#xA;{ISSUES}&#xA;&#xA;Jak vypravić:&#xA;Adkryjcie BE ModuleData Source Files/BEData/be_historical_campaign.json, vypraŭcie paznačanaje pole playerEquipment, vočka abo ID abjekta, a zatym zapuścicie ŭ BE ModuleData Builder/BEModuleDataBuilder.exe kamandy validate, dry-run i pack mienavita ŭ hetym paradku. Znoŭ adkryjcie Histaryčnuju Kampaniju j praviercie pieradprahlad." />
+    <string id="BEHistoricalPreviewConfigErrorTitle" text="Patrebna pravieryć nałady ryštunku dla prahladu Histaryčnaj Kampanii" />
+    <string id="BEHistoricalPreviewCameraErrorBody" text="U Histaryčnaj Kampanii nie ŭdałosia ŭklučyć maštabavańnie kołcam myšy j vertykalnaje kiravańnie kameraj siaredniaj knopkaj dla pieradprahladu persanaža.&#xA;&#xA;Što heta aznačaje:&#xA;Sama madel persanaža zastajecca dastupnaj, ale nievialiki most sumiaščalnaści, jaki źmianiaje sapraŭdnaje stanovišča trochmiernaj kamery Tableau, nia zmoh padłučycca da paloŭ CharacterTableau u Bannerlord.&#xA;&#xA;Čamu heta zdaryłasia:&#xA;Hetaja zborka čakaje strukturu CharacterTableau z Bannerlord 1.4.7. Inšaja versija hulni abo niesumiaščalnaja zborka interfejsu moža pierajmienavać ci zamianić patrebnyja pryvatnyja pali. Techničnyja źviestki: {TECHNICAL_REASON}&#xA;&#xA;Što zrabiła prahrama:&#xA;Maštabavańnie kołcam myšy j vertykalny ruch kamery siaredniaj knopkaj adklučanyja ŭ hetym seansie, kab praduchilić niebiaśpiečny zapis praz refleksiju. Vybar persanaža, pavarot levaj knopkaj i «Pačać kampaniju» zastajucca dastupnymi.&#xA;&#xA;Što rabić:&#xA;Praviercie, ci ŭstalavanyja Bannerlord 1.4.7 i patrebnyja aficyjnyja moduli zaležnaściaŭ. Kali versii pravilnyja, dašlicie hetaje paviedamleńnie całkam i žurnał Histaryčnaj Kampanii raspracoŭniku mumahutuo, kab jon moh abnavić most sumiaščalnaści. Pry hetaj pamyłcy nia redahujcie be_historical_campaign.json." />
+    <string id="BEHistoricalPreviewCameraErrorTitle" text="Pamyłka sumiaščalnaści kamery prahladu Histaryčnaj Kampanii" />
+    <string id="BEHistoricalLoadPlaceholderCleanupFailedBody" text="Burning Empires nia zmoh biaśpiečna zaviaršyć zahruzku hetaha zachavańnia Histaryčnaj Kampanii.&#xA;&#xA;Što zdaryłasia:&#xA;{REASON}&#xA;&#xA;Navošta patrebnaja hetaja pravierka:&#xA;Pry čytańni zachavańnia Bannerlord paŭtorna zahružaje XML-vyznačeńni main_hero, player_faction i main_hero_party_template, pryznačanyja tolki dla Piasočnicy. Prydatnaje zachavańnie Histaryčnaj Kampanii zamiest ich vykarystoŭvaje abranaha histaryčnaha hieroja j kłan. Nievykarystoŭvanyja vyznačeńni Piasočnicy možna vydalać tolki tady, kali jany nia majuć majomaści j dziejnych spasyłak.&#xA;&#xA;Što zrabiła prahrama:&#xA;Zahruzka schovaŭ Cudaŭ, stanu adkryćciaŭ i astatnich vonkavych źviestak Burning Empires spynienaja, pierš čym hetyja značeńni mahli być užytyja da niebiaśpiečnaha stanu śvietu. Nivodny hieroj-zahłuška nie zabity; źniščeńnie kłanaŭ abo pieradača majomaści nie vykonvalisia.&#xA;&#xA;Što rabić:&#xA;Nie pierazapisvajcie hetaje zachavańnie. Zachavajcie fajł zachavańnia j uvieś kataloh BurningEmpires Logs, a zatym pieradajcie prahramistu Burning Empires ID kandydata {CANDIDATE_ID} i paviedamleńnie vyšej. Praviercie znoŭ na zachavańni, stvoranym biahučaj DLL, paśla vypraŭleńnia paznačanaj spasyłki." />
+    <string id="BEHistoricalLoadPlaceholderCleanupFailedTitle" text="Nie ŭdałosia adnavić zachavańnie Histaryčnaj Kampanii" />
+    <string id="BEGovernmentUnknownCulture" text="Nieviadomaja kultura" />
+    <string id="BEGovernmentSelectedCulturePopulation" text="Nasielnictva: {POPULATION}" />
+    <string id="BEGovernmentSelectedCultureShare" text="Dola nasielnictva haspadarstva: {SHARE}" />
+    <string id="BEGovernmentMainstreamCultureAffinity" text="Prychilnaść da asnoŭnaj kultury: {VALUE}" />
+    <string id="BEGovernmentReligionBreakdown" text="Relihijny skład" />
+    <string id="BEGovernmentSelectedReligionPopulation" text="Vierniki: {POPULATION}" />
+    <string id="BEGovernmentSelectedReligionShare" text="Dola nasielnictva haspadarstva: {SHARE}" />
+    <string id="BEGovernmentStateReligionAffinity" text="Prychilnaść da dziaržaŭnaj relihii: {VALUE}" />
+    <string id="BEGovernmentCultureBreakdown" text="Kulturny skład" />
+    <string id="BEGovernmentTab" text="Urad" />
+    <string id="BEGovernmentReligionTab" text="Relihija" />
+    <string id="BEGovernmentCultureTab" text="Kultura" />
+    <string id="BEGovernmentStateReligionTitle" text="Dziaržaŭnaja Relihija" />
+    <string id="BEGovernmentMainstreamCultureTitle" text="Asnoŭnaja Kultura" />
+    <string id="BEGovernmentChangeStateReligion" text="Źmianić dziaržaŭnuju relihiju" />
+    <string id="BEGovernmentChangeMainstreamCulture" text="Źmianić asnoŭnuju kulturu" />
+    <string id="BEGovernmentPropose" text="Prapanavać" />
+    <string id="BEGovernmentReligionComposition" text="Nasielnictva haspadarstva pavodle relihii" />
+    <string id="BEGovernmentCultureComposition" text="Nasielnictva haspadarstva pavodle kultury" />
+    <string id="BEGovernmentNoKingdom" text="Vy pakul nie naležycie ni da jakoha haspadarstva." />
+    <string id="BEGovernmentNoStateReligion" text="Dziaržaŭnaja relihija nie vyznačanaja." />
+    <string id="BEGovernmentPlayerReligion" text="Vaša relihija: {RELIGION}" />
+    <string id="BEGovernmentNoMainstreamCulture" text="Asnoŭnaja kultura nie vyznačanaja." />
+    <string id="BEGovernmentUnknownPlayerCulture" text="Nieviadomaja kultura" />
+    <string id="BEGovernmentPlayerCulture" text="Vaša kultura: {CULTURE}" />
+    <string id="BEGovernmentNoReligionPopulation" text="Niama prydatnych źviestak pra relihijny skład nasielnictva haspadarstva." />
+    <string id="BEGovernmentNoCulturePopulation" text="Niama prydatnych źviestak pra kulturny skład nasielnictva haspadarstva." />
+    <string id="BEGovernmentCultureLoadFailure" text="Nie ŭdałosia zahruzić źviestki pra kulturny skład nasielnictva: {ERROR}" />
+    <string id="BEGovernmentChooseStateReligionTitle" text="Vybrać dziaržaŭnuju relihiju" />
+    <string id="BEGovernmentChooseStateReligionDescription" text="Vybierycie relihiju, jakuju chočacie prapanavać. Prapanova kaštuje {INFLUENCE} upłyvu; rašeńnie prymuć šlachietnyja kłany haspadarstva." />
+    <string id="BEGovernmentCancel" text="Skasavać" />
+    <string id="BEGovernmentChooseMainstreamCultureTitle" text="Vybrać asnoŭnuju kulturu" />
+    <string id="BEGovernmentChooseMainstreamCultureDescription" text="Vybierycie kulturu, jakuju chočacie prapanavać. Prapanova kaštuje {INFLUENCE} upłyvu; rašeńnie prymuć šlachietnyja kłany haspadarstva." />
+    <string id="BEGovernmentRulerOnly" text="Tolki haspadar moža źmianić dziaržaŭnuju relihiju." />
+    <string id="BEGovernmentPendingStateReligionVote" text="Prapanova ab dziaržaŭnaj relihii ŭžo čakaje rašeńnia." />
+    <string id="BEGovernmentInsufficientInfluence" text="Nie staje ŭpłyvu, kab zrabić hetuju prapanovu." />
+    <string id="BEGovernmentNoEligibleReligion" text="Ciapier niama inšaj relihii, jakuju možna prapanavać u jakaści dziaržaŭnaj." />
+    <string id="BEGovernmentProposalCostHint" text="Prapanavać novuju dziaržaŭnuju relihiju za {INFLUENCE} upłyvu." />
+    <string id="BEGovernmentProposalCreated" text="Prapanova ab dziaržaŭnaj relihii stvoranaja. Adkryjcie pastanovy haspadarstva, kab vyrašyć hałasavańnie šlachty." />
+    <string id="BEGovernmentCultureRulerOnly" text="Tolki haspadar moža źmianić asnoŭnuju kulturu." />
+    <string id="BEGovernmentPendingCultureVote" text="Prapanova ab asnoŭnaj kultury ŭžo čakaje rašeńnia." />
+    <string id="BEGovernmentCultureInsufficientInfluence" text="Nie staje ŭpłyvu, kab zrabić hetuju prapanovu." />
+    <string id="BEGovernmentNoEligibleCulture" text="Ciapier niama inšaj kultury, jakuju možna prapanavać u jakaści asnoŭnaj." />
+    <string id="BEGovernmentCultureProposalCostHint" text="Prapanavać novuju asnoŭnuju kulturu za {INFLUENCE} upłyvu." />
+    <string id="BEGovernmentCultureProposalCreated" text="Prapanova ab asnoŭnaj kultury stvoranaja. Adkryjcie pastanovy haspadarstva, kab vyrašyć hałasavańnie šlachty." />
+    <string id="BEFoundingReligionGovernorPrompt" text="Pierš čym nazvać haspadarstva, jakuju vieru abiarem jahonaj dziaržaŭnaj relihijaj?" />
+    <string id="BEFoundingReligionGovernorGlobalFallback" text="U nasielnictva haspadarstva niama vyznaŭcaŭ nivodnaj vyznačanaj relihii. Heta niezvyčajnyja źviestki kampanii; paśla paćvierdžańnia papiaredžańnia buduć dastupnyja ŭsie relihii, zadadzienyja ŭ naładach." />
+    <string id="BEFoundingReligionGovernorUnavailable" text="My nia možam zasnavać haspadarstva, pakul niedastupnyja źviestki pra jaho dziaržaŭnuju relihiju." />
+    <string id="BEFoundingReligionGovernorCancel" text="Mnie treba jašče padumać." />
+    <string id="dzXaXKaC" text="Cudoŭna." />
+    <string id="BEFoundingReligionGovernorErrorTitle" text="Vybar dziaržaŭnaj relihii niedastupny" />
+    <string id="BEFoundingReligionGovernorErrorBody" text="{REASON}" />
+    <string id="BEFoundingReligionChoicePending" text="Vybierycie dziaržaŭnuju relihiju dla haspadarstva, jakoje čakaje zasnavańnia, pierš čym stvarać inšaje." />
+    <string id="BEFoundingReligionUnavailable" text="Dla novaha haspadarstva niama prydatnaj vyznačanaj relihii." />
+    <string id="BEFoundingReligionDescription" text="Vybierycie dziaržaŭnuju relihiju vašaha novaha haspadarstva. Spačatku pakazanyja relihii, jakija vyznajuć bolš za 25% viernikaŭ haspadarstva; kali takich niama, pakazvajucca ŭsie vyznačanyja relihii, jakija majuć tut viernikaŭ." />
+    <string id="BEFoundingReligionTitle" text="Vybrać dziaržaŭnuju relihiju" />
+    <string id="BEFoundingReligionConfirm" text="Zasnavać haspadarstva" />
+    <string id="BEFoundingReligionCancel" text="Skasavać" />
+    <string id="BEFoundingReligionInvalid" text="Abranaja pry zasnavańni relihija nieprydatnaja." />
+    <string id="BEFoundingReligionReplayFailed" text="Nie ŭdałosia stvaryć haspadarstva paśla vybaru dziaržaŭnaj relihii: {REASON}" />
+    <string id="BEFoundingReligionNoDomesticFormalFaithTitle" text="U haspadarstvie niama vyznaŭcaŭ vyznačanych relihijaŭ" />
+    <string id="BEFoundingReligionNoDomesticFormalFaith" text="U novym haspadarstvie nia znojdziena nivodnaj vyznačanaj relihii ź miascovymi viernikami. Heta niečakanyja źviestki kampanii. Paśla hetaha papiaredžańnia ŭsie relihii, zadadzienyja ŭ naładach, buduć dastupnyja jak zapasnyja varyjanty." />
+    <string id="yS7PvrTD" text="Dobra" />
+    <string id="BEKingdomGovernmentConfigurationErrorTitle" text="Pamyłka kanfihuracyi ŭradu haspadarstva" />
+    <string id="BEKingdomGovernmentConfigurationErrorBody" text="Burning Empires adklučyŭ u hetym seansie novyja funkcyi ŭradu, prapanovaŭ dziaržaŭnaj relihii, vybaru relihii pry zasnavańni haspadarstva hulcom i źmieny viery, bo nia zmoh vykarystać BEData/{FILE}. Najaŭnyja zachavanyja źviestki pra relihiju haspadarstvaŭ i hierojaŭ nia źmienienyja.&#xA;&#xA;Što zdaryłasia:&#xA;{REASON}&#xA;&#xA;Jak vypravić:&#xA;Vypraŭcie BE ModuleData Source Files/BEData/{FILE}, a zatym vykanajcie validate, dry-run i pack u BE ModuleData Builder pierad pierazapuskam hulni." />
+    <string id="BERebelKingdomErrorTitle" text="Nie ŭdałosia zasnavać paŭstanckaje haspadarstva" />
+    <string id="BERebelKingdomErrorBody" text="{REASON}" />
+    <string id="aKaGaOQx" text="Kłan {CLAN_LEADER.NAME}{.o}" />
+    <string id="BEStateCultureDecisionTitle" text="Źmianić asnoŭnuju kulturu" />
+    <string id="BEStateCultureDecisionSupportTitle" text="Hałasavańnie za asnoŭnuju kulturu" />
+    <string id="BEStateCultureDecisionChooseTitle" text="Vyznačyć vynik hałasavańnia za asnoŭnuju kulturu" />
+    <string id="BEStateCultureDecisionSupportDescription" text="{PROPOSER} prapanuje, kab haspadarstva {KINGDOM} pryniało {CULTURE} jak asnoŭnuju kulturu. Šlachietnyja kłany haspadarstva prahałasujuć za prapanovu." />
+    <string id="BEStateCultureDecisionChooseDescription" text="Šlachta razhledzieła pryniaćcie {CULTURE} jak asnoŭnaj kultury. Jak haspadar, vy možacie padtrymać vynik hałasavańnia abo zapłacić zvyčajnuju canu haspadarskaha ŭpłyvu, kab vybrać inšaje rašeńnie." />
+    <string id="BEStateCultureDecisionSecondaryEffects" text="Uchvalenaja kultura adrazu stanovicca aficyjnaj asnoŭnaj kulturaj haspadarstva." />
+    <string id="BEStateCultureDecisionRejected" text="Haspadarstva {KINGDOM} zachavała svaju ciapierašniuju asnoŭnuju kulturu." />
+    <string id="BEStateCultureDecisionApproved" text="Haspadarstva {KINGDOM} pryniało {CULTURE} jak svaju asnoŭnuju kulturu." />
+    <string id="BEStateCultureDecisionReject" text="Adchilić" />
+    <string id="BEStateCultureDecisionApprove" text="Uchvalić" />
+    <string id="BEStateCultureDecisionRejectDescription" text="Zachavać ciapierašniuju asnoŭnuju kulturu." />
+    <string id="BEStateCultureDecisionApproveDescription" text="Pryniać {CULTURE} jak asnoŭnuju kulturu." />
+    <string id="BEStateReligionDecisionTitle" text="Źmianić dziaržaŭnuju relihiju" />
+    <string id="BEStateReligionDecisionSupportTitle" text="Hałasavańnie za dziaržaŭnuju relihiju" />
+    <string id="BEStateReligionDecisionChooseTitle" text="Vyznačyć vynik hałasavańnia za dziaržaŭnuju relihiju" />
+    <string id="BEStateReligionDecisionSupportDescription" text="{PROPOSER} prapanuje, kab haspadarstva {KINGDOM} pryniało {RELIGION} jak dziaržaŭnuju relihiju. Šlachietnyja kłany haspadarstva prahałasujuć za prapanovu." />
+    <string id="BEStateReligionDecisionChooseDescription" text="Šlachta razhledzieła pryniaćcie {RELIGION} jak dziaržaŭnaj relihii. Jak haspadar, vy možacie padtrymać vynik hałasavańnia abo zapłacić zvyčajnuju canu haspadarskaha ŭpłyvu, kab vybrać inšaje rašeńnie." />
+    <string id="BEStateReligionDecisionSecondaryEffects" text="Viernaść i biaśpieka sieliščaŭ adrazu pačnuć uličvać novuju ŭchvalenuju dziaržaŭnuju relihiju praz najaŭnuju madel stabilnaści nasielnictva." />
+    <string id="BEStateReligionDecisionRejected" text="Haspadarstva {KINGDOM} zachavała svaju ciapierašniuju dziaržaŭnuju relihiju." />
+    <string id="BEStateReligionDecisionApproved" text="Haspadarstva {KINGDOM} pryniało {RELIGION} jak svaju dziaržaŭnuju relihiju." />
+    <string id="BEStateReligionDecisionReject" text="Adchilić" />
+    <string id="BEStateReligionDecisionApprove" text="Uchvalić" />
+    <string id="BEStateReligionDecisionRejectDescription" text="Zachavać ciapierašniuju dziaržaŭnuju relihiju." />
+    <string id="BEStateReligionDecisionApproveDescription" text="Pryniać {RELIGION} jak dziaržaŭnuju relihiju." />
+    <string id="BEReligionGraecoRomanPaganism" text="Hreka-Rymskaje Pahanstva" />
+    <string id="BEReligionNiceneChristianity" text="Nikiejskaje Chryścijanstva" />
+    <string id="BEReligionArianChristianity" text="Aryjanskaje Chryścijanstva" />
+    <string id="BEReligionDonatistChristianity" text="Danatysckaje Chryścijanstva" />
+    <string id="BEReligionGermanicPaganism" text="Hiermanskaje Pahanstva" />
+    <string id="BEReligionSlavicPaganism" text="Słavianskaje Pahanstva" />
+    <string id="BEReligionCelticPaganism" text="Kielckaje Pahanstva" />
+    <string id="BEReligionTengrism" text="Tenhryjanstva" />
+    <string id="BEReligionSarmatianShamanism" text="Sarmacki Šamanizm" />
+    <string id="BEReligionZoroastrianism" text="Zaraastryzm" />
+    <string id="BEReligionBuddhism" text="Budyzm" />
+    <string id="BEReligionBerberPaganism" text="Bierbierskaje Pahanstva" />
+    <string id="BEReligionUgricPaganism" text="Vuhorskaje Pahanstva" />
+    <string id="BEReligionBalticPaganism" text="Bałtyjskaje Pahanstva" />
+    <string id="BEPopulationClassNobility" text="Šlachta" />
+    <string id="BEPopulationClassCitizens" text="Hramadzianie" />
+    <string id="BEPopulationClassFreemen" text="Volnyja" />
+    <string id="BEPopulationClassSlaves" text="Raby" />
+    <string id="BEPopulationAgeChildren" text="Dzieci" />
+    <string id="BEPopulationAgeAdults" text="Darosłyja" />
+    <string id="BEPopulationAgeElders" text="Staryja" />
+    <string id="BEPopulationCompositionOther" text="Inšyja" />
+    <string id="BEEncyclopediaValueNone" text="Niama" />
+    <string id="BEHeroGroupReputationTitle" text="Reputacyja ŭ hrupach" />
+    <string id="BEHeroCulturalReputationTitle" text="Kulturnaja reputacyja" />
+    <string id="BEHeroReligiousReputationTitle" text="Relihijnaja reputacyja" />
+    <string id="BEHeroGroupReputationLine" text="{NAME}: {VALUE}" />
+    <string id="BEKingdomPopulationReligionTitle" text="Nasielnictva j relihija" />
+    <string id="BEKingdomPopulationInformationTitle" text="Źviestki pra nasielnictva" />
+    <string id="BEKingdomPopulationNotInitialized" text="Źviestki pra nasielnictva j relihiju nie inicyjalizavanyja." />
+    <string id="BEKingdomStateReligionLine" text="Dziaržaŭnaja relihija: {VALUE}" />
+    <string id="BEKingdomTotalPopulationLine" text="Ahulnaje nasielnictva: {VALUE}" />
+    <string id="BEKingdomCompositionLine" text="{NAME}: {COUNT} ({PERCENT}%)" />
+    <string id="BEEncyclopediaSettlementReligionSummary" text="Relihija: {RELIGION}" />
+    <string id="BEHeroReligionLabel" text="Relihija:" />
+    <string id="BESettlementInformationTitle" text="Źviestki pra sielišča" />
+    <string id="BEPopulationInformationTitle" text="Źviestki pra nasielnictva" />
+    <string id="BEPopulationCapacityTitle" text="Umiaščalnaść nasielnictva" />
+    <string id="BECivilizationSourcesLabel" text="Krynicy cyvilizacyi" />
+    <string id="BEInfrastructureSourcesLabel" text="Krynicy ŭmiaščalnaści" />
+    <string id="BECulturalCompositionTitle" text="Kulturny skład" />
+    <string id="BEReligiousCompositionTitle" text="Relihijny skład" />
+    <string id="BESocialClassesTitle" text="Sacyjalnyja stany" />
+    <string id="BEExpectedClassMobilityTitle" text="Čakanaja sacyjalnaja mabilnaść" />
+    <string id="BEClassMobilityLastUpdateTitle" text="Apošniaje abnaŭleńnie" />
+    <string id="BEClassMobilityNextThirtyDaysTitle" text="Nastupnyja 30 dzion" />
+    <string id="BEClassMobilityTargetSharesTitle" text="Metavyja doli stanaŭ" />
+    <string id="BEClassMobilityInfluencingFactorsTitle" text="Čyńniki ŭpłyvu" />
+    <string id="BEClassMobilityAnnualLimitsTitle" text="Hadavyja miežy pierachodaŭ" />
+    <string id="BEClassMobilityCarryOverTitle" text="Pieranos drobavych reštkaŭ" />
+    <string id="BEAgeGroupsTitle" text="Uzrostavyja hrupy" />
+    <string id="BESettlementInformationNotInitialized" text="Źviestki pra nasielnictva j relihiju nie inicyjalizavanyja." />
+    <string id="BESettlementTotalPopulationLine" text="Ahulnaje nasielnictva: {POPULATION}" />
+    <string id="BESettlementCurrentCultureLine" text="Ciapierašniaja kultura: {CULTURE}" />
+    <string id="BESettlementCurrentReligionLine" text="Ciapierašniaja relihija: {RELIGION}" />
+    <string id="BESettlementDominantCultureLine" text="Pieravažnaja kultura: {CULTURE}" />
+    <string id="BESettlementDominantReligionLine" text="Pieravažnaja relihija: {RELIGION}" />
+    <string id="BESettlementCultureConversionNone" text="Źmiena kultury: niama" />
+    <string id="BESettlementCultureConversionLine" text="Źmiena kultury: {TARGET} ({PROGRESS}%)" />
+    <string id="BESettlementReligionConversionNone" text="Źmiena relihii: niama" />
+    <string id="BESettlementReligionConversionLine" text="Źmiena relihii: {TARGET} ({PROGRESS}%)" />
+    <string id="BESettlementPopulationCapLine" text="Miaža nasielnictva: {CAPACITY}" />
+    <string id="BESettlementBaseCapacityLine" text="Bazavaja ŭmiaščalnaść: {CAPACITY}" />
+    <string id="BESettlementCivilizationLevelLine" text="Uzrovień cyvilizacyi: {LEVEL} / 10" />
+    <string id="BESettlementCivilizationBonusLine" text="Bonus cyvilizacyi: +{CAPACITY}" />
+    <string id="BESettlementInfrastructureBonusLine" text="Bonusy infrastruktury: +{CAPACITY}" />
+    <string id="BEPopulationClassCompositionLine" text="{NAME}: {COUNT} ({PERCENT}%)" />
+    <string id="BEClassMobilityTargetShareLine" text="{NAME}: {PERCENT}%" />
+    <string id="BEClassMobilitySupportFormula" text="Instytucyjnaja padtrymka = cyvilizacyja x 60% + biaśpieka x 40%" />
+    <string id="BEClassMobilityCivilizationFactor" text="Składnik cyvilizacyi: {PERCENT}%" />
+    <string id="BEClassMobilitySecurityFactor" text="Składnik biaśpieki: {PERCENT}%" />
+    <string id="BEClassMobilitySupportFactor" text="Instytucyjnaja padtrymka: {PERCENT}%" />
+    <string id="BEClassMobilityMultiplierLine" text="Nałada sacyjalnaj mabilnaści: {MULTIPLIER}x" />
+    <string id="BESlavesToFreemenRateLine" text="Z raboŭ u volnyja: {PERCENT}%" />
+    <string id="BEFreemenToCitizensRateLine" text="Z volnych u hramadzianie: {PERCENT}%" />
+    <string id="BECitizensToNobilityRateLine" text="Z hramadzianaŭ u šlachtu: {PERCENT}%" />
+    <string id="BEClassMobilityDownwardRule" text="Lišak vyšejšych stanaŭ pierachodzić u nižejšy pavodle adpaviednaj chutkaści pierachodu pamiž susiednimi stanami z ulikam słaboj instytucyjnaj padtrymki." />
+    <string id="BEClassMobilityRemainderLine" text="{NAME}: {BEFORE} -&gt; {AFTER}" />
+    <string id="BESettlementCultureConversionHidden" text="Źmiena kultury: {VALUE}" />
+    <string id="BESettlementReligionConversionHidden" text="Źmiena relihii: {VALUE}" />
+    <string id="BESettlementCivilizationLevelHidden" text="Uzrovień cyvilizacyi: {VALUE}" />
+    <string id="BESettlementCivilizationBonusHidden" text="Bonus cyvilizacyi: {VALUE}" />
+    <string id="BESettlementInfrastructureBonusHidden" text="Bonusy infrastruktury: {VALUE}" />
+    <string id="BEPopulationCompositionLine" text="{NAME}: {COUNT} ({PERCENT}%)" />
+    <string id="BECivilizationContributionLine" text="{NAME}: +{VALUE}" />
+    <string id="BECivilizationContributionLevelLine" text="{NAME} (uzrovień {LEVEL}): +{VALUE}" />
+    <string id="BEInfrastructureContributionLine" text="{NAME}: +{VALUE}" />
+    <string id="BEInfrastructureContributionLevelLine" text="{NAME} (uzrovień {LEVEL}): +{VALUE}" />
+    <string id="BELastClassMobilityLine" text="{NAME}: {VALUE}" />
+    <string id="BEClassMobilityDirectionSlavesFreemen" text="Z raboŭ u volnyja" />
+    <string id="BEClassMobilityDirectionFreemenCitizens" text="Z volnych u hramadzianie" />
+    <string id="BEClassMobilityDirectionCitizensNobility" text="Z hramadzianaŭ u šlachtu" />
+    <string id="BEClassMobilityDirectionNobilityCitizens" text="Sa šlachty ŭ hramadzianie" />
+    <string id="BEClassMobilityDirectionCitizensFreemen" text="Z hramadzianaŭ u volnyja" />
+    <string id="BECustomBattleConfigurationErrorTitle" text="Pamyłka kanfihuracyi ŭłasnaj bitvy" />
+    <string id="BECustomBattleConfigurationErrorBody" text="Niemahčyma pačać ułasnuju bitvu, bo jaje śpis vajaroŭ, jaki padtrymlivajecca ŭručnuju, nieprydatny: {REASON}&#xA;&#xA;Vypraŭcie BE ModuleData Source Files/CustomBattle/be_custom_battle_roster.xml, vykanajcie ŭ Builder kamandy validate, dry-run i pack, a zatym pierazapuścicie hulniu." />
+    <string id="BECustomBattleRuntimeErrorTitle" text="Pamyłka padčas ułasnaj bitvy" />
+    <string id="BECustomBattleRuntimeErrorBody" text="Ułasnaja bitva nia zdoleła vykanać zapytanaje dziejańnie: {REASON}&#xA;&#xA;Viarniciesia ŭ meniu ŭłasnaj bitvy j pasprabujcie znoŭ. Kali prablema paŭtorycca, pierazapuścicie hulniu." />
+    <string id="BEArmorCraftingNoArtisans" text="Ramieśniki nie pryznačanyja" />
+    <string id="BEArmorCraftingWipDetails" text="{ITEM}&#xA;Prahres: {PROGRESS}%&#xA;Zastałosia pracoŭnych hadzinaŭ: {HOURS}&#xA;Pačata ŭ: {TOWN}&#xA;Ramieśniki: {ARTISANS}" />
+    <string id="BEArmorCraftingWorkStartedNotification" text="Vyrab brani: {ITEM} — zavieršana na {PROGRESS}%." />
+    <string id="BEArmorCraftingHeroLeft" text="{HERO} bolš nia moža pracavać nad vyrabam {ITEM} i pakinuŭ hety praekt brani." />
+    <string id="BEArmorCraftingUnknownHero" text="Ramieśnik" />
+    <string id="BEArmorCraftingReplacementTitle" text="Abrać Zamienu Ramieśnikam" />
+    <string id="BEArmorCraftingReplacementBody" text="Usie pryznačanyja na vyrab {ITEM} niedastupnyja. Abiarycie adnaho ci niekalkich dastupnych hierojaŭ, kab praciahnuć, abo skasujcie, kab pierapynić praekt." />
+    <string id="BEArmorCraftingContinue" text="Praciahnuć" />
+    <string id="BEArmorCraftingCancel" text="Skasavać" />
+    <string id="BEArmorCraftingInterruptedTitle" text="Vyrab brani pierapynieny" />
+    <string id="BEArmorCraftingInterruptedBody" text="Zamiena nia vybranaja. Praca nad vyrabam {ITEM} pierapynienaja; materyjały, prahres i niezavieršany pradmiet zachavanyja." />
+    <string id="BEArmorCraftingUnfinishedTitle" text="Niezavieršanyja Praekty Brani" />
+    <string id="BEArmorCraftingUnfinishedBody" text="U vas jość niezavieršanyja praekty brani. Žadajecie zaraz zaniacca imi?" />
+    <string id="BEArmorCraftingManage" text="Kiravać Praektami" />
+    <string id="BEArmorCraftingSkip" text="Pakul Prapuścić" />
+    <string id="BEArmorCraftingNoProjectsTitle" text="Niama praektaŭ brani" />
+    <string id="BEArmorCraftingNoProjectsBody" text="Niama praektaŭ brani dla kiravańnia." />
+    <string id="BEArmorCraftingChooseProject" text="Abiarycie praekt, kab praciahnuć pracu, pierapryznačyć ramieśnikaŭ abo admovicca ad jaho." />
+    <string id="BEArmorCraftingSelect" text="Abrać" />
+    <string id="BEArmorCraftingReassign" text="Praciahnuć / Pierapryznačyć" />
+    <string id="BEArmorCraftingAbandon" text="Admovicca ad Praektu" />
+    <string id="BEArmorCraftingProjectActions" text="Praekt: {ITEM}" />
+    <string id="BEArmorCraftingProjectActionsBody" text="Abiarycie «Praciahnuć / Pierapryznačyć», kab zamianić usiu kamandu adnačasova, abo «Admovicca ad Praektu», kab źniščyć niezavieršany vyrab i viarnuć materyjały praparcyjna astatniaj pracy." />
+    <string id="BEArmorCraftingReassignBody" text="Abiarycie ŭsiu kamandu. Raniejšaje pryznačeńnie zastaniecca ŭ sile, pakul novaje nia budzie paśpiachova paćvierdžanaje." />
+    <string id="BEArmorCraftingConfirmTeam" text="Paćvierdzić Kamandu" />
+    <string id="BEArmorCraftingAbandonTitle" text="Admovicca ad vyrabu {ITEM}?" />
+    <string id="BEArmorCraftingAbandonBody" text="Niezavieršany pradmiet budzie źniščany. Vierniecca tolki cełaja častka ad: układzienyja materyjały × astatniaja praca / usia praca." />
+    <string id="BEArmorCraftingAbandonConfirm" text="Admovicca ad praektu" />
+    <string id="BEArmorCraftingTooltipState" text="Stan Praektu" />
+    <string id="BEArmorCraftingTooltipProgress" text="Prahres" />
+    <string id="BEArmorCraftingTooltipRemaining" text="Zastałosia Pracoŭnych Hadzinaŭ" />
+    <string id="BEArmorCraftingTooltipTown" text="Pačata ŭ" />
+    <string id="BEArmorCraftingTooltipArtisans" text="Ramieśniki" />
+    <string id="BEArmorCraftingWipProtected" text="Hety niezavieršany vyrab nielha pradać, vykinuć, pieradać, nadzieć, achviaravać, zarezać ci pierapłavić." />
+    <string id="BEArmorCraftingAvailableItems" text="Dastupnyja pradmiety:" />
+    <string id="BEArmorCraftingTier" text="Uzrovień {TIER}" />
+    <string id="BEArmorCraftingSkill" text="Vyrab {SKILL}" />
+    <string id="BEArmorCraftingProjectDifficulty" text="Składanaść: {DIFFICULTY}" />
+    <string id="BEArmorCraftingArmorTab" text="Brania" />
+    <string id="BEArmorCraftingForge" text="Vykavać" />
+    <string id="BEArmorCraftingInvestment" text="Układzienyja Materyjały" />
+    <string id="BEArmorCraftingInvestmentDescription" text="Abiarycie 100%–200%. Bolš materyjałaŭ pavialičvaje šaniec lepšaha madyfikatara; vynik nie harantavany." />
+    <string id="BEArmorCraftingDifficulty" text="Składanaść" />
+    <string id="BEArmorCraftingMaterials" text="Materyjały" />
+    <string id="BEArmorCraftingChooseCraftspeople" text="Vybrać ramieśnikaŭ" />
+    <string id="BEArmorCraftingSelectedSmithUnavailable" text="Abrany kaval bolš niedastupny dla hetaha praektu brani." />
+    <string id="BEArmorCraftingChooseCraftspeopleBody" text="{PRIMARY} vyrabić {ITEM}. Abiarycie pamočnikaŭ abo pakińcie ŭsie vočki pustymi, kab {PRIMARY} pracavaŭ samastojna. Materyjały raschodujucca paśla paćvierdžańnia. Praca idzie tolki ŭ haradach, z 09:00 da 20:00, pakul minaje hulniavy čas." />
+    <string id="BEArmorCraftingConfirmForge" text="Vykavać" />
+    <string id="BEArmorCraftingStarted" text="Pačataja praca nad vyrabam {ITEM}." />
+    <string id="BEArmorCraftingHelmet" text="Šałomy" />
+    <string id="BEArmorCraftingBody" text="Nahrudnaja Brania" />
+    <string id="BEArmorCraftingHand" text="Palčatki j Naručy" />
+    <string id="BEArmorCraftingLeg" text="Boty j Nažnaja Brania" />
+    <string id="BEArmorCraftingShoulder" text="Płaščy j Nakidki" />
+    <string id="BEArmorCraftingHorse" text="Konnaja Brania" />
+    <string id="BEArmorCraftingCamel" text="Viarbludžy Pancyr" />
+    <string id="BEArmorCraftingElephant" text="Słanovy Pancyr" />
+    <string id="BEArmorCraftingRequiredSkill" text="Patrebny Vyrab: {SKILL}" />
+    <string id="BEArmorCraftingCurrentSkill" text="Umieńnie ciapierašniaha kavala: {SKILL}" />
+    <string id="BEArmorCraftingWorkHours" text="Bazavaja kolkaść pracoŭnych hadzinaŭ: {HOURS}" />
+    <string id="BEArmorCraftingRecipe" text="Patrebny Vyrab: {SKILL} | Bazavyja pracoŭnyja hadziny: {HOURS}&#xA;Materyjały: {MATERIALS}" />
+    <string id="BEArmorCraftingStartDisabledHint" text="Vybierycie pradmiet, padrychtujcie ŭsie patrebnyja materyjały j upeŭniciesia, što jość prydatny ramieśnik." />
+    <string id="BEArmorCraftingStartHint" text="Pačać hety praekt vyrabu brani." />
+    <string id="BE_MountStaminaUiEnableFailedTitle" text="Tryvałaść jezdavaj žyvioły niedastupnaja" />
+    <string id="BE_MountStaminaUiEnableFailedBody" text="Tryvałaść jezdavaj žyvioły adklučanaja dla hetaj bitvy, bo nie ŭdałosia zarehistravać jaje panel. Raźlik tryvałaści j abmiežavańni chutkaści nie zapuščanyja. Całkam pierazapuścicie hulniu, praviercie UIExtenderEx i GUI/PrefabExtensions/Mission/MountStaminaBar.xml, a zatym pasprabujcie znoŭ. Techničnaja pamyłka: {ERROR}" />
+    <string id="BE_MountStaminaUiDisableFailedTitle" text="Tryvałaść jezdavaj žyvioły patrabuje pierazapusku" />
+    <string id="BE_MountStaminaUiDisableFailedBody" text="Tryvałaść jezdavaj žyvioły vyklučanaja, ale UIExtenderEx paviedamiŭ pra pamyłku pry vydaleńni pierachopnikaŭ jaje paneli. Novyja pavodziny Mission dla tryvałaści jezdavaj žyvioły nie zapuščanyja. Całkam pierazapuścicie hulniu, pierš čym praviarać adklučany stan. Techničnaja pamyłka: {ERROR}" />
+    <string id="BEElephantExtensionErrorTitle" text="Nie ŭdałosia zapuścić pašyreńnie słanoŭ" />
+    <string id="BEElephantExtensionErrorBody" text="{REASON}" />
+    <string id="BESettlementSecurityContribution" text="Biaśpieka" />
+    <string id="BEVillageHearthContribution" text="Dym" />
+    <string id="BEVillageHearthLevelContribution" text="Uzrovień dymu" />
+    <string id="BEVillageIrrigationContribution" text="Arašeńnie" />
+    <string id="maEmutDP" text="Darohi j ściežki" />
+    <string id="O4cknzhW" text="Arašeńnie" />
+    <string id="BEChampionDataErrorTitle" text="Nie ŭdałosia zahruzić źviestki pra čempijona" />
+    <string id="BEChampionDataErrorBody" text="Stvareńnie čempijona adklučanaje praź nieprydatnyja źviestki: {REASON}" />
+    <string id="HLI5zAMV" text="U haradach pad uładaj batanijskich haspadaroŭ šaniec źjaŭleńnia veteranaŭ u rušeńni vyšejšy na +20%." />
+    <string id="Xaw2CoCG" text="Na 25% bolšaja vytvorčaść koniej, mułaŭ, karovaŭ i aviečak u vioskach pad uładaj chuzaickich haspadaroŭ." />
+    <string id="BERenameSettlementEmpty" text="Uviadzicie nazvu sielišča." />
+    <string id="BEPlayerSlaveFiefOption" text="{SETTLEMENT} (zastałosia ŭmiaščalnaści: {CAPACITY})" />
+    <string id="BEQuestTemplateDuelLostRetry" text="Vy prajhrali dvuboj. Možacie pasprabavać znoŭ praz meniu areny." />
+    <string id="BEHistoricalPreviewConfigIssueLine" text="Pole ci vočka: {FIELD}&#xA;Zadadzieny ID abjekta: {OBJECT_ID}&#xA;Užytaja zamiena: {FALLBACK}" />
+    <string id="BEArmorCraftingAssignedProjectHint" text="Pryznačany na praekt brani: {ITEM}" />
+  </strings>
+</base>

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <!--BurningEmpires.dll: localization IDs in metadata order; IDs already present in other EN_template files are omitted.-->
+    <string id="W6pKpEoT" text="Вы рыхтуецеся выправіцца ў вялікую прыгоду па Кальрадыі! Вось ваш пэрсанаж. Працягвайце, калі гатовыя, або вярніцеся, каб унесьці зьмены." />
+    <string id="XgFU1pCx" text="Вы нарадзіліся ў сям'і..." />
+    <string id="CCR_Family_Choice_ARais" text="раісаў" />
+    <string id="CCR_Family_Choice_AMamluks" text="мамлюкаў" />
+    <string id="CCR_Family_Choice_AMerchant" text="гандляроў" />
+    <string id="CCR_Family_Choice_AFarmers" text="земляробаў" />
+    <string id="CCR_Family_Choice_AArtisans" text="рамесьнікаў" />
+    <string id="CCR_Family_Choice_AThugs" text="бандытаў" />
+    <string id="CCR_Family_Choice_Bchieftains" text="правадыроў" />
+    <string id="CCR_Family_Choice_Bhealers" text="лекараў" />
+    <string id="CCR_Family_Choice_Bfarmers" text="земляробаў" />
+    <string id="CCR_Family_Choice_Bartisans" text="рамесьнікаў" />
+    <string id="CCR_Family_Choice_Bforesters" text="лесавікоў" />
+    <string id="CCR_Family_Choice_Bbards" text="бардаў" />
+    <string id="CCR_Family_Choice_Earistocrates" text="арыстакратаў" />
+    <string id="CCR_Family_Choice_Emerchants" text="гандляроў" />
+    <string id="CCR_Family_Choice_Efreeholders" text="вольных землеўласьнікаў" />
+    <string id="CCR_Family_Choice_Eartisans" text="рамесьнікаў" />
+    <string id="CCR_Family_Choice_Esoldiers" text="ваяроў" />
+    <string id="CCR_Family_Choice_Evagabonds" text="валацугаў" />
+    <string id="CCR_Family_Choice_Knoyans" text="ноянаў" />
+    <string id="CCR_Family_Choice_Knomads" text="качэўнікаў" />
+    <string id="CCR_Family_Choice_Kmerchants" text="гандляроў" />
+    <string id="CCR_Family_Choice_Kartisans" text="рамесьнікаў" />
+    <string id="CCR_Family_Choice_Kwarriors" text="ваяроў" />
+    <string id="CCR_Family_Choice_Kthugs" text="бандытаў" />
+    <string id="CCR_Family_Choice_Sboyars" text="баяраў" />
+    <string id="CCR_Family_Choice_Smerchants" text="гандляроў" />
+    <string id="CCR_Family_Choice_Sfarmers" text="земляробаў" />
+    <string id="CCR_Family_Choice_Sartisans" text="рамесьнікаў" />
+    <string id="CCR_Family_Choice_Swarriors" text="ваяроў" />
+    <string id="CCR_Family_Choice_Sraiders" text="налётнікаў" />
+    <string id="CCR_Family_Choice_Vbarons" text="шляхцічаў" />
+    <string id="CCR_Family_Choice_Vmerchants" text="гандляроў" />
+    <string id="CCR_Family_Choice_Vyeomens" text="пасяленцаў" />
+    <string id="CCR_Family_Choice_Vartisans" text="рамесьнікаў" />
+    <string id="CCR_Family_Choice_Vsoldiers" text="ваяроў" />
+    <string id="CCR_Family_Choice_Vmercenaries" text="наймітаў" />
+    <string id="CCR_Family_Choice_Obarons" text="шляхцічаў" />
+    <string id="CCR_Family_Choice_Omerchants" text="гандляроў" />
+    <string id="CCR_Family_Choice_Oyeomens" text="пасяленцаў" />
+    <string id="CCR_Family_Choice_Oartisans" text="рамесьнікаў" />
+    <string id="CCR_Family_Choice_Osoldiers" text="ваяроў" />
+    <string id="CCR_Family_Choice_Omercenaries" text="наймітаў" />
+    <string id="BE_CC_ParentsWantedTitle" text="Вашы бацькі хацелі, каб вы..." />
+    <string id="CCR_Education_Choice_Faris" text="сталі фарысам." />
+    <string id="CCR_Education_Choice_Hearthguard" text="увайшлі ў дружыну." />
+    <string id="CCR_Education_Choice_Cataphract" text="сталі катафрактам." />
+    <string id="CCR_Education_Choice_KhanGuard" text="увайшлі ў ханскую гвардыю." />
+    <string id="CCR_Education_Choice_Druzhina" text="далучыліся да дружыны." />
+    <string id="CCR_Education_Choice_Knight" text="сталі рыцарам." />
+    <string id="CCR_Education_Choice_Commander" text="камандавалі войскамі." />
+    <string id="CCR_Education_Choice_Court" text="служылі пры двары." />
+    <string id="CCR_Education_Choice_trade" text="сталі купцом." />
+    <string id="CCR_Education_Choice_crafting" text="апанавалі рамяство." />
+    <string id="CCR_Education_Choice_scholar" text="сталі навукоўцам." />
+    <string id="CCR_Education_Choice_religious" text="былі {?PLAYER.GENDER}верніцай{?}вернікам{\?}." />
+    <string id="CCR_Education_Choice_farmer" text="працавалі на палях." />
+    <string id="CCR_Education_Choice_lady" text="сталі ўплывовай асобай" />
+    <string id="CCR_Education_Choice_defense" text="навучыліся абараняцца." />
+    <string id="CCR_Education_Choice_trickery" text="навучыліся ашукваць іншых." />
+    <string id="CCR_Idiom_choice_fighter" text="Лепей быць ваяром у садзе, чым садоўнікам на вайне." />
+    <string id="CCR_Idiom_choice_healthy" text="У здаровым целе — здаровы дух." />
+    <string id="CCR_Idiom_choice_prevention" text="Лепей папярэдзіць хваробу, чым лячыць." />
+    <string id="CCR_Idiom_choice_wellbegun" text="Добры пачатак — палова справы." />
+    <string id="CCR_Idiom_choice_bold" text="Доля спрыяе адважным." />
+    <string id="CCR_Idiom_choice_forwarned" text="Папярэджаны — значыць узброены." />
+    <string id="CCR_Idiom_choice_invention" text="Патрэба вучыць вынаходлівасьці." />
+    <string id="CCR_Idiom_choice_armed" text="Са зброяй у руках не галадуюць." />
+    <string id="CCR_Idiom_choice_conquer" text="Перамога без рызыкі — трыюмф бяз славы." />
+    <string id="CCR_Idiom_choice_means" text="Мэта апраўдвае сродкі." />
+    <string id="CCR_Start_Choice_Afaris" text="фарысам" />
+    <string id="CCR_Start_Choice_Acaravaner" text="караваньнікам" />
+    <string id="CCR_Start_Choice_Amerchant" text="слугой купца" />
+    <string id="CCR_Start_Choice_Acraftman" text="рамесьнікам" />
+    <string id="CCR_Start_Choice_Afarmer" text="земляробам" />
+    <string id="CCR_Start_Choice_Amamluke" text="мамлюкам" />
+    <string id="CCR_Start_Choice_Ahorsearcher" text="конным лучнікам" />
+    <string id="CCR_Start_Choice_Aarcher" text="лучнікам" />
+    <string id="CCR_Start_Choice_Adesertbandit" text="пустэльным бандытам" />
+    <string id="CCR_Start_Choice_Bfian" text="ваяром фіяны" />
+    <string id="CCR_Start_Choice_Bdruid" text="друідам" />
+    <string id="CCR_Start_Choice_Bmerchant" text="слугой купца" />
+    <string id="CCR_Start_Choice_Bcraftman" text="рамесьнікам" />
+    <string id="CCR_Start_Choice_Bforester" text="лесавіком" />
+    <string id="CCR_Start_Choice_Bwildling" text="дзікуном" />
+    <string id="CCR_Start_Choice_Bscout" text="выведнікам" />
+    <string id="CCR_Start_Choice_Bkern" text="ваяром керну" />
+    <string id="CCR_Start_Choice_Bforestbandit" text="лясным бандытам" />
+    <string id="CCR_Start_Choice_Ecommander" text="цэнтурыёнам" />
+    <string id="CCR_Start_Choice_Eengineer" text="вучнем інжынэра" />
+    <string id="CCR_Start_Choice_Emerchant" text="слугой купца" />
+    <string id="CCR_Start_Choice_Ecraftman" text="рамесьнікам" />
+    <string id="CCR_Start_Choice_Epeasant" text="селянінам" />
+    <string id="CCR_Start_Choice_Elegionary" text="легіянэрам" />
+    <string id="CCR_Start_Choice_Earcher" text="лучнікам" />
+    <string id="CCR_Start_Choice_Ecavalry" text="выведнікам" />
+    <string id="CCR_Start_Choice_Ehorsearcher" text="конным лучнікам" />
+    <string id="CCR_Start_Choice_Elooter" text="рабаўніком" />
+    <string id="CCR_Start_Choice_Kkhanguard" text="ваяром ханскай гвардыі" />
+    <string id="CCR_Start_Choice_Knomad" text="качэўнікам" />
+    <string id="CCR_Start_Choice_Kmerchant" text="слугой купца" />
+    <string id="CCR_Start_Choice_Kcraftman" text="рамесьнікам" />
+    <string id="CCR_Start_Choice_Kfarmer" text="земляробам" />
+    <string id="CCR_Start_Choice_Kcavalry" text="коньнікам" />
+    <string id="CCR_Start_Choice_Khorsearcher" text="конным лучнікам" />
+    <string id="CCR_Start_Choice_Kinfantry" text="пехацінцам" />
+    <string id="CCR_Start_Choice_Ksteppebandit" text="стэпавым бандытам" />
+    <string id="CCR_Start_Choice_Sdruzhina" text="дружыньнікам" />
+    <string id="CCR_Start_Choice_Sfur_hunter" text="паляўнічым на пушніну" />
+    <string id="CCR_Start_Choice_Smerchant" text="слугой купца" />
+    <string id="CCR_Start_Choice_Scraftman" text="рамесьнікам" />
+    <string id="CCR_Start_Choice_Speasant" text="селянінам" />
+    <string id="CCR_Start_Choice_Sinfantry" text="пехацінцам" />
+    <string id="CCR_Start_Choice_Sshocktroop" text="штурмавым ваяром" />
+    <string id="CCR_Start_Choice_Sarcher" text="лучнікам" />
+    <string id="CCR_Start_Choice_Ssearaider" text="налётнікам" />
+    <string id="CCR_Start_Choice_Vknight" text="рыцарам" />
+    <string id="CCR_Start_Choice_Vchamberlain" text="слугой шляхціча" />
+    <string id="CCR_Start_Choice_Vmerchant" text="слугой купца" />
+    <string id="CCR_Start_Choice_Vguild" text="вучнем рамесьніка" />
+    <string id="CCR_Start_Choice_Vserf" text="вызваленым рабом" />
+    <string id="CCR_Start_Choice_Vinfantry" text="навабранцам" />
+    <string id="CCR_Start_Choice_Vcavalry" text="выведнікам" />
+    <string id="CCR_Start_Choice_Vcrossbowman" text="паляўнічым" />
+    <string id="CCR_Start_Choice_Vbandit" text="разбойнікам" />
+    <string id="CCR_Reason_travel" text="каб пабачыць сьвет." />
+    <string id="CCR_Reason_desc_travel" text="Прага падарожжаў была надта моцная: вы заўсёды марылі пабачыць сьвет." />
+    <string id="CCR_Reason_revenge" text="каб адпомсьціць." />
+    <string id="CCR_Reason_desc_revenge" text="Пасьля ўчыненай вам крыўды вы прагнулі помсты. З гэтай мэтай вы блукалі па Кальрадыі, шукаючы адплаты." />
+    <string id="CCR_Reason_forced_out" text="пасьля выгнаньня з дому." />
+    <string id="CCR_Reason_desc_forced_out" text="Пасьля апошняй сваркі бацькі выгналі вас з дому. Ісьці не было куды, і вам заставалася толькі шукаць прыгодаў." />
+    <string id="CCR_Reason_money" text="у пошуках грошай" />
+    <string id="CCR_Reason_desc_money" text="Вы заўсёды хацелі разбагацець і добра разумелі, што, застаўшыся дома, ніколі гэтага не дасягнеце." />
+    <string id="CCR_Reason_power" text="каб здабыць уладу" />
+    <string id="CCR_Reason_desc_power" text="Бачачы, колькі перавагаў дае ўлада, вы выправіліся ў прыгоды, каб далучыцца да ўладароў ці нават заняць іхнае месца." />
+    <string id="CCR_Reason_history" text="каб пакінуць сьлед у гісторыі" />
+    <string id="CCR_Reason_desc_history" text="Войны ў Кальрадыі даюць багата магчымасьцяў, каб {?PLAYER.GENDER}ваяўніца пакінула{?}ваяўнік пакінуў{\?} сваё імя ў гісторыі." />
+    <string id="CCR_Reason_loss" text="пасьля страты блізкага чалавека" />
+    <string id="CCR_Reason_desc_loss" text="Страціўшы блізкага чалавека, вы выправіліся ў дарогу ў надзеі запоўніць пустэчу ў душы" />
+    <string id="CCR_Reason_crafting" text="каб займацца сваім рамяством" />
+    <string id="CCR_Reason_desc_crafting" text="Рамяство было важнай часткай вашага жыцьця, але вам бракавала ўменьня. Таму вы вырашылі выправіцца ў падарожжа, каб удасканаліць сваё майстэрства." />
+    <string id="CCR_Reason_helping" text="каб дапамагаць тым, хто мае патрэбу" />
+    <string id="CCR_Reason_desc_helping" text="Навучыўшыся лекарству, вы вырашылі выправіцца ў дарогу й дапамагаць тым, хто мае патрэбу, бо ад войнаў пацярпела багата людзей." />
+    <string id="CCR_Reason_prove_worth" text="каб давесьці сваё баявое майстэрства" />
+    <string id="CCR_Reason_desc_prove_worth" text="Вы вельмі шанавалі сваё баявое майстэрства й вырашылі, што няма лепшага месца за Кальрадыю, каб давесьці сваю моц." />
+    <string id="HDFEAYDk" text="Пачатковы ўзрост" />
+    <string id="VlOGrGSn" text="Ваш пэрсанаж выправіўся шукаць прыгодаў ва ўзросьце..." />
+    <string id="2k7adlh7" text="Вам крыху бракуе досьведу, затое вы поўныя юнацкай энэргіі й з запалам чакаеце доўгіх гадоў прыгодаў наперадзе." />
+    <string id="NUlVFRtK" text="Вы ў росквіце сілаў: яшчэ маеце юнацкую энэргію, але ўжо назапасілі немалы досьвед. " />
+    <string id="5MxTYApM" text="Гэта добры ўзрост для пачатку: вы маеце за плячыма гады досьведу й дастаткова сталыя, каб людзі паважалі вас і зьбіраліся пад вашым сьцягам." />
+    <string id="ePD5Afvy" text="Хоць ваш росквіт сілаў ужо мінуў, часу на апошнюю вялікую прыгоду яшчэ дастаткова. І вы маеце ўвесь патрэбны досьвед, каб пераадолець што заўгодна!" />
+    <string id="BESandboxCampaignMenuEntry" text="Burning Empires: Пясочніца" />
+    <string id="BEHistoricalCampaignMenuEntry" text="Burning Empires: Гістарычная Кампанія" />
+    <string id="BEHistoricalCampaignMenuHint" text="Гуляць за наяўнага гістарычнага пэрсанажа без стварэньня ўласнага." />
+    <string id="BE_MCM_DisplayName" text="Burning Empires" />
+    <string id="BE_HIDEOUT_TEXT" text="Вы праходзіце міма невялікага селішча, якое належыць {BANDIT_FACTION}. Мясцовасьць ахоўваюць узброеныя людзі, але пакуль яны ня ведаюць пра вашу прысутнасьць..." />
+    <string id="BE_SlaveLaborConstruction" text="Праца рабоў" />
+    <string id="BE_LoyaltyCultureRelations" text="Культурныя адносіны насельніцтва" />
+    <string id="BE_LoyaltyReligionRelations" text="Рэлігійныя адносіны насельніцтва" />
+    <string id="BE_LoyaltyPersonalCultureReputation" text="Культурная рэпутацыя гаспадара" />
+    <string id="BE_LoyaltyPersonalReligionReputation" text="Рэлігійная рэпутацыя гаспадара" />
+    <string id="BE_SecurityCultureRelations" text="Культурныя адносіны насельніцтва" />
+    <string id="BE_SecurityReligionRelations" text="Рэлігійныя адносіны насельніцтва" />
+    <string id="BE_SecurityPersonalCultureReputation" text="Культурная рэпутацыя гаспадара" />
+    <string id="BE_SecurityPersonalReligionReputation" text="Рэлігійная рэпутацыя гаспадара" />
+    <string id="BEWonderExplore" text="Дасьледаваць" />
+    <string id="BEWonderLeave" text="Сысьці" />
+    <string id="BEWonderMissionPrerequisitesMissing" text="На сцэне гэтага цуду не ўдалося запусьціць усе патрэбныя сыстэмы дасьледаваньня. Місія бясьпечна закрытая." />
+    <string id="BEWonderPlayerSpawnMissing" text="На сцэне гэтага цуду няма прыдатнага месца зьяўленьня гульца. Місія дасьледаваньня бясьпечна закрытая." />
+    <string id="BE_CULTURE_VISUAL_MAPPING_MISSING_BODY" text="Burning Empires ня змог вызначыць групу вонкавага выгляду для культуры '{CULTURE_ID}'. Замена выгляду для гэтай культуры адключаная; у Bannerlord будзе перададзены яе зыходны ID культуры, каб не падмяняць яе непрыдатным імпэрскім афармленьнем." />
+    <string id="BE_CULTURE_VISUAL_MAPPING_MISSING_TITLE" text="Не зададзеная адпаведнасьць вонкавага выгляду культуры" />
+    <string id="BE_TIME_DAYLIGHT_PATCH_INCOMPATIBLE_MESSAGE" text="Выпраўленьне Burning Empires для фіксацыі дзённага асьвятленьня Main_map не супала з падтрыманым мэтадам Bannerlord 1.4.7. Burning Empires адключыў фіксацыю асьвятленьня на 09:00 у гэтым сэансе; звычайная плынь часу захаваная. Тэхнічныя зьвесткі: {DETAIL} Адключыце іншыя моды, якія зьмяняюць MapScreen.TickVisuals, або аднавіце файлы падтрыманай вэрсіі гульні, а затым перазапусьціце гульню." />
+    <string id="BE_TIME_DAYLIGHT_PATCH_INCOMPATIBLE_TITLE" text="Фіксацыя дзённага асьвятленьня Burning Empires недаступная" />
+    <string id="BE_TIME_CTRL_SPACE_PATCH_INCOMPATIBLE_MESSAGE" text="Выпраўленьне Burning Empires для паскарэньня часу праз Ctrl+Space не супала з падтрыманым мэтадам апрацоўкі ўводу на мапе Bannerlord 1.4.7. Burning Empires адключыў спалучэньне Ctrl+Space; звычайны Space і зададзеная хуткасьць плыні часу застаюцца даступнымі. Тэхнічныя зьвесткі: {DETAIL} Адключыце іншыя моды, якія зьмяняюць апрацоўку ўводу MapScreen, або аднавіце файлы падтрыманай вэрсіі гульні, а затым перазапусьціце гульню." />
+    <string id="BE_TIME_CTRL_SPACE_PATCH_INCOMPATIBLE_TITLE" text="Паскарэньне Burning Empires праз Ctrl+Space недаступнае" />
+    <string id="ruHt0Ub5" text="" />
+    <string id="BERenameSettlementOption" text="Перайменаваць гэтае селішча" />
+    <string id="BERenameSettlementUnauthorized" text="Перайменаваць селішча можа толькі клан, які ім кіруе, або гаспадар ягонага гаспадарства." />
+    <string id="BERenameSettlementTitle" text="Перайменаваць селішча" />
+    <string id="BERenameSettlementDescription" text="Увядзіце новую назву гэтага селішча." />
+    <string id="BERenameSettlementConfirm" text="Пацьвердзіць" />
+    <string id="BERenameSettlementCancel" text="Скасаваць" />
+    <string id="BESlaveLaborConstructionSpeed" text="Праца рабоў: +{PERCENT}% да хуткасьці будаўніцтва" />
+    <string id="BEPlayerSlaveDispositionDescription" text="Падчас нападу вы захапілі {COUNT} зьняволеных людзей.{NEWLINE}{SUMMARY}{NEWLINE}Вырашыце іхны далейшы лёс." />
+    <string id="BEPlayerSlaveDispositionSell" text="Прадаць іх" />
+    <string id="BEPlayerSlaveDispositionRelease" text="Вызваліць іх" />
+    <string id="BEPlayerSlaveDispositionResettle" text="Перасяліць іх у адну з маіх валасьцяў" />
+    <string id="BEPlayerSlaveDispositionNoFief" text="Ваш клан ня мае ні гораду, ні замку." />
+    <string id="BEPlayerSlaveDispositionTitle" text="Захопленае насельніцтва" />
+    <string id="BEPlayerSlaveDispositionConfirm" text="Пацьвердзіць" />
+    <string id="BEPlayerSlaveFiefTitle" text="Выберыце месца прызначэньня" />
+    <string id="BEPlayerSlaveFiefDescription" text="Выберыце горад або замак вашага клану." />
+    <string id="BEPlayerSlaveFiefConfirm" text="Пацьвердзіць" />
+    <string id="BEPlayerSlaveFiefBack" text="Назад" />
+    <string id="BEPlayerSlaveSoldResult" text="Палонныя прададзеныя за {GOLD} дэнараў і разьмеркаваныя паміж бліжэйшымі рабскімі кірмашамі." />
+    <string id="BEPlayerSlaveSoldTitle" text="Палонныя прададзеныя" />
+    <string id="BEHeroReligionConversionOpen" text="Хачу пагаварыць з вамі пра веру." />
+    <string id="BEHeroReligionConversionIntro" text="Што вы хочаце абмеркаваць?" />
+    <string id="BEHeroReligionConversionBegin" text="Прашу вас падумаць пра прыняцьце маёй веры." />
+    <string id="BEHeroReligionConversionCancel" text="Ня варта." />
+    <string id="BEHeroReligionConversionFailed" text="Я не магу пагадзіцца на тое, чаго вы ад мяне просіце." />
+    <string id="BEHeroReligionConversionSucceeded" text="Вы далі мне багата падставаў задумацца. Я прыму вашу веру." />
+    <string id="BEHeroReligionConversionArgumentCancel" text="Ня буду болей настойваць на гэтым." />
+    <string id="BEHeroReligionConversionChance" text="{ARGUMENT} {SUCCESS_CHANCE}" />
+    <string id="BEHeroReligionConversionArgumentBlocked" text="Гэты довад болей недаступны." />
+    <string id="BEHeroReligionConversionComplete" text="{HERO_NAME} цяпер вызнае {RELIGION_NAME}." />
+    <string id="BEHeroReligionConversionUnavailable" text="Гэтаму пэрсанажу нельга прапанаваць зьмяніць веру." />
+    <string id="BEHeroReligionConversionConfigurationUnavailable" text="Зьмена веры недаступная, пакуль ня будзе выпраўленая канфігурацыя ўраду гаспадарства." />
+    <string id="BEHeroReligionConversionDataUnavailable" text="Зьвесткі пра зьмену веры пакуль недаступныя." />
+    <string id="BEHeroReligionConversionTargetNone" text="Не ўдалося бясьпечна вызначыць вызнаньне гэтага пэрсанажа." />
+    <string id="BEHeroReligionConversionAlreadySame" text="Гэты пэрсанаж ужо трымаецца вашай веры." />
+    <string id="BEHeroReligionConversionTaskOne" text="Чаму мне адрачыся ад веры, якую я ведаю ўсё жыцьцё?" />
+    <string id="BEHeroReligionConversionImmediateFail" text="Вашы словы мяне не пераконваюць." />
+    <string id="BEHeroReligionConversionFinalFail" text="Мяне не пераканаць." />
+    <string id="BEHeroReligionConversionTryLater" text="Мне патрэбны час, каб падумаць." />
+    <string id="BEHeroReligionConversionArgumentOneA" text="Вера выяўляецца ў справядлівасьці й вернасьці, зь якімі мы жывём." />
+    <string id="BEHeroReligionConversionArgumentOneB" text="Шукайма шлях, які прынясе суцяшэньне й міласэрнасьць нашаму народу." />
+    <string id="BEHeroReligionConversionArgumentOneC" text="Мудры чалавек мусіць трымацца веры, якая дае найбольш карысьці." />
+    <string id="BEHeroReligionConversionTaskTwo" text="Чым вы даведзяце, што гэтая зьмена вартая сваёй цаны?" />
+    <!--Source conflict for BEHeroReligionConversionImmediateFail: another DLL literal uses text: That is not enough to convince me.-->
+    <!--Source conflict for BEHeroReligionConversionFinalFail: another DLL literal uses text: I will not abandon my convictions.-->
+    <string id="BEHeroReligionConversionArgumentTwoA" text="Каб зьмяніць свой шлях, патрэбная адвага, але яна можа прынесьці лепшую будучыню." />
+    <string id="BEHeroReligionConversionArgumentTwoB" text="Гэтая вера заклікае нас клапаціцца пра тых, хто ад нас залежыць." />
+    <string id="BEHeroReligionConversionArgumentTwoC" text="Старыя абяцаньні не павінны стрымліваць нас, калі наперадзе лепшы шлях." />
+    <string id="BEHeroReligionConversionTaskThree" text="Нават калі я вас разумею, чаму я мушу вырашыць гэта цяпер?" />
+    <string id="BEHeroReligionConversionArgumentThreeA" text="Агульная вера дапаможа нам вытрымаць нягоды й не пакінуць адно аднаго." />
+    <string id="BEHeroReligionConversionArgumentThreeB" text="Будучыня няпэўная, і мы мусім мець адвагу абраць свой шлях." />
+    <string id="BEHeroReligionConversionArgumentThreeC" text="Гаспадарства зьмяняецца, і тыя, хто не прыстасуецца, застануцца ззаду." />
+    <string id="BEHeroReligionConversionSuccessReaction" text="Магчыма, у вашых словах ёсьць мудрасьць." />
+    <string id="BEHeroReligionConversionCriticalSuccessReaction" text="Вашы словы кранулі мяне да глыбіні душы. Мне трэба ўсё пераасэнсаваць." />
+    <string id="BEHeroReligionConversionFailureReaction" text="Мяне гэта не пераканала." />
+    <string id="BEHeroReligionConversionCriticalFailureReaction" text="Больш не абражайце маю веру." />
+    <string id="BEHeroReligionConversionMissReaction" text="Ня ведаю, што пра гэта думаць." />
+    <string id="BEGoToTemple" text="Ісьці ў храм" />
+    <string id="BETempleUnavailable" text="Храм яшчэ не гатовы прымаць наведнікаў." />
+    <string id="BETemplePriestGreeting" text="Вітаю. Зь якой просьбай вы прыйшлі ў гэты храм?" />
+    <string id="be_temple_tell_me_about_faith" text="Раскажыце пра веру {BE_RELIGION_NAME}." />
+    <string id="BETempleReligionExplanation" text="{BE_RELIGION_EXPLANATION}" />
+    <string id="BETempleAskToConvert" text="Я хачу прыняць гэтую веру." />
+    <string id="BETempleConvertConfirmation" text="Гэта ўрачыстае абавязаньне. Вы сапраўды хочаце вызнаваць {BE_RELIGION_NAME}?" />
+    <string id="BETempleConvertYes" text="Так. Я прымаю гэтую веру." />
+    <string id="BETempleConvertNo" text="Яшчэ не." />
+    <string id="BETempleConversationLeave" text="Больш пытаньняў ня маю." />
+    <string id="BETempleInvalidFaith" text="Гэты сьвятар ня можа правесьці афіцыйны абрад прыняцьця веры." />
+    <string id="BETempleAlreadyFollower" text="Вы ўжо трымаецеся гэтай веры." />
+    <string id="BETempleConversionComplete" text="Цяпер вы вызнаяце {BE_RELIGION_NAME}." />
+    <string id="BEArianTempleExplanation" text="Мы пакланяемся адзінаму Богу й шануем Хрыста як Сына, народжанага воляй Айца." />
+    <string id="BEDonatistTempleExplanation" text="Мы лічым, што Царква мусіць заставацца чыстай, а яе служкі не павінны здраджваць веры падчас перасьледу." />
+    <string id="BEGenericTempleExplanation" text="Гэтая вера яднае сваіх вызнаўцаў агульнымі абрадамі, вучэньнем і абавязкамі перад супольнасьцю." />
+    <string id="BETempleSceneConfigurationErrorTitle" text="Памылка наладаў сцэны храму" />
+    <string id="BETempleSceneConfigurationErrorBody" text="Уваход у храм адключаны: Burning Empires ня змог загрузіць прыдатную культурную сцэну храму й узровень бачнасьці рэлігіі.&#xA;&#xA;Што здарылася:&#xA;{REASON}&#xA;&#xA;Закранутыя налады:&#xA;Селішча: {SETTLEMENT}&#xA;Культура: {CULTURE}&#xA;Рэлігія: {RELIGION}&#xA;Сцэна: {SCENE}&#xA;Запытаны ўзровень: {LEVEL}&#xA;Запасны ўзровень: {FALLBACK}&#xA;&#xA;Дзеяньні праграмы:&#xA;Пункт мэню храму схаваны, каб гулец ня трапіў у няправільную ці пустую сцэну. Зьвесткі пра селішча, рэлігію, насельніцтва, захаваньне й сцэну не зьмяняліся.&#xA;&#xA;Як выправіць:&#xA;Адкрыйце BE ModuleData Source Files/BEData/be_temple_scenes.json і выпраўце адпаведнасьці пазначаных культуры, рэлігіі, сцэны ці ўзроўню. Праверце, што SceneObj/{SCENE}/scene.xscene мае запытаны ўзровень, затым запусьціце BE ModuleData Builder/BEModuleDataBuilder.exe з камандамі validate, dry-run і pack. Пачніце новую тэставую сэсію й зноў праверце ўваход у храм." />
+    <string id="BERecruitmentPopulationMoreGroups" text="Яшчэ +{COUNT} групаў" />
+    <string id="BERecruitmentPopulationSummary" text="Насельніцтва: {DETAILS}" />
+    <string id="BERecruitmentPopulationGroup" text="{CULTURE} {CLASS} -{COUNT}" />
+    <string id="BERecruitmentPopulationHintHeader" text="Насельніцтва, якое будзе вылічанае пасьля пацьверджаньня набору:" />
+    <string id="BERecruitmentPopulationHintReligion" text="Рэлігійныя групы вылічаюцца прапарцыйна з кожнай групы насельніцтва." />
+    <string id="BEQuestTemplateMissingGiver" text="Не ўдалося загрузіць пэрсанажа '{GIVER_ID}', які дае заданьне '{QUEST_ID}'. Праверце ягоны запіс у XML NPCCharacters." />
+    <string id="BEQuestTemplateGiverSpawnError" text="Памылка стварэньня пэрсанажа, які дае заданьне: {ERROR}" />
+    <string id="BEQuestTemplateDefaultOfferGreeting" text="Вітаю. Шукаеце даручэньне?" />
+    <string id="BEQuestTemplateDefaultOfferAsk" text="Так. Што вам патрэбна?" />
+    <string id="BEQuestTemplateDefaultOfferDescription" text="Маю даручэньне: {QUEST_TITLE}. Возьмецеся?" />
+    <string id="BEQuestTemplateDefaultOfferAccept" text="Бяруся." />
+    <string id="BEQuestTemplateDefaultOfferDecline" text="Зараз не." />
+    <string id="BEQuestTemplateAlreadyCompleted" text="Вы ўжо выканалі маё даручэньне." />
+    <string id="BEQuestTemplateStarted" text="Заданьне пачатае: {QUEST_ID}" />
+    <string id="BEQuestTemplateStartFailed" text="Не ўдалося пачаць заданьне: {ERROR}" />
+    <string id="BEQuestTemplateArenaNotFound" text="У гэтым селішчы ня знойдзеная арэна." />
+    <string id="BEQuestTemplateDuelTargetNotFound" text="Удзельнік двубою ня знойдзены: {TARGET_ID}" />
+    <string id="BEQuestTemplateDuelStartError" text="Памылка пачатку двубою: {ERROR}" />
+    <string id="BEQuestTemplatePoachersPartyNotFound" text="Партыя браканьераў ня знойдзеная." />
+    <string id="BEQuestTemplatePoachersLeaderNotFound" text="Верхавод браканьераў ня знойдзены." />
+    <string id="BEQuestTemplateConversationStartFailed" text="Не ўдалося пачаць размову: {ERROR}" />
+    <string id="BEQuestTemplateStartDuel" text="Пачаць урачысты двубой" />
+    <string id="BEQuestTemplateTalkToPartyLeader" text="Падысьці й пагаварыць з правадыром партыі {PARTY_NAME}" />
+    <string id="BEQuestTemplateAttackParty" text="Напасьці на {PARTY_NAME}." />
+    <string id="BEQuestTemplatePoachersVillageSelected" text="Вёска браканьераў = {VILLAGE}" />
+    <string id="BEQuestTemplateNoPoachersVillage" text="Ня знойдзена прыдатнай вёскі для заданьня з браканьерамі." />
+    <string id="BEQuestTemplateDefaultTitle" text="Заданьне XML" />
+    <string id="BEQuestTemplateObjectiveComplete" text="Мэта дасягнутая: {OBJECTIVE}." />
+    <string id="BEQuestTemplateUnknownObjective" text="Невядомы ID мэты: {OBJECTIVE_ID}" />
+    <string id="BEQuestTemplatePoachersDefeatedByOthers" text="Хтосьці іншы ўжо разабраўся з браканьерамі — выканаць заданьне больш немагчыма." />
+    <string id="BEQuestTemplateSettlementScouted" text="Выведка ў {SETTLEMENT} завершаная!" />
+    <string id="BEQuestTemplateMissingSettlementParameter" text="У DefeatQuestParty не зададзены settlementId для мэты {OBJECTIVE_ID}." />
+    <string id="BEQuestTemplateUnknownSettlement" text="Невядомы ID селішча '{SETTLEMENT_ID}' для мэты {OBJECTIVE_ID}." />
+    <string id="BEQuestTemplateNoBanditClan" text="Для DefeatQuestParty ня знойдзены бандыцкі клан." />
+    <string id="BEQuestTemplateDefaultPoachersPartyName" text="Партыя Браканьераў" />
+    <string id="BEQuestTemplateInvalidTroopFallback" text="ID ваяра '{TROOP_ID}' несапраўдны; замест яго створаныя Рабаўнікі." />
+    <string id="BEQuestTemplateQuestFailed" text="Заданьне праваленае." />
+    <string id="BEQuestTemplateNotEnoughGold" text="Не стае золата." />
+    <string id="BEQuestTemplateUnknownAction" text="Невядомае дзеяньне заданьня: {ACTION_TYPE}" />
+    <string id="BEQuestTemplateMissingHeroParameter" text="Для мэты CaptureHero не зададзены парамэтар heroId." />
+    <string id="BEQuestTemplatePrisonerHandedOver" text="Палонны {HERO} перададзены таму, хто даў заданьне." />
+    <string id="BEQuestTemplateTargetPrisonerNotFound" text="Патрэбны палонны ня знойдзены ў вашым сьпісе палонных." />
+    <string id="BEQuestTemplateInvalidPrisonerActionObjective" text="RemovePrisoners патрабуе мэты CaptureHero або CapturePrisoners." />
+    <string id="BEQuestTemplateItemNotFound" text="Прадмет ня знойдзены: {ITEM_ID}" />
+    <string id="BEQuestTemplateRequiredItemMissing" text="У вас няма патрэбнага прадмета." />
+    <string id="BEQuestTemplateArenaSpawnPointsMissing" text="На сцэне арэны няма пунктаў 'sp_arena_respawn'. Двубой скасаваны." />
+    <string id="BEQuestTemplateDuelDefeat" text="Натоўп вітае вашу паразу." />
+    <string id="BEQuestTemplateDuelVictory" text="Натоўп раве, калі ваш супернік падае!" />
+    <string id="BEMinimalRecoveryMissingTitle" text="Няма зьвестак для аднаўленьня Burning Empires" />
+    <string id="BEUnsupportedDevelopmentSaveTitle" text="Непадтрыманыя зьвесткі захаваньня з вэрсіі для распрацоўнікаў" />
+    <string id="BEMigrationFailedTitle" text="Немагчыма перанесьці старое захаваньне Burning Empires" />
+    <string id="BEModuleVersionInvalidTitle" text="Вэрсіі модуляў захаваньня Burning Empires не ўзгадняюцца" />
+    <string id="BEExternalSavePreparationFailedTitle" text="Не ўдалося падрыхтаваць дадатковыя зьвесткі" />
+    <string id="BEExternalSavePreparationFailedText" text="Не ўдалося падрыхтаваць зьвесткі пра насельніцтва й рэлігію перад захаваньнем. Захаваньне гульні працягнецца, але дадатковыя зьвесткі могуць быць узятыя з папярэдняга прыдатнага вонкавага здымка." />
+    <string id="BEExternalSaveWriteFailedTitle" text="Не ўдалося захаваць вонкавыя зьвесткі" />
+    <string id="BEExternalSaveWriteFailedText" text="Не ўдалося запісаць вонкавы здымак насельніцтва й рэлігіі. Захаваньне гульні працягнецца, але дадатковыя зьвесткі могуць быць узятыя з папярэдняга прыдатнага вонкавага здымка." />
+    <string id="BEExternalSaveDataSyncFailedTitle" text="Не ўдалося ўзгадніць вонкавае захаваньне" />
+    <string id="BEExternalSaveDataSyncFailedText" text="Не ўдалося зьвязаць апошні вонкавы здымак насельніцтва й рэлігіі з захаваньнем гульні. Захаваньне гульні працягнецца, але дадатковыя зьвесткі могуць быць узятыя з папярэдняга прыдатнага вонкавага здымка." />
+    <string id="BEExternalSaveIndexFailedTitle" text="Не ўдалося абнавіць індэкс вонкавага захаваньня" />
+    <string id="BEExternalSaveIndexFailedText" text="Захаваньне гульні й ягоныя вонкавыя зьвесткі запісаныя, але не ўдалося абнавіць індэкс вонкавых рэзэрвовых копіяў. Ніводная наяўная рэзэрвовая копія ня выдаленая." />
+    <string id="BEExternalSaveWarningOk" text="Добра" />
+    <string id="BEPopulationReligionAuditLogFailed" text="Не ўдалося запісаць журнал праверкі." />
+    <string id="BEPopulationReligionAuditTitle" text="Зьвесткі пра насельніцтва й рэлігію патрабуюць праверкі" />
+    <string id="BEExternalSaveMultipleWarningsTitle" text="Папярэджаньні" />
+    <string id="BEPopulationReligionAuditText" text="Частка зьвестак пра насельніцтва або рэлігію выкарыстоўвае прадвызначаныя значэньні. Селішчаў: {SETTLEMENTS}, герояў: {HEROES}. Падрабязнасьці запісаныя ў: {PATH}" />
+    <string id="BEMigrationFailureBody" text="Burning Empires спыніў загрузку гэтай кампаніі, бо ня змог бясьпечна перанесьці яе дадатковыя зьвесткі.&#xA;&#xA;Што здарылася:&#xA;Захаваньне мае вэрсію зьвестак {SOURCE_VERSION}, а гэтая зборка патрабуе вэрсію {TARGET_VERSION}. Непарыўны ланцужок пераносу модуляў або ягоная праверка скончыліся памылкай.&#xA;&#xA;Тэхнічная прычына:&#xA;{REASON}&#xA;&#xA;Што зрабіла праграма:&#xA;У запушчаную кампанію не былі запісаныя зьвесткі пра насельніцтва, рэлігію, адносіны, рэпутацыю, Цуды, Гістарычную Кампанію або дадатковыя значэньні. Зыходны .sav і ягоныя вонкавыя здымкі ня зьмененыя.&#xA;&#xA;Што рабіць:&#xA;Захоўвайце зыходнае захаваньне разам з адпаведным каталёгам кампаніі BESavedata. Вярніце зборку Burning Empires, якая падтрымлівае гэтую зыходную вэрсію, або дадайце адсутны этап непарыўнага пераносу й праверкі модуляў, перш чым спрабаваць зноў." />
+    <string id="BEExternalSavePreflightOk" text="Добра" />
+    <string id="BEExternalSavePreflightLoad" text="Загрузіць" />
+    <string id="BEExternalSavePreflightMigrate" text="Загрузіць і перанесьці" />
+    <string id="BEExternalSavePreflightCancel" text="Скасаваць" />
+    <string id="BEExternalSavePreflightFailureTitle" text="Захаваньне Burning Empires не прайшло праверку" />
+    <string id="BEExternalSavePreflightFailureBody" text="Гэтае захаваньне зьмяшчае мэтазьвесткі пра вонкавыя зьвесткі Burning Empires, але праверку перад загрузкай не ўдалося завяршыць. Гульня скасавала загрузку, каб зьвесткі захаваньня кампаніі не спалучыліся няправільна з вонкавымі зьвесткамі пра насельніцтва, рэлігію, Цуды, Гістарычную Кампанію й дадатковымі зьвесткамі.&#xA;&#xA;Захаваньне: {SAVE_NAME}&#xA;Тып памылкі: {ERROR_TYPE}&#xA;Падрабязнасьці: {ERROR_MESSAGE}&#xA;&#xA;Не перазапісвайце гэтае захаваньне. Захавайце зыходны файл .sav і адпаведную тэчку BurningEmpires\BESavedata, а затым праглядзіце журнал працы Burning Empires або перадайце гэтыя зьвесткі распрацоўнікам." />
+    <string id="BEExternalSaveDeletedTitle" text="Вонкавыя зьвесткі захаваньня выдаленыя" />
+    <string id="BEExternalSaveDeletedText" text="Гэтае вочка захаваньня раней было выдаленае праз экран захаваных гульняў Bannerlord. Burning Empires праігнараваў старую ўбудаваную спасылку аднаўленьня, каб выдаленыя вонкавыя зьвесткі не аднавіліся самі." />
+    <string id="BEExternalSaveFallbackTitle" text="Вонкавыя зьвесткі захаваньня адноўленыя" />
+    <string id="BEExternalSaveFallbackText" text="Вонкавыя зьвесткі гэтага захаваньня былі пашкоджаныя. Гульня аўтаматычна загрузіла апошнюю даступную вонкавую рэзэрвовую копію для гэтага вочка захаваньня." />
+    <string id="BEExternalSaveDeletedPreflightText" text="Burning Empires пазначыў, што гэтае вочка захаваньня было выдаленае праз экран захаваных гульняў Bannerlord. Старыя здымкі й убудаваныя зьвесткі аднаўленьня ня будуць адноўленыя. Загрузка гэтага ўручную адноўленага .sav створыць дадатковыя зьвесткі нанова." />
+    <string id="BEOlderSaveTitle" text="Старое захаваньне Burning Empires" />
+    <!--The following localization prefix is escaped as {{=ID}} in the DLL format string.-->
+    <string id="BEOlderSaveText" text="Гэтае захаваньне выкарыстоўвае вэрсію зьвестак Burning Empires {0}. Яго можна загрузіць, перанёсшы зьвесткі модуляў у вэрсію {1}.&#xA;&#xA;Модулі для пераносу:&#xA;{2}&#xA;&#xA;Перанос выконваецца на поўнай копіі й ужываецца толькі пасьля праверкі ўсіх модуляў. Зыходнае захаваньне ня будзе перазапісанае. Пасьля загрузкі сьвету задайце новую назву праз «Захаваць як», перш чым карыстацца звычайнымі камандамі захаваньня." />
+    <string id="BEOlderBackupTitle" text="Даступная старая рэзэрвовая копія Burning Empires" />
+    <string id="BEExternalSavePreflightFallbackTitle" text="Вонкавыя зьвесткі захаваньня пашкоджаныя" />
+    <!--The following localization prefix is escaped as {{=ID}} in the DLL format string.-->
+    <string id="BEOlderBackupText" text="Гэтае захаваньне вэрсіі {0} мае пашкоджаны актыўны вонкавы здымак, але Burning Empires знайшоў прыдатную рэзэрвовую копію таго самага фізычнага вочка захаваньня. Ён адновіць гэтую копію й перанясе яе поўную копію ў вэрсію {1}; зыходныя файлы ня будуць перазапісаныя." />
+    <string id="BEExternalSavePreflightFallbackText" text="Актыўныя вонкавыя зьвесткі гэтага фізычнага вочка захаваньня пашкоджаныя, але даступная прыдатная рэзэрвовая копія таго самага вочка. Выберыце «Загрузіць», каб аднавіць яе, або «Скасаваць», каб вярнуцца на экран захаваных гульняў." />
+    <string id="BECampaignCleanupDeferredBody" text="Bannerlord выдаліў абранае захаваньне, але Burning Empires ня змог бясьпечна вызначыць, што ўвесь каталёг кампаніі больш не патрэбны.&#xA;&#xA;ID кампаніі: {CAMPAIGN_ID}&#xA;Выдаленае вочка захаваньня: {SAVE_NAME}&#xA;Прычына: {REASON}&#xA;&#xA;Для выдаленага вочка застаецца дзейнай пазнака выдаленьня. Астатнія зьвесткі кампаніі захаваныя, бо нельга здагадвацца пра іхную патрэбнасьць або выдаляць іх рэкурсіўна." />
+    <string id="BECampaignCleanupDeferredTitle" text="Ачыстка тэчкі кампаніі адкладзеная" />
+    <string id="BEExternalSavePreflightMrsTitle" text="Вонкавыя здымкі патрабуюць убудаванага аднаўленьня" />
+    <string id="BEExternalSavePreflightMrsText" text="Для гэтага фізычнага вочка захаваньня няма прыдатнага вонкавага здымка. Калі вы працягнеце, Burning Empires праверыць мінімальныя зьвесткі аднаўленьня ў гэтым самым .sav пасьля таго, як Bannerlord адновіць яго. Канчатковае папярэджаньне пра няўдачу зьявіцца толькі тады, калі гэтыя ўбудаваныя зьвесткі таксама ня пройдуць праверку." />
+    <string id="BEExternalSaveMrsTitle" text="Ужытае аднаўленьне вонкавага здымка" />
+    <string id="BEExternalSaveMrsText" text="Для гэтага захаваньня не ўдалося загрузіць прыдатны здымак вонкавых зьвестак. Гульня загрузіла мінімальныя зьвесткі аднаўленьня, убудаваныя ў файл .sav." />
+    <string id="BEExternalSaveUnavailableTitle" text="Вонкавыя зьвесткі захаваньня недаступныя" />
+    <string id="BEExternalSaveUnavailableText" text="Усе вонкавыя здымкі гэтага вочка недаступныя, а мінімальнаму набору зьвестак аднаўленьня, убудаванаму ў гэты .sav, нельга давяраць.&#xA;&#xA;Тэхнічная прычына:&#xA;" />
+    <string id="BEExternalSaveDeleteFailureBody" text="Burning Empires ня змог выдаліць вонкавыя зьвесткі пасьля таго, як Bannerlord пацьвердзіў выдаленьне захаваньня.&#xA;&#xA;Што здарылася:&#xA;Зыходны .sav выдалены, але Windows адмовілася выдаліць частку адпаведных вонкавых зьвестак Burning Empires. Пазнака выдаленьня застаецца дзейнай, таму адкладзеныя задачы захаваньня й зьвесткі аднаўленьня ня могуць аднавіць выдаленае вочка.&#xA;&#xA;Адпаведная кампанія: {CAMPAIGN_ID}&#xA;Адпаведнае вочка захаваньня: {SAVE_NAME}&#xA;Шлях да рэшты зьвестак: {PATH}&#xA;Тэхнічная прычына: {REASON}&#xA;&#xA;Што зрабіла праграма:&#xA;Іншыя захаваньні застаюцца даступнымі. Burning Empires ня будзе загружаць ці перазапісваць выдаленае вочка са старога здымка.&#xA;&#xA;Што рабіць:&#xA;Закрыйце Bannerlord, упэўніцеся, што ні рэдактар, ні праграма рэзэрвовага капіяваньня не выкарыстоўвае пазначаны шлях, а затым выдаліце яго ўручную. Не выдаляйце каталёгі іншых кампаніяў." />
+    <string id="BEExternalSaveDeleteFailureTitle" text="Вонкавыя зьвесткі захаваньня не ўдалося выдаліць цалкам" />
+    <string id="BEMigrationOrdinarySaveBlockedBody" text="Burning Empires заблякаваў {OPERATION}, бо гэты сэанс зьмяшчае зьвесткі, перанесеныя са старога захаваньня.&#xA;&#xA;Чаму гэта здарылася:&#xA;Зыходнае захаваньне старой вэрсіі захоўваецца як пункт вяртаньня. Звычайнае захаваньне адключанае, пакуль абавязковая апэрацыя «Захаваць як» пасьля пераносу не завершыцца пасьпяхова.&#xA;&#xA;Што рабіць:&#xA;Закрыйце гэтае паведамленьне й увядзіце новую ўнікальную назву ў запыце пераносу. Пасьля пасьпяховага захаваньня пад новай назвай усе звычайныя каманды захаваньня й аўтазахаваньні асобных галінаў зноў стануць даступнымі." />
+    <string id="BEMigrationOrdinarySaveBlockedTitle" text="Захаваньне часова заблякаванае" />
+    <string id="BEExternalSaveDeleteIdentityBody" text="Bannerlord выдаліў абраны файл .sav, але Burning Empires ня змог прачытаць ягоны UniqueGameId з мэтазьвестак захаваньня.&#xA;&#xA;Што здарылася:&#xA;Тэчка вонкавых зьвестак вызначаецца паводле ID кампаніі й назвы вочка захаваньня. Адной назвы вочка недастаткова, бо розныя кампаніі могуць мець аднолькавыя назвы.&#xA;&#xA;Адпаведнае вочка захаваньня: {SAVE_NAME}&#xA;&#xA;Што зрабіла праграма:&#xA;Burning Empires захаваў усе вонкавыя зьвесткі, бо ня мог вызначыць, які каталёг кампаніі належыць выдаліць. Іншыя захаваньні ня зьмененыя.&#xA;&#xA;Што рабіць:&#xA;Закрыйце гульню й праверце BESavedata/campaigns, толькі калі трэба ўручную выдаліць вонкавае вочка без адпаведнасьці. Не выдаляйце каталёг іншай кампаніі толькі таму, што ён зьмяшчае вочка з такой самай назвай." />
+    <string id="BEExternalSaveDeleteIdentityTitle" text="Вонкавыя зьвесткі захаваньня захаваныя" />
+    <string id="BEExternalSaveDeleteSyncBody" text="Bannerlord выдаліў абраны файл .sav, але Burning Empires ня змог завяршыць узгадненьне выдаленьня адпаведных вонкавых зьвестак.&#xA;&#xA;Што здарылася:&#xA;Нечаканая памылка файла або індэксу перапыніла ачыстку вонкавых зьвестак пасьля выдаленьня зыходнага захаваньня.&#xA;&#xA;ID кампаніі: {CAMPAIGN_ID}&#xA;Вочка захаваньня: {SAVE_NAME}&#xA;Тэхнічная прычына: {REASON}&#xA;&#xA;Што зрабіла праграма:&#xA;Памылка ізаляваная, каб яна не спыніла гульню й не зьмяніла іншае захаваньне. Наяўныя вонкавыя файлы пакінутыя на месцы, калі іхную прыналежнасьць не ўдалося пацьвердзіць.&#xA;&#xA;Што рабіць:&#xA;Закрыйце Bannerlord, праверце BESavedata/campaigns/{CAMPAIGN_ID} і выдаліце толькі тэчку выдаленага вочка, калі яна засталася. Захавайце ўсе іншыя кампаніі й вочкі." />
+    <string id="BEExternalSaveDeleteSyncTitle" text="Выдаленьне вонкавага захаваньня не завершанае" />
+    <string id="BESaveBranchCompatibilityBody" text="Burning Empires адключыў аўтазахаваньні асобных галінаў для гэтага гульнявога сэансу.&#xA;&#xA;Што здарылася:&#xA;Адсутнічае, не спрацаваў або канфліктуе зь іншым модам перахопнік аўтазахаваньня ці інтэрфэйс сьпісу захаваньняў, разьлічаны на пэўную вэрсію. Адначасовая праца абедзьвюх рэалізацыяў можа перазапісаць іншую галіну захаваньняў, двойчы выклікаць зваротную функцыю захаваньня Bannerlord або стварыць хібны сьпіс захаваньняў.&#xA;&#xA;Тэхнічныя зьвесткі:&#xA;{REASON}&#xA;&#xA;Што зрабіла праграма:&#xA;Пераход да агульных вочак saveauto1-3 не выконваўся. Калі канфлікт закранае SavedGameGroup, гіерархія галінаў BE таксама адключаецца, а зыходны плоскі сьпіс захаваньняў захоўваецца. Ручное захаваньне, хуткае захаваньне, «Захаваць як», «Захаваць і выйсьці» й загрузка застаюцца даступнымі.&#xA;&#xA;Што рабіць:&#xA;Захавайце гэтае паведамленьне, параўнайце пазначанага ўласьніка Harmony або UIExtenderEx са сьпісам уключаных модуляў і адключыце ці абнавіце мод, які зьмяняе той самы мэтад захаваньня або шаблён SavedGameGroup. Пасьля зьмены сьпісу модуляў перазапусьціце Bannerlord." />
+    <string id="BESaveBranchCompatibilityTitle" text="Аўтазахаваньні асобных галінаў адключаныя" />
+    <string id="BEMigrationSaveAsBody" text="Гэтая кампанія загружаная з вэрсіі зьвестак Burning Empires {SOURCE_VERSION} і перанесеная ў вэрсію {TARGET_VERSION}.&#xA;&#xA;Што гэта азначае:&#xA;Перанесеныя зьвесткі цяпер захоўваюцца толькі ў памяці. Burning Empires не перазапіша старое захаваньне. Трэба стварыць новае вочка захаваньня, перш чым карыстацца хуткім захаваньнем, аўтазахаваньнем, звычайным захаваньнем або «Захаваць і выйсьці».&#xA;&#xA;Перанесеныя модулі: {MODULES}&#xA;&#xA;Што рабіць:&#xA;Увядзіце ніжэй новую ўнікальную назву захаваньня й выберыце «Захаваць перанесеную кампанію». Новае вочка застанецца часткай той самай кампаніі Bannerlord, але атрымае ўласны ідэнтыфікатар галіны захаваньняў Burning Empires і ўласныя тры вочкі аўтазахаваньня." />
+    <string id="BEMigrationSaveAsTitle" text="Захаваць перанесеную кампанію" />
+    <string id="BEMigrationSaveAsConfirm" text="Захаваць перанесеную кампанію" />
+    <string id="BEMigrationSaveAsLater" text="Пакуль не" />
+    <string id="BEMigrationSavedNotice" text="Перанесеная кампанія Burning Empires захаваная ў новым вочку." />
+    <string id="BEMigrationSaveFailedTitle" text="Перанесеная кампанія не захаваная" />
+    <string id="BEMigrationSaveFailedBody" text="Bannerlord ня змог завяршыць абавязковую апэрацыю «Захаваць як».&#xA;&#xA;Што здарылася:&#xA;Перанесеныя зьвесткі Burning Empires застаюцца толькі ў памяці, таму звычайныя захаваньні ўсё яшчэ заблякаваныя дзеля абароны зыходнага захаваньня старой вэрсіі.&#xA;&#xA;Што рабіць:&#xA;Праверце, ці дазволены запіс у тэчку захаваньняў і ці стае месца на дыску. Закрыйце гэтае паведамленьне, а затым увядзіце іншую новую назву, калі зноў зьявіцца запыт пераносу." />
+    <string id="BEMigrationSaveNameEmpty" text="Увядзіце назву для перанесенага захаваньня." />
+    <string id="BEMigrationSaveNameLong" text="Назва захаваньня мусіць зьмяшчаць менш за 30 знакаў." />
+    <string id="BEMigrationSaveNameCharacters" text="Выкарыстоўвайце толькі літары, лічбы й прагалы." />
+    <string id="BEMigrationSaveNameReserved" text="Гэтая назва зарэзэрваваная для аўтазахаваньняў." />
+    <string id="BEMigrationSaveNameExists" text="Выберыце новую назву. Падчас пераносу нельга перазапісваць наяўнае захаваньне." />
+    <string id="BELifePatchErrorTitle" text="Памылка сумяшчальнасьці жыцьцёвага цыклю" />
+    <string id="BELifePatchErrorBody" text="Burning Empires ня ўжыў выпраўленьне сумяшчальнасьці {PATCH}, бо гэтая зборка гульні больш не адпавядае падтрыманаму інтэрфэйсу 1.4.8. Зыходны мэтад гульні пакінуты бязь зьменаў. Тэхнічныя зьвесткі: {DETAIL}" />
+    <string id="BEHistoricalCampaignGoalQuestTitle" text="Мэты Кампаніі: {HERO}" />
+    <string id="BEHistoricalCampaignTitle" text="Гістарычная Кампанія" />
+    <string id="BEHistoricalBackstoryTitle" text="Перадгісторыя" />
+    <string id="BEHistoricalGoalsTitle" text="Мэты" />
+    <string id="BEHistoricalCompanyTitle" text="Спадарожнікі" />
+    <string id="BEHistoricalFeatsTitle" text="Культурныя Зьдзяйсьненьні" />
+    <string id="BEHistoricalConfirm" text="Пачаць Кампанію" />
+    <string id="WXAaWZVf" text="Назад" />
+    <string id="BEHistoricalErrorNoCandidates" text="Не зададзеныя пэрсанажы для Гістарычнай Кампаніі." />
+    <string id="BEHistoricalErrorTextMissing" text="Для гэтага пэрсанажа адсутнічае абавязковы перакладзены тэкст." />
+    <string id="BEHistoricalBackgroundUnavailable" text="Зададзеная выява перадгісторыі недаступная." />
+    <string id="BEHistoricalErrorPreviewHeroMissing" text="Немагчыма паказаць абранага гістарычнага пэрсанажа, бо няма зьвестак Hero." />
+    <string id="BEHistoricalPreviewUnavailable" text="Перадпрагляд пэрсанажа недаступны." />
+    <string id="BEHistoricalPreviewConfigErrorBody" text="Гэта памылка канфігурацыі playerEquipment пры выбары пэрсанажа Гістарычнай Кампаніі.&#xA;&#xA;Што гэта азначае:&#xA;Гульня не знайшла адзін ці некалькі прадметаў перадпрагляду або набораў рыштунку, зададзеных для {CHARACTER_NAME} ({HERO_ID}) у BE ModuleData Source Files/BEData/be_historical_campaign.json.&#xA;&#xA;Чаму гэта здарылася:&#xA;itemId або equipmentRosterId не існуе, запісаны з памылкай ці не загружаны ў бягучы ModuleData. Сцэна выбару выкарыстоўвае бясьпечны запасны выгляд, але пачатак кампаніі заблякаваны, пакуль playerEquipment ня будзе прыдатны, бо абраны герой мусіць атрымаць дакладна зададзены ў JSON баявы рыштунак.&#xA;&#xA;Што зрабіла праграма:&#xA;Запасны варыянт ужыты толькі ў часовым перадпраглядзе. Сапраўдны рыштунак герояў ня зьменены.&#xA;&#xA;Падрабязнасьці канфігурацыі:&#xA;{ISSUES}&#xA;&#xA;Як выправіць:&#xA;Адкрыйце BE ModuleData Source Files/BEData/be_historical_campaign.json, выпраўце пазначанае поле playerEquipment, вочка або ID аб'екта, а затым запусьціце ў BE ModuleData Builder/BEModuleDataBuilder.exe каманды validate, dry-run і pack менавіта ў гэтым парадку. Зноў адкрыйце Гістарычную Кампанію й праверце перадпрагляд." />
+    <string id="BEHistoricalPreviewConfigErrorTitle" text="Патрэбна праверыць налады рыштунку для прагляду Гістарычнай Кампаніі" />
+    <string id="BEHistoricalPreviewCameraErrorBody" text="У Гістарычнай Кампаніі не ўдалося ўключыць маштабаваньне колцам мышы й вэртыкальнае кіраваньне камэрай сярэдняй кнопкай для перадпрагляду пэрсанажа.&#xA;&#xA;Што гэта азначае:&#xA;Сама мадэль пэрсанажа застаецца даступнай, але невялікі мост сумяшчальнасьці, які зьмяняе сапраўднае становішча трохмернай камэры Tableau, ня змог падлучыцца да палёў CharacterTableau у Bannerlord.&#xA;&#xA;Чаму гэта здарылася:&#xA;Гэтая зборка чакае структуру CharacterTableau з Bannerlord 1.4.7. Іншая вэрсія гульні або несумяшчальная зборка інтэрфэйсу можа перайменаваць ці замяніць патрэбныя прыватныя палі. Тэхнічныя зьвесткі: {TECHNICAL_REASON}&#xA;&#xA;Што зрабіла праграма:&#xA;Маштабаваньне колцам мышы й вэртыкальны рух камэры сярэдняй кнопкай адключаныя ў гэтым сэансе, каб прадухіліць небясьпечны запіс праз рэфлексію. Выбар пэрсанажа, паварот левай кнопкай і «Пачаць кампанію» застаюцца даступнымі.&#xA;&#xA;Што рабіць:&#xA;Праверце, ці ўсталяваныя Bannerlord 1.4.7 і патрэбныя афіцыйныя модулі залежнасьцяў. Калі вэрсіі правільныя, дашліце гэтае паведамленьне цалкам і журнал Гістарычнай Кампаніі распрацоўніку mumahutuo, каб ён мог абнавіць мост сумяшчальнасьці. Пры гэтай памылцы ня рэдагуйце be_historical_campaign.json." />
+    <string id="BEHistoricalPreviewCameraErrorTitle" text="Памылка сумяшчальнасьці камэры прагляду Гістарычнай Кампаніі" />
+    <string id="BEHistoricalLoadPlaceholderCleanupFailedBody" text="Burning Empires ня змог бясьпечна завяршыць загрузку гэтага захаваньня Гістарычнай Кампаніі.&#xA;&#xA;Што здарылася:&#xA;{REASON}&#xA;&#xA;Навошта патрэбная гэтая праверка:&#xA;Пры чытаньні захаваньня Bannerlord паўторна загружае XML-вызначэньні main_hero, player_faction і main_hero_party_template, прызначаныя толькі для Пясочніцы. Прыдатнае захаваньне Гістарычнай Кампаніі замест іх выкарыстоўвае абранага гістарычнага героя й клан. Невыкарыстоўваныя вызначэньні Пясочніцы можна выдаляць толькі тады, калі яны ня маюць маёмасьці й дзейных спасылак.&#xA;&#xA;Што зрабіла праграма:&#xA;Загрузка сховаў Цудаў, стану адкрыцьцяў і астатніх вонкавых зьвестак Burning Empires спыненая, перш чым гэтыя значэньні маглі быць ужытыя да небясьпечнага стану сьвету. Ніводны герой-заглушка не забіты; зьнішчэньне кланаў або перадача маёмасьці не выконваліся.&#xA;&#xA;Што рабіць:&#xA;Не перазапісвайце гэтае захаваньне. Захавайце файл захаваньня й увесь каталёг BurningEmpires Logs, а затым перадайце праграмісту Burning Empires ID кандыдата {CANDIDATE_ID} і паведамленьне вышэй. Праверце зноў на захаваньні, створаным бягучай DLL, пасьля выпраўленьня пазначанай спасылкі." />
+    <string id="BEHistoricalLoadPlaceholderCleanupFailedTitle" text="Не ўдалося аднавіць захаваньне Гістарычнай Кампаніі" />
+    <string id="BEGovernmentUnknownCulture" text="Невядомая культура" />
+    <string id="BEGovernmentSelectedCulturePopulation" text="Насельніцтва: {POPULATION}" />
+    <string id="BEGovernmentSelectedCultureShare" text="Доля насельніцтва гаспадарства: {SHARE}" />
+    <string id="BEGovernmentMainstreamCultureAffinity" text="Прыхільнасьць да асноўнай культуры: {VALUE}" />
+    <string id="BEGovernmentReligionBreakdown" text="Рэлігійны склад" />
+    <string id="BEGovernmentSelectedReligionPopulation" text="Вернікі: {POPULATION}" />
+    <string id="BEGovernmentSelectedReligionShare" text="Доля насельніцтва гаспадарства: {SHARE}" />
+    <string id="BEGovernmentStateReligionAffinity" text="Прыхільнасьць да дзяржаўнай рэлігіі: {VALUE}" />
+    <string id="BEGovernmentCultureBreakdown" text="Культурны склад" />
+    <string id="BEGovernmentTab" text="Урад" />
+    <string id="BEGovernmentReligionTab" text="Рэлігія" />
+    <string id="BEGovernmentCultureTab" text="Культура" />
+    <string id="BEGovernmentStateReligionTitle" text="Дзяржаўная Рэлігія" />
+    <string id="BEGovernmentMainstreamCultureTitle" text="Асноўная Культура" />
+    <string id="BEGovernmentChangeStateReligion" text="Зьмяніць дзяржаўную рэлігію" />
+    <string id="BEGovernmentChangeMainstreamCulture" text="Зьмяніць асноўную культуру" />
+    <string id="BEGovernmentPropose" text="Прапанаваць" />
+    <string id="BEGovernmentReligionComposition" text="Насельніцтва гаспадарства паводле рэлігіі" />
+    <string id="BEGovernmentCultureComposition" text="Насельніцтва гаспадарства паводле культуры" />
+    <string id="BEGovernmentNoKingdom" text="Вы пакуль не належыце ні да якога гаспадарства." />
+    <string id="BEGovernmentNoStateReligion" text="Дзяржаўная рэлігія не вызначаная." />
+    <string id="BEGovernmentPlayerReligion" text="Ваша рэлігія: {RELIGION}" />
+    <string id="BEGovernmentNoMainstreamCulture" text="Асноўная культура не вызначаная." />
+    <string id="BEGovernmentUnknownPlayerCulture" text="Невядомая культура" />
+    <string id="BEGovernmentPlayerCulture" text="Ваша культура: {CULTURE}" />
+    <string id="BEGovernmentNoReligionPopulation" text="Няма прыдатных зьвестак пра рэлігійны склад насельніцтва гаспадарства." />
+    <string id="BEGovernmentNoCulturePopulation" text="Няма прыдатных зьвестак пра культурны склад насельніцтва гаспадарства." />
+    <string id="BEGovernmentCultureLoadFailure" text="Не ўдалося загрузіць зьвесткі пра культурны склад насельніцтва: {ERROR}" />
+    <string id="BEGovernmentChooseStateReligionTitle" text="Выбраць дзяржаўную рэлігію" />
+    <string id="BEGovernmentChooseStateReligionDescription" text="Выберыце рэлігію, якую хочаце прапанаваць. Прапанова каштуе {INFLUENCE} уплыву; рашэньне прымуць шляхетныя кланы гаспадарства." />
+    <string id="BEGovernmentCancel" text="Скасаваць" />
+    <string id="BEGovernmentChooseMainstreamCultureTitle" text="Выбраць асноўную культуру" />
+    <string id="BEGovernmentChooseMainstreamCultureDescription" text="Выберыце культуру, якую хочаце прапанаваць. Прапанова каштуе {INFLUENCE} уплыву; рашэньне прымуць шляхетныя кланы гаспадарства." />
+    <string id="BEGovernmentRulerOnly" text="Толькі гаспадар можа зьмяніць дзяржаўную рэлігію." />
+    <string id="BEGovernmentPendingStateReligionVote" text="Прапанова аб дзяржаўнай рэлігіі ўжо чакае рашэньня." />
+    <string id="BEGovernmentInsufficientInfluence" text="Не стае ўплыву, каб зрабіць гэтую прапанову." />
+    <string id="BEGovernmentNoEligibleReligion" text="Цяпер няма іншай рэлігіі, якую можна прапанаваць у якасьці дзяржаўнай." />
+    <string id="BEGovernmentProposalCostHint" text="Прапанаваць новую дзяржаўную рэлігію за {INFLUENCE} уплыву." />
+    <string id="BEGovernmentProposalCreated" text="Прапанова аб дзяржаўнай рэлігіі створаная. Адкрыйце пастановы гаспадарства, каб вырашыць галасаваньне шляхты." />
+    <string id="BEGovernmentCultureRulerOnly" text="Толькі гаспадар можа зьмяніць асноўную культуру." />
+    <string id="BEGovernmentPendingCultureVote" text="Прапанова аб асноўнай культуры ўжо чакае рашэньня." />
+    <string id="BEGovernmentCultureInsufficientInfluence" text="Не стае ўплыву, каб зрабіць гэтую прапанову." />
+    <string id="BEGovernmentNoEligibleCulture" text="Цяпер няма іншай культуры, якую можна прапанаваць у якасьці асноўнай." />
+    <string id="BEGovernmentCultureProposalCostHint" text="Прапанаваць новую асноўную культуру за {INFLUENCE} уплыву." />
+    <string id="BEGovernmentCultureProposalCreated" text="Прапанова аб асноўнай культуры створаная. Адкрыйце пастановы гаспадарства, каб вырашыць галасаваньне шляхты." />
+    <string id="BEFoundingReligionGovernorPrompt" text="Перш чым назваць гаспадарства, якую веру абярэм ягонай дзяржаўнай рэлігіяй?" />
+    <string id="BEFoundingReligionGovernorGlobalFallback" text="У насельніцтва гаспадарства няма вызнаўцаў ніводнай вызначанай рэлігіі. Гэта незвычайныя зьвесткі кампаніі; пасьля пацьверджаньня папярэджаньня будуць даступныя ўсе рэлігіі, зададзеныя ў наладах." />
+    <string id="BEFoundingReligionGovernorUnavailable" text="Мы ня можам заснаваць гаспадарства, пакуль недаступныя зьвесткі пра яго дзяржаўную рэлігію." />
+    <string id="BEFoundingReligionGovernorCancel" text="Мне трэба яшчэ падумаць." />
+    <string id="dzXaXKaC" text="Цудоўна." />
+    <string id="BEFoundingReligionGovernorErrorTitle" text="Выбар дзяржаўнай рэлігіі недаступны" />
+    <string id="BEFoundingReligionGovernorErrorBody" text="{REASON}" />
+    <string id="BEFoundingReligionChoicePending" text="Выберыце дзяржаўную рэлігію для гаспадарства, якое чакае заснаваньня, перш чым ствараць іншае." />
+    <string id="BEFoundingReligionUnavailable" text="Для новага гаспадарства няма прыдатнай вызначанай рэлігіі." />
+    <string id="BEFoundingReligionDescription" text="Выберыце дзяржаўную рэлігію вашага новага гаспадарства. Спачатку паказаныя рэлігіі, якія вызнаюць больш за 25% вернікаў гаспадарства; калі такіх няма, паказваюцца ўсе вызначаныя рэлігіі, якія маюць тут вернікаў." />
+    <string id="BEFoundingReligionTitle" text="Выбраць дзяржаўную рэлігію" />
+    <string id="BEFoundingReligionConfirm" text="Заснаваць гаспадарства" />
+    <string id="BEFoundingReligionCancel" text="Скасаваць" />
+    <string id="BEFoundingReligionInvalid" text="Абраная пры заснаваньні рэлігія непрыдатная." />
+    <string id="BEFoundingReligionReplayFailed" text="Не ўдалося стварыць гаспадарства пасьля выбару дзяржаўнай рэлігіі: {REASON}" />
+    <string id="BEFoundingReligionNoDomesticFormalFaithTitle" text="У гаспадарстве няма вызнаўцаў вызначаных рэлігіяў" />
+    <string id="BEFoundingReligionNoDomesticFormalFaith" text="У новым гаспадарстве ня знойдзена ніводнай вызначанай рэлігіі зь мясцовымі вернікамі. Гэта нечаканыя зьвесткі кампаніі. Пасьля гэтага папярэджаньня ўсе рэлігіі, зададзеныя ў наладах, будуць даступныя як запасныя варыянты." />
+    <string id="yS7PvrTD" text="Добра" />
+    <string id="BEKingdomGovernmentConfigurationErrorTitle" text="Памылка канфігурацыі ўраду гаспадарства" />
+    <string id="BEKingdomGovernmentConfigurationErrorBody" text="Burning Empires адключыў у гэтым сэансе новыя функцыі ўраду, прапановаў дзяржаўнай рэлігіі, выбару рэлігіі пры заснаваньні гаспадарства гульцом і зьмены веры, бо ня змог выкарыстаць BEData/{FILE}. Наяўныя захаваныя зьвесткі пра рэлігію гаспадарстваў і герояў ня зьмененыя.&#xA;&#xA;Што здарылася:&#xA;{REASON}&#xA;&#xA;Як выправіць:&#xA;Выпраўце BE ModuleData Source Files/BEData/{FILE}, а затым выканайце validate, dry-run і pack у BE ModuleData Builder перад перазапускам гульні." />
+    <string id="BERebelKingdomErrorTitle" text="Не ўдалося заснаваць паўстанцкае гаспадарства" />
+    <string id="BERebelKingdomErrorBody" text="{REASON}" />
+    <string id="aKaGaOQx" text="Клан {CLAN_LEADER.NAME}{.o}" />
+    <string id="BEStateCultureDecisionTitle" text="Зьмяніць асноўную культуру" />
+    <string id="BEStateCultureDecisionSupportTitle" text="Галасаваньне за асноўную культуру" />
+    <string id="BEStateCultureDecisionChooseTitle" text="Вызначыць вынік галасаваньня за асноўную культуру" />
+    <string id="BEStateCultureDecisionSupportDescription" text="{PROPOSER} прапануе, каб гаспадарства {KINGDOM} прыняло {CULTURE} як асноўную культуру. Шляхетныя кланы гаспадарства прагаласуюць за прапанову." />
+    <string id="BEStateCultureDecisionChooseDescription" text="Шляхта разгледзела прыняцьце {CULTURE} як асноўнай культуры. Як гаспадар, вы можаце падтрымаць вынік галасаваньня або заплаціць звычайную цану гаспадарскага ўплыву, каб выбраць іншае рашэньне." />
+    <string id="BEStateCultureDecisionSecondaryEffects" text="Ухваленая культура адразу становіцца афіцыйнай асноўнай культурай гаспадарства." />
+    <string id="BEStateCultureDecisionRejected" text="Гаспадарства {KINGDOM} захавала сваю цяперашнюю асноўную культуру." />
+    <string id="BEStateCultureDecisionApproved" text="Гаспадарства {KINGDOM} прыняло {CULTURE} як сваю асноўную культуру." />
+    <string id="BEStateCultureDecisionReject" text="Адхіліць" />
+    <string id="BEStateCultureDecisionApprove" text="Ухваліць" />
+    <string id="BEStateCultureDecisionRejectDescription" text="Захаваць цяперашнюю асноўную культуру." />
+    <string id="BEStateCultureDecisionApproveDescription" text="Прыняць {CULTURE} як асноўную культуру." />
+    <string id="BEStateReligionDecisionTitle" text="Зьмяніць дзяржаўную рэлігію" />
+    <string id="BEStateReligionDecisionSupportTitle" text="Галасаваньне за дзяржаўную рэлігію" />
+    <string id="BEStateReligionDecisionChooseTitle" text="Вызначыць вынік галасаваньня за дзяржаўную рэлігію" />
+    <string id="BEStateReligionDecisionSupportDescription" text="{PROPOSER} прапануе, каб гаспадарства {KINGDOM} прыняло {RELIGION} як дзяржаўную рэлігію. Шляхетныя кланы гаспадарства прагаласуюць за прапанову." />
+    <string id="BEStateReligionDecisionChooseDescription" text="Шляхта разгледзела прыняцьце {RELIGION} як дзяржаўнай рэлігіі. Як гаспадар, вы можаце падтрымаць вынік галасаваньня або заплаціць звычайную цану гаспадарскага ўплыву, каб выбраць іншае рашэньне." />
+    <string id="BEStateReligionDecisionSecondaryEffects" text="Вернасьць і бясьпека селішчаў адразу пачнуць улічваць новую ўхваленую дзяржаўную рэлігію праз наяўную мадэль стабільнасьці насельніцтва." />
+    <string id="BEStateReligionDecisionRejected" text="Гаспадарства {KINGDOM} захавала сваю цяперашнюю дзяржаўную рэлігію." />
+    <string id="BEStateReligionDecisionApproved" text="Гаспадарства {KINGDOM} прыняло {RELIGION} як сваю дзяржаўную рэлігію." />
+    <string id="BEStateReligionDecisionReject" text="Адхіліць" />
+    <string id="BEStateReligionDecisionApprove" text="Ухваліць" />
+    <string id="BEStateReligionDecisionRejectDescription" text="Захаваць цяперашнюю дзяржаўную рэлігію." />
+    <string id="BEStateReligionDecisionApproveDescription" text="Прыняць {RELIGION} як дзяржаўную рэлігію." />
+    <string id="BEReligionGraecoRomanPaganism" text="Грэка-Рымскае Паганства" />
+    <string id="BEReligionNiceneChristianity" text="Нікейскае Хрысьціянства" />
+    <string id="BEReligionArianChristianity" text="Арыянскае Хрысьціянства" />
+    <string id="BEReligionDonatistChristianity" text="Данатысцкае Хрысьціянства" />
+    <string id="BEReligionGermanicPaganism" text="Германскае Паганства" />
+    <string id="BEReligionSlavicPaganism" text="Славянскае Паганства" />
+    <string id="BEReligionCelticPaganism" text="Кельцкае Паганства" />
+    <string id="BEReligionTengrism" text="Тэнгрыянства" />
+    <string id="BEReligionSarmatianShamanism" text="Сармацкі Шаманізм" />
+    <string id="BEReligionZoroastrianism" text="Зараастрызм" />
+    <string id="BEReligionBuddhism" text="Будызм" />
+    <string id="BEReligionBerberPaganism" text="Берберскае Паганства" />
+    <string id="BEReligionUgricPaganism" text="Вугорскае Паганства" />
+    <string id="BEReligionBalticPaganism" text="Балтыйскае Паганства" />
+    <string id="BEPopulationClassNobility" text="Шляхта" />
+    <string id="BEPopulationClassCitizens" text="Грамадзяне" />
+    <string id="BEPopulationClassFreemen" text="Вольныя" />
+    <string id="BEPopulationClassSlaves" text="Рабы" />
+    <string id="BEPopulationAgeChildren" text="Дзеці" />
+    <string id="BEPopulationAgeAdults" text="Дарослыя" />
+    <string id="BEPopulationAgeElders" text="Старыя" />
+    <string id="BEPopulationCompositionOther" text="Іншыя" />
+    <string id="BEEncyclopediaValueNone" text="Няма" />
+    <string id="BEHeroGroupReputationTitle" text="Рэпутацыя ў групах" />
+    <string id="BEHeroCulturalReputationTitle" text="Культурная рэпутацыя" />
+    <string id="BEHeroReligiousReputationTitle" text="Рэлігійная рэпутацыя" />
+    <string id="BEHeroGroupReputationLine" text="{NAME}: {VALUE}" />
+    <string id="BEKingdomPopulationReligionTitle" text="Насельніцтва й рэлігія" />
+    <string id="BEKingdomPopulationInformationTitle" text="Зьвесткі пра насельніцтва" />
+    <string id="BEKingdomPopulationNotInitialized" text="Зьвесткі пра насельніцтва й рэлігію не ініцыялізаваныя." />
+    <string id="BEKingdomStateReligionLine" text="Дзяржаўная рэлігія: {VALUE}" />
+    <string id="BEKingdomTotalPopulationLine" text="Агульнае насельніцтва: {VALUE}" />
+    <string id="BEKingdomCompositionLine" text="{NAME}: {COUNT} ({PERCENT}%)" />
+    <string id="BEEncyclopediaSettlementReligionSummary" text="Рэлігія: {RELIGION}" />
+    <string id="BEHeroReligionLabel" text="Рэлігія:" />
+    <string id="BESettlementInformationTitle" text="Зьвесткі пра селішча" />
+    <string id="BEPopulationInformationTitle" text="Зьвесткі пра насельніцтва" />
+    <string id="BEPopulationCapacityTitle" text="Умяшчальнасьць насельніцтва" />
+    <string id="BECivilizationSourcesLabel" text="Крыніцы цывілізацыі" />
+    <string id="BEInfrastructureSourcesLabel" text="Крыніцы ўмяшчальнасьці" />
+    <string id="BECulturalCompositionTitle" text="Культурны склад" />
+    <string id="BEReligiousCompositionTitle" text="Рэлігійны склад" />
+    <string id="BESocialClassesTitle" text="Сацыяльныя станы" />
+    <string id="BEExpectedClassMobilityTitle" text="Чаканая сацыяльная мабільнасьць" />
+    <string id="BEClassMobilityLastUpdateTitle" text="Апошняе абнаўленьне" />
+    <string id="BEClassMobilityNextThirtyDaysTitle" text="Наступныя 30 дзён" />
+    <string id="BEClassMobilityTargetSharesTitle" text="Мэтавыя долі станаў" />
+    <string id="BEClassMobilityInfluencingFactorsTitle" text="Чыньнікі ўплыву" />
+    <string id="BEClassMobilityAnnualLimitsTitle" text="Гадавыя межы пераходаў" />
+    <string id="BEClassMobilityCarryOverTitle" text="Перанос дробавых рэшткаў" />
+    <string id="BEAgeGroupsTitle" text="Узроставыя групы" />
+    <string id="BESettlementInformationNotInitialized" text="Зьвесткі пра насельніцтва й рэлігію не ініцыялізаваныя." />
+    <string id="BESettlementTotalPopulationLine" text="Агульнае насельніцтва: {POPULATION}" />
+    <string id="BESettlementCurrentCultureLine" text="Цяперашняя культура: {CULTURE}" />
+    <string id="BESettlementCurrentReligionLine" text="Цяперашняя рэлігія: {RELIGION}" />
+    <string id="BESettlementDominantCultureLine" text="Пераважная культура: {CULTURE}" />
+    <string id="BESettlementDominantReligionLine" text="Пераважная рэлігія: {RELIGION}" />
+    <string id="BESettlementCultureConversionNone" text="Зьмена культуры: няма" />
+    <string id="BESettlementCultureConversionLine" text="Зьмена культуры: {TARGET} ({PROGRESS}%)" />
+    <string id="BESettlementReligionConversionNone" text="Зьмена рэлігіі: няма" />
+    <string id="BESettlementReligionConversionLine" text="Зьмена рэлігіі: {TARGET} ({PROGRESS}%)" />
+    <string id="BESettlementPopulationCapLine" text="Мяжа насельніцтва: {CAPACITY}" />
+    <string id="BESettlementBaseCapacityLine" text="Базавая ўмяшчальнасьць: {CAPACITY}" />
+    <string id="BESettlementCivilizationLevelLine" text="Узровень цывілізацыі: {LEVEL} / 10" />
+    <string id="BESettlementCivilizationBonusLine" text="Бонус цывілізацыі: +{CAPACITY}" />
+    <string id="BESettlementInfrastructureBonusLine" text="Бонусы інфраструктуры: +{CAPACITY}" />
+    <string id="BEPopulationClassCompositionLine" text="{NAME}: {COUNT} ({PERCENT}%)" />
+    <string id="BEClassMobilityTargetShareLine" text="{NAME}: {PERCENT}%" />
+    <string id="BEClassMobilitySupportFormula" text="Інстытуцыйная падтрымка = цывілізацыя x 60% + бясьпека x 40%" />
+    <string id="BEClassMobilityCivilizationFactor" text="Складнік цывілізацыі: {PERCENT}%" />
+    <string id="BEClassMobilitySecurityFactor" text="Складнік бясьпекі: {PERCENT}%" />
+    <string id="BEClassMobilitySupportFactor" text="Інстытуцыйная падтрымка: {PERCENT}%" />
+    <string id="BEClassMobilityMultiplierLine" text="Налада сацыяльнай мабільнасьці: {MULTIPLIER}x" />
+    <string id="BESlavesToFreemenRateLine" text="З рабоў у вольныя: {PERCENT}%" />
+    <string id="BEFreemenToCitizensRateLine" text="З вольных у грамадзяне: {PERCENT}%" />
+    <string id="BECitizensToNobilityRateLine" text="З грамадзянаў у шляхту: {PERCENT}%" />
+    <string id="BEClassMobilityDownwardRule" text="Лішак вышэйшых станаў пераходзіць у ніжэйшы паводле адпаведнай хуткасьці пераходу паміж суседнімі станамі з улікам слабой інстытуцыйнай падтрымкі." />
+    <string id="BEClassMobilityRemainderLine" text="{NAME}: {BEFORE} -&gt; {AFTER}" />
+    <string id="BESettlementCultureConversionHidden" text="Зьмена культуры: {VALUE}" />
+    <string id="BESettlementReligionConversionHidden" text="Зьмена рэлігіі: {VALUE}" />
+    <string id="BESettlementCivilizationLevelHidden" text="Узровень цывілізацыі: {VALUE}" />
+    <string id="BESettlementCivilizationBonusHidden" text="Бонус цывілізацыі: {VALUE}" />
+    <string id="BESettlementInfrastructureBonusHidden" text="Бонусы інфраструктуры: {VALUE}" />
+    <string id="BEPopulationCompositionLine" text="{NAME}: {COUNT} ({PERCENT}%)" />
+    <string id="BECivilizationContributionLine" text="{NAME}: +{VALUE}" />
+    <string id="BECivilizationContributionLevelLine" text="{NAME} (узровень {LEVEL}): +{VALUE}" />
+    <string id="BEInfrastructureContributionLine" text="{NAME}: +{VALUE}" />
+    <string id="BEInfrastructureContributionLevelLine" text="{NAME} (узровень {LEVEL}): +{VALUE}" />
+    <string id="BELastClassMobilityLine" text="{NAME}: {VALUE}" />
+    <string id="BEClassMobilityDirectionSlavesFreemen" text="З рабоў у вольныя" />
+    <string id="BEClassMobilityDirectionFreemenCitizens" text="З вольных у грамадзяне" />
+    <string id="BEClassMobilityDirectionCitizensNobility" text="З грамадзянаў у шляхту" />
+    <string id="BEClassMobilityDirectionNobilityCitizens" text="Са шляхты ў грамадзяне" />
+    <string id="BEClassMobilityDirectionCitizensFreemen" text="З грамадзянаў у вольныя" />
+    <string id="BECustomBattleConfigurationErrorTitle" text="Памылка канфігурацыі ўласнай бітвы" />
+    <string id="BECustomBattleConfigurationErrorBody" text="Немагчыма пачаць уласную бітву, бо яе сьпіс ваяроў, які падтрымліваецца ўручную, непрыдатны: {REASON}&#xA;&#xA;Выпраўце BE ModuleData Source Files/CustomBattle/be_custom_battle_roster.xml, выканайце ў Builder каманды validate, dry-run і pack, а затым перазапусьціце гульню." />
+    <string id="BECustomBattleRuntimeErrorTitle" text="Памылка падчас уласнай бітвы" />
+    <string id="BECustomBattleRuntimeErrorBody" text="Уласная бітва ня здолела выканаць запытанае дзеяньне: {REASON}&#xA;&#xA;Вярніцеся ў мэню ўласнай бітвы й паспрабуйце зноў. Калі праблема паўторыцца, перазапусьціце гульню." />
+    <string id="BEArmorCraftingNoArtisans" text="Рамесьнікі не прызначаныя" />
+    <string id="BEArmorCraftingWipDetails" text="{ITEM}&#xA;Прагрэс: {PROGRESS}%&#xA;Засталося працоўных гадзінаў: {HOURS}&#xA;Пачата ў: {TOWN}&#xA;Рамесьнікі: {ARTISANS}" />
+    <string id="BEArmorCraftingWorkStartedNotification" text="Выраб брані: {ITEM} — завершана на {PROGRESS}%." />
+    <string id="BEArmorCraftingHeroLeft" text="{HERO} больш ня можа працаваць над вырабам {ITEM} і пакінуў гэты праэкт брані." />
+    <string id="BEArmorCraftingUnknownHero" text="Рамесьнік" />
+    <string id="BEArmorCraftingReplacementTitle" text="Абраць Замену Рамесьнікам" />
+    <string id="BEArmorCraftingReplacementBody" text="Усе прызначаныя на выраб {ITEM} недаступныя. Абярыце аднаго ці некалькіх даступных герояў, каб працягнуць, або скасуйце, каб перапыніць праэкт." />
+    <string id="BEArmorCraftingContinue" text="Працягнуць" />
+    <string id="BEArmorCraftingCancel" text="Скасаваць" />
+    <string id="BEArmorCraftingInterruptedTitle" text="Выраб брані перапынены" />
+    <string id="BEArmorCraftingInterruptedBody" text="Замена ня выбраная. Праца над вырабам {ITEM} перапыненая; матэрыялы, прагрэс і незавершаны прадмет захаваныя." />
+    <string id="BEArmorCraftingUnfinishedTitle" text="Незавершаныя Праэкты Брані" />
+    <string id="BEArmorCraftingUnfinishedBody" text="У вас ёсьць незавершаныя праэкты брані. Жадаеце зараз заняцца імі?" />
+    <string id="BEArmorCraftingManage" text="Кіраваць Праэктамі" />
+    <string id="BEArmorCraftingSkip" text="Пакуль Прапусьціць" />
+    <string id="BEArmorCraftingNoProjectsTitle" text="Няма праэктаў брані" />
+    <string id="BEArmorCraftingNoProjectsBody" text="Няма праэктаў брані для кіраваньня." />
+    <string id="BEArmorCraftingChooseProject" text="Абярыце праэкт, каб працягнуць працу, перапрызначыць рамесьнікаў або адмовіцца ад яго." />
+    <string id="BEArmorCraftingSelect" text="Абраць" />
+    <string id="BEArmorCraftingReassign" text="Працягнуць / Перапрызначыць" />
+    <string id="BEArmorCraftingAbandon" text="Адмовіцца ад Праэкту" />
+    <string id="BEArmorCraftingProjectActions" text="Праэкт: {ITEM}" />
+    <string id="BEArmorCraftingProjectActionsBody" text="Абярыце «Працягнуць / Перапрызначыць», каб замяніць усю каманду адначасова, або «Адмовіцца ад Праэкту», каб зьнішчыць незавершаны выраб і вярнуць матэрыялы прапарцыйна астатняй працы." />
+    <string id="BEArmorCraftingReassignBody" text="Абярыце ўсю каманду. Ранейшае прызначэньне застанецца ў сіле, пакуль новае ня будзе пасьпяхова пацьверджанае." />
+    <string id="BEArmorCraftingConfirmTeam" text="Пацьвердзіць Каманду" />
+    <string id="BEArmorCraftingAbandonTitle" text="Адмовіцца ад вырабу {ITEM}?" />
+    <string id="BEArmorCraftingAbandonBody" text="Незавершаны прадмет будзе зьнішчаны. Вернецца толькі цэлая частка ад: укладзеныя матэрыялы × астатняя праца / уся праца." />
+    <string id="BEArmorCraftingAbandonConfirm" text="Адмовіцца ад праэкту" />
+    <string id="BEArmorCraftingTooltipState" text="Стан Праэкту" />
+    <string id="BEArmorCraftingTooltipProgress" text="Прагрэс" />
+    <string id="BEArmorCraftingTooltipRemaining" text="Засталося Працоўных Гадзінаў" />
+    <string id="BEArmorCraftingTooltipTown" text="Пачата ў" />
+    <string id="BEArmorCraftingTooltipArtisans" text="Рамесьнікі" />
+    <string id="BEArmorCraftingWipProtected" text="Гэты незавершаны выраб нельга прадаць, выкінуць, перадаць, надзець, ахвяраваць, зарэзаць ці пераплавіць." />
+    <string id="BEArmorCraftingAvailableItems" text="Даступныя прадметы:" />
+    <string id="BEArmorCraftingTier" text="Узровень {TIER}" />
+    <string id="BEArmorCraftingSkill" text="Выраб {SKILL}" />
+    <string id="BEArmorCraftingProjectDifficulty" text="Складанасьць: {DIFFICULTY}" />
+    <string id="BEArmorCraftingArmorTab" text="Браня" />
+    <string id="BEArmorCraftingForge" text="Выкаваць" />
+    <string id="BEArmorCraftingInvestment" text="Укладзеныя Матэрыялы" />
+    <string id="BEArmorCraftingInvestmentDescription" text="Абярыце 100%–200%. Больш матэрыялаў павялічвае шанец лепшага мадыфікатара; вынік не гарантаваны." />
+    <string id="BEArmorCraftingDifficulty" text="Складанасьць" />
+    <string id="BEArmorCraftingMaterials" text="Матэрыялы" />
+    <string id="BEArmorCraftingChooseCraftspeople" text="Выбраць рамесьнікаў" />
+    <string id="BEArmorCraftingSelectedSmithUnavailable" text="Абраны каваль больш недаступны для гэтага праэкту брані." />
+    <string id="BEArmorCraftingChooseCraftspeopleBody" text="{PRIMARY} вырабіць {ITEM}. Абярыце памочнікаў або пакіньце ўсе вочкі пустымі, каб {PRIMARY} працаваў самастойна. Матэрыялы расходуюцца пасьля пацьверджаньня. Праца ідзе толькі ў гарадах, з 09:00 да 20:00, пакуль мінае гульнявы час." />
+    <string id="BEArmorCraftingConfirmForge" text="Выкаваць" />
+    <string id="BEArmorCraftingStarted" text="Пачатая праца над вырабам {ITEM}." />
+    <string id="BEArmorCraftingHelmet" text="Шаломы" />
+    <string id="BEArmorCraftingBody" text="Нагрудная Браня" />
+    <string id="BEArmorCraftingHand" text="Пальчаткі й Наручы" />
+    <string id="BEArmorCraftingLeg" text="Боты й Нажная Браня" />
+    <string id="BEArmorCraftingShoulder" text="Плашчы й Накідкі" />
+    <string id="BEArmorCraftingHorse" text="Конная Браня" />
+    <string id="BEArmorCraftingCamel" text="Вярблюджы Панцыр" />
+    <string id="BEArmorCraftingElephant" text="Слановы Панцыр" />
+    <string id="BEArmorCraftingRequiredSkill" text="Патрэбны Выраб: {SKILL}" />
+    <string id="BEArmorCraftingCurrentSkill" text="Уменьне цяперашняга каваля: {SKILL}" />
+    <string id="BEArmorCraftingWorkHours" text="Базавая колькасьць працоўных гадзінаў: {HOURS}" />
+    <string id="BEArmorCraftingRecipe" text="Патрэбны Выраб: {SKILL} | Базавыя працоўныя гадзіны: {HOURS}&#xA;Матэрыялы: {MATERIALS}" />
+    <string id="BEArmorCraftingStartDisabledHint" text="Выберыце прадмет, падрыхтуйце ўсе патрэбныя матэрыялы й упэўніцеся, што ёсьць прыдатны рамесьнік." />
+    <string id="BEArmorCraftingStartHint" text="Пачаць гэты праэкт вырабу брані." />
+    <string id="BE_MountStaminaUiEnableFailedTitle" text="Трываласьць ездавай жывёлы недаступная" />
+    <string id="BE_MountStaminaUiEnableFailedBody" text="Трываласьць ездавай жывёлы адключаная для гэтай бітвы, бо не ўдалося зарэгістраваць яе панэль. Разьлік трываласьці й абмежаваньні хуткасьці не запушчаныя. Цалкам перазапусьціце гульню, праверце UIExtenderEx і GUI/PrefabExtensions/Mission/MountStaminaBar.xml, а затым паспрабуйце зноў. Тэхнічная памылка: {ERROR}" />
+    <string id="BE_MountStaminaUiDisableFailedTitle" text="Трываласьць ездавай жывёлы патрабуе перазапуску" />
+    <string id="BE_MountStaminaUiDisableFailedBody" text="Трываласьць ездавай жывёлы выключаная, але UIExtenderEx паведаміў пра памылку пры выдаленьні перахопнікаў яе панэлі. Новыя паводзіны Mission для трываласьці ездавай жывёлы не запушчаныя. Цалкам перазапусьціце гульню, перш чым правяраць адключаны стан. Тэхнічная памылка: {ERROR}" />
+    <string id="BEElephantExtensionErrorTitle" text="Не ўдалося запусьціць пашырэньне сланоў" />
+    <string id="BEElephantExtensionErrorBody" text="{REASON}" />
+    <string id="BESettlementSecurityContribution" text="Бясьпека" />
+    <string id="BEVillageHearthContribution" text="Дым" />
+    <string id="BEVillageHearthLevelContribution" text="Узровень дыму" />
+    <string id="BEVillageIrrigationContribution" text="Арашэньне" />
+    <string id="maEmutDP" text="Дарогі й сьцежкі" />
+    <string id="O4cknzhW" text="Арашэньне" />
+    <string id="BEChampionDataErrorTitle" text="Не ўдалося загрузіць зьвесткі пра чэмпіёна" />
+    <string id="BEChampionDataErrorBody" text="Стварэньне чэмпіёна адключанае празь непрыдатныя зьвесткі: {REASON}" />
+    <string id="HLI5zAMV" text="У гарадах пад уладай батанійскіх гаспадароў шанец зьяўленьня вэтэранаў у рушэньні вышэйшы на +20%." />
+    <string id="Xaw2CoCG" text="На 25% большая вытворчасьць коней, мулаў, кароваў і авечак у вёсках пад уладай хузаіцкіх гаспадароў." />
+    <string id="BERenameSettlementEmpty" text="Увядзіце назву селішча." />
+    <string id="BEPlayerSlaveFiefOption" text="{SETTLEMENT} (засталося ўмяшчальнасьці: {CAPACITY})" />
+    <string id="BEQuestTemplateDuelLostRetry" text="Вы прайгралі двубой. Можаце паспрабаваць зноў праз мэню арэны." />
+    <string id="BEHistoricalPreviewConfigIssueLine" text="Поле ці вочка: {FIELD}&#xA;Зададзены ID аб'екта: {OBJECT_ID}&#xA;Ужытая замена: {FALLBACK}" />
+    <string id="BEArmorCraftingAssignedProjectHint" text="Прызначаны на праэкт брані: {ITEM}" />
+  </strings>
+</base>
